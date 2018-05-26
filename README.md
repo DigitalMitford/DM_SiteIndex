@@ -1,2 +1,2 @@
 # siteIndex
-a repository for development of our prosopography "site index" file
+a repository for development of the prosopography "site index" file serving <http://digitalmitford.org>. 
