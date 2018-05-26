@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index: Additions Template, for Adding and Updating Named Entities in the
+               Digital Mitford Archive</title>
+            <author>Digital Mitford Editors</author>
+            <editor><!--Add your name here! And add an @ref attribute to <editor>, pointing to your xml:id in the si.xml-->
+            </editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Data extraction and compiling by</resp>
+               <persName type="hist" ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName><!--Add your name here and place an @ref attribute, if you're proofing and correcting existing entries.--></persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Information on named entities in this file has been extracted from files in the
+               Digital Mitford Archive.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+
+         <div type="historical_people">
+
+            <listPerson sortKey="histPersons">
+               <person xml:id="whatever3">
+                  <persName>
+                     <surname type="married"/> <!--LMW;  prefer type="paternal" to "maiden" -->
+                     <forename/>
+                     <forename/>
+                     <roleName></roleName>
+                     <ref target="http://viaf-or-other-reference"/>
+                  </persName>
+                  <persName/>
+                  <birth when="1800-01-16"><placeName><!--where born?--></placeName></birth>
+                  <death when="1870-01-16"><placeName><!--where died?--></placeName></death>
+                  
+                  <!-- OCCUPATION TAGS IN PLAY  -->
+                  <!-- General principles:  Use the correct 19th c. term where appropriate. Stick to the standard/common terms used in other reference works (WorldCat/VIAF/encyclopedias and Wikipedia). Use a general category and a more specific occupation when possible (ie, use "literary" and "journalist" and do not use "journalism"). Put specific JOB TITLES under roleName, not under occupation. Avoid getting too specific and use a single word whenever possible (ie, use painter, not portrait painter; use patron, not art patron or patron of the arts; one exception to the one word rule is "theater manager"). Avoid diminuative forms: ie, use actor, not actress. -->
+                  
+                  <!-- INCONSISTENCIES and ONE-OFFS to consider correcting:
+                  Jurist: use legal? Do we need as separate from judge and magistrate?
+                  journalism: use literary and journalist
+                  writer/author:  use literary and additional tags for genres
+                  scientist: use naturalist or appropriate field name (ie, chemist)
+                  botanist/ornithologist: can we put these under naturalist?
+                  museum curator: can we put under antiquarian?
+                  diplomat/ambassador: could we put both under diplomat, and list the ambassadorial title under roleName?
+                  gambler: is this a profession? I think in the Regency it was, in a way.
+                  religion: use clergy
+                  clergyman: use clergy
+                  warrior: use military and appropriate roleName for military title
+                  academic: use educator or scholar or both
+                  banking: use banker
+                  king/queen: use monarch
+                  princess/nobility/aristocracy: use courtier
+                  doctor: use medical and correct term
+                  senator: use politician plus title
+                  amateur painter: use artist and painter
+                  court historian: use historian
+                  art collector:  use patron?
+                  portrait painter, history painter: use painter
+                  draftsman: use artist? (I don't like draftsperson.)
+                  theater patron/literary patron/arts patron/patron of the arts: use patron
+                  pioneer: use explorer or traveller
+                  agricultural experimenter: use inventor or agronomist
+                  shopkeeper: use merchant
+                  political reformer: use reformer
+                  songwriter/lyricist/librettist: use musician and composer
+                  theatrical production designer: use production designer and theater
+                  republican/rebel/condottiero: use politician or government?
+                  civil servant: use government or administrator or clerk
+                  assassin/regicide/prisoner of war: put in the note and not under occupation. Could tag regicides of Charles I with orgName or event
+                  -->
+                  
+                  <!-- Issues of categorizing and what we might want to do with the data:
+                  There seems to be no way to add a type="trades" or anything similar that would designate a social class, to the <occupation> tag directly.
+                  From the TEI guidelines it appeared that we would need to set a schema that might categorize those, or we could continue to do what we've been doing and just add a more general <occupation> tag to the specific one.  ie, use <occupation>working class<occupation> <occupation>trades<occupation> <occupation>blacksmith</occupation>.
+                  
+                  Some categories to consider, not currently in use: TRADES, SERVICE, THEATER, EDUCATION (although we've used EDUCATOR). 
+                  
+                  Possible occupation to add:  housekeeper or keeping house (even for those women not professional servants): this is a census category in the 19th c., when censuses start collecting "occupation" data. ie, capture invisible labor categories.
+                  
+                  What not to do: I don't think that we should use a social class designator, like aristocrat or royalty or landed gentry, should be used as an "occupation." These are more readily and accurately captured under the people's <roleName>, and really comprise a number of occupations, depending on the individual. ie, government, courtier, legal (magistracy), philanthropy, farming, literary, artist . . . . 
+                  
+                  
+                  -->
+                  
+                  <!-- ART & ARCHITECTURE OCCUPATIONS use "artist" plus any of these: -->
+                  <occupation>artist</occupation>
+                     <occupation>painter</occupation> <!-- designate type of painter, if appropriate, in the <note>, not here.  Ie, don't use <occupation>portrait painter</occupation> -->
+                     <occupation>printmaker</occupation>
+                     <occupation>engraver</occupation>
+                     <occupation>sculptor</occupation>
+                     <occupation>architect</occupation>
+                     <occupation>garden designer</occupation>
+                     <occupation>illustrator</occupation>
+                  
+                  <!-- BOOK TRADES OCCUPATIONS-->
+                  <occupation>publisher</occupation>
+                  <occupation>printer</occupation><!-- Do not use for art printing (use printmaker, engraver, etc.) -->
+                  <occupation>bookseller</occupation>
+                  
+                  <!-- CLERGY AND RELIGIOUS OCCUPATIONS, Christian and non-Christian -->
+                     <occupation>clergy</occupation>
+                     <occupation>prophet</occupation>
+                     <occupation>vicar</occupation><!-- Vicar and curate are the correct term within the C of E; dissenters may use minister; if you are not sure of the correct term, use clergy. More specific titles go under roleName. (ie, Bishop of Dromore.) Thus far, we've mostly just used clergy for these.-->
+                     <occupation>curate</occupation>
+                     <occupation>minister</occupation>
+                     <occupation>priest</occupation><!-- Use for Catholic clergy as well as Greek/Roman clergy. Do not use priestess. -->
+                  
+                  <!-- EDUCATORS AND PUBLIC INTELLECTUALS For most people involved in higher education, use educator or scholar and then their title under roleName. (ie, Professor of Philosophy; Rector of the University of Edinburgh.-->
+                  <occupation>educator</occupation>
+                     <occupation>schoolmaster</occupation>
+                     <occupation>scholar</occupation><!-- can be used for adults and children whose primary task is to study. This is the term used in censuses. -->
+                     <occupation>librarian</occupation>
+                     <occupation>museum curator</occupation><!-- can often go under antiquarian -->
+                    
+                     <occupation>inventor</occupation>
+                     <occupation>antiquarian</occupation>
+                     <occupation>historian</occupation>
+                     <occupation>philosopher</occupation>
+                     <occupation>astronomer</occupation>
+                     <occupation>economist</occupation>
+                     <occupation>agronomist</occupation><!-- for those who study agriculture -->
+                     <occupation>naturalist</occupation><!-- prefer this term to scientist or biologist -->
+                     <occupation>chemist</occupation>
+                     <occupation>botanist</occupation>
+                     <occupation>ornithologist</occupation>
+                     <occupation>geologist</occupation>
+                  
+                  <!-- EXPLORATION, TRAVEL, EMPIRE BUILDING -->
+                  <occupation>traveller</occupation>
+                  <occupation>explorer</occupation>
+                   <occupation>navigator</occupation>
+                  <occupation>cartographer</occupation>
+                  <occupation>captain</occupation><!-- NON-military ship's captain -->
+                  
+                  <!-- LEGAL OCCUPATIONS: use "legal" plus any of these: Put specific titles under <roleName></roleName> ie, "Recorder for Totnes" Don't use "lawyer" unless the person is actually an American.-->
+                  <occupation>legal</occupation>
+                     <occupation>barrister</occupation><!-- British lawyers who can plead in court -->
+                     <occupation>solicitor</occupation><!-- Most other categories of British lawyer  -->
+                     <occupation>magistrate</occupation>
+                     <occupation>judge</occupation>
+                  
+                  <!-- LITERARY OCCUPATIONS: use "literary" plus any of these: -->
+                  <occupation>literary</occupation><!--Do not use writer or author -->
+                     <occupation>novelist</occupation>
+                     <occupation>poet</occupation>
+                     <occupation>playwright</occupation>
+                     <occupation>essayist</occupation><!-- use for any nonfiction writing NOT for the periodical press, or later collected in short form -->
+                     <occupation>journalist</occupation><!-- use for any nonfiction writing for the periodical press -->
+                     <occupation>editor</occupation><!-- for any newspaper or periodical or book editing -->
+                     <occupation>biographer</occupation><!-- use for all published biographical life writing; ie, about someone else -->
+                     <occupation>memoirist</occupation><!-- use for all published autobiographical life writing; ie, about the author -->
+                     <occupation>diarist</occupation><!-- use for UNPUBLISHED AT THE TIME autobiographical life writing; ie, Dorothy Wordsworth's journals or diaries -->
+                     <occupation>critic</occupation><!-- Use for literary, theatre or art criticism, essays or reviews -->
+                     <occupation>lexicographer</occupation>
+                     <occupation>linguist</occupation><!-- use for someone who systmetically studies languages, not just translates. -->
+                     <occupation>translator</occupation>
+                  
+                  <!-- MEDICAL OCCUPATIONS: use "medical" plus any of these: These terms are used in conjunction throughout the 19th c., so use more than one if necessary or if it's unclear, just use "medical" (ie, use "apothecary" and "surgeon" for someone listed in a directory as an apothecary-surgeon. Don't use "doctor" here; put such titles under roleName.-->
+                  <occupation>medical</occupation> <!-- ebb 2017-06-26 I want to write a Schematron rule for this that says, if you are going to use a specialist catgegory for medical, you MUST have a preceding-sibling that indicates the broad category medical first. We may have others like this.-->
+                     <occupation>physician</occupation>
+                     <occupation>surgeon</occupation>
+                     <occupation>apothecary</occupation>
+                     <occupation>midwife</occupation><!-- or accoucheur -->
+                     <occupation>oculist</occupation>
+                  
+                  <!-- MILITARY OCCUPATIONS: use "military" plus any of these: Most specific military titles belong under roleName (ie, General, Captain, Colonel, Commander).-->
+                     <occupation>military</occupation>
+                        <occupation>army officer</occupation>
+                        <occupation>naval officer</occupation>
+                  
+                  <!-- PATRONAGE AND PHILANTHROPY -->
+                     <occupation>philanthropist</occupation><!-- use for philanthropic activities other than for the arts -->
+                     <occupation>patron</occupation><!-- use for arts, theatre, and literary patronage -->
+                  
+                  <!-- POLITICAL & GOVERNMENT OCCUPATIONS: Use use "government" plus any of these:-->
+                  <occupation>politician</occupation><!-- Use for elected officials and those running for election or who are in office by reason of political party or affiliation. Put their TITLE under <roleName></roleName>; ie, Member of Parliament for Westminster. -->
+                  <occupation>orator</occupation><!-- Mostly use for political or reformist orators who are NOT clergy or actors -->
+                  <occupation>reformer</occupation><!-- any public advocate for political or social reform -->
+                  
+                  <occupation>government</occupation><!-- Use for anyone with a governing role, whether inherited or elected or appointed. -->
+                     <occupation>monarch</occupation><!-- do not use king, queen, princess; put those titles under <roleName> instead -->
+                     <occupation>courtier</occupation><!-- use for aristocracy and others whose job is to serve at court in some capacity. -->
+                     <occupation>diplomat</occupation>
+                     <occupation>ambassador</occupation><!-- In some cases, this occupation is also a roleName. ie, Ambassador to the Court of St. James.-->
+                     <occupation>administrator</occupation><!-- Use for management positions, upper civil service positions within the British empire, etc. Lower positions may go under "clerk." "Civil servant" and bureaucrat are dispreferred.-->
+                     <occupation>tax collector</occupation>
+                     <occupation>postmaster</occupation>
+                  
+                  <!-- SERVICE OCCUPATIONS: Use "service" plus any of these: THus far, we've mostly used servant for all of these.-->
+                     <occupation>service</occupation>
+                        <occupation>servant</occupation>
+                        <occupation>butler</occupation>
+                        <occupation>maid</occupation>
+                        <occupation>footman</occupation>
+                        <occupation>cook</occupation>
+                        <occupation>housekeeper</occupation>
+                  
+                  <!-- THEATER AND MUSIC OCCUPATIONS: Use "theater" plus any of these:-->
+                  <occupation>theater</occupation>
+                     <occupation>actor</occupation><!-- Use for both sexes; do not use "actress" -->
+                     <occupation>theater manager</occupation>
+                     <occupation>production designer</occupation>
+                     <occupation>playwright</occupation>
+                     <occupation>musician</occupation>
+                     <occupation>singer</occupation>
+                     <occupation>composer</occupation><!-- Use for instrumental and vocal composers (ie, lyricists and librettists) -->
+                  
+                  <!-- TRADES, MERCHANTS, and AGRICULTURE-->
+                     <occupation>trades</occupation>
+                        <occupation>baker</occupation>
+                        <occupation>bricklayer</occupation>
+                        <occupation>wheelwright</occupation>
+                        <occupation>carpenter</occupation>
+                        <occupation>watchmaker</occupation>
+                        <occupation>miller</occupation>
+                        <occupation>goldsmith</occupation>
+                        <occupation>jeweller</occupation>
+                        <occupation>saddler</occupation>
+                        <occupation>bootmaker</occupation>
+                        <occupation>blacksmith</occupation>
+                        <occupation>innkeeper</occupation>
+                  
+                  <occupation>merchant</occupation><!-- prefer merchant to shopkeeper -->
+                  <occupation>clerk</occupation>
+                  <occupation>banker</occupation><!-- prefer to banking -->
+                  <occupation>stockbroker</occupation>
+                  <occupation>auctioneer</occupation>
+                  <occupation>gambler</occupation>
+                  
+                  <occupation>farmer</occupation>
+                  
+                  
+
+               </person>
+            </listPerson>
+         </div>
+         
+      </body>
+   </text>
+</TEI>
