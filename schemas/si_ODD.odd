@@ -64,24 +64,24 @@
                <constraint>
                   <sch:rule context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]">
                      <sch:let name="currentNode" value="."/>
-                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:*[@xml:id][not(self::* eq $currentNode/ancestor::*[1][@xml:id])]][*[not(self::note) and not(self::birth) and not (self::death)][contains(string(), $currentNode)]]/@xml:id"/>
+                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:*[@xml:id][not(self::* eq $currentNode/ancestor::*[1][@xml:id])]][*[not(self::tei:note) and not(self::tei:birth) and not (self::tei:death)][contains(string(), $currentNode)]]/@xml:id"/>
                      <sch:report test="$matchingEntry" role="info">
                         This element (coded in a note) is missing an @ref attribute but may have a matching entry in the Site Index: Could it be this (or one of these)? <sch:value-of select="string-join($matchingEntry, ', ')"/>.
                      </sch:report>  
                   </sch:rule>
                </constraint>
             </constraintSpec>
-            <constraintSpec scheme="schematron" ident="correspReq">
+          <!-- 2018-08-11 ebb: NOT WORKING! DEBUG. <constraintSpec scheme="schematron" ident="correspReq">
                <constraint>
                   <sch:rule context="tei:note//tei:bibl[not(@corresp)]">
                      <sch:let name="currentNode" value="."/>
-                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:listBibl/tei:bibl[@xml:id][not(self::* eq $currentNode/ancestor::bibl[1][@xml:id])]][*[not(self::note)][contains(string(), $currentNode)]]/@xml:id"/>
+                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:listBibl/tei:bibl[@xml:id][not(self::* eq $currentNode/ancestor::tei:bibl[1][@xml:id])]][*[not(self::tei:note)][contains(string(), $currentNode)]]/@xml:id"/>
                      <sch:assert test="@corresp">
                         The current bibl element (coded in a note) lacks an @corresp attribute, but may have a matching entry in the Site Index: Could it be this (or one of these)? <sch:value-of select="string-join($matchingEntry, ', ')"/>.  
                      </sch:assert>  
                   </sch:rule>
                </constraint>
-            </constraintSpec>
+            </constraintSpec>-->
             <constraintSpec scheme="schematron" ident="hashtaggery">
                <constraint>
                   <sch:rule context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit">
