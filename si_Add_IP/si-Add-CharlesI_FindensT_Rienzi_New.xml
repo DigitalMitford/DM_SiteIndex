@@ -90,14 +90,29 @@
              
              <org xml:id="Parliamentarians">
                 <orgName>Parlimentarians</orgName>
-                <note resp="#lmw">Supporters of <persName ref="#Cromwell">Cromwell</persName> and the parliamentary cause in the <rs type="event" ref="#EngCivilWar">English Civil War</rs>. Also called English Republicans or Roundheads.</note>
+                <note resp="#lmw">Supporters of <persName ref="#Cromwell">Cromwell</persName> and the parliamentary cause in the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>. Also called English Republicans or Roundheads.</note>
              </org>
              
-             <!--LMW to RN: also add entry for Royalists/Cavaliers? -->
+             <org xml:id="regicides">
+                <orgName>Regicides</orgName>
+                <note resp="#rnes">The Commissioners of the trial of <persName ref="#ChasI">Charles I</persName> who signed his death warrant on <date when="1649-01-29">January 29, 1649</date>.</note>
+             </org>
+             
+             <org xml:id="Lancastrians">
+                <orgName>Lancastrians</orgName>
+                <note resp="#rnes #lmw">The House of Lancaster, which had as its insignia the Red Rose, fought the Wars of the Roses with the House of York (the "White Rose"). Both houses became extinct with the marriage of the Lancastrian Henry VII and Elizabeth of York, although rumors persisted of rightful claimants to the throne persisted well into the nineteenth century.<!--RN: because there was an outbreak of Perkin Warbeck conspiracy theorizing among 19th century writers, including Mary Shelley (writing about it in 1830) and Ann Yearsley.-->
+                </note>
+             </org>
+       
+             <org xml:id="Royalists">
+                <orgName>Royalists</orgName>
+                <orgName><addName>Cavaliers</addName></orgName>
+                <note resp="#lmw">Supporters of <persName ref="#ChasI">Charles I</persName> and the Crown in the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>. Also called Cavaliers, originally a perjorative term invented by the <orgName ref="#Parliamentarians">Parliamentarians</orgName> but later embraced by the Royalists themselves.</note>
+             </org>
              
              <org xml:id="Puritans">
                 <orgName>Puritans</orgName>
-                <note resp="#rnes #lmw">Began in the 16th century as an anti-Catholic reform movement within the Church of England, some of whose members emigrated to the Netherlands, Ireland, and Scotland, and later to America. Puritans were not a single religious sect with a unified theological or political viewpoint. In the early 17th century, they allied themselves with Scottish Presbyterians and with English parliament members who opposed the royal perogative. They came to power after the first English Civil War and the majority of Puritan clergy left the Church of England after the Restoration to practice as nonconformists/dissenters.</note>
+                <note resp="#rnes #lmw">Began in the 16th century as members of an anti-Catholic reform movement within the Church of England, some of whose members emigrated to the Netherlands, Ireland, and Scotland, and later to America. Puritans were not a single religious sect with a unified theological or political viewpoint. In the early 17th century, they allied themselves with Scottish Presbyterians and with English parliament members who opposed the royal perogative. They came to power after the first English Civil War and the majority of Puritan clergy left the Church of England after the Restoration to practice as nonconformists/dissenters.</note>
              </org>
              
              <org xml:id="Jacobites">
