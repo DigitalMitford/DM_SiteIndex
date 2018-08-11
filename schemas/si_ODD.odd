@@ -100,6 +100,74 @@
                   </sch:rule>
                </constraint>
             </constraintSpec>
+            <!--sortKey on SI list elements -->
+<elementSpec ident="listPerson" module="namesdates" mode="change">
+   <attList>
+      <attDef ident="sortKey" mode="replace" usage="req">
+         <valList type="closed">
+            <valItem ident="Mitford_Team"/>
+            <valItem ident="Past_Assistants"/>
+            <valItem ident="Past_Editors"/>
+            <valItem ident="histPersons"/>
+            <valItem ident="archPersons"/>
+            <valItem ident="fictPersons"/>
+         </valList>
+      </attDef>
+   </attList>
+</elementSpec>
+<elementSpec ident="listPlace" module="namesdates" mode="change">
+     <attList>
+         <attDef ident="sortKey" mode="replace" usage="req">
+             <valList type="closed">
+                 <valItem ident="histPlaces"/>
+                 <valItem ident="fictPlaces"/>
+              </valList>
+           </attDef>
+       </attList>
+</elementSpec>
+            <elementSpec ident="listOrg" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="histOrgs"/>
+                        <valItem ident="fictOrgs"/>
+                        <valItem ident="archOrgs"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="listEvent" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="histEvents"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="listBibl" module="core" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="book_MRM"/>
+                        <valItem ident="serial_MRM"/>
+                        <valItem ident="schol"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec> 
+            <elementSpec ident="list" module="core" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="plants"/>
+                        <valItem ident="animals"/>
+                        <valItem ident="art"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec> 
+            
             <!--sex codes on person element: m, f, m f, and u -->           
             <elementSpec ident="person" module="namesdates" mode="change">
                <attList>
@@ -424,11 +492,10 @@
                         value=" for $i in tokenize(@subtype, '\s+') return $i"/>
                      <sch:assert
                         test="every $subtype in $subtypes satisfies $subtype = $tradeSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$tradeSubtypes"/></sch:assert>
-                  </sch:rule>
-                  
+                  </sch:rule>  
                </sch:pattern>
             </constraint>
-         </constraintSpec>
+         </constraintSpec>       
       </body>
   </text>
 </TEI>
