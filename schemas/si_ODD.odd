@@ -8,16 +8,7 @@
    xmlns:rng="http://relaxng.org/ns/structure/1.0"
    version="2.9.1"
    xml:lang="en">
-   <!-- 2018-08-08 ebb: The full ODD file is mitfordODD.odd.
-      To make/edit/update the complete ODD: 
-      * Make any necessary edits to the document model (element modules from the TEI, general constraints, anything except Site Index updates) in the mitfordEditable.odd file.
-      * If updating the ODD because of new site index updates, 
-            1) be sure the new SI is posted at http://digitalmitford.org/si.xml. 
-            2) Generate elementSpecs for new named entity markup (persons, places, titles, etc) with attribute values for @ref and @corresp 
-      by running si-to-ODD.xsl over the current si.xml stored at http://digitalmitford.org/si.xml.
-     * Finally generate the full ODD file by running mitfordODD-Combiner.xsl on mitfordEditable.odd, which pulls in site index data stored in MRMProsopREf.odd. 
-     Save the output as mitfordODD.odd
-     * "Run the wrench" in oXygen to generate the new Relax-NG XML-syntax project schema and HTML documentation for the project.
+   <!-- 2018-08-11 ebb: * "Run the wrench" in oXygen to generate the new Relax-NG XML-syntax project schema and HTML documentation for the project SI files.
   -->
    <teiHeader>
       <fileDesc>
@@ -73,24 +64,24 @@
                <constraint>
                   <sch:rule context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]">
                      <sch:let name="currentNode" value="."/>
-                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:*[@xml:id][not(self::* eq $currentNode/ancestor::*[1][@xml:id])]][*[not(self::note) and not(self::birth) and not (self::death)][contains(string(), $currentNode)]]/@xml:id"/>
+                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:*[@xml:id][not(self::* eq $currentNode/ancestor::*[1][@xml:id])]][*[not(self::tei:note) and not(self::tei:birth) and not (self::tei:death)][contains(string(), $currentNode)]]/@xml:id"/>
                      <sch:report test="$matchingEntry" role="info">
                         This element (coded in a note) is missing an @ref attribute but may have a matching entry in the Site Index: Could it be this (or one of these)? <sch:value-of select="string-join($matchingEntry, ', ')"/>.
                      </sch:report>  
                   </sch:rule>
                </constraint>
             </constraintSpec>
-            <constraintSpec scheme="schematron" ident="correspReq">
+          <!-- 2018-08-11 ebb: NOT WORKING! DEBUG. <constraintSpec scheme="schematron" ident="correspReq">
                <constraint>
                   <sch:rule context="tei:note//tei:bibl[not(@corresp)]">
                      <sch:let name="currentNode" value="."/>
-                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:listBibl/tei:bibl[@xml:id][not(self::* eq $currentNode/ancestor::bibl[1][@xml:id])]][*[not(self::note)][contains(string(), $currentNode)]]/@xml:id"/>
+                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:listBibl/tei:bibl[@xml:id][not(self::* eq $currentNode/ancestor::tei:bibl[1][@xml:id])]][*[not(self::tei:note)][contains(string(), $currentNode)]]/@xml:id"/>
                      <sch:assert test="@corresp">
                         The current bibl element (coded in a note) lacks an @corresp attribute, but may have a matching entry in the Site Index: Could it be this (or one of these)? <sch:value-of select="string-join($matchingEntry, ', ')"/>.  
                      </sch:assert>  
                   </sch:rule>
                </constraint>
-            </constraintSpec>
+            </constraintSpec>-->
             <constraintSpec scheme="schematron" ident="hashtaggery">
                <constraint>
                   <sch:rule context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit">
@@ -100,6 +91,74 @@
                   </sch:rule>
                </constraint>
             </constraintSpec>
+            <!--sortKey on SI list elements -->
+<elementSpec ident="listPerson" module="namesdates" mode="change">
+   <attList>
+      <attDef ident="sortKey" mode="replace" usage="req">
+         <valList type="closed">
+            <valItem ident="Mitford_Team"/>
+            <valItem ident="Past_Assistants"/>
+            <valItem ident="Past_Editors"/>
+            <valItem ident="histPersons"/>
+            <valItem ident="archPersons"/>
+            <valItem ident="fictPersons"/>
+         </valList>
+      </attDef>
+   </attList>
+</elementSpec>
+<elementSpec ident="listPlace" module="namesdates" mode="change">
+     <attList>
+         <attDef ident="sortKey" mode="replace" usage="req">
+             <valList type="closed">
+                 <valItem ident="histPlaces"/>
+                 <valItem ident="fictPlaces"/>
+              </valList>
+           </attDef>
+       </attList>
+</elementSpec>
+            <elementSpec ident="listOrg" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="histOrgs"/>
+                        <valItem ident="fictOrgs"/>
+                        <valItem ident="archOrgs"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="listEvent" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="histEvents"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="listBibl" module="core" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="book_MRM"/>
+                        <valItem ident="serial_MRM"/>
+                        <valItem ident="schol"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec> 
+            <elementSpec ident="list" module="core" mode="change">
+               <attList>
+                  <attDef ident="sortKey" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="plants"/>
+                        <valItem ident="animals"/>
+                        <valItem ident="art"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec> 
+            
             <!--sex codes on person element: m, f, m f, and u -->           
             <elementSpec ident="person" module="namesdates" mode="change">
                <attList>
@@ -113,6 +172,7 @@
                   </attDef>
                </attList>
             </elementSpec>
+            <!--Occupation coding -->
             <elementSpec ident="occupation" module="namesdates" mode="replace">
                <attList>
                   <attDef ident="type" mode="replace" usage="req">
@@ -300,6 +360,214 @@
                </attList>
             </elementSpec>
          </schemaSpec>
+         <!--Occupation coding: binding appropriate subtypes with types and permitting plural subtype values. -->
+         <constraintSpec scheme="schematron" ident="occupation">
+            <constraint>
+               <sch:pattern>
+                  <sch:let name="artistSubtypes"
+                     value="('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 'illustrator')"/>
+                  <sch:let name="bookProducerSubtypes"
+                     value="('publisher', 'printer', 'binder', 'bookseller')"/>
+                  <sch:let name="religiousSubtypes"
+                     value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest')"/>
+                  <sch:let name="educatorSubtypes"
+                     value="('teacher', 'schoolHead', 'governess', 'tutor')"/>
+                  <sch:let name="scholarSubtypes"
+                     value="('philosopher', 'naturalist', 'astronomer', 'curator', 'antiquarian', 'inventor', 'historian', 'economist', 'agronomist')"/>
+                  <sch:let name="explorerSubtypes"
+                     value="('traveller', 'navigator', 'cartographer', 'seaCaptain')"/>
+                  <sch:let name="legalSubtypes"
+                     value="('barrister', 'solicitor', 'lawyer', 'recorder', 'judge')"/>
+                  <sch:let name="literarySubtypes"
+                     value="('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 'translator')"/>
+                  <sch:let name="theaterSubtypes"
+                     value="('actor', 'singer', 'manager', 'owner', 'designer', 'musician', 'composer')"/>
+                  <sch:let name="medicalSubtypes"
+                     value="('physician', 'surgeon', 'apothecary', 'midwife', 'oculist')"/>
+                  <sch:let name="militarySubtypes"
+                     value="('army', 'navy')"/>
+                  <sch:let name="benefactorSubtypes"
+                     value="('philanthropist', 'patron')"/>
+                  <sch:let name="governmentSubtypes"
+                     value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post')"/>
+                  <sch:let name="serviceSubtypes"
+                     value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"/>
+                  <sch:let name="tradeSubtypes"
+                     value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
+                  <sch:rule context="tei:occupation[@type='artist'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $artistSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$artistSubtypes"/>.</sch:assert>
+               </sch:rule>
+                  <sch:rule context="tei:occupation[@type='bookProducer'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $bookProducerSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$bookProducerSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='religious'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $religiousSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$religiousSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='educator'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $educatorSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$educatorSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='scholar'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $scholarSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$scholarSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='explorer'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $explorerSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$explorerSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='legal'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $legalSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$legalSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='literary'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $literarySubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$literarySubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='theater'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $theaterSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$theaterSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='medical'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $medicalSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$medicalSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='military'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $militarySubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$militarySubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='benefactor'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $benefactorSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$benefactorSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='government'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $governmentSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$governmentSubtypes"/>.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='service'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $serviceSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$serviceSubtypes"/></sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:occupation[@type='trade'][@subtype]">
+                     <sch:let name="subtypes"
+                        value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                     <sch:assert
+                        test="every $subtype in $subtypes satisfies $subtype = $tradeSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$tradeSubtypes"/></sch:assert>
+                  </sch:rule>  
+               </sch:pattern>
+            </constraint>
+         </constraintSpec>   
+         
+<!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
+       <constraintSpec ident="SI_Guidance" scheme="schematron"><constraint>  <sch:pattern>
+            <sch:p>Identify note elements that are longer than [TOO LONG!] number of characters so exceeding the flow-length of our note box. (How long is this?) Raise a warning or an error that p breaks need to be added.
+               NOTE: WE NEED CORRESPONDING XSLT ALTERATION FOR NOTE BOXES TO READ 1st Paragraph ONLY.
+            </sch:p>
+         </sch:pattern>    
+         <sch:pattern>
+            <sch:p>Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. </sch:p>
+         </sch:pattern>
+         <sch:pattern>
+            <sch:p>Identify stub entries.</sch:p>
+            <sch:rule context="*[@xml:id]">
+               <sch:report test="count(child::* eq 1)" role="warning">Warning: stub element. We should flesh this out and add more information.</sch:report>
+            </sch:rule>
+         </sch:pattern>
+         <sch:pattern>
+            <sch:rule context="tei:person[descendant::tei:surname = //tei:surname[not(ancestor::tei:person = self::tei:person)]]">
+               <sch:let name="currentContext" value="."/>
+               <sch:let name="sharedSurname" value="//tei:person[not(. = $currentContext)][descendant::tei:surname = $currentContext/descendant::tei:surname]"/>
+               <sch:report test="descendant::tei:forename = $sharedSurname//tei:forename" role="warning">
+                  Warning! Is this a duplicate entry? The person represented in this entry shares a surname and a forename with one or more other entries: <sch:value-of select="string-join($sharedSurname[descendant::tei:forename = $currentContext//tei:forename]/@xml:id, ', ')"/>
+               </sch:report>
+            </sch:rule>
+         </sch:pattern>
+         <sch:pattern>
+            <sch:p>This rule [TO BE DEVELOPED] will test the plausibilty of birth dates in relation to death dates.</sch:p>
+         </sch:pattern>
+         <sch:pattern>
+            <sch:rule context="@sex">
+               <sch:report test="matches(., '[0-9,]')">
+                  We are no longer using the ISO numerical codes for sex, and this attribute may not contain commas. Change this code to a letter, one (or more) of the following approved values: m, f, m f, and u. If indicating multiple values, separate each with just a white space.
+               </sch:report>
+               
+            </sch:rule>
+            
+         </sch:pattern>
+         
+         
+         <sch:pattern>
+            <sch:rule context="tei:text//@xml:id">
+               <sch:report test="matches(., '\s+')">
+                  @xml:id values must not contain white spaces.
+               </sch:report>   
+               <sch:report test="starts-with(., '#')">
+                  @xml:id values must not begin with a hashtag.
+               </sch:report>
+            </sch:rule>
+         </sch:pattern>
+         
+         <sch:pattern>
+            <sch:rule context="tei:text//tei:div/*">
+               <sch:assert test="@sortKey = ('Mitford_Team', 'archives', 'Past_Assistants', 'Past_Editors', 'histOrgs', 'histPersons', 'fictOrgs', 'archOrgs', 'archPersons', 'fictPersons', 'histPlaces', 'fictPlaces', 'animals', 'plants', 'histEvents', 'art', 'ref_19thc', 'per_19thc', 'literary', 'MRM_Schol', 'other_current_Schol')">
+                  You must include an @sortKey on a list element, and it needs to be one of the legal values!
+               </sch:assert>
+            </sch:rule>
+         </sch:pattern>
+         <sch:pattern>
+            <sch:rule context="tei:TEI"> 
+               <sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])">
+                  There must not be any duplicate @sortkey values in the site index! 
+               </sch:assert>
+            </sch:rule>  
+         </sch:pattern>
+         <sch:pattern>
+            <!-- <sch:let name="si" value="doc('http://digitalmitford.org/si.xml')//@xml:id"/> -->
+            <sch:let name="si" value="doc('../si_Full_Staged/si-local.xml')//@xml:id"/>
+            <sch:let name="siAddcoll" value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/>
+            <sch:let name="siAll" value="($si, $siAddcoll)"/>
+            <sch:rule context="@ref | @corresp | @resp">
+               
+               <sch:let name="tokens" value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>
+               <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
+                  Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hasthtag, #) matches a defined @xml:id in the site index or siAdd files. 
+               </sch:assert>                
+            </sch:rule>
+         </sch:pattern>      
+       </constraint>
+       </constraintSpec>
+         
+         
       </body>
   </text>
 </TEI>
