@@ -64,7 +64,7 @@
                <!--LMW:  E., all fictPerson entries in this section are REVISED.-->
                <!--LMW to EBB: new entries for historical counterparts of fictional characters in Charles I are in the CHas I play file backlist.-->
                
-               <person xml:id="Alberti" sex="1">
+               <person xml:id="Alberti" sex="m">
                   <persName>Alberti</persName>
                   <persName>Alberti
                   <roleName>Captain</roleName></persName>
@@ -72,7 +72,7 @@
                   <note resp="#lmw">Alberti is a character in <title ref="#Rienzi">Rienzi</title>; Captain of the Guard. Played by <persName ref="#Thompson_Mr">Mr. Thompson</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                  
-               <person xml:id="Alice" sex="2">
+               <person xml:id="Alice" sex="f">
                   <persName>Alice</persName>
                   <note resp="#kdc">Possibly a deleted character in <persName ref="#MRM">Mitford</persName>'s
                      <title ref="#CharlesI_MRMplay">Charles I</title>. <persName ref="#coles">Coles</persName> identifies the undated fragment in which Alice appears as
@@ -82,26 +82,26 @@
                      of the play.</note>
                </person>
                
-               <person xml:id="Ambassador_R" sex="1">
+               <person xml:id="Ambassador_R" sex="m">
                   <persName>Ambassador</persName>
                   <occupation>ambassador</occupation>
                   <note resp="#lmw">Character of the Ambassador in <title ref="#Rienzi">Rienzi</title>. No surname given for this character.</note>
                </person>
                
-               <person xml:id="Antigone_A" sex="2">
+               <person xml:id="Antigone_A" sex="f">
                   <persName>Antigone</persName>
                   <note resp="#lmw">Title character in <title ref="#Antigone_play">Antigone</title> by <persName ref="#Sophocles">Sophocles.</persName>
                   </note>
                </person>
                
-               <person xml:id="Bertone_J" sex="1">
+               <person xml:id="Bertone_J" sex="m">
                   <persName>Bertone</persName>
                   <occupation>servant</occupation>
                   <note resp="#ebb #lmw">Bertone is the character of a servant to <persName ref="#DAlba">Count D'Alba</persName> in <title ref="#Julian">Julian. Played by <persName ref="#Comer_Mr">Mr. Comer</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.</title>
                   </note>
                </person>
               
-               <person xml:id="Cafarello" sex="1">
+               <person xml:id="Cafarello" sex="m">
                   <persName>Lord Cafarello</persName>
                   <persName>
                      <surname>Cafarello</surname>
@@ -110,20 +110,20 @@
                   <note resp="#lmw">Lord Cafarello is a character in <title ref="#Rienzi">Rienzi</title>; one of the members of the Colonna faction. Played by <persName ref="#Lee_Mr">Mr. Lee</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Caliban" sex="1">
+               <person xml:id="Caliban" sex="m">
                   <persName>Caliban</persName>
                   <occupation>slave</occupation>
                <note resp="#lmw">Caliban is a character in <title ref="#Tempest_play">The Tempest</title>.</note>
                </person>
                
-               <person xml:id="Calvi_J" sex="1">
+               <person xml:id="Calvi_J" sex="m">
                   <persName>Calvi</persName>
                   <occupation>courtier</occupation>
                   <note resp="#ebb #lmw">Calvi is the character of a Sicilian noble in <title ref="#Julian_MRMplay">Julian.</title><!-- LMW: Not listed in the 1854 ed. Cast List, although the character name appears in the play, so no actor listed who originated the role.-->
                   </note>
                </person>
                
-               <person xml:id="Camilla" sex="2">
+               <person xml:id="Camilla" sex="f">
                   <persName>Camilla Donato</persName>
                   <persName>
                      <surname type="paternal">Donato</surname>
@@ -133,7 +133,7 @@
                   </note>
                </person>
                
-               <person xml:id="Camilla_char" sex="2">
+               <person xml:id="Camilla_char" sex="f">
                   <persName>Camilla</persName>
                   <persName>
                      <forename>Camilla</forename>
@@ -142,12 +142,12 @@
                   <note resp="#lmw">Title character in <title ref="#Camilla_FB">Camilla</title>; Mitford admires Burney's characterization of her in her a letter to <persName ref="#Elford_SirWm">Elford</persName> from <date when="1819-05-30">30 May 1819</date>.</note>
                </person>
                
-               <person xml:id="Camillo_R" sex="1">
+               <person xml:id="Camillo_R" sex="m">
                   <persName>Camillo</persName>
                   <note resp="#lmw">Camillo is a character in <title ref="#Rienzi">Rienzi</title>; <persName ref="#Rienzi_Cola">Rienzi</persName>'s servant. Played by <persName ref="#Jones_C">Mr. C. Jones</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Cantwell" sex="1">
+               <person xml:id="Cantwell" sex="m">
                   <persName>Dr. Cantwell</persName>
                   <persName>
                      <surname>Cantwell</surname>
@@ -158,25 +158,25 @@
                   </note>
                </person>
                
-               <person xml:id="Celso_F" sex="1">
+               <person xml:id="Celso_F" sex="m">
                   <persName>Celso</persName>
                   <note resp="#lmw">Celso is a character in
                      <title ref="#Foscari_MRMplay">Foscari</title>; a follower of <persName ref="#Erizzo">Erizzo</persName>. Played by <persName ref="#Fitzharris">Mr. Fitzharris</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1826-11">November 1826</date>.</note>
                </person>
                
-               <person xml:id="Centinel_Ch1" sex="1">
+               <person xml:id="Centinel_Ch1" sex="m">
                   <persName>Centinel</persName>
                   <note resp="#ebb #lmw">The Centinel is a character in
                      <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Chippendale_Mr">Mr. Chippendale</persName>.</note>
                </person>
                
-               <person xml:id="Chas1_MRM" sex="1">
+               <person xml:id="Chas1_MRM" sex="m">
                   <persName>Charles the First</persName>
                   <note resp="#ebb #lmw">The character of <persName ref="#ChasI">King Charles I of England</persName> in <persName ref="#MRM">Mitford's</persName>
                      play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Abbott_Wm">Mr. Abbott</persName>.</note>
                </person>    
             
-               <person xml:id="Claudia_R" sex="2">
+               <person xml:id="Claudia_R" sex="f">
                   <persName>Claudia di Rienzi</persName>
                   <persName>
                      <surname type="paternal"><nameLink>di</nameLink>Rienzi</surname>
@@ -185,7 +185,7 @@
                      Rienzi</persName> in <title ref="#Rienzi">Rienzi</title>. Played by <persName ref="#Phillips_Miss">Miss Phillips</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Colonna_Ang" sex="1">
+               <person xml:id="Colonna_Ang" sex="m">
                   <persName>Angelo Colonna</persName>
                   <persName>
                      <forename>Angelo</forename>
@@ -193,7 +193,7 @@
                   <note resp="#ebb #lmw">Character in <title ref="#Rienzi">Rienzi</title>, the son of <persName ref="#Colonna_Stph">Stephen Colonna</persName>. Played by <persName ref="#Cooper_Mr">Mr. Cooper</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Colonna_Lady" sex="2">
+               <person xml:id="Colonna_Lady" sex="f">
                   <persName>Lady Colonna</persName>
                   <persName>
                      <surname>Colonna</surname>
@@ -203,7 +203,7 @@
                      in <title ref="#Rienzi">Rienzi</title>. Played by <persName ref="#Faucit_Mrs">Mrs. Faucit</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Colonna_Stph" sex="1">
+               <person xml:id="Colonna_Stph" sex="m">
                   <persName>Stephen Colonna</persName>
                   <persName>
                      <forename>Stephen</forename>
@@ -212,28 +212,28 @@
                   <note resp="#ebb #lmw">Character in <title ref="#Rienzi">Rienzi</title>, a Roman nobleman. Father of <persName ref="#Colonna_Ang">Angelo Colonna</persName>. Played by <persName ref="#Younge_Mr">Mr. Younge</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Constance_KJ" sex="2">
+               <person xml:id="Constance_KJ" sex="f">
                   <persName>
                      <forename>Constance</forename></persName>
                   <note resp="#alg">Character of Arthur's mother in <title ref="#King_John_play">The Life and Death of King John.</title>
                   </note>
                </person>
                
-               <person xml:id="Cook_Ch1" sex="1">
+               <person xml:id="Cook_Ch1" sex="m">
                   <persName>
                      <surname>Cook</surname></persName>
                   <note resp="#ebb #lmw">Character who is Solicitor to the <orgName ref="#House_Commons">House of Commons</orgName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
                      I</title>. Original role created by <persName ref="#Chalk_Mr">Mr. Chalk</persName>. See also the character's historical counterpart: <persName ref="#Cook_J">John Cook</persName>.</note>
                </person>
                
-               <person xml:id="Coriolanus_C" sex="1">
+               <person xml:id="Coriolanus_C" sex="m">
                   <persName>
                      <surname>Coriolanus</surname></persName>
                   <note resp="#lmw">Title character in <title ref="#Coriolanus_play">Coriolanus.</title>
                   </note>
                </person>
                
-               <person xml:id="Cosmo" sex="1">
+               <person xml:id="Cosmo" sex="m">
                   <persName>Cosmo Donato</persName>
                   <persName>
                      <surname>Donato</surname>
@@ -243,12 +243,12 @@
                   </note>
                </person>
                
-               <person xml:id="Cromwell_MRM" sex="1">
+               <person xml:id="Cromwell_MRM" sex="m">
                   <persName>Oliver Cromwell</persName>
                   <note resp="#ebb">Character of Oliver Cromwell in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Cathcart_Mr">Mr. Cathcart</persName>. See also the character's historical counterpart: <persName ref="#Cromwell">Oliver Cromwell, Lord Protector of the Commonwealth of England, Scotland, and Ireland</persName>.</note>
                </person>
                
-               <person xml:id="DAlba" sex="1">
+               <person xml:id="DAlba" sex="m">
                   <persName>Count D'Alba</persName>
                   <persName>
                      <surname>D'Alba</surname>
@@ -256,7 +256,7 @@
                   <note resp="#ebb #lmw">Count D'Alba is the character of a powerful Noble in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Abbott_Wm">Mr. Abbott</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.</note>
                </person>
                
-               <person xml:id="Deans_Jeanie_WS" sex="2">
+               <person xml:id="Deans_Jeanie_WS" sex="f">
                   <persName>Jeanie Deans</persName>
                   <persName>
                      <forename>Jeanie</forename>
@@ -266,13 +266,13 @@
                         <title ref="#Heart_of_Mid">The Heart of Midlothian</title> by <persName ref="#Scott_Wal">Walter Scott</persName>, heroine and sister of <persName>Effie Deans</persName>. She walks from <placeName ref="#Edinburgh">Edinburgh</placeName> to <placeName ref="#London_city">London</placeName> to secure a pardon for her sister on a charge of infanticide.</note>
                </person>
                
-               <person xml:id="Desdemona_O" sex="2">
+               <person xml:id="Desdemona_O" sex="f">
                   <persName>Desdemona</persName>
                   <note resp="#lmw">Character in <title ref="#Othello_play">Othello</title>.
                   </note>
                </person>
                 
-               <person xml:id="Dirk_Hatteraick" sex="1">
+               <person xml:id="Dirk_Hatteraick" sex="m">
                   <persName>Dirk Hatteraick</persName>
                   <persName>
                      <forename>Dirk</forename>
@@ -281,13 +281,13 @@
                      Mannering</title>.</note>
                </person>
                
-               <person xml:id="Dogberry_MA" sex="1">
+               <person xml:id="Dogberry_MA" sex="m">
                   <persName>Dogberry</persName>
                   <note resp="#lmw">Character in <title ref="#Much_Ado_play">Much Ado About Nothing.</title>
                   </note>
                </person>
                
-               <person xml:id="Doge_F" sex="1">
+               <person xml:id="Doge_F" sex="m">
                   <persName>Doge Foscari</persName>
                   <persName>
                      <roleName>Doge</roleName>
@@ -295,13 +295,13 @@
                   <note resp="#ebb #lmw">Character in <bibl><author ref="#MRM">Mitford</author>'s play <title ref="#Foscari_MRMplay">Foscari</title></bibl>. Played by <persName ref="#Young_CM">Charles Mayne Young</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1826-11">November 1826</date>. See also the character's historical counterpart: <persName ref="#Doge_F_hist">Doge Foscari</persName>. </note>
                </person>
                
-               <person xml:id="Don_Quixote_char" sex="1">
+               <person xml:id="Don_Quixote_char" sex="m">
                   <persName>Don Quixote <nameLink>de la</nameLink> Mancha</persName>
                   <note resp="#lmw">Title character in <title ref="#Don_Quixote_novel">Don Quixote.</title>
                   </note>
                </person>
                
-               <person xml:id="Donato" sex="1">
+               <person xml:id="Donato" sex="m">
                   <persName>Senator Donato</persName>
                   <persName>
                      <surname>Donato</surname>
@@ -310,7 +310,7 @@
                   <note resp="#lmw #ebb">Character in <title ref="#Foscari_MRMplay">Foscari</title>. Played by <persName ref="#Egerton_Dan">Mr. Egerton</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1826-11">November 1826</date>. See also the character's historical counterpart: <persName ref="#Donato_hist">Senator Donato</persName>. </note>
                </person>
                
-               <person xml:id="Dousterswivel_WS" sex="1"> <!--LMW: correction to xml:id: spelled Dousterswivel; also fixed and updated elsewhere. -->
+               <person xml:id="Dousterswivel_WS" sex="m"> <!--LMW: correction to xml:id: spelled Dousterswivel; also fixed and updated elsewhere. -->
                   <persName>Mr. Dousterswivel</persName>
                   <persName>
                      <roleName>Mr.</roleName>
@@ -320,13 +320,13 @@
                   </note>
                </person>
                
-               <person xml:id="Downes" sex="1">
+               <person xml:id="Downes" sex="m">
                   <persName>Downes</persName>
                   <note resp="#ebb">Downes is the character of a Judge appointed by Parliament to try the <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
                      I</title>. Original role created by <persName ref="#Bender_Mr">Mr. Bender</persName>. See also the character's historical counterpart: <persName ref="#Downes_J">John Downes</persName>.</note>
                </person>
                
-               <person xml:id="Dulcinea_DQ" sex="2">
+               <person xml:id="Dulcinea_DQ" sex="f">
                   <persName>Dulcinea del Toboso</persName>
                   <persName>
                      <forename>Dulcinea</forename>
@@ -335,7 +335,7 @@
                   <note resp="#lmw">Name of idealized female character in <title ref="#Don_Quixote_novel">Don Quixote</title> who is mentioned in the text but never appears. Proverbial for an ideal woman.</note>
                </person>
                
-               <person xml:id="Edie_Ochiltree" sex="1">
+               <person xml:id="Edie_Ochiltree" sex="m">
                   <persName>Edie Ochiltree</persName>
                   <persName>
                      <forename>Edie</forename>
@@ -345,7 +345,7 @@
                      Antiquary</title>.</note>
                </person>
                
-               <person xml:id="Elspeth" sex="2">
+               <person xml:id="Elspeth" sex="f">
                   <persName>Elspeth Mucklebackit</persName>
                   <persName>
                      <forename>Elspeth</forename>
@@ -353,7 +353,7 @@
                   <note resp="#esh #lmw">Character of Steenie's grandmother in <title ref="#Antiquary">The Antiquary</title>. Elspeth Mucklebackit, or Elspeth of the Craigburnfoot of Glenallan.</note>
                </person>
                
-               <person xml:id="Erizzo" sex="1">
+               <person xml:id="Erizzo" sex="m">
                   <persName>Count Erizzo</persName>
                   <persName>
                      <surname>Erizzo</surname>
@@ -362,7 +362,7 @@
                   </note>
                </person>
                
-               <person xml:id="Fairfax" sex="1">
+               <person xml:id="Fairfax" sex="m">
                   <persName>General Fairfax</persName>
                   <persName>
                      <roleName>General</roleName>
@@ -372,13 +372,13 @@
                   <note resp="#ebb #lmw">Character of the General of the Parliamentary Army in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Selby_Mr">Mr. Selby</persName>. See also the character's historical counterpart:  <persName ref="#Fairfax_hist">Thomas Fairfax, 3rd Lord Fairfax of Cameron</persName>.</note>
                </person>
                
-               <person xml:id="Falstaff_WS" sex="1">
+               <person xml:id="Falstaff_WS" sex="m">
                   <persName>Falstaff</persName>
                   <note resp="#lmw">Character in <persName ref="#Shakespeare">Shakespeare's</persName>
                      <title ref="#HenryIVpt1_play">Henry IV part one</title>.</note>
                </person>
               
-              <person xml:id="Foscari_Fr" sex="1">
+              <person xml:id="Foscari_Fr" sex="m">
                  <persName>Francesco Foscari</persName>
                   <persName>
                      <surname>Foscari</surname>
@@ -393,12 +393,12 @@
                   <note resp="#lmw">Character in <title ref="#Rienzi">Rienzi</title>, a partisan of Ursini, also a nobleman. Played by <persName ref="#Bland_Mr">Mr. Bland</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Friday" sex="1">
+               <person xml:id="Friday" sex="m">
                <persName>Friday</persName>
                   <note resp="#lmw">Character in <title ref="#RobinsonCrusoe_DD">The Life and Adventures of Robinson Crusoe</title>.</note>
             </person>
                
-               <person xml:id="Hacker_Ch1" sex="1">
+               <person xml:id="Hacker_Ch1" sex="m">
                   <persName>Colonel Hacker</persName>
                   <persName>
                      <surname>Hacker</surname>
@@ -408,26 +408,26 @@
                      I</title>. Original role created by <persName ref="#Thomas_Mr">Mr. Thomas</persName>. See also the character's historical counterpart: <persName ref="#Hacker_F">Francis Hacker</persName>.</note>
                </person>
                
-               <person xml:id="Hamlet_H" sex="1">
+               <person xml:id="Hamlet_H" sex="m">
                   <persName>Hamlet</persName>
                   <note resp="#lmw">Title character in <title ref="#Hamlet_play">Hamlet.</title>
                   </note>
                </person>
                
-               <person xml:id="Hammond_Ch1" sex="1">
+               <person xml:id="Hammond_Ch1" sex="m">
                   <persName>Hammond</persName>
                   <note resp="#ebb">Hammond is the character of the Governor of the Isle of Wight in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
                      I</title>. Original role created by <persName ref="#Fleming_Mr">Mr. Fleming</persName>. See also the character's historical counterpart: <persName ref="#Hammond_T">Thomas Hammond</persName>.
                   </note>
                </person>
                
-               <person xml:id="Harrison" sex="1">
+               <person xml:id="Harrison" sex="m">
                   <persName>Harrison</persName>
                   <note resp="#ebb">A character of a Judge appointed by Parliament to try the <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
                      I</title>. Original role created by <persName ref="#Doyne_Mr">Mr. Doyne</persName>. See also the character's historical counterpart: <persName ref="#Harrison_hist">Major General Thomas Harrison</persName>.</note>
                </person>
                
-               <person xml:id="Helen_H" sex="2">
+               <person xml:id="Helen_H" sex="f">
                   <persName>Helen</persName>
                   <note resp="#lmw">Title character in <title ref="#Helen_play">Helen</title>.
                   </note>
@@ -439,7 +439,7 @@
                   </note>
                </person>
                
-                <person xml:id="Herbert_Ch1" sex="1">
+                <person xml:id="Herbert_Ch1" sex="m">
                    <persName>Sir Thomas Herbert</persName>
                   <persName>
                      <forename>Thomas</forename>
@@ -449,25 +449,25 @@
                    <note resp="#ebb #lmw">Sir Thomas Herbert is the character of a Gentleman attending on the <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Doyne_Mr">Mr. Doyne</persName>. See also the character's historical counterpart: <persName ref="#Herbert_T">Thomas Herbert</persName>.</note>
                </person>
                
-               <person xml:id="Hermione_WT" sex="2">
+               <person xml:id="Hermione_WT" sex="f">
                   <persName>Hermione</persName>
                   <note resp="#lmw">Character in <title ref="#Winters_Tale_play"> The Winter's
                         Tale</title>.
                   </note>
                </person>
                
-               <person xml:id="HughSir_Camilla" sex="1">
+               <person xml:id="HughSir_Camilla" sex="m">
                   <persName>Sir Hugh</persName>
                   <note resp="#lmw">Character in <title ref="#Camilla_FB">Camilla</title>; Mitford admires Burney's characterization of him in her a letter to <persName ref="#Elford_SirWm">Elford</persName> from <date when="1819-05-30">30 May 1819</date>.</note>
                </person>
                
-               <person xml:id="Imogen_C" sex="2">
+               <person xml:id="Imogen_C" sex="f">
                   <persName>Imogen</persName>
                   <note resp="#lmw">Character in <title ref="#Cymbeline_play">Cymbeline</title>.
                   </note>
                </person>
                
-               <person xml:id="Ireton" sex="1">
+               <person xml:id="Ireton" sex="m">
                   <persName>
                      <surname>Ireton</surname></persName>
                   <occupation>legal</occupation>
@@ -476,7 +476,7 @@
                      I</title>. Original role created by <persName ref="#Webster_J">Mr. J. Webster</persName>. See also the character's historical counterpart, who was married to Cromwell's daughter Elizabeth: <persName ref="#Ireton_hist">Henry Ireton</persName>. </note>
                </person>
                
-               <person xml:id="Jacky_Marriage" sex="2">
+               <person xml:id="Jacky_Marriage" sex="f">
                   <persName>Miss Jacky</persName>
                   <persName>
                      <roleName>Miss</roleName>
@@ -484,19 +484,19 @@
                   <note resp="#lmw">Character in <title ref="#Marriage_SF">Marriage</title>; Mitford admires <persName ref='#Ferrier_Susan'>errier</persName>'s characterization of her.</note>
                </person>
                
-               <person xml:id="Jailer_F" sex="1">
+               <person xml:id="Jailer_F" sex="m">
                   <persName>Jailer</persName>
                   <note>Character of the Jailer in <title ref="#Foscari_MRMplay">Foscari.</title> No surname given. 
                   </note>
                </person>
               
-               <person xml:id="Julian" sex="1">
+               <person xml:id="Julian" sex="m">
                   <persName>Julian</persName>
                   <note resp="#ebb">Julian is the character of the <persName ref="#Melfi"> Duke of Melfi</persName>'s son in <title ref="#Julian_MRMplay">Julian. Played by <persName ref="#Macready_Wm">William Macready</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.</title>
                   </note>
                </person>
                
-               <person xml:id="Katharine_H8" sex="2">
+               <person xml:id="Katharine_H8" sex="f">
                   <persName>Queen Katharine</persName>
                   <persName>
                      <roleName>Queen</roleName>
@@ -507,7 +507,7 @@
                   </note>
                </person>
                
-               <person xml:id="King_Philip_WS" sex="1">
+               <person xml:id="King_Philip_WS" sex="m">
                   <persName>King Philip</persName>
                   <persName>
                      <forename>Philip</forename>
@@ -518,7 +518,7 @@
                   </note>
                </person>
                
-               <person xml:id="LadyFairfax" sex="2">
+               <person xml:id="LadyFairfax" sex="f">
                   <persName>Lady Fairfax</persName>
                   <persName>
                      <roleName>Lady</roleName>
@@ -527,7 +527,7 @@
                      <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Somerville_Miss">Miss Somerville</persName>. See also the character's historical counterpart: <persName ref="#Lady_Fairfax_hist">Anne Vere, Lady Fairfax</persName>. </note>
                </person>
                
-               <person xml:id="LadySingleton_fict" sex="2">
+               <person xml:id="LadySingleton_fict" sex="f">
                   <persName>Lady Singleton</persName>
                   <persName>
                      <roleName>Lady</roleName>
@@ -535,7 +535,7 @@
                   <note resp="#lmw">A character in <persName ref="#Owenson_S">Lady Morgan</persName>'s novel <title ref="#ODonnel_SO">The O'Donnel's</title>.</note>
                </person>
                
-               <person xml:id="Lambourne_Kenil" sex="1">
+               <person xml:id="Lambourne_Kenil" sex="m">
                   <persName>Michael Lambourne</persName>
                   <persName>
                      <forename>Michael</forename>
@@ -544,34 +544,34 @@
                   <note resp="#lmw">Character in <persName ref="#Scott_Wal">Walter Scott</persName>'s novel <title ref="#Kenilworth_WS">Kenilworth</title>. The nephew of innkeeper Giles Gosling.</note>
                </person>
                
-               <person xml:id="Laura_F" sex="2">
+               <person xml:id="Laura_F" sex="f">
                   <persName>Laura Donato</persName>
                   <persName>
                      <forename>Laura</forename>
                   <surname>Donato</surname></persName>
                   <note resp="#lmw">The character of Laura is Senator Donato's niece in <persName ref="#MRM">Mitford</persName>'s <title ref="#Foscari_MRMplay">Foscari</title>. Played by <persName ref="#Henry_Miss">Miss Henry</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1826-11">November 1826</date>.</note></person>
                
-               <person xml:id="Leanti_J" sex="1">
+               <person xml:id="Leanti_J" sex="m">
                   <persName>Leanti</persName>
                   <occupation>courtier</occupation>
                   <note resp="#ebb">Leanti is the character of a Sicilian Noble in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Egerton_Dan">Mr. Egerton</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.
                   </note>
                </person>
                
-               <person xml:id="Leon" sex="1">
+               <person xml:id="Leon" sex="m">
                   <persName>Leon</persName>
                   <note resp="#kdc">Character in <title ref="#Rule_a_Wife_play">Rule a Wife and Have a Wife</title> by <persName ref="#Beaumont_Fr">Beaumont</persName> and <persName ref="#Fletcher_John">Fletcher</persName>.
                   </note>
                </person>
                
-               <person xml:id="Leontes_WT" sex="1">
+               <person xml:id="Leontes_WT" sex="m">
                   <persName>Leontes</persName>
                   <note resp="#lmw">Character in <title ref="#Winters_Tale_play">The Winter's
                         Tale</title>.
                   </note>
                </person>
                
-               <person xml:id="Lizzy_fict" sex="2">
+               <person xml:id="Lizzy_fict" sex="f">
                   <persName>Elizabeth Bennet</persName>
                   <persName>
                      <forename>Elizabeth</forename>
@@ -581,7 +581,7 @@
                   <note resp="#lmw">Character in <persName ref="#Austen_Jane">Austen</persName>'s novel <title ref="#Pride_and_Prejudice">Pride and Prejudice</title>.</note>
                </person>
                
-               <person xml:id="Macbeth_Lady" sex="2">
+               <person xml:id="Macbeth_Lady" sex="f">
                   <persName>Lady Macbeth</persName>
                   <persName>
                      <roleName>Lady</roleName>
@@ -591,13 +591,13 @@
                   </note>
                </person>
                
-               <person xml:id="Macbeth_M" sex="1"> 
+               <person xml:id="Macbeth_M" sex="m"> 
                   <persName>Macbeth</persName>
                   <note resp="#lmw">Title character in <title ref="#Macbeth_play">Macbeth</title>.
                   </note>
                </person>
                
-               <person xml:id="Maclaughlan_Marriage" sex="2">
+               <person xml:id="Maclaughlan_Marriage" sex="f">
                   <persName>Lady Mclaughlin</persName>
                   <persName>
                      <roleName>Lady</roleName>
@@ -605,7 +605,7 @@
                   <note resp="#lmw">Character in <title ref="#Marriage_SF">Marriage</title>; Mitford admires <persName ref="#Ferrier_Susan">Ferrier</persName>'s characterization of her.</note>
                </person>
                
-               <person xml:id="Maggs_Sally_DP" sex="2">
+               <person xml:id="Maggs_Sally_DP" sex="f">
                   <persName>Sally Maggs</persName>
                   <persName>
                      <forename>Sally</forename>
@@ -613,7 +613,7 @@
                   <note resp="#lmw">Character of a loquacious chambermaid in the farce <title ref="#DeafasPost_play">Deaf as a Post</title>.</note>
                </person>
                
-               <person xml:id="MandlebertE_char" sex="1">
+               <person xml:id="MandlebertE_char" sex="m">
                   <persName>Mr. Edgar Mandlebert</persName>
                   <persName>
                      <roleName>Mr.</roleName>
@@ -623,13 +623,13 @@
                </person>
                
                
-               <person xml:id="Marten" sex="1">
+               <person xml:id="Marten" sex="m">
                   <persName>Marten</persName>
                   <note resp="#ebb #lmw">Marten is the character of a Judge appointed by Parliament to try the <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
                      I</title>. Original role created by <persName ref="#Forrester_Mr">Mr. Forrester</persName>. See also the character's historical counterpart: <persName ref="#Marten_H">Henry Marten</persName></note>
                </person>
                
-               <person xml:id="Meg_Merrilies" sex="2">
+               <person xml:id="Meg_Merrilies" sex="f">
                   <persName>Meg Merrilies</persName>
                   <persName>
                      <forename>Meg</forename>
@@ -638,19 +638,19 @@
                      Mannering</title>.</note>
                </person>
                
-               <person xml:id="Melfi" sex="1">
+               <person xml:id="Melfi" sex="m">
                   <persName>Duke of Melfi</persName>
                   <note resp="#ebb #lmw">The character of the Duke of Melfi is uncle to <persName ref="#Alfonso_J">Alfonso</persName>, and
                      Regent of the Kingdom of <placeName ref="#Naples">Naples</placeName> in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Bennett_Mr">Mr. Bennett</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February, 1823</date>.
                   </note>
                </person>
                
-               <person xml:id="Miranda" sex="2">
+               <person xml:id="Miranda" sex="f">
                   <persName>Miranda</persName>
                   <note resp="#lmw">Character in <title ref="#Tempest_play">The Tempest</title>.</note>
                </person>
                
-               <person xml:id="Miss_Crawley_fict" sex="2">
+               <person xml:id="Miss_Crawley_fict" sex="f">
                   <persName>Miss Crawley</persName>
                   <persName>
                      <roleName>Miss</roleName>
@@ -659,7 +659,7 @@
                   
                </person>
                
-               <person xml:id="Morris_DrP" sex="1">
+               <person xml:id="Morris_DrP" sex="m">
                   <persName>Dr. Peter Morris</persName>
                   <persName>
                      <roleName>Dr.</roleName>
@@ -669,7 +669,7 @@
                </person>
                
                
-               <person xml:id="Mr_Dexter_fict" sex="1">
+               <person xml:id="Mr_Dexter_fict" sex="m">
                   <persName>Mr. Dexter</persName>
                   <persName>
                      <roleName>Mr.</roleName>
@@ -677,7 +677,7 @@
                   <note resp="#lmw">A character in <persName ref="#Owenson_S">Lady Morgan</persName>'s novel <title ref="#ODonnel_SO">The O'Donnel's</title>.</note>
                </person>
                
-               <person xml:id="Nicky_Marriage" sex="2">
+               <person xml:id="Nicky_Marriage" sex="f">
                   <persName>Miss Nicky</persName>
                   <persName>
                      <roleName>Miss</roleName>
@@ -690,7 +690,7 @@
                   <note resp="#lmw">Character of the Nuncio in <title ref="#Rienzi">Rienzi</title>.</note>
                </person>
                
-               <person xml:id="Oldbuck_Jonathan" sex="1">
+               <person xml:id="Oldbuck_Jonathan" sex="m">
                   <persName>Jonathan Oldbuck</persName>
                   <persName>
                      <forename>Johnathan</forename>
@@ -699,31 +699,31 @@
                      Antiquary</title>.</note>
                </person>
                
-               <person xml:id="Olivia_F" sex="2">
+               <person xml:id="Olivia_F" sex="f">
                   <persName>Olivia</persName>
                   <occupation>courtier</occupation>
                   <note resp="#lmw">Character of one of the Ladies in
                      <title ref="#Foscari_MRMplay">Foscari</title>. No surname given in the Cast List.</note>
                </person>
                
-              <person xml:id="Othello_O" sex="1">
+              <person xml:id="Othello_O" sex="m">
                   <persName>Othello</persName>
                   <note resp="#lmw">Title character in <title ref="#Othello_play">Othello</title>.
                   </note>
                </person>
                
-               <person xml:id="Paolo_J" sex="1">
+               <person xml:id="Paolo_J" sex="m">
                   <persName>Paolo</persName>
                   <occupation>servant</occupation>
                   <note resp="#ebb #lmw">Paolo is the character of <persName ref="#Julian">Julian</persName>'s servant in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Ley_Mr">Mr. Ley</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.</note>
                </person>
                
-               <person xml:id="Paolo_R" sex="1">
+               <person xml:id="Paolo_R" sex="m">
                   <persName>Paolo</persName>
                   <note resp="#ebb">Character of Paolo, a Roman citizen, in <title ref="#Rienzi">Rienzi</title>. Played by <persName ref="#Yarnold_Mr">Mr. Yarnold</persName> as performed at the <placeName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</placeName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Penruddock_WF" sex="1">
+               <person xml:id="Penruddock_WF" sex="m">
                   <persName>Sir George Penruddock</persName>
                   <persName>
                      <roleName>Sir</roleName>
@@ -735,7 +735,7 @@
                   </note>
                </person>
               
-               <person xml:id="Pierce_G" sex="1">
+               <person xml:id="Pierce_G" sex="m">
                   <persName>Pierce</persName>
                   <occupation>servant</occupation>
                   <note resp="#lmw">Character of a servant in <title ref="#Gaston_deBlondeville">Gaston de
@@ -743,7 +743,7 @@
                   </note>
                </person>
                
-               <person xml:id="Pisani_F" sex="1">
+               <person xml:id="Pisani_F" sex="m">
                   <persName>Count Pisani</persName>
                   <persName>
                      <roleName>Count</roleName>
@@ -752,14 +752,14 @@
                   <note resp="#lmw">Character of Count Pisani in <title ref="#Foscari_MRMplay">Foscari</title>.</note>
                </person>
                
-               <person xml:id="Pride_Ch1" sex="1">
+               <person xml:id="Pride_Ch1" sex="m">
                   <persName>Pride</persName>
                   <occupation>military</occupation>
                   <note resp="#ebb">The character of an Officer in the Parliamentary Army in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
                      I</title>. Original role created by <persName ref="#Addison_Mr">Mr. Addison</persName>. See also the character's historical counterpart: <persName ref="#Pride_T">Thomas Pride</persName>.</note>
                </person>
                
-               <person xml:id="PrincessE_Ch1" sex="2">
+               <person xml:id="PrincessE_Ch1" sex="f">
                   <persName>Princess Elizabeth</persName>
                   <persName>
                      <roleName>Princess</roleName>
@@ -770,26 +770,26 @@
                      girl aged twelve, in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Josephine_Miss">Miss Josephine</persName>. See also the character's historical counterpart: <persName ref="#Princess_E_hist">Elizabeth Stuart</persName>.</note>
                </person>
                
-               <person xml:id="Gloucester" sex="1">
+               <person xml:id="Gloucester" sex="m">
                <persName>Duke of Gloucester</persName>
                   <note resp="#ebb">Son of <persName ref="#Queen_Ch1">Queen Henrietta
                      Maria</persName> and <persName ref="#Chas1_MRM">King Charles I</persName>, a boy of seven years old in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Norman_Master">Master Norman</persName> 
                      See also the character's historical counterpart: <persName ref="#Stuart_H">Henry Stuart</persName>.</note>
                </person>
                
-               <person xml:id="Prospero" sex="1">
+               <person xml:id="Prospero" sex="m">
                   <persName>Prospero</persName>
                   <note resp="#ebb">Character of the magician in <persName ref="#Shakespeare">Shakespeare</persName>'s play, <title ref="#Tempest_play">The Tempest</title>.
                   </note>
                </person>
                
-               <person xml:id="Queen_Ch1" sex="2">
+               <person xml:id="Queen_Ch1" sex="f">
                   <persName>Queen Henrietta Maria</persName>
                   <note resp="#ebb #lmw">Character of the Queen of England in <persName ref="#MRM">Mitford</persName>'s
                      play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Fisher_Mrs">Mrs. Fisher</persName>. See also the character's historical counterpart: <persName ref="#Qu_Henrietta">Henrietta Maria, Queen Consort of England, Scotland and Ireland</persName>.</note>
                </person>
                
-              <person xml:id="Queen_Hamlet" sex="2">
+              <person xml:id="Queen_Hamlet" sex="f">
                   <persName>Gertrude, Queen of Denmark</persName>
                  <persName>
                     <roleName>Queen</roleName>
@@ -799,7 +799,7 @@
                   </note>
                </person>
                
-               <person xml:id="Rachel_Aunt" sex="2">
+               <person xml:id="Rachel_Aunt" sex="f">
                   <persName>Aunt Rachel</persName>
                   <persName>
                      <roleName>Aunt</roleName>
@@ -809,45 +809,45 @@
                      by <persName ref="#Mudie_Rob">Mudie</persName>.</note>
                </person>
                
-               <person xml:id="Rebecca_Ivanhoe" sex="2">
+               <person xml:id="Rebecca_Ivanhoe" sex="f">
                   <persName>Rebecca</persName>
                   <note resp="#esh">Character in <title ref="#Ivanhoe">Ivanhoe</title>, daughter of Isaac.</note>
                </person>
                 
-               <person xml:id="Renzi_J" sex="1">
+               <person xml:id="Renzi_J" sex="m">
                   <persName>Renzi</persName>
                   <note resp="#ebb #lmw">The character of the old Huntsman in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Mears_Mr">Mr. Mears</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.
                   </note>
                </person>
                
-               <person xml:id="Rienzi_Cola" sex="1">
+               <person xml:id="Rienzi_Cola" sex="m">
                   <persName>Cola di Rienzi</persName>
                   <persName>
                      <forename>Cola</forename> <nameLink>di</nameLink> <surname>Rienzi</surname></persName>
                   <note resp="#ebb #lmw">Character in <title ref="#Rienzi">Rienzi</title>. Played by <persName ref="#Young_CM">Mr. Young</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>. See also the character's historical counterpart: <persName ref="#Rienzo_hist">Cola di Rienzo, Tribune of Rome</persName>.</note>
                </person>
                
-               <person xml:id="Robinson_Crusoe" sex="1">
+               <person xml:id="Robinson_Crusoe" sex="m">
                   <persName>Robinson Crusoe</persName>
                   <persName><forename>Robinson</forename>
                   <surname>Crusoe</surname></persName>
                   <note resp="#lmw">Title character in <title ref="#RobinsonCrusoe_DD">The Life and Adventures of Robinson Crusoe</title>.</note>
                </person>
                
-               <person xml:id="Rolla_P" sex="1">
+               <person xml:id="Rolla_P" sex="m">
                   <persName>Rolla</persName>
                   <note resp="#lmw">Character in <title ref="#Pizarro_play">Pizarro</title>.
                   </note>
                </person>
 
-               <person xml:id="Rosa_R" sex="2">
+               <person xml:id="Rosa_R" sex="f">
                   <persName>Rosa
                   </persName>
                   <note resp="#ebb #lmw">Character who is an Attendant to <persName ref="#Claudia_R">Claudia</persName> in
                      <title ref="#Rienzi">Rienzi</title>. Played by <persName ref="#Pincott_Leonora">Miss Pincott</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
               
-               <person xml:id="Rowena_WS" sex="2">
+               <person xml:id="Rowena_WS" sex="f">
                   <persName>Lady Rowena</persName>
                   <persName>
                      <roleName>Lady</roleName>
@@ -857,7 +857,7 @@
                   </note>
                </person>
                
-               <person xml:id="Salisbury" sex="1">
+               <person xml:id="Salisbury" sex="m">
                   <persName>Lord Salisbury</persName>
                   <persName>
                      <roleName>Commissioner</roleName>
@@ -868,7 +868,7 @@
                            I</title>. Original role created by <persName ref="#Lee_T">Mr. T. Lee</persName>. See also the character's historical counterpart: <persName ref="#Salisbury_hist">William Cecil, Lord Salisbury</persName>. </note>
                </person>
                
-               <person xml:id="Sancho_Panza" sex="1">
+               <person xml:id="Sancho_Panza" sex="m">
                   <persName>Sancho Panza</persName>
                   <persName>
                      <forename>Sancho</forename>
@@ -877,7 +877,7 @@
                   <note resp="#ncl #lmw">Squire character, a former farmer enlisted by <persName ref="#Don_Quixote_char">Don Quixote</persName> in his service, from <title ref="#Don_Quixote_novel">Don Quixote</title>.</note>
                </person>
                
-               <person xml:id="Savelli" sex="1">
+               <person xml:id="Savelli" sex="m">
                   <persName>Lord Savelli</persName>
                   <persName>
                      <surname>Savelli</surname>
@@ -887,7 +887,7 @@
                   <note resp="#lmw">Lord Savelli is a character in <title ref="#Rienzi">Rienzi</title>; one of the members of the Colonna faction. Played by <persName ref="#Aitken_Mr">Mr. Aitken</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
            
-               <person xml:id="Say" sex="1">
+               <person xml:id="Say" sex="m">
                   <persName>Lord Say</persName>
                   <persName>
                      <roleName>Lord</roleName>
@@ -903,13 +903,13 @@
                  <note resp="#ebb">The character of the Servant belonging to <persName ref="#Cromwell_MRM">Cromwell</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. No proper name given. Original role created by <persName ref="#Kerridge_Mr">Mr. Kerridge</persName>.</note>
                </person>
                
-               <person xml:id="Sforza" sex="1">
+               <person xml:id="Sforza" sex="m">
                   <persName>Sforza</persName>
                   <note resp="#lmw #tlh">Character of Sforza in <title ref="#Foscari_MRMplay">Foscari</title>. See also the character's historical counterpart: <persName ref="#Sforza_hist">General Sforza</persName>.
                   </note>
                </person>
                
-               <person xml:id="Teresa_R" sex="2">
+               <person xml:id="Teresa_R" sex="f">
                   <persName>
                      <forename>Teresa</forename></persName>
                   <note resp="#ebb #lmw">Teresa is the character of an Attendant to <persName ref="#Claudia_R">Claudia</persName> in
@@ -917,19 +917,19 @@
                   </note>
                </person>
                
-               <person xml:id="Berta_R" sex="2">
+               <person xml:id="Berta_R" sex="f">
                   <persName>Berta</persName>
                   <note resp="#ebb #lmw">Berta is the character of an Attendant to <persName ref="#Claudia_R">Claudia</persName> in
                      <title ref="#Rienzi">Rienzi</title>. Played by <persName ref="#Geesin_Mrs">Mrs. Geesin</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.
                   </note>
                </person>
                
-               <person xml:id="Tichburne" sex="1">
+               <person xml:id="Tichburne" sex="m">
                   <persName>Tichburne</persName>
                   <note resp="#ebb #lmw">The character of a Judge appointed by Parliament to try the <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. Original role created by <persName ref="#Williams_G">Mr. G. Williams</persName>. See also the character's historical counterpart: <persName ref="#Tichburne_hist">Robert Tichburne</persName>, Mayor of London. </note>
                </person>
                
-               <person xml:id="Trueman_T" sex="1">
+               <person xml:id="Trueman_T" sex="m">
                   <persName>Timothy Trueman</persName>
                   <persName>
                      <forename>Timothy</forename>
@@ -937,7 +937,7 @@
                   <note resp="#lmw">Pseudonym used by <persName ref="#Johnson_Mr">Mr. Johnson</persName>. Author of <title ref="#Trueman_Westminster">A Letter to the Independent Electors of Westminster (1809)</title>, <title ref="#Trueman_Clergy"> Timothy Trueman's Admonitions to the Clergy (1816)</title>, and <title ref="#Trueman_Gehazi">The Curse of Gehazi (1819)</title>. Not the same as the author of the American publications The Burlington Almanac and The New Jersey Almanac, who also used this pseudonym.</note>
                </person>
                
-               <person xml:id="Ugolino" sex="1">
+               <person xml:id="Ugolino" sex="m">
                   <persName>Count Ugolino</persName>
                   <persName>
                      <roleName>Count</roleName>
@@ -947,33 +947,33 @@
                   <note resp="#ncl #lmw">Character from <persName ref="#Dante">Dante</persName>'s <title ref="#Inferno_Dante">Inferno</title>. Guilty of treason.</note>
                </person>
                
-               <person xml:id="Ulric_O" sex="1">
+               <person xml:id="Ulric_O" sex="m">
                   <persName>Ulric</persName>
                   <note resp="#lmw">Character in <title ref="#Otto">Otto of Wittelsbach</title>.
                   </note>
                </person>
                
-               <person xml:id="Ursini" sex="1">
+               <person xml:id="Ursini" sex="m">
                   <persName>Ursini</persName>
                   <occupation>courtier</occupation>
                   <note resp="#ebb">Leader of the Ursini family in Mitford's <title ref="#Rienzi">Rienzi</title>; a Nobleman and rival to Colonna. Played by <persName ref="#Mude_Mr">Mr. Mude</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                
-               <person xml:id="Valore_J" sex="1">
+               <person xml:id="Valore_J" sex="m">
                   <persName>Valore</persName>
                   <occupation>courtier</occupation>
                   <note resp="#ebb #lmw">Valore is the character of a Sicilian Noble in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Baker_Mr">Mr. Baker</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.
                   </note>
                </person>
                
-               <person xml:id="Annabel_J" sex="1">
+               <person xml:id="Annabel_J" sex="m">
                   <persName>Annabel</persName>
                   <occupation>courtier</occupation>
                   <note resp="#ebb #lmw">Annabel is the character of the wife of <persName ref="#Julian">Julian</persName>in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Lacy_Miss">Miss Lacy</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.
                   </note>
                </person>
                
-               <person xml:id="Vane" sex="1">
+               <person xml:id="Vane" sex="m">
                   <persName>Sir Harry Vane</persName>
                   <persName>
                      <roleName>Commissioner</roleName>
@@ -985,13 +985,13 @@
                            I</title>. Original role created by <persName ref="#Debar_Mr">Mr. Debar</persName>.See also the character's historical counterpart: <persName ref="#Vane_hist">Henry Vane</persName>.</note>
                </person>
                
-               <person xml:id="Volumnia_C" sex="2">
+               <person xml:id="Volumnia_C" sex="f">
                   <persName>Volumnia</persName>
                   <note resp="#lmw">Character in <title ref="#Coriolanus_play">Coriolanus</title>.
                   </note>
                </person>
               
-               <person xml:id="Wolsey_H8" sex="1">
+               <person xml:id="Wolsey_H8" sex="m">
                   <persName>Cardinal Wolsey</persName>
                   <persName>
                      <roleName>Cardinal</roleName>
@@ -1001,7 +1001,7 @@
                   </note>
                </person>
                
-               <person xml:id="Zeno_F" sex="1">
+               <person xml:id="Zeno_F" sex="m">
                   <persName>Count Zeno</persName>
                   <persName>
                      <roleName>Count</roleName>
@@ -1017,7 +1017,7 @@
                   <listPerson sortKey="histPersons">
                     <!--LMW:  All in the histPersons section are NEW. -->
                      
-                     <person xml:id="Horrebow_Mr" sex="1">
+                     <person xml:id="Horrebow_Mr" sex="m">
                         <persName>Mr. Horrebow</persName>
                         <persName>
                            <surname>Horrebow</surname>
@@ -1028,7 +1028,7 @@
                         <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Active in London theaters in the 1820s and early 1830s. Forename unknown.More research needed.</note>
                      </person>
                      
-                     <person xml:id="Henry_Miss" sex="2">
+                     <person xml:id="Henry_Miss" sex="f">
                         <persName>Miss Henry</persName>
                         <persName>
                            <surname>Henry</surname>
@@ -1039,7 +1039,7 @@
                         <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Chippendale_Mr" sex="1">
+                     <person xml:id="Chippendale_Mr" sex="m">
                         <persName>Mr. Chippendale</persName>
                         <persName>
                            <surname>Chippendale</surname>
@@ -1051,7 +1051,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.<!-- LMW: William Henry Chippendale? b. 1801, active 1830s to 1850s at Haymarket. --></note>
                      </person>
                      
-                     <person xml:id="Selby_Mr" sex="1">
+                     <person xml:id="Selby_Mr" sex="m">
                         <persName>Mr. Selby</persName>
                         <persName>
                            <surname>Selby</surname>
@@ -1063,7 +1063,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note><!-- LMW: Possibly SELBY, CHARLES (1802?–1863), actor and dramatist?  -->
                      </person>
                      
-                     <person xml:id="Mildenhall_Mr" sex="1">
+                     <person xml:id="Mildenhall_Mr" sex="m">
                         <persName>Mr. Mildenhall</persName>
                         <persName>
                            <surname>Mildenhall</surname>
@@ -1075,7 +1075,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note><!--LMW: Possibly Thomas Mildenhall, author of "the governor's wife"?-->
                      </person>
                      
-                     <person xml:id="Debar_Mr" sex="1">
+                     <person xml:id="Debar_Mr" sex="m">
                         <persName>Mr. Debar</persName>
                         <persName>
                            <surname>Debar</surname>
@@ -1087,7 +1087,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>.</note>
                      </person>
                      
-                     <person xml:id="Thomas_Mr" sex="1">
+                     <person xml:id="Thomas_Mr" sex="m">
                         <persName>Mr. Thomas</persName>
                         <persName>
                            <surname>Thomas</surname>
@@ -1099,7 +1099,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Fleming_Mr" sex="1">
+                     <person xml:id="Fleming_Mr" sex="m">
                         <persName>Mr. Fleming</persName>
                         <persName>
                            <surname>Fleming</surname>
@@ -1111,7 +1111,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Kerridge_Mr" sex="1">
+                     <person xml:id="Kerridge_Mr" sex="m">
                         <persName>Mr. Kerridge</persName>
                      <persName>
                         <surname>Kerridge</surname>
@@ -1123,7 +1123,7 @@
                         I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                         </person>
                      
-                     <person xml:id="Green_Mr" sex="1">
+                     <person xml:id="Green_Mr" sex="m">
                         <persName>Mr. Green</persName>
                         <persName>
                            <surname>Green</surname>
@@ -1135,7 +1135,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Cathcart_Mr" sex="1">
+                     <person xml:id="Cathcart_Mr" sex="m">
                         <persName>Mr. Cathcart</persName>
                         <persName>
                            <surname>Cathcart</surname>
@@ -1148,7 +1148,7 @@
                               I</title>: <quote>"The play is wretchedly constructed, with some powerful scenes, many passages of power and considerable effect in the sketch of Cromwell's character, which, deserving first-rate support, was consigned to the murderous Mr. Cathcart--a very poor pretender indeed."</quote> Source: <bibl><title>The Diaries of William Charles Macready, 1833-1851, volume one.</title>Entry for July 12, 1834, page 165.</bibl>" Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Bender_Mr" sex="1">
+                     <person xml:id="Bender_Mr" sex="m">
                         <persName>Mr. Bender</persName>
                         <persName>
                            <surname>Bender</surname>
@@ -1160,7 +1160,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Active 1830s. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Williams_G" sex="1">
+                     <person xml:id="Williams_G" sex="m">
                         <persName>Mr. G. Williams</persName>
                         <persName>
                            <surname>Williams</surname>
@@ -1173,7 +1173,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Chalk_Mr" sex="1">
+                     <person xml:id="Chalk_Mr" sex="m">
                         <persName>Mr. Chalk</persName>
                         <persName>
                            <surname>Chalk</surname>
@@ -1185,7 +1185,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Addison_Mr" sex="1">
+                     <person xml:id="Addison_Mr" sex="m">
                         <persName>Mr. Addison</persName>
                         <persName>
                            <surname>Addison</surname>
@@ -1197,7 +1197,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note><!--lmw: Possibly Edward Phillips Addison?-->
                      </person>
                      
-                     <person xml:id="Forrester_Mr" sex="1">
+                     <person xml:id="Forrester_Mr" sex="m">
                         <persName>Mr. Forrester</persName>
                         <persName>
                            <surname>Forrester</surname>
@@ -1209,7 +1209,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Webster_J" sex="1">
+                     <person xml:id="Webster_J" sex="m">
                         <persName>Mr. J. Webster</persName>
                         <persName>
                            <surname>Webster</surname>
@@ -1222,7 +1222,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Doyne_Mr" sex="1">
+                     <person xml:id="Doyne_Mr" sex="m">
                         <persName>Mr. Doyne</persName>
                         <persName>
                            <surname>Doyne</surname>
@@ -1234,7 +1234,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Lee_T" sex="1">
+                     <person xml:id="Lee_T" sex="m">
                         <persName>Mr. T. Lee</persName>
                         <persName>
                            <surname>Lee</surname>
@@ -1247,7 +1247,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Norman_Master" sex="1">
+                     <person xml:id="Norman_Master" sex="m">
                         <persName>Master Norman</persName>
                         <persName>
                            <surname>Norman</surname>
@@ -1259,7 +1259,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date> in the role of the Duke of Gloucester. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Fisher_Mrs" sex="2">
+                     <person xml:id="Fisher_Mrs" sex="f">
                         <persName>Mrs. Fisher</persName>
                         <persName>
                            <surname>Fisher</surname>
@@ -1271,7 +1271,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Somerville_Miss" sex="2">
+                     <person xml:id="Somerville_Miss" sex="f">
                         <persName>Margaret Agnes Somerville Bunn</persName>
                         <persName>
                            <surname>Somerville</surname>
@@ -1289,7 +1289,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Debuted in <date when="1816">1816</date> in <title>Bertram</title> at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>; she also performed at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>. She married Alfred Bunn, stage manager at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>, who succeeded the <orgName ref="#Kemble_family">Kembles</orgName> and later performed under her married name as Mrs. Bunn.</note>
                      </person>
                      
-                     <person xml:id="Josephine_Miss" sex="2">
+                     <person xml:id="Josephine_Miss" sex="f">
                         <persName>Miss Josephine</persName>
                         <persName>
                            <surname>Josephine</surname>
@@ -1301,7 +1301,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Abbott_Wm" sex="1">
+                     <person xml:id="Abbott_Wm" sex="m">
                         <persName>William Abbott</persName>
                         <persName>
                            <surname>Abbott</surname>
@@ -1321,7 +1321,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. In 1833, he opened the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName>, formerly known as the Coburg, with <persName ref="#Egerton_Dan">Daniel Egerton</persName>. He also served as manager at the <placeName>Haymarket Theatre</placeName> and later moved to <placeName ref="#USA">America</placeName>, where he managed the <placeName>New Charleston Theatre</placeName> in Charleston, South Carolina, in <date when="1837">1837</date>.</note><!-- lmw: mentioned in Hazlitt -->
                      </person>
                      
-                     <person xml:id="Baker_Mr" sex="1">
+                     <person xml:id="Baker_Mr" sex="m">
                         <persName>Mr. Baker</persName>
                         <persName>
                            <surname>Baker</surname>
@@ -1333,7 +1333,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Egerton_Dan" sex="1">
+                     <person xml:id="Egerton_Dan" sex="m">
                         <persName>Daniel Egerton</persName>
                         <persName>
                            <surname>Egerton</surname>
@@ -1349,7 +1349,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. He was primarily a <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> actor, playing secondary characters in tragedy. He also managed the Sadler's Wells theater and the Olympic Theatre in the early 1820s. In 1833, he opened the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName>, formerly known as the Coburg, with <persName ref="#Abbott_Wm">William Abbott</persName>. He retired the following year.</note>
                      </person>
                     
-                     <person xml:id="Ley_Mr" sex="1">
+                     <person xml:id="Ley_Mr" sex="m">
                         <persName>Mr. Ley</persName>
                         <persName>
                            <surname>Ley</surname>
@@ -1361,7 +1361,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed. Active 1810s to 1830s.</note>
                      </person>
                      
-                     <person xml:id="Bennett_Mr" sex="1"> <!--LMW: Is this Bennett_GJ, already defined? if so, update his existing note. -->
+                     <person xml:id="Bennett_Mr" sex="m"> <!--LMW: Is this Bennett_GJ, already defined? if so, update his existing note. -->
                         <persName>Mr. Bennett</persName>
                         <persName>
                            <surname>Bennett</surname>
@@ -1373,7 +1373,7 @@
                            I</title>  at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <!-- <person xml:id="Bennett_GJ" sex="1">
+                     <!-- <person xml:id="Bennett_GJ" sex="m">
                   <persName>
                      <surname>Bennett</surname>
                      <forename>George</forename>
@@ -1390,7 +1390,7 @@
                   </note>
                </person> -->
                      
-                     <person xml:id="Mears_Mr" sex="1">
+                     <person xml:id="Mears_Mr" sex="m">
                         <persName>Mr. Mears</persName>
                         <persName>
                            <surname>Mears</surname>
@@ -1402,7 +1402,7 @@
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Active 1810s to 1830s. Forename unknown. More research needed.</note>
                      </person>
                     
-                     <person xml:id="Comer_Mr" sex="1">
+                     <person xml:id="Comer_Mr" sex="m">
                         <persName>Mr. Comer</persName>
                <persName>
                <surname>Comer</surname>
@@ -1413,7 +1413,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Julian">Julian</title> at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>. Forename unknown. More research needed.</note><!--LMW:  Thomas Comer, musician and actor? Active 1820s and 1830s in London, later in Boston. -->
                      </person>
                      
-                     <person xml:id="Thompson_Mr" sex="1">
+                     <person xml:id="Thompson_Mr" sex="m">
                         <persName>Mr. Thompson</persName>
                         <persName>
                            <surname>Thompson</surname>
@@ -1423,7 +1423,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Lee_Mr" sex="1">
+                     <person xml:id="Lee_Mr" sex="m">
                         <persName>Mr. Lee</persName>
                         <persName>
                            <surname>Lee</surname>
@@ -1433,7 +1433,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Jones_C" sex="1">
+                     <person xml:id="Jones_C" sex="m">
                         <persName>Mr. C. Jones</persName>
                         <persName>
                            <surname>Jones</surname>
@@ -1444,7 +1444,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Active late 1820s into early 1830s. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Cooper_Mr" sex="1">
+                     <person xml:id="Cooper_Mr" sex="m">
                         <persName>Mr. Cooper</persName>
                         <persName>
                            <surname>Cooper</surname>
@@ -1454,7 +1454,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Younge_Mr" sex="1">
+                     <person xml:id="Younge_Mr" sex="m">
                         <persName>Mr. Younge</persName>
                         <persName>
                            <surname>Younge</surname>
@@ -1463,7 +1463,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed. Not to be confused with well-known lead actor <persName ref="#Young_CM">Charles Mayne Young</persName>, who also appeared in the play.</note>
                      </person>
                      
-                     <person xml:id="Bland_Mr" sex="1">
+                     <person xml:id="Bland_Mr" sex="m">
                         <persName>Mr. Bland</persName>
                         <persName>
                            <surname>Bland</surname>
@@ -1473,7 +1473,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Active 1820s. Came to London from provincial theatre in <placeName>Newcastle</placeName>. Forename unknown. More research needed.</note><!-- LMW: Possible a relation of Dorothea Jordan, whose birth name was Bland. However, her brothers appear to be too old or had died before 1828. Possibly J. Bland, who performed "heavy business" for Matthews; or H. Bland, walking gentleman parts? -->
                      </person>
                      
-                     <person xml:id="Mude_Mr" sex="1">
+                     <person xml:id="Mude_Mr" sex="m">
                         <persName>Mr. Mude</persName>
                         <persName>
                            <surname>Mude</surname>
@@ -1483,7 +1483,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Yarnold_Mr" sex="1">
+                     <person xml:id="Yarnold_Mr" sex="m">
                         <persName>Mr. Yarnold</persName>
                         <persName>
                            <surname>Yarnold</surname>
@@ -1493,7 +1493,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Aitken_Mr" sex="1">
+                     <person xml:id="Aitken_Mr" sex="m">
                         <persName>Mr. Aitken</persName>
                         <persName>
                            <surname>Aitken</surname>
@@ -1503,7 +1503,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Phillips_Miss" sex="2">
+                     <person xml:id="Phillips_Miss" sex="f">
                         <persName>Miss Phillips</persName>
                         <persName>
                            <surname>Phillips</surname>
@@ -1513,7 +1513,7 @@
                         <note resp="#esh #lmw">Actress who appeared in her first professional role as <persName ref="#Claudia_R">Claudia</persName> in <title ref="#Rienzi">Rienzi</title> at at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. <persName ref="#MRM">Mitford</persName> intitially expressed concern over the casting of the inexperienced Miss Phillips, but later praised her for her emotionally-charged portrayal. Forename unknown. More research needed.</note>
                      </person>
                      
-                     <person xml:id="Faucit_Mrs" sex="2">
+                     <person xml:id="Faucit_Mrs" sex="f">
                         <persName>Mrs. Faucit</persName>
                         <persName>
                            <surname>Faucit</surname>
@@ -1523,7 +1523,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed. <!--LMW Possibly Helena Faucit? dates seem wrong. --></note>
                      </person>
                      
-                     <person xml:id="Webster_Mrs" sex="2">
+                     <person xml:id="Webster_Mrs" sex="f">
                         <persName>Mrs. Webster</persName>
                         <persName>
                            <surname>Webster</surname>
@@ -1533,7 +1533,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.<!--LMW: Possibly the wife of Benjamin Nottingham Webster? --></note>
                      </person>
                      
-                     <person xml:id="Geesin_Mrs" sex="2">
+                     <person xml:id="Geesin_Mrs" sex="f">
                         <persName>Mrs. Geesin</persName>
                         <persName>
                            <surname>Geesin</surname>
@@ -1544,7 +1544,7 @@
                      </person>
                      
                      
-                     <person xml:id="Pincott_Leonora" sex="2">
+                     <person xml:id="Pincott_Leonora" sex="f">
                         <persName>Leonora Pincott</persName>
                         <persName>
                            <surname>Pincott</surname>
@@ -1557,7 +1557,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. The wife of actor Alfred Wigan, she later appeared as Mrs. Wigan.</note>
                      </person>
                      
-                     <person xml:id="Lacy_Miss" sex="2">
+                     <person xml:id="Lacy_Miss" sex="f">
                         <persName>Miss Lacy</persName>
                         <persName>
                            <surname>Lacy</surname>
@@ -1567,7 +1567,7 @@
                         <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Forename unknown. More research needed.
                            <!--LMW:  PossiblyMaria Lacy? See La Belle Assemblee December 1824, vol. 30, p. 229+ --> </note></person>
                      
-                     <person xml:id="Packer_Chas" sex="1"> 
+                     <person xml:id="Packer_Chas" sex="m"> 
                         <persName>Charles Sandys Packer</persName>
                         <persName>
                            <surname>Packer</surname>
@@ -1592,7 +1592,7 @@
                         </note>
                      </person>
                      
-                     <person xml:id="Shakespeare" sex="1"> <!--LMW: revised entry; I added the MRM quotation on Shakespeare to the note.-->
+                     <person xml:id="Shakespeare" sex="m"> <!--LMW: revised entry; I added the MRM quotation on Shakespeare to the note.-->
                         <persName>William Shakespeare</persName>
                         <persName>
                            <surname>Shakespeare</surname>
@@ -1615,7 +1615,7 @@
                         </note>
                      </person>
                      
-                     <person xml:id="Babo" sex="1">
+                     <person xml:id="Babo" sex="m">
                         <persName>Joseph Marius Babo</persName>
                         <persName>
                            <surname>Babo</surname>
@@ -1636,7 +1636,7 @@
                         </note>
                      </person>
                      
-                     <person xml:id="OttoII" sex="1">
+                     <person xml:id="OttoII" sex="m">
                         <persName>Otto II of Wittelsbach</persName>
                         <persName>
                            <forename>Otto</forename>
@@ -1656,7 +1656,7 @@
                         </note>
                      </person>
                      
-                     <person xml:id="Home_John" sex="1">
+                     <person xml:id="Home_John" sex="m">
                         <persName>John Home</persName>
                         <persName>
                            <surname>Home</surname>
@@ -1677,7 +1677,7 @@
                         </note>
                      </person>
                      
-                     <person xml:id="Thackeray_WM" sex="1">
+                     <person xml:id="Thackeray_WM" sex="m">
                         <persName>William Makepeace Thackeray</persName>
                         <persName>
                            <surname>Thackeray</surname>

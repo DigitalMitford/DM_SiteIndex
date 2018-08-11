@@ -112,7 +112,10 @@
                   
                   <!-- Issues of categorizing and what we might want to do with the data:
                   There seems to be no way to add a type="trades" or anything similar that would designate a social class, to the <occupation> tag directly.
+   EBB: NOT SO! WE CAN PUT @type on <occupation>. TRY IT.  AND WE SHOULD DO THIS. TRY @type and @subtype. 
+   
                   From the TEI guidelines it appeared that we would need to set a schema that might categorize those, or we could continue to do what we've been doing and just add a more general <occupation> tag to the specific one.  ie, use <occupation>working class<occupation> <occupation>trades<occupation> <occupation>blacksmith</occupation>.
+                  EBB: YES, WE SHOULD MAKE SCHEMA RULES TO GOVERN THE SPECIFIC VALUES TO USE.
                   
                   Some categories to consider, not currently in use: TRADES, SERVICE, THEATER, EDUCATION (although we've used EDUCATOR). 
                   
