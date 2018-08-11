@@ -136,15 +136,56 @@
                   </attDef>
                   <attDef ident="subtype" mode="replace" usage="opt">
             <valList type="closed">
+               <!--Subtypes related to type="artist" -->
                <valItem ident="painter"><gloss>with type="artist": Designate type of painter as appropriate in the note element.</gloss></valItem>
                <valItem ident="printmaker"><gloss>with type="artist": this includes printmaking for books.</gloss></valItem>
                <valItem ident="engraver"><gloss>with type="artist": this includes engravings for books.</gloss></valItem> 
                <valItem ident="sculptor"><gloss>with type="artist".</gloss></valItem>
                <valItem ident="architect"><gloss>with type="artist". for designers of buildings.</gloss></valItem>
-               <valItem ident="landscape"><gloss>with type="artist".</gloss></valItem>
-               <valItem ident="illustrator"><gloss>with type="artist".</gloss></valItem>
-              
-            </valList>         
+               <valItem ident="landscape"><gloss>with type="artist". for designers and planners of gardens. The occupation of gardener, for one who helps maintain a garden, goes with @type="service" </gloss></valItem>
+               <valItem ident="illustrator"><gloss>with type="artist". This includes book illustrators.</gloss></valItem>
+               <!--Subtypes related to type="bookProducer" -->
+              <valItem ident="publisher"><gloss>with type="bookProducer".</gloss></valItem>
+               <valItem ident="printer"><gloss>with type="bookProducer". Do not use for art printing. For that, use one of the subtypes associated with type="artist".</gloss></valItem>
+               <valItem ident="binder"><gloss>with type="bookProducer".</gloss></valItem>
+               <valItem ident="bookseller"><gloss>with type="bookProducer".</gloss></valItem>
+               <!--Subtypes related to type="religious" -->
+               <valItem ident="clergy"><gloss>with type="religious".</gloss></valItem>
+               <valItem ident="prophet"><gloss>with type="religious".</gloss></valItem>
+               <valItem ident="vicar"><gloss>with type="religious".</gloss></valItem>
+               <valItem ident="curate"><gloss>with type="religious".</gloss></valItem>
+               <valItem ident="minister"><gloss>with type="religious".</gloss></valItem>
+               <valItem ident="priest"><gloss>with type="religious". Use for Catholic clergy as well as Greek/Roman clergy. Synonymous with priestess for the purposes of our encoding.</gloss></valItem>
+               <!--Subtypes related to type="educator" -->
+               <valItem ident="teacher"><gloss>with type="educator".</gloss></valItem>
+               <valItem ident="schoolHead"><gloss>with type="educator". (for headmistress, schoolmaster, etc.)</gloss></valItem>
+               <valItem ident="governess"><gloss>with type="educator".</gloss></valItem>
+               <valItem ident="tutor"><gloss>with type="educator".</gloss></valItem>
+               <!--Subtypes related to type="scholar" -->
+               <valItem ident="philosopher"><gloss>with type="scholar". Distinct from natural philosopher.</gloss></valItem> 
+               <valItem ident="naturalist"><gloss>with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</gloss></valItem>
+               <valItem ident="astronomer"><gloss>with type="scholar".</gloss></valItem> 
+               <valItem ident="curator"><gloss>with type="scholar". for antiquarian collectors and those working in libraries and museums.</gloss></valItem>
+               <valItem ident="antiquarian"><gloss>with type="scholar". For those who research artifacts rather than collect them.</gloss></valItem>
+               <valItem ident="historian"><gloss>with type="scholar". </gloss></valItem>
+               <valItem ident="inventor"><gloss>with type="scholar". </gloss></valItem>
+               <valItem ident="economist"><gloss>with type="scholar". </gloss></valItem>
+               <valItem ident="agronomist"><gloss>with type="scholar". For those who study agriculture.</gloss></valItem>
+               <!--Subtypes related to type="explorer" --> 
+               <valItem ident="traveller"><gloss>with type="explorer".</gloss></valItem>
+               <valItem ident="navigator"><gloss>with type="explorer".</gloss></valItem>
+               <valItem ident="cartographer"><gloss>with type="explorer".</gloss></valItem>
+               <valItem ident="seaCaptain"><gloss>with type="explorer". Commands a ship, distinct from military post.</gloss></valItem>
+               <!--Subtypes related to type="legal" --> 
+               <valItem ident="barrister"><gloss>with type="legal". British lawyers who can plead in court.</gloss></valItem>
+               <valItem ident="solicitor"><gloss>with type="legal". British lawyers who do not plead in court.</gloss></valItem>
+               <valItem ident="lawyer"><gloss>with type="legal". ONLY appropriate if law practitioner from the United States.</gloss></valItem>  
+               <valItem ident="judge"><gloss>with type="legal". ex: Mr. Justice Talfourd</gloss></valItem>  
+               <valItem ident="magistrate"><gloss>with type="legal". ex: George Mitford</gloss></valItem>  
+               <valItem ident="recorder"><gloss>with type="legal". </gloss></valItem> 
+               <!--Subtypes related to type="literary" -->
+               
+                     </valList>      
                   </attDef>
                </attList>
             </elementSpec>
