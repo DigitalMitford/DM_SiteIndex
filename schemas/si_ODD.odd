@@ -135,7 +135,8 @@
                      </valList>
                   </attDef>
                   <attDef ident="subtype" mode="replace" usage="opt">
-            <valList type="closed">
+                     <datatype><dataRef name="string"/></datatype>
+            <valList type="semi">
                <!--Subtypes related to type="artist" -->
                <valItem ident="painter"><gloss>with type="artist": Designate type of painter as appropriate in the note element.</gloss></valItem>
                <valItem ident="printmaker"><gloss>with type="artist": this includes printmaking for books.</gloss></valItem>
@@ -184,7 +185,81 @@
                <valItem ident="magistrate"><gloss>with type="legal". ex: George Mitford</gloss></valItem>  
                <valItem ident="recorder"><gloss>with type="legal". </gloss></valItem> 
                <!--Subtypes related to type="literary" -->
-               
+               <valItem ident="novelist"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="poet"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="playwright"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="essayist"><gloss>with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.</gloss></valItem> 
+               <valItem ident="critic"><gloss>with type="literary". For literary, theatre / art critics and reviewers.</gloss></valItem> 
+               <valItem ident="journalist"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="editor"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="biographer"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="autobiographer"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="lexicographer"><gloss>with type="literary". </gloss></valItem> 
+               <valItem ident="linguist"><gloss>with type="literary". For those who systemically study languages, not simply translators.</gloss></valItem> 
+               <valItem ident="translator"><gloss>with type="literary". </gloss></valItem> 
+               <!--Subtypes related to type="theater" -->  
+               <valItem ident="actor"><gloss>with type="theater". General term for all sexes; do not use "actress".</gloss></valItem> 
+               <valItem ident="singer"><gloss>with type="theater". Includes opera singers in performing roles. </gloss></valItem> 
+               <valItem ident="manager"><gloss>with type="theater". For actor-managers and theater managers like William Macready.</gloss></valItem> 
+               <valItem ident="owner"><gloss>with type="theater". </gloss></valItem> 
+               <valItem ident="designer"><gloss>with type="theater". For production designers, costume-makers, makers of stage sets and props.</gloss></valItem> 
+               <valItem ident="musician"><gloss>with type="theater". For pit players of music supporting the stage.</gloss></valItem>   
+               <valItem ident="composer"><gloss>with type="theater". For writers of instrumental and vocal music for the stage, including lyricists and librettists.</gloss></valItem>
+               <!--Subtypes related to type="medical" -->
+               <valItem ident="physician"><gloss>with type="medical".</gloss></valItem>
+               <valItem ident="surgeon"><gloss>with type="medical". Includes barbers and others who do surgery and bloodletting.</gloss></valItem>
+               <valItem ident="apothecary"><gloss>with type="medical". For pharmacy specialists.</gloss></valItem>
+               <valItem ident="midwife"><gloss>with type="medical". Includes, should we ever see one, a "man-midwife" or a male who assists with births and is not a physician or surgeon.</gloss></valItem>
+               <valItem ident="oculist"><gloss>with type="medical".</gloss></valItem>
+               <!--Subtypes related to type="military" -->
+               <valItem ident="army"><gloss>with type="military".</gloss></valItem>    
+               <valItem ident="navy"><gloss>with type="military".</gloss></valItem>
+               <!--Subtypes related to type="benefactor" -->
+               <valItem ident="philanthropist"><gloss>with type="benefactor". For doers of benevolent activities outside of the arts</gloss></valItem>
+               <valItem ident="patron"><gloss>with type="benefactor". For supporters of the arts, theatre, and writers</gloss></valItem>
+               <!--Subtypes related to type="government" -->
+               <valItem ident="monarch"><gloss>with type="government". Titles like King, Queen, Princess are coded in &lt;roleName&gt;, not &lt;occupation&gt;.</gloss></valItem> 
+               <valItem ident="politician"><gloss>with type="government". Use for elected officials and those running for election or who are in office by reason of political party or affiliation. Code their official title (such as "Member of Parliament for Westminster) with &lt;roleName&gt;.</gloss></valItem>  
+               <valItem ident="orator"><gloss>with type="government". For political or reformist orators who are not clergy, actors, or prophets.</gloss></valItem>  
+               <valItem ident="reformer"><gloss>with type="government". Any public advocate for political or social reform.</gloss></valItem>  
+               <valItem ident="courtier"><gloss>with type="government". For aristocracy and others whose job is to serve at court in some capacity.</gloss></valItem>  
+               <valItem ident="diplomat"><gloss>with type="government". Ambassadors and other diplomatists. Roles like “Ambassador to the Court of St. James” are coded in &lt;roleName&gt;.</gloss></valItem>  
+               <valItem ident="administrator"><gloss>with type="government". For management positions, high-ranking civil service positions within the British empire, etc. Lower-ranking positions should be coded as subtype="clerk".</gloss></valItem>  
+               <valItem ident="clerk"><gloss>with type="government".</gloss></valItem>  
+               <valItem ident="taxCollector"><gloss>with type="government".</gloss></valItem>  
+               <valItem ident="post"><gloss>with type="government". For postal service occupations.</gloss></valItem>
+               <!--Subtypes related to type="service" -->
+               <valItem ident="butler"><gloss>with type="service".</gloss></valItem> 
+               <valItem ident="maid"><gloss>with type="service".</gloss></valItem> 
+               <valItem ident="footman"><gloss>with type="service".</gloss></valItem> 
+               <valItem ident="cook"><gloss>with type="service".</gloss></valItem>
+               <valItem ident="housekeeper"><gloss>with type="service".</gloss></valItem>   
+               <valItem ident="gardener"><gloss>with type="service".</gloss></valItem>   
+               <!--Subtypes related to type="trade" -->
+               <valItem ident="baker"><gloss>with type="trade".</gloss></valItem>
+               <valItem ident="butcher"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="farmer"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="bricklayer"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="mason"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="chandler"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="wheelwright"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="carpenter"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="watchmaker"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="miller"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="blacksmith"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="goldsmith"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="jeweller"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="tanner"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="saddler"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="bootmaker"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="shoemaker"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="innkeeper"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="merchant"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="clerk"><gloss>with type="trade". For an employee in a shop.</gloss></valItem> 
+               <valItem ident="banker"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="stockbroker"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="auctioneer"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="gambler"><gloss>with type="trade".</gloss></valItem> 
                      </valList>      
                   </attDef>
                </attList>
