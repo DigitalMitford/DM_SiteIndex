@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0"
+   version="2.9.1"
+   xml:lang="en">
+   <!-- 2018-08-08 ebb: The full ODD file is mitfordODD.odd.
+      To make/edit/update the complete ODD: 
+      * Make any necessary edits to the document model (element modules from the TEI, general constraints, anything except Site Index updates) in the mitfordEditable.odd file.
+      * If updating the ODD because of new site index updates, 
+            1) be sure the new SI is posted at http://digitalmitford.org/si.xml. 
+            2) Generate elementSpecs for new named entity markup (persons, places, titles, etc) with attribute values for @ref and @corresp 
+      by running si-to-ODD.xsl over the current si.xml stored at http://digitalmitford.org/si.xml.
+     * Finally generate the full ODD file by running mitfordODD-Combiner.xsl on mitfordEditable.odd, which pulls in site index data stored in MRMProsopREf.odd. 
+     Save the output as mitfordODD.odd
+     * "Run the wrench" in oXygen to generate the new Relax-NG XML-syntax project schema and HTML documentation for the project.
+  -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital Mitford ODD for Site Index Files</title>
+            <author>Elisa Beshero-Bondar</author>
+         </titleStmt>
+         <editionStmt xml:id="edition">
+            <edition>First digital edition in TEI P5, prepared on <date when="2018-08-11">August 11, 2018</date> in Norwood, NY.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Prepared in TEI P5 by Elisa Beshero-Bondar in the Digital Mitford GitHub repository: <ref target="https://github.com/DigitalMitford/DM_SiteIndex"/>.
+            </authority>
+            <availability>
+               <licence>Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) approved for Free Cultural Works <ref target="https://creativecommons.org/licenses/by-sa/4.0/"/>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>This ODD customizes the TEI P5 for use in the prosopography index file known as our <q>Site Index</q>, which holds a narrower range of elements than in use in the wider project. It also customizes the TEI for all <q>SI-Add</q> files prepared as draft additional entries proposed for the published Site Index.</p>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Born digital, based on information presented in the Digital Mitford Codebook at <ref target="http://codebook.mitford.pitt.edu"/>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2018-08-11" who="#ebb">Prepared this ODD file while visiting Lisa Wilson in Norwood, NY.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <schemaSpec ident="mitfordODD" start="TEI teiCorpus" prefix="tei">
+            <moduleRef key="tei"/>
+            <moduleRef key="core" except="add addrLine address analytic biblStruct binaryObject cb choice corr del distinct divGen gap gb hi imprint index lb measure measureGrp media monogr pb speaker stage unclear"/>
+            <moduleRef key="header"/>
+            <moduleRef key="namesdates"/>
+            <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7 argument byline closer dateline docAuthor docDate docEdition docImprint docTitle epigraph floatingText group imprimatur opener postscript salute signed titlePage titlePart trailer"/>
+            <moduleRef key="linking"/>
+            <moduleRef key="figures" except="formula notatedMusic"/>         
+            <constraintSpec scheme="schematron" ident="xmlIDs">
+               <constraint>
+                  <sch:rule context="tei:TEI//@xml:id">
+                     <sch:report test="matches(., '\s+')" role="fatal">
+                        @xml:id values may NOT contain white spaces!
+                     </sch:report>        
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="schematron" ident="refsReq">
+               <constraint>
+                  <sch:rule context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]">
+                     <sch:let name="currentNode" value="."/>
+                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:*[@xml:id][not(self::* eq $currentNode/ancestor::*[1][@xml:id])]][*[not(self::note) and not(self::birth) and not (self::death)][contains(string(), $currentNode)]]/@xml:id"/>
+                     <sch:report test="$matchingEntry" role="info">
+                        This element (coded in a note) is missing an @ref attribute but may have a matching entry in the Site Index: Could it be this (or one of these)? <sch:value-of select="string-join($matchingEntry, ', ')"/>.
+                     </sch:report>  
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="schematron" ident="correspReq">
+               <constraint>
+                  <sch:rule context="tei:note//tei:bibl[not(@corresp)]">
+                     <sch:let name="currentNode" value="."/>
+                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:listBibl/tei:bibl[@xml:id][not(self::* eq $currentNode/ancestor::bibl[1][@xml:id])]][*[not(self::note)][contains(string(), $currentNode)]]/@xml:id"/>
+                     <sch:assert test="@corresp">
+                        The current bibl element (coded in a note) lacks an @corresp attribute, but may have a matching entry in the Site Index: Could it be this (or one of these)? <sch:value-of select="string-join($matchingEntry, ', ')"/>.  
+                     </sch:assert>  
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <constraintSpec scheme="schematron" ident="hashtaggery">
+               <constraint>
+                  <sch:rule context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit">
+                     <sch:assert test="starts-with(., '#')" role="fatal">
+                        Attributes @ref, @who, @corresp, and @wit must begin with a hashtag.
+                     </sch:assert>  
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>
+            <!--sex codes on person element: m, f, m f, and u -->           
+            <elementSpec ident="person" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="sex" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="m"><gloss>for persons identified as male.</gloss></valItem>
+                        <valItem ident="f"><gloss>for persons identified as female.</gloss></valItem>
+                        <valItem ident="m f"><gloss>for persons identified as of transitional or multiple sexual identities.</gloss></valItem>
+                        <valItem ident="u"><gloss>for persons with unidentified or unknown sexual identity.</gloss></valItem>  
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="occupation" module="namesdates" mode="replace">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="artist"/>
+                        <valItem ident="bookProducer"/>
+                        <valItem ident="religious"/>
+                        <valItem ident="educator"/>
+                        <valItem ident="scholar"/>
+                        <valItem ident="explorer"/>
+                        <valItem ident="legal"/>
+                        <valItem ident="literary"/>
+                        <valItem ident="theater"/>
+                        <valItem ident="medical"/>
+                        <valItem ident="military"/>
+                        <valItem ident="benefactor"/>
+                        <valItem ident="government"/>
+                        <valItem ident="service"/>
+                        <valItem ident="trade"/>                
+                     </valList>
+                  </attDef>
+                  <attDef ident="subtype" mode="replace" usage="opt">
+            <valList type="closed">
+               <valItem ident="painter"><gloss>with type="artist": Designate type of painter as appropriate in the note element.</gloss></valItem>
+               <valItem ident="printmaker"><gloss>with type="artist": this includes printmaking for books.</gloss></valItem>
+               <valItem ident="engraver"><gloss>with type="artist": this includes engravings for books.</gloss></valItem> 
+               <valItem ident="sculptor"><gloss>with type="artist".</gloss></valItem>
+               <valItem ident="architect"><gloss>with type="artist". for designers of buildings.</gloss></valItem>
+               <valItem ident="landscape"><gloss>with type="artist".</gloss></valItem>
+               <valItem ident="illustrator"><gloss>with type="artist".</gloss></valItem>
+              
+            </valList>         
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="rs" module="core" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="person">
+                           <gloss>Use only when you need to disambiguate unnamed references to people. When there is a name, use the persName element.</gloss>
+                        </valItem>
+                        <valItem ident="org">
+                           <gloss>Use only when you need to disambiguate unnamed references to organizations, families, collectives of people. When there is a name, use the orgName element.</gloss>
+                        </valItem>
+                        <valItem ident="place">
+                           <gloss>Use only when you need to disambiguate unnamed references to places. When there is a name, use the placeName element.</gloss>
+                        </valItem>
+                        <valItem ident="event">
+                           <gloss>Use only when you need to disambiguate unnamed references to events. When there is a name, use the name element with type="event".</gloss>
+                        </valItem>
+                        <valItem ident="letter">
+                           <gloss>Use to mark references to correspondence.</gloss>
+                        </valItem>
+                        <valItem ident="plant">
+                           <gloss>Use to mark references to plants by kind, variety, genus, and/or species. If you see a kind, variety, genus, and/or species name, use the name element with type="plant".</gloss>
+                        </valItem>
+                        <valItem ident="animal">
+                           <gloss>Use to mark references to animal types when they are unnamed by kind, variety, genus, and/or species. If you see a kind, variety, genus, and/or species name, use the name element with type="animal". </gloss>
+                        </valItem>
+                        <valItem ident="title">
+                           <gloss>Use only where necessary to mark unnamed references to documents, readings, texts in the absence of a title. If this is a title, use the title element with an @ref. If there is mention of an author, date, or other bibliographic information all together, like Scott's Midlothian, use a bibl element with @corresp around the full span of referencing text, wrapping the parts as you can with author and title elements (no @ref attributes needed inside, just @corresp on the outer bibl) .</gloss>
+                        </valItem>
+                        <valItem ident="art">
+                           <gloss>Use only where necessary to mark unnamed references to works of art in the absence of a title. If you have a title, use the title element with type="art".</gloss>
+                        </valItem>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+         </schemaSpec>
+      </body>
+  </text>
+</TEI>
