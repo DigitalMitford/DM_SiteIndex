@@ -173,7 +173,15 @@
                </attList>
             </elementSpec>
             <!--Occupation coding -->
-            <elementSpec ident="occupation" module="namesdates" mode="replace">
+        <!--    <elementSpec ident="person" module="namesdates" mode="change">
+               <content>
+                  <elementRef key="occupation" minOccurs="0" maxOccurs="unbounded"/>
+               </content>
+            </elementSpec>-->
+        <elementSpec ident="occupation" module="namesdates" mode="change">
+           <content>
+              <empty/>
+           </content>
                <attList>
                   <attDef ident="type" mode="replace" usage="req">
                      <valList type="closed">
