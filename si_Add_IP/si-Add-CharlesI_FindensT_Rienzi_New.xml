@@ -139,12 +139,8 @@
                    <placeName>London, England</placeName></birth>
                 <death when="1170-01-29">
                    <placeName>Canterbury, Kent, England</placeName></death>
-                <occupation>clergy</occupation>
-                <occupation>politician</occupation>
-                <occupation>priest</occupation>
-                <occupation>archdeacon</occupation>
-                <occupation>bishop</occupation>
-                <occupation>martyr</occupation>
+                <occupation type="government" subtype="politician"/>
+                <occupation type="religious" subtype="priest"/>
                 <note resp="#jgf #lmw #rnes">As Archbishop of Canterbury, Becket quarreled with King Henry II over the balance of power between the church and crown. Becket was murdered by four knights while at prayer in Canterbury Cathedral. The king had reportedly been heard to ask the four knights "Will no one rid me of this meddlestome priest?," thereby calling for Becket's assassination without literally ordering it. Becket was canonized by the Roman Catholic Church as a saint in 1173.</note>
                 <note><ref target="http://viaf.org/viaf/100187947"/></note>
              </person>
@@ -163,8 +159,8 @@
                    <roleName>King of England</roleName></persName>
                 <birth when="1133"><placeName>Le Mans, France</placeName></birth>
                 <death when="1189-07-06"><placeName>Chinon Castle, near Tours, France</placeName></death>
-                <occupation>royalty</occupation>
-                <occupation>military</occupation>
+                <occupation type="government" subtype="monarch"/>
+                <occupation type="military" subtype="army"/>
                 <note resp="#jgf #slc #rnes">Henry II, the son of Geoffrey Plantagenet and the Empress Matilda, was denominated the heir of Matilda's cousin King Stephen at the conclusion of the Wars of Stephen and Matilda. Ruler of an empire that stretched from France to Scotland, Henry is known for his marriage to Eleanor of Aquitaine, his quarrel with and apparent involvement in the assassination of Thomas of Becket, Archbishop of Canterbury, and the wars between his sons, which contributed to his death at the age of fifty-six. Source: Britannica.</note>
                 <note><ref target="https://viaf.org/viaf/90145970073532250834"/></note>
              </person>
@@ -177,16 +173,15 @@
                 </persName>
                 <birth when="1573-07-15"><placeName>Smithfield, London, England</placeName></birth>
                 <death when="1652-06-21"><placeName>Somerset House, the Strand, London, England</placeName></death>
-                <occupation>theater</occupation>
-                <occupation>designer</occupation>
-                <occupation>architect</occupation>
-                <occupation>artist</occupation>
+                <occupation type="theater" subtype="designer"/>
+                <occupation type="artist" subtype="architect"/>
                 <note resp="#rnes">Educated in Italy, Inigo Jones attracted the patronage of the English and Scandinavian courts and developed the English Neoclassical style of architecture. His buildings include James I's Banqueting Hall at Whitehall Palace, London which, within Jones's lifetime, later served as the backdrop for the execution of Charles I.</note>
                 <note><ref target="https://viaf.org/viaf/66475425"/></note>
              </person>
              
              <person xml:id="Hutchinson_John" sex="m">
-                <persName>John Hutchinson
+                <persName>John Hutchinson</persName>
+                <persName>
                    <surname>Hutchinson</surname>
                    <forename>John</forename>
                    <roleName>Colonel</roleName>
@@ -198,13 +193,10 @@
                 </persName>
                 <birth from="1615-01" to="1616-12"><placeName>Nottinghamshire</placeName></birth>
                 <death when="1664-09-11"><placeName>Sandown Castle, Kent, England</placeName></death>
-                <occupation>politician</occupation>
-                <occupation>military</occupation>
-                <occupation>soldier</occupation>
-                <occupation>legal</occupation>
-                <occupation>judge</occupation>
-                <occupation>regicide</occupation>
-                <note resp="#rnes">A Cambridge-educated Parliamentarian leader of Puritan convictions during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, Hutchinson subsequently participated in the trial of <persName ref="#ChasI">Charles I</persName> and signed his death warrant, thereby becoming a regicide. The husband and biographical subject of the writer <persName ref="#Hutchinson_Lucy">Lady Lucy Hutchinson</persName>, Hutchinson escaped execution for regicide under suspicious circumstances apparently engineered by his wife. However, he was arrested in 1663 for allegedly plotting against <persName ref="#ChasII">King Charles II</persName> and died in prison. The extremely belated publication of Lucy Hutchinson's <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Memoirs of the Life of Colonel Hutchinson</title> in 1806 made him posthumously famous.</note>
+                <occupation type="government" subtype="politician"/>
+                <occupation type="military" subtype="army"/>
+                <occupation type="legal" subtype="judge"/>
+                <note resp="#rnes">A Cambridge-educated <orgName ref="#Parliamentarians">Parliamentarian</orgName> leader of Puritan convictions during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, Hutchinson subsequently participated in the trial of <persName ref="#ChasI">Charles I</persName> and signed his death warrant, thereby becoming a regicide. The husband and biographical subject of the writer <persName ref="#Hutchinson_Lucy">Lady Lucy Hutchinson</persName>, Hutchinson escaped execution for regicide under suspicious circumstances apparently engineered by his wife. However, he was arrested in 1663 for allegedly plotting against <persName ref="#ChasII">King Charles II</persName> and died in prison. The extremely belated publication of Lucy Hutchinson's <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Memoirs of the Life of Colonel Hutchinson</title> in 1806 made him posthumously famous.</note>
                 <note><ref target="https://viaf.org/viaf/10793919"/></note>
              </person>
              
@@ -220,11 +212,8 @@
                      <placeName>England</placeName>
                   </birth>
                   <death when="1681"><placeName>Owthorpe, Nottinghamshire, England</placeName></death>
-             <occupation>literary</occupation>
-                <occupation>biographer</occupation>
-                <occupation>poet</occupation>
-                <occupation>translator</occupation>
-                <occupation>theologian</occupation>
+             <occupation type="literary" subtype="biographer poet translator"/>
+                <occupation type="scholar"/>
                 <note resp="#rnes"><p>An exceptionally well-educated and self-assured early modern woman whose literary achievements are extremely significant. Her works include the first complete English translation of Lucretius's controversial Epicurean poem <title>De Rerum Natura</title> (in ms. only until 2012), the epic poem <title>Order and Disorder</title>, which has been read as a proto-feminist take on Genesis that invites comparison with her contemporary <title ref="#ParadiseLost">John Milton's Paradise Lost</title>, and her <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Memoirs of the Life of Colonel John Hutchinson</title>, a biography of her husband that brings to life the drama of the <rs type="event" ref="#EngCivilWar">Civil Wars</rs> and the idealism of the Puritans, particularly for religious liberty and republican government. This work, published in 1806, is the only Lucy Hutchinson composition that was known as such during <persName ref="#MRM">Mitford</persName>'s lifetime.</p>
                    <p>Born Lucy Apsley, the daughter of Sir Allen Apsley, Lieutenant of the Tower of London. In 1638 she fell mutually in love with and married Sir John Hutchinson. While he fought on the <orgName ref="#Parliamentarians">Parliamentarian side</orgName> in the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, she provided material assistance, at one point contriving for her brother-in-law (Hutchinson's brother) to pose as him while the real Colonel Hutchinson escaped arrest by the Royalists. At the <rs type="event" ref="#Restoration">Restoration</rs>, she may have saved his life by forging an apologetic letter that he might have been more reticent to write.</p>
                    <p>As the critic <persName>Devoney Looser</persName> has shown, Lucy Hutchinson became an extremely well-known figure during the nineteenth century, featuring as a heroine in many works of fiction and drama.</p></note>
@@ -243,10 +232,9 @@
                    <placeName>Olantigh, Wye, Kent, England</placeName></birth>
                 <death when="1791-06-22">
                    <placeName>Binfield, Berkshire, England</placeName></death>
-                <occupation>literary</occupation>
-                <occupation>essayist</occupation>
-                <occupation>historian</occupation>
-                <occupation>reformer</occupation>
+                <occupation type="literary" subtype="essayist"/>
+               <occupation type="government" subtype="reformer"/>
+                <occupation type="scholar" subtype="historian"/>
                 <note resp="#jgf #lmw">Important English historian during the eighteenth century, celebrated and vilified during her lifetime as a female intellectual, "Bluestocking," and the "Republican Virago." Her politics were Whig, reformist, and anti-Catholic, and they became increasingly radical in her later years, when she attacked the writings of <persName ref="#Burke_E">Edmund Burke</persName>. Whigs embraced the early volumes of her <title>History of England</title> as supporting their views of political history. Her interpretation of the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs> was influential; she wrote admiringly of the <orgName ref="#Parliamentarians">Parliamentarians</orgName> and condemned <persName ref="#Cromwell">Cromwell</persName>'s actions and the execution of <persName ref="#ChasI">Charles I</persName>.</note>
                 <note><ref target="http://viaf.org/viaf/51936664"/></note>
              </person>
@@ -281,9 +269,8 @@
                 <death when="1811">
                    <placeName>Layer Breton, Essex, England</placeName>
                 </death>
-                <occupation>clergy</occupation>
-                <occupation>literary</occupation>
-                <occupation>editor</occupation>
+                <occupation type="religious" subtype="vicar"/>
+                <occupation type="literary" subtype="editor"/>
                 <note resp="#rnes #lmw">A lateral descendant of Sir John Hutchinson through his brother Charles (1637-1695), Julius Hutchinson edited <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Lucy Hutchinson's Memoirs of the Life of Sir John Hutchinson</title> from the manuscript at Owthorpe (the Hutchinson estate) and allowed it to be published in 1806.</note>
                 <note><ref target="https://viaf.org/viaf/45499749"/></note>
              </person>
@@ -309,10 +296,8 @@
                    <placeName>Palazzo Muti, Rome, States of the Church</placeName></birth>
                 <death when="1788-01-31">
                    <placeName>Palazzo Muti, Rome, States of the Church</placeName></death>
-                <occupation>military</occupation>
-                <occupation>politician</occupation>
-                <occupation>royalty</occupation>
-                <note resp="#rnes #jgf #lmw">The famously beautiful son of the <persName ref="#James_oldPretender">"Old Pretender" (James, son of the deposed King James II)</persName>, Charles Edward Stuart (also known as "the Young Pretender" and "Bonnie Prince Charlie" staged an invasion of Scotland in 1745. The resulting Jacobite Wars resulted in Stuart's decisive defeat at the Battle of Culloden (1746) and his evacuation, in female disguise, to the Isle of Skye, and eventual Continental exile. His death ended the Jacobite attempts to recover the British crown.</note>
+                <occupation type="military"/>
+                <occupation type="government" subtype="courtier politician"/>                <note resp="#rnes #jgf #lmw">The famously beautiful son of the <persName ref="#James_oldPretender">"Old Pretender" (James, son of the deposed King James II)</persName>, Charles Edward Stuart (also known as "the Young Pretender" and "Bonnie Prince Charlie" staged an invasion of Scotland in 1745. The resulting Jacobite Wars resulted in Stuart's decisive defeat at the Battle of Culloden (1746) and his evacuation, in female disguise, to the Isle of Skye, and eventual Continental exile. His death ended the Jacobite attempts to recover the British crown.</note>
                 <note><ref target="https://viaf.org/viaf/45499749"/></note>
              </person>
              
@@ -325,8 +310,9 @@
                 <roleName>Professor</roleName>
                 </persName>
                 <birth when="1946-10-09"/>
-                <occupation>writer</occupation>
-                <occupation>educator</occupation>
+                <occupation type="literary" subtype="critic"/>
+                <occupation type="educator"/>
+                <occupation type="scholar"/>
                 <note resp="#jgf #lmw">Distinguished Professor of English at Queens College and the Graduate Center, CUNY.</note>
                 <note><ref target="http://english.qc.cuny.edu/quick-links/richard-mccoy/"/></note>
                 <note><ref target="http://viaf.org/viaf/57311"/></note>
@@ -340,8 +326,9 @@
                    <roleName>Professor</roleName>
                 </persName>
                 <birth when="1958"/>
-                <occupation>writer</occupation>
-                <occupation>educator</occupation>
+                <occupation type="literary" subtype="critic"/>
+                <occupation type="educator"/>
+                <occupation type="scholar"/>
                 <note resp="#jgf #lmw">UW George Duke Humphrey Distinguished Professor in the Department of English at the University of Wyoming.</note>
                 <note><ref target="http://viaf.org/viaf/310589154"/></note>
              </person>
@@ -375,9 +362,9 @@
                    <roleName>Professor</roleName>
                    <roleName>Fellow of the Royal Historical Society</roleName>
                 </persName>
-                <occupation>literary</occupation>
-                <occupation>historian</occupation>
-                <occupation>educator</occupation>
+                <occupation type="literary" subtype="critic"/>
+                <occupation type="educator"/>
+                <occupation type="scholar" subtype="historian"/>
                 <note resp="#jgf #lmw">Fellow of the Royal Historical Society, Head of Humanities, and a faculty member in the Department of History at Bath Spa University.</note>
                 <note><ref target="http://viaf.org/viaf/14864873"/></note>
                 <note><ref target="https://www.bathspa.ac.uk/our-people/alan-marshall/"/></note>
@@ -483,6 +470,9 @@
                    <roleName>Professor</roleName>
                 </persName>
                 <birth when="1950-06-01"/>
+                <occupation type="literary" subtype="critic"/>
+                <occupation type="educator"/>
+                <occupation type="scholar"/>
                 <note resp="#lmw">Emeritus Merton Professor of Renaissance English literature at Oxford University.</note>
                 <note><ref target="http://www.english.ox.ac.uk/people/professor-david-norbrook"/></note>
                 <note><ref target="http://viaf.org/viaf/109072501"/></note>
@@ -497,6 +487,9 @@
                 <birth when="1940">
                    <placeName>Jamaica</placeName>
                 </birth>
+                <occupation type="literary" subtype="critic"/>
+                <occupation type="educator"/>
+                <occupation type="scholar"/>
                 <note resp="#lmw">Emeritus Professor of English Literature at Anglia Ruskin University in Cambridge and Chelmsford, formerly CCAT.</note>
                 <note><ref target="http://www.anglia.ac.uk/arts-law-and-social-sciences/department-of-english-and-media/our-staff/nora_crook"/></note>
                 <note><ref target="http://viaf.org/viaf/41868313"/></note>
@@ -644,7 +637,7 @@
                 <birth when="1635-12-28">
                    <placeName>St. James's Palace, London, England</placeName>
                 </birth>
-                <death when="1650-09-08">
+                <death when="1650-09-08"> 
                    <placeName>Carisbrooke Castle, Isle of Wight</placeName>
                 </death>
                 <note resp="#ebb #lmw">The second daughter of <persName ref="#ChasI">Charles I</persName> and <persName ref="#Qu_Henrietta">Queen Henrietta Maria</persName>. She was imprisoned during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs> from age six to her death from pneumonia in 1650 at age fourteen. She is portrayed as a girl aged twelve, in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>.</note>
@@ -670,6 +663,7 @@
                 <death when="1669-09-10">
                    <placeName>Château de Colombes, Colombes, France</placeName>
                 </death>
+                <occupation type="government" subtype="monarch"/>
                 <note resp="#lmw">Daughter of Henry IV of France and Marie de Medici. House of Bourbon. Spouse of <persName ref="#ChasI">Charles I</persName> and mother of <persName ref="#ChasII">Charles II</persName> and <persName ref="#JamesII">, she was called Maria or Mary while in England.</persName></note>
                 <note><ref target="http://viaf.org/viaf/88851046"/></note>
              </person>
@@ -683,12 +677,13 @@
                   </persName>
                   <persName>
                      <forename>Judith</forename> <nameLink>of</nameLink> Bethulia</persName>
-                  <note resp="#rnes">Apocryphal <title ref="#OldTestament_Bible">Old Testament</title> figure from the Christian Bible. Famous for seducing then beheading the  Assyrian general Holofernes.</note>
+                  <note resp="#rnes">Apocryphal <title ref="#OldTestament_Bible">Old Testament</title> figure from the Christian Bible. Famous for seducing then beheading the Assyrian general Holofernes.</note>
                </person>
                
                <person xml:id="Nathan_OT" sex="m">
                   <persName>Nathan
                   </persName>
+                  <occupation type="religious" subtype="prophet"/>
                   <note resp="#rnes">Apocryphal <title ref="#OldTestament_Bible">Old Testament</title> prophet from the Christian Bible; he related his visions to <persName ref="#David_OT">King David</persName>.</note>
                </person>
                
@@ -718,7 +713,7 @@
                
             
            <listPerson sortKey="fictPersons">
-              <person xml:id="DukeSr_AYLI">
+              <person xml:id="DukeSr_AYLI" sex="m">
                  <persName>Duke Senior</persName>
                  <persName><addName>old Duke</addName></persName>
                  <note resp="#lmw">In <title ref="#As_You_Like_It_play">As You Like It</title>, the character of Duke Senior, the older brother of the usurping Duke Frederick, and father to Rosalind.</note>
@@ -733,10 +728,10 @@
               
               <person xml:id="WmTell_SK" sex="m">
                  <persName>William Tell</persName>
-                 <persNme>
+                 <persName>
                     <surname>Tell</surname>
                     <forename>William</forename>
-                 </persNme>
+                 </persName>
              <note resp="#lmw">Title character from <persName ref="#Knowles_Sheridan">Knowles</persName>'s play
                  <title ref="#WmTell_play">William Tell</title>, loosely based on the pseudohistorical Swiss revolutionary; role created by and for <persName ref="#Macready_Wm">William Macready</persName>.</note>
                  </person>
@@ -751,6 +746,7 @@
               <person xml:id="Richelieu_EBL" sex="m">
                  <persName>Richelieu
                  </persName>
+                 <occupation type="religious" subtype="priest"/>
                  <note resp="#lmw">Title character from <persName ref="#Bulwer_Lytton">Edward Bulwer-Lytton</persName>
                     <title ref="#Richelieu_play">Richelieu</title>, loosely based on the historical <persName ref="#Richelieu">Cardinal Richelieu</persName>; role created by and for <persName ref="#Macready_Wm">William Macready</persName>.</note>
               </person>
@@ -762,8 +758,8 @@
                      <surname>Carton</surname>
                      <forename>Sydney</forename>
                   </persName>
-                  <occupation>legal</occupation>
-                  <note resp="#rnes">Protagonist in <title ref="#TaleOf2Cities">A Tale of Two Cities</title>; he is a young, alcoholic London lawyer upon whose self-reformation and self-sacrifice during the Reign of Terror forms a hinge upon which the plot turns.</note>
+                  <occupation type="legal" subtype="barrister"/>
+                  <note resp="#rnes">Protagonist in <title ref="#TaleOf2Cities">A Tale of Two Cities</title>; he is a young, alcoholic London junior barrister upon whose self-reformation and self-sacrifice during the Reign of Terror forms a hinge upon which the plot turns.</note>
                </person>
               
                <person xml:id="Goodwin_Mabel" sex="f">
@@ -782,7 +778,7 @@
                      <forename>Philip</forename>
                      <roleName>Sir</roleName>
                   </persName>
-                  <note resp="#lmw">Cavalier character in <title ref="#RoundheadsDa_FT">The Roundhead's Daughter</title>.</note>
+                  <note resp="#lmw">Royalist character in <title ref="#RoundheadsDa_FT">The Roundhead's Daughter</title>.</note>
                </person>
               
                <person xml:id="Goodwin_Col" sex="m">
@@ -791,7 +787,7 @@
                      <surname>Goodwin</surname>
                      <roleName>Colonel</roleName>
                   </persName>
-                  <occupation>military</occupation>
+                  <occupation type="military" subtype="army"/>
                   <note resp="#lmw">Roundhead character in <title ref="#RoundheadsDa_FT">The Roundhead's Daughter</title>; father of the title character.</note>
                </person>
 
@@ -888,7 +884,7 @@
             
          <div type="publications">
             
-            <listBibl sortKey="literary">
+            <listBibl sortKey="book_MRM">
                
                <bibl xml:id="Romeo_Juliet">
                   <title>Romeo and Juliet</title>
@@ -1432,7 +1428,7 @@
             </listBibl>
             
             
-            <listBibl sortKey="other_current_Schol">
+            <listBibl sortKey="schol">
                 
                <bibl xml:id="ShelleyPB_ReimanEd">
                   <title>Shelley's Poetry and Prose</title>
