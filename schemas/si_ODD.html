@@ -6738,7 +6738,7 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 &lt;sch:pattern&gt;
 &lt;sch:p&gt;Identify stub entries.&lt;/sch:p&gt;
 &lt;sch:rule context="*[@xml:id]"&gt;
- &lt;sch:report test="count(child::* eq 1)"
+ &lt;sch:report test="count(child::*) eq 1"
   role="warning"&gt;Warning: stub element. We should flesh this out and add more information.&lt;/sch:report&gt;
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;
@@ -6772,15 +6772,6 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;
 &lt;sch:pattern&gt;
-&lt;sch:rule context="tei:text//tei:div/*"&gt;
- &lt;sch:assert test="@sortKey = ('Mitford_Team', 'archives', 'Past_Assistants', 'Past_Editors', 
- 'histOrgs', 'histPersons', 'fictOrgs', 'archOrgs', 'archPersons', 
- 'fictPersons', 'histPlaces', 'fictPlaces', 'animals', 'plants', 'histEvents', 
- 'art', 'ref_19thc', 'per_19thc', 'literary', 'MRM_Schol', 'other_current_Schol')"&gt; You must include an @sortKey on a list element, and it needs to be one of the legal values!
- &lt;/sch:assert&gt;
-&lt;/sch:rule&gt;
-&lt;/sch:pattern&gt;
-&lt;sch:pattern&gt;
 &lt;sch:rule context="tei:TEI"&gt;
  &lt;sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])"&gt; There must not be any duplicate @sortkey values in the site index!
  &lt;/sch:assert&gt;
@@ -6788,7 +6779,7 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 &lt;/sch:pattern&gt;
 &lt;sch:pattern&gt;
 &lt;sch:let name="si"
- value="doc('../si_Full_Staged/si-local.xml')//@xml:id"/&gt;
+ value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/&gt;
 &lt;sch:let name="siAddcoll"
  value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/&gt;
 &lt;sch:let name="siAll"
@@ -6943,6 +6934,6 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 	    Date: 2018-08-11<br /><!--
 	  Generated from index.xml using XSLT stylesheets version 7.45.0
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2018-08-14T22:34:28Z.
+	       on 2018-08-14T22:53:54Z.
 	       SAXON PE 9.8.0.12.
 		 --></address></div></body></html>

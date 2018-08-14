@@ -544,14 +544,6 @@
                </sch:report>
             </sch:rule>
          </sch:pattern>
-         
-         <sch:pattern>
-            <sch:rule context="tei:text//tei:div/*">
-               <sch:assert test="@sortKey = ('Mitford_Team', 'archives', 'Past_Assistants', 'Past_Editors', 'histOrgs', 'histPersons', 'fictOrgs', 'archOrgs', 'archPersons', 'fictPersons', 'histPlaces', 'fictPlaces', 'animals', 'plants', 'histEvents', 'art', 'ref_19thc', 'per_19thc', 'literary', 'MRM_Schol', 'other_current_Schol')">
-                  You must include an @sortKey on a list element, and it needs to be one of the legal values!
-               </sch:assert>
-            </sch:rule>
-         </sch:pattern>
          <sch:pattern>
             <sch:rule context="tei:TEI"> 
                <sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])">
@@ -561,7 +553,7 @@
          </sch:pattern>
          <sch:pattern>
             <!-- <sch:let name="si" value="doc('http://digitalmitford.org/si.xml')//@xml:id"/> -->
-            <sch:let name="si" value="doc('../si_Full_Staged/si-local.xml')//@xml:id"/>
+            <sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>
             <sch:let name="siAddcoll" value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/>
             <sch:let name="siAll" value="($si, $siAddcoll)"/>
             <sch:rule context="@ref | @corresp | @resp">

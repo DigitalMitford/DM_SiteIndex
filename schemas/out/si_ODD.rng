@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-08-14T22:34:38Z. .
+Schema generated from ODD source 2018-08-14T22:54:03Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -8826,7 +8826,7 @@ You must supply at least two values for @target on <name/>
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
             <sch:p>Identify stub entries.</sch:p>
             <sch:rule context="*[@xml:id]">
-               <sch:report test="count(child::* eq 1)" role="warning">Warning: stub element. We should flesh this out and add more information.</sch:report>
+               <sch:report test="count(child::*) eq 1" role="warning">Warning: stub element. We should flesh this out and add more information.</sch:report>
             </sch:rule>
          </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
@@ -8878,16 +8878,6 @@ You must supply at least two values for @target on <name/>
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:rule context="tei:text//tei:div/*">
-               <sch:assert test="@sortKey = ('Mitford_Team', 'archives', 'Past_Assistants', 'Past_Editors', 'histOrgs', 'histPersons', 'fictOrgs', 'archOrgs', 'archPersons', 'fictPersons', 'histPlaces', 'fictPlaces', 'animals', 'plants', 'histEvents', 'art', 'ref_19thc', 'per_19thc', 'literary', 'MRM_Schol', 'other_current_Schol')">
-                  You must include an @sortKey on a list element, and it needs to be one of the legal values!
-               </sch:assert>
-            </sch:rule>
-         </sch:pattern> 
-   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0">
             <sch:rule context="tei:TEI"> 
                <sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])">
                   There must not be any duplicate @sortkey values in the site index! 
@@ -8899,7 +8889,7 @@ You must supply at least two values for @target on <name/>
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
             
-            <sch:let name="si" value="doc('../si_Full_Staged/si-local.xml')//@xml:id"/>
+            <sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>
             <sch:let name="siAddcoll"
                value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/>
             <sch:let name="siAll" value="($si, $siAddcoll)"/>
