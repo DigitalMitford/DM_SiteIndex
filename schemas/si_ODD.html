@@ -6727,12 +6727,202 @@ teiteidata.xmlName = xsd:NCName</pre></td></tr><tr><td class="wovenodd-col1"><sp
  &lt;textNode/&gt;
 &lt;/content&gt;
     </pre></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Declaration</span></td><td class="wovenodd-col2"><pre class="pre_eg cdata">
-teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Note</span></td><td class="wovenodd-col2"><p>Any XPath expression using the syntax defined in [[undefined XSLT2]]</p></td></tr></table></div></div></div><div class="teidiv0" id="index.xml-body.1_div.6"><h2><span class="headingNumber">6. </span><span class="head">Constraints</span></h2><div class="table"><table class="wovenodd"><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
+teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Note</span></td><td class="wovenodd-col2"><p>Any XPath expression using the syntax defined in [[undefined XSLT2]]</p></td></tr></table></div></div></div><div class="teidiv0" id="index.xml-body.1_div.6"><h2><span class="headingNumber">6. </span><span class="head">Constraints</span></h2><div class="table"><table class="wovenodd"><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">  &lt;sch:pattern&gt;
+&lt;sch:p&gt;Identify note elements that are longer than [TOO LONG!] number of characters so exceeding the flow-length of our note box. (How long is this?) Raise a warning or an error that p breaks need to be added.
+ NOTE: WE NEED CORRESPONDING XSLT ALTERATION FOR NOTE BOXES TO READ 1st Paragraph ONLY.
+&lt;/sch:p&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:p&gt;Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. &lt;/sch:p&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:p&gt;Identify stub entries.&lt;/sch:p&gt;
+&lt;sch:rule context="*[@xml:id]"&gt;
+ &lt;sch:report test="count(child::* eq 1)"
+  role="warning"&gt;Warning: stub element. We should flesh this out and add more information.&lt;/sch:report&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:rule context="tei:person[descendant::tei:surname = //tei:surname[not(ancestor::tei:person 
+ = self::tei:person)]]"&gt;
+ &lt;sch:let name="currentContext" value="."/&gt;
+ &lt;sch:let name="sharedSurname"
+  value="//tei:person[not(. = $currentContext)][descendant::tei:surname = $currentContext/descendant::tei:surname]"/&gt;
+ &lt;sch:report test="descendant::tei:forename = $sharedSurname//tei:forename"
+  role="warning"&gt; Warning! Is this a duplicate entry? The person represented in this entry shares a surname and a forename with one or more other entries: &lt;sch:value-of select="string-join($sharedSurname[descendant::tei:forename = $currentContext//tei:forename]/@xml:id, 
+ ', ')"/&gt;
+ &lt;/sch:report&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:p&gt;This rule [TO BE DEVELOPED] will test the plausibilty of birth dates in relation to death dates.&lt;/sch:p&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:rule context="@sex"&gt;
+ &lt;sch:report test="matches(., '[0-9,]')"&gt; We are no longer using the ISO numerical codes for sex, and this attribute may not contain commas. Change this code to a letter, one (or more) of the following approved values: m, f, m f, and u. If indicating multiple values, separate each with just a white space.
+ &lt;/sch:report&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:rule context="tei:text//@xml:id"&gt;
+ &lt;sch:report test="matches(., '\s+')"&gt; @xml:id values must not contain white spaces.
+ &lt;/sch:report&gt;
+ &lt;sch:report test="starts-with(., '#')"&gt; @xml:id values must not begin with a hashtag.
+ &lt;/sch:report&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:rule context="tei:text//tei:div/*"&gt;
+ &lt;sch:assert test="@sortKey = ('Mitford_Team', 'archives', 'Past_Assistants', 'Past_Editors', 
+ 'histOrgs', 'histPersons', 'fictOrgs', 'archOrgs', 'archPersons', 
+ 'fictPersons', 'histPlaces', 'fictPlaces', 'animals', 'plants', 'histEvents', 
+ 'art', 'ref_19thc', 'per_19thc', 'literary', 'MRM_Schol', 'other_current_Schol')"&gt; You must include an @sortKey on a list element, and it needs to be one of the legal values!
+ &lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:rule context="tei:TEI"&gt;
+ &lt;sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])"&gt; There must not be any duplicate @sortkey values in the site index!
+ &lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern&gt;
+&lt;sch:let name="si"
+ value="doc('../si_Full_Staged/si-local.xml')//@xml:id"/&gt;
+&lt;sch:let name="siAddcoll"
+ value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/&gt;
+&lt;sch:let name="siAll"
+ value="($si, $siAddcoll)"/&gt;
+&lt;sch:rule context="@ref | @corresp | @resp"&gt;
+ &lt;sch:let name="tokens"
+  value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/&gt;
+ &lt;sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si"&gt; Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hasthtag, #) matches a defined @xml:id in the site index or siAdd files.
+ &lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit"&gt;
 &lt;sch:assert test="starts-with(., '#')"
  role="fatal"&gt; Attributes @ref, @who, @corresp, and @wit must begin with a hashtag.
 &lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
+&lt;sch:pattern&gt;
+&lt;sch:let name="artistSubtypes"
+ value="('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 
+ 'illustrator')"/&gt;
+&lt;sch:let name="bookProducerSubtypes"
+ value="('publisher', 'printer', 'binder', 'bookseller')"/&gt;
+&lt;sch:let name="religiousSubtypes"
+ value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest')"/&gt;
+&lt;sch:let name="educatorSubtypes"
+ value="('teacher', 'schoolHead', 'governess', 'tutor')"/&gt;
+&lt;sch:let name="scholarSubtypes"
+ value="('philosopher', 'naturalist', 'astronomer', 'curator', 'antiquarian', 
+ 'inventor', 'historian', 'economist', 'agronomist')"/&gt;
+&lt;sch:let name="explorerSubtypes"
+ value="('traveller', 'navigator', 'cartographer', 'seaCaptain')"/&gt;
+&lt;sch:let name="legalSubtypes"
+ value="('barrister', 'solicitor', 'lawyer', 'recorder', 'judge')"/&gt;
+&lt;sch:let name="literarySubtypes"
+ value="('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 
+ 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 
+ 'translator')"/&gt;
+&lt;sch:let name="theaterSubtypes"
+ value="('actor', 'singer', 'manager', 'owner', 'designer', 'musician', 'composer')"/&gt;
+&lt;sch:let name="medicalSubtypes"
+ value="('physician', 'surgeon', 'apothecary', 'midwife', 'oculist')"/&gt;
+&lt;sch:let name="militarySubtypes"
+ value="('army', 'navy')"/&gt;
+&lt;sch:let name="benefactorSubtypes"
+ value="('philanthropist', 'patron')"/&gt;
+&lt;sch:let name="governmentSubtypes"
+ value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 
+ 'administrator', 'clerk', 'taxCollector', 'post')"/&gt;
+&lt;sch:let name="serviceSubtypes"
+ value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"/&gt;
+&lt;sch:let name="tradeSubtypes"
+ value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 
+ 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 
+ 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 
+ 'innkeeper', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 
+ 'gambler')"/&gt;
+&lt;sch:rule context="tei:occupation[@type='artist'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $artistSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$artistSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='bookProducer'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $bookProducerSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$bookProducerSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='religious'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $religiousSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$religiousSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='educator'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $educatorSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$educatorSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='scholar'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $scholarSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$scholarSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='explorer'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $explorerSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$explorerSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='legal'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $legalSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$legalSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='literary'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $literarySubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$literarySubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='theater'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $theaterSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$theaterSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='medical'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $medicalSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$medicalSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='military'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $militarySubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$militarySubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='benefactor'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $benefactorSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$benefactorSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='government'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $governmentSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$governmentSubtypes"/&gt;.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='service'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $serviceSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$serviceSubtypes"/&gt;
+ &lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:occupation[@type='trade'][@subtype]"&gt;
+ &lt;sch:let name="subtypes"
+  value=" for $i in tokenize(@subtype, '\s+') return $i"/&gt;
+ &lt;sch:assert test="every $subtype in $subtypes satisfies $subtype = $tradeSubtypes"&gt;Multiple subtypes are permitted, but these must be from the following list: &lt;sch:value-of select="$tradeSubtypes"/&gt;
+ &lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | 
  tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] 
  | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]"&gt;
@@ -6749,176 +6939,10 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 &lt;sch:report test="matches(., '\s+')"
  role="fatal"&gt; @xml:id values may NOT contain white spaces!
 &lt;/sch:report&gt;
-&lt;/sch:rule&gt;</div></td></tr></table></div></div><tr><td>[#occupation]</td><td><div id="index.xml-egXML-d199963e1" class="pre egXML_valid"><span class="element">&lt;constraint
-   xmlns:sch="http://purl.oclc.org/dsdl/schematron"&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">artistSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 
- 'illustrator')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">bookProducerSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('publisher', 'printer', 'binder', 'bookseller')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">religiousSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">educatorSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('teacher', 'schoolHead', 'governess', 'tutor')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">scholarSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('philosopher', 'naturalist', 'astronomer', 'curator', 'antiquarian', 
- 'inventor', 'historian', 'economist', 'agronomist')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">explorerSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('traveller', 'navigator', 'cartographer', 'seaCaptain')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">legalSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('barrister', 'solicitor', 'lawyer', 'recorder', 'judge')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">literarySubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 
- 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 
- 'translator')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">theaterSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('actor', 'singer', 'manager', 'owner', 'designer', 'musician', 'composer')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">medicalSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('physician', 'surgeon', 'apothecary', 'midwife', 'oculist')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">militarySubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('army', 'navy')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">benefactorSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('philanthropist', 'patron')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">governmentSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 
- 'administrator', 'clerk', 'taxCollector', 'post')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">serviceSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">tradeSubtypes</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 
- 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 
- 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 
- 'innkeeper', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 
- 'gambler')</span>"/&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='artist'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $artistSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$artistSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='bookProducer'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $bookProducerSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$bookProducerSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='religious'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $religiousSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$religiousSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='educator'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $educatorSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$educatorSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='scholar'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $scholarSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$scholarSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='explorer'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $explorerSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$explorerSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='legal'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $legalSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$legalSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='literary'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $literarySubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$literarySubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='theater'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $theaterSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$theaterSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='medical'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $medicalSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$medicalSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='military'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $militarySubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$militarySubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='benefactor'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $benefactorSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$benefactorSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='government'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $governmentSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$governmentSubtypes</span>"/&gt;</span>.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='service'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $serviceSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$serviceSubtypes</span>"/&gt;</span>
-  <span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:occupation[@type='trade'][@subtype]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">subtypes</span>"
-   <span class="attribute">value</span>="<span class="attributevalue"> for $i in tokenize(@subtype, '\s+') return $i</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $subtype in $subtypes satisfies $subtype = $tradeSubtypes</span>"&gt;</span>Multiple subtypes are permitted, but these must be from the following list: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">$tradeSubtypes</span>"/&gt;</span>
-  <span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;/constraint&gt;</span></div></td></tr><tr><td>[#SI_Guidance]</td><td><div id="index.xml-egXML-d200533e1" class="pre egXML_valid"><span class="element">&lt;constraint
-   xmlns:sch="http://purl.oclc.org/dsdl/schematron"&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:p&gt;</span>Identify note elements that are longer than [TOO LONG!] number of characters so exceeding the flow-length of our note box. (How long is this?) Raise a warning or an error that p breaks need to be added. NOTE: WE NEED CORRESPONDING XSLT ALTERATION FOR NOTE BOXES TO READ 1st Paragraph ONLY. <span class="element">&lt;/sch:p&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:p&gt;</span>Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. <span class="element">&lt;/sch:p&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:p&gt;</span>Identify stub entries.<span class="element">&lt;/sch:p&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">*[@xml:id]</span>"&gt;</span>  <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">count(child::* eq 1)</span>"
-   <span class="attribute">role</span>="<span class="attributevalue">warning</span>"&gt;</span>Warning: stub element. We should flesh this out and add more information.<span class="element">&lt;/sch:report&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:person[descendant::tei:surname = //tei:surname[not(ancestor::tei:person 
- = self::tei:person)]]</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">currentContext</span>" <span class="attribute">value</span>="<span class="attributevalue">.</span>"/&gt;</span>
-  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">sharedSurname</span>"
-   <span class="attribute">value</span>="<span class="attributevalue">//tei:person[not(. = $currentContext)][descendant::tei:surname = $currentContext/descendant::tei:surname]</span>"/&gt;</span>
-  <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">descendant::tei:forename = $sharedSurname//tei:forename</span>"
-   <span class="attribute">role</span>="<span class="attributevalue">warning</span>"&gt;</span> Warning! Is this a duplicate entry? The person represented in this entry shares a surname and a forename with one or more other entries: <span class="element">&lt;sch:value-of <span class="attribute">select</span>="<span class="attributevalue">string-join($sharedSurname[descendant::tei:forename = $currentContext//tei:forename]/@xml:id, 
- ', ')</span>"/&gt;</span>
-  <span class="element">&lt;/sch:report&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:p&gt;</span>This rule [TO BE DEVELOPED] will test the plausibilty of birth dates in relation to death dates.<span class="element">&lt;/sch:p&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">@sex</span>"&gt;</span>  <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">matches(., '[0-9,]')</span>"&gt;</span> We are no longer using the ISO numerical codes for sex, and this attribute may not contain commas. Change this code to a letter, one (or more) of the following approved values: m, f, m f, and u. If indicating multiple values, separate each with just a white space.<span class="element">&lt;/sch:report&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:text//@xml:id</span>"&gt;</span>  <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">matches(., '\s+')</span>"&gt;</span> @xml:id values must not contain white spaces.<span class="element">&lt;/sch:report&gt;</span>
-  <span class="element">&lt;sch:report <span class="attribute">test</span>="<span class="attributevalue">starts-with(., '#')</span>"&gt;</span> @xml:id values must not begin with a hashtag.<span class="element">&lt;/sch:report&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:text//tei:div/*</span>"&gt;</span>  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">@sortKey = ('Mitford_Team', 'archives', 'Past_Assistants', 'Past_Editors', 
- 'histOrgs', 'histPersons', 'fictOrgs', 'archOrgs', 'archPersons', 
- 'fictPersons', 'histPlaces', 'fictPlaces', 'animals', 'plants', 'histEvents', 
- 'art', 'ref_19thc', 'per_19thc', 'literary', 'MRM_Schol', 'other_current_Schol')</span>"&gt;</span> You must include an @sortKey on a list element, and it needs to be one of the legal values!<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">tei:TEI</span>"&gt;</span>  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">count(distinct-values(//@sortKey)) eq count(//*[@sortKey])</span>"&gt;</span> There must not be any duplicate @sortkey values in the site index!<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;sch:pattern&gt;</span>
-<span class="comment">&lt;!-- &lt;sch:let name="si" value="doc('http://digitalmitford.org/si.xml')//@xml:id"/&gt; --&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">si</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">doc('../si_Full_Staged/si-local.xml')//@xml:id</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">siAddcoll</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">collection('../si_Add_Staged/catalogue.xml')//@xml:id</span>"/&gt;</span>
- <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">siAll</span>"
-  <span class="attribute">value</span>="<span class="attributevalue">($si, $siAddcoll)</span>"/&gt;</span>
- <span class="element">&lt;sch:rule <span class="attribute">context</span>="<span class="attributevalue">@ref | @corresp | @resp</span>"&gt;</span>  <span class="element">&lt;sch:let <span class="attribute">name</span>="<span class="attributevalue">tokens</span>"
-   <span class="attribute">value</span>="<span class="attributevalue">for $w in tokenize(., '\s+') return substring-after($w, '#')</span>"/&gt;</span>
-  <span class="element">&lt;sch:assert <span class="attribute">test</span>="<span class="attributevalue">every $token in $tokens satisfies $token = //tei:text//@xml:id | $si</span>"&gt;</span> Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hasthtag, #) matches a defined @xml:id in the site index or siAdd files.<span class="element">&lt;/sch:assert&gt;</span>
- <span class="element">&lt;/sch:rule&gt;</span>
-<span class="element">&lt;/sch:pattern&gt;</span>
-<span class="element">&lt;/constraint&gt;</span></div></td></tr><!--TEI back--><div class="stdfooter autogenerated"><div class="footer"><!--standard links to project, institution etc--><a class="plain" href="/">Home</a> </div><address>Elisa Beshero-Bondar.
+&lt;/sch:rule&gt;</div></td></tr></table></div></div><!--TEI back--><div class="stdfooter autogenerated"><div class="footer"><!--standard links to project, institution etc--><a class="plain" href="/">Home</a> </div><address>Elisa Beshero-Bondar.
 	    Date: 2018-08-11<br /><!--
 	  Generated from index.xml using XSLT stylesheets version 7.45.0
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2018-08-12T13:25:11Z.
+	       on 2018-08-14T22:34:28Z.
 	       SAXON PE 9.8.0.12.
 		 --></address></div></body></html>

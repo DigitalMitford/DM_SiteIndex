@@ -367,7 +367,7 @@
                   </attDef>
                </attList>
             </elementSpec>
-         </schemaSpec>
+         
          <!--Occupation coding: binding appropriate subtypes with types and permitting plural subtype values. -->
          <constraintSpec scheme="schematron" ident="occupation">
             <constraint>
@@ -575,7 +575,7 @@
        </constraint>
        </constraintSpec>
          
-         
+         </schemaSpec>     
       </body>
   </text>
 </TEI>
