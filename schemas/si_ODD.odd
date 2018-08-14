@@ -508,7 +508,7 @@
          <sch:pattern>
             <sch:p>Identify stub entries.</sch:p>
             <sch:rule context="*[@xml:id]">
-               <sch:report test="count(child::* eq 1)" role="warning">Warning: stub element. We should flesh this out and add more information.</sch:report>
+               <sch:report test="count(child::*) eq 1" role="warning">Warning: stub element. We should flesh this out and add more information.</sch:report>
             </sch:rule>
          </sch:pattern>
          <sch:pattern>
