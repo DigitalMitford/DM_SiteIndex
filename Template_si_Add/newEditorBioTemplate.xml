@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xml:id="Suggest a 3 letter xml:id for yourself, usually initials of first, middle, and last name. ie, lmw">
+    <!-- Write a note here that says NEW (if a new bio) or REVISED (if you are updated an existing one.) Add the date, in this format: yyyy-mm-dd. -->
+    <persName>
+        <surname><!--fill in your last name--></surname>
+        <forename><!--fill in your first name--></forename>
+        <forename><!--fill in your middle name or initial, if desired, or delete this line.--></forename>
+        <roleName><!--fill in your role on DM project: students, use "Research Assistant"; others, use Editor/Consultant/Advisory Board or whatever is your current title on our "About" page.--></roleName>
+        <ptr target="http://your.profile.page.html"/><!--If desired, put in link to your professional online profile as the value of the @target attribute, starting with http://-->
+    </persName>
+    <occupation><affiliation><!--Fill in your academic affiliation here. ie, name of your institution.--></affiliation>
+    </occupation>
+    <note type="bio">
+        <!--In 3-5 sentences, give: your current academic affiliation and relevant title; the dates of your involvement with DM (or your start date, if continuing) and your areas of DM/MRM interest; your other relevant academic interests and MRM/DM relevant publications. ie, for student editors, "Sara Cantwell will receive her M.A. in English from Suny Potsdam in August 2017" or "B.A. in progress 2015"; for others, "Lisa Wilson is Professor of English and Communication at SP and a Founding Editor at DM".-->
+    </note>
+</person>
