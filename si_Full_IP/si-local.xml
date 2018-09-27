@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://ebeshero.github.io/siCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="http://ebeshero.github.io/siCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -55,6 +55,20 @@
       <body>
          <div type="Mitford_Team">
             <listPerson sortKey="Mitford_Team">
+               <person xml:id="aol">
+                  <persName>
+                     <surname>Longmuir</surname>
+                     <forename>Anne</forename>
+                     <roleName>Editor</roleName>
+                     <ptr target="https://www.k-state.edu/english/people/longmuir.html"/>
+                  </persName>
+                  <occupation><affiliation>Kansas State University</affiliation>
+                  </occupation>
+                  <note type="bio">
+                     Anne Longmuir is Associate Professor of English at Kansas State University. Anne specializes in Victorian literature and has published more than ten articles and book chapters on Charlotte Brontë, Elizabeth Gaskell, and Wilkie Collins, among others. She also co-edited <title level="m">Victorian Literature: Criticism and Debates</title> (Routledge 2016) with Lee Behlman (Montclair State University). Anne is currently working on a book on the gender politics of John Ruskin's economic theory, which will explore his relationship with several nineteenth-century women writers, including Mary Russell Mitford. Anne is working on Mitford's letters and <title leve="m" ref="#Our_Village1st_ed">Our Village</title> for the Digital Mitford Project. 
+                  </note>
+               </person>
+               
                <person xml:id="ab">
                   <persName>
                      <surname>Booth</surname>
@@ -22657,7 +22671,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#Whittakers_pub">G. &amp; W. B. Whittaker</orgName>
                   </publisher>
                   <date when="1824">1824</date>
-                  <note resp="#lmw">The first edition, first volume of Our Village appeared without a volume number on the title page. Only after the publication of subsequent volumes do volume numbers begin to appear on the title pages.</note>
+                  <note resp="#lmw">The first edition, first volume of <title level="m">Our Village</title> appeared without a volume number on the title page. Only after the publication of subsequent volumes do volume numbers begin to appear on the title pages.</note>
                </bibl>
                <bibl xml:id="Our_Village2nd">
                   <title>Our Village: Sketches of Rural Character and Scenery. Volume II. [volume two]</title>
