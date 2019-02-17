@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--2019-02-17 ebb: Old Schema Association line with TEI All and Schematron: <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://ebeshero.github.io/siCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--2018-09-27 ebb: For this small update, I am reinstating the old schema of TEI All and our separate Schematron validation file to add Anne Longmuir's new editor bio. New SI ODD still needs work. -->
-<!--2018-02-17 ebb: I'm modifying the Talfourd entry so the top material better foregrounds his career, and adding that long-missing Charles Kemble entry. -->
+<?xml-model href="http://ebeshero.github.io/siCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,6 +12,8 @@
             <title>Site Index of Named Entities in the Digital Mitford Archive</title>
             <author>Digital Mitford Editors</author>
             <editor>Elisa Beshero-Bondar</editor>
+            <!--2018-09-27 ebb: For this small update, I am reinstating the old schema of TEI All and our separate Schematron validation file to add Anne Longmuir's new editor bio. New SI ODD still needs work. -->
+            <!--2018-02-17 ebb: I'm modifying the Talfourd entry so the top material better foregrounds his career, and adding that long-missing Charles Kemble entry. -->
             <sponsor>
                <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
             </sponsor>
@@ -9007,7 +9007,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                <birth when="1775-11-25"><placeName>Brecon, South Wales</placeName></birth>
                   <death when="1854-11-12"><placeName>Savile Row, London</placeName></death>
-                  <occupation type="theater" subtype="actor manager"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <occupation type="theater" subtype="manager"/>
                   <occupation type="literary"/>
                   <note resp="#ebb">Member of a renowned family of actors, Charles Kemble was the younger brother of <persName ref="#Kemble_JP">John Kemble</persName>, and performed with him in Shakespearian roles in the 1790s and was especially known for his role as Hamlet beginning in 1803 and frequently repeated in subsequent decades. He often adapted plays for production from other authors, and though most were not successful on the stage, <bibl>his farce on Cervantes, <title level="m">Plot and Counterplot, or, The Portrait of Michel Cervantes</title>, which he adapted from <bibl>a French play by <author>Joseph-Marie-Armand-Michel Dieulafoi</author></bibl>, did well at Haymarket Theatre in <date when="1808">1808</date></bibl>. His long-running theatrical career kept him acting regularly from the 1790s into the 1830s on stages on both sides of the Atlantic from <placeName ref="#London_city">London</placeName> to <placeName ref="#New_York_city">New York</placeName>.</note>
                </person>

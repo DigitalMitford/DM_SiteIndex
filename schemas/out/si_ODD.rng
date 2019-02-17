@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-08-14T22:54:03Z. .
+Schema generated from ODD source 2019-02-17T18:53:07Z. .
 TEI Edition: Version 3.4.0. Last updated on
 	23rd July 2018, revision 1fa0b54
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -7007,19 +7007,21 @@ Suggested values include: 1] painter(with type="artist": Designate type of paint
          <ref name="teiatt.global.attributes"/>
          <ref name="teiatt.editLike.attributes"/>
          <ref name="teiatt.sortable.attributes"/>
-         <attribute name="sex">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <choice>
-               <value>m</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as male.) </a:documentation>
-               <value>f</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as female.) </a:documentation>
-               <value>m f</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as of transitional or multiple sexual identities.) </a:documentation>
-               <value>u</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons with unidentified or unknown sexual identity.) </a:documentation>
-            </choice>
-         </attribute>
+         <optional>
+            <attribute name="sex">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>m</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as male.) </a:documentation>
+                  <value>f</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as female.) </a:documentation>
+                  <value>m f</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons identified as of transitional or multiple sexual identities.) </a:documentation>
+                  <value>u</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(for persons with unidentified or unknown sexual identity.) </a:documentation>
+               </choice>
+            </attribute>
+         </optional>
          <optional>
             <attribute name="role">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a primary role or classification for the person.</a:documentation>

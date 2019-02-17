@@ -162,7 +162,7 @@
             <!--sex codes on person element: m, f, m f, and u -->           
             <elementSpec ident="person" module="namesdates" mode="change">
                <attList>
-                  <attDef ident="sex" mode="replace" usage="req">
+                  <attDef ident="sex" mode="replace" usage="rec">
                      <valList type="closed">
                         <valItem ident="m"><gloss>for persons identified as male.</gloss></valItem>
                         <valItem ident="f"><gloss>for persons identified as female.</gloss></valItem>
