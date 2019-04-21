@@ -120,6 +120,7 @@
                <attList>
                   <attDef ident="sortKey" mode="replace" usage="req">
                      <valList type="closed">
+                        <valItem ident="archives"/>
                         <valItem ident="histOrgs"/>
                         <valItem ident="fictOrgs"/>
                         <valItem ident="archOrgs"/>
