@@ -12,8 +12,6 @@
             <title>Site Index of Named Entities in the Digital Mitford Archive</title>
             <author>Digital Mitford Editors</author>
             <editor>Elisa Beshero-Bondar</editor>
-            <!--2018-09-27 ebb: For this small update, I am reinstating the old schema of TEI All and our separate Schematron validation file to add Anne Longmuir's new editor bio. New SI ODD still needs work. -->
-            <!--2018-02-17 ebb: I'm modifying the Talfourd entry so the top material better foregrounds his career, and adding that long-missing Charles Kemble entry. -->
             <sponsor>
                <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
             </sponsor>
@@ -25,12 +23,13 @@
             </respStmt>
             <respStmt>
                <resp>Proofing and corrections by</resp>
+               <persName>Lisa Wilson</persName>
                <persName>Elisa Beshero-Bondar</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Site Index for the Digital Mitford project. Date: 2019-02-17T14:02:43.498-05:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 1946. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+            <edition>Site Index for the Digital Mitford project. Date: 2019-04-21T19:39:21.872-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 1947. First digital edition in TEI P5, launched on 19 August 2013.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
@@ -41,9 +40,9 @@
                   License</licence>
             </availability>
          </publicationStmt>
-         <notesStmt>
+         <!--         <notesStmt>
             <note>Any special notes on this text? (optional)</note>
-         </notesStmt>
+         </notesStmt>-->
          <sourceDesc>
             <p>Information on named entities in this file has been extracted from files in the
                Digital Mitford Archive.</p>
@@ -54,6 +53,14 @@
             <p>Describes our editorial practice.</p>
          </editorialDecl>
       </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2019-04-21" who="#ebb">Simplified the way we designate genus, species in the plant and animal lists, from rs to name. (Rationale: In TEI, rs is not the right element because it's intended for references that aren't names (like pronouns), and genus/species are names.) </change>
+            <change when="2019-04-21" who="#ebb">Created this changelog on the SI to better log our descriptions of changes. </change>
+            <change when="2019-02-17" who="#ebb">Set ODD-generated SI schema to be active on this file; note that editor occupations now flag as errors: we need to change where we encode SI editor home institutions and employment titles.</change>
+            <change when="2019-02-17" who="#ebb">Modifed the Thomas Noon Talfourd entry so the top material better foregrounds his career and connection to MRM. Added a long-missing Charles Kemble entry, and fleshed out internal tagging on Kemble family entries.</change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -65,8 +72,12 @@
                      <forename>Alison</forename>
                      <roleName>Advisory Board</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Virginia</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>
+                           <affiliation>University of Virginia</affiliation>
+                        </roleName>
+                     </roleName>
                   </occupation>
                   <note type="bio">Professor of English, Booth directs the Collective Biographies of
                      Women (CBW) project at the Institute for Advanced Technology in the Humanities
@@ -91,8 +102,10 @@
                      <roleName type="grad">Ph.D.</roleName>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of St Andrews</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of St Andrews</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"> One of the Digital Mitford project’s founding editors, Alexandra
                      Drayton earned a Ph.D. from the University of St Andrews. She has consulted the
@@ -110,8 +123,10 @@
                      <roleName>Advisory Board</roleName>
                      <ptr target="https://english.stanford.edu/people/mark-algee-hewitt"/>
                   </persName>
-                  <occupation>
-                     <affiliation>Stanford Literary Lab</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Stanford Literary Lab</affiliation>
+                     </roleName>
                   </occupation>
                </person>
                <person xml:id="ajc">
@@ -120,8 +135,10 @@
                      <forename>Amy</forename>
                      <roleName>Editor</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Virginia Commonwealth University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Virginia Commonwealth University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -133,8 +150,10 @@
                      <roleName type="grad">Ph.D.</roleName>
                      <roleName>Editor</roleName>
                   </persName>
-                  <occupation>Assistant Professor of English <affiliation>Missouri Southern State
+                  <occupation type="scholar">
+                     <roleName>Assistant Professor of English <affiliation>Missouri Southern State
                         University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Amy L. Gates is an Assistant Professor in the Department of
                      English and Philosophy at Missouri Southern State University. Her teaching and
@@ -149,8 +168,10 @@
                      <forename>Lynn</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Aymee Lynn Woody received her Bachelor’s in English from the University of Montevallo in 2016. She is currently working towards her Master’s degree in Education at Montevallo and is slated to graduate in May of 2018. In her spare time, Aymee enjoys reading, writing, quilting, sewing, and embroidery. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
@@ -161,8 +182,10 @@
                      <roleName>Editor</roleName>
                      <ptr target="https://www.k-state.edu/english/people/longmuir.html"/>
                   </persName>
-                  <occupation>
-                     <affiliation>Kansas State University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Kansas State University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">
                      Anne Longmuir is Associate Professor of English at Kansas State University. Anne specializes in Victorian literature and has published more than ten articles and book chapters on Charlotte Brontë, Elizabeth Gaskell, and Wilkie Collins, among others. She also co-edited <title level="m">Victorian Literature: Criticism and Debates</title> (Routledge 2016) with Lee Behlman (Montclair State University). Anne is currently working on a book on the gender politics of John Ruskin's economic theory, which will explore his relationship with several nineteenth-century women writers, including Mary Russell Mitford. Anne is working on Mitford's letters and <title level="m" ref="#Our_Village1st_ed">Our Village</title> for the Digital Mitford Project. 
@@ -174,8 +197,10 @@
                      <forename>Annie</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Annie Gill is a Theatre major and English minor at the University of Montevallo. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
@@ -186,19 +211,19 @@
                      <forename>Ann</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>Green Scholar, B. A. in English Literature, in progress (expected
-                     2018) <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                  <occupation type="scholar">
+                     <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     </roleName>
                   </occupation>
-                  <note type="bio">Brooke A. Stewart is a student at the University of Pittsburgh at
-                     Greensburg, where she is pursuing a bachelor’s degree in English Literature and
+                  <note type="bio">Brooke A. Stewart worked on the Digital Mitford project as a student at the University of Pittsburgh at
+                     Greensburg, where she pursued a bachelor’s degree in English Literature and
                      a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is currently working on another
                      digital archive that focuses on Emily Dickinson. Her project, <ref target="http://dickinson16.newtfire.org/">
                         <title level="m">Emily Dickinson</title>
                      </ref>, looks closely at Dickinson’s original poem manuscripts and compares
                      them to published versions, which often differ in significant ways from
                      Dickinson’s original work. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
-                     Delta, and she is an active participant in Habitat for Humanity on her campus. She is currently working as a research assistant on the
-                     Digital Mitford Project. </note>
+                     Delta, and an active participant in Habitat for Humanity. </note>
                </person>
                <person xml:id="cay">
                   <persName>
@@ -207,8 +232,10 @@
                      <forename>Courtney</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>State University of New York, Potsdam</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note resp="#lmw">Courtney Younes Collins plans to graduate in 2017 with a B.A. in English:
                      Literature from the State University of New York at Potsdam. She is working as
@@ -221,8 +248,10 @@
                      <roleName>Advisory Board</roleName>
                      <ptr target="http://www.lboro.ac.uk/departments/english-drama/staff/dr-carol-bolton.html"/>
                   </persName>
-                  <occupation>Programme Director: English <affiliation>Loughborough
+                  <occupation type="scholar">
+                     <roleName>Programme Director: English <affiliation>Loughborough
                         University</affiliation>
+                     </roleName>
                   </occupation>
                </person>
                <person xml:id="cmp">
@@ -232,8 +261,10 @@
                      <forename>M.</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of North Carolina Pembroke</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of North Carolina Pembroke</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Catherine M. Parisian is a book historian and bibliographer whose
                      research has focused on a a range of subjects including the first White House
@@ -250,8 +281,10 @@
                      <forename>S.</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"> Catherine S Cox teaches at the University of Pittsburgh’s
                      Johnstown campus, offering classes in biblical and medieval literature and
@@ -266,8 +299,10 @@
                      <forename>David</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Grinnell College: Information Technology</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Grinnell College: Information Technology</affiliation>
+                     </roleName>
                   </occupation>
                </person>
                <person xml:id="djb">
@@ -279,8 +314,10 @@
                      <roleName>Advisory Board</roleName>
                      <ptr target="http://obdurodon.org"/>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Pittsburgh</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Pittsburgh</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -290,13 +327,31 @@
                      <forename>Daniel</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Primary research interest: contemporary reception of 19th Century
                      American authors, specifically Nathaniel Hawthorne and Edgar Allan Poe, by
                      European readers. Other interests: issues in composition, the writing process,
                      manuscripts, early short stories, Mitford’s connection to <persName ref="#Hawthorne_N">Hawthorne</persName>, and Dark Romanticism. </note>
+               </person>
+               <person xml:id="drl">
+                  <persName>
+                     <surname>Lint</surname>
+                     <forename>Dorothea</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     </roleName>
+                  </occupation>
+                  <occupation type="scholar">
+                     <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Dorothea Lint joined the Digital Mitford project in 2018 as a Green Scholar research assistant at Pitt-Greensburg, and she is assisting with analysis of a manuscript performance prompt book and associated new encoding for Mitford’s play, <title level="m" ref="#Rienzi">Rienzi</title>. She has developed a <ref target="http://combe.newtfire.org">digital project on the nineteenth-century serial hack writer William Combe</ref>, and is pursuing an M.A. in English Literature at Duquesne University beginning in 2019. She is a Spay and Neuter Clinic Volunteer for Best Buddies Clinic, and the author of an independently published book, <title level="m">Dieting Dog: A Guide to Doggie Weight Loss from a Rottweiler Who Succeeded</title> (2019). </note>
                </person>
                <person xml:id="ds">
                   <persName>
@@ -304,8 +359,10 @@
                      <forename>Daniel</forename>
                      <roleName>Editor</roleName>
                   </persName>
-                  <occupation>Professor of English <affiliation>University of Central
+                  <occupation type="scholar">
+                     <roleName>Professor of English <affiliation>University of Central
                         Missouri</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Daniel Schierenbeck has published essays on Romantic authors
                      including <persName ref="#Austen_Jane">Jane Austen</persName>, William Blake,
@@ -321,8 +378,10 @@
                      <roleName>Advisory Board</roleName>
                      <ptr target="https://unipr.academia.edu/DiegoSaglia"/>
                   </persName>
-                  <occupation>
-                     <affiliation>Università degli Studi di Parma</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Università degli Studi di Parma</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -334,8 +393,10 @@
                      <roleName>Founding Editor</roleName>
                      <!--<ptr target="http://www.pitt.edu/~ebb8/"/>-->
                   </persName>
-                  <occupation>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
+                  <occupation type="scholar">
+                     <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
                         at Greensburg</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Elisa Beshero-Bondar organized the Digital Mitford project in the spring of 2013. She has written and maintains the project’s adapation of the TEI, and she manages the coding and programming involved in storing, publishing, and sharing the project’s editions and prosopography data. With Gregory Bondar, she has worked on photographing Mitford’s manuscripts at the Reading Central Library and the John Rylands Library, and she is involved in editing letters and plays, and in training editors and assistants in TEI XML and related coding and programming for the project at the Digital Mitford Coding School. Dr. Beshero-Bondar researches British Romanticism in poetry and drama from the 1790s - 1830s. Her book about women Romantic poets, <title level="m">Women, Epic, and Transition in British Romanticism</title>, was published by the University of Delaware Press in 2011. Her published articles in <title level="j">ELH</title>, <title level="j">Genre</title>, <title level="j">Philological Quarterly</title>, and <title level="j">The Wordsworth Circle</title> investigate the poetry of Robert Southey, Mary Russell Mitford, and Lord Byron in context with 18th- and 19th-century views of revolution, world empires, natural sciences, and theater productions. An active member of the Text Encoding Initiative (TEI), she was elected to serve on from 2016 to 2017 on the <ref target="http://www.tei-c.org/Activities/Council/">TEI Technical Council</ref>, an eleven-member international committee that supervises amendments to the TEI Guidelines. Dr. Beshero-Bondar is Associate Professor of English and Director of the <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> at Pitt-Greensburg, where she helps coordinate a <ref target="http://greensburg.pitt.edu/academics/info/digital-studies">Digital Studies certificate program</ref> for undergraduates. </note>
                </person>
@@ -346,8 +407,10 @@
                      <forename>Frantz</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Duquesne University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Duquesne University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -359,8 +422,10 @@
                      <roleName type="sectionEditor">Drama</roleName>
                      <roleName>Founding Editor</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Oregon</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Oregon</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">
                      <persName ref="#err">Elizabeth Raisanen</persName> is the Director of
@@ -388,10 +453,12 @@
                      <roleName type="grad">Ph.D.</roleName>
                      <roleName>Founding Editor</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Adrian College</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Michigan State University</affiliation>
+                     </roleName>
                   </occupation>
-                  <note type="bio">Eric Hood is an Assistant Professor at Adrian College and holds a
+                  <note type="bio">Eric Hood is an Assistant Professor at Michigan State University and holds a
                      PhD from the University of Kansas. He specializes in literary theory,
                      eighteenth- and nineteenth-century British poetry (particularly, the epic), and
                      intellectual networks. <ptr target="http://academichood.wordpress.com"/>
@@ -404,8 +471,10 @@
                      <roleName>Advisory Board</roleName>
                      <ptr target="http://www.english.ucla.edu/all-faculty/547-burwick-frederick"/>
                   </persName>
-                  <occupation>
-                     <affiliation>University of California, Los Angeles</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of California, Los Angeles</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -416,9 +485,11 @@
                      <roleName type="sectionEditor">Manuscript Archaeology</roleName>
                      <roleName>Founding Editor</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Penn State University</affiliation>
-                     <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Penn State University</affiliation>
+                        <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Greg Bondar has photographed over 800 of Mitford’s letters in the Reading Central Library, the John Rylands Library in Manchester, and elsewhere. He maintains the Digital Mitford project’s database documenting over 2700 individual letters and manuscripts. He teaches courses in Anthropology and Archaeology for Penn State Greater Allegheny and the University of Pittsburgh at Greensburg campuses, and occasionally teaches Digital Humanities for Pitt. His research involves archaeological excavations at Tell Timai in Egypt, San Jose de Moro in Peru, and analyzing stone tools with Penn State’s nuclear reactor. While he has only been involved with Digital Humanities applications since 2013, he spent many years marking up ethnographic data in the mid-1990s.</note>
                </person>
@@ -428,8 +499,10 @@
                      <forename>Jordan</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Jordan Price earned his Bachelor’s in English at the University of Montevallo in May 2017. He is from Huntsville, Alabama. He worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
@@ -441,8 +514,10 @@
                      <roleName>Associate Professor of History</roleName>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">John Bawden is Associate Professor of History at the University of Montevallo. He teaches courses in various areas of Latin American History, as well as courses in Digital History. His publications have appeared in <title level="j">The Latinamericanist</title> and <title level="j">The Journal of Latin American Studies</title>. His book, <title level="m">The Pinochet Generation: The Chilean Military in the Twentieth Century</title>, was published by the University of Alabama Press in 2016.</note>
                </person>
@@ -452,8 +527,10 @@
                      <forename>Julie</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>State University of New York, Potsdam</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note resp="#lmw">Julie Fish plans to graduate in 2017 with a B.A. in English:
                      Literature from the State University of New York at Potsdam. She is working as
@@ -467,8 +544,10 @@
                      <roleName>Editor</roleName>
                      <ptr target="http://www.jamesrovira.com"/>
                   </persName>
-                  <occupation>
-                     <affiliation>Tiffin University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Tiffin University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"> James Rovira teaches British literature, Creative Writing:
                      Poetry, Creative Writing: Creative Non-Fiction, and Literary Theory at Tiffin
@@ -487,11 +566,14 @@
                      <forename>Michael</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>Green Scholar, B.A. in English Literature, in progress (expected
-                     2018)</occupation>
-                  <affiliation>University of Pittsburgh at Greensburg</affiliation>
-                  <note type="bio">Jonathan M. Horanic is pursuing a bachelor’s degree in English
-                     Literature with Secondary Education and History minors, and a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref> at Pitt-Greensburg. He is currently
+                  <occupation type="scholar">
+                     <roleName>Green Scholar, B.A. in English Literature, in progress (expected
+                     2018)
+                     <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Jonathan M. Horanic is pursuing a bachelor’s degree with double majors in English
+                     Literature and History, a Secondary Education minor, and a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref> at Pitt-Greensburg. He is currently
                      working on another on-going digital archive that focuses on the curation and
                      visulization of graveyard records at Brush Creek Cemetery in Irwin, PA. His
                      project, <ref target="http://graveyard.newtfire.org/">
@@ -507,8 +589,10 @@
                      <forename>Karen</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Calgary</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Calgary</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Karen Bourrier is an assistant professor at the University of
                      Calgary. She is currently working on a biography and digital edition of the
@@ -525,8 +609,10 @@
                      <roleName type="sectionEditor">Poetry</roleName>
                      <ptr target="http://www.babson.edu/Academics/faculty/profiles/Pages/Donovan-Condron-Kellie.aspx"/>
                   </persName>
-                  <occupation>Adjunct Lecturer in Arts &amp; Humanities
+                  <occupation type="scholar">
+                     <roleName>Adjunct Lecturer in Arts &amp; Humanities
                      <affiliation>Babson College</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Kellie Donovan-Condron is a Founding Editor and Poetry Section Editor for Digital Mitford. She writes primarily about the intersection of urban literature and the Gothic in the Romantic era. Her research interests are an interdisciplinary mix of literature, history, and material culture. Additional areas of particular interest include women’s writing, consumerism and consumption in literature, Southern Gothic, and questions about genre and social networking. In the summer of 2013, she was selected to be a summer scholar in the National Endowment for the Humanities seminar "Reassessing Romanticism." She is coding <persName ref="#MRM">Mitford</persName>’s epic poem <title ref="#Blanch">Blanch</title> for the Digital Mitford Archive, and has co-authored with <persName ref="#ebb">Elisa Beshero-Bondar</persName> an article analyzing <persName ref="#MRM">Mitford</persName>’s correspondence network across her lifetime. Previously, she worked on a grant to digitize a collection of 17th- and 18th-century maps and ephemeral materials through the Tufts University Perseus Project.</note>
                </person>
@@ -539,8 +625,10 @@
                      <roleName type="sectionEditor">Bibliography and Correspondence</roleName>
                      <roleName>Founding Editor</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>State University of New York at Potsdam</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Lisa Wilson is Professor in the Department of English and
                      Communication at SUNY Potsdam, where she has taught since 2005. She is also the
@@ -571,12 +659,16 @@
                      <forename>Abigail</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>Green Scholar, B.A. in English Literature and English Writing, Minor:
+                  <occupation type="scholar">
+                     <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
                      Visual and Performing Arts <affiliation>University of Pittsburgh at
                         Greensburg</affiliation>
+                     </roleName>
                   </occupation>
-                  <occupation>M.F.A. in progress <affiliation>Loyola Marymount
+                  <occupation type="scholar">
+                     <roleName>M.F.A. in progress <affiliation>Loyola Marymount
                         University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Megan Hughes was Elisa Beshero-Bondar’s Green Scholar (or
                      research assistant) before she graduated from Pitt-Greensburg in 2014. She is
@@ -589,7 +681,9 @@
                      <forename>Melinda</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>Graduate Assistant <affiliation>Baylor University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>Graduate Assistant <affiliation>Baylor University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">PhD in progress at Baylor University, Graduate Assistant at the
                      Armstrong Browning Library at Baylor University</note>
@@ -600,8 +694,10 @@
                      <forename>Molly C.</forename>
                      <roleName>Editor</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Nevada, Las Vegas</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Nevada, Las Vegas</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"> Molly O’Donnell is the University of Nevada, Las Vegas,
                      President’s Foundation Graduate Research Fellow. She has recently contributed
@@ -618,8 +714,10 @@
                      <forename>Erica</forename>
                      <roleName>Consultant: Data Visualization Group</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Editorial Institute, Boston University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Editorial Institute, Boston University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Mary Erica Zimmer comes to Digital Mitford through her interests
                      in scholarly editing, data visualization, textual scholarship, literary
@@ -634,8 +732,10 @@
                      <forename>Melissa</forename>
                      <roleName>Editor</roleName>
                   </persName>
-                  <occupation>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
+                  <occupation type="scholar">
+                     <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
                         University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Melissa Klamer is a Ph.D. student in English at Michigan State
                      University, and is currently a Research Assistant working with <ref target="http://www2.matrix.msu.edu/">MATRIX: Center for the Digital
@@ -650,8 +750,10 @@
                      <forename>Nell</forename>
                      <roleName>Advisory Board</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Maryland</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Maryland</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">The founding Director of <ref target="http://www.mith.umd.edu">the Maryland Institute for Technology in the Humanities, or MITH</ref>,
                      Martha Nell Smith is Professor of English and a Distinguished Scholar-Teacher
@@ -668,8 +770,10 @@
                      <forename>Stephanie</forename>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Carnegie Mellon University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Carnegie Mellon University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -679,8 +783,10 @@
                      <forename>Nicholas</forename>
                      <roleName>Advisory Board</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Penn State University</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Penn State University</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -690,8 +796,10 @@
                      <forename>Olivia</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B. A. in Communication, in progress (expected 2017) <affiliation>State
+                  <occupation type="scholar">
+                     <roleName>B. A. in Communication, in progress (expected 2017) <affiliation>State
                         University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Olivia Allard expects to graduate in 2017 with a B.A. in
                      Communication from the State University of New York at Potsdam. She is also
@@ -708,8 +816,10 @@
                      <forename>M.</forename>
                      <roleName>Advisory Board</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Pittsburgh</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Pittsburgh</affiliation>
+                     </roleName>
                   </occupation>
                </person>
                <person xml:id="qar"><!--2017-10-15 ebb: Eventually, move to Past Research Assistants, BUT KEEP IN CONSULTANTS -->
@@ -720,8 +830,10 @@
                      <roleName>Research Assistant</roleName>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Quinton Reed is an alumnus of the University of Montevallo, where he attended from 2013 to 2017. He currently serves as the editor for Gold Orchid Publishing in Ceredigion, Wales, and is a freelance editor and copywriter in Portland, Oregon. His areas of interest include psychoanalytical and disability studies, particularly in postmodern literature, as well as Gothic and dystopian literature. He is also interested in the life sciences, particularly zoology and anatomy, and the significance of animals and illness in literature. He worked on the Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017, and continues to assist the project in a consulting role.</note>
                </person>
@@ -732,8 +844,10 @@
                      <forename>Jeanne</forename>
                      <roleName>Editor</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>Loyola University Chicago</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Loyola University Chicago</affiliation>
+                     </roleName>
                   </occupation>
                   <!--<occupation>staff assistant, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref>
                      <affiliation>University of Pittsburgh at Greensburg</affiliation>
@@ -758,20 +872,14 @@
                      <roleName>Ph.D.</roleName>
                      <roleName>Founding Editor</roleName>
                   </persName>
-                  <occupation>Assistant Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                  <occupation type="scholar">
+                     <roleName>Assistant Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Rebecca Nesvet’s other digital humanities projects include 
                      the general editorship of a student-produced edition of James Malcolm Rymer’s <ref target="http://www.salisburysquare.com/TSOP">
-                        <title>
-                           <hi rend="italic">The String of Pearls, or the Barber of Fleet-street</hi>
-                        </title>
-                     </ref> (1850), the first complete documentary edition of this source of the legend of <persName>Sweeney Todd</persName>; and  <title>
-                        <hi rend="italic">Science and Art, a Farce</hi>
-                     </title>, by Malcolm Rymer (1820), edited by James Malcolm Rymer (1842), in <ref target="http://www.scholarlyediting.org">
-                        <hi rend="italic">
-                           <title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title>
-                        </hi>
-                     </ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
+                        <title level="m">The String of Pearls, or the Barber of Fleet-street</title>
+                     </ref> (1850), the first complete documentary edition of this source of the legend of <persName>Sweeney Todd</persName>; and  <title level="m">Science and Art, a Farce</title>, by Malcolm Rymer (1820), edited by James Malcolm Rymer (1842), in <ref target="http://www.scholarlyediting.org"><title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title></ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
                </person>
                <person xml:id="sbb"><!--2017-10-15 ebb: Eventually, move to Past Research Assistants -->
                   <persName>Sylvan Baker
@@ -779,8 +887,10 @@
                      <forename>Sylvan</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Sylvan Baker graduated with a B.A. in English from the University of Montevallo in May 2017, and will be attending the University of Nevada-Reno for graduate school in the fall. Before attending Montevallo, Sylvan spent a year and a half in Ireland with her mom (who thankfully is living back here in the US now), and she gained a lot of cultural knowledge and a love for the Irish countryside.  At UM, she found a love for studying nature and the environment in texts, especially in Romantic texts.  She has thoroughly enjoyed the Lake Poets and Mitford’s connections to the natural landscape in "Our Village.” She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
@@ -790,8 +900,10 @@
                      <forename>Susannah</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Originally from Maylene, Alabama, Susannah Ritchey earned her Bachelor’s degree at the University of Montevallo in May 2017, with a major in English and a minor in History. She plans to attend graduate school to specialize in Restoration literature. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
@@ -804,8 +916,10 @@
                      <roleName>Founding Editor</roleName>
                      <roleName type="sectionEditor">Fiction</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Samantha Webb is Professor of English, specializing in British Romantic literature, with a particular focus on the intersection of food, agricultural politics, and ecology. She has published in <title level="j">The European Romantic Review</title>, <title level="j">Romanticism</title>, <title level="j">Essays in Romanticism</title>, and elsewhere. At the University of Montevallo, she teaches courses in British Romantic literature, children’s literature, folk and fairy tales, and global literature. She is a Founding Editor and Fiction Section Editor for Digital Mitford.</note>
                </person>
@@ -816,9 +930,11 @@
                      <!--INVITE TO BE VETTED <roleName>Editor</roleName>-->
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                  <occupation type="scholar">
+                     <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, completed 2017. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note resp="#lmw">Sara Cantwell received her B.F.A. in Creative Writing from the
                      State University of New York at Potsdam in May 2014. She specializes in the
@@ -832,8 +948,10 @@
                      <forename>Shekneko</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Shekneko Garrett is pursuing a Master’s degree in Secondary Education in English at the University of Montevallo, after earning her undergraduate degree in English from Talladega College in May 2013. She aspires to become a teacher, and to coach basketball, softball, volleyball, or cheerleading. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
@@ -843,8 +961,10 @@
                      <forename>Sara</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Sara Perry is an English major and Game Studies and Design minor at the University of Montevallo, hailing from the tiny town of Deatsville, Alabama. She has a passion for reading, crafts, and games, and plans on pursuing a career in game design after graduation. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
@@ -854,8 +974,10 @@
                      <forename>Shawntel</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>State University of New York, Potsdam</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note resp="#lmw">Shawntel Courtney plans to graduate in 2018 with a B.A. in English:
                      Writing and a minor in Literature from the State University of New York at Potsdam. She is working as
@@ -868,8 +990,10 @@
                      <roleName type="grad">Ph.D.</roleName>
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>Assistant Professor of Spanish and French <affiliation>University of
+                  <occupation type="scholar">
+                     <roleName>Assistant Professor of Spanish and French <affiliation>University of
                         Pittsburgh at Greensburg</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Stacey Triplette, Assistant Professor of Spanish and French at
                      the University of Pittsburgh at Greensburg, earned her Ph.D. from the
@@ -892,8 +1016,10 @@
                      <roleName>Consultant: Data Visualization Group</roleName>
                      <ptr target="http://csis.pace.edu/~lombardi/"/>
                   </persName>
-                  <occupation>
-                     <affiliation>Washington and Jefferson College</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Washington and Jefferson College</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -903,13 +1029,15 @@
                      <forename>Temani</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>University of Montevallo</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Montevallo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Temani Beck is completing her Master’s degree in Education at the University of Montevallo. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
             </listPerson>
-            <listOrg sortKey="archives">
+            <listOrg sortKey="archOrgs">
                <org xml:id="Baylor">
                   <orgName>Baylor University, Armstrong Browning Library</orgName>
                   <note resp="#ghb">Holds 3 letters, among correspondence written and received by
@@ -1088,8 +1216,10 @@
                      <forename>Ashante</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B. A. in Literature/Writing and in Communication, completed 2015.
+                  <occupation type="scholar">
+                     <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Ashante Parker graduated in December 2015 with a B.A., majoring
                      in both in Literature/Writing and in Communication from the State University of
@@ -1103,8 +1233,10 @@
                      <forename>Austin</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>M. A. in English and Communication, in progress 2015.
+                  <occupation type="scholar">
+                     <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                   <note type="bio">Austin Calderwood is at work on an M.A. in English and
@@ -1119,8 +1251,10 @@
                      <forename>Chelsie</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>M. A. in English &amp; Communication, 2013 <affiliation>State
+                  <occupation type="scholar">
+                     <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
                         University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Chelsie Murray received her B.A. in Psychology and her M.A. in
                      English &amp; Communication from the State University of New York at Potsdam.
@@ -1138,8 +1272,10 @@
                      <forename>Corie</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>M. A. in English and Communication, in progress 2015.
+                  <occupation type="scholar">
+                     <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                   <note type="bio">Corie LaSalle is at work on an M.A. in English and Communication
@@ -1153,8 +1289,10 @@
                      <forename>Chi-Ya</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">In 2014, Chi-Ya Huang was studying psychology in UCLA. She also
                      worked on Digital Mitford in 2014.
@@ -1166,8 +1304,10 @@
                      <forename>Ella</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA </affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA </affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Ella Beckman is an undergraduate at UCLA and plans to graduate in
                      2017. She is a native of Sacramento and is double majoring in Political Science
@@ -1180,8 +1320,10 @@
                      <forename>Gracia</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">In 2014, Gracia Amos was a fourth year undergraduate at UCLA,
                      finishing a degree in English with a concentration in poetry. Her areas of
@@ -1198,8 +1340,10 @@
                      <forename>Hailey</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">In 2014, Hailey Lown was a third year transfer student at UCLA.
                      She is originally from the state of Maryland. Hailey is an English major,
@@ -1213,8 +1357,10 @@
                      <forename>Heather</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>State University of New York, Potsdam</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                </person>
@@ -1225,10 +1371,14 @@
                      <!--INVITE TO BE VETTED <roleName>Editor</roleName>-->
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation> B.A., English Literature, completed 2014<affiliation>State
+                  <occupation type="scholar">
+                     <roleName> B.A., English Literature, completed 2014<affiliation>State
                      University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
-                  <occupation> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                  <occupation type="scholar">
+                     <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                     </roleName>
                   </occupation>
                   <note resp="#lmw">Heather Sarsfield received her BA in English Literature from the
                      State University of New York at Potsdam in December 2014; she worked on the Digital Mitford project as a Research Assistant from Fall 2013 to Fall 2014. 
@@ -1243,11 +1393,15 @@
                      <forename>Breanna</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>M.A. in English &amp; Communication, in progress <affiliation>State
+                  <occupation type="scholar">
+                     <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
                         University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
-                  <occupation>M.L.S., completed 2015 <affiliation>University at
+                  <occupation type="scholar">
+                     <roleName>M.L.S., completed 2015 <affiliation>University at
                         Buffalo</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Jaime Burwell is a native of northern New York. She received her
                      B.A. in English Literature from the State University of New York at Potsdam in
@@ -1266,8 +1420,10 @@
                      <forename>Kristen</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>M. A. in English and Communication, in progress 2015.
+                  <occupation type="scholar">
+                     <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio"/>
                   <note type="bio">Kristen Murphy is at work on an M.A. in English and Communication
@@ -1281,8 +1437,10 @@
                      <forename>Mehaque</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">In 2014, Mehaque Kohli was a fourth year International
                      Development Studies major at UCLA. She is originally from New Delhi, India,
@@ -1297,8 +1455,10 @@
                      <forename>Margo</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B.A., Literature/Writing &amp; Secondary English Education, completed
+                  <occupation type="scholar">
+                     <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
                      2015. <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Margo Paine graduated in May 2015 from the State University of
                      New York at Potsdam with her B.A. in Literature/Writing and Secondary English
@@ -1313,11 +1473,15 @@
                      <!--INVITE TO BE VETTED <roleName>Editor</roleName>-->
                      <roleName>Consultant</roleName>
                   </persName>
-                  <occupation>B.A., English: Literature, 2015 <affiliation>State
+                  <occupation type="scholar">
+                     <roleName>B.A., English: Literature, 2015 <affiliation>State
                      University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
-                  <occupation>M.L.I.S, 2017 <affiliation>Syracuse
+                  <occupation type="scholar">
+                     <roleName>M.L.I.S, 2017 <affiliation>Syracuse
                      University</affiliation>
+                     </roleName>
                   </occupation>
                   <note resp="#lmw">Natalie LoRusso graduated in May 2015 with a B.A. in English
                      Literature from the State University of New York at Potsdam; she also completed
@@ -1332,8 +1496,10 @@
                      <forename>Nathaniel</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B. A. in Literature/Writing and in Communication, completed 2015.
+                  <occupation type="scholar">
+                     <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Nathan Hebert graduated in December 2015 with a B.A., majoring in
                      both in Literature/Writing and in Communication from the State University of
@@ -1347,8 +1513,10 @@
                      <forename>Perdita</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B. A. in Communication, in progress (expected 2016) <affiliation>State
+                  <occupation type="scholar">
+                     <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
                         University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Perdita Sasu graduated in 2016 with a B.A. in Communication from
                      the State University of New York at Potsdam. She began work as a Digital
@@ -1362,8 +1530,10 @@
                      <forename>Rebecca</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">In 2014, Rebecca Tang was a fourth-year student at UCLA, majoring
                      in English with a particular interest in 19th-century Romantic poetry.
@@ -1380,9 +1550,11 @@
                      <forename>Lynn</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                  <occupation type="scholar">
+                     <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, in progress 2016. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Tracy Harnish is a native of northern New York. She received her
                      B.F.A. in Creative Writing from the State University of New York at Potsdam in
@@ -1400,8 +1572,10 @@
                      <forename>Toni</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">In 2014, Toni Hays was a student at UCLA, majoring in English
                      Literature with a particular focus on aestheic theory. She is particularly
@@ -1418,9 +1592,11 @@
                      <forename>William</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B.A. in History, English Literature, &amp; Sociology, in progress
+                  <occupation type="scholar">
+                     <roleName>B.A. in History, English Literature, &amp; Sociology, in progress
                      (expected 2016) <affiliation>State University of New York at
                         Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">William Barr is a transfer student who expects to graduate in
                      2016 with a B.A. in English Literature, History, and Sociology from the State
@@ -1434,8 +1610,10 @@
                      <forename>Wilmina</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>B. A. in Literature/Writing, completed 2016 <affiliation>State
+                  <occupation type="scholar">
+                     <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Wilmina Sainbert graduated in 2016 with a B.A. in
                      Literature/Writing from the State University of New York at Potsdam. She is
@@ -1450,8 +1628,10 @@
                      <forename>Robin</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>
-                     <affiliation>UCLA</affiliation>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>UCLA</affiliation>
+                     </roleName>
                   </occupation>
                   <note type="bio">Robin Xiong is Xiong Junwen from China. In 2014, she was an
                      undergraduate student in UCLA majoring in Pre-Asian Studies. Robin loves movies
@@ -2806,14 +2986,14 @@
                      posthumously in 1818 along with her last finished novel,
                         <title>Persuasion</title>. <rs type="letter">
                         <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>
-                     </rs> that she has recently discovered Austen <quote defective="false">"is my
+                     </rs> that she has recently discovered Austen <quote>"is my
                         countrywoman,"</quote>, that is, a neighbor. Later in <rs type="letter">a
                         letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen’s novels</rs>. She
                      and Elford evidently knew the identity of Austen as the author long before the
                      information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her
-                     youth as <quote defective="false">"the prettiest, silliest, most affected,
-                        husband-hunting butterfly she ever remembers"</quote>, but that Jane was by
-                     the 1810s extremely quiet, which impressed Mitford: <quote defective="false">"till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed
+                     youth as <quote>the prettiest, silliest, most affected,
+                        husband-hunting butterfly she ever remembers</quote>, but that Jane was by
+                     the 1810s extremely quiet, which impressed Mitford: <quote>"till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed
                         what a precious gem was hidden in that unbending case, she was no more
                         regarded in society than a poker or a fire-screen, or any other thin upright
                         piece of wood or iron that fills its corner in peace and quietness. The case
@@ -9041,10 +9221,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>John</forename>
                      <forename>Phillip</forename>
                   </persName>
+                  <birth when="1757"/>
+                  <death when="1823"/>
                   <occupation>actor</occupation>
                   <note type="bio" resp="#lmw">
-                     <p>British actor (1757-1823). Member of Kemble acting clan, brother of Sarah
-                        Siddons. </p>
+                     <p>British actor, member of Kemble acting clan, brother of <persName ref="#Siddons_Sarah">Sarah Siddons</persName> and <persName ref="#Kemble_C">Charles Kemble</persName>. </p>
                   </note>
                </person>
                <person xml:id="Kemble_MrsC" sex="f">
@@ -9059,6 +9240,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <!--check name-->
                   <persName>Mrs. Charles Kemble</persName>
                   <persName>Miss deCamp</persName>
+                  <persName>Miss duCamp</persName>
                   <birth when="1777-01-01">
                      <placeName>Vienna, Austria</placeName>
                   </birth>
@@ -9068,11 +9250,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation>actor</occupation>
                   <occupation>literary</occupation>
                   <note type="bio" resp="#lmw #cmm">
-                     <p> British actress, later Mrs. Charles Kemble. Acted under "Miss deCamp."
-                        (sometimes spelled "duCamp.") Married actor Charles Kemble 2 July 1806.
-                        Starred in a travestied version of <title>The Beggar’s Opera</title> in
-                           <date>1792</date> and went on to star in <title>Miss in her
-                        Teens</title>, <title>The Recruiting Officer</title> and <title>The Iron
+                     <p>British actress, later Mrs. Charles Kemble. Acted under <soCalled>Miss deCamp</soCalled>, sometimes spelled <soCalled>duCamp</soCalled>. <event when="1806-07-02">Married actor <persName ref="#Kemble_C">Charles Kemble</persName>
+                           <date>2 July 1806</date>
+                        </event>.
+                        Starred in a travestied version of <bibl>
+                           <title level="m">The Beggar’s Opera</title> in <date>1792</date>
+                        </bibl> and went on to star in <title level="m">Miss in her
+                        Teens</title>, <title level="m">The Recruiting Officer</title> and <title level="m">The Iron
                            Chest</title>. After her marriage, she appeared at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>, assisted
                            <persName ref="#Kemble_C">Charles Kemble</persName> with productions, and
                         authored several comedies. Mother of <persName>Frances Kemble</persName> and
@@ -10746,7 +10930,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                            two other candidates. The votes ran: <persName ref="#Monck_JB">John
                               Berkeley Monck</persName> (418 votes), <persName ref="#Palmer_CF">Charles Fyshe Palmer</persName>(399 votes), and <persName ref="#Weyland_John">John Weyland</persName>(395 votes.)</rs> Mitford’s
                         letters around this time indicate she much preferred his opponent <persName ref="#Monck_JB">J. B. Monck</persName>, and she had earlier satirized
-                        Palmer in <date when="1818">1818</date> as <quote defective="false">"vastly
+                        Palmer in <date when="1818">1818</date> as <quote>"vastly
                            like a mop-stick, or, rather, a tall hop-pole, or an extremely long
                            fishing-rod, or anything that is all length and no substance."</quote>
                      </p>
@@ -18166,16 +18350,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </place>
             </listPlace>
          </div>
-         <div type="nature"><!--ebb 2016-06-07 Changed from div type="plant" to add animal species list-->
+         <div type="nature"><!--ebb 2016-06-07 Changed from div type="plant" to add animal species list. -->
             <list sortKey="animals">
                <item xml:id="Long_tailed_wren">
                   <name>long-tailed wren</name>
                   <name>Naga wren-babbler</name>
-                  <name>
-                     <rs type="genus">Spelaeornis</rs>
-                     <rs type="species">chocolatinus</rs>
-                     <rs type="family">Timaliidae</rs>
-                  </name>
+                  <name type="genus">Spelaeornis</name>
+                  <name type="species">chocolatinus</name>
+                  <name type="family">Timaliidae</name>
                   <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis
                      chocolatinus), a bird species in the family Timaliidae.</note>
                </item>
@@ -18183,10 +18365,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
             <list sortKey="plants">
                <item xml:id="anemone">
                   <name>anemone</name>
-                  <name>
-                     <rs type="genus">Anemone</rs>
-                     <rs type="family">Ranunculaceae</rs>
-                  </name>
+                  <name type="genus">Anemone</name>
+                  <name type="family">Ranunculaceae</name>
                   <note resp="#lmw"> Mitford may refer to the European wood anemone (Anemone
                      nemorosa), an early-spring flowering plant in the genus Anemone in the family
                      Ranunculaceae, native to Europe. Common names include wood anemone, windflower,
@@ -18199,11 +18379,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="beech">
                   <name>beech</name>
-                  <name>
-                     <rs type="genus">Fagus</rs>
-                     <rs type="family">Fagaceae</rs>
-                     <rs type="species">sylvatica</rs>
-                  </name>
+                  <name type="genus">Fagus</name>
+                  <name type="family">Fagaceae</name>
+                  <name type="species">sylvatica</name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite trees.
                      Beech (Fagus) is a genus of deciduous trees in the family Fagaceae, native to
                      temperate Europe, Asia and North America. Mitford likely refers to the European
@@ -18212,11 +18390,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="Cabbage_red">
                   <name>red cabbage</name>
-                  <name>
-                     <rs type="genus">Brassica</rs>
-                     <rs type="species">oleracea</rs>
-                     <rs type="family">rubra</rs>
-                  </name>
+                  <name type="genus">Brassica</name>
+                  <name type="species">oleracea</name>
+                  <name type="family">rubra</name>
                   <note resp="#lmw">Garden plant, related to the green cabbage and also called
                      purple cabbage. The red cabbage (Brassica oleracea var. capitata f. rubra) is a
                      kind of cabbage whose leaves are coloured dark red/purple. Mitford humorously
@@ -18233,11 +18409,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name>cowslip</name>
                   <name>common cowslip</name>
                   <name>cowslip primrose</name>
-                  <name>
-                     <rs type="genus">Primula</rs>
-                     <rs type="species">veris</rs>
-                     <rs type="family">Primulaceae</rs>
-                  </name>
+                  <name type="genus">Primula</name>
+                  <name type="species">veris</name>
+                  <name type="family">Primulaceae</name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite
                      flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>.
                      Mitford likely refers to Primula veris (also called cowslip, common cowslip,
@@ -18248,10 +18422,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="fir">
                   <name>fir</name>
-                  <name>
-                     <rs type="genus">Abies</rs>
-                     <rs type="family">Pinaceae</rs>
-                  </name>
+                  <name type="genus">Abies</name>
+                  <name type="family">Pinaceae</name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite trees.
                      Firs (Abies) are a genus of approximately fifty species of evergreen coniferous
                      trees in the family Pinaceae. They are found through much of <placeName>North
@@ -18263,10 +18435,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <item xml:id="lily_valley">
                   <name>lily of the valley</name>
                   <name>lily-of-the-valley</name>
-                  <name>
-                     <rs type="genus">Convallaria</rs>
-                     <rs type="species">majalis</rs>
-                  </name>
+                  <name type="genus">Convallaria</name>
+                  <name type="species">majalis</name>
                   <note resp="#lmw">Lily of the valley (sometimes written lily-of-the-valley), a
                      scented woodland flowering plant native to the cool temperate
                         <placeName>Northern Hemisphere</placeName> in <placeName>Asia</placeName>
@@ -18279,11 +18449,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name>English primrose</name>
                   <name>common primrose</name>
                   <name>true primrose</name>
-                  <name>
-                     <rs type="genus">Primula</rs>
-                     <rs type="species">vulgaris</rs>
-                     <rs type="family">Primulaceae</rs>
-                  </name>
+                  <name type="genus">Primula</name>
+                  <name type="species">vulgaris</name>
+                  <name type="family">Primulaceae</name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite
                      flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>.
                      Mitford likely refers to Primula vulgaris, a species of flowering plant in the
@@ -18298,10 +18466,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="violet">
                   <name>violet</name>
-                  <name>
-                     <rs type="genus">Viola</rs>
-                     <rs type="family">Violaceae</rs>
-                  </name>
+                  <name type="genus">Viola</name>
+                  <name type="family">Violaceae</name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite
                      flowers (as it was of many of her contemporaries), blooms in spring in
                         <placeName ref="#Berkshire">Berkshire</placeName>. Mentioned in the <title ref="#Poems_2nd_ed_MRM">1811 Poems</title> as well as in <title ref="#Our_Village1st_ed">Our Village</title> Mitford likely refers to wild
@@ -18316,10 +18482,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name>wood sorrel</name>
                   <name>woodsorrel</name>
                   <name>wood-sorrel</name>
-                  <name>
-                     <rs type="genus">Oxalis</rs>
-                     <rs type="species">acetosella</rs>
-                  </name>
+                  <name type="genus">Oxalis</name>
+                  <name type="species">acetosella</name>
                   <note resp="#lmw">Mitford likely refers to common wood sorrel (Oxalis acetosella),
                      a member of the oxalis family sometimes also spelled "woodsorrel" or
                      "wood-sorrel." It grows in mixed woodlands and bears a white flower. It is not

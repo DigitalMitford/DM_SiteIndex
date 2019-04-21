@@ -180,7 +180,7 @@
             </elementSpec>-->
         <elementSpec ident="occupation" module="namesdates" mode="change">
            <content>
-              <empty/>
+                 <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
            </content>
                <attList>
                   <attDef ident="type" mode="replace" usage="req">
@@ -331,6 +331,20 @@
                      </valList>      
                   </attDef>
                </attList>
+           <exemplum>
+              <p>The <gi>occupation</gi> element in lists of editors and assistants on the Digital Mitford project should contain a roleName to contain institutional roles and affiliation:</p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                 <occupation type="educator"><roleName>Assistant Professor of English <affiliation>Missouri Southern State
+                    University</affiliation></roleName>
+                 </occupation>
+              </egXML>
+           </exemplum>
+           <exemplum>
+              <p>When the <gi>occupation</gi> element appears in other lists (for historical or fictional persons) in the site index, it is an empty element, and must hold attributes for typing and subtyping:</p>
+              <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                 <occupation type="literary" subtype="playwright"/>
+              </egXML>
+           </exemplum>
             </elementSpec>
             <elementSpec ident="rs" module="core" mode="change">
                <attList>
@@ -352,7 +366,7 @@
                            <gloss>Use to mark references to correspondence.</gloss>
                         </valItem>
                         <valItem ident="plant">
-                           <gloss>Use to mark references to plants by kind, variety, genus, and/or species. If you see a kind, variety, genus, and/or species name, use the name element with type="plant".</gloss>
+                           <gloss>Use to mark references to plants by kind, variety, genus, and/or species. If you see a kind, variety, genus, and/or species name, use the &lt;name&gt; element (instead of &lt;rs&gt;) with type="plant".</gloss>
                         </valItem>
                         <valItem ident="animal">
                            <gloss>Use to mark references to animal types when they are unnamed by kind, variety, genus, and/or species. If you see a kind, variety, genus, and/or species name, use the name element with type="animal". </gloss>

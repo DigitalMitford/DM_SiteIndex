@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0"
     xmlns="http://www.tei-c.org/ns/1.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
     <xsl:output method="xml" indent="yes"/>
 
 <!--ebb: This stylesheet alphabetizes the various kinds of lists in the Digital Mitford site index in a case-insensitive way by @xml:id.-->
+    <!--2019-04-21 ebb: I'm updating this to XSLT 3.0, and adding a template rule to convert any occupation elements in the Mitford editing team list over to roleName elements. -->
     
     <xsl:strip-space elements="*"/>
     <!--ebb: This is needed to remove white space that will sit in place of the element tags we're about to remove. -->
 
-
-    <xsl:template match="node() | @*">
-        <xsl:copy>
-            <xsl:apply-templates select="node() | @*"/>
-        </xsl:copy>
-    </xsl:template>
+    <xsl:mode on-no-match="shallow-copy"/>
     
     <xsl:template match="edition">
         
@@ -87,5 +83,15 @@
             </xsl:apply-templates>
        </listBibl>
     </xsl:template>
-
+    <xsl:template match="listPerson[@sortKey='Past_Assistants']/person/occupation | listPerson[@sortKey='Mitford_Team']/person/occupation">
+       <occupation type="scholar"> <roleName>
+            <xsl:apply-templates/>
+        </roleName></occupation>
+    </xsl:template>
+    <xsl:template match="title[hi[@rend='italic']]">
+        <title level="m"><xsl:apply-templates/></title>
+    </xsl:template>
+    <xsl:template match="title/hi[@rend='italic']">
+        <xsl:apply-templates/>
+    </xsl:template>
 </xsl:stylesheet>

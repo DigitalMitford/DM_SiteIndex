@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--2019-02-17 ebb: Old Schema Association line with TEI All and Schematron: <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://ebeshero.github.io/siCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="http://ebeshero.github.io/siCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<!--2018-09-27 ebb: For this small update, I am reinstating the old schema of TEI All and our separate Schematron validation file to add Anne Longmuir's new editor bio. New SI ODD still needs work. -->
+<!--2018-02-17 ebb: I'm modifying the Talfourd entry so the top material better foregrounds his career, and adding that long-missing Charles Kemble entry. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -23,7 +25,6 @@
             </respStmt>
             <respStmt>
                <resp>Proofing and corrections by</resp>
-               <persName>Lisa Wilson</persName>
                <persName>Elisa Beshero-Bondar</persName>
             </respStmt>
          </titleStmt>
@@ -40,9 +41,9 @@
                   License</licence>
             </availability>
          </publicationStmt>
-<!--         <notesStmt>
+         <notesStmt>
             <note>Any special notes on this text? (optional)</note>
-         </notesStmt>-->
+         </notesStmt>
          <sourceDesc>
             <p>Information on named entities in this file has been extracted from files in the
                Digital Mitford Archive.</p>
@@ -53,14 +54,6 @@
             <p>Describes our editorial practice.</p>
          </editorialDecl>
       </encodingDesc>
-      <revisionDesc>
-         <listChange>
-            <change when="2019-04-21" who="#ebb">Simplified the way we designate genus, species in the plant and animal lists, from rs to name. (Rationale: In TEI, rs is not the right element because it's intended for references that aren't names (like pronouns), and genus/species are names.) </change>
-            <change when="2019-04-21" who="#ebb">Created this changelog on the SI to better log our descriptions of changes. </change>
-            <change when="2019-02-17" who="#ebb">Set ODD-generated SI schema to be active on this file; note that editor occupations now flag as errors: we need to change where we encode SI editor home institutions and employment titles.</change>
-               <change when="2019-02-17" who="#ebb">Modifed the Thomas Noon Talfourd entry so the top material better foregrounds his career and connection to MRM. Added a long-missing Charles Kemble entry, and fleshed out internal tagging on Kemble family entries.</change>
-         </listChange>
-      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -72,8 +65,8 @@
                      <forename>Alison</forename>
                      <roleName>Advisory Board</roleName>
                   </persName>
-                  <occupation type="educator">
-                     <roleName><affiliation>University of Virginia</affiliation></roleName>
+                  <occupation>
+                     <affiliation>University of Virginia</affiliation>
                   </occupation>
                   <note type="bio">Professor of English, Booth directs the Collective Biographies of
                      Women (CBW) project at the Institute for Advanced Technology in the Humanities
@@ -193,17 +186,19 @@
                      <forename>Ann</forename>
                      <roleName>Research Assistant</roleName>
                   </persName>
-                  <occupation>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                  <occupation>Green Scholar, B. A. in English Literature, in progress (expected
+                     2018) <affiliation>University of Pittsburgh at Greensburg</affiliation>
                   </occupation>
-                  <note type="bio">Brooke A. Stewart worked on the Digital Mitford project as a student at the University of Pittsburgh at
-                     Greensburg, where she pursued a bachelor’s degree in English Literature and
+                  <note type="bio">Brooke A. Stewart is a student at the University of Pittsburgh at
+                     Greensburg, where she is pursuing a bachelor’s degree in English Literature and
                      a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is currently working on another
                      digital archive that focuses on Emily Dickinson. Her project, <ref target="http://dickinson16.newtfire.org/">
                         <title level="m">Emily Dickinson</title>
                      </ref>, looks closely at Dickinson’s original poem manuscripts and compares
                      them to published versions, which often differ in significant ways from
                      Dickinson’s original work. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
-                     Delta, and an active participant in Habitat for Humanity. </note>
+                     Delta, and she is an active participant in Habitat for Humanity on her campus. She is currently working as a research assistant on the
+                     Digital Mitford Project. </note>
                </person>
                <person xml:id="cay">
                   <persName>
@@ -394,9 +389,9 @@
                      <roleName>Founding Editor</roleName>
                   </persName>
                   <occupation>
-                     <affiliation>Michigan State University</affiliation>
+                     <affiliation>Adrian College</affiliation>
                   </occupation>
-                  <note type="bio">Eric Hood is an Assistant Professor at Michigan State University and holds a
+                  <note type="bio">Eric Hood is an Assistant Professor at Adrian College and holds a
                      PhD from the University of Kansas. He specializes in literary theory,
                      eighteenth- and nineteenth-century British poetry (particularly, the epic), and
                      intellectual networks. <ptr target="http://academichood.wordpress.com"/>
@@ -485,15 +480,6 @@
                      lives in the greater Columbus area with his wife Sheridan and his children
                      Penn, Grace, and Zoe.</note>
                </person>
-               <person xml:id="drl">
-                  <persName><surname>Lint</surname>
-                  <forename>Dorothea</forename>
-                     <roleName>Research Assistant</roleName>
-                  </persName>
-                  <occupation>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation></occupation>
-                  <occupation>M.A. student <affiliation>Duquesne University</affiliation></occupation>
-                  <note type="bio">Dorothea Lint joined the Digital Mitford project in 2018 as a Green Scholar research assistant at Pitt-Greensburg, and she is assisting with analysis of a manuscript performance prompt book and associated new encoding for Mitford’s play, <title level="m" ref="#Rienzi">Rienzi</title>. She has developed a <ref target="http://combe.newtfire.org">digital project on the nineteenth-century serial hack writer William Combe</ref>, and is pursuing an M.A. in English Literature at Duquesne University beginning in 2019. She is a Spay and Neuter Clinic Volunteer for Best Buddies Clinic, and the author of an independently published book, <title level="m">Dieting Dog: A Guide to Doggie Weight Loss from a Rottweiler Who Succeeded</title> (2019). </note>
-               </person>
                <person xml:id="jmh">
                   <persName>
                      <surname>Horanic</surname>
@@ -502,10 +488,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation>Green Scholar, B.A. in English Literature, in progress (expected
-                     2018)
-                     <affiliation>University of Pittsburgh at Greensburg</affiliation></occupation>
-                  <note type="bio">Jonathan M. Horanic is pursuing a bachelor’s degree with double majors in English
-                     Literature and History, a Secondary Education minor, and a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref> at Pitt-Greensburg. He is currently
+                     2018)</occupation>
+                  <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                  <note type="bio">Jonathan M. Horanic is pursuing a bachelor’s degree in English
+                     Literature with Secondary Education and History minors, and a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref> at Pitt-Greensburg. He is currently
                      working on another on-going digital archive that focuses on the curation and
                      visulization of graveyard records at Brush Creek Cemetery in Irwin, PA. His
                      project, <ref target="http://graveyard.newtfire.org/">
@@ -782,7 +768,10 @@
                      </ref> (1850), the first complete documentary edition of this source of the legend of <persName>Sweeney Todd</persName>; and  <title>
                         <hi rend="italic">Science and Art, a Farce</hi>
                      </title>, by Malcolm Rymer (1820), edited by James Malcolm Rymer (1842), in <ref target="http://www.scholarlyediting.org">
-                           <title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title></ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
+                        <hi rend="italic">
+                           <title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title>
+                        </hi>
+                     </ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
                </person>
                <person xml:id="sbb"><!--2017-10-15 ebb: Eventually, move to Past Research Assistants -->
                   <persName>Sylvan Baker
@@ -920,7 +909,7 @@
                   <note type="bio">Temani Beck is completing her Master’s degree in Education at the University of Montevallo. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
             </listPerson>
-            <listOrg sortKey="archOrgs">
+            <listOrg sortKey="archives">
                <org xml:id="Baylor">
                   <orgName>Baylor University, Armstrong Browning Library</orgName>
                   <note resp="#ghb">Holds 3 letters, among correspondence written and received by
@@ -2050,7 +2039,7 @@
                </org>
                <org xml:id="Kemble_family">
                   <orgName>the Kembles</orgName>
-               <note resp="#ebb">This includes <persName ref="#Kemble_C">Charles Kemble</persName>, his brother <persName ref="#Kemble_JP">John Phillip Kemble</persName>, his sister <persName ref="#Siddons_Sarah">Sarah Siddons</persName>, his wife <persName ref="#Kemble_MrsC">Mrs. Charles Kemble</persName>, and his daughter <persName ref="#Kemble_Frances">Fanny Kemble</persName>.</note>
+                  <note resp="#ebb">This includes <persName ref="#Kemble_C">Charles Kemble</persName>, his brother <persName ref="#Kemble_JP">John Phillip Kemble</persName>, his sister <persName ref="#Siddons_Sarah">Sarah Siddons</persName>, his wife <persName ref="#Kemble_MrsC">Mrs. Charles Kemble</persName>, and his daughter <persName ref="#Kemble_Frances">Fanny Kemble</persName>.</note>
                </org>
                <org xml:id="Longman_Hurst_ROB_pub">
                   <orgName>Longman, Hurst, Rees, Orme, &amp; Brown</orgName>
@@ -2817,14 +2806,14 @@
                      posthumously in 1818 along with her last finished novel,
                         <title>Persuasion</title>. <rs type="letter">
                         <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>
-                     </rs> that she has recently discovered Austen <quote>"is my
+                     </rs> that she has recently discovered Austen <quote defective="false">"is my
                         countrywoman,"</quote>, that is, a neighbor. Later in <rs type="letter">a
                         letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen’s novels</rs>. She
                      and Elford evidently knew the identity of Austen as the author long before the
                      information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her
-                     youth as <quote>the prettiest, silliest, most affected,
-                        husband-hunting butterfly she ever remembers</quote>, but that Jane was by
-                     the 1810s extremely quiet, which impressed Mitford: <quote>"till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed
+                     youth as <quote defective="false">"the prettiest, silliest, most affected,
+                        husband-hunting butterfly she ever remembers"</quote>, but that Jane was by
+                     the 1810s extremely quiet, which impressed Mitford: <quote defective="false">"till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed
                         what a precious gem was hidden in that unbending case, she was no more
                         regarded in society than a poker or a fire-screen, or any other thin upright
                         piece of wood or iron that fills its corner in peace and quietness. The case
@@ -9016,10 +9005,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Kemble</surname>
                      <forename>Charles</forename>
                   </persName>
-               <birth when="1775-11-25"><placeName>Brecon, South Wales</placeName></birth>
+                  <birth when="1775-11-25"><placeName>Brecon, South Wales</placeName></birth>
                   <death when="1854-11-12"><placeName>Savile Row, London</placeName></death>
-                  <occupation type="theater" subtype="actor"/>
-                  <occupation type="theater" subtype="manager"/>
+                  <occupation type="theater" subtype="actor manager"/>
                   <occupation type="literary"/>
                   <note resp="#ebb">Member of a renowned family of actors, Charles Kemble was the younger brother of <persName ref="#Kemble_JP">John Kemble</persName>, and performed with him in Shakespearian roles in the 1790s and was especially known for his role as Hamlet beginning in 1803 and frequently repeated in subsequent decades. He often adapted plays for production from other authors, and though most were not successful on the stage, <bibl>his farce on Cervantes, <title level="m">Plot and Counterplot, or, The Portrait of Michel Cervantes</title>, which he adapted from <bibl>a French play by <author>Joseph-Marie-Armand-Michel Dieulafoi</author></bibl>, did well at Haymarket Theatre in <date when="1808">1808</date></bibl>. His long-running theatrical career kept him acting regularly from the 1790s into the 1830s on stages on both sides of the Atlantic from <placeName ref="#London_city">London</placeName> to <placeName ref="#New_York_city">New York</placeName>.</note>
                </person>
@@ -9046,8 +9034,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>John</forename>
                      <forename>Phillip</forename>
                   </persName>
-                  <birth when="1757"/>
-                  <death when="1823"/>
                   <occupation>actor</occupation>
                   <note type="bio" resp="#lmw">
                      <p>British actor, member of Kemble acting clan, brother of <persName ref="#Siddons_Sarah">Sarah Siddons</persName> and <persName ref="#Kemble_C">Charles Kemble</persName>. </p>
@@ -9065,7 +9051,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <!--check name-->
                   <persName>Mrs. Charles Kemble</persName>
                   <persName>Miss deCamp</persName>
-                  <persName>Miss duCamp</persName>
                   <birth when="1777-01-01">
                      <placeName>Vienna, Austria</placeName>
                   </birth>
@@ -9076,9 +9061,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation>literary</occupation>
                   <note type="bio" resp="#lmw #cmm">
                      <p>British actress, later Mrs. Charles Kemble. Acted under <soCalled>Miss deCamp</soCalled>, sometimes spelled <soCalled>duCamp</soCalled>. <event when="1806-07-02">Married actor <persName ref="#Kemble_C">Charles Kemble</persName> <date>2 July 1806</date></event>.
-                        Starred in a travestied version of <bibl><title level="m">The Beggar’s Opera</title> in <date>1792</date></bibl> and went on to star in <title level="m">Miss in her
-                        Teens</title>, <title level="m">The Recruiting Officer</title> and <title level="m">The Iron
-                           Chest</title>. After her marriage, she appeared at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>, assisted
+                        Starred in a travestied version of <bibl><title level="m">The Beggar’s Opera</title> in <date>1792</date></bibl> and went on to star in <title level="m">Miss in her Teens</title>, <title level="m">The Recruiting Officer</title> and <title level="m">The Iron Chest</title>. After her marriage, she appeared at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>, assisted
                            <persName ref="#Kemble_C">Charles Kemble</persName> with productions, and
                         authored several comedies. Mother of <persName>Frances Kemble</persName> and
                            <persName>Adelaide Kemble</persName>.</p>
@@ -10751,7 +10734,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                            two other candidates. The votes ran: <persName ref="#Monck_JB">John
                               Berkeley Monck</persName> (418 votes), <persName ref="#Palmer_CF">Charles Fyshe Palmer</persName>(399 votes), and <persName ref="#Weyland_John">John Weyland</persName>(395 votes.)</rs> Mitford’s
                         letters around this time indicate she much preferred his opponent <persName ref="#Monck_JB">J. B. Monck</persName>, and she had earlier satirized
-                        Palmer in <date when="1818">1818</date> as <quote>"vastly
+                        Palmer in <date when="1818">1818</date> as <quote defective="false">"vastly
                            like a mop-stick, or, rather, a tall hop-pole, or an extremely long
                            fishing-rod, or anything that is all length and no substance."</quote>
                      </p>
@@ -12881,6 +12864,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                            <title>Glencoe, or the Fate of the
                            MacDonalds</title>(<date>1839</date>)</bibl>.</p>
                   </note>
+                  <note type="bioDetail"><p>Thomas Noon Talfourd was born
+                     on <date when="1795-05-26">May 26, 1795</date> at <placeName ref="#Reading_city">Reading, Berkshire</placeName> and baptised on <date when="1795-07-12">July 12, 1795</date> at the <placeName>Broad Street
+                        Chapel in Reading</placeName>, the eldest child of <persName>Rev. Edward
+                           Talfourd</persName> and <persName>Anne Isabella Noon</persName>. His
+                     father was a brewer and later established a lunatic asylum for female
+                     patients at <placeName>Normand House, Fulham</placeName>, which he ran until
+                     his death, and the supervision of which was later conducted by his wife and
+                     his daughter Anne.</p>
+                     <p>
+                        <rs type="event">Thomas Noon Talfourd married <persName ref="#Talfourd_Mrs">Rachel Rutt</persName> on <date when="1822-08-31">August 31,
+                           1822</date> at St. John, Hackney, Middlesex</rs>. Rachel was the
+                        daughter of radical politician and writer <persName ref="#Rutt_John">John
+                           Towill Rutt</persName>. Thomas and Rachel had five children: Francis,
+                        Mary, Katharine, Thomas Noon [II], and William Wordsworth. In <date when="1832">1832</date>, the family lived at <placeName>26 Henrietta
+                           Street, St Andrew, Holborn and St George the Martyr, Bloomsbury,
+                           England</placeName>. In <date when="1837">1837</date>, they lived at
+                        <placeName>56 Russell Square, St. George, Bloomsbury</placeName>.
+                        Talfourd’s chambers were at <placeName ref="#Temple">2 Elm Court, Temple,
+                           London</placeName>.</p></note>
                   <note>
                      <ref target="http://viaf.org/viaf/61904095"/>
                   </note>
@@ -18171,15 +18173,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </place>
             </listPlace>
          </div>
-         <div type="nature"><!--ebb 2016-06-07 Changed from div type="plant" to add animal species list. -->
+         <div type="nature"><!--ebb 2016-06-07 Changed from div type="plant" to add animal species list-->
             <list sortKey="animals">
                <item xml:id="Long_tailed_wren">
                   <name>long-tailed wren</name>
                   <name>Naga wren-babbler</name>
-                  <name type="genus">Spelaeornis</name>
-                  <name type="species">chocolatinus</name>
-                  <name type="family">Timaliidae</name>
-                  
+                  <name>
+                     <rs type="genus">Spelaeornis</rs>
+                     <rs type="species">chocolatinus</rs>
+                     <rs type="family">Timaliidae</rs>
+                  </name>
                   <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis
                      chocolatinus), a bird species in the family Timaliidae.</note>
                </item>
@@ -18187,8 +18190,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
             <list sortKey="plants">
                <item xml:id="anemone">
                   <name>anemone</name>
-                  <name type="genus">Anemone</name>
-                  <name type="family">Ranunculaceae</name>
+                  <name>
+                     <rs type="genus">Anemone</rs>
+                     <rs type="family">Ranunculaceae</rs>
+                  </name>
                   <note resp="#lmw"> Mitford may refer to the European wood anemone (Anemone
                      nemorosa), an early-spring flowering plant in the genus Anemone in the family
                      Ranunculaceae, native to Europe. Common names include wood anemone, windflower,
@@ -18201,10 +18206,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="beech">
                   <name>beech</name>
-                  <name type="genus">Fagus</name>
-                  <name type="family">Fagaceae</name>
-                  <name type="species">sylvatica</name>
-                  
+                  <name>
+                     <rs type="genus">Fagus</rs>
+                     <rs type="family">Fagaceae</rs>
+                     <rs type="species">sylvatica</rs>
+                  </name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite trees.
                      Beech (Fagus) is a genus of deciduous trees in the family Fagaceae, native to
                      temperate Europe, Asia and North America. Mitford likely refers to the European
@@ -18213,10 +18219,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="Cabbage_red">
                   <name>red cabbage</name>
-                  <name type="genus">Brassica</name>
-                  <name type="species">oleracea</name>
-                  <name type="family">rubra</name>
-                  
+                  <name>
+                     <rs type="genus">Brassica</rs>
+                     <rs type="species">oleracea</rs>
+                     <rs type="family">rubra</rs>
+                  </name>
                   <note resp="#lmw">Garden plant, related to the green cabbage and also called
                      purple cabbage. The red cabbage (Brassica oleracea var. capitata f. rubra) is a
                      kind of cabbage whose leaves are coloured dark red/purple. Mitford humorously
@@ -18233,10 +18240,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name>cowslip</name>
                   <name>common cowslip</name>
                   <name>cowslip primrose</name>
-                  <name type="genus">Primula</name>
-                  <name type="species">veris</name>
-                  <name type="family">Primulaceae</name>
-                  
+                  <name>
+                     <rs type="genus">Primula</rs>
+                     <rs type="species">veris</rs>
+                     <rs type="family">Primulaceae</rs>
+                  </name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite
                      flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>.
                      Mitford likely refers to Primula veris (also called cowslip, common cowslip,
@@ -18247,9 +18255,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="fir">
                   <name>fir</name>
-                  <name type="genus">Abies</name>
-                  <name type="family">Pinaceae</name>
-                  
+                  <name>
+                     <rs type="genus">Abies</rs>
+                     <rs type="family">Pinaceae</rs>
+                  </name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite trees.
                      Firs (Abies) are a genus of approximately fifty species of evergreen coniferous
                      trees in the family Pinaceae. They are found through much of <placeName>North
@@ -18261,9 +18270,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <item xml:id="lily_valley">
                   <name>lily of the valley</name>
                   <name>lily-of-the-valley</name>
-                  <name type="genus">Convallaria</name>
-                  <name type="species">majalis</name>
-          
+                  <name>
+                     <rs type="genus">Convallaria</rs>
+                     <rs type="species">majalis</rs>
+                  </name>
                   <note resp="#lmw">Lily of the valley (sometimes written lily-of-the-valley), a
                      scented woodland flowering plant native to the cool temperate
                         <placeName>Northern Hemisphere</placeName> in <placeName>Asia</placeName>
@@ -18276,10 +18286,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name>English primrose</name>
                   <name>common primrose</name>
                   <name>true primrose</name>
-                  <name type="genus">Primula</name>
-                  <name type="species">vulgaris</name>
-                  <name type="family">Primulaceae</name>
-
+                  <name>
+                     <rs type="genus">Primula</rs>
+                     <rs type="species">vulgaris</rs>
+                     <rs type="family">Primulaceae</rs>
+                  </name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite
                      flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>.
                      Mitford likely refers to Primula vulgaris, a species of flowering plant in the
@@ -18294,8 +18305,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="violet">
                   <name>violet</name>
-                  <name type="genus">Viola</name>
-                  <name type="family">Violaceae</name>
+                  <name>
+                     <rs type="genus">Viola</rs>
+                     <rs type="family">Violaceae</rs>
+                  </name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite
                      flowers (as it was of many of her contemporaries), blooms in spring in
                         <placeName ref="#Berkshire">Berkshire</placeName>. Mentioned in the <title ref="#Poems_2nd_ed_MRM">1811 Poems</title> as well as in <title ref="#Our_Village1st_ed">Our Village</title> Mitford likely refers to wild
@@ -18310,8 +18323,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name>wood sorrel</name>
                   <name>woodsorrel</name>
                   <name>wood-sorrel</name>
-                  <name type="genus">Oxalis</name>
-                  <name type="species">acetosella</name>
+                  <name>
+                     <rs type="genus">Oxalis</rs>
+                     <rs type="species">acetosella</rs>
+                  </name>
                   <note resp="#lmw">Mitford likely refers to common wood sorrel (Oxalis acetosella),
                      a member of the oxalis family sometimes also spelled "woodsorrel" or
                      "wood-sorrel." It grows in mixed woodlands and bears a white flower. It is not
