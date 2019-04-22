@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--2019-02-17 ebb: Old Schema Association line with TEI All and Schematron: <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -1037,7 +1037,7 @@
                   <note type="bio">Temani Beck is completing her Master’s degree in Education at the University of Montevallo. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
                </person>
             </listPerson>
-            <listOrg sortKey="archOrgs">
+            <listOrg sortKey="archives">
                <org xml:id="Baylor">
                   <orgName>Baylor University, Armstrong Browning Library</orgName>
                   <note resp="#ghb">Holds 3 letters, among correspondence written and received by
