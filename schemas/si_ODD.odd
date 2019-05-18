@@ -327,7 +327,7 @@
                <valItem ident="bootmaker"><gloss>with type="trade".</gloss></valItem> 
                <valItem ident="shoemaker"><gloss>with type="trade".</gloss></valItem> 
                <valItem ident="innkeeper"><gloss>with type="trade".</gloss></valItem> 
-               <valItem ident="licquor"><gloss>with type="trade". For a retailer of beer/wine.</gloss></valItem>  
+               <valItem ident="liquor"><gloss>with type="trade". For a retailer of beer/wine.</gloss></valItem>  
                <valItem ident="merchant"><gloss>with type="trade".</gloss></valItem>
                <valItem ident="clerk"><gloss>with type="trade". For an employee in a shop.</gloss></valItem> 
                <valItem ident="banker"><gloss>with type="trade".</gloss></valItem> 
@@ -421,7 +421,7 @@
                   <sch:let name="serviceSubtypes"
                      value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"/>
                   <sch:let name="tradeSubtypes"
-                     value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'licquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
+                     value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
                   <sch:rule context="tei:occupation[@type='artist'][@subtype]">
                      <sch:let name="subtypes"
                         value=" for $i in tokenize(@subtype, '\s+') return $i"/>
