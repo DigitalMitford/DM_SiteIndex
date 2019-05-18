@@ -226,11 +226,15 @@
                <valItem ident="curate"><gloss>with type="religious".</gloss></valItem>
                <valItem ident="minister"><gloss>with type="religious".</gloss></valItem>
                <valItem ident="priest"><gloss>with type="religious". Use for Catholic clergy as well as Greek/Roman clergy. Synonymous with priestess for the purposes of our encoding.</gloss></valItem>
+               <!--'musician', 'composer' -->
+               <valItem ident="composer"><gloss>with type="religious". For composers of religious music.</gloss></valItem>
+               <valItem ident="musician"><gloss>with type="religious". For musical performers in church settings and religious contexts.</gloss></valItem>
                <!--Subtypes related to type="educator" -->
                <valItem ident="teacher"><gloss>with type="educator".</gloss></valItem>
                <valItem ident="schoolHead"><gloss>with type="educator". (for headmistress, schoolmaster, etc.)</gloss></valItem>
                <valItem ident="governess"><gloss>with type="educator".</gloss></valItem>
                <valItem ident="tutor"><gloss>with type="educator".</gloss></valItem>
+               <valItem ident="lecturer"><gloss>with type="educator". For public lecturers on educational topics.</gloss></valItem>
                <!--Subtypes related to type="scholar" -->
                <valItem ident="philosopher"><gloss>with type="scholar". Distinct from natural philosopher.</gloss></valItem> 
                <valItem ident="naturalist"><gloss>with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</gloss></valItem>
@@ -323,7 +327,8 @@
                <valItem ident="bootmaker"><gloss>with type="trade".</gloss></valItem> 
                <valItem ident="shoemaker"><gloss>with type="trade".</gloss></valItem> 
                <valItem ident="innkeeper"><gloss>with type="trade".</gloss></valItem> 
-               <valItem ident="merchant"><gloss>with type="trade".</gloss></valItem> 
+               <valItem ident="licquor"><gloss>with type="trade". For a retailer of beer/wine.</gloss></valItem>  
+               <valItem ident="merchant"><gloss>with type="trade".</gloss></valItem>
                <valItem ident="clerk"><gloss>with type="trade". For an employee in a shop.</gloss></valItem> 
                <valItem ident="banker"><gloss>with type="trade".</gloss></valItem> 
                <valItem ident="stockbroker"><gloss>with type="trade".</gloss></valItem> 
@@ -392,15 +397,15 @@
                   <sch:let name="bookProducerSubtypes"
                      value="('publisher', 'printer', 'binder', 'bookseller')"/>
                   <sch:let name="religiousSubtypes"
-                     value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest')"/>
+                     value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest', 'musician', 'composer')"/>
                   <sch:let name="educatorSubtypes"
-                     value="('teacher', 'schoolHead', 'governess', 'tutor')"/>
+                     value="('teacher', 'schoolHead', 'governess', 'tutor', 'lecturer')"/>
                   <sch:let name="scholarSubtypes"
                      value="('philosopher', 'naturalist', 'astronomer', 'curator', 'antiquarian', 'inventor', 'historian', 'economist', 'agronomist')"/>
                   <sch:let name="explorerSubtypes"
                      value="('traveller', 'navigator', 'cartographer', 'seaCaptain')"/>
                   <sch:let name="legalSubtypes"
-                     value="('barrister', 'solicitor', 'lawyer', 'recorder', 'judge')"/>
+                     value="('barrister', 'solicitor', 'lawyer', 'recorder', 'magistrate', 'judge')"/>
                   <sch:let name="literarySubtypes"
                      value="('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 'translator')"/>
                   <sch:let name="theaterSubtypes"
@@ -416,7 +421,7 @@
                   <sch:let name="serviceSubtypes"
                      value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"/>
                   <sch:let name="tradeSubtypes"
-                     value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
+                     value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'licquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
                   <sch:rule context="tei:occupation[@type='artist'][@subtype]">
                      <sch:let name="subtypes"
                         value=" for $i in tokenize(@subtype, '\s+') return $i"/>
@@ -575,7 +580,7 @@
                
                <sch:let name="tokens" value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>
                <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
-                  Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hasthtag, #) matches a defined @xml:id in the site index or siAdd files. 
+                  Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
                </sch:assert>                
             </sch:rule>
          </sch:pattern>      

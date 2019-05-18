@@ -5,10 +5,10 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-04-21T23:49:08Z. .
-TEI Edition: Version 3.4.0. Last updated on
-	23rd July 2018, revision 1fa0b54
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
+Schema generated from ODD source 2019-05-18T19:58:43Z. .
+TEI Edition: Version 3.5.0. Last updated on
+	8th May 2019, revision 905f30769
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
   
 --><!--Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) approved for Free Cultural Works -->
    <define name="teimacro.paraContent">
@@ -38,6 +38,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
          <choice>
             <text/>
             <ref name="teimodel.gLike"/>
+            <ref name="teimodel.qLike"/>
             <ref name="teimodel.phrase"/>
             <ref name="teimodel.global"/>
          </choice>
@@ -223,7 +224,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the unit used for the measurement
-Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] lines; 5] chars (characters)</a:documentation>
+Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] line; 5] char (characters)</a:documentation>
             <choice>
                <value>cm</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimetres) </a:documentation>
@@ -231,9 +232,9 @@ Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inche
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(millimetres) </a:documentation>
                <value>in</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inches) </a:documentation>
-               <value>lines</value>
+               <value>line</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lines of text</a:documentation>
-               <value>chars</value>
+               <value>char</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(characters) characters of text</a:documentation>
                <data type="token">
                   <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
@@ -471,9 +472,9 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 context="tei:*[@calendar]">
-            <sch:assert test="string-length(.) gt 0">
-@calendar indicates the system or calendar to which the date represented by the content of this element
-belongs, but this <sch:name/> element has no textual content.</sch:assert>
+            <sch:assert test="string-length(.) gt 0"> @calendar indicates the system or calendar to
+              which the date represented by the content of this element belongs, but this
+              <sch:name/> element has no textual content.</sch:assert>
           </sch:rule>
    </pattern>
    <define name="teiatt.datable.attribute.period">
@@ -1384,50 +1385,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
             </sch:assert>
           </sch:rule>
    </pattern>
-   <define name="teiatt.tableDecoration.attributes">
-      <ref name="teiatt.tableDecoration.attribute.role"/>
-      <ref name="teiatt.tableDecoration.attribute.rows"/>
-      <ref name="teiatt.tableDecoration.attribute.cols"/>
-   </define>
-   <define name="teiatt.tableDecoration.attribute.role">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="role"
-                    a:defaultValue="data">
-            <a:documentation>indicates the kind of information held in this cell or in each cell of this row.
-Suggested values include: 1] label; 2] data</a:documentation>
-            <choice>
-               <value>label</value>
-               <a:documentation>labelling or descriptive information only.</a:documentation>
-               <value>data</value>
-               <a:documentation>data values.</a:documentation>
-               <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-               </data>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="teiatt.tableDecoration.attribute.rows">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="rows"
-                    a:defaultValue="1">
-            <a:documentation>indicates the number of rows occupied by this cell or row.</a:documentation>
-            <data type="nonNegativeInteger"/>
-         </attribute>
-      </optional>
-   </define>
-   <define name="teiatt.tableDecoration.attribute.cols">
-      <optional>
-         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                    name="cols"
-                    a:defaultValue="1">
-            <a:documentation>(columns) indicates the number of columns occupied by this cell or row.</a:documentation>
-            <data type="nonNegativeInteger"/>
-         </attribute>
-      </optional>
-   </define>
    <define name="teiatt.translatable.attributes">
       <ref name="teiatt.translatable.attribute.versionDate"/>
    </define>
@@ -2120,6 +2077,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teilistPerson"/>
          <ref name="teilistPlace"/>
          <ref name="teilistRelation"/>
+         <ref name="teilistObject"/>
          <ref name="teilistNym"/>
          <ref name="teitable"/>
       </choice>
@@ -2132,6 +2090,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teilistPerson"/>
          <ref name="teilistPlace"/>
          <ref name="teilistRelation"/>
+         <ref name="teilistObject"/>
          <ref name="teilistNym"/>
          <ref name="teitable"/>
       </choice>
@@ -2143,6 +2102,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <ref name="teilistPerson"/>
       <ref name="teilistPlace"/>
       <ref name="teilistRelation"/>
+      <ref name="teilistObject"/>
       <ref name="teilistNym"/>
       <ref name="teitable"/>
    </define>
@@ -2164,6 +2124,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </optional>
       <optional>
          <ref name="teilistRelation"/>
+      </optional>
+      <optional>
+         <ref name="teilistObject"/>
       </optional>
       <optional>
          <ref name="teilistNym"/>
@@ -2192,6 +2155,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teilistRelation"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="teilistObject"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="teilistNym"/>
       </zeroOrMore>
       <zeroOrMore>
@@ -2216,6 +2182,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </oneOrMore>
       <oneOrMore>
          <ref name="teilistRelation"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teilistObject"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="teilistNym"/>
@@ -2809,6 +2778,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teirs"/>
          <ref name="teiidno"/>
          <ref name="teimodel.persNamePart"/>
+         <ref name="teiobjectName"/>
       </choice>
    </define>
    <define name="teimodel.nameLike_alternation">
@@ -2819,6 +2789,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teirs"/>
          <ref name="teiidno"/>
          <ref name="teimodel.persNamePart_alternation"/>
+         <ref name="teiobjectName"/>
       </choice>
    </define>
    <define name="teimodel.nameLike_sequence">
@@ -2828,6 +2799,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <ref name="teirs"/>
       <ref name="teiidno"/>
       <ref name="teimodel.persNamePart_sequence"/>
+      <ref name="teiobjectName"/>
    </define>
    <define name="teimodel.nameLike_sequenceOptional">
       <optional>
@@ -2847,6 +2819,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </optional>
       <optional>
          <ref name="teimodel.persNamePart_sequenceOptional"/>
+      </optional>
+      <optional>
+         <ref name="teiobjectName"/>
       </optional>
    </define>
    <define name="teimodel.nameLike_sequenceOptionalRepeatable">
@@ -2868,6 +2843,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <zeroOrMore>
          <ref name="teimodel.persNamePart_sequenceOptionalRepeatable"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="teiobjectName"/>
+      </zeroOrMore>
    </define>
    <define name="teimodel.nameLike_sequenceRepeatable">
       <oneOrMore>
@@ -2887,6 +2865,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       </oneOrMore>
       <oneOrMore>
          <ref name="teimodel.persNamePart_sequenceRepeatable"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teiobjectName"/>
       </oneOrMore>
    </define>
    <define name="teimodel.global">
@@ -2911,6 +2892,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="teiextent"/>
          <ref name="teiavailability"/>
          <ref name="teilistRelation"/>
+         <ref name="teiobjectIdentifier"/>
       </choice>
    </define>
    <define name="teimodel.frontPart">
@@ -3057,6 +3039,12 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    <define name="teimodel.resourceLike">
       <choice>
          <ref name="teitext"/>
+      </choice>
+   </define>
+   <define name="teimodel.objectLike">
+      <choice>
+         <ref name="teiobject"/>
+         <ref name="teilistObject"/>
       </choice>
    </define>
    <define name="teiatt.personal.attributes">
@@ -3308,9 +3296,31 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
       <element name="desc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description) contains a brief description of the object documented by its parent element, typically a documentation element or an entity. [22.4.1. Description of Components]</a:documentation>
          <ref name="teimacro.limitedContent"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="mitfordODD-desc-deprecationInfo-only-in-deprecated-constraint-rule-9">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      context="tei:desc[ @type eq 'deprecationInfo']">
+	              <sch:assert test="../@validUntil">Information about a
+	deprecation should only be present in a specification element
+	that is being deprecated: that is, only an element that has a
+	@validUntil attribute should have a child &lt;desc
+	type="deprecationInfo"&gt;.</sch:assert>
+            </sch:rule>
+         </pattern>
          <ref name="teiatt.global.attributes"/>
          <ref name="teiatt.translatable.attributes"/>
-         <ref name="teiatt.typed.attributes"/>
+         <ref name="teiatt.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <data type="token">
+                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               </data>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -3476,7 +3486,7 @@ Measures]</a:documentation>
    </define>
    <define name="teidate">
       <element name="date">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.7. Dates and Times]</a:documentation>
          <zeroOrMore>
             <choice>
                <text/>
@@ -3486,6 +3496,7 @@ Measures]</a:documentation>
             </choice>
          </zeroOrMore>
          <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.canonical.attributes"/>
          <ref name="teiatt.datable.attributes"/>
          <ref name="teiatt.editLike.attributes"/>
          <ref name="teiatt.dimensions.attributes"/>
@@ -3507,6 +3518,7 @@ Measures]</a:documentation>
          </zeroOrMore>
          <ref name="teiatt.global.attributes"/>
          <ref name="teiatt.datable.attributes"/>
+         <ref name="teiatt.canonical.attributes"/>
          <ref name="teiatt.editLike.attributes"/>
          <ref name="teiatt.dimensions.attributes"/>
          <ref name="teiatt.typed.attributes"/>
@@ -3637,7 +3649,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-list-gloss-list-must-have-labels-constraint-rule-9">
+                  id="mitfordODD-list-gloss-list-must-have-labels-constraint-rule-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4052,7 +4064,7 @@ relatedItem element must be empty</sch:report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-relatedItem-targetorcontent1-constraint-assert-7">
+                  id="mitfordODD-relatedItem-targetorcontent1-constraint-assert-8">
             <rule context="tei:relatedItem">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -4144,14 +4156,14 @@ relatedItem element must be empty</sch:report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-lg-atleast1oflggapl-constraint-assert-8">
+                  id="mitfordODD-lg-atleast1oflggapl-constraint-assert-9">
             <rule context="tei:lg">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            test="count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) &gt; 0">An lg element
-        must contain at least one child l, lg or gap element.</sch:assert>
+        must contain at least one child l, lg, or gap element.</sch:assert>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -6263,7 +6275,10 @@ Sample values include: 1] primary; 2] secondary; 3] undergraduate; 4] graduate; 
       <element name="event">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]</a:documentation>
          <group>
-      
+            <zeroOrMore>
+               <ref name="teiidno"/>
+            </zeroOrMore>
+
             <zeroOrMore>
                <ref name="teimodel.headLike"/>
             </zeroOrMore>
@@ -6666,7 +6681,7 @@ Sample values include: 1] birth; 2] naturalised; 3] self-assigned</a:documentati
          <optional>
             <attribute name="subtype">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
-Suggested values include: 1] painter (with type="artist": Designate type of painter as appropriate in the note element.); 2] printmaker (with type="artist": this includes printmaking for books.); 3] engraver (with type="artist": this includes engravings for books.); 4] sculptor (with type="artist".); 5] architect (with type="artist". for designers of buildings.); 6] landscape (with type="artist". for designers and planners of gardens. The occupation of gardener, for one who helps maintain a garden, goes with @type="service" ); 7] illustrator (with type="artist". This includes book illustrators.); 8] publisher (with type="bookProducer".); 9] printer (with type="bookProducer". Do not use for art printing. For that, use one of the subtypes associated with type="artist".); 10] binder (with type="bookProducer".); 11] bookseller (with type="bookProducer".); 12] clergy (with type="religious".); 13] prophet (with type="religious".); 14] vicar (with type="religious".); 15] curate (with type="religious".); 16] minister (with type="religious".); 17] priest (with type="religious". Use for Catholic clergy as well as Greek/Roman clergy. Synonymous with priestess for the purposes of our encoding.); 18] teacher (with type="educator".); 19] schoolHead (with type="educator". (for headmistress, schoolmaster, etc.)); 20] governess (with type="educator".); 21] tutor (with type="educator".); 22] philosopher (with type="scholar". Distinct from natural philosopher.); 23] naturalist (with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.); 24] astronomer (with type="scholar".); 25] curator (with type="scholar". for antiquarian collectors and those working in libraries and museums.); 26] antiquarian (with type="scholar". For those who research artifacts rather than collect them.); 27] historian (with type="scholar". ); 28] inventor (with type="scholar". ); 29] economist (with type="scholar". ); 30] agronomist (with type="scholar". For those who study agriculture.); 31] traveller (with type="explorer".); 32] navigator (with type="explorer".); 33] cartographer (with type="explorer".); 34] seaCaptain (with type="explorer". Commands a ship, distinct from military post.); 35] barrister (with type="legal". British lawyers who can plead in court.); 36] solicitor (with type="legal". British lawyers who do not plead in court.); 37] lawyer (with type="legal". ONLY appropriate if law practitioner from the United States.); 38] judge (with type="legal". ex: Mr. Justice Talfourd); 39] magistrate (with type="legal". ex: George Mitford); 40] recorder (with type="legal". ); 41] novelist (with type="literary". ); 42] poet (with type="literary". ); 43] playwright (with type="literary". ); 44] essayist (with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.); 45] critic (with type="literary". For literary, theatre / art critics and reviewers.); 46] journalist (with type="literary". ); 47] editor (with type="literary". ); 48] biographer (with type="literary". ); 49] autobiographer (with type="literary". ); 50] lexicographer (with type="literary". ); 51] linguist (with type="literary". For those who systemically study languages, not simply translators.); 52] translator (with type="literary". ); 53] actor (with type="theater". General term for all sexes; do not use "actress".); 54] singer (with type="theater". Includes opera singers in performing roles. ); 55] manager (with type="theater". For actor-managers and theater managers like William Macready.); 56] owner (with type="theater". ); 57] designer (with type="theater". For production designers, costume-makers, makers of stage sets and props.); 58] musician (with type="theater". For pit players of music supporting the stage.); 59] composer (with type="theater". For writers of instrumental and vocal music for the stage, including lyricists and librettists.); 60] physician (with type="medical".); 61] surgeon (with type="medical". Includes barbers and others who do surgery and bloodletting.); 62] apothecary (with type="medical". For pharmacy specialists.); 63] midwife (with type="medical". Includes, should we ever see one, a "man-midwife" or a male who assists with births and is not a physician or surgeon.); 64] oculist (with type="medical".); 65] army (with type="military".); 66] navy (with type="military".); 67] philanthropist (with type="benefactor". For doers of benevolent activities outside of the arts); 68] patron (with type="benefactor". For supporters of the arts, theatre, and writers); 69] monarch (with type="government". Titles like King, Queen, Princess are coded in &lt;roleName&gt;, not &lt;occupation&gt;.); 70] politician (with type="government". Use for elected officials and those running for election or who are in office by reason of political party or affiliation. Code their official title (such as "Member of Parliament for Westminster) with &lt;roleName&gt;.); 71] orator (with type="government". For political or reformist orators who are not clergy, actors, or prophets.); 72] reformer (with type="government". Any public advocate for political or social reform.); 73] courtier (with type="government". For aristocracy and others whose job is to serve at court in some capacity.); 74] diplomat (with type="government". Ambassadors and other diplomatists. Roles like “Ambassador to the Court of St. James” are coded in &lt;roleName&gt;.); 75] administrator (with type="government". For management positions, high-ranking civil service positions within the British empire, etc. Lower-ranking positions should be coded as subtype="clerk".); 76] clerk (with type="government".); 77] taxCollector (with type="government".); 78] post (with type="government". For postal service occupations.); 79] butler (with type="service".); 80] maid (with type="service".); 81] footman (with type="service".); 82] cook (with type="service".); 83] housekeeper (with type="service".); 84] gardener (with type="service".); 85] baker (with type="trade".); 86] butcher (with type="trade".); 87] farmer (with type="trade".); 88] bricklayer (with type="trade".); 89] mason (with type="trade".); 90] chandler (with type="trade".); 91] wheelwright (with type="trade".); 92] carpenter (with type="trade".); 93] watchmaker (with type="trade".); 94] miller (with type="trade".); 95] blacksmith (with type="trade".); 96] goldsmith (with type="trade".); 97] jeweller (with type="trade".); 98] tanner (with type="trade".); 99] saddler (with type="trade".); 100] bootmaker (with type="trade".); 101] shoemaker (with type="trade".); 102] innkeeper (with type="trade".); 103] merchant (with type="trade".); 104] clerk (with type="trade". For an employee in a shop.); 105] banker (with type="trade".); 106] stockbroker (with type="trade".); 107] auctioneer (with type="trade".); 108] gambler (with type="trade".)</a:documentation>
+Suggested values include: 1] painter (with type="artist": Designate type of painter as appropriate in the note element.); 2] printmaker (with type="artist": this includes printmaking for books.); 3] engraver (with type="artist": this includes engravings for books.); 4] sculptor (with type="artist".); 5] architect (with type="artist". for designers of buildings.); 6] landscape (with type="artist". for designers and planners of gardens. The occupation of gardener, for one who helps maintain a garden, goes with @type="service" ); 7] illustrator (with type="artist". This includes book illustrators.); 8] publisher (with type="bookProducer".); 9] printer (with type="bookProducer". Do not use for art printing. For that, use one of the subtypes associated with type="artist".); 10] binder (with type="bookProducer".); 11] bookseller (with type="bookProducer".); 12] clergy (with type="religious".); 13] prophet (with type="religious".); 14] vicar (with type="religious".); 15] curate (with type="religious".); 16] minister (with type="religious".); 17] priest (with type="religious". Use for Catholic clergy as well as Greek/Roman clergy. Synonymous with priestess for the purposes of our encoding.); 18] composer (with type="religious". For composers of religious music.); 19] musician (with type="religious". For musical performers in church settings and religious contexts.); 20] teacher (with type="educator".); 21] schoolHead (with type="educator". (for headmistress, schoolmaster, etc.)); 22] governess (with type="educator".); 23] tutor (with type="educator".); 24] lecturer (with type="educator". For public lecturers on educational topics.); 25] philosopher (with type="scholar". Distinct from natural philosopher.); 26] naturalist (with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.); 27] astronomer (with type="scholar".); 28] curator (with type="scholar". for antiquarian collectors and those working in libraries and museums.); 29] antiquarian (with type="scholar". For those who research artifacts rather than collect them.); 30] historian (with type="scholar". ); 31] inventor (with type="scholar". ); 32] economist (with type="scholar". ); 33] agronomist (with type="scholar". For those who study agriculture.); 34] traveller (with type="explorer".); 35] navigator (with type="explorer".); 36] cartographer (with type="explorer".); 37] seaCaptain (with type="explorer". Commands a ship, distinct from military post.); 38] barrister (with type="legal". British lawyers who can plead in court.); 39] solicitor (with type="legal". British lawyers who do not plead in court.); 40] lawyer (with type="legal". ONLY appropriate if law practitioner from the United States.); 41] judge (with type="legal". ex: Mr. Justice Talfourd); 42] magistrate (with type="legal". ex: George Mitford); 43] recorder (with type="legal". ); 44] novelist (with type="literary". ); 45] poet (with type="literary". ); 46] playwright (with type="literary". ); 47] essayist (with type="literary". For essayists who are not primarily writing specific literary/art reviews, but more broad-ranging philosophical or aesthetic writings.); 48] critic (with type="literary". For literary, theatre / art critics and reviewers.); 49] journalist (with type="literary". ); 50] editor (with type="literary". ); 51] biographer (with type="literary". ); 52] autobiographer (with type="literary". ); 53] lexicographer (with type="literary". ); 54] linguist (with type="literary". For those who systemically study languages, not simply translators.); 55] translator (with type="literary". ); 56] actor (with type="theater". General term for all sexes; do not use "actress".); 57] singer (with type="theater". Includes opera singers in performing roles. ); 58] manager (with type="theater". For actor-managers and theater managers like William Macready.); 59] owner (with type="theater". ); 60] designer (with type="theater". For production designers, costume-makers, makers of stage sets and props.); 61] musician (with type="theater". For pit players of music supporting the stage.); 62] composer (with type="theater". For writers of instrumental and vocal music for the stage, including lyricists and librettists.); 63] physician (with type="medical".); 64] surgeon (with type="medical". Includes barbers and others who do surgery and bloodletting.); 65] apothecary (with type="medical". For pharmacy specialists.); 66] midwife (with type="medical". Includes, should we ever see one, a "man-midwife" or a male who assists with births and is not a physician or surgeon.); 67] oculist (with type="medical".); 68] army (with type="military".); 69] navy (with type="military".); 70] philanthropist (with type="benefactor". For doers of benevolent activities outside of the arts); 71] patron (with type="benefactor". For supporters of the arts, theatre, and writers); 72] monarch (with type="government". Titles like King, Queen, Princess are coded in &lt;roleName&gt;, not &lt;occupation&gt;.); 73] politician (with type="government". Use for elected officials and those running for election or who are in office by reason of political party or affiliation. Code their official title (such as "Member of Parliament for Westminster) with &lt;roleName&gt;.); 74] orator (with type="government". For political or reformist orators who are not clergy, actors, or prophets.); 75] reformer (with type="government". Any public advocate for political or social reform.); 76] courtier (with type="government". For aristocracy and others whose job is to serve at court in some capacity.); 77] diplomat (with type="government". Ambassadors and other diplomatists. Roles like “Ambassador to the Court of St. James” are coded in &lt;roleName&gt;.); 78] administrator (with type="government". For management positions, high-ranking civil service positions within the British empire, etc. Lower-ranking positions should be coded as subtype="clerk".); 79] clerk (with type="government".); 80] taxCollector (with type="government".); 81] post (with type="government". For postal service occupations.); 82] butler (with type="service".); 83] maid (with type="service".); 84] footman (with type="service".); 85] cook (with type="service".); 86] housekeeper (with type="service".); 87] gardener (with type="service".); 88] baker (with type="trade".); 89] butcher (with type="trade".); 90] farmer (with type="trade".); 91] bricklayer (with type="trade".); 92] mason (with type="trade".); 93] chandler (with type="trade".); 94] wheelwright (with type="trade".); 95] carpenter (with type="trade".); 96] watchmaker (with type="trade".); 97] miller (with type="trade".); 98] blacksmith (with type="trade".); 99] goldsmith (with type="trade".); 100] jeweller (with type="trade".); 101] tanner (with type="trade".); 102] saddler (with type="trade".); 103] bootmaker (with type="trade".); 104] shoemaker (with type="trade".); 105] innkeeper (with type="trade".); 106] licquor (with type="trade". For a retailer of beer/wine.); 107] merchant (with type="trade".); 108] clerk (with type="trade". For an employee in a shop.); 109] banker (with type="trade".); 110] stockbroker (with type="trade".); 111] auctioneer (with type="trade".); 112] gambler (with type="trade".)</a:documentation>
                <choice>
                   <value>painter</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="artist": Designate type of painter as appropriate in the note element.) </a:documentation>
@@ -6702,6 +6717,10 @@ Suggested values include: 1] painter (with type="artist": Designate type of pain
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="religious".) </a:documentation>
                   <value>priest</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="religious". Use for Catholic clergy as well as Greek/Roman clergy. Synonymous with priestess for the purposes of our encoding.) </a:documentation>
+                  <value>composer</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="religious". For composers of religious music.) </a:documentation>
+                  <value>musician</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="religious". For musical performers in church settings and religious contexts.) </a:documentation>
                   <value>teacher</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator".) </a:documentation>
                   <value>schoolHead</value>
@@ -6710,6 +6729,8 @@ Suggested values include: 1] painter (with type="artist": Designate type of pain
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator".) </a:documentation>
                   <value>tutor</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator".) </a:documentation>
+                  <value>lecturer</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="educator". For public lecturers on educational topics.) </a:documentation>
                   <value>philosopher</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="scholar". Distinct from natural philosopher.) </a:documentation>
                   <value>naturalist</value>
@@ -6872,6 +6893,8 @@ Suggested values include: 1] painter (with type="artist": Designate type of pain
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="trade".) </a:documentation>
                   <value>innkeeper</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="trade".) </a:documentation>
+                  <value>licquor</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="trade". For a retailer of beer/wine.) </a:documentation>
                   <value>merchant</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(with type="trade".) </a:documentation>
                   <value>clerk</value>
@@ -7264,7 +7287,7 @@ Suggested values include: 1] painter (with type="artist": Designate type of pain
             <ref name="teidesc"/>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-relation-reforkeyorname-constraint-assert-9">
+                  id="mitfordODD-relation-reforkeyorname-constraint-assert-10">
             <rule context="tei:relation">
                <assert xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7557,12 +7580,116 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <empty/>
       </element>
    </define>
+   <define name="teiobjectName">
+      <element name="objectName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name of an object) contains a proper noun or noun phrase used to refer to an object. [13.2.4. Object Names]</a:documentation>
+         <ref name="teimacro.phraseSeq"/>
+         <ref name="teiatt.datable.attributes"/>
+         <ref name="teiatt.editLike.attributes"/>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.personal.attributes"/>
+         <ref name="teiatt.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teiobject">
+      <element name="object">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of a single identifiable physical object. [13.3.5. Objects]</a:documentation>
+         <group>
+            <oneOrMore>
+               <ref name="teiobjectIdentifier"/>
+            </oneOrMore>
+            <zeroOrMore>
+               <ref name="teimodel.headLike"/>
+            </zeroOrMore>
+            <choice>
+               <zeroOrMore>
+                  <ref name="teimodel.pLike"/>
+               </zeroOrMore>
+               <empty/>
+            </choice>
+            <zeroOrMore>
+               <choice>
+                  <ref name="teimodel.noteLike"/>
+                  <ref name="teimodel.biblLike"/>
+                  <ref name="teilinkGrp"/>
+                  <ref name="teilink"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <ref name="teiobject"/>
+            </optional>
+         </group>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.sortable.attributes"/>
+         <ref name="teiatt.typed.attributes"/>
+         <ref name="teiatt.declaring.attributes"/>
+         <ref name="teiatt.docStatus.attributes"/>
+         <ref name="teiatt.canonical.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teilistObject">
+      <element name="listObject">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of objects) contains a list of descriptions, each of which provides information about an identifiable physical object. [13.3.5. Objects]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="teimodel.headLike"/>
+            </zeroOrMore>
+            <oneOrMore>
+               <ref name="teimodel.objectLike"/>
+            </oneOrMore>
+            <zeroOrMore>
+               <choice>
+                  <ref name="teirelation"/>
+                  <ref name="teilistRelation"/>
+               </choice>
+            </zeroOrMore>
+         </group>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.typed.attributes"/>
+         <ref name="teiatt.declarable.attributes"/>
+         <ref name="teiatt.sortable.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teiobjectIdentifier">
+      <element name="objectIdentifier">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(object identifier) groups one or more identifiers or pieces of locating information concerning a single object. [13.3.5. Objects]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <ref name="teimodel.placeNamePart"/>
+      
+      
+      
+               <ref name="teiidno"/>
+      
+               <ref name="teiobjectName"/>
+      
+      
+            </choice>
+         </zeroOrMore>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="mitfordODD-objectIdentifier-objectIdentifier_minimal-constraint-report-14">
+            <rule context="tei:objectIdentifier">
+               <report xmlns:xi="http://www.w3.org/2001/XInclude"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       test="not(count(*) gt 0)">An objectIdentifier must contain at minimum a single piece of locating or identifying information.</report>
+            </rule>
+         </pattern>
+         <ref name="teiatt.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="teinym">
       <element name="nym">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical name) contains the definition for a canonical name or name component of any kind. [13.3.5. Names and Nyms]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical name) contains the definition for a canonical name or name component of any kind. [13.3.6. Names and Nyms]</a:documentation>
          <group>
-      
-        
+
+            <zeroOrMore>
+               <ref name="teiidno"/>
+            </zeroOrMore>
             <zeroOrMore>
                <ref name="teimodel.entryPart"/>
             </zeroOrMore>
@@ -7601,7 +7728,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
    </define>
    <define name="teilistNym">
       <element name="listNym">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of canonical names) contains a list of nyms, that is, standardized names for any thing. [13.3.5. Names and Nyms]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of canonical names) contains a list of nyms, that is, standardized names for any thing. [13.3.6. Names and Nyms]</a:documentation>
          <group>
       
             <zeroOrMore>
@@ -7950,7 +8077,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-div-abstractModel-structure-l-constraint-report-14">
+                  id="mitfordODD-div-abstractModel-structure-l-constraint-report-15">
             <rule context="tei:div">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7961,7 +8088,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-div-abstractModel-structure-p-constraint-report-15">
+                  id="mitfordODD-div-abstractModel-structure-p-constraint-report-16">
             <rule context="tei:div">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8207,7 +8334,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-link-linkTargets3-constraint-assert-10">
+                  id="mitfordODD-link-linkTargets3-constraint-assert-11">
             <rule context="tei:link">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -8242,7 +8369,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]</a:documentation>
          <ref name="teimacro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-ab-abstractModel-structure-ab-constraint-report-16">
+                  id="mitfordODD-ab-abstractModel-structure-ab-constraint-report-17">
             <rule context="tei:ab">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8253,7 +8380,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-ab-abstractModel-structure-l-constraint-report-17">
+                  id="mitfordODD-ab-abstractModel-structure-l-constraint-report-18">
             <rule context="tei:ab">
                <report xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8421,7 +8548,7 @@ Suggested values include: 1] d (days); 2] h (hours); 3] min (minutes); 4] s (sec
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="mitfordODD-join-joinTargets3-constraint-assert-11">
+                  id="mitfordODD-join-joinTargets3-constraint-assert-12">
             <rule context="tei:join">
                <assert xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8558,6 +8685,50 @@ You must supply at least two values for @target on <name/>
          <empty/>
       </element>
    </define>
+   <define name="teiatt.tableDecoration.attributes">
+      <ref name="teiatt.tableDecoration.attribute.role"/>
+      <ref name="teiatt.tableDecoration.attribute.rows"/>
+      <ref name="teiatt.tableDecoration.attribute.cols"/>
+   </define>
+   <define name="teiatt.tableDecoration.attribute.role">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="role"
+                    a:defaultValue="data">
+            <a:documentation>indicates the kind of information held in this cell or in each cell of this row.
+Suggested values include: 1] label; 2] data</a:documentation>
+            <choice>
+               <value>label</value>
+               <a:documentation>labelling or descriptive information only.</a:documentation>
+               <value>data</value>
+               <a:documentation>data values.</a:documentation>
+               <data type="token">
+                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teiatt.tableDecoration.attribute.rows">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="rows"
+                    a:defaultValue="1">
+            <a:documentation>indicates the number of rows occupied by this cell or row.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="teiatt.tableDecoration.attribute.cols">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="cols"
+                    a:defaultValue="1">
+            <a:documentation>(columns) indicates the number of columns occupied by this cell or row.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
    <define name="teitable">
       <element name="table">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]</a:documentation>
@@ -8679,7 +8850,7 @@ You must supply at least two values for @target on <name/>
       </choice>
    </start>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="mitfordODD-xmlIDs-constraint-rule-10">
+            id="mitfordODD-xmlIDs-constraint-rule-11">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8691,7 +8862,7 @@ You must supply at least two values for @target on <name/>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="mitfordODD-refsReq-constraint-rule-11">
+            id="mitfordODD-refsReq-constraint-rule-12">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8706,7 +8877,7 @@ You must supply at least two values for @target on <name/>
                   </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="mitfordODD-hashtaggery-constraint-rule-12">
+            id="mitfordODD-hashtaggery-constraint-rule-13">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8726,15 +8897,15 @@ You must supply at least two values for @target on <name/>
                   <sch:let name="bookProducerSubtypes"
                value="('publisher', 'printer', 'binder', 'bookseller')"/>
                   <sch:let name="religiousSubtypes"
-               value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest')"/>
+               value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest', 'musician', 'composer')"/>
                   <sch:let name="educatorSubtypes"
-               value="('teacher', 'schoolHead', 'governess', 'tutor')"/>
+               value="('teacher', 'schoolHead', 'governess', 'tutor', 'lecturer')"/>
                   <sch:let name="scholarSubtypes"
                value="('philosopher', 'naturalist', 'astronomer', 'curator', 'antiquarian', 'inventor', 'historian', 'economist', 'agronomist')"/>
                   <sch:let name="explorerSubtypes"
                value="('traveller', 'navigator', 'cartographer', 'seaCaptain')"/>
                   <sch:let name="legalSubtypes"
-               value="('barrister', 'solicitor', 'lawyer', 'recorder', 'judge')"/>
+               value="('barrister', 'solicitor', 'lawyer', 'recorder', 'magistrate', 'judge')"/>
                   <sch:let name="literarySubtypes"
                value="('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 'translator')"/>
                   <sch:let name="theaterSubtypes"
@@ -8748,7 +8919,7 @@ You must supply at least two values for @target on <name/>
                   <sch:let name="serviceSubtypes"
                value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"/>
                   <sch:let name="tradeSubtypes"
-               value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
+               value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'licquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
                   <sch:rule context="tei:occupation[@type='artist'][@subtype]">
                      <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"/>
                      <sch:assert test="every $subtype in $subtypes satisfies $subtype = $artistSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$artistSubtypes"/>.</sch:assert>
@@ -8904,7 +9075,7 @@ You must supply at least two values for @target on <name/>
                <sch:let name="tokens"
                   value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>
                <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
-                  Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hasthtag, #) matches a defined @xml:id in the site index or siAdd files. 
+                  Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
                </sch:assert>                
             </sch:rule>
          </sch:pattern>
