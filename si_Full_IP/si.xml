@@ -19521,6 +19521,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
             </listBibl>
             <listBibl sortKey="work_MRM">
+               <bibl xml:id="LecDramatic_WHaz">
+                  <title level="m">Lectures Chiefly on the Dramatic Literature of the Age of Elizabeth, Delivered at the Surry Institution</title>
+                  <author><persName ref="#Hazlitt_Wm">William Hazlitt</persName></author>
+                  <publisher>Stodart and Steuart
+                  </publisher>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Bell and Bradfute</publisher>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <date when="1820">1820</date>
+               </bibl>
                <bibl xml:id="Remarks_Italy">
                   <title level="m">Remarks on Antiquities, Arts, and Letters, During an Excursion in Italy, in the Years 1802 and 1803.</title>
                   <author ref="#Forsyth_Jos">Joseph Forsyth</author>
@@ -21206,6 +21216,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title level="j">The Casquet of Literature</title> in <date when="1849">1849</date>
                      </bibl> with some revisions.</note>
                </bibl>
+               <bibl xml:id="Pendennis_WT">
+                  <title>The History of Pendennis: His Fortunes and Misfortunes, His Friends and His Greatest Enemy</title>
+                  <author ref="#Thackeray_WM"/>
+                  <publisher>Bradbury and Evans</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1849">1849</date>
+               </bibl>
+               <bibl xml:id="Intro_DW">
+                  <title level="a">Introduction</title>
+                  <title level="m" ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher>Hurst &amp; Blackett</publisher>
+                  <date when="1854">1854</date>
+                  <note resp="#lmw">Introduction, first published in <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title>; not published separately elsewhere.</note>
+               </bibl>
+               
                <bibl xml:id="Dramatic_Works_of_MRM">
                   <title>The Dramatic Works of Mary Russell Mitford</title>
                   <author ref="#MRM"/>
@@ -26084,6 +26111,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
             </listBibl>
             <listBibl sortKey="schol">
+               <bibl xml:id="OED">
+                  <title>The Oxford English Dictionary Online</title>
+                  <publisher>Oxford University Press</publisher>
+                  <pubPlace ref="#Oxford_city">Oxford</pubPlace>
+                  <date when="2016">2016</date>
+                  <note resp="#lmw">Multi-volume descriptive dictionary of the English language, first published in 1884. Online version launched in 2000 includes ongoing updates to the third edition.</note>
+               </bibl>
+               
                   <bibl xml:id="coles_Thesis">
                      <author ref="#coles">William Allan Coles</author>
                      <title>The Correspondence of Mary Russell Mitford and Thomas Noon Talfourd
