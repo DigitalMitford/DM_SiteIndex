@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
          <fileDesc>
@@ -56,7 +54,7 @@
           
        <div type="historical_people">
          <listPerson sortKey="histPersons">
-            <person xml:id="Forsyth_Jos" sex="1">
+            <person xml:id="Forsyth_Jos" sex="m">
                <persName>Joseph Forsyth</persName>
                <persName>
                   <forename>Joseph</forename>
@@ -77,7 +75,7 @@
                </note>
             </person>
             
-             <person xml:id="Reynolds_Josh" sex="2">
+             <person xml:id="Reynolds_Josh" sex="f">
                 <persName>Sir Joshua Reynolds</persName>
                 <persName>
                    <surname>Reynolds</surname>
@@ -97,7 +95,7 @@
                 <note resp="#lmw">The most celebrated and sought-after English portrait painter of the second half of the eighteenth century; he was the first President of the <orgName ref="#Royal_Academy">Royal Academy of Arts</orgName>. His <title>Discourses</title>, lectures given on art and later printed, were highly influential on the art and aesthetics of his time.</note>
                 
              </person>
-             <person xml:id="Vandyke" sex="1">
+             <person xml:id="Vandyke" sex="m">
                 <persName>Sir Anthony van Dyck</persName>
                 <persName>
                    <forename>Anthony</forename>
@@ -117,7 +115,7 @@
                 <note resp="#lmw">Flemish portrait painter who became celebrated in England for his portraits of <persName ref="#ChasI">Charles I</persName> and his court. His style greatly influenced English portrait painting until well into the eighteenth century. In one of her letters, <persName ref="#MRM">Mitford</persName> compares him analagously to <persName ref="#Shakespeare">Shakespeare</persName>.</note>
              </person>
             
-            <person xml:id="Anstruther_Miss" sex="2">
+            <person xml:id="Anstruther_Miss" sex="f">
                <persName>Miss Anstruther</persName>
                <persName>
                   <surname>Anstruther</surname>
@@ -126,7 +124,7 @@
                <note resp="#lmw">An associate of <rs type="person" ref="#Palmer_Mad #Palmer_CF">the Palmers</rs> in <date when="1819">1819</date>; mentioned as taking part in a <placeName ref="#Reading_city">Reading</placeName> election procession. More research needed.</note>
             </person>
             
-            <person xml:id="Clarke_Mrs" sex="2">
+            <person xml:id="Clarke_Mrs" sex="f">
                <persName>Mrs. Clarke</persName>
                <persName>
                   <surname>Clarke</surname>
@@ -139,7 +137,7 @@
          
        <div type="fictional_and_archetypal">
           <listPerson sortKey="archPersons">
-                <person xml:id="Venus" sex="2">
+                <person xml:id="Venus" sex="f">
                    <persName>Venus</persName>
              <note resp="#lmw">Roman goddess of love and beauty; her counterpart in Greek mythology is Aphrodite.</note>
                 </person>
@@ -147,19 +145,19 @@
          
           
           <listPerson sortKey="fictPersons">
-             <person xml:id="Glenalvon" sex="1">
+             <person xml:id="Glenalvon" sex="m">
                 <persName>Glenalvon</persName>
                 <note resp="#lmw">Secondary character in <title ref="#Douglas_play">Douglas</title>.
                 </note>
              </person>
              
-             <person xml:id="Iago_O" sex="1">
+             <person xml:id="Iago_O" sex="m">
                 <persName>Iago</persName>
                    <note resp="#lmw">Character in <title ref="#Othello_play">Othello.</title>
                    </note>
              </person>
              
-             <person xml:id="Master_Peter_DQ" sex="1">
+             <person xml:id="Master_Peter_DQ" sex="m">
                 <persName>Master Peter</persName>
                 <persName>
                    <forename>Peter</forename>
@@ -167,7 +165,7 @@
                 <note resp="#lmw">Master Peter is the puppetmaster in <title ref="#Don_Quixote_novel">Don Quixote</title>; his puppets are destroyed in the course of the novel.</note>
              </person>
              
-             <person xml:id="OLeary_FM" sex="1">
+             <person xml:id="OLeary_FM" sex="m">
                 <persName>Terence Oge O'Leary</persName>
                 <note resp="#lmw">Character of an Irish "hedge schoolmaster" in <persName ref="#Owenson_S">Lady Morgan</persName>'s novel <title ref="#Florence_Macarthy_SO">Florence Macarthy</title> (I.284).</note>
              </person>
@@ -175,7 +173,7 @@
        </div>
          
          <div type="publications">
-            <listBibl sortKey="literary">
+            <listBibl sortKey="work_MRM">
                <bibl xml:id="Remarks_Italy">
                   <title>Remarks on Antiquities, Arts, and Letters, During an Excursion in Italy, in the Years 1802 and 1803.</title>
                   <author ref="#Forsyth_Jos">Joseph Forsyth</author>
@@ -185,7 +183,7 @@
                </bibl>
             </listBibl>
          
-            <listBibl sortKey="per_19thc">
+            <listBibl sortKey="serial_MRM">
                <bibl xml:id="La_Belle_Assemblee">
                   <title>La Belle Assemblée, Or Bell's Court and Fashionable Magazine, Addressed Particularly to the Ladies</title>
                   <publisher>John Bell</publisher>

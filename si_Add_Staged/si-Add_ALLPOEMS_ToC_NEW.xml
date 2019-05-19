@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<?xml-model href="../../DM_processing/schema-dev/si_Schema/siChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -59,7 +56,7 @@
               <!-- LMW:  These entries reference new SI entries in the Si-add-Mitfordpublishers file, including ids for Whittaker and for some giftbook/annuals. -->
                  
          <div type="publications">
-            <listBibl sortKey="literary">
+            <listBibl sortKey="work_MRM">
                
                <bibl xml:id="Poems_1st_ed_MRM">
                   <title>Poems</title>
@@ -164,7 +161,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem; serves as dedication to the volume and appears before the Table of Contents (iii-iv). Signed Mary Russell Mitford. Bertram House, Feb. 20, 1810. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem; serves as dedication to the volume and appears before the Table of Contents (iii-iv). Signed Mary Russell Mitford. Bertram House, Feb. 20, 1810. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Sybille_1810">
@@ -174,7 +171,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 narrative poem. <persName ref="#MRM">Mitford</persName>'s introductory argument indicates that she wrote this poem <quote>at the request of a near relation who wished me to compose a Tale adapted to the picturesque and enchanting scenery of the ancient domains of our family, now in the possession of Bertram Mitford, Esq. The Lord de Bertram, (one of the followers of William the Conqueror) married Sybille, the heiress of Sir Johannes de Mitford, and died, I believe, in the Holy Land.</quote> This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 narrative poem. <persName ref="#MRM">Mitford</persName>'s introductory argument indicates that she wrote this poem <quote>at the request of a near relation who wished me to compose a Tale adapted to the picturesque and enchanting scenery of the ancient domains of our family, now in the possession of Bertram Mitford, Esq. The Lord de Bertram, (one of the followers of William the Conqueror) married Sybille, the heiress of Sir Johannes de Mitford, and died, I believe, in the Holy Land.</quote> This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="RevisitingSchool_1810">
@@ -184,7 +181,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem addressed to <persName ref="#MRM">Mitford</persName>'s friend and former teacher <persName ref="#Rowden_Fr">Frances Rowden</persName>, referring to the <placeName ref="#StQuintin_School">St. Quintin School</placeName> where she was educated. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem addressed to <persName ref="#MRM">Mitford</persName>'s friend and former teacher <persName ref="#Rowden_Fr">Frances Rowden</persName>, referring to the <placeName ref="#StQuintin_School">St. Quintin School</placeName> where she was educated. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="EveningPrimrose_1810">
@@ -194,7 +191,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="FavoriteBower_1810">
@@ -204,7 +201,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date> 
-                  <note resp="lmw">1810 poem refers to <persName ref="#MRM">Mitford</persName>'s home <placeName ref="#Bertram_house">Bertram House</placeName> and is dated <date when="1809-05-14">May 14, 1809</date>. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem refers to <persName ref="#MRM">Mitford</persName>'s home <placeName ref="#Bertram_house">Bertram House</placeName> and is dated <date when="1809-05-14">May 14, 1809</date>. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="GlowWorm_1810">
@@ -214,7 +211,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw"> 1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw"> 1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="MungoPark_1810">
@@ -224,7 +221,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Verses_with_Primroses_1810">
@@ -234,7 +231,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="MissMurray_1810">
@@ -244,7 +241,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW: Charlotte Murray --></note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW: Charlotte Murray --></note>
                </bibl>
                
                <bibl xml:id="NightMay_1810">
@@ -254,7 +251,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW Mary Webb? --></note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW Mary Webb? --></note>
                </bibl>
                
                <bibl xml:id="Father_Bocking_1810">
@@ -264,7 +261,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Scenery_1810">
@@ -274,7 +271,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw"> 1810 sonnet. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw"> 1810 sonnet. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="BelovedMotherBirthday_1810">
@@ -284,7 +281,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.
                   </note>
                </bibl>
                
@@ -295,7 +292,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Wardle_Death_1810">
@@ -305,7 +302,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Pratt_1810">
@@ -315,7 +312,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Impromptu_Whitbread_1810">
@@ -325,7 +322,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Prologue_ReadingSchool_1810">
@@ -335,7 +332,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="YellowButterfly_1810">
@@ -345,7 +342,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. It first appeared in La Belle Assemblée  Vol. 3 (1807): 49.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. It first appeared in La Belle Assemblée  Vol. 3 (1807): 49.</note>
                </bibl>
                
                <bibl xml:id="WinterScenery_1810">
@@ -355,7 +352,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. This poem reprinted in <title>British Women Poets of the Romantic Era</title>, ed. Paula Feldman (455).</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. This poem reprinted in <title>British Women Poets of the Romantic Era</title>, ed. Paula Feldman (455).</note>
                </bibl>
                
                <bibl xml:id="Cheerfulness_1810">
@@ -365,7 +362,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Memory_John_Moore_1810">
@@ -375,7 +372,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. Barbara Hofland employs the first four lines of this poem as a chapter epigraph in volume 3 of her Tales of the Priory (33).</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. Barbara Hofland employs the first four lines of this poem as a chapter epigraph in volume 3 of her Tales of the Priory (33).</note>
                </bibl>
                
                <bibl xml:id="Epistle_Friend_1810">
@@ -385,7 +382,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl><!-- a cousin mary from Northumberland -->
                
                <bibl xml:id="Imitated_Italian_1810">
@@ -395,7 +392,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="BustFox_1810">
@@ -405,7 +402,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Willow_1810">
@@ -415,7 +412,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="ToMay_1810">
@@ -425,7 +422,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Wreaths_1810">
@@ -435,7 +432,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="JoannasProphecy_1810">
@@ -445,7 +442,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Pen_Sword_1810">
@@ -455,7 +452,7 @@
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
-                  <note resp="lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                
                <bibl xml:id="Portrait_Blanch_1811">

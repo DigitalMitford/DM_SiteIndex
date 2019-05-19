@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
          <fileDesc>
@@ -65,8 +63,8 @@
                <forename>Courtney</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation>
-               <affiliation>State University of New York, Potsdam</affiliation>
+            <occupation type="scholar">
+               <roleName>student at <affiliation>State University of New York, Potsdam</affiliation></roleName>
             </occupation>
             <note resp="#lmw">Courtney Younes Collins graduated in 2017 with a B.A. in English:
                Literature from the State University of New York at Potsdam. She worked as
@@ -79,8 +77,8 @@
                <forename>Shawntel</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation>
-               <affiliation>State University of New York, Potsdam</affiliation>
+            <occupation type="scholar">
+               <roleName>student at <affiliation>State University of New York, Potsdam</affiliation></roleName>
             </occupation>
             <note resp="#lmw">Shawntel Courtney graduated in 2018 with a B.A. in English:
                Writing and a minor in Literature from the State University of New York at Potsdam. She worked as
@@ -93,8 +91,8 @@
                <forename>Julie</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation>
-               <affiliation>State University of New York, Potsdam</affiliation>
+            <occupation type="scholar">
+               <roleName>student at <affiliation>State University of New York, Potsdam</affiliation></roleName>
             </occupation>
             <note resp="#lmw">Julie Fish graduated in 2017 with a B.A. in English:
                Literature from the State University of New York at Potsdam. She worked as
@@ -107,8 +105,8 @@
               <forename>Allison</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation>
-               <affiliation>State University of New York, Potsdam</affiliation>
+            <occupation type="scholar">
+               <roleName>student at <affiliation>State University of New York, Potsdam</affiliation></roleName>
             </occupation>
             <note resp="#lmw">Allison McConlogue graduated in 2018 with a B.A. in 
                Literature/Writing from the State University of New York at Potsdam and is a member of the English honor society Sigma Tau Delta. She worked as
@@ -121,8 +119,8 @@
                <forename>Lindsay</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation>
-               <affiliation>State University of New York, Potsdam</affiliation>
+            <occupation type="scholar">
+               <roleName>student at <affiliation>State University of New York, Potsdam</affiliation></roleName>
             </occupation>
             <note resp="#lmw">Lindsay Dingman plans to graduate in 2019 with a B.A. in 
                Literature/Writing from the State University of New York at Potsdam. She began work as
@@ -135,8 +133,8 @@
                <forename>Anaya</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation>
-               <affiliation>State University of New York, Potsdam</affiliation>
+            <occupation type="scholar">
+               <roleName>student at <affiliation>State University of New York, Potsdam</affiliation></roleName>
             </occupation>
             <note resp="#lmw">Anaya Phoenix plans to graduate in 2019 with a B.A. in 
                Literature/Writing from the State University of New York at Potsdam. She began work as
@@ -149,8 +147,8 @@
                <forename>Sophia</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation>
-               <affiliation>State University of New York, Potsdam</affiliation>
+            <occupation type="scholar">
+               <roleName>student at <affiliation>State University of New York, Potsdam</affiliation></roleName>
             </occupation>
             <note resp="#lmw">Sophia Morelli plans to graduate in 2019 with a B.A. in 
                Literature/Writing from the State University of New York at Potsdam. She is a member of the English honor society, Sigma Tau Delta. She began work as
@@ -164,7 +162,7 @@
                <forename>Joshua</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation><affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+            <occupation type="scholar"><roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation></roleName>
             </occupation>
             <note type="bio">Joshua Mostales is an undergraduate student in the Robert D. Clark Honors College at the University of Oregon. He excepts to receive his B.S. in Biochemistry in 2019. In summer 2017, he enrolled in Dr. Elizabeth Raisanen's Honors College colloquium on Digital Humanities and subsequently became involved with the Digital Mitford Project, working to transcribe one of Mitford's many letters to Sir William Elford.</note>
          </person>
@@ -176,7 +174,7 @@
                <forename>R.</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation><affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+            <occupation type="scholar"><roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation></roleName>
             </occupation>
             <note type="bio">Lindsey Spillar expects to graduate from the Robert D. Clark Honors College at the University of Oregon in 2019 with a Bachelor of Science from the Lundquist College of Business with a focus in Finance. She is also completing a minor in Media Studies. In August 2017, she worked with Professor Elizabeth Raisanen in the Honors College for the Digital Mitford Project as a Research Assistant.</note>
          </person>
@@ -189,7 +187,7 @@
                <forename>Blake</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation><affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+            <occupation type="scholar"><roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation></roleName>
             </occupation>
             <note type="bio">Matt Nardoci is a biochemistry major at the University of Oregon and is expected to graduate in the summer of 2019. He started working with the Digital Mitford project while enrolled in a Robert D. Clark Honors College class in August of 2017 and has worked on a transcription of one of Mitford's letters.</note>
          </person>
@@ -202,7 +200,7 @@
                <forename>N.</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation><affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+            <occupation type="scholar"><roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation></roleName>
             </occupation>
             <note type="bio">Madelyn N. Scott plans to graduate in 2020 with a B.S. in Chemistry from the Robert D. Clark Honors College at the University of Oregon. Her first encounter with the Digital Mitford Project was in Dr. Raisanen's Digital Humanities course in the summer of 2017. Madelyn was drawn to the technological component the project, which captures the interdisciplinary approach of the digital humanities field. For her final project in the course, Madelyn transcribed and coded Mitford's June 13, 1822 letter to Benjamin Robert Haydon.</note>
          </person>
@@ -214,7 +212,7 @@
                <forename>Sophia</forename>
                <roleName>Research Assistant</roleName>
             </persName>
-            <occupation><affiliation>Robert D. Clark Honors College, University of Oregon></affiliation>
+            <occupation type="scholar"><roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon></affiliation></roleName>
             </occupation>
             <note type="bio">Sophia Gemelas is an undergraduate student in the Robert D. Clark Honors College at the University of Oregon. She became involved with Digital Mitford in Summer 2017 when she enrolled in Dr. Elizabeth Raisanen's Digital Humanities class and coded a Mitford letter as part of her final project.</note>
          </person>
