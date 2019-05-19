@@ -1705,46 +1705,13 @@
             <listBibl sortKey="literary">
                <!--LMW:  entries in this section are all NEW.-->
                
-               <bibl xml:id="Heart_of_Mid">
-                  <title>The Heart of Midlothian</title>
-                  <author ref="#Scott_Wal">Walter Scott</author>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Archibald Constable</publisher>
-                  <date when="1822"/>
-             </bibl>
                
-               <bibl xml:id="Douglas_play">
-                  <title>Douglas: A Tragedy</title>
-                  <author ref="#Home_John">John Home</author>
-                  <publisher>G. Hamilton &amp; J. Balfour</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>A. Millar
-                  </publisher>
-                  <pubPlace>London</pubPlace>
-                  <date when="1757">1757</date>
-                  <note resp="#lmw">First performed in <date when="1756">1756</date>in <placeName ref="#Edinburgh">Edinburgh</placeName>, followed by a performance in <placeName ref="#London_city">London</placeName> in <date when="1757">1757</date>. Continued to be performed professionally through the nineteenth century and the speech beginning "My name is Norval" became a favorite among amateur reciters.</note>
-               </bibl>
                
-               <bibl xml:id="Otto_Babo">
-                  <title>Otto von Wittelsbach</title>
-                  <author ref="#Babo">Joseph Marius Babo</author>
-                  <publisher>Himburg
-                  </publisher>
-                  <pubPlace>Berlin</pubPlace>
-                  <date when="1783">1783</date>
-                  <note resp="#lmw">First performed in <date when="1782">1782</date>. German tragedy based on the life of <persName ref="#OttoII">Otto II of Wittelsbach</persName>; <persName ref="#MRM">Mitford</persName> based her play on the same subject on this tragedy. <persName ref="#Babo">Babo</persName>'s play was first translated into English in <date when="1800">1800</date>by <persName>Benjamin Thomson</persName> as <title>Otto of Wittelsbach, or, The Choleric Count: A Tragedy in Five Acts</title>.</note>
-               </bibl>
                
-               <bibl xml:id="Specimens_Dramatic_Poets">
-                  <title>Specimens of English Dramatic Poets, Who Lived About the Time of Shakespeare. With Notes</title>
-                  <author ref="#Lamb_Chas">Charles Lamb</author>
-                  <publisher>Longman, Hurst, Rees, and Orme
-                  </publisher>
-                  <pubPlace>London</pubPlace>
-                  <date when="1808">1808</date>
-               </bibl>
+               
                
                <bibl xml:id="Lectures_Chiefly_Dramatic">
+         <!--change to "LecDramatic_WHaz but look up the other version in published letters to see where used. -->
                   <title>Lectures Chiefly on the Dramatic Literature of the Age of Elizabeth, Delivered at the Surry Institution</title>
                   <author><persName ref="#Hazlitt_Wm">William Hazlitt</persName></author>
                   <publisher>Stodart and Steuart

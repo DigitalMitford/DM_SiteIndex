@@ -248,20 +248,18 @@
                      <surname>Stewart</surname>
                      <forename>Brooke</forename>
                      <forename>Ann</forename>
-                     <roleName>Research Assistant</roleName>
+                     <roleName>Editor</roleName>
                   </persName>
                   <occupation type="scholar">
                      <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio">Brooke A. Stewart worked on the Digital Mitford project as a student at the University of Pittsburgh at
+                  <note type="bio">Brooke A. Stewart transcribed, researched, encoded, and proofed the Mitford letters of the year 1823. She worked on the Digital Mitford project as a student at the University of Pittsburgh at
                      Greensburg, where she pursued a bachelor’s degree in English Literature and
-                     a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is currently working on another
-                     digital archive that focuses on Emily Dickinson. Her project, <ref target="http://dickinson16.newtfire.org/">
+                     a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is also on the editing team of another
+                     digital archive, <ref target="http://dickinson16.newtfire.org/">
                         <title level="m">Emily Dickinson</title>
-                     </ref>, looks closely at Dickinson’s original poem manuscripts and compares
-                     them to published versions, which often differ in significant ways from
-                     Dickinson’s original work. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
+                     </ref>, which looks closely at Dickinson’s original poem manuscripts and how significantly they differ from their published versions. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
                      Delta, and an active participant in Habitat for Humanity. </note>
                </person>
                <person xml:id="cjb"><!--ebb: note: This is just a placeholder entry until Carol sends hers in with preferred xml:id.-->
@@ -2719,6 +2717,71 @@
                </org>
             </listOrg>
             <listPerson sortKey="histPersons">
+               <person xml:id="Clarke_Mrs" sex="f">
+                  <persName>Mrs. Clarke</persName>
+                  <persName>
+                     <surname>Clarke</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">The daughter of Colonel Anstruther who lived in <placeName ref="#Reading_city">Reading</placeName>. An associate of <rs type="person" ref="#Palmer_Mad #Palmer_CF">the Palmers</rs> in <date when="1819">1819</date>; mentioned as taking part in a <placeName ref="#Reading_city">Reading</placeName> election procession. More research is needed to identify her. One possibility may be Mrs. Cowden Clarke (Mary Victoria); she and her husband Charles were friends with Lamb and Hunt.<!--Authors of Recollections of Writers.--> Or, Angelica Rush (1788-1868), wife of Edward Daniel Clarke.</note>
+               </person>
+               <person xml:id="Vandyke" sex="m">
+                  <persName>Sir Anthony van Dyck</persName>
+                  <persName>
+                     <forename>Anthony</forename>
+                     <surname>van Dyck</surname>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <persName><addName>Antoon van Dyck</addName></persName>
+                  <persName><addName>Anthony van Dyke</addName></persName>
+                  <birth when="1599-03-22">
+                     <placeName>Antwerp, Spanish Netherlands</placeName>
+                  </birth>
+                  <death when="1641-12-09">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="painter"/>
+                  <note resp="#lmw">Flemish portrait painter who became celebrated in England for his portraits of <persName ref="#ChasI">Charles I</persName> and his court. His style greatly influenced English portrait painting until well into the eighteenth century. In one of her letters, <persName ref="#MRM">Mitford</persName> compares him analagously to <persName ref="#Shakespeare">Shakespeare</persName>.</note>
+               </person>
+               <person xml:id="Reynolds_Josh" sex="m">
+                  <persName>Sir Joshua Reynolds</persName>
+                  <persName>
+                     <surname>Reynolds</surname>
+                     <forename>Joshua</forename>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <birth when="1723-07-16">
+                     <placeName>Plympton, Devon, England</placeName>
+                  </birth>
+                  <death when="1792-02-23">
+                     <placeName>Leicester Fields, London, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="painter"/>
+                  <occupation type="literary"/>
+                  <occupation type="educator" subtype="lecturer"/>
+                  <note resp="#lmw">The most celebrated and sought-after English portrait painter of the second half of the eighteenth century; he was the first President of the <orgName ref="#Royal_Academy">Royal Academy of Arts</orgName>. His <title>Discourses</title>, lectures given on art and later printed, were highly influential on the art and aesthetics of his time.</note>
+                  
+               </person>
+               <person xml:id="Forsyth_Jos" sex="m">
+                  <persName>Joseph Forsyth</persName>
+                  <persName>
+                     <forename>Joseph</forename>
+                     <surname>Forsyth</surname>
+                  </persName>
+                  <birth when="1763-02-18">
+                     <placeName>Elgin, Moray, Scotland</placeName>
+                  </birth>
+                  <death when="1815-09-20">
+                     <placeName>Elgin, Moray, Scotland</placeName>
+                  </death>
+                  <occupation type="educator"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#lmw">Schoolmaster and author of <title ref="#Remarks_Italy" level="m">Remarks on Antiquities, Arts, and Letters, during an Excursion in Italy in the years 1802 and 1803</title> He travelled to Italy during the Peace of Amiens and was on his way back to England when war broke out and he was captured. He was a French prisoner between 1803 and 1814, and authored his works in hope of influencing Napoleon, a patron of Italian literature and art, to release him.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/15551790"/>
+                  </note>
+               </person>
                <person xml:id="Acerbi_J" sex="m">
                   <persName>
                      <forename>Giuseppe</forename>
@@ -7336,7 +7399,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">English actor and theatrical manager, considered the greatest
                      actor of his era, and advocate of a more naturalistic style of acting.
                      Prominent in <orgName>Whig</orgName> circles of the late eighteenth century.
-                     Frequently painted by <persName>Joshua Reynolds</persName>. <persName>Mary
+                     Frequently painted by <persName ref="#Reynolds_Josh">Joshua Reynolds</persName>. <persName>Mary
                         Robinson</persName> was one of his last acting mentees before his retirement
                      from the stage. His greatest contributions as a playwright are his adaptations
                      of Shakespeare for the eighteenth-century stage. He was the first actor to be
@@ -10477,7 +10540,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Hannah More began her career in <date from="1770" to="1779">1770s</date>
                      <placeName ref="#London_city">London</placeName> as a successful playwright and
                      associate of <persName ref="#Garrick_David">David Garrick</persName>, <persName ref="#Johnson">Samuel Johnson</persName>, <persName>Elizabeth
-                        Montagu</persName>, and <persName>Joshua Reynolds</persName>. She was a
+                        Montagu</persName>, and <persName ref="#Reynolds_Josh">Joshua Reynolds</persName>. She was a
                      prominent member of the <q>
                         <orgName>Bluestocking</orgName>
                      </q> group of women following Montagu’s salon. In the <date from="1780" to="1789">1780s</date>, she brought the working-class Bristol poet
@@ -14578,6 +14641,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </org>
             </listOrg>
             <listPerson sortKey="archPersons">
+               <person xml:id="Venus" sex="f">
+                  <persName>Venus</persName>
+                  <note resp="#lmw">Roman goddess of love and beauty; her counterpart in Greek mythology is Aphrodite.</note>
+               </person>
                <person xml:id="Ahab" sex="m">
                   <persName>Ahab</persName>
                   <note resp="#ebb">Historic and legendary ancient King of Israel, married to
@@ -14756,6 +14823,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
             </listPerson>
             <listPerson sortKey="fictPersons">
+               <person xml:id="OLeary_FM" sex="m">
+                  <persName>Terence Oge O’Leary</persName>
+                  <note resp="#lmw">Character of an Irish <quote>hedge schoolmaster</quote> in <persName ref="#Owenson_S">Lady Morgan</persName>'s novel <title ref="#Florence_Macarthy_SO" level="m">Florence Macarthy</title> (I.284).</note>
+               </person>
+               <person xml:id="Master_Peter_DQ" sex="m">
+                  <persName>Master Peter</persName>
+                  <persName>
+                     <forename>Peter</forename>
+                  </persName>
+                  <note resp="#lmw">Master Peter is the puppetmaster in <title ref="#Don_Quixote_novel">Don Quixote</title>; his puppets are destroyed in the course of the novel.</note>
+               </person>
+               <person xml:id="Iago_O" sex="m">
+                  <persName>Iago</persName>
+                  <note resp="#lmw">Character in <title ref="#Othello_play">Othello.</title>
+                  </note>
+               </person>
+               <person xml:id="Glenalvon" sex="m">
+                  <persName>Glenalvon</persName>
+                  <note resp="#lmw">Secondary character in <title ref="#Douglas_play">Douglas</title>.
+                  </note>
+               </person>
                <person xml:id="Abbe_de_L_Epee_DD" sex="m">
                   <persName>Abbé de L’Épée</persName>
                   <note resp="#lmw">character in <title ref="#Deaf_Dumb_play"> Deaf and Dumb</title>
@@ -18809,6 +18897,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
          </div>
          <div type="publications">
             <listBibl sortKey="serial_MRM">
+               <bibl xml:id="La_Belle_Assemblee">
+                  <title level="s">La Belle Assemblée, Or Bell's Court and Fashionable Magazine, Addressed Particularly to the Ladies</title>
+                  <publisher>John Bell</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date from="1806" to="1832"/>
+                  <note resp="#lmw">A general-interest miscellaneous periodical aimed at a female readership. Original 1806 sections included <title level="a">Biographical Sketches</title> (usually illustrated), <title level="a">Original Communications,</title> <title level="a">Original Correspondence,</title> <title level="a">State of Society and Manners,</title> <title level="a">Fine Arts,</title> <title level="a">Familiar Lectures on Useful Sciences,</title> <title level="a">Retrospect of Politics</title> (essays on topics including moral conduct, travel, fashion, politics, fine arts, music, and science); <title level="a">Beauties of Modern Literature</title> and <title level="a">Poetry and Music</title> (brief reviews of new works as well as original poetry, fiction, and songs); and fashion plates and reports on London and Paris fashions. Published in this form until May 1832; continued under different management from 1832 to 1837 as The Court Magazine and Belle Assemblée. From 1806 to 1821, published by John Bell. Between 1821 and 1823, published as "for the proprietors." Between 1823 and 1829, published as "for the proprietors" by G. &amp; W. B. Whittaker &amp; Co. In the 1820s the magazine increasingly focused on fashion and domestic concerns and included less material on politics and travel.</note>
+                  <note><ref target="http://www.british-fiction.cf.ac.uk/guide/reviews/lba.html"/></note>
+               </bibl>
+               
                <bibl xml:id="Ackermans_Juv_ForgetMeNot">
                   <title level="j">Ackermann's Juvenile Forget Me Not
                   </title>
@@ -19424,6 +19521,48 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
             </listBibl>
             <listBibl sortKey="work_MRM">
+               <bibl xml:id="Remarks_Italy">
+                  <title level="m">Remarks on Antiquities, Arts, and Letters, During an Excursion in Italy, in the Years 1802 and 1803.</title>
+                  <author ref="#Forsyth_Jos">Joseph Forsyth</author>
+                  <date when="1816">1816</date>
+                  <pubPlace>London</pubPlace>
+                  <publisher>J. Murray</publisher>
+               </bibl>            
+               <bibl xml:id="Specimens_Dramatic_Poets">
+                  <title level="m">Specimens of English Dramatic Poets, Who Lived About the Time of Shakespeare. With Notes</title>
+                  <author ref="#Lamb_Chas">Charles Lamb</author>
+                  <publisher>Longman, Hurst, Rees, and Orme
+                  </publisher>
+                  <pubPlace>London</pubPlace>
+                  <date when="1808">1808</date>
+               </bibl>
+               <bibl xml:id="Otto_Babo">
+                  <title>Otto von Wittelsbach</title>
+                  <author ref="#Babo">Joseph Marius Babo</author>
+                  <publisher>Himburg
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date when="1783">1783</date>
+                  <note resp="#lmw">First performed in <date when="1782">1782</date>. German tragedy based on the life of <persName ref="#OttoII">Otto II of Wittelsbach</persName>; <persName ref="#MRM">Mitford</persName> based her play on the same subject on this tragedy. <persName ref="#Babo">Babo</persName>'s play was first translated into English in <date when="1800">1800</date>by <persName>Benjamin Thomson</persName> as <title>Otto of Wittelsbach, or, The Choleric Count: A Tragedy in Five Acts</title>.</note>
+               </bibl>
+               <bibl xml:id="Heart_of_Mid">
+                  <title>The Heart of Midlothian</title>
+                  <author ref="#Scott_Wal">Walter Scott</author>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <publisher>Archibald Constable</publisher>
+                  <date when="1822"/>
+               </bibl>
+               <bibl xml:id="Douglas_play">
+                  <title>Douglas: A Tragedy</title>
+                  <author ref="#Home_John">John Home</author>
+                  <publisher>G. Hamilton &amp; J. Balfour</publisher>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <publisher>A. Millar
+                  </publisher>
+                  <pubPlace>London</pubPlace>
+                  <date when="1757">1757</date>
+                  <note resp="#lmw">First performed in <date when="1756">1756</date>in <placeName ref="#Edinburgh">Edinburgh</placeName>, followed by a performance in <placeName ref="#London_city">London</placeName> in <date when="1757">1757</date>. Continued to be performed professionally through the nineteenth century and the speech beginning <quote>My name is Norval</quote> became a favorite among amateur reciters.</note>
+               </bibl>
                <bibl xml:id="America_Birkbeck">
                   <title>Notes on a Journey in America, from the Coast of Virginia to the Territory
                      of Illinois</title>
