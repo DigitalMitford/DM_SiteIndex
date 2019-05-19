@@ -2717,6 +2717,17 @@
                </org>
             </listOrg>
             <listPerson sortKey="histPersons">
+               <person xml:id="Opie_Amelia">
+                  <persName>
+                     <surname>Opie</surname>
+                     <forename>Amelia</forename>
+                     <forename>Alderson</forename>
+                  </persName>
+                  <birth when="1769-11-12"><placeName>Norwich, United Kingdom</placeName></birth>
+                  <death when="1853-12-02"><placeName>Norwich, United Kingdom</placeName></death>
+                  <note resp="#ebb #lrs">A prolific novelist from 1790 through 1834, contemporary with Mitford, and an active abolitionist in <placeName>Norwich</placeName>. Friendly with the Godwins, Shelleys, and <persName>Elizabeth Inchbald</persName>.  Married to <persName>John Opie</persName>, the painter.</note>
+                  <note><ref target="https://viaf.org/viaf/39410771/"/></note>
+               </person>
                <person xml:id="Clarke_Mrs" sex="f">
                   <persName>Mrs. Clarke</persName>
                   <persName>
@@ -19521,6 +19532,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
             </listBibl>
             <listBibl sortKey="work_MRM">
+               <bibl xml:id="Belinda_ME">
+                  <title>Belinda</title>
+                  <author ref="#Edgeworth_Maria"/>
+                  <publisher>J. Johnson</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1801">1801</date>
+               </bibl>
+               
+               
                <bibl xml:id="LecDramatic_WHaz">
                   <title level="m">Lectures Chiefly on the Dramatic Literature of the Age of Elizabeth, Delivered at the Surry Institution</title>
                   <author><persName ref="#Hazlitt_Wm">William Hazlitt</persName></author>

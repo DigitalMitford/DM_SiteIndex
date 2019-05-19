@@ -28,8 +28,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Site Index for the Digital Mitford project. Date: 2019-04-21T19:39:21.872-04:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 1947. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+            <edition>Site Index for the Digital Mitford project. Date: 2019-05-19T07:47:18.614-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 1976. First digital edition in TEI P5, launched on 19 August 2013.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
@@ -75,7 +75,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Virginia</affiliation>
+                           <roleName>
+                              <affiliation>University of Virginia</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -104,7 +106,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of St Andrews</affiliation>
+                        <roleName>
+                           <affiliation>University of St Andrews</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"> One of the Digital Mitford project’s founding editors, Alexandra
@@ -114,6 +118,22 @@
                      include: representations of Gypsies in Romantic and Victorian literature and
                      art, the picturesque and the work of <persName ref="#MRM">Mary Russell
                         Mitford</persName>. </note>
+               </person>
+               <person xml:id="adp">
+                  <persName>
+                     <surname>Phoenix</surname>
+                     <forename>Anaya</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note resp="#lmw">Anaya Phoenix plans to graduate in 2019 with a B.A. in 
+                     Literature/Writing from the State University of New York at Potsdam. She began work as
+                     a Digital Mitford Research Assistant in Spring 2018. She plans to go on to graduate work and teaching in Middle/Secondary English Education.</note>
                </person>
                <person xml:id="ahm">
                   <persName>
@@ -125,7 +145,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Stanford Literary Lab</affiliation>
+                        <roleName>
+                           <affiliation>Stanford Literary Lab</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                </person>
@@ -137,7 +159,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Virginia Commonwealth University</affiliation>
+                        <roleName>
+                           <affiliation>Virginia Commonwealth University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -151,8 +175,10 @@
                      <roleName>Editor</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Assistant Professor of English <affiliation>Missouri Southern State
+                     <roleName>
+                        <roleName>Assistant Professor of English <affiliation>Missouri Southern State
                         University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Amy L. Gates is an Assistant Professor in the Department of
@@ -170,7 +196,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Aymee Lynn Woody received her Bachelor’s in English from the University of Montevallo in 2016. She is currently working towards her Master’s degree in Education at Montevallo and is slated to graduate in May of 2018. In her spare time, Aymee enjoys reading, writing, quilting, sewing, and embroidery. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
@@ -184,7 +212,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Kansas State University</affiliation>
+                        <roleName>
+                           <affiliation>Kansas State University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">
@@ -199,7 +229,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Annie Gill is a Theatre major and English minor at the University of Montevallo. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
@@ -209,37 +241,21 @@
                      <surname>Stewart</surname>
                      <forename>Brooke</forename>
                      <forename>Ann</forename>
-                     <roleName>Research Assistant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note type="bio">Brooke A. Stewart worked on the Digital Mitford project as a student at the University of Pittsburgh at
-                     Greensburg, where she pursued a bachelor’s degree in English Literature and
-                     a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is currently working on another
-                     digital archive that focuses on Emily Dickinson. Her project, <ref target="http://dickinson16.newtfire.org/">
-                        <title level="m">Emily Dickinson</title>
-                     </ref>, looks closely at Dickinson’s original poem manuscripts and compares
-                     them to published versions, which often differ in significant ways from
-                     Dickinson’s original work. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
-                     Delta, and an active participant in Habitat for Humanity. </note>
-               </person>
-               <person xml:id="cay">
-                  <persName>
-                     <surname>Collins</surname>
-                     <surname>Younes</surname>
-                     <forename>Courtney</forename>
-                     <roleName>Research Assistant</roleName>
+                     <roleName>Editor</roleName>
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
-                  <note resp="#lmw">Courtney Younes Collins plans to graduate in 2017 with a B.A. in English:
-                     Literature from the State University of New York at Potsdam. She is working as
-                     a Digital Mitford Research Assistant in Fall 2017. She plans to go on to graduate work and teaching in Elementary Education.</note>
+                  <note type="bio">Brooke A. Stewart transcribed, researched, encoded, and proofed the Mitford letters of the year 1823. She worked on the Digital Mitford project as a student at the University of Pittsburgh at
+                     Greensburg, where she pursued a bachelor’s degree in English Literature and
+                     a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is also on the editing team of another
+                     digital archive, <ref target="http://dickinson16.newtfire.org/">
+                        <title level="m">Emily Dickinson</title>
+                     </ref>, which looks closely at Dickinson’s original poem manuscripts and how significantly they differ from their published versions. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
+                     Delta, and an active participant in Habitat for Humanity. </note>
                </person>
                <person xml:id="cjb"><!--ebb: note: This is just a placeholder entry until Carol sends hers in with preferred xml:id.-->
                   <persName>
@@ -249,8 +265,10 @@
                      <ptr target="http://www.lboro.ac.uk/departments/english-drama/staff/dr-carol-bolton.html"/>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Programme Director: English <affiliation>Loughborough
+                     <roleName>
+                        <roleName>Programme Director: English <affiliation>Loughborough
                         University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                </person>
@@ -263,7 +281,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of North Carolina Pembroke</affiliation>
+                        <roleName>
+                           <affiliation>University of North Carolina Pembroke</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Catherine M. Parisian is a book historian and bibliographer whose
@@ -283,7 +303,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                        <roleName>
+                           <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"> Catherine S Cox teaches at the University of Pittsburgh’s
@@ -301,7 +323,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Grinnell College: Information Technology</affiliation>
+                        <roleName>
+                           <affiliation>Grinnell College: Information Technology</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                </person>
@@ -316,7 +340,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Pittsburgh</affiliation>
+                        <roleName>
+                           <affiliation>University of Pittsburgh</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -329,7 +355,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        <roleName>
+                           <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Primary research interest: contemporary reception of 19th Century
@@ -344,11 +372,15 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     <roleName>
+                        <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
-                     <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                     <roleName>
+                        <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Dorothea Lint joined the Digital Mitford project in 2018 as a Green Scholar research assistant at Pitt-Greensburg, and she is assisting with analysis of a manuscript performance prompt book and associated new encoding for Mitford’s play, <title level="m" ref="#Rienzi">Rienzi</title>. She has developed a <ref target="http://combe.newtfire.org">digital project on the nineteenth-century serial hack writer William Combe</ref>, and is pursuing an M.A. in English Literature at Duquesne University beginning in 2019. She is a Spay and Neuter Clinic Volunteer for Best Buddies Clinic, and the author of an independently published book, <title level="m">Dieting Dog: A Guide to Doggie Weight Loss from a Rottweiler Who Succeeded</title> (2019). </note>
@@ -360,8 +392,10 @@
                      <roleName>Editor</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Professor of English <affiliation>University of Central
+                     <roleName>
+                        <roleName>Professor of English <affiliation>University of Central
                         Missouri</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Daniel Schierenbeck has published essays on Romantic authors
@@ -380,7 +414,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Università degli Studi di Parma</affiliation>
+                        <roleName>
+                           <affiliation>Università degli Studi di Parma</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -394,8 +430,10 @@
                      <!--<ptr target="http://www.pitt.edu/~ebb8/"/>-->
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
+                     <roleName>
+                        <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
                         at Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Elisa Beshero-Bondar organized the Digital Mitford project in the spring of 2013. She has written and maintains the project’s adapation of the TEI, and she manages the coding and programming involved in storing, publishing, and sharing the project’s editions and prosopography data. With Gregory Bondar, she has worked on photographing Mitford’s manuscripts at the Reading Central Library and the John Rylands Library, and she is involved in editing letters and plays, and in training editors and assistants in TEI XML and related coding and programming for the project at the Digital Mitford Coding School. Dr. Beshero-Bondar researches British Romanticism in poetry and drama from the 1790s - 1830s. Her book about women Romantic poets, <title level="m">Women, Epic, and Transition in British Romanticism</title>, was published by the University of Delaware Press in 2011. Her published articles in <title level="j">ELH</title>, <title level="j">Genre</title>, <title level="j">Philological Quarterly</title>, and <title level="j">The Wordsworth Circle</title> investigate the poetry of Robert Southey, Mary Russell Mitford, and Lord Byron in context with 18th- and 19th-century views of revolution, world empires, natural sciences, and theater productions. An active member of the Text Encoding Initiative (TEI), she was elected to serve on from 2016 to 2017 on the <ref target="http://www.tei-c.org/Activities/Council/">TEI Technical Council</ref>, an eleven-member international committee that supervises amendments to the TEI Guidelines. Dr. Beshero-Bondar is Associate Professor of English and Director of the <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> at Pitt-Greensburg, where she helps coordinate a <ref target="http://greensburg.pitt.edu/academics/info/digital-studies">Digital Studies certificate program</ref> for undergraduates. </note>
@@ -409,7 +447,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Duquesne University</affiliation>
+                        <roleName>
+                           <affiliation>Duquesne University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -424,7 +464,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Oregon</affiliation>
+                        <roleName>
+                           <affiliation>University of Oregon</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">
@@ -455,7 +497,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Michigan State University</affiliation>
+                        <roleName>
+                           <affiliation>Michigan State University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Eric Hood is an Assistant Professor at Michigan State University and holds a
@@ -473,7 +517,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of California, Los Angeles</affiliation>
+                        <roleName>
+                           <affiliation>University of California, Los Angeles</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -487,8 +533,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Penn State University</affiliation>
-                        <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        <roleName>
+                           <affiliation>Penn State University</affiliation>
+                           <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Greg Bondar has photographed over 800 of Mitford’s letters in the Reading Central Library, the John Rylands Library in Manchester, and elsewhere. He maintains the Digital Mitford project’s database documenting over 2700 individual letters and manuscripts. He teaches courses in Anthropology and Archaeology for Penn State Greater Allegheny and the University of Pittsburgh at Greensburg campuses, and occasionally teaches Digital Humanities for Pitt. His research involves archaeological excavations at Tell Timai in Egypt, San Jose de Moro in Peru, and analyzing stone tools with Penn State’s nuclear reactor. While he has only been involved with Digital Humanities applications since 2013, he spent many years marking up ethnographic data in the mid-1990s.</note>
@@ -501,7 +549,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Jordan Price earned his Bachelor’s in English at the University of Montevallo in May 2017. He is from Huntsville, Alabama. He worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
@@ -516,25 +566,12 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">John Bawden is Associate Professor of History at the University of Montevallo. He teaches courses in various areas of Latin American History, as well as courses in Digital History. His publications have appeared in <title level="j">The Latinamericanist</title> and <title level="j">The Journal of Latin American Studies</title>. His book, <title level="m">The Pinochet Generation: The Chilean Military in the Twentieth Century</title>, was published by the University of Alabama Press in 2016.</note>
-               </person>
-               <person xml:id="jgf">
-                  <persName>
-                     <surname>Fish</surname>
-                     <forename>Julie</forename>
-                     <roleName>Research Assistant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>
-                        <affiliation>State University of New York, Potsdam</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note resp="#lmw">Julie Fish plans to graduate in 2017 with a B.A. in English:
-                     Literature from the State University of New York at Potsdam. She is working as
-                     a Digital Mitford Research Assistant in Spring and Fall 2017. Her interests include bibliographical studies and book history, and she plans to pursue graduate studies in Library and Information Science.</note>
                </person>
                <person xml:id="jjr">
                   <persName>
@@ -546,7 +583,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Tiffin University</affiliation>
+                        <roleName>
+                           <affiliation>Tiffin University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"> James Rovira teaches British literature, Creative Writing:
@@ -567,9 +606,11 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Green Scholar, B.A. in English Literature, in progress (expected
+                     <roleName>
+                        <roleName>Green Scholar, B.A. in English Literature, in progress (expected
                      2018)
                      <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Jonathan M. Horanic is pursuing a bachelor’s degree with double majors in English
@@ -591,7 +632,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Calgary</affiliation>
+                        <roleName>
+                           <affiliation>University of Calgary</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Karen Bourrier is an assistant professor at the University of
@@ -610,11 +653,29 @@
                      <ptr target="http://www.babson.edu/Academics/faculty/profiles/Pages/Donovan-Condron-Kellie.aspx"/>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Adjunct Lecturer in Arts &amp; Humanities
+                     <roleName>
+                        <roleName>Adjunct Lecturer in Arts &amp; Humanities
                      <affiliation>Babson College</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Kellie Donovan-Condron is a Founding Editor and Poetry Section Editor for Digital Mitford. She writes primarily about the intersection of urban literature and the Gothic in the Romantic era. Her research interests are an interdisciplinary mix of literature, history, and material culture. Additional areas of particular interest include women’s writing, consumerism and consumption in literature, Southern Gothic, and questions about genre and social networking. In the summer of 2013, she was selected to be a summer scholar in the National Endowment for the Humanities seminar "Reassessing Romanticism." She is coding <persName ref="#MRM">Mitford</persName>’s epic poem <title ref="#Blanch">Blanch</title> for the Digital Mitford Archive, and has co-authored with <persName ref="#ebb">Elisa Beshero-Bondar</persName> an article analyzing <persName ref="#MRM">Mitford</persName>’s correspondence network across her lifetime. Previously, she worked on a grant to digitize a collection of 17th- and 18th-century maps and ephemeral materials through the Tufts University Perseus Project.</note>
+               </person>
+               <person xml:id="led">
+                  <persName>
+                     <surname>Dingman</surname>
+                     <forename>Lindsay</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note resp="#lmw">Lindsay Dingman plans to graduate in 2019 with a B.A. in 
+                     Literature/Writing from the State University of New York at Potsdam. She began work as
+                     a Digital Mitford Research Assistant in Spring 2018. She plans to go on to graduate work and teaching in Middle/Secondary English Education.</note>
                </person>
                <person xml:id="lmw">
                   <persName>
@@ -627,7 +688,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>State University of New York at Potsdam</affiliation>
+                        <roleName>
+                           <affiliation>State University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Lisa Wilson is Professor in the Department of English and
@@ -660,14 +723,18 @@
                      <roleName>Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
+                     <roleName>
+                        <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
                      Visual and Performing Arts <affiliation>University of Pittsburgh at
                         Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
-                     <roleName>M.F.A. in progress <affiliation>Loyola Marymount
+                     <roleName>
+                        <roleName>M.F.A. in progress <affiliation>Loyola Marymount
                         University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Megan Hughes was Elisa Beshero-Bondar’s Green Scholar (or
@@ -682,7 +749,9 @@
                      <roleName>Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Graduate Assistant <affiliation>Baylor University</affiliation>
+                     <roleName>
+                        <roleName>Graduate Assistant <affiliation>Baylor University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">PhD in progress at Baylor University, Graduate Assistant at the
@@ -696,7 +765,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Nevada, Las Vegas</affiliation>
+                        <roleName>
+                           <affiliation>University of Nevada, Las Vegas</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"> Molly O’Donnell is the University of Nevada, Las Vegas,
@@ -716,7 +787,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Editorial Institute, Boston University</affiliation>
+                        <roleName>
+                           <affiliation>Editorial Institute, Boston University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Mary Erica Zimmer comes to Digital Mitford through her interests
@@ -733,8 +806,10 @@
                      <roleName>Editor</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
+                     <roleName>
+                        <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
                         University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Melissa Klamer is a Ph.D. student in English at Michigan State
@@ -752,7 +827,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Maryland</affiliation>
+                        <roleName>
+                           <affiliation>University of Maryland</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">The founding Director of <ref target="http://www.mith.umd.edu">the Maryland Institute for Technology in the Humanities, or MITH</ref>,
@@ -772,7 +849,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Carnegie Mellon University</affiliation>
+                        <roleName>
+                           <affiliation>Carnegie Mellon University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -785,7 +864,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Penn State University</affiliation>
+                        <roleName>
+                           <affiliation>Penn State University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -797,8 +878,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B. A. in Communication, in progress (expected 2017) <affiliation>State
+                     <roleName>
+                        <roleName>B. A. in Communication, in progress (expected 2017) <affiliation>State
                         University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Olivia Allard expects to graduate in 2017 with a B.A. in
@@ -818,7 +901,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Pittsburgh</affiliation>
+                        <roleName>
+                           <affiliation>University of Pittsburgh</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                </person>
@@ -832,7 +917,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Quinton Reed is an alumnus of the University of Montevallo, where he attended from 2013 to 2017. He currently serves as the editor for Gold Orchid Publishing in Ceredigion, Wales, and is a freelance editor and copywriter in Portland, Oregon. His areas of interest include psychoanalytical and disability studies, particularly in postmodern literature, as well as Gothic and dystopian literature. He is also interested in the life sciences, particularly zoology and anatomy, and the significance of animals and illness in literature. He worked on the Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017, and continues to assist the project in a consulting role.</note>
@@ -846,7 +933,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Loyola University Chicago</affiliation>
+                        <roleName>
+                           <affiliation>Loyola University Chicago</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <!--<occupation>staff assistant, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref>
@@ -873,13 +962,17 @@
                      <roleName>Founding Editor</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Assistant Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                     <roleName>
+                        <roleName>Assistant Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Rebecca Nesvet’s other digital humanities projects include 
                      the general editorship of a student-produced edition of James Malcolm Rymer’s <ref target="http://www.salisburysquare.com/TSOP">
                         <title level="m">The String of Pearls, or the Barber of Fleet-street</title>
-                     </ref> (1850), the first complete documentary edition of this source of the legend of <persName>Sweeney Todd</persName>; and  <title level="m">Science and Art, a Farce</title>, by Malcolm Rymer (1820), edited by James Malcolm Rymer (1842), in <ref target="http://www.scholarlyediting.org"><title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title></ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
+                     </ref> (1850), the first complete documentary edition of this source of the legend of <persName>Sweeney Todd</persName>; and  <title level="m">Science and Art, a Farce</title>, by Malcolm Rymer (1820), edited by James Malcolm Rymer (1842), in <ref target="http://www.scholarlyediting.org">
+                        <title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title>
+                     </ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
                </person>
                <person xml:id="sbb"><!--2017-10-15 ebb: Eventually, move to Past Research Assistants -->
                   <persName>Sylvan Baker
@@ -889,7 +982,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Sylvan Baker graduated with a B.A. in English from the University of Montevallo in May 2017, and will be attending the University of Nevada-Reno for graduate school in the fall. Before attending Montevallo, Sylvan spent a year and a half in Ireland with her mom (who thankfully is living back here in the US now), and she gained a lot of cultural knowledge and a love for the Irish countryside.  At UM, she found a love for studying nature and the environment in texts, especially in Romantic texts.  She has thoroughly enjoyed the Lake Poets and Mitford’s connections to the natural landscape in "Our Village.” She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
@@ -902,7 +997,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Originally from Maylene, Alabama, Susannah Ritchey earned her Bachelor’s degree at the University of Montevallo in May 2017, with a major in English and a minor in History. She plans to attend graduate school to specialize in Restoration literature. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
@@ -918,7 +1015,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Samantha Webb is Professor of English, specializing in British Romantic literature, with a particular focus on the intersection of food, agricultural politics, and ecology. She has published in <title level="j">The European Romantic Review</title>, <title level="j">Romanticism</title>, <title level="j">Essays in Romanticism</title>, and elsewhere. At the University of Montevallo, she teaches courses in British Romantic literature, children’s literature, folk and fairy tales, and global literature. She is a Founding Editor and Fiction Section Editor for Digital Mitford.</note>
@@ -931,9 +1030,11 @@
                      <roleName>Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                     <roleName>
+                        <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, completed 2017. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note resp="#lmw">Sara Cantwell received her B.F.A. in Creative Writing from the
@@ -941,6 +1042,22 @@
                      writing of poetry and creative non-fiction. In fall 2015, she began work on an
                      M.A. in English and Communication from SUNY Potsdam and joined the Digital
                      Mitford project as a Research Assistant. She completed her M.A. thesis in 2017, which included a book history and analysis of the later poetry of Jorie Graham. In Fall 2017, she joins the  Department of English and Communication at SUNY Potsdam as an Adjunct Instructor and continues on Digital Mitford as an Editor. She continues to work on Mitford’s 1827 sonnets, her self-representation as a creative writer, and her representation and appropriation in contemporary culture.</note>
+               </person>
+               <person xml:id="sm">
+                  <persName>
+                     <surname>Morelli</surname>
+                     <forename>Sophia</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note resp="#lmw">Sophia Morelli plans to graduate in 2019 with a B.A. in 
+                     Literature/Writing from the State University of New York at Potsdam. She is a member of the English honor society, Sigma Tau Delta. She began work as
+                     a Digital Mitford Research Assistant in Summer 2018.</note>
                </person>
                <person xml:id="SMG"><!--2017-10-15 ebb: Eventually, move to Past Research Assistants -->
                   <persName>
@@ -950,7 +1067,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Shekneko Garrett is pursuing a Master’s degree in Secondary Education in English at the University of Montevallo, after earning her undergraduate degree in English from Talladega College in May 2013. She aspires to become a teacher, and to coach basketball, softball, volleyball, or cheerleading. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
@@ -963,25 +1082,12 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Sara Perry is an English major and Game Studies and Design minor at the University of Montevallo, hailing from the tiny town of Deatsville, Alabama. She has a passion for reading, crafts, and games, and plans on pursuing a career in game design after graduation. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
-               </person>
-               <person xml:id="ssc">
-                  <persName>
-                     <surname>Courtney</surname>
-                     <forename>Shawntel</forename>
-                     <roleName>Research Assistant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>
-                        <affiliation>State University of New York, Potsdam</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note resp="#lmw">Shawntel Courtney plans to graduate in 2018 with a B.A. in English:
-                     Writing and a minor in Literature from the State University of New York at Potsdam. She is working as
-                     a Digital Mitford Research Assistant in Fall 2017 and Spring 2018. Her interests include scholarly editing and British and American fiction of the Romantic period.</note>
                </person>
                <person xml:id="st">
                   <persName>
@@ -991,8 +1097,10 @@
                      <roleName>Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Assistant Professor of Spanish and French <affiliation>University of
+                     <roleName>
+                        <roleName>Assistant Professor of Spanish and French <affiliation>University of
                         Pittsburgh at Greensburg</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Stacey Triplette, Assistant Professor of Spanish and French at
@@ -1018,7 +1126,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>Washington and Jefferson College</affiliation>
+                        <roleName>
+                           <affiliation>Washington and Jefferson College</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -1031,7 +1141,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>University of Montevallo</affiliation>
+                        <roleName>
+                           <affiliation>University of Montevallo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Temani Beck is completing her Master’s degree in Education at the University of Montevallo. She worked on the Digital Mitford Archive while enrolled in Samantha Webb’s Digital Romanticism course in Spring 2017.</note>
@@ -1217,8 +1329,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                     <roleName>
+                        <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Ashante Parker graduated in December 2015 with a B.A., majoring
@@ -1234,8 +1348,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>M. A. in English and Communication, in progress 2015.
+                     <roleName>
+                        <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -1245,6 +1361,40 @@
                      the sonnets from Mitford’s Dramatic Scenes, Sonnets, and Other Poems (1827).
                   </note>
                </person>
+               <person xml:id="avm">
+                  <persName>
+                     <surname>McConlogue</surname>
+                     <forename>Allison</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note resp="#lmw">Allison McConlogue graduated in 2018 with a B.A. in 
+                     Literature/Writing from the State University of New York at Potsdam and is a member of the English honor society Sigma Tau Delta. She worked as
+                     a Digital Mitford Research Assistant in Spring 2018. She plans to go on to graduate work and teaching in Middle/Secondary English Education.</note>
+               </person>
+               <person xml:id="cay">
+                  <persName>
+                     <surname>Collins</surname>
+                     <surname>Younes</surname>
+                     <forename>Courtney</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>
+                           <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note resp="#lmw">Courtney Younes Collins graduated in 2017 with a B.A. in English:
+                     Literature from the State University of New York at Potsdam. She is working as
+                     a Digital Mitford Research Assistant in Fall 2017. She plans to go on to graduate work and teaching in Elementary Education.</note>
+               </person>
                <person xml:id="cmm">
                   <persName>
                      <surname>Murray</surname>
@@ -1252,8 +1402,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
+                     <roleName>
+                        <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
                         University of New York, Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Chelsie Murray received her B.A. in Psychology and her M.A. in
@@ -1273,8 +1425,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>M. A. in English and Communication, in progress 2015.
+                     <roleName>
+                        <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -1291,7 +1445,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA</affiliation>
+                        <roleName>
+                           <affiliation>UCLA</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">In 2014, Chi-Ya Huang was studying psychology in UCLA. She also
@@ -1306,7 +1462,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA </affiliation>
+                        <roleName>
+                           <affiliation>UCLA </affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Ella Beckman is an undergraduate at UCLA and plans to graduate in
@@ -1322,7 +1480,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA</affiliation>
+                        <roleName>
+                           <affiliation>UCLA</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">In 2014, Gracia Amos was a fourth year undergraduate at UCLA,
@@ -1342,7 +1502,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA</affiliation>
+                        <roleName>
+                           <affiliation>UCLA</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">In 2014, Hailey Lown was a third year transfer student at UCLA.
@@ -1359,7 +1521,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -1372,12 +1536,16 @@
                      <roleName>Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName> B.A., English Literature, completed 2014<affiliation>State
+                     <roleName>
+                        <roleName> B.A., English Literature, completed 2014<affiliation>State
                      University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
-                     <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                     <roleName>
+                        <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note resp="#lmw">Heather Sarsfield received her BA in English Literature from the
@@ -1394,13 +1562,17 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
+                     <roleName>
+                        <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
                         University of New York, Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
-                     <roleName>M.L.S., completed 2015 <affiliation>University at
+                     <roleName>
+                        <roleName>M.L.S., completed 2015 <affiliation>University at
                         Buffalo</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Jaime Burwell is a native of northern New York. She received her
@@ -1414,6 +1586,35 @@
                      scholarly presentations on Mitford’s reception and on the representation of
                      18th- and 19th-century British women’s writing in online archives.</note>
                </person>
+               <person xml:id="jcm">
+                  <persName>
+                     <surname>Mostales</surname>
+                     <forename>Joshua</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Joshua Mostales is an undergraduate student in the Robert D. Clark Honors College at the University of Oregon. He expects to receive his B.S. in Biochemistry in 2019. In summer 2017, he enrolled in Dr. Elizabeth Raisanen's Honors College colloquium on Digital Humanities and subsequently became involved with the Digital Mitford Project, working to transcribe one of Mitford's many letters to Sir William Elford.</note>
+               </person>
+               <person xml:id="jgf">
+                  <persName>
+                     <surname>Fish</surname>
+                     <forename>Julie</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>
+                           <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note resp="#lmw">Julie Fish graduated in 2017 with a B.A. in English Literature from the State University of New York at Potsdam. She worked as a Digital Mitford Research Assistant in Spring and Fall 2017. Her interests include bibliographical studies and book history, and she plans to pursue graduate studies in Library and Information Science.</note>
+               </person>
                <person xml:id="knm">
                   <persName>
                      <surname>Murphy</surname>
@@ -1421,8 +1622,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>M. A. in English and Communication, in progress 2015.
+                     <roleName>
+                        <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio"/>
@@ -1430,6 +1633,36 @@
                      from SUNY Potsdam. As part of Dr. Wilson’s Fall 2015 graduate course, "Book
                      History in a Digital Age," she worked on a class project to edit the sonnets
                      from Mitford’s Dramatic Scenes, Sonnets, and Other Poems (1827). </note>
+               </person>
+               <person xml:id="lrs">
+                  <persName>
+                     <surname>Spillar</surname>
+                     <forename>Lindsey</forename>
+                     <forename>R.</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Lindsey Spillar expects to graduate from the Robert D. Clark Honors College at the University of Oregon in 2019 with a Bachelor of Science from the Lundquist College of Business with a focus in Finance. She is also completing a minor in Media Studies. In August 2017, she worked with Professor Elizabeth Raisanen in the Honors College for the Digital Mitford Project as a Research Assistant.</note>
+               </person>
+               <person xml:id="mbn">
+                  <persName>
+                     <surname>Nardoci</surname>
+                     <forename>Matthew</forename>
+                     <forename>Blake</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Matt Nardoci is a biochemistry major at the University of Oregon and is expected to graduate in the summer of 2019. He started working with the Digital Mitford project while enrolled in a Robert D. Clark Honors College class in August of 2017 and has worked on a transcription of one of Mitford's letters.</note>
                </person>
                <person xml:id="mq">
                   <persName>
@@ -1439,7 +1672,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA</affiliation>
+                        <roleName>
+                           <affiliation>UCLA</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">In 2014, Mehaque Kohli was a fourth year International
@@ -1449,6 +1684,21 @@
                      worked on Digital Mitford in 2014.
                   </note>
                </person>
+               <person xml:id="ms">
+                  <persName>
+                     <surname>Scott</surname>
+                     <forename>Madelyn</forename>
+                     <forename>N.</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Madelyn N. Scott plans to graduate in 2020 with a B.S. in Chemistry from the Robert D. Clark Honors College at the University of Oregon. Her first encounter with the Digital Mitford Project was in Dr. Raisanen's Digital Humanities course in the summer of 2017. Madelyn was drawn to the technological component the project, which captures the interdisciplinary approach of the digital humanities field. For her final project in the course, Madelyn transcribed and coded Mitford's June 13, 1822 letter to Benjamin Robert Haydon.</note>
+               </person>
                <person xml:id="msp">
                   <persName>
                      <surname>Paine</surname>
@@ -1456,8 +1706,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
+                     <roleName>
+                        <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
                      2015. <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Margo Paine graduated in May 2015 from the State University of
@@ -1474,13 +1726,17 @@
                      <roleName>Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B.A., English: Literature, 2015 <affiliation>State
+                     <roleName>
+                        <roleName>B.A., English: Literature, 2015 <affiliation>State
                      University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
-                     <roleName>M.L.I.S, 2017 <affiliation>Syracuse
+                     <roleName>
+                        <roleName>M.L.I.S, 2017 <affiliation>Syracuse
                      University</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note resp="#lmw">Natalie LoRusso graduated in May 2015 with a B.A. in English
@@ -1497,8 +1753,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                     <roleName>
+                        <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Nathan Hebert graduated in December 2015 with a B.A., majoring in
@@ -1514,8 +1772,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
+                     <roleName>
+                        <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
                         University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Perdita Sasu graduated in 2016 with a B.A. in Communication from
@@ -1532,7 +1792,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA</affiliation>
+                        <roleName>
+                           <affiliation>UCLA</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">In 2014, Rebecca Tang was a fourth-year student at UCLA, majoring
@@ -1543,6 +1805,37 @@
                      magazine companies. She worked on Digital Mitford in 2014.
                   </note>
                </person>
+               <person xml:id="sg">
+                  <persName>
+                     <surname>Gemelas</surname>
+                     <forename>Sophia</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon&gt;</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Sophia Gemelas is an undergraduate student in the Robert D. Clark Honors College at the University of Oregon. She became involved with Digital Mitford in Summer 2017 when she enrolled in Dr. Elizabeth Raisanen's Digital Humanities class and coded a Mitford letter as part of her final project.</note>
+               </person>
+               <person xml:id="ssc">
+                  <persName>
+                     <surname>Courtney</surname>
+                     <forename>Shawntel</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <roleName>
+                           <affiliation>State University of New York, Potsdam</affiliation>
+                        </roleName>
+                     </roleName>
+                  </occupation>
+                  <note resp="#lmw">Shawntel Courtney graduated in 2018 with a B.A. in English:
+                     Writing and a minor in Literature from the State University of New York at Potsdam. She worked as
+                     a Digital Mitford Research Assistant in Fall 2017 and Spring 2018. Her interests include scholarly editing and British and American fiction of the Romantic period.</note>
+               </person>
                <person xml:id="tlh">
                   <persName>
                      <surname>Harnish</surname>
@@ -1551,9 +1844,11 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                     <roleName>
+                        <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, in progress 2016. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Tracy Harnish is a native of northern New York. She received her
@@ -1574,7 +1869,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA</affiliation>
+                        <roleName>
+                           <affiliation>UCLA</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">In 2014, Toni Hays was a student at UCLA, majoring in English
@@ -1593,9 +1890,11 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B.A. in History, English Literature, &amp; Sociology, in progress
+                     <roleName>
+                        <roleName>B.A. in History, English Literature, &amp; Sociology, in progress
                      (expected 2016) <affiliation>State University of New York at
                         Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">William Barr is a transfer student who expects to graduate in
@@ -1611,8 +1910,10 @@
                      <roleName>Research Assistant</roleName>
                   </persName>
                   <occupation type="scholar">
-                     <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
+                     <roleName>
+                        <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Wilmina Sainbert graduated in 2016 with a B.A. in
@@ -1630,7 +1931,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <affiliation>UCLA</affiliation>
+                        <roleName>
+                           <affiliation>UCLA</affiliation>
+                        </roleName>
                      </roleName>
                   </occupation>
                   <note type="bio">Robin Xiong is Xiong Junwen from China. In 2014, she was an
@@ -4842,6 +5145,14 @@
                      <ref target="http://viaf.org/viaf/15552626"/>
                   </note>
                </person>
+               <person xml:id="Clarke_Mrs" sex="f">
+                  <persName>Mrs. Clarke</persName>
+                  <persName>
+                     <surname>Clarke</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">The daughter of Colonel Anstruther who lived in <placeName ref="#Reading_city">Reading</placeName>. An associate of <rs type="person" ref="#Palmer_Mad #Palmer_CF">the Palmers</rs> in <date when="1819">1819</date>; mentioned as taking part in a <placeName ref="#Reading_city">Reading</placeName> election procession. More research is needed to identify her. One possibility may be Mrs. Cowden Clarke (Mary Victoria); she and her husband Charles were friends with Lamb and Hunt.<!--Authors of Recollections of Writers.--> Or, Angelica Rush (1788-1868), wife of Edward Daniel Clarke.</note>
+               </person>
                <person xml:id="Clarke_William" sex="m">
                   <persName>
                      <surname>Clarke</surname>
@@ -6267,21 +6578,6 @@
                      children’s novels and educational treatises. <ref target="http://viaf.org/viaf/71477273"/>
                   </note>
                </person>
-               <person xml:id="Elford_Eliz_da" sex="f">
-                  <persName>
-                     <forename>Elizabeth</forename>
-                     <surname type="paternal">Elford</surname>
-                     <surname type="married">Adams</surname>
-                  </persName>
-                  <birth>
-                     <date notAfter="1785-03-11">
-                        <placeName>Plympton, Devon, England</placeName>
-                     </date>
-                  </birth>
-                  <death>
-                     <date notBefore="1856-04"/>
-                  </death>
-               </person>
                <person xml:id="Elford_Elizabeth" sex="f">
                   <persName>
                      <surname/>
@@ -6309,6 +6605,7 @@
                      and Ancestry.com</note>
                </person>
                <person xml:id="Elford_Grace" sex="f">
+                  <persName>Grace Chard Elford</persName>
                   <persName>
                      <forename>Grace</forename>
                      <forename>Chard</forename>
@@ -6325,17 +6622,18 @@
                   <note resp="#lmw">Elder daughter of <persName ref="#Elford_SirWm">Sir William
                         Elford</persName> and <persName ref="#Elford_MrsM">Mary Davies
                         Elford</persName>; she was baptised at Plympton, Devon on November 11, 1781.
-                     Her middle name, "Chard," is derived from her maternal lineage; Grace’s
+                     Her middle name, <q>Chard</q>, is derived from her maternal lineage; Grace’s
                      maternal grandmother was born Mary Chard. Grace Elford remained unmarried and
-                     later came to reside with her sister Elizabeth Elford Adams and her family,
-                     according to census records. She died on February 22, 1857 at St. Thomas,
-                     Devon.</note>
+                     later came to reside with her sister <persName ref="#Elford_Elizabeth">Elizabeth Elford Adams</persName> and her family,
+                     according to census records.</note>
                </person>
                <person xml:id="Elford_J" sex="m">
+                  <persName>Jonathan Elford</persName>
                   <persName>
                      <surname>Elford</surname>
                      <forename>Jonathan</forename>
                   </persName>
+                  <persName>Mr. Elford</persName>
                   <persName>
                      <roleName>
                         <date from="1820-03-10" to="1820-11-29"/>Member of Parliament for
@@ -6347,35 +6645,33 @@
                   <death when="1823-03-11">
                      <placeName>Upland, Tamerton Foliott, Plymouth, Devon, England</placeName>
                   </death>
-                  <occupation>politician</occupation>
-                  <occupation>military</occupation>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="military"/>
                   <note resp="#kab #ebb #lmw">The only son of <persName ref="#Elford_SirWm">Sir
                         William Elford</persName> and his first wife <persName ref="#Elford_MrsM">Mary Davies Elford</persName>. <rs type="event">He joined <placeName>Oriel
                            College, Oxford</placeName> on <date when="1795-06-03">June 3,
                            1795</date>
-                     </rs> and later moved to Tamerton Folliot, Devon on an estate he called Upland.
-                     He served as a Captain in the <orgName>South Devonshire militia</orgName> from
+                     </rs> and later moved to <placeName>Tamerton Folliot, Devon</placeName> on an estate he called Upland. He served as a Captain in the <orgName>South Devonshire militia</orgName> from
                         <date when="1803">1803</date> with his father, who was also an officer. <rs type="event">On <date when="1810-05-10">May 10, 1810</date>, he married
                            <persName ref="#Elford_MrsC">Charlotte Wynne</persName>
-                     </rs>. He also became a freeman for Plymouth in 1810. Throughout his adulthood,
+                     </rs>. He also became a freeman for <placeName>Plymouth</placeName> in 1810. Throughout his adulthood,
                      his father tried unsuccessfully to secure him a position within the government.
                         <rs type="event">He served briefly as Member of <orgName ref="#Parliament_UK">Parliament</orgName> for
                            <placeName>Westbury</placeName>
                         <date from="1820-03-10" to="1820-11-29">from March 10 to November 29,
                            1820</date>, a seat he secured under the patronage of <persName>Sir
                            Manasseh Masseh Lopes</persName>. At this time,
-                           <placeName>Westbury</placeName> was a controversial "rotten borough"
-                        whose interest Lopes had purchased from <persName>Lord Abingdon</persName>,
-                        and Jonathan Elford secured the position likely in the place of Lopes who
-                        was serving a prison sentence for electoral corruption. When the sentence
-                        was lifted, Elford resigned his seat in November 1820 so Lopes could
+                           <placeName>Westbury</placeName> was a controversial <q>rotten borough</q> whose interest Lopes had purchased from <persName>Lord Abingdon</persName>,
+                        and Jonathan Elford probably secured the position in the place of Lopes who was serving a prison sentence for electoral corruption. When Lopes's sentence was lifted, Elford resigned his seat in November 1820 so Lopes could
                         return.</rs> His death at the age of 46 left Sir William without an heir and
-                     his debts contributed to his father’s financial collapse in 1825.</note>
+                     his debts contributed to <rs type="event">his father’s financial collapse in <date when="1825">1825</date>
+                     </rs>.</note>
                   <note>
                      <ref target="http://www.historyofparliamentonline.org/volume/1820-1832/member/elford-jonathan-1776-1823"/>
                   </note>
                </person>
                <person xml:id="Elford_MrsC" sex="f">
+                  <persName>Charlotte Wynne Elford</persName>
                   <persName>
                      <forename>Charlotte</forename>
                      <surname type="paternal">Wynne</surname>
@@ -6383,11 +6679,10 @@
                   </persName>
                   <persName>Mrs. Elford</persName>
                   <note resp="#lmw">Daughter of <persName>John Wynne</persName> of
-                        <placeName>Abercynlleth, Denbigh</placeName>. Married <persName ref="#Elford_J">Jonathan Elford</persName> on <date when="1810-05-10">May
-                        10, 1810</date>. Birth and death dates unknown; needs further
-                     research.<!-- no VIAF # --></note>
+                        <placeName>Abercynlleth, Denbigh</placeName>. <rs type="event">Married <persName ref="#Elford_J">Jonathan Elford</persName> on <date when="1810-05-10">May 10, 1810</date>.</rs> Birth and death dates unknown; needs further research.<!-- no VIAF # --></note>
                </person>
                <person xml:id="Elford_MrsE" sex="f">
+                  <persName>Elizabeth Hall Walrond Elford</persName>
                   <persName>
                      <surname type="paternal">Hall</surname>
                      <surname type="married">Walrond</surname>
@@ -6401,20 +6696,14 @@
                   <death when="1839">
                      <placeName>Totnes, Devon, England</placeName>
                   </death>
-                  <note resp="#ebb #ajc #lmw">Elizabeth was the second wife of <persName ref="#Elford_SirWm">Sir William Elford</persName>; they married after the
-                     death of <persName ref="#Elford_MrsM">Mary Davies Elford</persName>, on <date when="1821-07-05">July 5, 1821</date>. She was the daughter and co-heiress
-                     of Humphrey Hall of Mandon, Devon, England and his wife, the Hon. Jane St.
-                     John, daughter of John St. John, 11th Baron St. John of Bletsoe. She married
-                     Maine Swete Waldron, an officer in the Coldstream Guards, in 1803 and they had
-                     two children, only one of whom lived to adulthood. Her first husband died
-                     around 1817 and she married Sir William Elford four years later. She died at
-                     Totnes, Devon in late 1839 and her will was probated on 10 December 1839. Some
-                     secondary sources erroneously give the spelling of her first married name as
-                     "Waldron;" however, she is not to be confused with the American Elizabeth
-                     Waldron (1780 to 21 July 1853).‏ Her birthdate is not given in any standard
-                     nineteenth century reference sources, but is likely to be before 1780.</note>
+                  <note resp="#ebb #ajc #lmw">
+                     <rs type="event">Elizabeth Walrond was the second wife of <persName ref="#Elford_SirWm">Sir William Elford</persName>; they married on <date when="1821-07-05">July 5, 1821</date>
+                     </rs>, fourteen years after <rs type="event">the death of <persName ref="#Elford_MrsM">Mary Davies Elford</persName> in <date when="1807">1807</date>
+                     </rs>. Elizabeth was the daughter and co-heiress of Humphrey Hall of Mandon, Devon, England and his wife, the Hon. Jane St. John, daughter of John St. John, 11th Baron St. John of Bletsoe. She  was previously married to Maine Swete Waldron, an officer in the Coldstream Guards, in 1803 and they had two children, only one of whom survived to adulthood. Her first husband died
+                     around 1817 and she married Sir William Elford four years later. Following her death, her will was probated on 10 December 1839. Some secondary sources erroneously give the spelling of her first married name as <q>Waldron</q>; however, she is not to be confused with the American Elizabeth Waldron (1780 to 21 July 1853).‏ Her birthdate is not given in any standard nineteenth-century reference sources, but is likely to be before 1780.</note>
                </person>
                <person xml:id="Elford_MrsM" sex="f">
+                  <persName>Mary Davies Elford</persName>
                   <persName>
                      <surname type="married">Elford</surname>
                      <surname type="paternal">Davies</surname>
@@ -6423,11 +6712,12 @@
                   <persName>Mrs. Elford</persName>
                   <birth when="1753"/>
                   <death when="1807-08-02"/>
-                  <note resp="#ajc #lmw">Mary was the first wife of <persName ref="#Elford_SirWm">Sir William Elford</persName>; they married on <date when="1776-01-20">January 20, 1776</date> in Plympton. Together they had one son, Johnathan,
-                     and two daughters, Grace Chard and Elizabeth. She was the daughter of the Rev.
+                  <note resp="#ajc #lmw">
+                     <rs type="event">Mary Davies was the first wife of <persName ref="#Elford_SirWm">Sir William Elford</persName>; they married on <date when="1776-01-20">January 20, 1776</date> in <placeName>Plympton</placeName>
+                     </rs>. Together they had one son, <persName ref="#Elford_J">Jonathan</persName>, and two daughters, <persName ref="#Elford_Grace">Grace Chard</persName> and <persName ref="#Elford_Elizabeth">Elizabeth</persName>. She was the daughter of the Rev.
                      John Davies and Mary Chard of Plympton. Birth and death dates unverified by
-                     primary source records, and her son Jonathan’s will gives her name as "Jane
-                     Mary;" additional research needed.<!-- no VIAF # --></note>
+                     primary source records, and her son Jonathan’s will gives her name as <q>Jane
+                     Mary</q>. Additional research needed.<!-- no VIAF # --></note>
                </person>
                <person xml:id="Elford_SirWm" sex="m">
                   <persName>Sir William Elford</persName>
@@ -6456,12 +6746,13 @@
                   <death when="1837-11-30">
                      <placeName>Totnes, Devon, England</placeName>
                   </death>
-                  <occupation>legal</occupation>
-                  <occupation>banker</occupation>
-                  <occupation>politician</occupation>
-                  <occupation>military</occupation>
-                  <occupation>naturalist</occupation>
-                  <occupation>painter</occupation>
+                  <occupation type="legal"/>
+                  <occupation type="trade" subtype="banker"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="military"/>
+                  <occupation type="government"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <occupation type="artist" subtype="painter"/>
                   <note type="bio" resp="#ebb #lmw">
                      <p>According to <persName ref="#Lestrange">L’Estrange</persName>, <persName ref="#Elford_SirWm">Sir William</persName> was first a friend of
                            <persName ref="#Mitford_Geo">Mitford’s father</persName>, and <rs type="event">
@@ -6510,6 +6801,7 @@
                   </note>
                </person>
                <person xml:id="ElizI" sex="f">
+                  <persName>Elizabeth I</persName>
                   <persName>
                      <forename>Elizabeth</forename>
                      <surname type="paternal">Tudor</surname>
@@ -6523,7 +6815,8 @@
                   <death when="1603-03-24">
                      <placeName>Richmond Palace, Surrey, England</placeName>
                   </death>
-                  <note resp="#ebb">The last of the Tudor monarchs, and defender of father’s
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#ebb #rnes">The last of the Tudor monarchs, and defender of father’s
                      instition of a Protestant <orgName ref="#Church_of_E">Church of
                         England</orgName>, Elizabeth I was Queen of England, France, and Ireland
                      from <date from="1588" to="1603">1588 until her death in 1603</date>. <ref target="http://viaf.org/viaf/97107753"/>
@@ -7010,6 +7303,26 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/44323561"/>
                   </note>
                </person>
+               <person xml:id="Forsyth_Jos" sex="m">
+                  <persName>Joseph Forsyth</persName>
+                  <persName>
+                     <forename>Joseph</forename>
+                     <surname>Forsyth</surname>
+                  </persName>
+                  <birth when="1763-02-18">
+                     <placeName>Elgin, Moray, Scotland</placeName>
+                  </birth>
+                  <death when="1815-09-20">
+                     <placeName>Elgin, Moray, Scotland</placeName>
+                  </death>
+                  <occupation type="educator"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#lmw">Schoolmaster and author of <title ref="#Remarks_Italy" level="m">Remarks on Antiquities, Arts, and Letters, during an Excursion in Italy in the years 1802 and 1803</title> He travelled to Italy during the Peace of Amiens and was on his way back to England when war broke out and he was captured. He was a French prisoner between 1803 and 1814, and authored his works in hope of influencing Napoleon, a patron of Italian literature and art, to release him.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/15551790"/>
+                  </note>
+               </person>
                <person xml:id="Foscari_son_hist" sex="m">
                   <persName>Jacopo Foscari</persName>
                   <persName>
@@ -7258,7 +7571,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">English actor and theatrical manager, considered the greatest
                      actor of his era, and advocate of a more naturalistic style of acting.
                      Prominent in <orgName>Whig</orgName> circles of the late eighteenth century.
-                     Frequently painted by <persName>Joshua Reynolds</persName>. <persName>Mary
+                     Frequently painted by <persName ref="#Reynolds_Josh">Joshua Reynolds</persName>. <persName>Mary
                         Robinson</persName> was one of his last acting mentees before his retirement
                      from the stage. His greatest contributions as a playwright are his adaptations
                      of Shakespeare for the eighteenth-century stage. He was the first actor to be
@@ -10399,7 +10712,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Hannah More began her career in <date from="1770" to="1779">1770s</date>
                      <placeName ref="#London_city">London</placeName> as a successful playwright and
                      associate of <persName ref="#Garrick_David">David Garrick</persName>, <persName ref="#Johnson">Samuel Johnson</persName>, <persName>Elizabeth
-                        Montagu</persName>, and <persName>Joshua Reynolds</persName>. She was a
+                        Montagu</persName>, and <persName ref="#Reynolds_Josh">Joshua Reynolds</persName>. She was a
                      prominent member of the <q>
                         <orgName>Bluestocking</orgName>
                      </q> group of women following Montagu’s salon. In the <date from="1780" to="1789">1780s</date>, she brought the working-class Bristol poet
@@ -10819,6 +11132,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note type="bio" resp="#lmw">
                      <p>Irish actor (1791-1872). Later Lady Becher (married Mr., afterwards Sir
                         William Becher). Born Drogheda, Ireland. Died Ballygiblin, Ireland.</p>
+                  </note>
+               </person>
+               <person xml:id="Opie_Amelia">
+                  <persName>
+                     <surname>Opie</surname>
+                     <forename>Amelia</forename>
+                     <forename>Alderson</forename>
+                  </persName>
+                  <birth when="1769-11-12">
+                     <placeName>Norwich, United Kingdom</placeName>
+                  </birth>
+                  <death when="1853-12-02">
+                     <placeName>Norwich, United Kingdom</placeName>
+                  </death>
+                  <note resp="#ebb #lrs">A prolific novelist from 1790 through 1834, contemporary with Mitford, and an active abolitionist in <placeName>Norwich</placeName>. Friendly with the Godwins, Shelleys, and <persName>Elizabeth Inchbald</persName>.  Married to <persName>John Opie</persName>, the painter.</note>
+                  <note>
+                     <ref target="https://viaf.org/viaf/39410771/"/>
                   </note>
                </person>
                <person xml:id="Orger_MA" sex="f">
@@ -11756,6 +12086,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/79365644"/>
                   </note>
+               </person>
+               <person xml:id="Reynolds_Josh" sex="m">
+                  <persName>Sir Joshua Reynolds</persName>
+                  <persName>
+                     <surname>Reynolds</surname>
+                     <forename>Joshua</forename>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <birth when="1723-07-16">
+                     <placeName>Plympton, Devon, England</placeName>
+                  </birth>
+                  <death when="1792-02-23">
+                     <placeName>Leicester Fields, London, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="painter"/>
+                  <occupation type="literary"/>
+                  <occupation type="educator" subtype="lecturer"/>
+                  <note resp="#lmw">The most celebrated and sought-after English portrait painter of the second half of the eighteenth century; he was the first President of the <orgName ref="#Royal_Academy">Royal Academy of Arts</orgName>. His <title>Discourses</title>, lectures given on art and later printed, were highly influential on the art and aesthetics of his time.</note>
                </person>
                <person xml:id="RichardI" sex="m">
                   <persName>
@@ -13568,6 +13916,28 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      playwright who wrote original comedies and adapted others. His <title ref="#City_Wives_play">The City Wives’ Confederacy</title> was first staged
                      in 1705. Source: ODNB</note>
                </person>
+               <person xml:id="Vandyke" sex="m">
+                  <persName>Sir Anthony van Dyck</persName>
+                  <persName>
+                     <forename>Anthony</forename>
+                     <surname>van Dyck</surname>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <persName>
+                     <addName>Antoon van Dyck</addName>
+                  </persName>
+                  <persName>
+                     <addName>Anthony van Dyke</addName>
+                  </persName>
+                  <birth when="1599-03-22">
+                     <placeName>Antwerp, Spanish Netherlands</placeName>
+                  </birth>
+                  <death when="1641-12-09">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="painter"/>
+                  <note resp="#lmw">Flemish portrait painter who became celebrated in England for his portraits of <persName ref="#ChasI">Charles I</persName> and his court. His style greatly influenced English portrait painting until well into the eighteenth century. In one of her letters, <persName ref="#MRM">Mitford</persName> compares him analagously to <persName ref="#Shakespeare">Shakespeare</persName>.</note>
+               </person>
                <person xml:id="Vane_hist" sex="m">
                   <persName>Henry Vane</persName>
                   <persName>
@@ -14669,6 +15039,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note type="bio" resp="#rnes">In Judeo-Christian theology, the opponent of God and
                      mankind. The word’s derivation Hebrew means "adversary."</note>
                </person>
+               <person xml:id="Venus" sex="f">
+                  <persName>Venus</persName>
+                  <note resp="#lmw">Roman goddess of love and beauty; her counterpart in Greek mythology is Aphrodite.</note>
+               </person>
                <person xml:id="Vesta" sex="f">
                   <persName>Vesta</persName>
                   <note resp="#esh">Vesta is the Roman goddess of hearth and domesticity. The temple
@@ -15145,6 +15519,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>Frangipani</persName>
                </person>
                <person xml:id="Friday" sex="m"/>
+               <person xml:id="Glenalvon" sex="m">
+                  <persName>Glenalvon</persName>
+                  <note resp="#lmw">Secondary character in <title ref="#Douglas_play">Douglas</title>.
+                  </note>
+               </person>
                <person xml:id="Gloucester" sex="m">
                   <persName>Duke of Gloucester</persName>
                   <note resp="#ebb">Son of King Charles I, a boy of seven years old in <persName ref="#MRM">Mitford’s</persName> play, <title ref="#CharlesI_MRMplay">Charles
@@ -15218,6 +15597,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>Camilla</persName>
                   <note resp="#lmw">Character in <title ref="#Camilla_FB">Camilla</title>; Mitford
                      admires Burney’s characterization of him in her a letter to Elford from <date when="1819-05-30">30 May 1819</date>.</note>
+               </person>
+               <person xml:id="Iago_O" sex="m">
+                  <persName>Iago</persName>
+                  <note resp="#lmw">Character in <title ref="#Othello_play">Othello.</title>
+                  </note>
                </person>
                <person xml:id="Imogen_C" sex="f">
                   <persName>Imogen</persName>
@@ -15395,6 +15779,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Mason" sex="m"/>
                <person xml:id="MasonsWife" sex="f"/>
+               <person xml:id="Master_Peter_DQ" sex="m">
+                  <persName>Master Peter</persName>
+                  <persName>
+                     <forename>Peter</forename>
+                  </persName>
+                  <note resp="#lmw">Master Peter is the puppetmaster in <title ref="#Don_Quixote_novel">Don Quixote</title>; his puppets are destroyed in the course of the novel.</note>
+               </person>
                <person xml:id="May-flower" sex="f">
                   <persName>May-flower</persName>
                   <note resp="#scw">
@@ -15515,6 +15906,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>John Oldbuck</persName>
                   <note resp="#esh">character in <title ref="#Antiquary">The
                      Antiquary</title>.</note>
+               </person>
+               <person xml:id="OLeary_FM" sex="m">
+                  <persName>Terence Oge O’Leary</persName>
+                  <note resp="#lmw">Character of an Irish <quote>hedge schoolmaster</quote> in <persName ref="#Owenson_S">Lady Morgan</persName>'s novel <title ref="#Florence_Macarthy_SO" level="m">Florence Macarthy</title> (I.284).</note>
                </person>
                <person xml:id="Olivia_F" sex="f">
                   <persName>Olivia</persName>
@@ -18730,421 +19125,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
             </list>
          </div>
          <div type="publications">
-            <listBibl sortKey="ref_19thc">
-               <bibl xml:id="America_Birkbeck">
-                  <title>Notes on a Journey in America, from the Coast of Virginia to the Territory
-                     of Illinois</title>
-                  <author>
-                     <persName ref="#Birkbeck_M">Morris Birkbeck</persName>
-                  </author>
-                  <pubPlace>Philadelphia</pubPlace>
-                  <publisher>Caleb Richardson</publisher>
-                  <date when="1817">1817</date>
-                  <note resp="#lmw">
-                     <persName ref="#MRM">Mitford</persName> likely read the second edition,
-                     published in <placeName ref="#London_city">London</placeName> in <date when="1818">1818</date> by J. Ridgway. This work, along with Birkbeck’s
-                        <title ref="#Illinois_Birkbeck">Letters from Illinois</title>, presented a
-                     utopian, anti-clerical, and anti-aristocratic vision of American settlement.
-                     They were believed to be instrumental in encouraging many disaffected Europeans
-                     to emigrate to the American prairies and set off a pamphlet war about on the
-                     topic of American emigration to the so-called "English Prairie."</note>
-               </bibl>
-               <bibl xml:id="BoR">
-                  <title>the Bill of Rights</title>
-                  <title>An Act Declaring the Rights and Liberties of the Subject and Settling the
-                     Succession of the Crown</title>
-                  <date when="1689">1689</date>
-                  <note resp="#alg">One of the basic instruments of the British constitution, the
-                     English Bill of Rights restates the Declaration of Right presented to William
-                     and Mary in February 1689, limits the powers of the monarch, establishes the
-                     rights of Parliament, and establishes some individual rights.</note>
-               </bibl>
-               <bibl xml:id="CaptivityCaptKnox">
-                  <title>Account of the Captivity of Robert Knox and Other Englishmen, in the Island
-                     of Ceylon: And of the Captain’s Miraculous Escape and Return to England in
-                     September 1680, After Detention on the Island of Nineteen Years and a
-                     Half</title>
-                  <author>Robert Knox</author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>J. Hatchard</publisher>
-                  <date when="1818">1818</date>
-               </bibl>
-               <bibl xml:id="ClarkesTravelsScand">
-                  <title>Travels in Various Countries of Europe, Asia and Africa. Part the third,
-                     section the first: Scandinavia</title>
-                  <title>Travels in Various Countries of Scandinavia: Including Denmark, Sweden,
-                     Norway, Lapland and Finland</title>
-                  <author>
-                     <persName ref="#Clarke_ED">Edward Daniel Clarke</persName>
-                  </author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Cadell and Davies</publisher>
-                  <date when="1819">1819</date>
-                  <note resp="#tlh #lmw">Clarke began publishing a series of travel accounts in 1811
-                     under the series title, Travels in Various Countries of Europe, Asia and
-                     Africa. The third part, first published in 1819, covered the Scandinavarian
-                     countries of Denmark, Sweden, Norway, Lapland and Finland. The volumes were
-                     later reprinted both together and as individual volumes under separate
-                     titles.</note>
-               </bibl>
-               <bibl xml:id="Collectanea">
-                  <title>Collectanea Curiosa, or Miscellaneous Tracts: Relating to the History and
-                     Antiquities of England and Ireland, the Universities of Oxford and Cambridge,
-                     and a Variety of Other Subjects</title>
-                  <author ref="#Gutch_John">John Gutch</author>
-                  <pubPlace ref="#Oxford_city">Oxford</pubPlace>
-                  <publisher>Clarendon Press</publisher>
-                  <date when="1781">1781</date>
-               </bibl>
-               <bibl xml:id="Compl_Angler">
-                  <title>The Compleat Angler, or, The Contemplative Man’s Recreation: Being a
-                     Discourse of Rivers, and Fish-ponds, and Fish and Fishing: Not Unworthy the
-                     Perusal of Most Anglers</title>
-                  <author>
-                     <persName ref="#Walton_I">Izaak Walton</persName>
-                  </author>
-                  <date when="1653"/>
-                  <publisher>Rich. Marriot</publisher>
-                  <note resp="#lmw">First published in 1653, then expanded and republished in
-                     further editions in 1655, 1661, 1668, and 1676. The fifth edition (1676)
-                     contained 21 chapters instead of the original 13, and in it, Charles Cotton
-                     added a second section on fly-fishing. Mitford was likley familiar with the
-                     expanded edition.</note>
-               </bibl>
-               <bibl xml:id="Daniells">
-                  <title>Rural Sports</title>
-                  <author>William Barker Daniel</author>
-                  <note resp="#esh">Printed in numerous editions between <date from="1801" to="1817">1801-1817</date>.</note>
-               </bibl>
-               <bibl xml:id="Enc_Metr">
-                  <title>Encyclopedia Metropolitana; or, Universal Dictionary of Knowledge (30
-                     vols., 1817-1845)</title>
-                  <author><!-- various editors, including Coleridge. LMW --></author>
-               </bibl>
-               <bibl xml:id="History_Municipal_Church_St_Lawrence">
-                  <title>A History of the Municipal Church of St. Lawrence, Reading</title>
-                  <author>Charles Kerry</author>
-                  <note resp="#scw">
-                     <date when="1883">1883</date> publication used by <persName ref="#Needham_Francis">Needham</persName> to establish local histories and
-                     identities of <persName ref="#MRM">Mitford’s</persName>
-                     <title ref="#OV">Our Village</title> characters. Cited by him on a note making
-                     reference to <persName ref="#Nicholson_Jeremiah">Jeremiah
-                     Nicholson</persName>.</note>
-               </bibl>
-               <bibl xml:id="Illinois_Birkbeck">
-                  <title>Letters from Illinois: Illustrated by a Map of the United States, Shewing
-                     Mr. Birkbeck’s Journey from Norfolk to Illinois and a Map of English Prairie
-                     and the Adjacent Country by John Melish</title>
-                  <author>
-                     <persName ref="#Birkbeck_M">Morris Birkbeck</persName>
-                  </author>
-                  <author>John Melish</author>
-                  <pubPlace>London</pubPlace>
-                  <publisher>
-                     <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName>
-                  </publisher>
-                  <date when="1818">1818</date>
-                  <note resp="#lmw">
-                     <persName ref="#MRM">Mitford</persName> likely read this edition, published in
-                        <placeName ref="#London_city">London</placeName>; editions also appeared in
-                     Boston and Philadelphia in 1818. Some editions appeared under the alternative
-                     title: Letters from The Illinois Territory; subsequent to Notes on a journey
-                     into the interior of North America. This work, along with Birkbeck’s <title ref="#America_Birkbeck">Notes on a Journey in America</title>, presented a
-                     utopian, anti-clerical, and anti-aristocratic vision of American settlement.
-                     They were believed to be instrumental in encouraging many disaffected Europeans
-                     to emigrate to the American prairies and set off a pamphlet war about on the
-                     topic of American emigration to the so-called "English Prairie."</note>
-               </bibl>
-               <bibl xml:id="Johnson_Lives">
-                  <title>Lives of the English Poets</title>
-                  <author>
-                     <persName ref="#Johnson">Samuel Johnson</persName>
-                  </author>
-                  <date when="1783">1783</date>
-               </bibl>
-               <bibl xml:id="LecComic_WHaz">
-                  <title>Lectures on the English Comic Writers, delivered at the Surry
-                     Institution</title>
-                  <author ref="#Hazlitt_Wm">William Hazlitt</author>
-                  <publisher>
-                     <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName>
-                  </publisher>
-                  <pubPlace>London</pubPlace>
-                  <date when="1819">1819</date>
-                  <note resp="#lmw">Spelled "Surry" on title page.</note>
-               </bibl>
-               <bibl xml:id="Letters_Hearne_Aubrey">
-                  <title>Letters Written by Eminent Persons in the Seventeenth and Eighteenth
-                     Centuries: To Which are Added, Hearne’s Journeys to Reading, and to Whaddon
-                     Hall, the Seat of Browne Willis, Esq., and Lives of Eminent Men by John Aubrey,
-                     Esq., the Whole Now First Published from the Originals</title>
-                  <author>
-                     <persName ref="#Aubrey_John">John Aubrey</persName>
-                  </author>
-                  <author>
-                     <persName ref="#Walker_John">John Walker</persName>
-                  </author>
-                  <author>
-                     <persName ref="#Hearne_Thos">Thomas Hearne</persName>
-                  </author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
-                  <date when="1813">1813</date>
-               </bibl>
-               <bibl xml:id="Life_DukeofMarl_WC">
-                  <title>Memoirs of John Duke of Marlborough: With His Original Correspondence;
-                     Collected from the Family Records at Blenheim, and Other Authentic Sources.
-                     Illustrated with Portraits, Maps, and Military Plans.</title>
-                  <author ref="#Coxe_Wm">William Coxe</author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
-                  <date when="1818">1818</date>
-               </bibl>
-               <bibl xml:id="Life_LadyRussell">
-                  <title>Some Account of the Life of Rachael Wriothesley, Lady Russell, by the
-                     editor of Madam Du Deffand’s letters. Followed by a series of letters from Lady
-                     Russell to her husband, William, Lord Russell; from 1672 to 1682; together with
-                     some miscellaneous letters to and from Lady Russell. To which are added, eleven
-                     letters from Dorothy Sidney, Countess of Sunderland, to George Saville, Marquis
-                     of Hallifax, in the year 1680</title>
-                  <title>The Life of Lady Russell</title>
-                  <author ref="#Russell_Lady">Rachael Wriothesley, Lady Russell</author>
-                  <editor>Mary Berry</editor>
-                  <author ref="#Sunderland_Countess">Dorothy Sidney, Countess of Sunderland</author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme and Brown</publisher>
-                  <date when="1819">1819</date>
-                  <note resp="#alg">Source: HathiTrust</note>
-               </bibl>
-               <bibl xml:id="Lit_Pocket_Bk">Literary Pocket Book <title>The Literary Pocket Book, or
-                     Companion for the Lover of Art and Nature</title>
-                  <author ref="#Hunt">Leigh Hunt</author>
-                  <note resp="#lmw">Literary almanac edited by <persName ref="#Hunt">Leigh
-                        Hunt</persName> that includes original poems by <persName>P.
-                        Shelley</persName>, <persName ref="#Keats">Keats</persName>, and
-                        <persName>B.W. Proctor</persName>. Mitford’s <date when="1819-01">January
-                        1819</date> letters to <persName ref="#Elford_SirWm">Elford</persName> and
-                        <persName ref="#Webb_Mary_younger">Mary Webb</persName> refer to the first
-                     edition ever published of this almanac, published at the end of <date when="1818">1818</date> for <date when="1819">1819</date>, which she
-                     received as a gift from her father.</note>
-               </bibl>
-               <bibl xml:id="Napoleon_memoir_nonfict">
-                  <title>Mémoires pour servir à l’histoire de la vie privée, du retour, et du règne
-                     de Napoléon en 1815</title>
-                  <author ref="#de_Chaboulon">Fleury de Chaboulon</author>
-                  <editor/>
-                  <pubPlace>London: Albemarle Street</pubPlace>
-                  <publisher>John Murray</publisher>
-                  <date from="1819" to="1820">1819-1820</date>
-                  <note resp="#sbb #ebb">Two volume publication: the first volume was published in 1819 and the second in 1820. Fleury was Napoleon's secretary and cabinet member who served in the Emperor's private life.</note>
-               </bibl>
-               <bibl xml:id="NaturalisHist">
-                  <title>Naturalis Historiæ</title>
-                  <author ref="#Pliny_Elder">Pliny the elder</author>
-                  <date from="0077" to="0079">77-79</date>
-                  <note resp="#alg">Encyclopedic work of thirty-seven books, organized in ten
-                     volumes. Source: LBT</note>
-               </bibl>
-               <bibl xml:id="NewWhigGuide">
-                  <title>The New Whig Guide</title>
-                  <note resp="#lmw">Authorship attributed to <persName ref="#Palmerston_HJT">Viscount Henry John Temple Palmerston</persName>
-                     <persName ref="#Croker_JW">John Wilson Croker</persName>, and <persName ref="#Peel_Rbt">Robert Peel</persName>
-                  </note>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>W. Wright</publisher>
-                  <date when="1819">1819</date>
-               </bibl>
-               <bibl xml:id="PO_BerkshireDir">
-                  <title>Post Office Directory of Berkshire, Northamptonshire, and Oxfordshire; with
-                     Bedfordshire, Buckinghamshire, and Huntingdonshire</title>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Kelly and Co.</publisher>
-                  <date when="1847"/>
-                  <date when="1854"/>
-                  <note resp="#ebb">Text and page images of the 1854 edition may be accessed through
-                     the <orgName>University of Leicester’s Special Collections Online</orgName> at
-                        <ptr target="http://specialcollections.le.ac.uk/cdm/ref/collection/p16445coll4/id/167099"/>. </note>
-               </bibl>
-               <bibl xml:id="PO_Directory_Berkshire">
-                  <title>The Post Office Directory of Berkshire, Northamptonshire, Oxfordshire, with
-                     Bedfordshire, Buckinghamshire, and Huntingdonshire</title>
-                  <publisher>W. Kelly and Co.</publisher>
-                  <note resp="#scw">A series of directories of local gentry and tradespeople in the
-                     counties of <placeName>the U.K.</placeName>.</note>
-               </bibl>
-               <bibl xml:id="Shakespeare_Times_nonfict">
-                  <title>Shakespeare and His Times: Including the Biography of the Poet; Criticisms
-                     on his Genius and Writings; A New Chronology of the Plays; A Disquisition on
-                     the Object of His Sonnets; And a History of the Manners, Customs, and
-                     Amusements, Superstitions, Poetry, and Elegant Literature of His Age</title>
-                  <author ref="#Drake_Nathan">Nathan Drake</author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>T. Cadell and W. Davies</publisher>
-                  <date when="1817">1817</date>
-               </bibl>
-               <bibl xml:id="Sketches_of_America">
-                  <title level="m">Sketches of America: a Narrative of a Journey of Five Thousand
-                     Miles Through the Eastern and Western States of America; Contained in Eight
-                     Reports Addressed to the Thirty-nine English Families by whom the Author was
-                     Deputed, in June 1817, to Ascertain Whether Any, and What Part of the United
-                     States Would be Suitable for Their Residence. With Remarks on Mr. Birkbeck’s
-                        <title level="a">Notes</title> and <title level="a">Letters</title>
-                  </title>
-                  <author>
-                     <persName ref="#Fearon_HB">Henry Bradshaw Fearon</persName>
-                  </author>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
-                  <date when="1818">1818</date>
-                  <note resp="#lmw">The work’s subtitle refers to to Morris Birkbeck’s <title ref="#America_Birkbeck">Notes on a Journey in America, from the coast of
-                        Virginia to the territory of Illinois</title> and <title ref="#Illinois_Birkbeck">Letters from Illinois</title>, works that were
-                     believed to be instrumental in encouraging many disaffected Europeans to
-                     emigrate to the American prairies Birkbeck and Fearon’s works were part of an
-                     early nineteenth-century pamphlet war about on the topic of American emigration
-                     to the so-called <q>English Prairie</q>. A second edition of Sketches appeared
-                     in 1819. In his preface, Fearon claims to be an unbiased observer and reporter
-                     and implicitly contrasts himself with other writers on the topic: <quote>My
-                        Reports were originally composed neither with a view to fame nor
-                        profit,--neither to exalt a country, to support a party, nor to promote a
-                        settlement. I have had every motive to speak what I thought the truth, and
-                        none to conceal or pervert it.</quote> The volume is dedicated to <q>The
-                        Friends of Civil and Religious Liberty</q>, and the dedication is dated <quote>
-                        <placeName>Plaistow, Essex</placeName>. <date when="1818-10-02">October 2,
-                           1818</date>
-                     </quote>. As <cit>
-                        <bibl>
-                           <author>Christopher Flynn</author> points out in <title level="m">Americans in British Literature, 1770-1832: A Breed
-                           Apart</title>,</bibl>
-                        <quote>Such [claims afford] Fearon room for statements that seem to emerge
-                           from differing, often contradictory ideological predilections. Sometimes
-                           he presents himself as an ardent convert to republicanism. At other times
-                           he is so fastidious in manners and appearance that he seems to the
-                           guardian of an older English probity Americans have recklessly
-                           abandoned</quote>
-                        <bibl>(<pubPlace>Farnham</pubPlace>: <publisher>Ashgate</publisher>,
-                              <date>2008</date>: 117)</bibl>
-                     </cit>.</note>
-               </bibl>
-               <bibl xml:id="SpencesAnec">
-                  <title>Anecdotes, Observations, and Characters of Books and Men. Collected from
-                     the Conversation of Mr. Pope, and Other Eminent Persons of His Time</title>
-                  <author>
-                     <persName ref="#Spence_Jos">Joseph Spence</persName>
-                  </author>
-                  <editor>Edmund Malone</editor>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>John Murray</publisher>
-                  <date when="1820">1820</date>
-                  <note resp="#lmw">Spence’s Anecdotes were collected and published posthumously in
-                     1820 by Edmund Malone.</note>
-               </bibl>
-               <bibl xml:id="TenYearsatTripoli">
-                  <author ref="#Tully_Miss">Miss Tully</author>
-                  <!--LMW:  no reference sources indicate a forename for Miss Tully. -->
-                  <title>A Narrative of a Ten Years’ Residence at Tripoli in Africa from the
-                     Original Correspondence in the Possession of the Family of the Late Richard
-                     Tully, Esq., Comprising Authentic Memoirs and Anecdotes of the Reigning Bashaw,
-                     His Family, and Other Persons of Distinction; also an Account of the Domestic
-                     Manners of the Moors, Arabs, and Turks</title>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>H. Colburn</publisher>
-                  <date when="1816">1816</date>
-                  <note resp="#lmw">
-                     <persName ref="#MRM">Mitford</persName> may have read the third edition,
-                     published in <date when="1819">1819</date>.</note>
-               </bibl>
-               <bibl xml:id="Tour_Normandy">
-                  <title>Account of a tour in Normandy</title>
-                  <author>Dawson Turner</author>
-                  <editor/>
-                  <pubPlace>London</pubPlace>
-                  <publisher>John &amp; Arthur Arch</publisher>
-                  <date when="1820">1820</date>
-               </bibl>
-               <bibl xml:id="Travels_Acerbi">
-                  <title>Travels through Sweden, Finland, and Lapland to the North Cape, in the
-                     Years 1798 and 1799.</title>
-                  <author>
-                     <persName ref="#Acerbi_J"/>
-                  </author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Joseph Mawman</publisher>
-                  <date when="1802">1802</date>
-               </bibl>
-               <bibl xml:id="Travels_Nile">
-                  <title level="m">Travels to Discover the Source of the Nile, In the Years 1768,
-                     1769, 1770, 1771 1772, and 1773</title>
-                  <author>
-                     <persName ref="#Bruce_James">James Bruce</persName>
-                  </author>
-                  <biblScope unit="volume" from="1" to="6">six volumes</biblScope>
-                  <publisher>G.G.J. and J. Robinson</publisher>
-                  <date when="1790"/>
-               </bibl>
-               <bibl xml:id="Visit_Paris">
-                  <title>A Visit To Paris in 1814: Being a Review of the Moral, Political,
-                     Intellectual, and Social Condition of the French Capital</title>
-                  <author ref="#Scott_John"/>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Longman, Hurst Rees, Orme, and Brown</publisher>
-                  <note resp="#alg">2nd edition, corrected and with a new preface referring to late
-                     events, published: London: Printed for Longman, Hurst Rees, Orme, and
-                        Brown<date when="1815">1815</date>. Source: HathiTrust</note>
-               </bibl>
-               <bibl xml:id="WalpoletoMontagu">
-                  <title>Letters from the Hon. Horace Walpole to George Montagu, Esq. from the year
-                     1736, to the year 1770: Now First Published from the Originals in the
-                     Possession of the Editor</title>
-                  <author>
-                     <persName ref="#Walpole_Hor">Horace Walpole</persName>
-                  </author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Rodwell and Martin, and H. Colburn</publisher>
-                  <date when="1818">1818</date>
-                  <note resp="#lmw">A second edition appears in 1819.</note>
-               </bibl>
-               <bibl xml:id="Walton_Lives">
-                  <title level="m">The Lives of Dr. John Donne, Sir Henry Wotton, Mr. Richard
-                     Hooker, Mr. George Herbert and Dr. Robert Sanderson.</title>
-                  <author>
-                     <persName ref="#Walton_I">Izaak Walton</persName>
-                  </author>
-                  <note resp="#lmw">Walton had written biographical sketches ("Lives") of Donne,
-                     Wotton, Hooker and Herbert which were originally published separately as part
-                     of volumes containing other materials on their subjects. <bibl>The first volume
-                        of collected Lives appeared in <date when="1670">1670</date>
-                     </bibl>. <bibl>The second appeared in <date when="1678">1678</date> and added a
-                        life of Herbert. This volume was often later reprinted under the title
-                           <title level="m">Walton’s Lives</title>. Mitford may have read the "new
-                        edition" published in <date when="1805">1805</date> at <placeName ref="#Oxford_city">Oxford</placeName> by <orgName ref="#Clarendon_Press">Clarendon Press</orgName>
-                     </bibl>. <bibl>Another edition appeared in <date when="1807">1807</date> with a
-                        life of Walton himself by <author>Thomas Zouch</author>
-                     </bibl>.</note>
-               </bibl>
-               <bibl xml:id="Whiteknights_Desc_TCH">
-                  <title>A Descriptive Account of the Mansion and Gardens of White-Knights: A Seat
-                     of His Grace the Duke of Marlborough. By Mrs. Hofland. Illustrated with
-                     twenty-three engravings, from pictures taken on the spot by T.C.
-                     Hofland</title>
-                  <author ref="#Hofland_TC">T.C. Hofland</author>
-                  <author ref="#Hofland_B">Barbara Hofland</author>
-                  <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>
-                     <persName ref="#Hofland_TC">T. C. Hofland</persName>
-                  </publisher>
-                  <date when="1819">1819</date>
-                  <note resp="#lmw">Printed by <persName ref="#Hofland_TC">T.C. Hofland</persName>
-                     for the <persName ref="#Geo_SpencerChurchill">6th Duke of
-                        Marlbourough</persName>; publisher and printer names are given variously in
-                     WorldCat. Mitford suggests that the Hoflands supported the entire cost of
-                     printing themselves and printed only 50 copies, because the bankrupt Duke could
-                     not finance the venture. In her February 27, 1819 letter to Elford, Mitford
-                     indicates that she does not expect him to buy a copy, since he is "a great deal
-                     too wise to deal in books printed upon drawing paper in Atlas quarto--books
-                     merely meant to make a show." It is unknown how many copies were sold.</note>
-               </bibl>
-            </listBibl>
-            <listBibl sortKey="per_19thc">
+            <listBibl sortKey="serial_MRM">
                <bibl xml:id="Ackermans_Juv_ForgetMeNot">
                   <title level="j">Ackermann's Juvenile Forget Me Not
                   </title>
@@ -19370,6 +19351,21 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </pubPlace>
                   <publisher>Hurst, Chance, &amp; Co.</publisher>
                   <note resp="#lmw">Gift book/annual for children. <persName ref="#MRM">Mitford</persName> published her story "The Two Magpies" in this periodical in <date when="1830">1830</date>. </note>
+               </bibl>
+               <bibl xml:id="La_Belle_Assemblee">
+                  <title level="s">La Belle Assemblée, Or Bell's Court and Fashionable Magazine, Addressed Particularly to the Ladies</title>
+                  <publisher>John Bell</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date from="1806" to="1832"/>
+                  <note resp="#lmw">A general-interest miscellaneous periodical aimed at a female readership. Original 1806 sections included <title level="a">Biographical Sketches</title> (usually illustrated), <title level="a">Original Communications,</title>
+                     <title level="a">Original Correspondence,</title>
+                     <title level="a">State of Society and Manners,</title>
+                     <title level="a">Fine Arts,</title>
+                     <title level="a">Familiar Lectures on Useful Sciences,</title>
+                     <title level="a">Retrospect of Politics</title> (essays on topics including moral conduct, travel, fashion, politics, fine arts, music, and science); <title level="a">Beauties of Modern Literature</title> and <title level="a">Poetry and Music</title> (brief reviews of new works as well as original poetry, fiction, and songs); and fashion plates and reports on London and Paris fashions. Published in this form until May 1832; continued under different management from 1832 to 1837 as The Court Magazine and Belle Assemblée. From 1806 to 1821, published by John Bell. Between 1821 and 1823, published as "for the proprietors." Between 1823 and 1829, published as "for the proprietors" by G. &amp; W. B. Whittaker &amp; Co. In the 1820s the magazine increasingly focused on fashion and domestic concerns and included less material on politics and travel.</note>
+                  <note>
+                     <ref target="http://www.british-fiction.cf.ac.uk/guide/reviews/lba.html"/>
+                  </note>
                </bibl>
                <bibl xml:id="Ladys_Mag">
                   <title level="j" ref="#Ladys_Mag">The Lady's Magazine</title>
@@ -19759,7 +19755,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Gift book/annual published from the mid-1820s to 1832. Some issues subtitled, "a collection of original contributions in prose and verse." <persName ref="#MRM">Mitford</persName> published in this periodical <date from="1829" to="1830">in 1829 and 1830</date>.</note>
                </bibl>
             </listBibl>
-            <listBibl sortKey="literary">
+            <listBibl sortKey="work_MRM">
                <bibl xml:id="_55Days_play">
                   <title>55 Days</title>
                   <author>Howard Brenton</author>
@@ -19898,6 +19894,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>All’s Well that Ends Well</title>
                   <author ref="#Shakespeare"/>
                   <note resp="#lmw">Drama likely first performed around <date notBefore="1604">1604</date> and first printed in <date when="1623"/>1623.</note>
+               </bibl>
+               <bibl xml:id="America_Birkbeck">
+                  <title>Notes on a Journey in America, from the Coast of Virginia to the Territory
+                     of Illinois</title>
+                  <author>
+                     <persName ref="#Birkbeck_M">Morris Birkbeck</persName>
+                  </author>
+                  <pubPlace>Philadelphia</pubPlace>
+                  <publisher>Caleb Richardson</publisher>
+                  <date when="1817">1817</date>
+                  <note resp="#lmw">
+                     <persName ref="#MRM">Mitford</persName> likely read the second edition,
+                     published in <placeName ref="#London_city">London</placeName> in <date when="1818">1818</date> by J. Ridgway. This work, along with Birkbeck’s
+                        <title ref="#Illinois_Birkbeck">Letters from Illinois</title>, presented a
+                     utopian, anti-clerical, and anti-aristocratic vision of American settlement.
+                     They were believed to be instrumental in encouraging many disaffected Europeans
+                     to emigrate to the American prairies and set off a pamphlet war about on the
+                     topic of American emigration to the so-called "English Prairie."</note>
                </bibl>
                <bibl xml:id="AmStories_Above10">
                   <title>American Stories for Young People, Intended for Children above Ten Years of Age
@@ -20043,6 +20057,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </orgName>
                   </publisher>
                   <date when="1835">1835</date>
+               </bibl>
+               <bibl xml:id="Belinda_ME">
+                  <title>Belinda</title>
+                  <author ref="#Edgeworth_Maria"/>
+                  <publisher>J. Johnson</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1801">1801</date>
                </bibl>
                <bibl xml:id="Belles_Ballroom1_Will_BR">
                   <title level="a" ref="#Belles_Ballroom1_Will_BR">Belles of the Ballroom, No. I - The Will</title>
@@ -20232,6 +20253,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Bonduca</title>
                   <author ref="#Fletcher_John"/>
                </bibl>
+               <bibl xml:id="BoR">
+                  <title>the Bill of Rights</title>
+                  <title>An Act Declaring the Rights and Liberties of the Subject and Settling the
+                     Succession of the Crown</title>
+                  <date when="1689">1689</date>
+                  <note resp="#alg">One of the basic instruments of the British constitution, the
+                     English Bill of Rights restates the Declaration of Right presented to William
+                     and Mary in February 1689, limits the powers of the monarch, establishes the
+                     rights of Parliament, and establishes some individual rights.</note>
+               </bibl>
                <bibl xml:id="Bramley_Maying_LM">
                   <title level="a" ref="#Bramley_Maying_LM">Bramley Maying [Lady's Magazine version]</title>
                   <title level="j" ref="#Ladys_Mag">The Lady's Magazine</title>
@@ -20274,6 +20305,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>Payne</publisher>
                   <publisher>Cadell and Davies</publisher>
                   <date when="1796">1796</date>
+               </bibl>
+               <bibl xml:id="CaptivityCaptKnox">
+                  <title>Account of the Captivity of Robert Knox and Other Englishmen, in the Island
+                     of Ceylon: And of the Captain’s Miraculous Escape and Return to England in
+                     September 1680, After Detention on the Island of Nineteen Years and a
+                     Half</title>
+                  <author>Robert Knox</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>J. Hatchard</publisher>
+                  <date when="1818">1818</date>
                </bibl>
                <bibl xml:id="Carpenters_Daughter_BR">
                   <title level="a" ref="#Carpenters_Daughter_BR">The Carpenter's Daughter</title>
@@ -20658,6 +20699,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>S. Richardson</publisher>
                   <date when="1748">1748</date>
                </bibl>
+               <bibl xml:id="ClarkesTravelsScand">
+                  <title>Travels in Various Countries of Europe, Asia and Africa. Part the third,
+                     section the first: Scandinavia</title>
+                  <title>Travels in Various Countries of Scandinavia: Including Denmark, Sweden,
+                     Norway, Lapland and Finland</title>
+                  <author>
+                     <persName ref="#Clarke_ED">Edward Daniel Clarke</persName>
+                  </author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>Cadell and Davies</publisher>
+                  <date when="1819">1819</date>
+                  <note resp="#tlh #lmw">Clarke began publishing a series of travel accounts in 1811
+                     under the series title, Travels in Various Countries of Europe, Asia and
+                     Africa. The third part, first published in 1819, covered the Scandinavarian
+                     countries of Denmark, Sweden, Norway, Lapland and Finland. The volumes were
+                     later reprinted both together and as individual volumes under separate
+                     titles.</note>
+               </bibl>
                <bibl xml:id="Claudias_Dr">
                   <title>Claudia’s Dream</title>
                   <author ref="#MRM"/>
@@ -20682,6 +20741,30 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Coeur de Lion; or the Third Crusade. A Poem in 16 books. (historical epic,
                      1822) </title>
                   <author ref="#Franklin_Eleanor"/>
+               </bibl>
+               <bibl xml:id="Collectanea">
+                  <title>Collectanea Curiosa, or Miscellaneous Tracts: Relating to the History and
+                     Antiquities of England and Ireland, the Universities of Oxford and Cambridge,
+                     and a Variety of Other Subjects</title>
+                  <author ref="#Gutch_John">John Gutch</author>
+                  <pubPlace ref="#Oxford_city">Oxford</pubPlace>
+                  <publisher>Clarendon Press</publisher>
+                  <date when="1781">1781</date>
+               </bibl>
+               <bibl xml:id="Compl_Angler">
+                  <title>The Compleat Angler, or, The Contemplative Man’s Recreation: Being a
+                     Discourse of Rivers, and Fish-ponds, and Fish and Fishing: Not Unworthy the
+                     Perusal of Most Anglers</title>
+                  <author>
+                     <persName ref="#Walton_I">Izaak Walton</persName>
+                  </author>
+                  <date when="1653"/>
+                  <publisher>Rich. Marriot</publisher>
+                  <note resp="#lmw">First published in 1653, then expanded and republished in
+                     further editions in 1655, 1661, 1668, and 1676. The fifth edition (1676)
+                     contained 21 chapters instead of the original 13, and in it, Charles Cotton
+                     added a second section on fly-fishing. Mitford was likley familiar with the
+                     expanded edition.</note>
                </bibl>
                <bibl xml:id="Confessions_OpiumEater_nonfict">
                   <title>Confessions of an English Opium-Eater</title>
@@ -20895,6 +20978,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Cymbeline</title>
                   <author ref="#Shakespeare"/>
                </bibl>
+               <bibl xml:id="Daniells">
+                  <title>Rural Sports</title>
+                  <author>William Barker Daniel</author>
+                  <note resp="#esh">Printed in numerous editions between <date from="1801" to="1817">1801-1817</date>.</note>
+               </bibl>
                <bibl xml:id="Deaf_Dumb_play">
                   <title>Deaf and Dumb </title>
                   <author ref="#Holcroft_Thos"/>
@@ -20990,6 +21078,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </title>in <date when="1828">1828</date>. It also appeared as <title type="alt">The Rustic Wreath</title>in the <title ref="#Friendships_Off">Friendship's Offering</title> for <date when="1828">1828</date>, and was later republished in <bibl>
                         <title level="j">The Casquet of Literature</title> in <date when="1849">1849</date>
                      </bibl> with some revisions.</note>
+               </bibl>
+               <bibl xml:id="Douglas_play">
+                  <title>Douglas: A Tragedy</title>
+                  <author ref="#Home_John">John Home</author>
+                  <publisher>G. Hamilton &amp; J. Balfour</publisher>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <publisher>A. Millar
+                  </publisher>
+                  <pubPlace>London</pubPlace>
+                  <date when="1757">1757</date>
+                  <note resp="#lmw">First performed in <date when="1756">1756</date>in <placeName ref="#Edinburgh">Edinburgh</placeName>, followed by a performance in <placeName ref="#London_city">London</placeName> in <date when="1757">1757</date>. Continued to be performed professionally through the nineteenth century and the speech beginning <quote>My name is Norval</quote> became a favorite among amateur reciters.</note>
                </bibl>
                <bibl xml:id="Dramatic_Works_of_MRM">
                   <title>The Dramatic Works of Mary Russell Mitford</title>
@@ -21252,6 +21351,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <pubPlace ref="#London_city">London</pubPlace>
                   <publisher>John Murray</publisher>
                   <date when="1819">1819</date>
+               </bibl>
+               <bibl xml:id="Enc_Metr">
+                  <title>Encyclopedia Metropolitana; or, Universal Dictionary of Knowledge (30
+                     vols., 1817-1845)</title>
+                  <author><!-- various editors, including Coleridge. LMW --></author>
                </bibl>
                <bibl xml:id="Endymion">
                   <title>Endymion</title>
@@ -21708,6 +21812,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Lectures on the Dramatic Literature of the Age of Elizabeth</title>
                   <author ref="#Hazlitt_Wm">William Hazlitt</author>
                </bibl>
+               <bibl xml:id="Heart_of_Mid">
+                  <title>The Heart of Midlothian</title>
+                  <author ref="#Scott_Wal">Walter Scott</author>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <publisher>Archibald Constable</publisher>
+                  <date when="1822"/>
+               </bibl>
                <bibl xml:id="Heiress_MRM">
                   <title>The Heiress</title>
                   <author ref="#MRM"/>
@@ -21771,6 +21882,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      of <persName ref="#JamesII">James II</persName>. <persName ref="#MRM">Mitford</persName> refers to Hume’s text in the preface to the published
                      version of her play, <title ref="#CharlesI_MRMplay">Charles the
                      First</title>.</note>
+               </bibl>
+               <bibl xml:id="History_Municipal_Church_St_Lawrence">
+                  <title>A History of the Municipal Church of St. Lawrence, Reading</title>
+                  <author>Charles Kerry</author>
+                  <note resp="#scw">
+                     <date when="1883">1883</date> publication used by <persName ref="#Needham_Francis">Needham</persName> to establish local histories and
+                     identities of <persName ref="#MRM">Mitford’s</persName>
+                     <title ref="#OV">Our Village</title> characters. Cited by him on a note making
+                     reference to <persName ref="#Nicholson_Jeremiah">Jeremiah
+                     Nicholson</persName>.</note>
                </bibl>
                <bibl xml:id="Holcroft_Mems">
                   <title>Memoirs of the Late Thomas Holcroft, Written by Himself and Continued to
@@ -21852,6 +21973,30 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#ebb #lmw">The author of this poem would have been presumed to be
                         <persName ref="#Homer">Homer</persName> in Mitford’s time.</note>
                </bibl>
+               <bibl xml:id="Illinois_Birkbeck">
+                  <title>Letters from Illinois: Illustrated by a Map of the United States, Shewing
+                     Mr. Birkbeck’s Journey from Norfolk to Illinois and a Map of English Prairie
+                     and the Adjacent Country by John Melish</title>
+                  <author>
+                     <persName ref="#Birkbeck_M">Morris Birkbeck</persName>
+                  </author>
+                  <author>John Melish</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>
+                     <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName>
+                  </publisher>
+                  <date when="1818">1818</date>
+                  <note resp="#lmw">
+                     <persName ref="#MRM">Mitford</persName> likely read this edition, published in
+                        <placeName ref="#London_city">London</placeName>; editions also appeared in
+                     Boston and Philadelphia in 1818. Some editions appeared under the alternative
+                     title: Letters from The Illinois Territory; subsequent to Notes on a journey
+                     into the interior of North America. This work, along with Birkbeck’s <title ref="#America_Birkbeck">Notes on a Journey in America</title>, presented a
+                     utopian, anti-clerical, and anti-aristocratic vision of American settlement.
+                     They were believed to be instrumental in encouraging many disaffected Europeans
+                     to emigrate to the American prairies and set off a pamphlet war about on the
+                     topic of American emigration to the so-called "English Prairie."</note>
+               </bibl>
                <bibl xml:id="India_JournalResidence_Graham">
                   <author ref="#Graham_Maria">Maria Graham</author>
                   <title>Journal of a Residence in India: illustrated by engravings</title>
@@ -21893,6 +22038,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <note resp="#scw">This sketch appeared in <title ref="#Our_Village2nd">volume two of <title ref="#OV">Our Village</title>
                      </title> in <date when="1826">1826</date>.</note>
+               </bibl>
+               <bibl xml:id="Intro_DW">
+                  <title level="a">Introduction</title>
+                  <title level="m" ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>Hurst &amp; Blackett</publisher>
+                  <date when="1854">1854</date>
+                  <note resp="#lmw">Introduction, first published in <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title>; not published separately elsewhere.</note>
                </bibl>
                <bibl xml:id="Intro_Farewell_to_OV_v5">
                   <title level="a" ref="#Intro_Farewell_to_OV_v5">Introduction. Farewell to Our Village</title>
@@ -22015,6 +22171,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         (and contestedly) composed by <persName ref="#John_Apostle">John the
                            Apostle</persName>.</bibl>.</note>
                </bibl>
+               <bibl xml:id="Johnson_Lives">
+                  <title>Lives of the English Poets</title>
+                  <author>
+                     <persName ref="#Johnson">Samuel Johnson</persName>
+                  </author>
+                  <date when="1783">1783</date>
+               </bibl>
                <bibl xml:id="Julian_MRMplay">
                   <title>Julian; a Tragedy in Five Acts</title>
                   <author ref="#MRM"/>
@@ -22098,6 +22261,29 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Times</title>.</note>
                   <date when="1645">1645</date>
                </bibl>
+               <bibl xml:id="LecComic_WHaz">
+                  <title>Lectures on the English Comic Writers, delivered at the Surry
+                     Institution</title>
+                  <author ref="#Hazlitt_Wm">William Hazlitt</author>
+                  <publisher>
+                     <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName>
+                  </publisher>
+                  <pubPlace>London</pubPlace>
+                  <date when="1819">1819</date>
+                  <note resp="#lmw">Spelled "Surry" on title page.</note>
+               </bibl>
+               <bibl xml:id="LecDramatic_WHaz">
+                  <title level="m">Lectures Chiefly on the Dramatic Literature of the Age of Elizabeth, Delivered at the Surry Institution</title>
+                  <author>
+                     <persName ref="#Hazlitt_Wm">William Hazlitt</persName>
+                  </author>
+                  <publisher>Stodart and Steuart
+                  </publisher>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Bell and Bradfute</publisher>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <date when="1820">1820</date>
+               </bibl>
                <bibl xml:id="LegendGoodWomen">
                   <title>The Legend of Good Women</title>
                   <author>
@@ -22105,6 +22291,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </author>
                   <note resp="#lmw">A collection of legends believed to be composed during the
                      1380s.</note>
+               </bibl>
+               <bibl xml:id="Letters_Hearne_Aubrey">
+                  <title>Letters Written by Eminent Persons in the Seventeenth and Eighteenth
+                     Centuries: To Which are Added, Hearne’s Journeys to Reading, and to Whaddon
+                     Hall, the Seat of Browne Willis, Esq., and Lives of Eminent Men by John Aubrey,
+                     Esq., the Whole Now First Published from the Originals</title>
+                  <author>
+                     <persName ref="#Aubrey_John">John Aubrey</persName>
+                  </author>
+                  <author>
+                     <persName ref="#Walker_John">John Walker</persName>
+                  </author>
+                  <author>
+                     <persName ref="#Hearne_Thos">Thomas Hearne</persName>
+                  </author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1813">1813</date>
                </bibl>
                <bibl xml:id="Letters_to_Heber">
                   <title>Letters to R[ichard] Heber, Esq., containing critical remarks on the series
@@ -22133,6 +22337,31 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Keats’ poems to appear in print during his lifetime. Keats died from
                      tuberculosis a little over half a year later, in February 1821.</note>
                </bibl>
+               <bibl xml:id="Life_DukeofMarl_WC">
+                  <title>Memoirs of John Duke of Marlborough: With His Original Correspondence;
+                     Collected from the Family Records at Blenheim, and Other Authentic Sources.
+                     Illustrated with Portraits, Maps, and Military Plans.</title>
+                  <author ref="#Coxe_Wm">William Coxe</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1818">1818</date>
+               </bibl>
+               <bibl xml:id="Life_LadyRussell">
+                  <title>Some Account of the Life of Rachael Wriothesley, Lady Russell, by the
+                     editor of Madam Du Deffand’s letters. Followed by a series of letters from Lady
+                     Russell to her husband, William, Lord Russell; from 1672 to 1682; together with
+                     some miscellaneous letters to and from Lady Russell. To which are added, eleven
+                     letters from Dorothy Sidney, Countess of Sunderland, to George Saville, Marquis
+                     of Hallifax, in the year 1680</title>
+                  <title>The Life of Lady Russell</title>
+                  <author ref="#Russell_Lady">Rachael Wriothesley, Lady Russell</author>
+                  <editor>Mary Berry</editor>
+                  <author ref="#Sunderland_Countess">Dorothy Sidney, Countess of Sunderland</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme and Brown</publisher>
+                  <date when="1819">1819</date>
+                  <note resp="#alg">Source: HathiTrust</note>
+               </bibl>
                <bibl xml:id="Lights_Shadows">
                   <title>Lights and Shadows of American Life</title>
                   <editor ref="#MRM"/>
@@ -22143,6 +22372,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#Colburn_Bentley_pub">H. Colburn and R. Bentley</orgName>
                   </publisher>
                   <date when="1832">1832</date>
+               </bibl>
+               <bibl xml:id="Lit_Pocket_Bk">Literary Pocket Book <title>The Literary Pocket Book, or
+                     Companion for the Lover of Art and Nature</title>
+                  <author ref="#Hunt">Leigh Hunt</author>
+                  <note resp="#lmw">Literary almanac edited by <persName ref="#Hunt">Leigh
+                        Hunt</persName> that includes original poems by <persName>P.
+                        Shelley</persName>, <persName ref="#Keats">Keats</persName>, and
+                        <persName>B.W. Proctor</persName>. Mitford’s <date when="1819-01">January
+                        1819</date> letters to <persName ref="#Elford_SirWm">Elford</persName> and
+                        <persName ref="#Webb_Mary_younger">Mary Webb</persName> refer to the first
+                     edition ever published of this almanac, published at the end of <date when="1818">1818</date> for <date when="1819">1819</date>, which she
+                     received as a gift from her father.</note>
                </bibl>
                <bibl xml:id="Little_Miss_Wren_OV">
                   <title level="a" ref="#Little_Miss_Wren_OV">Little Miss Wren [Our Village version]
@@ -22598,6 +22839,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1990">1990</date>
                   <author ref="#MRM"/>
                </bibl>
+               <bibl xml:id="Napoleon_memoir_nonfict">
+                  <title>Mémoires pour servir à l’histoire de la vie privée, du retour, et du règne
+                     de Napoléon en 1815</title>
+                  <author ref="#de_Chaboulon">Fleury de Chaboulon</author>
+                  <editor/>
+                  <pubPlace>London: Albemarle Street</pubPlace>
+                  <publisher>John Murray</publisher>
+                  <date from="1819" to="1820">1819-1820</date>
+                  <note resp="#sbb #ebb">Two volume publication: the first volume was published in 1819 and the second in 1820. Fleury was Napoleon's secretary and cabinet member who served in the Emperor's private life.</note>
+               </bibl>
                <bibl xml:id="NarrativePoems">
                   <title>Narrative Poems on the Female Character in the Various Relations of Human
                      Life</title>
@@ -22616,6 +22867,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <bibl corresp="#Blanch"/>
                   <bibl corresp="#Rival_Sisters"/>
                </bibl>
+               <bibl xml:id="NaturalisHist">
+                  <title>Naturalis Historiæ</title>
+                  <author ref="#Pliny_Elder">Pliny the elder</author>
+                  <date from="0077" to="0079">77-79</date>
+                  <note resp="#alg">Encyclopedic work of thirty-seven books, organized in ten
+                     volumes. Source: LBT</note>
+               </bibl>
                <bibl xml:id="New_Married_Couple_OV">
                   <title level="a" ref="#New_Married_Couple_OV">A New Married Couple [Our Village version]</title>
                   <title level="m" ref="#OurVillage_3rd">Our Village, volume three</title>
@@ -22633,6 +22891,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#ebb">The second half of <bibl corresp="#Bible">the Christian
                         Bible</bibl>, containing scriptures composed in Greek documenting the life
                      of Christ and the experiences and visions of his apostles.</note>
+               </bibl>
+               <bibl xml:id="NewWhigGuide">
+                  <title>The New Whig Guide</title>
+                  <note resp="#lmw">Authorship attributed to <persName ref="#Palmerston_HJT">Viscount Henry John Temple Palmerston</persName>
+                     <persName ref="#Croker_JW">John Wilson Croker</persName>, and <persName ref="#Peel_Rbt">Robert Peel</persName>
+                  </note>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>W. Wright</publisher>
+                  <date when="1819">1819</date>
                </bibl>
                <bibl xml:id="NightmareAbbey">
                   <title>Nightmare Abbey</title>
@@ -22809,6 +23076,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1854">1854</date>
                   <bibl corresp="#Dramatic_Works_of_MRM"/>
                   <note resp="#lmw">First published in <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title>; not published separately elsewhere.</note>
+               </bibl>
+               <bibl xml:id="Otto_Babo">
+                  <title>Otto von Wittelsbach</title>
+                  <author ref="#Babo">Joseph Marius Babo</author>
+                  <publisher>Himburg
+                  </publisher>
+                  <pubPlace>Berlin</pubPlace>
+                  <date when="1783">1783</date>
+                  <note resp="#lmw">First performed in <date when="1782">1782</date>. German tragedy based on the life of <persName ref="#OttoII">Otto II of Wittelsbach</persName>; <persName ref="#MRM">Mitford</persName> based her play on the same subject on this tragedy. <persName ref="#Babo">Babo</persName>'s play was first translated into English in <date when="1800">1800</date>by <persName>Benjamin Thomson</persName> as <title>Otto of Wittelsbach, or, The Choleric Count: A Tragedy in Five Acts</title>.</note>
                </bibl>
                <bibl xml:id="Our_Maying_OV">
                   <title level="a" ref="#Our_Maying_OV">Our Maying</title>
@@ -24017,6 +24293,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_4th">volume four of <title ref="#OV">Our Village</title>
                      </title> in <date when="1830">1830</date>. It had been previously published in the giftbook <title ref="#Friendships_Off">Friendship's Offering</title> for <date when="1829">1829</date>.</note>
                </bibl>
+               <bibl xml:id="Pendennis_WT">
+                  <title>The History of Pendennis: His Fortunes and Misfortunes, His Friends and His Greatest Enemy</title>
+                  <author ref="#Thackeray_WM"/>
+                  <publisher>Bradbury and Evans</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1849">1849</date>
+               </bibl>
                <bibl xml:id="Percy_Reliques">
                   <title>Reliques of Ancient English Poetry, consisting of Old Heroic Ballads,
                      Songs, and other Pieces of our Earlier Poets, Together with Some of Later
@@ -24097,6 +24380,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>The Pleasures of Friendship: A Poem, in two parts (1810, rpt. 1812,
                      1818)</title>
                   <author ref="#Rowden_Fr"/>
+               </bibl>
+               <bibl xml:id="PO_BerkshireDir">
+                  <title>Post Office Directory of Berkshire, Northamptonshire, and Oxfordshire; with
+                     Bedfordshire, Buckinghamshire, and Huntingdonshire</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Kelly and Co.</publisher>
+                  <date when="1847"/>
+                  <date when="1854"/>
+                  <note resp="#ebb">Text and page images of the 1854 edition may be accessed through
+                     the <orgName>University of Leicester’s Special Collections Online</orgName> at
+                        <ptr target="http://specialcollections.le.ac.uk/cdm/ref/collection/p16445coll4/id/167099"/>. </note>
+               </bibl>
+               <bibl xml:id="PO_Directory_Berkshire">
+                  <title>The Post Office Directory of Berkshire, Northamptonshire, Oxfordshire, with
+                     Bedfordshire, Buckinghamshire, and Huntingdonshire</title>
+                  <publisher>W. Kelly and Co.</publisher>
+                  <note resp="#scw">A series of directories of local gentry and tradespeople in the
+                     counties of <placeName>the U.K.</placeName>.</note>
                </bibl>
                <bibl xml:id="Poems1645_Milton">
                   <author ref="#Milton">John Milton</author>
@@ -24313,6 +24614,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <note resp="#scw">This sketch was published in the <date when="1824-01-31">January 31, 1824</date> issue of <title ref="#Ladys_Mag">The Lady's Magazine</title>. It was re-titled for <title ref="#Our_Village1st_ed">volume one of <title ref="#OV">Our Village</title>
                      </title>, as <title ref="#Mrs_Mosse_OV">Mrs. Mosse</title>.</note>
+               </bibl>
+               <bibl xml:id="Remarks_Italy">
+                  <title level="m">Remarks on Antiquities, Arts, and Letters, During an Excursion in Italy, in the Years 1802 and 1803.</title>
+                  <author ref="#Forsyth_Jos">Joseph Forsyth</author>
+                  <date when="1816">1816</date>
+                  <pubPlace>London</pubPlace>
+                  <publisher>J. Murray</publisher>
                </bibl>
                <bibl xml:id="Residuary_Legatee_OV">
                   <title level="a" ref="#Residuary_Legatee_OV">The Residuary Legatee. A True Story [Our Village version]</title>
@@ -24533,6 +24841,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1811">1811</date>
                   <note resp="#lmw">First edition published anonymously.</note>
                </bibl>
+               <bibl xml:id="Shakespeare_Times_nonfict">
+                  <title>Shakespeare and His Times: Including the Biography of the Poet; Criticisms
+                     on his Genius and Writings; A New Chronology of the Plays; A Disquisition on
+                     the Object of His Sonnets; And a History of the Manners, Customs, and
+                     Amusements, Superstitions, Poetry, and Elegant Literature of His Age</title>
+                  <author ref="#Drake_Nathan">Nathan Drake</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>T. Cadell and W. Davies</publisher>
+                  <date when="1817">1817</date>
+               </bibl>
                <bibl xml:id="Sir_Fr_Darrell">
                   <title>Sir Francis Darrell; or, the Vortex. A Novel</title>
                   <author ref="#Dallas_RC"/>
@@ -24547,6 +24865,49 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>C.S. van Winkle</publisher>
                   <date when="1819">1819</date>
                </bibl>
+               <bibl xml:id="Sketches_of_America">
+                  <title level="m">Sketches of America: a Narrative of a Journey of Five Thousand
+                     Miles Through the Eastern and Western States of America; Contained in Eight
+                     Reports Addressed to the Thirty-nine English Families by whom the Author was
+                     Deputed, in June 1817, to Ascertain Whether Any, and What Part of the United
+                     States Would be Suitable for Their Residence. With Remarks on Mr. Birkbeck’s
+                        <title level="a">Notes</title> and <title level="a">Letters</title>
+                  </title>
+                  <author>
+                     <persName ref="#Fearon_HB">Henry Bradshaw Fearon</persName>
+                  </author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1818">1818</date>
+                  <note resp="#lmw">The work’s subtitle refers to to Morris Birkbeck’s <title ref="#America_Birkbeck">Notes on a Journey in America, from the coast of
+                        Virginia to the territory of Illinois</title> and <title ref="#Illinois_Birkbeck">Letters from Illinois</title>, works that were
+                     believed to be instrumental in encouraging many disaffected Europeans to
+                     emigrate to the American prairies Birkbeck and Fearon’s works were part of an
+                     early nineteenth-century pamphlet war about on the topic of American emigration
+                     to the so-called <q>English Prairie</q>. A second edition of Sketches appeared
+                     in 1819. In his preface, Fearon claims to be an unbiased observer and reporter
+                     and implicitly contrasts himself with other writers on the topic: <quote>My
+                        Reports were originally composed neither with a view to fame nor
+                        profit,--neither to exalt a country, to support a party, nor to promote a
+                        settlement. I have had every motive to speak what I thought the truth, and
+                        none to conceal or pervert it.</quote> The volume is dedicated to <q>The
+                        Friends of Civil and Religious Liberty</q>, and the dedication is dated <quote>
+                        <placeName>Plaistow, Essex</placeName>. <date when="1818-10-02">October 2,
+                           1818</date>
+                     </quote>. As <cit>
+                        <bibl>
+                           <author>Christopher Flynn</author> points out in <title level="m">Americans in British Literature, 1770-1832: A Breed
+                           Apart</title>,</bibl>
+                        <quote>Such [claims afford] Fearon room for statements that seem to emerge
+                           from differing, often contradictory ideological predilections. Sometimes
+                           he presents himself as an ardent convert to republicanism. At other times
+                           he is so fastidious in manners and appearance that he seems to the
+                           guardian of an older English probity Americans have recklessly
+                           abandoned</quote>
+                        <bibl>(<pubPlace>Farnham</pubPlace>: <publisher>Ashgate</publisher>,
+                              <date>2008</date>: 117)</bibl>
+                     </cit>.</note>
+               </bibl>
                <bibl xml:id="Specimen_Nat_poem">
                   <title>The Monks and the Giants: Prospectus and Specimen of an Intended National
                      Work; Intended to Comprise the Most Interesting Particulars Relating to King
@@ -24559,6 +24920,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#alg #lmw">An ottava rima burlesque written by John Hookham Frere
                      under the nom de plume "William and Robert Whistlecraft." Sources: LBT, ODNB
                   </note>
+               </bibl>
+               <bibl xml:id="Specimens_Dramatic_Poets">
+                  <title level="m">Specimens of English Dramatic Poets, Who Lived About the Time of Shakespeare. With Notes</title>
+                  <author ref="#Lamb_Chas">Charles Lamb</author>
+                  <publisher>Longman, Hurst, Rees, and Orme
+                  </publisher>
+                  <pubPlace>London</pubPlace>
+                  <date when="1808">1808</date>
+               </bibl>
+               <bibl xml:id="SpencesAnec">
+                  <title>Anecdotes, Observations, and Characters of Books and Men. Collected from
+                     the Conversation of Mr. Pope, and Other Eminent Persons of His Time</title>
+                  <author>
+                     <persName ref="#Spence_Jos">Joseph Spence</persName>
+                  </author>
+                  <editor>Edmund Malone</editor>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>John Murray</publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#lmw">Spence’s Anecdotes were collected and published posthumously in
+                     1820 by Edmund Malone.</note>
                </bibl>
                <bibl xml:id="St_Botany">
                   <title>Poetical Introduction to the Study of Botany (1801)</title>
@@ -24682,6 +25064,21 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <note resp="#scw">This sketch appeared as the second story in <title ref="#Our_Village2nd">volume two of <title ref="#OV">Our Village</title>
                      </title> in <date when="1826">1826</date>. It was also published in <title ref="#Friendships_Off">Friendship's Offering</title> for <date when="1826">1826</date> under the title <title type="alt">The Lady of Beechgrove</title>.</note>
+               </bibl>
+               <bibl xml:id="TenYearsatTripoli">
+                  <author ref="#Tully_Miss">Miss Tully</author>
+                  <!--LMW:  no reference sources indicate a forename for Miss Tully. -->
+                  <title>A Narrative of a Ten Years’ Residence at Tripoli in Africa from the
+                     Original Correspondence in the Possession of the Family of the Late Richard
+                     Tully, Esq., Comprising Authentic Memoirs and Anecdotes of the Reigning Bashaw,
+                     His Family, and Other Persons of Distinction; also an Account of the Domestic
+                     Manners of the Moors, Arabs, and Turks</title>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>H. Colburn</publisher>
+                  <date when="1816">1816</date>
+                  <note resp="#lmw">
+                     <persName ref="#MRM">Mitford</persName> may have read the third edition,
+                     published in <date when="1819">1819</date>.</note>
                </bibl>
                <bibl xml:id="TestofLove">
                   <title>The Testament of Love</title>
@@ -24860,11 +25257,39 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#Our_Village2nd">volume two of <title ref="#OV">Our Village</title>
                      </title> in <date when="1826">1826</date>.</note>
                </bibl>
+               <bibl xml:id="Tour_Normandy">
+                  <title>Account of a tour in Normandy</title>
+                  <author>Dawson Turner</author>
+                  <editor/>
+                  <pubPlace>London</pubPlace>
+                  <publisher>John &amp; Arthur Arch</publisher>
+                  <date when="1820">1820</date>
+               </bibl>
                <bibl xml:id="Town_v_Country_CS">
                   <title level="a" ref="#Town_v_Country_CS">Town versus Country</title>
                   <title level="m" ref="#Country_Stories">Country Stories</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <date when="1835">1835</date>
+               </bibl>
+               <bibl xml:id="Travels_Acerbi">
+                  <title>Travels through Sweden, Finland, and Lapland to the North Cape, in the
+                     Years 1798 and 1799.</title>
+                  <author>
+                     <persName ref="#Acerbi_J"/>
+                  </author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>Joseph Mawman</publisher>
+                  <date when="1802">1802</date>
+               </bibl>
+               <bibl xml:id="Travels_Nile">
+                  <title level="m">Travels to Discover the Source of the Nile, In the Years 1768,
+                     1769, 1770, 1771 1772, and 1773</title>
+                  <author>
+                     <persName ref="#Bruce_James">James Bruce</persName>
+                  </author>
+                  <biblScope unit="volume" from="1" to="6">six volumes</biblScope>
+                  <publisher>G.G.J. and J. Robinson</publisher>
+                  <date when="1790"/>
                </bibl>
                <bibl xml:id="TwelfthNight_Shkspr">
                   <title>Twelfth Night</title>
@@ -25042,6 +25467,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Virginius_play">
                   <title>Virginius</title>
                   <author ref="#Knowles_Sheridan">Sheridan Knowles</author>
+               </bibl>
+               <bibl xml:id="Visit_Paris">
+                  <title>A Visit To Paris in 1814: Being a Review of the Moral, Political,
+                     Intellectual, and Social Condition of the French Capital</title>
+                  <author ref="#Scott_John"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>Longman, Hurst Rees, Orme, and Brown</publisher>
+                  <note resp="#alg">2nd edition, corrected and with a new preface referring to late
+                     events, published: London: Printed for Longman, Hurst Rees, Orme, and
+                        Brown<date when="1815">1815</date>. Source: HathiTrust</note>
                </bibl>
                <bibl xml:id="Visit_to_Lucy_OV">
                   <title level="a" ref="#Visit_to_Lucy_OV">A Visit to Lucy [Our Village version]</title>
@@ -25425,6 +25860,36 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Mitford’s <date when="1821-11-22">1821 October 22</date> letter to Talfourd
                      suggests that Macready’s performance guaranteed the success of the play.</note>
                </bibl>
+               <bibl xml:id="WalpoletoMontagu">
+                  <title>Letters from the Hon. Horace Walpole to George Montagu, Esq. from the year
+                     1736, to the year 1770: Now First Published from the Originals in the
+                     Possession of the Editor</title>
+                  <author>
+                     <persName ref="#Walpole_Hor">Horace Walpole</persName>
+                  </author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>Rodwell and Martin, and H. Colburn</publisher>
+                  <date when="1818">1818</date>
+                  <note resp="#lmw">A second edition appears in 1819.</note>
+               </bibl>
+               <bibl xml:id="Walton_Lives">
+                  <title level="m">The Lives of Dr. John Donne, Sir Henry Wotton, Mr. Richard
+                     Hooker, Mr. George Herbert and Dr. Robert Sanderson.</title>
+                  <author>
+                     <persName ref="#Walton_I">Izaak Walton</persName>
+                  </author>
+                  <note resp="#lmw">Walton had written biographical sketches ("Lives") of Donne,
+                     Wotton, Hooker and Herbert which were originally published separately as part
+                     of volumes containing other materials on their subjects. <bibl>The first volume
+                        of collected Lives appeared in <date when="1670">1670</date>
+                     </bibl>. <bibl>The second appeared in <date when="1678">1678</date> and added a
+                        life of Herbert. This volume was often later reprinted under the title
+                           <title level="m">Walton’s Lives</title>. Mitford may have read the "new
+                        edition" published in <date when="1805">1805</date> at <placeName ref="#Oxford_city">Oxford</placeName> by <orgName ref="#Clarendon_Press">Clarendon Press</orgName>
+                     </bibl>. <bibl>Another edition appeared in <date when="1807">1807</date> with a
+                        life of Walton himself by <author>Thomas Zouch</author>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="Warbeck_Wolfstein_MH">
                   <title>Warbeck of Wolfstein</title>
                   <author ref="#Holford_Marg_younger">Margaret Holford</author>
@@ -25495,6 +25960,28 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Wheel_Fortune_play">
                   <title>Wheel of Fortune</title>
                   <author ref="#Cumberland_Rich"/>
+               </bibl>
+               <bibl xml:id="Whiteknights_Desc_TCH">
+                  <title>A Descriptive Account of the Mansion and Gardens of White-Knights: A Seat
+                     of His Grace the Duke of Marlborough. By Mrs. Hofland. Illustrated with
+                     twenty-three engravings, from pictures taken on the spot by T.C.
+                     Hofland</title>
+                  <author ref="#Hofland_TC">T.C. Hofland</author>
+                  <author ref="#Hofland_B">Barbara Hofland</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher>
+                     <persName ref="#Hofland_TC">T. C. Hofland</persName>
+                  </publisher>
+                  <date when="1819">1819</date>
+                  <note resp="#lmw">Printed by <persName ref="#Hofland_TC">T.C. Hofland</persName>
+                     for the <persName ref="#Geo_SpencerChurchill">6th Duke of
+                        Marlbourough</persName>; publisher and printer names are given variously in
+                     WorldCat. Mitford suggests that the Hoflands supported the entire cost of
+                     printing themselves and printed only 50 copies, because the bankrupt Duke could
+                     not finance the venture. In her February 27, 1819 letter to Elford, Mitford
+                     indicates that she does not expect him to buy a copy, since he is "a great deal
+                     too wise to deal in books printed upon drawing paper in Atlas quarto--books
+                     merely meant to make a show." It is unknown how many copies were sold.</note>
                </bibl>
                <bibl xml:id="WhitsunEve_OV">
                   <title level="a" ref="#WhitsunEve_OV">Whitsun-Eve [Our Village version]</title>
@@ -25868,25 +26355,37 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#Voltaire">Voltaire</author>
                </bibl>
             </listBibl>
-            <listBibl sortKey="MRM_Schol">
+            <listBibl sortKey="schol">
+               <bibl xml:id="BannedThtr_Findlater">
+                  <title>Banned!: A Review of Theatrical Censorship in Britain</title>
+                  <author>Richard Findlater</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Gibbon &amp; McKee</publisher>
+                  <date when="1967">1967</date>
+               </bibl>
+               <bibl xml:id="CensorshipEnglDrama">
+                  <title>The Censorship of English Drama, 1824-1901</title>
+                  <placeName>Cambridge: Cambridge University press</placeName>
+                  <date when="2010">2010</date>
+               </bibl>
                <bibl xml:id="coles_Thesis">
                   <author ref="#coles">William Allan Coles</author>
                   <title>The Correspondence of Mary Russell Mitford and Thomas Noon Talfourd
-                     (1821-1825)</title>
+                        (1821-1825)</title>
                   <pubPlace>Cambridge, Massachusetts</pubPlace>
                   <publisher>Harvard University</publisher>
                   <date when="1956-08">August, 1956</date>
                   <note resp="#ebb">Coles’ doctoral dissertation presented to the Department of
-                     English at <orgName>Harvard University</orgName>, an edition of <rs type="letter">107 letters between <persName ref="#MRM">Mary Russell
+                        English at <orgName>Harvard University</orgName>, an edition of <rs type="letter">107 letters between <persName ref="#MRM">Mary Russell
                            Mitford</persName> and <persName ref="#Talfourd_Thos">Thomas Noon
-                           Talfourd</persName> written between <date from="1821" to="1825">1821 and
-                           1825</date>.</rs>, housed at the <orgName ref="#Rylands">John Rylands
-                        Library</orgName> and <orgName ref="#HarvardHL">the Harvard University
-                        Library</orgName>.</note>
+                              Talfourd</persName> written between <date from="1821" to="1825">1821 and
+                                 1825</date>.</rs>, housed at the <orgName ref="#Rylands">John Rylands
+                                    Library</orgName> and <orgName ref="#HarvardHL">the Harvard University
+                                       Library</orgName>.</note>
                </bibl>
                <bibl xml:id="Lestrange_Letters">
                   <title>The Life of Mary Russell Mitford, Authoress of "Our Village," Etc, Related
-                     in a Selection from Her Letters to Her Friends</title>
+                        in a Selection from Her Letters to Her Friends</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <editor ref="#Lestrange">Alfred Guy Kingan L’Estrange</editor>
                   <editor ref="#Harness_Wm">William Harness</editor>
@@ -25899,26 +26398,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#Needham_Francis">Francis Needham</author>
                   <note resp="#ebb">
                      <persName ref="#Needham_Francis">Francis Needham</persName>’s extensive and
-                     unpublished handwritten papers, which we estimate he kept <date notBefore="1940" notAfter="1970">roughly between the 1940s and 1960s</date>,
-                     recording his research of <persName ref="#MRM">Mary Russell
-                     Mitford</persName>’s letters and the local people of <placeName ref="#Berkshire">Berkshire</placeName> whom she may have known and who may
-                     have served as the basis for characters in <title ref="#OV">Our
-                     Village</title>. The papers are held at <orgName ref="#ReadingCL">Reading
-                        Central Library</orgName>.</note>
+                        unpublished handwritten papers, which we estimate he kept <date notBefore="1940" notAfter="1970">roughly between the 1940s and 1960s</date>,
+                        recording his research of <persName ref="#MRM">Mary Russell
+                           Mitford</persName>’s letters and the local people of <placeName ref="#Berkshire">Berkshire</placeName> whom she may have known and who may
+                        have served as the basis for characters in <title ref="#OV">Our
+                           Village</title>. The papers are held at <orgName ref="#ReadingCL">Reading
+                              Central Library</orgName>.</note>
                </bibl>
-            </listBibl>
-            <listBibl sortKey="other_current_Schol">
-               <bibl xml:id="BannedThtr_Findlater">
-                  <title>Banned!: A Review of Theatrical Censorship in Britain</title>
-                  <author>Richard Findlater</author>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Gibbon &amp; McKee</publisher>
-                  <date when="1967">1967</date>
-               </bibl>
-               <bibl xml:id="CensorshipEnglDrama">
-                  <title>The Censorship of English Drama, 1824-1901</title>
-                  <placeName>Cambridge: Cambridge University press</placeName>
-                  <date when="2010">2010</date>
+               <bibl xml:id="OED">
+                  <title>The Oxford English Dictionary Online</title>
+                  <publisher>Oxford University Press</publisher>
+                  <pubPlace ref="#Oxford_city">Oxford</pubPlace>
+                  <date when="2016">2016</date>
+                  <note resp="#lmw">Multi-volume descriptive dictionary of the English language, first published in 1884. Online version launched in 2000 includes ongoing updates to the third edition.</note>
                </bibl>
                <bibl xml:id="Review_55Days">
                   <title level="a">Review: 55 Days</title>
