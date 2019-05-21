@@ -82,7 +82,7 @@
                 <persName>blacksmith</persName>
                 <persName>George</persName>
                 <occupation type = "trade" subtype = "blacksmith"/>
-                <occupation type = "government" subtype = "constable"/>
+                <occupation type = "government"/>
                 <!-- Check this type -->
                 <note resp="#scw">Character of a blacksmith introduced in <title ref="#OurVillage_story_OV">the introductory sketch of Our Village</title>. The <persName ref="#OVNarrator"> narrator</persName> mentions that he also holds the office of constable, and has eight children. His fate is recounted in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>. Surname is not given.</note>
              </person>
@@ -110,7 +110,7 @@
                
                <person xml:id="Caliban" sex="m"><!-- LMW add to existing stub -->
                   <persName>Caliban</persName>
-                  <occupation type = "service" subtype = "servant"/>
+                  <occupation type = "service"/>
                   <!-- Check this type -->
                   <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who chafes against his servitude to <persName ref="#Prospero">Prospero</persName>.</note>
                </person>
@@ -128,7 +128,7 @@
                <person xml:id="Clerk_OV" sex="m">
                   <persName>clerk
                   </persName>
-                  <occupation type = "administrator" subtype = "clerk"/>
+                  <occupation type = "government" subtype = "administrator"/>
                   <note resp="#scw">Character of the county clerk who performs the marriage ceremony between <persName ref="#Wilson_Hannah_OV">Hannah Wilson</persName> and <persName ref="#Smith_William_OV">William Smith</persName> in the <title ref="#Our_Village1st_ed">Our Village story</title> <title ref="#Hannah_OV">Hannah</title>. Proper name not given.</note>
                </person>
                   
@@ -237,7 +237,7 @@
                      <surname>Brent</surname>
                      <forename>Joel</forename>
                   </persName>
-                  <occupation type = "trade" subtype = "carter"/>
+                  <occupation type = "trade"/>
                   <!-- Check this type -->
                   <note resp="#scw">Protagonist of <title ref="#Village_Beau_OV">A Village Beau</title>, the <title ref="#Our_Village1st_ed">Our Village</title> story, where he courts <persName ref="#Harriet_ShopLodger_OV">Harriet</persName>. He is the half-brother of <persName ref="#Lizzy_OV">Lizzy</persName>. <persName ref="#Needham_Francis">Francis Needham</persName> identifies a local <persName ref="#Brent_Joel">Joel Brent</persName> on whom the character was likely based.</note>
                </person>
@@ -263,7 +263,7 @@
                
                <person xml:id="Evans_JohnWife_OV" sex="f"><!--replaces JohnEvansWife-->
                   <persName>Mrs. Evans</persName>
-                  <note resp="#scw">Deceased wife of the <title ref="#OurVillage_story_OV">Our Village sketch</title> character <persName ref="Evans_Johh_OV">John Evans</persName>. Forename not given.</note>
+                  <note resp="#scw">Deceased wife of the <title ref="#OurVillage_story_OV">Our Village sketch</title> character <persName ref="#Evans_John_OV">John Evans</persName>. Forename not given.</note>
                </person>
                   
                   <person xml:id="Strong_John_OV" sex="m">
@@ -297,7 +297,7 @@
                      <surname>Brent</surname>
                      <forename>Lizzy</forename>
                   </persName>
-                  <note resp="#scw">The three-year old girl who often accompanies <persName ref="#OVNarrator">the narrator</persName> of <title ref="#OV">Our Village </title> on her walks. In the story <title ref="#Village_Beau_OV">A Village Beau</title>, she is identified as the half-sister of <persName ref="#Brent_Joel_OV">Joel Brent</persName>, who is one of the <orgName ref="#Cricketers">cricketers</orgName> and the protagonist of <title ref="#Village_Beau_OV">A Village Beau</title>. In the <title ref="#Intro_OV_v3">Introduction</title> to <title ref="#OurVillage_3rd">the third volume of Our Village</title>, the <persName ref="#OVNarrator">narrator</persName> give an account of what happens to several villagers, <persName ref="#Lizzy_OV">Lizzy</persName> among them. In his <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>, <persName ref="#Needham_Francis">Francis Needham</persName> identifies an <persName ref="#Brent_Lizzy">Eliza Brent</persName> as the probable original for the character.</note>
+                  <note resp="#scw">The three-year old girl who often accompanies <persName ref="#OVNarrator">the narrator</persName> of <title ref="#OV">Our Village </title> on her walks. In the story <title ref="#Village_Beau_OV">A Village Beau</title>, she is identified as the half-sister of <persName ref="#Brent_Joel_OV">Joel Brent</persName>, who is one of the <orgName ref="#Cricketers_OV">cricketers</orgName> and the protagonist of <title ref="#Village_Beau_OV">A Village Beau</title>. In the <!--Not an ID --><title ref="#Intro_OV_v3">Introduction</title> to <title ref="#OurVillage_3rd">the third volume of Our Village</title>, the <persName ref="#OVNarrator">narrator</persName> give an account of what happens to several villagers, <persName ref="#Lizzy_OV">Lizzy</persName> among them. In his <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>, <persName ref="#Needham_Francis">Francis Needham</persName> identifies an <persName ref="#Brent_Lizzy">Eliza Brent</persName> as the probable original for the character.</note>
                </person>
                
                <person xml:id="LizzysFather_OV" sex="m">
@@ -319,7 +319,7 @@
                <person xml:id="Mason_OV" sex="m"><!--replaces Mason--><!-- LMW: I assume mason is his job, not his name? -->
                   <persName>Mr. Strong</persName>
                   <occupation type = "trade" subtype = "mason"/>
-                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">the first sketch of <title ref="#OV">Our Village</title></title>. He is said to be particularly short, and to live in a <quote>"pretty white cottage."</quote> His son, <persName ref="#Strong_John_OV">John Strong</persName>, is one of the <orgName ref="#Cricketers">cricketers</orgName> who appears in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Forename not given.</note>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">the first sketch of <title ref="#OV">Our Village</title></title>. He is said to be particularly short, and to live in a <quote>"pretty white cottage."</quote> His son, <persName ref="#Strong_John_OV">John Strong</persName>, is one of the <orgName ref="#Cricketers_OV">cricketers</orgName> who appears in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Forename not given.</note>
                </person>
                
                <person xml:id="MasonsWife_OV" sex="f"><!--replaces MasonsWife-->
@@ -346,7 +346,7 @@
                <person xml:id="ModAntiquesBeau_OV" sex="m"><!--ModAntiquesBeau-->
                   <persName>elderly beau
                   </persName>
-                  <occupation type = "government" subtype = "political"/>
+                  <occupation type = "government"/>
                   <note resp="#scw">Unnamed character in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title level="a" ref="#Mod_Antiques_OV">Modern Antiques</title>, who is rumored to be a longtime suitor to <persName ref="#Frances_Mrs_OV">Mrs. Frances</persName>. In his <bibl corresp="#Needham_PapersRCL">Mitford Papers</bibl>, <persName ref="#Needham_Francis">Needham</persName> identifies the character as based on <persName ref="#Annesley_Francis">Francis Annesley, LL.D.</persName>. Proper name not given.</note>
                </person>
                
@@ -359,7 +359,7 @@
                <person xml:id="ModAntiques_ServingMaid_OV" sex="f">
                   <persName>elderly beau's maid
                   </persName>
-                  <occupation type = "service" subtype = "servant"/>
+                  <occupation type = "service"/>
                   <!-- Check this type -->
                   <note resp="#scw">One of the servant characters in <title ref="#Mod_Antiques_OV">Modern Antiques</title> from <title ref="#Our_Village1st_ed">Our Village</title>. Proper name not given.</note>
                </person>
@@ -372,7 +372,7 @@
                      <forename type="nick">Mossy</forename>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <occupation type = "service" subtype = "servant"/>
+                  <occupation type = "service"/>
                   <!-- Check this type -->
                   <note resp="#scw">Title character of the <title ref="#OV">Our Village</title> sketch, <title>Mrs. Mosse</title>. Nicknamed "Mossy." She is a longtime servant in the household of the <persName ref="#OVNarrator">narrator</persName> and, according to <persName ref="#Needham_Francis">Francis Needham</persName>, based on the Mitfords' own servant, <persName ref="#Cropp_Mrs">Mrs. Cropp</persName>. Source: <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
                </person>
@@ -380,7 +380,7 @@
                <person xml:id="Officer_OV" sex="m"><!--replaces Officer-->
                   <persName>officer
                   </persName>
-                  <occupation type = "military" subtype = "military"/>
+                  <occupation type = "military"/>
                   <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. He lives with his family in a small detached cottage. Proper name not given.</note>
                </person>
                
@@ -441,13 +441,13 @@
                
                <person xml:id="RecruitingSerjeant_OV" sex="m"><!--replaces RecruitingSerjeant-->
                   <persName>Recruiting Serjeant</persName>
-                  <occupation type = "military" subtype = "military"/>
+                  <occupation type = "military"/>
                   <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">Our Village</title> who is courting <persName ref="#Phoebe">Phoebe</persName>. In <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, he is said to have already been married. Proper name not given.</note>
                </person>
                
               <person xml:id="RetiredPublican_OV" sex="m"><!--replaces RetiredPublican-->
                  <persName>Mr. H.</persName>
-                 <occupation type = "government" subtype = "publican"/>
+                 <occupation type = "government"/>
                  <!-- Check this type -->
                  <note resp="#scw">A particularly patriotic character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. He is based on a neighbor of <persName ref="#MRM">Mitford</persName>'s, who held an illumination for the acquittal of <persName ref="#Queen_Caroline">Queen Caroline</persName>, a local event she describes rather disapprovingly in a letter to <persName ref="#Elford_SirWm">William Elford</persName> on <date when="1820-11-21">November 21, 1820</date>. The retired publican's fate is described further in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, where he is referred to as "blind Robert." Full name not given. 
                     <!--scw: forename inferred from a line of dialogue in A Parting Glance in which children call him "blind Robert, but uncertain whether "blind Robert" is a colloquial term of abuse or his name. Will have to check around. Wonder if letters might hold a clue, since she mentions him.--></note> 
@@ -474,7 +474,7 @@
                      <surname>Goodfellow</surname>
                   </persName>
                   <persName type="alt">Puck</persName>
-                  <note resp="#scw">Mischievous fairy or sprite from folklore. In <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Midsummer_Nights_D">A Midsummer Night's Dream</title>, he causes romantic havoc for the other characters, both human and fairy.</note>
+                  <note resp="#scw">Mischievous fairy or sprite from folklore. In <persName ref="#Shakespeare">Shakespeare</persName>'s <!-- This is not an ID --><title ref="#Midsummer_Nights_D">A Midsummer Night's Dream</title>, he causes romantic havoc for the other characters, both human and fairy.</note>
                </person>
 
                
@@ -522,9 +522,10 @@
                
                <person xml:id="Serjeant_Kite" sex="m">
                   <persName>Serjeant Kite</persName>
-                  <occupation type = "military" subtype = "military"/>
-                  <occupation type = "military" subtype = "recruiting sergeant"/>
-                  <note resp="#scw">Character from <persName ref="#Farquhar_George">George Farquhar</persName>'s play <title ref="#Recruiting_Officer">The Recruiting Officer.</title> Forename not given.</note>
+                  <occupation type = "military"/>
+                  <occupation type = "military"/>
+                  <!-- Check this type -->
+                  <note resp="#scw">Character from <persName ref="#Farquhar_George">George Farquhar</persName>'s play <!--Not an ID --><title ref="#Recruiting_Officer">The Recruiting Officer.</title> Forename not given.</note>
                   
                </person>
                
@@ -589,7 +590,7 @@
                <person xml:id="Theodosia_Mrs_OV" sex="f">
                   <persName>Mrs. Theodosia</persName>
 <!--scw: TEI suggests this as a possible roleName. Though the character is not married.--><!-- LMW: I put this info. in the text of the note instead. -->
-                 <note resp="#scw">One of the two sister characters in the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Mod_Antiques_OV">Modern Antiques</title>. Theodosia is her forename, and "Mrs." is an honorific, since the character is unmarried. She and her sister, <persName ref="#Frances_Mrs">Frances</persName> are said to have been intimates of <persName ref="#Richardson_Sam">Samuel Richardson</persName> and <orgName ref="#Bluestockings">the Bluestockings</orgName>. Surname not given.</note>
+                 <note resp="#scw">One of the two sister characters in the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Mod_Antiques_OV">Modern Antiques</title>. Theodosia is her forename, and "Mrs." is an honorific, since the character is unmarried. She and her sister, <persName ref="#Frances_Mrs_OV">Frances</persName> are said to have been intimates of <persName ref="#Richardson_Sam">Samuel Richardson</persName> and <orgName ref="#Bluestockings">the Bluestockings</orgName>. Surname not given.</note>
                </person>
                
                <person xml:id="Tubb_Dr_OV" sex="m"><!--scw: leaving as a stub so I don't neglect it later.-->
@@ -598,8 +599,8 @@
                      <surname>Tubb</surname>
                      <roleName>Dr.</roleName>
                   </persName>
-                  <occupation type = "medical" subtype = "medical"/>
-                  <note resp="#scw">Title character of the doctor in the <title ref="#OV">Our Village</title>, <title ref="#Our_Village2nd">volume two</title> sketch. <persName ref="#Needham_Francis">Francis Needham</persName>, in his <bibl corresp="#Needham_PapersRCL">Mitford Papers</bibl>, identifies a local man by this name who may have been the basis for this character. In the <bibl corresp="#Ladys_Mag">Lady's Magazine</bibl> version of the story, the title is <title ref="#Doctor_Casden">Doctor Casden</title>. Forename not given.</note>
+                  <occupation type = "medical"/>
+                  <note resp="#scw">Title character of the doctor in the <title ref="#OV">Our Village</title>, <title ref="#Our_Village2nd">volume two</title> sketch. <persName ref="#Needham_Francis">Francis Needham</persName>, in his <bibl corresp="#Needham_PapersRCL">Mitford Papers</bibl>, identifies a local man by this name who may have been the basis for this character. In the <bibl corresp="#Ladys_Mag">Lady's Magazine</bibl> version of the story, the title is <!--Not an ID --><title ref="#Doctor_Casden">Doctor Casden</title>. Forename not given.</note>
                </person>
                
                <person xml:id="Vicar_OV" sex="m">
@@ -607,13 +608,14 @@
                   </persName>
                   <occupation type = "religious" subtype = "clergy"/>
                   <occupation type = "religious" subtype = "vicar"/>
-                  <note resp="#scw">Character of the vicar from <title ref="#Our_Village1st_ed">Our Village, volume 1</title>, who, in the sketch <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, is said to be moving into the newly-renovated house of the <persName ref="#Wealthy_Renovator">wealthy, whimsical man.</persName> Proper name not given.</note>
+                  <note resp="#scw">Character of the vicar from <title ref="#Our_Village1st_ed">Our Village, volume 1</title>, who, in the sketch <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, is said to be moving into the newly-renovated house of the <persName ref="#Wealthy_Renovator_OV">wealthy, whimsical man.</persName> Proper name not given.</note>
                </person>
                
                <person xml:id="Wheeler_OV" sex="m"><!--replaces Wheeler-->
                   <persName>wheeler
                   </persName>
-                  <occupation type = "trade" subtype = "wheeler"/>
+                  <occupation type = "trade"/>
+                  <!-- Check this type -->
                   <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title> as a very civil and courteous man. The <persName ref="#Curate_OV">curate</persName> lodges at his family's house, distinctive for its green door and knocker. Proper name not given.</note>
                </person>
                
@@ -635,7 +637,8 @@
                      <surname>Smith</surname>
                      <forename>William</forename>
                   </persName>
-                  <occupation type = "trade" subtype = "hatter"/>
+                  <occupation type = "trade"/>
+                  <!-- Check this -->
                <note resp="#scw">Character of the suitor of <persName ref="#Wilson_Hannah_OV">Hannah</persName> in the <title ref="#Our_Village1st_ed">Our Village</title> story of that name.</note>
                </person>
               
@@ -683,7 +686,7 @@
                
                <org xml:id="Cricketers_OV">
                   <orgName>cricketers</orgName>
-                  <note resp="#scw">Characters who appear in the <title ref="#OurVillage_1st_ed">Our Village</title> stories <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> and <title ref="#Walks_Hard_Summer_OV">The Hard Summer</title>.</note>
+                  <note resp="#scw">Characters who appear in the <!-- Not an ID --><title ref="#OurVillage_1st_ed">Our Village</title> stories <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> and <title ref="#Walks_Hard_Summer_OV">The Hard Summer</title>.</note>
                </org>
                
                <org xml:id="curatesFamily_OV">
@@ -771,7 +774,7 @@
                      <death when="1825-03-09">
                         <placeName>Stoke Newington, Middlesex, England</placeName>
                      </death>
-                  <occupation type = "literary" subtype = "literary"/>
+                  <occupation type = "literary"/>
                   <occupation type = "literary" subtype = "poet"/>
                   <occupation type = "literary" subtype = "essayist"/>
                   <note resp="#scw">Poet, prose writer, author of children's books, and sometime member of the <orgName ref="#Bluestockings">Bluestocking Circle</orgName>.</note>
@@ -792,13 +795,13 @@
                    <death when="1844-04-01">
                       <placeName>Bath, Somerset, England</placeName>
                    </death>
-                   <occupation type = "literary" subtype = "literary"/>
+                   <occupation type = "literary"/>
                    <occupation type = "literary" subtype = "novelist"/>
-                   <occupation type = "scholar" subtype = "art collector"/>
+                   <occupation type = "scholar"/>
                    <!-- Check this type -->
                    <occupation type = "benefactor" subtype = "patron"/>
                    <occupation type = "government" subtype = "politician"/>
-                   <note resp="#scw">Author of the seminal gothic novel, <title ref="#Vathek">Vathek</title>, art collector, and Member of Parliament. He was the Member for <placeName>Wells</placeName> from <date from="1784" to="1790">1784-1790</date>, and later for <placeName>Hindon</placeName> from <date from="1790" to="1795">1790-1795</date> and again from <date from="1806" to="1820">1806-1820</date>.
+                   <note resp="#scw">Author of the seminal gothic novel, <!-- Not an ID --><title ref="#Vathek">Vathek</title>, art collector, and Member of Parliament. He was the Member for <placeName>Wells</placeName> from <date from="1784" to="1790">1784-1790</date>, and later for <placeName>Hindon</placeName> from <date from="1790" to="1795">1790-1795</date> and again from <date from="1806" to="1820">1806-1820</date>.
                       <ref target="http://viaf.org/viaf/4926466"/>
                    </note>
                 </person>
@@ -808,7 +811,7 @@
               </person>
                
                <person xml:id="Brent_Lizzy"><!--scw: TO BE ADDED TO NOTE IN ALREADY EXISTING ENTRY IN HISTPERSON-->
-                  <note resp="#scw">In a notebook kept from <date from="1819" to="1823">1819 to 1823</date>, Mitford refers twice to <quote>"little Eliza"</quote>. On each occasion, she is noting her third and fourth birthdays. In the story from <title ref="#Our_Village1st_ed">Our Village, volume one</title>, <title ref="#Village_Beau_OV">A Village Beau</title>, the character of the little girl, <persName ref="#Lizzy_OV">Lizzy</persName>, is said to be the half-sister of <persName ref="#JoelBrent">Joel Brent</persName>.</note>
+                  <note resp="#scw">In a notebook kept from <date from="1819" to="1823">1819 to 1823</date>, Mitford refers twice to <quote>"little Eliza"</quote>. On each occasion, she is noting her third and fourth birthdays. In the story from <title ref="#Our_Village1st_ed">Our Village, volume one</title>, <title ref="#Village_Beau_OV">A Village Beau</title>, the character of the little girl, <persName ref="#Lizzy_OV">Lizzy</persName>, is said to be the half-sister of <!--Not an ID --><persName ref="#JoelBrent">Joel Brent</persName>.</note>
                </person>
                
                <person xml:id="Chapone_Hester" sex="f">
@@ -824,7 +827,7 @@
                   <death when="1801-12-25">
                      <placeName>Hadley, Middlesex, England</placeName>
                   </death>
-                  <occupation type = "literary" subtype = "literary"/>
+                  <occupation type = "literary"/>
                <note resp="#scw">Author and member of the <orgName ref="#Bluestockings">Bluestocking Circle</orgName>.
                   <ref target="http://viaf.org/viaf/18122947"></ref>
                </note>
@@ -842,12 +845,12 @@
                   <death when="1794">
                      <placeName>Ryde, Isle of Wight, England</placeName>
                   </death>
-                  <occupation type = "literary" subtype = "literary"/>
-                  <occupation type = "literary" subtype = "correspondent"/>
+                  <occupation type = "literary"/>
+                  <occupation type = "literary"/>
                   <!-- Check this type -->
-                  <occupation type = "service" subtype = "companion"/>
+                  <occupation type = "service"/>
                   <!-- Check this type -->
-                  <note resp="#scw">Correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, companion and friend of <persName ref="#Fielding_Sarah">Sarah</persName> and <persName ref="#Fielding_Henry">Henry Fielding</persName>, accompanying the latter on his voyage to <placeName ref="#Lisbon">Lisbon</placeName>. Source: ODNB.</note>
+                  <note resp="#scw">Correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, companion and friend of <persName ref="#Fielding_Sarah">Sarah</persName> and <persName ref="#Fielding_Henry">Henry Fielding</persName>, accompanying the latter on his voyage to <!--Not an ID --><placeName ref="#lLisbon">Lisbon</placeName>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/96858124"/></note>
                </person>
                
@@ -864,9 +867,9 @@
                   <death when="1707-05-23">
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
-                  <occupation type = "literary" subtype = "literary"/>
+                  <occupation type = "literary"/>
                   <occupation type = "literary" subtype = "playwright"/>
-                  <note resp="#scw">Playwright, author of numerous plays, including <title ref="#Recruiting_Officer">The Recruiting Officer</title> and <title ref="#Beaux_Stratagem">The Beaux' Stratagem</title>. Source: ODNB.</note>
+                  <note resp="#scw">Playwright, author of numerous plays, including <!-- Not an ID --> <title ref="#Recruiting_Officer">The Recruiting Officer</title> and <!--Not an ID --><title ref="#Beaux_Stratagem">The Beaux' Stratagem</title>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/61545511"/></note>
                </person>
                
@@ -882,7 +885,7 @@
                   <death when="1768-04-09">
                      <placeName type="uncertain">Bath, Somerset, England</placeName>
                   </death>
-                  <note resp="#scw">Author of novels for adults and children, including <title>The Adventures of David Simple</title>, and <title>The Governess; or Little Female Academy</title>. She was the sister of <persName ref="#Fielding_Henry">Henry Fielding</persName>, a correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, and a collaborator of the sister of <persName ref="#Collier_Margaret">Margaret Collier</persName>, Jane, with whom she wrote <title ref="#The_Cry">The Cry</title>. Source: ODNB.</note>
+                  <note resp="#scw">Author of novels for adults and children, including <title>The Adventures of David Simple</title>, and <title>The Governess; or Little Female Academy</title>. She was the sister of <persName ref="#Fielding_Henry">Henry Fielding</persName>, a correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, and a collaborator of the sister of <persName ref="#Collier_Margaret">Margaret Collier</persName>, Jane, with whom she wrote <!-- Not an ID --><title ref="#The_Cry">The Cry</title>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/12317897"/></note>
                </person>
                
@@ -923,8 +926,9 @@
                   <death when="1812-10-28">
                      <placeName>Canterbury, Kent, England</placeName>
                   </death>
-                  <occupation type = "literary" subtype = "literary"/>
-                  <occupation type = "artist" subtype = "artistic"/>
+                  <occupation type = "literary"/>
+                  <occupation type = "artist"/>
+                  <!-- Check this type -->
                   <note resp="#scw">Poet and artist, an intimate of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, who admired her literary skills, and of <persName ref="#Chapone_Hester">Hester Chapone</persName> and other <orgName ref="#Bluestockings">Bluestockings</orgName>. Her portrait is included in the picture of <persName ref="#Richardson_Sam">Richardson</persName> reading <title ref="#Chas_Grandison_novel">Sir Charles Grandison</title>. Source: ODNB.<!--scw: There are 2 Susanna Highmores, both of whom knew Richardson. This one went by her maiden name professionally, and seems more connected to the Bluestockings than the other SH, which is more in line with the context of the story, Modern Antiques, in which she's referenced. Her inclusion in the portrait of SR reading Grandison sort of nails it for me. -->
                   <ref target="http://viaf.org/viaf/122040478"/></note>
                </person>
@@ -938,11 +942,12 @@
                   <forename>Meindart</forename>
                   <forename type="alt">Meyndert</forename>
                </persName>
-                  <birth notBefore="1638-10-31"><placeName ref="#Amsterdam">Amsterdam</placeName></birth>
+                  <birth notBefore="1638-10-31"><!--Not an ID --><placeName ref="#Amsterdam">Amsterdam</placeName></birth>
                   <death when="1709-12-17">
+                     <!--Not an ID -->
                      <placeName ref="#Amsterdam">Amsterdam, Netherlands</placeName>
                   </death>
-                  <occupation type = "artist" subtype = "artist"/>
+                  <occupation type = "artist"/>
                   <occupation type = "artist" subtype = "painter"/>
                   <note resp="#scw">Dutch Golden Age landscape painter, a student of <persName ref="#Ruysdael_Jacob"></persName>.</note>
                    <note><ref target="http://viaf.org/viaf/29800769"/>
@@ -968,7 +973,7 @@
                   <death when="1804-05-01">
                      <placeName>Exeter, Devon, England</placeName>
                   </death>
-                  <occupation type = "government" subtype = "political"/>
+                  <occupation type = "government"/>
                   <!-- Check this type -->
                   <note resp="#scw">First Marquess of Exeter, and later tenth Earl of Exeter, which he succeeded to upon the death of his uncle. His secret, bigamous marriage to the farmer's daughter, <persName ref="#Hoggins_Sarah">Sarah Hoggins</persName>, became a popular subject for poetry and art in the nineteenth century.</note><!--scw: I have an editor's note in the text for this episode, since none of these people are named in the text.-->
                   <!--LMW: no VIAF # -->
@@ -989,7 +994,7 @@
                   <death notBefore="1797-01-01" notAfter="1797-12-31">
                      <placeName>Stamford, Lincolnshire, England</placeName>
                   </death>
-                  <note resp="#scw">Known as the "Cottage Countess," <persName ref="#Hoggins_Sarah">Sarah Hoggins</persName> was a farmer's daughter who married <persName ref="#Cecil_Henry">Henry Cecil</persName>, who was, unbeknownst to her, the married heir to the Earldom of Exeter. The couple's portrait was painted by <persName>Thomas Lawrence</persName>, and the story became fodder for many nineteenth-century writers and artists, including <persName ref="#Tennyson">Tennyson</persName> and <persName>John Everett Millais</persName>. Their son, who inherited the father's title, later became a patron of the poet <persName ref="#Clare_John">John Clare</persName>, something <persName ref="#MRM">Mitford</persName> mentions in her chapter on <persName ref="#Clare_John">Clare</persName> in <title ref="#Recollections">Recollections of a Literary Life</title>.</note>
+                  <note resp="#scw">Known as the "Cottage Countess," <persName ref="#Hoggins_Sarah">Sarah Hoggins</persName> was a farmer's daughter who married <persName ref="#Cecil_Henry">Henry Cecil</persName>, who was, unbeknownst to her, the married heir to the Earldom of Exeter. The couple's portrait was painted by <persName>Thomas Lawrence</persName>, and the story became fodder for many nineteenth-century writers and artists, including <!--Not an ID --><persName ref="#Tennyson">Tennyson</persName> and <persName>John Everett Millais</persName>. Their son, who inherited the father's title, later became a patron of the poet <!--Not an ID --><persName ref="#Clare_John">John Clare</persName>, something <persName ref="#MRM">Mitford</persName> mentions in her chapter on <!--Not an ID --> <persName ref="#Clare_John">Clare</persName> in <title ref="#Recollections">Recollections of a Literary Life</title>.</note>
                   <note><ref target="https://en.wikipedia.org/wiki/Henry_Cecil,_1st_Marquess_of_Exeter#/media/File:1stMarquessOfExeter.jpg"/></note>
                   <!--LMW: No VIAF # -->
                   
@@ -1005,8 +1010,8 @@
                   <death when="1798-12-16">December 16, 1798
                      <placeName>Whitford, Flintshire, Wales</placeName></death>
                   <occupation type = "scholar" subtype = "naturalist"/>
-                  <occupation type = "literary" subtype = "writer"/>
-                  <occupation type = "explorer" subtype = "traveler"/>
+                  <occupation type = "literary" subtype = "essayist"/>
+                  <occupation type = "explorer" subtype = "traveller"/>
                   <occupation type = "scholar" subtype = "antiquarian"/>
                   <note type="bio" resp="#scw">Correspondent of <persName ref="#WhiteGilbert">Gilbert White</persName> in his <bibl>Natural History and Antiquities of Selborne</bibl>, Pennant was a naturalist and author whose many works included <title>Arctic Zoology</title>, <title>A Tour in Scotland 1769</title> and <title>A Synopsis of Quadrupeds</title>. His travels writings influenced <persName ref="#Johnson">Samuel Johnson</persName>, and he corresponded extensively with <persName>Joseph Banks</persName>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/7426596"/></note>
@@ -1024,9 +1029,10 @@
                   <death notAfter="1670-11-03">buried at
                      <placeName>Haarlem, Netherlands</placeName>
                   </death>
-                  <occupation type = "artist" subtype = "artist"/>
+                  <occupation type = "artist"/>
                   <occupation type = "artist" subtype = "painter"/>
-                  <note resp="#scw">Dutch Golden Age landscape painter, the father of <persName ref="#Ruysdael_Jacob">Jacob van Ruysdael</persName>, and the uncle of <persName ref="#Ruisdael_Jacob_van">Jacob van Ruisdael</persName>.</note>
+                  <!-- Check this type -->
+                  <note resp="#scw">Dutch Golden Age landscape painter, the father of <persName ref="#Ruysdael_Jacob">Jacob van Ruysdael</persName>, and the uncle of <persName ref="#Ruisdael_Jacob">Jacob van Ruisdael</persName>.</note>
                   <note><ref target="http://viaf.org/viaf/74123809"/></note>
                </person>
                
@@ -1041,6 +1047,7 @@
                      <placeName>Haarlem, Netherlands</placeName>
                   </birth>
                   <death when="1682-03-10">
+                     <!--Not an ID -->
                      <placeName ref="#Amsterdam">Amsterdam, Netherlands</placeName>
                   </death>
                   <occupation type = "artist" subtype = "painter"/>
@@ -1061,8 +1068,9 @@
                   <death when="1681">
                      <placeName>Haarlem, Netherlands</placeName>
                   </death>
-                  <occupation type = "artist" subtype = "artist"/>
+                  <occupation type = "artist"/>
                   <occupation type = "artist" subtype = "painter"/>
+                  <!-- Check this type -->
                   <note resp="#scw">Dutch Golden Age landscape painter, the son of <persName ref="#Ruysdael_Salomon">Salomon van Ruysdael</persName>, the cousin of <persName ref="#Ruisdael_Jacob">Jacob van Ruisdael</persName>, and the teacher of <persName ref="#Hobbema_M">Meindart Hobbema</persName>.</note>
                   <note><ref target="http://viaf.org/viaf/76585629"/></note>
                </person>
