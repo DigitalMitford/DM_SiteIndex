@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-05-25T19:39:31Z. .
+Schema generated from ODD source 2019-05-25T23:18:08Z. .
 TEI Edition: Version 3.5.0. Last updated on
 	8th May 2019, revision 905f30769
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
@@ -8996,123 +8996,127 @@ Suggested values include: 1] label; 2] data</a:documentation>
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:p>Identify note elements that are longer than [TOO LONG!] number of characters so exceeding the flow-length of our note box. (How long is this?) Raise a warning or an error that p breaks need to be added.
-               NOTE: WE NEED CORRESPONDING XSLT ALTERATION FOR NOTE BOXES TO READ 1st Paragraph ONLY.
-            </sch:p>
-         </sch:pattern> 
+                  <sch:p>Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. </sch:p>
+               </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:p>Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. </sch:p>
-         </sch:pattern> 
+                  <sch:p>Identify stub entries.</sch:p>
+                  <sch:rule context="*[@xml:id]">
+                     <sch:report test="count(child::*) eq 1" role="warning">Warning: stub element. We should flesh this out and add more information.</sch:report>
+                  </sch:rule>
+               </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:p>Identify stub entries.</sch:p>
-            <sch:rule context="*[@xml:id]">
-               <sch:report test="count(child::*) eq 1" role="warning">Warning: stub element. We should flesh this out and add more information.</sch:report>
-            </sch:rule>
-         </sch:pattern> 
-   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:rule context="tei:person[descendant::tei:surname = //tei:surname[not(ancestor::tei:person = self::tei:person)]]">
-               <sch:let name="currentContext" value="."/>
-               <sch:let name="sharedSurname"
+                  <sch:rule context="tei:person[descendant::tei:surname = //tei:surname[not(ancestor::tei:person = self::tei:person)]]">
+                     <sch:let name="currentContext" value="."/>
+                     <sch:let name="sharedSurname"
                   value="//tei:person[not(. = $currentContext)][descendant::tei:surname = $currentContext/descendant::tei:surname]"/>
-               <sch:report test="descendant::tei:forename = $sharedSurname//tei:forename"
+                     <sch:report test="descendant::tei:forename = $sharedSurname//tei:forename"
                      role="warning">
-                  Warning! Is this a duplicate entry? The person represented in this entry shares a surname and a forename with one or more other entries: <sch:value-of select="string-join($sharedSurname[descendant::tei:forename = $currentContext//tei:forename]/@xml:id, ', ')"/>
-               </sch:report>
-            </sch:rule>
-         </sch:pattern> 
+                        Warning! Is this a duplicate entry? The person represented in this entry shares a surname and a forename with one or more other entries: <sch:value-of select="string-join($sharedSurname[descendant::tei:forename = $currentContext//tei:forename]/@xml:id, ', ')"/>
+                     </sch:report>
+                  </sch:rule>
+               </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:p>This rule [TO BE DEVELOPED] will test the plausibilty of birth dates in relation to death dates.</sch:p>
-         </sch:pattern> 
+                  <sch:p>This rule will test the plausibilty of birth dates in relation to death dates.</sch:p>
+                  <sch:rule context="tei:person[tei:birth/@*[matches(., '^\d')] and tei:death/@*[matches(., '^\d')]]">
+                     <sch:assert test="tei:birth/@* &lt; tei:death/@*">Birth dates must be earlier than death dates.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:person[tei:birth/@*[matches(., '^-')] and tei:death/@*[matches(., '^-')]]">
+                     <sch:assert test="tei:birth/@* &gt; tei:death/@*">When dates begin with a minus sign (BCE), the value for the birth year must be a larger negative number than the death year. Birth dates must be earlier than death dates.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:person[tei:death/@*[matches(., '^-')]]">
+         <sch:report test="tei:birth/@*[matches(., '^\d')]">This birth date seems to be positive (ADE) while the death date is negative (BCE). Birth dates must be earlier than death dates.</sch:report>
+                  </sch:rule>
+                  <sch:rule context="tei:person[tei:birth/@*[matches(., '^-')]]">
+                     <sch:report test="tei:death/@*[matches(., '^\d')] and tei:death/@*/number() &gt; 99">This birth date seems to be negative (BCE) while the death date is positive (ADE) and greater than 99, which seems an excessively long life span. Check if the dates are correct?</sch:report>
+                  </sch:rule>
+               </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:rule context="@sex">
-               <sch:report test="matches(., '[0-9,]')">
-                  We are no longer using the ISO numerical codes for sex, and this attribute may not contain commas. Change this code to a letter, one (or more) of the following approved values: m, f, m f, and u. If indicating multiple values, separate each with just a white space.
-               </sch:report>
-               
-            </sch:rule>
-            
-         </sch:pattern> 
+                  <sch:rule context="@sex">
+                     <sch:report test="matches(., '[0-9,]')">
+                        We are no longer using the ISO numerical codes for sex, and this attribute may not contain commas. Change this code to a letter, one (or more) of the following approved values: m, f, m f, and u. If indicating multiple values, separate each with just a white space.
+                     </sch:report>
+                     
+                  </sch:rule>
+                  
+               </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:rule context="tei:text//@xml:id">
-               <sch:report test="matches(., '\s+')">
-                  @xml:id values must not contain white spaces.
-               </sch:report>   
-               <sch:report test="starts-with(., '#')">
-                  @xml:id values must not begin with a hashtag.
-               </sch:report>
-            </sch:rule>
-         </sch:pattern> 
+                  <sch:rule context="tei:text//@xml:id">
+                     <sch:report test="matches(., '\s+')">
+                        @xml:id values must not contain white spaces.
+                     </sch:report>   
+                     <sch:report test="starts-with(., '#')">
+                        @xml:id values must not begin with a hashtag.
+                     </sch:report>
+                  </sch:rule>
+               </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            <sch:rule context="tei:TEI"> 
-               <sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])">
-                  There must not be any duplicate @sortkey values in the site index! 
-               </sch:assert>
-            </sch:rule>  
-         </sch:pattern> 
+                  <sch:rule context="tei:TEI"> 
+                     <sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])">
+                        There must not be any duplicate @sortkey values in the site index! 
+                     </sch:assert>
+                  </sch:rule>  
+               </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0">
-            
-            <sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>
-            <sch:let name="siAddcoll"
+                  
+                  <sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>
+                  <sch:let name="siAddcoll"
                value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/>
-            <sch:let name="siAll" value="($si, $siAddcoll)"/>
-            <sch:rule context="@ref | @corresp | @resp">
-               
-               <sch:let name="tokens"
+                  <sch:let name="siAll" value="($si, $siAddcoll)"/>
+                  <sch:rule context="@ref | @corresp | @resp">
+                     
+                     <sch:let name="tokens"
                   value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>
-               <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
-                  Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
-               </sch:assert>                
-            </sch:rule>
-         </sch:pattern>
+                     <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
+                        Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
+                     </sch:assert>                
+                  </sch:rule>
+               </sch:pattern>
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                ident="multiParNotes">
+                xmlns:rng="http://relaxng.org/ns/structure/1.0">
+                     <sch:title>Multi-paragraph notes</sch:title>
                      <sch:rule context="tei:note">
-                        <sch:assert test="count(descendant::tei:p) gt 1" role="info">This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?</sch:assert>
+                        <sch:report test="count(descendant::tei:p) gt 1" role="info">This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?</sch:report>
                      </sch:rule>
                   </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                ident="firstParMRMRef">
-                     <sch:rule context="tei:note[count(descendant::tei:par) gt 1]//tei:par[1]">
+                xmlns:rng="http://relaxng.org/ns/structure/1.0">
+                     <sch:title>Does the first paragraph contain a Mitford reference?</sch:title>
+                     <sch:rule context="tei:note[count(descendant::tei:p) gt 1]//tei:p[1]">
                         <sch:assert test="contains(., 'Mitford')" role="warning">In this multi-paragraph note, the first paragraph needs to mention Mitford in some way to prioritize MRM’s relationship with this named entity.</sch:assert>
                      </sch:rule>
                   </sch:pattern> 
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                ident="birthDeathRef">
+                xmlns:rng="http://relaxng.org/ns/structure/1.0">
+                     <sch:title>Mentions of birth and death</sch:title>
                      <sch:rule context="tei:note">
-                        <sch:assert test="contains(., 'was born') | contains(., 'died')" role="blue">We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.</sch:assert>
+                        <sch:report test="contains(., 'was born') or contains(., 'died')" role="info">We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.</sch:report>
                      </sch:rule>
                   </sch:pattern>
 </grammar>

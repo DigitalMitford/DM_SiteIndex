@@ -540,7 +540,18 @@
                   </sch:rule>
                </sch:pattern>
                <sch:pattern>
-                  <sch:p>This rule [TO BE DEVELOPED] will test the plausibilty of birth dates in relation to death dates.</sch:p>
+                  <sch:p>This rule will test the plausibilty of birth dates in relation to death dates.</sch:p>
+                  <sch:rule context="tei:person[tei:birth/@*[matches(., '^\d')] and tei:death/@*[matches(., '^\d')]]">
+                     <sch:assert test="tei:birth/@* &lt; tei:death/@*">Birth dates must be earlier than death dates.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:person[tei:birth/@*[matches(., '^-')] and tei:death/@*[matches(., '^-')]]">
+                     <sch:assert test="tei:birth/@* &gt; tei:death/@*">When dates begin with a minus sign (BCE), the value for the birth year must be a larger negative number than the death year. Birth dates must be earlier than death dates.</sch:assert>
+                  </sch:rule>
+                  <sch:rule context="tei:person[tei:death/@*[matches(., '^-')]]"><sch:report test="tei:birth/@*[matches(., '^\d')]">This birth date seems to be positive (ADE) while the death date is negative (BCE). Birth dates must be earlier than death dates.</sch:report>
+                  </sch:rule>
+                  <sch:rule context="tei:person[tei:birth/@*[matches(., '^-')]]">
+                     <sch:report test="tei:death/@*[matches(., '^\d')] and tei:death/@*/number() &gt; 99">This birth date seems to be negative (BCE) while the death date is positive (ADE) and greater than 99, which seems an excessively long life span. Check if the dates are correct?</sch:report>
+                  </sch:rule>
                </sch:pattern>
                <sch:pattern>
                   <sch:rule context="@sex">

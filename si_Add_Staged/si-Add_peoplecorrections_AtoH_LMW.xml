@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -94,10 +97,9 @@
                   <persName><forename>Pownoll</forename>
                      <surname>Adams</surname>
                   </persName>
-                  <birth>
-                     <date notAfter="1779-01-01">
+                  <birth notAfter="1779-01-01">
                         <placeName>Totnes, Devon, England</placeName>
-                     </date>
+                     
                   </birth>
                   <death when="1856-04">
                      <placeName>East Budleigh, Devon, England</placeName>
@@ -2580,15 +2582,13 @@
                      <forename>Alleyne</forename>
                      <surname>Culpeper</surname>
                   </persName>
-                  <birth>
-                     <date notAfter="1794">
+                  <birth notAfter="1794">
                         <placeName>St. George, Barbadoes</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1870-01-29">
+                  <death when="1870-01-29">
                         <placeName>Paris, France</placeName>
-                     </date>
+                     
                   </death>
                   <note resp="#lmw">William Alleyn Culpeper of <placeName>Barbadoes</placeName> (second of that name), was the second husband of <persName ref="#Culpepper_Mrs">Martha Valpy Straker</persName>,<persName ref="#Valpy_Richard">Dr. Valpy</persName>'s eldest daughter by his first wife, <persName ref="#Culpepper_Mrs">Martha Cornelia de Cartaret</persName>. <rs type="event">They married at <placeName>St. Martin in the Fields, Westminster</placeName>, on <date when="1815-11-21">November 21, 1815</date>.</rs> They lived together at <placeName>Cavendish Square, St Marylebone, Middlesex</placeName> in 1841. According to probate records, he died in Paris, France on 29 January 1870, and was late of <placeName>17 Lansdowne Crescent, Notting-Hill, Middlesex</placeName>. Although <persName ref="#MRM">Mitford</persName> spells the name as <quote>Culpepper</quote> in her journal and letters, the majority of legal documents spell the name as <quote>Culpeper</quote>.
                   </note>
@@ -2605,10 +2605,9 @@
                      <forename>Cornelia</forename>
                   </persName>
                   <persName>Mrs. Culpepper</persName>
-                  <birth>
-                     <date notAfter="1779-11-16">
+                  <birth notAfter="1779-11-16">
                         <placeName>St. Mary's, Suffolk, England</placeName>
-                     </date>
+                     
                   </birth>
                   <note resp="#ebb #lmw #scw">
                      <persName ref="#Valpy_Richard">Dr. Valpy</persName>'s eldest daughter by his first wife, Martha Cornelia de Cartaret. Martha Carteretta Cornelia Valpy was born in late 1779 and baptized 16 November 1779 at St Mary's, Suffolk. <rs type="event">She was married twice; first to <persName>Thomas James Straker, esq. of Barbados</persName> on <date when="1804-05-03">May 3, 1804</date> at <placeName>St. Lawrence, Reading, Berkshire, England</placeName>
@@ -3029,15 +3028,13 @@
                      <surname type="paternal">Allingham</surname>
                      <surname type="married">Dickinson</surname>
                   </persName>
-                  <birth>
-                     <date notAfter="1787">
+                  <birth notAfter="1787">
                         <placeName>Middlesex, England</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1861-09-02">
+                  <death when="1861-09-02">
                         <placeName>St. Marylebone, Middlesex, England</placeName>
-                     </date>
+                     
                   </death>
                   <note resp="#ajc #lmw">Catherine Allingham was born about 1787 in Middlesex, the daughter of Thomas Allingham. She married Charles Dickinson on <date when="1807-08-02">August 2, 1807</date> at St. Giles, South Mimms, Middlesex. They lived in Swallowfield, Berkshire, where their daughter Frances was born, and where they were visited by the Mitford family. According to Mitford, Catherine Dickinson was fond of match-making among her friends and acquaintances. (See <rs type="letter">
                         <persName ref="#MRM">Mitford</persName>'s <date when="1821-02-08">February 8th, 1821</date> letter to <persName ref="#Elford_SirWm">Elford</persName>
@@ -3182,7 +3179,7 @@
                      <forename>Elizabeth</forename>
                   </persName>
                   <birth when="1766-01-06">January 6, 1766</birth>
-                  <death>unknown</death>
+                  <death notBefore="1789">unknown</death>
                   <note resp="#scw">Second wife of <persName ref="#Drover_JamesSr">James Drover, Sr.</persName>, whom she married in <date when="1789">1789</date>, and mother of <persName ref="#Drover_JamesJr">James Drover, Jr.</persName>, both of whom operated a China shop on <placeName>Minster Street</placeName> in <placeName ref="#Reading_city">Reading</placeName>. Sources: The Registers of the Parish of St. Mary's, Reading, Berks., 1538-1812. Vol. II: Marriages and Burials. Google Books. Ancestry.com.</note>
                </person>
                

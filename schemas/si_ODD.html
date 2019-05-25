@@ -7059,11 +7059,7 @@ teiteidata.xmlName = xsd:NCName</pre></td></tr><tr><td class="wovenodd-col1"><sp
  &lt;textNode/&gt;
 &lt;/content&gt;
     </pre></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Declaration</span></td><td class="wovenodd-col2"><pre class="pre_eg cdata">
-teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Note</span></td><td class="wovenodd-col2"><p>Any XPath expression using the syntax defined in [[undefined XSLT2]].</p><p>When writing programs that evaluate XPath expressions, programmers should be mindful of the possibility of malicious code injection attacks. For further information about XPath injection attacks, see the <a class="link_ref" href="https://www.owasp.org/index.php/XPATH_Injection">article at OWASP</a>.</p></td></tr></table></div></div></div><div class="teidiv0" id="index.xml-body.1_div.6"><h2><span class="headingNumber">6. </span><span class="head">Constraints</span></h2><div class="table"><table class="wovenodd"><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">  &lt;sch:pattern&gt;
-&lt;sch:p&gt;Identify note elements that are longer than [TOO LONG!] number of characters so exceeding the flow-length of our note box. (How long is this?) Raise a warning or an error that p breaks need to be added.
- NOTE: WE NEED CORRESPONDING XSLT ALTERATION FOR NOTE BOXES TO READ 1st Paragraph ONLY.
-&lt;/sch:p&gt;
-&lt;/sch:pattern&gt;
+teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Note</span></td><td class="wovenodd-col2"><p>Any XPath expression using the syntax defined in [[undefined XSLT2]].</p><p>When writing programs that evaluate XPath expressions, programmers should be mindful of the possibility of malicious code injection attacks. For further information about XPath injection attacks, see the <a class="link_ref" href="https://www.owasp.org/index.php/XPATH_Injection">article at OWASP</a>.</p></td></tr></table></div></div></div><div class="teidiv0" id="index.xml-body.1_div.6"><h2><span class="headingNumber">6. </span><span class="head">Constraints</span></h2><div class="table"><table class="wovenodd"><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:pattern&gt;
 &lt;sch:p&gt;Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. &lt;/sch:p&gt;
 &lt;/sch:pattern&gt;
@@ -7087,7 +7083,21 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;
 &lt;sch:pattern&gt;
-&lt;sch:p&gt;This rule [TO BE DEVELOPED] will test the plausibilty of birth dates in relation to death dates.&lt;/sch:p&gt;
+&lt;sch:p&gt;This rule will test the plausibilty of birth dates in relation to death dates.&lt;/sch:p&gt;
+&lt;sch:rule context="tei:person[tei:birth/@*[matches(., '^\d')] and tei:death/@*[matches(., 
+ '^\d')]]"&gt;
+ &lt;sch:assert test="tei:birth/@* &lt; tei:death/@*"&gt;Birth dates must be earlier than death dates.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:person[tei:birth/@*[matches(., '^-')] and tei:death/@*[matches(., 
+ '^-')]]"&gt;
+ &lt;sch:assert test="tei:birth/@* &gt; tei:death/@*"&gt;When dates begin with a minus sign (BCE), the value for the birth year must be a larger negative number than the death year. Birth dates must be earlier than death dates.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:person[tei:death/@*[matches(., '^-')]]"&gt;
+ &lt;sch:report test="tei:birth/@*[matches(., '^\d')]"&gt;This birth date seems to be positive (ADE) while the death date is negative (BCE). Birth dates must be earlier than death dates.&lt;/sch:report&gt;
+&lt;/sch:rule&gt;
+&lt;sch:rule context="tei:person[tei:birth/@*[matches(., '^-')]]"&gt;
+ &lt;sch:report test="tei:death/@*[matches(., '^\d')] and tei:death/@*/number() &gt; 99"&gt;This birth date seems to be negative (BCE) while the death date is positive (ADE) and greater than 99, which seems an excessively long life span. Check if the dates are correct?&lt;/sch:report&gt;
+&lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;
 &lt;sch:pattern&gt;
 &lt;sch:rule context="@sex"&gt;
@@ -7128,22 +7138,25 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
  role="fatal"&gt; Attributes @ref, @who, @corresp, and @wit must begin with a hashtag.
 &lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
-&lt;sch:pattern ident="multiParNotes"&gt;
+&lt;sch:pattern&gt;
+&lt;sch:title&gt;Multi-paragraph notes&lt;/sch:title&gt;
 &lt;sch:rule context="tei:note"&gt;
- &lt;sch:assert test="count(descendant::tei:p) gt 1"
-  role="info"&gt;This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?&lt;/sch:assert&gt;
+ &lt;sch:report test="count(descendant::tei:p) gt 1"
+  role="info"&gt;This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?&lt;/sch:report&gt;
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;
-&lt;sch:pattern ident="firstParMRMRef"&gt;
-&lt;sch:rule context="tei:note[count(descendant::tei:par) gt 1]//tei:par[1]"&gt;
+&lt;sch:pattern&gt;
+&lt;sch:title&gt;Does the first paragraph contain a Mitford reference?&lt;/sch:title&gt;
+&lt;sch:rule context="tei:note[count(descendant::tei:p) gt 1]//tei:p[1]"&gt;
  &lt;sch:assert test="contains(., 'Mitford')"
   role="warning"&gt;In this multi-paragraph note, the first paragraph needs to mention Mitford in some way to prioritize MRM’s relationship with this named entity.&lt;/sch:assert&gt;
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;
-&lt;sch:pattern ident="birthDeathRef"&gt;
+&lt;sch:pattern&gt;
+&lt;sch:title&gt;Mentions of birth and death&lt;/sch:title&gt;
 &lt;sch:rule context="tei:note"&gt;
- &lt;sch:assert test="contains(., 'was born') | contains(., 'died')"
-  role="blue"&gt;We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.&lt;/sch:assert&gt;
+ &lt;sch:report test="contains(., 'was born') or contains(., 'died')"
+  role="info"&gt;We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.&lt;/sch:report&gt;
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:pattern&gt;
@@ -7286,6 +7299,6 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 	    Date: 2018-08-11<br /><!--
 	  Generated from index.xml using XSLT stylesheets version 7.47.0
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2019-05-25T19:39:19Z.
+	       on 2019-05-25T23:17:57Z.
 	       SAXON PE 9.8.0.12.
 		 --></address></div></body></html>

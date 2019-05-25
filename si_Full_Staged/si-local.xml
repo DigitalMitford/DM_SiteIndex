@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -2950,10 +2949,9 @@
                      <roleName> Knight Commander of Hanover (KCH)</roleName>
                   </persName>
                   <persName>General Sir George Pownoll Adams, KCH</persName>
-                  <birth>
-                     <date notAfter="1779-01-01">
+                  <birth notAfter="1779-01-01">
                         <placeName>Totnes, Devon, England</placeName>
-                     </date>
+                     
                   </birth>
                   <death when="1856-04"/>
                   <occupation>military</occupation>
@@ -3145,7 +3143,7 @@
                   <persName>
                      <surname>Anacreon</surname>
                   </persName>
-                  <birth when="-0560">
+                 <birth when="-0560">
                      <placeName>Teos, Ionia</placeName>
                   </birth>
                   <death when="-0478"/>
@@ -3436,7 +3434,7 @@
                   <birth when="1860-05-09">
                      <placeName>Kirriemuir, Angus, Scotland</placeName>
                   </birth>
-                  <death when="1837-06-19">
+                  <death when="1937-06-19">
                      <placeName>London, England</placeName>
                   </death>
                   <occupation>literary</occupation>
@@ -5725,15 +5723,13 @@
                      <forename>Alleyne</forename>
                      <surname>Culpeper</surname>
                   </persName>
-                  <birth>
-                     <date notAfter="1794">
+                  <birth notAfter="1794">
                         <placeName>St. George, Barbadoes</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1870-01-29">
+                  <death when="1870-01-29">
                         <placeName>Paris, France</placeName>
-                     </date>
+                     
                   </death>
                   <note type="bio" resp="#lmw">William Alleyn Culpeper of
                         <placeName>Barbadoes</placeName> (second of that name), was the second
@@ -5760,10 +5756,9 @@
                      <forename>Cornelia</forename>
                   </persName>
                   <persName>Mrs. Culpepper</persName>
-                  <birth>
-                     <date notAfter="1779-11-16">
+                  <birth notAfter="1779-11-16">
                         <placeName>St. Mary’s, Suffolk, England</placeName>
-                     </date>
+                     
                   </birth>
                   <note type="bio" resp="#ebb #lmw #scw">
                      <persName ref="#Valpy_Richard">Dr. Valpy</persName>’s eldest daughter by his
@@ -6221,15 +6216,13 @@
                      <surname type="paternal">Allingham</surname>
                      <surname type="married">Dickinson</surname>
                   </persName>
-                  <birth>
-                     <date notAfter="1787">
+                  <birth notAfter="1787">
                         <placeName>Middlesex, England</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1861-09-02">
+                  <death when="1861-09-02">
                         <placeName>St. Marylebone, Middlesex, England</placeName>
-                     </date>
+                     
                   </death>
                   <note type="bio" resp="#ajc #lmw">Catherine Allingham was born about 1787 in
                      Middlesex, the daughter of Thomas Allingham. She married Charles Dickinson on
@@ -6611,8 +6604,7 @@
                      <surname type="paternal">Elford</surname>
                   </persName>
                   <persName>Miss Elford</persName>
-                  <birth>
-                     <date notAfter="1781-11-05"/>
+                  <birth notAfter="1781-11-05">
                      <placeName>Plympton, Devon, England</placeName>
                   </birth>
                   <death when="1856-02-24">
@@ -7792,7 +7784,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Oliver</forename>
                      <surname>Goldsmith</surname>
                   </persName>
-                  <birth when="1728-11-10">
+              <birth when="1728-11-10">
                      <placeName>Ireland(exact location contested)</placeName>
                   </birth>
                   <death when="1774-04-04">
@@ -9102,10 +9094,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">James</surname>
                      <forename>Emily</forename>
                   </persName>
-                  <birth>
-                     <date notAfter="1782">
+                  <birth notAfter="1782">
                         <placeName>Bath, Somerset, England</placeName>
-                     </date>
+                     
                   </birth>
                   <death when="1863-08-29">
                      <placeName>3 Pembroke Villas, Richmond, Surrey</placeName>
@@ -9127,15 +9118,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Mary</forename>
                      <surname type="paternal">James</surname>
                   </persName>
-                  <birth>
-                     <date notAfter="1775">
+                  <birth notAfter="1775">
                         <placeName>Bath, Somerset, England</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1861-11-25">
+                  <death when="1861-11-25">
                         <placeName>3 Pembroke Villas, Richmond, Surrey, England</placeName>
-                     </date>
+                     
                   </death>
                   <note type="bio" resp="#lmw">Close friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. She was born about 1775 in Bath,
                      Somerset, the eldest daughter of Thomas Webb and Susanna Haycock. Her father
@@ -9159,14 +9148,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename type="alt">Susannah</forename>
                   </persName>
                   <persName>Mrs. James</persName>
-                  <birth>
-                     <date notAfter="1754-10-17">
+                  <birth notAfter="1754-10-17">
                         <placeName>Bath, Somerset, England</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date notAfter="1841"/>
-                  </death>
+                  <death notAfter="1841"/>
                   <note resp="#lmw">Susan or Susannah Haycock, wife of Thomas James and mother of
                         <persName ref="#James_Miss">Elizabeth Mary James</persName>, <persName ref="#James_Susan">Susan James</persName>, and <persName ref="#James_Emily">Emily James</persName>. She was born about 1754 and was baptized at Bath
                      Abbey, Bath, Somerset on <date when="1754-10-17">October 17, 1754</date>, the
@@ -9208,10 +9194,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename type="alt">Susy</forename>
                      <forename>Deane</forename>
                   </persName>
-                  <birth>
-                     <date notAfter="1788">
+                  <birth notAfter="1788">
                         <placeName>Bath, Somerset, England</placeName>
-                     </date>
+                     
                   </birth>
                   <death when="1860-12-27">
                      <placeName>3 Pembroke Villas, Richmond, Surrey</placeName>
@@ -9562,12 +9547,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation>actor</occupation>
                   <occupation>literary</occupation>
                   <note type="bio" resp="#lmw #cmm">
-                     <p>British actress, later Mrs. Charles Kemble. Acted under <soCalled>Miss deCamp</soCalled>, sometimes spelled <soCalled>duCamp</soCalled>. <event when="1806-07-02">Married actor <persName ref="#Kemble_C">Charles Kemble</persName>
-                           <date>2 July 1806</date>
-                        </event>.
-                        Starred in a travestied version of <bibl>
-                           <title level="m">The Beggar’s Opera</title> in <date>1792</date>
-                        </bibl> and went on to star in <title level="m">Miss in her
+                     <p>British actress, later Mrs. Charles Kemble. Acted under <soCalled>Miss deCamp</soCalled>, sometimes spelled <soCalled>duCamp</soCalled>. <rs type="event">Married actor <persName ref="#Kemble_C">Charles Kemble</persName> <date>2 July 1806</date></rs>. Starred in a travestied version of <bibl><title level="m">The Beggar’s Opera</title> in <date>1792</date></bibl> and went on to star in <title level="m">Miss in her
                         Teens</title>, <title level="m">The Recruiting Officer</title> and <title level="m">The Iron
                            Chest</title>. After her marriage, she appeared at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>, assisted
                            <persName ref="#Kemble_C">Charles Kemble</persName> with productions, and
@@ -10506,15 +10486,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Esq.</roleName>
                   </persName>
                   <persName type="alt">George Midford</persName>
-                  <birth>
-                     <date when="1760-11-15">
+                  <birth when="1760-11-15">
                         <placeName>Hexham, Northumberland, England</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1842-12-11">
+                  <death when="1842-12-11">
                         <placeName>Three Mile Cross, Shinfield, Berkshire, England</placeName>
-                     </date>
+                     
                   </death>
                   <occupation>surgeon</occupation>
                   <occupation>medical</occupation>
@@ -10877,7 +10855,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Mudie_Rob" sex="m">
                   <persName>Robert Mudie</persName>
-                  <birth when="1877-06-28">
+                  <birth when="1777-06-28">
                      <placeName>Angus, Scotland</placeName>
                   </birth>
                   <death when="1842-04-29"/>
@@ -10981,8 +10959,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Newman</surname>
                      <forename/>
                   </persName>
-                  <birth/>
-                  <death/>
                   <occupation>butler</occupation>
                   <occupation>service</occupation>
                   <note resp="#kab"> The butler of Mitford’s acquaintance <persName ref="#Valpy_Richard">Dr. Valpy</persName>.</note>
@@ -11982,7 +11958,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Raleigh</surname>
                   </persName>
                   <persName>Sir Walter Raleigh</persName>
-                  <birth>
+                  <birth notBefore="1552">
                      <placeName>East Budleigh, England</placeName>
                   </birth>
                   <death when="1618-10-29">
@@ -12430,21 +12406,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Ann</forename>
                      <forename>Catherine</forename>
                   </persName>
-                  <birth>
-                     <date notAfter="1786">
+                  <birth notAfter="1786">
                         <placeName>Reading, Berkshire, England</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1854-01"/>
+                  <death when="1854-01">
                      <placeName>Bath, Somerset, England</placeName>
                   </death>
                   <note type="bio" resp="#ebb #lmw #mco">Eldest of the daughters of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and his second wife,
                         <persName>Mary Benwell</persName>, likely born about 1786. <rs type="event">Mary Ann Catherine Valpy married <persName>Thomas Roworth, Esq. </persName>
                         of Blagdon, Somerset on <date when="1810-11-24">24 November 1810</date>
                      </rs> at St. Lawrence, Reading, Berkshire. They lived in Blagdon, Somerset, and
-                     died without issue. Mary Valpy Roworth died in <date when="1854-01">January
-                        1854</date> at Bath, Somerset.</note>
+                     died without issue. Mary Valpy Roworth died in <date when="1854-01">January 1854</date> at Bath, Somerset.</note>
                </person>
                <person xml:id="Rubens" sex="m">
                   <persName>
@@ -13723,15 +13696,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Elizabeth</forename>
                      <forename>Blanch</forename>
                   </persName>
-                  <birth>
-                     <date notAfter="1795-08-04">
+                  <birth notAfter="1795-08-04">
                         <placeName>Reading, Berkshire, England</placeName>
-                     </date>
+                     
                   </birth>
-                  <death>
-                     <date when="1873">
+                  <death when="1873">
                         <placeName>St. Helier, Jersey, Channel Islands</placeName>
-                     </date>
+                     
                   </death>
                   <note type="bio" resp="#ebb">One of four daughters of Dr. Richard Valpy and his
                      second wife, <persName>Mary Benwell</persName>; she was born about 1795 and was
@@ -14282,10 +14253,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename type="alt">Eliza</forename>
                      <forename>Elizabeth</forename>
                   </persName>
-                  <birth>
-                     <date notBefore="1797-03-03">
+                  <birth notBefore="1797-03-03">
                         <placeName/>
-                     </date>
+                     
                   </birth>
                   <note resp="#scw #lmw">Elizabeth Webb, called "Eliza," was a neighbor and friend
                      of <persName ref="#MRM">Mary Russell Mitford</persName>. Eliza Webb was born
