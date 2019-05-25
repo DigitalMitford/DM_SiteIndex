@@ -520,11 +520,7 @@
          </constraintSpec>   
          
 <!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
-       <constraintSpec ident="SI_Guidance" scheme="schematron"><constraint>  <sch:pattern>
-            <sch:p>Identify note elements that are longer than [TOO LONG!] number of characters so exceeding the flow-length of our note box. (How long is this?) Raise a warning or an error that p breaks need to be added.
-               NOTE: WE NEED CORRESPONDING XSLT ALTERATION FOR NOTE BOXES TO READ 1st Paragraph ONLY.
-            </sch:p>
-         </sch:pattern>    
+       <constraintSpec ident="SI_Guidance" scheme="schematron"><constraint>     
          <sch:pattern>
             <sch:p>Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. </sch:p>
          </sch:pattern>
