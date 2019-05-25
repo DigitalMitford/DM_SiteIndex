@@ -225,10 +225,11 @@
                <valItem ident="vicar"><gloss>with type="religious".</gloss></valItem>
                <valItem ident="curate"><gloss>with type="religious".</gloss></valItem>
                <valItem ident="minister"><gloss>with type="religious".</gloss></valItem>
+               <valItem ident="rector"><gloss>with type="religious".</gloss></valItem>
                <valItem ident="priest"><gloss>with type="religious". Use for Catholic clergy as well as Greek/Roman clergy. Synonymous with priestess for the purposes of our encoding.</gloss></valItem>
-               <!--'musician', 'composer' -->
                <valItem ident="composer"><gloss>with type="religious". For composers of religious music.</gloss></valItem>
                <valItem ident="musician"><gloss>with type="religious". For musical performers in church settings and religious contexts.</gloss></valItem>
+               <valItem ident="churchAssist"><gloss>with type="religious". For non-leadership roles serving the church (such as pew-opener).</gloss></valItem>
                <!--Subtypes related to type="educator" -->
                <valItem ident="teacher"><gloss>with type="educator".</gloss></valItem>
                <valItem ident="schoolHead"><gloss>with type="educator". (for headmistress, schoolmaster, etc.)</gloss></valItem>
@@ -253,10 +254,11 @@
                <!--Subtypes related to type="legal" --> 
                <valItem ident="barrister"><gloss>with type="legal". British lawyers who can plead in court.</gloss></valItem>
                <valItem ident="solicitor"><gloss>with type="legal". British lawyers who do not plead in court.</gloss></valItem>
-               <valItem ident="lawyer"><gloss>with type="legal". ONLY appropriate if law practitioner from the United States.</gloss></valItem>  
+               <valItem ident="lawyer"><gloss>with type="legal". ONLY appropriate if law practitioner from the United States.</gloss></valItem> 
+               <valItem ident="recorder"><gloss>with type="legal". </gloss></valItem> 
                <valItem ident="judge"><gloss>with type="legal". ex: Mr. Justice Talfourd</gloss></valItem>  
                <valItem ident="magistrate"><gloss>with type="legal". ex: George Mitford</gloss></valItem>  
-               <valItem ident="recorder"><gloss>with type="legal". </gloss></valItem> 
+               <valItem ident="enforcement"><gloss>with type="legal". For constable, police, or sheriff, those involved in law enforcement.</gloss></valItem>
                <!--Subtypes related to type="literary" -->
                <valItem ident="novelist"><gloss>with type="literary". </gloss></valItem> 
                <valItem ident="poet"><gloss>with type="literary". </gloss></valItem> 
@@ -290,6 +292,7 @@
                <!--Subtypes related to type="benefactor" -->
                <valItem ident="philanthropist"><gloss>with type="benefactor". For doers of benevolent activities outside of the arts</gloss></valItem>
                <valItem ident="patron"><gloss>with type="benefactor". For supporters of the arts, theatre, and writers</gloss></valItem>
+               <valItem ident="volunteer"><gloss>with type="benefactor". For individual benevolent activities involving labor rather than money</gloss></valItem>
                <!--Subtypes related to type="government" -->
                <valItem ident="monarch"><gloss>with type="government". Titles like King, Queen, Princess are coded in &lt;roleName&gt;, not &lt;occupation&gt;.</gloss></valItem> 
                <valItem ident="politician"><gloss>with type="government". Use for elected officials and those running for election or who are in office by reason of political party or affiliation. Code their official title (such as "Member of Parliament for Westminster) with &lt;roleName&gt;.</gloss></valItem>  
@@ -340,7 +343,7 @@
            <exemplum>
               <p>The <gi>occupation</gi> element in lists of editors and assistants on the Digital Mitford project should contain a roleName to contain institutional roles and affiliation:</p>
               <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                 <occupation type="educator"><roleName>Assistant Professor of English <affiliation>Missouri Southern State
+                 <occupation type="scholar"><roleName>Assistant Professor of English <affiliation>Missouri Southern State
                     University</affiliation></roleName>
                  </occupation>
               </egXML>
@@ -397,7 +400,7 @@
                   <sch:let name="bookProducerSubtypes"
                      value="('publisher', 'printer', 'binder', 'bookseller')"/>
                   <sch:let name="religiousSubtypes"
-                     value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'priest', 'musician', 'composer')"/>
+                     value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'rector', 'priest', 'musician', 'composer', 'churchAssist')"/>
                   <sch:let name="educatorSubtypes"
                      value="('teacher', 'schoolHead', 'governess', 'tutor', 'lecturer')"/>
                   <sch:let name="scholarSubtypes"
@@ -405,7 +408,7 @@
                   <sch:let name="explorerSubtypes"
                      value="('traveller', 'navigator', 'cartographer', 'seaCaptain')"/>
                   <sch:let name="legalSubtypes"
-                     value="('barrister', 'solicitor', 'lawyer', 'recorder', 'magistrate', 'judge')"/>
+                     value="('barrister', 'solicitor', 'lawyer', 'recorder', 'magistrate', 'judge', 'enforcement')"/>
                   <sch:let name="literarySubtypes"
                      value="('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 'translator')"/>
                   <sch:let name="theaterSubtypes"
@@ -415,7 +418,7 @@
                   <sch:let name="militarySubtypes"
                      value="('army', 'navy')"/>
                   <sch:let name="benefactorSubtypes"
-                     value="('philanthropist', 'patron')"/>
+                     value="('philanthropist', 'patron', 'volunteer')"/>
                   <sch:let name="governmentSubtypes"
                      value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post')"/>
                   <sch:let name="serviceSubtypes"
