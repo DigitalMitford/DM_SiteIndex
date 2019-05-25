@@ -7128,6 +7128,24 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
  role="fatal"&gt; Attributes @ref, @who, @corresp, and @wit must begin with a hashtag.
 &lt;/sch:assert&gt;
 &lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
+&lt;sch:pattern ident="multiParNotes"&gt;
+&lt;sch:rule context="tei:note"&gt;
+ &lt;sch:assert test="count(descendant::tei:p) gt 1"
+  role="info"&gt;This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern ident="firstParMRMRef"&gt;
+&lt;sch:rule context="tei:note[count(descendant::tei:par) gt 1]//tei:par[1]"&gt;
+ &lt;sch:assert test="contains(., 'Mitford')"
+  role="warning"&gt;In this multi-paragraph note, the first paragraph needs to mention Mitford in some way to prioritize MRM’s relationship with this named entity.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;
+&lt;sch:pattern ident="birthDeathRef"&gt;
+&lt;sch:rule context="tei:note"&gt;
+ &lt;sch:assert test="contains(., 'was born') | contains(., 'died')"
+  role="blue"&gt;We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.&lt;/sch:assert&gt;
+&lt;/sch:rule&gt;
+&lt;/sch:pattern&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:pattern&gt;
 &lt;sch:let name="artistSubtypes"
  value="('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 
@@ -7268,6 +7286,6 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 	    Date: 2018-08-11<br /><!--
 	  Generated from index.xml using XSLT stylesheets version 7.47.0
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2019-05-25T18:54:56Z.
+	       on 2019-05-25T19:39:19Z.
 	       SAXON PE 9.8.0.12.
 		 --></address></div></body></html>

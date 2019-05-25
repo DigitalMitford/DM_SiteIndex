@@ -174,12 +174,12 @@
                </attList>
             </elementSpec>
             <!--Occupation coding -->
-        <!--    <elementSpec ident="person" module="namesdates" mode="change">
+       <!--  <elementSpec ident="person" module="namesdates" mode="change">
                <content>
                   <elementRef key="occupation" minOccurs="0" maxOccurs="unbounded"/>
                </content>
-            </elementSpec>-->
-        <elementSpec ident="occupation" module="namesdates" mode="change">
+            </elementSpec>-\->
+ <!-\-       <elementSpec ident="occupation" module="namesdates" mode="change">
            <content>
                  <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
            </content>
@@ -206,7 +206,7 @@
                   <attDef ident="subtype" mode="replace" usage="opt">
                      <datatype><dataRef name="string"/></datatype>
             <valList type="semi">
-               <!--Subtypes related to type="artist" -->
+               <!-\-Subtypes related to type="artist" -\->
                <valItem ident="painter"><gloss>with type="artist": Designate type of painter as appropriate in the note element.</gloss></valItem>
                <valItem ident="printmaker"><gloss>with type="artist": this includes printmaking for books.</gloss></valItem>
                <valItem ident="engraver"><gloss>with type="artist": this includes engravings for books.</gloss></valItem> 
@@ -214,12 +214,12 @@
                <valItem ident="architect"><gloss>with type="artist". for designers of buildings.</gloss></valItem>
                <valItem ident="landscape"><gloss>with type="artist". for designers and planners of gardens. The occupation of gardener, for one who helps maintain a garden, goes with @type="service" </gloss></valItem>
                <valItem ident="illustrator"><gloss>with type="artist". This includes book illustrators.</gloss></valItem>
-               <!--Subtypes related to type="bookProducer" -->
+               <!-\-Subtypes related to type="bookProducer" -\->
               <valItem ident="publisher"><gloss>with type="bookProducer".</gloss></valItem>
                <valItem ident="printer"><gloss>with type="bookProducer". Do not use for art printing. For that, use one of the subtypes associated with type="artist".</gloss></valItem>
                <valItem ident="binder"><gloss>with type="bookProducer".</gloss></valItem>
                <valItem ident="bookseller"><gloss>with type="bookProducer".</gloss></valItem>
-               <!--Subtypes related to type="religious" -->
+               <!-\-Subtypes related to type="religious" -\->
                <valItem ident="clergy"><gloss>with type="religious".</gloss></valItem>
                <valItem ident="prophet"><gloss>with type="religious".</gloss></valItem>
                <valItem ident="vicar"><gloss>with type="religious".</gloss></valItem>
@@ -230,13 +230,13 @@
                <valItem ident="composer"><gloss>with type="religious". For composers of religious music.</gloss></valItem>
                <valItem ident="musician"><gloss>with type="religious". For musical performers in church settings and religious contexts.</gloss></valItem>
                <valItem ident="churchAssist"><gloss>with type="religious". For non-leadership roles serving the church (such as pew-opener).</gloss></valItem>
-               <!--Subtypes related to type="educator" -->
+               <!-\-Subtypes related to type="educator" -\->
                <valItem ident="teacher"><gloss>with type="educator".</gloss></valItem>
                <valItem ident="schoolHead"><gloss>with type="educator". (for headmistress, schoolmaster, etc.)</gloss></valItem>
                <valItem ident="governess"><gloss>with type="educator".</gloss></valItem>
                <valItem ident="tutor"><gloss>with type="educator".</gloss></valItem>
                <valItem ident="lecturer"><gloss>with type="educator". For public lecturers on educational topics.</gloss></valItem>
-               <!--Subtypes related to type="scholar" -->
+               <!-\-Subtypes related to type="scholar" -\->
                <valItem ident="philosopher"><gloss>with type="scholar". Distinct from natural philosopher.</gloss></valItem> 
                <valItem ident="naturalist"><gloss>with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</gloss></valItem>
                <valItem ident="astronomer"><gloss>with type="scholar".</gloss></valItem> 
@@ -246,12 +246,12 @@
                <valItem ident="inventor"><gloss>with type="scholar". </gloss></valItem>
                <valItem ident="economist"><gloss>with type="scholar". </gloss></valItem>
                <valItem ident="agronomist"><gloss>with type="scholar". For those who study agriculture.</gloss></valItem>
-               <!--Subtypes related to type="explorer" --> 
+               <!-\-Subtypes related to type="explorer" -\-> 
                <valItem ident="traveller"><gloss>with type="explorer".</gloss></valItem>
                <valItem ident="navigator"><gloss>with type="explorer".</gloss></valItem>
                <valItem ident="cartographer"><gloss>with type="explorer".</gloss></valItem>
                <valItem ident="seaCaptain"><gloss>with type="explorer". Commands a ship, distinct from military post.</gloss></valItem>
-               <!--Subtypes related to type="legal" --> 
+               <!-\-Subtypes related to type="legal" -\-> 
                <valItem ident="barrister"><gloss>with type="legal". British lawyers who can plead in court.</gloss></valItem>
                <valItem ident="solicitor"><gloss>with type="legal". British lawyers who do not plead in court.</gloss></valItem>
                <valItem ident="lawyer"><gloss>with type="legal". ONLY appropriate if law practitioner from the United States.</gloss></valItem> 
@@ -259,7 +259,7 @@
                <valItem ident="judge"><gloss>with type="legal". ex: Mr. Justice Talfourd</gloss></valItem>  
                <valItem ident="magistrate"><gloss>with type="legal". ex: George Mitford</gloss></valItem>  
                <valItem ident="enforcement"><gloss>with type="legal". For constable, police, or sheriff, those involved in law enforcement.</gloss></valItem>
-               <!--Subtypes related to type="literary" -->
+               <!-\-Subtypes related to type="literary" -\->
                <valItem ident="novelist"><gloss>with type="literary". </gloss></valItem> 
                <valItem ident="poet"><gloss>with type="literary". </gloss></valItem> 
                <valItem ident="playwright"><gloss>with type="literary". </gloss></valItem> 
@@ -272,7 +272,7 @@
                <valItem ident="lexicographer"><gloss>with type="literary". </gloss></valItem> 
                <valItem ident="linguist"><gloss>with type="literary". For those who systemically study languages, not simply translators.</gloss></valItem> 
                <valItem ident="translator"><gloss>with type="literary". </gloss></valItem> 
-               <!--Subtypes related to type="theater" -->  
+               <!-\-Subtypes related to type="theater" -\->  
                <valItem ident="actor"><gloss>with type="theater". General term for all sexes; do not use "actress".</gloss></valItem> 
                <valItem ident="singer"><gloss>with type="theater". Includes opera singers in performing roles. </gloss></valItem> 
                <valItem ident="manager"><gloss>with type="theater". For actor-managers and theater managers like William Macready.</gloss></valItem> 
@@ -280,20 +280,20 @@
                <valItem ident="designer"><gloss>with type="theater". For production designers, costume-makers, makers of stage sets and props.</gloss></valItem> 
                <valItem ident="musician"><gloss>with type="theater". For pit players of music supporting the stage.</gloss></valItem>   
                <valItem ident="composer"><gloss>with type="theater". For writers of instrumental and vocal music for the stage, including lyricists and librettists.</gloss></valItem>
-               <!--Subtypes related to type="medical" -->
+               <!-\-Subtypes related to type="medical" -\->
                <valItem ident="physician"><gloss>with type="medical".</gloss></valItem>
                <valItem ident="surgeon"><gloss>with type="medical". Includes barbers and others who do surgery and bloodletting.</gloss></valItem>
                <valItem ident="apothecary"><gloss>with type="medical". For pharmacy specialists.</gloss></valItem>
                <valItem ident="midwife"><gloss>with type="medical". Includes, should we ever see one, a "man-midwife" or a male who assists with births and is not a physician or surgeon.</gloss></valItem>
                <valItem ident="oculist"><gloss>with type="medical".</gloss></valItem>
-               <!--Subtypes related to type="military" -->
+               <!-\-Subtypes related to type="military" -\->
                <valItem ident="army"><gloss>with type="military".</gloss></valItem>    
                <valItem ident="navy"><gloss>with type="military".</gloss></valItem>
-               <!--Subtypes related to type="benefactor" -->
+               <!-\-Subtypes related to type="benefactor" -\->
                <valItem ident="philanthropist"><gloss>with type="benefactor". For doers of benevolent activities outside of the arts</gloss></valItem>
                <valItem ident="patron"><gloss>with type="benefactor". For supporters of the arts, theatre, and writers</gloss></valItem>
                <valItem ident="volunteer"><gloss>with type="benefactor". For individual benevolent activities involving labor rather than money</gloss></valItem>
-               <!--Subtypes related to type="government" -->
+               <!-\-Subtypes related to type="government" -\->
                <valItem ident="monarch"><gloss>with type="government". Titles like King, Queen, Princess are coded in &lt;roleName&gt;, not &lt;occupation&gt;.</gloss></valItem> 
                <valItem ident="politician"><gloss>with type="government". Use for elected officials and those running for election or who are in office by reason of political party or affiliation. Code their official title (such as "Member of Parliament for Westminster) with &lt;roleName&gt;.</gloss></valItem>  
                <valItem ident="orator"><gloss>with type="government". For political or reformist orators who are not clergy, actors, or prophets.</gloss></valItem>  
@@ -304,14 +304,14 @@
                <valItem ident="clerk"><gloss>with type="government".</gloss></valItem>  
                <valItem ident="taxCollector"><gloss>with type="government".</gloss></valItem>  
                <valItem ident="post"><gloss>with type="government". For postal service occupations.</gloss></valItem>
-               <!--Subtypes related to type="service" -->
+               <!-\-Subtypes related to type="service" -\->
                <valItem ident="butler"><gloss>with type="service".</gloss></valItem> 
                <valItem ident="maid"><gloss>with type="service".</gloss></valItem> 
                <valItem ident="footman"><gloss>with type="service".</gloss></valItem> 
                <valItem ident="cook"><gloss>with type="service".</gloss></valItem>
                <valItem ident="housekeeper"><gloss>with type="service".</gloss></valItem>   
                <valItem ident="gardener"><gloss>with type="service".</gloss></valItem>   
-               <!--Subtypes related to type="trade" -->
+               <!-\-Subtypes related to type="trade" -\->
                <valItem ident="baker"><gloss>with type="trade".</gloss></valItem>
                <valItem ident="butcher"><gloss>with type="trade".</gloss></valItem> 
                <valItem ident="farmer"><gloss>with type="trade".</gloss></valItem> 
@@ -354,7 +354,7 @@
                  <occupation type="literary" subtype="playwright"/>
               </egXML>
            </exemplum>
-            </elementSpec>
+            </elementSpec>-->
             <elementSpec ident="rs" module="core" mode="change">
                <attList>
                   <attDef ident="type" mode="replace" usage="req">
@@ -591,20 +591,23 @@
        </constraintSpec>
             <constraintSpec ident="noteGuidance" scheme="schematron">
                <constraint>
-                  <sch:pattern ident="multiParNotes">
+                  <sch:pattern>
+                     <sch:title>Multi-paragraph notes</sch:title>
                      <sch:rule context="tei:note">
-                        <sch:assert
-                           test="count(descendant::tei:p) gt 1" role="info">This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?</sch:assert>
+                        <sch:report
+                           test="count(descendant::tei:p) gt 1" role="info">This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?</sch:report>
                      </sch:rule>
                   </sch:pattern>
-                  <sch:pattern ident="firstParMRMRef">
-                     <sch:rule context="tei:note[count(descendant::tei:par) gt 1]//tei:par[1]">
+                  <sch:pattern>
+                     <sch:title>Does the first paragraph contain a Mitford reference?</sch:title>
+                     <sch:rule context="tei:note[count(descendant::tei:p) gt 1]//tei:p[1]">
                         <sch:assert test="contains(., 'Mitford')" role="warning">In this multi-paragraph note, the first paragraph needs to mention Mitford in some way to prioritize MRM’s relationship with this named entity.</sch:assert>
                      </sch:rule>
                   </sch:pattern>
-                  <sch:pattern ident="birthDeathRef">
+                  <sch:pattern>
+                     <sch:title>Mentions of birth and death</sch:title>
                      <sch:rule context="tei:note">
-                        <sch:assert test="contains(., 'was born') | contains(., 'died')" role="blue">We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.</sch:assert>
+                        <sch:report test="contains(., 'was born') or contains(., 'died')" role="info">We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.</sch:report>
                      </sch:rule>
                   </sch:pattern>
                </constraint>

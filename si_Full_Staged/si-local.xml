@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--2019-02-17 ebb: Old Schema Association line with TEI All and Schematron: <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://ebeshero.github.io/siCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16975,7 +16974,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <location>
                      <geo>51.37339900000001 -0.9209210000000212</geo>
                   </location>
-                  <note resp="#lmw">Village in Berkshire, in the parish of Swallowfield. The <rs type="person" ana="#Dickinson_Charles #Dickinson_Mrs">Dickinsons</rs> lived
+                  <note resp="#lmw">Village in Berkshire, in the parish of Swallowfield. The <rs type="person" ref="#Dickinson_Charles #Dickinson_Mrs">Dickinsons</rs> lived
                      there.</note>
                </place>
                <place xml:id="Forest_of_Ardennes">
@@ -18026,7 +18025,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <location>
                      <geo>51.46131099999999 -0.3037420000000566</geo>
                   </location>
-                  <note resp="#lmw">Richmond upon Thames, now a borough of <placeName ref="#London_city">London</placeName>, formerly part of Surrey. The <rs type="person" ana="#Hofland_TC #Hofland_B">Hoflands</rs> lived there and
+                  <note resp="#lmw">Richmond upon Thames, now a borough of <placeName ref="#London_city">London</placeName>, formerly part of Surrey. The <rs type="person" ref="#Hofland_TC #Hofland_B">Hoflands</rs> lived there and
                         <persName ref="#Hofland_TC">Thomas Hofland</persName> painted views of the
                      area.</note>
                </place>
@@ -18659,7 +18658,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      and extensively renovated at great expense until the Duke’s bankruptcy in
                      <date when="1819">1819</date>, when the estate and contents were sold at
                      auction. Subject of an <date when="1818">1818</date>
-                     <title ref="#Whiteknights_Desc_TCH">publication</title> by the <rs type="person" ana="#Hofland_TC #Hofland_B">Hoflands</rs>. Formerly the manor of Earley Whiteknights; now Whiteknights Park, part of the campus of the University of
+                     <title ref="#Whiteknights_Desc_TCH">publication</title> by the <rs type="person" ref="#Hofland_TC #Hofland_B">Hoflands</rs>. Formerly the manor of Earley Whiteknights; now Whiteknights Park, part of the campus of the University of
                      Reading.</note>
                </place>
                <place xml:id="Winchester_city">
