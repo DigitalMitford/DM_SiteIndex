@@ -3,6 +3,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" version="2.9.1" xml:lang="en">
    
+   
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -320,12 +321,15 @@
                 <valItem ident="taxCollector"><gloss>with type="government".</gloss></valItem>  
                 <valItem ident="post"><gloss>with type="government". For postal service occupations.</gloss></valItem>
                 
-                <valItem ident="butler"><gloss>with type="service".</gloss></valItem> 
-                <valItem ident="maid"><gloss>with type="service".</gloss></valItem> 
+                <valItem ident="butler"><gloss>with type="service".</gloss></valItem>
+                <valItem ident="coachman"><gloss>with type="service".</gloss></valItem>
+                <valItem ident="maid"><gloss>with type="service".</gloss></valItem>
+                <valItem ident="manservant"><gloss>with type="service".</gloss></valItem>
+                <valItem ident="valet"><gloss>with type="service".</gloss></valItem>
                 <valItem ident="footman"><gloss>with type="service".</gloss></valItem> 
                 <valItem ident="cook"><gloss>with type="service".</gloss></valItem>
                 <valItem ident="housekeeper"><gloss>with type="service".</gloss></valItem>   
-                <valItem ident="gardener"><gloss>with type="service".</gloss></valItem>   
+                <valItem ident="gardener"><gloss>with type="service".</gloss></valItem>
                 
                 <valItem ident="baker"><gloss>with type="trade".</gloss></valItem>
                 <valItem ident="butcher"><gloss>with type="trade".</gloss></valItem> 
@@ -388,7 +392,7 @@
             <sch:let name="militarySubtypes" value="('army', 'navy')"></sch:let>
             <sch:let name="benefactorSubtypes" value="('philanthropist', 'patron', 'volunteer')"></sch:let>
             <sch:let name="governmentSubtypes" value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post')"></sch:let>
-            <sch:let name="serviceSubtypes" value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"></sch:let>
+            <sch:let name="serviceSubtypes" value="('butler', 'coachman', 'valet', 'maid', 'manservant', 'footman', 'cook', 'housekeeper', 'gardener')"></sch:let>
             <sch:let name="tradeSubtypes" value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"></sch:let>
             <sch:rule context="tei:occupation[@type='artist'][@subtype]">
                 <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
