@@ -63,13 +63,7 @@
          
          <div type="fictional_and_archetypal">
             <listPerson sortKey="fictPersons">
-               
-               <person xml:id="Ariel" sex="u"><!--scw: stub already in SI-->
-                  <persName>Ariel</persName>
-                  <occupation type="service"/>
-                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who serves <persName ref="#Prospero">Prospero</persName> under magical duress.</note>
-               </person>
-            
+             
             <person xml:id="Betsy_ShopLodger_OV" sex="f"><!--scw: THIS ENTRY SHOULD REPLACE SHOPKEEPERSLODGER2 IN THE SI. SHE IS NAMED LATER IN THE BOOK.-->
                <persName>Betsy</persName>
                <persName>
@@ -83,10 +77,9 @@
                 <persName>George</persName>
                 <persName>
                    <forename>George</forename>
-                   <surname>unknown</surname>
                 </persName>
                 <occupation type = "trade" subtype = "blacksmith"/>
-                <occupation type = "legal" subtype="lawEnforce"/>
+                <occupation type = "legal" subtype="enforcement"/>
               <note resp="#scw">Character of a blacksmith introduced in <title ref="#OurVillage_story_OV">the introductory sketch of Our Village</title>. The <persName ref="#OVNarrator">narrator</persName> mentions that he also holds the office of constable, and has eight children. His fate is recounted in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>. Surname not given.</note>
              </person>
                
@@ -102,32 +95,6 @@
                   <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">the introductory sketch of <title ref="#OV">Our Village</title></title>. She is noted for living in the only house with sash-windows in the village. Proper name not given.</note>
                </person>
                
-               <person xml:id="Byron_Harriet" sex="f">
-                  <persName>Harriet Byron</persName>
-                  <persName>
-                     <surname>Byron</surname>
-                     <forename>Harriet</forename>
-                  </persName>
-                  <note resp="#scw">Character from <persName ref="#Richardson_Sam">Samuel Richardson</persName>'s <title ref="#Chas_Grandison_novel">The History of Sir Charles Grandison</title> who is rescued by <persName ref="#Chas_Grandison_fict">Sir Charles</persName> from other suitors, and later marries him.</note>
-               </person>
-               
-               <person xml:id="Caliban" sex="m"><!-- LMW: add to existing stub -->
-                  <persName>Caliban</persName>
-                  <occupation type = "service"/>
-                  <!-- Check this type -->
-                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who chafes against his magically-enforced servitude to <persName ref="#Prospero">Prospero</persName>.</note>
-               </person>
-                  
-               <person xml:id="Clementina_della_Poretta" sex="f"><!--scw: If anyone has read Sir Charles Grandison, feel free to fill in these entries of characters from the book. I have never read it so these are lacking nuance. Modern Antiques is basically all about Charles Grandison.-->
-                  
-                  <persName>Clementina della Poretta</persName>
-                  <persName>
-                     <surname><nameLink>della</nameLink> Poretta</surname>
-                     <forename>Clementina</forename>
-                  </persName>
-                  <note resp="#scw">A character from <persName ref="#Richardson_Sam">Samuel Richardson</persName>'s <title ref="#Chas_Grandison_novel">The History of Sir Charles Grandison</title>, who refuses to marry <persName ref="#Chas_Grandison_fict">Sir Charles</persName>.</note>
-               </person>
-                  
                <person xml:id="Clerk_OV" sex="m">
                   <persName>clerk
                   </persName>
@@ -160,11 +127,6 @@
                   <note resp="#scw">One of the cricket players featured in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. In his <bibl corresp="#Needham_PapersRCL">Mitford Papers</bibl>, <persName ref="#Needham_Francis">Francis Needham</persName> identifies a <rs type="person" ref="#Willis_David">local boy bearing this name</rs>, as well as others with the Willis family name.</note>
                </person>
                
-               <person xml:id="Ferdinand" sex="m">
-                  <persName>Ferdinand</persName>
-                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who is shipwrecked on <placeName>Prospero's Island</placeName>, and falls in love with <persName ref="#Miranda">Miranda</persName>. No surname given.</note>
-               </person>
-               
                <person xml:id="frost_bitten_gent_OV" sex="m">
                   <persName>frost-bitten gentleman</persName>
                   <persName>
@@ -175,38 +137,15 @@
                <person xml:id="Frances_Mrs_OV" sex="f">
                   <persName>Mrs. Frances</persName>
                   <persName>
-                     <surname>not given</surname>
                      <forename>Frances</forename>
-                     <forename type="abb">Fanny</forename><!--scw: "abb" is apparently an option, acc to TEI.-->
+                     <forename><addName>Fanny</addName></forename>
                      <roleName type="honorific">Mrs.</roleName><!--scw: I gleaned this from the TEI, although character isn't married.-->
                   </persName>
                   <persName><addName>Fanny</addName></persName>
                   <note resp="#scw">Character in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Mod_Antiques_OV">Modern Antiques</title>. She and her sister <persName ref="#Theodosia_Mrs_OV">Theodosia</persName> are said to have been intimates of <persName ref="#Richardson_Sam">Samuel Richardson</persName> and the <orgName ref="#Bluestockings">Bluestockings</orgName>. Frances is the sister who is rumored to have a longtime beau. Although she uses the honorific <q>Mrs.</q>, she is unmarried. Surname not given.</note>
                </person>
                   
-               <person xml:id="Friday" sex="m"><!--scw: already a stub in SI-->
-                  <persName>Friday</persName>
-                  <note resp="#scw">Character who becomes <persName ref="#Robinson_Crusoe">Robinson Crusoe</persName>'s friend and companion in <persName ref="#Defoe_D">Daniel Defoe</persName>'s <title ref="#RobinsonCrusoe_DD">The Adventures of Robinson Crusoe</title>.</note>
-               </person>
                
-               <person xml:id="Lady_G" sex="f"><!--scw: is this Charlotte Grandison, oh readers of Charles Grandison??-->
-                  <persName>Lady G.</persName>
-                  <persName>
-                     <surname><abbr>G.</abbr></surname>
-                     <roleName type="nobility">Lady</roleName>
-                  </persName>
-                  <note resp="#scw">Character from <persName ref="#Richardson_Sam">Samuel Richardson</persName>'s <title ref="#Chas_Grandison_novel">The History of Sir Charles Grandison</title>.</note>
-               </person>
-               
-               <person xml:id="Gulliver" sex="m">
-                  <persName>Lemuel Gulliver</persName>
-                  <persName>
-                     <surname>Gulliver</surname>
-                     <forename>Lemuel</forename>
-                  </persName>
-                  <note resp="#scw">Titular character in <persName ref="#Swift_J">Jonathan Swift</persName>'s <title ref="#GulliversTr_JS">Gulliver's Travels</title>.</note>
-                  
-               </person>
                <person xml:id="Wilson_Hannah_OV" sex="f">
                   <persName>Hannah Wilson Smith</persName>
                   <persName>
@@ -221,7 +160,7 @@
                      <persName>Harriet
                      </persName>
                      <occupation type = "educator" subtype = "teacher"/>
-                     <note resp="#scw">One of the two characters introduced in <title ref="#OurVillage_story_OV">Our Village</title> who lodges with the shopkeepers, and teaches children to read and sew. She appears in several sketches, including <title ref="#Walks_Nutting_OV">Nutting</title> and <title ref="#Village_Beau_OV">A Village Beau</title>, where she is courted by <persName ref="#Brent_Joel_OV">Joel Brent</persName> Surname name not given..</note><!--scw: I wonder if this is Harriet Keep, the servant in the Mitford household identified by Needham. Will need to re-check and cross-ref if so.-->
+                     <note resp="#scw">One of the two characters introduced in <title ref="#OurVillage_story_OV">Our Village</title> who lodges with the shopkeepers, and teaches children to read and sew. She appears in several sketches, including <title ref="#Walks_Nutting_OV">Nutting</title> and <title ref="#Village_Beau_OV">A Village Beau</title>, where she is courted by <persName ref="#Brent_Joel_OV">Joel Brent</persName> Surname not given.</note><!--scw: I wonder if this character is identified with Harriet Keep, the servant in the Mitford household identified by Needham. Will need to re-check and cross-ref if so.-->
                   </person>
                
               
@@ -240,19 +179,10 @@
                      <surname>Brent</surname>
                      <forename>Joel</forename>
                   </persName>
-                  <occupation type = "trade"/>
+                  <occupation type = "trade" subtype="carter"/>
                   <note resp="#scw">Protagonist of <title ref="#Village_Beau_OV">A Village Beau</title>, the <title ref="#Our_Village1st_ed">Our Village</title> story, where he courts <persName ref="#Harriet_ShopLodger_OV">Harriet</persName>. He is the half-brother of <persName ref="#Lizzy_OV">Lizzy</persName>. <persName ref="#Needham_Francis">Francis Needham</persName> identifies a local <persName ref="#Brent_Joel">Joel Brent</persName> on whom the character was likely based.</note>
                </person>
-                  
-               <person xml:id="Jervois_Emily" sex="f">
-                  <persName>Emily Jervois</persName>
-                  <persName>
-                     <surname>Jervois</surname>
-                     <forename>Emily</forename>
-                  </persName>
-                  <note resp="#scw">Character in <persName ref="#Richardson_Sam">Samuel Richardson</persName>'s <title ref="#Chas_Grandison_novel">The History of Sir Charles Grandison</title>. She is the ward of <persName ref="#Chas_Grandison_fict">Sir Charles Grandison</persName>.</note>
-               </person>
-               
+              
                <person xml:id="Evans_John_OV" sex="m"><!--replaces JohnEvans-->
                   <persName>John Evans</persName>
                   <persName>
@@ -265,6 +195,10 @@
                
                <person xml:id="Evans_JohnWife_OV" sex="f"><!--replaces JohnEvansWife-->
                   <persName>Mrs. Evans</persName>
+                  <persName>
+                     <surname type="married">Evans</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
                   <note resp="#scw">Deceased wife of the <title ref="#OurVillage_story_OV">Our Village sketch</title> character <persName ref="#Evans_John_OV">John Evans</persName>. Forename not given.</note>
                </person>
                   
@@ -276,7 +210,6 @@
                      </persName>
                      <occupation type="trade"/>
                      <note resp="#scw">Son of the <title ref="#OurVillage_story_OV">Our Village</title> character <persName ref="#Mason_OV">the mason</persName> and the <persName ref="#MasonsWife_OV">mason's wife</persName>. He appears as a cricket player in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. A <persName ref="#Strong_George">George Strong</persName>, bricklayer and beer retailer, as well as an <persName ref="#Strong_Elizabeth">Elizabeth Strong</persName>, baker, are identified by <persName ref="#Needham_Francis">Francis Needham</persName> in his <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>.</note>
-                        
                   </person>
                   
                <person xml:id="Wilson_John_OV" sex="m">
@@ -294,7 +227,6 @@
                   <occupation type="military"/>
                   <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">the introductory sketch of <title ref="#OV">Our Village</title></title>. He also appears skating on a frozen pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>, to the delight of many spectators. Proper name not given.</note>
                </person>
-               
                
                <person xml:id="Lizzy_OV" sex="f">
                   <persName>Lizzy Brent</persName>
@@ -321,7 +253,7 @@
                      <surname type="married">Brent</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#scw">Mother of the character of <persName ref="#Lizzy_OV">Lizzy</persName>, the three-year old girl who accompanies <persName ref="#OVNarrator">the narrator</persName> of <title ref="#OV">Our Village</title>" on many of her walks. Forename not given.</note>
+                  <note resp="#scw">Mother of the character of <persName ref="#Lizzy_OV">Lizzy</persName>, the three-year old girl who accompanies <persName ref="#OVNarrator">the narrator</persName> of <title ref="#OV">Our Village</title> on many of her walks. Forename not given.</note>
                </person>
                
                <person xml:id="Lucy_OV_fict" sex="f">
@@ -332,7 +264,7 @@
                <person xml:id="Mason_OV" sex="m"><!--replaces Mason--><!-- LMW: I assume mason is his job, not his name? -->
                   <persName>Mr. Strong</persName>
                   <occupation type = "trade" subtype = "mason"/>
-                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">the first sketch of <title ref="#OV">Our Village</title></title>. He is said to be particularly short, and to live in a <quote>"pretty white cottage."</quote> His son, <persName ref="#Strong_John_OV">John Strong</persName>, is one of the <orgName ref="#Cricketers_OV">cricketers</orgName> who appears in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Forename not given.</note>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">the first sketch of <title ref="#OV">Our Village</title></title>. He is said to be particularly short, and to live in a <quote>pretty white cottage.</quote> His son, <persName ref="#Strong_John_OV">John Strong</persName>, is one of the <orgName ref="#Cricketers_OV">cricketers</orgName> who appears in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Forename not given.</note>
                </person>
                
                <person xml:id="MasonsWife_OV" sex="f"><!--replaces MasonsWife-->
@@ -345,11 +277,6 @@
                   <note resp="#scw">Greyhound dog who is featured as the <persName ref="#OVNarrator">narrator</persName>'s companion in many <title ref="#OV">Our Village</title>sketches.</note>
                </person>
                
-               <person xml:id="Miranda" sex="f">
-                  <persName>Miranda
-                  </persName>
-                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title>. She is the daughter of <persName ref="#Prospero">Prospero</persName> who is in love with <persName ref="#Ferdinand">Ferdinand</persName>.</note>
-               </person>
                
                <person xml:id="Smith_theHatter_OV" sex="m">
                   <persName>Mr. Smith</persName>
@@ -387,7 +314,7 @@
                   </persName>
                   <occupation type = "service"/>
                   <!-- Check this type -->
-                  <note resp="#scw">Title character of the <title ref="#OV">Our Village</title> sketch, <title>Mrs. Mosse</title>. Nicknamed "Mossy." She is a longtime servant in the household of the <persName ref="#OVNarrator">narrator</persName> and, according to <persName ref="#Needham_Francis">Francis Needham</persName>, based on the Mitfords' own servant, <persName ref="#Cropp_Mrs">Mrs. Cropp</persName>. Source: <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
+                  <note resp="#scw">Title character of the <title ref="#OV">Our Village</title> sketch, <title>Mrs. Mosse</title>. Nicknamed Mossy. She is a longtime servant in the household of the <persName ref="#OVNarrator">narrator</persName> and, according to <persName ref="#Needham_Francis">Francis Needham</persName>, based on the Mitfords' own servant, <persName ref="#Cropp_Mrs">Mrs. Cropp</persName>. Source: <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
                </person>
                
                <person xml:id="Officer_OV" sex="m"><!--replaces Officer-->
@@ -430,26 +357,10 @@
                   <note resp="#scw">The character of the mother of the <persName ref="#OVNarrator">narrator</persName> of the <title ref="#OV">Our Village</title> stories. In some sketches, she appears as a speaking character, while in others she is mentioned or alluded to. Her character resembles that of <persName ref="#Russell_M">Mary Russell</persName>, <persName ref="#MRM">Mitford</persName>'s mother. Proper name not given.</note>
                </person>
                
-               <person xml:id="Odysseus" sex="m">
-                  <persName>Odysseus</persName>
-                  <note resp="#scw">Hero of <persName ref="#Homer">Homer</persName>'s <title ref="#Odyssey">The Odyssey</title>, whose twenty year journey to return home from the Trojan War is chronicled.</note>
-               </person>
                
                <person xml:id="Phoebe_OV" sex="f"><!--replaces Phoebe-->
                   <persName>Phoebe</persName>
                   <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title> as the daughter of the <persName ref="#RoseInnLandlord">Rose Inn landlord</persName>. She is wooed by the <persName ref="#RecruitingSerjeant">recruiting serjeant</persName>, but in <title ref="#Village_Beau_OV">A Village Beau</title> is said to have married a <persName>patten-maker</persName>. Surnames not given.</note>
-               </person>
-               
-               <person xml:id="Prospero" sex="m"><!-- LMW: update existing -->
-                  <persName>Prospero</persName>
-                  <note resp="#scw #ebb">Main character from <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who, upon being shipwrecked on an island with his daughter, <persName ref="#Miranda">Miranda</persName>, has learned sorcery and magic.</note><!--scw: this feels like a very lame note!.-->
-               </person>
-               
-             
-              <person xml:id="Rachel_Aunt" sex="f">
-                  <persName>Aunt Rachel</persName>
-                  <note resp="#ajc">Character in <title ref="#Glenfergus_fict">Glenfergus</title>
-                     by <persName ref="#Mudie_Rob">Mudie</persName>.</note>
                </person>
                
                <person xml:id="RecruitingSerjeant_OV" sex="m"><!--replaces RecruitingSerjeant-->
@@ -462,8 +373,8 @@
                  <persName>Mr. H.</persName>
                  <occupation type = "government"/>
                  <!-- Check this type -->
-                 <note resp="#scw">A particularly patriotic character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. He is based on a neighbor of <persName ref="#MRM">Mitford</persName>'s, who held an illumination for the acquittal of <persName ref="#Queen_Caroline">Queen Caroline</persName>, a local event she describes rather disapprovingly in a letter to <persName ref="#Elford_SirWm">William Elford</persName> on <date when="1820-11-21">November 21, 1820</date>. The retired publican's fate is described further in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, where he is referred to as "blind Robert." Full name not given. 
-                    <!--scw: forename inferred from a line of dialogue in A Parting Glance in which children call him "blind Robert, but uncertain whether "blind Robert" is a colloquial term of abuse or his name. Will have to check around. Wonder if letters might hold a clue, since she mentions him.--></note> 
+                 <note resp="#scw">A particularly patriotic character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. He is based on a neighbor of <persName ref="#MRM">Mitford</persName>'s, who held an illumination for the acquittal of <persName ref="#Queen_Caroline">Queen Caroline</persName>, a local event she describes rather disapprovingly in a letter to <persName ref="#Elford_SirWm">William Elford</persName> on <date when="1820-11-21">November 21, 1820</date>. The retired publican's fate is described further in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, where he is referred to as <q>blind Robert</q>. Full name not given. 
+                    <!--scw: forename inferred from a line of dialogue in A Parting Glance in which children call him "blind Robert, but uncertain whether 'blind Robert' is a colloquial term of abuse or his name. Will have to check around. Wonder if letters might hold a clue, since she mentions him.--></note> 
               </person>
                
                <person xml:id="RetiredPublicansWife_OV" sex="f"><!--replaces RetiredPublicansWife-->
@@ -480,21 +391,7 @@
                   <note resp="#scw">Character mentioned in the <title ref="#OV"><title ref="#Our_Village1st_ed">Our Village, volume 1</title></title> sketch <title ref="#Hannah_OV">Hannah</title> as a poor competitor to <persName ref="#Wilson_John_OV">John Wilson</persName>'s abilities as a man-of-all-trades.</note>
                </person>
                
-               <person xml:id="Robin_Goodfellow" sex="m">
-                  <persName>Robin Goodfellow</persName>
-                  <persName>
-                     <forename>Robin</forename>
-                     <surname>Goodfellow</surname>
-                  </persName>
-                  <persName type="alt">Puck</persName>
-                  <note resp="#scw">Mischievous fairy or sprite from folklore. In <persName ref="#Shakespeare">Shakespeare</persName>'s <!-- This is not an ID --><title ref="#Midsummer_Nights_D">A Midsummer Night's Dream</title>, he causes romantic havoc for the other characters, both human and fairy.</note>
-               </person>
-
                
-               <person xml:id="Robinson_Crusoe" sex="m">
-                  <persName>Robinson Crusoe</persName>
-                  <note resp="#scw">Titular character of <persName ref="#Defoe_D">Daniel Defoe</persName>'s famous novel about a man shipwrecked near <placeName>Trinidad</placeName>.</note>
-               </person>
                
                <person xml:id="RoseInnLandlord_OV" sex="m"><!--replaces RoseInnLandlord-->
                   <persName>Rose Inn landlord
@@ -515,32 +412,6 @@
                   <note resp="#scw">This character is introduced in <title ref="#OurVillage_story_OV">Our Village</title>. She has a son, and a daughter named <persName ref="#Phoebe">Phoebe</persName>. Proper name not given.</note>
                </person>
                
-               <person xml:id="Selby_Lucy" sex="f">
-                  <persName>Lucy Selby</persName>
-                  <persName>
-                     <surname>Selby</surname>
-                     <forename>Lucy</forename>
-                  </persName>
-                  <note resp="#scw">A character in <persName ref="#Richardson_Sam">Samuel Richardson</persName>'s <title ref="#Chas_Grandison_novel">The History of Sir Charles Grandison</title>.</note>
-               </person>
-               
-               <person xml:id="Selby_Nancy" sex="f">
-                  <persName>Nancy Selby</persName>
-                  <persName>
-                     <surname>Selby</surname>
-                     <forename>Nancy</forename>
-                  </persName>
-                  <note resp="#scw">A character <persName ref="#Richardson_Sam">Samuel Richardson</persName>'s <title ref="#Chas_Grandison_novel">The History of Sir Charles Grandison</title>.</note>
-               </person>
-               
-               <person xml:id="Serjeant_Kite" sex="m">
-                  <persName>Serjeant Kite</persName>
-                  <occupation type = "military"/>
-                  <occupation type = "military"/>
-                  <!-- Check this type -->
-                  <note resp="#scw">Character from <persName ref="#Farquhar_George">George Farquhar</persName>'s play <!--Not an ID --><title ref="#Recruiting_Officer">The Recruiting Officer.</title> Forename not given.</note>
-                  
-               </person>
                
                <person xml:id="shivering_lady_OV" sex="f">
                   <persName>shivering lady</persName>
@@ -557,7 +428,7 @@
                <person xml:id="ShoemakersDaughter_OV" sex="f"><!--replaces ShoemakersDaughter-->
                   <persName>shoemaker's daughter
                   </persName>
-                  <note resp="#scw">Character described in <title ref="#OurVillage_story_OV">Our Village</title>. She goes from the age of fourteen to sixteen from the first story to the final one in the first series, <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>. She is said to be the <persName ref="#OVNarrator">narrator</persName>'s "opposite neighbour," suggesting a proximity of residence to the family. Proper name not given.</note>
+                  <note resp="#scw">Character described in <title ref="#OurVillage_story_OV">Our Village</title>. She goes from the age of fourteen to sixteen from the first story to the final one in the first series, <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>. She is said to be the <persName ref="#OVNarrator">narrator</persName>'s <quote>opposite neighbour,</quote> suggesting a proximity of residence to the family. Proper name not given.</note>
                </person>
                
                <person xml:id="ShoemakersWife_OV" sex="f"><!--replaces ShoemakersWife-->
@@ -656,13 +527,7 @@
                </person>
               
             </listPerson>
-            <listPerson sortKey="archPersons">
-               <person xml:id="Cupid" sex="m"> <!-- LMW: Revision to existing entry; belongs in Arch persons. -->
-                  <persName>Cupid</persName>
-                  <persName><addName>Eros</addName></persName>
-                  <note resp="#scw #ebb">Classical god of sexual desire and erotic love, known as Eros in ancient Greece and Cupid in ancient Rome.In Roman mythology, son of the Roman goddess of love, Venus, and the messenger god, Mercury. Cupid is represented in art and myth as a handsome youth bearing a bow with arrows that he shoots into those whom he wishes to cause to fall in or out of love. </note>
-               </person>
-            </listPerson>
+           
          </div>
          
          <div type="fictional_and_archetypal">
@@ -739,7 +604,7 @@
                
                <org xml:id="sliding_urchins_OV">
                   <orgName>sliding urchins</orgName>
-                  <note resp="#scw">The <quote>"half a dozen ragged urchins,"</quote> including <persName ref="#Rapley_Jack_OV">Jack Rapley</persName>, whom <persName ref="#OVNarrator">the narrator</persName> watches sliding on a frozen hill in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+                  <note resp="#scw">The <quote>half a dozen ragged urchins,</quote> including <persName ref="#Rapley_Jack_OV">Jack Rapley</persName>, whom <persName ref="#OVNarrator">the narrator</persName> watches sliding on a frozen hill in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
                </org>
                
                
@@ -764,7 +629,7 @@
            <listOrg sortKey="histOrgs">
               <org xml:id="Bluestockings">
                  <orgName>Bluestockings</orgName>
-                 <note resp="#scw">A circle of female writers and intellectuals formed around the salons hosted by <persName>Elizabeth Montagu</persName>, <persName>Frances Boscawen</persName>, and <persName>Elizabeth Vesey</persName> between <date when="1755">1755</date> and <date when="1795">1795</date>. The group came to include such writers as <persName ref="#More_Hannah">Hannah More</persName>, <persName ref="#Chapone_Hester">Hester Chapone</persName>, <persName ref="#Fielding_Sarah">Sarah Fielding</persName>, and others, emphasizing education, enlightened conversation, improvement, and exchange. While the network was thought of as female, the Bluestocking Circle did include some of the leading male figures of the day, particularly <persName ref="#Richardson_Sam">Samuel Richardson</persName>. Source: ODNB</note>
+                 <note resp="#scw">A circle of female writers and intellectuals formed around the salons hosted by <persName>Elizabeth Montagu</persName>, <persName>Frances Boscawen</persName>, and <persName>Elizabeth Vesey</persName> between <date when="1755">1755</date> and <date when="1795">1795</date>. The group came to include such writers as <persName ref="#More_Hannah">Hannah More</persName>, <persName ref="#Chapone_Hester">Hester Chapone</persName>, <persName ref="#Fielding_Sarah">Sarah Fielding</persName>, and others, emphasizing education, enlightened conversation, improvement, and exchange. While the network was thought of as female, the Bluestocking Circle did include some of the leading male figures of the day, particularly <persName ref="#Richardson_Sam">Samuel Richardson</persName>. Source: ODNB.</note>
                  
               </org>
            </listOrg>
@@ -772,54 +637,8 @@
          
          <div type="historical_people">
             <listPerson sortKey="histPersons">
-               
-               <person xml:id="BarbauldAL" sex="f">
-                  <persName>Anna Laetitia Aikin Barbauld</persName>
-                  <persName>
-                  <surname type="married">Barbauld</surname>
-                  <surname type="paternal">Aikin</surname>
-                  <forename>Anna</forename>
-                  <forename>Laetitia</forename>
-                  </persName>
-                  <birth when="1743-06-20">         
-                     <placeName>Kibworth Harcourt, Leicestershire, England</placeName>
-                  </birth>
-                     <death when="1825-03-09">
-                        <placeName>Stoke Newington, Middlesex, England</placeName>
-                     </death>
-                  <occupation type = "literary"/>
-                  <occupation type = "literary" subtype = "poet"/>
-                  <occupation type = "literary" subtype = "essayist"/>
-                  <note resp="#scw">Poet, prose writer, author of children's books, and sometime member of the <orgName ref="#Bluestockings">Bluestocking Circle</orgName>.</note>
-                    <note><ref target="http://digital.library.upenn.edu/women/barbauld/biography.html"/></note>
-                     <note><ref target="http://viaf.org/viaf/9896232"/></note>
-               </person>
-                     
-                <person xml:id="Beckford_William" sex="m">
-                   <persName>William Beckford</persName>
-                   <persName>
-                      <surname>Beckford</surname>
-                      <forename>William</forename>
-                   </persName>
-                   <persName><roleName>Member of Parliament</roleName></persName>
-                   <birth when="1760-10-01">
-                      <placeName>London, England</placeName>
-                   </birth>
-                   <death when="1844-04-01">
-                      <placeName>Bath, Somerset, England</placeName>
-                   </death>
-                   <occupation type = "literary"/>
-                   <occupation type = "literary" subtype = "novelist"/>
-                   <occupation type = "scholar"/>
-                   <!-- Check this type -->
-                   <occupation type = "benefactor" subtype = "patron"/>
-                   <occupation type = "government" subtype = "politician"/>
-                   <note resp="#scw">Author of the seminal gothic novel, <!-- Not an ID --><title ref="#Vathek">Vathek</title>, art collector, and Member of Parliament. He was the Member for <placeName>Wells</placeName> from <date from="1784" to="1790">1784-1790</date>, and later for <placeName>Hindon</placeName> from <date from="1790" to="1795">1790-1795</date> and again from <date from="1806" to="1820">1806-1820</date>.
-                      <ref target="http://viaf.org/viaf/4926466"/>
-                   </note>
-                </person>
-              
-               <person xml:id="Brent_Joel"><!--scw: TO BE ADDED TO NOTE ALREADY EXISTING ENTRY in histPerson-->
+
+               <person xml:id="Brent_Joel"><!--scw: REV EXISTING ENTRY in histPerson-->
                   <note resp="#scw">In several volumes of <title ref="#OV">Our Village</title>, a character named <persName ref="#Brent_Joel_OV">Joel Brent</persName> is featured as a character a number stories, notably as the protagonist of <title ref="#Village_Beau_OV">A Village Beau</title> from <title ref="#Our_Village1st_ed">volume one</title>. He is also said in that story to be the half-brother of <persName ref="#Lizzy_OV">Lizzy</persName>.</note>
               </person>
                
