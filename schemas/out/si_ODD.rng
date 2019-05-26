@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-05-26T06:09:37Z. .
+Schema generated from ODD source 2019-05-26T13:07:19Z. .
 TEI Edition: Version 3.5.0. Last updated on
 	8th May 2019, revision 905f30769
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
@@ -8992,6 +8992,15 @@ Suggested values include: 1] label; 2] data</a:documentation>
          </sch:assert>
                   </sch:rule>  
                </sch:pattern>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="siODD-quotes-constraint-rule-29">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                context="tei:note//text()[matches(., '[A-z]+')]">
+                     <sch:let name="regexQuote" value="'&#34;'"/>
+                     <sch:report test="matches(., $regexQuote)" role="warning">
+                        We see you’re typing in quotation marks. Please use a meaningful TEI element for these, instead, and do not duplicate quotation marks with a TEI element, because this may result in multiple sets of quotation marks on the website. If this is a cited quotation, use the cit and quote elements together (or just the quote element for an uncited quotation). If it is a spoken aloud passage, use the said element. If it is a title of a poem or other short work, use &lt;title level="a"&gt;. If it is a string of words in quotation marks and you are not sure what it is, use the q element.</sch:report>        
+                  </sch:rule>
+   </pattern>
    <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -9117,7 +9126,7 @@ Suggested values include: 1] label; 2] data</a:documentation>
                      <sch:title>Mentions of birth and death</sch:title>
                      <sch:rule context="tei:note">
                         <sch:report test="contains(., 'was born') or contains(., ' [Bb]orn') or contains(., ' [Dd]ied')"
-                     role="info">We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.</sch:report>
+                     role="info">We notice the phrase(s) “was born”, “born,” or “died” appear somewhere in this note. If these passages duplicate info in the birth or death elements elsewehere in this entry, they should be removed, since it will represent duplicate output on the site.</sch:report>
                      </sch:rule>
                   </sch:pattern>
 </grammar>

@@ -7157,7 +7157,7 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 &lt;sch:rule context="tei:note"&gt;
  &lt;sch:report test="contains(., 'was born') or contains(., ' [Bb]orn') or contains(., 
  ' [Dd]ied')"
-  role="info"&gt;We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.&lt;/sch:report&gt;
+  role="info"&gt;We notice the phrase(s) “was born”, “born,” or “died” appear somewhere in this note. If these passages duplicate info in the birth or death elements elsewehere in this entry, they should be removed, since it will represent duplicate output on the site.&lt;/sch:report&gt;
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:pattern&gt;
@@ -7280,6 +7280,11 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
  &lt;/sch:assert&gt;
 &lt;/sch:rule&gt;
 &lt;/sch:pattern&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
+&lt;sch:rule context="tei:note//text()[matches(., '[A-z]+')]"&gt;
+&lt;sch:let name="regexQuote" value="'"'"/&gt;
+&lt;sch:report test="matches(., $regexQuote)"
+ role="warning"&gt; We see you’re typing in quotation marks. Please use a meaningful TEI element for these, instead, and do not duplicate quotation marks with a TEI element, because this may result in multiple sets of quotation marks on the website. If this is a cited quotation, use the cit and quote elements together (or just the quote element for an uncited quotation). If it is a spoken aloud passage, use the said element. If it is a title of a poem or other short work, use &lt;title level="a"&gt;. If it is a string of words in quotation marks and you are not sure what it is, use the q element.&lt;/sch:report&gt;
+&lt;/sch:rule&gt;</div></td></tr><tr><td class="wovenodd-col1"><span lang="en" class="label">Schematron</span></td><td class="wovenodd-col2"><div class="pre">
 &lt;sch:rule context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | 
  tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] 
  | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]"&gt;
@@ -7300,6 +7305,6 @@ teiteidata.xpath = text</pre></td></tr><tr><td class="wovenodd-col1"><span lang=
 	    Date: 2018-08-11<br /><!--
 	  Generated from index.xml using XSLT stylesheets version 7.47.0
 	       based on http://www.tei-c.org/Stylesheets/
-	       on 2019-05-26T06:09:27Z.
+	       on 2019-05-26T13:07:09Z.
 	       SAXON PE 9.8.0.12.
 		 --></address></div></body></html>
