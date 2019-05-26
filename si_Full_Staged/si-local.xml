@@ -6393,8 +6393,7 @@
                   <death when="1700-05-01">
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>playwright</occupation>
+                  <occupation type="literary"/>                  <occupation type="theater" subtype="playwright"/>
                   <note type="bio" resp="#ebb">
                      <rs type="event">Named Poet Laureate in <date when="1668">1668</date>
                      </rs>, <bibl>
@@ -8982,8 +8981,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      radical leadership in the Commons over the next 30 years. Criticized the
                      government’s role in <rs type="event" ref="#Peterloo">the Peterloo
                         massacre</rs>, the Cato Street conspiracy, and the Queen Caroline affair,
-                     and worked to repeal the Combination Acts (1824-1825). Defender of the
-                     Chartists. See ODNB.</note>
+                     and worked to repeal the Combination Acts (1824-1825). Defender of the Chartists. See ODNB.</note>
                </person>
                <person xml:id="Hunt" sex="m">
                   <persName>

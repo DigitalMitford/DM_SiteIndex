@@ -43,7 +43,7 @@
    </teiHeader>
    <text>
       <body>
-         <schemaSpec ident="mitfordODD" start="TEI teiCorpus" prefix="tei">
+         <schemaSpec ident="siODD" start="TEI teiCorpus" prefix="tei">
             <moduleRef key="tei"/>
             <moduleRef key="core" except="add addrLine address analytic biblStruct binaryObject cb choice corr del distinct divGen gap gb hi imprint index lb measure measureGrp media monogr pb speaker stage unclear"/>
             <moduleRef key="header"/>
@@ -614,7 +614,7 @@
                   <sch:pattern>
                      <sch:title>Mentions of birth and death</sch:title>
                      <sch:rule context="tei:note">
-                        <sch:report test="contains(., 'was born') or contains(., 'died')" role="info">We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.</sch:report>
+                        <sch:report test="contains(., 'was born') or contains(., ' [Bb]orn') or contains(., ' [Dd]ied')" role="info">We notice the phrases “was born” or “died” appear somewhere in this note. This information might duplicate code for the birth or death elements elsewehere in this entry and should be removed, since it will be output on the site from the birth and death element code.</sch:report>
                      </sch:rule>
                   </sch:pattern>
                </constraint>

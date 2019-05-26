@@ -101,9 +101,16 @@
              </org>
              
              <org xml:id="Lancastrians">
+                <orgName>House of Lancaster</orgName>
                 <orgName>Lancastrians</orgName>
-                <note resp="#rnes #lmw">The House of Lancaster, which had as its insignia the Red Rose, fought the Wars of the Roses with the House of York (the "White Rose"). Both houses became extinct with the marriage of the Lancastrian Henry VII and Elizabeth of York, although rumors persisted of rightful claimants to the throne persisted well into the nineteenth century.<!--RN: because there was an outbreak of Perkin Warbeck conspiracy theorizing among 19th century writers, including Mary Shelley (writing about it in 1830) and Ann Yearsley.-->
+                <note resp="#rnes #lmw">The House of Lancaster, which had as its insignia the Red Rose, fought the Wars of the Roses against the House of York (the White Rose). Both houses became extinct with the marriage of the Lancastrian Henry VII and Elizabeth of York, although rumors persisted of rightful claimants to the throne persisted well into the nineteenth century.<!--RN: because there was an outbreak of Perkin Warbeck conspiracy theorizing among 19th century writers, including Mary Shelley (writing about it in 1830) and Ann Yearsley.-->
                 </note>
+             </org>
+             <org xml:id="Yorks">
+                <orgName>House of York</orgName>
+                <orgName>Yorkists</orgName>
+                <note resp="#rnes #lmw #ebb">The House of York, symbolized by the White Rose, fought the Wars of the Roses with the House of Lancaster (the Red Rose). Both houses became extinct with the marriage of the Lancastrian Henry VII and Elizabeth of York, although rumors persisted of rightful claimants to the throne persisted well into the nineteenth century.<!--RN: because there was an outbreak of Perkin Warbeck conspiracy theorizing among 19th century writers, including Mary Shelley (writing about it in 1830) and Ann Yearsley.-->
+                </note> 
              </org>
        
              <org xml:id="Royalists">

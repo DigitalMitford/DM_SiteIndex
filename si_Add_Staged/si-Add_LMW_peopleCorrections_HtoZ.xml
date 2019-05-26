@@ -70,8 +70,7 @@
                   <death when="1845-05-03">
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw #cmm">Poet, humorist, and frequent contributor to periodicals such as <bibl>The London Magazine</bibl>, <bibl>the Athenaeum</bibl>, and <bibl>Punch</bibl>. Recognized for his collaboration with his brother-in-law <persName>John
                         Hamilton Reynolds</persName> on <bibl>
                            <title>Odes and Addresses to a Great People</title> (<date>1825</date>)</bibl> and for his well-known poem <bibl>
@@ -97,12 +96,10 @@
                      <placeName>Rome, Italy, Roman Republic</placeName>
                   </placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="critic"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="critic"/>
                   <occupation type="military"/>
-                  <occupation type="politican"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">Ancient Roman politician, military leader, poet, and critic.</note>
                   <note><ref target="http://viaf.org/viaf/100227522"/></note>
                </person>
@@ -112,17 +109,20 @@
                   <persName>
                      <forename>John</forename>
                      <surname>Howard</surname>
+                     <roleName>Fellow of the Royal Society (FRS)</roleName>
+                     <roleName>High Sheriff of Bedfordshire</roleName>
                   </persName>
-                  <persName><roleName>Fellow of the Royal Society (FRS)</roleName></persName>
+                  
                   <birth when="1726-02-09">
                      <placeName>London, England</placeName>
                   </birth>
                   <death when="1790-01-20">
                      <placeName>Kherson, Ukraine</placeName>
                   </death>
-                  <occupation type="philanthrophist"/>
-                  <occupation type="reformer"/>
-                  <note resp="#lmw">English philanthropist and reformer.</note>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <occupation type="legal" subtype="enforcement"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <note resp="#ebb">As High Sheriff of Bedfordshire, John Howard dedicated himself to inspecting English prisons and recommending structural and policy reforms to improve prisoners’ health and well-being. He published an influential book on prison reform, <bibl><title level="m">The State of the Prisons in England and Wales</title> in <date when="1777">1777</date></bibl>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/61639520"/>
                   </note>
@@ -146,15 +146,11 @@
                   <death when="1698-09-03">
                      <placeName>England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="theater"/>
-                 <occupation type="playwright"/>
-                  <occupation type="poet"/>
-                  <occupation type="essayist"/>
-                  <occupation type="politician"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>                       <occupation type="literary" subtype="essayist"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="military"/>
-                  <note type="bio" resp="#alg #lmw">A Royalist sympathizer knighted in the field during the <rs type="event" ref="#EngCivilWar">English Civil War</rs>, Sir Robert pursued a profitable political career after the Restoration, in addition to becoming a successful poet, dramatist, and critic. He is buried in Westminster Abbey.<!--LMW: Standard reference source do not explicitly indicate places of birth and death.-->
-                  </note>
+                  <note type="bio" resp="#alg #lmw #ebb">A Royalist sympathizer knighted in the field and imprisoned during the <rs type="event" ref="#EngCivilWar">English Civil War</rs>, Sir Robert pursued a profitable political career as a member of <orgName ref="#Parliament_UK">Parliament</orgName> after the Restoration, in addition to becoming a successful poet, dramatist, and critic. Howard was the brother-in-law of <persName ref="#Dryden">John Dryden</persName>, with whom he co-authored a famous tragedy, <bibl><title level="m">The Indian Queen</title>, set in Peru and Mexico and first staged in <date when="1664">1664</date></bibl>. He is also known for <bibl>his comedy <title level="m">The Committee; or, the Faithful Irishman</title>, a satire on the Commonwealth, first performed in the <date notBefore="1662">1660s</date> and revived in the following century in <date when="1776">1776</date> at Drury Lane Theater</bibl>. He is buried in Westminster Abbey.</note>
                   <note><ref target="http://viaf.org/viaf/117377"/></note>
                      <note><ref target="http://www.historyofparliamentonline.org/volume/1690-1715/member/howard-hon-sir-robert-1626-98"/></note>
                     <note><ref target="http://www.historyofparliamentonline.org/volume/1660-1690/member/howard-sir-robert-1626-98"/></note>
@@ -174,7 +170,7 @@
                      <placeName>Tower Hill, London, England</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#esh">Convicted of treason and
                      executed for the charge of involvement in the Ridolfi plot against <persName ref="#ElizI">Queen Elizabeth I</persName> to place <persName ref="#MaryQoS">Mary, Queen of Scots</persName>, on the English throne and so restore
                      Catholicism in England. The fourth Duke also wrote the first complete set of English
@@ -184,7 +180,7 @@
                   </note>
                </person>
                
-               <person xml:id="HowardBrenton" sex="m">
+               <person xml:id="Brenton_Howard" sex="m">
                   <persName>Howard Brenton</persName>
                   <persName>
                      <forename>Howard</forename>
@@ -195,15 +191,14 @@
                   <birth when="1942-12-13">
                      <placeName>Portsmouth, Hampshire, England</placeName></birth>
                   <occupation type="literary"/>
-                  <occupation type="theater"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#rnes">English playwright. Brenton's plays include <title>The Romans in Britain</title>, <title>Anne Boleyn</title>, <title>Bloody Poetry</title>, and <title>#aiww: The Arrest of Ai Weiwei</title>. (Please note: the Twitter hashtag is part of the play's title).</note>
                   <note>
                      <ref target="http://viaf.org/viaf/66476558"/>
                   </note>
                </person>
                
-               <person xml:id="HughPeters" sex="m">
+               <person xml:id="Peters_Hugh" sex="m">
                   <persName>Hugh Peters</persName>
                   <persName>
                      <forename>Hugh</forename>
@@ -214,10 +209,8 @@
                   </birth>
                   <death when="1660-10-16">
                   <placeName>Charing Cross, London, England</placeName></death>
-                  <occupation type="clergy"/>
-                  <occupation type="chaplain"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="military"/>
-                  <occupation type="regicide"/>
                   <note resp="#rnes">Chaplain to the <orgName ref="#New_Model_Army">New Model Army</orgName>. Executed as a regicide for his role in the trial and death of <persName ref="#ChasI">Charles I</persName>.
                   </note>
                   <note>
@@ -240,12 +233,12 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="novelist"/>
-                  <occupation type="playwright"/>
-                  <occupation type="poet"/>
-                  <occupation type="essayist"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <occupation type="artist"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">French novelist, poet, and artist. Member of the Senate and the National Assembly; a Royalist in youth, he was later a committed republican. He is buried in the Panthéon in Paris.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/5362815"/>
@@ -264,9 +257,9 @@
                   <death when="1776-08-25">
                      <placeName>Edinburgh, Scotland
                      </placeName></death>
-                  <occupation type="philosopher"/>
-                  <occupation type="historian"/>
-                  <occupation type="librarian"/>
+                  <occupation type="scholar" subtype="philosopher"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="scholar" subtype="curator"/>
                   <note resp="#rnes">The most influential philosopher of the Scottish Enlightenment,
                      Hume championed skepticism in various contexts. He also wrote a celebrated
                      <title ref="#HistEngland_Hume">History of England</title> (<date from="1754" to="1761">1754-61</date>), which covered English history
@@ -291,11 +284,11 @@
                   <death when="1855-02-20">
                      <placeName>Burnley Hall, Norfolk, England</placeName>
                   </death>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="medical"/>
                   <occupation type="literary"/>
-                  <occupation type="philanthropist"/>
-                  <occupation type="reformer"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <occupation type="government" subtype="reformer"/>
                   <note resp="#ebb">Known as "the Apothecary," a radical M.P. who
                      represented Aberdeen in the House of Commons from 1818 as part of a network of
                      radical leadership in the Commons over the next thirty years. Criticized the
@@ -325,8 +318,7 @@
                      <placeName>Buckinghamshire, England</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
-                  <occupation type="regicide"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#rnes">A Colonel in the <orgName ref="#New_Model_Army">New Model Army</orgName>, Member of Parliament representing <placeName>Buckinghamshire</placeName>, and regicide, Ingoldsby is perhaps most famous for having claimed, after <rs type="event">the Restoration</rs>, to have signed the king's death warrant under physical duress, <persName ref="#Cromwell">Cromwell</persName> having held his hand to the pen and traced his name. This explanation is not currently considered credible. One of few signers of the death warrant of Charles I who was pardoned and avoided execution, Ingoldsby was a first cousin of <persName ref="#Cromwell">Oliver Cromwell</persName>. Source: ODNB.</note>
                   <note>
                   <ref target="http://viaf.org/viaf/26045333"/></note>
@@ -348,9 +340,9 @@
                      <placeName>Limerick, Ireland</placeName>
                   </death>
                   <occupation type="legal"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="military"/>
-                  <occupation type="regicide"/>
+                  
                   <note resp="#rnes">A prominent leader of the Parliamentary faction against <persName ref="#ChasI">Charles I</persName> and, after the
                      <rs type="event" ref="#EngCivilWar">English Civil War</rs>, leader of the regicides. Ireton was <persName ref="#Cromwell">Cromwell</persName>'s son-in-law, married to Cromwell's daughter Bridget. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName>. He died of the plague in <date when="1651">1651</date> while Lord Deputy in charge of subduing <placeName ref="#Ireland">Ireland</placeName>. In <date when="1661">1661</date>, upon <persName ref="#ChasII">Charles II</persName>'s orders, Ireton's remains were exhumed and publicly displayed.
                   </note>
@@ -371,7 +363,7 @@
                   <death when="1625-03-27">
                      <placeName>Theobalds House, Hertfordshire, England</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <occupation type="literary"/>
                   <note resp="#lmw #cmm #rnes">James VI of Scotland from 24 July 1567 and James I of England and Ireland from 24 March 1603, following the union of the Scottish and English crowns. Born in Edinburgh Castle to <persName ref="#MaryQoS"></persName>Mary Stuart ("Queen of Scots"), he was the first Stuart king of England. Author of <bibl><title>Lepanto</title></bibl>, <bibl><title>Daemonologie</title> <date>(1597)</date></bibl>, <bibl><title>The True Law of Free Monarchies</title> <date>(1598)</date></bibl>, and <bibl><title>Basilikon Doron</title> <date>(1599)</date></bibl>; he also sponsored the translation of the Bible that was named after him, completed in <date when="1611">1611</date>. Buried in Westminster Abbey.</note>
                   <note>
@@ -392,7 +384,7 @@
                   <death when="1701-09-16">
                      <placeName>Château de Saint-Germain-en-Laye, near Paris, France</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb #rnes">Last Roman Catholic and Stuart king of England, he succeeded
                      the throne after the death of his brother <persName ref="#ChasII">Charles II</persName>, and reigned from <date from="1685" to="1688">1685 until his deposition in 1688</date>.</note>
                   <note>
@@ -415,10 +407,10 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="journalist"/>
-                  <occupation type="editor"/>
-                  <note resp="#lmw #ebb #rnes">Playwright, novelist, and editor. Contributor to the <bibl><title>Monthly Magazine</title></bibl>, <bibl><title>Blackwood's</title></bibl>, the <bibl><title>New Monthly Magazine</title></bibl>, and the <bibl><title>Athenaeum</title></bibl>, as well as frequent contributor to <bibl><title>Punch</title></bibl>. Writer of aquadramas, topical melodramas, and comedies. He also founded and edited the <bibl><title>Illuminated Magazine</title></bibl>, <bibl><title>Jerrold's Shilling Magazine</title></bibl>, and <bibl><title>Jerrold's Weekly Newspaper</title></bibl>. Friend of <persName ref="#Dickens_Chas">Charles Dickens</persName>. </note>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <note resp="#lmw #ebb #rnes">Playwright, novelist, and editor. Contributor to the <bibl><title level="s">Monthly Magazine</title></bibl>, <bibl><title level="s">Blackwood's</title></bibl>, the <bibl><title level="s">New Monthly Magazine</title></bibl>, and the <bibl><title level="s">Athenaeum</title></bibl>, as well as frequent contributor to <bibl><title level="s">Punch</title></bibl>. Writer of aquadramas, topical melodramas, and comedies. He also founded and edited the <bibl><title level="s">Illuminated Magazine</title></bibl>, <bibl><title level="s">Jerrold's Shilling Magazine</title></bibl>, and <bibl><title level="s">Jerrold's Weekly Newspaper</title></bibl>. Friend of <persName ref="#Dickens">Charles Dickens</persName>. </note>
                   <note>
                      <ref target="http://viaf.org/viaf/76447934"/>
                   </note> 
@@ -452,18 +444,15 @@
                         <placeName>London, England</placeName>
                      </death>
                      <occupation type="literary"/>
-                     <occupation type="essayist"/>
-                     <occupation type="lexicographer"/>
-                     <occupation type="biographer"/>
-                     <occupation type="memoirist"/>
-                     <occupation type="poet"/>
-                     <occupation type="journalist"/>
-                     <occupation type="editor"/>
-                     <occupation type="playwright"/>
-                     <note resp="#esh #lmw">English author, lexicographer, biographer, essayist and travel writer. His works include <title>A Dictionary of the English
-                           Language</title> (1755), <title>Lives of the English
-                              Poets</title> (1781), and <title>A Journey to the Western Islands of
-                                 Scotland</title> (1775).</note>
+                     <occupation type="literary" subtype="essayist"/>
+                     <occupation type="literary" subtype="lexicographer"/>
+                     <occupation type="literary" subtype="biographer"/>
+                     <occupation type="literary" subtype="poet"/>
+                     <occupation type="literary" subtype="journalist"/>
+                     <occupation type="literary" subtype="editor"/>
+                     <occupation type="literary" subtype="playwright"/>
+                     <note resp="#esh #lmw">English author, lexicographer, biographer, essayist and travel writer. His works include <title level="m">A Dictionary of the English
+                           Language</title> (1755), <title level="m">Lives of the English Poets</title> (1781), and <title level="m">A Journey to the Western Islands of Scotland</title> (1775).</note>
                      <note>
                         <ref target="http://viaf.org/viaf/7406725"/>
                      </note>
@@ -484,8 +473,8 @@
                   <death when="1828-12-26">
                      <placeName>Tavistock Row, Covent Garden, London, England</placeName>
                   </death>
-                  <occupation type="actor"/>
-                  <occupation type="singer"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <occupation type="theater" subtype="singer"/>
                   <note resp="#lmw #rnes">Irish actor, primarily a comedian; also a singer of tenors parts, called "Jack" or "Irish" Johnstone. Performed at Smock Alley Theatre, Dublin; and <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London.
                   </note>
                   <note>
@@ -509,7 +498,7 @@
                      <placeName>St. Cloud, France</placeName>
                   </death>
                   <occupation type="theater"/>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor specializing in comic roles and breeches parts. Born Dorothea Bland, frequently called "Dora" or "Dolly" Jordan; she adopted the name "Mrs. Jordan" in the 1780s as a stage name. Courtesan and longtime mistress of <persName ref="#WilliamIV">William, Duke of Clarence (later William IV)</persName>, with whom she lived at Bushy House, London, and with whom she had ten illegitimate children. She also had three illegitimate children by Sir Richard Ford. Appeared in London at <placeName ref="#Haymarket_Theatre">Haymarket</placeName>, <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>, and <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> Theatres.
                   </note>
                   <note>
@@ -533,10 +522,9 @@
                      <placeName>Rome, Roman Republic
                 </placeName></death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="literary"/>
-                  <occupation type="orator"/>
-                  <occupation type="priest"/>
+                  <occupation type="government" subtype="orator"/>
                   <occupation type="legal"/>
                   <note resp="#ebb #rnes">Roman military commander and emperor, assassinated on
                      <rs type="event">the Ides of March</rs>, as documented by <persName ref="#Plutarch">Plutarch</persName>.</note>
@@ -558,7 +546,7 @@
                      <placeName>Richmond, Surrey, England</placeName>
                   </death>
                   <occupation type="theater"/>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw #rnes">Considered one of the greatest actors of <persName ref="#MRM">Mitford</persName>'s era; known for performing tragedy, including original interpretations of Shakespearean roles such as Shylock. Performed in London at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>. Kean also toured the United States and Canada.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/20476434"/>
@@ -578,8 +566,7 @@
                      <placeName ref="#Rome">Rome, Papal States</placeName>
                   </death>
                   <occupation type="medical"/>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw #rnes">Romantic-era poet, known for his Odes. Trained in the field of medicine, he worked as a dresser (surgeon's assistant) at Guy's Hospital, London and received his apothecary's license while studying to become a member of the Royal College of Surgeons in London. Friend of <persName ref="#Hunt">Leigh Hunt</persName>, <persName ref="#Lamb_Chas">Charles Lamb</persName>, and <persName ref="#Haydon">Benjamin Haydon</persName>, as well as publishers <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName> and lived near them in <placeName ref="#Hampstead">Hampstead</placeName>, where he became part of a circle of Hampstead writers and artists known to <persName ref="#MRM">Mitford</persName>. In <date when="1821">1821</date>, he traveled to Rome to preserve his health, but died there at the age of twenty-five.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/66508882"/>
@@ -616,13 +603,13 @@
                   <death when="1893-01-15">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="playwright"/>
-                  <occupation type="poet"/>
-                  <note type="bio" resp="#lmw">Frances "Fanny" Kemble was a member of the Kemble acting clan, the daughter of Charles Kemble and the niece of Sarah Siddons. One of the best-known women performers of her generation, she worked as both an actor and a platform performer in London and also toured the United States. She was also a prolific author, particulary known for her memoirs and travel writing.
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <note type="bio" resp="#lmw">Frances or <q>Fanny</q> Kemble was a member of the Kemble acting clan, the daughter of <persName ref="#Kemble_C">Charles Kemble</persName> and the niece of <persName ref="#Siddons_Sarah">Sarah Siddons</persName>. One of the best-known women performers of her generation, she worked as both an actor and a platform performer in London and also toured the United States. She was also a prolific author, particulary known for her memoirs and travel writing.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/66594114"/>
@@ -669,8 +656,8 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="actor"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw #cmm">Actor, later Mrs. Charles Kemble. Likely born Marie Thérèse de Camp or du Fleury. Acted under Miss deCamp. (sometimes spelled duCamp.) Married actor Charles Kemble 2 July 1806.
                         Starred in a travestied version of <title>The Beggar’s Opera</title> in
                         <date>1792</date> and went on to star in <title>Miss in her
@@ -701,8 +688,8 @@
                   </death>
                   <occupation type="educator"/>
                   <occupation type="literary"/>
-                  <occupation type="orator"/>
-                  <note resp="#lmw">Principal of St. Mary's Hall, <placeName ref="#Oxford_Univ">University of Oxford</placeName>, and leader of the <orgName ref="#Jacobite">Jacobite</orgName> interest at Oxford in the seventeenth century.</note>
+                  <occupation type="government" subtype="orator"/>
+                  <note resp="#lmw">Principal of St. Mary's Hall, <placeName ref="#Oxford_Univ">University of Oxford</placeName>, and leader of the <orgName ref="#Jacobites">Jacobite</orgName> interest at Oxford in the seventeenth century.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/20492585"/>
                   </note>
@@ -721,9 +708,9 @@
                   <death when="1862-11-30">
                      <placeName>Torquay, England</placeName>
                   </death>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <occupation type="literary"/>
-                  <occupation type="clergy"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <note resp="#lmw #rnes">Actor and author, known as Sheridan Knowles. Friend of <persName ref="#Hazlitt_Wm">William Hazlitt</persName>, <persName ref="#Lamb_Chas">Charles Lamb</persName>, and <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName>. His father James Knowles was the cousin of <persName ref="#Sheridan_RichardB">Richard Brinsley Sheridan</persName>. Wrote <title ref="#WmTell_play">William Tell</title> for <persName ref="#Macready_Wm">Macready</persName>. Later became a Baptist preacher.
                   </note>
                   <note>
@@ -748,10 +735,10 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="novelist"/>
-                  <occupation type="diplomat"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="government" subtype="diplomat"/>
                   <note resp="#lmw">Author and diplomat. Kotzebue was a prolific playwright. <persName ref="#Kemble_C">Charles
                      Kemble</persName> adapted many of his comedies and melodramas for the English stage. He was assassinated by a nationalist liberal student in 1819. Prince Metternich exploited Kotzebue's death to encourage the German confederation to further restrict academic freedoms and freedom of the press.
                   </note>
@@ -767,7 +754,7 @@
                      <surname type="paternal">Vere</surname>
                      <surname type="married">Fairfax</surname>
                   </persName>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <birth notAfter="1618"/>
                   <death when="1665-10-16"/>
                   <note resp="#lmw">Anne was the fourth daughter of Horace Vere, first Baron Vere of Tilbury and Mary Tracy. She married <persName ref="#Fairfax_hist">Thomas Fairfax</persName>, third Lord Fairfax of Cameron, Lord General and Parliamentary commander-in-chief of the <orgName ref="#New_Model_Army">New Model Army</orgName>; they had one daughter. <!-- LMW:  no VIAF #. --></note>
@@ -786,8 +773,8 @@
                      <placeName>Brocket Hall, Hatfield, Hertfordshire, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note type="bio" resp="#lmw">English author. Daughter of Frederick Ponsonby, 3rd Earl of Bessborough and Lady Henrietta Spencer. Wife of William Lamb, 2nd Viscount Melbourne and mistress of <persName ref="#Byron">Lord Byron</persName>. Author of <title ref="#Glenarvon_fict">Glenarvon</title> and other satirical novels. She attended the <placeName ref="#StQuintin_School">St. Quintin School</placeName>, and was taught by <persName ref="#Rowden_Fr">Frances Rowden</persName>, along with <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Landon_LE">Laetitia Elizabeth Landon</persName>.
                   </note>
                   <note>
@@ -808,11 +795,11 @@
                      <placeName>Edmonton, Middlesex, London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="essayist"/>
-                  <occupation type="poet"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="clerk"/>
-                  <note resp="#lmw #cmm">British author, best known for his <title>Essays of Elia</title> (1823-1833), many of which originally appeared in the <title ref="#LondonMag">London Magazine</title>, and <title>Tales from Shakespeare</title>, written with his sister <persName ref="#Lamb_Mary">Mary Lamb</persName>. Friend of <persName ref="#Wordsworth_Wm">Wordsworth</persName> and <persName ref="#Coleridge_ST">Coleridge</persName>.</note>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="government" subtype="clerk"/>
+                  <note resp="#lmw #cmm">British author, best known for his <title level="m">Essays of Elia</title> (1823-1833), many of which originally appeared in the <title level="s" ref="#LondonMag">London Magazine</title>, and <title level="m">Tales from Shakespeare</title>, written with his sister <persName ref="#Lamb_Mary">Mary Lamb</persName>. Friend of <persName ref="#Wordsworth_Wm">Wordsworth</persName> and <persName ref="#Coleridge_ST">Coleridge</persName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/64007908"/>
                   </note>
@@ -830,7 +817,7 @@
                   <death when="1847-05-20">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="author"/>
+                  <occupation type="literary"/>
                   <note type="bio" resp="#err #rnes">An elder sister of <persName ref="#Lamb_Chas">Charles
                      Lamb</persName>, Mary Lamb was a noted author of prose fiction and poetry
                      who was a member of literary circles that included her brother Charles,
@@ -856,9 +843,8 @@
                   <death when="1838-10-15">
                      <placeName>Cape Coast Castle, Gold Coast, West Africa</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="novelist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
                   <note resp="#lmw">Landon attended the <placeName ref="#StQuintin_School">St. Quintin School</placeName>, and was taught by <persName ref="#Rowden_Fr">Frances Rowden</persName>, along with <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Lamb_Caro">Caroline Lamb</persName>. Wrote poetry under L.E.L. or "Miss Landon". Contributed to many giftbooks and annuals in the 1830s, and also anonymously authored numerous reviews and essays. Married <persName>George Maclean</persName>, governor of the British colony Gold Coast in West Africa (now Ghana) in 1838 and died two months later.
                   </note>
                   <note>
@@ -878,8 +864,8 @@
                   <death when="1814-01-29">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="publisher"/>
-                  <occupation type="bookseller"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
+                  <occupation type="bookProducer" subtype="bookseller"/>
                   <note resp="#kdc #lmw #rnes">London bookseller and publisher William Lane pioneered the circulating library, and was the founder of the <orgName ref="#Minerva_Press">Minerva Press</orgName>, a major eighteenth-century publisher of Gothic novels and other popular fiction. He retired about 1804.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/17088379"/>
@@ -908,7 +894,7 @@
                      <surname>Lewington</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <occupation type="business"/>
+                  <occupation type="trade"/>
                   <note resp="#scw">A businessperson who worked for <persName>Mr. Payn</persName>. More research needed.<!--scw: no other info from Needham.-->
                   </note>
                </person>
@@ -944,9 +930,9 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="medical"/>
-                  <occupation type="linguist"/>
-                  <occupation type="physician"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="linguist"/>
+                  <occupation type="medical" subtype="physician"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#alg">Scottish antiquary, poet, and orientalist who assisted <persName ref="#Scott_Wal">Walter Scott</persName> in compiling the <title ref="#Minstrelsy_WS">Minstrelsy of the Scottish Border</title>. Sources: LBT, DNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/54362232"/>
@@ -966,7 +952,7 @@
                      <placeName>England</placeName>
                   </death>
                   <occupation type="theater"/>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">English actor, specializing in comedy, including Cockney parts. His most famous role was the title role in <title>Paul Pry</title>. <persName ref="#Lamb_Chas">Charles Lamb</persName> wrote a fictional Memoir of the actor in the <title ref="#LondonMag">London Magazine</title> in <date when="1825">1825</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/3915614"/>
@@ -987,8 +973,8 @@
                   <death when="1854-11-25">
                      <placeName>Abbotsford, Scotland</placeName>
                   </death>
-                  <occupation type="journalist"/>
-                  <occupation type="editor"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
                   <occupation type="literary"/>
                   <note resp="#ebb">A prominent writer for <title ref="#Blackwoods">Blackwood's Magazine</title> in its early years, Lockhart joined the staff of the magazine in <date when="1817">1817</date>, and came to be associated with its abrasive style and particularly (though without verification) its insulting characterization of London artists and literary figures as a <orgName ref="#CockneyS">Cockney School</orgName> in <date from="1820" to="1821">1820 and 1821</date>. Assumptions and bitter accusations in the matter led to a bitter personal conflict aired in the pages of Blackwood's and <title ref="#LondonMag">The London Magazine</title> resulting in <rs type="event" ref="#ScottChristie_Duel">the death by duel of The London Magazine's editor, <persName ref="#Scott_John">John Scott</persName> in <date when="1821-02">February 1821</date>, at the hands of Lockhart's literary agent <persName ref="#Christie_JH">Jonathan Christie</persName>
                   </rs>. Lockhart married <persName ref="#Scott_Wal">Walter Scott</persName>'s daughter <persName>Sophia</persName> in <date when="1820">1820</date>, which caused John Scott and others to assume that Walter Scott had some involvement with Blackwood's campaign against the Cockneys. Lockhart took over the editorship of the <title ref="#QuarterlyRev_per">Quarterly Review</title>
@@ -1059,11 +1045,11 @@
                   <death when="1482-08-25">
                      <placeName>Pays de la Loire, France</placeName>
                   </death>
-                  <occupation type="monarch"/>
-                  <note resp="#rnes #ebb">Margaret of Anjou, daughter of <persName>René I of Anjou, King of Naples</persName>, <rs type="event">married <persName ref="#HenryVI">Henry VI of <placeName ref="#England">England</placeName></persName> in <date when="1445">1445</date></rs>. She often ruled in her husband's place during his periods of mental instability, and her rule sparked conflict with <persName>Richard, Duke of York</persName>, leading to <rs type="event">the Wars of the Roses, a period of civil wars polarizing the <orgName>Houses of York</orgName> and <orgName ref="#Lancastrians">Lancaster</orgName> for over thirty years in England <date from="1455" to="1487">between 1455 and 1487</date>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#rnes #ebb">Margaret of Anjou, daughter of <persName>René I of Anjou, King of Naples</persName>, <rs type="event">married <persName ref="#HenryVI">Henry VI of <placeName ref="#England">England</placeName></persName> in <date when="1445">1445</date></rs>. She often ruled in her husband's place during his periods of mental instability, and her rule sparked conflict with <persName>Richard, Duke of York</persName>, leading to <rs type="event">the Wars of the Roses, a period of civil wars polarizing the <orgName ref="#Yorks">Houses of York</orgName> and <orgName ref="#Lancastrians">Lancaster</orgName> for over thirty years in England <date from="1455" to="1487">between 1455 and 1487</date>
                   </rs>, during which she and her son vied with <persName>Edward, Duke of York</persName> for control of the English throne. She was exiled, restored, and ultimately defeated at <rs type="event">the Battle of Tewkesbury on <date when="1471-05-04">4 May 1471</date>
                   </rs>, and she died in exile in France. She was immortalized by <persName ref="#Shakespeare">Shakespeare</persName> as an unfaithful wife but grieving, vengeful, and prophetic royal widow, and in Mitford's time, she was the subject of <bibl>a long poem by <author>Margaret Holford</author> in <date when="1816">1816</date>
-                  </bibl>.<!--LMW: Lancastrians id in Chas I--></note>
+                  </bibl>.<!--2019-05-26 LMW ebb: Lancastrians and Yorks ids in si-Add-CharlesI_FindensT_Rienzi--></note>
               <note>
                      <ref target="http://viaf.org/viaf/68905751"/>
                   </note>
@@ -1078,9 +1064,9 @@
                   <death when="0632-06-08">
                      <placeName>Medina, Hejaz, Arabia</placeName>
                   </death>
-                  <occupation type="merchant"/>
-                  <occupation type="prophet"/>
-                  <note resp="#ncl #lmw">French and medieval Latin spelling of Muhammad; used by Mitford to refer to the Islamic prophet, called the last prophet of Islam, and widely regarded as the founder of the Muslim faith. ("Mahomet" is also the spelling used by Voltaire in his 1735 play, with which Mitford may have been familiar.) Elsewhere, Mitford refers to "Mahound and Termagaunte" as stereotypically violent Islamic gods; Mahound is another alternative spelling for Muhammad.</note>
+                  <occupation type="trade"/>
+                  <occupation type="religious" subtype="prophet"/>
+                  <note resp="#ncl #lmw">French and medieval Latin spelling of Muhammad; used by Mitford to refer to the Islamic prophet, called the last prophet of Islam, and widely regarded as the founder of the Muslim faith. (<q>Mahomet</q> is also the spelling used by Voltaire in his 1735 play, with which Mitford may have been familiar.) <!--Elsewhere, Mitford refers to <q>Mahound and Termagaunte</q> as stereotypically violent Islamic gods; Mahound is another alternative spelling for Muhammad. ebb: Don't include until a source is located fro Mitford's use and context can be explained. --></note>
                   <note>
                      <ref target="http://viaf.org/viaf/97245226"/>
                   </note>
@@ -1109,7 +1095,7 @@
                   </persName>
                   <persName from="1774-05-10" to="1791-09-04">Queen Consort of France and Navarre</persName>
                   <persName from="1791-09-04" to="1792-08-10">Queen Consort of the French</persName>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#lmw">Born an Archduchess of Austria, she was the daughter of Francis I, Holy Roman Emperor and Empress Maria Theresa. She became Dauphine of France in 1770 at the age of 14, upon her marriage to Louis-Auguste of France. She became Queen of France and Navarre when Louis-Auguste ascended the throne of France; they had four children. In 1791, during the French Revolution, her title was changed to Queen of the French. She was guillotined in 1793 for treason against France and was buried in an unmarked grave; her body and that of her husband were exhumed during the Bourbon Restoration and reburied at the Basilica of St. Denis.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/96583693"/>
@@ -1122,8 +1108,7 @@
                      <surname>Malton</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <occupation type="legal"/>
-                  <occupation type="solicitor"/>
+                  <occupation type="legal" subtype="solicitor"/>
                   <note resp="#scw">Solicitor whose services <orgName ref="#Mitfords">the Mitfords</orgName> used.</note>
                </person>
               
@@ -1142,9 +1127,9 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="poet"/>
-                  <occupation type="translator"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="translator"/>
                   <note resp="#lmw #rnes">English Early-modern-era playwright, poet, and translator; wrote <bibl><title>The Tragical History of Dr. Faustus</title></bibl>. Associate of Shakespeare, and collaborated with him to write <bibl><title>Henry VI</title>, parts 1, 2, and 3.</bibl>.
                   </note>
                <note>
@@ -1166,11 +1151,10 @@
                   <death when="1825-03-31">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="clergy"/>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="curate"/>
-                  <note resp="#lmw">Clergyman, poet, and dedicatee of Canto Two of Walter Scott's <title ref="#Marmion_WS">Marmion</title>. Curate of Broadclist and other parishes in Devonshire, and Rector of Church Lawford, Warwickshire. He contributed poems to the third edition of Scott's Minstrelsy of the Scottish Border; his best-known poem is "Marriage is like a Devonshire Lane,"’ first printed in <persName ref="#Baillie_Joanna">Joanna Baillie</persName>'s <title>A Collection of Poems, Chiefly Manuscript, and from Living Authors</title> (1823).</note>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="religious" subtype="curate"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <note resp="#lmw">Clergyman, poet, and dedicatee of Canto Two of Walter Scott's <title ref="#Marmion_WS">Marmion</title>. Curate of Broadclist and other parishes in Devonshire, and Rector of Church Lawford, Warwickshire. He contributed poems to the third edition of Scott’s <title level="m">Minstrelsy of the Scottish Border</title>; his best-known poem is <bibl><title level="a">Marriage is like a Devonshire Lane</title>, first printed in <author ref="#Baillie_Joanna">Joanna Baillie</author>'s <title level="m">A Collection of Poems, Chiefly Manuscript, and from Living Authors</title> (1823)</bibl>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/51520791"/>
                   </note>  
@@ -1187,7 +1171,7 @@
                   <death when="1694-12-28">
                      <placeName>Kensington Palace, London, England</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb #lmw">Ruled England jointly with <persName ref="#WilliamIII">King William III</persName> after the <rs type="event" ref="#Glorious_Revol">Glorious Revolution</rs> as King and Queen of England, Scotland, France and Ireland, Stadholther of the Republic of the Seven United Netherlands, Prince of Orange, Count of Nassau, Defenders of the Faith. Protestant monarch and eldest
                      daughter of the Catholic <persName ref="#JamesII">King James
                         II</persName>, of the House of Stuart; she was named after Mary, Queen of Scots. Buried in Westminster Abbey.</note>
@@ -1232,7 +1216,7 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">Early-modern-era playwright and associate of <persName ref="#Shakespeare">Shakespeare</persName> and <persName ref="#Fletcher_John">Fletcher</persName> with the King's Men.
                   </note>
                   <note>
@@ -1254,7 +1238,7 @@
                   <death when="1874-08-24">
                      <placeName>Ampthill Square, London, England</placeName>
                   </death>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">A celebrated child actor, known as "Master Betty" and the "Young Roscius." Appeared to great acclaim in theaters in Dublin and Belfast before appearing at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. Played Young Norval in Douglas as well as adult roles such as <persName ref="#Hamlet_H">Hamlet</persName>. He never achieved critical success as an adult actor and retired from the theater in 1824.
                   </note>
                   <note>
@@ -1277,12 +1261,9 @@
                   <death when="1564-02-18">
                      <placeName ref="#Rome">Rome, Papal States</placeName>
                   </death>
-                  <occupation type="artist"/>
-                  <occupation type="sculptor"/>
-                  <occupation type="painter"/>
-                  <note type="bio" resp="#ghb">Renaissance artist famous for sculptures, such as
-                     "David" and "La Pieta", and frescoes, such as "The Last Judgement" and the
-                     ceiling of the Sistine Chapel in the Vatican.</note>
+                  <occupation type="artist" subtype="sculptor"/>
+                  <occupation type="artist" subtype="painter"/>
+                  <note type="bio" resp="#ghb">Renaissance artist famous for sculptures, such as <title level="m">David</title> and <title level="m">La Pieta</title>, and frescoes, such as <title level="m">The Last Judgement</title> and the ceiling of the Sistine Chapel in the Vatican.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/24585191"/>
                   </note>
@@ -1305,10 +1286,9 @@
                   <death when="1666-09-19">
                      <placeName>Mont Orgueil Castle, Jersey</placeName>
                   </death>
-                  <occupation type="legal"/>
-                  <occupation type="barrister"/>
-                  <occupation type="politician"/>
-                  <occupation type="regicide"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#ebb #lmw">Elected Member of Parliament for Nottingham in the Long Parliament of <date from="1640" to="1648">1640 to 1648</date>, Gilbert Millington was one of the barristers vocal for the execution of <persName ref="#ChasI">King Charles I</persName> and was one of the signers of the king's death warrant. Millington was condemned to death after <rs type="event">the Restoration</rs> for his role in the regicide but upon appeal his sentence was commuted to life imprisonment.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/24486641"/>
@@ -1328,13 +1308,13 @@
                   <death when="1868-09-24">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="clergy"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="historian"/>
-                  <occupation type="poet"/>
-                  <occupation type="playwright"/>
-                  <occupation type="translator"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="translator"/>
                   <occupation type="educator"/>
                   <note resp="#lmw">After a brilliant career at Brasenose College, Oxford, Milman was ordained into the Church of England in 1816 and became parish priest of St Mary's, <placeName ref="#Reading_city">Reading</placeName>, in <date when="1818">1818</date>, where he became acquainted with <persName ref="#MRM">Mary Russell Mitford</persName>. Mitford mentions Milman's literary, critical, and editing work in her correspondence and indicates that he made written suggestions on the manuscript of <title ref="#Foscari_MRMplay">Foscari</title> in <date when="1821">1821</date>. Milman was elected professor of poetry at <placeName ref="#Oxford_Univ">Oxford</placeName> in 1821; Sir Robert Peel made him Rector of St Margaret's, Westminster, and Canon of Westminster in 1835, and in 1849 he became Dean of St Paul's. He published poetry, several tragedies, and hymns, as well as translations of <persName ref="#Euripides">Euripides</persName>, and an edition of <persName ref="#Horace">Horace</persName>. He also wrote several important histories, including <bibl><title>History of the Jews</title></bibl> (1829), <title><bibl>History of Christianity to the Abolition of Paganism in the Roman Empire</bibl></title> (1840), and <title><bibl>History of Latin Christianity</bibl></title> (1855); he also edited Edward Gibbon's <title ref="#Decline_Fall">Decline and Fall of the Roman Empire</title> and published a <title>Life of Gibbon</title> (1838, 1839). Milman was buried in St Paul's Cathedral.</note> 
                   <note>
@@ -1355,10 +1335,9 @@
                   <death when="1674-11-08">
                      <placeName>Bunhill, London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="essayist"/>
-                  <occupation type="clerk"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="government" subtype="clerk"/>
                   <occupation type="government"/>
                   <note resp="#esh #lmw">English poet and polemical essayist who wrote in support of Parliamentary and Puritan causes, best known for his epic poem <title ref="#ParadiseLost">Paradise Lost</title> (1667).</note>
                <note>
@@ -1384,10 +1363,8 @@
                         <placeName>Three Mile Cross, Shinfield, Berkshire, England</placeName>
                      </date>
                   </death>
-                  <occupation type="medical"/>
-                  <occupation type="surgeon"/>
-                  <occupation type="legal"/>
-                  <occupation type="magistrate"/>
+                  <occupation type="medical" subtype="surgeon"/>
+                  <occupation type="legal" subtype="magistrate"/>
                   <note resp="#lmw">
                      <persName ref="#Mitford_Geo">George Mitford</persName> was born on <date when="1760-11-15">November 15, 1760</date> in <placeName>Hexham, Northumberland</placeName>, the son of <persName>Francis Midford</persName>, surgeon, and <persName>Jane Graham</persName>. He was related to the Mitfords of Mitford Castle, Northumberland. In <date when="1784">1784</date>, he was living in Alresford and is listed in a Hampshire directory as "surgeon (medicine)." Although later sources would claim that he was a graduate of the University of Edinburgh medical school, there is no evidence that he obtained a medical degree; his father and grandfather worked as surgeon-apothecaries and it seems likely that he served a medical apprenticeship with family members. He married <persName ref="#Russell_M">Mary Russell</persName> on <date when="1785-10-17">October 17, 1785</date> at <placeName>New Alresford, Hampshire</placeName>. On the marriage allegation papers, both gave their addresses as <placeName>Old Alresford</placeName>; they later came to live at Broad Street in New Alresford. Their only child to live to adulthood, <persName ref="#MRM">Mary Russell Mitford</persName>, was born two years later on <date when="1787-12-16">December 16, 1787</date> at <placeName>New Alresford, Hampshire</placeName>. He served as a local magistrate and was active in Whig political and legal circles in Berkshire. <persName ref="#Mitford_Geo">George Mitford</persName> died on <date when="1842-12-11">December 11, 1842</date> at <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> in the <placeName>parish of Shinfield, Berkshire</placeName>.  <!--LMW: no VIAF #.-->
                   </note>
@@ -1407,8 +1384,8 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="actor"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">French actor, playwright, and writer of court entertainments; specialized in satirical comedies such as <title ref="#Tartuffe">Tartuffe</title>.
                     </note>
                   <note>
@@ -1452,8 +1429,8 @@
                      <surname>Montague</surname>
                      <roleName>Captain</roleName>
                   </persName>
-                  <occupation>naval officer</occupation>
-                  <note resp="#scw">More research needed.<!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--></note>
+                  <occupation type="military" subtype="navy"/>
+                  <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work. More research needed.<!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--></note>
                </person>
                
                <person xml:id="Montagu_MW" sex="f">
@@ -1471,10 +1448,9 @@
                   <death when="1762-08-21">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <note>
                      <ref target="http://viaf.org/viaf/7394587"/>
                   </note>
@@ -1494,10 +1470,10 @@
                      <placeName>Richmond, Surrey, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="memoirist"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="autobiographer"/>
                   <occupation type="medical"/>
-                  <occupation type="physician"/>
+                  <occupation type="medical" subtype="physician"/>
                   <note resp="#lmw #ebb">John Moore, M.D., physician and author, wrote <title ref="#Moore_ViewItaly">A View of Society and Manners in Italy</title> and Journal during a Residence in France (1793) as well as the novel Zeluco (1789).
                   </note>
                   <note>
@@ -1517,14 +1493,13 @@
                   <death when="1852-02-25">
                      <placeName>Sloperton Cottage, Bromham, Wiltshire, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="translator"/>
-                  <occupation type="essayist"/>
-                  <occupation type="biographer"/>
-                  <occupation type="musician"/>
-                  <occupation type="composer"/>
-                  <note resp="#lmw">Irish poet, singer, and musical composer; friend of <persName ref="#Byron">Byron</persName>. Author of <title><bibl>Irish Melodies</bibl></title>, a collection of ballads published between 1808 and 1834. In 1803, worked briefly as registrar to the Admiralty in Bermuda, then travelled throughout the United States and Canada, returning in 1804. Author of a comic opera, Whig satirical essays and poems, and works of social satire such as <title>The Fudge Family in Paris</title> (1818). Author of <title>Memoirs of the Life of the Right Honourable Richard Brinsley Sheridan</title> (1825) as well as editor of <title>Letters and Journals of Lord Byron, with Notices of his Life</title> (1830), as Byron's literary executor.
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="theater" subtype="musician"/>
+                  <occupation type="theater" subtype="composer"/>
+                  <note resp="#lmw">Irish poet, singer, and musical composer; friend of <persName ref="#Byron">Byron</persName>. Author of <bibl><title level="m">Irish Melodies</title>, a collection of ballads published between <date from="1808" to="1834">1808 and 1834</date></bibl>. In 1803, worked briefly as registrar to the Admiralty in Bermuda, then travelled throughout the United States and Canada, returning in 1804. Author of a comic opera, Whig satirical essays and poems, and works of social satire such as <bibl><title level="m">The Fudge Family in Paris</title> (<date when="1818">1818</date>)</bibl>. Author of <bibl><title level="m">Memoirs of the Life of the Right Honourable Richard Brinsley Sheridan</title> (<date when="1825">1825</date>)</bibl> as well as editor of <bibl><title level="m">Letters and Journals of Lord Byron, with Notices of his Life</title> (<date when="1830">1830</date>)</bibl> as Byron's literary executor.
                      </note>
                   <note>
                     <ref target="http://viaf.org/viaf/24616222"/>
@@ -1560,8 +1535,8 @@
                   <death when="1848-10-07">
                      <placeName>Castle Howard, Yorkshire, England</placeName>
                   </death>
-                  <occupation type="politician"/>
-                  <occupation type="diplomat"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="diplomat"/>
                   <occupation type="government"/>
                   <note resp="#lmw">English peer and politically moderate Member of Parliament and statesman who served under both Whig and Tory governments, the son of Frederick Howard, 5th Earl of Carlisle, and Lady Margaret Caroline Leveson-Gower. He married Lady Georgiana Dorothy Cavendish, daughter of William, 5th Duke of Devonshire, and they had six sons and six daughters. He served as Member of Parliament for Morpeth from 1795 until 1806; in 1806, he was sworn to the Privy Council and also served as envoy extraordinary to Prussia. He then served as Member of Parliament for Cumberland unti 1820 and later took his seat in the House of Lords in 1825 upon the death of his father. He served as First Commissioner of Woods and Forests and then as Lord Privy Seal in the Tory governments of George Canning and Lord Goderich; he later served as a member of the cabinet in the Whig governments of Lord Grey and of Lord Melbourne in the 1830s. He was Lord Lieutenant of the East Riding of Yorkshire between 1824 and 1840 and was elected a Fellow of the Royal Society.<persName ref="#MRM">Mitford</persName> mentions him in a letter of <date when="1821">1821</date> in a political context; at this time, he was known as Viscount Morpeth and was no longer serving as Member of Parliament for Cumberland, having given up his seat in 1820.</note>
                   <note>
@@ -1586,8 +1561,8 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation>theater manager</occupation>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater" subtype="manager"/>
                   <note resp="#lmw">English author and theater manager. Author of <bibl><title>Speed the Plough</title></bibl> (1798).
                   </note>
                   <note>
@@ -1598,16 +1573,16 @@
                <person xml:id="Mudie_Rob" sex="m">
                   <persName>Robert Mudie</persName>
                   <persName><forename>Robert</forename><surname>Mudie</surname></persName>
-                  <birth when="1877-06-28">
+                  <birth when="1777-06-28">
                      <placeName>Angus, Scotland</placeName>
                   </birth>
                   <death when="1842-04-29"/>
                   <occupation type="educator"/>
-                  <occupation type="journalist"/>
+                  <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="naturalist"/>
-                  <occupation type="editor"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <occupation type="literary" subtype="editor"/>
                   <note resp="#ajc">Newspaper editor and author. Author of <title ref="#Glenfergus_fict">Glenfergus</title>. Also wrote <title>The Copyright Question</title>, and <title>Mr. Serjeant Talfourd's Bill</title> (1837), a pamphlet on the copyright bill introduced to Parliament by <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName>.
                   </note>
                   <note>
@@ -1627,7 +1602,7 @@
                   <death when="1832-02-06">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note type="bio" resp="#ebb #lmw">Comic actor who frequently played sailor and drunken roles, though occasionally took dignified elder roles, such as <persName ref="#Polonius">Polonius</persName>. Munden married the actor <persName>Frances Butler</persName> in 1789. He began his acting career in <date when="1780">1780</date> at the <placeName ref="#Haymarket_Theatre">Haymarket Theatre</placeName>. He later played at both <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. He retired with a farewell benefit performance on <date when="1824-05-31">31 May 1824</date>. Munden played <persName>Old Rapid</persName> opposite <persName ref="#Lewis_William_Thomas">William Thomas Lewis</persName> as <persName>Young Rapid</persName> in the play, <title>Cure for the Heartache</title> in <date when="1796">1796</date>, and played <persName ref="#Polonius">Polonius</persName> to <persName ref="#Kean_Edmund">Kean</persName>'s as well as to <persName ref="#Kemble_JP">John Philip Kemble</persName>'s <persName ref="#Hamlet_H">Hamlet</persName>. Source: ODNB.
                   </note>
                   <note>
@@ -1644,7 +1619,7 @@
                      <placeName>Fleet Street, London, England</placeName>
                   </birth>
                   <death when="1843-06-27"/>
-                  <occupation type="publisher"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
                   <note resp="#ajc #lmw">John Murray (second of that name) was proprietor of the publishing house bearing his name. The business was founded in <date when="1768">1768</date> by his father, John Mac Murray (1745–1793), (who later changed the family name to Murra"), and was continued by his son, John Murray III. <persName ref="#Byron">Byron</persName>'s friend, correspondent, and early publisher. He also published works by <persName ref="#Austen_Jane">Austen</persName>, <persName ref="#Scott_Wal">Scott</persName>, <persName ref="#Irving_Wash">Washington Irving</persName>, and Crabbe, and he helped to found the <title ref="#QuarterlyRev_per">Quarterly Review</title> and the <title ref="#EdinburghRev_per">Edinburgh Review</title>. Under his leadership, the firm developed into one of the most important and influential publishing houses in Romantic-era Great Britain. After 1812, his publishing house premises (and home) in <placeName ref="#London_city">London</placeName> were at 50 Albermarle Street in Mayfair. He is buried at All Soul's, Kensal Green, London.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/88737799"/>
@@ -1671,8 +1646,8 @@
                      <placeName>Longwood, St. Helena, United Kingdom</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#lmw">Military commander and political leader. During the French Revolution and Revolutionary Wars, Napoleon rose to prominence as a military leader. He engineered a coup in 1799 that brought him to power as First Consul of France and then as Napoleon I, Emperor of the French (from 1804 until 1814, and again in 1815). As Emperor, he led France against a series of European military coalitions in the Napoleonic Wars, building an empire that extended over most of continental Europe until its collapse in 1815. In spring 1814, the Allies captured Paris and forced Napoleon to abdicate, exiling him to the island of Elba and restoring the Bourbons to power. Less than a year later, Napoleon escaped from Elba and retook control of France, only to suffer defeat by the Allies at the Battle of Waterloo in June 1815. The British then exiled him to the island Saint Helena in the South Atlantic, where he remained until his death in 1821. He is celebrated as one of Europe's greatest military commanders and as the disseminator of the system of laws known as the Napoleonic Code.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/106964661"/>
@@ -1685,8 +1660,7 @@
                      <forename>Jacob</forename>
                      <surname>Newberry</surname>
                   </persName>
-                  <occupation type="legal"/>
-                  <occupation type="solicitor"/>
+                  <occupation type="legal" subtype="solicitor"/>
                   <note resp="#scw #lmw">According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <q>“Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading"</q> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted (London:  C. Mitchell, 1856: 77-79). More research needed. <!-- LMW:  No VIAF #. -->
                   </note>
                </person>
@@ -1697,8 +1671,7 @@
                      <surname>Newman</surname>
                      <forename/>
                   </persName>
-                 <occupation type="butler"/>
-                  <occupation type="service"/>
+                  <occupation type="service" subtype="butler"/>
                   <note resp="#kab">The butler of Mitford's friend <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. More research needed.</note>
                </person>
                
@@ -1715,11 +1688,10 @@
                   <death when="1832">
                      <placeName>France</placeName>
                   </death>
-                  <occupation type="legal"/>
-                  <occupation type="solicitor"/>
-                  <occupation type="politician"/>
+                  <occupation type="legal" subtype="solicitor"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="literary"/>
-                  <occupation type="memoirist"/>
+                  <occupation type="literary" subtype="autobiographer"/>
                   <note resp="#lmw">Solicitor and Member of Parliament for Bletchingley and for Tregony. Author of <title ref="#Recoll_Reign_GeoIII">Recollections and Reflections, Personal and Political, as Connected with Public Affairs, During the Reign of George III</title>, a memoir read by <persName ref="#MRM">Mitford</persName> and mentioned in her <date when="1821">1821</date> correspondence.</note>
                   <note>
                      <ref target="http://www.historyofparliamentonline.org/volume/1754-1790/member/nicholls-john-1745-1832"/>
@@ -1738,8 +1710,8 @@
                   <death when="1771-07-18">
                      <placeName>Reading, Berkshire, England</placeName>
                   </death>
-                  <occupation type="clergy"/>
-                  <occupation type="vicar"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="religious" subtype="vicar"/>
                   <note resp="#scw">
                      <persName ref="#Needham_Francis">Francis Needham</persName> identifies <persName ref="#Nicholson_Jeremiah">Nicholson</persName> as the husband of <persName ref="#Nicholson_Mrs">Mrs. Nicholson</persName> in <title ref="#OV">Our Village</title>, <title>"Early Recollections: A Widow's Feather"</title>. In real life, according to <persName ref="#Needham_Francis">Needham</persName>, he served as the vicar of <placeName ref="#Reading_city">Reading</placeName>'s <placeName ref="#St_Lawrence_Church"> St. Lawrence Church </placeName>from <date when="1763-11-25">November 25, 1763</date> until his death on <date when="1771-07-18">July 18, 1771</date>. <persName ref="#MRM"> Mitford</persName> refers to this church as <placeName type="fict" ref="#St_Johns_Church">St. Johns</placeName>
                      <persName ref="#Needham_Francis">Needham</persName>'s source for information on <persName ref="#Nicholson_Jeremiah">Jeremiah Nicholson</persName> is C. Kerry, A History of the Municipal Church of St. Lawrence, Reading, 1883, p. 131 and 222.<!-- LMW:  No VIAF #. --></note>
@@ -1776,16 +1748,16 @@
                   </birth>
                   <death when="1851">
                      <placeName>Furzebrook House, near Axminster, England</placeName></death>
-                  <occupation type="politician"/>
-                  <occupation type="naturalist"/>
-                  <occupation type="antiquarian"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
                   <occupation type="literary"/>
                   <note resp="#kab #lmw"><p>An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName>, friend of <persName ref="#Johnson_Mr">John Johnson</persName> and co-founder with him of the <orgName ref="#Hampden_Club">Hampden Club</orgName>. A Radical, Northmore ran unsuccessfully as Member of Parliament for Exeter and for Barnstaple. In <rs type="letter">a letter to <persName ref="#Haydon">Haydon</persName> dated <date when="1824-02-09">9 February 1824</date>
                   </rs>, Mitford refers to Northmore as "a great <placeName ref="#Devonshire">Devonshire</placeName>
                      reformer, one of the bad epic poets and very pleasant men in which that
                      country abounds" (<bibl>
                         <title>Life of Mary Russell Mitford</title> ed. L'Estrange Vol II, page 22</bibl>).</p>
-                     <p>In an 1819 letter to Elford, Mitford gives this description of Northmore, and mentions his authorship of an epic poem on George Washington: "what a man! How loud &amp; shrewd &amp; full of himself &amp; sharp all over from his eagle nose to his pointed hook toe! What a perpetual sky rocket bouncing starting &amp; flaming! What a talker against time! Well might <persName ref="#Hobhouse_JC">Mr. Hobhouse</persName> call him "the gentleman who came all the way from Devonshire to tell us that he was a great man at home." And he is a Poet too. Has written an Epic, which must have appeared incognito&#8212;for I never remember to have heard it mentioned in my life. An Epic Poem about <persName ref="#Washington_Geo">Washington</persName>. Northmore's poem, published in Baltimore, MD, is entitled <title ref="#WashingtonEpic_TN">Washington; or Liberty Restored. A Poem in Ten Books</title>.</p></note>
+                     <p>In an 1819 letter to Elford, Mitford gives this description of Northmore, and mentions his authorship of an epic poem on George Washington: "what a man! How loud &amp; shrewd &amp; full of himself &amp; sharp all over from his eagle nose to his pointed hook toe! What a perpetual sky rocket bouncing starting &amp; flaming! What a talker against time! Well might <persName ref="#Hobhouse_JC">Mr. Hobhouse</persName> call him "the gentleman who came all the way from Devonshire to tell us that he was a great man at home." And he is a Poet too. Has written an Epic, which must have appeared incognito–for I never remember to have heard it mentioned in my life. An Epic Poem about <persName ref="#Washington_Geo">Washington</persName>. Northmore's poem, published in Baltimore, MD, is entitled <title ref="#WashingtonEpic_TN">Washington; or Liberty Restored. A Poem in Ten Books</title>.</p></note>
                   <note>
                      <ref target="http://viaf.org/viaf/59492066"/></note>
                </person>
@@ -1804,9 +1776,9 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="musician"/>
-                  <occupation type="composer"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater" subtype="musician"/>
+                  <occupation type="theater" subtype="composer"/>
                   <note resp="#ebb">Popular Irish playwright and musician, O'Hara wrote many comic operas, including <bibl corresp="#TomThumb_OHaraAdpt">a burletta adapted from <bibl corresp="#TomThumb_Fielding">
                      <author ref="#Fielding_Henry">Fielding</author>'s play, <title>Tom Thumb</title>
                   </bibl>
@@ -1815,10 +1787,10 @@
                </person>
                
                <person xml:id="OKeefe" sex="m">
-                  <persName>John O'Keeffe</persName>
+                  <persName>John O’Keeffe</persName>
                   <persName>
-                     <surname>O'Keeffe</surname>
-                     <surname><addName>O'Keefe</addName></surname>
+                     <surname>O’Keeffe</surname>
+                     <surname><addName>O’Keefe</addName></surname>
                      <forename>John</forename>
                   </persName>
                   <birth when="1747-06-24">
@@ -1828,15 +1800,15 @@
                      <placeName>Southampton, Hampshire, England</placeName>
                   </death>
                   <occupation type="artist"/>
-                  <occupation type="painter"/>
+                  <occupation type="artist" subtype="painter"/>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="actor"/>
-                  <occupation type="musician"/>
-                  <occupation type="composer"/>
-                  <note resp="#lmw">Irish actor who began his career as a painter. Performed at Smock Alley Theatre, Dublin, and <placeName ref="#Haymarket_Theatre">Haymarket</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. Author of comedies and librettos for comic operas including <bibl><title>Love in a Camp</title> (<date>1786</date>)</bibl> and <bibl> <title>Wild Oats</title> (<date>1791</date>)</bibl>. Also brought many Irish folk songs to print and to wider public attention. <persName ref="#Hazlitt_Wm">Hazlitt</persName> described him as the "English <persName ref="#Moliere">Molière</persName>." His surname is variously spelled "O'Keeffe" and "O'Keefe." In <persName ref="#MRM">Mitford</persName>'s Introduction to her Dramatic Works, the name is printed "O'Keefe," although the more accepted spelling is "O'Keeffe."
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <occupation type="theater" subtype="musician"/>
+                  <occupation type="theater" subtype="composer"/>
+                  <note resp="#lmw">Irish actor who began his career as a painter. Performed at Smock Alley Theatre, Dublin, and <placeName ref="#Haymarket_Theatre">Haymarket</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. Author of comedies and librettos for comic operas including <bibl><title>Love in a Camp</title> (<date>1786</date>)</bibl> and <bibl> <title>Wild Oats</title> (<date>1791</date>)</bibl>. Also brought many Irish folk songs to print and to wider public attention. <persName ref="#Hazlitt_Wm">Hazlitt</persName> described him as the <soCalled>English <persName ref="#Moliere">Molière</persName></soCalled>. His surname is variously spelled <q>O’Keeffe</q> and <q>O’Keefe</q>. In <persName ref="#MRM">Mitford</persName>’s Introduction to her <title level="m">Dramatic Works</title>, the name is printed <q>O’Keefe</q>, although the more accepted spelling is <q>O’Keeffe</q>.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/78145067061566630171"/></note>
@@ -1856,7 +1828,7 @@
                   <death when="1872-10-29">
                      <placeName>Ballygiblin, Ireland</placeName>
                   </death>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Irish actor. Later Lady Becher: married Mr., afterwards Sir William Wrixon Becher, an Irish Member of Parliament who was later created a baronet. Appeared at Crow Street Theatre, Dublin and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatre, London.
                   </note>
                   <note>
@@ -1877,9 +1849,9 @@
                   </birth>
                   <death when="1849-10-01"></death>
                   <occupation type="theater"/>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <occupation type="literary"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">English actor and playwright, specializing in comedy and farce; appeared as "Mrs. Orger." Born Mary Ann Ivers, daughter of William Ivers. Married to Thomas Orger, a Quaker, in July 1804. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. <persName ref="#Hunt">Leigh Hunt</persName> addressed a poem to her. Source: The Biography of the British Stage. 187-188.
                   </note>
                   <note>
@@ -1900,8 +1872,8 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw #cmm">English Restoration-era playwright and poet whose best-known works include the tragedies <title>The
                      Orphan</title> and <title>The Soldier’s Fortune</title> (1680) and <title>Venice Preserv'd</title> (1682).
                   </note>
@@ -1920,9 +1892,8 @@
                   </birth>
                   <death when="0016-11-30">16 CE<placeName>Tomis, Scythia minor, Roman empire</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="orator"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="government" subtype="orator"/>
                   <note resp="#lmw">Roman orator and poet.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/88342447"/>
@@ -1945,10 +1916,9 @@
                   <death when="1859-04-14">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="novelist"/>
-                  <occupation type="memoirist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="autobiographer"/>
                   <occupation type="educator"/>
                   <note resp="#lmw">Irish author, amateur performer, and Romantic-era literary celebrity.</note>
                   <note>
@@ -1979,9 +1949,9 @@
                   <death when="1865-10-18">
                      <placeName>Brocket Hall, Hatfield, Hertfordshire, England</placeName>
                   </death>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
-                  <occupation type="diplomat"/>
+                  <occupation type="government" subtype="diplomat"/>
                   <note resp="#tlh #lmw">Prime Minister of the United Kingdom, 12 June 1859 to 18 October 1865 and 6 February 1855 to 19 February 1858.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/51698419"/>
@@ -2020,9 +1990,9 @@
                      <placeName>Lower Halliford, Shepperton, Surrey, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="poet"/>
-                  <occupation type="essayist"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <occupation type="trade"/>
                   <note resp="#ncl #lmw">Poet, essayist, satiric novelist. Most famous novels were published between 1815 and 1822 and include Headlong Hall, Nightmare Abbey, Maid Marian, and Crotchet Castle. Worked as East India company official and represented company interests before various Parliamentary committees.</note>
                   <note>
@@ -2048,9 +2018,9 @@
                   <death when="1811-09-30">
                      <placeName>Dromore, county Down, Ireland</placeName>
                   </death>
-                  <occupation type="clergy"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
-                  <occupation type="antiquarian"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
                   <note resp="#lmw">Author and antiquarian, Thomas Percy collected and edited Reliques of Ancient English Poetry (1765), the first important collection of traditional English ballads, and a major influence on the European ballad revival of the Romantic period. A clergyman, he served as chaplain to George III and was later made Bishop of Dromore, County Down, Ireland.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/68971787"/>
@@ -2069,10 +2039,9 @@
                   <death when="1374-07-19">
                      <placeName>Arquà, Republic of Venice</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="poet"/>
                   <occupation type="scholar"/>
-                  <occupation type="editor"/>
+                  <occupation type="literary" subtype="editor"/>
                   <note resp="#ebb">Petrarch's scholarship and poetry helped to initiate the Italian Renaissance. He investigated the learning of ancient <placeName ref="#Rome">Rome</placeName> and rediscovered <persName>Cicero</persName>'s letters. In poetry he is most widely known for his sonnet cycle to an idealized woman, <persName>Laura</persName>. He was a friend of <persName ref="#Rienzo_hist">Cola di Rienzo</persName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/39382430"/>
@@ -2093,8 +2062,8 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="legal"/>
-                  <occupation type="barrister"/>
-                  <occupation type="judge"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="judge"/>
                   <note resp="#lmw">Irish author and barrister. <persName ref="#MRM">Mitford</persName> mentions him a letter of 1819, along with <persName ref="#Burke_E">Edmund Burke</persName> and other Irish writers, as a typical example of somewhat overblown Irish eloquence.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/49248117"/>
@@ -2109,10 +2078,9 @@
                   </persName>
                   <birth when="1699"/>
                   <death when="1748-04-13"/>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="translator"/>
-                  <occupation type="clergy"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <note resp="#lmw">English poet, translator, and clergyman. Translated into English the Aeneid and Vida's Art of Poetry and also published Imitations of Horace which were favorably compared to those of Alexander Pope.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/56965872"/>
@@ -2186,8 +2154,8 @@
                   <death when="1823-08-20">
                      <placeName ref="#Rome">Rome, Papal States</placeName>
                   </death>
-                  <occupation type="clergy"/>
-                  <occupation type="monarch"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb">Pius the VII reigned as Pope (patriarch of the Catholic Church) from <date from="1800" to="1823">1800 to 1823</date>. <orgName ref="#Pius7_Court">from <date from="1809" to="1813">1809 to 1813</date>, he and his Cardinals</orgName> were exiled by <persName ref="#Napoleon">Napoleon</persName> to <placeName ref="#Savona">Savona</placeName>. They were restored to <placeName ref="#Rome">Rome</placeName> by treaty in <date when="1813">1813</date>. <persName ref="#MRM">Mitford</persName> mentions an unspecified past visit of <persName ref="#Monck_JB">J. B. Monck</persName> to <orgName ref="#Pius7_Court">the Pope's Court</orgName> in her <rs type="letter">letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1820-09-09">September 9, 1820</date>
                   </rs>.</note>
                   <note>
@@ -2211,7 +2179,7 @@
                   <occupation type="military"/>
                   <occupation type="legal"/>
                   <occupation type="literary"/>
-                  <occupation type="naturalist"/>
+                  <occupation type="scholar" subtype="naturalist"/>
                   <note resp="#alg">Roman natural historian, author of <title ref="#NaturalisHist">Naturalis Historia</title> in thirty-seven books. Source: LBT</note>
                   <note>
                      <ref target="http://viaf.org/viaf/100219162"/>
@@ -2239,8 +2207,8 @@
                      <placeName>England</placeName>
                   </death>
                   <occupation type="legal"/>
-                  <occupation type="judge"/>
-                  <occupation type="politician"/>
+                  <occupation type="legal" subtype="judge"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
                   <note resp="#lmw">English judge and politician. Plumer served as a Commissioner in bankruptcy and assisted in the defence of both Warren Hastings and <persName ref="#Queen_Caroline">Queen Caroline</persName> in 1806. He also served as Attorney General and then was appointed as the first Vice Chancellor of England under the reorganization of the British legal system that took place around 1813. He later became Master or Keeper of the Rolls in the Court of Chancery; <persName ref="#MRM">Mitford</persName> mentions him in this role in a letter of 1819 regarding the <orgName ref="#Mitfords">Mitford family</orgName>'s Chancery suit.</note>
                   <note>
@@ -2259,17 +2227,16 @@
                   <death notBefore="0119" notAfter="0125">
                      <placeName>Delphi, Phocis</placeName>
                   </death>
-                  <occupation type="philosopher"/>
+                  <occupation type="scholar" subtype="philosopher"/>
                   <occupation type="literary"/>
-                  <occupation type="essayist"/>
-                  <occupation type="biographer"/>
-                  <occupation type="clergy"/>
-                  <occupation type="priest"/>
-                  <occupation type="diplomat"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="religious" subtype="priest"/>
+                  <occupation type="government" subtype="diplomat"/>
                   <occupation type="legal"/>
-                  <note resp="#kdc">Studied at the School of Athens, and was a priest at Delphi. Most famous
-                        works are <bibl>
-                           <title>Lives of the Noble Greeks and Romans</title> or <title type="alt">Parallel Lives</title> and <title>Moralia</title></bibl>.
+                  <note resp="#kdc">Studied at the School of Athens, and was a priest at Delphi. Most famous works are <bibl>
+                           <title level="m">Lives of the Noble Greeks and Romans</title> or <title type="alt" level="m">Parallel Lives</title> and <title level="m">Moralia</title></bibl>.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/77800408"/>
@@ -2286,7 +2253,7 @@
                   <death when="1872"/>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">Wrote many theatrical satires and farces over a sixty-year career
                         <date notBefore="1810" notAfter="1880">between 1810 and the 1870s</date>, including <bibl>
                            <title>Hamlet Travestie: in Three Acts</title> (<date>1810</date>), reportedly the first Shakespeare parody presented since the days of
@@ -2314,10 +2281,9 @@
                   <death when="1744-05-30">
                      <placeName>Twickenham, Middlesex, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="translator"/>
-                  <occupation type="editor"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="editor"/>
                   <note resp="#lmw #rnes">Augustan-era Catholic poet whose achievements include the mock epics <title>The Rape of the Lock</title> and the <title>Dunciad</title>, as well as the <title>"Essay on Man,"</title> and a translation of the <title>Iliad</title>. He had a disfiguring disability, probably resulting from Pott's disease, and was an invalid for much of his life. He was known for his biting satire. Source: Britannica.</note>
                      <note><ref target="http://viaf.org/viaf/61551003"/>
                   </note>
@@ -2337,7 +2303,7 @@
                         <placeName>England</placeName>
                      </death>
                   <occupation type="theater"/>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Began her career as a child actor in 1756 and went on to play soubrette roles. She played Mrs. Candour in the original 1777 run of<persName ref="#Sheridan_RichardB">Sheridan</persName>'s The School for Scandal. She was the friend of fellow actor Mrs. Clive. She retired from the stage after a special performance at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> on <date when="1808-05-26">26 May 1808</date>.</note>
                      <note><ref target="http://viaf.org/viaf/46322857"/>
                   </note>
@@ -2358,9 +2324,9 @@
                      <placeName>Lowestoft, Suffolk, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="translator"/>
-                  <occupation type="poet"/>
-                  <occupation type="clergy"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <note resp="#ghb">While a clergyman in Scarning, Norfolk, and the
                      Master of Seckar's School, he completed some of the earliest English
                      translations, in blank verse, of <persName ref="#Aeschylus">Aeschylus</persName> in 1779, <persName ref="#Euripides">Euripides</persName> in 1783, and <persName ref="#Sophocles">Sophocles</persName> in 1788.
@@ -2382,10 +2348,9 @@
                   <death when="1839-07-15">
                      <placeName>Chester Square, London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="poet"/>
                   <occupation type="legal"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#lmw #cmm">Although Praed began his career at
                         Cambridge with Whig sympathies, he was returned to Parliament for St.
                         Germans in 1830 as a <orgName ref="#Tory">Tory</orgName>. He later
@@ -2415,7 +2380,7 @@
                   </birth>
                   <death when="1840"/>
                   <occupation type="theater"/>
-                  <occupation>theater manager</occupation>
+                  <occupation type="theater" subtype="manager"/>
                   <note resp="#scw #lmw">American theater manager and leasee of <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>between <date from="1826" to="1827">1826 and 1827</date>. <persName ref="#MRM">Mitford</persName>refers to him in a letter of <date when="1823-05-23">May 5, 1823</date>. Attribution from <persName ref="#coles">William Coles</persName>in a letter to <persName ref="#Needham_Francis">Needham</persName>; <persName ref="#coles">Coles</persName> is uncertain of the name, however. Source: Letter from <persName ref="#coles">William Coles</persName>to <persName ref="#Needham_Francis">Francis Needham</persName>, <date when="1958-04-25">April 25, 1958</date>, Needham papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.
                      <!--scw: See photo DSCN1181--> See also 	
                      <bibl>The Theatrical Manager in England and America; Player of a Perilous Game: Philip Henslowe, Tate Wilkinson, Stephen Price, Edwin Booth, Charles Wyndham</bibl> by Joseph W Donohue, Jr. (1971). <!--LMW: No VIAF #; dates from WorldCat. -->
@@ -2429,7 +2394,7 @@
                      <surname>Stuart</surname>
                   </persName>
                   <persName><roleName>Princess Elizabeth</roleName></persName>
-                  <occupation type="courtier"/>
+                  <occupation type="government" subtype="courtier"/>
                   <birth when="1635-12-28">
                      <placeName>St James's Palace, London, England</placeName>
                   </birth>
@@ -2455,9 +2420,9 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="poet"/>
-                  <occupation type="playwright"/>
-                  <occupation type="biographer"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="biographer"/>
                   <note resp="#lmw">A friend of <persName ref="#Lamb_Chas">Charles Lamb</persName>, Procter contributed poetry to the <title>Naturalist's Calendar</title> owned by <persName ref="#MRM">Mitford</persName> and later contributed to the 1838 <title ref="#FindensT_1838">Finden's Tableaux</title> edited by <persName ref="#MRM"/>Mitford. He wrote a biography of <persName ref="#Kean_Edmund">Edmund Kean</persName> in <date when="1835">1835</date> and a biography of <persName ref="#Lamb_Chas">Lamb</persName> in <date when="1866">1866</date>.<!--LMW: findens' tag in giant biblio file.--></note>
                   <note><ref target="http://viaf.org/viaf/27855302"/>
                   </note>
@@ -2502,7 +2467,7 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">Noted seventeenth-century French playwright, the contemporary of Molière and Corneille. He primarily wrote tragedies in the neoclassical tradition, including Phèdre, Andromaque, and Athalie.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/88809641"/>
@@ -2523,7 +2488,7 @@
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
+                  <occupation type="literary" subtype="novelist"/>
                   <note resp="#lmw #cmm">Best known for Gothic romances <bibl>
                      <title>The Mysteries of Udolpho</title> (novel, <date>1794</date>)</bibl>
                      and <bibl>
@@ -2545,11 +2510,10 @@
                   <death when="1618-10-29">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="political"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="military"/>
-                  <occupation type="courtier"/>
+                  <occupation type="government" subtype="courtier"/>
                   <occupation type="explorer"/>
                   <note resp="#lmw">Early modern English courtier, military leader, explorer, and poet. He was a court favorite of <persName ref="#ElizI">Elizabeth I</persName>, who knighted him in 1585. Twice granted a royal patent to explore Virginia, he helped to popularize the use of tobacco in Europe and also attempted to find a fabled "City of Gold" in South America. He participated in the suppression of rebellions in <placeName ref="#Ireland">Ireland</placeName> and was rewarded with property confiscated from Irish owners. He was twice imprisoned in the Tower of London, by Elizabeth I and by James I. He was arrested and executed in 1618 after his second unsuccessful mission to South America, during which his men had ransacked a Spanish outpost. <persName ref="#MRM">Mitford</persName> held an idealized view of his character, mentioning him in a letter of 1821 along with <persName ref="#Shakespeare">Shakespeare</persName> &amp; <persName ref="#Spenser_Edmund">Spenser</persName> as belonging to "an age of fine spirits" and "noble daring," when such men "must have purified the very air." (See <date when="1821-02-08">February 8, 1821</date> letter to Elford.)</note>
                   <note>
@@ -2570,9 +2534,9 @@
                      <placeName>Rome, Italy</placeName>
                   </death>
                   <occupation type="artist"/>
-                  <occupation type="painter"/>
-                  <occupation type="printmaker"/>
-                  <occupation type="architect"/>
+                  <occupation type="artist" subtype="painter"/>
+                  <occupation type="artist" subtype="printmaker"/>
+                  <occupation type="artist" subtype="architect"/>
                   <note resp="#ebb"> Medieval Italian artist and architect.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/64055977"/>
@@ -2621,7 +2585,7 @@
                   <death when="1199-04-06">
                      <placeName>Châlus, Duchy of Aquitaine</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <occupation type="military"/>
                   <note resp="#lmw">House of Plantaganet; Angevin dynasty. Son of Henry II of
                      England and Eleanor of Aquitaine, his consort was <persName ref="#Berengaria">Berengaria of Navarre</persName>. Also known as Richard Coeur de Lion or
@@ -2644,7 +2608,7 @@
                   <death when="1400-02-14">
                      <placeName>Pontefract Castle, Yorkshire, England</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#alg #lmw">English monarch, 1367-1400. House of Plantaganet. Son of <persName>Edward, Prince of Wales, the Black Prince</persName>. Consorts were Anne of Bohemia and Isabelle of Valois. Deposed by <persName> Henry Bolingbroke (Henry IV)</persName>. Died in captivity and was buried in Westminster Abbey. Source: DNB.
                   </note>
                   <note>
@@ -2664,7 +2628,7 @@
                   <death when="1485-08-22">
                      <placeName>Bosworth Field, Leicestershire, England</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <occupation type="military"/>
                   <note resp="#ebb">House of Plantaganet. King of England and Lord of Ireland <date from="1483" to="1485">from 1483 to 1485</date>. After the death of his brother <persName>King Edward IV</persName>, Richard of Gloucester was appointed protector to his young sons, <persName>King Edward V</persName> and <persName>Richard of Shrewsbury, the Duke of York</persName>, and in preparation for Edward V's coronation, he lodged them at the <placeName ref="#Tower_of_London">Tower of London</placeName>, and upon the mysterious disappearance of the boys, Richard took the throne. Richard is often accused, without proof, of having ordered the boys' execution to usurp the throne, a plot immortalized in <persName ref="#Shakespeare">Shakespeare</persName>'s play, <title ref="#RichardIII_play">Richard III</title>. His death at the Battle of Bosworth Field made him the last English king to die in battle, and effectively ended the dynastic Wars of the Roses between the Houses of York and Lancaster.</note>
                 <note>
@@ -2685,8 +2649,8 @@
                      <placeName>Parson's Green, London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="printer"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="bookProducer" subtype="printer"/>
                   <note resp="#lmw">English author and printer. Author of influential eighteenth-century sentimental epistolary novels <title>Pamela</title> and <title ref="#Clarissa">Clarissa</title> and <title ref="#Chas_Grandison_novel">Sir Charles Grandison</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/41845728"/>
@@ -2703,8 +2667,8 @@
                   </persName>
                   <birth notBefore="1313"/>
                   <death when="1354-10-08"/>
-                  <occupation type="orator"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="orator"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#ebb">The historical figure on whom Mitford's character, <persName ref="#Rienzi_Cola">Cola di Rienzi</persName>, is based. Rienzo rose from humble origins as the son of a washerwoman and a tavern keeper to lead a bloodless coup against <placeName ref="#Rome">Rome</placeName>’s aristocracy through his powerful oratory in the 1340s. <rs type="event">He named himself in <date when="1347">1347</date> the Tribune of Rome</rs>, and he aimed to restore <placeName ref="#Rome">Rome</placeName> to its classical glory as the capitol of a united Italian nation and empire. Although he would lose power within a year to vengeful barons united in opposition against him, Rienzo became legendary for his meteoric career, his humiliation of bullying overlords, and his rule dedicated to the restoring the dignity of Roman people in a time of chaos and confusion. His contemporary, the poet <persName ref="#Petrarch">Petrarch</persName>, admired Rienzo as a man of humble origins who could unite the Roman people with his inspiring oratory and construct a new regime to punish abusers of power.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/98150386"/>
@@ -2725,9 +2689,8 @@
                   <death when="1831-01-23">
                      <placeName>The Serpentine, Hyde Park, London, England</placeName>
                   </death>
-                  <occupation type="aristocrat"/>
-                  <occupation type="gambler"/>
-                  <note resp="#lmw #mco">Before inheriting the title, Horace Beckford was a member of Crockford's Club and an inveterate gambler. Part of the family estate was in <placeName ref="#Stratfield_Saye">Stratfield Saye, Hampshire</placeName>, roughly five miles from <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>; he inherited the title from his uncle, <persName ref="#Pitt_Geo">George Pitt, 2nd Baron Rivers</persName>, in 1811. The family sold a portion of the estate to the crown in 1814; the crown in turned awarded the estate to the <persName ref="#Wellington_Duke">Duke of Wellington</persName>. In 1831, he committed suicide by throwing himself into the Serpentine in Hyde Park. Source: ODNB. <!-- LMW:  no VIAF #. --></note>
+                  <occupation type="government" subtype="courtier"/>
+                  <note resp="#lmw #mco">Before inheriting the title, Horace Beckford was a member of <orgName>Crockford’s Club</orgName> and an inveterate gambler. Part of the family estate was in <placeName ref="#Stratfield_Saye">Stratfield Saye, Hampshire</placeName>, roughly five miles from <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>; he inherited the title from his uncle, <persName ref="#Pitt_Geo">George Pitt, 2nd Baron Rivers</persName>, in 1811. The family sold a portion of the estate to the crown in 1814; the crown in turned awarded the estate to the <persName ref="#Wellington_Duke">Duke of Wellington</persName>. In 1831, he committed suicide by throwing himself into the Serpentine in Hyde Park. Source: ODNB. <!-- LMW:  no VIAF #. --></note>
                </person>
                
                <person xml:id="Robins_Geo" sex="m">
@@ -2743,9 +2706,8 @@
                   <death when="1847-02-08">
                      <placeName>Brighton, England</placeName>
                   </death>
-                  <occupation type="trade"/>
-                  <occupation type="auctioneer"/>
-                  <occupation type="philanthropist"/>
+                  <occupation type="trade" subtype="auctioneer"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">Auctioneer and theater patron. Acquaintance of
                         <persName ref="#Byron">Byron</persName>, <persName ref="#Sheridan_RichardB">Sheridan</persName>, and <persName ref="#Kemble_JP">J.P. Kemble</persName>.
                   </note>
@@ -2757,8 +2719,7 @@
                      <surname>Robinson</surname>
                      <forename>Henry</forename>
                   </persName>
-                  <occupation type="legal"/>
-                  <occupation type="attorney"/>
+                  <occupation type="legal" subtype="lawyer"/>
                   <note resp="#kdc #lmw">In a <persName ref="#MRM">Mitford</persName> letter of July 29, 1825, this name appears as that of an attorney named Robinson. <persName ref="#coles">Coles</persName> indicates <persName ref="#MRM">Mitford</persName> is probably correct in her assumption that the person indicated is attorney and writer <persName ref="#Robinson_HC">Henry Crabb Robinson</persName>, although it may also refer to a different attorney Robinson. See Coles, p. 525, note 13.  Needs additional research.</note>
                </person>
                
@@ -2776,10 +2737,9 @@
                      <placeName>London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="journalist"/>
-                  <occupation type="antiquarian"/>
-                  <occupation type="legal"/>
-                  <occupation type="solicitor"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
+                  <occupation type="legal" subtype="solicitor"/>
                   <note resp="#lmw">Journalist and solicitor. He worked as a war correspondent during the Peninsular Wars. Acquaintance of <persName ref="#Lamb_Chas">Charles Lamb</persName>, <persName ref="#Coleridge_ST">Coleridge</persName> and <persName ref="#Wordsworth_Wm">Wordsworth</persName>. He was a Unitarian who supported anti-slavery efforts and helped to found the University of London. His <title>Diary, Reminiscences and Correspondence</title> were collected and published posthumously in <date when="1869">1869</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/34599013"/>
@@ -2799,12 +2759,11 @@
                   <death when="1855-12-18">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="banker"/>
-                  <occupation type="philanthropist"/>
-                  <note resp="#lmw">Banker, poet and literary and art patron. Author of The Pleasures of Memory (1792). Friend of artists John Flaxman, John Opie, and John Henry Fuseli; Charles James Fox, Sheridan, and the Holland House circle; as well as authors ranging from Byron and Thomas Moore to Walter Scott and Wordsworth. His conversation and notebooks and letters were later collected in the 1850s as <title>Recollections of the Table-Talk of Samuel Rogers</title> and in <title>Recollections by Samuel Rogers</title>.</note>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="trade" subtype="banker"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">Banker, poet and literary and art patron. Author of <bibl><title level="m">The Pleasures of Memory</title> (<date when="1792">1792</date>)</bibl>. Friend of artists <persName>John Flaxman</persName>, <persName>John Opie</persName>, and <persName>John Henry Fuseli</persName>; <persName>Charles James Fox</persName>, <persName>Sheridan</persName>, and the <orgName ref="#Holland_House_set">Holland House circle</orgName>; as well as authors ranging from <persName>Byron</persName> and <persName>Thomas Moore</persName> to <persName>Walter Scott</persName> and <persName>Wordsworth</persName>. His conversation and notebooks and letters were later collected in the 1850s as <title level="m">Recollections of the Table-Talk of Samuel Rogers</title> and in <title level="m">Recollections by Samuel Rogers</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/34584260"/>
                   </note>
@@ -2820,9 +2779,8 @@
                      <addName>Fanny</addName>
                   </persName>
                   <occupation type="educator"/>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="biographer"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="biographer"/>
                   <note resp="#lmw">Educator, author, and <persName ref="#MRM">Mitford</persName>
                      tutor. Also taught <persName ref="#Lamb_Caro">Caroline Lamb</persName> and
                      <persName ref="#Landon_LE">L.E.L.</persName>. Worked at <placeName ref="#StQuintin_School">St. Quintin School</placeName> at 22 Hans Place, <placeName ref="#London_city">London</placeName>, started by <persName>M. St. Quintin</persName>, a French emigre. St. Quintin and his first wife originally ran a school in Reading; Frances Rowden became his second wife after his first wife's death. In <bibl>
@@ -2862,7 +2820,7 @@
                   <death when="1783">
                      <placeName>Ashe, Hampshire, England</placeName>
                   </death>
-                  <occupation type="clergy"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <note resp="#ad #lmw">
                      <persName ref="#MRM">Mary Russell Mitford</persName>'s maternal grandfather. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was born on <date when="1695-10-05">October 5, 1695</date> at <placeName>Basingstoke, Hampshire</placeName>. He was the son of <persName>William Russell</persName> and <persName>Jane Coleman</persName>, and was a distant relation of the Dukes of Bedford (sixth creation, 1694). He was married twice; first, to <persName>Elizabeth Boulte</persName>, by whom he had a daughter, <persName>Ann Russell</persName>; second, to <persName>Mary Dicker</persName>, by whom he had three children: <persName>Charles William</persName>, <persName>Frances</persName>, and <persName ref="#Russell_M">Mary</persName>. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was the rector of <persName>Ashe</persName> and the Vicar of <persName>Overton</persName> and the family lived at Ashe, Hampshire. He died at <persName>Ashe, Hampshire</persName>, in early <date when="1783">1783</date> and his will was probated on <date when="1783-02-25">February 25, 1783</date>.
                   </note>
@@ -2880,10 +2838,10 @@
                   <death when="1706-01-29">
                      <placeName>Bath, Somerset, England</placeName>
                   </death>
-                  <occupation type="courtier"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="courtier"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="literary"/>
-                  <occupation type="patron"/>
+                  <occupation type="benefactor" subtype="patron"/>
                   <note resp="#lmw">Restoration-era courtier, rake, and wit, the associate of Sir Charles Sedley, <persName ref="#Wilmot_John">Rochester</persName>, and Nell Gwynn. Literary patron of <persName ref="#Dryden">Dryden</persName>, among others, and author of satirical lampoons.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/210233935"/>
@@ -2908,7 +2866,7 @@
                   <death when="1668-12-03">
                      <placeName>Hatfield House, Hatfield, Hertfordshire, England</placeName>
                   </death>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">In 1648, Salisbury was a member of the deputation who negotiated the failed <rs type="event" ref="#Tr_Newport">Treaty of Newport</rs> with <persName ref="#ChasI">Charles I</persName>; although he did not come out strongly in favor of either side during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, his estate suffered depradations. He later refused to approve the regicide, although he took the Engagement and supported the <rs type="event" ref="#Commonwealth">Commonwealth</rs> following Charles's execution. During the Commonwealth period, Salisbury served in the English Council of State; he served as Member of Parliament for King's Lynn in the Rump Parliament. Although he was elected as Member of Parliament for Hertfordshire in 1656 during the Second Protectorate Parliament, he was not allowed to take his seat.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/61368016"/>
@@ -2931,10 +2889,10 @@
                      <placeName>Switzerland</placeName>
                   </death>
                   <occupation type="legal"/>
-                  <occupation type="barrister"/>
-                  <occupation type="judge"/>
-                  <occupation type="politician"/>
-                  <occupation type="regicide"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="judge"/>
+                  <occupation type="government" subtype="politician"/>
+                  
                   <note resp="#rnes #lmw">A regicide, Say was one of the Commissioners at the trial of <persName ref="#ChasI">Charles I</persName> and signed the king's death warrant. After the Restoration, Say ultimately eluded capture by escaping to <placeName ref="#Switzerland">Switzerland</placeName>.<!-- LMW: No VIAF #. --></note>
                </person>
                
@@ -2955,10 +2913,10 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="poet"/>
-                  <occupation type="historian"/>
-                  <occupation type="philosopher"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="scholar" subtype="philosopher"/>
                   <occupation type="medical"/>
                   <note resp="#lmw">German poet, playwright, historian, and philosopher, Schiller studied medicine and worked as a regimental military doctor before turning to literature. Wrote Die Räuber or The Robbers (1781), Fiesco<title ref="#Fiesco_play">Fiesco</title> (1783), and Wilhelm Tell or William Tell (1804). Early in
                         her playwriting career, <persName ref="#MRM">Mitford</persName> attempted an
@@ -2983,8 +2941,8 @@
                      <placeName>York Street, Covent Garden, London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="editor"/>
-                  <occupation type="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="journalist"/>
                   <note resp="#lmw #ebb">Journalist and editor who revived <title ref="#LondonMag">The London Magazine</title> in 1820 and edited it until his death on <date when="1821-02-27">27 February 1821</date>. Died as the result of complications from a gunshot wound received in a duel fought on <date when="1821-02-16">16 February</date> with <persName ref="#Christie_JH">Jonathan Henry Christie</persName> (<persName ref="#Lockhart_JG">John Gibson Lockhart</persName>'s agent) at <placeName>Chalk Farm</placeName>. The duel resulted from an escalation of attacks and counterattacks between the editors of the London and <title ref="#Blackwoods">Blackwood's Magazines</title> over Blackwood's characterizations of a <orgName ref="#CockneyS">Cockney School</orgName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/29709495"/>
@@ -3013,10 +2971,10 @@
                   <death when="1838-01-13">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="legal"/>
-                  <occupation type="barrister"/>
-                  <occupation type="judge"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="judge"/>
                   <note resp="#lmw">John Scott, later created the first Earl of Eldon, was an English barrister, judge, and politician. He served as British Lord Chancellor of Great Britain between 1801 and 1806 and also between 1807 and 1827.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/20543801"/>
@@ -3040,13 +2998,11 @@
                   <death when="1832-09-21">
                      <placeName>Abbotsford, Roxburghshire, Scotland</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="novelist"/>
-                  <occupation type="antiquarian"/>
-                  <occupation type="legal"/>
-                  <occupation type="advocate"/>
-                  <occupation type="judge"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
+                  <occupation type="legal" subtype="lawyer"/>
+                  <occupation type="legal" subtype="judge"/>
                   <occupation type="government"/>
                   <note resp="#ebb #esh">Scottish advocate, antiquarian, poet, and novelist. Also
                      worked as clerk of the Court of Session in Edinburgh. He assembled <bibl>a
@@ -3081,8 +3037,8 @@
                      <placeName>Boston, Massachusetts, USA</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="memoirist"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="autobiographer"/>
                   <note resp="#ebb">American novelist and correspondent of <persName ref="#MRM">Mitford</persName>'s.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/68954793"/>
@@ -3101,10 +3057,10 @@
                   <death when="1889-03-20">
                   </death>
                   <occupation type="theater"/>
-                  <occupation type="actor"/>
-                  <occupation>theater manager</occupation>
+                  <occupation type="theater" subtype="actor"/>
+                  <occupation type="theater" subtype="manager"/>
                   <occupation type="literary"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw #cmm">Actor, playwright, and theater manager who appeared with <persName ref="#Kean_Edmund">Kean</persName> and <persName ref="#Kemble_C">Charles
                         Kemble</persName>. Married <persName>Cecilia Kemble</persName>. Wrote
                         <title>Joan of Arc, the Maid of Orleans, a Historical Drama</title>; and
@@ -3160,9 +3116,9 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="poet"/>
-                  <occupation type="actor"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Early-modern era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain's men and author or co-author of thirty-eight plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the Introduction to her <title ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: I had grown up--it is the privilege of English people to grow up--in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart."</note>
                   <note>
                      <ref target="http://viaf.org/viaf/96994048"/>
@@ -3188,10 +3144,9 @@
                   <death when="1721-02-24">
                      <placeName>St. James Park, London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="poet"/>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">English poet, Tory politician, and favorite of Queen Anne who served as Lord Privy Seal and Lord President of the Council.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/7818454"/>
@@ -3214,11 +3169,11 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="novelist"/>
-                  <occupation type="essayist"/>
-                  <occupation type="biographer"/>
-                  <occupation type="editor"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">Daughter of William Godwin and Mary Wollstonecraft. Novelist, playwright, essayist, and travel writer. Author of Frankenstein and The Last Man. Editor and writer for gift book/annuals and the science popularizer Dionysius Lardner's Cabinet Cyclopaedia. She also edited of her husband Percy Shelley's works after his death.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/6293"/>
@@ -3240,10 +3195,10 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="poet"/>
-                  <occupation type="novelist"/>
-                  <occupation type="essayist"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw #rnes">Romantic-era poet, novelist, essayist, and playwright. Best known for lyric poems such as "Ozymandias," the utopian mental drama Prometheus Unbound, and his professions of atheism and other deeply controversial ideologies, Shelley was also one of the "Cockney poets" associated with his sometime editor Leigh Hunt. He was also a friend of Byron and the husband of Mary Shelley. His work was little read or respected during his lifetime. </note>
                   <note>
                      <ref target="http://viaf.org/viaf/95159449"/>
@@ -3263,8 +3218,8 @@
                   <birth notBefore="1784"/>
                   <death when="1855"/>
                   <occupation type="legal"/>
-                  <occupation type="barrister"/>
-                  <occupation type="politician"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="literary"/>
                   <note resp="#lmw">Barrister at law, Recorder for Abingdon, and Commissioner for the Court of Bankruptcy. Spouse of Lady Mary Primrose, writer and philosopher. Address: 1 Pump Court, Temple, London.</note>
                   <note>
@@ -3298,11 +3253,11 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="poet"/>
-                  <occupation type="essayist"/>
-                  <occupation type="politician"/>
-                  <occupation>theater manager</occupation>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="theater" subtype="manager"/>
                   <note resp="#lmw">Successful playwright and longtime owner-manager of <placeName ref="#Drury_Lane_Theatre">Drury
                         Lane Theatre</placeName>. A prominent Whig politician and Member of Parliament for Stafford, Westminster, and Ilchester. Buried in Poet's Corner in Westminster Abbey.
                   </note>
@@ -3331,7 +3286,7 @@
                   <death when="1831-06-08">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">
                         Considered the best tragic actor of her era, better than her three
                         actor-brothers. Member of the <orgName ref="#Kemble_family">Kemble acting clan</orgName>. Her most famous role was <persName ref="#Macbeth_Lady">Lady
@@ -3361,12 +3316,12 @@
                   <death when="1835-12-21">
                      <placeName>133 George Street, Edinburgh, Scotland</placeName>
                   </death>
-                  <occupation type="politician"/>
-                  <occupation type="antiquarian"/>
-                  <occupation type="economist"/>
-                  <occupation type="agriculturalist"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
+                  <occupation type="scholar" subtype="economist"/>
+                  <occupation type="scholar" subtype="agronomist"/>
                   <note resp="#ajc #ebb">Sir John Sinclair was perhaps most politically active in the 1780s and 1790s when he was Member of Parliament for the district of Caithness and moved to organize an independent body of non-partisan parliamentarians. He took a great interest in political and agricultural economics of England and Scotland and published a <bibl>
-                        <title>History of the Public Revenue of Great Britain</title> in two volumes in 1784 with additions in 1789</bibl>. In 1790 he proposed the idea of a detailed parish-by-parish study of local geography, history, and community culture which became the <bibl>twenty-one volume <title>Statistical Account of Scotland</title>
+                        <title level="m">History of the Public Revenue of Great Britain</title> in two volumes <date from="1784" to="1789">in 1784 with additions in 1789</date></bibl>. In 1790 he proposed the idea of a detailed parish-by-parish study of local geography, history, and community culture which became the <bibl>twenty-one volume <title>Statistical Account of Scotland</title>
                      </bibl>. Source: ODNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/100210982"/></note>
@@ -3397,7 +3352,7 @@
                   <death when="1858-02-08">
                      <placeName>Charleston, South Carolina, USA</placeName>
                   </death>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor, specialized in tragedy. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres and later appeared in <placeName>New York</placeName>. She began acting under her paternal name, Miss Whitaker; and later appeared as Mrs. Sloman. She was married twice, first to Henry Downton and second to John Sloman; both were actors. Appeared as Belvidera in <title>Venice Preserved</title> and Mrs. Haller in <title ref="#Stranger_play">The Stranger</title>. She appeared with <persName ref="#Macready_Wm">William Macready</persName> in <title ref="#Coriolanus_play">Corialanus</title> in 1833 and is mentioned unadmiringly in <persName ref="#Macready_Wm">Macready</persName>'s journals. Source: "Downton, William" DNB. Forename unknown. More research needed.</note>
                </person>
                
@@ -3422,7 +3377,7 @@
                   <occupation type="legal"/>
                   <occupation type="educator"/>
                   <occupation type="literary"/>
-                  <occupation type="philosopher"/>
+                  <occupation type="scholar" subtype="philosopher"/>
                   <note resp="#lmw">Scottish Enlightenment philosopher, Doctor of Laws, and later Rector of the University of Glasgow.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/49231791"/>
@@ -3443,10 +3398,10 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="poet"/>
-                  <occupation type="playwright"/>
-                  <occupation type="novelist"/>
-                  <occupation type="stockbroker"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="trade" subtype="stockbroker"/>
                  <note resp="#lmw">Born Horatio Smith. Co-author with his brother James of the literary parody collection <title>Rejected Addresses</title>. Acquaintance of <persName ref="#Byron">Byron</persName>, <persName ref="#Shelley_PB">Shelley</persName>, and <persName ref="#Hunt">Hunt</persName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/207338554"/>
@@ -3467,12 +3422,12 @@
                      <placeName>Antignano, Tuscany, Italy</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="poet"/>
-                  <occupation type="editor"/>
-                  <occupation type="translator"/>
-                  <occupation type="essayist"/>
-                  <occupation type="historian"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="scholar" subtype="historian"/>
                   <occupation type="medical"/>
                   <note type="bio" resp="#ebb #esh">Novelist and poet, as well as editor,
                      translator, critic, and medical practitioner. Smollett's best-known novels were
@@ -3505,8 +3460,8 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation type="translator"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="translator"/>
                   <note resp="#lmw">Second son of the architect John Soane. He wrote numerous melodramas for the stage between 1817 and 1850. He translated works from the French, German, and Italian, including <persName ref="#delaMotte_F">de la Motte</persName>'s story "Undine," which he translated into <title ref="#Undine">prose</title> in 1818 and then adapted as a play in 1821.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/315673958"/>
@@ -3546,11 +3501,10 @@
                   <death when="1843-03-21">
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="historian"/>
-                  <occupation type="biographer"/>
-                  <occupation type="essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <note resp="#lmw">English poet, historian, essayist, and biographer. Early friend of <persName ref="#Coleridge_ST">>Coleridge</persName>. He was Poet Laureate of England from 1813 to 1843.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/61576896"/>
@@ -3569,14 +3523,12 @@
                   <death when="1768-08-20">
                      <placeName>Byfleet, Surrey, England</placeName>
                   </death>
-                  <occupation type="clergy"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="educator"/>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="historian"/>
-                  <occupation>garden designer</occupation>
-                  <note resp="#lmw">Clergyman and garden designer, Professor of Poetry, and Regius Professor of History at Oxford University. Author of <title ref="#SpencesAnec">Spence's Anecdotes</title>, unpublished during his lifetime, which contain anecdotes about his friendships with eighteenth-century literary figures such as <persName ref="#Pope_Alex">Alexander Pope</persName>.</note>                  
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="artist" subtype="landscape"/>                  <note resp="#lmw">Clergyman and garden designer, Professor of Poetry, and Regius Professor of History at <orgName ref="#Oxford_Univ">Oxford University</orgName>. Author of <title level="m" ref="#SpencesAnec">Spence's Anecdotes</title>, unpublished during his lifetime, which contain anecdotes about his friendships with eighteenth-century literary figures such as <persName ref="#Pope_Alex">Alexander Pope</persName>.</note>                  
                   <note>
                      <ref target="http://viaf.org/viaf/56625623"/>
                   </note>
@@ -3594,9 +3546,8 @@
                   <death when="1599-01-13">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="courtier"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="government" subtype="courtier"/>
                   <occupation type="military"/>
                   <occupation type="government"/>
                   <note resp="#lmw">Early modern poet and courtier, author of <title ref="#FaerieQu_ES">The Faerie Queen</title>. Served in the military in <placeName ref="#Ireland">Ireland</placeName> and was later rewarded with lands confiscated from the Irish. Friend of <persName ref="#Raleigh_Wal">Walter Raleigh</persName>. Buried in Poet's Corner in Westminster Abbey.</note>
@@ -3619,10 +3570,10 @@
                   </death>
                   <occupation type="theater"/>
                   <occupation type="literary"/>
-                  <occupation type="editor"/>
-                  <occupation type="essayist"/>
-                  <occupation type="playwright"/>
-                  <occupation type="politician"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#alg">English playwright, editor and essayist who founded the journal <title ref="#Tatler">The Tatler</title> and later, with <persName ref="#Addison_Joseph">Joseph Addison</persName>, the journals <title ref="#Spectator">The Spectator</title> and <title>The Guardian</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/22167754"/>
@@ -3643,7 +3594,7 @@
                      <placeName type="city">London</placeName>, England
                   </placeName>
                     </death>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
                   <note resp="#rnes">Caroline-era administrator and Lord Deputy for Ireland who was tried, convicted, and executed
                      in 1641. Arguably, <persName ref="#ChasI">Charles I</persName> betrayed
@@ -3659,8 +3610,7 @@
                      <surname>Strong</surname>
                      <forename>Elizabeth</forename>
                   </persName>
-                  <occupation type="trade"/>
-                  <occupation type="baker"/>
+                  <occupation type="trade" subtype="baker"/>
                   <note resp="#scw">Baker of <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, as noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople, drawn from the <bibl>
                      <title>Post Office Directory of Berkshire</title>
                   </bibl>, 1847 edition. She is not listed in the 1854 edition. Source: <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
@@ -3673,10 +3623,8 @@
                      <forename>George</forename>
                   </persName>
                   <occupation type="trade"/>
-                  <occupation type="artisan"/>
-                  <occupation type="merchant"/>
-                  <occupation type="bricklayer"/>
-                  <occupation>beer retailer</occupation>
+                           <occupation type="trade" subtype="bricklayer"/>
+                  <occupation type="trade" subtype="liquor"/>
                   <note resp="#scw">
                      <p>Bricklayer and beer retailer of <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, as noted by <persName ref="#Needham_Francis">Needham</persName>on a list of local tradespeople, drawn from the <bibl>
                         <title>Post Office Directory of Berkshire,</title>
@@ -3735,10 +3683,10 @@
                      <placeName>Dublin, Ireland</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="poet"/>
-                  <occupation type="essayist"/>
-                  <occupation type="clergy"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <note resp="#lmw #rnes">Irish clergyman and author, later Dean of St. Patrick's Cathedral, Dublin. Author of Gulliver's Travels and "A Modest Proposal."</note>
                   <note>
                      <ref target="http://viaf.org/viaf/14777110"/>
@@ -3776,8 +3724,8 @@
                   <death when="1864">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="editor"/>
-                  <occupation type="publisher"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
                   <occupation type="literary"/>
                   <note resp="#lmw"><placeName ref="#London_city">London</placeName> writer and
                         publisher with <persName ref="#Hessey_J">James Augustus Hessey</persName> as the publishing firm
@@ -3796,7 +3744,7 @@
                   </persName>
                   <birth notAfter="1613-08-15"/>
                   <death when="1667-08-13"/>
-                  <occupation type="clergy"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
                   <note resp="#lmw #rnes">Church of England clergyman and author, known as the "Shakespeare of Divines" and admired for his literary prose style. <persName ref="#lmw">Mitford</persName> mentions his style admiringly, along with that of <persName ref="#Walton_I">Izaak Walton</persName>.</note>
                   <note>
@@ -3813,12 +3761,11 @@
                   <birth when="1757"/>
                   <death when="1832"/>
                   <occupation type="literary"/>
-                  <occupation type="memoirist"/>
-                  <occupation type="journalist"/>
-                  <occupation type="poet"/>
-                  <occupation type="editor"/>
-                  <occupation type="medical"/>
-                  <occupation type="oculist"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="medical" subtype="oculist"/>
                   <note resp="#lmw">Began his career in London as an oculist; Mary Robinson dedicates her poem "Sight" to him. Early in his career, he served as editor of the Morning Post newspaper and was a member of the Della Cruscan literary circle as well as the Whig political circles around the <persName ref="#GeoIV">Prince of Wales</persName>, <persName ref="#Fox_ChasJ">Charles James Fox</persName>, and <persName ref="#Sheridan_RichardB">Richard Sheridan</persName>. His memoir, <title>Records of my Life</title> (1832), is an important source of information regarding literary and theatrical activities in London between the 1780s and 1830s. During Mitford's time, he was proprietor of the conservative London Sun newspaper and a theatrical patron. <persName ref="#Mitford_Geo">George Mitford</persName> recommends Taylor as a possible friend who might interest <persName ref="#Harris_Henry">Henry Harris</persName>, manager of <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatre, in producing <title ref="#Foscari_MRMplay">Foscari</title>.
                     </note>
                   <note>
@@ -3836,13 +3783,13 @@
                   <persName><addName>T. J. Thackeray</addName></persName>
                   <birth notAfter="1796"/>
                   <death notBefore="1850"/>
-                  <occupation type="musician"/>
-                  <occupation type="lyricist"/>
+                  <occupation type="theater" subtype="musician"/>
+                  <occupation type="theater" subtype="composer"/>
                   <note resp="#lmw">Musician and librettist/lyricist. Wrote <bibl>
-                        <title>The Mountain Sylph</title> (two-act opera, <date>1834</date>) with
-                        <persName>John Barnett</persName> (1809-1890)</bibl>. Also wrote <bibl>
-                           <title>My Wife or My Place, A Petite Comedy in Two Acts</title>
-                           (<date>1831</date>) with <persName>Charles Shannon</persName>
+                        <bibl><title level="m">The Mountain Sylph</title> (two-act opera, <date>1834</date>) with
+                           <persName>John Barnett</persName></bibl> (1809-1890)</bibl>. Also wrote <bibl>
+                           <bibl><title level="m">My Wife or My Place, A Petite Comedy in Two Acts</title>
+                           (<date>1831</date>) with <persName>Charles Shannon</persName></bibl>
                         </bibl>.
                  </note>
                   <note><ref target="http://viaf.org/viaf/41990845"/></note>
@@ -3861,12 +3808,12 @@
                      <placeName>Bath, Somerset, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="journalist"/>
-                  <occupation type="editor"/>
-                  <occupation type="poet"/>
-                  <occupation type="novelist"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
                   <occupation type="educator"/>
-                  <occupation type="orator"/>
+                  <occupation type="government" subtype="orator"/>
                   <note type="bio" resp="#scw">Radical political writer, lecturer, poet, and novelist, who was associated with the <orgName>London Corresponding Society</orgName>, as well as <persName ref="#Wordsworth_Wm">William Wordsworth</persName> and <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName>in their early years. He, along with <persName>John Horne Tooke</persName> and <persName>Thomas Hardy</persName>, was tried for treason in 1794, and was acquitted. After being hounded out of a prominent political life by government repressions against radical activity, <persName ref="#Thelwall_John">Thelwall</persName>became a teacher of elocution, but he continued to write about politics and to publish. In later life, he published a short-lived journal entitled <bibl>
                      <title>Panoramic Miscellany</title>
                   </bibl>, to which <persName ref="#MRM">Mitford</persName>contributed three country sketches.</note>
@@ -3888,8 +3835,7 @@
                      <placeName>Tower of London, London, England</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
-                  <occupation type="regicide"/>
+                  <occupation type="government" subtype="politician"/>
                <note resp="#rnes #lmw">Parliamentarian and regicide, he was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName>. He was one of the London representatives to the Little Parliament. Served as Sheriff and as Lord Mayor of London. Although he was convicted of high treason, he received indemnity and was not executed, as one of the regicides who had surrendered themselves. He spent the rest of his life in prison and died in the Tower of London. In contemporary records and reference sources, his surname is variously spelled Tichburn, Tichburne, Tichborn, Tichborne, and Tichbourn. <persName ref="#MRM">Mitford</persName> names the fictional character based on him <persName ref="#Tichburne">Tichburn</persName>; contemporary reference works generally prefer Tichborne.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/59433040"/>
@@ -3913,7 +3859,7 @@
                      <placeName>Pavilion Parade, Brighton, England</placeName>
                   </death>
                   <occupation type="medical"/>
-                  <occupation type="physician"/>
+                  <occupation type="medical" subtype="physician"/>
                   <note resp="#ajc #lmw">Tierney was a physician who studied medicine in Edinburgh and Glasgow and later became a Physician-in-Ordinary to Kings <persName ref="#GeoIV">George IV</persName> and <persName ref="#WilliamIV">William IV</persName>. Known for his study and advocacy of vaccination.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/51201937"/>
@@ -3958,7 +3904,7 @@
                      </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">An unsuccessful playwright during his lifetime, Tobin submitted and had rejected more than ten plays and farces. Suffering from consumption, Tobin sailed for the West Indies for his health but died on the first day at sea; the ship turned back and he was buried at Cork, Ireland. His most successful work, The Honeymoon (or Honey Moon), began its run at <placeName ref="#Drury_Lane_Theatre">Drury Lane Theatre</placeName> just before his death in 1804.
                   </note>
                   <note>
@@ -3990,9 +3936,9 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
-                  <occupation>theater manager</occupation>
-                  <occupation type="architect"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater" subtype="manager"/>
+                  <occupation type="artist" subtype="architect"/>
                   <note resp="#alg #lmw">Sir John Vanbrugh was a noted architect and successful playwright who wrote original comedies and adapted others, including The Relapse (1696) and The Provoked Wife (1697). Designed and built the Haymarket Theatre, which he managed with Thomas Betterton and <persName ref="#Congreve_Wm">William Congreve</persName>. He also designed Blenheim Palace and Castle Howard. His <title ref="#City_Wives_play">The City Wives' Confederacy</title> was first staged in 1705. Source: ODNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/7398042"/>
@@ -4017,7 +3963,7 @@
                   <death when="1662-06-14">
                      <placeName>Tower Hill, London, England</placeName>
                   </death>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
                   <note resp="#rnes #lmw">Henry Vane was a Parliamentarian during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs> and later served on the Council of State. Although he refused to take oaths approving of the execution of <persName ref="#ChasI">Charles I</persName> and was formally granted clemency by <persName ref="#ChasII">Charles II</persName>, he was exempted from the Indemnity and Oblivion Act and was executed for treason in 1662.
                   </note>
@@ -4047,7 +3993,7 @@
                   <death when="1901-01-22">
                      <placeName>Osborne House, Isle of Wight</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb">After Elizabeth II, who surpassed her on 9 September 2015, Victoria was the longest reigning monarch in English history, and the longest reigning female monarch in recorded history.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/95738652c"/>
@@ -4072,10 +4018,9 @@
                   <death when="1687-04-16">
                      <placeName>Kirkbymoorside, Yorkshire, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="politician"/>
-                  <occupation type="courtier"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="courtier"/>
                   <note resp="#lmw">Restoration-era poet, courtier, and rake, friend of <persName ref="#Wilmot_John">Rochester</persName>. </note>
                   <note>
                      <ref target="http://viaf.org/viaf/41858327"/>
@@ -4095,8 +4040,7 @@
                   <death when="-0020-09-21">
                      <placeName>Brindisium, Italy, Roman Republic</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">Roman poet, author of the Aeneid.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/315524569"/>
@@ -4118,12 +4062,12 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="essayist"/>
-                  <occupation type="poet"/>
-                  <occupation type="playwright"/>
-                   <occupation type="philosopher"/>
-                  <occupation type="historian"/>
-                  <occupation type="naturalist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                   <occupation type="scholar" subtype="philosopher"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="scholar" subtype="naturalist"/>
                   <note resp="#lmw #rnes">Major figure of the French Enlightenment: philosopher, historian, naturalist, essayist, poet, playwright, and novelist. Advocated freedom of religion and freedom of expression, sharply criticized the Catholic Church, and wrote the philosophical novel Candide. He was exiled to Great Britain in the late 1720s, where he met and influenced many British notables.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/36925746"/>
@@ -4146,7 +4090,7 @@
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
                   <occupation type="legal"/>
-                  <occupation type="barrister"/>
+                  <occupation type="legal" subtype="barrister"/>
                   <note resp="#ebb #rnes">Mentioned in letter of <persName ref="#MRM">Mitford</persName> to <persName ref="#Talfourd_Thos">Talfourd</persName> of
                         <date when="1821-06-21">June 21 1821</date>, known to Mitford and <persName ref="#Mitford_Geo">her father</persName> as privy to law court
                      gossip. Identified by <persName ref="#coles">Coles</persName> as Daniel
@@ -4174,7 +4118,7 @@
                   <birth notAfter="1818"/>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">Author of historical tragedies and melodramas written between 1818 and 1829, including <title ref="#Wallace_play">Wallace; a Historical Tragedy</title>, <title>Caswallon; or the Briton Chief</title>, and <title>The Warlock of the Glen</title>. Birth and death dates uncertain. More research needed.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/118236637"/>
@@ -4193,10 +4137,9 @@
                   <death when="1859-01-05">
                      <placeName>Stockton, England</placeName>
                   </death>
-                  <occupation type="naturalist"/>
-                  <occupation type="chemist"/>
-                  <occupation type="apothecary"/>
-                  <occupation type="inventor"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <occupation type="medical" subtype="apothecary"/>
+                  <occupation type="scholar" subtype="inventor"/>
                   <note resp="#lmw">English chemist, inventor of the friction match in the late 1820s)</note>
                   <note>
                      <ref target="http://viaf.org/viaf/13719124"/>
@@ -4215,9 +4158,8 @@
                   <death when="1687-10-21">
                      <placeName>St James's Street, London, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="politician"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#alg">Poet and politician remembered for the deviousness of his politics, the wealth of his estate, and the smoothness of his verse. His lyrics addressed to Sacharissa were much admired. Sources: LBT, DNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/47109686"/>
@@ -4246,9 +4188,9 @@
                      <placeName>Berkeley Square, London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="novelist"/>
-                  <occupation type="antiquarian"/>
-                  <occupation type="politician"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">English politician, antiquarian, and author. Youngest son of Sir Robert Walpole, British Prime Minister and Catherine, his wife. Built Strawberry Hill in Twickenham. <persName ref="#MRM">Mitford</persName> admired Walpole's letter-writing style in a <date when="1819-04-08">April 8, 1819</date> letter to <persName ref="#Elford_SirWm">Elford</persName>. His correspondence was published posthumously.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/17231985"/>
@@ -4283,7 +4225,7 @@
                   <persName><addName>Mr. Warde</addName></persName>
                   <birth when="1792"/>
                   <death when="1840"/>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Used the professional name Mr. Warde. Tragedian who appeared at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. Appeared in the title roles of <title ref="#RichardIII_play">Richard III</title> and <title ref="#King_Lear_play">King Lear</title>, as well as in Rowe's Tragedy of Jane Shore and in Tobin's <title ref="#Honeymoon_play">The Honey Moon</title>.
                   </note>
                   <note>
@@ -4310,9 +4252,9 @@
                      <placeName>Mount Vernon, Virginia, USA</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
-                  <occupation>plantation owner</occupation>
+                  <occupation type="trade" subtype="farmer"/>
                   <note resp="#lmw">Virginia landholder, colonial military officer, Commander-in-Chief of the Continental Army during the American Revolutionary War, and first President of the United States. Presided at the U.S. Constitutional Convention.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/31432428"/>
@@ -4331,8 +4273,7 @@
                      <placeName>Nogent-sur-Marne, France</placeName>
                   </death>
                   <occupation type="artist"/>
-                  <occupation type="painter"/>
-                  <occupation type="draftsman"/>
+                  <occupation type="artist" subtype="painter"/>
                   <note resp="#esh">French painter known for his bucolic landscapes and
                      country scenes in the Late-Baroque, or Roccoco, style.</note>
                   <note>
@@ -4354,7 +4295,7 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="theater"/>
-                  <occupation type="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">Early-modern era playwright, author of the Duchess of Malfi.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/39387027"/>
@@ -4380,7 +4321,7 @@
                      <placeName>Walmer, Kent, England</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
                   <note resp="#ebb">Before his fame in the Napoleonic Wars, Wellesley served in the Irish House of Commons, and after fighting against <persName>Tipu Sultan, the "Tiger of Mysore"</persName> in the <rs type="event">Siege of Seringapatam</rs> he served as the governor of <placeName>Seringapatam</placeName> and <placeName>Mysore</placeName> in <date when="1799">1799</date>. He was promoted to general during the <rs type="event">Peninsular Wars against <persName ref="#Napoleon">Napoleon</persName> (the battles fought in the Iberian Peninsula)</rs>, and was granted the title, the First Duke of Wellingtom, after Napoleon's first defeat and exile in <date when="1814">1814</date>. He led the Allied English and European armies in <rs type="event" ref="#Waterloo">Napoleon's decisive defeat at <placeName ref="#Waterloo_Belgium">Waterloo</placeName> on <date when="1815-06-18">18 June 1815</date>
                      </rs>. A prominent influence on <orgName ref="#Tory">the Tory party</orgName>, he served as <roleName>Prime Minister <date from="1828" to="1830">from 1828 to 1830</date>, <date when="1834">and again in 1834</date>
@@ -4406,10 +4347,10 @@
                   <death when="1854-05-08">
                      <placeName>Woodrising, Norfolk, England</placeName>
                   </death>
-                   <occupation type="politician"/>
+                   <occupation type="government" subtype="politician"/>
                   <occupation type="literary"/>
-                  <occupation type="editor"/>
-                  <occupation type="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="journalist"/>
                   <note resp="#ajc #lmw"><p>John Weyland was a Tory journal editor and political figure. He and William Roberts founded the Christian evangelical periodial the British Review and London Critical Journal, a quarterly that appeared between 1811 and 1825. He authored several publications on population and the English poor laws, including A Short Enquiry into the Policy, Humanity, and Effect of the Poor Laws (1807); Observations on Mr. Whitbread's Poor Bill and on the Population of England (1807); The Principle of the English Poor Laws, illustrated from the Evidence given by Scottish Proprietors (before the Corn Committee,) on the Connexion observed in Scotland between the Price of Grain and the Wages of Labour (1815); and The Principles of Population and Production as they are affected by the Progress of Society (1816). He believed that hardship was an incentive to industry and he did not support further education of the poor.</p>
                      <p>On <date when="1820-03-16">March 16, 1820</date>, Weyland was the "Blue" or Tory candidate, supported by the municipal corporation, in the Reading election. Three candidates ran: <persName ref="#Monck_JB">John Berkeley Monck</persName> (418 votes), <persName ref="#Palmer_CF">Charles Fyshe Palmer</persName>(399 votes), and <persName ref="#Weyland_John">John Weyland</persName> (395 votes.); Weyland was not returned. See <ptr target="http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading"/>. Weyland later won a seat as Member of Parliament for Hindon, Wiltshire, and served from 1830 to 1832.</p>
                   </note>
@@ -4427,9 +4368,8 @@
                      <surname>Whateley</surname>
                      <forename>Elijah</forename>
                   </persName>
-                  <occupation type="trade"/>
-                  <occupation type="wheelwright"/>
-                  <occupation type="carpenter"/>
+                  <occupation type="trade" subtype="wheelwright"/>
+                  <occupation type="trade" subtype="carpenter"/>
                   <note resp="#scw">Wheelwright and carpenter of <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>. He is listed by <persName ref="#Needham_Francis">Needham</persName> solely as a wheelwright on a list of local tradespeople, drawn from the <bibl>
                         <title>Post Office Directory of Berkshire</title>
                      </bibl>, 1847 edition. The 1854 edition lists him also as a carpenter.</note>
@@ -4450,11 +4390,9 @@
                   <death when="1793-06-26">
                      <placeName>Selborne, Hampshire, England</placeName>
                   </death>
-                  <occupation type="clergy"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
-                  <occupation type="naturalist"/>
-                  <occupation type="botanist"/>
-                  <occupation type="ornithologist"/>
+                  <occupation type="scholar" subtype="naturalist"/>
                   <note resp="#scw #lmw #rnes">Gilbert White obtained deacon's orders in 1746 and was fully ordained in 1749; he held several curacies in Hampshire and Wiltshire. From 1784 until his death he held the post of curate of Selborne, Hampshire. White's most famous and widely-cited book, <bibl>The Natural History and Antiquities of Selborne</bibl> was admired by <persName ref="#MRM">Mitford </persName> for its careful observations of nature. The book is cited by the narrator of <title ref="#Our_Village1st_ed">Our Village</title> in the introductory <title>Our Village sketch</title> as well as in <title>Frost and Thaw</title>.<!--scw: I am sure we will come across his name in other sketches-->. An important amateur natural historian, botanist, and ornithologist, he emphasized the interrelatedness of plants and animals within an environment in ways that foreshadow modern ecology. Because of his botanical work, his name has been accorded a standard abbreviation for citation purposes in the <bibl>International Code of Botanic Nomenclature</bibl>.
                     </note>
                   <note>
@@ -4481,17 +4419,16 @@
                   <death when="1772-10-10">
                      <placeName>St. Andrews, Scotland</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="agriculture"/>
-                  <occupation type="farmer"/>
-                  <occupation type="clergy"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="scholar" subtype="agronomist"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <occupation type="trade" subtype="farmer"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <note type="bio" resp="#esh #ebb">Scottish poet and minister of Ratho, most known
                      for his epic in nine books, <bibl>
-                        <title>The Epigoniad</title> (<date>1757</date>)</bibl>, written in the
+                        <title level="m">The Epigoniad</title> (<date>1757</date>)</bibl>, written in the
                      style made popular by <persName>Alexander Pope</persName>. Locally dubbed the
-                     "potatoe minister" for his continuing to work the Fisher's Tryste farm, whose
-                     unexpired lease he inherited from his father. Professor of Natural Philosophy at the University of St. Andrews after 1759. See ODNB and Electric Scotland.</note>
+                     <soCalled>potatoe minister</soCalled> for his continuing to work the Fisher’s Tryste farm, whose unexpired lease he inherited from his father. Professor of Natural Philosophy at the <orgName>University of St. Andrews</orgName> after 1759. See ODNB and Electric Scotland.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/10780746"/>
                   </note>
@@ -4513,7 +4450,7 @@
                   <death when="1702-03-08">
                      <placeName>Kensington Palace, London, England</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb">Ousted <persName ref="#JamesII">King James
                         II</persName> from power during the <rs type="event" ref="#Glorious_Revol">Glorious Revolution of 1688</rs>, and reigned together with <persName ref="#MaryII">Queen Mary II</persName>, his wife and the daughter of James
                      II. Protestant monarch, House of Hanover.</note>
@@ -4535,7 +4472,7 @@
                   <death when="1837-06-20">
                      <placeName>Windsor Castle, Berkshire, England</placeName>
                   </death>
-                  <occupation type="monarch"/>
+                  <occupation type="government" subtype="monarch"/>
                   <occupation type="military"/>
                   <note resp="#rnes #lmw">House of Hanover. Successor to his brother <persName ref="#GeoIV">George IV</persName>, William enjoyed comparative popularity, reigned during the Age of Reform, and was succeeded by his niece Princess Victoria of Kent, later <persName ref="#Victoria_Queen">Queen Victoria</persName>. Earlier, he was <roleName>Duke of Clarence and St. Andrews</roleName> and <roleName>Earl of Munster</roleName>. His longtime mistress and mother of his ten children was the Irish comic actor <persName ref="#Jordan_Dorothea">Dorothea Jordan</persName>. He later married Adelaide of Saxe-Meiningen. Source: ODNB.</note>
                   <note>
@@ -4564,8 +4501,8 @@
                   <occupation type="legal"/>
                   <occupation type="educator"/>
                   <occupation type="literary"/>
-                  <occupation type="journalist"/>
-                  <occupation type="essayist"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <note resp="#lmw">John Wilson wrote under the pseudonym <persName ref="#North_Christopher">Christopher North</persName> for <title ref="#Blackwoods">Blackwood's Magazine</title>. He later served as Professor of Moral Philosophy at the University of Edinburgh.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/47566585"/>
@@ -4591,7 +4528,7 @@
                      <placeName>Cavendish Square, London, England</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="politician"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
                   <note resp="#lmw">Liberal Member of Parliament for Southwark from <date>1818</date> to
                         <date>1831</date>. Served in British army and diplomatic service, eventually
@@ -4616,13 +4553,12 @@
                   <death when="1855-01-25">
                      <placeName>Rydal Mount, near Amberside, Cumberland, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="diarist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="autobiographer"/>
                   <note resp="#ebb #rnes">Sister of <persName ref="#Wordsworth_Wm">William
                         Wordsworth</persName>; her diary entries, poems, and sketches were not
                      published until after her death, but demonstrably influenced her brother's more
-                     famous work. Lived with her brother at Racedown Lodge, Dorset; Alfoxden House, Somerset; Goslar, Lower Saxony; and Dove Cottage, Grasmere, Westmorland; and Rydal Mount, Grasmere, Westmorland. She fell seriously ill in 1829 and remained an invalid until her death in 1855. She wrote <title>Recollections of a Tour Made in Scotland</title> in 1803, but could not find a publisher and it was not published until 1874. Her <title>Grasmere Journal</title> was edited by William Knight and published in 1897.</note>
+                     famous work. Lived with her brother at Racedown Lodge, Dorset; Alfoxden House, Somerset; Goslar, Lower Saxony; and Dove Cottage, Grasmere, Westmorland; and Rydal Mount, Grasmere, Westmorland. She fell seriously ill in 1829 and remained an invalid until her death in 1855. <bibl>She wrote <title level="m">Recollections of a Tour Made in Scotland</title> in <date from="1803" to="1874">1803, but could not find a publisher and it was not published until 1874</date></bibl>. Her <title level="m">Grasmere Journal</title> was edited by William Knight and published in 1897.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/19695644"/>
                   </note>
@@ -4639,8 +4575,7 @@
                   <death when="1850-04-23">
                      <placeName>Rydal Mount, near Amberside, Cumberland, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
+                  <occupation type="literary" subtype="poet"/>
                   <occupation type="government"/>
                   <note resp="#lmw #rnes">First-generation poet of the Romantic era, "Lake Poet" and friend of fellow Lake Poet <persName ref="#Coleridge_ST">Coleridge</persName>, who co-authored Lyrical Ballads with him and to whom his major poem The Prelude was originally addressed. Poet Laureate from 1843-1850, succeeding his sometime friend and fellow Lake Poet <persName ref="#Southey_R">Robert Southey</persName> in that role.</note>
                <note>
@@ -4659,7 +4594,7 @@
                      <placeName>Fenchurch Street, London, England</placeName>
                   </birth>
                   <death when="1856"/>
-                  <occupation type="actor"/>
+                  <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who performed at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> and <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> between 1807 and 1832.
                      Rival of <persName ref="#Kean_Edmund">Kean</persName>. Known for his <persName ref="#Hamlet_H">Hamlet</persName>.
                         Written about by <persName ref="#Irving_Wash">Washington Irving</persName>. His son wrote a memoir of him in 1871.
@@ -4679,9 +4614,8 @@
                      <placeName>Upham, Winchester, England</placeName>
                   </birth>
                   <death when="1765-04-05"/>
-                  <occupation type="literary"/>
-                  <occupation type="poet"/>
-                  <occupation type="clergy"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="religious" subtype="clergy"/>
                   <note resp="#lmw #rnes">Clergyman and poet, author of <title>Night-Thoughts</title>, important promulgator of the late-eighteenth century "Graveyard School" of poetry.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/49252592"/>
