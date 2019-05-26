@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constraintSpec scheme="schematron" ident="occupation" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="en">
+    <constraint>
+        <sch:pattern>
+            <sch:let name="artistSubtypes"
+                value="('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 'illustrator')"/>
+            <sch:let name="bookProducerSubtypes"
+                value="('publisher', 'printer', 'binder', 'bookseller')"/>
+            <sch:let name="religiousSubtypes"
+                value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'rector', 'priest', 'musician', 'composer', 'churchAssist')"/>
+            <sch:let name="educatorSubtypes"
+                value="('teacher', 'schoolHead', 'governess', 'tutor', 'lecturer')"/>
+            <sch:let name="scholarSubtypes"
+                value="('philosopher', 'naturalist', 'astronomer', 'curator', 'antiquarian', 'inventor', 'historian', 'economist', 'agronomist')"/>
+            <sch:let name="explorerSubtypes"
+                value="('traveller', 'navigator', 'cartographer', 'seaCaptain')"/>
+            <sch:let name="legalSubtypes"
+                value="('barrister', 'solicitor', 'lawyer', 'recorder', 'magistrate', 'judge', 'enforcement')"/>
+            <sch:let name="literarySubtypes"
+                value="('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 'translator')"/>
+            <sch:let name="theaterSubtypes"
+                value="('actor', 'singer', 'manager', 'owner', 'designer', 'musician', 'composer')"/>
+            <sch:let name="medicalSubtypes"
+                value="('physician', 'surgeon', 'apothecary', 'midwife', 'oculist')"/>
+            <sch:let name="militarySubtypes"
+                value="('army', 'navy')"/>
+            <sch:let name="benefactorSubtypes"
+                value="('philanthropist', 'patron', 'volunteer')"/>
+            <sch:let name="governmentSubtypes"
+                value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post')"/>
+            <sch:let name="serviceSubtypes"
+                value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"/>
+            <sch:let name="tradeSubtypes"
+                value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
+            <sch:rule context="tei:occupation[@type='artist'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $artistSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$artistSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='bookProducer'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $bookProducerSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$bookProducerSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='religious'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $religiousSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$religiousSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='educator'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $educatorSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$educatorSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='scholar'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $scholarSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$scholarSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='explorer'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $explorerSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$explorerSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='legal'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $legalSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$legalSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='literary'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $literarySubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$literarySubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='theater'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $theaterSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$theaterSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='medical'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $medicalSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$medicalSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='military'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $militarySubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$militarySubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='benefactor'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $benefactorSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$benefactorSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='government'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $governmentSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$governmentSubtypes"/>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='service'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $serviceSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$serviceSubtypes"/></sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='trade'][@subtype]">
+                <sch:let name="subtypes"
+                    value=" for $i in tokenize(@subtype, '\s+') return $i"/>
+                <sch:assert
+                    test="every $subtype in $subtypes satisfies $subtype = $tradeSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$tradeSubtypes"/></sch:assert>
+            </sch:rule>  
+        </sch:pattern>
+    </constraint>
+</constraintSpec>   
+
