@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--OLD SCHEMA LINES<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<!-- OLD SCHEMA LINES
+<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index: Additions Template, for Adding and Updating Named Entities in the
+               Digital Mitford Archive</title>
+            <author>Digital Mitford Editors</author>
+            <editor><persName ref="#lmw">Lisa M. Wilson</persName>
+            </editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Data extraction and compiling by</resp>
+               <persName type="hist" ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#rnes">Rebecca Nesvet</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Information on named entities in this file has been extracted from files in the
+               Digital Mitford Archive.</p>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+<!--LMW: started 2016-09-24 --><!--LMW: last added to on January 8, 2017-->
+         <!--RNES: proofread on 6/30/2017--> 
+         <!--LMW: JH and BS working on Spring 2017, their version in GitHub. Need to upload to box and compare to this file.  2017-07-15. LMW: DONE. 2018-07-->
+         <!--LMW: updating tagging 2018-08-10 to 12-->
+         
+         <div type="historical_people">
+            <listPerson sortKey="histPersons">
+               <person xml:id="Allen_Mrs" sex="f">
+                  <persName>Mrs. Allen</persName>
+                  <persName>
+                     <surname type="married">Allen</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Date unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Anderdon_LOH" sex="f">
+                  <persName>Lucy Olivia Hobart Anderdon</persName>
+                  <persName>
+                     <forename>Lucy</forename>
+                     <forename>Olivia</forename>
+                     <forename>Hobart</forename>
+                     <surname type="paternal">Anderdon</surname>
+                     <surname type="married">Partridge</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1837" to="1854">between 1837 and 1854</date>. Spouse of the Rev. William Edwards Partridge (1837-51); daughter of Oliver and Maria Anderdon.</note>
+               </person>
+               
+               <person xml:id="Annie" sex="f">
+                  <persName>Annie</persName>
+                  <persName>
+                     <forename>Annie</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Date unknown. Surname unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Bassett_Mr" sex="m">
+                  <persName>Mr. Bassett</persName>
+                  <persName>
+                     <surname>Bassett</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> around the 1830s. Forename unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Bennoch_M" sex="f">
+                  <persName>Mrs. Margaret Bennoch</persName>
+                  <persName>
+                     <surname type="married">Bennoch</surname>
+                     <forename>Margaret</forename>
+                 </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Bennoch_Fr">Francis Bennoch</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1855">1855</date>. More research needed.</note>
+               </person>
+               
+               <person xml:id="Benyon_R" sex="m">
+                  <persName>Richard Benyon</persName>
+                  <persName>
+                     <surname>Benyon</surname>
+                     <forename>Richard</forename>
+                  </persName>
+                  <persName><addName>Richard Powlett-Wrighte</addName></persName>
+                  <persName><addName>Richard Benyon De Beauvoir</addName></persName>
+                  <persName><roleName>Member of Parliament</roleName></persName>
+                  <birth when="1769-04-28">
+                     <placeName>Westminster, London, England</placeName>
+                  </birth>
+                  <death when="1854-03-22"/>
+                  <occupation type="government" subtype="politician administrator"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">One of the wealthiest commoners in <placeName ref="#Berkshire">Berkshire</placeName> and a major landowner and philanthropist. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>; <persName ref="#MRM">Mitford</persName> wrote a sonnet, <title ref="#EnglefieldHouse_1827">Englefield House: The Seat of R. Benyon De Beauvoir, Esq., Near Reading,"</title> printed in her 1827 poems. He served as a Justice of the Peace, Deputy Lieutenant for Berkshire, and as High Sheriff of Berkshire.
+                  </note>
+                  <note><ref target="http://viaf.org/viaf/292786855"/></note>
+                  <note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/benyon-richard-ii-1770-1854"/></note>
+               </person>
+               
+               <person xml:id="Blandy_Mrs" sex="f">
+                  <persName>Mrs. Blandy</persName>
+                  <persName>
+                     <surname type="married">Blandy</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Boner_Chas" sex="m">
+                  <persName>Charles Boner</persName>
+                  <persName>
+                     <surname>Boner</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1815-04-29">
+                     <placeName>Weston, Somerset, England</placeName>
+                  </birth>
+                  <death when="1870-04-09">
+                     <placeName>Munich, Bavaria, Germany</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet essayist translator journalist"/>
+                 <note resp="#lmw">A mentee and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1845" to="1855"> between 1845 and 1855</date>. Author of <title>Chamois Hunting in the Alps</title> and other works of travel writing. His translations of the fairy tales of <persName>Hans Christian Andersen</persName> did much to popularize them with English-speaking audiences.</note>                  
+                  <note><ref target="http://viaf.org/viaf/32743151"/></note>
+               </person>
+               
+               <person xml:id="Bogue_David" sex="m">
+                  <persName>David Bogue</persName>
+                  <persName>
+                     <surname>Bogue</surname>
+                     <forename>David</forename>
+                  </persName>
+                  <persName type="pseudo">Don Boyne</persName>
+                  <birth notAfter="1808"/>
+                  <death when="1856"/>
+                  <occupation type="bookProducer" subtype="bookseller publisher"/>
+                  <note resp="#lmw">Publisher, bookseller, and writer of children's fiction. Business partner of <persName>Charles Tilt</persName> <date from="1840" to="1843">from 1840 to 1843</date>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Source: WorldCat.</note>
+                  <note><ref target="http://viaf.org/viaf/22011623"/></note>
+               </person>
+               
+               <person xml:id="Burke_J" sex="m">
+                  <persName>J. Burke</persName>
+                  <persName>
+                     <surname>Burke</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1834">1834</date>. Forename unknown. More research needed. <!--LMW: Possibly John Burke (12 November 1786 – 27 March 1848), founder of Burke's Peerage? -->
+                  </note>
+               </person>
+               
+               <person xml:id="Blewitt_O" sex="m">
+                  <persName>Octavian Blewitt</persName>
+                  <persName>
+                     <surname>Blewitt</surname>
+                     <forename>Octavian</forename>
+                     <roleName>Secretary of the Royal Literary Fund</roleName>
+                     <roleName>Fellow of the Royal Geographical Society</roleName>
+                  </persName>
+                  <birth when="1810-10-03">
+                     <placeName>Bishopsgate, London, England</placeName>
+                  </birth>
+                  <death when="1884-11">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="medical"/>
+                  <occupation type="literary" subtype="editor essayist"/>
+                 <note resp="#lmw">Travel writer, essayist, and Secretary of the Royal Literary Fund after 1839. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1843">1843</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/60024708"/></note>
+               </person>
+               
+               <person xml:id="Brightwell_CL" sex="f">
+                  <persName>Cecilia Lucy Brightwell</persName>
+                  <persName>
+                     <forename>Cecilia</forename>
+                     <forename>Lucy</forename>
+                     <surname type="paternal">Brightwell</surname>
+                  </persName>
+                  <birth when="1811-02-27">
+                     <placeName>Thorpe, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1875-04-17">
+                     <placeName>Norwich, Norfolk, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="illustrator lithographer"/>
+                  <occupation type="literary" subtype="biographer"/>                  <note resp="#lmw">Sketcher and lithographer; author of <title>Memorials of the Life of Amelia Opie</title>, as well as of many didactive biographies for children. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1854">1854</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/61909307"/></note>
+               </person>
+               
+               <person xml:id="Brooks_Miss" sex="f">
+                  <persName>Miss Brooks</persName>
+                  <persName>
+                     <surname type="paternal">Brooks</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed. <!--LMW: Same as Miss Brooke? --></note>
+               </person>
+               
+               <person xml:id="Browne_Martha" sex="f">
+                  <persName>Martha Browne</persName>
+                  <persName>
+                     <forename>Martha</forename>
+                     <forename>S.</forename>
+                     <surname type="paternal">Browne</surname>
+                  </persName>
+                  <note resp="#lmw">Sister of poet Mary Ann Browne (1812-1844). <persName ref="#MRM">Mary Russell Mitford</persName> wrote in an album belonging to her in <date when="1829">1829</date>. More research needed.</note>
+               </person>
+               
+               <person xml:id="Kirkland_C" sex="f">
+                  <persName>Caroline Stansbury Kirkland</persName>
+                  <persName>
+                     <forename>Caroline</forename>
+                     <forename>Mathilda</forename>
+                     <surname type="paternal">Stansbury</surname>
+                     <surname type="married">Kirkland</surname>
+                  </persName>
+                  <persName type="pseudo">Mrs. Mary Clavers</persName>
+                  <birth when="1801-01-11">
+                     <placeName>New York City, New York, USA</placeName>
+                  </birth>
+                  <death when="1864-04-06">
+                     <placeName>New York City, New York, USA</placeName>
+                  </death>
+                  <occupation type="educator"/>
+                  <occupation type="literary" subtype="novelist editor essayist"/>
+                  <note resp="#lmw">Author of three books on American frontier life, including <title>New Home; Who'll Follow?</title>. Particularly after her husband's death in <date when="1846">1846</date>, her home became an important literary salon in New York City.</note>
+               </person>
+               
+               <person xml:id="Cooper_John" sex="m">
+                  <persName>John Cooper</persName>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Cooper</surname>
+                  </persName>
+                  <birth when="1793">
+                     <placeName>Bath, Somerset, England</placeName>
+                     </birth>
+                  <death when="1870-07-13">
+                     <placeName>Tunbridge Wells, Kent, England</placeName>
+                     </death>
+                  <occupation type="theater" subtype="actor manager"/>
+                  <note resp="#lmw">Actor active <date from="1811" to="1859">between 1811 and 1859</date>; played at Drury Lane and other London theatres, as well as on circuits in York and Lincoln. Also served as stage manager at Drury Lane. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1828">1828</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/21971441"/></note>
+               </person>
+               
+               <person xml:id="Easthope_John" sex="m">
+                  <persName>John Easthope</persName>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Easthope</surname>
+                     <roleName>baronet</roleName>
+                  </persName>
+                  <birth when="1784-10-29">
+                     <placeName>Bath, Somerset, England</placeName>
+                  </birth>
+                  <death when="1865-12-11">
+                     <placeName>Fir Grove, Surrey, England</placeName>
+                  </death>
+                  <occupation type="trade" subtype="stockbroker banker"/>     
+                  <occupation type="government" subtype="politician"/>
+                     <occupation type="literary" subtype="editor"/>
+                  <note resp="#lmw">Began his career as a bank clerk and stockbroker and became wealthy through investments in railroads, mining, and British colonial land. Liberal Member of Parliament and owner of the <title>Morning Chronicle</title> newspaper <date from="1834" to="1847">between 1834 and 1847</date>.</note>
+                  <note><ref target="http://www.historyofparliamentonline.org/volume/1820-1832/member/easthope-john-1784-1865"/></note>
+               </person>
+               
+               <person xml:id="Benyon_RF" sex="m">
+                  <persName>Richard Fellowes Benyon</persName>
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Fellowes</surname>
+                     <surname>Benyon</surname>
+                  </persName>
+                  <persName>Richard Fellowes</persName>
+                  <birth when="1811-11-17">
+                     <placeName>Haveringland Hall, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1897-07-26">
+                     <placeName>Fir Grove, Surrey, England</placeName>
+                  </death>
+                  <occupation type="government" subtype="politician administrator"/>
+        <occupation type="legal"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">Conservative Member of Parliament, High Sheriff of Berkshire, and Chairman of the Berkshire Quarter Sessions. He changed his name from Richard Fellowes to Richard Fellowes Benyon after inheriting his uncle <persName ref="#Benyon_R">Richard Benyon De Beauvoir</persName>'s estate, including <placeName>Englefield House</placeName> in <date when="1854">1854</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/295534599"/></note>
+               </person>
+               
+               <person xml:id="Hoare_MA" sex="f">
+                  <persName>Mary Anne Pratt Hoare</persName>
+                  <persName>
+                     <forename>Mary</forename>
+                     <forename>Anne</forename>
+                     <surname type="paternal">Pratt</surname>
+                     <surname type="married">Hoare</surname>
+                  </persName>
+                  <persName><addName>Mrs. Hoare</addName></persName>
+                  <persName><addName>M. A. Hoare</addName></persName>
+                  <birth notAfter="1818">
+                     <placeName>Ireland</placeName>
+                  </birth>
+                  <death when="1872">
+                     <placeName>Monkstown, County Cork, Ireland</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <note resp="#lmw">Story story writer for <title>Household Words</title> and other periodicals. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1852" to="1853">between 1852 and 1853</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/315994811"/></note>
+               </person>
+               
+               <person xml:id="Goldsmid_AM" sex="f">
+                  <persName>Anna Maria Goldsmid</persName>
+                  <persName>
+                     <forename>Anna</forename>
+                     <forename>Maria</forename>
+                     <surname type="paternal">Goldsmid</surname>
+                  </persName>
+                  <birth when="1805-09-17"/>
+                  <death when="1889-02-08">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="translator essayist"/>
+                  <occupation type="scholar" subtype="linguist"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">Expert linguist and translator in Italian, French, German, and Hebrew. Founded the Jews' Infant School, London, authored numerous educational pamphlets, and supported other charitable institutions. With her father, Isaac Lyon Goldsmid, helped to found and support University College, London and the West London Synagogue of British Jews. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1852">1852</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/14668078"/></note>
+               </person>
+               
+               <person xml:id="Hall_AM" sex="f">
+                  <persName>Anna Maria Fielding Hall</persName>
+                  <persName>
+                     <forename>Anna</forename>
+                     <forename>Maria</forename>
+                     <surname type="paternal">Fielding</surname>
+                     <surname type="married">Hall</surname>
+                  </persName>
+                  <birth when="1800-01-06">
+                     <placeName>Dublin, Leinster, Ireland</placeName>
+                  </birth>
+                  <death when="1881-01-30">
+                     <placeName>Devon Lodge, East Moulsey, Surrey, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="novelist editor"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">Novelist and short story writer; her stories and sketches set in Ireland were compared to those of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of Samuel Carter Hall, she published under the name Mrs. S. C. Hall. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1829" to="1830">between 1829 and 1830</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/59344020"/></note>
+               </person>
+               
+               <person xml:id="Howitt_Mary" sex="f">
+                  <persName>Mary Howitt</persName>
+                  <persName>
+                     <forename>Mary</forename>
+                     <surname type="paternal">Botham</surname>
+                     <surname type="married">Howitt</surname>
+                  </persName>
+                  <birth when="1799-03-12">
+                     <placeName>Coleford, Oxfordshire, England</placeName>
+                  </birth>
+                  <death when="1888-01-30">
+                     <placeName>Rome, Italy</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet novelist translator editor autobiographer"/>     
+                  <note resp="#lmw">Prolific poet, short story writer, translator, editor, and memoirist; her husband William Howitt was occasionally her co-author. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1834" to="1846">between 1834 and 1846</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/59344020"/></note>
+               </person>
+               
+               <person xml:id="Dacre_Lady" sex="f">
+                  <persName>Barbarina Brand, Lady Dacre</persName>
+                  <persName>
+                     <forename>Barbarina</forename>
+                     <surname type="paternal">Ogle</surname>
+                     <surname type="married">Wilmot</surname>
+                     <surname type="married">Brand</surname>
+                  </persName>
+                  <birth when="1768-05-09">
+                     <placeName>Hertfordshire, England</placeName>
+                  </birth>
+                  <death when="1854-05-17">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet playwright translator editor"/>
+                  <note resp="#lmw">Playwright, poet, translator, and editor. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1836" to="1839">between 1836 and 1839</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/15640591"/></note>
+               </person>
+               
+               <person xml:id="Davenport_RA" sex="m">
+                  <persName>Richard Alfred Davenport</persName>
+                  <persName>
+                     <forename>Richard</forename>
+                     <forename>Alfred</forename>
+                     <surname>Davenport</surname>
+                  </persName>
+                  <birth when="1777-01-18">
+                     <placeName>Lambeth, London, England</placeName>
+                  </birth>
+                  <death when="1852"/>
+                  <occupation type="literary" subtype="poet essayist editor biographer"/>   
+                  <note resp="#lmw">Prolific miscellaneous writer and editor, spouse of novelist Selina Davenport. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1811" to="1830">between 1811 and 1830</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/15640591"/></note>
+               </person>
+               
+               <person xml:id="Cockburn_Mrs" sex="f">
+                  <persName>Mrs. Cockburn</persName>
+                  <persName>
+                     <surname type="married">Cockburn</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1840" to="1847">between 1840 and 1847</date>. Forename unknown. More research needed.<!--LMW: any relation to Alexander Cockburn (1802-1880)?--></note></person>
+               
+               <person xml:id="Dapuy_Mrs" sex="f">
+                  <persName>Mrs. Dapuy</persName>
+                  <persName>
+                     <surname type="married">Dapuy</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Crowther_Mrs" sex="f">
+                  <persName>Mrs. Crowther</persName>
+                  <persName>
+                     <surname type="married">Crowther</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1855">1855</date>. Forename unknown. More research needed.<!--LMW: Possibly the wife or mother of Phillip Crowther, the dandy?--></note></person>
+              
+               <person xml:id="deGoodrich_Miss" sex="f">
+                  <persName>Miss de Goodrich</persName>
+                  <persName>
+                     <surname type="paternal"><nameLink>de</nameLink> Goodrich</surname>
+                </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1852">1852</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Gulson_Mrs" sex="f">
+                  <persName>Mrs. Gulson</persName>
+                  <persName>
+                     <surname type="married">Gulson</surname>
+                </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Hanmer_Mrs" sex="f">
+                  <persName>Mrs. Hanmer</persName>
+                  <persName>
+                     <surname type="married">Hanmer</surname>
+               </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1835">1835</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Dyce_Alex" sex="m">
+                  <persName>Alexander Dyce</persName>
+                  <persName>
+                     <forename>Alexander</forename>
+                     <surname>Dyce</surname>
+                     <roleName>Reverend</roleName>
+                  </persName>
+                  <birth when="1798-06-30">
+                     <placeName>Edinburgh, Lothian, Scotland</placeName>
+                  </birth>
+                  <death when="1869-05-15">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="translator editor critic biographer"/>
+                  <occupation type="scholar" subtype="historian curator"/>
+                  <occupation type="religious" subtype="curate"/>
+                     <note resp="#lmw">Clergyman and prolific editor, translator, literary historian, and book collector. Edited influential editions with biographies of earlier British authors such as <persName ref="#Shakespeare">Shakespeare</persName> and other Elizabethan dramatists, as well as eighteenth-century poets such as <persName ref="#Pope_Alex">Pope</persName> and <persName ref="#Beattie_J">Beattie</persName>. His rare book collection was left to what is now the Victoria and Albert Museum. A correspondent of <persName ref="#MRM">Mitford</persName> <date from="1828" to="1854">between 1828 and 1854</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/17577822"/></note>
+               </person>  
+               
+               <person xml:id="Hayward_Abraham" sex="m">
+                  <persName>Abraham Hayward</persName>
+                  <persName>
+                     <forename>Abraham</forename>
+                     <surname>Hayward</surname>
+                 </persName>
+                  <birth when="1801-11-22">
+                     <placeName>Wilton, Wiltshire, England</placeName>
+                  </birth>
+                  <death when="1884-02-02">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="essayist translator editor"/>   
+                  <occupation type="legal" subtype="solicitor"/>
+                  <note resp="#lmw">Solicitor and prolific editor, translator, and essayist. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1834" to="1839">between 1834 and 1839</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/67219835"/></note>
+               </person> 
+               
+               <person xml:id="Cary_Mrs" sex="f">
+                  <persName>Mrs. Cary</persName>
+                  <persName>
+                     <surname type="married">Cary</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1844">1844</date>. Forename unknown. More research needed.<!--LMW: Jane Ormsby Cary, wife of Rev. Henry Francis Cary (6 December 1772 – 14 August 1844)?--></note></person>
+               
+               <person xml:id="Clark_Rupert" sex="m">
+                  <persName>Rupert Clark</persName>
+                  <persName>
+                     <surname>Clark</surname>
+                     <forename>Rupert</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. More research needed.</note></person>
+               
+               <person xml:id="Gandy_Ed" sex="m">
+                  <persName>Edward Gandy</persName>
+                  <persName>
+                     <surname>Gandy</surname>
+                     <forename>Edward</forename>
+                  </persName>
+                  <birth when="1792"/>
+                  <death when="1859"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#lmw">Playwright active <date from="1823" to="1827">between 1823 and 1827</date>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1836">1836</date>. Source: WorldCat.</note>
+                  <note><ref target="http://viaf.org/viaf/4434505"/></note>
+               </person>
+               
+               <person xml:id="Glenny_Geo" sex="m">
+                  <persName>George Glenny</persName>
+                  <persName>
+                     <surname>Glenny</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <birth when="1793-11-01"/>
+                  <death when="1874-05-17">
+                     <placeName>Norwood, London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist essayist editor"/>   
+                  <note resp="#lmw">Writer, editor and horticulturalist active <date from="1839" to="1871">between 1839 and 1871</date>. Editor of the The Royal Lady's Magazine: and Archives of the Court of St. James's from <date when="1831">1831</date>, later retitled the Horticultural Journal, Florists' Register, and Royal Lady's Magazine, new series, beginning in <date when="1839">1839</date>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1831" to="1832">between 1831 and 1832</date>. Source: DNB, WorldCat.</note>
+                  <note><ref target="http://viaf.org/viaf/1992331"/></note>
+               </person>
+               
+               <person xml:id="Glennig_Mr" sex="m">
+                  <persName>Mr. Glennig</persName>
+                  <persName>
+                     <surname>Glennig</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Greene_JH" sex="m">
+                  <persName>John Hooke Greene</persName>
+                  <persName>
+                     <forename>John</forename>
+                     <forename>Hooke</forename>
+                     <surname>Greene</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. More research needed.</note></person>
+               
+               <person xml:id="Holland_Mrs" sex="f">
+                  <persName>Mrs. Holland</persName>
+                  <persName>
+                     <surname type="married">Holland</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Joy_Miss" sex="f">
+                  <persName>Miss Joy</persName>
+                  <persName>
+                     <surname type="paternal">Joy</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1836">1836</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Langton_Miss" sex="f">
+                  <persName>Miss Langton</persName>
+                  <persName>
+                     <surname type="paternal">Langton</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Marshall_Miss" sex="f">
+                  <persName>Miss Marshall</persName>
+                  <persName>
+                     <surname type="paternal">Marshall</surname>
+                  </persName>
+ <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Hodgkinson_Mrs" sex="f">
+                  <persName>Mrs. Hodgkinson</persName>
+                  <persName>
+                     <surname type="married">Hodgkinson</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1829">1829</date>; letter is addressed to her at Arbor Rectory in <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Herbert_Wm" sex="m">
+                  <persName>William Herbert</persName>
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Herbert</surname>
+                  </persName>
+                  <birth when="1778-01-12">
+                   <placeName>England</placeName>  
+                  </birth>
+                  <death when="1847-05-28">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="religious"/>
+                  <occupation type="literary" subtype="poet translator essayist"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <occupation type="artist" subtype="illustrator"/>
+                  <note resp="#lmw">Clergyman, poet, translator, naturalist, and botanical illustrator. Member of Parliament for Hampshire and for Cricklade. Rector of Spofforth and Dean of Manchester and author of sermons. Expert horticulturalist and writer/illustrator, particulaly on bulbous plants such as amaryllis and crocus. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1810">1810</date>. Her <title ref="#Poems_1st_ed_MRM">1810 Poems</title> contain a dedicatory <title ref="#WmHerbert_1810">poem</title>to him.</note></person>
+
+               <person xml:id="Roscoe_T" sex="m">
+                  <persName>Thomas Roscoe</persName>
+                  <persName>
+                     <forename>Thomas</forename>
+                     <surname>Roscoe</surname>
+                     </persName>
+                  <birth when="1791-06-23">
+                     <placeName>Liverpool, Merseyside, England</placeName>
+                  </birth>
+                  <death when="1871-09-24">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="playwright novelist essayist biographer editor translator"/>
+                  <note resp="#lmw"> <persName>Miss Marshall</persName>Prolific travel writer, playwright, novelist, translator, and book and serial editor. Editor of <bibl><title ref="#Juv_Keepsake">The Juvenile Keepsake</title></bibl>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1829">1829</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/2649935"/></note>
+               </person>
+               
+               <person xml:id="Tuckerman_H" sex="m">
+                  <persName>Henry Theodore Tuckerman</persName>
+                  <persName>
+                     <forename>Henry</forename>
+                     <forename>Theodore</forename>
+                     <surname>Tuckerman</surname>
+                     <surname><addName>Tuckermann</addName></surname>
+                  </persName>
+                  <birth when="1813-04-20">
+                     <placeName>Boston, Massachusetts, USA</placeName>
+                  </birth>
+                  <death when="1871-12-17">
+                     <placeName>Manhattan, New York City, New York, USA</placeName>
+                  </death>
+                  <occupation type="literary" subtype=" poet essayist biographer autobiographer editor"/>
+               <note resp="#lmw">American travel writer, essayist, and editor. Surname also spelled "Tuckermann." A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/42895727"/></note>
+               </person>
+               
+               <person xml:id="Pardoe_J" sex="f">
+                  <persName>Julia Pardoe</persName>
+                  <persName>
+                     <forename>Julia</forename>
+                     <surname type="paternal">Pardoe</surname>
+                  </persName>
+                  <birth when="1806-12-03">
+                     <placeName>Norwich, Yorkshire, England</placeName>
+                  </birth>
+                  <death when="1862-11-26">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="novelist essayist biographer autobiographer"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="explorer" subtype="traveller"/>
+                  <note resp="#lmw">Pioneering travel writer, particularly on Turkey, Hungary, and Portugal; novelist; and historian-biographer, particularly on French subjects.</note>
+                  <note><ref target="http://viaf.org/viaf/74664391"/></note>
+               </person>
+               
+               <person xml:id="Shoberl_F" sex="m">
+                  <persName>Frederic Shoberl</persName>
+                  <persName>
+                     <forename>Frederic</forename>
+                     <surname>Shoberl</surname>
+                  </persName>
+                  <birth when="1775">
+                     <placeName>London, England</placeName>
+                  </birth>
+                  <death when="1852-03-22">
+                     <placeName>Brompton, London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="critic essayist editor journalist"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1830" to="1835">between 1830 and 1835</date>. Founder, with <persName ref="#Colburn">Henry Colburn</persName>, of the <title ref="#New_Monthly_Mag">New Monthly Magazine</title>. Editor for Rudolph Ackermann of Ackermann's <title>Repository of the Arts, Literature, Commerce, Manufactures, Fashions, and Commerce</title> the <title ref="#ForgetMeNot">Forget-Me-Not</title>, and the <title ref="#Ackermans_Juv_ForgetMeNot">Juvenile Forget-Me-Not</title>.</note>
+                  <note><ref target='http://viaf.org/viaf/22919698'/></note>
+                   </person>
+               
+               <person xml:id="Shoberl_T" sex="f">
+                  <persName>Theodosia Shoberl</persName>
+                  <persName>
+                     <forename>Theodosia</forename>
+                     <surname type="married">Shoberl</surname>
+                  </persName>
+                 <death when="1838-12-18"/>
+                 <note resp="#lmw">Spouse of <persName ref="#Shoberl_F">Frederic Shoberl</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1849">1849</date>.</note>
+                </person>
+           
+               <person xml:id="Moulton_B_Ed" sex="m">
+                  <persName>Edward Barrett Moulton-Barrett</persName>
+                  <persName>
+                     <forename>Edward</forename>
+                     <forename>Barrett</forename>
+                     <surname>Moulton-Barrett</surname>
+                  </persName>
+                  <birth when="1785-05-28">
+                     <placeName>Cinnamon Hill, Jamaica</placeName>
+                  </birth>
+                  <death when="1857-04-17">
+                     <placeName>Wimpole Street, London, England</placeName>
+                  </death>
+                  <occupation type="trade"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <note resp="#lmw">Father of <persName ref="#Barrett_E">Elizabeth Barrett-Browning</persName>. Inheritor and administrator of his grandfather's extensive holdings in land and enslaved people in Jamaica. Also active in community affairs and was twice elected Sherriff of Herefordshire. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1850">1850</date>.</note>
+                  <note><ref target='http://viaf.org/viaf/44143455'/></note>
+                  <note><ref target="http://www.browningscorrespondence.com/biographical-sketches/?id=970"/></note>
+               </person>
+               
+               <person xml:id="Moulton_B_Ara" sex="f">
+                  <persName>Arabella Moulton-Barrett</persName>
+                  <persName>
+                     <forename>Arabella</forename>
+                     <surname type="paternal">Moulton-Barrett</surname>
+                  </persName>
+                  <birth when="1813-07-04">
+                     <placeName>Hope End, Herefordshire, England</placeName>
+                  </birth>
+                  <death when="1868-06-11">
+                     <placeName>Delamere Terrace, London, England</placeName>
+                  </death>
+                  <note resp="#lmw">Sister of <persName ref="#Barrett_E">Elizabeth Barrett-Browning</persName> and her frequent correspondent. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1839">1839</date>.</note>
+                  <note><ref target='http://viaf.org/viaf/3544528'/></note>
+                  <note><ref target="http://www.browningscorrespondence.com/biographical-sketches/?id=973"/></note>
+               </person>
+               
+               <person xml:id="Moulton_B_Hen" sex="f">
+                  <persName>Henrietta Moulton-Barrett Cook</persName>
+                  <persName>
+                     <forename>Henrietta</forename>
+                     <surname type="paternal">Moulton-Barrett</surname>
+                     <surname type="married">Cook</surname>
+                  </persName>
+                  <birth when="1813-07-04">4 March 1809
+                     <placeName>Upper Berkeley Street, London, England</placeName>
+                  </birth>
+                  <death when="1860-11-23">
+                     <placeName>Stoke Court, Thurlbear, Somersetshire, England</placeName>
+                  </death>
+                  <note resp="#lmw">Sister of <persName ref="#Barrett_E">Elizabeth Barrett-Browning</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1839">1839</date>.</note>
+                  <note><ref target='http://viaf.org/viaf/30782086'/></note>
+                  <note><ref target="http://www.browningscorrespondence.com/biographical-sketches/?id=977"/></note>
+               </person>
+               
+               <person xml:id="Ricketts_Miss" sex="f">
+                  <persName>Miss Ricketts</persName>
+                  <persName>
+                     <surname type="paternal">Ricketts</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1830">1830</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Powell_Mrs" sex="f">
+                  <persName>Mrs. Powell</persName>
+                  <persName>
+                     <surname type="married">Powell</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1820">1820</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Rigsby_R" sex="u">
+                  <persName>R. Rigsby</persName>
+                  <persName>
+                     <surname>Rigsby</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1847">1847</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Smith_Dora" sex="f">
+                  <persName>Dora Smith</persName>
+                  <persName>
+                     <forename>Dora</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1847">1847</date>. More research needed.</note></person>
+               
+               <person xml:id="Waddington_J" sex="f">
+                  <persName>Julia Rattray Waddington</persName>
+                  <persName>
+                     <forename>Julia</forename>
+                     <surname>Wattington</surname>
+                  </persName>
+                  <birth when="1801">
+                     <placeName ref="#London_city"/>
+                  </birth>
+                  <death when="1862">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#lmw">Author of four novels. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. More research needed.</note>
+                  <note><ref target="http://www.victorianresearch.org/atcl/show_auth.php?aid=1321"/></note>
+               </person>
+               
+               <person xml:id="Stovin_Mrs" sex="f">
+                  <persName>Mrs. M. Stovin</persName>
+                  <persName>
+                     <surname type="married">Stovin</surname>
+     </persName>
+     <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1824">1824</date>. Forename unknown. Lived at Newbould. More research needed.</note></person>
+               
+               <person xml:id="Wheeler_Mrs" sex="f">
+                  <persName>Mrs. John Wheeler</persName>
+                  <persName>
+                     <surname type="married">Wheeler</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Spouse of John Wheeler. Forename unknown. More research needed.<!--LMW: any connection to Kate Wheeler?--></note></person>
+               
+               <person xml:id="White_WF" sex="u">
+                  <persName>W. F. White</persName>
+                  <persName>
+                     <surname>White</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Wardle_GL" sex="m">
+                  <persName>Gwyllym Lloyd Wardle</persName>
+                  <persName>
+                     <forename>Gwyllym</forename>
+                     <forename>Lloyd</forename>
+                     <surname>Wardle</surname>
+                     <roleName>Member of Parliament</roleName>
+                  </persName>
+                  <birth notAfter="1762">
+                     <placeName>Chester, Cheshire, England</placeName>
+                  </birth>
+                  <death when="1833-11-30">
+                     <placeName>Florence, Italy</placeName>
+                  </death>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="military" subtype="army"/>                  <note resp="#lmw">Radical politician and Member of Parliament for Okehampton <date from="1807" to="1812">from 1807 to 1812</date>. With <persName ref="#Burdett_F">Francis Burdett</persName>, Wardle was instrumental in prosecuting Prince Frederick, the Duke of York-Mary Ann Clarke controversy. <persName ref="#MRM">Mitford</persName> addressed a poem to him, <title ref="#Wardle_Death_1810">"To G. L. Wardle, Esq., on the Death of His Child"</title>.</note>
+                  <note><ref target="http://viaf.org/viaf/72789554"/></note>
+                  <note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/wardle-gwyllym-lloyd-1761-1833"/></note>
+               </person>
+               
+               <person xml:id="Stoddard_RH" sex="m">
+                  <persName>Richard Henry Stoddard</persName>
+                  <persName>
+                     <forename>Richard</forename>
+                     <forename>Henry</forename>
+                     <surname>Stoddard</surname>
+                  </persName>
+                  <birth when="1825-07-02">
+                     <placeName>Hingham, Massachusetts, USA</placeName>
+                  </birth>
+                  <death when="1903-05-12">
+                     <placeName>Florence, Italy</placeName>
+                  </death>
+                  
+                  <occupation type="literary" subtype="poet, critic essayist, editor"/>
+                  <note resp="#lmw">Influential American reviewer and critic; also editor of compilations of English and American poetry, and a collection of the works of Edgar Allan Poe. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date> and also a friend of <persName ref="#Hawthorne_N">Nathaniel Hawthorne</persName>.</note>
+                  <note><ref target="http://viaf.org/viaf/11128792"/></note>
+               </person>
+               
+               <person xml:id="Starkey_DP" sex="m">
+                  <persName>Digby Pilot Starkey</persName>
+                  <persName>
+                     <forename>Digby</forename>
+                     <forename>Pilot</forename>
+                     <surname>Starkey</surname>
+                 </persName>
+                  <birth when="1806"/>
+                 <death when="1876"/>
+                  <occupation type="literary" subtype="poet, playwright, novelist"/>
+                  <note resp="#lmw">Irish poet and playwright; friend of <persName ref="#Edgeworth_Maria">Maria Edgeworth</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1852" to="1854">between 1852 and 1854</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/1376869"/></note>
+               </person>
+               
+               <person xml:id="Wrangham_Fr" sex="m">
+                  <persName>Francis Wrangham</persName>
+                  <persName>
+                     <forename>Francis</forename>
+                     <surname>Wrangham</surname>
+                     <roleName>Archdeacon of the East Riding</roleName>
+                  </persName>
+                  <birth when="1769-06-11">
+                     <placeName>Raysthorpe, Yorkshire, England</placeName>
+                  </birth>
+                  <death when="1842-12-27">
+                     <placeName>Chester, Cheshire, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet, essayist translator"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <note resp="#lmw">Prominent Anglican clergyman, author, and book collector. Author of poems, political essays, sermons, and translations from the Greek, Latin, French, and Italian. Theologically orthodox and politically reformist. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1825" to="1830">between 1825 and 1830</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/15552089"/></note>
+               </person>
+               
+               <person xml:id="Jameson_Anna" sex="f">
+                  <persName>Anna Jameson</persName>
+                  <persName>
+                     <forename>Anna</forename>
+                     <forename>Brownell</forename>
+                     <surname type="paternal">Murphy</surname>
+                     <surname type="married">Jameson</surname>
+                  </persName>
+                  <birth when="1794-05-17">
+                     <placeName>Dublin, Leinster, Ireland</placeName>
+                  </birth>
+                  <death when="1860-03-17">
+                     <placeName>Ealing, London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="autobiographer essayist critic"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="educator" subtype="governess"/>
+                     <occupation type="explorer" subtype="traveller"/>
+                  <occupation type="benefactor"/>
+                  <note resp="#lmw">Travel writer on Canada and continental Europe, Jameson also wrote on women, social reform, Shakespeare's heroines, and German literature and culture. Author of a groundbreaking series of guidebooks on art, <title>Sacred and Legendary Art</title>, and thus considered the first British art historian. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date> and also a friend of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
+                  <note><ref target="http://viaf.org/viaf/44469064"/></note>
+               </person>
+               
+               <person xml:id="Trollope_Fr" sex="f"><!-- update existing -->
+                  <persName>Frances Milton Trollope</persName>
+                  <persName>
+                     <forename>Frances</forename>
+                     <surname type="paternal">Milton</surname>
+                     <surname type="married">Trollope</surname>
+                  </persName>
+                  <persName><addName>Mrs. Trollope</addName></persName>
+                  <birth when="1779-03-10">
+                     <placeName>Stapleton, Bristol, England</placeName>
+                  </birth>
+                  <death when="1863-10-06">
+                     <placeName>Florence, Italy</placeName>
+                  </death>
+                  <occupation type="literary" subtype="novelist essayist"/>
+                  <note resp="#lmw">Prolific and celebrated social protest novelist and travel writer. Author of <title>The Domestic Manners of the Americans</title>, as well as anti-slavery and industrial novels. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1826" to="1852">between 1826 and 1852</date> and also a friend of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
+                  <note><ref target="http://viaf.org/viaf/34551336"/></note>
+               </person>
+
+               <person xml:id="Yates_Miss" sex="f">
+                  <persName>Miss Yates</persName>
+                  <persName>
+                     <surname type="paternal">Yates</surname>
+                 </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Forename unknown. Likely the daughter of <persName ref="#Yates_Mrs">Mrs. Yates</persName>. More research needed.</note></person>
+               
+               <person xml:id="Yates_Mrs" sex="f">
+                  <persName>Mrs. Yates</persName>
+                  <persName>
+                     <surname type="married">Yates</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1835">1835</date>. Forename unknown. Likely the mother of <persName ref="#Yates_Miss">Miss Yates</persName>. More research needed.</note>
+               </person>
+               
+               <person xml:id="Williams_Miss" sex="f">
+                  <persName>Miss Williams</persName>
+                  <persName>
+                     <surname type="paternal">Williams</surname>
+                 </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Wienholt_Miss" sex="f">
+                  <persName>Miss Wienholt</persName>
+                  <persName>
+                     <surname type="paternal">Wienholt</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note></person>
+             
+               <person xml:id="Weirdon_Miss" sex="f">
+                  <persName>Miss Weirdon</persName>
+                  <persName>
+                     <surname type="paternal">Weirdon</surname>
+                 </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. Forename unknown. More research needed.</note></person>
+              
+               <person xml:id="Walker_Mrs" sex="f">
+                  <persName>Mrs. Walker</persName>
+                  <persName>
+                     <surname type="married">Walker</surname>
+                 </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1842">1842</date>. Forename unknown. More research needed.</note></person>
+               
+               <person xml:id="Wordsworth_Dora" sex="f">
+                  <persName>Dorothy "Dora" Wordsworth</persName>
+                  <persName>
+                     <forename>Dorothy</forename>
+                     <forename><addName>Dora</addName></forename>
+                     <surname type="paternal">Wordsworth</surname>
+                     <surname type="married">Quillinan</surname>
+                  </persName>
+                  <birth when="1804-08-16">
+                     <placeName>Cockermouth, Cumberland, England</placeName>
+                  </birth>
+                  <death when="1847-07-09">
+                     <placeName>Grasmere, Cumbria, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet autobiographer"/>
+                  <note resp="#lmw">Daughter of <persName ref="#Wordsworth_Wm">Wordsworth</persName>, named for her aunt <persName ref="#Wordsworth_Dor">Dorothy Wordsworth</persName> and called "Dora."</note>
+                  <note><ref target="http://viaf.org/viaf/63932725"/></note>
+               </person>
+            </listPerson>
+         </div>
+      </body>
+   </text>
+</TEI>
