@@ -31,7 +31,7 @@
             <sch:let name="serviceSubtypes"
                 value="('butler', 'coachman', 'valet', 'maid', 'manservant', 'footman', 'cook', 'housekeeper', 'gardener')"/>
             <sch:let name="tradeSubtypes"
-                value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
+                value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler','ropemaker', 'fisherman')"/>
             <sch:rule context="tei:occupation[@type='artist'][@subtype]">
                 <sch:let name="subtypes"
                     value=" for $i in tokenize(@subtype, '\s+') return $i"/>
