@@ -29,7 +29,7 @@
             <sch:let name="governmentSubtypes"
                 value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post')"/>
             <sch:let name="serviceSubtypes"
-                value="('butler', 'maid', 'footman', 'cook', 'housekeeper', 'gardener')"/>
+                value="('butler', 'coachman', 'valet', 'maid', 'manservant', 'footman', 'cook', 'housekeeper', 'gardener')"/>
             <sch:let name="tradeSubtypes"
                 value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'bootmaker', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler')"/>
             <sch:rule context="tei:occupation[@type='artist'][@subtype]">
