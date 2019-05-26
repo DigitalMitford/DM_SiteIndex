@@ -65,7 +65,7 @@
                   <persName>Alberti</persName>
                   <persName>Alberti
                   <roleName>Captain</roleName></persName>
-                  <occupation type="military"/> <!-- Fact Check -->
+                  <occupation type="military" subtype="army"/>
                   <note resp="#lmw">Alberti is a character in <title ref="#Rienzi">Rienzi</title>; Captain of the Guard. Played by <persName ref="#Thompson_Mr">Mr. Thompson</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                  
@@ -93,7 +93,7 @@
                
                <person xml:id="Bertone_J" sex="m">
                   <persName>Bertone</persName>
-                  <occupation type="service"/> <!-- Fact Check -->
+                  <occupation type="service" subtype="manservant"/> <!-- Fact Check --> <!-- #slc 5/26/2019 Refered to as Bert in the body of the text this character is more a plot device to adress plot setup for the audiece of the play and fill in the charactere of Lord D'Alba as to what is going on outside his perspective. The best guess is that Mitford found the roll of a manservent convienient to convey this information even though his formal title is never explicitly stated. -->
                   <note resp="#ebb #lmw">Bertone is the character of a servant to <persName ref="#DAlba">Count D'Alba</persName> in <title ref="#Julian">Julian. Played by <persName ref="#Comer_Mr">Mr. Comer</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.</title>
                   </note>
                </person>
@@ -109,7 +109,7 @@
                
                <person xml:id="Caliban" sex="m">
                   <persName>Caliban</persName>
-                  <occupation type="service"/> <!-- Fact Check: originally slave -->
+                  <occupation type="service"/> <!-- Fact Check: originally slave --> <!-- #slc 5/26/2019 Prospero magically enslaves Caliban and Ariel. There are no socioeconomic implications in this text, only magical compulsions. This is not the equivalent of chattel slavery. It's a plot device. -->
                <note resp="#lmw">Caliban is a character in <title ref="#Tempest_play">The Tempest</title>.</note>
                </person>
                
@@ -710,7 +710,7 @@
                
                <person xml:id="Paolo_J" sex="m">
                   <persName>Paolo</persName>
-                  <occupation type="service"/> <!-- Fact Check -->
+                  <occupation type="service" subtype="manservant"/> <!-- Fact Check --><!-- #slc 5/26/2019 This character is more a plot device to adress plot setup for the audiece of the play and fill in the charactere of Julian and Alfonso as to what is going on outside there perspective. The best guess is that Mitford found the roll of a manservent convienient to convey this information even though his formal title is never explicitly stated. -->
                   <note resp="#ebb #lmw">Paolo is the character of <persName ref="#Julian">Julian</persName>'s servant in <title ref="#Julian_MRMplay">Julian</title>. Played by <persName ref="#Ley_Mr">Mr. Ley</persName> as performed at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>.</note>
                </person>
                
@@ -733,7 +733,7 @@
               
                <person xml:id="Pierce_G" sex="m">
                   <persName>Pierce</persName>
-                  <occupation type="service"/> <!-- Fact Check -->
+                  <occupation type="service"/> <!-- Fact Check --><!-- #slc 5/26/2019 This character is King Henry III of England's jester. -->
                   <note resp="#lmw">Character of a servant in <title ref="#Gaston_deBlondeville">Gaston de
                         Blondeville</title>.
                   </note>
@@ -895,7 +895,7 @@
                
               <person xml:id="servant_Ch1">
                   <persName>Servant of Cromwell</persName>
-                 <occupation type="service"/> <!-- Fact Check -->
+                 <occupation type="service"/> <!-- Fact Check --><!-- #slc 5/26/2019 This character is labled a servent and has one speaking line. They are a catalyst plot deice to signal the end of Act IV, Scene I. -->
                  <note resp="#ebb">The character of the Servant belonging to <persName ref="#Cromwell_MRM">Cromwell</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>. No proper name given. Original role created by <persName ref="#Kerridge_Mr">Mr. Kerridge</persName>.</note>
                </person>
                
@@ -1129,8 +1129,8 @@
                         </persName>
                         <occupation type="theater" subtype="actor"/>
                         <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                           I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. <persName ref="#MRM">Mitford</persName>'s protege in the 1830s, mentioned in her letters. She also addressed a poem to him: "On Mr. Cathcart's performance of Cromwell in the tragedy of Charles I." <persName ref="#Macready_Wm">Macready</persName> mentions this about Cathcart's performance in <title ref="#CharlesI_MRMplay">Charles
-                              I</title>: <quote>"The play is wretchedly constructed, with some powerful scenes, many passages of power and considerable effect in the sketch of Cromwell's character, which, deserving first-rate support, was consigned to the murderous Mr. Cathcart--a very poor pretender indeed."</quote> Source: <bibl><title>The Diaries of William Charles Macready, 1833-1851, volume one.</title>Entry for July 12, 1834, page 165.</bibl>" Forename unknown. More research needed.</note>
+                           I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. <persName ref="#MRM">Mitford</persName>'s protege in the 1830s, mentioned in her letters. She also addressed a poem to him: <title ref="#">On Mr. Cathcart's performance of Cromwell in the tragedy of Charles I.</title> <persName ref="#Macready_Wm">Macready</persName> mentions this about Cathcart's performance in <title ref="#CharlesI_MRMplay">Charles
+                              I</title>: <quote>The play is wretchedly constructed, with some powerful scenes, many passages of power and considerable effect in the sketch of Cromwell's character, which, deserving first-rate support, was consigned to the murderous Mr. Cathcart--a very poor pretender indeed.</quote> Source: <bibl><title>The Diaries of William Charles Macready, 1833-1851, volume one.</title>Entry for July 12, 1834, page 165.</bibl>" Forename unknown. More research needed.</note>
                      </person>
                      
                      <person xml:id="Bender_Mr" sex="m">
@@ -1557,7 +1557,7 @@
                         <occupation type="literary" subtype="playwright"/>
                         <occupation type="literary" subtype="poet"/>
                         <occupation type="theater" subtype="actor"/>
-                        <note resp="#lmw">Renaissance-era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain's Men and author or co-author of 38 plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the Introduction to her <title ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: <quote>"It is the privilege of English people to grow up [ . . . ] in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart."</quote></note>
+                        <note resp="#lmw">Renaissance-era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain's Men and author or co-author of 38 plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the Introduction to her <title ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: <quote>It is the privilege of English people to grow up [ . . . ] in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart.</quote></note>
                         <note>
                            <ref target="http://viaf.org/viaf/96994048"/>
                         </note>
@@ -1597,7 +1597,7 @@
                            <placeName>Landshut, Bavaria, German states</placeName>
                         </death>
                         <occupation type="government" subtype="monarch"/>
-                        <note resp="#lmw">House of Wittelsbach, Bavaria, known as "Otto the Illustrious;" historical figure who is the subject of <title ref="#Otto_Babo">Otto von Wittelsbach</title> and <title ref="#Otto">Otto of Wittelsbach</title>.</note>
+                        <note resp="#lmw">House of Wittelsbach, Bavaria, known as <q>Otto the Illustrious;</q> historical figure who is the subject of <title ref="#Otto_Babo">Otto von Wittelsbach</title> and <title ref="#Otto">Otto of Wittelsbach</title>.</note>
                         <note>
                            <ref target="http://viaf.org/viaf/52500217"/>
                         </note>
