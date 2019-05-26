@@ -430,7 +430,7 @@
                    <birth when="1812-02-07"><placeName>Landport, Portsmouth, Hampshire, England</placeName></birth>
                    <death when="1870-06-09"><placeName>Higham, Kent, England</placeName></death>
                    <occupation type="literary" subtype="journalist novelist essayist editor"/>
-                   <occupation type="theater" subtype="orator"/>
+                   <occupation type="theater"/>
                    <note resp="#lmw">English journalist and editor, novelist, and lecturer. Considered one of the most important novelists of the Victorian era.</note>
                    <note><ref target="http://viaf.org/viaf/88666393"/></note>
                 </person>
@@ -445,7 +445,7 @@
                 <death when="1877-08-08"><placeName>London, England</placeName></death>
                 <occupation type="literary" subtype="autobiographer essayist"/>
                 <occupation type="government" subtype="reformer"/>
-                <occupation type="trade" subtype="cabinetmaker ropemaker"/>
+                <occupation type="trade" subtype="carpenter ropemaker"/>
                 <note resp="#rnes">After working as a ropemaker in Cornwall, Lovett sought better work in London. He joined various working-class political societies and became the leader of the London Working-Man's Association (LMDA), which played a major role in the Chartist movement. Lovett wrote the People's Charter, which was thrice unsuccessfully presented to Parliament, and also a memoir, <title>The Life and Struggles of William Lovett in his Pursuit of Bread, Knowledge, and Freedom</title> (1876).</note>
                 <note><ref target="http://viaf.org/viaf/37714479"/></note>
              </person>
@@ -581,7 +581,7 @@
                 <death when="1658-10-23">
                    <placeName>Worcester House, Surrey, England</placeName>
                 </death>
-                <occupation type="trade" subtype="brewer"/>
+                <occupation type="trade" subtype="liquor"/>
                 <occupation type="military" subtype="army"/>
                 <occupation type="government" subtype="politician administrator"/>
                 <note resp="#rnes">Pride was a Parliamentary general during the <rs type="event" ref="#EngCivilWar">Civil Wars</rs>. He was responsible for carrying out "Pride's Purge" of Parliament in 1648, which ended the Long Parliament and marked the start of the Rump Parliament who tried <persName ref="#ChasI">Charles I</persName>. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName> and was posthumously found guilty of regicide.</note>
@@ -888,7 +888,7 @@
             
          <div type="publications">
             
-            <listBibl sortKey="book_MRM">
+            <listBibl sortKey="work_MRM">
                
                <bibl xml:id="Romeo_Juliet">
                   <title>Romeo and Juliet</title>
