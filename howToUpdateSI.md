@@ -22,8 +22,20 @@
 3. Next, open the files you want to work with in oXygen in side-by-side tile view. 
     * Open the file whose entries you wish to add to the SI.
     * Open the **current version of the SI** by using `File > Open URL` in oXygen, and type in: `https://digitalmitford.org/si.xml` to open the current version as published on our website. 
-    * Save the published SI file locally inside `DM_SiteIndex/si_Full_IP`. This is the in-progress directory for editing the site index.
+    * Save the published SI file locally inside `DM_SiteIndex/si_Full_IP` as `si-local.xml`. This is the in-progress directory for editing the site index. Always do your editing in `si-local.xml`. 
     * Tile editors next to each other in oXygen by going to `Window > Tile Editors Vertically`.  Now you have prepared your oXygen workspace. Be sure to click in the file in the window you want to use Find or the XPath window and navigate it. 
 
+You will have two different kinds of SI alterations to make:
+a. edits to existing entries
+b. entirely new entries to add
+It may not always be clear which of these are you are working with. Always search the full SI carefully to be sure with a proposed “new” entry is really new. Here are some search tips:
+* Search for a person by checking for the first few letters of the surname as an xml:id value. For example, if the surname is Dagwood, try searching with: `="Dag` This brings up any xml:ids beginning with Dag
+* Try just `Dag` in the Find window
+* Try an XPath in the Window, on `//surname[contains(., 'Dag')]`
+* Try searching for parts of names or parts of titles, etc.
 
+You may in the process of editing the site index locate duplicate entries there. When that happens: 
+1. Record the duplicate `@xml:id`s, and the duplicate entry names/titles/etc in the current SI file. 
+1. Write an Issue on the `DM_SiteIndex` web repo pinging `@ebeshero` about these, indicating the conflicting `@xml:id`s . She will check to see which of these are being referenced in project files and help resolve which is the best for us to keep. Wait for her response before finalizing the newly edited version of the SI. (You can keep going in revising and adding new entries, but leave a note for yourself to go back and resolve the issue with the duplicate entries entries.)
+1. When ready to resolve the duplicate entries, carefully(!) review their code. Each entry may contain valuable information that is absent in the other entry. Be sure to preserve the distinct information from each entry before eliminating an entry in the `si-local.xml` file. 
 
