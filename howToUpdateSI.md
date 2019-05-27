@@ -3,6 +3,7 @@
 1. Begin by staging file(s) containing entries to be added in the Digital Mitford Site Index repo: `DM_SiteIndex` in the `si_Add_Staged` directory. 
 1. At this point, you should alert Elisa and/or Lisa Wilson (using the Issues board on the `DM_SiteIndex` repo and pinging them at `@ebeshero` and/or `@lmwilson`) that you are starting work on the Site Index. NOTE: Only one person at a time should be altering site index files in the repo to prevent errors and merge conflicts. 
 1. Make sure the proper SI ODD schema lines are associated with the file(s). These have the filename `si_ODD.rng` at the end of the file path, and always come in pairs (both are necessary for the schema to work). Check schema lines to make sure they are one of the following:
+
 **SI schema lines, Version 1:** (published on the website and stable/canonical for SI checking):
   
 ```
@@ -32,9 +33,13 @@ You will have two different kinds of SI alterations to make:
 a. edits to existing entries
 b. entirely new entries to add
 It may not always be clear which of these are you are working with. Always search the full SI carefully to be sure with a proposed “new” entry is really new. Here are some search tips:
-    * Search for a person by checking for the first few letters of the surname as an xml:id value. For example, if the surname is Dagwood, try searching with: `="Dag` This brings up any xml:ids beginning with Dag
+
+    * Search for a person by checking for the first few letters of the surname as an xml:id value. For example, if the surname is Dagwood, try searching with: `="Dag` This brings up any `@xml:ids` beginning with Dag
+
     * Try just `Dag` in the Find window
+
     * Try an XPath in the Window, on `//surname[contains(., 'Dag')]`
+
     * Try searching for parts of names or parts of titles, etc.
 
 In the process of editing the site index, you may locate duplicate entries there. When that happens: 
