@@ -46,3 +46,6 @@ In the process of editing the site index, you may locate duplicate entries there
 3. When ready to resolve the duplicate entries, carefully(!) review their code. Each entry may contain valuable information that is absent in the other entry. Be sure to preserve the distinct information from each entry before eliminating an entry in the `si-local.xml` file. 
 
 
+Notes for development of these instructions: As a last stage of the process, you will run `alphasort.xslt` XSLT over the `si-local.xml` file to output `si.xml`. If the XSLT transformation does not succeed it will be because the `si-local.xml` file is not well-formed XML due to errors introduced in the editing process that have gone unseen. (Sometimes this happens because the site index file is very lengthy and schema validation takes a long time to catch problems.) XSLT will catch them instantly, because it cannot run over XML that is not well formed.  
+
+I need to map out the steps for processing the XSLT. (Watch the space!)
