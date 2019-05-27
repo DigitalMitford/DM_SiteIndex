@@ -2918,20 +2918,21 @@
             </listOrg>
             <listPerson sortKey="histPersons">
                <person xml:id="Acerbi_J" sex="m">
+                  <persName>Joseph Acerbi</persName>
                   <persName>
                      <forename>Giuseppe</forename>
+                     <forename><addName>Joseph</addName></forename>
                      <surname>Acerbi</surname>
+                     <roleName>Signor</roleName>
                   </persName>
-                  <persName>Joseph Acerbi</persName>
-                  <persName>Signor Acerbi</persName>
                   <birth when="1773-05-03">
                      <placeName>Castel Goffredo, Italy</placeName>
                   </birth>
                   <death when="1846-08-25"/>
-                  <occupation>traveller</occupation>
-                  <occupation>literary</occupation>
-                  <occupation>naturalist</occupation>
-                  <occupation>composer</occupation>
+                  <occupation type="explorer"/>
+                  <occupation type="literary"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <occupation type="theater" subtype="composer"/>
                   <note resp="#lmw">Author of <title ref="#Travels_Acerbi">Travels through Sweden,
                         Finland, and Lapland to the North Cape, in the years 1798 and
                      1799</title>.</note>
@@ -2940,36 +2941,26 @@
                   </note>
                </person>
                <person xml:id="Adams_GP" sex="m">
+                  <persName>General Sir George Pownall Adams</persName>
                   <persName>
                      <forename>George</forename>
-                     <forename>Pownoll</forename>
+                     <forename>Pownall</forename>
                      <surname>Adams</surname>
                      <roleName>General</roleName>
                      <roleName>Sir</roleName>
-                     <roleName> Knight Commander of Hanover (KCH)</roleName>
+                     <roleName>Knight Commander of Hanover (KCH)</roleName>
                   </persName>
-                  <persName>General Sir George Pownoll Adams, KCH</persName>
+                  <persName><forename>Pownoll</forename>
+                     <surname>Adams</surname>
+                  </persName>
                   <birth notAfter="1779-01-01">
                         <placeName>Totnes, Devon, England</placeName>
-                     
                   </birth>
                   <death when="1856-04"/>
-                  <occupation>military</occupation>
-                  <note resp="#lmw">Husband of Elizabeth Elford, second daughter of Dr. Richard
-                     Valpy. He was baptized at Totnes, Devon, on <date when="1779-01-01">January 1,
-                        1779</date> and so was likely born in late <date>1778</date>. He died in
-                        <date when="1856-04">April 1856</date> at <placeName>East Budleigh,
-                        Devon</placeName>. George was the younger son of merchant William Adams
-                     (1752-1811), MP for Plympton Erle (1796-1801) and for Totnes (1801-1811), and
-                     Mary Chadder. He was the younger brother of William Dacres Adams (1775-1862),
-                     who became Private Secretary to two Prime Ministers of the United Kingdom: Pitt
-                     the Younger (1804–1806) and the Duke of Portland (1807-09). William Dacres
-                     Adams inherited the estate of Bowden in the parish of Ashprington, near Totnes
-                     in Devon, from his father, who had purchased it from the Trist family about
-                     1800; William Dacres Adams allowed George and his family to live there after
-                     his own marriage. Bowden House, the Georgian mansion located on the former
-                     estate, is currently a grade I listed building.</note>
+                  <occupation type="military" subtype="army"/>
+                  <note resp="#lmw">Husband of <persName ref="#Elford_Elizabeth">Elizabeth Elford</persName>, second daughter of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. Adams was baptized at Totnes, Devon, on <date when="1779-01-01">January 1, 1779</date> and so was likely born in late <date when="1778">1778</date>. He died in <date when="1856-04">April 1856</date> at <placeName>East Budleigh, Devon</placeName>. George was the younger son of merchant William Adams (1752-1811), MP for Plympton Erle (1796-1801) and for Totnes (1801-1811), and Mary Chadder. He was the younger brother of William Dacres Adams (1775-1862), who became Private Secretary to two Prime Ministers of the United Kingdom: Pitt the Younger (1804–1806) and the Duke of Portland (1807-1809). William Dacres Adams inherited the estate of Bowden in the parish of Ashprington, near Totnes in Devon, from his father, who had purchased it from the Trist family about 1800; William Dacres Adams allowed George and his family to live there after his own marriage. Bowden House, the Georgian mansion located on the former estate, is currently a grade I listed building. His middle name is variously recorded as 'Pownoll' and 'Pownall.'</note>
                </person>
+               
                <person xml:id="Addison_Joseph" sex="m">
                   <persName>Joseph Addison</persName>
                   <persName>
@@ -2977,12 +2968,14 @@
                      <forename>Joseph</forename>
                   </persName>
                   <birth when="1672-05-01">
-                     <placeName>Millstone, Wiltshire, England</placeName>; </birth>
+                     <placeName>Millstone, Wiltshire, England</placeName></birth>
                   <death when="1719-06-17">
                      <placeName>Holland House, London, England</placeName>
                   </death>
-                  <occupation>writer</occupation>
-                  <occupation>politician</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#alg">English politician and writer who, with his friend <persName ref="#Steele_Richard">Sir Richard Steele</persName>, edited the journal
                         <title ref="#Spectator">The Spectator</title>.</note>
                </person>
@@ -2993,19 +2986,25 @@
                   </persName>
                   <birth when="1795"/>
                   <death when="1862"/>
-                  <occupation>legal</occupation>
-                  <occupation>literary</occupation>
+                  <occupation type="legal"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="literary"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#lmw">Barrister, historian, and author of a literary essay in which he speculates on the identity of the author of the Waverley Novels.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/15130330"/>
                   </note>
                </person>
                <person xml:id="Aeschylus" sex="m">
                   <persName>Aeschylus</persName>
-                  <birth notBefore="-0525">525 BC <placeName type="city">Eleusis, Greece</placeName>
+                  <birth notBefore="-0525">525 BC <placeName type="city">Eleusis, West Attica</placeName>
                   </birth>
                   <death notAfter="-0455">455 BC <placeName type="city">Gela, Sicily</placeName>
                   </death>
-                  <occupation>playwright</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="theater"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#ebb">Ancient writer of tragedies, the earliest of the three
                      celebrated progenitors of classical tragedy, including <persName ref="#Euripides">Euripides</persName> and <persName ref="#Sophocles">Sophocles</persName> against both of whom he successfully competed for
                      prize-winning plays in ancient Greece. His plays are some of the earliest
@@ -3043,23 +3042,26 @@
                </person>
                <person xml:id="Albert_SaxeCbrg" sex="m">
                   <persName>Prince Albert of Saxe-Coburg and Gotha</persName>
-                  <persName>Albert <roleName>Prince Consort</roleName>
-                  </persName>
                   <persName>
-                     <forename>Francis Albert Augustus Charles Emmanuel</forename>
+                     <forename>Albert</forename> 
+                     <forename>Francis</forename> 
+                     <forename>Albert</forename>
+                     <forename>Augustus</forename>
+                     <forename>Charles</forename>
+                     <forename>Emmanuel</forename>
                      <surname>House of Saxe-Coburg and Gotha</surname>
+                     <roleName>Prince Consort</roleName>
                   </persName>
                   <birth when="1819-08-26">
-                     <placeName>Saxe-Coburg-Saalfeld</placeName>
+                     <placeName>Schloss Rosenau, near Coburg, Bavaria</placeName>
                   </birth>
                   <death when="1861-12-14">
-                     <placeName>Windsor Castle, Berkshire</placeName>
+                     <placeName>Windsor Castle, Berkshire, England</placeName>
                   </death>
-                  <note resp="#ebb">
-                     <persName ref="#Victoria_Queen">Queen Victoria</persName>’s first cousin and
-                     spouse, whose death at the age of 48 led her to a prolonged period of mourning
-                     as the "Widow at Windsor." <ref target="http://viaf.org/viaf/25395950"/>
+                  <occupation type="government" subtype="monarch"/>                  <note resp="#ebb #rnes">
+                     <persName ref="#Victoria_Queen">Queen Victoria</persName>'s first cousin and spouse, whose death at the age of forty-eight led her to a prolonged period of mourning as the 'Widow at Windsor.'  
                   </note>
+                  <note><ref target="http://viaf.org/viaf/25395950"/></note>
                </person>
                <person xml:id="Alexander_I_Rus" sex="m">
                   <persName>Alexander I</persName>
@@ -3084,34 +3086,34 @@
                      <roleName>Count</roleName>
                   </persName>
                   <birth when="1749-01-16">
-                     <placeName>Asti, Piedmont region</placeName>
+                     <placeName>Asti, Piedmont region, Italy</placeName>
                   </birth>
                   <death when="1803-10-08">
-                     <placeName>Florence</placeName>
+                     <placeName>Florence, Italy</placeName>
                   </death>
-                  <occupation>playwright</occupation>
-                  <occupation>literary</occupation>
-                  <note type="bio" resp="#ebb">Credited with reviving Italian tragedy in the
-                     eighteenth century, Alfieri’s plays included <title>Filippo</title>,
-                        <title>Polinice</title>, <title>Antigone</title>,
-                     <title>Virginia</title>,and the highly acclaimed <title>Saul</title>. He also
-                     authored an ode on <rs type="event" ref="#American_Revol">American
-                        Independence</rs> and a satirical poem, <title>The Antigallican</title>, on
-                        <rs type="event">the French Revolution</rs>. <ref target="http://viaf.org/viaf/39389587"/>
+                  <occupation type="literary"/>
+                  <occupation type="theater"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#ebb">Credited with reviving Italian tragedy in the eighteenth century, Alfieri's plays included <title>Filippo</title>, <title>Polinice</title>, <title>Antigone</title>, <title>Virginia</title>,and the highly acclaimed <title>Saul</title>. He also authored an ode on <rs type="event" ref="#American_Revol">American Independence</rs> and a satirical poem, <title>The Antigallican</title>, on <rs type="event" ref="#French_Revol">the French Revolution</rs>.   
                   </note>
+                  <note><ref target="http://viaf.org/viaf/39389587"/></note>
                </person>
                <person xml:id="Alfred" sex="m">
-                  <persName>Alfred</persName>
-                  <persName>Alfred the Great</persName>
-                  <persName>King of England</persName>
+                  <persName>Alfred I, King of the West Saxons</persName>
+                  <persName><forename>Alfred</forename>
+                     <surname><nameLink>of</nameLink> Wessex</surname>
+                     <roleName>King of the West Saxons</roleName>
+                     <roleName>King of the Anglo-Saxons</roleName></persName>
+                  <persName><addName>Alfred the Great</addName></persName>
                   <birth notBefore="0848" notAfter="0849">
-                     <placeName>Wantage</placeName>
+                     <placeName>Wantage, Oxfordshire, England</placeName>
                   </birth>
-                  <death when="0899-10-26"/>
-                  <note resp="#alg"> King of the West Saxons and of the Anglo-Saxons. In addition to
-                     his military victories, including the defeat of the Danes at the Battle of
-                     Edington, Alfred is known as a wise governmental administrator and proponent of
-                     learning and literacy. Source: DNB.</note>
+                  <death when="0899-10-26">
+                     <placeName>Winchester, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="military"/>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#alg #rnes">King of the West Saxons, of the House of Wessex, later styled King of the Anglo-Saxons. In addition to his military victories, including the defeat of the Danes at the Battle of Edington, Alfred is known for his wise governmental administration and promotion of learning and literacy. Source: DNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/10639246"/>
                   </note>
@@ -3127,14 +3129,9 @@
                   <death when="1850-02-23">
                      <placeName>Edinburgh, Scotland</placeName>
                   </death>
-                  <occupation>artist</occupation>
-                  <note type="bio" resp="#ajc #ebb">Allan was a artist who painted portraits of
-                     Scott, Byron, and Burns, as well as Scottish, English, and Russian historical
-                     subjects. Mitford was aware through Benjamin Robert Haydon of his painting,
-                        <title level="m" ref="#BrokenFiddle_WA">The Broken Fiddle</title>. In <date when="1838">1838</date> he was appointed president of the Royal Scottish
-                     Academy, and in <date when="1841">1841</date> he became the queen’s limner in
-                     Scotland and was knighted. Source: ODNB
-                     <!--ajc/lmw: I have found only secondary references to this work in period journals thus far. More research needed. ebb 2016-02-28: Shortened this entry and created a new one with detail on the painting Mitford mentions to Elford, "The Broken Fiddle."--></note>
+                  <occupation type="artist"/>
+                  <occupation type="artist" subtype="painter"/>
+                  <note resp="#ajc #ebb">Allan was an artist who painted portraits of Scott, Byron, and Burns, as well as Scottish, English, and Russian historical subjects. <persName ref="#MRM">Mitford</persName> was aware through <persName ref="#Haydon">Benjamin Robert Haydon</persName> of his painting, <title level="m" ref="#BrokenFiddle_WA">The Broken Fiddle</title>. In <date when="1838">1838</date> he was appointed president of the Royal Scottish Academy, and in <date when="1841">1841</date> he became the queen's limner in Scotland and was knighted Source: ODNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/74124260"/>
                   </note>
@@ -3147,10 +3144,9 @@
                      <placeName>Teos, Ionia</placeName>
                   </birth>
                   <death when="-0478"/>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <note resp="#lmw">Ancient Greek lyric poet, later considered one of nine canonical
-                     poets; known for composing bacchanalian and amatory lyrics and hymns.</note>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <note resp="#lmw #rnes">Ionian lyric poet of the ancient world, later considered one of nine canonical Greek poets; known for composing bacchanalian and amatory lyrics and hymns. Associated with the poetic genre known as the Anacreontic Ode; many examples are drinking songs.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/100165204"/>
                   </note>
@@ -3160,31 +3156,27 @@
                      <surname/>
                      <forename>Anne</forename>
                   </persName>
+                  <occupation type="service"/>
                   <note resp="#scw">Servant in the Mitford household.
                      <!--No other info from Needham.--> Source: <bibl corresp="#Needham_PapersRCL">
                         <persName ref="#Needham_Francis">Needham</persName> Papers</bibl>, <orgName ref="#ReadingCL">Reading Central Library</orgName>. </note>
                </person>
                <person xml:id="Annesley_Francis" sex="m">
+                  <persName>Francis Annesley</persName>
                   <persName>
                      <surname>Annesley</surname>
                      <forename>Francis</forename>
                   </persName>
                   <birth when="1734-05-02">
-                     <placeName>Reading</placeName>
+                     <placeName>Reading, Berkshire, England</placeName>
                   </birth>
                   <death when="1812-04-12"/>
-                  <occupation>educator</occupation>
-                  <occupation>politian</occupation>
-                  <note type="bio" resp="#scw">
-                     <p>First Master of <orgName>Downing College</orgName>, <orgName>Cambridge
-                           University</orgName> from <date when="1800">1800</date> until his death
-                        in <date when="1812">1812</date>, <persName ref="#Annesley_Francis">Annesley</persName> also served as Member of
-                           <orgName>Parliament</orgName> for the borough of <placeName ref="#Reading_city">Reading</placeName> between <date from="1774" to="1806">1774-1806</date>. In a note among his Mitford papers, <persName ref="#Needham_Francis">Needham</persName> identifies <persName ref="#Annesley_Francis">Annesley</persName> as the basis for the
-                           <persName type="fict" ref="#ModAntiquesBeau">old beau</persName> in
-                           <title>"Modern Antiques"</title>, an identification he cites from
-                           <bibl>Harness, I, 20</bibl>. See also <title>History of Parliament
-                           Online</title>.</p>
+                  <occupation type="educator"/>
+                  <occupation type="government" subtype="politician"/>
+                  <note  resp="#scw">First Master of <orgName>Downing College</orgName>, <orgName>Cambridge University</orgName> from <date from="1800" to="1812">1800 until his death in</date>, <persName ref="#Annesley_Francis">Annesley</persName> also served as Member of Parliament for the borough of <placeName ref="#Reading_city">Reading</placeName> between <date from="1774" to="1806">1774 and 1806</date>. In a note among his Mitford papers, <persName ref="#Needham_Francis">Needham</persName> identifies <persName ref="#Annesley_Francis">Annesley</persName> as the basis for the <persName type="fict" ref="#ModAntiquesBeau">old beau</persName> in <title>"Modern Antiques"</title>, an identification he cites from <bibl>Harness <biblScope unit="volume" n="1"/><biblScope unit="page" n="20"/>1.20</bibl>.
                   </note>
+                  <note><ref target="http://viaf.org/viaf/305946394"/></note>
+                  <note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/annesley-francis-1734-1812"/></note>
                </person>
                <person xml:id="Antony" sex="m">
                   <persName>Mark Antony</persName>
@@ -3206,6 +3198,7 @@
                   </note>
                </person>
                <person xml:id="Ariosto" sex="m">
+                  <persName>Ariosto</persName>
                   <persName>
                      <surname>Ludovico</surname>
                      <forename>Arisoto</forename>
@@ -3216,19 +3209,21 @@
                   <death when="1533-07-06">
                      <placeName>Ferrara, Italy</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>playwright</occupation>
-                  <occupation>courtier</occupation>
-                  <occupation>diplomat</occupation>
-                  <note resp="#lmw">Italian poet, courtier, and diplomat; Author of <bibl>the epic
-                           <title level="m">Orlando Furioso</title> (<date when="1516">1516</date>),
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater"/>
+                  <occupation type="government" subtype="courtier"/>
+                  <occupation type="government" subtype="diplomat"/>
+                  <note resp="#lmw #rnes">Medieval poet, courtier, and diplomat; Author of <bibl>the epic
+                     <title level="m">Orlando Furioso</title> (<date when="1516">1516</date>), a sequel to <bibl>Matteo Maria Boiardo's Orlando innamorato</bibl>,
                         written in ottava rima</bibl>.</note>
                   <note>
                      <ref target=" http://viaf.org/viaf/71386455"/>
                   </note>
                </person>
                <person xml:id="Ashburton_Lord" sex="m">
+                  <persName>Alexander Baring, Baron Ashburton</persName>
                   <persName>
                      <surname>Baring</surname>
                      <forename>Alexander</forename>
@@ -3238,12 +3233,18 @@
                   <death when="1848-05-13">
                      <placeName>Longleat, Wiltshire, England</placeName>
                   </death>
+                  <occupation type="trade" subtype="banker"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government"/>
+                  <occupation type="government" subtype="diplomat"/>
+                  <note resp="#rnes">Influential financier, politician, and government official. Head of Baring Brothers, Merchants, which later operated as Barings Bank, which upon its collapse in 1995 was Britain's oldest merchant bank. Barings also served as Member of Parliament for Taunton and later, for North Essex, and as Master of the Mint, President of the Board of Trade, and Ambassador to the United States. In 1842, as Ambassador, he was responsible for the Ashburton Treaty, which delimited the frontiers between British North America and the U.S.A.</note>
                   <note>
                      <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/baring-alexander-1774-1848"/>
                      <ref target="http://viaf.org/viaf/62290490"/>
                   </note>
                </person>
                <person xml:id="Aubrey_John" sex="m">
+                  <persName>John Aubrey</persName>
                   <persName>
                      <forename>John</forename>
                      <surname>Aubrey</surname>
@@ -3254,59 +3255,23 @@
                   <death when="1897-07-06">
                      <placeName>Oxford, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>antiquarian</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+              <note resp="#ebb #rnes">Novelist celebrated for her wit and style, whose works investigated women's social and economic vulnerabilities in English society. During her lifetime she published anonymously.<bibl>
+                  <title>Sense and Sensibility</title> (<date when="1811">1811</date>)</bibl>, <bibl>
+                     <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> (<date>1813</date>)</bibl>, <bibl>
+                        <title>Mansfield Park</title> (<date when="1814">1814</date>)</bibl>, and <bibl>
+                           <title ref="#Emma_JA">Emma</title> (<date when="1815">1815</date>)</bibl>, all anonymously. <bibl>
+                              <title>Northanger Abbey</title>, the first written of her novels (<date from="1798" to="1799">composed in 1798-1799</date>)</bibl> was published posthumously in 1818 (the title was chosen by surviving family) along with her final completed novel, <title>Persuasion</title>. <rs type="letter">
+                                 <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>
+                              </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:--but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L'Estrange</bibl>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/71386625"/>
                   </note>
                </person>
-               <person xml:id="Austen_Jane" sex="f">
-                  <persName>
-                     <forename>Jane</forename>
-                     <surname>Austen</surname>
-                  </persName>
-                  <birth when="1775-12-16">
-                     <placeName>Steventon, Hampshire, England</placeName>
-                  </birth>
-                  <death when="1817-07-18">
-                     <placeName>Winchester, Hampshire, England</placeName>
-                  </death>
-                  <occupation>literary</occupation>
-                  <occupation>novelist</occupation>
-                  <note resp="#ebb">Novelist celebrated for her wit and style, whose works
-                     investigated women’s social and economic vulnerabilities in English society.
-                     During her lifetime she published <bibl>
-                        <title>Sense and Sensibility</title> (<date when="1811">1811</date>)</bibl>, <bibl>
-                        <title ref="#Pride_and_Prejudice">Pride and Prejudice</title>
-                           (<date>1813</date>)</bibl>, <bibl>
-                        <title>Mansfield Park</title> (<date when="1814">1814</date>)</bibl>, and <bibl>
-                        <title ref="#Emma_JA">Emma</title> (<date when="1815">1815</date>)</bibl>,
-                     all anonymously. <bibl>
-                        <title>Northanger Abbey</title>, the first written of her novels (<date from="1798" to="1799">composed in 1798-1799</date>)</bibl> was published
-                     posthumously in 1818 along with her last finished novel,
-                        <title>Persuasion</title>. <rs type="letter">
-                        <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>
-                     </rs> that she has recently discovered Austen <quote>"is my
-                        countrywoman,"</quote>, that is, a neighbor. Later in <rs type="letter">a
-                        letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen’s novels</rs>. She
-                     and Elford evidently knew the identity of Austen as the author long before the
-                     information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her
-                     youth as <quote>the prettiest, silliest, most affected,
-                        husband-hunting butterfly she ever remembers</quote>, but that Jane was by
-                     the 1810s extremely quiet, which impressed Mitford: <quote>"till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed
-                        what a precious gem was hidden in that unbending case, she was no more
-                        regarded in society than a poker or a fire-screen, or any other thin upright
-                        piece of wood or iron that fills its corner in peace and quietness. The case
-                        is very different now; she is still a poker--but a poker of whom every one
-                        is afraid. It must be confessed that this silent observation from such an
-                        observer is rather formidable. Most writers are good-humoured
-                        chatterers--neither very wise nor very witty:--but nine times out of ten (at
-                        least in the few that I have known) unaffected and pleasant, and quite
-                        removing by their conversation any awe that may have been excited by their
-                        works. But a wit, a delineator of character, who does not talk, is terrific
-                        indeed!"</quote> Source: L’Estrange. <ref target="http://viaf.org/viaf/102333412"/>
-                  </note>
-               </person>
+               
                <person xml:id="Bacon" sex="m">
                   <persName>
                      <forename>Francis</forename>
