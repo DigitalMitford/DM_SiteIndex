@@ -2118,6 +2118,74 @@
          </div>
          <div type="historical_people">
             <listOrg sortKey="histOrgs">
+               
+               <org xml:id="ColonnaFamily">
+                  <orgName>Colonna family</orgName>
+                  <orgName>
+                     <surname>Colonna</surname>
+                     <surname>Sciarillo</surname>
+                     <surname>Sciarra</surname>
+                  </orgName>
+                  <placeName>Rome</placeName>
+                  <note resp="#rnes">Powerful aristocratic family in medieval and early modern Rome. Originating in the eleventh century, the Colonnas built a fortified palace (starting in the thirteenth century) at the site of the modern Piazza SS. Apostoli. Percy Shelley claimed to have visited the Colonna palace, and the family features in a minor way in Percy Bysshe Shelley's play The Cenci (1819).</note>
+               </org>
+               
+               <org xml:id="LdChamberlainsOfc">
+                  <orgName>Office of the Lord Chamberlain</orgName>
+                  <placeName>London, England</placeName>
+                  <note resp="#rnes">From 1737 to 1968, the official theater censor's office, overseen by the Lord Chamberlain. This function was abolished in 1968, and the office continues in service of different purposes, primarily event-planning (royal appearances, events, and parties.) Mitford's plays were reviewed by this office.</note>
+               </org>
+               
+               <org xml:id="UCLA">
+                  <orgName>University of California, Los Angeles</orgName>
+                  <orgName><addName>UCLA</addName></orgName>
+               </org>
+               
+               <org xml:id="Chartist_demonstrators">
+                  <orgName>Chartists</orgName>
+                  <orgName><addName>Chartist demonstrators</addName></orgName>
+                  <note resp="#lmw">Members of the Chartist movement working for political reform in Great Britain <date from="1838" to="1857">between 1838 and 1857</date>. The movement and its supporters took their name from the People's Charter (1838), a statement of their political aims. The movement aimed to achieve six reforms, largely through constitutional methods, including the presentation of petitions to the House of Commons signed by millions of citizens. The reforms included: 1)universal manhood suffrage for those age 21 and above, thus eliminating the property ownership requirement for male voters, 2)vote by secret ballot, thus eliminating the publication of votes 3)elimination of the property requirement for Members of Parliament, 4)payment for service as a Member of Parliament, thus making office-holding financially feasible for those without independent incomes, 5)redrawing constituency boundaries to ensure that each M.P. represented the same number of voters, thereby equalizing constituencies and eliminating so-called rotten boroughs, and 5)annual parliamentary elections, aimed at decreasing the practice of bribing or intimidating voters.</note>
+               </org>
+               
+               <org xml:id="Parliamentarians">
+                  <orgName>Parlimentarians</orgName>
+                  <note resp="#lmw">Supporters of <persName ref="#Cromwell">Cromwell</persName> and the parliamentary cause in the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>. Also called English Republicans or Roundheads.</note>
+               </org>
+               
+               <org xml:id="regicides">
+                  <orgName>Regicides</orgName>
+                  <note resp="#rnes">The Commissioners of the trial of <persName ref="#ChasI">Charles I</persName> who signed his death warrant on <date when="1649-01-29">January 29, 1649</date>.</note>
+               </org>
+               
+               <org xml:id="Lancastrians">
+                  <orgName>House of Lancaster</orgName>
+                  <orgName>Lancastrians</orgName>
+                  <note resp="#rnes #lmw">The House of Lancaster, which had as its insignia the Red Rose, fought the Wars of the Roses against the House of York (the White Rose). Both houses became extinct with the marriage of the Lancastrian Henry VII and Elizabeth of York, although rumors persisted of rightful claimants to the throne persisted well into the nineteenth century.<!--RN: because there was an outbreak of Perkin Warbeck conspiracy theorizing among 19th century writers, including Mary Shelley (writing about it in 1830) and Ann Yearsley.-->
+                  </note>
+               </org>
+               <org xml:id="Yorks">
+                  <orgName>House of York</orgName>
+                  <orgName>Yorkists</orgName>
+                  <note resp="#rnes #lmw #ebb">The House of York, symbolized by the White Rose, fought the Wars of the Roses with the House of Lancaster (the Red Rose). Both houses became extinct with the marriage of the Lancastrian Henry VII and Elizabeth of York, although rumors persisted of rightful claimants to the throne persisted well into the nineteenth century.<!--RN: because there was an outbreak of Perkin Warbeck conspiracy theorizing among 19th century writers, including Mary Shelley (writing about it in 1830) and Ann Yearsley.-->
+                  </note> 
+               </org>
+               
+               <org xml:id="Royalists">
+                  <orgName>Royalists</orgName>
+                  <orgName><addName>Cavaliers</addName></orgName>
+                  <note resp="#lmw">Supporters of <persName ref="#ChasI">Charles I</persName> and the Crown in the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>. Also called Cavaliers, originally a perjorative term invented by the <orgName ref="#Parliamentarians">Parliamentarians</orgName> but later embraced by the Royalists themselves.</note>
+               </org>
+               
+               <org xml:id="Puritans">
+                  <orgName>Puritans</orgName>
+                  <note resp="#rnes #lmw">Began in the 16th century as members of an anti-Catholic reform movement within the Church of England, some of whose members emigrated to the Netherlands, Ireland, and Scotland, and later to America. Puritans were not a single religious sect with a unified theological or political viewpoint. In the early 17th century, they allied themselves with Scottish Presbyterians and with English parliament members who opposed the royal perogative. They came to power after the first English Civil War and the majority of Puritan clergy left the Church of England after the Restoration to practice as nonconformists/dissenters.</note>
+               </org>
+               
+               <org xml:id="Jacobites">
+                  <orgName>Jacobites</orgName>
+                  <note resp="#rnes">Supporters of the Stuart cause. Named after the <q>line of <persName ref="#JamesI">Jacob</persName>,</q> that is, the descendants of <persName ref="#JamesI">James I</persName>.</note>
+               </org>
+               
                <org xml:id="Ackermann_pub">
                   <orgName>R. Ackermann</orgName>
                   <note resp="#lmw">R. Ackermann was a publishing firm located in <placeName ref="#London_city">London</placeName> founded by <persName>Rudolf Ackermann</persName>, publisher and designer (1764-1834). Publisher of volumes of the annual <title level="j">Forget Me Not</title>, in which <persName ref="#MRM">Mitford</persName> published several short works.<!--LMW: No corporate VIAF #, only personal. http://viaf.org/viaf/39646578--></note>
@@ -2917,6 +2985,474 @@
                </org>
             </listOrg>
             <listPerson sortKey="histPersons">
+               
+               <person xml:id="Qu_Henrietta" sex="f">
+                  <persName>Henrietta Maria of France</persName>
+                  <persName>
+                     <forename>Henrietta</forename>
+                     <forename>Maria</forename>
+                     <roleName><nameLink>of</nameLink> France</roleName>
+                     <roleName>Fille de France</roleName>
+                     <roleName>Queen Consort of England, Scotland and Ireland</roleName>
+                  </persName>
+                  <persName>
+                     <addName>Maria</addName>
+                     <addName>Mary</addName>
+                  </persName>
+                  <birth when="1609-11-25">
+                     <placeName>Palais du Louvre, Paris, France</placeName>
+                  </birth>
+                  <death when="1669-09-10">
+                     <placeName>Château de Colombes, Colombes, France</placeName>
+                  </death>
+                  <occupation type="government" subtype="monarch courtier"/>
+                  <note resp="#lmw">Daughter of Henry IV of France and Marie de Medici. House of Bourbon. Spouse of <persName ref="#ChasI">Charles I</persName> and mother of <persName ref="#ChasII">Charles II</persName> and <persName ref="#JamesII">, she was called Maria or Mary while in England.</persName></note>
+                  <note><ref target="http://viaf.org/viaf/88851046"/></note>
+               </person>
+               
+               <person xml:id="Norbrook" sex="m">
+                  <persName>David Norbrook</persName>
+                  <persName>
+                     <surname>Norbrook</surname>
+                     <forename>David</forename>
+                     <roleName>Professor</roleName>
+                  </persName>
+                  <birth when="1950-06-01"/>
+                  <occupation type="literary" subtype="critic"/>
+                  <occupation type="educator"/>
+                  <occupation type="scholar"/>
+                  <note resp="#lmw">Emeritus Merton Professor of Renaissance English literature at Oxford University.</note>
+                  <note><ref target="http://www.english.ox.ac.uk/people/professor-david-norbrook"/></note>
+                  <note><ref target="http://viaf.org/viaf/109072501"/></note>
+               </person>
+               
+               <person xml:id="Crook_N" sex="f">
+                  <persName>Nora Crook</persName>
+                  <persName><surname>Crook</surname>
+                     <forename>Nora</forename>
+                     <roleName>Professor</roleName>
+                  </persName>
+                  <birth when="1940">
+                     <placeName>Jamaica</placeName>
+                  </birth>
+                  <occupation type="literary" subtype="critic"/>
+                  <occupation type="educator"/>
+                  <occupation type="scholar"/>
+                  <note resp="#lmw">Emeritus Professor of English Literature at Anglia Ruskin University in Cambridge and Chelmsford, formerly CCAT.</note>
+                  <note><ref target="http://www.anglia.ac.uk/arts-law-and-social-sciences/department-of-english-and-media/our-staff/nora_crook"/></note>
+                  <note><ref target="http://viaf.org/viaf/41868313"/></note>
+               </person>
+               <person xml:id="Herbert_T" sex="m">
+                  <persName>Sir Thomas Herbert</persName>
+                  <persName>
+                     <forename>Thomas</forename>
+                     <surname>Herbert</surname>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <birth when="1606">
+                     <placeName>Yorkshire, England</placeName>
+                  </birth>
+                  <death when="1682-03-01">
+                     <placeName>Petergate House, York, Yorkshire, England</placeName>
+                  </death>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="government" subtype="courtier administrator"/>
+                  <occupation type="literary" subtype="autobiographer essayist"/>
+                  <note resp="#lmw">Herbert was a <orgName ref="#Parliamentarians">Parliamentarian</orgName> during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>. He served as <persName ref="#ChasI">Charles I</persName>'s Gentleman of the Bedchamber from 1647 to 1649, during the King's imprisonment. In the 1650s he followed the <orgName ref="#New_Model_Army">New Model Army</orgName> to Ireland, where he served in several governmental posts. He returned to England after the <rs type="event" ref="#Restoration">Restoration</rs> and received a baronetcy from <persName ref="#ChasII">Charles II</persName>. Historical opinion was divided on his loyalty to <persName ref="#ChasI">Charles I</persName>; while the <orgName ref="#Parliamentarians">Parliamentarian</orgName>s clearly believed him to be loyal to their cause in the 1640s and 1650s, in <date when="1678">1678</date> he published a memoir covering the time of his service to <persName ref="#ChasI">Charles</persName> in which he portrays himself as extremely loyal to the monarchy.</note>
+                  <note><ref target="http://viaf.org/viaf/44605253"/></note>
+               </person>
+               
+               <person xml:id="Marten_H" sex="m">
+                  <persName>Henry Marten</persName>
+                  <persName>
+                     <forename>Henry</forename>
+                     <surname>Marten</surname>
+                  </persName>
+                  <birth when="1602">
+                     <placeName>3 Merton Street, Oxford, Oxfordshire, England</placeName>
+                  </birth>
+                  <death when="1680-09-09">
+                     <placeName>Chepstow Castle, Chepstow, Monmouthshire, Wales</placeName>
+                  </death>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="government" subtype="politician administrator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#lmw">A republican and <orgName ref="#Parliamentarians">Parliamentarian</orgName>, Marten supported the <orgName ref="#New_Model_Army">New Model Army</orgName> and the establishment of the <rs type="event" ref="#Commonwealth">Commonwealth</rs>. Member of Parliament for Berkshire during the Short Parliament and the Long Parliament. After the outbreak of the <rs type="event" ref="#EngCivilWar">English Civil War</rs>, he was appointed governor of <placeName ref="#Reading_city">Reading, Berkshire</placeName>. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName> and was found guilty of regicide. Through the inaction of the House of Lords, he was not executed in <date when="1660">1660</date> but remained imprisoned until his death in <date when="1680">1680</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/76752548"/></note>
+               </person>
+               
+               <person xml:id="Downes_J" sex="m">
+                  <persName>John Downes</persName>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Downes</surname>
+                     <roleName>Colonel</roleName>
+                  </persName>
+                  <death when="1660">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="government" subtype="politician administrator"/>
+                  <note resp="#lmw">Trained in the law, he served as Member of Parliament for Arundel, Sussex. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName> and was found guilty of regicide. His sentence was commuted to life imprisonment in <date when="1660">1660</date> and he remained in the Tower of London until his death in <date when="1666">1666</date>.</note>
+                  <note><ref target="https://viaf.org/viaf/41730011"/></note>
+               </person>
+               
+               <person xml:id="Cook_J" sex="m">
+                  <persName>John Cook</persName>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Cook</surname>
+                  </persName>
+                  <birth notAfter="1608-09-18">
+                     <placeName>Husbands Bosworth, Leicestershire, England</placeName>
+                  </birth>
+                  <death when="1660-10-16">
+                     <placeName>Tyburn, London, England</placeName>
+                  </death>
+                  <occupation type="legal" subtype="solicitor"/>
+                  <note resp="#lmw">As Solicitor General for the High Court of Justice, he led the prosecution of <persName ref="#ChasI">Charles I</persName>. Although he was not fundamentally anti-monarchist, for his part in the trial, he was found guilty of high treason and was hanged, drawn and quartered at Tyburn on <date when="1660-10-16">October 16, 1660</date>. He is now internationally recognized as an important reformer of criminal and human rights law.</note>
+                  <note><ref target="http://viaf.org/viaf/45729182"/></note>
+               </person>
+               
+               <person xml:id="Pride_T" sex="m">
+                  <persName>General Sir Thomas Pride</persName>
+                  <persName><forename>Thomas</forename>
+                     <surname>Pride</surname>
+                     <roleName>General</roleName>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <birth notAfter="1608">
+                     <placeName>Somerset, England</placeName>
+                  </birth>
+                  <death when="1658-10-23">
+                     <placeName>Worcester House, Surrey, England</placeName>
+                  </death>
+                  <occupation type="trade" subtype="liquor"/>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="government" subtype="politician administrator"/>
+                  <note resp="#rnes">Pride was a Parliamentary general during the <rs type="event" ref="#EngCivilWar">Civil Wars</rs>. He was responsible for carrying out <soCalled>Pride's Purge</soCalled> of Parliament in 1648, which ended the Long Parliament and marked the start of the Rump Parliament who tried <persName ref="#ChasI">Charles I</persName>. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName> and was posthumously found guilty of regicide.</note>
+                  <note><ref target="http://viaf.org/viaf/52041108"/></note>
+               </person>
+               
+               <person xml:id="Hammond_T" sex="m">
+                  <persName>Thomas Hammond</persName>
+                  <persName>
+                     <forename>Thomas</forename>
+                     <surname>Hammond</surname></persName>
+                  <birth when="1600">
+                     <placeName>Surrey, England</placeName></birth>
+                  <death when="1660"/>
+                  <occupation type="military" subtype="army"/>
+                  <note resp="#rnes">An officer in the <orgName ref="#New_Model_Army">New Model Army</orgName>. A Commissioner at the <orgName ref="#High_Court_of_Justice">High Court of Justice</orgName>in the trial of <persName ref="#ChasI">Charles I</persName>. He did not sign the death warrant, for reasons that remain unclear. Although he died before the <rs type="event" ref="#Restoration">Restoration</rs>, he was exempted from the Indemnity and Oblivion Act, and his family's property seized.<!--LMW: No VIAF #--></note>
+               </person>
+               
+               <person xml:id="Stuart_H" sex="m">
+                  <persName>Henry Stuart, Duke of Gloucester</persName>
+                  <persName>
+                     <forename>Henry</forename>
+                     <surname>Stuart</surname>
+                     <roleName>Duke of Gloucester</roleName>
+                     <roleName>Prince Henry</roleName>
+                  </persName>
+                  <birth when="1639-07-08">
+                     <placeName>Oatlands Palace, Surrey, England</placeName>
+                  </birth>
+                  <death when="1660-09-13">
+                     <placeName>Palace of Whitehall, London, England</placeName>
+                  </death>
+                  <occupation type="government" subtype="courtier"/>
+                  <note resp="#rnes">Youngest son of <persName ref="#ChasI">Charles I</persName> and <persName ref="#Qu_Henrietta">Henrietta Maria</persName>. He visited his father in prison, as depicted in <title ref="#CharlesI_MRMplay">Charles the First</title>, before leaving for exile in Continental Europe. At <rs type="event" ref="#Restoration">the Restoration</rs> in 1660, he returned to <placeName ref="#England">England</placeName> with his elder brother <persName ref="#ChasII">Charles II</persName>, only to die shortly thereafter of smallpox.</note>
+                  <note><ref target="https://viaf.org/viaf/45736476"/></note>
+               </person>
+               
+               <person xml:id="Becket_Thos" sex="m">
+                  <persName>Thomas Becket</persName>
+                  <persName>
+                     <surname>Becket</surname>
+                     <forename>Thomas</forename>
+                     <roleName>Archdeacon of Canterbury</roleName>
+                     <roleName>Lord Chancellor</roleName>
+                  </persName>
+                  <persName><addName>Thomas of London</addName></persName>
+                  <persName><addName>Saint Thomas of Canterbury</addName></persName>
+                  <persName><addName>Thomas à Becket</addName></persName>
+                  <birth when="1118-12-21">
+                     <placeName>London, England</placeName></birth>
+                  <death when="1170-01-29">
+                     <placeName>Canterbury, Kent, England</placeName></death>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="religious" subtype="priest"/>
+                  <note resp="#jgf #lmw #rnes">As Archbishop of Canterbury, Becket quarreled with King Henry II over the balance of power between the church and crown. Becket was murdered by four knights while at prayer in Canterbury Cathedral. The king had reportedly been heard to ask the four knights <q>Will no one rid me of this meddlestome priest?,</q> thereby calling for Becket's assassination without literally ordering it. Becket was canonized by the Roman Catholic Church as a saint in 1173.</note>
+                  <note><ref target="http://viaf.org/viaf/100187947"/></note>
+               </person>
+               
+               <person xml:id="HenryII" sex="m">
+                  <persName>Henry II</persName>
+                  <persName>
+                     <surname>Plantagenet</surname>
+                     <forename>Henry</forename></persName>
+                  <persName>Henry of Anjou</persName>
+                  <persName>
+                     <roleName>Duke of Normandy</roleName>
+                     <roleName>Duke of Anjou</roleName>
+                     <roleName>Duke of Maine</roleName>
+                     <roleName>Duke of Touraine</roleName>
+                     <roleName>King of England</roleName></persName>
+                  <birth when="1133"><placeName>Le Mans, France</placeName></birth>
+                  <death when="1189-07-06"><placeName>Chinon Castle, near Tours, France</placeName></death>
+                  <occupation type="government" subtype="monarch"/>
+                  <occupation type="military" subtype="army"/>
+                  <note resp="#jgf #slc #rnes">Henry II, the son of Geoffrey Plantagenet and the Empress Matilda, was denominated the heir of Matilda's cousin King Stephen at the conclusion of the Wars of Stephen and Matilda. Ruler of an empire that stretched from France to Scotland, Henry is known for his marriage to Eleanor of Aquitaine, his quarrel with and apparent involvement in the assassination of Thomas of Becket, Archbishop of Canterbury, and the wars between his sons, which contributed to his death at the age of fifty-six. Source: Britannica.</note>
+                  <note><ref target="https://viaf.org/viaf/90145970073532250834"/></note>
+               </person>
+               
+               <person xml:id="Jones_Inigo" sex="m">
+                  <persName>Inigo Jones</persName>
+                  <persName>
+                     <surname>Jones</surname>
+                     <forename>Inigo</forename>
+                  </persName>
+                  <birth when="1573-07-15"><placeName>Smithfield, London, England</placeName></birth>
+                  <death when="1652-06-21"><placeName>Somerset House, the Strand, London, England</placeName></death>
+                  <occupation type="theater" subtype="designer"/>
+                  <occupation type="artist" subtype="architect"/>
+                  <note resp="#rnes">Educated in Italy, Inigo Jones attracted the patronage of the English and Scandinavian courts and developed the English Neoclassical style of architecture. His buildings include James I's Banqueting Hall at Whitehall Palace, London which, within Jones's lifetime, later served as the backdrop for the execution of Charles I.</note>
+                  <note><ref target="https://viaf.org/viaf/66475425"/></note>
+               </person>
+               
+               <person xml:id="Hutchinson_John" sex="m">
+                  <persName>John Hutchinson</persName>
+                  <persName>
+                     <surname>Hutchinson</surname>
+                     <forename>John</forename>
+                     <roleName>Colonel</roleName>
+                     <roleName>Sir</roleName>
+                     <roleName>Governor of Nottingham Castle</roleName>
+                     <roleName>Commissioner, High Court of Justice</roleName>
+                     <roleName>Member, Council of State</roleName>
+                     <roleName>Member of Parliament for Nottingham</roleName>
+                  </persName>
+                  <birth from="1615-01" to="1616-12"><placeName>Nottinghamshire</placeName></birth>
+                  <death when="1664-09-11"><placeName>Sandown Castle, Kent, England</placeName></death>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="legal" subtype="judge"/>
+                  <note resp="#rnes">A Cambridge-educated <orgName ref="#Parliamentarians">Parliamentarian</orgName> leader of Puritan convictions during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, Hutchinson subsequently participated in the trial of <persName ref="#ChasI">Charles I</persName> and signed his death warrant, thereby becoming a regicide. The husband and biographical subject of the writer <persName ref="#Hutchinson_Lucy">Lady Lucy Hutchinson</persName>, Hutchinson escaped execution for regicide under suspicious circumstances apparently engineered by his wife. However, he was arrested in 1663 for allegedly plotting against <persName ref="#ChasII">King Charles II</persName> and died in prison. The extremely belated publication of Lucy Hutchinson's <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Memoirs of the Life of Colonel Hutchinson</title> in 1806 made him posthumously famous.</note>
+                  <note><ref target="https://viaf.org/viaf/10793919"/></note>
+               </person>
+               
+               <person xml:id="Hutchinson_Lucy" sex="f">
+                  <persName>Lucy Hutchinson</persName>
+                  <persName>
+                     <surname type="paternal">Apsley</surname>
+                     <surname type="married">Hutchinson</surname>
+                     <forename>Lucy</forename>
+                     <roleName>Lady</roleName>
+                  </persName>
+                  <birth when="1620">
+                     <placeName>England</placeName>
+                  </birth>
+                  <death when="1681"><placeName>Owthorpe, Nottinghamshire, England</placeName></death>
+                  <occupation type="literary" subtype="biographer poet translator"/>
+                  <occupation type="scholar"/>
+                  <note resp="#rnes"><p>An exceptionally well-educated and self-assured early modern woman whose literary achievements are extremely significant. Her works include the first complete English translation of Lucretius's controversial Epicurean poem <title>De Rerum Natura</title> (in ms. only until 2012), the epic poem <title>Order and Disorder</title>, which has been read as a proto-feminist take on Genesis that invites comparison with her contemporary <title ref="#ParadiseLost">John Milton's Paradise Lost</title>, and her <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Memoirs of the Life of Colonel John Hutchinson</title>, a biography of her husband that brings to life the drama of the <rs type="event" ref="#EngCivilWar">Civil Wars</rs> and the idealism of the Puritans, particularly for religious liberty and republican government. This work, published in 1806, is the only Lucy Hutchinson composition that was known as such during <persName ref="#MRM">Mitford</persName>'s lifetime.</p>
+                     <p>Born Lucy Apsley, the daughter of Sir Allen Apsley, Lieutenant of the Tower of London. In 1638 she fell mutually in love with and married Sir John Hutchinson. While he fought on the <orgName ref="#Parliamentarians">Parliamentarian side</orgName> in the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, she provided material assistance, at one point contriving for her brother-in-law (Hutchinson's brother) to pose as him while the real Colonel Hutchinson escaped arrest by the Royalists. At the <rs type="event" ref="#Restoration">Restoration</rs>, she may have saved his life by forging an apologetic letter that he might have been more reticent to write.</p>
+                     <p>As the critic <persName>Devoney Looser</persName> has shown, Lucy Hutchinson became an extremely well-known figure during the nineteenth century, featuring as a heroine in many works of fiction and drama.</p></note>
+                  <note><ref target="http://viaf.org/viaf/88059790"/></note>
+               </person>
+               
+               <person xml:id="Macauley_C" sex="f">
+                  <persName>Catharine Macauley</persName>
+                  <persName>
+                     <surname type="paternal">Sawbridge</surname>
+                     <surname type="married">Macauley</surname>
+                     <surname type="married">Graham</surname>
+                     <forename>Catharine</forename>
+                  </persName>
+                  <birth when="1731-03-21">
+                     <placeName>Olantigh, Wye, Kent, England</placeName></birth>
+                  <death when="1791-06-22">
+                     <placeName>Binfield, Berkshire, England</placeName></death>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#jgf #lmw">Important English historian during the eighteenth century, celebrated and vilified during her lifetime as a female intellectual, <q>Bluestocking,</q> and the <q>Republican Virago.</q> Her politics were Whig, reformist, and anti-Catholic, and they became increasingly radical in her later years, when she attacked the writings of <persName ref="#Burke_E">Edmund Burke</persName>. Whigs embraced the early volumes of her <title>History of England</title> as supporting their views of political history. Her interpretation of the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs> was influential; she wrote admiringly of the <orgName ref="#Parliamentarians">Parliamentarians</orgName> and condemned <persName ref="#Cromwell">Cromwell</persName>'s actions and the execution of <persName ref="#ChasI">Charles I</persName>.</note>
+                  <note><ref target="http://viaf.org/viaf/51936664"/></note>
+               </person>
+               
+               <person xml:id="Hutchinson_Thos" sex="m">
+                  <persName>Thomas Hutchinson</persName>
+                  <persName>
+                     <surname>Hutchinson</surname>
+                     <forename>Thomas</forename>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <birth when="1704">
+                     <placeName>Owthorpe Hall, Owthorpe, Nottinghamshire, England</placeName>
+                  </birth>
+                  <death when="1744-05-07">
+                     <placeName>Owthorpe Hall, Owthorpe, Nottinghamshire, Englan</placeName>
+                  </death>
+                  <note resp="#rnes #lmw">A lateral descendant of Sir John Hutchinson through his brother Charles (1637-1695), Sir Thomas Hutchinson had possession of the manuscript of <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Lucy Hutchinson's Memoirs of the Life of Sir John Hutchinson</title> at Owthorpe in the eighteenth century, where historian <persName ref="#Macauley_C">Catherine Macaulay</persName> consulted it. During his lifetime, he refused to published the manuscript, which was later published by his newphew Julius.</note>
+                  <!--lmw: NO viaf #.-->
+               </person>
+               
+               <person xml:id="Hutchinson_Julius" sex="m">
+                  <persName>Julius Hutchinson</persName>
+                  <persName>
+                     <surname>Hutchinson</surname>
+                     <forename>Julius</forename>
+                     <roleName>Reverend</roleName>
+                  </persName>
+                  <birth notAfter="1750">
+                     <placeName>England</placeName>
+                  </birth>
+                  <death when="1811">
+                     <placeName>Layer Breton, Essex, England</placeName>
+                  </death>
+                  <occupation type="religious" subtype="vicar"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <note resp="#rnes #lmw">A lateral descendant of Sir John Hutchinson through his brother Charles (1637-1695), Julius Hutchinson edited <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Lucy Hutchinson's Memoirs of the Life of Sir John Hutchinson</title> from the manuscript at Owthorpe (the Hutchinson estate) and allowed it to be published in 1806.</note>
+                  <note><ref target="https://viaf.org/viaf/45499749"/></note>
+               </person>
+               
+               <person xml:id="Stuart_ChasEd" sex="m">
+                  <persName>Charles Edward Stuart</persName>
+                  <persName>
+                     <surname>Stuart</surname>
+                     <forename>Charles</forename>
+                     <forename>Edward</forename>
+                     <forename>Maria</forename>
+                     <forename>Severino</forename>
+                     <forename>Sylvester</forename>
+                     <forename>Casimir</forename>
+                     <forename>John</forename>
+                     <forename>Louis</forename>  
+                  </persName>
+                  <persName><addName>Bonnie Prince</addName></persName>
+                  <persName><addName>Bonnie Prince Charlie</addName></persName>
+                  <persName><addName>The Young Pretender</addName></persName>
+                  <persName><addName>The Young Chevalier</addName></persName>
+                  <birth when="1720-12-31">
+                     <placeName>Palazzo Muti, Rome, States of the Church</placeName></birth>
+                  <death when="1788-01-31">
+                     <placeName>Palazzo Muti, Rome, States of the Church</placeName></death>
+                  <occupation type="military"/>
+                  <occupation type="government" subtype="courtier politician"/>                <note resp="#rnes #jgf #lmw">The famously beautiful son of the <persName ref="#James_oldPretender"><soCalled>Old Pretender</soCalled> (James, son of the deposed King James II)</persName>, Charles Edward Stuart (also known as <soCalled>the Young Pretender</soCalled> and <soCalled>Bonnie Prince Charlie</soCalled> staged an invasion of Scotland in 1745. The resulting Jacobite Wars resulted in Stuart's decisive defeat at the Battle of Culloden (1746) and his evacuation, in female disguise, to the Isle of Skye, and eventual Continental exile. His death ended the Jacobite attempts to recover the British crown.</note>
+                  <note><ref target="https://viaf.org/viaf/45499749"/></note>
+               </person>
+               
+               <person xml:id="McCoy_Rich" sex="m">
+                  <persName>Richard C. McCoy</persName>
+                  <persName>
+                     <surname>McCoy</surname>
+                     <forename>Richard</forename>
+                     <forename>C.</forename>
+                     <roleName>Professor</roleName>
+                  </persName>
+                  <birth when="1946-10-09"/>
+                  <occupation type="literary" subtype="critic"/>
+                  <occupation type="educator"/>
+                  <occupation type="scholar"/>
+                  <note resp="#jgf #lmw">Distinguished Professor of English at Queens College and the Graduate Center, CUNY.</note>
+                  <note><ref target="http://english.qc.cuny.edu/quick-links/richard-mccoy/"/></note>
+                  <note><ref target="http://viaf.org/viaf/57311"/></note>
+               </person>
+               
+               <person xml:id="McCracken_Flesher" sex="f">
+                  <persName>Caroline McCracken-Flesher</persName>
+                  <persName>
+                     <surname>McCracken-Flesher</surname>
+                     <forename>Caroline</forename>
+                     <roleName>Professor</roleName>
+                  </persName>
+                  <birth when="1958"/>
+                  <occupation type="literary" subtype="critic"/>
+                  <occupation type="educator"/>
+                  <occupation type="scholar"/>
+                  <note resp="#jgf #lmw">UW George Duke Humphrey Distinguished Professor in the Department of English at the University of Wyoming.</note>
+                  <note><ref target="http://viaf.org/viaf/310589154"/></note>
+               </person>
+               
+               <person xml:id="GeoII" sex="m">
+                  <persName>George II</persName>
+                  <persName>
+                     <forename>George</forename>
+                     <forename>Augustus</forename>
+                     <roleName>George the Second, by the Grace of God, King of Great Britain, France and Ireland, Defender of the Faith, Duke of Brunswick-Lüneburg, Archtreasurer and Prince-Elector of the Holy Roman Empire</roleName>
+                     <roleName>King of Great Britain and Ireland</roleName>
+                     <roleName>Elector of Hanover</roleName>
+                     <roleName>Knight of the Garter</roleName>
+                     <roleName>Duke and Marquess of Cambridge</roleName>
+                     <roleName>Earl of Milford Haven</roleName>
+                     <roleName>Viscount Northallerto</roleName>
+                     <roleName>Baron Tewkesbury</roleName>
+                  </persName>
+                  <birth when="1683-10-30"><placeName>Hanover, Lower Saxony</placeName></birth>
+                  <death when="1760-10-25"><placeName>Kensington Palace, London, England</placeName></death>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#jgf #lmw">King of Great Britain and Ireland and Elector of Hanover from <date when="1727">1727</date>, the  eldest son of Hanoverian George I and second cousin once removed to Queen Anne. He was also a Knight of the Garter and was created Duke and Marquess of Cambridge, Earl of Milford Haven, Viscount Northallerton, and Baron Tewkesbury. Prior to becoming King, while Prince of Wales, he opposed his father's policies in concert with Whig politicians Robert Walpole and Charles Townshend. The War of the Austrian Succession, the Jacobite Rebellion, and the Seven Years' War took place during his reign. He is the most recent British monarch to be buried in Westminter Abbey.</note>
+                  <note><ref target="http://viaf.org/viaf/46902352"/></note>
+               </person>
+               
+               <person xml:id="Marshall_Alan" sex="m">
+                  <persName>Alan Marshall</persName>
+                  <persName>
+                     <surname>Marshall</surname>
+                     <forename>Alan</forename>
+                     <roleName>Professor</roleName>
+                     <roleName>Fellow of the Royal Historical Society</roleName>
+                  </persName>
+                  <occupation type="literary" subtype="critic"/>
+                  <occupation type="educator"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#jgf #lmw">Fellow of the Royal Historical Society, Head of Humanities, and a faculty member in the Department of History at Bath Spa University.</note>
+                  <note><ref target="http://viaf.org/viaf/14864873"/></note>
+                  <note><ref target="https://www.bathspa.ac.uk/our-people/alan-marshall/"/></note>
+                  <note><ref target="http://bathspa.academia.edu/AlanMarshall/"/></note>
+               </person>
+               
+               <person xml:id="Richelieu" sex="m">
+                  <persName>Armand Jean du Plessis</persName>
+                  <persName>
+                     <surname><nameLink>du</nameLink> Plessis</surname>
+                     <forename>Armand</forename>
+                     <forename>Jean</forename><roleName>Cardinal, Bishop of Luçon</roleName>
+                     <roleName>Duke of Richelieu and Fronsac</roleName>
+                     <roleName>Chief Minister</roleName>
+                     <roleName>First Minister</roleName>
+                  </persName>
+                  <birth when="1585-09-09">
+                     <placeName>Paris, Île-de-France, France</placeName></birth>
+                  <death when="1642-12-04">
+                     <placeName>Paris, Île-de-France, France</placeName></death>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="religious" subtype="priest"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <occupation type="educator" subtype="schoolHead"/>
+                  <note resp="#jgf #lmw">Became a cardinal of the Catholic Church in 1622 and served as Louis XIII's chief minister from 1624 until his death. He also guided French government during the Thirty Years' War and during the consolidation of France's role in the Americas. Served as Head of the College or Sorbonne and founded the Académie française. He has been frequently depicted as a scheming, villainous character in popular fiction, including an appearance in Alexandre Dumas's <title ref="#ThreeMusketeers">The Three Musketeers</title>.</note>
+                  <note><ref target="http://viaf.org/viaf/12314392"/></note>
+               </person>
+               
+               <person xml:id="LouisXVI" sex="m">
+                  <persName>Louis XVI</persName>
+                  <persName><forename>Louis</forename>
+                     <forename>Auguste</forename>
+                     <roleName>Duc de Berry</roleName>
+                     <roleName>Dauphin of France</roleName>
+                     <roleName>His Most Christian Majesty The King of France</roleName>
+                     <roleName>Citizen Louis Capet</roleName>
+                  </persName>
+                  <birth when="1754-08-23">
+                     <placeName>Palace of Versailles, Versailles, France</placeName></birth>
+                  <death when="1793-01-21"><placeName>
+                  </placeName>Place de la Révolution, Paris, France</death>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#jgf #lmw">Last King of France during the Ancien Régime, he ruled as absolute monarch until 1789 and after the French Revolution as a constitutional monarch until 1792. He was imprisoned, tried, and guillotined in 1792-1793.</note>
+                  <note><ref target="http://viaf.org/viaf/12314392"/></note>
+               </person>
+               
                <person xml:id="Acerbi_J" sex="m">
                   <persName>Joseph Acerbi</persName>
                   <persName>
@@ -6101,29 +6637,42 @@
                   </note>
                </person>
                <person xml:id="Dickens" sex="m">
+                  <persName>Charles Dickens</persName>
                   <persName>
                      <surname>Dickens</surname>
                      <forename>Charles</forename>
                      <forename>John</forename>
                      <forename>Huffam</forename>
                   </persName>
+                  <persName type="pseudo">Boz</persName>
                   <birth when="1812-02-07">
                      <placeName>Landport, Hampshire, England</placeName>
                   </birth>
                   <death when="1870-06-09">
                      <placeName>Higham, Kent, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>novelist</occupation>
-                  <occupation>journalist</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>lecturer</occupation>
-                  <note resp="#lmw">Novelist, travel writer, editor, and lecturer; arguably the best-known writer of the Victorian period.</note>
-                  <note>
+                  <occupation type="literary" subtype="journalist novelist essayist editor"/>
+                  <occupation type="theater"/>
+                  <note resp="#lmw">English journalist and editor, novelist, and lecturer. Considered one of the most important novelists of the Victorian era.</note>
                      <ref target="http://viaf.org/viaf/88666393"/>
                   </note>
                </person>
+               
+               <person xml:id="Lovett_Wm" sex="m">
+                  <persName>William Lovett</persName>
+                  <persName>
+                     <surname>Lovett</surname>
+                     <forename>William</forename>
+                  </persName>
+                  <birth when="1800-05-08"><placeName>Newlyn, Cornwall, England</placeName></birth>
+                  <death when="1877-08-08"><placeName>London, England</placeName></death>
+                  <occupation type="literary" subtype="autobiographer essayist"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <occupation type="trade" subtype="carpenter ropemaker"/>
+                  <note resp="#rnes">After working as a ropemaker in Cornwall, Lovett sought better work in London. He joined various working-class political societies and became the leader of the London Working-Man's Association (LMDA), which played a major role in the Chartist movement. Lovett wrote the People's Charter, which was thrice unsuccessfully presented to Parliament, and also a memoir, <title>The Life and Struggles of William Lovett in his Pursuit of Bread, Knowledge, and Freedom</title> (1876).</note>
+                  <note><ref target="http://viaf.org/viaf/37714479"/></note>
+               </person>
+               
                <person xml:id="Dickinson_Charles" sex="m">
                   <persName>
                      <surname>Dickinson</surname>
@@ -8859,17 +9408,21 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Catholicism in England. The Duke also wrote the first complete set of English
                      coursing rules.</note>
                </person>
+               
                <person xml:id="HowardBrenton" sex="m">
                   <persName>Howard Brenton</persName>
                   <persName>
-                     <forename>Howard</forename>
                      <surname>Brenton</surname>
+                     <forename>Howard</forename>
+                     <roleName>Fellow of the Royal Literary Society (FRLS)</roleName>
                   </persName>
-                  <occupation>playwright</occupation>
-                  <birth when="1942-12-13">December 13, 1942</birth>
-                  <note>Brenton’s plays include <title level="m">The Romans in Britain</title> and
-                        <title level="m">Bloody Poetry</title>.</note>
+                  <birth when="1942-12-13"><placeName>Portsmouth, Hampshire, England</placeName></birth>
+                  occupation type="literary" subtype="playwright"/>
+                  <note resp="#rnes">Contemporary British playwright, most famous for the deeply controversial drama <title>The Romans in Britain</title> (1980), a historical allegory that critiqued the British occupation of Northern Ireland by paralleling it with the Roman Invasion and depicted rape in the context of war. He also wrote <title ref="#_55Days_play">55 Days</title> (2012), a dramatization of the events between the <orgName ref="#New_Model_Army">New Model Army</orgName>'s conquest of London and the execution of <persName ref="#ChasI">Charles I</persName>. The original production, at London's Hampstead Theatre, starred the writer <persName>Mark Gatiss</persName> as Charles and <persName>Douglas Henshall</persName> as Oliver Cromwell. Modern costumes (in the original production) and language support this play's promotion of contemporary British consideration of a republican political reformation, a possibility later explored far more directly in <title>Mike Bartlett's play King Charles III</title>, which premiered at the Almeida Theatre in 2017.</note>
+                  <note><ref target="https://viaf.org/viaf/66476558"/></note>
                </person>
+               
+               
                <person xml:id="HughPeters" sex="m">
                   <persName>Hugh Peters</persName>
                   <persName>
@@ -15987,12 +16540,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#ebb">An Officer in the Parliamentary Army in <persName ref="#MRM">Mitford’s</persName> play, <title ref="#CharlesI_MRMplay">Charles
                      I</title>.</note>
                </person>
+               
                <person xml:id="PrincessE_Ch1" sex="f">
-                  <persName>Princess Elizabeth</persName>
-                  <note resp="#ebb">Daughter of <persName ref="#Queen_Ch1">Queen Henrietta
-                        Maria</persName> and <persName ref="#Chas1_MRM">King Charles I</persName>, a
-                     girl aged 12, in <persName ref="#MRM">Mitford’s</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>.</note>
+                  <persName>Elizabeth Stuart</persName>
+                  <persName>
+                     <forename>Elizabeth</forename>
+                     <surname type="paternal">Stuart</surname>
+                     <roleName>Princess Elizabeth</roleName>
+                  </persName>
+                  <birth when="1635-12-28">
+                     <placeName>St. James's Palace, London, England</placeName>
+                  </birth>
+                  <death when="1650-09-08"> 
+                     <placeName>Carisbrooke Castle, Isle of Wight</placeName>
+                  </death>
+                  <occupation type="government" subtype="courtier"/>
+                  <note resp="#ebb #lmw">The second daughter of <persName ref="#ChasI">Charles I</persName> and <persName ref="#Qu_Henrietta">Queen Henrietta Maria</persName>. She was imprisoned during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs> from age six to her death from pneumonia in 1650 at age fourteen. She is portrayed as a girl aged twelve, in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>.</note>
+                  <note><ref target="https://viaf.org/viaf/264121061"/></note>
                </person>
+               
                <person xml:id="Prospero" sex="m">
                   <persName>Prospero</persName>
                   <note resp="#ebb">magician in <persName ref="#Shakespeare">Shakespeare</persName>’s play, <title ref="#Tempest_play">The Tempest</title>
