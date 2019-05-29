@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-
-<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -28,8 +29,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T18:14:18.906-04:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 2095. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+            <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T20:22:12.502-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 2100. First digital edition in TEI P5, launched on 19 August 2013.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
@@ -55,10 +56,10 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
+            <change when="2019-05-28" who="#ebb">Restored missing Jane Austen entry, added entries to be sure all refs were pointing to existing xml:ids in this file.</change>
             <change when="2019-05-28" who="#ebb">Updated to migrate several students to past assistants, and to add Don Ulin to consultants. Noted issue with lmw's previous XSLT transformation expanding default attributes. This new SI output removes the default attributes.</change>
             <change when="2019-05-27" who="#lmw">Updated Site Index with new and revised entries from Charles I, Rienzi, and Finden's Tableaux.</change>
             <change when="2019-05-18" who="#ebb">Updated SI entries from old 2017 lists, updated editing team bios.</change>
-            
             <change when="2019-04-21" who="#ebb">Simplified the way we designate genus, species in the plant and animal lists, from rs to name. (Rationale: In TEI, rs is not the right element because it's intended for references that aren't names (like pronouns), and genus/species are names.) </change>
             <change when="2019-04-21" who="#ebb">Created this changelog on the SI to better log our descriptions of changes. </change>
             <change when="2019-02-17" who="#ebb">Set ODD-generated SI schema to be active on this file; note that editor occupations now flag as errors: we need to change where we encode SI editor home institutions and employment titles.</change>
@@ -79,7 +80,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Virginia</affiliation>
+                           <roleName>
+                              <affiliation>University of Virginia</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -109,7 +112,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of St Andrews</affiliation>
+                           <roleName>
+                              <affiliation>University of St Andrews</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -132,7 +137,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Stanford Literary Lab</affiliation>
+                           <roleName>
+                              <affiliation>Stanford Literary Lab</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -146,7 +153,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Virginia Commonwealth University</affiliation>
+                           <roleName>
+                              <affiliation>Virginia Commonwealth University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -162,8 +171,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Assistant Professor of English <affiliation>Missouri Southern State
+                        <roleName>
+                           <roleName>Assistant Professor of English <affiliation>Missouri Southern State
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -183,7 +194,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Kansas State University</affiliation>
+                           <roleName>
+                              <affiliation>Kansas State University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -200,7 +213,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        <roleName>
+                           <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -221,8 +236,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Programme Director: English <affiliation>Loughborough
+                        <roleName>
+                           <roleName>Programme Director: English <affiliation>Loughborough
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -237,7 +254,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of North Carolina Pembroke</affiliation>
+                           <roleName>
+                              <affiliation>University of North Carolina Pembroke</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -259,7 +278,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -279,7 +300,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Grinnell College: Information Technology</affiliation>
+                           <roleName>
+                              <affiliation>Grinnell College: Information Technology</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -296,7 +319,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -311,7 +336,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -328,13 +355,17 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        <roleName>
+                           <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                        <roleName>
+                           <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -348,8 +379,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Professor of English <affiliation>University of Central
+                        <roleName>
+                           <roleName>Professor of English <affiliation>University of Central
                         Missouri</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -370,7 +403,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Università degli Studi di Parma</affiliation>
+                           <roleName>
+                              <affiliation>Università degli Studi di Parma</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -384,8 +419,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Associate Professor of English
+                        <roleName>
+                           <roleName>Associate Professor of English
                         <affiliation>University of Pittsburgh at Bradford</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -401,8 +438,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
+                        <roleName>
+                           <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
                         at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -418,7 +457,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Duquesne University</affiliation>
+                           <roleName>
+                              <affiliation>Duquesne University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -435,7 +476,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Oregon</affiliation>
+                           <roleName>
+                              <affiliation>University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -468,7 +511,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Michigan State University</affiliation>
+                           <roleName>
+                              <affiliation>Michigan State University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -488,7 +533,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of California, Los Angeles</affiliation>
+                           <roleName>
+                              <affiliation>University of California, Los Angeles</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -504,8 +551,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Penn State University</affiliation>
-                           <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           <roleName>
+                              <affiliation>Penn State University</affiliation>
+                              <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -522,7 +571,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -539,7 +590,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Tiffin University</affiliation>
+                           <roleName>
+                              <affiliation>Tiffin University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -562,8 +615,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B.A. in English Literature and History
+                        <roleName>
+                           <roleName>Green Scholar, B.A. in English Literature and History
                      <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -587,7 +642,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Calgary</affiliation>
+                           <roleName>
+                              <affiliation>University of Calgary</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -608,8 +665,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Adjunct Lecturer in Arts &amp; Humanities
+                        <roleName>
+                           <roleName>Adjunct Lecturer in Arts &amp; Humanities
                      <affiliation>Babson College</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -627,7 +686,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York at Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -643,16 +704,20 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
+                        <roleName>
+                           <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
                      Visual and Performing Arts <affiliation>University of Pittsburgh at
                         Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.F.A. <affiliation>Loyola Marymount
+                        <roleName>
+                           <roleName>M.F.A. <affiliation>Loyola Marymount
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -668,7 +733,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Baylor University</affiliation>
+                           <roleName>
+                              <affiliation>Baylor University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -684,7 +751,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Nevada, Las Vegas</affiliation>
+                           <roleName>
+                              <affiliation>University of Nevada, Las Vegas</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -706,7 +775,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Editorial Institute, Boston University</affiliation>
+                           <roleName>
+                              <affiliation>Editorial Institute, Boston University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -726,7 +797,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -740,8 +813,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
+                        <roleName>
+                           <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -761,7 +836,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Maryland</affiliation>
+                           <roleName>
+                              <affiliation>University of Maryland</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -783,7 +860,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Carnegie Mellon University</affiliation>
+                           <roleName>
+                              <affiliation>Carnegie Mellon University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -798,7 +877,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Penn State University</affiliation>
+                           <roleName>
+                              <affiliation>Penn State University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -814,7 +895,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -829,7 +912,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -845,7 +930,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Loyola University Chicago</affiliation>
+                           <roleName>
+                              <affiliation>Loyola University Chicago</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -874,7 +961,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                        <roleName>
+                           <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -897,7 +986,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -912,9 +1003,11 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                        <roleName>
+                           <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, completed 2017. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -933,8 +1026,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Assistant Professor of Spanish and French <affiliation>University of
+                        <roleName>
+                           <roleName>Assistant Professor of Spanish and French <affiliation>University of
                         Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -962,7 +1057,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Washington and Jefferson College</affiliation>
+                           <roleName>
+                              <affiliation>Washington and Jefferson College</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -977,7 +1074,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1165,8 +1264,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                        <roleName>
+                           <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1184,7 +1285,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1201,7 +1304,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1215,8 +1320,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English and Communication, in progress 2015.
+                        <roleName>
+                           <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1236,7 +1343,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1250,7 +1359,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1267,7 +1378,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1283,7 +1396,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1297,8 +1412,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
+                        <roleName>
+                           <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
                         University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1320,8 +1437,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English and Communication, in progress 2015.
+                        <roleName>
+                           <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1340,7 +1459,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1357,7 +1478,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA </affiliation>
+                           <roleName>
+                              <affiliation>UCLA </affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1375,7 +1498,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1397,7 +1522,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1416,7 +1543,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1431,14 +1560,18 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName> B.A., English Literature, completed 2014<affiliation>State
+                        <roleName>
+                           <roleName> B.A., English Literature, completed 2014<affiliation>State
                      University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                        <roleName>
+                           <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1457,7 +1590,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1472,15 +1607,19 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
+                        <roleName>
+                           <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
                         University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.L.S., completed 2015 <affiliation>University at
+                        <roleName>
+                           <roleName>M.L.S., completed 2015 <affiliation>University at
                         Buffalo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1504,7 +1643,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1518,7 +1659,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1533,7 +1676,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1547,8 +1692,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English and Communication, in progress 2015.
+                        <roleName>
+                           <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1566,7 +1713,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1581,7 +1730,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1596,7 +1747,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1611,7 +1764,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1626,7 +1781,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1646,7 +1803,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1660,8 +1819,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
+                        <roleName>
+                           <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
                      2015. <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1680,15 +1841,19 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.A., English: Literature, 2015 <affiliation>State
+                        <roleName>
+                           <roleName>B.A., English: Literature, 2015 <affiliation>State
                      University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.L.I.S, 2017 <affiliation>Syracuse
+                        <roleName>
+                           <roleName>M.L.I.S, 2017 <affiliation>Syracuse
                      University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1707,8 +1872,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                        <roleName>
+                           <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1726,8 +1893,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Communication, 2017 <affiliation>State
+                        <roleName>
+                           <roleName>B. A. in Communication, 2017 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1747,8 +1916,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
+                        <roleName>
+                           <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
                         University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1767,7 +1938,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1788,7 +1961,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1803,7 +1978,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1817,7 +1994,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon&gt;</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon&gt;</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1831,7 +2010,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1846,7 +2027,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1861,7 +2044,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1876,7 +2061,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1893,9 +2080,11 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                        <roleName>
+                           <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, in progress 2016. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1918,7 +2107,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1939,8 +2130,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.A. in History, English Literature, &amp; Sociology at <affiliation>State University of New York at
+                        <roleName>
+                           <roleName>B.A. in History, English Literature, &amp; Sociology at <affiliation>State University of New York at
                         Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1954,8 +2147,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
+                        <roleName>
+                           <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1975,7 +2170,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1993,7 +2190,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -3039,49 +3238,6 @@
                </org>
             </listOrg>
             <listPerson sortKey="histPersons">
-               <person xml:id="Home_John" sex="m">
-                  <persName>John Home</persName>
-                  <persName>
-                     <surname>Home</surname>
-                     <forename>John</forename>
-                  </persName>
-                  <birth when="1722-09-13">
-                     <placeName>Scotland</placeName>
-                  </birth>
-                  <death when="1808-09-04">
-                     <placeName>Edinburgh, Scotland</placeName>
-                  </death>
-                  <occupation type="literary" subtype="playwright"/>
-                  <occupation type="religious" subtype="minister"/>
-                  <note resp="#lmw">Scottish clergyman and playwright, author of the tragedy <title ref="#Douglas_play">Douglas</title>.</note>
-                  <note>
-                     <ref target="http://viaf.org/viaf/49234619"/>
-                  </note>
-               </person>
-               <person xml:id="Austen_Jane" sex="f">	
-                  <persName>Jane Austen</persName>	
-                  <persName>	
-                     <forename>Jane</forename>	
-                     <surname>Austen</surname>	
-                  </persName>	
-                  <birth when="1775-12-16">	
-                     <placeName>Steventon, Hampshire, England</placeName>	
-                  </birth>	
-                  <death when="1817-07-18">	
-                     <placeName>Winchester, Hampshire, England</placeName>	
-                  </death>	
-                  <occupation type="literary"/>	
-                  <occupation type="literary" subtype="novelist"/>	
-                  <note resp="#ebb #rnes">Novelist celebrated for her wit and style, whose works investigated women's social and economic vulnerabilities in English society. During her lifetime she published anonymously.<bibl>	
-                     <title>Sense and Sensibility</title> (<date when="1811">1811</date>)</bibl>, <bibl>	
-                        <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> (<date>1813</date>)</bibl>, <bibl>	
-                           <title level="m">Mansfield Park</title> (<date when="1814">1814</date>)</bibl>, and <bibl>	
-                              <title level="m" ref="#Emma_JA">Emma</title> (<date when="1815">1815</date>)</bibl>, all anonymously. <bibl>	
-                                 <title level="m">Northanger Abbey</title>, the first written of her novels (<date from="1798" to="1799">composed in 1798-1799</date>)</bibl> was published posthumously in 1818 (the title was chosen by surviving family) along with her final completed novel, <title>Persuasion</title>. <rs type="letter">	
-                                    <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>	
-                                 </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:—but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L’Estrange</bibl>.</note>	
-                  <note><ref target="http://viaf.org/viaf/102333412"/></note>	
-               </person>
                <person xml:id="Acerbi_J" sex="m">
                   <persName>Joseph Acerbi</persName>
                   <persName>
@@ -3452,6 +3608,51 @@
                      </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:--but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L'Estrange</bibl>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/71386625"/>
+                  </note>
+               </person>
+               <person xml:id="Austen_Jane" sex="f">
+                  <persName>Jane Austen</persName>
+                  <persName>
+                     <forename>Jane</forename>
+                     <surname>Austen</surname>
+                  </persName>
+                  <birth when="1775-12-16">
+                     <placeName>Steventon, Hampshire, England</placeName>
+                  </birth>
+                  <death when="1817-07-18">
+                     <placeName>Winchester, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#ebb #rnes">Novelist celebrated for her wit and style, whose works investigated women's social and economic vulnerabilities in English society. During her lifetime she published anonymously.<bibl>
+                        <title>Sense and Sensibility</title> (<date when="1811">1811</date>)</bibl>, <bibl>
+                        <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> (<date>1813</date>)</bibl>, <bibl>
+                        <title level="m">Mansfield Park</title> (<date when="1814">1814</date>)</bibl>, and <bibl>
+                        <title level="m" ref="#Emma_JA">Emma</title> (<date when="1815">1815</date>)</bibl>, all anonymously. <bibl>
+                        <title level="m">Northanger Abbey</title>, the first written of her novels (<date from="1798" to="1799">composed in 1798-1799</date>)</bibl> was published posthumously in 1818 (the title was chosen by surviving family) along with her final completed novel, <title>Persuasion</title>. <rs type="letter">
+                        <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>
+                     </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:—but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L’Estrange</bibl>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/102333412"/>
+                  </note>
+               </person>
+               <person xml:id="Babo" sex="m">
+                  <persName>Joseph Marius Babo</persName>
+                  <persName>
+                     <surname>Babo</surname>
+                     <forename>Joseph</forename>
+                     <forename>Marius</forename>
+                  </persName>
+                  <birth when="1756-01-14">
+                     <placeName>Ehrenbreitstein, Rhineland-Palatinate, German states</placeName>
+                  </birth>
+                  <death when="1822-02-05">
+                     <placeName>Munich, Bavaria, German states</placeName>
+                  </death>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#lmw">German playwright, author of the tragedy <title ref="#Otto_Babo">Otto von Wittelsbach</title>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/64807749"/>
                   </note>
                </person>
                <person xml:id="Bacon" sex="m">
@@ -6513,7 +6714,8 @@
                      <placeName>London, England</placeName>
                   </death>
                   <occupation type="legal" subtype="barrister"/>
-                  <occupation type="government" subtype="politician administrator"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="administrator"/>
                   <note resp="#lmw">Trained in the law, he served as Member of Parliament for Arundel, Sussex. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName> and was found guilty of regicide. His sentence was commuted to life imprisonment in <date when="1660">1660</date> and he remained in the Tower of London until his death in <date when="1666">1666</date>.</note>
                   <note>
                      <ref target="https://viaf.org/viaf/41730011"/>
@@ -6620,7 +6822,7 @@
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="theater" subtype="playwright"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note type="bio" resp="#ebb">
                      <rs type="event">Named Poet Laureate in <date when="1668">1668</date>
                      </rs>, <bibl>
@@ -9093,6 +9295,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                            November, 1953</date>
                      </rs>.</note>
                </person>
+               <person xml:id="Home_John" sex="m">
+                  <persName>John Home</persName>
+                  <persName>
+                     <surname>Home</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1722-09-13">
+                     <placeName>Scotland</placeName>
+                  </birth>
+                  <death when="1808-09-04">
+                     <placeName>Edinburgh, Scotland</placeName>
+                  </death>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="religious" subtype="minister"/>
+                  <note resp="#lmw">Scottish clergyman and playwright, author of the tragedy <title ref="#Douglas_play">Douglas</title>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/49234619"/>
+                  </note>
+               </person>
                <person xml:id="Homer" sex="m">
                   <persName>Homer</persName>
                   <floruit when="-0700">
@@ -10436,10 +10657,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1877-08-08">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="literary" subtype="autobiographer essayist"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <occupation type="government" subtype="reformer"/>
-                  <occupation type="trade" subtype="carpenter ropemaker"/>
-                  <note resp="#rnes">After working as a ropemaker in Cornwall, Lovett sought better work in London. He joined various working-class political societies and became the leader of the London Working-Man's Association (LMDA), which played a major role in the Chartist movement. Lovett wrote the People's Charter, which was thrice unsuccessfully presented to Parliament, and also a memoir, <title>The Life and Struggles of William Lovett in his Pursuit of Bread, Knowledge, and Freedom</title> (1876).</note>
+                  <occupation type="trade" subtype="carpenter"/>
+                  <occupation type="trade" subtype="ropemaker"/>
+                  <note resp="#rnes">After working as a ropemaker in Cornwall, Lovett sought better work in London. He joined various working-class political societies and became the leader of the London Working-Man's Association (LMDA), which played a major role in the Chartist movement. Lovett wrote the People's Charter, which was thrice unsuccessfully presented to Parliament, and also a memoir, <title level="m">The Life and Struggles of William Lovett in his Pursuit of Bread, Knowledge, and Freedom</title> (1876).</note>
                   <note>
                      <ref target="http://viaf.org/viaf/37714479"/>
                   </note>
@@ -10743,7 +10966,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="legal" subtype="barrister"/>
                   <occupation type="military" subtype="army"/>
-                  <occupation type="government" subtype="politician administrator"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="administrator"/>
                   <occupation type="literary" subtype="essayist"/>
                   <note resp="#lmw">A republican and <orgName ref="#Parliamentarians">Parliamentarian</orgName>, Marten supported the <orgName ref="#New_Model_Army">New Model Army</orgName> and the establishment of the <rs type="event" ref="#Commonwealth">Commonwealth</rs>. Member of Parliament for Berkshire during the Short Parliament and the Long Parliament. After the outbreak of the <rs type="event" ref="#EngCivilWar">English Civil War</rs>, he was appointed governor of <placeName ref="#Reading_city">Reading, Berkshire</placeName>. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName> and was found guilty of regicide. Through the inaction of the House of Lords, he was not executed in <date when="1660">1660</date> but remained imprisoned until his death in <date when="1680">1680</date>.</note>
                   <note>
@@ -10753,11 +10977,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Martin_Lucy" sex="f">
                   <persName>
                      <surname>Martin</surname>
-                     <forename>
-                        <unclear>
-                           <supplied>Lucy</supplied>
-                        </unclear>
-                     </forename>
+                     <forename cert="low">Lucy</forename>
                   </persName>
                   <occupation>beer retailer</occupation>
                   <note resp="#scw">Lived in <placeName ref="#ThreeMileCross">Three Mile
@@ -11400,9 +11620,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="MRM_maledog_pet" sex="m">
-                  <persName>
-                     <unclear/>
-                  </persName>
                   <note resp="#lmw">An unnamed male dog owned by Mitford in 1819 (a different dog
                      from the female greyhound
                      Miranda).<!-- LMW:  could this be "Mast," above? --></note>
@@ -11729,6 +11946,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Thomas Orger in July 1804. Performed at Drury Lane and Covent Garden. See
                         "Mrs. Orger." The Biography of the British Stage. New York: Collins and
                         Hannay, 1824. 187-188.</p>
+                  </note>
+               </person>
+               <person xml:id="OttoII" sex="m">
+                  <persName>Otto II of Wittelsbach</persName>
+                  <persName>
+                     <forename>Otto</forename>
+                  </persName>
+                  <persName>
+                     <roleName>Duke of Bavaria</roleName>
+                     <roleName>Count Palatine of the Rhine</roleName>
+                  </persName>
+                  <birth when="1206-04-07">
+                     <placeName>Kelheim, Bavaria, German states</placeName>
+                  </birth>
+                  <death when="1253-11-29">
+                     <placeName>Landshut, Bavaria, German states</placeName>
+                  </death>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#lmw">House of Wittelsbach, Bavaria, known as <q>Otto the Illustrious;</q> historical figure who is the subject of <title ref="#Otto_Babo">Otto von Wittelsbach</title> and <title ref="#Otto">Otto of Wittelsbach</title>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/52500217"/>
                   </note>
                </person>
                <person xml:id="Otway_Thos" sex="m">
@@ -12404,7 +12642,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="trade" subtype="liquor"/>
                   <occupation type="military" subtype="army"/>
-                  <occupation type="government" subtype="politician administrator"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="administrator"/>
                   <note resp="#rnes">Pride was a Parliamentary general during the <rs type="event" ref="#EngCivilWar">Civil Wars</rs>. He was responsible for carrying out <soCalled>Pride's Purge</soCalled> of Parliament in 1648, which ended the Long Parliament and marked the start of the Rump Parliament who tried <persName ref="#ChasI">Charles I</persName>. He was one of the signers of the death warrant of <persName ref="#ChasI">Charles I</persName> and was posthumously found guilty of regicide.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/52041108"/>
@@ -12490,7 +12729,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1669-09-10">
                      <placeName>Château de Colombes, Colombes, France</placeName>
                   </death>
-                  <occupation type="government" subtype="monarch courtier"/>
+                  <occupation type="government" subtype="monarch"/>
+                  <occupation type="government" subtype="courtier"/>
                   <note resp="#lmw">Daughter of Henry IV of France and Marie de Medici. House of Bourbon. Spouse of <persName ref="#ChasI">Charles I</persName> and mother of <persName ref="#ChasII">Charles II</persName> and <persName ref="#JamesII">, she was called Maria or Mary while in England.</persName>
                   </note>
                   <note>
@@ -13434,19 +13674,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      military officer.<!-- expand.   LMW --></note>
                </person>
                <person xml:id="Shakespeare" sex="m">
+                  <persName>William Shakespeare</persName>
                   <persName>
                      <surname>Shakespeare</surname>
                      <forename>William</forename>
                   </persName>
-                  <birth when="1564-04"> Probably born April 21-23, the 23rd has been the usually
-                     assumed date. <placeName>Stratford upon Avon</placeName>
+                  <birth when="1564-04">
+                     <placeName>Stratford upon Avon, Warwickshire, England</placeName>
                   </birth>
                   <death when="1616-04-23">
-                     <placeName>Stratford upon Avon</placeName>
+                     <placeName>Stratford upon Avon, Warwickshire, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <note type="bio" resp="#lmw">
-                     <p>English author and actor (1564-1616)</p>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#lmw">Renaissance-era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain’s Men and author or co-author of 38 plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the Introduction to her <title level="m" ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: <quote>It is the privilege of English people to grow up [ . . . ] in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart.</quote>
+                  </note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/96994048"/>
                   </note>
                </person>
                <person xml:id="Sheffield_John" sex="m">
@@ -13533,9 +13778,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Sherwood_Mr" sex="m">
                   <persName>
                      <surname>Sherwood</surname>
-                     <forename>
-                        <supplied>Thomas</supplied>
-                     </forename>
+                     <forename cert="low">Thomas</forename>
                   </persName>
                   <occupation>doctor</occupation>
                   <note type="bio" resp="#scw">Practiced medicine in <placeName ref="#Reading_city">Reading</placeName>. <!--scw: no further info from Needham.-->He was a
@@ -13920,7 +14163,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Palazzo Muti, Rome, States of the Church</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="government" subtype="courtier politician"/>
+                  <occupation type="government" subtype="courtier"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#rnes #jgf #lmw">The famously beautiful son of the <persName ref="#James_oldPretender">
                         <soCalled>Old Pretender</soCalled> (James, son of the deposed King James II)</persName>, Charles Edward Stuart (also known as <soCalled>the Young Pretender</soCalled> and <soCalled>Bonnie Prince Charlie</soCalled> staged an invasion of Scotland in 1745. The resulting Jacobite Wars resulted in Stuart's decisive defeat at the Battle of Culloden (1746) and his evacuation, in female disguise, to the Isle of Skye, and eventual Continental exile. His death ended the Jacobite attempts to recover the British crown.</note>
                   <note>
@@ -14216,44 +14460,82 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </title>. <date when="2013-03-13">13 March 2013</date>. See <ref target="https://unearthingourvillage.wordpress.com/page/4/"/>.</note>
                </person>
                <person xml:id="Thackeray_TJ" sex="m">
-                  <persName>Thomas James (T.J.) Thackeray</persName>
-                  <occupation>musician</occupation>
-                  <note type="bio" resp="#lmw">
-                     <p> (1795?-1850?) British musician and librettist/lyricist. Wrote <bibl>
-                           <title>The Mountain Sylph</title> (two-act opera, <date>1834</date>) with
-                              <persName>John Barnett</persName> (1809-1890)</bibl>. Also write <bibl>
-                           <title>My Wife or My Place, A Petite Comedy in Two Acts</title>
+                  <persName>Thomas James Thackeray</persName>
+                  <persName>
+                     <forename>Thomas</forename>
+                     <forename>James</forename>
+                     <surname>Thackeray</surname>
+                  </persName>
+                  <persName>
+                     <addName>T. J. Thackeray</addName>
+                  </persName>
+                  <birth notAfter="1796"/>
+                  <death notBefore="1850"/>
+                  <occupation type="theater" subtype="musician"/>
+                  <occupation type="theater" subtype="composer"/>
+                  <note resp="#lmw">Musician and librettist/lyricist. Wrote <bibl>
+                        <bibl>
+                           <title level="m">The Mountain Sylph</title> (two-act opera, <date>1834</date>) with
+                        <persName>John Barnett</persName>
+                        </bibl> (1809-1890)</bibl>. Also wrote <bibl>
+                        <bibl>
+                           <title level="m">My Wife or My Place, A Petite Comedy in Two Acts</title>
                               (<date>1831</date>) with <persName>Charles Shannon</persName>
-                        </bibl>.</p>
+                        </bibl>
+                     </bibl>.
+                  </note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/41990845"/>
+                  </note>
+               </person>
+               <person xml:id="Thackeray_WM" sex="m">
+                  <persName>William Makepeace Thackeray</persName>
+                  <persName>
+                     <surname>Thackeray</surname>
+                     <forename>William</forename>
+                     <forename>Makepeace</forename>
+                  </persName>
+                  <birth when="1811-07-18">
+                     <placeName>Calcutta, British India</placeName>
+                  </birth>
+                  <death when="1863-12-24">
+                     <placeName>London, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="government" subtype="orator"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#lmw">English journalist, novelist, editor, amateur artist, and lecturer. He wrote for Fraser's Magazine and Punch, wrote book reviews for The Times, and later edited the Cornhill Magazine. Author of the novels Vanity Fair, <title ref="#Pendennis_WT">Pendennis</title>, The Newcomes and The History of Henry Esmond. One of the most recognizable literary celebrities of the mid-Victorian period, after Charles Dickens. As did Dickens, he lectured in both Britain and the United States.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/95208604"/>
                   </note>
                </person>
                <person xml:id="Thelwall_John" sex="m">
+                  <persName>John Thelwall</persName>
                   <persName>
                      <surname>Thelwall</surname>
                      <forename>John</forename>
                   </persName>
                   <birth when="1764-07-27">
-                     <placeName>London</placeName>
+                     <placeName>Covent Garden, London, England</placeName>
                   </birth>
                   <death when="1834-02-17">
-                     <placeName>Bath</placeName>
+                     <placeName>Bath, Somerset, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>journalism</occupation>
-                  <occupation>education</occupation>
-                  <note type="bio" resp="#scw">Radical political writer, lecturer, poet, and
-                     novelist, who was associated with the <orgName>London Corresponding
-                        Society</orgName>, as well as <persName ref="#Wordsworth_Wm">William
-                        Wordsworth</persName> and <persName ref="#Coleridge_ST">Samuel Taylor
-                        Coleridge</persName>in their early years. He, along with <persName>John
-                        Horne Tooke</persName> and <persName>Thomas Hardy</persName>, was tried for
-                     treason in 1794, and was acquitted. After being hounded out of a prominent
-                     political life by government repressions against radical activity, <persName ref="#Thelwall_John">Thelwall</persName>became a teacher of elocution, but
-                     he continued to write about politics and to publish. In later life, he
-                     published a short-lived journal entitled <bibl>
-                        <title>Panoramic Miscellany</title>
-                     </bibl>, to which <persName ref="#MRM">Mitford</persName>contributed three
-                     country sketches.</note>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="educator"/>
+                  <occupation type="government" subtype="orator"/>
+                  <note type="bio" resp="#scw">Radical political writer, lecturer, poet, and novelist, who was associated with the <orgName>London Corresponding Society</orgName>, as well as <persName ref="#Wordsworth_Wm">William Wordsworth</persName> and <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName>in their early years. He, along with <persName>John Horne Tooke</persName> and <persName>Thomas Hardy</persName>, was tried for treason in 1794, and was acquitted. After being hounded out of a prominent political life by government repressions against radical activity, Thelwall became a teacher of elocution, but he continued to write about politics and to publish. In later life, he published a short-lived journal entitled <bibl>
+                        <title level="j">Panoramic Miscellany</title>
+                     </bibl>, to which <persName ref="#MRM">Mitford</persName>contributed three country sketches.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/37726570"/>
+                  </note>
                </person>
                <person xml:id="Thomson_Hugh" sex="m">
                   <persName>
@@ -15598,7 +15880,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>King of Israel and Judah</roleName>
                   </persName>
                   <occupation type="religious"/>
-                  <occupation type="government" subtype="monarch courtier"/>
+                  <occupation type="government" subtype="monarch"/>
+                  <occupation type="government" subtype="courtier"/>
                   <occupation type="military" subtype="army"/>
                   <occupation type="literary"/>
                   <note resp="#rnes">
@@ -15711,8 +15994,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#rnes">Apocryphal <title ref="#OldTestament_Bible">Old Testament</title> prophet from the Christian Bible; he related his visions to <persName ref="#David_OT">King David</persName>.</note>
                </person>
                <person xml:id="Peter_NT" sex="m">
-                  <persName>Peter
-                  </persName>
+                  <persName>Peter</persName>
                   <persName>Simon Peter</persName>
                   <occupation type="trade" subtype="fisherman"/>
                   <occupation type="religious"/>
@@ -25474,7 +25756,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </title> in <date when="1830">1830</date>. It had been previously published in the giftbook <title ref="#Friendships_Off">Friendship's Offering</title> for <date when="1829">1829</date>.</note>
                </bibl>
                <bibl xml:id="Pendennis_WT">
-                  <title>The History of Pendennis: His Fortunes and Misfortunes, His Friends and His Greatest Enemy</title>
+                  <title level="m">The History of Pendennis: His Fortunes and Misfortunes, His Friends and His Greatest Enemy</title>
                   <author ref="#Thackeray_WM"/>
                   <publisher>Bradbury and Evans</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
@@ -25482,9 +25764,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="Peoples_Charter">
                   <title level="m">People's Charter</title>
-                  <author>
-                     <persName ref="#Lovett_Wm">William Lovett</persName>
-                  </author>
+                  <author ref="#Lovett_Wm">William Lovett</author>
                   <pubPlace>London</pubPlace>
                   <publisher>London Working Men's Association</publisher>
                   <date when="1838">1838</date>
@@ -25494,9 +25774,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Reliques of Ancient English Poetry, consisting of Old Heroic Ballads,
                      Songs, and other Pieces of our Earlier Poets, Together with Some of Later
                      Date</title>
-                  <author>
-                     <persName ref="#Percy_Thos">Thomas Percy</persName>
-                  </author>
+                  <author ref="#Percy_Thos">Thomas Percy</author>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <publisher>J. Dodsley</publisher>
                   <date when="1765">1765</date>
@@ -27868,8 +28146,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="ShelleyPB_ReimanEd">
                   <title>Shelley's Poetry and Prose</title>
-                  <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T18:14:18.906-04:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 2095. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+                  <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T20:22:12.502-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 2100. First digital edition in TEI P5, launched on 19 August 2013.</edition>
                   <author>
                      <persName ref="#Shelley_PB">Percy Bysshe Shelle1y</persName>
                   </author>
