@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -52,7 +55,7 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
-            <change when="2019-5-28" who="#ebb">Updated to migrate several students to past assistants, and to add Don Ulin to consultants. Noted issue with lmw's previous XSLT transformation expanding default attributes. This new SI output removes the default attributes.</change>
+            <change when="2019-05-28" who="#ebb">Updated to migrate several students to past assistants, and to add Don Ulin to consultants. Noted issue with lmw's previous XSLT transformation expanding default attributes. This new SI output removes the default attributes.</change>
             <change when="2019-05-27" who="#lmw">Updated Site Index with new and revised entries from Charles I, Rienzi, and Finden's Tableaux.</change>
             <change when="2019-05-18" who="#ebb">Updated SI entries from old 2017 lists, updated editing team bios.</change>
             
@@ -3036,6 +3039,49 @@
                </org>
             </listOrg>
             <listPerson sortKey="histPersons">
+               <person xml:id="Home_John" sex="m">
+                  <persName>John Home</persName>
+                  <persName>
+                     <surname>Home</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1722-09-13">
+                     <placeName>Scotland</placeName>
+                  </birth>
+                  <death when="1808-09-04">
+                     <placeName>Edinburgh, Scotland</placeName>
+                  </death>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="religious" subtype="minister"/>
+                  <note resp="#lmw">Scottish clergyman and playwright, author of the tragedy <title ref="#Douglas_play">Douglas</title>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/49234619"/>
+                  </note>
+               </person>
+               <person xml:id="Austen_Jane" sex="f">	
+                  <persName>Jane Austen</persName>	
+                  <persName>	
+                     <forename>Jane</forename>	
+                     <surname>Austen</surname>	
+                  </persName>	
+                  <birth when="1775-12-16">	
+                     <placeName>Steventon, Hampshire, England</placeName>	
+                  </birth>	
+                  <death when="1817-07-18">	
+                     <placeName>Winchester, Hampshire, England</placeName>	
+                  </death>	
+                  <occupation type="literary"/>	
+                  <occupation type="literary" subtype="novelist"/>	
+                  <note resp="#ebb #rnes">Novelist celebrated for her wit and style, whose works investigated women's social and economic vulnerabilities in English society. During her lifetime she published anonymously.<bibl>	
+                     <title>Sense and Sensibility</title> (<date when="1811">1811</date>)</bibl>, <bibl>	
+                        <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> (<date>1813</date>)</bibl>, <bibl>	
+                           <title level="m">Mansfield Park</title> (<date when="1814">1814</date>)</bibl>, and <bibl>	
+                              <title level="m" ref="#Emma_JA">Emma</title> (<date when="1815">1815</date>)</bibl>, all anonymously. <bibl>	
+                                 <title level="m">Northanger Abbey</title>, the first written of her novels (<date from="1798" to="1799">composed in 1798-1799</date>)</bibl> was published posthumously in 1818 (the title was chosen by surviving family) along with her final completed novel, <title>Persuasion</title>. <rs type="letter">	
+                                    <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>	
+                                 </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:—but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L’Estrange</bibl>.</note>	
+                  <note><ref target="http://viaf.org/viaf/102333412"/></note>	
+               </person>
                <person xml:id="Acerbi_J" sex="m">
                   <persName>Joseph Acerbi</persName>
                   <persName>
@@ -6114,11 +6160,6 @@
                      <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>
                   </persName>
                   <occupation>beer retailer</occupation>
-                  <occupation>
-                     <unclear>
-                        <supplied resp="#scw">butcher</supplied>
-                     </unclear>
-                  </occupation>
                   <note resp="#scw">Noted by <persName ref="#Needham_Francis">Needham</persName> as
                      a beer retailer and possibly a butcher. His source is the 1847 <bibl corresp="#PO_BerkshireDir">
                         <title>Post Office Directory of Berkshire</title>
@@ -6319,7 +6360,10 @@
                   <death when="1870-06-09">
                      <placeName>Higham, Kent, England</placeName>
                   </death>
-                  <occupation type="literary" subtype="journalist novelist essayist editor"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
                   <occupation type="theater"/>
                   <note resp="#lmw">English journalist and editor, novelist, and lecturer. Considered one of the most important novelists of the Victorian era.</note>
                   <note>
@@ -8007,9 +8051,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Goodchild_J" sex="m">
                   <persName>
                      <surname>Goodchild</surname>
-                     <forename>
-                        <supplied>Joseph</supplied>
-                     </forename>
+                     <forename cert="low">Joseph</forename>
                   </persName>
                   <occupation>farmer at <placeName>Hill house farm</placeName>, <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>
                   </occupation>
@@ -8774,8 +8816,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Petergate House, York, Yorkshire, England</placeName>
                   </death>
                   <occupation type="military" subtype="army"/>
-                  <occupation type="government" subtype="courtier administrator"/>
-                  <occupation type="literary" subtype="autobiographer essayist"/>
+                  <occupation type="government" subtype="courtier"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <note resp="#lmw">Herbert was a <orgName ref="#Parliamentarians">Parliamentarian</orgName> during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>. He served as <persName ref="#ChasI">Charles I</persName>'s Gentleman of the Bedchamber from 1647 to 1649, during the King's imprisonment. In the 1650s he followed the <orgName ref="#New_Model_Army">New Model Army</orgName> to Ireland, where he served in several governmental posts. He returned to England after the <rs type="event" ref="#Restoration">Restoration</rs> and received a baronetcy from <persName ref="#ChasII">Charles II</persName>. Historical opinion was divided on his loyalty to <persName ref="#ChasI">Charles I</persName>; while the <orgName ref="#Parliamentarians">Parliamentarian</orgName>s clearly believed him to be loyal to their cause in the 1640s and 1650s, in <date when="1678">1678</date> he published a memoir covering the time of his service to <persName ref="#ChasI">Charles</persName> in which he portrays himself as extremely loyal to the monarchy.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/44605253"/>
@@ -9174,7 +9218,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <birth when="1942-12-13">
                      <placeName>Portsmouth, Hampshire, England</placeName>
                   </birth>
-                  occupation type="literary" subtype="playwright"/&gt;
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#rnes">Contemporary British playwright, most famous for the deeply controversial drama <title>The Romans in Britain</title> (1980), a historical allegory that critiqued the British occupation of Northern Ireland by paralleling it with the Roman Invasion and depicted rape in the context of war. He also wrote <title ref="#_55Days_play">55 Days</title> (2012), a dramatization of the events between the <orgName ref="#New_Model_Army">New Model Army</orgName>'s conquest of London and the execution of <persName ref="#ChasI">Charles I</persName>. The original production, at London's Hampstead Theatre, starred the writer <persName>Mark Gatiss</persName> as Charles and <persName>Douglas Henshall</persName> as Oliver Cromwell. Modern costumes (in the original production) and language support this play's promotion of contemporary British consideration of a republican political reformation, a possibility later explored far more directly in <title>Mike Bartlett's play King Charles III</title>, which premiered at the Almeida Theatre in 2017.</note>
                   <note>
                      <ref target="https://viaf.org/viaf/66476558"/>
@@ -9351,7 +9395,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1681">
                      <placeName>Owthorpe, Nottinghamshire, England</placeName>
                   </death>
-                  <occupation type="literary" subtype="biographer poet translator"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="translator"/>
                   <occupation type="scholar"/>
                   <note resp="#rnes">
                      <p>An exceptionally well-educated and self-assured early modern woman whose literary achievements are extremely significant. Her works include the first complete English translation of Lucretius's controversial Epicurean poem <title>De Rerum Natura</title> (in ms. only until 2012), the epic poem <title>Order and Disorder</title>, which has been read as a proto-feminist take on Genesis that invites comparison with her contemporary <title ref="#ParadiseLost">John Milton's Paradise Lost</title>, and her <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Memoirs of the Life of Colonel John Hutchinson</title>, a biography of her husband that brings to life the drama of the <rs type="event" ref="#EngCivilWar">Civil Wars</rs> and the idealism of the Puritans, particularly for religious liberty and republican government. This work, published in 1806, is the only Lucy Hutchinson composition that was known as such during <persName ref="#MRM">Mitford</persName>'s lifetime.</p>
