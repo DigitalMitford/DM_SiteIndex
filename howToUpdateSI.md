@@ -30,7 +30,7 @@ These instructions are meant to guide Digital Mitford team editors through the p
 Next, open the files you want to work with in oXygen in side-by-side tile view. 
 1. Open the file whose entries you wish to add to the SI.
 1. Open the **current version of the SI** by using `File > Open URL` in oXygen, and type in: `https://digitalmitford.org/si.xml` to open the current version as published on our website. 
-1. Save the published SI file locally inside `DM_SiteIndex/si_Full_IP` as `si-local.xml`. This is the in-progress directory for editing the site index. Always do your editing in `si-local.xml`. 
+1. Save the published SI file locally inside `DM_SiteIndex/si_Full_IP` as `si-local.xml`. This is the in-progress directory for editing the site index. Always add your edits and new entries to the `si-local.xml` that you save here (and not to the old, outdated `si.xml` in the repo.)  
 1. Tile editors next to each other in oXygen by going to `Window > Tile Editors Vertically`.  Now you have prepared your oXygen workspace. Be sure to click in the file in the window you want to use Find or the XPath window and navigate it. 
 1. Notice that (for the moment, in summer 2019), the pair of active schema lines of the `si-local.xml` file are *different* from those you are using in the SI-ADD file. This is because the occupation elements in the full site index are mostly not up to our current schema specs. We will fix those in a later stage of the project. For now, in order to catch *meaningful* errors that we can too easily make in the editing process, the schema lines on si-local should be either:
    
