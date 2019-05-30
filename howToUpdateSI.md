@@ -71,7 +71,7 @@ When you finish adding all the entries in the SI-ADD file you were working with,
 
 ### IMPORTANT: Update `catalogue.xml` in `si_Add_Staged` directory as files change
 
-As you remove files and add new ones to si_Add_Staged directory, be sure you change the file names listed in the `catalogue.xml` file in that directory! If we forget to do this, the Digital Mitford project schema won't know how to search for staged `xml:ids` and the project schema fires mysterious errors. 
+As you remove files and add new ones to si_Add_Staged directory, be sure you change the file names listed in the `catalogue.xml` file in that directory! If we forget to do this, the Digital Mitford project schema won't know how to search for staged `xml:ids` and the project schema fires mysterious errors for our editing team. 
 
 ### De-duping (dealing with duplicate entries)
 
@@ -80,10 +80,13 @@ In the process of editing the site index, you may locate duplicate entries there
 2. Write an Issue on the `DM_SiteIndex` web repo pinging `@ebeshero` about these, indicating the conflicting `@xml:id`s . She will check to see which of these are being referenced in project files and help resolve which is the best for us to keep. Wait for her response before finalizing the newly edited version of the SI. (You can keep going in revising and adding new entries, but leave a note for yourself to go back and resolve the issue with the duplicate entries entries.)
 3. When ready to resolve the duplicate entries, carefully(!) review their code. Each entry may contain valuable information that is absent in the other entry. Be sure to preserve the distinct information from each entry before eliminating an entry in the `si-local.xml` file. 
 
-## Finalizing the updated Site Index: from `si-local.xml` to `si.xml`
+## Finalizing the updated Site Index: from `si-local.xml` to `si.xml` with AlphaSort.xsl
+
+When you have completed a stage of work and want to generate a new issue of the site index, it's time to wrap up your work. Here is an overview of what needs to be done (details follow):
+* Save `si-local.xml` in the `si_Full_Staged` directory (if you haven't been saving it there already).  
+* Click the checkmark to refresh validation on `si-local.xml` and watch the errors. (Be sure that the `si-local.xml` file has the distinct schema lines that ignore occupation code so you can see serious errors.) Correct all serious errors revealed by validation. Push your changes to GitHub.
+* Visit TEI header on the `si-local.xml` file to update the `<revisionDesc>` (last big element in the TEI header) to add an explanation of your work to the change log there. Push your changes to GitHub.
+* Run `AlphaSort.xsl` (from the `xslt` directory) to alphabetically sort the newly added entries and set a new count of all entries. Output the results of this XSLT as `si.xml` and save in the same `si_Full_Staged` directory. NOTE: If the XSLT transformation does not succeed it will be because the `si-local.xml` file is not well-formed XML due to errors introduced in the editing process that have gone unseen. (Sometimes this happens because the site index file is very lengthy and schema validation takes a long time to catch problems.) XSLT will catch them instantly, because it cannot run over XML that is not well formed.  
 
 
 
-Notes for development of these instructions: As a last stage of the process, you will run `alphasort.xslt` XSLT over the `si-local.xml` file to output `si.xml`. If the XSLT transformation does not succeed it will be because the `si-local.xml` file is not well-formed XML due to errors introduced in the editing process that have gone unseen. (Sometimes this happens because the site index file is very lengthy and schema validation takes a long time to catch problems.) XSLT will catch them instantly, because it cannot run over XML that is not well formed.  
-
-I need to map out the steps for processing the XSLT. (Watch the space!)
