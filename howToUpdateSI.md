@@ -77,7 +77,7 @@ As you remove files and add new ones to si_Add_Staged directory, be sure you cha
 
 In the process of editing the site index, you may locate duplicate entries there. When that happens: 
 1. Record the duplicate `@xml:id`s, and the duplicate entry names/titles/etc in the current SI file. 
-2. Write an Issue on the `DM_SiteIndex` web repo pinging `@ebeshero` about these, indicating the conflicting `@xml:id`s . She will check to see which of these are being referenced in project files and help resolve which is the best for us to keep. Wait for her response before finalizing the newly edited version of the SI. (You can keep going in revising and adding new entries, but leave a note for yourself to go back and resolve the issue with the duplicate entries entries.)
+2. [Write an Issue]((https://github.com/DigitalMitford/DM_SiteIndex/issues)) on the `DM_SiteIndex` web repo pinging `@ebeshero` about these, indicating the conflicting `@xml:id`s . She will check to see which of these are being referenced in project files and help resolve which is the best for us to keep. Wait for her response before finalizing the newly edited version of the SI. (You can keep going in revising and adding new entries, but leave a note for yourself to go back and resolve the issue with the duplicate entries entries.)
 3. When ready to resolve the duplicate entries, carefully(!) review their code. Each entry may contain valuable information that is absent in the other entry. Be sure to preserve the distinct information from each entry before eliminating an entry in the `si-local.xml` file. 
 
 ## Finalizing the updated Site Index: from `si-local.xml` to `si.xml` with AlphaSort.xsl
@@ -98,7 +98,8 @@ To run XSLT, you need to change to the XSLT view in oXygen, by finding and click
 * Click the big blue button in the middle to transform the file. 
 * The output window doesn't check whether the output is valid, so actually go and open the newly saved `si.xml` in oXygen, and wait for it to validate to be sure it is behaving the same way that the `si-local.xml` file did. 
 * Add, commit, and push your work to GitHub!
-* Finally, ping @ebeshero by opening an Issue on the `DM_SiteIndex` web repo to let Elisa know the Site Index is ready for posting and processing through the Digital Mitford ODD project schema. 
+* Finally, ping @ebeshero by [opening an Issue](https://github.com/DigitalMitford/DM_SiteIndex/issues) on the `DM_SiteIndex` web repo to let Elisa know the Site Index is ready for posting and processing through the Digital Mitford ODD project schema. 
+* Lastly, delete the (by now empty) `SI-ADD` file you were working with if you didn't do so already, and update `catalogue.xml` in the `si_Add_Staged` directory to reflect the current listing of SI-ADD files staged in this repo. This ensures that the Digital Mitford project schema can read those files and function properly for the editing team. 
 
 Congratulations! Take a moment to celebrate that you’ve updated the Digital Mitford Site Index! You have made the semantic web a better place today! :-)
 
