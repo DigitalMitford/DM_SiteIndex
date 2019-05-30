@@ -75,7 +75,7 @@ As you remove files and add new ones to si_Add_Staged directory, be sure you cha
 
 In the process of editing the site index, you may locate duplicate entries there. When that happens: 
 1. Record the duplicate `@xml:id`s, and the duplicate entry names/titles/etc in the current SI file. 
-2. [Write an Issue]((https://github.com/DigitalMitford/DM_SiteIndex/issues)) on the `DM_SiteIndex` web repo pinging `@ebeshero` about these, indicating the conflicting `@xml:id`s . She will check to see which of these are being referenced in project files and help resolve which is the best for us to keep. Wait for her response before finalizing the newly edited version of the SI. (You can keep going in revising and adding new entries, but leave a note for yourself to go back and resolve the issue with the duplicate entries entries.)
+2. [Write an Issue](https://github.com/DigitalMitford/DM_SiteIndex/issues) on the `DM_SiteIndex` web repo pinging `@ebeshero` about these, indicating the conflicting `@xml:id`s . She will check to see which of these are being referenced in project files and help resolve which is the best for us to keep. Wait for her response before finalizing the newly edited version of the SI. (You can keep going in revising and adding new entries, but leave a note for yourself to go back and resolve the issue with the duplicate entries entries.)
 3. When ready to resolve the duplicate entries, carefully(!) review their code. Each entry may contain valuable information that is absent in the other entry. Be sure to preserve the distinct information from each entry before eliminating an entry in the `si-local.xml` file. 
 
 ## Finalizing the updated Site Index: from `si-local.xml` to `si.xml` with AlphaSort.xsl
