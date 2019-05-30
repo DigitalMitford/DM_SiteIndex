@@ -103,11 +103,11 @@ To run XSLT, you need to change to the XSLT view in oXygen, by finding and click
 * The output window doesn't check whether the output is valid, so actually go and open the newly saved `si.xml` in oXygen, and wait for it to validate to be sure it is behaving the same way that the `si-local.xml` file did. 
 
 ## I. Wrapping up: GitHub tasks to conclude the process
-1. Add, commit, and push your work to GitHub!
-1. Finally, ping @ebeshero by [opening an Issue](https://github.com/DigitalMitford/DM_SiteIndex/issues) on the `DM_SiteIndex` web repo to let Elisa know the Site Index is ready for posting and processing through the Digital Mitford ODD project schema. 
+1. **Add**, **commit**, and **push** your work up to this point to GitHub.
+1. Ping @ebeshero by [opening an Issue](https://github.com/DigitalMitford/DM_SiteIndex/issues) on the `DM_SiteIndex` web repo to let Elisa know the Site Index is ready for posting and processing through the Digital Mitford ODD project schema. 
 1. Delete the (by now empty) `SI-ADD` file you were working with if you didn’t do so already. 
 1. Update `catalogue.xml` in the `si_Add_Staged` directory to reflect the current listing of SI-ADD files staged in this repo. This ensures that the Digital Mitford project schema can read those files and function properly for the editing team. 
-1. Lastly, add, commit, and push these changes to GitHub to update the `DM_SiteIndex` repo.
+1. Lastly, **add**, **commit**, and **push** these last changes to GitHub to clean up and thoroughly update the `DM_SiteIndex` repo.
 
 Congratulations! Take a moment to celebrate that you’ve updated the Digital Mitford Site Index! You have made the semantic web a better place today! :-)
 
