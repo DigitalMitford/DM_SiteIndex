@@ -86,7 +86,21 @@ When you have completed a stage of work and want to generate a new issue of the 
 * Save `si-local.xml` in the `si_Full_Staged` directory (if you haven't been saving it there already).  
 * Click the checkmark to refresh validation on `si-local.xml` and watch the errors. (Be sure that the `si-local.xml` file has the distinct schema lines that ignore occupation code so you can see serious errors.) Correct all serious errors revealed by validation. Push your changes to GitHub.
 * Visit TEI header on the `si-local.xml` file to update the `<revisionDesc>` (last big element in the TEI header) to add an explanation of your work to the change log there. Push your changes to GitHub.
-* Run `AlphaSort.xsl` (from the `xslt` directory) to alphabetically sort the newly added entries and set a new count of all entries. Output the results of this XSLT as `si.xml` and save in the same `si_Full_Staged` directory. NOTE: If the XSLT transformation does not succeed it will be because the `si-local.xml` file is not well-formed XML due to errors introduced in the editing process that have gone unseen. (Sometimes this happens because the site index file is very lengthy and schema validation takes a long time to catch problems.) XSLT will catch them instantly, because it cannot run over XML that is not well formed.  
+* Run `AlphaSort.xsl` (from the `xslt` directory) to alphabetically sort the newly added entries and set a new count of all entries. Output the results of this XSLT as `si.xml` and save in the same `si_Full_Staged` directory. NOTE: If the XSLT transformation does not succeed it will be because the `si-local.xml` file is not well-formed XML due to errors introduced in the editing process that have gone unseen. (Sometimes this happens because the site index file is very lengthy and schema validation takes a long time to catch problems.) XSLT will catch such problems instantly, because it cannot run over XML that is not well formed.  
+
+To run XSLT, you need to change to the XSLT view in oXygen, by finding and clicking on the XSLT debugger button in the top right corner. What you need to set is marked in the graphic below:
+
+![Image of XSLT view in oXygen](ExplainXSLT_oXygenView.png)
+
+* In the graphic, we've selected the Saxon PE parser, but I'd recommend Saxon EE for this. 
+* You need to select the correct XML filename you wish to process in the `XML:` box (it doesn't matter which XML file's code appears visible on the screen).* You need to select the correct XSLT filename you wish to run the transformation in the `XSL:` box.
+* In the `Output` box, be very careful: Click the folder next to it to browse to the GitHub directory where you want to save the `si.xml` file: this is the same directory where `si-local.xml` is right now, the `si_Full_Staged` directory in the `DM_SiteIndex` git directory on your computer. Type in `si.xml` as the filename you wish to save. If there's an older version of the `si.xml` file in place there, your transformation will overwrite it, and that's what we want to do.
+* Click the big blue button in the middle to transform the file. 
+* The output window doesn't check whether the output is valid, so actually go and open the newly saved `si.xml` in oXygen, and wait for it to validate to be sure it is behaving the same way that the `si-local.xml` file did. 
+* Add, commit, and push your work to GitHub!
+* Finally, ping @ebeshero by opening an Issue on the `DM_SiteIndex` web repo to let Elisa know the Site Index is ready for posting and processing through the Digital Mitford ODD project schema. 
+
+Congratulations! Take a moment to celebrate that you’ve updated the Digital Mitford Site Index! You have made the semantic web a better place today! :-)
 
 
 
