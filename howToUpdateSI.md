@@ -47,12 +47,10 @@ You will have two different kinds of SI alterations to make:
 a. edits to existing entries
 b. entirely new entries to add
 It may not always be clear which of these are you are working with. Always search the full SI carefully to be sure with a proposed “new” entry is really new. Here are some search tips:
-
-    * Search for a person by checking for the first few letters of the surname as an xml:id value. For example, if the surname is Dagwood, try searching with: `="Dag` *without* a closing quotation mark: This brings up any `@xml:ids` beginning with the string, "Dag".
-
-    * Try just `Dag` in the Find window
-    * Try an XPath in the Window, on `//surname[contains(., 'Dag')]`
-    * Try searching for parts of names or parts of titles, etc.
+* Search for a person by checking for the first few letters of the surname as an xml:id value. For example, if the surname is Dagwood, try searching with: **="Dag** *without* a closing quotation mark: This brings up any `@xml:ids` beginning with the string, "Dag".
+* Try just `Dag` in the Find window
+* Try an XPath in the Window, on `//surname[contains(., 'Dag')]`
+* Try searching for parts of names or parts of titles, etc.
 
 ### Keep your place, and push your work in stages
 
