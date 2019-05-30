@@ -1,9 +1,11 @@
 # How to update the site index (si.xml) for the Digital Mitford project
 
+These instructions are meant to guide Digital Mitford team editors through the process of updating our site index working with the [DM_SiteIndex GitHub repo](https://github.com/DigitalMitford/DM_SiteIndex). Click the checkboxes below as you complete a task, and clear the checks when you're finished. Note that only one Mitford editor at a time may work on this process—others must stay away from updating SI files in this repo until this process is complete. 
+
 ## Getting SI-ADD files ready
-1. Begin by staging file(s) containing entries to be added in the Digital Mitford Site Index repo: `DM_SiteIndex` in the `si_Add_Staged` directory. 
-1. At this point, you should alert Elisa and/or Lisa Wilson (using the Issues board on the `DM_SiteIndex` repo and pinging them at `@ebeshero` and/or `@lmwilson`) that you are starting work on the Site Index. NOTE: Only one person at a time should be altering site index files in the repo to prevent errors and merge conflicts. 
-1. Make sure the current SI ODD schema lines are associated with the SI-ADD file(s) so you can check things like the occupation elements for your new entries. These have the filename `si_ODD.rng` at the end of the file path, and always come in pairs (both are necessary for the schema to work). Check schema lines to make sure they are one of the following:
+- [ ] Begin by staging file(s) containing entries to be added in the Digital Mitford Site Index repo: `DM_SiteIndex` in the `si_Add_Staged` directory. 
+- [ ] At this point, you should alert Elisa and/or Lisa Wilson (using the Issues board on the `DM_SiteIndex` repo and pinging them at `@ebeshero` and/or `@lmwilson`) that you are starting work on the Site Index. NOTE: Only one person at a time should be altering site index files in the repo to prevent errors and merge conflicts. 
+- [ ] Make sure the current SI ODD schema lines are associated with the SI-ADD file(s) so you can check things like the occupation elements for your new entries. These have the filename `si_ODD.rng` at the end of the file path, and always come in pairs (both are necessary for the schema to work). Check schema lines to make sure they are one of the following:
 
 **SI schema lines for SI-ADD files, Version 1:** (published on the website and stable/canonical for SI checking):
   
@@ -19,12 +21,10 @@
 <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
-
-4. Be sure you have up-to-date versions of all files in the `DM_SiteIndex` repo. 
+- [ ] Be sure you have up-to-date versions of all files in the `DM_SiteIndex` repo. 
     * Open your git bash shell, navigate to the `DM_SiteIndex` repo (using `cd` to change directories and `ls` to list the contents of a directory). 
     * When you arrive at the directory, type in `git pull` to pull in the up to date versions of all files onto your local computer. 
-
-5. Next, open the files you want to work with in oXygen in side-by-side tile view. 
+- [ ] Next, open the files you want to work with in oXygen in side-by-side tile view. 
     * Open the file whose entries you wish to add to the SI.
     * Open the **current version of the SI** by using `File > Open URL` in oXygen, and type in: `https://digitalmitford.org/si.xml` to open the current version as published on our website. 
     * Save the published SI file locally inside `DM_SiteIndex/si_Full_IP` as `si-local.xml`. This is the in-progress directory for editing the site index. Always do your editing in `si-local.xml`. 
