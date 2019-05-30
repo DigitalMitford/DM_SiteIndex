@@ -47,6 +47,7 @@ Next, open the files you want to work with in oXygen in side-by-side tile view.
 
 ## D. Editing the si-local.xml file
 You will have two different kinds of SI alterations to make:
+
 a. edits to existing entries
 
 b. entirely new entries to add
