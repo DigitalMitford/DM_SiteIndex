@@ -1,6 +1,6 @@
 # How to update the site index (si.xml) for the Digital Mitford project
 
-These instructions are meant to guide Digital Mitford team editors through the process of updating our site index working with the [DM_SiteIndex GitHub repo](https://github.com/DigitalMitford/DM_SiteIndex). Click the checkboxes below as you complete a task, and clear the checks when you're finished. Note that only one Mitford editor at a time may work on this process—others must stay away from updating SI files in this repo until this process is complete. 
+These instructions are meant to guide Digital Mitford team editors through the process of updating our site index working with the [DM_SiteIndex GitHub repo](https://github.com/DigitalMitford/DM_SiteIndex). Click the checkboxes below as you complete a task, and clear the checks when you're finished. Note that only one Mitford editor at a time may work on this process—others must stay away from updating SI files in this repo until this process is complete. As you work through these instructions and want to propose changes or ask questions, please post on [this Issue on our repo](https://github.com/DigitalMitford/DM_SiteIndex/issues/7).
 
 ## Getting SI-ADD files ready
 - [ ] Begin by staging file(s) containing entries to be added in the Digital Mitford Site Index repo: `DM_SiteIndex` in the `si_Add_Staged` directory. 
