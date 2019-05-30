@@ -94,7 +94,7 @@ To run XSLT, you need to change to the XSLT view in oXygen, by finding and click
 
 * In the graphic, we've selected the Saxon PE parser, but I'd recommend Saxon EE for this. 
 * You need to select the correct XML filename you wish to process in the `XML:` box (it doesn't matter which XML file's code appears visible on the screen).* You need to select the correct XSLT filename you wish to run the transformation in the `XSL:` box.
-* In the `Output` box, be very careful: Click the folder next to it to browse to the GitHub directory where you want to save the `si.xml` file: this is the same directory where `si-local.xml` is right now, the `si_Full_Staged` directory in the `DM_SiteIndex` git directory on your computer. Type in `si.xml` as the filename you wish to save. If there's an older version of the `si.xml` file in place there, your transformation will overwrite it, and that's what we want to do.
+* In the `Output` box, *be very careful* to select the correct location for the output file: Click the folder next to it to browse to the GitHub directory where you want to save the `si.xml` file: this is the same directory where `si-local.xml` is right now, the `si_Full_Staged` directory in the `DM_SiteIndex` git directory on your computer. Type in `si.xml` as the filename you wish to save. If there's an older version of the `si.xml` file in place there, your transformation will overwrite it, and that's what we want to do.
 * Click the big blue button in the middle to transform the file. 
 * The output window doesn't check whether the output is valid, so actually go and open the newly saved `si.xml` in oXygen, and wait for it to validate to be sure it is behaving the same way that the `si-local.xml` file did. 
 * Add, commit, and push your work to GitHub!
