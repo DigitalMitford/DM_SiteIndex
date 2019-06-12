@@ -55,11 +55,12 @@
       <body>
 <!--LMW: started 2016-09-24 --> <!--LMW Finished and proofed by RN. 2017-06-30 -->
          <!--LMW: updated note cross refs 2017-07-23-->
+         <!--LMW: updating tagging 2019-06-12-->
          <div type="historical_people">
             <listPerson sortKey="histPersons">
                
                <person xml:id="Bacon" sex="m">
-                  <persName>Francis Bacon</persName>
+                  <persName>Sir Francis Bacon</persName>
                   <persName>
                      <forename>Francis</forename>
                      <surname>Bacon</surname>
@@ -82,7 +83,7 @@
                   <occupation type="government" subtype="politician"/>
                   <occupation type="scholar" subtype="philosopher"/>
                   <occupation type="scholar" subtype="naturalist"/>
-                  <note resp="#rnes">A writer and philosopher who made important methodological contributions to science, particularly championing empiricism. His philosophical works include the Novum Organum Scientiarum (New Organon), Advancement of Learning, Essays, and New Atlantis. A nephew of the powerful Elizabethan politician William Cecil, Lord Burleigh (or Burghley), he served as Member of Parliament for various constituencies at various times, as an advisor to Elizabeth's doomed favourite and failed usurper Robert Devereux, Earl of Essex, and as Attorney General and Lord Chancellor under James I. In 1621, he was prosecuted for corruption and barred from further public service. He has been controversially reputed to be homosexual, on the grounds that a fellow M.P. called one of his (Bacon's) servingmen "his catamite and bed-fellow." In 1845 (during Mitford's lifetime), this passage was published for the first time. <!--RN: fix wording and ask Mary Learner (UNC) if this is fair --></note>
+                  <note resp="#rnes">A writer and philosopher who made important methodological contributions to science, particularly championing empiricism. His philosophical works include the <title level="m">Novum Organum Scientiarum (New Organon)</title>, <title level="m">Advancement of Learning</title>, <title level="m">Essays</title>, and <title level="m">New Atlantis</title>. A nephew of the powerful Elizabethan politician William Cecil, Lord Burleigh (or Burghley), he served as Member of Parliament for various constituencies at various times, as an advisor to Elizabeth's doomed favourite and failed usurper Robert Devereux, Earl of Essex, and as Attorney General and Lord Chancellor under James I. In 1621, he was prosecuted for corruption and barred from further public service. He has been controversially reputed to be homosexual, on the grounds that a fellow M.P. called one of his (Bacon's) servingmen <q>his catamite and bed-fellow.</q> In 1845 (during Mitford's lifetime), this passage was published for the first time. <!--RN: fix wording and ask Mary Learner (UNC) if this is fair --></note>
                      <note>
                      <ref target="http://viaf.org/viaf/31992319"/>
                   </note>
@@ -104,9 +105,9 @@
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="theater"/>
                   <occupation type="literary" subtype="playwright"/>
-                  <note resp="#lmw #cmm #rnes">Successful playwright, authored <title>Poems: Wherein It Is Attempted to Describe Certain Views of Nature and of Rustic Manners</title> (<date when="1790">1790</date>) and more than twenty-five plays. Her best-known works are included in
-                        <title>Plays on the Passions</title> (<date when="1798">1798</date>) and were later collected in
-                        <title>The Dramatic and Poetical Works of Joanna Baillie</title>(<date when="1851">1851</date>). The sister of the physicians and scientists John and William Hunter and the daughter of a Professor of Divinity at the University of Glasgow, Baillie belonged to an important literary-scientific family that operated as a kinship coterie.</note>
+                  <note resp="#lmw #cmm #rnes">Successful playwright, authored <title level="m">Poems: Wherein It Is Attempted to Describe Certain Views of Nature and of Rustic Manners</title> (<date when="1790">1790</date>) and more than twenty-five plays. Her best-known works are included in
+                     <title level="m">Plays on the Passions</title> (<date when="1798">1798</date>) and were later collected in
+                     <title level="m">The Dramatic and Poetical Works of Joanna Baillie</title>(<date when="1851">1851</date>). The sister of the physicians and scientists John and William Hunter and the daughter of a Professor of Divinity at the University of Glasgow, Baillie belonged to an important literary-scientific family that operated as a kinship coterie.</note>
                   <note><ref target="http://viaf.org/viaf/56750310"/></note>
                </person>
                
@@ -124,7 +125,7 @@
                </person>
                
                <person xml:id="Bannister_Jack" sex="m">
-                  <persName>John "Jack" Bannister</persName>
+                  <persName>John (Jack) Bannister</persName>
                   <persName>
                      <surname>Bannister</surname>
                      <forename>John</forename>
@@ -137,19 +138,17 @@
                   <occupation type="theater"/>
                   <occupation type="theater" subtype="actor"/>
                   <occupation type="theater" subtype="manager"/>
-                  <note resp="#lmw">Actor who performed at Haymarket and Drury Lane. Specialized in low comic roles. Played Don Whiskerando in The Critic in 1779 and played Joseph Surface in The School for Scandal. Manager of Drury Lane from 1802 to 1815.<!--LMW: Mentioned in Michael Kelly's Memoirs. See John Adolphus, Memoirs of John Bannister (1838). -->
-                  </note>
+                  <note resp="#lmw">Actor who performed at Haymarket and Drury Lane. Specialized in low comic roles. Played Don Whiskerando in <title level="m">The Critic</title> in 1779 and played Joseph Surface in <title level="m">The School for Scandal</title>. Manager of <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> from 1802 to 1815.<!--LMW: Mentioned in Michael Kelly's Memoirs. See John Adolphus, Memoirs of John Bannister (1838). --></note>
                   <note><ref target="http://viaf.org/viaf/4054420"/></note>
                </person>
                
                <person xml:id="Barrett_E" sex="f">
                   <persName>Elizabeth Barrett Browning</persName>
                   <persName>
-                     <surname type="married">Barrett Browning</surname>
+                     <surname type="married">Browning</surname>
                      <surname type="paternal">Barrett Moulton-Barrett</surname>
                      <forename>Elizabeth</forename>
                   </persName>
-                  <persName>Elizabeth Barrett</persName>
                   <birth when="1806-03-06">
                      <placeName>Kelloe, Durham, England</placeName>
                   </birth>
@@ -214,7 +213,7 @@
                   <occupation type="theater"/>
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="literary" subtype="poet"/>
-                  <note resp="#rnes">Contributor to a corpus of plays published in the seventeenth century as the collaborative works of Beaumont and John Fletcher. Many of these plays are now thought to have been composed by only one of the duo, with or without a third author, or by neither. Perhaps the most famous Beaumont and Fletcher play is the ribald comedy The Knight of the Burning Pestle. Beaumont was also a poet and friend of Ben Jonson. He contributed prefatory verses to Jonson's comedy Volpone.</note>
+                  <note resp="#rnes">Contributor to a corpus of plays published in the seventeenth century as the collaborative works of Beaumont and John Fletcher. Many of these plays are now thought to have been composed by only one of the duo, with or without a third author, or by neither. Perhaps the most famous Beaumont and Fletcher play is the ribald comedy <title level="m">The Knight of the Burning Pestle</title>. Beaumont was also a poet and friend of Ben Jonson. He contributed prefatory verses to Jonson's comedy <title level="m">Volpone</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/49333217"/>
                   </note>
@@ -247,13 +246,12 @@
                </person>
                
                <person xml:id="Beechey_W" sex="m">
-                  <persName>William Beechey</persName>
+                  <persName>Sir William Beechey</persName>
                   <persName>
                      <forename>William</forename>
                      <surname>Beechey</surname>
                      <roleName>Sir</roleName>
-                <roleName>Member of thee Royal Academy (RA)</roleName>
-                  </persName>
+                 </persName>
                   <birth when="1753-12-12">
                      <placeName>Burford, Oxfordshire, England</placeName>
                   </birth>
@@ -283,7 +281,7 @@
                </person>
                
                <person xml:id="Bennet_G" sex="m">
-                  <persName>Henry "Grey" Bennet</persName>
+                  <persName>Henry (Grey) Bennet</persName>
                   <persName>
                      <surname>Bennet</surname>
                      <forename>Henry</forename>
@@ -291,11 +289,7 @@
                      <roleName>Honourable</roleName>
                   </persName>
                   <persName><addName>Grey Bennet</addName></persName>
-                  <persName>
-                    <roleName>Member of Parliament for Shrewsbury (MP)</roleName>
-                     <roleName>Fellow of the Royal Society (FRS)</roleName>
-                     <roleName>Fellow of the Royal Geographic Society (FGS)</roleName>
-                  </persName>
+                  
                   <birth when="1777-12-02"/>
                   <death when="1836-05-29">
                      <placeName>Lake Como, Italy</placeName>
@@ -349,26 +343,15 @@
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="trade" subtype="watchmaker"/>
-                  <note resp="#scw #ebb #lmw #rnes"><p>A friend of <persName ref="#MRM">Mitford</persName>'s late in her life, William Cox Bennett addressed a sonnet to her ("To Mary Russell Mitford" (526), and a poem entitled <title>"Lines Written in Miss Mitford's Garden" (483)
-                     </title>, both of which appeared in <bibl>his volume, <title>Poems (second edition)</title> of <date when="1862">1862</date>
-                     </bibl>. She is also mentioned alongside Wordsworth in his poem "The Modern Griselda" (85-101) in that volume. Married to <persName>Elizabeth Sinnock Bennett</persName> and younger sibling of <persName>Sir John Bennett</persName>.</p>
-                     <p>Cox organized the very Liberal political activity in
-                        <placeName>Greenwich</placeName>. In <date when="1868">1868</date> he helped stump for
-                        the Liberal <persName>William Gladstone</persName> in his first successful
-                        campaign for Prime Minister. He wrote for the <title>Weekly
-                           Dispatch</title> from <date when="1869">1869</date> to <date when="1870">1870</date>, contributed to the
-                        <bibl>
-                           <placeName ref="#London_city">London</placeName> paper,
-                           <title>Figaro</title>
-                        </bibl>, and edied of <bibl>the literary periodical, <title>The
-                           Lark</title>, from <date when="1883">1883</date> to <date when="1884">1884</date>
+                  <occupation type="government" subtype="politician"/>
+                  <note resp="#scw #ebb #lmw #rnes">Friend of <persName ref="#MRM">Mitford</persName>'s late in her life, William Cox Bennett addressed a sonnet to her (<title level="a">To Mary Russell Mitford</title> (526), and a poem entitled <title level="a" >Lines Written in Miss Mitford's Garden (483)</title>, both of which appeared in <bibl>his volume, <title level="m">Poems (second edition)</title> of <date when="1862">1862</date></bibl>. She is also mentioned alongside Wordsworth in his poem <title level="a" >The Modern Griselda</title> (85-101) in that volume. Married to <persName>Elizabeth Sinnock Bennett</persName> and younger sibling of <persName>Sir John Bennett</persName>. Cox organized the Liberal political activity in <placeName>Greenwich</placeName>. In <date when="1868">1868</date> he helped stump for the Liberal <persName>William Gladstone</persName> in his first successfulcampaign for Prime Minister. He wrote for the <title level="j">Weekly Dispatch</title> from <date when="1869">1869</date> to <date when="1870">1870</date>, contributed to the <bibl> <placeName ref="#London_city">London</placeName> paper, <title level="j">Figaro</title></bibl>, and edited of <bibl>the literary periodical, <title level="j">The Lark</title>, from <date when="1883">1883</date> to <date when="1884">1884</date>
                         </bibl>. Author of
                         <bibl>
-                           <title>Prometheus the Fire Giver</title> published in <date when="1877">1877</date>
+                           <title level="m">Prometheus the Fire Giver</title> published in <date when="1877">1877</date>
                         </bibl>, and
                         <bibl>
-                           <title>Songs for Sailors</title> in <date when="1878">1878</date>
-                        </bibl>. Source: ODNB.</p></note>
+                           <title level="m">Songs for Sailors</title> in <date when="1878">1878</date>
+                        </bibl>. Source: ODNB.</note>
                      <note>
                      <ref target="http://viaf.org/viaf/23500401"/>
                   </note>
@@ -393,7 +376,7 @@
                </person>
                
                <person xml:id="Berengaria" sex="f">
-                  <persName>Berengaria</persName>
+                  <persName>Berengaria of England</persName>
                   <persName>
                      <forename>Berengaria</forename> 
                      <surname><nameLink>of </nameLink> Navarre</surname>
@@ -475,7 +458,7 @@
                   <birth notBefore="1521"/>
                   <death when="1608-02-13"/>
                   <occupation type="government" subtype="courtier"/>
-                  <note resp="#ebb">A very rich and powerful woman in Elizabethan England, Bess of Hardwick married four times, and her last husband, <persName ref="#Talbot_Geo">George Talbot</persName>, gave her the title Countess of Shrewsbury. While <persName ref="#MaryQoS">Mary Queen of Scots</persName> was held captive and under Talbot's guard at <placeName ref="#Sheffield_Castle">Sheffield Castle</placeName> in <date when="1568">1568</date>, Bess befriended her, and the two worked on the Oxburgh Hangings tapestries during the queen's confinement. After Talbot's death in <date when="1590">1590</date> she commissioned the architect <persName>Robert Smythson</persName> to build <placeName ref="#Hardwick_Hall">Hardwick Hall</placeName> in Renaisssance style. The <title>Bess of Hardwick's Letters</title> site archives her complete correspondence from 1550 to 1608.</note>
+                  <note resp="#ebb">A very rich and powerful woman in Elizabethan England, Bess of Hardwick married four times, and her last husband, <persName ref="#Talbot_Geo">George Talbot</persName>, gave her the title Countess of Shrewsbury. While <persName ref="#MaryQoS">Mary Queen of Scots</persName> was held captive and under Talbot's guard at <placeName ref="#Sheffield_Castle">Sheffield Castle</placeName> in <date when="1568">1568</date>, Bess befriended her, and the two worked on the Oxburgh Hangings tapestries during the queen's confinement. After Talbot's death in <date when="1590">1590</date> she commissioned the architect <persName>Robert Smythson</persName> to build <placeName ref="#Hardwick_Hall">Hardwick Hall</placeName> in Renaisssance style. The <title level="m">Bess of Hardwick's Letters</title> site archives her complete correspondence from 1550 to 1608.</note>
                      <note><ref target="http://www.bessofhardwick.org/"/></note>
                      <note><ref target="http://viaf.org/viaf/5724328"/>
                   </note>
@@ -497,7 +480,7 @@
                   <occupation type="artist" subtype="engraver"/>
                   <occupation type="scholar" subtype="naturalist"/>
                   <occupation type="literary"/>
-                  <note resp="#lmw #rnes">Bewick is one of the most important practitioners of modern wood engraving. He is the best-known and one of the finest wood engravers employing a technique (which he did not invent) in which hard boxwood is carved on the end-grain using metal-engraver's tools. This technique allows for the creation of finer and more detailed engraved images and also results in an engraving block that is more durable than those carved with the grain. Notable works of literary illustration include editions of <persName ref="#Goldsmith">Oliver Goldsmith</persName>'s The Traveller and The Deserted Village, Thomas Parnell's The Hermit, and William Somervile's The Chase. His major works as a naturalist include A History of British Birds and A General History of Quadrupeds, as well as a series of editions of Aesop's Fables. One of Bewick's specialties was his tail- or tale-pieces, small engraved illustrations used to fill gaps left by page breaks. British Birds features prominently in Charlotte Bronte's Jane Eyre, in which Jane prizes it more for its images than its text.</note>
+                  <note resp="#lmw #rnes">Bewick is one of the most important practitioners of modern wood engraving. He is the best-known and one of the finest wood engravers employing a technique (which he did not invent) in which hard boxwood is carved on the end-grain using metal-engraver's tools. This technique allows for the creation of finer and more detailed engraved images and also results in an engraving block that is more durable than those carved with the grain. Notable works of literary illustration include editions of <persName ref="#Goldsmith">Oliver Goldsmith</persName>'s <title level="m">The Traveller</title> and <title level="m">The Deserted Village</title>, Thomas Parnell's <title level="m">The Hermit</title>, and William Somervile's <title level="m">The Chase</title>. His major works as a naturalist include <title level="m">A History of British Birds</title> and <title level="m">A General History of Quadrupeds</title>, as well as a series of editions of <title level="m">Aesop's Fables</title>. One of Bewick's specialties was his tail- or tale-pieces, small engraved illustrations used to fill gaps left by page breaks.</note>
                   <note>
                      <ref target="http://www.bewicksociety.org/"/>
                   </note>
@@ -532,8 +515,7 @@
                      <forename>Isaac</forename>
                      <forename>John</forename>
                      <surname>Bickerstaffe</surname>
-                     <surname type="alternate">Bickerstaff</surname>
-                  </persName>
+                 </persName>
                   <birth when="1733-09-26">
                      <placeName>Dublin, Ireland</placeName>
                   </birth>
@@ -548,12 +530,12 @@
                         first in the <orgName>Northumberland Fusiliers</orgName>, then in the
                         <orgName>marines</orgName>. Author of several very popular comedies,
                         including <bibl>
-                        <title>Thomas and Sally: or the Sailor's Return</title>
+                        <title level="m">Thomas and Sally: or the Sailor's Return</title>
                      </bibl>, <bibl>
-                        <title>Love in a Village</title> (<date>1762</date>)</bibl>, <bibl>
-                        <title>Love in the City</title> (<date>1767</date>)</bibl>, and the
+                        <title level="m">Love in a Village</title> (<date>1762</date>)</bibl>, <bibl>
+                           <title level="m">Love in the City</title> (<date>1767</date>)</bibl>, and the
                         internationally successful play, <bibl>
-                        <title>The Padlock</title> (<date>1768</date>)</bibl>, which was produced
+                           <title level="m">The Padlock</title> (<date>1768</date>)</bibl>, which was produced
                         in <placeName ref="#Germany">Germany</placeName> and
                         <placeName>Hungary</placeName>. Bickerstaff went into exile from
                         <placeName ref="#England">England</placeName> due to published reports
@@ -577,7 +559,7 @@
                   <birth notBefore="1804-09-16">
                      <placeName>Shinfield parish, Berkshire, England</placeName>
                   </birth>
-                  <note resp="#scw">Daughter of Thomas Bint and Sarah Bint. Baptised in Shinfield Parish on <date when="1804-09-16">September 16, 1804</date>. Above <persName ref="#Bint_Hannah">Hannah Bint</persName>'s baptismal record, <persName ref="#Needham_Francis">Needham</persName> has noted, <quote>"a large family followed"</quote>; <quote>"large family"</quote> is crossed out in pencil, and he has written <quote>"several children"</quote>. In an attempt to establish the original for the story character, <persName ref="#Needham_Francis">Needham</persName> also, on the same sheet of paper, lists a <persName>"Hannah Clark"</persName> who married a <persName>"William Bint"</persName> on <date when="1800-04-16">April 16, 1800</date>. Baptismal and family data as recorded by <persName ref="#Needham_Francis">Needham</persName> in his <persName ref="#MRM">Mitford </persName>notes, on a list of <placeName>Shinfield</placeName> records. A Bint family blog records that their Hannah Bint became a schoolmistress. Source: <bibl><title>The Bint Family of Shinfield Fiction and Mary Russell Mitford</title>, <ptr target="http://www.bint-family.com/hannah.htm"/>
+                  <note resp="#scw">Daughter of Thomas Bint and Sarah Bint. Baptised in Shinfield Parish on <date when="1804-09-16">September 16, 1804</date>. Above <persName ref="#Bint_Hannah">Hannah Bint</persName>'s baptismal record, <persName ref="#Needham_Francis">Needham</persName> has noted, <quote>a large family followed</quote>; <quote>large family</quote> is crossed out in pencil, and he has written <quote>several children</quote>. In an attempt to establish the original for the story character, <persName ref="#Needham_Francis">Needham</persName> also, on the same sheet of paper, lists a <persName>Hannah Clark</persName> who married a <persName>William Bint</persName> on <date when="1800-04-16">April 16, 1800</date>. Baptismal and family data as recorded by <persName ref="#Needham_Francis">Needham</persName> in his <persName ref="#MRM">Mitford </persName>notes, on a list of <placeName>Shinfield</placeName> records. A Bint family blog records that their Hannah Bint became a schoolmistress. Source: <bibl><title level="m">The Bint Family of Shinfield Fiction and Mary Russell Mitford</title>, <ptr target="http://www.bint-family.com/hannah.htm"/>
                      </bibl>
                   </note>
                </person>
@@ -618,9 +600,10 @@
                      <placeName>Charing Cross, London, England</placeName>
                   </death>
                   <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
                   <occupation type="artist"/>
                   <occupation type="artist" subtype="engraver"/>
-                  <note resp="#rnes">First-generation British Romantic poet, artist, engraver, and religious visionary. Based in London, Blake left the city infrequently and both celebrates and critiques it in his often mystical works. His most famous poetic texts, often originally illustrated and printed by him, with color illustrations unique specific copies, include the collection Songs of Innocence and Experience, Visions of the Daughters of Albion, and Jerusalem, which contains his lyric "And Did Those Feet...", which since the First World War has been popularized as a song. Until the mid-Victorian era, Blake's work was not widely known or was dismissed as the product of mental illness.</note>
+                  <note resp="#rnes">First-generation British Romantic poet, artist, engraver, and religious visionary. Based in London, Blake left the city infrequently and both celebrates and critiques it in his often mystical works. His most famous poetic texts, often originally illustrated and printed by him, with color illustrations unique specific copies, include the collection <title level="m">Songs of Innocence and Experience</title>, <title level="m">Visions of the Daughters of Albion</title>, and <title level="m">Jerusalem</title>, which contains his lyric <quote>And Did Those Feet...</quote>, which since the First World War has been popularized as a song. Until the mid-Victorian era, Blake's work was not widely known or was dismissed as the product of mental illness.</note>
                      <note><ref target="http://viaf.org/viaf/54144439"/>
                   </note>
                </person>
@@ -633,7 +616,7 @@
                   </persName>
                   <occupation type="trade" subtype="farmer"/>
                   <note resp="#scw">A local farmer of <placeName ref="#Shinfield"> Shinfield</placeName>, farmed at <placeName>Hyde end farm</placeName>. Listed among the traders of <placeName ref="#Shinfield">Shinfield</placeName> village and parish in <date when="1847">1847</date> and <date when="1854">1854</date> in the <bibl corresp="#PO_BerkshireDir">
-                        <title>Post Office Directory of Berkshire</title>
+                        <title level="m">Post Office Directory of Berkshire</title>
                      </bibl>, and noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople.</note>
                </person>
                
@@ -653,7 +636,7 @@
                      <persName ref="#Needham_Francis">Needham</persName> tentatively identifies him as <persName ref="#MRM">Mitford</persName>'s landlord. Listed in 1841 census as "farmer" residing in Wokingham, Shinfield parish; also listed as "gentleman" in Reading directories. Buried <date when="1842-03-12">12 March 1842</date>. Source: ancestry.com.</note><!--LMW:  Wife Ann?  Listed as farmer in 1854 directory (no husband living, presumably.) see ancestry.-->
                </person>
                
-              <person xml:id="Bolinbroke" sex="m"><!--LMW: assigned  xml:id misspelled.-->
+              <person xml:id="Bolinbroke" sex="m"><!--LMW: assigned xml:id misspelled.-->
                   <persName>Henry St. John, Lord Bolingbroke</persName>
                   <persName>
                      <forename>Henry</forename>
@@ -718,11 +701,11 @@
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="scholar" subtype="antiquarian"/>
                   <note resp="#kab #ebb #lmw">Clergyman and poet, known for his sonnets as well as for his long poems including <bibl>
-                        <title>The Missionary</title> published <date when="1813">1813</date>
+                        <title level="m">The Missionary</title> published <date when="1813">1813</date>
                      </bibl>, <bibl>
-                        <title>The Grave of the Last Saxon</title> published <date when="1822">1822</date>
+                        <title level="m">The Grave of the Last Saxon</title> published <date when="1822">1822</date>
                      </bibl> and <bibl>
-                        <title>St. John in Patmos</title> published <date when="1833">1833</date>
+                        <title level="m">St. John in Patmos</title> published <date when="1833">1833</date>
                      </bibl>. Bowles was an acquaintance of <rs type="person" ref="#Mitford_Geo">Mitford's father</rs> for over thirty years. Bowles was a key figure in the Romantic-era sonnet revival. As a literary critic, Bowles ignited the so-called "Pope-Bowles" controversy, a pamphlet war about <persName ref="#Pope_Alex">Alexander Pope</persName>'s moral authority and literary significance, upon which <persName ref="#MRM">Mitford</persName>comments in her letters.</note>
                   <note><ref target="http://viaf.org/viaf/696177"/>
                   </note>
@@ -755,7 +738,7 @@
                   </persName>
                   <occupation type="trade" subtype="innkeeper"/>
                   <note resp="#scw">Proprietor or innkeeper of <placeName>the George and Dragon Inn</placeName>, <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>. Listed among the traders of <placeName ref="#Shinfield">Shinfield</placeName> in the <bibl corresp="#PO_BerkshireDir">
-                        <title>Post Office Directory of Berkshire, 1847 and 1854</title>
+                     <title level="m">Post Office Directory of Berkshire, 1847 and 1854</title>
                      </bibl>, and noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople.</note>
                </person>
                
@@ -777,7 +760,7 @@
                         <title ref="#ReadingMer_per">Reading Mercury</title>
                      </bibl>for <date when="1958-10-18">October 10, 1958</date>, reprinting an article from <date when="1808-10-17">October 17, 1808</date> that described a spate of local deaths, including that of <quote>the wife of John Brent</quote> on <date when="1808-08-03">August 8, 1808</date>from <quote>a fit</quote>
                      <!--scw: See photo DSCN1088-->. Elsewhere among <persName ref="#Needham_Francis">Needham</persName>'s notes,<!--scw: see photo DSCN1096--> he writes that he found no record of marriage, and lists a burial date. The <bibl corresp="#PO_BerkshireDir">
-                        <title>Post Office Directory of Berkshire</title>, 2nd ed., of <date when="1854">1854</date>
+                        <title level="m">Post Office Directory of Berkshire</title>, 2nd ed., of <date when="1854">1854</date>
                      </bibl> lists a <persName ref="#Brent_Joel">Joel Brent</persName>as a beer retailer. Sources: <persName ref="#Needham_Francis">Needham</persName>archive, <orgName ref="#ReadingCL">Reading Central Library</orgName>; <bibl corresp="#PO_BerkshireDir">Post Office Directory of Berkshire, 2nd ed., 1854</bibl>. </note>
                   <!--LMW:  in 1851 census, listed as publican.  Wife Lucy, same age as Joel.  Living in 3 Mile Cross.  In 1861 census, listed as beer shop keeper and (carpenter?) In 1871, living in Whitley, parish of Christ Church, listed as Wheelwright, with wife Lucy. 1854 directory, listed as beer retailer, 3 Mile Cross.-->
                </person>
@@ -808,7 +791,6 @@
                      <roleName>Lord Broghill</roleName>
                      <roleName>Baron Boyle of Broghill</roleName>
                      <roleName>1st Earl of Orrerey</roleName>
-                     <roleName>member of Parliament for Arundel</roleName>
                   </persName>
                   <occupation type="theater"/>
                   <occupation type="literary"/>
@@ -823,11 +805,11 @@
                   <note resp="#rnes">Broghill defended his ancestral estate, <placeName>Lismore
                      Castle</placeName> against an Irish rebellion in 1641-42, then defied his
                      Royalist family by fighting for the Parliamentary cause in <rs type="event" ref="#EngCivilWar">the Civil War</rs>. He tortured prisoners and committed
-                     other atrocities to intimidate the <orgName>Royalists</orgName> in Ireland.
+                     other atrocities to intimidate the <orgName ref="#Royalists">Royalists</orgName> in Ireland.
                      After the war, he received confiscated property in Ireland. He changed
-                     allegiances again at the Restoration, and supported <persName>Charles
+                     allegiances again at the Restoration, and supported <persName ref="#ChasII">Charles
                         II</persName>. Broghill's literary works include several stage plays and a
-                     novel, <title>Parthenissa</title>
+                     novel, <title level="m">Parthenissa</title>
                      <date when="1655">(1655)</date>.</note>
                   <note><ref target="http://viaf.org/viaf/73979816"/>
                   </note>
@@ -842,9 +824,9 @@
                   <occupation type="trade" subtype="baker"/>
                   <occupation type="trade" subtype="merchant"/>
                   <note resp="#scw">Baker and shopkeeper of <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>. Listed among the traders of <placeName ref="#Shinfield">Shinfield</placeName>in the <bibl corresp="#PO_BerkshireDir">
-                        <title>Post Office Directory of Berkshire</title>, <date when="1847">1847</date>
+                     <title level="m">Post Office Directory of Berkshire</title>, <date when="1847">1847</date>
                      </bibl>, and noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople. The <bibl corresp="#PO_BerkshireDir">
-                        <date when="1854">1854</date> edition of the <title>Post Office Directory</title>
+                        <date when="1854">1854</date> edition of the <title level="m">Post Office Directory</title>
                      </bibl> omits the "shopkeeper" occupation.</note>
                </person>
                
@@ -878,7 +860,7 @@
                   <occupation type="government"/>
                   <occupation type="government" subtype="reformer"/>
                   <occupation type="government" subtype="orator"/>
-                  <note resp="#lmw">One of the founders of the Edinburgh Review. Practiced law in Edinburgh and London. Whig reformer and member of Parliament; known for political, educational and legal reforms. While Lord Chancellor in the 1830s, he oversaw the Representation of the People Act of 1832 (voting reforms), the Slavery Abolition Act of 1832 (abolishing slavery throughout the British empire), and established the Central Criminal Court. Chief legal advisor to Queen Caroline and defended her in 1820. Designer of the fashionable four-wheeled carriage that bears his name. Helped popularize Cannes as a seaside resort.</note>
+                  <note resp="#lmw">One of the founders of the <title level="j">Edinburgh Review</title>. Practiced law in Edinburgh and London. Whig reformer and member of Parliament; known for political, educational and legal reforms. While Lord Chancellor in the 1830s, he oversaw the Representation of the People Act of 1832 (voting reforms), the Slavery Abolition Act of 1832 (abolishing slavery throughout the British empire), and established the Central Criminal Court. Chief legal advisor to <persName ref="#QuCaroline">Queen Caroline</persName> and defended her in 1820. Designer of the fashionable four-wheeled carriage that bears his name. Helped popularize Cannes as a seaside resort.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/334592194"/>
                   </note>
@@ -890,7 +872,7 @@
                      <forename>Betsy</forename>
                      <surname>Broughton</surname>
                   </persName>
-                  <note resp="#lmw #rnes">Local beauty from Three Mile Cross, engaged to <persName ref="#Hawley_Mr">Mr. Hawley</persName> through <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName>'s matchmaking in <date when="1821">1821</date>.</note>
+                  <note resp="#lmw #rnes">Local beauty from <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, engaged to <persName ref="#Hawley_Mr">Mr. Hawley</persName> through <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName>'s matchmaking in <date when="1821">1821</date>.</note>
                </person>
                
                <person xml:id="Brown_Benjamin" sex="m">
@@ -901,9 +883,7 @@
                   </persName>
                   <occupation type="trade" subtype="blacksmith"/>
                   <occupation type="government" subtype="post"/>
-                  <note resp="#scw">Listed as a blacksmith and postmaster of <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>in <bibl corresp="#PO_BerkshireDir">the <date when="1854">1854</date>
-                        <title>Post Office Directory of Berkshire</title>
-                     </bibl>. <persName ref="#Needham_Francis">Needham</persName> notes his name on a list of local tradespeople taken from <bibl corresp="#PO_BerkshireDir">the <date when="1847">1847</date> edition</bibl>, omitting his occupation as postmaster.</note>
+                  <note resp="#scw">Listed as a blacksmith and postmaster of <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>in <bibl><title ref="#PO_BerkshireDir">the 1854 Post Office Directory of Berkshire</title></bibl>. <persName ref="#Needham_Francis">Needham</persName> notes his name on a list of local tradespeople taken from <bibl corresp="#PO_BerkshireDir">the <date when="1847">1847</date> edition</bibl>, omitting his occupation as postmaster.</note>
                </person>
                
                <person xml:id="Brown_Thos" sex="m">
@@ -921,7 +901,7 @@
                   <occupation type="scholar" subtype="philosopher"/>
                   <occupation type="medical"/>
                   <occupation type="literary"/>
-                  <note resp="#rnes">Physician, philosopher, and theologian who made considerable contributions to English thought, especially about science, and the English language (including over 700 neologisms), particularly during the turbulent era of the Civil Wars. His most famous works include "Religio Medici" (A Doctor's Religion), "Urne-Buriall", and the extraordinary encyclopedia of pseudoscientific error, the Pseudodoxia Epidemica (translated in 1672 as "Enquiries Into Commonly Presumed Truths.") Browne's writing was admired by many Romantic and Victorian authors, including Samuel Taylor Coleridge and Thomas Carlyle. The subject of a biography by Samuel Johnson, Browne has lost much of his cultural status since the end of the nineteenth century, but is now undergoing a cultural resurgence.</note>
+                  <note resp="#rnes">Physician, philosopher, and theologian who made considerable contributions to English thought, especially about science, and the English language (including recording over 700 neologisms), particularly during the turbulent era of the Civil Wars. His most famous works include <title level="m">Religio Medici (A Doctor's Religion)</title>, <title level="m">Urne-Buriall</title>, and the extraordinary encyclopedia of pseudoscientific error, the <title level="m">Pseudodoxia Epidemica</title> (translated in 1672 as <title level="m">Enquiries Into Commonly Presumed Truths</title>). Browne's writing was admired by many Romantic and Victorian authors, including <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName> and <persName>Thomas Carlyle</persName>. The subject of a biography by Samuel Johnson, Browne has lost much of his cultural status since the end of the nineteenth century, but is now undergoing a cultural resurgence.</note>
                      <note><ref target="http://viaf.org/viaf/61539796"/>
                   </note>
                </person>
@@ -961,17 +941,19 @@
                   <occupation type="literary"/>
                   <note resp="#lmw">French author and Jesuit priest, called "le pere Brumoy," or Father Brumoy, author of
                         <title ref="#Th_d_Gr">Theatre des Greces</title>, later translated by
-                        <persName>Charlotte Lennox</persName> as "The Greek Theatre of Father
-                     Brumoy"(2 vols., 1759). According to her letters, <persName ref="#MRM">Mitford</persName> read this work in the original French.</note>
+                     <persName>Charlotte Lennox</persName> as <title level="m">The Greek Theatre of Father
+                     Brumoy</title>(2 vols., 1759). According to her letters, <persName ref="#MRM">Mitford</persName> read this work in the original French.</note>
                   <note><ref target="http://viaf.org/viaf/24624020"/>
                   </note>
                </person>
                
                <person xml:id="Brunton_Alexander" sex="m">
-                  <persName>Professor Very Reverend Alexander Brunton, D.D.</persName>
+                  <persName>Professor Very Rev. Alexander Brunton, D.D.</persName>
                   <persName>
                      <forename>Alexander</forename>
                      <surname>Brunton</surname>
+                     <roleName>Professor</roleName>
+                     <roleName>Very Professor</roleName>
                   </persName>
                   <persName>
                      <roleName>Doctor of Divinity (DD)</roleName>
@@ -1012,7 +994,7 @@
                </person>
                
                <person xml:id="Brutus" sex="m">
-                  <persName>Marcus Junius Brutus minor</persName>
+                  <persName>Brutus</persName>
                   <persName>
                      <forename>Marcus</forename>
                      <forename>Junius</forename>
@@ -1026,7 +1008,7 @@
                   <occupation type="government" subtype="politician"/>
                   <occupation type="military"/>
                   <occupation type="government" subtype="orator"/>
-                  <note resp="#lmw #rnes">Marcus Junius Brutus Minor or the younger was the son of Marcus Junius Brutus Major or the elder and is usually referred to as Brutus. He was a senator in the late Roman republic and played a leading role in the assassination of Julius Caesar.</note>
+                  <note resp="#lmw #rnes">Marcus Junius Brutus minor or the younger was the son of Marcus Junius Brutus major or the elder and is usually referred to as Brutus. He was a senator in the late Roman republic and played a leading role in the assassination of Julius Caesar.</note>
                      <note><ref target="http://viaf.org/viaf/63975332"/>
                   </note>
                </person>
@@ -1076,12 +1058,12 @@
                      <placeName ref="#Mexico">Mexico</placeName> in <date when="1822">1822</date>, after <rs type="event" ref="#MexIndependence">Mexican
                         independence in 1821</rs>, Bullock returned in 1823 with Mexican artifacts
                      that he exhibited at Egyptian Hall, and published catalogs as well as <bibl>
-                        <title>Six Months' Residence and Travels in Mexico</title> in <date when="1824">1824</date>
+                        <title level="m">Six Months' Residence and Travels in Mexico</title> in <date when="1824">1824</date>
                      </bibl>. Between 1825 and 1825 he travelled again in Mexico and the <placeName ref="#USA">United States</placeName>, where he purchased an estate called
                      The Elms or Elmwood near <placeName ref="#Cincinnati">Cincinnati</placeName> on
                      the <placeName ref="#Kentucky">Kentucky</placeName> border, and laid out an
-                     unsuccessful but admired town plan called Hygeia that would become Ludlow,
-                     Kentucky. Source: ODNB.</note>
+                     unsuccessful but admired town plan called <placeName>Hygeia</placeName> that would become <placeName>Ludlow,
+                     Kentucky</placeName>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/17052870"/>
                   </note>
                </person>
@@ -1093,7 +1075,6 @@
                      <forename>Francis</forename>
                      <roleName>Sir</roleName>
                      <roleName>5th Baronet of Bramcote</roleName>
-                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1770-01-25">
                      <placeName>Foremarke Hall, Derbyshire, England</placeName>
@@ -1122,12 +1103,16 @@
                
                <person xml:id="Burgess" sex="m">
                   <persName>Mr. Burgess</persName>
+                  <persName>
+                     <surname>Burgess</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
                   <note resp="#lmw">
-                     <rs type="letter">A "Mr. Burgess" who recommended a particular volume
-                        of<persName ref="#Sophocles"> Sophocles'</persName> plays to <persName ref="#MRM">MRM</persName>, mentioned in her letter to <persName ref="#Talfourd_Thos">Talfourd</persName> of <date>Nov. 12-13
-                           1821</date>
-                     </rs>.<!-- Need to identify.  Reading bookseller?  LMW or clergyman? ebb Many possibilities in ODNB.--><!-- from 1821-10-22 letter to Talfourd: "I want to read a translation of Sophocles. Mr. Burgess (Coles says this is the same person mentioned in the Intro. Check to be sure it is the same and whether name has one s or two. (Burges.) See Coles #15, p. 89, note 12. LMW) recommended one in French prose, but French prose, will not English be better?   --><!-- one possibility is Thomas Burgess (18 November 1756 – 19 February 1837) Bishop of Saint David's and Bishop of Salisbury, first president of Royal Literary Society, author of work (in Latin) on Sophocles/greek tragedies. Would Mitford or her father have known him? --></note>
+                     <rs type="letter">Forename unknown.  The person who recommended to <persName ref="#MRM">Mitford</persName> a particular volume
+                        of<persName ref="#Sophocles"> Sophocles'</persName> plays, mentioned in her letter to <persName ref="#Talfourd_Thos">Talfourd</persName> of <date when="1821-11">November 12 and 13, 1821</date>
+                     </rs>. More research needed.<!-- Need to identify.  Reading bookseller?  LMW or clergyman? ebb Many possibilities in ODNB.--><!-- from 1821-10-22 letter to Talfourd: "I want to read a translation of Sophocles. Mr. Burgess (Coles says this is the same person mentioned in the Intro. Check to be sure it is the same and whether name has one s or two. (Burges.) See Coles #15, p. 89, note 12. LMW) recommended one in French prose, but French prose, will not English be better?   --><!-- one possibility is Thomas Burgess (18 November 1756 – 19 February 1837) Bishop of Saint David's and Bishop of Salisbury, first president of Royal Literary Society, author of work (in Latin) on Sophocles/greek tragedies. Would Mitford or her father have known him? --></note>
                </person>
+               <!--LMW: stopped here: 2019-06-12 1 pm-->
                
               <person xml:id="Burke_E" sex="m">
                   <persName>Edmund Burke</persName>
@@ -1217,7 +1202,7 @@
                   <occupation type="government" subtype="taxCollector"/>
                   <occupation type="trade" subtype="farmer"/>
                   <note resp="#ebb #esh">Scottish poet, author of <bibl>
-                        <title>Poems, Chiefly in the Scottish Dialect</title>
+                     <title level="m">Poems, Chiefly in the Scottish Dialect</title>
                      (<date>1786</date>)</bibl>. Rented and farmed the 170-acre
                      <placeName>Ellisand Farm</placeName>, where he built a house and collected
                      and rewrote local songs and ballads from his neighbors. <bibl>Burns's poems and
@@ -1322,13 +1307,13 @@
                      <placeName>Boulogne-sur-Mer, France</placeName>
                   </death>
                   <note resp="#ebb">Scottish poet and editor: author of <bibl>
-                        <title>The Pleasures of Hope</title> (<date>1799</date>)</bibl> and <bibl>
-                        <title>Gertrude of Wyoming</title> (<date>1799</date>)</bibl>. Editor of the
+                     <title level="m">The Pleasures of Hope</title> (<date>1799</date>)</bibl> and <bibl>
+                        <title level="m">Gertrude of Wyoming</title> (<date>1799</date>)</bibl>. Editor of the
                         <title ref="#New_Monthly_Mag">New Monthly Magazine</title> from <date from="1821" to="1830">1821 to 1830</date>, in which capacity he knew
                         <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName> as a
                      contributor. See <ptr target="http://lordbyron.cath.lib.vt.edu/contents.php?doc=CyReddi.Campbell.Contents"/>
                      <bibl>
-                        <author>Cyrus Redding</author>'s <title>Literary Reminiscences and Memoirs
+                        <persName>Cyrus Redding</persName>'s <title level="m">Literary Reminiscences and Memoirs
                            of Thomas Campbell</title>
                      </bibl>. Possibly the Mr. Campbell that <persName ref="#MRM">Mitford</persName>
                      mentions in <rs type="letter">her letter to <persName ref="#Talfourd_Thos">Talfourd</persName> of
@@ -1507,7 +1492,7 @@
                   <occupation type="literary" subtype="critic"/>
                   <birth when="1955-03-04"/>
                   <note resp="#ebb">
-                     <date notBefore="1991">Since 1991</date>, Charles Spencer has been a theater critic for the conservative <placeName ref="#London_city">London</placeName> paper <title>The Daily Telegraph</title>.
+                     <date notBefore="1991">Since 1991</date>, Charles Spencer has been a theater critic for the conservative <placeName ref="#London_city">London</placeName> paper <title level="j">The Daily Telegraph</title>.
                   </note>
                </person>
                
@@ -1638,22 +1623,22 @@
                   <note resp="#ebb">Of Quaker parentage, Chorley worked unhappily in clerical
                      positions and cultivated the arts as a music and literary critic, publishing
                      reviews of around 2500 books, weekly reviews of musical performances, and
-                     "columns of musical 'gossip'" for <title>The Athenaeum</title> from
-                     <date when="1830">1830</date> through <date when="1868">1868</date>, "the most prolific of all its
-                     reviewers," according to the ODNB. Reviewed <persName ref="#Hawthorne_N">Nathaniel Hawthorne</persName> and <persName>Charles Dickens</persName>,
+                     <quote>columns of musical <q>gossip</q></quote> for <title level="j">The Athenaeum</title> from
+                     <date when="1830">1830</date> through <date when="1868">1868</date>, <quote>the most prolific of all its
+                        reviewers,</quote> according to the ODNB. Reviewed <persName ref="#Hawthorne_N">Nathaniel Hawthorne</persName> and <persName>Charles Dickens</persName>,
                      and promoted the compositions and operas of <persName>Rossini</persName>,
                      <persName>Mendelssohn</persName>, <persName>Meyerbeer</persName>, and
                      <persName>Gounod</persName>, though he disliked <persName>Verdi</persName>.
                      <persName ref="#Hemans_Felicia">Felicia Hemans</persName> and <persName>E.
                         T. A. Hoffman</persName> made lasting impressions on him. Wrote <bibl>
-                        <title>Memorials of Mrs. Hemans</title>, in two volumes, published in
+                        <title level="m">Memorials of Mrs. Hemans</title>, in two volumes, published in
                            <date when="1836">1836</date>
-                     </bibl>. Served as editor of <title>The Ladies' Companion</title> in <date when="1850">1850</date>
+                     </bibl>. Served as editor of <title level="j">The Ladies' Companion</title> in <date when="1850">1850</date>
                      (after <persName>Jane Loudon</persName>), and wrote plays, novels, and short
                      stories, though these did not receive much recognition. Correspondent of
                      <persName ref="#MRM">Mitford</persName>, as well as <persName ref="#Barrett_E">Elizabeth Barrett</persName>, Charles Dickens, and Arthur Sullivan. Edited
                      the <bibl>
-                        <date>1872</date> edition of Mitford's correspondence, <title>Letters of
+                        <date>1872</date> edition of Mitford's correspondence, <title level="m">Letters of
                            Mary Russell Mitford, Second Series</title>
                      </bibl>. <ref target="http://viaf.org/viaf/56757298"/>
                   </note>
@@ -1715,8 +1700,7 @@
                   </persName>
                   <occupation type="trade" subtype="baker"/>
                   <occupation type="trade" subtype="merchant"/>
-                  <note resp="#scw">Listed as a shopkeeper in <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>in <bibl corresp="#PO_BerkshireDir">the 1854 <title>Post Office Directory of Berkshire</title>
-                     </bibl>. <persName ref="#Needham_Francis">Needham</persName> notes his name on a list of local tradespeople taken from <bibl corresp="#PO_BerkshireDir">the <date when="1847">1847</date> edition</bibl>, adding that <persName ref="#Clarke_William">Clarke</persName>was also a baker.</note>
+                  <note resp="#scw">Listed as a shopkeeper in <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>in <bibl><title ref="#PO_BerkshireDir">the 1854 Post Office Directory of Berkshire</title></bibl>. <persName ref="#Needham_Francis">Needham</persName> notes his name on a list of local tradespeople taken from <bibl corresp="#PO_BerkshireDir">the <date when="1847">1847</date> edition</bibl>, adding that <persName ref="#Clarke_William">Clarke</persName>was also a baker.</note>
                </person>
                
                <person xml:id="Clement6_Pope" sex="m">
@@ -2027,7 +2011,7 @@
                   <note resp="#lmw">Successful playwright at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>
                      <date notBefore="1770" notAfter="1799">from the 1770s to the 1790s</date>, she was the associate of <persName ref="#Garrick_David">David Garrick</persName> and <persName ref="#Sheridan_RichardB">Richard Brinsley Sheridan</persName> upon launching her career as a playwright in the late 1770s with <bibl>
                         <title level="m">The Runaway</title> (<date>1776</date>)</bibl>. In <date when="1779">1779</date>, she was embroiled in a literary dispute with <persName ref="#More_Hannah">Hannah More</persName> over whether <bibl>
-                        <author>More</author>'s play <title level="m">Fatal Falsehood</title>
+                        <persName>More</persName>'s play <title level="m">Fatal Falsehood</title>
                      </bibl> was plagiarised from her <bibl>
                         <title level="m">Albina</title> (both <date when="1779">1779</date>)</bibl>. Her best-known play, <bibl>
                         <title level="m">The Belle's Strategem</title>, was produced at <orgName ref="#Covent_Garden_Theatre">Covent Garden</orgName> in <date from="1780" to="1800">1780 and continued on London stages until 1800</date>
@@ -2243,7 +2227,7 @@
                   <note resp="#lmw #scw">
                      <p>The "dandy" Mitford pokes fun at in her letters of <date when="1819-01-09">
                            <date when="1819-01-10">9 and 10 January, 1819</date>
-                        </date>. Possibly husband to Isabelle Crowther. According to <persName ref="#coles">Coles</persName>, forename may be Phillip; Coles is not completely confident that the "dandy" Mr. Crowther and Mr. [Phillip?] Crowther are the same person. The second Mr. Crowther is a correspondent of <persName ref="#MRM">Mitford</persName>'s, whom she writes to at <placeName>Whitley cottage</placeName>, near <placeName ref="#Reading_city">Reading</placeName>. He may also have resided at <placeName>Westbury on Trim</placeName> near <placeName>Bristol</placeName>. <persName ref="#coles">William Coles</persName> is uncertain of whether <persName ref="#Crowther_Mr">Crowther</persName>is the same <persName>Phillip Crowther</persName>mentioned in <persName ref="#MRM">Mitford</persName>'s <title>Diary</title>. Source: <persName ref="#coles">William Coles</persName>, Letter to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>, <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. <!--scw: See photo DSCN1167--></p>
+                        </date>. Possibly husband to Isabelle Crowther. According to <persName ref="#coles">Coles</persName>, forename may be Phillip; Coles is not completely confident that the "dandy" Mr. Crowther and Mr. [Phillip?] Crowther are the same person. The second Mr. Crowther is a correspondent of <persName ref="#MRM">Mitford</persName>'s, whom she writes to at <placeName>Whitley cottage</placeName>, near <placeName ref="#Reading_city">Reading</placeName>. He may also have resided at <placeName>Westbury on Trim</placeName> near <placeName>Bristol</placeName>. <persName ref="#coles">William Coles</persName> is uncertain of whether <persName ref="#Crowther_Mr">Crowther</persName>is the same <persName>Phillip Crowther</persName>mentioned in <persName ref="#MRM">Mitford</persName>'s <title level="m">Journal</title>. Source: <persName ref="#coles">William Coles</persName>, Letter to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>, <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. <!--scw: See photo DSCN1167--></p>
                   </note>
                </person>
                
@@ -2306,8 +2290,8 @@
                   <occupation type="government" subtype="diplomat"/>
                   <note resp="#lmw">
                      Older brother of poet <persName>Mary Alcock</persName>. Author of <bibl>
-                        <title>The West Indian</title> (play, <date>1771</date>)</bibl> and <bibl>
-                        <title>The Wheel of Fortune</title> (play, <date>1795</date>)</bibl>. He is buried in <placeName ref="#Westminster_Abbey">Westminster Abbey</placeName>.
+                        <title level="m">The West Indian</title> (play, <date>1771</date>)</bibl> and <bibl>
+                           <title level="m">The Wheel of Fortune</title> (<date>1795</date>)</bibl>. He is buried in <placeName ref="#Westminster_Abbey">Westminster Abbey</placeName>.
                   </note>
                      <note><ref target="http://viaf.org/viaf/76451457"/>
                   </note>
@@ -2365,8 +2349,8 @@
                   <note resp="#lmw">R.C. Dallas was a prominent barrister and judge who worked on many parliamentary and privy council cases, including those on disputed parliamentary elections. His most notable legal accomplishments were <rs type="event">serving as junior counsel at the trial of <persName>Warren Hastings</persName> (<date when="1787">1787</date>)</rs>, <rs type="event">defending <persName>General Thomas Picton</persName> (<date from="1806" to="1808">1806-1808</date>)</rs>, and <rs type="event">representing Jamaican merchants and planters to oppose the <date when="1807">1807</date> Slave Trade Act</rs>.  <rs type="event">In <date when="1818">1818</date>, he was appointed Chief Justice of the Common Pleas and was sworn to the Privy Council</rs>; <rs type="event">between <date from="1818" to="1823">1818 and 1823</date> he headed the special commission that tried <orgName>the Cato Street conspirators</orgName>, presided over the trial of <persName>James Ings</persName>, and advised Parliament on the 1820 Pains and Penalties Bill</rs>. He served briefly as a Member of <orgName ref="#Parliament_UK">Parliament</orgName> in the <orgName ref="#Tory">Tory</orgName> interest in two constitencies. He also wrote poetry, plays, novels, and nonfiction works such as <bibl>
                         <title level="m">History of the Maroons, from their Origin to their Establishment in Sierra Leone</title> (<date when="1803">1803</date>)</bibl> and <bibl>
                         <title level="m">Recollections of the Life of <persName ref="#Byron">Lord Byron</persName> from the year 1808 to the end of 1814</title> (<date when="1824">1824</date>)</bibl>. Mitford mentions his <bibl corresp="#Sir_Fr_Darrell">
-                        <date when="1820">1820</date> novel <title>Sir Francis Darrell, or the Vortex</title>
-                     </bibl>, in her letters. Dallas is perhaps best known today as a Byron correspondent and biographer. His sister, Charlotte Henrietta Dallas, married Captain George Anson Byron, and their son George Anson Byron (1789-1868) inherited Byron's title upon his death in 1824. Source: History of Parliament Online: <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/dallas-robert-1756-1824"/> Note: The VIAF record apparently gives an incorrect year of birth of 1754 instead of 1756.</note>
+                           <date when="1820">1820</date> novel <title level="m">Sir Francis Darrell, or the Vortex</title>
+                     </bibl>, in her letters. Dallas is perhaps best known today as a Byron correspondent and biographer. His sister, Charlotte Henrietta Dallas, married Captain George Anson Byron, and their son George Anson Byron (1789-1868) inherited Byron's title upon his death in 1824. Source: History of Parliament Online: <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/dallas-robert-1756-1824"/> Note: The VIAF record seemingly gives an incorrect year of birth of 1754 instead of 1756.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/25774123"/>
                   </note>
@@ -2431,7 +2415,7 @@
                   <occupation type="trade" subtype="merchant"/>
                   <occupation type="trade" subtype="liquor"/>
                  <note resp="#scw">Noted by <persName ref="#Needham_Francis">Needham</persName> as a beer retailer and possibly a butcher. His source is the 1847 <bibl corresp="#PO_BerkshireDir">
-                        <title>Post Office Directory of Berkshire</title>
+                        <title level="m">Post Office Directory of Berkshire</title>
                      </bibl>. Source: <bibl corresp="#Needham_PapersRCL">
                         <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>
                      </bibl>.</note>
@@ -2517,7 +2501,7 @@
                  <occupation type="military"/>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="biographer"/>
-                  <note resp="#ncl #lmw #ebb">Author of <bibl><title>Life of St. Louis</title> in <date when="1309">1309</date></bibl>, chronicling the life of the crusading King Louis IX of France.</note>
+                  <note resp="#ncl #lmw #ebb">Author of <bibl><title level="m">Life of St. Louis</title> in <date when="1309">1309</date></bibl>, chronicling the life of the crusading King Louis IX of France.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/59191609/"/>
                   </note>
@@ -2588,8 +2572,8 @@
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="literary" subtype="journalist"/>
                   <note resp="#lmw #cmm">Best known for <title ref="#Confessions_OpiumEater_nonfict">Confessions of an English Opium-Eater</title> (1822). Also wrote  <bibl>
-                        <title>Klosterheim</title> (<date>1832</date>)</bibl> and <bibl>
-                        <title>The Logic of Political Economy</title> (<date>1844</date>)</bibl>. Published in the <title ref="#LondonMag">London Magazine</title>, <title ref="#Blackwoods">Blackwood's Edinburgh Magazine</title>, and <title>Tait's Magazine</title>.</note>
+                     <title level="m">Klosterheim</title> (<date>1832</date>)</bibl> and <bibl>
+                        <title level="m">The Logic of Political Economy</title> (<date>1844</date>)</bibl>. Published in the <title ref="#LondonMag">London Magazine</title>, <title ref="#Blackwoods">Blackwood's Edinburgh Magazine</title>, and <title level="j">Tait's Magazine</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/14768427"/>
                   </note>
@@ -2892,10 +2876,10 @@
                   <note resp="#ebb">
                      <rs type="event">Named Poet Laureate in <date when="1668">1668</date>
                      </rs>, <bibl>
-                        <author>Dryden</author> authored <title>Annus mirabilis: the Year of Wonders, MDCLXVI</title> in <date when="1667">1667</date>
-                     </bibl>, reflecting on climactic events of <date when="1666">the previous year</date>, <rs type="event">the Great Fire of London</rs> and <rs type="event">the second Anglo-Dutch War</rs>. Dryden supported a revival of drama in Restoration England, and <bibl>in <date when="1668">1668</date> he wrote <title>Of Dramatick Poesie</title>
-                     </bibl>, which contained critiques of <persName ref="#Shakespeare">William Shakespeare</persName>'s and <persName ref="#Jonson_B">Ben Jonson</persName>'s plays and reflection on English and French theater and playwrights from the Renaissance to the Restoration in England. Several of his plays were staged in London in the 1670s, including <bibl>his treatment of the <persName>Antony</persName> and <persName>Cleopatra</persName> narrative, in <title>All for Love, or, The World Well Lost</title>, performed in <date when="1677">December 1677</date> and published in <date when="1678">1678</date>
-                     </bibl>. His satirical poem <title>Absalom and Achitophel</title>, published in <date when="1681">1681</date>, presents Restoration politicians and government figures in <bibl corresp="#OldTestament_Bible">Old Testament</bibl> roles, casting <persName ref="#ChasII">King Charles II</persName> in flattering terms as a merciful and benevolent <persName>David</persName>.</note>
+                        <persName ref="#Dryden">Dryden</persName> authored <title level="m">Annus mirabilis: the Year of Wonders, MDCLXVI</title> in <date when="1667">1667</date>
+                     </bibl>, reflecting on climactic events of <date when="1666">the previous year</date>, <rs type="event">the Great Fire of London</rs> and <rs type="event">the second Anglo-Dutch War</rs>. Dryden supported a revival of drama in Restoration England, and <bibl>in <date when="1668">1668</date> he wrote <title level="m">Of Dramatick Poesie</title>
+                     </bibl>, which contained critiques of <persName ref="#Shakespeare">William Shakespeare</persName>'s and <persName ref="#Jonson_B">Ben Jonson</persName>'s plays and reflection on English and French theater and playwrights from the Renaissance to the Restoration in England. Several of his plays were staged in London in the 1670s, including <bibl>his treatment of the <persName>Antony</persName> and <persName>Cleopatra</persName> narrative, in <title level="m">All for Love, or, The World Well Lost</title>, performed in <date when="1677">December 1677</date> and published in <date when="1678">1678</date>
+                     </bibl>. His satirical poem <title level="m">Absalom and Achitophel</title>, published in <date when="1681">1681</date>, presents Restoration politicians and government figures in <bibl corresp="#OldTestament_Bible">Old Testament</bibl> roles, casting <persName ref="#ChasII">King Charles II</persName> in flattering terms as a merciful and benevolent <persName>David</persName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/68937979"/>
                   </note>
@@ -2915,7 +2899,7 @@
                   </death>
                   <occupation type="government" subtype="politician"/>
                   <note resp="#ebb">Lord Chamberlain who appointed <persName ref="#Colman_the_Younger">George Colman the Younger</persName> to be the Examiner of plays, and had a role in approving Coleman's decision to forbid performance of <bibl corresp="#CharlesI_MRMplay">
-                        <author>Mitford</author>'s <title level="m">Charles the First</title>
+                        <persName>Mitford</persName>'s <title level="m">Charles the First</title>
                      </bibl>.</note>
                      <note>
                      <ref target="http://viaf.org/viaf/51592900"/></note>
@@ -3033,7 +3017,7 @@
                   <occupation type="literary"/>
                   <occupation type="educator"/>
                   <note resp="#lmw #cmm">British author and educator. Best known for <bibl>
-                        <title>Castle Rackrent</title> (<date>1800</date>)</bibl>; also
+                     <title level="m">Castle Rackrent</title> (<date>1800</date>)</bibl>; also
                         wrote children's novels and educational treatises.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/71477273"/>
@@ -3089,11 +3073,8 @@
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="theater"/>
                   <occupation type="literary"/>
-                  <note resp="#ebb #lmw">Ancient world playwright, considered together with <persName ref="#Aeschylus">Aeschylus</persName> and <persName ref="#Sophocles">Sophocles</persName> as establishing the classical foundation of Western tragedy. Author of <bibl corresp="#Ion_Euripides">
-                        <title>Ion</title> (<date notBefore="-0414" notAfter="-0412">between 414 and 412 BC</date>)</bibl>, on which <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName> later based <bibl corresp="#Ion_TNTplay">his own play of the same title</bibl>, as well as <bibl corresp="#Orestes_play">
-                        <title>Orestes</title> (<date when="-0408">408
-                           B.C.</date>)</bibl>, and <bibl>
-                        <title>Cyclops</title> (date unknown)</bibl>, the only known complete example of a burlesque satyr play, translated into <bibl>a satiric poem in <date when="1819">1819</date> by <persName ref="#Shelley_PB">Percy Shelley</persName>
+                  <note resp="#ebb #lmw">Ancient world playwright, considered together with <persName ref="#Aeschylus">Aeschylus</persName> and <persName ref="#Sophocles">Sophocles</persName> as establishing the classical foundation of Western tragedy. Author of <bibl><title ref="#Ion_Euripides">Ion</title></bibl>, on which <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName> later based <bibl corresp="#Ion_TNTplay">his own play of the same title</bibl>, as well as <bibl><title ref="#Orestes_play">Orestes</title></bibl>, and <bibl>
+                        <title level="m">Cyclops</title></bibl>, the only known complete example of a burlesque satyr play, translated into <bibl>a satiric poem in <date when="1819">1819</date> by <persName ref="#Shelley_PB">Percy Shelley</persName>
                      </bibl>.
                   </note>
                   <note>
@@ -3147,9 +3128,9 @@
                   <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">English actor and dramatist. <persName ref="#MRM">Mitford</persName> likely refers to the younger
                      Fawcett, a contemporary of <persName ref="#Emery_John">John Emery</persName> (John Fawcett the elder, 1740-1817, was
-                        also an actor). Appeared in Colman's The Heir at Law. Wrote pantomime version
+                     also an actor). Appeared in Colman's <title level="m">The Heir at Law</title>. Wrote pantomime version
                         of <bibl>
-                        <title>Obi, or Three-Fingered Jack</title> (<date>1800</date>)</bibl> Source: DNB.</note>
+                        <title level="m">Obi, or Three-Fingered Jack</title> (<date>1800</date>)</bibl> Source: DNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/51958044"/>
                   </note>
@@ -3284,8 +3265,8 @@
                   <birth notBefore="1522"/>
                   <death when="1547-01-02"/>
                   <note resp="#lmw">Giovanni Luigi Fieschi (or Fiesco), count of Lavagna was a nobleman of Genoa and leader of the failed Fieschi conspiracy of 1547. Subject of a play by <persName ref="#Schiller_F">Schiller</persName>, <bibl>
-                        <title>Die Verschwörung des Fiesco zu Genua (Fiesco)</title>
-                        <date when="1782">(1782)</date>
+                        <title level="m">Die Verschwörung des Fiesco zu Genua</title>
+                        <date when="1782">(1782)</date>, also known simply as <title level="m">Fiesco</title>
                      </bibl>. Subject of a play by <persName ref="#MRM">Mitford</persName>, written and submitted to <persName ref="#Macready_Wm">Macready</persName> for consideration, but never performed or printed.</note>
                      <note><ref target="http://viaf.org/viaf/44439255"/></note>
                </person>
@@ -3311,7 +3292,7 @@
                      <surname>Fitzharris</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#kdc #lmw">An Irish actor who began his career in <placeName ref="#Reading_city">Reading</placeName> before going to <placeName ref="#London_city">London</placeName>. He played the title role in <title ref="#Othello_play">Othello</title> in both Reading and London, and appeared the following season (1826) as the Sentinel in <title ref="#Pizarro_play">Pizarro</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>. Reviews of his London performances in the <title ref="#New_Monthly_Mag">New Monthly Magazine</title> and <title ref="#Lit_Gazette">The Literary Gazette and Journal of Belles Lettres</title> from 1825 and 1826 were very unfavorable, indicating that his voice and presence were not sufficiently robust to sustain major roles in London. <persName ref="#MRM">Mitford</persName> saw him perform in <title ref="#Othello_play">Othello</title> at <placeName ref="#Reading_city">Reading</placeName>. She was impressed with his talents and he later created the role of Celso in <title ref="#CharlesI_MRMplay">Charles the First</title>. In an <date when="1867">1867</date> letter to <persName ref="#Lestrange">L'Estrange</persName> (reprinted in <title>The Literary Life of the Rev. William Harness)</title>, <persName ref="#Harness_Wm">Harness</persName> mentions Fitzharris as a failed <q>protege</q> of Mitford's (279).
+                  <note resp="#kdc #lmw">An Irish actor who began his career in <placeName ref="#Reading_city">Reading</placeName> before going to <placeName ref="#London_city">London</placeName>. He played the title role in <title ref="#Othello_play">Othello</title> in both Reading and London, and appeared the following season (1826) as the Sentinel in <title ref="#Pizarro_play">Pizarro</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>. Reviews of his London performances in the <title ref="#New_Monthly_Mag">New Monthly Magazine</title> and <title ref="#Lit_Gazette">The Literary Gazette and Journal of Belles Lettres</title> from 1825 and 1826 were very unfavorable, indicating that his voice and presence were not sufficiently robust to sustain major roles in London. <persName ref="#MRM">Mitford</persName> saw him perform in <title ref="#Othello_play">Othello</title> at <placeName ref="#Reading_city">Reading</placeName>. She was impressed with his talents and he later created the role of Celso in <title ref="#CharlesI_MRMplay">Charles the First</title>. In an <date when="1867">1867</date> letter to <persName ref="#Lestrange">L'Estrange</persName> (reprinted in <title level="m">The Literary Life of the Rev. William Harness)</title>, <persName ref="#Harness_Wm">Harness</persName> mentions Fitzharris as a failed <q>protege</q> of Mitford's (279).
                      <!--lmw: Fitzharris references:
 New Monthly Magazine 15 (1825): 534.  Drama section mentions Fitzharris
 London Literary Gazette (1826)  mentions Fitzharris relegating to small role
@@ -3427,7 +3408,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="theater"/>
                   <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">English playwright and poet, wrote <bibl>
-                        <title>'Tis Pity She's a Whore</title> (printed <date>1633</date>)</bibl></note>
+                     <title level="m">'Tis Pity She's a Whore</title> (printed <date>1633</date>)</bibl></note>
                   <note><ref target="http://viaf.org/viaf/44323561"/></note>
                </person>
                
@@ -3715,7 +3696,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <birth when="1331"/>
                   <death when="1391"/>
                   <note resp="#ebb #lmw">Son of <persName ref="#GastonII">Gaston II</persName>, nicknamed Gaston Fébus or Phoebus, he wrote a famous <bibl>
-                        <title>Book of the Hunt</title>, or <title>Livre de chasse</title>
+                     <title level="m">Book of the Hunt</title>, or <title level="m">Livre de chasse</title>
                      </bibl>. The medieval chronicler <persName ref="#Froissart">Froissart</persName> visited Gaston III's court in 1388.<!-- Coles posits Gaston II and Gaston III in Froissart Coles #12, p. 184, note 3.  LMW --></note>
                   <note><ref target="http://viaf.org/viaf/100225641"/></note>
                </person>
@@ -3830,10 +3811,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="scholar" subtype="historian"/>
                   <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">
-                     <p>Best known for writing <bibl corresp="#Decline_Fall">
-                           <title>The History of the Decline and Fall of the Roman Empire</title>
-                           which was originally published in three volumes (<date>1776</date>,
-                              <date>1781</date>, and <date>1788</date>)</bibl>.</p>
+                     <p>Best known for writing <bibl> <title ref="#Decline_Fall">
+                           The History of the Decline and Fall of the Roman Empire</title>,
+                           which was originally published in three volumes</bibl>.</p>
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/24601933"/>
@@ -3852,7 +3832,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">
                      <orgName ref="#Tory">Tory</orgName> editor of the <title ref="#Anti-Jacobin">Anti-Jacobin</title>
                      <date notAfter="1800">in the late 1790s</date> as well as the <title ref="#QuarterlyRev_per">Quarterly Review</title>
-                     <date from="1809" to="1824">from 1809 to 1824</date>. Author of satirical poems The Baviad and the Maeviad.
+                     <date from="1809" to="1824">from 1809 to 1824</date>. Author of satirical poems <title level="m">The Baviad</title> and <title level="m">the Maeviad</title>.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/12297538"/>
@@ -3875,7 +3855,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="scholar" subtype="philosopher"/>
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary" subtype="novelist"/>
-                  <note resp="#ebb">Political philosopher and novelist, married to <persName>Mary Wollstonecraft</persName> and biographer of her after her death in childbirth to their daughter <persName ref="#Shelley_MW">Mary Wollstonecraft Godwin</persName> (who would later elope with <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName> and author <title>Frankenstein</title>). William Godwin's 32-volume diary is digitally archived here: <ptr target="http://godwindiary.bodleian.ox.ac.uk/index2.html"/>. See also <ref target="http://shelleygodwinarchive.org/">the Shelley-Godwin Archive</ref>.</note>
+                  <note resp="#ebb">Political philosopher and novelist, married to <persName>Mary Wollstonecraft</persName> and biographer of her after her death in childbirth to their daughter <persName ref="#Shelley_MW">Mary Wollstonecraft Godwin</persName> (who would later elope with <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName> and author <title level="m">Frankenstein</title>). William Godwin's 32-volume diary is digitally archived here: <ptr target="http://godwindiary.bodleian.ox.ac.uk/index2.html"/>. See also <ref target="http://shelleygodwinarchive.org/">the Shelley-Godwin Archive</ref>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/68929729"/>
                   </note>
@@ -3914,7 +3894,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="trade" subtype="farmer"/>
                   <note resp="#scw">Farmer of <placeName>Hill House</placeName> farm, which is mentioned in <title ref="#OV">Our Village</title>. <persName ref="#Goodchild_J">Goodchild</persName> is noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople derived from the <bibl corresp="#PO_BerkshireDir">
-                        <title>Post Office Directory of Berkshire</title>, <date when="1847">1847</date> edition</bibl>. <persName ref="#Goodchild_J">Goodchild</persName> does not appear in the 1854 edition. Source: <bibl corresp="#Needham_PapersRCL">
+                        <title level="m">Post Office Directory of Berkshire</title>, <date when="1847">1847</date> edition</bibl>. <persName ref="#Goodchild_J">Goodchild</persName> does not appear in the 1854 edition. Source: <bibl corresp="#Needham_PapersRCL">
                         <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>
                      </bibl>.</note>
                </person>
@@ -3941,15 +3921,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Kensington Gravel Pits, London, England</placeName>
                   </death>
                   <note resp="#ebb">
-                     <p><persName ref="#MRM">Mitford</persName> writes of this adventurous woman as <q>Mrs. Graham</q> and references her travel publications, <bibl corresp="#India_JournalResidence_Graham">
-                        <title>Journal of a Residence in India</title> of <date when="1812">1812</date>
-                     </bibl> and <bibl corresp="#Rome_ThreeMonths_Graham">her journal, <title>Three months passed in the mountains east of Rome : during the year 1819</title>
-                     </bibl>. She was known for her multiple publications on her travels in India, Chile, and Brazil, and as <bibl>
-                        <author>Maria Graham</author>, she published the first English biography of the artist <persName>Nicholas Poussin</persName>: <title>Memoirs of the Life of Nicholas Poussin</title> (<date when="1820">1820</date>).</bibl>. A polymathic enthusiast, she traveled widely in her life, and <rs type="event">met her first husband, <persName>Lieutenant Thomas Graham</persName>, on board the HMS Cornelia bound to <placeName>Bombay</placeName> on a trip with her father and siblings in <date when="1809">1809</date></rs>.</p>
-                        <p>During an extended trip to South America, <rs type="event">
+                     <persName ref="#MRM">Mitford</persName> writes of this adventurous woman as <q>Mrs. Graham</q> and references her travel publications, <bibl> <title ref="#India_JournalResidence_Graham">Journal of a Residence in India</title> of <date when="1812">1812</date>
+                     </bibl> and <bibl>her journal, <title ref="#Rome_ThreeMonths_Graham">Three Months Passed in the Mountains East of Rome: during the year 1819</title>
+                     </bibl>. She was known for her multiple publications on her travels in India, Chile, and Brazil, and as <bibl>Maria Graham, she published the first English biography of the artist <persName>Nicholas Poussin</persName>: <title level="m">Memoirs of the Life of Nicholas Poussin</title> (<date when="1820">1820</date>).</bibl>. A polymathic enthusiast, she traveled widely in her life, and <rs type="event">met her first husband, <persName>Lieutenant Thomas Graham</persName>, on board the HMS Cornelia bound to <placeName>Bombay</placeName> on a trip with her father and siblings in <date when="1809">1809</date></rs>. During an extended trip to South America, <rs type="event">
                         <persName>Thomas Graham</persName> died on a voyage from Brazil to <placeName>Valparaíso, Chile</placeName> on <date when="1822-04-09">9 April 1822</date>
                      </rs>, after which Maria resided in <placeName>Chile</placeName> and Brazil, where she served as governess to the Brazilian emperor's daughter, <persName>Donna Maria</persName>. Her description of an earthquake in <placeName>Quintero, Brazil</placeName> influenced <bibl>
-                        <author>Charles Lyell</author>'s explanations in <title>Principles of Geology</title> (<date when="1830">1830</date>) of land mass formation by what we would now call tectonic activity</bibl>. After her return to <placeName ref="#England">England</placeName> in 1826, she met and married the landscape artist <persName>Augustus Wall Callcott</persName> (1779-1844), who was knighted in <date when="1837">1837</date>, making her <persName>Lady Callcott</persName> for the last years of her life. Source: ODNB.</p></note>
+                        <persName>Charles Lyell</persName>'s explanations in <title level="m">Principles of Geology</title> (<date when="1830">1830</date>) of land mass formation by what we would now call tectonic activity</bibl>. After her return to <placeName ref="#England">England</placeName> in 1826, she met and married the landscape artist <persName>Augustus Wall Callcott</persName> (1779-1844), who was knighted in <date when="1837">1837</date>, making her <persName>Lady Callcott</persName> for the last years of her life. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/41970133/"/></note>
                </person>
                
