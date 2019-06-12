@@ -59,7 +59,7 @@
             <listBibl sortKey="work_MRM">
                
                <bibl xml:id="Poems_1st_ed_MRM">
-                  <title>Poems</title>
+                  <title level="m">Poems</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
@@ -98,7 +98,7 @@
                </bibl>
                
                <bibl xml:id="Poems_2nd_ed_MRM">
-                  <title>Poems: Second Edition with Considerable Additions</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
@@ -383,7 +383,7 @@
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1810">1810</date>
                   <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
-               </bibl><!-- a cousin mary from Northumberland -->
+               </bibl><!--LMW: To a cousin Mary from Northumberland -->
                
                <bibl xml:id="Imitated_Italian_1810">
                   <title level="a">Imitated from the Italian.</title>
@@ -566,7 +566,7 @@
                </bibl>
                
                <bibl xml:id="Watch_1811">
-                  <title level="a">The Watch. [1811 version]</title>
+                  <title level="a">The Watch.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -576,17 +576,17 @@
                </bibl>
                
                <bibl xml:id="Consumption_1811">
-                  <title level="a">Ode to Consumption. [1811 version]</title>
+                  <title level="a">Ode to Consumption.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
                   <date when="1811">1811</date>
-                  <note resp="#lmw">1811 poem. This poem is reprinted as a selection inin Benjamin Suggitt Nayler's A Rhetorical Grammar (1822).</note>
+                  <note resp="#lmw">1811 poem. This poem is reprinted as a selection in Benjamin Suggitt Nayler's 1822 <title level="m">A Rhetorical Grammar</title>.</note>
                </bibl>
                
                <bibl xml:id="Bertha_1811">
-                  <title level="a">Bertha. A Ballad. [1811 version]</title>
+                  <title level="a">Bertha. A Ballad.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -596,7 +596,7 @@
                </bibl>
                
                <bibl xml:id="Portugal_1811">
-                  <title level="a">Portugal. An Ode. [1811 version]</title>
+                  <title level="a">Portugal. An Ode.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -606,7 +606,7 @@
                </bibl>
                
                <bibl xml:id="BlindMansStory_1811">
-                  <title level="a">The Blind Man's Story. [1811 version]</title>
+                  <title level="a">The Blind Man's Story.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -616,7 +616,7 @@
                </bibl>
                
                <bibl xml:id="Sun_Set_MRM"> <!--REVISED ENTRY: existing id -->
-                  <title level="a">Sun-Set. [1811 version]</title>
+                  <title level="a">Sun-Set.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -626,7 +626,7 @@
                </bibl>
                
                <bibl xml:id="WestminsterAbbey_1811">
-                  <title level="a">Westminster Abbey. [1811 version]</title>
+                  <title level="a">Westminster Abbey.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -636,7 +636,7 @@
                </bibl>
                
                <bibl xml:id="MaternalAffection_1811">
-                  <title level="a">Maternal Affection. An Ode. [1811 version]</title>
+                  <title level="a">Maternal Affection. An Ode.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -646,7 +646,7 @@
                </bibl>
                
                <bibl xml:id="BessyBell_1811">
-                  <title level="a">Bessy Bell and Mary Gray. A Ballad. [1811 version]</title>
+                  <title level="a">Bessy Bell and Mary Gray. A Ballad.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -656,7 +656,7 @@
                </bibl>
                
                <bibl xml:id="Silchester_1811">
-                  <title level="a">Bessy Bell and Mary Gray. A Ballad. [1811 version]</title>
+                  <title level="a">Silchester.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -666,7 +666,7 @@
                </bibl>
                
                <bibl xml:id="VictoryOfBarrosa_1811">
-                  <title level="a">On the Victory of Barrosa. To Mrs. Taylor, of Hartley Court, Near Reading, Mother of Colonel Norcott. [1811 version]</title>
+                  <title level="a">On the Victory of Barrosa. To Mrs. Taylor, of Hartley Court, Near Reading, Mother of Colonel Norcott.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
@@ -676,22 +676,24 @@
                </bibl>
                
                <bibl xml:id="WatlingtonH_1827">
-                  <title level="a">Watlington Hill: A Descriptive Poem [1827 version]</title>
+                  <title level="a">Watlington Hill: A Descriptive Poem</title>
                   <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
                   <author ref="#MRM"/>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
                   <date when="1827"/>
-                  <note resp="#slc #lmw">Long narrative poem, originally published separately in one volume in <date when="1812">1812</date></note>
+                  <note resp="#slc #lmw">1827 published version of long narrative poem, originally published separately in one volume in <date when="1812">1812</date></note>
                </bibl>
                
            <!--LMW: Here is updated version of existing Wat. Hill entry for the first edition:
               <bibl xml:id="WatlingtonH">
-                  <title>Watlington Hill; A Poem</title>
+                  <title level="m">Watlington Hill; A Poem</title>
                   <date>1812</date>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <note resp="#lmw">First printed version of this long narrative poem.</note>
+                 <note><ref target="https://books.google.com/books?id=fFECAAAAQAAJ"/></note>
                </bibl> -->
                
                <bibl xml:id="Independence_1827">
