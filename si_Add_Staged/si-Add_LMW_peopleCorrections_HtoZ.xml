@@ -568,7 +568,7 @@
                   <death when="1854-11-12"><!--LMW. Place of death not listed in standard reference sources. -->
                      <placeName>England</placeName>
                   </death>
-                  <note resp="#lmw">British actor, the younger brother of <persName ref="#Kemble_JP">John Phillip Kemble</persName> and <persName ref="#Siddons_Sarah">Sarah Siddons</persName>. Although he was considered by some to be as fine an actor as his sister and brother, he mostly appeared in secondary rather than leading roles. Father of <persName ref="#Kemble_Frances">Frances "Fanny" Kemble</persName>. One of the co-proprietors of <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> . He served as Examiner of Plays in the early nineteenth-century, reviewing plays for licensing by the Lord Chamberlain.</note>
+                  <note resp="#lmw">British actor, the younger brother of <persName ref="#Kemble_JP">John Phillip Kemble</persName> and <persName ref="#Siddons_Sarah">Sarah Siddons</persName>. Although he was considered by some to be as fine an actor as his sister and brother, he mostly appeared in secondary rather than leading roles. Father of <persName ref="#Kemble_Frances">Frances Kemble</persName>. One of the co-proprietors of <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> . He served as Examiner of Plays in the early nineteenth-century, reviewing plays for licensing by the Lord Chamberlain.</note>
                <note>
                   <ref target="http://viaf.org/viaf/59345857"/>
                </note></person>
@@ -828,7 +828,7 @@
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="novelist"/>
-                  <note resp="#lmw">Landon attended the <placeName ref="#StQuintin_School">St. Quintin School</placeName>, and was taught by <persName ref="#Rowden_Fr">Frances Rowden</persName>, along with <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Lamb_Caro">Caroline Lamb</persName>. Wrote poetry under L.E.L. or "Miss Landon". Contributed to many giftbooks and annuals in the 1830s, and also anonymously authored numerous reviews and essays. Married <persName>George Maclean</persName>, governor of the British colony Gold Coast in West Africa (now Ghana) in 1838 and died two months later.
+                  <note resp="#lmw">Landon attended the <placeName ref="#StQuintin_School">St. Quintin School</placeName>, and was taught by <persName ref="#Rowden_Fr">Frances Rowden</persName>, along with <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Lamb_Caro">Caroline Lamb</persName>. Wrote poetry under L.E.L. or Miss Landon. Contributed to many giftbooks and annuals in the 1830s, and also anonymously authored numerous reviews and essays. Married <persName>George Maclean</persName>, governor of the British colony Gold Coast in West Africa (now Ghana) in 1838 and died two months later.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/25409486"/>
@@ -1143,7 +1143,7 @@
                   </note>  
                </person>
                
-               <person xml:id="MaryII" sex="f">
+               <person xml:id="MaryII" sex="f"> <!--LMW: Not a dup.-->
                   <persName>Mary II, Queen of England, Scotland, and Ireland</persName>
                   <persName><forename>Mary</forename><surname>Stuart</surname></persName>
                   <persName><roleName>Queen of England, Scotland, and Ireland</roleName>
@@ -1163,7 +1163,7 @@
                   </note>  
                </person>
                
-               <person xml:id="MaryQoS" sex="f">
+               <person xml:id="MaryQoS" sex="f"> !--LMW: Not a dup.-->
                   <persName>Mary I of Scotland</persName>
                   <persName>
                      <forename>Mary</forename>
@@ -1222,7 +1222,7 @@
                      <placeName>Ampthill Square, London, England</placeName>
                   </death>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">A celebrated child actor, known as "Master Betty" and the "Young Roscius." Appeared to great acclaim in theaters in Dublin and Belfast before appearing at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. Played Young Norval in Douglas as well as adult roles such as <persName ref="#Hamlet_H">Hamlet</persName>. He never achieved critical success as an adult actor and retired from the theater in 1824.
+                  <note resp="#lmw">A celebrated child actor, known as Master Betty and the Young Roscius. Appeared to great acclaim in theaters in Dublin and Belfast before appearing at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. Played Young Norval in Douglas as well as adult roles such as <persName ref="#Hamlet_H">Hamlet</persName>. He never achieved critical success as an adult actor and retired from the theater in 1824.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/2092233"/>
@@ -1348,8 +1348,8 @@
                   </death>
                   <occupation type="medical" subtype="surgeon"/>
                   <occupation type="legal" subtype="magistrate"/>
-                  <note resp="#lmw">
-                     <persName ref="#Mitford_Geo">George Mitford</persName> was born on <date when="1760-11-15">November 15, 1760</date> in <placeName>Hexham, Northumberland</placeName>, the son of <persName>Francis Midford</persName>, surgeon, and <persName>Jane Graham</persName>. He was related to the Mitfords of Mitford Castle, Northumberland. In <date when="1784">1784</date>, he was living in Alresford and is listed in a Hampshire directory as "surgeon (medicine)." Although later sources would claim that he was a graduate of the University of Edinburgh medical school, there is no evidence that he obtained a medical degree; his father and grandfather worked as surgeon-apothecaries and it seems likely that he served a medical apprenticeship with family members. He married <persName ref="#Russell_M">Mary Russell</persName> on <date when="1785-10-17">October 17, 1785</date> at <placeName>New Alresford, Hampshire</placeName>. On the marriage allegation papers, both gave their addresses as <placeName>Old Alresford</placeName>; they later came to live at Broad Street in New Alresford. Their only child to live to adulthood, <persName ref="#MRM">Mary Russell Mitford</persName>, was born two years later on <date when="1787-12-16">December 16, 1787</date> at <placeName>New Alresford, Hampshire</placeName>. He served as a local magistrate and was active in Whig political and legal circles in Berkshire. <persName ref="#Mitford_Geo">George Mitford</persName> died on <date when="1842-12-11">December 11, 1842</date> at <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> in the <placeName>parish of Shinfield, Berkshire</placeName>.  <!--LMW: no VIAF #.-->
+                  <note resp="#lmw"> <!--LMW:  Ok. Reviewed 2019-06-12-->
+                     <persName ref="#Mitford_Geo">George Mitford</persName> was the son of <persName>Francis Midford</persName>, surgeon, and <persName>Jane Graham</persName>. He was related to the Mitfords of Mitford Castle, Northumberland. In <date when="1784">1784</date>, he was living in Alresford and is listed in a Hampshire directory as <quote>surgeon (medicine)</quote>. Although later sources would suggest he claimed he was a graduate of the University of Edinburgh medical school, there is no evidence that he obtained a medical degree; his father and grandfather worked as surgeon-apothecaries and it seems likely that he served a medical apprenticeship with family members. He married <persName ref="#Russell_M">Mary Russell</persName> on <date when="1785-10-17">October 17, 1785</date> at <placeName>New Alresford, Hampshire</placeName>. On the marriage allegation papers, both gave their addresses as <placeName>Old Alresford</placeName>; they later came to live at Broad Street in New Alresford. Their only child to live to adulthood, <persName ref="#MRM">Mary Russell Mitford</persName>, was born two years later on <date when="1787-12-16">December 16, 1787</date> at <placeName>New Alresford, Hampshire</placeName>. He served as a local magistrate and was active in Whig political and legal circles in Berkshire..  <!--LMW: no VIAF #.-->
                   </note>
                </person>
                
@@ -1603,7 +1603,7 @@
                   </birth>
                   <death when="1843-06-27"/>
                   <occupation type="bookProducer" subtype="publisher"/>
-                  <note resp="#ajc #lmw">John Murray (second of that name) was proprietor of the publishing house bearing his name. The business was founded in <date when="1768">1768</date> by his father, John Mac Murray (1745–1793), (who later changed the family name to Murra"), and was continued by his son, John Murray III. <persName ref="#Byron">Byron</persName>'s friend, correspondent, and early publisher. He also published works by <persName ref="#Austen_Jane">Austen</persName>, <persName ref="#Scott_Wal">Scott</persName>, <persName ref="#Irving_Wash">Washington Irving</persName>, and Crabbe, and he helped to found the <title ref="#QuarterlyRev_per">Quarterly Review</title> and the <title ref="#EdinburghRev_per">Edinburgh Review</title>. Under his leadership, the firm developed into one of the most important and influential publishing houses in Romantic-era Great Britain. After 1812, his publishing house premises (and home) in <placeName ref="#London_city">London</placeName> were at 50 Albermarle Street in Mayfair. He is buried at All Soul's, Kensal Green, London.</note>
+                  <note resp="#ajc #lmw">John Murray (second of that name) was proprietor of the publishing house bearing his name. The business was founded in <date when="1768">1768</date> by his father, John Mac Murray (1745–1793), (who later changed the family name to Murray), and was continued by his son, John Murray III. <persName ref="#Byron">Byron</persName>'s friend, correspondent, and early publisher. He also published works by <persName ref="#Austen_Jane">Austen</persName>, <persName ref="#Scott_Wal">Scott</persName>, <persName ref="#Irving_Wash">Washington Irving</persName>, and Crabbe, and he helped to found the <title ref="#QuarterlyRev_per">Quarterly Review</title> and the <title ref="#EdinburghRev_per">Edinburgh Review</title>. Under his leadership, the firm developed into one of the most important and influential publishing houses in Romantic-era Great Britain. After 1812, his publishing house premises (and home) in <placeName ref="#London_city">London</placeName> were at 50 Albermarle Street in Mayfair. He is buried at All Soul's, Kensal Green, London.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/88737799"/>
                   </note>
@@ -1644,7 +1644,7 @@
                      <surname>Newberry</surname>
                   </persName>
                   <occupation type="legal" subtype="solicitor"/>
-                  <note resp="#scw #lmw">According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <q>“Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading"</q> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted (London:  C. Mitchell, 1856: 77-79). More research needed. <!-- LMW:  No VIAF #. -->
+                  <note resp="#scw #lmw">According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <quote>Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading</quote> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's <title level="m">Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted</title> (London:  C. Mitchell, 1856: 77-79). More research needed. <!-- LMW:  No VIAF #. -->
                   </note>
                </person>
                
@@ -1735,12 +1735,7 @@
                   <occupation type="scholar" subtype="naturalist"/>
                   <occupation type="scholar" subtype="antiquarian"/>
                   <occupation type="literary"/>
-                  <note resp="#kab #lmw"><p>An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName>, friend of <persName ref="#Johnson_Mr">John Johnson</persName> and co-founder with him of the <orgName ref="#Hampden_Club">Hampden Club</orgName>. A Radical, Northmore ran unsuccessfully as Member of Parliament for Exeter and for Barnstaple. In <rs type="letter">a letter to <persName ref="#Haydon">Haydon</persName> dated <date when="1824-02-09">9 February 1824</date>
-                  </rs>, Mitford refers to Northmore as "a great <placeName ref="#Devonshire">Devonshire</placeName>
-                     reformer, one of the bad epic poets and very pleasant men in which that
-                     country abounds" (<bibl>
-                        <title level="m">Life of Mary Russell Mitford</title> ed. L'Estrange Vol II, page 22</bibl>).</p>
-                     <p>In an 1819 letter to Elford, Mitford gives this description of Northmore, and mentions his authorship of an epic poem on George Washington: "what a man! How loud &amp; shrewd &amp; full of himself &amp; sharp all over from his eagle nose to his pointed hook toe! What a perpetual sky rocket bouncing starting &amp; flaming! What a talker against time! Well might <persName ref="#Hobhouse_JC">Mr. Hobhouse</persName> call him "the gentleman who came all the way from Devonshire to tell us that he was a great man at home." And he is a Poet too. Has written an Epic, which must have appeared incognito–for I never remember to have heard it mentioned in my life. An Epic Poem about <persName ref="#Washington_Geo">Washington</persName>. Northmore's poem, published in Baltimore, MD, is entitled <title ref="#WashingtonEpic_TN">Washington; or Liberty Restored. A Poem in Ten Books</title>.</p></note>
+                  <note resp="#kab #lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName>, friend of <persName ref="#Johnson_Mr">John Johnson</persName> and co-founder with him of the <orgName ref="#Hampden_Club">Hampden Club</orgName>. A Radical, Northmore ran unsuccessfully as Member of Parliament for Exeter and for Barnstaple. In <rs type="letter">a letter to <persName ref="#Haydon">Haydon</persName> dated <date when="1824-02-09">9 February 1824</date></rs>, Mitford refers to Northmore as <quote>a great <placeName ref="#Devonshire">Devonshire</placeName> reformer, one of the bad epic poets and very pleasant men in which that country abounds</quote> (<bibl> <title level="m">Life of Mary Russell Mitford</title> ed. L'Estrange Vol II, page 22</bibl>). In an 1819 letter to Elford, Mitford gives this description of Northmore, and mentions his authorship of an epic poem on George Washington: <quote>what a man! How loud &amp; shrewd &amp; full of himself &amp; sharp all over from his eagle nose to his pointed hook toe! What a perpetual sky rocket bouncing starting &amp; flaming! What a talker against time! Well might <persName ref="#Hobhouse_JC">Mr. Hobhouse</persName> call him <q>the gentleman who came all the way from Devonshire to tell us that he was a great man at home.</q> And he is a Poet too. Has written an Epic, which must have appeared incognito–for I never remember to have heard it mentioned in my life. An Epic Poem about <persName ref="#Washington_Geo">Washington</persName></quote>. Mitford may not have seen the poem, since it was published in Baltimore, MD. Northmore's poem was entitled <title ref="#WashingtonEpic_TN">Washington; or Liberty Restored. A Poem in Ten Books</title>.</note> <!--LMW to EBB: This note has a quote within a quote. Tagging? -->
                   <note>
                      <ref target="http://viaf.org/viaf/59492066"/></note>
                </person>
@@ -1835,7 +1830,7 @@
                   <occupation type="theater" subtype="actor"/>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="playwright"/>
-                  <note resp="#lmw">English actor and playwright, specializing in comedy and farce; appeared as "Mrs. Orger." Born Mary Ann Ivers, daughter of William Ivers. Married to Thomas Orger, a Quaker, in July 1804. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. <persName ref="#Hunt">Leigh Hunt</persName> addressed a poem to her. Source: The Biography of the British Stage. 187-188.
+                  <note resp="#lmw">English actor and playwright, specializing in comedy and farce; appeared as Mrs. Orger. Born Mary Ann Ivers, daughter of William Ivers. Married to Thomas Orger, a Quaker, in July 1804. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. <persName ref="#Hunt">Leigh Hunt</persName> addressed a poem to her. Source: The Biography of the British Stage. 187-188.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/36481830"/></note>
@@ -2281,7 +2276,7 @@
                   <occupation type="literary" subtype="translator"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="religious" subtype="clergy"/>
-                  <occupation type="scholar" subtype="teacher"/>
+                  <occupation type="educator"/>
                   <note resp="#ghb">While a clergyman in Scarning, Norfolk, and the
                      Master of Seckar's School, he completed some of the earliest English
                      translations, in blank verse, of <persName ref="#Aeschylus">Aeschylus</persName> in 1779, <persName ref="#Euripides">Euripides</persName> in 1783, and <persName ref="#Sophocles">Sophocles</persName> in 1788.
@@ -2494,7 +2489,7 @@
                   </note>
                </person>
                
-               <person xml:id="Rapley_John1" sex="m">
+               <person xml:id="Rapley_John1" sex="m"> <!--LMW: not a dup.-->
                   <persName>John (Jack) Rapley</persName>
                   <persName>
                      <surname>Rapley</surname>
@@ -2508,7 +2503,7 @@
                   </note>
                </person>
                
-               <person xml:id="Rapley_John2" sex="m">
+               <person xml:id="Rapley_John2" sex="m"> <!--LMW: not a dup.-->
                   <persName>John Rapley</persName>
                   <persName>
                      <surname>Rapley</surname>
@@ -2664,7 +2659,7 @@
                   </note>
                </person>
                
-               <person xml:id="Robinson_H" sex="m">
+               <person xml:id="Robinson_H" sex="m"> <!--LMW: not a dup.-->
                   <persName>Henry Robinson</persName>
                   <persName>
                      <surname>Robinson</surname>
@@ -2673,8 +2668,8 @@
                   <occupation type="legal" subtype="lawyer"/>
                   <note resp="#kdc #lmw">In a <persName ref="#MRM">Mitford</persName> letter of July 29, 1825, this name appears as that of an attorney named Robinson. <persName ref="#coles">Coles</persName> indicates <persName ref="#MRM">Mitford</persName> is probably correct in her assumption that the person indicated is attorney and writer <persName ref="#Robinson_HC">Henry Crabb Robinson</persName>, although it may also refer to a different attorney Robinson. See Coles, p. 525, note 13.  Needs additional research.</note>
                </person>
-               
-               <person xml:id="Robinson_HC" sex="m">
+                
+               <person xml:id="Robinson_HC" sex="m"> <!--LMW: not a dup.-->
                   <persName>Henry Crabb Robinson</persName>
                   <persName>
                      <forename>Henry</forename>
@@ -2744,7 +2739,7 @@
                   </note>
                </person>
                
-               <person xml:id="Russell_MaryDicker" sex="f">
+               <person xml:id="Russell_MaryDicker" sex="f"> 
                   <persName>Mary Dicker Russell</persName>
                   <persName>
                      <surname type="married">Russell</surname>
@@ -2752,12 +2747,12 @@
                      <forename>Mary</forename>
                   </persName>
                   <persName>Mrs. Russell</persName>
-                  <note resp="#lmw">
-                     <persName ref="#MRM">Mary Russell Mitford</persName>'s maternal grandmother. <persName ref="#Russell_MaryDicker">Mary Dicker</persName> was the daughter of William and Martha Dicker and was born about <date when="1711">1711</date> in Hampshire. She was the second wife of the <persName ref="#Russell_Richard">Richard Russell</persName>; they married on <date when="1744-05-21">May 21, 1744</date>. They had three children: <persName>Charles William</persName>, <persName>Frances</persName>, and <persName ref="#Russell_M">Mary</persName>. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was the rector of <placeName>Ashe</placeName> and the Vicar of <placeName>Overton</placeName> and the family lived at <placeName>Ashe, Hampshire</placeName>. She died at <placeName>Ashe, Hampshire</placeName>, on <date when="1785-03-03">March 3, 1785</date>.
+                  <note resp="#lmw"> <!--LMW OK. reviewed 2019-06-12-->
+                     <persName ref="#MRM">Mary Russell Mitford</persName>'s maternal grandmother. <persName ref="#Russell_MaryDicker">Mary Dicker</persName> was the daughter of William and Martha Dicker of Hampshire. She was the second wife of the <persName ref="#Russell_Richard">Richard Russell</persName>; they married on <date when="1744-05-21">May 21, 1744</date>. They had three children: <persName>Charles William</persName>, <persName>Frances</persName>, and <persName ref="#Russell_M">Mary</persName>. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was the rector of <placeName>Ashe</placeName> and the Vicar of <placeName>Overton</placeName> and the family lived at <placeName>Ashe, Hampshire</placeName>. She died in 1785, before <persName ref="#MRM">Mitford</persName> was born.
                   </note>
                </person>
                
-               <person xml:id="Russell_Richard" sex="m">
+               <person xml:id="Russell_Richard" sex="m"> 
                   <persName>Rev. Dr. Richard Russell</persName>
                   <persName>
                      <surname>Russell</surname>
@@ -2768,12 +2763,12 @@
                   <birth when="1695-10-05">
                      <placeName>Basingstoke, Hampshire, England</placeName>
                   </birth>
-                  <death when="1783">
+                  <death notAfter="1783-02-25">
                      <placeName>Ashe, Hampshire, England</placeName>
                   </death>
                   <occupation type="religious" subtype="clergy"/>
-                  <note resp="#ad #lmw">
-                     <persName ref="#MRM">Mary Russell Mitford</persName>'s maternal grandfather. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was born on <date when="1695-10-05">October 5, 1695</date> at <placeName>Basingstoke, Hampshire</placeName>. He was the son of <persName>William Russell</persName> and <persName>Jane Coleman</persName>, and was a distant relation of the Dukes of Bedford (sixth creation, 1694). He was married twice; first, to <persName>Elizabeth Boulte</persName>, by whom he had a daughter, <persName>Ann Russell</persName>; second, to <persName>Mary Dicker</persName>, by whom he had three children: <persName>Charles William</persName>, <persName>Frances</persName>, and <persName ref="#Russell_M">Mary</persName>. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was the rector of <persName>Ashe</persName> and the Vicar of <persName>Overton</persName> and the family lived at Ashe, Hampshire. He died at <persName>Ashe, Hampshire</persName>, in early <date when="1783">1783</date> and his will was probated on <date when="1783-02-25">February 25, 1783</date>.
+                  <note resp="#ad #lmw"> <!--LMW OK. reviewed 2019-06-12-->
+                     <persName ref="#MRM">Mary Russell Mitford</persName>'s maternal grandfather. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was the son of <persName>William Russell</persName> and <persName>Jane Coleman</persName>, and was a distant relation of the Dukes of Bedford (sixth creation, 1694). He was married twice; first, to <persName>Elizabeth Boulte</persName>, by whom he had a daughter, <persName>Ann Russell</persName>; second, to <persName>Mary Dicker</persName>, by whom he had three children: <persName>Charles William</persName>, <persName>Frances</persName>, and <persName ref="#Russell_M">Mary</persName>. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was the rector of <placeName>Ashe</placeName> and the Vicar of <placeName>Overton</placeName> and the family lived at <placeName>Ashe, Hampshire</placeName>. He likely died in early 1783, before <persName ref="#MRM">Mitford</persName> was born, since his will was probated on <date when="1783-02-25">February 25, 1783</date>.
                   </note>
                </person>
          
@@ -2817,7 +2812,7 @@
                      <placeName>Hatfield House, Hatfield, Hertfordshire, England</placeName>
                   </death>
                   <occupation type="government" subtype="politician"/>
-                  <note resp="#lmw">In 1648, Salisbury was a member of the deputation who negotiated the failed <rs type="event" ref="#Tr_Newport">Treaty of Newport</rs> with <persName ref="#ChasI">Charles I</persName>; although he did not come out strongly in favor of either side during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, his estate suffered depradations. He later refused to approve the regicide, although he took the Engagement and supported the <rs type="event" ref="#Commonwealth">Commonwealth</rs> following Charles's execution. During the Commonwealth period, Salisbury served in the English Council of State; he served as Member of Parliament for King's Lynn in the Rump Parliament. Although he was elected as Member of Parliament for Hertfordshire in 1656 during the Second Protectorate Parliament, he was not allowed to take his seat.</note>
+                  <note resp="#lmw">In 1648, Salisbury was a member of the deputation who negotiated the failed <rs type="event" ref="#Tr_Newport">Treaty of Newport</rs> with <persName ref="#ChasI">Charles I</persName>; although he did not come out strongly in favor of either side during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>, his estate suffered depradations. He later refused to approve the regicide, although he took the Engagement and supported the <rs type="event" ref="#Commonwealth">Commonwealth</rs> following Charles's execution. During the Commonwealth period, Salisbury served in the English Council of State; he served as Member of Parliament for King's Lynn in the Rump Parliament. Although he was elected as Member of Parliament for Hertfordshire in 1656 during the Second Protectorate Parliament, he was not allowed to take his seat.</note><!--LMW: This event id'd elsewhere.-->
                   <note>
                      <ref target="http://viaf.org/viaf/61368016"/>
                   </note>
@@ -2877,7 +2872,7 @@
                   </note>
                </person>
                
-               <person xml:id="Scott_John">
+               <person xml:id="Scott_John"> <!--LMW not a dup.-->
                   <persName>John Scott</persName>
                   <persName>
                      <forename>John</forename>
@@ -2892,13 +2887,13 @@
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="literary" subtype="journalist"/>
-                  <note resp="#lmw #ebb">Journalist and editor who revived <title ref="#LondonMag">The London Magazine</title> in 1820 and edited it until his death on <date when="1821-02-27">27 February 1821</date>. Died as the result of complications from a gunshot wound received in a duel fought on <date when="1821-02-16">16 February</date> with <persName ref="#Christie_JH">Jonathan Henry Christie</persName> (<persName ref="#Lockhart_JG">John Gibson Lockhart</persName>'s agent) at <placeName>Chalk Farm</placeName>. The duel resulted from an escalation of attacks and counterattacks between the editors of the <title ref="#London_Mag">London</title> and <title ref="#Blackwoods">Blackwood's Magazines</title> over <title ref="#Blackwoods">Blackwood</title>'s characterizations of a <orgName ref="#CockneyS">Cockney School</orgName>.</note>
+                  <note resp="#lmw #ebb">Journalist and editor who revived <title ref="#LondonMag">The London Magazine</title> in 1820 and edited it until his death on <date when="1821-02-27">27 February 1821</date>. Died as the result of complications from a gunshot wound received in a duel fought on <date when="1821-02-16">16 February</date> with <persName ref="#Christie_JH">Jonathan Henry Christie</persName> (<persName ref="#Lockhart_JG">John Gibson Lockhart</persName>'s agent) at <placeName>Chalk Farm</placeName>. The duel resulted from an escalation of attacks and counterattacks between the editors of the <title ref="#LondonMag">London</title> and <title ref="#Blackwoods">Blackwood's Magazines</title> over <title ref="#Blackwoods">Blackwood</title>'s characterizations of a <orgName ref="#CockneyS">Cockney School</orgName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/29709495"/>
                   </note>
                </person>
                
-               <person xml:id="Scott_John_LdEldon" sex="m">
+               <person xml:id="Scott_John_LdEldon" sex="m"> <!--LMW not a dup.-->
                   <persName>John Scott, Earl of Eldon</persName>
                   <persName>
                      <forename>John</forename>
@@ -3063,7 +3058,7 @@
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Early modern era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain's men and author or co-author of thirty-eight plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the <title ref="a">Introduction</title> to her <title ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: <quote>I had grown up--it is the privilege of English people to grow up--in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart.</quote></note>
+                  <note resp="#lmw">Early modern era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain's men and author or co-author of thirty-eight plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the <title level="a">Introduction</title> to her <title ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: <quote>I had grown up--it is the privilege of English people to grow up--in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart.</quote></note>
                   <note>
                      <ref target="http://viaf.org/viaf/96994048"/>
                   </note>
@@ -3256,7 +3251,7 @@
                   <note>
                      <ref target="http://viaf.org/viaf/100210982"/></note>
                      <note><ref target="http://www.historyofparliamentonline.org/volume/1754-1790/member/sinclair-john-1754-1835"/></note>
-                        <note>ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/sinclair-sir-john-1754-1835"/>
+                        <note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/sinclair-sir-john-1754-1835"/>
                   </note>
                </person>
                
@@ -3267,7 +3262,7 @@
                      <surname>Skerrett</surname>
                      <forename>Marianne</forename>
                   </persName>
-                  <note resp="#scw #lmw">The 1888 volume of <title level="j">Notes and Queries</title> indicates that Marianne and Henrietta Skerrett were "cousins of the tragedian's [<persName ref="#Macready_Wm">William Macready</persName>'s] mother" (7th ser., 6, 28 July 1888: 76). Henrietta is likely to be the <q>Hetta</q> mentioned in Macready's diaries. Source: Letter from <persName ref="#coles">William Coles</persName>to <persName ref="#Needham_Francis">Francis Needham</persName>, <date when="1958-04-25">April 25, 1958</date>, <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. More research needed.</note>
+                  <note resp="#scw #lmw">The 1888 volume of <title level="j">Notes and Queries</title> indicates that Marianne and Henrietta Skerrett were <quote>cousins of the tragedian's [<persName ref="#Macready_Wm">William Macready</persName>'s] mother.</quote> (7th ser., 6, 28 July 1888: 76). Henrietta is likely to be the <q>Hetta</q> mentioned in Macready's diaries. Source: Letter from <persName ref="#coles">William Coles</persName>to <persName ref="#Needham_Francis">Francis Needham</persName>, <date when="1958-04-25">April 25, 1958</date>, <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. More research needed.</note>
                </person>
                
                <person xml:id="Sloman_Mrs" sex="f">
@@ -3283,7 +3278,7 @@
                      <placeName>Charleston, South Carolina, USA</placeName>
                   </death>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor, specialized in tragedy. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres and later appeared in <placeName>New York</placeName>. She began acting under her paternal name, Miss Whitaker; and later appeared as Mrs. Sloman. She was married twice, first to Henry Downton and second to John Sloman; both were actors. Appeared as Belvidera in <title level="m">Venice Preserved</title> and Mrs. Haller in <title ref="#Stranger_play">The Stranger</title>. She appeared with <persName ref="#Macready_Wm">William Macready</persName> in <title ref="#Coriolanus_play">Corialanus</title> in 1833 and is mentioned unadmiringly in <persName ref="#Macready_Wm">Macready</persName>'s journals. Source: "Downton, William" DNB. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor, specialized in tragedy. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres and later appeared in <placeName>New York</placeName>. She began acting under her paternal name, Miss Whitaker; and later appeared as Mrs. Sloman. She was married twice, first to Henry Downton and second to John Sloman; both were actors. Appeared as Belvidera in <title level="m">Venice Preserved</title> and Mrs. Haller in <title ref="#Stranger_play">The Stranger</title>. She appeared with <persName ref="#Macready_Wm">William Macready</persName> in <title ref="#Coriolanus_play">Corialanus</title> in 1833 and is mentioned unadmiringly in <persName ref="#Macready_Wm">Macready</persName>'s journals. Source: <q>Downton, William</q> DNB. Forename unknown. More research needed.</note>
                </person>
                
                <person xml:id="Smith_Ad" sex="m">
@@ -3635,7 +3630,7 @@
                   </note>
                </person>
                
-               <person xml:id="Taylor_J" sex="m">
+               <person xml:id="Taylor_J" sex="m"> <!--LMW not a dup.-->
                   <persName>John Taylor</persName>
                   <persName>
                      <forename>John</forename>
@@ -3659,7 +3654,7 @@
                   </note>
                </person>
                
-               <person xml:id="Taylor_Jer" sex="m">
+               <person xml:id="Taylor_Jer" sex="m"> 
                   <persName>Jeremy Taylor</persName>
                   <persName>
                      <forename>Jeremy</forename>
@@ -3669,13 +3664,13 @@
                   <death when="1667-08-13"/>
                   <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
-                  <note resp="#lmw #rnes">Church of England clergyman and author, known as the "Shakespeare of Divines" and admired for his literary prose style. <persName ref="#lmw">Mitford</persName> mentions his style admiringly, along with that of <persName ref="#Walton_I">Izaak Walton</persName>.</note>
+                  <note resp="#lmw #rnes">Church of England clergyman and author, known as the <soCalled>Shakespeare of Divines</soCalled> and admired for his literary prose style. <persName ref="#lmw">Mitford</persName> mentions his style admiringly, along with that of <persName ref="#Walton_I">Izaak Walton</persName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/329566831"/>
                   </note>
                </person>
                
-               <person xml:id="Taylor_John" sex="m">
+               <person xml:id="Taylor_John" sex="m"> <!--LMW not a dup.-->
                   <persName>John Taylor</persName>
                   <persName>
                      <forename>John</forename>
@@ -3689,13 +3684,13 @@
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="medical" subtype="oculist"/>
-                  <note resp="#lmw">Began his career in London as an oculist; Mary Robinson dedicates her poem "Sight" to him. Early in his career, he served as editor of the Morning Post newspaper and was a member of the Della Cruscan literary circle as well as the Whig political circles around the <persName ref="#GeoIV">Prince of Wales</persName>, <persName ref="#Fox_ChasJ">Charles James Fox</persName>, and <persName ref="#Sheridan_RichardB">Richard Sheridan</persName>. His memoir, <title level="m">Records of my Life</title> (1832), is an important source of information regarding literary and theatrical activities in London between the 1780s and 1830s. During Mitford's time, he was proprietor of the conservative London Sun newspaper and a theatrical patron. <persName ref="#Mitford_Geo">George Mitford</persName> recommends Taylor as a possible friend who might interest <persName ref="#Harris_Henry">Henry Harris</persName>, manager of <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatre, in producing <title ref="#Foscari_MRMplay">Foscari</title>.
+                  <note resp="#lmw">Began his career in London as an oculist; Mary Robinson dedicates her poem <title level="a">Sight</title> to him. Early in his career, he served as editor of the <title level="j">Morning Post</title> newspaper and was a member of the Della Cruscan literary circle as well as the Whig political circles around the <persName ref="#GeoIV">Prince of Wales</persName>, <persName ref="#Fox_ChasJ">Charles James Fox</persName>, and <persName ref="#Sheridan_RichardB">Richard Sheridan</persName>. His memoir, <title level="m">Records of my Life</title> (1832), is an important source of information regarding literary and theatrical activities in London between the 1780s and 1830s. During Mitford's time, he was proprietor of the conservative London Sun newspaper and a theatrical patron. <persName ref="#Mitford_Geo">George Mitford</persName> recommends Taylor as a possible friend who might interest <persName ref="#Harris_Henry">Henry Harris</persName>, manager of <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatre, in producing <title ref="#Foscari_MRMplay">Foscari</title>.
                     </note>
                   <note>
                      <ref target="http://viaf.org/viaf/59921591"/>
                   </note>
                </person>
-               <person xml:id="Tichburne_hist" sex="m"><!--LMW: Should we change? spelled wrong in xml:id -->
+               <person xml:id="Tichburne_hist" sex="m">
                   <persName>Robert Tichborne</persName>
                   <persName>
                      <forename>Robert</forename>
@@ -4180,7 +4175,7 @@
                   <occupation type="military"/>
                   <occupation type="government" subtype="politician"/>
                   <occupation type="government"/>
-                  <note resp="#ebb">Before his fame in the Napoleonic Wars, Wellesley served in the Irish House of Commons, and after fighting against <persName>Tipu Sultan, the "Tiger of Mysore"</persName> in the <rs type="event">Siege of Seringapatam</rs> he served as the governor of <placeName>Seringapatam</placeName> and <placeName>Mysore</placeName> in <date when="1799">1799</date>. He was promoted to general during the <rs type="event">Peninsular Wars against <persName ref="#Napoleon">Napoleon</persName> (the battles fought in the Iberian Peninsula)</rs>, and was granted the title, the First Duke of Wellingtom, after Napoleon's first defeat and exile in <date when="1814">1814</date>. He led the Allied English and European armies in <rs type="event" ref="#Waterloo">Napoleon's decisive defeat at <placeName ref="#Waterloo_Belgium">Waterloo</placeName> on <date when="1815-06-18">18 June 1815</date>
+                  <note resp="#ebb">Before his fame in the Napoleonic Wars, Wellesley served in the Irish House of Commons, and after fighting against <persName>Tipu Sultan, the <soCalled>Tiger of Mysore</soCalled></persName> in the <rs type="event">Siege of Seringapatam</rs> he served as the governor of <placeName>Seringapatam</placeName> and <placeName>Mysore</placeName> in <date when="1799">1799</date>. He was promoted to general during the <rs type="event">Peninsular Wars against <persName ref="#Napoleon">Napoleon</persName> (the battles fought in the Iberian Peninsula)</rs>, and was granted the title, the First Duke of Wellingtom, after Napoleon's first defeat and exile in <date when="1814">1814</date>. He led the Allied English and European armies in <rs type="event" ref="#Waterloo">Napoleon's decisive defeat at <placeName ref="#Waterloo_Belgium">Waterloo</placeName> on <date when="1815-06-18">18 June 1815</date>
                      </rs>. A prominent influence on <orgName ref="#Tory">the Tory party</orgName>, he served as <roleName>Prime Minister <date from="1828" to="1830">from 1828 to 1830</date>, <date when="1834">and again in 1834</date>
                      </roleName>. 
                   </note>
@@ -4205,7 +4200,7 @@
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="literary" subtype="journalist"/>
-                  <note resp="#ajc #lmw">Tory journal editor and political figure. He and William Roberts founded the Christian evangelical periodial the <title level="j">British Review and London Critical Journal</title>, a quarterly that appeared between 1811 and 1825. He authored several publications on population and the English poor laws, including <title level="m">A Short Enquiry into the Policy, Humanity, and Effect of the Poor Laws</title> (1807); <title level="m">Observations on Mr. Whitbread's Poor Bill and on the Population of England</title> (1807); <title level="m">The Principle of the English Poor Laws, illustrated from the Evidence given by Scottish Proprietors (before the Corn Committee,) on the Connexion observed in Scotland between the Price of Grain and the Wages of Labour</title> (1815); and <title level="m">The Principles of Population and Production as they are affected by the Progress of Society</title> (1816). He believed that hardship was an incentive to industry and he did not support further education of the poor. On <date when="1820-03-16">March 16, 1820</date>, Weyland was the "Blue" or Tory candidate, supported by the municipal corporation, in the Reading election. Three candidates ran: <persName ref="#Monck_JB">John Berkeley Monck</persName> (418 votes), <persName ref="#Palmer_CF">Charles Fyshe Palmer</persName>(399 votes), and <persName ref="#Weyland_John">John Weyland</persName> (395 votes.); Weyland was not returned. See <ptr target="http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading"/>. Weyland later won a seat as Member of Parliament for Hindon, Wiltshire, and served from 1830 to 1832.
+                  <note resp="#ajc #lmw">Tory journal editor and political figure. He and William Roberts founded the Christian evangelical periodial the <title level="j">British Review and London Critical Journal</title>, a quarterly that appeared between 1811 and 1825. He authored several publications on population and the English poor laws, including <title level="m">A Short Enquiry into the Policy, Humanity, and Effect of the Poor Laws</title> (1807); <title level="m">Observations on Mr. Whitbread's Poor Bill and on the Population of England</title> (1807); <title level="m">The Principle of the English Poor Laws, illustrated from the Evidence given by Scottish Proprietors (before the Corn Committee,) on the Connexion observed in Scotland between the Price of Grain and the Wages of Labour</title> (1815); and <title level="m">The Principles of Population and Production as they are affected by the Progress of Society</title> (1816). He believed that hardship was an incentive to industry and he did not support further education of the poor. On <date when="1820-03-16">March 16, 1820</date>, Weyland was the Blue (or Tory) candidate, supported by the municipal corporation, in the Reading election. Three candidates ran: <persName ref="#Monck_JB">John Berkeley Monck</persName> (418 votes), <persName ref="#Palmer_CF">Charles Fyshe Palmer</persName>(399 votes), and <persName ref="#Weyland_John">John Weyland</persName> (395 votes.); Weyland was not returned. See <ptr target="http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading"/>. Weyland later won a seat as Member of Parliament for Hindon, Wiltshire, and served from 1830 to 1832.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/5034078"/>
@@ -4254,7 +4249,7 @@
                   <persName>white kitten</persName>
                   <persName>Selima</persName>
                   <persName>Grizzy</persName>
-                  <note resp="#lmw">Female white kitten belonging to <persName ref="#MRM">Mitford</persName> that she proposes to give to <persName ref="#Elford_SirWm">Elford</persName>. Mitford variously proposes to name the kitten "Selima" (after the kitten's father Selim) or "Grizzy" (after the character in Ferrier's novel <title level="m">Marriage</title>). Unknown whether Elford eventually takes the kitten. More research needed.</note>
+                  <note resp="#lmw">Female white kitten belonging to <persName ref="#MRM">Mitford</persName> that she proposes to give to <persName ref="#Elford_SirWm">Elford</persName>. Mitford variously proposes to name the kitten Selima (after the kitten's father Selim) or Grizzy (after the character in Ferrier's novel <title level="m">Marriage</title>). Unknown whether Elford eventually takes the kitten. More research needed.</note>
                </person>
                
                <person xml:id="Wilkie_Wil" sex="m">
