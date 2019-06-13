@@ -633,7 +633,7 @@
                      <placeName>Wokingham, Berkshire, England</placeName>
                   </death>
                   <note resp="#scw #lmw">
-                     <persName ref="#Needham_Francis">Needham</persName> tentatively identifies him as <persName ref="#MRM">Mitford</persName>'s landlord. Listed in 1841 census as "farmer" residing in Wokingham, Shinfield parish; also listed as "gentleman" in Reading directories. Buried <date when="1842-03-12">12 March 1842</date>. Source: ancestry.com.</note><!--LMW:  Wife Ann?  Listed as farmer in 1854 directory (no husband living, presumably.) see ancestry.-->
+                     <persName ref="#Needham_Francis">Needham</persName> tentatively identifies him as <persName ref="#MRM">Mitford</persName>'s landlord. Listed in 1841 census as a <quote>farmer</quote> residing in Wokingham, Shinfield parish; also listed as <quote>gentleman</quote> in Reading directories. Buried <date when="1842-03-12">12 March 1842</date>. Source: ancestry.com.</note><!--LMW:  Wife Ann?  Listed as farmer in 1854 directory (no husband living, presumably.) see ancestry.-->
                </person>
                
               <person xml:id="Bolinbroke" sex="m"><!--LMW: assigned xml:id misspelled.-->
@@ -706,7 +706,7 @@
                         <title level="m">The Grave of the Last Saxon</title> published <date when="1822">1822</date>
                      </bibl> and <bibl>
                         <title level="m">St. John in Patmos</title> published <date when="1833">1833</date>
-                     </bibl>. Bowles was an acquaintance of <rs type="person" ref="#Mitford_Geo">Mitford's father</rs> for over thirty years. Bowles was a key figure in the Romantic-era sonnet revival. As a literary critic, Bowles ignited the so-called "Pope-Bowles" controversy, a pamphlet war about <persName ref="#Pope_Alex">Alexander Pope</persName>'s moral authority and literary significance, upon which <persName ref="#MRM">Mitford</persName>comments in her letters.</note>
+                     </bibl>. Bowles was an acquaintance of <rs type="person" ref="#Mitford_Geo">Mitford's father</rs> for over thirty years. Bowles was a key figure in the Romantic-era sonnet revival. As a literary critic, Bowles ignited the so-called Pope-Bowles controversy, a pamphlet war about <persName ref="#Pope_Alex">Alexander Pope</persName>'s moral authority and literary significance, upon which <persName ref="#MRM">Mitford</persName>comments in her letters.</note>
                   <note><ref target="http://viaf.org/viaf/696177"/>
                   </note>
                </person>
@@ -827,7 +827,7 @@
                      <title level="m">Post Office Directory of Berkshire</title>, <date when="1847">1847</date>
                      </bibl>, and noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople. The <bibl corresp="#PO_BerkshireDir">
                         <date when="1854">1854</date> edition of the <title level="m">Post Office Directory</title>
-                     </bibl> omits the "shopkeeper" occupation.</note>
+                     </bibl> omits the <q>shopkeeper</q> occupation.</note>
                </person>
                
                <person xml:id="Brooke_Miss" sex="f">
@@ -860,7 +860,7 @@
                   <occupation type="government"/>
                   <occupation type="government" subtype="reformer"/>
                   <occupation type="government" subtype="orator"/>
-                  <note resp="#lmw">One of the founders of the <title level="j">Edinburgh Review</title>. Practiced law in Edinburgh and London. Whig reformer and member of Parliament; known for political, educational and legal reforms. While Lord Chancellor in the 1830s, he oversaw the Representation of the People Act of 1832 (voting reforms), the Slavery Abolition Act of 1832 (abolishing slavery throughout the British empire), and established the Central Criminal Court. Chief legal advisor to <persName ref="#QuCaroline">Queen Caroline</persName> and defended her in 1820. Designer of the fashionable four-wheeled carriage that bears his name. Helped popularize Cannes as a seaside resort.</note>
+                  <note resp="#lmw">One of the founders of the <title level="j">Edinburgh Review</title>. Practiced law in Edinburgh and London. Whig reformer and member of Parliament; known for political, educational and legal reforms. While Lord Chancellor in the 1830s, he oversaw the Representation of the People Act of 1832 (voting reforms), the Slavery Abolition Act of 1832 (abolishing slavery throughout the British empire), and established the Central Criminal Court. Chief legal advisor to <persName ref="#Queen_Caroline">Queen Caroline</persName> and defended her in 1820. Designer of the fashionable four-wheeled carriage that bears his name. Helped popularize Cannes as a seaside resort.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/334592194"/>
                   </note>
@@ -939,8 +939,8 @@
                   <death when="1742"/>
                   <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
-                  <note resp="#lmw">French author and Jesuit priest, called "le pere Brumoy," or Father Brumoy, author of
-                        <title ref="#Th_d_Gr">Theatre des Greces</title>, later translated by
+                  <note resp="#lmw">French author and Jesuit priest, called le pere Brumoy or Father Brumoy, author of
+                        <title ref="#Th_d_Gr">Theatre des Greces</title>, later translated into English by
                      <persName>Charlotte Lennox</persName> as <title level="m">The Greek Theatre of Father
                      Brumoy</title>(2 vols., 1759). According to her letters, <persName ref="#MRM">Mitford</persName> read this work in the original French.</note>
                   <note><ref target="http://viaf.org/viaf/24624020"/>
@@ -1516,7 +1516,7 @@
                   </note>
                </person>
                
-               <person xml:id="ChasI" sex="m">
+               <person xml:id="ChasI" sex="m"> <!--LMW: not a dup.-->
                   <persName>Charles I</persName>
                   <persName>
                      <forename>Charles</forename>
@@ -1532,15 +1532,12 @@
                      <placeName>Whitehall, London, England</placeName>
                   </death>
                   <occupation type="government" subtype="monarch"/>
-                  <note resp="#rnes"><p>The only English king to have been tried and executed by the British people, Charles's autocratic rule resulted in the <rs type="event" ref="#EngCivilWar">Civil War</rs>, his deposition and execution, and the founding of the short-lived English Republic. These events are the subject matter of <persName ref="#MRM">Mitford</persName>'s tragedy <title ref="#CharlesI_MRMplay">Charles the First</title>.</p> 
-                     <p>The second son of James VI of Scotland, who became James I of England when Charles was three years old, the future king became James's heir in 1612, upon the death of his extremely popular brother Henry, Prince of Wales. As a king, he was susceptible to the influence of his father's ambitious favourite George Villiers, Duke of Buckingham, until Buckingham's assassination by a disturbed veteran in 1628. Charles quarrelled with Parliament over matters ranging from finances to control of religion and cultural observances. He instituted a disastrous policy of "personal rule," and in August 1642, declared war on Parliament.</p>
-                     <p>After the Parliamentary faction, with its New Model Army, achieved victory, Charles was tried for treason and, declaring himself "the martyr of the people," was executed outside the Banqueting House at Whitehall that had been designed by Inigo Jones for James I. A week after his execution, he was quietly buried at Windsor and the monarchy was abolished.</p>
-                     <p>Charles I is the apocryphal author of the Eikon Basilike, or Pourctraiture of his Sacred Majesty in his Solitudes and Sufferings (1649), which was probably written substantially by John Gauden.</p></note>
+                  <note resp="#rnes">The only English king to have been tried and executed by the British people, Charles's autocratic rule resulted in the <rs type="event" ref="#EngCivilWar">Civil War</rs>, his deposition and execution, and the founding of the short-lived English Republic. These events are the subject matter of <persName ref="#MRM">Mitford</persName>'s tragedy <title ref="#CharlesI_MRMplay">Charles the First</title>. The second son of James VI of Scotland, who became James I of England when Charles was three years old, the future king became James's heir in 1612, upon the death of his extremely popular brother Henry, Prince of Wales. As king, he was susceptible to the influence of his father's ambitious favourite George Villiers, Duke of Buckingham, until Buckingham's assassination by a disturbed veteran in 1628. Charles quarrelled with Parliament over matters ranging from finances to control of religion and cultural observances. He instituted a disastrous policy of <soCalled>personal rule,</soCalled> and in August 1642, declared war on Parliament. After the Parliamentary faction, with its New Model Army, achieved victory, Charles was tried for treason and, declaring himself <q>the martyr of the people,</q> was executed outside the Banqueting House at Whitehall that had been designed by Inigo Jones for James I. A week after his execution, he was quietly buried at Windsor and the monarchy was abolished. Charles I is the apocryphal author of the <title level="m">Eikon Basilike, or Pourctraiture of his Sacred Majesty in his Solitudes and Sufferings</title> (1649), which was probably written substantially by John Gauden.</note>
                      <note><ref target="http://viaf.org/viaf/67750325"/>
                   </note>
                </person>
                
-               <person xml:id="ChasII" sex="m">
+               <person xml:id="ChasII" sex="m"> <!--LMW: not a dup.-->
                   <persName>Charles II</persName>
                   <persName>
                      <forename>Charles</forename>
@@ -1771,7 +1768,7 @@
                   <death when="1855-08-16"/>
                   <occupation type="bookProducer" subtype="publisher"/>
                   <occupation type="literary" subtype="editor"/>
-                  <note resp="#ebb #lmw">Publisher of Caroline Lamb's <title ref="#Glenarvon_fict">Glenarvon</title> (1816) and <persName ref="#Owenson_S">Owenson</persName>'s France (1817). Major purveyor of fashionable "silver fork" novels in the 1820s. Founding editor of <title ref="#Lit_Gazette">The Literary Gazette</title>, the new Monthly Magazine, and the Athenaeum.</note>
+                  <note resp="#ebb #lmw">Publisher of Caroline Lamb's <title ref="#Glenarvon_fict">Glenarvon</title> (1816) and <persName ref="#Owenson_S">Owenson</persName>'s <title level="m">France</title> (1817). Major purveyor of fashionable <soCalled>silver fork</soCalled> novels in the 1820s. Founding editor of <title ref="#Lit_Gazette">The Literary Gazette</title>, the <title level="j">New Monthly Magazine</title>, and <title level="j">the Athenaeum</title>.</note>
                      <note><ref target="http://viaf.org/viaf/90644401"/>
                   </note>
                </person>
@@ -1814,7 +1811,7 @@
                   </death>
                   <occupation type="theater"/>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Comic actor at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>. According to 1806 "Remarks" in Cumberland's British Theatre on Tobin's play The Honey Moon, Collins played Jaquez at Drury Lane and "died during the run of the comedy." Collins's obituary appears in the June 1, 1806 Monthly Magazine (vol. 21): 466. An 1804 biographical sketch in the Monthly Mirror (vol. 17 (1804): 147) indicates that Collins was born in Chichester in 1775 and began performing at Drury Lane in 1802; he was discovered by Sheridan while performing in Winchester.</note>
+                  <note resp="#lmw">Comic actor at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>. According to 1806 <title level="a">Remarks</title> in <title level="s">Cumberland's British Theatre</title> on Tobin's play <title ref="#Honeymoon_play">The Honey Moon</title>, Collins played Jaquez at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <quote>died during the run of the comedy</quote>. An 1804 biographical sketch in the Monthly Mirror (147) indicates that Collins was born in Chichester in <date when="1775">1775</date> and began performing at Drury Lane in <date when="1802">1802</date>; he was discovered by <persName ref="#Sheridan_RichardB">Sheridan</persName> while performing in Winchester.</note>
                      <note><ref target="http://viaf.org/viaf/78974331"/>
                   </note>
                </person>
@@ -1855,7 +1852,7 @@
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="theater" subtype="manager"/>
-                  <note resp="#lmw">George Colman the Elder (so named to distinquish him from his son <persName ref="#Colman_the_Younger">George Colman, "the Younger"</persName>) was an essayist, playwright, and manager of both <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> and <placeName ref="#Haymarket_Theatre">Haymarket Theater</placeName>s. He wrote and produced a number of successful comedies in the 1760s, including <title level="m">The Jealous Wife</title>, a comedy oosely based on the novel <title level="m" ref="#TomJones_HF">Tom Jones</title>, and <title level="m">The Clandestine Marriage</title>. Colman produced and authored several adaptations of <persName ref="#Shakespeare">Shakespeare</persName>'s plays, as well as adaptations of plays by <persName ref="#Beaumont_Fr">Beaumont</persName> and <persName ref="#Fletcher_John">Fletcher</persName>, <persName ref="#Jonson_B">Ben Jonson</persName> and <persName ref="#Milton">Milton</persName>.</note>
+                  <note resp="#lmw">George Colman <soCalled>the Elder</soCalled> (so named to distinquish him from his son <persName ref="#Colman_the_Younger">George Colman <soCalled>the Younger</soCalled></persName>) was an essayist, playwright, and manager of both <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> and <placeName ref="#Haymarket_Theatre">Haymarket Theater</placeName>s. He wrote and produced a number of successful comedies in the 1760s, including <title level="m">The Jealous Wife</title>, a comedy oosely based on the novel <title ref="#TomJones_HF">Tom Jones</title>, and <title level="m">The Clandestine Marriage</title>. Colman produced and authored several adaptations of <persName ref="#Shakespeare">Shakespeare</persName>'s plays, as well as adaptations of plays by <persName ref="#Beaumont_Fr">Beaumont</persName> and <persName ref="#Fletcher_John">Fletcher</persName>, <persName ref="#Jonson_B">Ben Jonson</persName> and <persName ref="#Milton">Milton</persName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/76330307"/>
                   </note>
@@ -1875,8 +1872,8 @@
                   <death when="1836-10-26">
                      <placeName>22 Brompton Square, London, England</placeName>
                   </death>
-                  <note resp="#ebb">Son of George Colman <q>the Elder</q>, he produced his first play at Haymarket Theater run by his father, and later he took over the management of that theater. He was appointed by the Lord Chamberlain, the Duke of Montrose, to be the Examiner of Plays, and was known for his severe censorship of profane language. He prevented <bibl corresp="#CharlesI_MRMplay">Mitford's historical tragedy <title ref="#CharlesI_MRMplay">Charles the First</title>
-                     </bibl> from being performed in the <placeName>London Royal Theatres</placeName> in the 1820s on the grounds that it was a dangerous play for its historical authenticity in representing an unstable English government.</note>
+                  <note resp="#ebb">Son of George Colman <soCalled>the Elder</soCalled>, he produced his first play at Haymarket Theater run by his father, and later he took over the management of that theater. He was appointed by the Lord Chamberlain, the <persName ref="#Duke_Montrose">Duke of Montrose</persName>, to be the Examiner of Plays, and was known for his severe censorship of profane language. He prevented <bibl corresp="#CharlesI_MRMplay">Mitford's historical tragedy <title ref="#CharlesI_MRMplay">Charles the First</title>
+                     </bibl> from being performed in the <placeName>London Royal Theatres</placeName> in the 1820s on the grounds that it was a dangerous play because of  its historical authenticity in representing an unstable English government.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/30345422"/>
                   </note>
@@ -2052,7 +2049,7 @@
                      <surname>Cowslade</surname>
                      <forename><addName>Frank</addName></forename>
                   </persName>
-                  <note resp="#lmw">As <persName ref="#coles">Coles</persName> notes, Francis or Frank Cowslade was one of the publishers of the <title ref="#ReadingMer_per">Reading Mercury newspaper</title> (Coles # 16, p.95, note 11). He appears to have also served as a Reading printer and bookseller; he is listed as such on two of the published political essays of "<persName ref="#Trueman_T">Timothy Trueman</persName>." <!-- LMW:  no VIAF # --></note>
+                  <note resp="#lmw">As <persName ref="#coles">Coles</persName> notes, Francis or Frank Cowslade was one of the publishers of the <title ref="#ReadingMer_per">Reading Mercury newspaper</title> (Coles # 16, p.95, note 11). He appears to have also served as a Reading printer and bookseller; he is listed as such on two of the published political essays of the pseudonymous<persName ref="#Trueman_T">Timothy Trueman</persName>. <!-- LMW:  no VIAF # --></note>
                </person>
                
                <person xml:id="Coxe_Wm" sex="m">
@@ -2167,12 +2164,8 @@
                   <occupation type="military"/>
                   <occupation type="government"/>
                   <occupation type="government" subtype="politician"/>
-                  <note resp="#lmw #ejb #rnes"><p>English Republican military leader, politician, and dictator. The effective protagonist of Mitford's play<title ref="#CharlesI_MRMplay">Charles the First.</title></p>  
-                     <p>A descendant of the Tudor politician Thomas Cromwell, raised in the Cambridgeshire Fens and educated at Cambridge University, he became deeply spiritual in the 1620s, identifying as a Puritan. (He never called himself a "Roundhead," and resisted others' use of this Royalist slur.) He became an M.P. and, in 1641, attacked what he considered <q>ecclesiastical tyranny and usurpation.</q> During the <rs type="event" ref="#EngCivilWar">Civil Wars</rs>, he commanded Parliamentary forces as Lieutenant-General, second only to Sir Thomas, Lord Fairfax, who served as the Parliamentary army's General. Cromwell quickly overshadowed Fairfax and devised the <orgName ref="#New_Model_Army">New Model Army</orgName> (founded 1645).</p>
-                     <p>After the <persName ref="#ChasI">king</persName>'s capture and extradition from the Isle of Wight, Cromwell seemed not committed to the notion of trying and executing the king until the eleventh hour, but ultimately served as a Commissioner at the trial and signed the warrant.</p> 
-                     <p>In the aftermath of the King's execution, Ireland (which had rebelled in 1641) developed a Royalist resistance, which Cromwell and his son-in-law <persName ref="#Ireton">Henry Ireton</persName> suppressed between 1649 and 1651. This war resulted in genocide which killed (through violence, displacement, or disease) up to one third of the Irish population; the exact number of casualties and the time-extent of the period are still debated by historians. The period came to be called An Mallact Cromail (The Curse of Cromwell).</p>
-                     <p>In Commonwealth England, Cromwell chaired the Republic's Council of State, then, 1653 until his death in 1658, served as Lord Protector, essentially converting the Republic to a dictatorship&#8212;and alienating many former supporters. After Cromwell's death and the abdication of the second Lord Protector, his son Richard Cromwell, the Republican experiment ended with Parliament inviting <persName ref="#ChasII">Charles I's son</persName> to return from exile to be restored as king.</p>
-                     <p>Throughout the nineteenth century, Cromwell's reputation was on an upswing.  The trend was towards viewing him as a man guided by devout faith in God, a desire to provide for his country, and a desire to purify the Protestantism in his country.</p></note>
+                  <note resp="#lmw #ejb #rnes"><p>English Republican military leader, politician, and dictator. The effective protagonist of Mitford's play<title ref="#CharlesI_MRMplay">Charles the First</title>. A descendant of the Tudor politician Thomas Cromwell, raised in the Cambridgeshire Fens and educated at Cambridge University, he became deeply spiritual in the 1620s, identifying as a Puritan. (He never called himself a Roundhead, and resisted others' use of this Royalist slur.) He became an M.P. and, in 1641, attacked what he considered <q>ecclesiastical tyranny and usurpation.</q> During the <rs type="event" ref="#EngCivilWar">Civil Wars</rs>, he commanded Parliamentary forces as Lieutenant-General, second only to Sir Thomas, Lord Fairfax, who served as the Parliamentary army's General. Cromwell quickly overshadowed Fairfax and devised the <orgName ref="#New_Model_Army">New Model Army</orgName> (founded 1645).</p>
+                     <p>After the <persName ref="#ChasI">king</persName>'s capture and extradition from the Isle of Wight, Cromwell seemed not committed to the notion of trying and executing the king until the eleventh hour, but ultimately served as a Commissioner at the trial and signed the warrant. In the aftermath of the King's execution, Ireland (which had rebelled in 1641) developed a Royalist resistance, which Cromwell and his son-in-law <persName ref="#Ireton">Henry Ireton</persName> suppressed between 1649 and 1651. This war resulted in genocide which killed (through violence, displacement, or disease) up to one third of the Irish population; the exact number of casualties and the time-extent of the period are still debated by historians. The period came to be called An Mallact Cromail (The Curse of Cromwell). In Commonwealth England, Cromwell chaired the Republic's Council of State, then, 1653 until his death in 1658, served as Lord Protector, essentially converting the Republic to a dictatorship and alienating many former supporters. After Cromwell's death and the abdication of the second Lord Protector, his son Richard Cromwell, the Republican experiment ended with Parliament inviting <persName ref="#ChasII">Charles I's son</persName> to return from exile to be restored as king. Throughout the nineteenth century, Cromwell's reputation was on an upswing.  The trend was towards viewing him as a man guided by devout faith in God, a desire to provide for his country, and a desire to purify the Protestantism in his country.</p></note>
                   <note>
                      <ref target="http://viaf.org/viaf/34498004"/>
                   </note>
@@ -2225,9 +2218,9 @@
                   <persName>Mr. Crowther
                   </persName>
                   <note resp="#lmw #scw">
-                     <p>The "dandy" Mitford pokes fun at in her letters of <date when="1819-01-09">
+                     <p>The <quote>dandy</quote> Mitford pokes fun at in her letters of <date when="1819-01-09">
                            <date when="1819-01-10">9 and 10 January, 1819</date>
-                        </date>. Possibly husband to Isabelle Crowther. According to <persName ref="#coles">Coles</persName>, forename may be Phillip; Coles is not completely confident that the "dandy" Mr. Crowther and Mr. [Phillip?] Crowther are the same person. The second Mr. Crowther is a correspondent of <persName ref="#MRM">Mitford</persName>'s, whom she writes to at <placeName>Whitley cottage</placeName>, near <placeName ref="#Reading_city">Reading</placeName>. He may also have resided at <placeName>Westbury on Trim</placeName> near <placeName>Bristol</placeName>. <persName ref="#coles">William Coles</persName> is uncertain of whether <persName ref="#Crowther_Mr">Crowther</persName>is the same <persName>Phillip Crowther</persName>mentioned in <persName ref="#MRM">Mitford</persName>'s <title level="m">Journal</title>. Source: <persName ref="#coles">William Coles</persName>, Letter to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>, <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. <!--scw: See photo DSCN1167--></p>
+                        </date>. Possibly husband to Isabelle Crowther. According to <persName ref="#coles">Coles</persName>, his forename may be Phillip; Coles is not completely confident that the dandy Mr. Crowther and Mr. Phillip Crowther are the same person. The second Mr. Crowther is a correspondent of <persName ref="#MRM">Mitford</persName>'s, whom she writes to at <placeName>Whitley cottage</placeName>, near <placeName ref="#Reading_city">Reading</placeName>. He may also have resided at <placeName>Westbury on Trim</placeName> near <placeName>Bristol</placeName>. <persName ref="#coles">William Coles</persName> is uncertain of whether <persName ref="#Crowther_Mr">Crowther</persName>is the same <persName>Phillip Crowther</persName>mentioned in <persName ref="#MRM">Mitford</persName>'s <title level="m">Journal</title>. Source: <persName ref="#coles">William Coles</persName>, Letter to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>, <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. <!--scw: See photo DSCN1167--></p>
                   </note>
                </person>
                
@@ -2260,15 +2253,15 @@
                      <forename>Carteretta</forename>
                      <forename>Cornelia</forename>
                   </persName>
-                  <persName>Mrs. Culpepper</persName>
+                  <persName><addName>Mrs. Culpepper</addName></persName>
                   <birth notAfter="1779-11-16">
                         <placeName>St. Mary's, Suffolk, England</placeName>
                      
                   </birth>
                   <note resp="#ebb #lmw #scw">
-                     <persName ref="#Valpy_Richard">Dr. Valpy</persName>'s eldest daughter by his first wife, Martha Cornelia de Cartaret. Martha Carteretta Cornelia Valpy was born in late 1779 and baptized 16 November 1779 at St Mary's, Suffolk. <rs type="event">She was married twice; first to <persName>Thomas James Straker, esq. of Barbados</persName> on <date when="1804-05-03">May 3, 1804</date> at <placeName>St. Lawrence, Reading, Berkshire, England</placeName>
+                     <persName ref="#Valpy_Richard">Dr. Valpy</persName>'s eldest daughter by his first wife, Martha Cornelia de Cartaret. <rs type="event">She was married twice; first to <persName>Thomas James Straker, esq. of Barbados</persName> on <date when="1804-05-03">May 3, 1804</date> at <placeName>St. Lawrence, Reading, Berkshire, England</placeName>
                      </rs>, and <rs type="event">second to <persName>William Alleyn Culpeper</persName> of <placeName>Barbados</placeName> (second of that name) at <placeName>St. Martin in the Fields, Westminster</placeName> on <date when="1815-11-21">November 21, 1815</date>
-                     </rs>. <persName ref="#MRM">Mitford</persName> spells her married name as <q>Culpepper</q> in her journal and letters. <bibl>Burke's Family Records</bibl> erroneously lists her name as <quote>Carteretta Cornelia</quote>. Her date of death is unknown; more research is needed.</note>
+                     </rs>. <persName ref="#MRM">Mitford</persName> spells her married name as <quote>Culpepper</quote> in her journal and letters. <title level="m">Burke's Family Records</title> erroneously lists her name as <quote>Carteretta Cornelia</quote>. Her date of death is unknown; more research needed.</note>
                </person>
                
                <person xml:id="Cumberland_Rich" sex="m">
@@ -2650,7 +2643,7 @@
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="bookProducer" subtype="publisher"/>
-                  <note resp="#ajc #lmw">Friend of the Mitford family. CBorn on <date when="1755-03-06">March 6, 1755</date> at Pickwick Lodge, Corsham, Wiltshire. He was the son of Vikris Dickinson and Elizabeth Marchant. The Dickinson family were Quakers who lived in the vicinity of Bristol, Gloucestershire. On <date when="1807-08-03">August 3, 1807</date>, he married <persName ref="#Dickinson_Mrs">Catherine Allingham</persName> at St Giles, South Mimms, Middlesex. They lived at Farley Hill, near Swallowfield, Berkshire, where their daughter Frances was born, and where the Mitfords visited them. Charles Dickinson owned a private press he employed to print literary works by his friends (See letters to Elford from March 13, 1819 and June 21, 1820). He wrote and published an epic poem in sixty-six cantos, <title ref="#Cyllenius_epic">The Travels of Cyllenius</title>, in 1795. Charles Dickinson died at Farley Hill in <date when="1827">1827</date>.</note>
+                  <note resp="#ajc #lmw">Friend of the Mitford family. He was the son of Vikris Dickinson and Elizabeth Marchant. The Dickinson family were Quakers who lived in the vicinity of Bristol, Gloucestershire. On <date when="1807-08-03">August 3, 1807</date>, he married <persName ref="#Dickinson_Mrs">Catherine Allingham</persName> at St Giles, South Mimms, Middlesex. They lived at Farley Hill, near Swallowfield, Berkshire, where their daughter Frances was born, and where the Mitfords visited them. Charles Dickinson owned a private press he employed to print literary works by his friends (See letters to Elford from March 13, 1819 and June 21, 1820). He wrote and published an epic poem in sixty-six cantos, <title ref="#Cyllenius_epic">The Travels of Cyllenius</title>, in 1795. Upon his uncle's death, Charles Dickinson inherited the considerable wealth his extended family had amassed in the West Indies.</note>
                <note><ref target="http://viaf.org/viaf/53121533"/></note>
                </person>
                
@@ -2669,12 +2662,15 @@
                   <death when="1898-10-26">
                      <placeName>Siena, Toscana, Italy</placeName>
                   </death>
-                  <note resp="#ajc #lmw">Frances Dickinson was the only child of Charles Dickinson and Catherine Allingham. She was born on <date when="1820-03-07">7 March 1820</date> at Farley Hill, near Swallowfield, Berkshire, and was baptized on <date when="1820-04-17">April 17</date>. Her father Charles died when she was seven years old. She died at Siena, Toscana, Italy on <date when="1898-10-26">October, 26 1898</date> and is buried in Rome. She was married to and divorced from her first husband, John Edward Geils (1813-1894) and later married the Rev. Gilbert Elliott (1800-1891).</note>
+                  <note resp="#ajc #lmw">Frances Dickinson was the only child of Charles Dickinson and Catherine Allingham. Her father Charles died when she was seven years old, and she inherited the considerable wealth that had descended to him from his extended family's West Indian ventures. She died at Siena, Toscana, Italy on <date when="1898-10-26">October, 26 1898</date> and is buried in Rome. She was married to and divorced from her first husband, John Edward Geils (1813-1894) and later married the Rev. Gilbert Elliott (1800-1891).</note>
                </person>
                
                <person xml:id="Dickinson_Grandmama" sex="f">
                   <persName>Grandmama Dickinson</persName>
-                  <note resp="#lmw">More research needed.  Frances Dickinson's paternal grandmother, Elizabeth Marchant Dickinson, died in 1790, and is therefore an unlikely candidate.</note>
+                  <persName>
+                     <surname type="married">Dickinson</surname>
+                  </persName>
+                  <note resp="#lmw">Identity unknown. Frances Dickinson's paternal grandmother, Elizabeth Marchant Dickinson, died in 1790, and is therefore an unlikely candidate. More research needed.</note>
                </person>
                
                <person xml:id="Dickinson_Mrs" sex="f">
@@ -2694,7 +2690,7 @@
                   </death>
                   <note resp="#ajc #lmw">Catherine Allingham was born about 1787 in Middlesex, the daughter of Thomas Allingham. She married Charles Dickinson on <date when="1807-08-02">August 2, 1807</date> at St. Giles, South Mimms, Middlesex. They lived in Swallowfield, Berkshire, where their daughter Frances was born, and where they were visited by the Mitford family. According to Mitford, Catherine Dickinson was fond of match-making among her friends and acquaintances. (See <rs type="letter">
                         <persName ref="#MRM">Mitford</persName>'s <date when="1821-02-08">February 8th, 1821</date> letter to <persName ref="#Elford_SirWm">Elford</persName>
-                     </rs>. Her husband Charles died in 1827, when her daughter was seven. She died on September 2, 1861 at St. Marylebone, Middlesex. Source: <bibl corresp="#Lestrange_Letters">L'Estrange</bibl>). 
+                     </rs>. Her husband Charles died in 1827, when her daughter was seven. Source: <bibl corresp="#Lestrange_Letters">L'Estrange</bibl>). 
                   </note>
                </person>
                
@@ -2776,7 +2772,7 @@
                   </note>
                </person>
                
-               <person xml:id="Drover_JamesSr" sex="m"><!--SCW: proposed change xml:id -->
+               <person xml:id="Drover_JamesSr" sex="m"><!--SCW: proposed change xml:id --><!--LMW: yes a dup., use this one?-->
                   <persName>James Drover</persName>
                   <persName>
                      <surname>Drover</surname>
@@ -2933,7 +2929,7 @@
                   <occupation type="government" subtype="courtier"/>
                   <occupation type="government" subtype="diplomat"/>
                   <occupation type="benefactor" subtype="patron"/>
-                  <note resp="#lmw">British peer and Whig politician who supported his family's traditionally reformist causes such as Catholic emancipation, the abolition of slavery and improvements to factory working conditions. Friend of George IV, known as the "Bachelor Duke." He inherited eight estates including Chiswick House in London and Chatsworth and the village of Edensour in Devonshire, totaling more than 200,000 acres. Served as Lord Chamberlain of the Household under both George IV (1827-28) and  William IV (1830-34) and therefore also as Licensor of Plays. A patron of arts and cultural organizations, he established the Royal Botanic Gardens at Kew as a national botanic garden and helped found the Derby Museum and Art Gallery.</note>
+                  <note resp="#lmw">British peer and Whig politician who supported his family's traditionally reformist causes such as Catholic emancipation, the abolition of slavery and improvements to factory working conditions. Friend of <persName ref="#GeoIV">George IV</persName>, known as the <soCalled>Bachelor Duke.</soCalled> He inherited eight estates including Chiswick House in London and Chatsworth and the village of Edensour in Devonshire, totaling more than 200,000 acres. Served as Lord Chamberlain of the Household under both <persName ref="#GeoIV">George IV</persName> (1827-28) and <persName ref="#WilliamIV">William IV</persName> (1830-34) and therefore also as Licensor of Plays. A patron of arts and cultural organizations, he established the Royal Botanic Gardens at Kew as a national botanic garden and helped found the Derby Museum and Art Gallery.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/25344590"/>
                   </note>
@@ -2962,14 +2958,12 @@
                      <placeName>Brompton, Kent, England</placeName>
                   </death>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw #cmm">
-            British actor, reported to have been born in Liverpool. Although she had acted in the provinces earlier, she appeared as "Miss Duncan from Edinburgh" at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> beginning in 1804 and
-                        later as Mrs. Davison after her <date when="1812">1812</date> marriage to <persName>James Davison</persName>. Specialized
-                     in comic and breeches parts, a rival of <persName ref="#Jordan_Dorothea">Dorothea Jordan</persName> in parts such as
-                     Nell in The Devil to Pay and Priscilla in The Romp. In <title ref="#Honeymoon_play">The Honey Moon</title>
+                  <note resp="#lmw #cmm">British actor, reported to have been born in Liverpool. Although she had acted in the provinces earlier, she appeared as <q>Miss Duncan from Edinburgh</q> at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> beginning in 1804 and later as Mrs. Davison after her <date when="1812">1812</date> marriage to <persName>James Davison</persName>. Specialized in comic and breeches parts, a rival of <persName ref="#Jordan_Dorothea">Dorothea Jordan</persName> in parts such as
+                     Nell in <title level="m">The Devil to Pay</title> and Priscilla in <title level="m">The Romp</title>. In <title ref="#Honeymoon_play">The Honey Moon</title>
                      <date when="1805">(1805)</date>, she created the role of Juliana. Active until <date when="1829">1829</date> at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and
                      <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>. Written about by <persName ref="#Hunt">Hunt</persName>,
-                     <persName ref="#Hazlitt_Wm">Hazlitt</persName>, and by <persName ref="#Talfourd_Thos">Talfourd</persName> in volume 6 of the New Monthly Magazine. <ref target="http://viaf.org/viaf/78999376"/>
+                     <persName ref="#Hazlitt_Wm">Hazlitt</persName>, and by <persName ref="#Talfourd_Thos">Talfourd</persName>.</note>
+                  <note><ref target="http://viaf.org/viaf/78999376"/>
                   </note>
                </person>
                
@@ -3149,7 +3143,7 @@
                   <occupation type="literary"/>
                   <occupation type="medical"/>
                   <occupation type="explorer"/>
-                  <note resp="#ncl #lmw">English surgeon who wrote <title ref="#Sketches_of_America">Sketches of America. A Narrative of a Journey of Five Thousand Miles through the Eastern and Western States of America.</title> The dedication to the volume is dated from "Plaistow, Essex."</note>
+                  <note resp="#ncl #lmw">English surgeon who wrote <title ref="#Sketches_of_America">Sketches of America. A Narrative of a Journey of Five Thousand Miles through the Eastern and Western States of America.</title> While his birthplace is unknown, the dedication to the volume is dated from <placeName>Plaistow, Essex</placeName>.</note>
                   <note>
                      <ref target="http://famousamericans.net/henrybradshawfearon/"/>
                   </note>
@@ -3446,7 +3440,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Chiswick, London, England</placeName>
                   </death>
                   <occupation type="government" subtype="politician"/>
-                  <note resp="#ebb #lmw">Whig politician and leader of the House of Commons. Fox was an outspoken opponent of <persName ref="#GeoIII">King George III</persName> and <persName ref="#PittWm_younger">William Pitt the Younger</persName>, supporter of the American and French Revolutions as well as the abolitionist cause. His politics became widely known as <q>"Foxite radicalism"</q> and synonymous with populist causes. The young Mary Russell Mitford was an avowed Fox admirer, as were many Whig families in the decades following his death in 1806.</note>
+                  <note resp="#ebb #lmw">Whig politician and leader of the House of Commons. Fox was an outspoken opponent of <persName ref="#GeoIII">King George III</persName> and <persName ref="#PittWm_younger">William Pitt the Younger</persName>, supporter of the American and French Revolutions as well as the abolitionist cause. His politics became widely known as <soCalled>Foxite radicalism</soCalled> and synonymous with populist causes. The young Mary Russell Mitford was an avowed Fox admirer, as were many Whig families in the decades following his death in 1806.</note>
                      <note><ref target="http://viaf.org/viaf/39462521"/></note>
                </person>
                
@@ -3946,7 +3940,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="educator"/>
-                  <note resp="#lmw">Poet and classicist. Author of "Elegy Written in a Country Churchyard" and "Ode on a Distant Prospect of Eton College," he was later known as part of the so-called Graveyard School of late-eighteenth-century poets, much admired and imitated into the nineteenth century. Friend of <persName ref="#Walpole_Hor">Horace Walpole</persName>. Fellow of Peterhouse and Pemrbroke, College, Cambridge University; later appointed Regius Chair of Modern History at Cambridge.</note>
+                  <note resp="#lmw">Poet and classicist. Author of <title level="a">Elegy Written in a Country Churchyard</title> and <title level="a">Ode on a Distant Prospect of Eton College,</title> he was later known as part of the so-called Graveyard School of late-eighteenth-century poets, much admired and imitated into the nineteenth century. Friend of <persName ref="#Walpole_Hor">Horace Walpole</persName>. Fellow of Peterhouse and Pemrbroke, College, Cambridge University; later appointed Regius Chair of Modern History at Cambridge.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/9889965"/>
                   </note>
@@ -3987,7 +3981,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="military"/>
                   <occupation type="government" subtype="politician"/>
                   <note resp="#rnes #lmw">Parliamentary Commander-in-Chief in the English Midlands and
-                     <placeName>Leicester</placeName> during the first <rs type="event" ref="#EngCivilWar">English Civil War</rs>. In 1648, he was a commissioner of the court that tried <persName ref="#ChasI">Charles I</persName> and was one of the signers of the King's the death warrant. He assisted in "Pride's Purge" of Parliament.</note>
+                     <placeName>Leicester</placeName> during the first <rs type="event" ref="#EngCivilWar">English Civil War</rs>. In 1648, he was a commissioner of the court that tried <persName ref="#ChasI">Charles I</persName> and was one of the signers of the King's the death warrant. He assisted in <soCalled>Pride's Purge</soCalled> of Parliament.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/60510358"/>
                   </note>
