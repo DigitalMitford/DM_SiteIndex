@@ -245,10 +245,11 @@
                   <death when="1884-11">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>medical</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="editor"/>
+                 <occupation type="literary" subtype="essayist"/>
+                  <occupation type="medical"/>
+                  <occupation type="benefactor"/>
                   <note resp="#lmw">Longtime secretary of the Royal Literary Fund. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1843">1843</date>.</note>
                   <note><ref target="http://viaf.org/viaf/60024708"/></note>
                </person>
@@ -266,11 +267,11 @@
                   <death when="1875-04-17">
                      <placeName>Norwich, Norfolk, England</placeName>
                   </death>
-                  <occupation>artist</occupation>
-                  <occupation>illustrator</occupation>
-                  <occupation>lithographer</occupation>
-                  <occupation>literary</occupation>
-                  <occupation>biographer</occupation>
+                  <occupation type="artist"/>
+                  <occupation type="artist" subtype="illustrator"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="biographer"/>
                   <note resp="#lmw">Sketcher and lithographer, as well as author of <title>Memorials of the Life of Amelia Opie</title>, as well as of many didactive biographies for children. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1854">1854</date>.</note>
                   <note><ref target="http://viaf.org/viaf/61909307"/></note>
                </person>
@@ -309,12 +310,12 @@
                   <death when="1864-04-06">
                      <placeName>New York City, New York, USA</placeName>
                   </death>
-                  <occupation>educator</occupation>
-                  <occupation>literary</occupation>
-                  <occupation>fiction writer</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>editor</occupation>
-                  <note resp="#lmw">Author of three books on American frontier life, including <title>New Home; Who'll Follow?</title>. Particularly after her husband's death in <date when="1846">1846</date>, her home became an important literary salon in New York City.</note>
+                  <occupation type="educator"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
+                 <occupation type="literary" subtype="essayist"/>
+                 <occupation type="literary" subtype="editor"/>
+                  <note resp="#lmw">Author of three books on American frontier life, including <title level="m">New Home; Who'll Follow?</title>. Particularly after her husband's death in <date when="1846">1846</date>, her home became an important literary salon in New York City.</note>
                </person>
                
                <person xml:id="Cooper_John" sex="m">
@@ -329,8 +330,8 @@
                   <death when="1870-07-13">
                      <placeName>Tunbridge Wells, Kent, England</placeName>
                      </death>
-                  <occupation>actor</occupation>
-                  <occupation>theatre manager</occupation>
+                  <occupation type="theater" subtype="actor"/>
+                  <occupation type="theater" subtype="manager"/>
                   <note resp="#lmw">Actor active <date from="1811" to="1859">between 1811 and 1859</date>; played at Drury Lane and other London theatres, as well as on circuits in York and Lincoln. Also served as stage manager at Drury Lane. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1828">1828</date>.</note>
                   <note><ref target="http://viaf.org/viaf/21971441"/></note>
                </person>
@@ -348,11 +349,11 @@
                   <death when="1865-12-11">
                      <placeName>Fir Grove, Surrey, England</placeName>
                   </death>
-                  <occupation>banking</occupation>
-                  <occupation>stockbroker</occupation>
-                  <occupation>politician</occupation>
-                  <occupation>literary</occupation>
-                  <occupation>editor</occupation>
+                  <occupation type="trade" subtype="banker"/>
+                  <occupation type="trade" subtype="stockbroker"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="editor"/>
                   <note resp="#lmw">Began his career as a bank clerk and stockbroker and became wealthy through investments in railroads, mining, and British colonial land. Liberal Member of Parliament and owner of the <title>Morning Chronicle</title> newspaper <date from="1834" to="1847">between 1834 and 1847</date>.</note>
                   <note><ref target="http://www.historyofparliamentonline.org/volume/1820-1832/member/easthope-john-1784-1865"/></note>
                </person>
@@ -371,9 +372,9 @@
                   <death when="1897-07-26">
                      <placeName>Fir Grove, Surrey, England</placeName>
                   </death>
-                  <occupation>politician</occupation>
-                  <occupation>legal</occupation>
-                  <occupation>philanthropist</occupation>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="legal"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">Conservative Member of Parliament, High Sheriff of Berkshire, and Chairman of the Berkshire Quarter Sessions. He changed his name from Richard Fellowes to Richard Fellowes Benyon after inheriting his uncle <persName ref="#Benyon_R">Richard Benyon De Beauvoir</persName>'s estate, including <placeName>Englefield House</placeName> in <date when="1854">1854</date>.</note>
                   <note><ref target="http://viaf.org/viaf/295534599"/></note>
                </person>
@@ -394,8 +395,8 @@
                   <death when="1872">
                      <placeName>Monkstown, County Cork, Ireland</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>fiction writer</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
                   <note resp="#lmw">Story story writer for Household Words and other periodicals. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1852" to="1853">between 1852 and 1853</date>.</note>
                   <note><ref target="http://viaf.org/viaf/315994811"/></note>
                </person>
@@ -411,10 +412,10 @@
                   <death when="1889-02-08">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>translator</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>philanthropist</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="translator"/>
+                 <occupation type="literary" subtype="essayist"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">Expert linguist and translator in Italian, French, German, and Hebrew. Founded the Jews' Infant School, London, authored numerous educational pamphlets, and supported other charitable institutions. With her father, Isaac Lyon Goldsmid, helped to found and support University College, London and the West London Synagogue of British Jews. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1852">1852</date>.</note>
                   <note><ref target="http://viaf.org/viaf/14668078"/></note>
                </person>
@@ -433,9 +434,9 @@
                   <death when="1881-01-30">
                      <placeName>Devon Lodge, East Moulsey, Surrey, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>novelist</occupation>
-                  <occupation>philanthropist</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">Novelist and short story writer; her stories and sketches set in Ireland were compared to those of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of Samuel Carter Hall, she published under the name Mrs. S. C. [Samuel Carter] Hall. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1829" to="1830">between 1829 and 1830</date>.</note>
                   <note><ref target="http://viaf.org/viaf/59344020"/></note>
                </person>
@@ -453,12 +454,12 @@
                   <death when="1888-01-30">
                      <placeName>Rome, Italy</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>fiction writer</occupation>
-                  <occupation>translator</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>memoirist</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                 <occupation type="literary" subtype="translator"/>
+                 <occupation type="literary" subtype="editor"/>
+                   <occupation type="literary" subtype="autobiographer"/>
                   <note resp="#lmw">Prolific poet, short story writer, translator, editor, and memoirist; her husband William Howitt was occasionally her co-author. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1834" to="1846">between 1834 and 1846</date>.</note>
                   <note><ref target="http://viaf.org/viaf/59344020"/></note>
                </person>
@@ -472,11 +473,11 @@
                   </persName>
                   <birth when="1768"/>
                   <death when="1854"/>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>playwright</occupation>
-                  <occupation>translator</occupation>
-                  <occupation>editor</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                 <occupation type="literary" subtype="translator"/>
+                 <occupation type="literary" subtype="editor"/>
                   <note resp="#lmw">Playwright, poet, translator, and editor. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1836" to="1839">between 1836 and 1839</date>.</note>
                   <note><ref target="http://viaf.org/viaf/15640591"/></note>
                </person>
@@ -492,11 +493,11 @@
                      <placeName>Lambeth, London, England</placeName>
                   </birth>
                   <death when="1852"/>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>biographer</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="poet"/>
+                 <occupation type="literary" subtype="essayist"/>
+                 <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="biographer"/>
                   <note resp="#lmw">Prolific miscellaneous writer and editor. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1811" to="1830">between 1811 and 1830</date>.</note>
                   <note><ref target="http://viaf.org/viaf/15640591"/></note>
                </person>
@@ -556,11 +557,11 @@
                      <placeName>Edinburgh, Lothian, Scotland</placeName>
                   </birth>
                   <death when="1869-05-15"/>
-                  <occupation>literary</occupation>
-                  <occupation>religious</occupation>
-                  <occupation>curate</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>translator</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="religious"/>
+                  <occupation type="religious" subtype="curate"/>
+                <occupation type="literary" subtype="editor"/>
+                 <occupation type="literary" subtype="translator"/>
                   <note resp="#lmw">Clergyman and prolific editor, translator, literary historian, and book collector. A correspondent of <persName ref="#MRM">Mitford</persName> <date from="1828" to="1854">between 1828 and 1854</date>.</note>
                   <note><ref target="http://viaf.org/viaf/17577822"/></note>
                </person>  
@@ -577,12 +578,12 @@
                   <death when="1884-02-02">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>legal</occupation>
-                  <occupation>solicitor</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>translator</occupation>
-                  <occupation>essayist</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="legal"/>
+                  <occupation type="legal" subtype="solicitor"/>
+                <occupation type="literary" subtype="editor"/>
+                 <occupation type="literary" subtype="translator"/>
+                 <occupation type="literary" subtype="essayist"/>
                   <note resp="#lmw">Solicitor and prolific editor, translator, and essayist. A correspondent of <persName ref="#MRM"> Mitford</persName> <date from="1834" to="1839">between 1834 and 1839</date>.</note>
                   <note><ref target="http://viaf.org/viaf/67219835"/></note>
                </person> 
@@ -611,8 +612,8 @@
                   </persName>
                   <birth when="1792"/>
                   <death when="1859"/>
-                  <occupation>literary</occupation>
-                  <occupation>playwright</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="playwright"/>
                   <note resp="#lmw">Writer active <date from="1823" to="1827">between 1823 and 1827</date>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1836">1836</date>. Source: WorldCat.</note>
                   <note><ref target="http://viaf.org/viaf/4434505"/></note>
                </person>
@@ -627,11 +628,11 @@
                   <death when="1874-05-17">
                      <placeName>Norwood, London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>journalist</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>horticulturalist</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="journalist"/>
+                 <occupation type="literary" subtype="essayist"/>
+                 <occupation type="literary" subtype="editor"/>
+                  <occupation type="scholar" subtype="naturalist"/>
                   <note resp="#lmw">Writer, editor and horticulturalist active <date from="1839" to="1871">between 1839 and 1871</date>. Editor of the The Royal Lady's Magazine: and Archives of the Court of St. James's from <date when="1831">1831</date>, later retitled the Horticultural Journal, Florists' Register, and Royal Lady's Magazine, new series, beginning in <date when="1839">1839</date>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1831" to="1832">between 1831 and 1832</date>. Source: DNB, WorldCat.</note>
                   <note><ref target="http://viaf.org/viaf/1992331"/></note>
                </person>
@@ -705,15 +706,14 @@
                   <death when="1847-05-28">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation>religion</occupation>
-                  <occupation>naturalist</occupation>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>translator</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>artist</occupation>
-                  <occupation>illustrator</occupation>
-                  <occupation>politician</occupation>
+                  <occupation type="religious"/>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="poet"/>
+                 <occupation type="literary" subtype="translator"/>
+                 <occupation type="literary" subtype="essayist"/>
+                  <occupation type="artist"/>
+                  <occupation type="artist" subtype="illustrator"/>
+                  <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">Clergyman, poet, translator, naturalist, and botanical illustrator. Member of Parliament for Hampshire and for Cricklade. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1810">1810</date>. Her <title ref="#Poems_1st_ed_MRM">1810 Poems</title> contain a dedicatory <title ref="#WmHerbert_1810">poem</title>to him.</note></person>
                
               
@@ -729,12 +729,12 @@
                   <death when="1871-09-24">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>playwright</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>memoirist</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>translator</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="playwright"/>
+                     <occupation type="literary" subtype="essayist"/>
+                   <occupation type="literary" subtype="autobiographer"/>
+                 <occupation type="literary" subtype="editor"/>
+                 <occupation type="literary" subtype="translator"/>
                   <note resp="#lmw">Travel writer, translator, and editor. Editor of The Juvenile Keepsake. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1829">1829</date>.</note>
                   <note><ref target=" http://viaf.org/viaf/2649935"/></note>
                </person>
@@ -753,12 +753,12 @@
                   <death when="1871-12-17">
                      <placeName>Manhattan, New York City, New York, USA</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>biographer</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>memoirist</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>poet</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="biographer"/>
+                 <occupation type="literary" subtype="essayist"/>
+                   <occupation type="literary" subtype="autobiographer"/>
+                 <occupation type="literary" subtype="editor"/>
+                 <occupation type="literary" subtype="poet"/>
                  <note resp="#lmw">American travel writer, essayist, and editor. Surname also spelled "Tuckermann." A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>.</note>
                   <note><ref target="http://viaf.org/viaf/42895727"/></note>
                </person>
@@ -775,11 +775,12 @@
                   <death when="1862-11-26">
                      <placeName>England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>novelist</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>memoirist</occupation>
-                  <occupation>historian</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
+                 <occupation type="literary" subtype="essayist"/>
+                   <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  
                   <note resp="#lmw">Novelist, travel writer, and historian-biographer.</note>
                   <note><ref target="http://viaf.org/viaf/74664391"/></note>
                </person>
@@ -796,10 +797,10 @@
                   <death when="1852-03-22">
                      <placeName>Brompton, London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>journalist</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="editor"/>
+                 <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="journalist"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1830" to="1835">between 1830 and 1835</date>. Founder, with Henry Colburn, of the New Monthly Magazine. Editor for Rudolph Ackermann of Repository of the Arts, the Forget-Me-Not, and the Juvenile Forget-Me-Not.</note>
                   <note><ref target='http://viaf.org/viaf/22919698'/></note>
                    </person>
@@ -939,8 +940,8 @@
                   <death when="1833-11-30">
                      <placeName>Florence, Italy</placeName>
                   </death>
-                  <occupation>politician</occupation>
-                  <occupation>military</occupation>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="military"/>
                   <note resp="#lmw">Radical politician and Member of Parliament for Okehampton <date from="1807" to="1812">from 1807 to 1812</date>. With <persName ref="#Burdett_F">Francis Burdett</persName>, Wardle was instrumental in prosecuting the Duke of York-Mary Ann Clarke controversy. <persName ref="#MRM">Mitford</persName> addressed a poem to him, <title ref="#Wardle_Death_1810">"To G. L. Wardle, Esq., on the Death of His Child"</title>.</note>
                   <note><ref target="http://viaf.org/viaf/72789554"/></note>
                   <note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/wardle-gwyllym-lloyd-1761-1833"/></note>
@@ -959,10 +960,10 @@
                   <death when="1903-05-12">
                      <placeName>Florence, Italy</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>poet</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="essayist"/>
+                 <occupation type="literary" subtype="editor"/>
+                 <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">Influential American reviewer and critic; also editor of compilations of English and American poetry, and a collection of the works of Edgar Allan Poe. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date> and also a friend of <persName ref="#Hawthorne_N">Nathaniel Hawthorne</persName>.</note>
                   <note><ref target="http://viaf.org/viaf/11128792"/></note>
                </person>
@@ -976,10 +977,10 @@
                  </persName>
                   <birth when="1806"/>
                  <death when="1876"/>
-                  <occupation>literary</occupation>
-                  <occupation>novelist</occupation>
-                  <occupation>playwright</occupation>
-                  <occupation>poet</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="playwright"/>
+                     <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">Irish poet and playwright; friend of <persName ref="#Edgeworth_Maria">Maria Edgeworth</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1852" to="1854">between 1852 and 1854</date>.</note>
                   <note><ref target="http://viaf.org/viaf/1376869"/></note>
                </person>
@@ -996,11 +997,11 @@
                   <death when="1842-12-27">
                      <placeName>Chester, Cheshire, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>translator</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>clergy</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="poet"/>
+                 <occupation type="literary" subtype="translator"/>
+                 <occupation type="literary" subtype="essayist"/>
+                  <occupation type="religious"/>
                   <note resp="#lmw">Clergyman and writer. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1825" to="1830">between 1825 and 1830</date>.</note>
                   <note><ref target="http://viaf.org/viaf/15552089"/></note>
                </person>
@@ -1019,12 +1020,12 @@
                   <death when="1860-03-17">
                      <placeName>Ealing, London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>memoirist</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>art historian</occupation>
-                  <occupation>educator</occupation>
-                  <occupation>traveller</occupation>
+                  <occupation type="literary"/>
+                   <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="educator"/>
+                  <occupation type="explorer"/>
                   <note resp="#lmw">Memoirist, travel writer, and writer on art. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date> and also a friend of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
                   <note><ref target="http://viaf.org/viaf/44469064"/></note>
                </person>
@@ -1043,9 +1044,9 @@
                   <death when="1863-10-06">
                      <placeName>Florence, Italy</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>novelist</occupation>
+                  <occupation type="literary"/>
+                 <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="novelist"/>
                   <note resp="#lmw">Prolific and celebrated social protest novelist and travel writer. Author of <title>The Domestic Manners of the Americans</title>, as well as anti-slavery and industrial novels. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1826" to="1852">between 1826 and 1852</date> and also a friend of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
                   <note><ref target="http://viaf.org/viaf/34551336"/></note>
                </person>
@@ -1094,7 +1095,7 @@
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1842">1842</date>. Forename unknown. More research needed.</note></person>
                
                <person xml:id="Wordsworth_Dora" sex="f">
-                  <persName>Dorothy "Dora" Wordsworth</persName>
+                  <persName>Dorothy (Dora) Wordsworth</persName>
                   <persName>
                      <forename>Dorothy</forename>
                      <forename><addName>Dora</addName></forename>
@@ -1107,8 +1108,8 @@
                   <death when="1847-07-09">
                      <placeName>Grasmere, Cumbria, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>memoirist</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="autobiographer"/>
                   <note resp="#lmw">Daughter of <persName ref="#Wordsworth_Wm">Wordsworth</persName>, named for her aunt <persName ref="#Wordsworth_Dor">Dorothy Wordsworth</persName> and called "Dora."</note>
                   <note><ref target="http://viaf.org/viaf/63932725"/></note>
                </person>

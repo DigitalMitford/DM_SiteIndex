@@ -9,7 +9,7 @@
             <titleStmt>
                <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
                <author>Digital Mitford Editors</author>
-                <editor><!--Add your name here! And add an @ref attribute to <editor>, pointing to your xml:id in the si.xml--> </editor>
+                <editor><persName ref="#lmw">Lisa M. Wilson</persName></editor>
                <sponsor>
                   <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
                </sponsor>
@@ -38,6 +38,7 @@
             </publicationStmt>
             <notesStmt>
                <note>Any special notes on this text? (optional)</note>
+               <!--compiling from recently completed letters, 2019-06-28 LMW -->
             </notesStmt>
             <sourceDesc>
                <p>Information on named entities in this file has been extracted from files in the
@@ -90,7 +91,7 @@
                 <death when="1870-01-16"><placeName><!--where died?--></placeName></death>
                 <occupation><!--one-word or short here, try to use a value in play in the index already: literary, playwright, actor, politician, etc.--></occupation>
                 <occupation><!--Of course there may be multiple occupations.--></occupation>
-                <note resp="MitfordEditor"><!--Your brief, pithy note here, commenting on the significance of this person to Mitford, her world, her people.--></note>
+                <note><!--Your brief, pithy note here, commenting on the significance of this person to Mitford, her world, her people.--></note>
              </person>
           </listPerson>
        </div>
