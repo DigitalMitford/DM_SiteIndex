@@ -474,7 +474,7 @@
                <person xml:id="Theodosia_Mrs_OV" sex="f">
                   <persName>Mrs. Theodosia</persName>
 <!--scw: TEI suggests this as a possible roleName. Though the character is not married.--><!-- LMW: I put this info. in the text of the note instead. -->
-                 <note resp="#scw">One of the two sister characters in the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Mod_Antiques_OV">Modern Antiques</title>. Theodosia is her forename, and "Mrs." is an honorific, since the character is unmarried. She and her sister, <persName ref="#Frances_Mrs_OV">Frances</persName> are said to have been intimates of <persName ref="#Richardson_Sam">Samuel Richardson</persName> and <orgName ref="#Bluestockings">the Bluestockings</orgName>. Surname not given.</note>
+                 <note resp="#scw">One of the two sister characters in the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Mod_Antiques_OV">Modern Antiques</title>. Theodosia is her forename, and Mrs. is an honorific, since the character is unmarried. She and her sister, <persName ref="#Frances_Mrs_OV">Frances</persName> are said to have been intimates of <persName ref="#Richardson_Sam">Samuel Richardson</persName> and <orgName ref="#Bluestockings">the Bluestockings</orgName>. Surname not given.</note>
                </person>
                
                <person xml:id="Tubb_Dr_OV" sex="m"><!--scw: leaving as a stub so I don't neglect it later.-->
@@ -643,7 +643,7 @@
               </person>
                
                <person xml:id="Brent_Lizzy"><!--scw: TO BE ADDED TO NOTE IN ALREADY EXISTING ENTRY IN HISTPERSON-->
-                  <note resp="#scw">In a notebook kept from <date from="1819" to="1823">1819 to 1823</date>, Mitford refers twice to <quote>"little Eliza"</quote>. On each occasion, she is noting her third and fourth birthdays. In the story from <title ref="#Our_Village1st_ed">Our Village, volume one</title>, <title ref="#Village_Beau_OV">A Village Beau</title>, the character of the little girl, <persName ref="#Lizzy_OV">Lizzy</persName>, is said to be the half-sister of <!--Not an ID --><persName ref="#JoelBrent">Joel Brent</persName>.</note>
+                  <note resp="#scw">In a notebook kept from <date from="1819" to="1823">1819 to 1823</date>, Mitford refers twice to <quote>little Eliza</quote>. On each occasion, she is noting her third and fourth birthdays. In the story from <title ref="#Our_Village1st_ed">Our Village, volume one</title>, <title ref="#Village_Beau_OV">A Village Beau</title>, the character of the little girl, <persName ref="#Lizzy_OV">Lizzy</persName>, is said to be the half-sister of <!--Not an ID --><persName ref="#Brent_Joel">Joel Brent</persName>.</note>
                </person>
                
                <person xml:id="Chapone_Hester" sex="f">
@@ -682,7 +682,7 @@
                   <!-- Check this type -->
                   <occupation type = "service"/>
                   <!-- Check this type -->
-                  <note resp="#scw">Correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, companion and friend of <persName ref="#Fielding_Sarah">Sarah</persName> and <persName ref="#Fielding_Henry">Henry Fielding</persName>, accompanying the latter on his voyage to <!--Not an ID --><placeName ref="#lLisbon">Lisbon</placeName>. Source: ODNB.</note>
+                  <note resp="#scw">Correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, companion and friend of <persName ref="#Fielding_Sarah">Sarah</persName> and <persName ref="#Fielding_Henry">Henry Fielding</persName>, accompanying the latter on his voyage to <!--Not an ID --><placeName ref="#Lisbon">Lisbon</placeName>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/96858124"/></note>
                </person>
                
