@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -170,9 +167,9 @@
                      <placeName>Westminster, London, England</placeName>
                   </birth>
                   <death when="1854-03-22"/>
-                  <occupation>legal</occupation>
-                  <occupation>philanthropist</occupation>
-                  <occupation>politician</occupation>
+                  <occupation type="legal"/>
+                  <occupation type="benefactor"/>
+                     <occupation type="government" subtype="politician"/>
                   <note resp="#lmw">One of the wealthiest commoners in <placeName ref="#Berkshire">Berkshire</placeName> and a major landowner and philanthropist. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>; <persName ref="#MRM">Mitford</persName> wrote a sonnet, "Englefield House: The Seat of R. Benyon De Beauvoir, Esq., Near Reading," printed in her 1827 poems. He served as a Justice of the Peace, Deputy Lieutenant for Berkshire, and as High Sheriff of Berkshire.
                   </note>
                   <note><ref target="http://viaf.org/viaf/292786855"/></note>
@@ -200,12 +197,12 @@
                   <death when="1870-04-09">
                      <placeName>Munich, Germany</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>essayist</occupation>
-                  <occupation>translator</occupation>
-                  <occupation>journalist</occupation>
-                  <note resp="#lmw">A mentee and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1845" to="1855"> between 1845 and 1855</date>. Author of <title>Chamois Hunting in the Alps</title> and other works of travel writing. His translations of the fairy tales of <persName>Hans Christian Andersen</persName> did much to popularize them with English-speaking audiences.</note>                  
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="journalist"/>
+<note resp="#lmw">A mentee and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1845" to="1855"> between 1845 and 1855</date>. Author of <title>Chamois Hunting in the Alps</title> and other works of travel writing. His translations of the fairy tales of <persName>Hans Christian Andersen</persName> did much to popularize them with English-speaking audiences.</note>                  
                   <note><ref target="http://viaf.org/viaf/32743151"/></note>
                </person>
                
@@ -218,10 +215,12 @@
                   <persName type="pseudo">Don Boyne</persName>
                   <birth notAfter="1808"/>
                   <death when="1856"/>
-                  <occupation>literary</occupation>
-                  <occupation>publisher</occupation>
-                  <occupation>bookseller</occupation>
-                   <note resp="#lmw">Publisher, bookseller, and author of children's fiction. Business partner of <persName>Charles Tilt</persName> <date from="1840" to="1843">from 1840 to 1843</date>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Source: WorldCat.</note>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="bookProducer"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
+                  <occupation type="bookProducer" subtype="bookseller"/>
+                                     <note resp="#lmw">Publisher, bookseller, and author of children's fiction. Business partner of <persName>Charles Tilt</persName> <date from="1840" to="1843">from 1840 to 1843</date>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Source: WorldCat.</note>
                   <note><ref target="http://viaf.org/viaf/22011623"/></note>
                </person>
                
