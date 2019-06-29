@@ -29,8 +29,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T20:22:12.502-04:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 2100. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+            <edition>Site Index for the Digital Mitford project. Date: 2019-06-28T21:52:26.434-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 2192. First digital edition in TEI P5, launched on 19 August 2013.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
@@ -56,6 +56,7 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
+            <change when="2019-06-27" who="#lmw">Added new and revised entries for all Mitford poems.</change>
             <change when="2019-05-28" who="#ebb">Restored missing Jane Austen entry, added entries to be sure all refs were pointing to existing xml:ids in this file.</change>
             <change when="2019-05-28" who="#ebb">Updated to migrate several students to past assistants, and to add Don Ulin to consultants. Noted issue with lmw's previous XSLT transformation expanding default attributes. This new SI output removes the default attributes.</change>
             <change when="2019-05-27" who="#lmw">Updated Site Index with new and revised entries from Charles I, Rienzi, and Finden's Tableaux.</change>
@@ -81,7 +82,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Virginia</affiliation>
+                              <roleName>
+                                 <affiliation>University of Virginia</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -113,7 +116,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of St Andrews</affiliation>
+                              <roleName>
+                                 <affiliation>University of St Andrews</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -138,7 +143,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Stanford Literary Lab</affiliation>
+                              <roleName>
+                                 <affiliation>Stanford Literary Lab</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -154,7 +161,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Virginia Commonwealth University</affiliation>
+                              <roleName>
+                                 <affiliation>Virginia Commonwealth University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -172,8 +181,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Assistant Professor of English <affiliation>Missouri Southern State
+                           <roleName>
+                              <roleName>Assistant Professor of English <affiliation>Missouri Southern State
                         University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -195,7 +206,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Kansas State University</affiliation>
+                              <roleName>
+                                 <affiliation>Kansas State University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -214,7 +227,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           <roleName>
+                              <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -237,8 +252,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Programme Director: English <affiliation>Loughborough
+                           <roleName>
+                              <roleName>Programme Director: English <affiliation>Loughborough
                         University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -255,7 +272,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of North Carolina Pembroke</affiliation>
+                              <roleName>
+                                 <affiliation>University of North Carolina Pembroke</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -279,7 +298,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                              <roleName>
+                                 <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -301,7 +322,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Grinnell College: Information Technology</affiliation>
+                              <roleName>
+                                 <affiliation>Grinnell College: Information Technology</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -320,7 +343,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Pittsburgh</affiliation>
+                              <roleName>
+                                 <affiliation>University of Pittsburgh</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -337,7 +362,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                              <roleName>
+                                 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -356,7 +383,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           <roleName>
+                              <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -364,7 +393,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                           <roleName>
+                              <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -380,8 +411,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Professor of English <affiliation>University of Central
+                           <roleName>
+                              <roleName>Professor of English <affiliation>University of Central
                         Missouri</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -404,7 +437,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Università degli Studi di Parma</affiliation>
+                              <roleName>
+                                 <affiliation>Università degli Studi di Parma</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -420,8 +455,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Associate Professor of English
+                           <roleName>
+                              <roleName>Associate Professor of English
                         <affiliation>University of Pittsburgh at Bradford</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -439,8 +476,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
+                           <roleName>
+                              <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
                         at Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -458,7 +497,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Duquesne University</affiliation>
+                              <roleName>
+                                 <affiliation>Duquesne University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -477,7 +518,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Oregon</affiliation>
+                              <roleName>
+                                 <affiliation>University of Oregon</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -512,7 +555,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Michigan State University</affiliation>
+                              <roleName>
+                                 <affiliation>Michigan State University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -534,7 +579,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of California, Los Angeles</affiliation>
+                              <roleName>
+                                 <affiliation>University of California, Los Angeles</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -552,8 +599,10 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Penn State University</affiliation>
-                              <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                              <roleName>
+                                 <affiliation>Penn State University</affiliation>
+                                 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -572,7 +621,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -591,7 +642,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Tiffin University</affiliation>
+                              <roleName>
+                                 <affiliation>Tiffin University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -616,8 +669,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Green Scholar, B.A. in English Literature and History
+                           <roleName>
+                              <roleName>Green Scholar, B.A. in English Literature and History
                      <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -643,7 +698,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Calgary</affiliation>
+                              <roleName>
+                                 <affiliation>University of Calgary</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -666,8 +723,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Adjunct Lecturer in Arts &amp; Humanities
+                           <roleName>
+                              <roleName>Adjunct Lecturer in Arts &amp; Humanities
                      <affiliation>Babson College</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -687,7 +746,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York at Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -705,9 +766,11 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
+                           <roleName>
+                              <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
                      Visual and Performing Arts <affiliation>University of Pittsburgh at
                         Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -715,8 +778,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M.F.A. <affiliation>Loyola Marymount
+                           <roleName>
+                              <roleName>M.F.A. <affiliation>Loyola Marymount
                         University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -734,7 +799,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Baylor University</affiliation>
+                              <roleName>
+                                 <affiliation>Baylor University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -752,7 +819,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Nevada, Las Vegas</affiliation>
+                              <roleName>
+                                 <affiliation>University of Nevada, Las Vegas</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -776,7 +845,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Editorial Institute, Boston University</affiliation>
+                              <roleName>
+                                 <affiliation>Editorial Institute, Boston University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -798,7 +869,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -814,8 +887,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
+                           <roleName>
+                              <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
                         University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -837,7 +912,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Maryland</affiliation>
+                              <roleName>
+                                 <affiliation>University of Maryland</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -861,7 +938,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Carnegie Mellon University</affiliation>
+                              <roleName>
+                                 <affiliation>Carnegie Mellon University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -878,7 +957,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Penn State University</affiliation>
+                              <roleName>
+                                 <affiliation>Penn State University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -896,7 +977,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Pittsburgh</affiliation>
+                              <roleName>
+                                 <affiliation>University of Pittsburgh</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -913,7 +996,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -931,7 +1016,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Loyola University Chicago</affiliation>
+                              <roleName>
+                                 <affiliation>Loyola University Chicago</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -962,7 +1049,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                           <roleName>
+                              <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -987,7 +1076,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1004,9 +1095,11 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                           <roleName>
+                              <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, completed 2017. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1027,8 +1120,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>Assistant Professor of Spanish and French <affiliation>University of
+                           <roleName>
+                              <roleName>Assistant Professor of Spanish and French <affiliation>University of
                         Pittsburgh at Greensburg</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1058,7 +1153,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>Washington and Jefferson College</affiliation>
+                              <roleName>
+                                 <affiliation>Washington and Jefferson College</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1075,7 +1172,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1265,8 +1364,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                           <roleName>
+                              <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1286,7 +1387,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1305,7 +1408,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1321,8 +1426,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M. A. in English and Communication, in progress 2015.
+                           <roleName>
+                              <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1344,7 +1451,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1360,7 +1469,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1379,7 +1490,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1397,7 +1510,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1413,8 +1528,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
+                           <roleName>
+                              <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
                         University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1438,8 +1555,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M. A. in English and Communication, in progress 2015.
+                           <roleName>
+                              <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1460,7 +1579,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA</affiliation>
+                              <roleName>
+                                 <affiliation>UCLA</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1479,7 +1600,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA </affiliation>
+                              <roleName>
+                                 <affiliation>UCLA </affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1499,7 +1622,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA</affiliation>
+                              <roleName>
+                                 <affiliation>UCLA</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1523,7 +1648,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA</affiliation>
+                              <roleName>
+                                 <affiliation>UCLA</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1544,7 +1671,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1561,8 +1690,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName> B.A., English Literature, completed 2014<affiliation>State
+                           <roleName>
+                              <roleName> B.A., English Literature, completed 2014<affiliation>State
                      University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1570,7 +1701,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                           <roleName>
+                              <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1591,7 +1724,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1608,8 +1743,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
+                           <roleName>
+                              <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
                         University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1617,8 +1754,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M.L.S., completed 2015 <affiliation>University at
+                           <roleName>
+                              <roleName>M.L.S., completed 2015 <affiliation>University at
                         Buffalo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1644,7 +1783,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1660,7 +1801,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1677,7 +1820,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1693,8 +1838,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M. A. in English and Communication, in progress 2015.
+                           <roleName>
+                              <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1714,7 +1861,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1731,7 +1880,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1748,7 +1899,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1765,7 +1918,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1782,7 +1937,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA</affiliation>
+                              <roleName>
+                                 <affiliation>UCLA</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1804,7 +1961,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1820,8 +1979,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
+                           <roleName>
+                              <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
                      2015. <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1842,8 +2003,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B.A., English: Literature, 2015 <affiliation>State
+                           <roleName>
+                              <roleName>B.A., English: Literature, 2015 <affiliation>State
                      University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1851,8 +2014,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>M.L.I.S, 2017 <affiliation>Syracuse
+                           <roleName>
+                              <roleName>M.L.I.S, 2017 <affiliation>Syracuse
                      University</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1873,8 +2038,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                           <roleName>
+                              <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1894,8 +2061,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B. A. in Communication, 2017 <affiliation>State
+                           <roleName>
+                              <roleName>B. A. in Communication, 2017 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1917,8 +2086,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
+                           <roleName>
+                              <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
                         University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1939,7 +2110,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA</affiliation>
+                              <roleName>
+                                 <affiliation>UCLA</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1962,7 +2135,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1979,7 +2154,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -1995,7 +2172,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon&gt;</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon&gt;</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2011,7 +2190,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2028,7 +2209,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2045,7 +2228,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>University of Montevallo</affiliation>
+                              <roleName>
+                                 <affiliation>University of Montevallo</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2062,7 +2247,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2081,9 +2268,11 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                           <roleName>
+                              <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, in progress 2016. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2108,7 +2297,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA</affiliation>
+                              <roleName>
+                                 <affiliation>UCLA</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2131,8 +2322,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B.A. in History, English Literature, &amp; Sociology at <affiliation>State University of New York at
+                           <roleName>
+                              <roleName>B.A. in History, English Literature, &amp; Sociology at <affiliation>State University of New York at
                         Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2148,8 +2341,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
+                           <roleName>
+                              <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2171,7 +2366,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>UCLA</affiliation>
+                              <roleName>
+                                 <affiliation>UCLA</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2191,7 +2388,9 @@
                      <roleName>
                         <roleName>
                            <roleName>
-                              <affiliation>State University of New York, Potsdam</affiliation>
+                              <roleName>
+                                 <affiliation>State University of New York, Potsdam</affiliation>
+                              </roleName>
                            </roleName>
                         </roleName>
                      </roleName>
@@ -2868,7 +3067,7 @@
                      household.</note>
                </org>
                <org xml:id="Mitfords_Ma_Pa">
-                  <orgName>Mr.and Mrs.Mitford</orgName>
+                  <orgName>Dr. and Mrs. Mitford</orgName>
                </org>
                <org xml:id="Monck_family">
                   <orgName>the Moncks, family of <persName ref="#Monck_JB">John Berkeley
@@ -10661,7 +10860,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="government" subtype="reformer"/>
                   <occupation type="trade" subtype="carpenter"/>
-                  <occupation type="trade" subtype="ropemaker"/>
                   <note resp="#rnes">After working as a ropemaker in Cornwall, Lovett sought better work in London. He joined various working-class political societies and became the leader of the London Working-Man's Association (LMDA), which played a major role in the Chartist movement. Lovett wrote the People's Charter, which was thrice unsuccessfully presented to Parliament, and also a memoir, <title level="m">The Life and Struggles of William Lovett in his Pursuit of Bread, Knowledge, and Freedom</title> (1876).</note>
                   <note>
                      <ref target="http://viaf.org/viaf/37714479"/>
@@ -15996,7 +16194,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Peter_NT" sex="m">
                   <persName>Peter</persName>
                   <persName>Simon Peter</persName>
-                  <occupation type="trade" subtype="fisherman"/>
+                  <occupation type="trade"/>
                   <occupation type="religious"/>
                   <note resp="#rnes">
                      <title ref="#NewTestament_Bible">New Testament</title> figure from the Christian Bible. One of Jesus's twelve disciples or Apostles, According to the gospels, Peter was a fisherman, had a leadership role amongst the disciples, and denied Jesus three times and later repented. Peter later became the first Bishop of Rome, Pope of the Catholic Church, according to Catholic tradition. Patriarch of Antioch in the Eastern Christian tradition.</note>
@@ -21074,6 +21272,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Athenian tragedy attributed to <persName ref="#Euripides">Euripides</persName>. First produced at the City Dionysia festival in <date when="-0438">438 BCE</date>; one of the earliest surviving plays of the
                      playwright.</note>
                </bibl>
+               <bibl xml:id="Alice_DS_1827">
+                  <title level="a">Alice: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Appeared in <bibl>
+                        <title ref="#ForgetMeNot">Forget Me Not, a Christmas and New Year's present for <date when="1826">1826</date>
+                        </title>
+                        <biblScope unit="pp">(pp. 5+, 12 pages)</biblScope>
+                     </bibl> as Alice: A Dramatic Scene. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
                <bibl xml:id="All_For_Love_play">
                   <title>All for Love</title>
                   <author ref="#Dryden"/>
@@ -21128,6 +21343,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="a" ref="#Another_Glance_OV">Another Glance at Our Village [alternative title assigned to A Parting Glance at Our Village in Walter Scott Publishing edition of Our Village, 1886, 1888}</title>
                   <title level="a" type="alt" ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>
                   <title level="m" ref="#OurVillage_CountryPictures_WalterScott">Our Village: Country Pictures</title>
+               </bibl>
+               <bibl xml:id="Antigone_MRM_1827">
+                  <title level="a">Antigone: A Portrait in Verse</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 verse portrait.</note>
                </bibl>
                <bibl xml:id="Antigone_play">
                   <title>Antigone</title>
@@ -21227,11 +21455,35 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </bibl>
                   </note>
                </bibl>
-               <bibl xml:id="Beauty_MRM">
-                  <title level="a">Beauty</title>
+               <bibl xml:id="BeautifulWoman_1827">
+                  <title level="a">On a Beautiful Woman</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
                   <author ref="#MRM"/>
-                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are "not
-                     better, that is too vain a word, but less bad than the rest."</note>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">300</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 7 in the 1827 collection <biblScope unit="pp">(page 300)</biblScope>
+                     </bibl>.</note>
+               </bibl>
+               <bibl xml:id="Beauty_MRM">
+                  <title level="a">Beauty: An Ode.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">Poem first collected in <title ref="#Poems_2nd_ed_MRM">1811 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter from <persName ref="#MRM">Mitford</persName> to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are <quote>not better, that is too vain a word, but less bad than the rest.</quote>
+                  </note>
                </bibl>
                <bibl xml:id="Beauty_of_Village_CS">
                   <title level="a" ref="#Beauty_of_Village_CS">The Beauty of the Village</title>
@@ -21314,12 +21566,52 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1835">1835</date>
                   <note resp="#scw">A series of stories within <persName ref="#MRM">Mitford</persName>'s later book of prose sketches, <title ref="#Belford_Regis">Belford Regis</title>.</note>
                </bibl>
+               <bibl xml:id="BelovedMotherBirthday_1810">
+                  <title level="a">To my Beloved Mother, On Her Birth-Day, June 15, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.
+                  </note>
+               </bibl>
+               <bibl xml:id="Bertha_1811">
+                  <title level="a">Bertha. A Ballad.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. </note>
+               </bibl>
                <bibl xml:id="Bertram_CM">
                   <title>Bertram; or, The Castle of St. Aldobrand: a tragedy, in five acts</title>
                   <author ref="#Maturin_Charles"/>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <publisher>John Murray</publisher>
                   <date when="1816">1816</date>
+               </bibl>
+               <bibl xml:id="BessyBell_1811">
+                  <title level="a">Bessy Bell and Mary Gray. A Ballad.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
                </bibl>
                <bibl xml:id="Bible">
                   <title>Christian Bible</title>
@@ -21414,6 +21706,35 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1827">1827</date>
                   <bibl corresp="#NarrativePoems"/>
                </bibl>
+               <bibl xml:id="BlankPaperBook_1827">
+                  <title level="a">Written in a Blank-Paper Book Given to the Author by a Friend</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">293</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 1 in the 1827 collection <biblScope unit="pp">(page 293)</biblScope>
+                     </bibl>.</note>
+               </bibl>
+               <bibl xml:id="BlindMansStory_1811">
+                  <title level="a">The Blind Man's Story.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
                <bibl xml:id="Bluebeard_GC">
                   <title>Bluebeard, or Female Curiosity: a Dramatic Romance in Three Acts</title>
                   <author ref="#Colman_the_Younger"/>
@@ -21502,6 +21823,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared as the eighth story in <title ref="#Our_Village1st_ed">volume one of <title ref="#OV">Our Village</title>
                      </title> in <date when="1824">1824</date>. It originally appeared in the <date when="1823-05">May 1823</date> issue of <title ref="#Ladys_Mag">The Lady's Magazine</title> under the same title.</note>
                </bibl>
+               <bibl xml:id="Bridal_Eve_DS_1827">
+                  <title level="a">Bridal Eve: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Appeared in <bibl>
+                        <title ref="#ForgetMeNot">Forget Me Not, a Christmas and New Year's present for <date when="1827">1827</date>
+                        </title>
+                        <biblScope unit="pp">(pp. 363+, 12 pages)</biblScope>
+                     </bibl>. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).
+                  </note>
+               </bibl>
                <bibl xml:id="Bride_FT">
                   <title type="a">The Bride</title>
                   <title type="a">The Proud Ladye. A Chapter from the Chronicles of Adlersberg.</title>
@@ -21540,6 +21879,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <!--LMW: ck. 1843 pagination-->
                </bibl>
+               <bibl xml:id="BustFox_1810">
+                  <title level="a">On a Bust of Fox.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
                <bibl xml:id="Cain_play">
                   <title>Cain: A Mystery</title>
                   <author ref="#Byron">Lord Byron</author>
@@ -21557,6 +21909,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>Payne</publisher>
                   <publisher>Cadell and Davies</publisher>
                   <date when="1796">1796</date>
+               </bibl>
+               <bibl xml:id="Captive_DS_1827">
+                  <title level="a">The Captive: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
                </bibl>
                <bibl xml:id="CaptivityCaptKnox">
                   <title>Account of the Captivity of Robert Knox and Other Englishmen, in the Island
@@ -21688,6 +22053,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/deathwarrant/"/>
                   </note>
+               </bibl>
+               <bibl xml:id="Cheerfulness_1810">
+                  <title level="a">To Cheerfulness.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="ChildeHaroldsPil">
                   <title>Childe Harold’s Pilgrimage</title>
@@ -22087,6 +22465,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Confessions of an English Opium-Eater</title>
                   <author ref="#DeQuincey_Thos"/>
                </bibl>
+               <bibl xml:id="Consumption_1811">
+                  <title level="a">Ode to Consumption.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. This poem is reprinted as a selection in Benjamin Suggitt Nayler's 1822 <title level="m">A Rhetorical Grammar</title>.</note>
+               </bibl>
                <bibl xml:id="Corinne_deS">
                   <title>Corinne, ou, L’Italie</title>
                   <title>Corinne; or, Italy</title>
@@ -22253,6 +22644,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <!--ebb: publication dates, various editions?-->
                   </note>
                </bibl>
+               <bibl xml:id="Cunigonda_DS_1827">
+                  <title level="a">Cunigonda's Vow: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
                <bibl xml:id="Curate_St_Nicholas_BR">
                   <title level="a" ref="#Curate_St_Nicholas_BR">The Curate of St. Nicholas</title>
                   <title level="a" type="alt">Our Rector</title>
@@ -22382,6 +22786,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Don Sebastian</title>
                   <author ref="#Dryden"/>
                </bibl>
+               <bibl xml:id="DonningtonCastle_1827">
+                  <title level="a">On Visiting Donnington Castle</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">311-12</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 18 in the 1827 collection <biblScope unit="pp">(pages 311-12)</biblScope>.</bibl>
+                  </note>
+               </bibl>
                <bibl xml:id="Dora_Creswell_OV">
                   <title level="a" ref="#Dora_Creswell_OV">Dora Creswell [Our Village version]</title>
                   <title level="a" type="alt">The Rustic Wreath</title>
@@ -22421,7 +22841,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <bibl corresp="#Otto"/>
                </bibl>
                <bibl xml:id="DramaticScenes">
-                  <title>Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
                   <author ref="#MRM"/>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
@@ -22430,8 +22850,49 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
                   </publisher>
                   <date when="1827">1827</date>
-                  <bibl corresp="#Emily_DS"/>
-                  <bibl corresp="#Blanch"/>
+                  <bibl corresp="#Alice_DS_1827"/>
+                  <bibl corresp="#Antigone_MRM_1827"/>
+                  <bibl corresp="#BeautifulWoman_1827"/>
+                  <bibl corresp="#BlankPaperBook_1827"/>
+                  <bibl corresp="#Bridal_Eve_DS_1827"/>
+                  <bibl corresp="#Captive_DS_1827"/>
+                  <bibl corresp="#Cunigonda_DS_1827"/>
+                  <bibl corresp="#DonningtonCastle_1827"/>
+                  <bibl corresp="#Emily_DS_1827"/>
+                  <bibl corresp="#EnglefieldHouse_1827"/>
+                  <bibl corresp="#EveningHour_1827"/>
+                  <bibl corresp="#EveningsRichest_1827"/>
+                  <bibl corresp="#Fair_Rosamund_DS_1827"/>
+                  <bibl corresp="#Fawn_DS_1827"/>
+                  <bibl corresp="#FishingSeat_1827"/>
+                  <bibl corresp="#ForgetMeNot_1827"/>
+                  <bibl corresp="#FriendBirthday_1827"/>
+                  <bibl corresp="#FriendToLisbon_1827"/>
+                  <bibl corresp="#FriendsAlbum_1827"/>
+                  <bibl corresp="#GaySummerMorn_1827"/>
+                  <bibl corresp="#HearingTalfourd_1827"/>
+                  <bibl corresp="#Henry_Talbot_DS_1827"/>
+                  <bibl corresp="#HoflandsJerusalem_1827"/>
+                  <bibl corresp="#HoundandHorn_1827"/>
+                  <bibl corresp="#Independence_1827"/>
+                  <bibl corresp="#IntendedRemoval_1827"/>
+                  <bibl corresp="#LeavingPicture_1827"/>
+                  <bibl corresp="#LilyBells_1827"/>
+                  <bibl corresp="#Masque_Seasons_DS_1827"/>
+                  <bibl corresp="#MotherSleeping_1827"/>
+                  <bibl corresp="#NewYearsDay_1827"/>
+                  <bibl corresp="#PaintersDa_DS_1827"/>
+                  <bibl corresp="#Siege_DS_1827"/>
+                  <bibl corresp="#ToHenryRichardson_1827"/>
+                  <bibl corresp="#ToMissPorden_1827"/>
+                  <bibl corresp="#ToMrHaydon_Nature_1827"/>
+                  <bibl corresp="#TwoHoflandLandscapes_1827"/>
+                  <bibl corresp="#WatlingtonH_1827"/>
+                  <bibl corresp="#Wedding_Ring_DS_1827"/>
+                  <bibl corresp="#WestonGrove_1827"/>
+                  <bibl corresp="#WrittenAfterVisit_1827"/>
+                  <bibl corresp="#WrittenJuly1824_1827"/>
+                  <bibl corresp="#WrittenOct1825_1827"/>
                </bibl>
                <bibl xml:id="Early_Rec_Caroline_Cleveland_OV">
                   <title level="a" ref="#Early_Rec_Caroline_Cleveland_OV">Early Recollections. Caroline Cleveland [Our Village version]</title>
@@ -22660,6 +23121,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title level="m" ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title> (83-105).</bibl>
                   </note>
                </bibl>
+               <bibl xml:id="Emily_DS_1827">
+                  <title level="a">Emily, A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp" from="83" to="105">83-105</biblScope>
+                  <note resp="#rnes #lmw">Dramatic sketch. Appeared in the <bibl>
+                        <title ref="#LondonMag">London Magazine</title> 3.17 <date when="1821-05">(May 1821)</date>: <biblScope unit="pp" from="499" to="505">499-505</biblScope>
+                     </bibl>. Later reprinted in <title ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title> (83-105). Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
                <bibl xml:id="Emma_JA">
                   <title>Emma: A Novel</title>
                   <author>
@@ -22691,6 +23168,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">1 </biblScope>: <biblScope unit="page" from="32" to="36">32-36</biblScope>.</bibl>
                   </note>
                </bibl>
+               <bibl xml:id="EnglefieldHouse_1827">
+                  <title level="a">Englefield House</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">303</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 10 in the 1827 collection <biblScope unit="pp">(page 303)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="Epilogue_Orestes_TNT">
                   <title>Epilogue to Orestes by Euripides</title>
                   <author ref="#Talfourd_Thos"/>
@@ -22700,6 +23193,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <editor ref="#Valpy_Richard">Richard Valpy</editor>’s <title level="m">Poems, Odes, Prologues, and Epilogues Spoken on Public Occasions at
                            Reading School</title>, second edition.</bibl>
                   </note>
+               </bibl>
+               <bibl xml:id="Epistle_Friend_1810">
+                  <title level="a">Epistle to a Friend.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="EpitaphOnMary_1811">
+                  <title level="a">Epitaph on Mary, the Wife of George Mitford, Esq.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
                </bibl>
                <bibl xml:id="Essays_of_Elia_nonfict">
                   <title>The Essays of Elia</title>
@@ -22734,12 +23253,81 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1778">1778</date>
                   <note resp="#lmw">First edition published anonymously.</note>
                </bibl>
+               <bibl xml:id="EveningHour_1827">
+                  <title level="a">Sweet is the balmy evening hour</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line. Also appeared in the <bibl>
+                        <date when="1827">1827</date>
+                        <title ref="#Pledge_Friendship">Pledge of Friendship</title>
+                        <biblScope unit="pp">(p. 35)</biblScope>, similarly untitled.</bibl>
+                  </note>
+               </bibl>
+               <bibl xml:id="EveningPrimrose_1810">
+                  <title level="a">To the Evening Primrose.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="EveningsRichest_1827">
+                  <title level="a">Evening's richest colours glowing</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
+               </bibl>
                <bibl xml:id="FaerieQu_ES">
                   <title>The Faerie Queene</title>
                   <author>
                      <persName ref="#Spenser_Edmund">Edmund Spenser</persName>
                   </author>
                   <date>1590-1596</date>
+               </bibl>
+               <bibl xml:id="Fair_Rosamund_DS_1827">
+                  <title level="a">Fair Rosamund: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               <bibl xml:id="FairEleanor_1811">
+                  <title level="a">Fair Eleanor: A Tale.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
                </bibl>
                <bibl xml:id="FaithfulShepherdess_JF">
                   <title>The Faithful Shepherdess</title>
@@ -22771,6 +23359,45 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#Whittakers_pub">G. &amp; W. B. Whittaker</orgName>
                   </publisher>
                   <note resp="#scw">This sketch appeared in the third volume of <title ref="#OV">Our Village</title> in <date when="1828">1828</date>. It was also published in the <title ref="#Amulet">Amulet</title> for the same year.</note>
+               </bibl>
+               <bibl xml:id="Father_Bocking_1810">
+                  <title level="a">To my Father, on his Return from Bocking. May 29, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="FavoriteBower_1810">
+                  <title level="a">Written in a Favorite Bower, Previous to Leaving Home, May 14, 1809.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem refers to <persName ref="#MRM">Mitford</persName>'s home <placeName ref="#Bertram_house">Bertram House</placeName> and is dated <date when="1809-05-14">May 14, 1809</date>. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="Fawn_DS_1827">
+                  <title level="a">The Fawn: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
                </bibl>
                <bibl xml:id="Fiesco_MRMplay">
                   <title>Fiesco</title>
@@ -22909,6 +23536,26 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_5th">volume five of <title ref="#OV">Our Village</title>
                      </title>in <date when="1832">1832</date>. It is a second part to <title ref="#Freshwater_Fisherman_OV">The Freshwater Fisherman</title>. As such, that story and this were republished together in <date when="1846">1846</date> in <title ref="#Edinburgh_Tales">The Edinburgh Tales</title>, where <title ref="#Fisherman_in_Married_State_OV">The Fisherman in His Married State</title> was retitled <title>Adam Stokes in His Married State</title>.</note>
                </bibl>
+               <bibl xml:id="FishingSeat_1827">
+                  <title level="a">The Fishing-Seat, Whiteknights</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">307</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 14 in the 1827 collection <biblScope unit="pp">(page 307)</biblScope>
+                     </bibl>. Also appeared in the <bibl>
+                        <date when="1827">1827</date>
+                        <title ref="#Lit_Souvenir">Literary Souvenir</title>
+                        <biblScope unit="pp">(page 287)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="Flirtation_Extraordinary_BR">
                   <title level="a" ref="#Flirtation_Extraordinary_BR">Flirtation Extraordinary</title>
                   <title level="a" type="alt">A Sentimental Adventure</title>
@@ -22923,6 +23570,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>Henry Colburn</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1818">1818</date>
+               </bibl>
+               <bibl xml:id="ForgetMeNot_1827">
+                  <title level="a">The Forget-Me-Not</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">295</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 3 in the 1827 collection <biblScope unit="pp">(page 295)</biblScope>
+                     </bibl>.</note>
                </bibl>
                <bibl xml:id="Foscari_MRMplay">
                   <title>Foscari: A Tragedy</title>
@@ -22975,6 +23638,56 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </title>in <date when="1832">1832</date>. It also appeared in <title ref="#Royal_LadysMag">The Royal Lady's Magazine, and Archives of the Court of St. James</title> in <date when="1832-05">May 1832</date>, and was republished in <date when="1846">1846</date>
                      <title ref="#Edinburgh_Tales">The Edinburgh Tales</title>. In the latter reprinting, the story ran in two parts, the second entitled, <title>Adam Stoke in His Married State</title>.</note>
                </bibl>
+               <bibl xml:id="FriendBirthday_1827">
+                  <title level="a">To a Friend on Her Birthday</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">308</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 15 in the 1827 collection <biblScope unit="pp">(page 308)</biblScope>
+                     </bibl>.</note>
+               </bibl>
+               <bibl xml:id="FriendsAlbum_1827">
+                  <title level="a">Written in a Friend's Album</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">310</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 17 in the 1827 collection <biblScope unit="pp">(page 310)</biblScope>
+                     </bibl>. Also appeared in <bibl>
+                        <title ref="#Marshalls_Christmas">Marshall's Christmas Box</title> in <date when="1831">1831</date>
+                     </bibl>.</note>
+               </bibl>
+               <bibl xml:id="FriendToLisbon_1827">
+                  <title level="a">On the Departure of a Friend to Lisbon for the Recovery of Her Health</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">315</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 21 in the 1827 collection <biblScope unit="pp">(page 315)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="FudgeFamilyParis">
                   <title>The Fudge Family in Paris</title>
                   <author>
@@ -23006,6 +23719,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Gaston_novel">
                   <title>Gaston de Blondeville</title>
                   <author ref="#Radcliffe_Ann"/>
+               </bibl>
+               <bibl xml:id="GaySummerMorn_1827">
+                  <title level="a">'Tis a gay summer morn, and the sunbeams dance</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
                </bibl>
                <bibl xml:id="GhostStories_OV">
                   <title level="a" ref="#GhostStories_OV">Ghost Stories [Our Village version]</title>
@@ -23042,6 +23768,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Mudie_Rob"/>
                   </author>
+               </bibl>
+               <bibl xml:id="GlowWorm_1810">
+                  <title level="a">To the Glow-Worm.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw"> 1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="Going_to_Races_OV">
                   <title level="a" ref="#Going_to_Races_OV">Going to the Races [Our Village version]</title>
@@ -23211,6 +23950,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Lectures on the Dramatic Literature of the Age of Elizabeth</title>
                   <author ref="#Hazlitt_Wm">William Hazlitt</author>
                </bibl>
+               <bibl xml:id="HearingTalfourd_1827">
+                  <title level="a">On Hearing Mr. Talfourd Plead in the Assize-Hall at Reading, On His First Circuit, March 1821</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">306</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 13 in the 1827 collection <biblScope unit="pp">(page 306)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="Heart_of_Mid">
                   <title>The Heart of Midlothian</title>
                   <author ref="#Scott_Wal">Walter Scott</author>
@@ -23229,6 +23984,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Helen_play">
                   <title>Helen</title>
                   <author ref="#Euripides"/>
+               </bibl>
+               <bibl xml:id="Henry_Talbot_DS_1827">
+                  <title level="a">Henry Talbot: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
                </bibl>
                <bibl xml:id="HenryIVpt1_play">
                   <title>Henry IV, part one</title>
@@ -23292,6 +24060,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      reference to <persName ref="#Nicholson_Jeremiah">Jeremiah
                      Nicholson</persName>.</note>
                </bibl>
+               <bibl xml:id="HoflandsJerusalem_1827">
+                  <title level="a">On Mr. Hofland's Picture of Jerusalem at the Time of the Crucifixion</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">294</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 2 in the 1827 collection <biblScope unit="pp">(page 294)</biblScope>
+                     </bibl>.  Also appeared in the <bibl>
+                        <date when="1826">1826</date>
+                        <title ref="#Amulet">Amulet</title> as Sonnet: Jerusalem <biblScope unit="pp">(page 329)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="Holcroft_Mems">
                   <title>Memoirs of the Late Thomas Holcroft, Written by Himself and Continued to
                      the Time of His Death</title>
@@ -23344,6 +24131,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Horace_play">
                   <title>Horace (1640)</title>
                   <author ref="#Corneille"/>
+               </bibl>
+               <bibl xml:id="HoundandHorn_1827">
+                  <title level="a">With hound and horn and huntsman's call</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
                </bibl>
                <bibl xml:id="Hudibras_SB">
                   <title>Hudibras</title>
@@ -23409,6 +24209,46 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      to emigrate to the American prairies and set off a pamphlet war about on the
                      topic of American emigration to the so-called "English Prairie."</note>
                </bibl>
+               <bibl xml:id="Imitated_Italian_1810">
+                  <title level="a">Imitated from the Italian.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="Impromptu_Whitbread_1810">
+                  <title level="a">Impromptu, On Hearing Mr. Whitbread Declare, On Lord Melville's Trial, That <q>He Fondly Trusted his Name Would Descend with Honor to Posterity.</q>
+                  </title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="Independence_1827">
+                  <title level="a">Independence</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 narrative poem.</note>
+               </bibl>
                <bibl xml:id="India_JournalResidence_Graham">
                   <author ref="#Graham_Maria">Maria Graham</author>
                   <title>Journal of a Residence in India: illustrated by engravings</title>
@@ -23427,6 +24267,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Inez de Castro; A Tragedy in Five Acts</title>
                   <date>1841</date>
                   <author ref="#MRM"/>
+               </bibl>
+               <bibl xml:id="InfantileLove_1811">
+                  <title level="a">Infantile Love.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. A portion of this poem appears as an epigraph in Poems by Eliza Gabriella Lewis (1850).</note>
                </bibl>
                <bibl xml:id="Inferno_Dante">
                   <title>Inferno</title>
@@ -23450,6 +24303,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <note resp="#scw">This sketch appeared in <title ref="#Our_Village2nd">volume two of <title ref="#OV">Our Village</title>
                      </title> in <date when="1826">1826</date>.</note>
+               </bibl>
+               <bibl xml:id="IntendedRemoval_1827">
+                  <title level="a">On an Intended Removal From a Favourite Residence. November, 1820</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">314</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 20 in the 1827 collection <biblScope unit="pp">(page 314)</biblScope>
+                     </bibl>.</note>
                </bibl>
                <bibl xml:id="Intro_DW">
                   <title level="a">Introduction</title>
@@ -23576,6 +24445,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_3rd">volume three of <title ref="#OV">Our Village</title>
                      </title> in <date when="1828">1828</date>. It was also published, with the title, <title type="alt">Jessy of Kibe's Farm</title>, in the <title ref="#Bijou_annual">Bijou</title> for <date when="1828">1828</date>.</note>
                </bibl>
+               <bibl xml:id="JoannasProphecy_1810">
+                  <title level="a">Joanna's Prophecy.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
                <bibl xml:id="JohnBull_play">
                   <title>John Bull the Englishman’s Fireside, a Comedy in five acts.</title>
                   <author>
@@ -23695,6 +24577,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Times</title>.</note>
                   <date when="1645">1645</date>
                </bibl>
+               <bibl xml:id="LeavingPicture_1827">
+                  <title level="a">On Leaving a Favourite Picture</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">309
+                </biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 16 in the 1827 collection <biblScope unit="pp">(page 309</biblScope>
+                     </bibl>. Also appeared in the <bibl>
+                        <date when="1827">1827</date>
+                        <title ref="#Lit_Souvenir">Literary Souvenir</title>
+                        <biblScope unit="pp">(page 233)</biblScope>.</bibl>
+                  </note>
+               </bibl>
                <bibl xml:id="LecComic_WHaz">
                   <title>Lectures on the English Comic Writers, delivered at the Surry
                      Institution</title>
@@ -23807,6 +24710,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <date when="1832">1832</date>
                </bibl>
+               <bibl xml:id="LilyBells_1827">
+                  <title level="a">The lily bells are wet with dew</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
+               </bibl>
                <bibl xml:id="Lit_Pocket_Bk">Literary Pocket Book <title>The Literary Pocket Book, or
                      Companion for the Lover of Art and Nature</title>
                   <author ref="#Hunt">Leigh Hunt</author>
@@ -23913,6 +24829,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_4th">volume four of <title ref="#OV">Our Village</title>
                      </title> in <date when="1830">1830</date>.</note>
                </bibl>
+               <bibl xml:id="LoveSickMaid_1811">
+                  <title level="a">The Love-Sick Maid; An Imitation of the Writers of the Seventeenth Century. [1811 version]</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
                <bibl xml:id="Lucy_LM">
                   <title level="a" ref="#Lucy_LM">Lucy [Lady's Magazine version]</title>
                   <title level="j" ref="#Ladys_Mag">The Lady's Magazine</title>
@@ -23988,6 +24917,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#Our_Village2nd">volume two of <title ref="#OV">Our Village</title>
                      </title> in <date when="1826">1826</date>.</note>
                </bibl>
+               <bibl xml:id="MariaWinningCup_1810">
+                  <title level="a">On Maria's Winning the Cup, At the Ilsley Coursing Meeting. November 9, 1808. Inscribed to W. Cobbett, Esq.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="MarinersTale_1811">
+                  <title level="a">The Mariner's Tale.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
                <bibl xml:id="Marino_Faliero">
                   <title>Marino Faliero</title>
                   <author ref="#Byron"/>
@@ -24015,6 +24970,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>John Murray</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1818">1818</date>
+               </bibl>
+               <bibl xml:id="Masque_Seasons_DS_1827">
+                  <title level="a">Masque of the Seasons: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               <bibl xml:id="MaternalAffection_1811">
+                  <title level="a">Maternal Affection. An Ode.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
                </bibl>
                <bibl xml:id="Matthew_Shore_OV">
                   <title level="a" ref="#Matthew_Shore_OV">Matthew Shore [Our Village version]</title>
@@ -24073,6 +25054,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#rnes #lmw">Lady Lucy Hutchinson composed the Memoirs sometime between the date of her husband's death in 1664 and the year 1675, when she presented the manuscript to Arthur, Earl of Anglesey. It was published in 1806 under the direction of <persName ref="#Hutchinson_Julius">Rev. Julius Hutchinson</persName>, a Hutchinson descendant. Before then, the manuscript had been consulted at the Hutchinson family library at Owthorpe by the historian Catherine Macaulay and possibly by others.</note>
                   <note resp="#lmw #rnes">UCLA copy contains the notes of an anonymous annotator and a digital copy may be accessed at Internet Archive: <ref target="https://archive.org/details/lifeofcolonelhut00hutc"/>
                   </note>
+               </bibl>
+               <bibl xml:id="Memory_John_Moore_1810">
+                  <title level="a">To The Memory of Sir John Moore.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. Barbara Hofland employs the first four lines of this poem as a chapter epigraph in volume 3 of her Tales of the Priory (33).</note>
                </bibl>
                <bibl xml:id="Merchant_of_Venice_play">
                   <title>The Merchant of Venice</title>
@@ -24148,6 +25142,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m" ref="#Country_Stories">Country Stories</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <date when="1835">1835</date>
+               </bibl>
+               <bibl xml:id="MissMurray_1810">
+                  <title level="a">To the Hon. Miss Murray, with Miss Rowden's "Poetical Introduction to Botany."</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW: Charlotte Murray --></note>
                </bibl>
                <bibl xml:id="Mod_Antiques_LM">
                   <title level="a" ref="#Mod_Antiques_LM">Modern Antiques [Lady's Magazine version]</title>
@@ -24233,6 +25240,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m" ref="#OurVillage_CountryPictures_WalterScott">Our Village: Country Pictures</title>
                   <note resp="#scw">Subtitle of the <title ref="#OurVillage_3rd">Our Village, third volume</title> story, <title ref="#Wheat_Hoeing_OV">Wheat Hoeing</title>, that was adopted as the primary title in several posthumous collections.</note>
                </bibl>
+               <bibl xml:id="MotherSleeping_1827">
+                  <title level="a">To My Mother Sleeping</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">299</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 6 in the 1827 collection <biblScope unit="pp">(page 299)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="Mr_Jos_Hanson_CS">
                   <title level="a" ref="#Mr_Jos_Hanson_CS">Mr. Joseph Hanson, the Haberdasher</title>
                   <title level="m" ref="#Country_Stories">Country Stories</title>
@@ -24271,6 +25294,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Much_Ado_play">
                   <title>Much Ado About Nothing</title>
                   <author ref="#Shakespeare"/>
+               </bibl>
+               <bibl xml:id="MungoPark_1810">
+                  <title level="a">Lines, Suggested by the Uncertain Fate of Mungo Park, the Celebrated African Traveller.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="My_Godmothers_OV">
                   <title level="a" ref="#My_Godmothers_OV">My Godmothers [Our Village version]</title>
@@ -24336,6 +25372,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#alg">Encyclopedic work of thirty-seven books, organized in ten
                      volumes. Source: LBT</note>
                </bibl>
+               <bibl xml:id="NearRuinedFarm_1811">
+                  <title level="a">Stanzas Written Near a Ruined Farm.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
                <bibl xml:id="New_Married_Couple_OV">
                   <title level="a" ref="#New_Married_Couple_OV">A New Married Couple [Our Village version]</title>
                   <title level="m" ref="#OurVillage_3rd">Our Village, volume three</title>
@@ -24363,6 +25412,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>W. Wright</publisher>
                   <date when="1819">1819</date>
                </bibl>
+               <bibl xml:id="NewYearsDay_1827">
+                  <title level="a">New Year's Day. 1819</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">304</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 11 in the 1827 collection <biblScope unit="pp">(page 304)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="NightmareAbbey">
                   <title>Nightmare Abbey</title>
                   <author ref="#Peacock_TL">Thomas Love Peacock</author>
@@ -24372,6 +25437,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1818">1818</date>
                   <note resp="#lmw">First edition published anonymously as "by the Author of
                      Headlong Hall."</note>
+               </bibl>
+               <bibl xml:id="NightMay_1810">
+                  <title level="a">The Night of May. To Miss W--</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW Mary Webb? --></note>
                </bibl>
                <bibl xml:id="Northanger_Abbey">
                   <title>Northanger Abbey</title>
@@ -25720,6 +26798,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#MRM"/>
                   <note resp="#lmw">This <date when="1893">1893</date> collection of stories from <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> became one of the best-known and frequently imitated versions, with fairly large numbers of copies still in existence today. This volume featured an extensive Introduction by <persName ref="#Ritchie_AnneT">Anne Thackeray Ritchie</persName> and new black and white illustrations by <persName ref="#Thomson_Hugh">Hugh Thomson</persName>. The volume reprints the <title ref="#Walks_Country_OV">"Walks in the Country"</title> subseries of sketches and re-orders them chronologically to follow the seasons, winter-spring-summer-fall; a choice and ordering of stories that others would follow. The firm produced a limited-run "large paper" edition in red cloth as well as a "small paper" quarto edition bound in green cloth, some with gilt-stamped covers. The "small paper" green cloth editions featured illustrated covers and spines heavily stamped in gold, and followed a book design strategy that had been established by <orgName ref="#Macmillan_pub">Macmillan</orgName> in 1891 with editions of <persName ref="#Gaskell_Eliz">Gaskell</persName>'s <title ref="#Cranford">Cranford</title> and <persName ref="#Goldsmith">Goldsmith</persName>'s <title ref="#Vicar_Wakefield">Vicar of Wakefield</title>; these editions were also illustrated by <persName ref="#Thomson_Hugh">Hugh Thomson</persName> and were popular as gift books. The large paper edition was limited to 470 copies and used the same illustration plates as the small paper edition.</note>
                </bibl>
+               <bibl xml:id="PaintersDa_DS_1827">
+                  <title level="a">The Painter's Daughter: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
                <bibl xml:id="ParadiseLost">
                   <author ref="#Milton">John Milton</author>
                   <title>Paradise Lost</title>
@@ -25754,6 +26845,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_4th">volume four of <title ref="#OV">Our Village</title>
                      </title> in <date when="1830">1830</date>. It had been previously published in the giftbook <title ref="#Friendships_Off">Friendship's Offering</title> for <date when="1829">1829</date>.</note>
+               </bibl>
+               <bibl xml:id="Pen_Sword_1810">
+                  <title level="a">The Pen and the Sword. Inscribed to the Rt. Hon. R. B. Sheridan.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="Pendennis_WT">
                   <title level="m">The History of Pendennis: His Fortunes and Misfortunes, His Friends and His Greatest Enemy</title>
@@ -25876,7 +26980,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1645">1645</date>
                </bibl>
                <bibl xml:id="Poems_1st_ed_MRM">
-                  <title>Poems</title>
+                  <title level="m">Poems</title>
                   <author ref="#MRM"/>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
@@ -25885,10 +26989,40 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
                   </publisher>
                   <date when="1810">1810</date>
+                  <bibl corresp="#BelovedMotherBirthday_1810"/>
+                  <bibl corresp="#BustFox_1810"/>
+                  <bibl corresp="#Cheerfulness_1810"/>
+                  <bibl corresp="#Epistle_Friend_1810"/>
+                  <bibl corresp="#EveningPrimrose_1810"/>
+                  <bibl corresp="#Father_Bocking_1810"/>
+                  <bibl corresp="#FavoriteBower_1810"/>
+                  <bibl corresp="#GlowWorm_1810"/>
+                  <bibl corresp="#Imitated_Italian_1810"/>
+                  <bibl corresp="#Impromptu_Whitbread_1810"/>
+                  <bibl corresp="#JoannasProphecy_1810"/>
+                  <bibl corresp="#MariaWinningCup_1810"/>
+                  <bibl corresp="#Memory_John_Moore_1810"/>
+                  <bibl corresp="#MissMurray_1810"/>
+                  <bibl corresp="#MungoPark_1810"/>
+                  <bibl corresp="#NightMay_1810"/>
+                  <bibl corresp="#Pen_Sword_1810"/>
+                  <bibl corresp="#Pratt_1810"/>
+                  <bibl corresp="#Prologue_ReadingSchool_1810"/>
+                  <bibl corresp="#RevisitingSchool_1810"/>
+                  <bibl corresp="#Scenery_1810"/>
+                  <bibl corresp="#Sybille_1810"/>
+                  <bibl corresp="#ToMay_1810"/>
+                  <bibl corresp="#Verses_with_Primroses_1810"/>
+                  <bibl corresp="#Wardle_Death_1810"/>
+                  <bibl corresp="#Willow_1810"/>
+                  <bibl corresp="#WinterScenery_1810"/>
+                  <bibl corresp="#WmHerbert_1810"/>
+                  <bibl corresp="#Wreaths_1810"/>
+                  <bibl corresp="#YellowButterfly_1810"/>
                   <note resp="#lmw">1 volume.</note>
                </bibl>
                <bibl xml:id="Poems_2nd_ed_MRM">
-                  <title>Poems: Second Edition with Considerable Additions</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
@@ -25897,6 +27031,54 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
                   </publisher>
                   <date when="1811">1811</date>
+                  <bibl corresp="#BelovedMotherBirthday_1810"/>
+                  <bibl corresp="#BustFox_1810"/>
+                  <bibl corresp="#Cheerfulness_1810"/>
+                  <bibl corresp="#Epistle_Friend_1810"/>
+                  <bibl corresp="#EveningPrimrose_1810"/>
+                  <bibl corresp="#Father_Bocking_1810"/>
+                  <bibl corresp="#FavoriteBower_1810"/>
+                  <bibl corresp="#GlowWorm_1810"/>
+                  <bibl corresp="#Imitated_Italian_1810"/>
+                  <bibl corresp="#JoannasProphecy_1810"/>
+                  <bibl corresp="#Memory_John_Moore_1810"/>
+                  <bibl corresp="#MissMurray_1810"/>
+                  <bibl corresp="#MungoPark_1810"/>
+                  <bibl corresp="#NightMay_1810"/>
+                  <bibl corresp="#Pen_Sword_1810"/>
+                  <bibl corresp="#Prologue_ReadingSchool_1810"/>
+                  <bibl corresp="#RevisitingSchool_1810"/>
+                  <bibl corresp="#Scenery_1810"/>
+                  <bibl corresp="#Sybille_1810"/>
+                  <bibl corresp="#ToMay_1810"/>
+                  <bibl corresp="#Verses_with_Primroses_1810"/>
+                  <bibl corresp="#Willow_1810"/>
+                  <bibl corresp="#WinterScenery_1810"/>
+                  <bibl corresp="#WmHerbert_1810"/>
+                  <bibl corresp="#Wreaths_1810"/>
+                  <bibl corresp="#YellowButterfly_1810"/>
+                  <bibl corresp="#Bertha_1811"/>
+                  <bibl corresp="#Beauty_MRM"/>
+                  <bibl corresp="#BessyBell_1811"/>
+                  <bibl corresp="#BlindMansStory_1811"/>
+                  <bibl corresp="#Consumption_1811"/>
+                  <bibl corresp="#EpitaphOnMary_1811"/>
+                  <bibl corresp="#FairEleanor_1811"/>
+                  <bibl corresp="#InfantileLove_1811"/>
+                  <bibl corresp="#LoveSickMaid_1811"/>
+                  <bibl corresp="#MarinersTale_1811"/>
+                  <bibl corresp="#MaternalAffection_1811"/>
+                  <bibl corresp="#NearRuinedFarm_1811"/>
+                  <bibl corresp="#Portrait_Blanch_1811"/>
+                  <bibl corresp="#Portugal_1811"/>
+                  <bibl corresp="#SecretCell_1811"/>
+                  <bibl corresp="#Silchester_1811"/>
+                  <bibl corresp="#Song_FairestThings_1811"/>
+                  <bibl corresp="#Sun_Set_MRM"/>
+                  <bibl corresp="#VictoryOfBarrosa_1811"/>
+                  <bibl corresp="#VoiceofPraise_MRM"/>
+                  <bibl corresp="#Watch_1811"/>
+                  <bibl corresp="#WestminsterAbbey_1811"/>
                   <note resp="#lmw">2 volumes.</note>
                </bibl>
                <bibl xml:id="PoemsOdes_Valpy1804">
@@ -25926,6 +27108,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>An Epistle from Mr. Pope to Dr. Arbuthnot (1734)</title>
                   <author ref="#Pope_Alex">Alexander Pope</author>
                </bibl>
+               <bibl xml:id="Portrait_Blanch_1811">
+                  <title level="a">A Portrait. [from Blanch, an Unfinished Poem.]</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               <bibl xml:id="Portugal_1811">
+                  <title level="a">Portugal. An Ode.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
                <bibl xml:id="PR_JLeyden">
                   <title>The Poetical Remains of the Late <persName ref="#Leyden_John">Dr. John
                         Leyden</persName>, with Memoirs of his Life, by the <persName>Rev. James
@@ -25937,6 +27145,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <pubPlace ref="#London_city">London</pubPlace>
                   <publisher>Longman, Hurst, Rees, Orme and Brown</publisher>
                   <note resp="#alg">Source: HathiTrust</note>
+               </bibl>
+               <bibl xml:id="Pratt_1810">
+                  <title level="a">To Mr. Pratt.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="Preface_OV_v1">
                   <title level="a" ref="#Preface_OV_v1">Preface [to Our Village, volume one]</title>
@@ -25989,6 +27210,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <pubPlace ref="#London_city">London</pubPlace>
                   <publisher>T. Egerton</publisher>
                   <date when="1813">1813</date>
+               </bibl>
+               <bibl xml:id="Prologue_ReadingSchool_1810">
+                  <title level="a">Prologue, Intended to Have Been Spoken Before the First Part of Henry the Fourth, Acted by the Gentlemen of the Reading School Meeting, October 23, 1809. Inscribed to the Rev. Dr. Valpy.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="Prom_Chained">
                   <title>Prometheus Chained</title>
@@ -26140,6 +27374,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>The Revenge: a Tragedy</title>
                   <author ref="#Young_Ed">Edward Young</author>
                   <note resp="#lmw">First acted in <date when="1721">1721</date>.</note>
+               </bibl>
+               <bibl xml:id="RevisitingSchool_1810">
+                  <title level="a">On Revisiting the School Where I was Educated. Addressed to Mrs. Rowden, of Hans Place.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem addressed to <persName ref="#MRM">Mitford</persName>'s friend and former teacher <persName ref="#Rowden_Fr">Frances Rowden</persName>, referring to the <placeName ref="#StQuintin_School">St. Quintin School</placeName> where she was educated. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="RevoltofIslam">
                   <title>The Revolt of Islam: A Poem, in Twelve Cantos</title>
@@ -26358,6 +27605,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">1 </biblScope>: <biblScope unit="page" from="93" to="95">93-95</biblScope>.</bibl>
                   </note>
                </bibl>
+               <bibl xml:id="Scenery_1810">
+                  <title level="a">Sonnet, On Being Requested to Write on Scottish Scenery.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw"> 1810 sonnet. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
                <bibl xml:id="SeaSide_Recollections_OV">
                   <title level="a" ref="#SeaSide_Recollections_OV">Sea-side Recollections [Our Village version]</title>
                   <title level="m" ref="#OurVillage_5th">Our Village, volume five</title>
@@ -26369,6 +27629,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_5th">volume five of <title ref="#OV">Our Village</title>
                      </title>in <date when="1832">1832</date>.</note>
+               </bibl>
+               <bibl xml:id="SecretCell_1811">
+                  <title level="a">The Secret Cell.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
                </bibl>
                <bibl xml:id="Selected_Stories_from_OV_Blackie">
                   <title level="m" ref="#Selected_Stories_from_OV_Blackie">Selected Stories from Our Village [Blackie and Sons, Ltd., n.d., 1920s?]
@@ -26438,6 +27711,40 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>T. Cadell and W. Davies</publisher>
                   <date when="1817">1817</date>
                </bibl>
+               <bibl xml:id="Siege_DS_1827">
+                  <title level="a">The Siege</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827">1827</date>
+                  <biblScope unit="pp" from="462" to="466">462-66</biblScope>
+                  <note resp="#lmw">Dramatic sketch which appeared in <bibl>
+                        <title level="j">Lady's Magazine</title> of <date when="1822-03-30">September 30, 1822</date>:<biblScope unit="pp" from="462" to="466">462-66</biblScope>
+                     </bibl> as <title ref="#Claudias_Dr">Claudia's Dream</title>. Retitled as The Siege in <title ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title>. Appeared in the <bibl>
+                        <date when="1827">1827</date>
+                        <title ref="#Friendships_Off">Friendship's Offering</title>
+                        <biblScope unit="pp">(pp. 290+, 10 pages)</biblScope>
+                     </bibl> as The Siege: A Dramatic Scene. Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).
+                  </note>
+               </bibl>
+               <bibl xml:id="Silchester_1811">
+                  <title level="a">Silchester.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
                <bibl xml:id="Sir_Fr_Darrell">
                   <title>Sir Francis Darrell; or, the Vortex. A Novel</title>
                   <author ref="#Dallas_RC"/>
@@ -26494,6 +27801,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <bibl>(<pubPlace>Farnham</pubPlace>: <publisher>Ashgate</publisher>,
                               <date>2008</date>: 117)</bibl>
                      </cit>.</note>
+               </bibl>
+               <bibl xml:id="Song_FairestThings_1811">
+                  <title level="a">Song. ["The fairest things are those which live"]</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
                </bibl>
                <bibl xml:id="Specimen_Nat_poem">
                   <title>The Monks and the Giants: Prospectus and Specimen of an Intended National
@@ -26582,10 +27902,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#Kotzebue">Kotzebue</author>
                </bibl>
                <bibl xml:id="Sun_Set_MRM">
-                  <title level="a">Sun-Set</title>
+                  <title level="a">Sun-Set.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
-                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are "not
-                     better, that is too vain a word, but less bad than the rest."</note>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_2nd_ed_MRM">1811 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are <quote>not
+                     better, that is too vain a word, but less bad than the rest.</quote>
+                  </note>
                </bibl>
                <bibl xml:id="Suppers_and_Balls_BR">
                   <title level="a" ref="#Suppers_and_Balls_BR">Suppers and Balls</title>
@@ -26600,6 +27929,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <date when="1835">1835</date>
                   <note resp="#scw">This story was previously published in <title ref="#Royal_LadysMag">The Royal Lady's Magazine, and Archives of the Court of St. James</title> in <date when="1832-09">September 1832</date> with the title <title>A Farm-house Adventure</title>.</note>
+               </bibl>
+               <bibl xml:id="Sybille_1810">
+                  <title level="a">Sybille. A Northumbrian Tale.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 narrative poem. <persName ref="#MRM">Mitford</persName>'s introductory argument indicates that she wrote this poem <quote>at the request of a near relation who wished me to compose a Tale adapted to the picturesque and enchanting scenery of the ancient domains of our family, now in the possession of Bertram Mitford, Esq. The Lord de Bertram, (one of the followers of William the Conqueror) married Sybille, the heiress of Sir Johannes de Mitford, and died, I believe, in the Holy Land.</quote> This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="TaleOf2Cities">
                   <title>A Tale of Two Cities</title>
@@ -26809,6 +28151,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1846">1846</date>
                   <note resp="#lmw">First published in serial form in the French newspaper Le Siècle between March and July 1844; by 1846, it had been adapted and translated into English by more than one publisher.</note>
                </bibl>
+               <bibl xml:id="ToHenryRichardson_1827">
+                  <title level="a">To Mr. Henry Richardson. On His Performance of Admetus in the Alcestis of Euripides as Represented in the Original Greek at Reading School </title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">296-97</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 4 in the 1827 collection <biblScope unit="pp">(pages 296-97)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="Tom_Cordery_LM">
                   <title level="a" ref="#Tom_Cordery_LM">Tom Cordery [Lady's Magazine version]</title>
                   <title level="j" ref="#Ladys_Mag">The Lady's Magazine</title>
@@ -26834,6 +28192,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared as the fifteenth story in <title ref="#Our_Village1st_ed">volume one of <title ref="#OV">Our Village</title>
                      </title> in <date when="1824">1824</date>. It was originally published in the <date when="1823-04">May 1823</date> issue of <title ref="#Ladys_Mag">The Lady's Magazine</title>.</note>
                </bibl>
+               <bibl xml:id="ToMay_1810">
+                  <title level="a">To May. 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
                <bibl xml:id="TomCrib">
                   <title>Tom Crib’s Memorial to Congress</title>
                   <author>
@@ -26843,6 +28214,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>Longman, Hurst, Rees, Orme and Brown</publisher>
                   <date when="1819">1819</date>
                </bibl>
+               <bibl xml:id="ToMissPorden_1827">
+                  <title level="a">To Miss Porden</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">301</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 8 in the 1827 collection <biblScope unit="pp">(page 301)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="TomJones_HF">
                   <title>The History of Tom Jones, A Foundling</title>
                   <author>
@@ -26850,6 +28237,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </author>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1749">1749</date>
+               </bibl>
+               <bibl xml:id="ToMrHaydon_Nature_1827">
+                  <title level="a">To Mr. Haydon, On a Study From Nature</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">302</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 9 in the 1827 collection <biblScope unit="pp">(page 302)</biblScope>
+                     </bibl>.</note>
                </bibl>
                <bibl xml:id="TomThumb_Fielding">
                   <author ref="#Fielding_Henry">Scriblerus Secundus</author>
@@ -26967,6 +28370,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_3rd">volume three of <title ref="#OV">Our Village</title>
                      </title> in <date when="1828">1828</date>.</note>
                </bibl>
+               <bibl xml:id="TwoHoflandLandscapes_1827">
+                  <title level="a">On Two of Mr. Hofland's Landscapes</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">305</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 12 in the 1827 collection <biblScope unit="pp">(page 305)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="TwopennyPost">
                   <title>Intercepted Letters, or, the Twopenny Post-bag</title>
                   <author>
@@ -27005,6 +28424,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title>Venice Preserv’d</title>
                   <author ref="#Otway_Thos"/>
                </bibl>
+               <bibl xml:id="Verses_with_Primroses_1810">
+                  <title level="a">Verses, Sent with Some Primroses to a Young Lady, who had Promised us a Visit Early in the Spring. Feb. 7, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
                <bibl xml:id="VeryWoman_play">
                   <title>A Very Woman; or the Prince of Tarent</title>
                   <author ref="#Massinger_Phil">Massinger</author>
@@ -27038,6 +28470,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </publisher>
                   <note resp="#scw">This sketch appeared in <title ref="#Our_Village2nd">volume two of <title ref="#OV">Our Village</title>
                      </title> in <date when="1826">1826</date>. It was also published in the <title ref="#Amulet">Amulet</title> for <date when="1826">1826</date>.</note>
+               </bibl>
+               <bibl xml:id="VictoryOfBarrosa_1811">
+                  <title level="a">On the Victory of Barrosa. To Mrs. Taylor, of Hartley Court, Near Reading, Mother of Colonel Norcott.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
                </bibl>
                <bibl xml:id="Village_Beau_OV">
                   <title level="a" ref="#Village_Beau_OV">A Village Beau [Our Village version]</title>
@@ -27163,11 +28608,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1812"/>
                </bibl>
                <bibl xml:id="VoiceofPraise_MRM">
-                  <title level="a">Sun-Set</title>
+                  <title level="a">The Voice of Praise</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
-                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are "not
-                     better, that is too vain a word, but less bad than the rest." <title level="a">Voice of Praise</title> is reprinted more frequently than other Mitford
-                     poems in nineteenth-century newspapers and other periodicals.</note>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are <quote>not
+                     better, that is too vain a word, but less bad than the rest.</quote>
+                     <title level="a">Voice of Praise</title> is reprinted more frequently than other Mitford
+                     poems in nineteenth-century newspapers and other periodicals. This poem appears in <title level="m">The Life of George Brummell, Esq., Volume 2,</title> where its authorship is misattributed to Lady Granville, the daughter of Georgiana, the Duchess of Devonshire.</note>
                </bibl>
                <bibl xml:id="Wager_FT">
                   <title level="a">Florence. The Wager</title>
@@ -27560,6 +29014,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>Rodwell and Martin</publisher>
                   <date when="1820">1820</date>
                </bibl>
+               <bibl xml:id="Wardle_Death_1810">
+                  <title level="a">To G. L. Wardle, Esq., on the Death of His Child.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
                <bibl xml:id="Warlock_Play">
                   <title>The Warlock of the Glen</title>
                   <author ref="#Walker_CE">Charles E. Walker</author>
@@ -27580,8 +29047,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      before she met Johnson and Northmore in 1819 because it was never published in
                      England.</note>
                </bibl>
-               <bibl xml:id="WatlingtonH">
-                  <title>Watlington Hill; A Poem</title>
+               <bibl xml:id="Watch_1811">
+                  <title level="a">The Watch.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
@@ -27590,6 +29058,36 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
                   </publisher>
                   <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. This poem is reprinted in Romanticism: An Anthology, ed. Duncan Wu.</note>
+               </bibl>
+               <bibl xml:id="WatlingtonH">
+                  <title level="m">Watlington Hill; A Poem</title>
+                  <date>1812</date>
+                  <author ref="#MRM">Mary Russell Mitford</author>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <note resp="#lmw">First printed version of this long narrative poem.</note>
+                  <note>
+                     <ref target="https://books.google.com/books?id=fFECAAAAQAAJ"/>
+                  </note>
+               </bibl>
+               <bibl xml:id="WatlingtonH_1827">
+                  <title level="a">Watlington Hill: A Descriptive Poem</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 published version of long narrative poem, originally published separately in one volume in <date when="1812">1812</date>
+                  </note>
                </bibl>
                <bibl xml:id="Waverley">
                   <title>Waverley; or ’Tis Sixty Years Since</title>
@@ -27605,6 +29103,50 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <pubPlace>Edinburgh</pubPlace>
                   <publisher>Adam and Charles Black</publisher>
                   <date when="1761">1761</date>
+               </bibl>
+               <bibl xml:id="Wedding_Ring_DS_1827">
+                  <title level="a">The Wedding Ring: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Appeared in <bibl>
+                        <title ref="#ForgetMeNot">Forget Me Not, a Christmas and New Year's present for <date when="1828">1828</date>
+                        </title>
+                        <biblScope unit="pp">(p. 79)</biblScope>
+                     </bibl>. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).
+                  </note>
+               </bibl>
+               <bibl xml:id="WestminsterAbbey_1811">
+                  <title level="a">Westminster Abbey.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               <bibl xml:id="WestonGrove_1827">
+                  <title level="a">Weston Grove: A Descriptive Poem</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 narrative poem.</note>
                </bibl>
                <bibl xml:id="Wheat_Hoeing_OV">
                   <title level="a" ref="#Wheat_Hoeing_OV">Wheat Hoeing. A Morning Ramble [Our Village version]</title>
@@ -27676,6 +29218,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <date when="1835">1835</date>
                </bibl>
+               <bibl xml:id="Willow_1810">
+                  <title level="a">The Willow. Translated from the French of J. J. Rousseau.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
                <bibl xml:id="WinterNts_ND">
                   <title>Winter Nights; Or, Fire-side Lucubrations</title>
                   <author ref="#Drake_Nathan">Nathan Drake</author>
@@ -27692,6 +29247,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Winter’s Tale</title> was first known to be published in the <bibl>
                         <title level="s">First Folio</title> collection of <date when="1623">1623</date>
                      </bibl>.</note>
+               </bibl>
+               <bibl xml:id="WinterScenery_1810">
+                  <title level="a">Winter Scenery. January, 1809.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. This poem reprinted in <title>British Women Poets of the Romantic Era</title>, ed. Paula Feldman (455).</note>
+               </bibl>
+               <bibl xml:id="WmHerbert_1810">
+                  <title level="a">To the Hon. William Herbert</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem; serves as dedication to the volume and appears before the Table of Contents (iii-iv). Signed Mary Russell Mitford. Bertram House, Feb. 20, 1810. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
                <bibl xml:id="WmTell_play">
                   <title>William Tell</title>
@@ -27983,6 +29564,67 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/182205408"/>
                   </note>
                </bibl>
+               <bibl xml:id="Wreaths_1810">
+                  <title level="a">The Wreaths. A Tale. Taken from the "Curiosities of Literature." Addressed to a Young Lady.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="WrittenAfterVisit_1827">
+                  <title level="a">Written After a Visit From Some Friends</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">313</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 19 in the 1827 collection <biblScope unit="pp">(page 313)</biblScope>.</bibl>
+                  </note>
+               </bibl>
+               <bibl xml:id="WrittenJuly1824_1827">
+                  <title level="a">Written July, 1824</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">298</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 5 in the 1827 collection <biblScope unit="pp">(page 298)</biblScope>
+                     </bibl>.</note>
+               </bibl>
+               <bibl xml:id="WrittenOct1825_1827">
+                  <title level="a">Written October, 1825</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">316</biblScope>
+                  <note resp="#slc #lmw">
+                     <bibl>Sonnet 22 in the 1827 collection <biblScope unit="pp">(page 316)</biblScope>
+                     </bibl>.</note>
+               </bibl>
                <bibl xml:id="WutheringHts">
                   <title>Wuthering Heights
                   </title>
@@ -27994,6 +29636,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName>Thomas Newby</orgName>
                   </publisher>
                   <date when="1847"/>
+               </bibl>
+               <bibl xml:id="YellowButterfly_1810">
+                  <title level="a">To a Yellow Butterfly. April 8, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
+                  </publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. It first appeared in La Belle Assemblée  Vol. 3 (1807): 49.</note>
                </bibl>
                <bibl xml:id="Young_Gipsy_OV">
                   <title level="a" ref="#Young_Gipsy_OV">The Young Gipsy [Our Village version]</title>
@@ -28146,8 +29801,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="ShelleyPB_ReimanEd">
                   <title>Shelley's Poetry and Prose</title>
-                  <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T20:22:12.502-04:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 2100. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+                  <edition>Site Index for the Digital Mitford project. Date: 2019-06-28T21:52:26.434-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 2192. First digital edition in TEI P5, launched on 19 August 2013.</edition>
                   <author>
                      <persName ref="#Shelley_PB">Percy Bysshe Shelle1y</persName>
                   </author>
