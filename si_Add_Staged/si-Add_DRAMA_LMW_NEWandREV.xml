@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -567,11 +569,7 @@
                <note resp="#scw">Dutch Golden Age landscape painter, nephew of <persName ref="#Ruysdael_Salomon">Salomon van Ruysdael</persName>, and cousin of <persName ref="#Ruysdael_Jacob">Jacob van Ruysdael</persName>.</note>
                   <note><ref target="http://viaf.org/viaf/89550506"/></note>
                </person>
-            </listPerson>
-         </div>
-
-               <div type="historical_people">
-                  <listPerson sortKey="histPersons">
+    
                     <!--LMW:  All in the histPersons section are NEW. -->
                      
                      <person xml:id="Horrebow_Mr" sex="m">
@@ -690,8 +688,7 @@
                         </persName>
                         <occupation type="theater" subtype="actor"/>
                         <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                           I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. <persName ref="#MRM">Mitford</persName>'s protege in the 1830s, mentioned in her letters. She also addressed a poem to him: <title>On Mr. Cathcart's performance of Cromwell in the tragedy of Charles I.</title> <persName ref="#Macready_Wm">Macready</persName> mentions this about Cathcart's performance in <title ref="#CharlesI_MRMplay">Charles
-                              I</title>: <quote>The play is wretchedly constructed, with some powerful scenes, many passages of power and considerable effect in the sketch of Cromwell's character, which, deserving first-rate support, was consigned to the murderous Mr. Cathcart--a very poor pretender indeed.</quote> Source: <bibl><title>The Diaries of William Charles Macready, 1833-1851, volume one.</title>Entry for July 12, 1834, page 165.</bibl>" Forename unknown. More research needed.</note>
+                           I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. <persName ref="#MRM">Mitford</persName>'s protege in the 1830s, mentioned in her letters. She also addressed a poem to him: <title level="a">On Mr. Cathcart's performance of Cromwell in the tragedy of Charles I</title>. <persName ref="#Macready_Wm">Macready</persName> mentions this about Cathcart's performance in <title ref="#CharlesI_MRMplay">Charles I</title>: <quote>The play is wretchedly constructed, with some powerful scenes, many passages of power and considerable effect in the sketch of Cromwell's character, which, deserving first-rate support, was consigned to the murderous Mr. Cathcart--a very poor pretender indeed.</quote> Source: <bibl><title level="m">The Diaries of William Charles Macready, 1833-1851, volume one.</title>Entry for July 12, 1834, page 165.</bibl> Forename unknown. More research needed.</note>
                      </person>
                      
                      <person xml:id="Bender_Mr" sex="m">
