@@ -56,6 +56,7 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
+            <change when="2019-06-27" who="#lmw">Added new and revised entries for all Mitford poems.</change>
             <change when="2019-05-28" who="#ebb">Restored missing Jane Austen entry, added entries to be sure all refs were pointing to existing xml:ids in this file.</change>
             <change when="2019-05-28" who="#ebb">Updated to migrate several students to past assistants, and to add Don Ulin to consultants. Noted issue with lmw's previous XSLT transformation expanding default attributes. This new SI output removes the default attributes.</change>
             <change when="2019-05-27" who="#lmw">Updated Site Index with new and revised entries from Charles I, Rienzi, and Finden's Tableaux.</change>
@@ -2868,7 +2869,7 @@
                      household.</note>
                </org>
                <org xml:id="Mitfords_Ma_Pa">
-                  <orgName>Mr.and Mrs.Mitford</orgName>
+                  <orgName>Dr. and Mrs. Mitford</orgName>
                </org>
                <org xml:id="Monck_family">
                   <orgName>the Moncks, family of <persName ref="#Monck_JB">John Berkeley
@@ -10661,7 +10662,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="government" subtype="reformer"/>
                   <occupation type="trade" subtype="carpenter"/>
-                  <occupation type="trade" subtype="ropemaker"/>
                   <note resp="#rnes">After working as a ropemaker in Cornwall, Lovett sought better work in London. He joined various working-class political societies and became the leader of the London Working-Man's Association (LMDA), which played a major role in the Chartist movement. Lovett wrote the People's Charter, which was thrice unsuccessfully presented to Parliament, and also a memoir, <title level="m">The Life and Struggles of William Lovett in his Pursuit of Bread, Knowledge, and Freedom</title> (1876).</note>
                   <note>
                      <ref target="http://viaf.org/viaf/37714479"/>
@@ -15996,7 +15996,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Peter_NT" sex="m">
                   <persName>Peter</persName>
                   <persName>Simon Peter</persName>
-                  <occupation type="trade" subtype="fisherman"/>
+                  <occupation type="trade"/>
                   <occupation type="religious"/>
                   <note resp="#rnes">
                      <title ref="#NewTestament_Bible">New Testament</title> figure from the Christian Bible. One of Jesus's twelve disciples or Apostles, According to the gospels, Peter was a fisherman, had a leadership role amongst the disciples, and denied Jesus three times and later repented. Peter later became the first Bishop of Rome, Pope of the Catholic Church, according to Catholic tradition. Patriarch of Antioch in the Eastern Christian tradition.</note>
@@ -23517,19 +23517,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <bibl corresp="#Gaston_deBlondeville"/>
                   <bibl corresp="#Otto"/>
                </bibl>
-               <bibl xml:id="DramaticScenes">
-                  <title>Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827">1827</date>
-                  <bibl corresp="#Emily_DS"/>
-                  <bibl corresp="#Blanch"/>
-               </bibl>
+               
                <bibl xml:id="Early_Rec_Caroline_Cleveland_OV">
                   <title level="a" ref="#Early_Rec_Caroline_Cleveland_OV">Early Recollections. Caroline Cleveland [Our Village version]</title>
                   <title level="a" type="alt">Caroline Cleveland; A School-Day Anecdote</title>
@@ -26972,30 +26960,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>H. Moseley</publisher>
                   <date when="1645">1645</date>
                </bibl>
-               <bibl xml:id="Poems_1st_ed_MRM">
-                  <title>Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
-                  </publisher>
-                  <date when="1810">1810</date>
-                  <note resp="#lmw">1 volume.</note>
-               </bibl>
-               <bibl xml:id="Poems_2nd_ed_MRM">
-                  <title>Poems: Second Edition with Considerable Additions</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
-                  </publisher>
-                  <date when="1811">1811</date>
-                  <note resp="#lmw">2 volumes.</note>
-               </bibl>
+              
                <bibl xml:id="PoemsOdes_Valpy1804">
                   <title>Poems, Odes, Prologues, and Epilogues Spoken on Public Occasions at Reading
                      School. To Which is Added Some Account of the Lives of Rev. Mr. Benwell and
