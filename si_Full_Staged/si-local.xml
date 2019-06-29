@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- SET THIS SCHEMA FOR THE FULL SI, for use until we've repaired all the occupation code:-->
+<!--<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -26,8 +29,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T18:14:18.906-04:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 2095. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+            <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T20:22:12.502-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 2100. First digital edition in TEI P5, launched on 19 August 2013.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
@@ -57,7 +60,6 @@
             <change when="2019-05-28" who="#ebb">Updated to migrate several students to past assistants, and to add Don Ulin to consultants. Noted issue with lmw's previous XSLT transformation expanding default attributes. This new SI output removes the default attributes.</change>
             <change when="2019-05-27" who="#lmw">Updated Site Index with new and revised entries from Charles I, Rienzi, and Finden's Tableaux.</change>
             <change when="2019-05-18" who="#ebb">Updated SI entries from old 2017 lists, updated editing team bios.</change>
-            
             <change when="2019-04-21" who="#ebb">Simplified the way we designate genus, species in the plant and animal lists, from rs to name. (Rationale: In TEI, rs is not the right element because it's intended for references that aren't names (like pronouns), and genus/species are names.) </change>
             <change when="2019-04-21" who="#ebb">Created this changelog on the SI to better log our descriptions of changes. </change>
             <change when="2019-02-17" who="#ebb">Set ODD-generated SI schema to be active on this file; note that editor occupations now flag as errors: we need to change where we encode SI editor home institutions and employment titles.</change>
@@ -78,7 +80,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Virginia</affiliation>
+                           <roleName>
+                              <affiliation>University of Virginia</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -108,7 +112,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of St Andrews</affiliation>
+                           <roleName>
+                              <affiliation>University of St Andrews</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -131,7 +137,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Stanford Literary Lab</affiliation>
+                           <roleName>
+                              <affiliation>Stanford Literary Lab</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -145,7 +153,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Virginia Commonwealth University</affiliation>
+                           <roleName>
+                              <affiliation>Virginia Commonwealth University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -161,8 +171,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Assistant Professor of English <affiliation>Missouri Southern State
+                        <roleName>
+                           <roleName>Assistant Professor of English <affiliation>Missouri Southern State
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -182,7 +194,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Kansas State University</affiliation>
+                           <roleName>
+                              <affiliation>Kansas State University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -199,7 +213,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        <roleName>
+                           <roleName>Green Scholar, B. A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -220,8 +236,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Programme Director: English <affiliation>Loughborough
+                        <roleName>
+                           <roleName>Programme Director: English <affiliation>Loughborough
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -236,7 +254,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of North Carolina Pembroke</affiliation>
+                           <roleName>
+                              <affiliation>University of North Carolina Pembroke</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -258,7 +278,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh, Johnstown</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -278,7 +300,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Grinnell College: Information Technology</affiliation>
+                           <roleName>
+                              <affiliation>Grinnell College: Information Technology</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -295,7 +319,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -310,7 +336,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -327,13 +355,17 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                        <roleName>
+                           <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                        <roleName>
+                           <roleName>M.A. student <affiliation>Duquesne University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -347,8 +379,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Professor of English <affiliation>University of Central
+                        <roleName>
+                           <roleName>Professor of English <affiliation>University of Central
                         Missouri</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -369,7 +403,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Università degli Studi di Parma</affiliation>
+                           <roleName>
+                              <affiliation>Università degli Studi di Parma</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -383,8 +419,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Associate Professor of English
+                        <roleName>
+                           <roleName>Associate Professor of English
                         <affiliation>University of Pittsburgh at Bradford</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -400,8 +438,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
+                        <roleName>
+                           <roleName>Director, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref> and Associate Professor of English, <affiliation>University of Pittsburgh
                         at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -417,7 +457,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Duquesne University</affiliation>
+                           <roleName>
+                              <affiliation>Duquesne University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -434,7 +476,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Oregon</affiliation>
+                           <roleName>
+                              <affiliation>University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -467,7 +511,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Michigan State University</affiliation>
+                           <roleName>
+                              <affiliation>Michigan State University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -487,7 +533,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of California, Los Angeles</affiliation>
+                           <roleName>
+                              <affiliation>University of California, Los Angeles</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -503,8 +551,10 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Penn State University</affiliation>
-                           <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           <roleName>
+                              <affiliation>Penn State University</affiliation>
+                              <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -521,7 +571,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -538,7 +590,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Tiffin University</affiliation>
+                           <roleName>
+                              <affiliation>Tiffin University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -561,8 +615,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B.A. in English Literature and History
+                        <roleName>
+                           <roleName>Green Scholar, B.A. in English Literature and History
                      <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -586,7 +642,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Calgary</affiliation>
+                           <roleName>
+                              <affiliation>University of Calgary</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -607,8 +665,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Adjunct Lecturer in Arts &amp; Humanities
+                        <roleName>
+                           <roleName>Adjunct Lecturer in Arts &amp; Humanities
                      <affiliation>Babson College</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -626,7 +686,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York at Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -642,16 +704,20 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
+                        <roleName>
+                           <roleName>Green Scholar, B.A. in English Literature and English Writing, Minor:
                      Visual and Performing Arts <affiliation>University of Pittsburgh at
                         Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.F.A. <affiliation>Loyola Marymount
+                        <roleName>
+                           <roleName>M.F.A. <affiliation>Loyola Marymount
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -667,7 +733,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Baylor University</affiliation>
+                           <roleName>
+                              <affiliation>Baylor University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -683,7 +751,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Nevada, Las Vegas</affiliation>
+                           <roleName>
+                              <affiliation>University of Nevada, Las Vegas</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -705,7 +775,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Editorial Institute, Boston University</affiliation>
+                           <roleName>
+                              <affiliation>Editorial Institute, Boston University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -725,7 +797,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -739,8 +813,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
+                        <roleName>
+                           <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
                         University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -760,7 +836,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Maryland</affiliation>
+                           <roleName>
+                              <affiliation>University of Maryland</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -782,7 +860,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Carnegie Mellon University</affiliation>
+                           <roleName>
+                              <affiliation>Carnegie Mellon University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -797,7 +877,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Penn State University</affiliation>
+                           <roleName>
+                              <affiliation>Penn State University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -813,7 +895,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Pittsburgh</affiliation>
+                           <roleName>
+                              <affiliation>University of Pittsburgh</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -828,7 +912,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -844,7 +930,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Loyola University Chicago</affiliation>
+                           <roleName>
+                              <affiliation>Loyola University Chicago</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -873,7 +961,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                        <roleName>
+                           <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -896,7 +986,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -911,9 +1003,11 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                        <roleName>
+                           <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, completed 2017. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -932,8 +1026,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>Assistant Professor of Spanish and French <affiliation>University of
+                        <roleName>
+                           <roleName>Assistant Professor of Spanish and French <affiliation>University of
                         Pittsburgh at Greensburg</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -961,7 +1057,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>Washington and Jefferson College</affiliation>
+                           <roleName>
+                              <affiliation>Washington and Jefferson College</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -976,7 +1074,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1164,8 +1264,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                        <roleName>
+                           <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1183,7 +1285,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1200,7 +1304,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1214,8 +1320,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English and Communication, in progress 2015.
+                        <roleName>
+                           <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1235,7 +1343,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1249,7 +1359,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1266,7 +1378,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1282,7 +1396,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1296,8 +1412,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
+                        <roleName>
+                           <roleName>M. A. in English &amp; Communication, 2013 <affiliation>State
                         University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1319,8 +1437,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English and Communication, in progress 2015.
+                        <roleName>
+                           <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1339,7 +1459,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1356,7 +1478,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA </affiliation>
+                           <roleName>
+                              <affiliation>UCLA </affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1374,7 +1498,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1396,7 +1522,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1415,7 +1543,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1430,14 +1560,18 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName> B.A., English Literature, completed 2014<affiliation>State
+                        <roleName>
+                           <roleName> B.A., English Literature, completed 2014<affiliation>State
                      University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                        <roleName>
+                           <roleName> M.A., Gaelic Studies, started Fall 2017<affiliation>University of Cork</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1456,7 +1590,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1471,15 +1607,19 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
+                        <roleName>
+                           <roleName>M.A. in English &amp; Communication, in progress <affiliation>State
                         University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.L.S., completed 2015 <affiliation>University at
+                        <roleName>
+                           <roleName>M.L.S., completed 2015 <affiliation>University at
                         Buffalo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1503,7 +1643,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1517,7 +1659,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1532,7 +1676,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1546,8 +1692,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M. A. in English and Communication, in progress 2015.
+                        <roleName>
+                           <roleName>M. A. in English and Communication, in progress 2015.
                         <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1565,7 +1713,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1580,7 +1730,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1595,7 +1747,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1610,7 +1764,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1625,7 +1781,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1645,7 +1803,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1659,8 +1819,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
+                        <roleName>
+                           <roleName>B.A., Literature/Writing &amp; Secondary English Education, completed
                      2015. <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1679,15 +1841,19 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.A., English: Literature, 2015 <affiliation>State
+                        <roleName>
+                           <roleName>B.A., English: Literature, 2015 <affiliation>State
                      University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>M.L.I.S, 2017 <affiliation>Syracuse
+                        <roleName>
+                           <roleName>M.L.I.S, 2017 <affiliation>Syracuse
                      University</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1706,8 +1872,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
+                        <roleName>
+                           <roleName>B. A. in Literature/Writing and in Communication, completed 2015.
                         <affiliation>State University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1725,8 +1893,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Communication, 2017 <affiliation>State
+                        <roleName>
+                           <roleName>B. A. in Communication, 2017 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1746,8 +1916,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
+                        <roleName>
+                           <roleName>B. A. in Communication, in progress (expected 2016) <affiliation>State
                         University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1766,7 +1938,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1787,7 +1961,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1802,7 +1978,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1816,7 +1994,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon&gt;</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>Robert D. Clark Honors College, University of Oregon&gt;</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1830,7 +2010,9 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                        <roleName>
+                           <roleName>student at <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1845,7 +2027,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1860,7 +2044,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>University of Montevallo</affiliation>
+                           <roleName>
+                              <affiliation>University of Montevallo</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1875,7 +2061,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1892,9 +2080,11 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                        <roleName>
+                           <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
                      Communication, in progress 2016. <affiliation>State University of New York,
                         Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1917,7 +2107,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1938,8 +2130,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B.A. in History, English Literature, &amp; Sociology at <affiliation>State University of New York at
+                        <roleName>
+                           <roleName>B.A. in History, English Literature, &amp; Sociology at <affiliation>State University of New York at
                         Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1953,8 +2147,10 @@
                   </persName>
                   <occupation type="scholar">
                      <roleName>
-                        <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
+                        <roleName>
+                           <roleName>B. A. in Literature/Writing, completed 2016 <affiliation>State
                         University of New York at Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1974,7 +2170,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>UCLA</affiliation>
+                           <roleName>
+                              <affiliation>UCLA</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -1992,7 +2190,9 @@
                   <occupation type="scholar">
                      <roleName>
                         <roleName>
-                           <affiliation>State University of New York, Potsdam</affiliation>
+                           <roleName>
+                              <affiliation>State University of New York, Potsdam</affiliation>
+                           </roleName>
                         </roleName>
                      </roleName>
                   </occupation>
@@ -3038,87 +3238,6 @@
                </org>
             </listOrg>
             <listPerson sortKey="histPersons">
-               <person xml:id="OttoII" sex="m">
-                  <persName>Otto II of Wittelsbach</persName>
-                  <persName>
-                     <forename>Otto</forename>
-                  </persName>
-                  <persName><roleName>Duke of Bavaria</roleName>
-                     <roleName>Count Palatine of the Rhine</roleName></persName>
-                  <birth when="1206-04-07">
-                     <placeName>Kelheim, Bavaria, German states</placeName>
-                  </birth>
-                  <death when="1253-11-29">
-                     <placeName>Landshut, Bavaria, German states</placeName>
-                  </death>
-                  <occupation type="government" subtype="monarch"/>
-                  <note resp="#lmw">House of Wittelsbach, Bavaria, known as <q>Otto the Illustrious;</q> historical figure who is the subject of <title ref="#Otto_Babo">Otto von Wittelsbach</title> and <title ref="#Otto">Otto of Wittelsbach</title>.</note>
-                  <note>
-                     <ref target="http://viaf.org/viaf/52500217"/>
-                  </note>
-               </person>
-               <person xml:id="Babo" sex="m">
-                  <persName>Joseph Marius Babo</persName>
-                  <persName>
-                     <surname>Babo</surname>
-                     <forename>Joseph</forename>
-                     <forename>Marius</forename>
-                  </persName>
-                  <birth when="1756-01-14">
-                     <placeName>Ehrenbreitstein, Rhineland-Palatinate, German states</placeName>
-                  </birth>
-                  <death when="1822-02-05">
-                     <placeName>Munich, Bavaria, German states</placeName>
-                  </death>
-                  <occupation type="literary" subtype="playwright"/>
-                  <note resp="#lmw">German playwright, author of the tragedy <title ref="#Otto_Babo">Otto von Wittelsbach</title>.</note>
-                  <note>
-                     <ref target="http://viaf.org/viaf/64807749"/>
-                  </note>
-               </person>
-               <person xml:id="Home_John" sex="m">
-                  <persName>John Home</persName>
-                  <persName>
-                     <surname>Home</surname>
-                     <forename>John</forename>
-                  </persName>
-                  <birth when="1722-09-13">
-                     <placeName>Scotland</placeName>
-                  </birth>
-                  <death when="1808-09-04">
-                     <placeName>Edinburgh, Scotland</placeName>
-                  </death>
-                  <occupation type="literary" subtype="playwright"/>
-                  <occupation type="religious" subtype="minister"/>
-                  <note resp="#lmw">Scottish clergyman and playwright, author of the tragedy <title ref="#Douglas_play">Douglas</title>.</note>
-                  <note>
-                     <ref target="http://viaf.org/viaf/49234619"/>
-                  </note>
-               </person>
-               <person xml:id="Austen_Jane" sex="f">	
-                  <persName>Jane Austen</persName>	
-                  <persName>	
-                     <forename>Jane</forename>	
-                     <surname>Austen</surname>	
-                  </persName>	
-                  <birth when="1775-12-16">	
-                     <placeName>Steventon, Hampshire, England</placeName>	
-                  </birth>	
-                  <death when="1817-07-18">	
-                     <placeName>Winchester, Hampshire, England</placeName>	
-                  </death>	
-                  <occupation type="literary"/>	
-                  <occupation type="literary" subtype="novelist"/>	
-                  <note resp="#ebb #rnes">Novelist celebrated for her wit and style, whose works investigated women's social and economic vulnerabilities in English society. During her lifetime she published anonymously.<bibl>	
-                     <title>Sense and Sensibility</title> (<date when="1811">1811</date>)</bibl>, <bibl>	
-                        <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> (<date>1813</date>)</bibl>, <bibl>	
-                           <title level="m">Mansfield Park</title> (<date when="1814">1814</date>)</bibl>, and <bibl>	
-                              <title level="m" ref="#Emma_JA">Emma</title> (<date when="1815">1815</date>)</bibl>, all anonymously. <bibl>	
-                                 <title level="m">Northanger Abbey</title>, the first written of her novels (<date from="1798" to="1799">composed in 1798-1799</date>)</bibl> was published posthumously in 1818 (the title was chosen by surviving family) along with her final completed novel, <title>Persuasion</title>. <rs type="letter">	
-                                    <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>	
-                                 </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:—but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L’Estrange</bibl>.</note>	
-                  <note><ref target="http://viaf.org/viaf/102333412"/></note>	
-               </person>
                <person xml:id="Acerbi_J" sex="m">
                   <persName>Joseph Acerbi</persName>
                   <persName>
@@ -3489,6 +3608,51 @@
                      </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:--but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L'Estrange</bibl>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/71386625"/>
+                  </note>
+               </person>
+               <person xml:id="Austen_Jane" sex="f">
+                  <persName>Jane Austen</persName>
+                  <persName>
+                     <forename>Jane</forename>
+                     <surname>Austen</surname>
+                  </persName>
+                  <birth when="1775-12-16">
+                     <placeName>Steventon, Hampshire, England</placeName>
+                  </birth>
+                  <death when="1817-07-18">
+                     <placeName>Winchester, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#ebb #rnes">Novelist celebrated for her wit and style, whose works investigated women's social and economic vulnerabilities in English society. During her lifetime she published anonymously.<bibl>
+                        <title>Sense and Sensibility</title> (<date when="1811">1811</date>)</bibl>, <bibl>
+                        <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> (<date>1813</date>)</bibl>, <bibl>
+                        <title level="m">Mansfield Park</title> (<date when="1814">1814</date>)</bibl>, and <bibl>
+                        <title level="m" ref="#Emma_JA">Emma</title> (<date when="1815">1815</date>)</bibl>, all anonymously. <bibl>
+                        <title level="m">Northanger Abbey</title>, the first written of her novels (<date from="1798" to="1799">composed in 1798-1799</date>)</bibl> was published posthumously in 1818 (the title was chosen by surviving family) along with her final completed novel, <title>Persuasion</title>. <rs type="letter">
+                        <persName ref="#MRM">Mitford</persName> claims in a letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1815-04-03">3 April 1815</date>
+                     </rs> that she has recently discovered Austen <quote>is my countrywoman,</quote>, that is, a neighbor. Later in <rs type="letter">a letter of <date when="1816-07-02">2 July 1816</date> praised <title ref="#Emma_JA">Emma</title> in particular among Austen's novels</rs>. She and Elford evidently knew the identity of Austen as the author long before the information was public knowledge, and she claims in the April 3 letter that <rs type="person" ref="#Russell_M">her mother</rs> remembered Jane Austen in her youth as <quote>the prettiest, silliest, most affected, husband-hunting butterfly she ever remembers</quote>, but that Jane was by the 1810s extremely quiet, which impressed Mitford: <quote>till <title level="m" ref="#Pride_and_Prejudice">Pride and Prejudice</title> showed what a precious gem was hidden in that unbending case, she was no more regarded in society than a poker or a fire-screen, or any other thin upright piece of wood or iron that fills its corner in peace and quietness. The case is very different now; she is still a poker--but a poker of whom every one is afraid. It must be confessed that this silent observation from such an observer is rather formidable. Most writers are good-humoured chatterers--neither very wise nor very witty:—but nine times out of ten (at least in the few that I have known) unaffected and pleasant, and quite removing by their conversation any awe that may have been excited by their works. But a wit, a delineator of character, who does not talk, is terrific indeed!</quote> Source: <bibl corresp="#Lestrange_Letters">L’Estrange</bibl>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/102333412"/>
+                  </note>
+               </person>
+               <person xml:id="Babo" sex="m">
+                  <persName>Joseph Marius Babo</persName>
+                  <persName>
+                     <surname>Babo</surname>
+                     <forename>Joseph</forename>
+                     <forename>Marius</forename>
+                  </persName>
+                  <birth when="1756-01-14">
+                     <placeName>Ehrenbreitstein, Rhineland-Palatinate, German states</placeName>
+                  </birth>
+                  <death when="1822-02-05">
+                     <placeName>Munich, Bavaria, German states</placeName>
+                  </death>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#lmw">German playwright, author of the tragedy <title ref="#Otto_Babo">Otto von Wittelsbach</title>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/64807749"/>
                   </note>
                </person>
                <person xml:id="Bacon" sex="m">
@@ -9131,6 +9295,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                            November, 1953</date>
                      </rs>.</note>
                </person>
+               <person xml:id="Home_John" sex="m">
+                  <persName>John Home</persName>
+                  <persName>
+                     <surname>Home</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1722-09-13">
+                     <placeName>Scotland</placeName>
+                  </birth>
+                  <death when="1808-09-04">
+                     <placeName>Edinburgh, Scotland</placeName>
+                  </death>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="religious" subtype="minister"/>
+                  <note resp="#lmw">Scottish clergyman and playwright, author of the tragedy <title ref="#Douglas_play">Douglas</title>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/49234619"/>
+                  </note>
+               </person>
                <person xml:id="Homer" sex="m">
                   <persName>Homer</persName>
                   <floruit when="-0700">
@@ -11765,6 +11948,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Hannay, 1824. 187-188.</p>
                   </note>
                </person>
+               <person xml:id="OttoII" sex="m">
+                  <persName>Otto II of Wittelsbach</persName>
+                  <persName>
+                     <forename>Otto</forename>
+                  </persName>
+                  <persName>
+                     <roleName>Duke of Bavaria</roleName>
+                     <roleName>Count Palatine of the Rhine</roleName>
+                  </persName>
+                  <birth when="1206-04-07">
+                     <placeName>Kelheim, Bavaria, German states</placeName>
+                  </birth>
+                  <death when="1253-11-29">
+                     <placeName>Landshut, Bavaria, German states</placeName>
+                  </death>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#lmw">House of Wittelsbach, Bavaria, known as <q>Otto the Illustrious;</q> historical figure who is the subject of <title ref="#Otto_Babo">Otto von Wittelsbach</title> and <title ref="#Otto">Otto of Wittelsbach</title>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/52500217"/>
+                  </note>
+               </person>
                <person xml:id="Otway_Thos" sex="m">
                   <persName>
                      <surname>Otway</surname>
@@ -13484,7 +13688,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Renaissance-era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain’s Men and author or co-author of 38 plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the Introduction to her <title level="m" ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: <quote>It is the privilege of English people to grow up [ . . . ] in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart.</quote></note>
+                  <note resp="#lmw">Renaissance-era actor, theater manager, poet, and playwright. Part owner of playing company The Lord Chamberlain’s Men and author or co-author of 38 plays. Considered the greatest English dramatist and Britain's national poet. <persName ref="#MRM">Mitford</persName> wrote in the Introduction to her <title level="m" ref="#Dramatic_Works_of_MRM">Dramatic Works</title>: <quote>It is the privilege of English people to grow up [ . . . ] in the worship of <persName ref="#Shakespeare">Shakespeare</persName>, and many of his favourite scenes I literally knew by heart.</quote>
+                  </note>
                   <note>
                      <ref target="http://viaf.org/viaf/96994048"/>
                   </note>
@@ -14261,19 +14466,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>James</forename>
                      <surname>Thackeray</surname>
                   </persName>
-                  <persName><addName>T. J. Thackeray</addName></persName>
+                  <persName>
+                     <addName>T. J. Thackeray</addName>
+                  </persName>
                   <birth notAfter="1796"/>
                   <death notBefore="1850"/>
                   <occupation type="theater" subtype="musician"/>
                   <occupation type="theater" subtype="composer"/>
                   <note resp="#lmw">Musician and librettist/lyricist. Wrote <bibl>
-                     <bibl><title level="m">The Mountain Sylph</title> (two-act opera, <date>1834</date>) with
-                        <persName>John Barnett</persName></bibl> (1809-1890)</bibl>. Also wrote <bibl>
-                           <bibl><title level="m">My Wife or My Place, A Petite Comedy in Two Acts</title>
-                              (<date>1831</date>) with <persName>Charles Shannon</persName></bibl>
-                        </bibl>.
+                        <bibl>
+                           <title level="m">The Mountain Sylph</title> (two-act opera, <date>1834</date>) with
+                        <persName>John Barnett</persName>
+                        </bibl> (1809-1890)</bibl>. Also wrote <bibl>
+                        <bibl>
+                           <title level="m">My Wife or My Place, A Petite Comedy in Two Acts</title>
+                              (<date>1831</date>) with <persName>Charles Shannon</persName>
+                        </bibl>
+                     </bibl>.
                   </note>
-                  <note><ref target="http://viaf.org/viaf/41990845"/></note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/41990845"/>
+                  </note>
                </person>
                <person xml:id="Thackeray_WM" sex="m">
                   <persName>William Makepeace Thackeray</persName>
@@ -14298,7 +14511,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/95208604"/>
                   </note>
                </person>
-               
                <person xml:id="Thelwall_John" sex="m">
                   <persName>John Thelwall</persName>
                   <persName>
@@ -14319,13 +14531,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="educator"/>
                   <occupation type="government" subtype="orator"/>
                   <note type="bio" resp="#scw">Radical political writer, lecturer, poet, and novelist, who was associated with the <orgName>London Corresponding Society</orgName>, as well as <persName ref="#Wordsworth_Wm">William Wordsworth</persName> and <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName>in their early years. He, along with <persName>John Horne Tooke</persName> and <persName>Thomas Hardy</persName>, was tried for treason in 1794, and was acquitted. After being hounded out of a prominent political life by government repressions against radical activity, Thelwall became a teacher of elocution, but he continued to write about politics and to publish. In later life, he published a short-lived journal entitled <bibl>
-                     <title level="j">Panoramic Miscellany</title>
-                  </bibl>, to which <persName ref="#MRM">Mitford</persName>contributed three country sketches.</note>
+                        <title level="j">Panoramic Miscellany</title>
+                     </bibl>, to which <persName ref="#MRM">Mitford</persName>contributed three country sketches.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/37726570"/>
                   </note>
                </person>
-          <person xml:id="Thomson_Hugh" sex="m">
+               <person xml:id="Thomson_Hugh" sex="m">
                   <persName>
                      <surname>Thomson</surname>
                      <forename>Hugh</forename>
@@ -20732,6 +20944,1098 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
             </listBibl>
             <listBibl sortKey="work_MRM">
+               <bibl xml:id="Poems_1st_ed_MRM">
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <bibl corresp="#BelovedMotherBirthday_1810"/>
+                  <bibl corresp="#BustFox_1810"/>
+                  <bibl corresp="#Cheerfulness_1810"/>
+                  <bibl corresp="#Epistle_Friend_1810"/>
+                  <bibl corresp="#EveningPrimrose_1810"/>
+                  <bibl corresp="#Father_Bocking_1810"/>
+                  <bibl corresp="#FavoriteBower_1810"/>
+                  <bibl corresp="#GlowWorm_1810"/>
+                  <bibl corresp="#Imitated_Italian_1810"/>
+                  <bibl corresp="#Impromptu_Whitbread_1810"/>
+                  <bibl corresp="#JoannasProphecy_1810"/>
+                  <bibl corresp="#MariaWinningCup_1810"/>
+                  <bibl corresp="#Memory_John_Moore_1810"/>
+                  <bibl corresp="#MissMurray_1810"/>
+                  <bibl corresp="#MungoPark_1810"/>
+                  <bibl corresp="#NightMay_1810"/>
+                  <bibl corresp="#Pen_Sword_1810"/>
+                  <bibl corresp="#Pratt_1810"/>
+                  <bibl corresp="#Prologue_ReadingSchool_1810"/>
+                  <bibl corresp="#RevisitingSchool_1810"/>
+                  <bibl corresp="#Scenery_1810"/>
+                  <bibl corresp="#Sybille_1810"/>
+                  <bibl corresp="#ToMay_1810"/>
+                  <bibl corresp="#Verses_with_Primroses_1810"/>
+                  <bibl corresp="#Wardle_Death_1810"/>
+                  <bibl corresp="#Willow_1810"/>
+                  <bibl corresp="#WinterScenery_1810"/>
+                  <bibl corresp="#WmHerbert_1810"/>
+                  <bibl corresp="#Wreaths_1810"/>
+                  <bibl corresp="#YellowButterfly_1810"/>
+                  <note resp="#lmw">1 volume.</note>
+               </bibl>
+               
+               <bibl xml:id="Poems_2nd_ed_MRM">
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <bibl corresp="#BelovedMotherBirthday_1810"/>
+                  <bibl corresp="#BustFox_1810"/>
+                  <bibl corresp="#Cheerfulness_1810"/>
+                  <bibl corresp="#Epistle_Friend_1810"/>
+                  <bibl corresp="#EveningPrimrose_1810"/>
+                  <bibl corresp="#Father_Bocking_1810"/>
+                  <bibl corresp="#FavoriteBower_1810"/>
+                  <bibl corresp="#GlowWorm_1810"/>
+                  <bibl corresp="#Imitated_Italian_1810"/>
+                  <bibl corresp="#JoannasProphecy_1810"/>
+                  <bibl corresp="#Memory_John_Moore_1810"/>
+                  <bibl corresp="#MissMurray_1810"/>
+                  <bibl corresp="#MungoPark_1810"/>
+                  <bibl corresp="#NightMay_1810"/>
+                  <bibl corresp="#Pen_Sword_1810"/>
+                  <bibl corresp="#Prologue_ReadingSchool_1810"/>
+                  <bibl corresp="#RevisitingSchool_1810"/>
+                  <bibl corresp="#Scenery_1810"/>
+                  <bibl corresp="#Sybille_1810"/>
+                  <bibl corresp="#ToMay_1810"/>
+                  <bibl corresp="#Verses_with_Primroses_1810"/>
+                  <bibl corresp="#Willow_1810"/>
+                  <bibl corresp="#WinterScenery_1810"/>
+                  <bibl corresp="#WmHerbert_1810"/>
+                  <bibl corresp="#Wreaths_1810"/>
+                  <bibl corresp="#YellowButterfly_1810"/>
+                  <bibl corresp="#Bertha_1811"/>
+                  <bibl corresp="#Beauty_MRM"/>
+                  <bibl corresp="#BessyBell_1811"/>
+                  <bibl corresp="#BlindMansStory_1811"/>
+                  <bibl corresp="#Consumption_1811"/>
+                  <bibl corresp="#EpitaphOnMary_1811"/>
+                  <bibl corresp="#FairEleanor_1811"/>
+                  <bibl corresp="#InfantileLove_1811"/>
+                  <bibl corresp="#LoveSickMaid_1811"/>
+                  <bibl corresp="#MarinersTale_1811"/>
+                  <bibl corresp="#MaternalAffection_1811"/>
+                  <bibl corresp="#NearRuinedFarm_1811"/>
+                  <bibl corresp="#Portrait_Blanch_1811"/>
+                  <bibl corresp="#Portugal_1811"/>
+                  <bibl corresp="#SecretCell_1811"/>
+                  <bibl corresp="#Silchester_1811"/>
+                  <bibl corresp="#Song_FairestThings_1811"/>
+                  <bibl corresp="#Sun_Set_MRM"/>
+                  <bibl corresp="#VictoryOfBarrosa_1811"/>
+                  <bibl corresp="#VoiceofPraise_MRM"/>
+                  <bibl corresp="#Watch_1811"/>
+                  <bibl corresp="#WestminsterAbbey_1811"/>
+                  <note resp="#lmw">2 volumes.</note>
+               </bibl>
+               <bibl xml:id="WmHerbert_1810">
+                  <title level="a">To the Hon. William Herbert</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem; serves as dedication to the volume and appears before the Table of Contents (iii-iv). Signed Mary Russell Mitford. Bertram House, Feb. 20, 1810. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Sybille_1810">
+                  <title level="a">Sybille. A Northumbrian Tale.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 narrative poem. <persName ref="#MRM">Mitford</persName>'s introductory argument indicates that she wrote this poem <quote>at the request of a near relation who wished me to compose a Tale adapted to the picturesque and enchanting scenery of the ancient domains of our family, now in the possession of Bertram Mitford, Esq. The Lord de Bertram, (one of the followers of William the Conqueror) married Sybille, the heiress of Sir Johannes de Mitford, and died, I believe, in the Holy Land.</quote> This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="RevisitingSchool_1810">
+                  <title level="a">On Revisiting the School Where I was Educated. Addressed to Mrs. Rowden, of Hans Place.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem addressed to <persName ref="#MRM">Mitford</persName>'s friend and former teacher <persName ref="#Rowden_Fr">Frances Rowden</persName>, referring to the <placeName ref="#StQuintin_School">St. Quintin School</placeName> where she was educated. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="EveningPrimrose_1810">
+                  <title level="a">To the Evening Primrose.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               <bibl xml:id="FavoriteBower_1810">
+                  <title level="a">Written in a Favorite Bower, Previous to Leaving Home, May 14, 1809.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date> 
+                  <note resp="#lmw">1810 poem refers to <persName ref="#MRM">Mitford</persName>'s home <placeName ref="#Bertram_house">Bertram House</placeName> and is dated <date when="1809-05-14">May 14, 1809</date>. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="GlowWorm_1810">
+                  <title level="a">To the Glow-Worm.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw"> 1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="MungoPark_1810">
+                  <title level="a">Lines, Suggested by the Uncertain Fate of Mungo Park, the Celebrated African Traveller.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Verses_with_Primroses_1810">
+                  <title level="a">Verses, Sent with Some Primroses to a Young Lady, who had Promised us a Visit Early in the Spring. Feb. 7, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="MissMurray_1810">
+                  <title level="a">To the Hon. Miss Murray, with Miss Rowden's "Poetical Introduction to Botany."</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW: Charlotte Murray --></note>
+               </bibl>
+               
+               <bibl xml:id="NightMay_1810">
+                  <title level="a">The Night of May. To Miss W--</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.<!--LMW Mary Webb? --></note>
+               </bibl>
+               
+               <bibl xml:id="Father_Bocking_1810">
+                  <title level="a">To my Father, on his Return from Bocking. May 29, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Scenery_1810">
+                  <title level="a">Sonnet, On Being Requested to Write on Scottish Scenery.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw"> 1810 sonnet. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="BelovedMotherBirthday_1810">
+                  <title level="a">To my Beloved Mother, On Her Birth-Day, June 15, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.
+                  </note>
+               </bibl>
+               
+               <bibl xml:id="MariaWinningCup_1810">
+                  <title level="a">On Maria's Winning the Cup, At the Ilsley Coursing Meeting. November 9, 1808. Inscribed to W. Cobbett, Esq.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Wardle_Death_1810">
+                  <title level="a">To G. L. Wardle, Esq., on the Death of His Child.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Pratt_1810">
+                  <title level="a">To Mr. Pratt.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Impromptu_Whitbread_1810">
+                  <title level="a">Impromptu, On Hearing Mr. Whitbread Declare, On Lord Melville's Trial, That <q>He Fondly Trusted his Name Would Descend with Honor to Posterity.</q></title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title not republished in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Prologue_ReadingSchool_1810">
+                  <title level="a">Prologue, Intended to Have Been Spoken Before the First Part of Henry the Fourth, Acted by the Gentlemen of the Reading School Meeting, October 23, 1809. Inscribed to the Rev. Dr. Valpy.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="YellowButterfly_1810">
+                  <title level="a">To a Yellow Butterfly. April 8, 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. It first appeared in La Belle Assemblée  Vol. 3 (1807): 49.</note>
+               </bibl>
+               
+               <bibl xml:id="WinterScenery_1810">
+                  <title level="a">Winter Scenery. January, 1809.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. This poem reprinted in <title>British Women Poets of the Romantic Era</title>, ed. Paula Feldman (455).</note>
+               </bibl>
+               
+               <bibl xml:id="Cheerfulness_1810">
+                  <title level="a">To Cheerfulness.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Memory_John_Moore_1810">
+                  <title level="a">To The Memory of Sir John Moore.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>. Barbara Hofland employs the first four lines of this poem as a chapter epigraph in volume 3 of her Tales of the Priory (33).</note>
+               </bibl>
+               
+               <bibl xml:id="Epistle_Friend_1810">
+                  <title level="a">Epistle to a Friend.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl><!--LMW: To a cousin Mary from Northumberland -->
+               
+               <bibl xml:id="Imitated_Italian_1810">
+                  <title level="a">Imitated from the Italian.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="BustFox_1810">
+                  <title level="a">On a Bust of Fox.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Willow_1810">
+                  <title level="a">The Willow. Translated from the French of J. J. Rousseau.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl> 
+               <bibl xml:id="ToMay_1810">
+                  <title level="a">To May. 1808.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Wreaths_1810">
+                  <title level="a">The Wreaths. A Tale. Taken from the "Curiosities of Literature." Addressed to a Young Lady.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="JoannasProphecy_1810">
+                  <title level="a">Joanna's Prophecy.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Pen_Sword_1810">
+                  <title level="a">The Pen and the Sword. Inscribed to the Rt. Hon. R. B. Sheridan.</title>
+                  <title level="m">Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1810">1810</date>
+                  <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Portrait_Blanch_1811">
+                  <title level="a">A Portrait. [from Blanch, an Unfinished Poem.]</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="Song_FairestThings_1811">
+                  <title level="a">Song. ["The fairest things are those which live"]</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               <bibl xml:id="FairEleanor_1811">
+                  <title level="a">Fair Eleanor: A Tale.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="LoveSickMaid_1811">
+                  <title level="a">The Love-Sick Maid; An Imitation of the Writers of the Seventeenth Century. [1811 version]</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="MarinersTale_1811">
+                  <title level="a">The Mariner's Tale.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="EpitaphOnMary_1811">
+                  <title level="a">Epitaph on Mary, the Wife of George Mitford, Esq.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="NearRuinedFarm_1811">
+                  <title level="a">Stanzas Written Near a Ruined Farm.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="SecretCell_1811">
+                  <title level="a">The Secret Cell.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="InfantileLove_1811">
+                  <title level="a">Infantile Love.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. A portion of this poem appears as an epigraph in Poems by Eliza Gabriella Lewis (1850).</note>
+               </bibl>
+               
+               <bibl xml:id="Watch_1811">
+                  <title level="a">The Watch.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. This poem is reprinted in Romanticism: An Anthology, ed. Duncan Wu.</note>
+               </bibl>
+               
+               <bibl xml:id="Consumption_1811">
+                  <title level="a">Ode to Consumption.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. This poem is reprinted as a selection in Benjamin Suggitt Nayler's 1822 <title level="m">A Rhetorical Grammar</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Bertha_1811">
+                  <title level="a">Bertha. A Ballad.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem. </note>
+               </bibl>
+               
+               <bibl xml:id="Portugal_1811">
+                  <title level="a">Portugal. An Ode.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="BlindMansStory_1811">
+                  <title level="a">The Blind Man's Story.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               <bibl xml:id="WestminsterAbbey_1811">
+                  <title level="a">Westminster Abbey.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="MaternalAffection_1811">
+                  <title level="a">Maternal Affection. An Ode.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="BessyBell_1811">
+                  <title level="a">Bessy Bell and Mary Gray. A Ballad.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="Silchester_1811">
+                  <title level="a">Silchester.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="VictoryOfBarrosa_1811">
+                  <title level="a">On the Victory of Barrosa. To Mrs. Taylor, of Hartley Court, Near Reading, Mother of Colonel Norcott.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">1811 poem.</note>
+               </bibl>
+               
+               <bibl xml:id="WatlingtonH_1827">
+                  <title level="a">Watlington Hill: A Descriptive Poem</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 published version of long narrative poem, originally published separately in one volume in <date when="1812">1812</date></note>
+               </bibl>
+               
+                <bibl xml:id="Independence_1827">
+                  <title level="a">Independence</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 narrative poem.</note>
+               </bibl>
+               
+               <bibl xml:id="WestonGrove_1827">
+                  <title level="a">Weston Grove: A Descriptive Poem</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 narrative poem.</note>
+               </bibl>
+               
+               <bibl xml:id="Antigone_MRM_1827">
+                  <title level="a">Antigone: A Portrait in Verse</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 verse portrait.</note>
+               </bibl>
+               
+               <bibl xml:id="HoundandHorn_1827">
+                  <title level="a">With hound and horn and huntsman's call</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
+               </bibl>
+               
+               <bibl xml:id="LilyBells_1827">
+                  <title level="a">The lily bells are wet with dew</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
+               </bibl>
+               
+               <bibl xml:id="GaySummerMorn_1827">
+                  <title level="a">'Tis a gay summer morn, and the sunbeams dance</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
+               </bibl>
+               
+               <bibl xml:id="EveningHour_1827">
+                  <title level="a">Sweet is the balmy evening hour</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Pledge_Friendship">Pledge of Friendship</title> <biblScope unit="pp">(p. 35)</biblScope>, similarly untitled.</bibl></note>
+               </bibl>
+               
+               <bibl xml:id="EveningsRichest_1827">
+                  <title level="a">Evening's richest colours glowing</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">1827 untitled song. Title taken from first line.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenOct1825_1827">
+                  <title level="a">Written October, 1825</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">316</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 22 in the 1827 collection <biblScope unit="pp">(page 316)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="FriendToLisbon_1827">
+                  <title level="a">On the Departure of a Friend to Lisbon for the Recovery of Her Health</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">315</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 21 in the 1827 collection <biblScope unit="pp">(page 315)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="IntendedRemoval_1827">
+                  <title level="a">On an Intended Removal From a Favourite Residence. November, 1820</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">314</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 20 in the 1827 collection <biblScope unit="pp">(page 314)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenAfterVisit_1827">
+                  <title level="a">Written After a Visit From Some Friends</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">313</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 19 in the 1827 collection <biblScope unit="pp">(page 313)</biblScope>.</bibl></note>
+               </bibl>
+               
+               <bibl xml:id="DonningtonCastle_1827">
+                  <title level="a">On Visiting Donnington Castle</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">311-12</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 18 in the 1827 collection <biblScope unit="pp">(pages 311-12)</biblScope>.</bibl></note>
+               </bibl>
+               
+               <bibl xml:id="FriendsAlbum_1827">
+                  <title level="a">Written in a Friend's Album</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">310</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 17 in the 1827 collection <biblScope unit="pp">(page 310)</biblScope></bibl>. Also appeared in <bibl><title ref="#Marshalls_Christmas">Marshall's Christmas Box</title> in <date when="1831">1831</date></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="LeavingPicture_1827">
+                  <title level="a">On Leaving a Favourite Picture</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">309
+                </biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 16 in the 1827 collection <biblScope unit="pp">(page 309</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 233)</biblScope>.</bibl></note></bibl>
+               
+               <bibl xml:id="FriendBirthday_1827">
+                  <title level="a">To a Friend on Her Birthday</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">308</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 15 in the 1827 collection <biblScope unit="pp">(page 308)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="FishingSeat_1827">
+                  <title level="a">The Fishing-Seat, Whiteknights</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">307</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 14 in the 1827 collection <biblScope unit="pp">(page 307)</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 287)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HearingTalfourd_1827">
+                  <title level="a">On Hearing Mr. Talfourd Plead in the Assize-Hall at Reading, On His First Circuit, March 1821</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">306</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 13 in the 1827 collection <biblScope unit="pp">(page 306)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="TwoHoflandLandscapes_1827">
+                  <title level="a">On Two of Mr. Hofland's Landscapes</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">305</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 12 in the 1827 collection <biblScope unit="pp">(page 305)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="NewYearsDay_1827">
+                  <title level="a">New Year's Day. 1819</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">304</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 11 in the 1827 collection <biblScope unit="pp">(page 304)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="EnglefieldHouse_1827">
+                  <title level="a">Englefield House</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">303</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 10 in the 1827 collection <biblScope unit="pp">(page 303)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMrHaydon_Nature_1827">
+                  <title level="a">To Mr. Haydon, On a Study From Nature</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">302</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 9 in the 1827 collection <biblScope unit="pp">(page 302)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMissPorden_1827">
+                  <title level="a">To Miss Porden</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">301</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 8 in the 1827 collection <biblScope unit="pp">(page 301)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BeautifulWoman_1827">
+                  <title level="a">On a Beautiful Woman</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">300</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 7 in the 1827 collection <biblScope unit="pp">(page 300)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="MotherSleeping_1827">
+                  <title level="a">To My Mother Sleeping</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">299</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 6 in the 1827 collection <biblScope unit="pp">(page 299)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenJuly1824_1827">
+                  <title level="a">Written July, 1824</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">298</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 5 in the 1827 collection <biblScope unit="pp">(page 298)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToHenryRichardson_1827">
+                  <title level="a">To Mr. Henry Richardson. On His Performance of Admetus in the Alcestis of Euripides as Represented in the Original Greek at Reading School </title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">296-97</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 4 in the 1827 collection <biblScope unit="pp">(pages 296-97)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ForgetMeNot_1827">
+                  <title level="a">The Forget-Me-Not</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">295</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 3 in the 1827 collection <biblScope unit="pp">(page 295)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HoflandsJerusalem_1827">
+                  <title level="a">On Mr. Hofland's Picture of Jerusalem at the Time of the Crucifixion</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">294</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 2 in the 1827 collection <biblScope unit="pp">(page 294)</biblScope></bibl>.  Also appeared in the <bibl><date when="1826">1826</date> <title ref="#Amulet">Amulet</title> as Sonnet: Jerusalem <biblScope unit="pp">(page 329)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BlankPaperBook_1827">
+                  <title level="a">Written in a Blank-Paper Book Given to the Author by a Friend</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">293</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 1 in the 1827 collection <biblScope unit="pp">(page 293)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="Masque_Seasons_DS_1827">
+                  <title level="a">Masque of the Seasons: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Captive_DS_1827">
+                  <title level="a">The Captive: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Bridal_Eve_DS_1827">
+                  <title level="a">Bridal Eve: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Appeared in <bibl><title ref="#ForgetMeNot">Forget Me Not, a Christmas and New Year's present for <date when="1827">1827</date></title> <biblScope unit="pp">(pp. 363+, 12 pages)</biblScope></bibl>. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).
+                  </note>
+               </bibl>
+               
+               <bibl xml:id="Henry_Talbot_DS_1827">
+                  <title level="a">Henry Talbot: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Alice_DS_1827">
+                  <title level="a">Alice: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Appeared in <bibl><title ref="#ForgetMeNot">Forget Me Not, a Christmas and New Year's present for <date when="1826">1826</date></title> <biblScope unit="pp">(pp. 5+, 12 pages)</biblScope></bibl> as Alice: A Dramatic Scene. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Fair_Rosamund_DS_1827">
+                  <title level="a">Fair Rosamund: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="PaintersDa_DS_1827">
+                  <title level="a">The Painter's Daughter: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Wedding_Ring_DS_1827">
+                  <title level="a">The Wedding Ring: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Appeared in <bibl><title ref="#ForgetMeNot">Forget Me Not, a Christmas and New Year's present for <date when="1828">1828</date></title> <biblScope unit="pp">(p. 79)</biblScope></bibl>. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).
+                  </note>
+               </bibl>
+               
+               <bibl xml:id="Fawn_DS_1827">
+                  <title level="a">The Fawn: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Cunigonda_DS_1827">
+                  <title level="a">Cunigonda's Vow: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Emily_DS_1827">
+                  <title level="a">Emily, A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp" from="83" to="105">83-105</biblScope>
+                  <note resp="#rnes #lmw">Dramatic sketch. Appeared in the <bibl><title ref="#LondonMag">London Magazine</title> 3.17 <date when="1821-05">(May 1821)</date>: <biblScope unit="pp" from="499" to="505">499-505</biblScope></bibl>. Later reprinted in <title ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title> (83-105). Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+               <bibl xml:id="Siege_DS_1827">
+                  <title level="a">The Siege</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827">1827</date>
+                  <biblScope unit="pp" from="462" to="466">462-66</biblScope>
+                  <note resp="#lmw">Dramatic sketch which appeared in <bibl><title level="j">Lady's Magazine</title> of <date when="1822-03-30">September 30, 1822</date>:<biblScope unit="pp" from="462" to="466">462-66</biblScope></bibl> as <title ref="#Claudias_Dr">Claudia's Dream</title>. Retitled as The Siege in <title ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title>. Appeared in the <bibl><date when="1827">1827</date> <title ref="#Friendships_Off">Friendship's Offering</title> <biblScope unit="pp">(pp. 290+, 10 pages)</biblScope></bibl> as The Siege: A Dramatic Scene. Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).
+                  </note>
+               </bibl>
+              
+               <bibl xml:id="DramaticScenes">
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827">1827</date>
+                  <bibl corresp="#Alice_DS_1827"/>
+                  <bibl corresp="#Antigone_MRM_1827"/>
+                  <bibl corresp="#BeautifulWoman_1827"/>
+                  <bibl corresp="#BlankPaperBook_1827"/>
+                  <bibl corresp="#Bridal_Eve_DS_1827"/>
+                  <bibl corresp="#Captive_DS_1827"/>
+                  <bibl corresp="#Cunigonda_DS_1827"/>
+                  <bibl corresp="#DonningtonCastle_1827"/>
+                  <bibl corresp="#Emily_DS_1827"/>
+                  <bibl corresp="#EnglefieldHouse_1827"/>
+                  <bibl corresp="#EveningHour_1827"/>
+                  <bibl corresp="#EveningsRichest_1827"/>
+                  <bibl corresp="#Fair_Rosamund_DS_1827"/>
+                  <bibl corresp="#Fawn_DS_1827"/>
+                  <bibl corresp="#FishingSeat_1827"/>
+                  <bibl corresp="#ForgetMeNot_1827"/>
+                  <bibl corresp="#FriendBirthday_1827"/>
+                  <bibl corresp="#FriendToLisbon_1827"/>
+                  <bibl corresp="#FriendsAlbum_1827"/>
+                  <bibl corresp="#GaySummerMorn_1827"/>
+                  <bibl corresp="#HearingTalfourd_1827"/>
+                  <bibl corresp="#Henry_Talbot_DS_1827"/>
+                  <bibl corresp="#HoflandsJerusalem_1827"/>
+                  <bibl corresp="#HoundandHorn_1827"/>
+                  <bibl corresp="#Independence_1827"/>
+                  <bibl corresp="#IntendedRemoval_1827"/>
+                  <bibl corresp="#LeavingPicture_1827"/>
+                  <bibl corresp="#LilyBells_1827"/>
+                  <bibl corresp="#Masque_Seasons_DS_1827"/>
+                  <bibl corresp="#MotherSleeping_1827"/>
+                  <bibl corresp="#NewYearsDay_1827"/>
+                  <bibl corresp="#PaintersDa_DS_1827"/>
+                  <bibl corresp="#Siege_DS_1827"/>
+                  <bibl corresp="#ToHenryRichardson_1827"/>
+                  <bibl corresp="#ToMissPorden_1827"/>
+                  <bibl corresp="#ToMrHaydon_Nature_1827"/>
+                  <bibl corresp="#TwoHoflandLandscapes_1827"/>
+                  <bibl corresp="#WatlingtonH_1827"/>
+                  <bibl corresp="#Wedding_Ring_DS_1827"/>
+                  <bibl corresp="#WestonGrove_1827"/>
+                  <bibl corresp="#WrittenAfterVisit_1827"/>
+                  <bibl corresp="#WrittenJuly1824_1827"/>
+                  <bibl corresp="#WrittenOct1825_1827"/>
+               </bibl>
+              
+               
+               
                <bibl xml:id="_55Days_play">
                   <title>55 Days</title>
                   <author>Howard Brenton</author>
@@ -21015,12 +22319,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </bibl>
                   </note>
                </bibl>
+               
                <bibl xml:id="Beauty_MRM">
-                  <title level="a">Beauty</title>
-                  <author ref="#MRM"/>
-                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are "not
-                     better, that is too vain a word, but less bad than the rest."</note>
+                  <title level="a">Beauty: An Ode.</title>
+                     <title level="m">Poems: Second Edition with Considerable Additions</title>
+                     <author ref="#MRM"/>
+                     <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                     <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher><date when="1811">1811</date>
+                  <note resp="#lmw">Poem first collected in <title ref="#Poems_2nd_ed_MRM">1811 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter from <persName ref="#MRM">Mitford</persName> to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are <quote>not better, that is too vain a word, but less bad than the rest.</quote>
+                  </note>
                </bibl>
+               
                <bibl xml:id="Beauty_of_Village_CS">
                   <title level="a" ref="#Beauty_of_Village_CS">The Beauty of the Village</title>
                   <title level="m" ref="#Country_Stories">Country Stories</title>
@@ -26370,10 +27679,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#Kotzebue">Kotzebue</author>
                </bibl>
                <bibl xml:id="Sun_Set_MRM">
-                  <title level="a">Sun-Set</title>
+                  <title level="a">Sun-Set.</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
-                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are "not
-                     better, that is too vain a word, but less bad than the rest."</note>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_2nd_ed_MRM">1811 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are <quote>not
+                     better, that is too vain a word, but less bad than the rest.</quote></note>
                </bibl>
                <bibl xml:id="Suppers_and_Balls_BR">
                   <title level="a" ref="#Suppers_and_Balls_BR">Suppers and Balls</title>
@@ -26950,12 +28263,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>J. Johnson</publisher>
                   <date when="1812"/>
                </bibl>
+               
                <bibl xml:id="VoiceofPraise_MRM">
-                  <title level="a">Sun-Set</title>
+                  <title level="a">The Voice of Praise</title>
+                  <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
-                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are "not
-                     better, that is too vain a word, but less bad than the rest." <title level="a">Voice of Praise</title> is reprinted more frequently than other Mitford
-                     poems in nineteenth-century newspapers and other periodicals.</note>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#lmw">Poem by Mary Russell Mitford, first collected in her <title ref="#Poems_1st_ed_MRM">1810 Poems</title>, mentioned in a <date when="1821-02-13">13 February 1821</date> letter to <persName ref="#Haydon">Haydon</persName> as one of three poems from that volume that are <quote>not
+                     better, that is too vain a word, but less bad than the rest.</quote> <title level="a">Voice of Praise</title> is reprinted more frequently than other Mitford
+                     poems in nineteenth-century newspapers and other periodicals. This poem appears in <title level="m">The Life of George Brummell, Esq., Volume 2,</title> where its authorship is misattributed to Lady Granville, the daughter of Georgiana, the Duchess of Devonshire.</note>
                </bibl>
                <bibl xml:id="Wager_FT">
                   <title level="a">Florence. The Wager</title>
@@ -27369,15 +28687,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      England.</note>
                </bibl>
                <bibl xml:id="WatlingtonH">
-                  <title>Watlington Hill; A Poem</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
-                  </publisher>
-                  <date when="1811">1811</date>
+                  <title level="m">Watlington Hill; A Poem</title>
+                  <date>1812</date>
+                  <author ref="#MRM">Mary Russell Mitford</author>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#AJValpy_pub">A. J. Valpy</orgName></publisher>
+                  <note resp="#lmw">First printed version of this long narrative poem.</note>
+                  <note><ref target="https://books.google.com/books?id=fFECAAAAQAAJ"/></note>
                </bibl>
                <bibl xml:id="Waverley">
                   <title>Waverley; or ’Tis Sixty Years Since</title>
@@ -27934,8 +29250,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="ShelleyPB_ReimanEd">
                   <title>Shelley's Poetry and Prose</title>
-                  <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T18:14:18.906-04:00. Extracted by Elisa Beshero-Bondar.
-        Count of all @xml:ids in the current file: 2095. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+                  <edition>Site Index for the Digital Mitford project. Date: 2019-05-28T20:22:12.502-04:00. Extracted by Elisa Beshero-Bondar.
+        Count of all @xml:ids in the current file: 2100. First digital edition in TEI P5, launched on 19 August 2013.</edition>
                   <author>
                      <persName ref="#Shelley_PB">Percy Bysshe Shelle1y</persName>
                   </author>
