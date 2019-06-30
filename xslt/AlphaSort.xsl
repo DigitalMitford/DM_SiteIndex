@@ -83,11 +83,11 @@
             </xsl:apply-templates>
        </listBibl>
     </xsl:template>
-    <xsl:template match="listPerson[@sortKey='Past_Assistants']/person/occupation | listPerson[@sortKey='Mitford_Team']/person/occupation">
-       <occupation type="scholar"> <roleName>
-            <xsl:apply-templates/>
-        </roleName></occupation>
-    </xsl:template>
+  <xsl:template match="occupation[@type='scholar']">
+      <occupation type="scholar">
+          <xsl:copy-of select="descendant::roleName[affiliation or text[matches(., 'A-z')]]"/>
+      </occupation>
+  </xsl:template>
     <xsl:template match="title[hi[@rend='italic']]">
         <title level="m"><xsl:apply-templates/></title>
     </xsl:template>
