@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -170,7 +173,7 @@
                   <occupation type="legal"/>
                   <occupation type="benefactor"/>
                      <occupation type="government" subtype="politician"/>
-                  <note resp="#lmw">One of the wealthiest commoners in <placeName ref="#Berkshire">Berkshire</placeName> and a major landowner and philanthropist. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>; <persName ref="#MRM">Mitford</persName> wrote a sonnet, "Englefield House: The Seat of R. Benyon De Beauvoir, Esq., Near Reading," printed in her 1827 poems. He served as a Justice of the Peace, Deputy Lieutenant for Berkshire, and as High Sheriff of Berkshire.
+                  <note resp="#lmw">One of the wealthiest commoners in <placeName ref="#Berkshire">Berkshire</placeName> and a major landowner and philanthropist. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>; <persName ref="#MRM">Mitford</persName> wrote a sonnet, <title level="a">Englefield House: The Seat of R. Benyon De Beauvoir, Esq., Near Reading,</title> printed in her 1827 poems. He served as a Justice of the Peace, Deputy Lieutenant for Berkshire, and as High Sheriff of Berkshire.
                   </note>
                   <note><ref target="http://viaf.org/viaf/292786855"/></note>
                   <note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/benyon-richard-ii-1770-1854"/></note>
@@ -759,7 +762,7 @@
                    <occupation type="literary" subtype="autobiographer"/>
                  <occupation type="literary" subtype="editor"/>
                  <occupation type="literary" subtype="poet"/>
-                 <note resp="#lmw">American travel writer, essayist, and editor. Surname also spelled "Tuckermann." A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>.</note>
+                 <note resp="#lmw">American travel writer, essayist, and editor. Surname also spelled Tuckermann. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>.</note>
                   <note><ref target="http://viaf.org/viaf/42895727"/></note>
                </person>
                
@@ -1110,7 +1113,7 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="autobiographer"/>
-                  <note resp="#lmw">Daughter of <persName ref="#Wordsworth_Wm">Wordsworth</persName>, named for her aunt <persName ref="#Wordsworth_Dor">Dorothy Wordsworth</persName> and called "Dora."</note>
+                  <note resp="#lmw">Daughter of <persName ref="#Wordsworth_Wm">Wordsworth</persName>, named for her aunt <persName ref="#Wordsworth_Dor">Dorothy Wordsworth</persName> and called Dora.</note>
                   <note><ref target="http://viaf.org/viaf/63932725"/></note>
                </person>
             </listPerson>
