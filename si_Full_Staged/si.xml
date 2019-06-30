@@ -29,7 +29,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Site Index for the Digital Mitford project. Date: 2019-06-30T00:09:39.268-04:00. Extracted by Elisa Beshero-Bondar.
+            <edition>Site Index for the Digital Mitford project. Date: 2019-06-30T00:14:37.232-04:00. 
         Count of all @xml:ids in the current file: 2192. First digital edition in TEI P5, launched on 19 August 2013.</edition>
          </editionStmt>
          <publicationStmt>
@@ -56,6 +56,7 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
+            <change when="2019-06-30" who="#ebb">Repaired the AlphaSort XSLT template to undo and prevent deeply nested roleNames on the DM editor list.</change>
             <change when="2019-06-27" who="#lmw">Added new and revised entries for all Mitford poems.</change>
             <change when="2019-05-28" who="#ebb">Restored missing Jane Austen entry, added entries to be sure all refs were pointing to existing xml:ids in this file.</change>
             <change when="2019-05-28" who="#ebb">Updated to migrate several students to past assistants, and to add Don Ulin to consultants. Noted issue with lmw's previous XSLT transformation expanding default attributes. This new SI output removes the default attributes.</change>
@@ -29207,7 +29208,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="ShelleyPB_ReimanEd">
                   <title>Shelley's Poetry and Prose</title>
-                  <edition>Site Index for the Digital Mitford project. Date: 2019-06-30T00:09:39.268-04:00. Extracted by Elisa Beshero-Bondar.
+                  <edition>Site Index for the Digital Mitford project. Date: 2019-06-30T00:14:37.232-04:00. 
         Count of all @xml:ids in the current file: 2192. First digital edition in TEI P5, launched on 19 August 2013.</edition>
                   <author>
                      <persName ref="#Shelley_PB">Percy Bysshe Shelle1y</persName>
