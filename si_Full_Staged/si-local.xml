@@ -12547,10 +12547,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <birth when="1726-06-14">June 14, 1726</birth>
                   <death when="1798-12-16">December 16, 1798
                      <placeName>Whitford, Flintshire, Wales</placeName></death>
-                  <occupation type = "scholar" subtype = "naturalist antiquarian"/>
+                  <occupation type = "scholar" subtype = "naturalist"/>
+                  <occupation type = "scholar" subtype = "antiquarian"/>
                   <occupation type = "literary" subtype = "essayist"/>
                   <occupation type = "explorer" subtype = "traveller"/>
-                  <note type="bio" resp="#scw">Correspondent of <persName ref="#WhiteGilbert">Gilbert White</persName> in his <title level="m">Natural History and Antiquities of Selborne</title>, Pennant was a naturalist and author whose many works included <title level="m">Arctic Zoology</title>, <title level="m">A Tour in Scotland 1769</title> and <title>A Synopsis of Quadrupeds</title>. His travels writings influenced <persName ref="#Johnson">Samuel Johnson</persName>, and he corresponded extensively with <persName>Joseph Banks</persName>. Source: ODNB.</note>
+                  <note type="bio" resp="#scw">Correspondent of <persName ref="#WhiteGilbert">Gilbert White</persName> in his <title level="m">Natural History and Antiquities of Selborne</title>, Pennant was a naturalist and author whose many works included <title level="m">Arctic Zoology</title>, <title level="m">A Tour in Scotland 1769</title> and <title level="m">A Synopsis of Quadrupeds</title>. His travels writings influenced <persName ref="#Johnson">Samuel Johnson</persName>, and he corresponded extensively with <persName>Joseph Banks</persName>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/7426596"/></note>
                </person>
                
@@ -15843,7 +15844,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Stadtholder</roleName> Willem III van Oranje</persName>
                   <persName>William of Orange</persName>
                   <persName><addName>King Billy</addName></persName>
-                  <occupation type="government" subtype="monarch"</occupation>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb">(1650-1702) Ousted <persName ref="#JamesII">King James
                         II</persName> from power during the <rs type="event" ref="#Glorious_Revol">Glorious Revolution of 1688</rs>, and reigned together with <persName ref="#MaryII">Queen Mary II</persName>, his wife and the daughter of James
                      II. Protestant monarch.</note>
@@ -15851,7 +15852,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                
                <person xml:id="WilliamIV" sex="m">
                   <persName>William IV <roleName>King of the United Kingdom of Great Britain and
-                        Ireland, and King of Hanover</roleName>
+                        Ireland, and King of Hanover</roleName></persName>
                      <persName>
                         <forename>William</forename>
                         <surname>Hanover</surname>
@@ -15862,15 +15863,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1837-06-20">
                      <placeName>Windsor Castle, Berkshire</placeName>
                   </death>
-                  <occupation>monarch</occupation>
+                  <occupation type="government" subtype="monarch"/>
                   <note type="bio" resp="#rnes">Successor of his brother <persName ref="#GeoIV">George IV</persName>, William enjoyed comparative popularity, reigned
                      during the Age of Reform, and was succeeded by his niece
                         <persName>Victoria</persName>. Earlier, he was <roleName>Duke of Clarence
                         and St Andrews</roleName>, and <roleName>Earl of Munster</roleName>. His
-                     longtime mistress, the Irish actress <persName>Dorothy Jordan</persName> (also
-                     known as <persName>Dorothy Jerdan</persName> was the most famous Hanoverian
+                     longtime mistress, the Irish actor <persName>Dorothy Jordan</persName>, was the most famous Hanoverian
                      comedian. Source: ODNB</note>
                </person>
+               
                <person xml:id="Willis_David" sex="m">
                   <persName>
                      <surname>Willis</surname>
@@ -17415,7 +17416,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="OVNarratorsMother">
                   <note resp="#ebb">The mother of the narrator of <title ref="#OV" level="m">Our Village</title>.</note>
-               </person>'
+               </person>
                
                <person xml:id="Paolo_J" sex="m">
                   <persName>Paolo</persName>
