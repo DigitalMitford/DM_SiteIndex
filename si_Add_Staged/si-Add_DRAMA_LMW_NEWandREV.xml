@@ -58,23 +58,11 @@
 
    <text>
       <body>  
-         <!--LMW: Sam, here is a file of existing fictional character SI entries that I believe are all OV stubs (let me know if any turn out NOT to be OV, because we will have to figure out what they belong to.) I've been using a simple formula of "character of x from [title of work}" If there is no proper name given for the character I put in "no surname given" or something similar, just to show that we did not FORGET to put in a name that we knew. Minimally the note needs to point to the source literary work of course so some entries just read "Caliban is a character in <title ref="#Tempest">The Tempest"</title>.) If we know a forename/surname we can put that in. Even though these are all in the fictional character section of the SI, I think it's also a good idea to put the term "character" in the entry. ie, don't write simply postman from OV, put "Character of the postman in OV". -->
-         
-         <!--Lisa and Elisa: This file contains fictional characters from the first five sketches, as well as a few others, plus some annotation material. Some OV characters listed here that are already in the SI, and some that are new. Some of the existing xml:id's have been changed to begin with the character surnames, as per Elisa and my conversation from July. Also, I've added "OV" to all OV characters. This will affect tagging in currently completed files, and maybe some that are uploaded. I've noted the ones that will need to be replaced in the current SI.-->
-         
-         
-         
-       
+
          <div type="historical_people">
             <listPerson sortKey="histPersons">
 
-               
-               
-             
-              
-    
-               
-                     
+                
                      <person xml:id="Horrebow_Mr" sex="m">
                         <persName>Mr. Horrebow</persName>
                         <persName>
