@@ -4569,7 +4569,7 @@
                   <persName>Mr. Booth</persName>
                   <persName>
                      <surname>Booth</surname>
-                     <roleename>Mr.</roleename>
+                     <roleName>Mr.</roleName>
                   </persName>
                   <note resp="#jmh">An actor whom <persName ref="#MRM">Mitford</persName> critiqued
                      for his performance as <persName ref="#Cassius">Cassius</persName>.</note>
@@ -7624,7 +7624,7 @@
                   <death when="1768-04-09">
                      <placeName type="uncertain">Bath, Somerset, England</placeName>
                   </death>
-                  <note resp="#scw">Author of novels for adults and children, including <title level="m">The Adventures of David Simple</title>, and <title level="m">The Governess; or Little Female Academy</titlelevel>. She was the sister of <persName ref="#Fielding_Henry">Henry Fielding</persName>, a correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, and a collaborator of the sister of <persName ref="#Collier_Margaret">Margaret Collier</persName>, Jane, with whom she wrote <title level="m">The Cry</title>. Source: ODNB.</note>
+                  <note resp="#scw">Author of novels for adults and children, including <title level="m">The Adventures of David Simple</title>, and <title level="m">The Governess; or Little Female Academy</title>. She was the sister of <persName ref="#Fielding_Henry">Henry Fielding</persName>, a correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, and a collaborator of the sister of <persName ref="#Collier_Margaret">Margaret Collier</persName>, Jane, with whom she wrote <title level="m">The Cry</title>. Source: ODNB.</note>
                   <note><ref target="http://viaf.org/viaf/12317897"/></note>
                </person>
                
@@ -7752,7 +7752,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note><ref target="http://viaf.org/viaf/12323361"/>
                   </note>
                </person>
-              person xml:id="Flush_pet">
+              <person xml:id="Flush_pet">
                <persName>Flush</persName>
                <note resp="#lmw"><orgName ref="#Mitfords">The Mitfords</orgName>appear to owned a series of spaniels, all named Flush.</note>
                </person>
@@ -8087,6 +8087,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Spouse and former model of <persName ref="#Fuseli_H">Henry Fuseli</persName>; they married in 1788. <!-- LMW: no VIAF #. Check ancestry.--></note>
                </person>
                <person xml:id="Garrick_David" sex="m">
+                  <persName>David Garrick</persName>
                   <persName>
                      <surname>Garrick</surname>
                      <forename>David</forename>
@@ -8097,18 +8098,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1779-01-20">
                      <placeName>Adelphi Buildings, London, England</placeName>
                   </death>
-                  <occupation>actor</occupation>
-                  <occupation>theater manager</occupation>
-                  <occupation>literary</occupation>
-                  <occupation>playwright</occupation>
-                  <note resp="#lmw">English actor and theatrical manager, considered the greatest
-                     actor of his era, and advocate of a more naturalistic style of acting.
-                     Prominent in <orgName>Whig</orgName> circles of the late eighteenth century.
-                     Frequently painted by <persName ref="#Reynolds_Josh">Joshua Reynolds</persName>. <persName>Mary
-                        Robinson</persName> was one of his last acting mentees before his retirement
-                     from the stage. His greatest contributions as a playwright are his adaptations
-                     of Shakespeare for the eighteenth-century stage. He was the first actor to be
-                     buried in Westminster Abbey. <ref target="http://viaf.org/viaf/24563"/>
+                  <occupation type="theater"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <occupation type="theater" subtype="manager"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#lmw">English actor and theatrical manager, considered the greatest actor of his era, and advocate of a more naturalistic style of acting. Prominent in <orgName>Whig</orgName> circles of the late eighteenth century. Frequently painted by <persName>Joshua Reynolds</persName>. <persName>Mary Robinson</persName> was one of his last acting mentees before his retirement from the stage. His greatest contributions as a playwright are his adaptations of Shakespeare for the eighteenth-century stage. He was the first actor to be buried in Westminster Abbey.</note>
+                  <note><ref target="http://viaf.org/viaf/24563"/>
                   </note>
                </person>
                <person xml:id="Gaskell_Eliz" sex="f">
@@ -8133,45 +8129,55 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="GastonII" sex="m">
-                  <persName>Gaston II <roleName>count of Foix</roleName>
-                     <roleName/>
+                  <persName>Gaston II and IX</persName>
+                  <persName>
+                     <roleName>Gaston of Foix-Béarn</roleName>
+                     <roleName>Count of Foix</roleName>
+                     <roleName>Viscount of Béarn, Marsan, Gabardan, Nébouzan and Lautrec </roleName>
                   </persName>
-                  <death when="1343"/>
-                  <note type="bio" resp="#lmw"><!-- Coles posits Gaston II and Gaston III in Froissart Coles #12, p. 184, note 3.  LMW --></note>
+                  <birth when="1308"/>
+                  <death when="1343-09"/>
+                  <note resp="#lmw"><!-- Coles posits Gaston II and Gaston III in Froissart Coles #12, p. 184, note 3.  LMW --><!--LMW: no VIAF #--> </note>
                </person>
+               
                <person xml:id="GastonIII" sex="m">
-                  <persName>Gaston III <roleName>count of Foix</roleName>
+                  <persName>Gaston III and X
                   </persName>
-                  <persName>Fébus</persName>
+                  <persName>
+                     <addName>Gaston Fébus</addName>
+                     <addName>Gaston Phoebus</addName>
+                     <roleName>Count of Foix</roleName>
+                     <roleName>Viscount of Béarn</roleName>
+                  </persName>
                   <birth when="1331"/>
                   <death when="1391"/>
-                  <note type="bio" resp="#ebb #lmw">Son of <persName ref="#GastonII">Gaston
-                        II</persName>, he wrote a famous <bibl>
-                        <title>Book of the Hunt</title>, or <title>Livre de chasse</title>
-                     </bibl>.The medieval chronicler <persName ref="#Froissart">Froissart</persName>
-                     visited Gaston III’s court in
-                     1388.<!-- Coles posits Gaston II and Gaston III in Froissart Coles #12, p. 184, note 3.  LMW --></note>
+                  <note resp="#ebb #lmw">Son of <persName ref="#GastonII">Gaston II</persName>, nicknamed Gaston Fébus or Phoebus, he wrote a famous <bibl>
+                     <title level="m">Book of the Hunt</title>, or <title level="m">Livre de chasse</title>
+                  </bibl>. The medieval chronicler <persName ref="#Froissart">Froissart</persName> visited Gaston III's court in 1388.<!-- Coles posits Gaston II and Gaston III in Froissart Coles #12, p. 184, note 3.  LMW --></note>
+                  <note><ref target="http://viaf.org/viaf/100225641"/></note>
                </person>
                <person xml:id="Geo_SpencerChurchill" sex="m">
+                  <persName>George Spencer-Churchill, Duke of Marlborough</persName>
                   <persName>
                      <forename>George</forename>
                      <surname>Spencer-Churchill</surname>
                   </persName>
-                  <persName>6th Duke of Marlborough</persName>
                   <persName>
+                     <roleName>6th Duke of Marlborough</roleName>
+                     <roleName>Marquess of Blandford</roleName>
                      <roleName>Member of Parliament</roleName>
-                  </persName>
-                  <persName>
                      <roleName>Lord Lieutenant of Oxfordshire</roleName>
                   </persName>
-                  <occupation>patron of the arts</occupation>
-                  <occupation>politician</occupation>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <occupation type="government" subtype="politician"/>
                   <birth when="1793-12-27">
                      <placeName>Bill Hill, Wokingham, Berkshire, England</placeName>
                   </birth>
                   <death when="1857-01-07">
                      <placeName>Blenheim Palace, Woodstock, Oxfordshire, England</placeName>
                   </death>
+                  <note resp="#lmw">Tory Member of Parliament and celebrated collector of books, art, and antiquities. Born at Bill Hill, an estate in <placeName ref="#Wokingham_city">Wokingham,</placeName> Berkshire rented by his father. He owned and extensively renovated the house and grounds of the <placeName ref="#Whiteknights">Whiteknights</placeName> estate <date from="1798" to="1819">from 1798 to 1819</date>, when bankuptcy forced the auctioning of the estate and all its contents. The auction created much excitement amongst book collectors, since his library contained works of early works printed in English by Caxton, Pynson, and deWorde; the catalogs of the auction remain an important record of book history and collecting. In 1819, he had commissioned <rs type="person" ref="#Hofland_TC #Hofland_B">Thomas and Barbara Hofland</rs> to produce the lavish publication <title ref="#Whiteknights_Desc_TCH">A Descriptive Account of the Mansion and Gardens of White-Knights: A Seat of His Grace the Duke of Marlborough. By Mrs. Hofland. Illustrated with twenty-three engravings, from pictures taken on the spot by T.C. Hofland</title>. They were never paid for their work because of the bankruptcy. <persName ref="#MRM">Mitford</persName> discusses the Duke's penuriousness and his treatment of <rs type="person" ref="#Hofland_TC #Hofland_B">the Hoflands</rs> in her letters of <date when="1819">1819</date>.</note>
+                  
                   <note>
                      <ref target="http://viaf.org/viaf/93700565"/>
                   </note>
@@ -8210,22 +8216,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>George</forename>
                      <forename>William</forename>
                      <forename>Frederick</forename>
-                     <roleName>King of Great Britain and King of Ireland <date from="1760-10-25" to="1801-01-01"/>
+                     <roleName>King of Great Britain and King of
+                        Ireland <date from="1760-10-25" to="1801-01-01"/>
                      </roleName>
                      <roleName>King of the United Kingdom of Great Britain and Ireland <date from="1801-01-01" to="1820-01-29"/>
                      </roleName>
                   </persName>
                   <birth when="1738-06-04">
-                     <placeName>Norfolk House, St. James’s Square, London, England</placeName>
+                     <placeName>Norfolk House, St. James's Square, London, England</placeName>
                   </birth>
                   <death when="1820-01-29">
                      <placeName>Windsor Castle, Windsor, England</placeName>
                   </death>
                   <note resp="#ebb">The king who <rs type="event" ref="#American_Revol">lost the
-                        American colonies</rs>, and suffered porphyria adn mental illness in the
+                     American colonies</rs>, and suffered porphyria and mental illness in the
                      1810s, when his son, the future King George IV reigned in his stead as the
-                     Prince Regent. King George III’s role changed after <rs type="event" ref="#Act_of_Union">the Act of Union</rs> between <placeName ref="#England">England</placeName> and <placeName ref="#Ireland">Ireland</placeName> in
-                        <date when="1801">1801</date>. </note>
+                     Prince Regent. King George III's role changed after <rs type="event" ref="#Act_of_Union">the Act of Union</rs> between <placeName ref="#England">England</placeName> and <placeName ref="#Ireland">Ireland</placeName> in
+                     <date when="1801">1801</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/49264990"/>
                   </note>
@@ -8233,7 +8240,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="GeoIV" sex="m">
                   <persName>George IV</persName>
                   <persName>
-                     <roleName>King of the United Kingdom of Great Britain and Ireland</roleName>
+                     <roleName>King of the United Kingdom of Great Britain and
+                        Ireland</roleName>
                   </persName>
                   <persName>
                      <forename>George</forename>
@@ -8244,14 +8252,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Prince Regent</roleName>
                   </persName>
                   <birth when="1762-08-12">
-                     <placeName>St James’s Palace, London, England</placeName>
+                     <placeName>St James's Palace, London, England</placeName>
                   </birth>
                   <death when="1830-06-26">
                      <placeName>Windsor Castle, London, England</placeName>
                   </death>
-                  <occupation>monarch</occupation>
-                  <note resp="#ebb">The Regency period was named for George when he ruled in his
-                     father’s stead <date from="1811" to="1820">from 1811 to 1820</date>.</note>
+                  <occupation type="government" subtype="monarch"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#ebb #lmw">King of the United Kingdom of Great Britain and Ireland, and King of Hanover. House of Hanover. Reigned as Prince Regent during the long final illness of <persName ref="#GeoIII">his father</persName> <date from="1811" to="1820">from 1811 to 1820</date>. Formerly Prince of Wales and a supporter of the Foxite Whigs. He commissioned the Royal Pavilion in Brighton and supervised the large-scale remodeling of Buckingham Palace and Windsor Castle.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/265481029"/>
                   </note>
@@ -8261,9 +8269,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname/>
                      <forename>George</forename>
                   </persName>
-                  <note resp="#alg">Possibly a servant in the Mitford household. More research
-                     needed.
-                     <!--alg: "George" is referenced in 1819-04-19-MWebb letter as being sent by Mr. Mitford to give his excuses for missing an appointment. I presume this is a servant. LMW:  Unlikely, but could this be the George Matthews, schoolmaster, noted by Needham?--></note>
+                  <note resp="#alg">Possibly a servant in the Mitford household. More research needed. <!--alg: "George" is referenced in 1819-04-19-MWebb letter as being sent by Mr. Mitford to give his excuses for missing an appointment. I presume this is a servant. LMW:  Unlikely, but could this be the George Matthews, schoolmaster, noted by Needham?--></note>
                </person>
                <person xml:id="Gibbon_Edward" sex="m">
                   <persName>Edward Gibbon</persName>
@@ -8280,14 +8286,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1794-01-16">
                      <placeName>Fletching, Sussex, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>historian</occupation>
-                  <occupation>politician</occupation>
-                  <note type="bio" resp="#lmw">
-                     <p>Best known for writing <bibl corresp="#Decline_Fall">
-                           <title>The History of the Decline and Fall of the Roman Empire</title>
-                           which was originally published in three volumes (<date>1776</date>,
-                              <date>1781</date>, and <date>1788</date>)</bibl>.</p>
+                  <occupation type="literary"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <occupation type="government" subtype="politician"/>
+                  <note resp="#lmw">
+                     <p>Best known for writing <bibl> <title ref="#Decline_Fall">
+                        The History of the Decline and Fall of the Roman Empire</title>,
+                        which was originally published in three volumes</bibl>.</p>
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/24601933"/>
@@ -8299,13 +8304,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Gifford</surname>
                      <forename>William</forename>
                   </persName>
-                  <occupation>literary</occupation>
-                  <occupation>editor</occupation>
-                  <occupation>politics</occupation>
-                  <note type="bio" resp="#lmw">
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="government" subtype="politician"/>
+                  <note resp="#lmw">
                      <orgName ref="#Tory">Tory</orgName> editor of the <title ref="#Anti-Jacobin">Anti-Jacobin</title>
                      <date notAfter="1800">in the late 1790s</date> as well as the <title ref="#QuarterlyRev_per">Quarterly Review</title>
-                     <date from="1809" to="1824">from 1809 to 1824</date>. </note>
+                     <date from="1809" to="1824">from 1809 to 1824</date>. Author of satirical poems <title level="m">The Baviad</title> and <title level="m">the Maeviad</title>.
+                  </note>
                   <note>
                      <ref target="http://viaf.org/viaf/12297538"/>
                   </note>
@@ -8316,10 +8322,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Robert Pearse</forename>
                   </persName>
                   <birth when="1788">
-                     <placeName>Arbroath</placeName>
+                     <placeName>Arbroath, Scotland</placeName>
                   </birth>
                   <death when="1858-11-28">
-                     <placeName>Kensington</placeName>
+                     <placeName>Kensington, England</placeName>
                   </death>
                   <note resp="#sbb">A contributor to <title level="j">Blackwood's Magazine</title>.</note>
                </person>
@@ -8335,51 +8341,53 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1836-04-07">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>philosopher</occupation>
-                  <occupation>journalist</occupation>
-                  <occupation>novelist</occupation>
-                  <note resp="#ebb">Political philosopher and novelist, married to <persName>Mary
-                        Wollstonecraft</persName> and biographer of her after her death in
-                     childbirth to their daughter <persName ref="#Shelley_MW">Mary Wollstonecraft
-                        Godwin</persName> (who would later elope with <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName> and author <title>Frankenstein</title>).
-                     William Godwin’s 32-volume diary is digitally archived here: <ptr target="http://godwindiary.bodleian.ox.ac.uk/index2.html"/>. See also <ref target="http://shelleygodwinarchive.org/">the Shelley-Godwin
-                     Archive</ref>.</note>
+                  <occupation type="literary"/>
+                  <occupation type="scholar" subtype="philosopher"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#ebb">Political philosopher and novelist, married to <persName>Mary Wollstonecraft</persName> and biographer of her after her death in childbirth to their daughter <persName ref="#Shelley_MW">Mary Wollstonecraft Godwin</persName> (who would later elope with <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName> and author <title level="m">Frankenstein</title>). William Godwin's 32-volume diary is digitally archived here: <ptr target="http://godwindiary.bodleian.ox.ac.uk/index2.html"/>. See also <ref target="http://shelleygodwinarchive.org/">the Shelley-Godwin Archive</ref>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/68929729"/>
                   </note>
                </person>
                <person xml:id="Goldsmith" sex="m">
+                  <persName>Oliver Goldsmith</persName>
                   <persName>
                      <forename>Oliver</forename>
                      <surname>Goldsmith</surname>
                   </persName>
                   <birth when="1728-11-10">
-                     <placeName>Ireland(exact location contested)</placeName>
+                     <placeName>Ireland</placeName>
                   </birth>
                   <death when="1774-04-04">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>physician</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="theater"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#lmw">Poet, novelist, and playwright. Friend of <persName ref="#Johnson">Samuel Johnson</persName>. His works were admired and reprinted after his death, and he was the subject of several biographies in the nineteenth century.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/100167171"/>
                   </note>
                </person>
                <person xml:id="Goodchild_J" sex="m">
+                  <persName>Joseph Goodchild</persName>
                   <persName>
                      <surname>Goodchild</surname>
-                     <forename cert="low">Joseph</forename>
+                     <forename cert="medium" resp="#scw">Joseph<!--LMW to SCW:  How do we know his first name? Add to note. -->
+                        <!--2019-05-18 ebb: We should ping Sam about this, but I think it's okay to add "as is" to the Site Index and await an update later. -->
+                     </forename>
                   </persName>
-                  <occupation>farmer at <placeName>Hill house farm</placeName>, <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>
-                  </occupation>
-                  <note resp="#scw">Farmer of <placeName>Hill house</placeName> farm, which is
-                     mentioned in <title ref="#OV">Our Village</title>. <persName ref="#Goodchild_J">Goodchild</persName> is noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople derived from the <bibl corresp="#PO_BerkshireDir">
-                        <title>Post Office Directory of Berkshire</title>, <date when="1847">1847</date> edition</bibl>. <persName ref="#Goodchild_J">Goodchild</persName> does not appear in the 1854 edition. Source: <bibl corresp="#Needham_PapersRCL">
+                  <occupation type="trade" subtype="farmer"/>
+                  <note resp="#scw">Farmer of <placeName>Hill House</placeName> farm, which is mentioned in <title ref="#OV">Our Village</title>. <persName ref="#Goodchild_J">Goodchild</persName> is noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople derived from the <bibl corresp="#PO_BerkshireDir">
+                     <title level="m">Post Office Directory of Berkshire</title>, <date when="1847">1847</date> edition</bibl>. <persName ref="#Goodchild_J">Goodchild</persName> does not appear in the 1854 edition. Source: <bibl corresp="#Needham_PapersRCL">
                         <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>
                      </bibl>.</note>
                </person>
                <person xml:id="Graham_Maria" sex="f">
+                  <persName>Maria Dundas Graham, Lady Callcott</persName>
                   <persName>
                      <roleName>
                         <date from="1837" to="1842-11-21">Maria, Lady Callcott</date>
@@ -8394,44 +8402,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Maria</forename>
                   </persName>
                   <birth when="1785-07-19">
-                     <placeName>Cockermouth, Cumberland</placeName>
+                     <placeName>Cockermouth, Cumberland, England</placeName>
                   </birth>
                   <death when="1842-11-21">
-                     <placeName>Kensington Gravel Pits, London</placeName>
+                     <placeName>Kensington Gravel Pits, London, England</placeName>
                   </death>
                   <note resp="#ebb">
-                     <persName ref="#MRM">Mitford</persName> writes of this adventurous woman as
-                        <persName>Mrs. Graham</persName> and references her travel publications,
-                        <bibl corresp="#India_JournalResidence_Graham">
-                        <title>Journal of a Residence in India</title> of <date when="1812">1812</date>
-                     </bibl> and <bibl corresp="#Rome_ThreeMonths_Graham">her journal, <title>Three
-                           months passed in the mountains east of Rome : during the year
-                           1819</title>
-                     </bibl>. She was known for her multiple publications on her travels in India,
-                     Chile, and Brazil, and as <bibl>
-                        <author>Maria Graham</author>, she published the first English biography of
-                        the artist <persName>Nicholas Poussin</persName>: <title>Memoirs of the Life
-                           of Nicholas Poussin</title> (<date when="1820">1820</date>).</bibl>. A
-                     polymathic enthusiast, she traveled widely in her life, and <rs type="event">met her first husband, <persName>Lieutenant Thomas Graham</persName>, on
-                        board the HMS Cornelia bound to <placeName>Bombay</placeName> on a trip with
-                        her father and siblings in <date when="1809">1809</date>
-                     </rs>. During an extended trip to South America, <rs type="event">
-                        <persName>Thomas Graham</persName> died on a voyage from Brazil to
-                           <placeName>Valparaíso, Chile</placeName> on <date when="1822-04-09">9
-                           April 1822</date>
-                     </rs>, after which Maria resided in <placeName>Chile</placeName> and Brazil,
-                     where she served as governess to the Brazilian emperor’s daughter,
-                        <persName>Donna Maria</persName>. Her description of an earthquake in
-                        <placeName>Quintero, Brazil</placeName> influenced <bibl>
-                        <author>Charles Lyell</author>’s explanations in <title>Principles of
-                           Geology</title> (<date when="1830">1830</date>) of land mass formation by
-                        what we would now call tectonic activity</bibl>. After her return to
-                        <placeName ref="#England">England</placeName> in 1826, she met and married
-                     the landscape artist <persName>Augustus Wall Callcott</persName> (1779-1844),
-                     who was knighted in <date when="1837">1837</date>, making her <persName>Lady
-                        Callcott</persName> for the last years of her life. Source: ODNB. <ref target="http://viaf.org/viaf/41970133/"/>.</note>
+                     <persName ref="#MRM">Mitford</persName> writes of this adventurous woman as <q>Mrs. Graham</q> and references her travel publications, <bibl> <title ref="#India_JournalResidence_Graham">Journal of a Residence in India</title> of <date when="1812">1812</date>
+                     </bibl> and <bibl>her journal, <title ref="#Rome_ThreeMonths_Graham">Three Months Passed in the Mountains East of Rome: during the year 1819</title>
+                     </bibl>. She was known for her multiple publications on her travels in India, Chile, and Brazil, and as <bibl>Maria Graham, she published the first English biography of the artist <persName>Nicholas Poussin</persName>: <title level="m">Memoirs of the Life of Nicholas Poussin</title> (<date when="1820">1820</date>).</bibl>. A polymathic enthusiast, she traveled widely in her life, and <rs type="event">met her first husband, <persName>Lieutenant Thomas Graham</persName>, on board the HMS Cornelia bound to <placeName>Bombay</placeName> on a trip with her father and siblings in <date when="1809">1809</date></rs>. During an extended trip to South America, <rs type="event">
+                        <persName>Thomas Graham</persName> died on a voyage from Brazil to <placeName>Valparaíso, Chile</placeName> on <date when="1822-04-09">9 April 1822</date>
+                     </rs>, after which Maria resided in <placeName>Chile</placeName> and Brazil, where she served as governess to the Brazilian emperor's daughter, <persName>Donna Maria</persName>. Her description of an earthquake in <placeName>Quintero, Brazil</placeName> influenced <bibl>
+                        <persName>Charles Lyell</persName>'s explanations in <title level="m">Principles of Geology</title> (<date when="1830">1830</date>) of land mass formation by what we would now call tectonic activity</bibl>. After her return to <placeName ref="#England">England</placeName> in 1826, she met and married the landscape artist <persName>Augustus Wall Callcott</persName> (1779-1844), who was knighted in <date when="1837">1837</date>, making her <persName>Lady Callcott</persName> for the last years of her life. Source: ODNB.</note>
+                  <note><ref target="http://viaf.org/viaf/41970133/"/></note>
                </person>
                <person xml:id="Gray_Thos" sex="m">
+                  <persName>Thomas Gray</persName>
                   <persName>
                      <forename>Thomas</forename>
                      <surname>Gray</surname>
@@ -8440,38 +8426,39 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Cornhill, London, England</placeName>
                   </birth>
                   <death when="1771-07-30">
-                     <placeName>Cambridge, England</placeName>
+                     <placeName>Cambridge, Cambridgeshire, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="educator"/>
+                  <note resp="#lmw">Poet and classicist. Author of <title level="a">Elegy Written in a Country Churchyard</title> and <title level="a">Ode on a Distant Prospect of Eton College,</title> he was later known as part of the so-called Graveyard School of late-eighteenth-century poets, much admired and imitated into the nineteenth century. Friend of <persName ref="#Walpole_Hor">Horace Walpole</persName>. Fellow of Peterhouse and Pemrbroke, College, Cambridge University; later appointed Regius Chair of Modern History at Cambridge.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/9889965"/>
                   </note>
                </person>
                <person xml:id="Griffin_Rich" sex="m">
+                  <persName>Richard Griffin, Baron Braybrooke</persName>
                   <persName>
                      <forename>Richard</forename>
                      <surname>Griffin</surname>
                   </persName>
+                  <persName><addName>Richard Aldworth-Neville</addName></persName>
+                  <persName><addName>Richard Aldworth Griffin-Neville</addName></persName>
                   <persName>
                      <roleName>2nd Baron Braybrooke</roleName>
-                  </persName>
-                  <persName>
                      <roleName>Lord Braybrooke</roleName>
                   </persName>
-                  <occupation>politician</occupation>
-                  <occupation>literary</occupation>
-                  <note resp="#lmw">Until 1797, known as <persName>Richard
-                        Aldworth-Neville</persName> or <persName>Richard Aldworth
-                        Griffin-Neville.</persName>Came into possession of estates <placeName ref="#BillingbearPk">Billingbear Park</placeName> in <placeName ref="#Berkshire">Berkshire</placeName> and <placeName ref="#Audley_End">Audley End</placeName> in <placeName ref="#Essex_county">Essex</placeName>.</note>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="literary"/>
+                  <note resp="#lmw">Until 1797, known as Richard Aldworth-Neville or Richard Aldworth Griffin-Neville. As 2nd Baron Braybrooke, he came into possession of the estates <placeName ref="#BillingbearPk">Billingbear Park</placeName> in <placeName ref="#Berkshire">Berkshire</placeName> and <placeName ref="#Audley_End">Audley End</placeName> in <placeName ref="#Essex_county">Essex</placeName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/39732003"/>
                   </note>
                </person>
                <person xml:id="Groby" sex="m">
-                  <persName>Lord Grey of Groby</persName>
+                  <persName>Thomas Grey, Lord Grey of Groby</persName>
                   <persName>
                      <surname>Grey</surname>
-                     <surname>Stamford</surname>
                      <forename>Thomas</forename>
                   </persName>
                   <persName>
@@ -8480,12 +8467,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <birth notAfter="1623">1623</birth>
                   <death when="1657">1657</death>
-                  <occupation>military</occupation>
-                  <occupation>politician</occupation>
-                  <note resp="#rnes #lmw">Parliamentary Commander-in-Chief in the English
-                        <placeName>Midlands</placeName> and <placeName type="city">Leicester</placeName> during first English Civil War. In 1648, he was a
-                     commisioner of the court that tried <persName ref="#ChasI">Charles I
-                     </persName>and was one of the signers of the king’s the death warrant.</note>
+                  <occupation type="military"/>
+                  <occupation type="government" subtype="politician"/>
+                  <note resp="#rnes #lmw">Parliamentary Commander-in-Chief in the English Midlands and
+                     <placeName>Leicester</placeName> during the first <rs type="event" ref="#EngCivilWar">English Civil War</rs>. In 1648, he was a commissioner of the court that tried <persName ref="#ChasI">Charles I</persName> and was one of the signers of the King's the death warrant. He assisted in <soCalled>Pride's Purge</soCalled> of Parliament.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/60510358"/>
                   </note>
@@ -8516,6 +8501,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="Gutch_John" sex="m">
+                  <persName>John Gutch</persName>
                   <persName>
                      <forename>John</forename>
                      <surname>Gutch</surname>
@@ -8523,10 +8509,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <birth when="1746-10-01">
                      <placeName>Wells, Somerset, England</placeName>
                   </birth>
-                  <death when="1831-01-07"/>
-                  <occupation>clergyman</occupation>
-                  <occupation>antiquarian</occupation>
-                  <occupation>literary</occupation>
+                  <death when="1831-01-07">
+                     <placeName>Oxford, Oxfordshire, England</placeName>
+                  </death>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="literary"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
+                  <note resp="#lmw">Clergy and antiquarian. Author of <title ref="#Collectanea">
+                     Collectanea Curiosa, or Miscellaneous Tracts: Relating to the History and
+                     Antiquities of England and Ireland, the Universities of Oxford and Cambridge,
+                     and a Variety of Other Subjects</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/79251745"/>
                   </note>
