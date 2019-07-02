@@ -8313,7 +8313,7 @@
                   <death when="1855-09-28">
                      <placeName>Brighton</placeName>
                   </death>
-                  <occupation type="government" subtype="diplomatist"/>
+                  <occupation type="government" subtype="diplomat"/>
                   <note resp="#ajc">A commissioner in <persName>Lord Amherst</persName>’s embassy to
                         <placeName ref="#China">China</placeName>
                      <date from="1816" to="1817">1816-17</date>. Author of <bibl>
@@ -16130,7 +16130,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1826-10-19">
                      <placeName>Paris, France</placeName>
                   </death>
-                  <occupation type="medical" subtype="dentist"/>
+                  <occupation type="medical"/>
                   <occupation type="theater" subtype="actor"/>
                   
                   <note resp="#ajc">French actor and dentist who was a favorite of <persName ref="#Napoleon">Napoleon Bonaparte</persName>.</note>
@@ -17125,15 +17125,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </note>
                   </person>
                <person xml:id="Webb_Eliza" sex="f">
+                  <persName>Eliza Webb</persName>
                   <persName>
                      <surname>Webb</surname>
-                     <forename type="alt">Eliza</forename>
                      <forename>Elizabeth</forename>
+                     <forename><addName>Eliza</addName></forename>
                   </persName>
                   <birth notBefore="1797-03-03">
                      <placeName/>
                   </birth>
-                  <note resp="#scw #lmw">Elizabeth Webb, called "Eliza," was a neighbor and friend
+                  <note resp="#scw #lmw">Elizabeth Webb, called Eliza, was a neighbor and friend
                      of <persName ref="#MRM">Mary Russell Mitford</persName>. Eliza Webb was born
                      about 1797, the youngest daughter of James Webb, Esq., and Jane Elizabeth
                      Ogbourn. She was baptized privately on <date when="1797-03-03">March 3,
@@ -23011,7 +23012,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#ebb">Weekly periodical launched by editor <persName ref="#Hunt">Leigh
                         Hunt</persName> and his brother, the printer <persName>John Hunt</persName>.
                         <persName ref="#MRM">Mitford</persName>’s correspondence demonstrates that
-                     her household subscribed or regularly had access to <title ref="#Exaaminer">The Examiner</title>
+                     her household subscribed or regularly had access to <title ref="#Examiner">The Examiner</title>
                      and <title ref="#LondonMag">The London Magazine</title>.</note>
                </bibl>
                <bibl xml:id="Findens_Tableaux_annual">
@@ -23294,17 +23295,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">Periodical edited by <persName ref="#Thelwall_John">John
                         Thelwall</persName> to which <persName ref="#MRM">Mitford</persName>,
                      signing as <q>M,</q> contributed three stories to the first three issues of its
-                     short run (see <bibl>
-                        <persName>Esterhammer</persName>
-                     </bibl>). Source: <bibl>
-                        <persName>Angela Esterhammer</persName>, <title ref="#Panormaic_Misc">
-                           <quote><persName ref="#Thelwall_John">John Thelwall</persName>’s <title ref="#Panoramic_Misc">Panoramic Miscellany</title>: The Lecturer as
-                              Journalist."</quote>
-                        </title>
-                        <title level="s">Romantic Circles Praxis Series</title>. <title level="m">
-                           <persName ref="#Thelwall_John">John Thelwall</persName>: Critical
-                           Reassessments</title>
-                        <date when="2011-09">September 2011</date>. <ref target="http://www.rc.umd.edu/praxis/thelwall/HTML/praxis.2011.esterhammer.html"/>
+                     short run. Source: <bibl>Angela Esterhammer, <title level="a">John Thelwall’s Panoramic Miscellany: The Lecturer as Journalist</title>, in
+                        <title level="s">Romantic Circles Praxis Series</title> volume <title level="m">John Thelwall: Critical Reassessments</title>,
+                        <date when="2011-09">September 2011</date>.</bibl></note>
+                  <note><ref target="http://www.rc.umd.edu/praxis/thelwall/HTML/praxis.2011.esterhammer.html"/>
                      </bibl>
                   </note>
                </bibl>
