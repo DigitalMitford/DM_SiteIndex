@@ -68,59 +68,6 @@
             <listPerson sortKey="histPersons">
             
                
-               
-               
-               
-               
-               
-               
-               <person xml:id="Browne_Martha" sex="f">
-                  <persName>Martha Browne</persName>
-                  <persName>
-                     <forename>Martha</forename>
-                     <forename>S.</forename>
-                     <surname type="paternal">Browne</surname>
-                  </persName>
-                  <note resp="#lmw">Sister of poet Mary Ann Browne (1812-1844). <persName ref="#MRM">Mary Russell Mitford</persName> wrote in an album belonging to her in <date when="1829">1829</date>. More research needed.</note>
-               </person>
-               
-               <person xml:id="Kirkland_C" sex="f">
-                  <persName>Caroline Stansbury Kirkland</persName>
-                  <persName>
-                     <forename>Caroline</forename>
-                     <forename>Mathilda</forename>
-                     <surname type="paternal">Stansbury</surname>
-                     <surname type="married">Kirkland</surname>
-                  </persName>
-                  <persName><addName>Mrs. Mary Clavers</addName></persName>
-                  <birth when="1801-01-11">
-                     <placeName>New York City, New York, USA</placeName>
-                  </birth>
-                  <death when="1864-04-06">
-                     <placeName>New York City, New York, USA</placeName>
-                  </death>
-                  <occupation type="educator"/>
-                  <occupation type="literary" subtype="novelist editor essayist"/>
-                  <note resp="#lmw">Author of three books on American frontier life, including <title level="m">New Home; Who'll Follow?</title>. Particularly after her husband's death in <date when="1846">1846</date>, her home became an important literary salon in New York City.</note>
-               </person>
-               
-               <person xml:id="Cooper_John" sex="m">
-                  <persName>John Cooper</persName>
-                  <persName>
-                     <forename>John</forename>
-                     <surname>Cooper</surname>
-                  </persName>
-                  <birth when="1793">
-                     <placeName>Bath, Somerset, England</placeName>
-                     </birth>
-                  <death when="1870-07-13">
-                     <placeName>Tunbridge Wells, Kent, England</placeName>
-                     </death>
-                  <occupation type="theater" subtype="actor manager"/>
-                  <note resp="#lmw">Actor active <date from="1811" to="1859">between 1811 and 1859</date>; played at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and other London theatres, as well as on circuits in <placeName>York</placeName> and <placeName>Lincoln</placeName>. Also served as stage manager at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1828">1828</date>.</note>
-                  <note><ref target="http://viaf.org/viaf/21971441"/></note>
-               </person>
-               
                <person xml:id="Easthope_John" sex="m">
                   <persName>John Easthope</persName>
                   <persName>
@@ -134,7 +81,8 @@
                   <death when="1865-12-11">
                      <placeName>Fir Grove, Surrey, England</placeName>
                   </death>
-                  <occupation type="trade" subtype="stockbroker banker"/>     
+                  <occupation type="trade" subtype="stockbroker"/>  
+                  <occupation type="trade" subtype="banker"/>     
                   <occupation type="government" subtype="politician"/>
                      <occupation type="literary" subtype="editor"/>
                   <note resp="#lmw">Began his career as a bank clerk and stockbroker and became wealthy through investments in railroads, mining, and British colonial land. Liberal Member of Parliament and owner of the <title level="j">Morning Chronicle</title> newspaper <date from="1834" to="1847">between 1834 and 1847</date>.</note>
