@@ -247,6 +247,11 @@
                   <occupation>idol</occupation>
                   <persName>Baal</persName>
                </person>
+               
+               FIX: this may be name of author, not title of play
+               <bibl xml:id="Mirandola_play">
+                  <title level="m">Mirandola</title>
+               </bibl>
       </body>
    </text>
 </TEI>
