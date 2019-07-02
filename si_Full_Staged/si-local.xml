@@ -3378,7 +3378,9 @@
                      <placeName>New York City, New York, USA</placeName>
                   </death>
                   <occupation type="educator"/>
-                  <occupation type="literary" subtype="novelist editor essayist"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <note resp="#lmw">Author of three books on American frontier life, including <title level="m">New Home; Who'll Follow?</title>. Particularly after her husband's death in <date when="1846">1846</date>, her home became an important literary salon in New York City.</note>
                </person>
                <person xml:id="Gandy_Ed" sex="m">
@@ -3786,8 +3788,10 @@
                   <death when="1897-07-26">
                      <placeName>Fir Grove, Surrey, England</placeName>
                   </death>
-                  <occupation type="government" subtype="politician administrator"/>
-                  <occupation type="legal" subtype="judge enforcement"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <occupation type="legal" subtype="judge"/>
+                  <occupation type="legal" subtype="enforcement"/>
                   <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">Conservative Member of Parliament, High Sheriff of Berkshire, and Chairman of the Berkshire Quarter Sessions. He changed his name from Richard Fellowes to Richard Fellowes Benyon after inheriting his uncle <persName ref="#Benyon_R">Richard Benyon De Beauvoir</persName>'s estate, including <placeName>Englefield House</placeName> in <date when="1854">1854</date>.</note>
                   <note><ref target="http://viaf.org/viaf/295534599"/></note>
@@ -5618,7 +5622,7 @@
                   </death>
                   <occupation type="trade"/>
                   <occupation type="trade" subtype="liquor"/>
-                  <note resp="#scw">Son of <persName>John and Anne Brent</persName>. Baptismal data as noted by <persName ref="#Needham_Francis">Needham</persName> on a list of other <placeName>Shinfield parish</placeName> records, and correlated to named characters in <title ref="#OV">Our Village</title>. Among <persName ref="#Needham_Francis">Needham</persName>'s Mitfordiana is a cutting from the <bibl>
+                  <note resp="#scw">Son of <persName>John and Anne Brent</persName>. Baptismal data as noted by <persName ref="#Needham_Francis">Needham</persName> on a list of other <placeName>Shinfield parish</placeName> records, and correlated to named characters in <title ref="#OV">Our Village</title>. In several volumes of <title ref="#OV">Our Village</title>, a character named <persName ref="#Brent_Joel_OV">Joel Brent</persName> is featured as a character a number stories, notably as the protagonist of <title ref="#Village_Beau_OV">A Village Beau</title> from <title ref="#Our_Village1st_ed">volume one</title>. He is also said in that story to be the half-brother of <persName ref="#Lizzy_OV">Lizzy</persName>. Among <persName ref="#Needham_Francis">Needham</persName>'s Mitfordiana is a cutting from the <bibl>
                      <title ref="#ReadingMer_per">Reading Mercury</title>
                   </bibl>for <date when="1958-10-18">October 10, 1958</date>, reprinting an article from <date when="1808-10-17">October 17, 1808</date> that described a spate of local deaths, including that of <quote>the wife of John Brent</quote> on <date when="1808-08-03">August 8, 1808</date>from <quote>a fit</quote>
                      <!--scw: See photo DSCN1088-->. Elsewhere among <persName ref="#Needham_Francis">Needham</persName>'s notes,<!--scw: see photo DSCN1096--> he writes that he found no record of marriage, and lists a burial date. The <bibl corresp="#PO_BerkshireDir">
@@ -5628,7 +5632,7 @@
                </person>
                
                <person xml:id="Brent_Lizzy" sex="f">
-                  <persName>Eliza "Lizzy" Brent</persName>
+                  <persName>Eliza (Lizzy) Brent</persName>
                   <persName>
                      <surname>Brent</surname>
                      <forename>Eliza</forename>
@@ -5642,7 +5646,7 @@
                   </birth>
                   <death notAfter="1827-09-27">buried at <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>
                   </death>
-                  <note resp="#scw">There is no family information provided by <persName ref="#Needham_Francis">Needham</persName> for Lizzy Brent, but she is likely related to others in the <orgName>Brent family</orgName> who are named and unnamed in <title ref="#OV">Our Village</title>. <persName ref="#Brent_Lizzy">Lizzy Brent</persName> was likely the inspiration for <persName type="fict" ref="#Lizzy_OV">Lizzy</persName>, the <persName ref="#OVNarrator">narrator</persName>'s three-year old companion on many of her walks in <title ref="#OV">Our Village</title>. Note that her date of birth is tentative: Needham cites <bibl>the Diary</bibl> for the birth information but places a question mark next to the date of birth. <!--scw: See photo DSCN1096--> Source: <persName ref="#Needham_Francis">Needham</persName>archive, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
+                  <note resp="#scw">There is no family information provided by <persName ref="#Needham_Francis">Needham</persName> for Lizzy Brent, but she is likely related to others in the <orgName>Brent family</orgName> who are named and unnamed in <title ref="#OV">Our Village</title>. In a notebook kept from <date from="1819" to="1823">1819 to 1823</date>, Mitford refers twice to <quote>little Eliza</quote>. On each occasion, she is noting her third and fourth birthdays. In the story from <title ref="#Our_Village1st_ed">Our Village, volume one</title>, <title ref="#Village_Beau_OV">A Village Beau</title>, the character of the little girl, <persName ref="#Lizzy_OV">Lizzy</persName>, is said to be the half-sister of <persName ref="#Brent_Joel">Joel Brent</persName>. <persName ref="#Brent_Lizzy">Lizzy Brent</persName> was likely the inspiration for <persName type="fict" ref="#Lizzy_OV">Lizzy</persName>, the <persName ref="#OVNarrator">narrator</persName>'s three-year old companion on many of her walks in <title ref="#OV">Our Village</title>. Note that her date of birth is tentative: Needham cites <bibl>the Diary</bibl> for the birth information but places a question mark next to the date of birth. <!--scw: See photo DSCN1096--> Source: <persName ref="#Needham_Francis">Needham</persName>archive, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
                </person>
                <person xml:id="Broghill" sex="m">
                   <persName>Roger Boyle, Lord Broghill</persName>
@@ -6783,6 +6787,7 @@
                   <placeName>Ryde, Isle of Wight, England</placeName>
                </death>
                <occupation type = "literary"/>
+                  <occupation type = "service"/>
                <note resp="#scw">Correspondent of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, companion and friend of <persName ref="#Fielding_Sarah">Sarah</persName> and <persName ref="#Fielding_Henry">Henry Fielding</persName>, accompanying the latter on his voyage to Lisbon. Source: ODNB.</note>
                <note><ref target="http://viaf.org/viaf/96858124"/></note>
                </person>
@@ -7229,7 +7234,7 @@
                   <death when="1803">
                      <placeName ref="#London_city">London, England</placeName>
                   </death>
-                  <note resp="#scw">Longtime servant in the Mitford household, who came to the family with <persName ref="#MRM">Mitford</persName>'s mother. She is the basis for <persName>Mrs. Mosse</persName> in the <title ref="#OV">Our Village</title> sketch of that title. Source: <rs type="letter">
+                  <note resp="#scw">Longtime servant in the Mitford household, who came to the family with <persName ref="#MRM">Mitford</persName>'s mother. She is the basis for <persName ref="#Mosse_Mrs_OV">Mrs. Mosse</persName> in the <title ref="#OV">Our Village</title> sketch of that title. Source: <rs type="letter">
                      <persName ref="#Needham_Francis">Francis Needham</persName>, letter to <persName ref="#Roberts_Wm">William Roberts</persName>, <date when="1953-06-16">16 June 1953</date>
                   </rs>. <bibl corresp="#Needham_PapersRCL">
                      <persName ref="#Needham_Francis">Needham Papers</persName>, <orgName ref="#ReadingCL">Reading Central Library</orgName>
@@ -14522,7 +14527,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <birth when="1811-12-01">
                      <placeName>Shinfield parish, Berkshire, England</placeName>
                   </birth>
-                  <note resp="#scw">Son of John and Elizabeth Rapley. Baptismal data as noted by <persName ref="#Needham_Francis">Needham</persName> along with other <placeName ref="#Shinfield">Shinfield parish</placeName> baptisms that correlate to named characters in <title ref="#OV">Our Village</title>. Either <rs type="person" ref="#Rapley_John2">he</rs> or <persName ref="#Rapley_John1">John Rapley</persName>, son of William and Sarah, could be the original of the <persName type="fict" ref="#JackRapley">Jack Rapley</persName> in <title ref="#OV">Our Village</title>.</note>
+                  <note resp="#scw">Son of John and Elizabeth Rapley. Baptismal data as noted by <persName ref="#Needham_Francis">Needham</persName> along with other <placeName ref="#Shinfield">Shinfield parish</placeName> baptisms that correlate to named characters in <title ref="#OV">Our Village</title>. Either <rs type="person" ref="#Rapley_John2">he</rs> or <persName ref="#Rapley_John1">John Rapley</persName>, son of William and Sarah, could be the original of the <persName type="fict" ref="#Rapley_Jack_OV">Jack Rapley</persName> in <title ref="#OV">Our Village</title>.</note>
                </person>
                <person xml:id="Reeve_Mrs" sex="f">
                   <persName>
@@ -16228,7 +16233,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Three Mile Cross, he was baptized at St. Giles, Reading, Berkshire on April 9,
                      1843. He consistently gives his birthplace as "Three Mile Cross" on census
                      documents from the second half of the nineteenth century. His occupation is
-                     given as "clerk in holy orders." Since he disappears from English census
+                     given as <q>clerk in holy orders.</q> Since he disappears from English census
                      records after 1861, reappearing in 1891, and gives his son Arthur Harry
                      Edmund’s birthplace as Isipingo, Natal, South Africa (then a British colony),
                      it seems possible that he emigrated to South Africa between those dates, then
@@ -17754,6 +17759,56 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
          </div>
          <div type="fictional_and_archetypal">
             <listOrg sortKey="fictOrgs">
+               <org xml:id="WheelersChildren_OV">
+                  <orgName>wheeler's children</orgName>
+                  <note resp="#scw">In <title ref="#OurVillage_story_OV">the titular sketch of Our Village</title>, <persName ref="#Lizzy_OV">little Lizzy</persName> is said to turn the wheeler's children out of their cart and make them pull her.</note>
+               </org>
+               
+               <org xml:id="workmen_OV">
+                  <orgName>workmen</orgName>
+                  <note resp="#scw">The workmen in <title ref="#Our_Village1st_ed">Our Village</title> whom the <persName ref="#Wealthy_Renovator_OV">renovator</persName> hires to work on his house.</note>
+               </org>
+               <org xml:id="Gardeners_OV">
+                  <orgName>gardeners</orgName>
+                  <note resp="#scw">Characters who appear throughout <title ref="#OV">Our Village</title>.</note>
+               </org>
+               
+               <org xml:id="journeyman_shoemakers_OV">
+                  <orgName>journeyman shoemakers</orgName>
+                  <note resp="#scw">In the titular sketch of <title ref="#OurVillage_story_OV">Our Village</title>, the <persName ref="#Shoemaker">shoemaker</persName> is said to employ three journeymen.</note>
+               </org>
+               
+               <org xml:id="Lieutenants_children_OV">
+                  <orgName>Lieutenant's children</orgName>
+                  <note resp="#scw">Small children of <persName ref="#Lieutenant_OV">the Lieutenant</persName> who watch their father skate on the pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+               </org>
+               
+               <org xml:id="Officers_family_OV">
+                  <orgName>officer's family</orgName>
+                  <note resp="#scw">Characters who are introduced in the first sketch of <title ref="#OurVillage_story_OV">Our Village</title>.</note>
+               </org>
+               
+               <org xml:id="riders_OV">
+                  <orgName>riders</orgName>
+                  <note resp="#scw">Horseback, coach and chaise riders whom <persName ref="#OVNarrator">the narrator</persName> describes in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+               </org>
+               
+               <org xml:id="skating_spectators_OV">
+                  <orgName>skating spectators</orgName>
+                  <note resp="#scw">Collection of people who watch <persName ref="#Lieutenant_OV">the Lieutenant</persName> skate on the pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+               </org>
+               
+               <org xml:id="sliding_urchins_OV">
+                  <orgName>sliding urchins</orgName>
+                  <note resp="#scw">The <quote>half a dozen ragged urchins,</quote> including <persName ref="#Rapley_Jack_OV">Jack Rapley</persName>, whom <persName ref="#OVNarrator">the narrator</persName> watches sliding on a frozen hill in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+               </org>
+               
+               
+               <org xml:id="walkers_OV">
+                  <orgName>walkers</orgName>
+                  <note resp="#scw">Walkers on a cold day whom <persName ref="#OVNarrator">the narrator</persName> describes in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+               </org>
+               
                <org xml:id="Attendants_R">
                   <orgName>Attendants &amp;c.</orgName>
                   <note resp="#ebb">Attendants in <title ref="#Rienzi">Rienzi</title>.</note>
@@ -17765,9 +17820,44 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                            Mortality</title>
                      </bibl>.</note>
                </org>
-               <org xml:id="BustlingDamesChildren">
-                  <orgName>the <persName ref="#BustlingDame">Bustling Dame</persName>’s
-                     children</orgName>
+               
+               <org xml:id="CountryBoys_OV">
+                  <orgName>country boys</orgName>
+                  <note resp="#scw">Characters who appear in several <title ref="#OV">Our Village</title> stories. <persName ref="#OVNarrator">The narrator</persName> mentions her partiality for country boys, particularly in the title sketch, as well as <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>, <title ref="#Walks_Hard_Summer_OV">The Hard Summer</title> and <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. These boys include <persName ref="#Rapley_Jack_OV">Jack Rapley</persName>,<persName>Joe Kirby</persName>, <persName>Jem Eusden</persName>.</note>
+               </org>
+               
+               <org xml:id="Cricketers_OV">
+                  <orgName>cricketers</orgName>
+                  <note resp="#scw">Characters who appear in the <!-- Not an ID --><title ref="#OurVillage_1st_ed">Our Village</title> stories <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title> and <title ref="#Walks_Hard_Summer_OV">The Hard Summer</title>.</note>
+               </org>
+               
+               <org xml:id="curatesFamily_OV">
+                  <orgName>curate's family</orgName>
+                  <note resp="#scw">Characters mentioned in the first sketch of <title ref="#OurVillage_story_OV">Our Village</title>. The curate's family is said to live in another town, four miles away.</note>
+               </org>
+               <org xml:id="BustlingDamesChildren_OV">
+                  <orgName>bustling dame's children</orgName>
+                  <note resp="#scw">Characters in <title ref="#OV">Our Village</title>.</note>
+               </org>
+               <org xml:id="BlacksmithsChildren_OV">
+                  <orgName>blacksmith's children</orgName>
+                  <note resp="#scw">The <persName ref="#Blacksmith_OV">blacksmith</persName>, a character introduced in <title ref="#OurVillage_story_OV">the first sketch of <title ref="#OV">Our Village</title></title>, is said to have eight children.</note>
+               </org>
+               
+               <org xml:id="BricklayersOV">
+                  <orgName>bricklayers</orgName>
+                  <note resp="#scw">The bricklayers who work for <persName ref="#Wealthy_Renovator_OV">the whimsical man</persName> who renovates his house in <title ref="#OurVillage_story_OV">Our Village</title>.</note>
+               </org>
+               
+               <org xml:id="Cabinet_makersOV">
+                  <orgName>cabinetmakers</orgName>
+                  <note resp="#scw">Characters who work for <persName ref="#Wealthy_Renovator_OV">the whimsical wealthy man</persName> who renovates his house in <title ref="#OurVillage_story_OV">Our Village</title>.</note>
+               </org>
+               
+               <org xml:id="CarpentersOV">
+                  <orgName>carpenters</orgName>
+                  <note resp="#scw">Characters who work for <persName ref="#Wealthy_Renovator_OV">the whimsical wealthy man</persName> who renovates his house in <title ref="#OurVillage_story_OV">Our Village</title>.</note>
+                  
                </org>
                <org xml:id="Chorus_R">
                   <orgName>Chorus</orgName>
@@ -17877,6 +17967,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      (also known as One Thousand and One Nights) who appears in the story variously
                      titled "Noureddin Ali of Cairo" or "Noureddin and his Son."</note>
                </person>
+               
                <person xml:id="JackRapley" sex="m">
                   <persName>
                      <surname>Rapley</surname>
@@ -17885,6 +17976,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">One of the country boys featured in a number of <title ref="#OV">Our Village</title> stories, and an admitted favorite of the <persName ref="#OVNarrator">narrator</persName> and her greyhound, <persName ref="#May-flower">May-flower</persName>. <persName ref="#Needham_Francis">Needham</persName> identifies two local people of that name. Source:
                         <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
                </person>
+               
                <person xml:id="Jael" sex="f">
                   <persName>Jael</persName>
                   <occupation>warrior</occupation>
@@ -18051,6 +18143,148 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
             </listPerson>
             <listPerson sortKey="fictPersons">
+               <person xml:id="Rapley_Jack_OV" sex="m"><!--scw: This is a revised version for this entry, already in the SI, fictPerson, changed from JackRapley-->
+                  <persName>Jack Rapley</persName>
+                  <persName>
+                     <surname>Rapley</surname>
+                     <forename>Jack</forename>
+                     <note resp="#scw">One of the <orgName ref="#CountryBoys_OV">country boys</orgName> whom the <persName ref="#OVNarrator">narrator</persName> of <title ref="#OV">Our Village</title> encounters in a number of sketches, notably <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title> and <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. In his <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>, <persName ref="#Needham_Francis">Francis Needham</persName> identifies <rs type="person" ref="#Rapley_John1 #Rapley_John2">two local boys by this name</rs> on whom this character may have been based.</note>
+                  </persName>
+               </person>
+              <person xml:id="Lucy_OV_fict" sex="f">
+                  <persName>Lucy</persName>
+                  <note resp="#scw">Title character of the <title ref="#Our_Village1st_ed">Our Village</title> story. <persName ref="#Lucy_OV_fict">Lucy</persName> is a servant in the <persName ref="#OVNarrator">narrator</persName>'s household who leaves to get married. The character appears in several stories, notably <title ref="#Hannah_OV">Hannah</title> and <title ref="#Visit_to_Lucy_OV">A Visit to Lucy</title>. According to <persName ref="#Needham_Francis">Needham</persName>'s <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>, the character is based on the servant in the Mitford household, <persName ref="#Hill_Lucy">Lucy Sweetser Hill</persName>. Surname not given.</note>
+               </person>
+               
+               <person xml:id="Smith_William_OV" sex="m">
+                  <persName>William Smith</persName>
+                  <persName>
+                     <surname>Smith</surname>
+                     <forename>William</forename>
+                  </persName>
+                  <occupation type = "trade"/>
+                  <!--SCW: Check this -->
+                  <note resp="#scw">Character of the suitor of <persName ref="#Wilson_Hannah_OV">Hannah</persName> in the <title ref="#Our_Village1st_ed">Our Village</title> story of that name.</note>
+               </person>
+               
+               <person xml:id="Vicar_OV" sex="m">
+                  <persName>vicar
+                  </persName>
+                  <occupation type = "religious" subtype = "clergy"/>
+                  <occupation type = "religious" subtype = "vicar"/>
+                  <note resp="#scw">Character of the vicar from <title ref="#Our_Village1st_ed">Our Village, volume 1</title>, who, in the sketch <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, is said to be moving into the newly-renovated house of the <persName ref="#Wealthy_Renovator_OV">wealthy, whimsical man.</persName> Proper name not given.</note>
+               </person>
+               <person xml:id="Tubb_Dr_OV" sex="m"><!--scw: leaving as a stub so I don't neglect it later.-->
+                  <persName>Dr. Tubb</persName>
+                  <persName>
+                     <surname>Tubb</surname>
+                     <roleName>Dr.</roleName>
+                  </persName>
+                  <occupation type = "medical"/>
+                  <note resp="#scw">Title character of the doctor in the <title ref="#OV">Our Village</title>, <title ref="#Our_Village2nd">volume two</title> sketch. <persName ref="#Needham_Francis">Francis Needham</persName>, in his <bibl corresp="#Needham_PapersRCL">Mitford Papers</bibl>, identifies a local man by this name who may have been the basis for this character. In the <bibl corresp="#Ladys_Mag">Lady's Magazine</bibl> version of the story, the title is <!--Not an ID --><title ref="#Doctor_Casden">Doctor Casden</title>. Forename not given.</note>
+               </person>
+               
+               <person xml:id="Willis_David_OV" sex="m">
+                  <persName>David Willis</persName>
+                  <persName>
+                     <surname>Willis</surname>
+                     <forename>David</forename>
+                  </persName>
+                  <note resp="#scw">One of the cricket players featured in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. In his <bibl corresp="#Needham_PapersRCL">Mitford Papers</bibl>, <persName ref="#Needham_Francis">Francis Needham</persName> identifies a <rs type="person" ref="#Willis_David">local boy bearing this name</rs>, as well as others with the Willis family name.</note>
+               </person>
+               
+               <person xml:id="frost_bitten_gent_OV" sex="m">
+                  <persName>frost-bitten gentleman</persName>
+                  <persName>
+                     <note resp="#scw">Character mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title> whom <persName ref="#OVNarrator">the narrator</persName> observes. Proper name not given.</note>
+                  </persName>
+               </person>
+               
+               <person xml:id="Frances_Mrs_OV" sex="f">
+                  <persName>Mrs. Frances</persName>
+                  <persName>
+                     <forename>Frances</forename>
+                     <forename><addName>Fanny</addName></forename>
+                     <roleName type="honorific">Mrs.</roleName><!--scw: I gleaned this from the TEI, although character isn't married.-->
+                  </persName>
+                  <persName><addName>Fanny</addName></persName>
+                  <note resp="#scw">Character in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Mod_Antiques_OV">Modern Antiques</title>. She and her sister <persName ref="#Theodosia_Mrs_OV">Theodosia</persName> are said to have been intimates of <persName ref="#Richardson_Sam">Samuel Richardson</persName> and the <orgName ref="#Bluestockings">Bluestockings</orgName>. Frances is the sister who is rumored to have a longtime beau. Although she uses the honorific <q>Mrs.</q>, she is unmarried. Surname not given.</note>
+               </person>
+               
+               <person xml:id="Theodosia_Mrs_OV" sex="f">
+                  <persName>Mrs. Theodosia</persName>
+                  <!--scw: TEI suggests this as a possible roleName. Though the character is not married.--><!-- LMW: I put this info. in the text of the note instead. -->
+                  <note resp="#scw">One of the two sister characters in the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Mod_Antiques_OV">Modern Antiques</title>. Theodosia is her forename, and Mrs. is an honorific, since the character is unmarried. She and her sister, <persName ref="#Frances_Mrs_OV">Frances</persName> are said to have been intimates of <persName ref="#Richardson_Sam">Samuel Richardson</persName> and <orgName ref="#Bluestockings">the Bluestockings</orgName>. Surname not given.</note>
+               </person>
+               
+               <person xml:id="Wilson_Hannah_OV" sex="f">
+                  <persName>Hannah Wilson Smith</persName>
+                  <persName>
+                     <surname type="paternal">Wilson</surname>
+                     <surname type="married">Smith</surname>
+                     <forename>Hannah</forename>
+                  </persName>
+                  <note resp="#scw">Title character of the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Hannah_OV">Hannah</title>. She is wooed by the secretly wealthy <persName ref="#Smith_William_OV">William Smith</persName>.</note>
+               </person>
+               
+               <person xml:id="Wilson_Susan_OV" sex="f">
+                  <persName>Susan Wilson</persName>
+                  <persName>
+                     <surname>Wilson</surname>
+                     <forename>Susan</forename>
+                  </persName>
+                  <note resp="#scw">Younger sister of the character <persName ref="#Wilson_Hannah_OV">Hannah</persName>, the title character of the <title ref="#Our_Village1st_ed">Our Village</title> story.</note>
+               </person>
+               
+               <person xml:id="Harriet_ShopLodger_OV" sex="f"><!--scw: THIS XML:ID SHOULD REPLACE SHOPKEEPERSLODGER1 IN THE SI. SHE IS NAMED LATER IN OV.-->
+                  <persName>Harriet
+                  </persName>
+                  <occupation type = "educator" subtype = "teacher"/>
+                  <note resp="#scw">One of the two characters introduced in <title ref="#OurVillage_story_OV">Our Village</title> who lodges with the shopkeepers, and teaches children to read and sew. She appears in several sketches, including <title ref="#Walks_Nutting_OV">Nutting</title> and <title ref="#Village_Beau_OV">A Village Beau</title>, where she is courted by <persName ref="#Brent_Joel_OV">Joel Brent</persName> Surname not given.</note><!--scw: I wonder if this character is identified with Harriet Keep, the servant in the Mitford household identified by Needham. Will need to re-check and cross-ref if so.-->
+               </person>
+               <person xml:id="Wilson_Dame_OV" sex="f">
+                  <persName>Dame Wilson</persName>
+                  <persName>
+                     <surname>Wilson</surname>
+                     <roleName>Dame</roleName>
+                  </persName>
+                  <note resp="#scw">A character in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Hannah_OV">Hannah</title>. She is the mother of <persName ref="#Wilson_Hannah_OV">Hannah</persName> and the widow of <persName ref="#Wilson_John_OV">John Wilson</persName>. Forename not given.</note>
+               </person>
+               <person xml:id="Strong_John_OV" sex="m">
+                  <persName>John Strong</persName>
+                  <persName>
+                     <surname>Strong</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#scw">Son of the <title ref="#OurVillage_story_OV">Our Village</title> character <persName ref="#Mason_OV">the mason</persName> and the <persName ref="#MasonsWife_OV">mason's wife</persName>. He appears as a cricket player in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. A <persName ref="#Strong_George">George Strong</persName>, bricklayer and beer retailer, as well as an <persName ref="#Strong_Elizabeth">Elizabeth Strong</persName>, baker, are identified by <persName ref="#Needham_Francis">Francis Needham</persName> in his <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>.</note>
+               </person>
+               
+               <person xml:id="Wilson_John_OV" sex="m">
+                  <persName>John Wilson</persName>
+                  <persName>
+                     <surname>Wilson</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#scw">Character in the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Hannah_OV">Hannah</title>. He is the deceased father of the title character who was renowned for his skill in all trades.</note>
+               </person>
+               
+               <person xml:id="Clerk_OV" sex="m">
+                  <persName>clerk
+                  </persName>
+                  <occupation type = "government" subtype = "clerk"/>
+                  <note resp="#scw">Character of the county clerk who performs the marriage ceremony between <persName ref="#Wilson_Hannah_OV">Hannah Wilson</persName> and <persName ref="#Smith_William_OV">William Smith</persName> in the <title ref="#Our_Village1st_ed">Our Village story</title> <title ref="#Hannah_OV">Hannah</title>. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="Betsy_ShopLodger_OV" sex="f"><!--scw: THIS ENTRY REPLACES SHOPKEEPERSLODGER2 IN THE SI. SHE IS NAMED LATER IN THE BOOK.-->
+                  <persName>Betsy</persName>
+                  <persName>
+                     <forename>Betsy</forename>
+                  </persName>
+                  <occupation type = "educator" subtype = "teacher"/>
+                  <note resp="#scw">One of the two characters in <title ref="#OurVillage_story_OV">Our Village</title> who lodges with the shopkeepers, and teaches children to read and sew. She is mentioned again in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, where she is said to marry a <quote>respectable tradesman.</quote> Surname not given.</note>
+               </person>
                <person xml:id="Abbe_de_L_Epee_DD" sex="m">
                   <persName>Abbé de L’Épée</persName>
                   <note resp="#lmw">character in <title ref="#Deaf_Dumb_play"> Deaf and Dumb</title>
@@ -18184,8 +18418,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                
-               <person xml:id="Blacksmith" sex="m"/>
-               <person xml:id="BlacksmithsWife" sex="f"/>
+               <person xml:id="Blacksmith_OV" sex="m"><!--SCW: replaces Blacksmith-->
+                  <persName>George</persName>
+                  <persName>
+                     <forename>George</forename>
+                  </persName>
+                  <occupation type = "trade" subtype = "blacksmith"/>
+                  <occupation type = "legal" subtype="enforcement"/>
+                  <note resp="#scw">Character of a blacksmith introduced in <title ref="#OurVillage_story_OV">the introductory sketch of Our Village</title>. The <persName ref="#OVNarrator">narrator</persName> mentions that he also holds the office of constable, and has eight children. His fate is recounted in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>. Surname not given.</note>
+               </person>
+               <person xml:id="BlacksmithsWife_OV" sex="f"><!--SCW: replaces BlacksmithsWife-->
+                  <persName>blacksmith's wife
+                  </persName>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">the introductory sketch of <title ref="#OV">Our Village</title></title>. She and <rs type="person" ref="#Blacksmith_OV">her husband</rs> have eight children. Proper name not given.</note>
+               </person>
                <person xml:id="Bradshaw" sex="m">
                   <persName>Lord President Bradshaw</persName>
                   <note resp="#ebb">A Judge appointed by Parliament to try the <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford’s</persName> play, <title ref="#CharlesI_MRMplay">Charles
@@ -18210,8 +18456,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Brent_Joel_OV" sex="m">
                   <persName>Joel Brent</persName>
-                  <note resp="#ebb">character in <title level="m" ref="#OV">Our Village</title> whose name correlates with a real <persName ref="#Brent_Joel">Joel Brent</persName> in the Reading local area.</note>
+                  <persName>
+                     <surname>Brent</surname>
+                     <forename>Joel</forename>
+                  </persName>
+                  <occupation type = "trade" subtype="carter"/>
+                  <note resp="#scw">Protagonist of <title ref="#Village_Beau_OV">A Village Beau</title>, the <title ref="#Our_Village1st_ed">Our Village</title> story, where he courts <persName ref="#Harriet_ShopLodger_OV">Harriet</persName>. He is the half-brother of <persName ref="#Lizzy_OV">Lizzy</persName>. <persName ref="#Needham_Francis">Francis Needham</persName> identifies a local <persName ref="#Brent_Joel">Joel Brent</persName> on whom the character was likely based.</note>
                </person>
+               
                <person xml:id="BriggsMr_Cecilia" sex="m">
                   <persName>Mr. Briggs</persName>
                   <note resp="#lmw">Character in <bibl corresp="#Cecilia_FB">Fanny Burney’s <title level="m">Cecilia</title>
@@ -18228,7 +18480,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      character is the proprietor of a public house at the sign of the "red
                      cow."</note>
                </person>
-               <person xml:id="BustlingDame" sex="f"/>
+               <person xml:id="BustlingDame_OV" sex="f"><!--SCW: replaces BustlingDame-->
+                  <persName>bustling dame
+                  </persName>
+                  <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">the introductory sketch of <title ref="#OV">Our Village</title></title>. She is noted for living in the only house with sash-windows in the village. Proper name not given.</note>
+               </person>
                
                <person xml:id="Byron_Harriet" sex="f">
                   <persName>Harriet Byron</persName>
@@ -18399,15 +18655,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>Oliver Cromwell</persName>
                   <note resp="#ebb">Cromwell’s character in <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford’s</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>.</note>
                </person>
-               <person xml:id="Curate"/>
+               <person xml:id="Curate_OV" sex="m"><!--SCW: replaces Curate-->
+                  <persName>Mr. B.</persName>
+                  <occupation type = "religious" subtype = "clergy"/>
+                  <occupation type = "religious" subtype = "curate"/>
+                  <note resp="#scw">The character of the curate is introduced in <title ref="#OurVillage_story_OV">the first sketch of <title ref="#OV">Our Village</title></title>. He has lodgings with the <persName ref="#Wheeler_OV">wheeler</persName>'s family but lives in another town. In the <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, he is said to be giving up his lodgings there. Full name not given.</note>
+               </person>
                <person xml:id="Cypress_Mr" sex="m">
                   <persName>Mr. Cypress</persName>
                   <note resp="#lmw">Character in <persName ref="#Peacock_TL">Peacock</persName>’s
                         <title ref="#NightmareAbbey">Nightmare Abbey</title>. Identified by
                         <persName ref="#MRM">Mitford</persName> and others as a satirical portrait
                      of <persName ref="#Coleridge_ST">Coleridge</persName>. <persName ref="#Peacock_TL">Peacock</persName>’s footnote indicates that his name is a
-                     corruption of Filosky, from the Greek philoskios (φιλοσκιος), "a lover, or
-                     sectator, of shadows."</note>
+                     corruption of Filosky, from the Greek philoskios (φιλοσκιος), <quote>a lover, or
+                        sectator, of shadows.</quote></note>
                </person>
                <person xml:id="DAlba" sex="m">
                   <persName>Count D’Alba</persName>
@@ -18760,8 +19021,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">Character in <persName ref="#Richardson_Sam">Samuel Richardson</persName>'s <title ref="#Chas_Grandison_novel">The History of Sir Charles Grandison</title>. She is the ward of <persName ref="#Chas_Grandison_fict">Sir Charles Grandison</persName>.</note>
                </person>
                
-               <person xml:id="JohnEvans" sex="m"/>
-               <person xml:id="JohnEvansWife" sex="f"/>
+               <person xml:id="Evans_John_OV" sex="m"><!--SCW: replaces JohnEvans-->
+                  <persName>John Evans</persName>
+                  <persName>
+                     <surname>Evans</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <occupation type = "service" subtype = "gardener"/>
+                  <note resp="#scw">One of the villagers mentioned in <title ref="#OurVillage_story_OV">the introductory sketch of <title ref="#OV">Our Village</title></title>. He is a gardener who, having lost <persName ref="#Evans_JohnWife_OV">his wife</persName>, spent several years at an asylum and now resides in the workhouse.</note>
+               </person>
+               <person xml:id="Evans_JohnWife_OV" sex="f"><!--SCW: replaces JohnEvansWife-->
+                  <persName>Mrs. Evans</persName>
+                  <persName>
+                     <surname type="married">Evans</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#scw">Deceased wife of the <title ref="#OurVillage_story_OV">Our Village sketch</title> character <persName ref="#Evans_John_OV">John Evans</persName>. Forename not given.</note>
+               </person>
                <person xml:id="Julian" sex="m">
                   <persName>Julian</persName>
                   <note resp="#ebb">
@@ -18837,7 +19113,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Tale</title>
                   </note>
                </person>
-               <person xml:id="Lieutenant" sex="m"/>
+               <person xml:id="Lieutenant_OV" sex="m"><!--replaces Lieutenant-->
+                  <persName>Lieutenant</persName>
+                  <occupation type="military"/>
+                  <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">the introductory sketch of <title ref="#OV">Our Village</title></title>. He also appears skating on a frozen pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>, to the delight of many spectators. Proper name not given.</note>
+               </person>
                <person xml:id="Lizzy_fict" sex="f">
                   <persName>
                      <forename>Elizabeth</forename>
@@ -18847,9 +19127,31 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Character in <persName ref="#Austen_Jane">Austen</persName>’s
                      novel <title ref="#Pride_and_Prejudice">Pride and Prejudice</title>.</note>
                </person>
-               <person xml:id="Lizzy_OV" sex="f"/>
-               <person xml:id="LizzysFather_OV" sex="m"/>
-               <person xml:id="LizzysMother_OV" sex="f"/>
+               <person xml:id="Lizzy_OV" sex="f">
+                  <persName>Lizzy Brent</persName>
+                  <persName>
+                     <surname>Brent</surname>
+                     <forename>Lizzy</forename>
+                  </persName>
+                  <note resp="#scw">The three-year-old girl who often accompanies <persName ref="#OVNarrator">the narrator</persName> of <title ref="#OV">Our Village </title> on her walks. In the story <title ref="#Village_Beau_OV">A Village Beau</title>, she is identified as the half-sister of <persName ref="#Brent_Joel_OV">Joel Brent</persName>, who is one of the <orgName ref="#Cricketers_OV">cricketers</orgName> and the protagonist of <title ref="#Village_Beau_OV">A Village Beau</title>. In the <!--Not an ID --><title ref="#Intro_OV_v3">Introduction</title> to <title ref="#OurVillage_3rd">the third volume of Our Village</title>, the <persName ref="#OVNarrator">narrator</persName> give an account of what happens to several villagers, <persName ref="#Lizzy_OV">Lizzy</persName> among them. In his <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>, <persName ref="#Needham_Francis">Francis Needham</persName> identifies an <persName ref="#Brent_Lizzy">Eliza Brent</persName> as the probable original for the character.</note>
+               </person>
+               <person xml:id="LizzysFather_OV" sex="m">
+                  <persName>Mr. Brent</persName>
+                  <persName>
+                     <surname>Brent</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type = "trade" subtype = "carpenter"/>
+                  <note resp="#scw">Father of the character of <persName ref="#Lizzy_OV">Lizzy</persName>Lizzy, the three-year old girl who accompanies <persName ref="#OVNarrator">the narrator</persName> of <title ref="#OV">Our Village</title> on many of her walks. He is said to be a carpenter. Forename not given.</note>
+               </person>
+               <person xml:id="LizzysMother_OV" sex="f">
+                  <persName>Mrs. Brent</persName>
+                  <persName>
+                     <surname type="married">Brent</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#scw">Mother of the character of <persName ref="#Lizzy_OV">Lizzy</persName>, the three-year old girl who accompanies <persName ref="#OVNarrator">the narrator</persName> of <title ref="#OV">Our Village</title> on many of her walks. Forename not given.</note>
+               </person>
                <person xml:id="Macbeth_Lady" sex="f">
                   <persName>Lady Macbeth</persName>
                   <note resp="#lmw">character in <title ref="#Macbeth_play"> Macbeth</title>
@@ -18891,8 +19193,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      does not admire Ferrier’s depiction of her heroine, considering her to be too
                      perfect, a "female Sir Charles Grandison."</note>
                </person>
-               <person xml:id="Mason" sex="m"/>
-               <person xml:id="MasonsWife" sex="f"/>
+               <person xml:id="Mason_OV" sex="m"><!--SCW: replaces Mason-->
+                  <persName>Mr. Strong</persName>
+                  <occupation type = "trade" subtype = "mason"/>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">the first sketch of <title ref="#OV">Our Village</title></title>. He is said to be particularly short, and to live in a <quote>pretty white cottage.</quote> His son, <persName ref="#Strong_John_OV">John Strong</persName>, is one of the <orgName ref="#Cricketers_OV">cricketers</orgName> who appears in <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Forename not given.</note>
+               </person>
+               
+               <person xml:id="MasonsWife_OV" sex="f"><!--replaces MasonsWife-->
+                  <persName>Mrs. Strong</persName>
+                  <note resp="#scw">Wife of <persName ref="#Mason_OV">the mason</persName> in <title ref="#OurVillage_story_OV">Our Village</title>. She is said to be tall, contrasting his shortness, and to have gardening skills that make <persName ref="#OVNarrator">the narrator</persName> jealous. She is the mother of <persName ref="#Strong_John_OV">John Strong</persName>, one of the cricketers from <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. Forename not given.</note>
+               </person>
                <person xml:id="Master_Peter_DQ" sex="m">
                   <persName>Master Peter</persName>
                   <persName>
@@ -18900,12 +19210,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <note resp="#lmw">Master Peter is the puppetmaster in <title ref="#Don_Quixote_novel">Don Quixote</title>; his puppets are destroyed in the course of the novel.</note>
                </person>
-               <person xml:id="May-flower" sex="f">
+               <person xml:id="May-flower_OV" sex="f"><!--SCW: replaces May-flower-->
                   <persName>May-flower</persName>
-                  <note resp="#scw">
-                     <p>Greyhound dog who is featured as the <persName ref="#OVNarrator">narrator</persName>’s companion in many <title ref="#OV">Our
-                           Village</title>sketches.</p>
-                  </note>
+                  <note resp="#scw">Greyhound dog who is featured as the <persName ref="#OVNarrator">narrator</persName>'s companion in many <title ref="#OV">Our Village</title>sketches.</note>
                </person>
                <person xml:id="MCrule_Mrs" sex="f">
                   <persName>Mrs. M’Crule</persName>
@@ -18938,12 +19245,28 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Morgan</persName>’s novel <title ref="#Florence_Macarthy_SO">Florence
                         Macarthy</title>.</note>
                </person>
-               <person xml:id="ModAntiquesBeau" sex="m">
-                  <persName>ModAntiquesBeau</persName>
-                  <note resp="#scw">Unnamed character in the <title ref="#OV">Our Village</title>
-                     sketch, <title>"Modern Antiques"</title>who is rumored to be a former suitor to
-                     one of the sisters. In his <bibl corresp="#Needham_PapersRCL">Mitfordiana</bibl>, <persName ref="#Needham_Francis">Needham</persName>
-                     identifies the character as being based on <persName ref="#Annesley_Francis">Francis Annesley, LL.D.</persName>.</note>
+               <person xml:id="ModAntiquesBeau_OV" sex="m"><!--SCW: replaces ModAntiquesBeau-->
+                  <persName>elderly beau
+                  </persName>
+                  <occupation type = "government"/>
+                  <note resp="#scw">Unnamed character in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title level="a" ref="#Mod_Antiques_OV">Modern Antiques</title>, who is rumored to be a longtime suitor to <persName ref="#Frances_Mrs_OV">Mrs. Frances</persName>. In his <bibl corresp="#Needham_PapersRCL">Mitford Papers</bibl>, <persName ref="#Needham_Francis">Needham</persName> identifies the character as based on <persName ref="#Annesley_Francis">Francis Annesley, LL.D.</persName>. Proper name not given.</note>
+               </person>
+               <person xml:id="ModAntiquesBrother_OV" sex="m">
+                  <persName>elderly beau's brother
+                  </persName>
+                  <note resp="#scw">Character in <title ref="#Mod_Antiques_OV">Modern Antiques</title> in <title ref="#Our_Village1st_ed">Our Village</title>. He is the younger brother of <persName ref="#ModAntiquesBeau_OV">elderly beau</persName> from that story. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="ModAntiques_ServingMaid_OV" sex="f">
+                  <persName>elderly beau's maid
+                  </persName>
+                  <occupation type = "service"/>
+                  <!-- Check this type -->
+                  <note resp="#scw">One of the servant characters in <title ref="#Mod_Antiques_OV">Modern Antiques</title> from <title ref="#Our_Village1st_ed">Our Village</title>. Proper name not given.</note>
+               </person>
+               <person xml:id="Smith_theHatter_OV" sex="m">
+                  <persName>Mr. Smith</persName>
+                  <note resp="#scw">Character in the <title ref="#OV">Our Village, <title ref="#Our_Village1st_ed">volume 1</title></title> story <title ref="#Hannah_OV">Hannah</title>. He is the father of the suitor, <persName ref="#Smith_William_OV">William</persName>. Forename not given.</note>
                </person>
                <person xml:id="Montresor_Phil" sex="m">
                   <persName>Sir Philip Montresor</persName>
@@ -18960,18 +19283,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Lockhart’s</persName> 1819 novel, <title ref="#Peters_Letters_novel">Peter’s
                         Letters to his Kinfolk</title>.</note>
                </person>
-               <person xml:id="Mosse_Mrs" sex="f">
+               <person xml:id="Mosse_Mrs_OV" sex="f"><!--SCW: replaces Mrs_Mosse-->
+                  <persName>Mrs. Elizabeth (Mossy) Mosse</persName>
                   <persName>
                      <surname>Mosse</surname>
                      <forename>Elizabeth</forename>
+                     <forename type="nick">Mossy</forename>
+                     <roleName>Mrs.</roleName>
                   </persName>
-                  <persName>Mossy</persName>
-                  <note resp="#scw">Title character of the <title ref="#OV">Our Village</title>
-                     sketch, <title>Mrs. Mosse</title>. She is a longtime servant in the household
-                     of the <persName ref="#OVNarrator">narrator</persName> and, according to
-                        <persName ref="#Needham_Francis">Francis Needham</persName>, based on the
-                     Mitfords’ own servant, <persName ref="#Cropp_Mrs">Mrs. Cropp</persName>.
-                     Source: <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
+                  <occupation type = "service"/>
+                  <!-- Check this type -->
+                  <note resp="#scw">Title character of the <title ref="#OV">Our Village</title> sketch, <title>Mrs. Mosse</title>. Nicknamed Mossy. She is a longtime servant in the household of the <persName ref="#OVNarrator">narrator</persName> and, according to <persName ref="#Needham_Francis">Francis Needham</persName>, based on the Mitfords' own servant, <persName ref="#Cropp_Mrs">Mrs. Cropp</persName>. Source: <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
                </person>
                <person xml:id="Mr_Dexter_fict" sex="m">
                   <persName>Mr. Dexter</persName>
@@ -19029,8 +19351,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title ref="#Ormond_novel">Ormond</title> (<date when="1817">1817</date>)</bibl>
                   </note>
                </person>
-               <person xml:id="Officer" sex="m"/>
-               <person xml:id="OfficersEldestSon" sex="m"/>
+               <person xml:id="Officer_OV" sex="m"><!--SCW: replaces Officer-->
+                  <persName>officer
+                  </persName>
+                  <occupation type = "military"/>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. He lives with his family in a small detached cottage. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="OfficersEldestSon_OV" sex="m">SCW: replaces OfficersEldestSon
+                  <persName>officer's son
+                  </persName>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title> as admiring <persName ref="#Lizzy_OV">Lizzy</persName>. Proper name not given.</note>
+               </person>
                <person xml:id="Oldbuck_Jonathan" sex="m">
                   <persName>John Oldbuck</persName>
                   <note resp="#esh">character in <title ref="#Antiquary">The
@@ -19097,26 +19429,29 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">character in <title ref="#Othello_play">Othello</title>
                   </note>
                </person>
-               <person xml:id="OV_Mrs_Nicholson" sex="f">
+               <person xml:id="Nicholson_Mrs_OV" sex="f"><!--SCW: replaces OV_Mrs_Nicholson-->
+                  <persName>Mrs. Nicholson</persName>
                   <persName>
                      <surname type="married">Nicholson</surname>
                   </persName>
-                  <persName>Mrs. Nicholson</persName>
-                  <note resp="#scw">
-                     <p>Character in <title ref="#OV">Our Village</title>, volume 5, <title>Early
-                           Recollections: A Widow’s Feather</title>. According to <persName ref="#Needham_Francis">Needham</persName>, she is based on a real
-                        acquaintance from <persName ref="#MRM">Mitford</persName>’s early years
-                        named <persName ref="#Nicholson_Mrs">Mrs. Nicholson</persName>, who was the
-                        widow of <persName ref="#Nicholson_Jeremiah">Jeremiah Nicholson,
-                           D.D.</persName>, the vicar of <placeName ref="#St_Lawrence_Church"/>.
-                        Source: <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</p>
-                  </note>
+                  <note resp="#scw">Character in <title ref="#OV">Our Village</title>, <title ref="#OurVillage_5th">volume 5</title>, <title ref="#Early_Rec_Widow_Gentlewoman_OV">Early Recollections: A Widow Gentlewoman</title>. According to <persName ref="#Needham_Francis">Needham</persName>, she is based on a real acquaintance from <persName ref="#MRM">Mitford</persName>'s early years named <persName ref="#Nicholson_Mrs">Mrs. Nicholson</persName>, who was the widow of <persName ref="#Nicholson_Jeremiah">Jeremiah Nicholson, D.D.</persName>, the vicar of <placeName ref="#St_Lawrence_Church"/>. Source: <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. Forename not given.
+                  </note><!--note to Lisa and Elisa: The note here is the same as currently in SI, except story title is corrected. The story is actually A Widow Gentlewoman. I found Needham's handwriting difficult, but have checked the text and confirmed this is the correct story.-->
                </person>
-               <person xml:id="OVNarrator">
-                  <note resp="#ebb">The unnamed narrator of <title ref="#OV" level="m">Our Village</title>.</note>
+               <person xml:id="OVNarrator" sex="u"><!--SCW: sex="f"? -->
+                  <persName>Our Village narrator
+                  </persName>
+                  <note resp="#scw">The narrator of all the <title ref="#OV">Our Village</title> stories. Though unnamed throughout the series, her activities and interests, the people she mentions and the language she uses all closely mirror those of <persName ref="#MRM">Mitford</persName>. Proper name not given.</note>
                </person>
-               <person xml:id="OVNarratorsMother">
-                  <note resp="#ebb">The mother of the narrator of <title ref="#OV" level="m">Our Village</title>.</note>
+               <person xml:id="OVNarratorsFather" sex="m">
+                  <persName>Our Village narrator's father
+                  </persName>
+                  <note resp="#scw">The character of the father of the <persName ref="#OVNarrator">narrator</persName> of the <title ref="#OV">Our Village</title> stories. In some sketches, such as <title ref="#Hannah_OV">Hannah</title>, he appears as a speaking character, while in others he is merely mentioned. His character hews closely to that of <persName ref="#Mitford_Geo">George Mitford</persName>. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="OVNarratorsMother" sex="f">
+                  <persName>Our Village narrator's mother
+                  </persName>
+                  <note resp="#scw">The character of the mother of the <persName ref="#OVNarrator">narrator</persName> of the <title ref="#OV">Our Village</title> stories. In some sketches, she appears as a speaking character, while in others she is mentioned or alluded to. Her character resembles that of <persName ref="#Russell_M">Mary Russell</persName>, <persName ref="#MRM">Mitford</persName>'s mother. Proper name not given.</note>
                </person>
                
                <person xml:id="Paolo_J" sex="m">
@@ -19152,7 +19487,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      horses and must be killed by Jupiter when he loses control of the vehicle and
                      endangers the earth.</note>
                </person>
-               <person xml:id="Phoebe" sex="f"/>
+               <person xml:id="Phoebe_OV" sex="f"><!--SCW: replaces Phoebe-->
+                  <persName>Phoebe</persName>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title> as the daughter of the <persName ref="#RoseInnLandlord">Rose Inn landlord</persName>. She is wooed by the <persName ref="#RecruitingSerjeant">recruiting serjeant</persName>, but in <title ref="#Village_Beau_OV">A Village Beau</title> is said to have married a <persName>patten-maker</persName>. Surnames not given.</note>
+               </person>
                <person xml:id="Pickle_P" sex="m">
                   <persName>
                      <surname>Pickle</surname>
@@ -19257,14 +19595,28 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>Rebecca</persName>
                   <note resp="#esh">character in <title ref="#Ivanhoe">Ivanhoe</title>.</note>
                </person>
-               <person xml:id="RecruitingSerjeant" sex="m"/>
+               <person xml:id="RecruitingSerjeant_OV" sex="m"><!--replaces RecruitingSerjeant-->
+                  <persName>Recruiting Serjeant</persName>
+                  <occupation type = "military"/>
+                  <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">Our Village</title> who is courting <persName ref="#Phoebe">Phoebe</persName>. In <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, he is said to have already been married. Proper name not given.</note>
+               </person>
                <person xml:id="Renzi_J" sex="m">
                   <persName>Renzi</persName>
                   <note resp="#ebb">an old Huntsman in <title ref="#Julian_MRMplay">Julian</title>
                   </note>
                </person>
-               <person xml:id="RetiredPublican" sex="m"/>
-               <person xml:id="RetiredPublicansWife" sex="f"/>
+               <person xml:id="RetiredPublican_OV" sex="m"><!--SCW: replaces RetiredPublican-->
+                  <persName>Mr. H.</persName>
+                  <occupation type = "government"/>
+                  <!-- Check this type -->
+                  <note resp="#scw">A particularly patriotic character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. He is based on a neighbor of <persName ref="#MRM">Mitford</persName>'s, who held an illumination for the acquittal of <persName ref="#Queen_Caroline">Queen Caroline</persName>, a local event she describes rather disapprovingly in a letter to <persName ref="#Elford_SirWm">William Elford</persName> on <date when="1820-11-21">November 21, 1820</date>. The retired publican's fate is described further in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>, where he is referred to as <q>blind Robert</q>. Full name not given. 
+                     <!--scw: forename inferred from a line of dialogue in A Parting Glance in which children call him "blind Robert, but uncertain whether 'blind Robert' is a colloquial term of abuse or his name. Will have to check around. Wonder if letters might hold a clue, since she mentions him.--></note> 
+               </person>
+               
+               <person xml:id="RetiredPublicansWife_OV" sex="f"><!--SCW: replaces RetiredPublicansWife-->
+                  <persName>Mrs. H.</persName>
+                  <note resp="#scw">The wife of the character of the <persName ref="#RetiredPublican_OV">retired publican</persName> from <title ref="#OurVillage_story_OV">the introductory sketch of <title ref="#OV">Our Village</title></title>. Proper name not given.</note>
+               </person>
                <person xml:id="RichardIII_WS" sex="m">
                   <persName>Richard III
                   </persName>
@@ -19310,9 +19662,33 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title ref="#Rienzi">Rienzi</title>
                   </note>
                </person>
-               <person xml:id="RoseInnLandlord" sex="m"/>
-               <person xml:id="RoseInnLandlordsSon" sex="m"/>
-               <person xml:id="RoseInnLandlordsWife" sex="f"/>
+               <person xml:id="RoseInnLandlord_OV" sex="m"><!--replaces RoseInnLandlord-->
+                  <persName>Rose Inn landlord
+                  </persName>
+                  <occupation type = "trade" subtype = "innkeeper"/>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title>, the introductory sketch of the <title ref="#OV">Our Village</title> series. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="RoseInnLandlordsSon_OV" sex="m"><!--replaces RoseInnLandlordsSon-->
+                  <persName>Rose Inn landlord's son 
+                  </persName>
+                  <note resp="#scw">This character is introduced in <title ref="#OurVillage_story_OV">Our Village</title>. He is the brother of <persName ref="#Phoebe">Phoebe</persName>. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="RoseInnLandlordsWife_OV" sex="f"><!--replaces RoseInnLandlordsWife-->
+                  <persName>Rose Inn landlord's wife
+                  </persName>
+                  <note resp="#scw">This character is introduced in <title ref="#OurVillage_story_OV">Our Village</title>. She has a son, and a daughter named <persName ref="#Phoebe">Phoebe</persName>. Proper name not given.</note>
+               </person>
+               <person xml:id="Ellis_Robert_OV" sex="m">
+                  <persName>Robert Ellis</persName>
+                  <persName>
+                     <surname>Ellis</surname>
+                     <forename>Robert</forename>
+                  </persName>
+                  <note resp="#scw">Character mentioned in the <title ref="#OV"><title ref="#Our_Village1st_ed">Our Village, volume 1</title></title> sketch <title ref="#Hannah_OV">Hannah</title> as a poor competitor to <persName ref="#Wilson_John_OV">John Wilson</persName>'s abilities as a man-of-all-trades.</note>
+               </person>
+               
                <person xml:id="Rowena_WS" sex="f">
                   <persName>Rowena</persName>
                   <note resp="#lmw">Character in <title ref="#Ivanhoe">Ivanhoe</title>
@@ -19405,14 +19781,40 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw #tlh">Character of Sforza in <title ref="#Foscari_MRMplay">Foscari</title>. See also the character's historical counterpart: <persName ref="#Sforza_hist">General Sforza</persName>.
                   </note>
                </person>
+               <person xml:id="shivering_lady_OV" sex="f">
+                  <persName>shivering lady</persName>
+                  <note resp="#scw">A character whom the <persName ref="#OVNarrator">narrator</persName> encounters in the <title ref="#Our_Village1st_ed">Our Village</title> story <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title> Proper name not given..</note>
+               </person>
                
-               <person xml:id="Shoemaker" sex="m"/>
-               <person xml:id="ShoemakersDaughter" sex="f"/>
-               <person xml:id="ShoemakersWife" sex="f"/>
-               <person xml:id="Shopkeeper" sex="m"/>
-               <person xml:id="ShopkeepersLodger1"/>
-               <person xml:id="ShopkeepersLodger2"/>
-               <person xml:id="ShopkeepersWife" sex="f"/>
+               <person xml:id="Shoemaker_OV" sex="m"><!--SCW: replaces Shoemaker-->
+                  <persName>shoemaker
+                  </persName>
+                  <occupation type = "trade" subtype = "shoemaker"/>
+                  <note resp="#scw">Character described in <title ref="#OurVillage_story_OV">Our Village</title> as a sober, industrious man. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="ShoemakersDaughter_OV" sex="f"><!--SCW: replaces ShoemakersDaughter-->
+                  <persName>shoemaker's daughter
+                  </persName>
+                  <note resp="#scw">Character described in <title ref="#OurVillage_story_OV">Our Village</title>. She goes from the age of fourteen to sixteen from the first story to the final one in the first series, <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title>. She is said to be the <persName ref="#OVNarrator">narrator</persName>'s <quote>opposite neighbour,</quote> suggesting a proximity of residence to the family. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="ShoemakersWife_OV" sex="f"><!--SCW: replaces ShoemakersWife-->
+                  <persName>shoemaker's wife
+                  </persName>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. Proper name not given.</note>
+               </person>
+               <person xml:id="Shopkeeper_OV" sex="m"><!--SCW: replaces Shopkeeper-->
+                  <persName>shopkeeper
+                  </persName>
+                  <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">Our Village</title>. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="ShopkeepersWife" sex="f"><!--SCW: replaces ShopkeepersWife-->
+                  <persName>shopkeeper's wife
+                  </persName>
+                  <note resp="#scw">Character mentioned in <title ref="#OurVillage_story_OV">Our Village</title>. Proper name not given.</note>
+               </person>
                <person xml:id="SmithMr_Evelina" sex="m">
                   <persName>Mr. Smith</persName>
                   <note resp="#lmw">Character in <title ref="#Evelina_FB">Evelina</title>; Mitford
@@ -19505,9 +19907,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         of Tom Jones, A Foundling</bibl> by <persName ref="#Fielding_Henry">Henry
                         Fielding</persName> (1749)</note>
                </person>
-               <person xml:id="Wheeler" sex="m"/>
-               <person xml:id="WheelersWife" sex="f"/>
-               <person xml:id="WhimsicalPerson"/>
+               <person xml:id="Wheeler_OV" sex="m"><!--SCW: replaces Wheeler-->
+                  <persName>wheeler
+                  </persName>
+                  <occupation type = "trade"/>
+                  <!-- Check this type -->
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title> as a very civil and courteous man. The <persName ref="#Curate_OV">curate</persName> lodges at his family's house, distinctive for its green door and knocker. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="WheelersWife_OV" sex="f"><!--SCW: replaces WheelersWife-->
+                  <persName>wheeler's wife
+                  </persName>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title>. With her <rs type="person" ref="#Wheeler_OV">husband</rs>, she lodges the <persName ref="#Curate_OV">curate</persName> at her home. Proper name not given.</note>
+               </person>
+               
+               <person xml:id="Wealthy_Renovator_OV" sex="m"><!--SCW: replaces WhimsicalPerson--><!--This sounds more descriptive-->
+                  <persName>wealthy renovator
+                  </persName>
+                  <note resp="#scw">Character introduced in <title ref="#OurVillage_story_OV">Our Village</title> as an wealthy man who continually refurbishes the house he owns in the village. He re-appears in <title ref="#Parting_Glance_OV">A Parting Glance at Our Village</title> to finish the work, and let the house to the incoming <persName ref="#Vicar_OV">vicar</persName>. Proper name not given.</note>
+               </person>
                <person xml:id="White_Spirit_WS">
                   <persName>the White Spirit</persName>
                   <note resp="#lmw">The White Spirit is a supernatural guardian spirit character in
