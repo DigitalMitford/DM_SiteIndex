@@ -2851,6 +2851,124 @@
             </listOrg>
             
             <listPerson sortKey="histPersons">
+               <person xml:id="Debar_Mr" sex="m">
+                  <persName>Mr. Debar</persName>
+                  <persName>
+                     <surname>Debar</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>.</note>
+               </person>
+               
+               <person xml:id="Thomas_Mr" sex="m">
+                  <persName>Mr. Thomas</persName>
+                  <persName>
+                     <surname>Thomas</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Fleming_Mr" sex="m">
+                  <persName>Mr. Fleming</persName>
+                  <persName>
+                     <surname>Fleming</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Chippendale_Mr" sex="m">
+                  <persName>Mr. Chippendale</persName>
+                  <persName>
+                     <surname>Chippendale</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.<!-- LMW: William Henry Chippendale? b. 1801, active 1830s to 1850s at Haymarket. --></note>
+               </person>
+               
+               <person xml:id="Selby_Mr" sex="m">
+                  <persName>Mr. Selby</persName>
+                  <persName>
+                     <surname>Selby</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note><!-- LMW: Possibly SELBY, CHARLES (1802?–1863), actor and dramatist?  -->
+               </person>
+               
+               <person xml:id="Horrebow_Mr" sex="m">
+                  <persName>Mr. Horrebow</persName>
+                  <persName>
+                     <surname>Horrebow</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Active in London theaters in the 1820s and early 1830s. Forename unknown.More research needed.</note>
+               </person>
+               
+               <person xml:id="Henry_Miss" sex="f">
+                  <persName>Miss Henry</persName>
+                  <persName>
+                     <surname>Henry</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Forename unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Mildenhall_Mr" sex="m">
+                  <persName>Mr. Mildenhall</persName>
+                  <persName>
+                     <surname>Mildenhall</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note><!--LMW: Possibly Thomas Mildenhall, author of "the governor's wife"?-->
+               </person>
+               
+               <person xml:id="Kerridge_Mr" sex="m">
+                  <persName>Mr. Kerridge</persName>
+                  <persName>
+                     <surname>Kerridge</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Green_Mr" sex="m">
+                  <persName>Mr. Green</persName>
+                  <persName>
+                     <surname>Green</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation>theater</occupation>
+                  <occupation>actor</occupation>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Forename unknown. More research needed.</note>
+               </person>
+               
                
                <person xml:id="Cathcart_Mr" sex="m">
                         <persName>Mr. Cathcart</persName>
@@ -17617,7 +17735,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Character in <title ref="#Ivanhoe">Ivanhoe</title>
                   </note>
                </person>
-               <person xml:id="Salisbury" sex="m"><!--ebb: We need to correlate the fictional refs from Mitford's Charles I to their historical counterparts-->
+               <person xml:id="Salisbury" sex="m">
                   <persName>Lord Salisbury</persName>
                   <note resp="#ebb">A Commissioner appointed by Parliament to treat with the
                         <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
@@ -17637,15 +17755,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Title character from <persName ref="#Byron">Byron</persName>'s tragedy
                      <title ref="#Sardanapalus_play">Sardanapalus</title>, about a doomed Assyrian tyrant. Role <persName ref="#Macready_Wm">William Macready</persName> originated the role in <date when="1834">1834</date>, after Byron's death.</note>
                </person>
+               
                <person xml:id="Savelli" sex="m">
-                  <persName>Savelli</persName>
+                  <persName>Lord Savelli</persName>
+                  <persName>
+                     <surname>Savelli</surname>
+                     <roleName>Lord</roleName>
+                  </persName>
+                  <occupation type="government" subtype="courtier"/>
+                  <note resp="#lmw">Lord Savelli is a character in <title ref="#Rienzi">Rienzi</title>; one of the members of the Colonna faction. Played by <persName ref="#Aitken_Mr">Mr. Aitken</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
+               
                <person xml:id="Say" sex="m">
                   <persName>Lord Say</persName>
-                  <note resp="#ebb">A Commissioner appointed by Parliament to treat with the
-                        <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford’s</persName> play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title>.</note>
+                  <persName>
+                     <roleName>Lord</roleName>
+                     <surname>Say</surname></persName>
+                  <note resp="#ebb">The character of a Commissioner appointed by Parliament to treat with the
+                     <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
+                        I</title>. Original role created by <persName ref="#Mildenhall_Mr">Mr. Mildenhall</persName>. See also the character's historical counterpart: <persName ref="#Say_hist">William Say</persName>. </note>
                </person>
+               
                <person xml:id="Sebastian_TN" sex="m">
                   <persName>
                      <forename>Sebastian</forename>
