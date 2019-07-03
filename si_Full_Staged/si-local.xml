@@ -1120,7 +1120,7 @@
                   <note type="bio"/>
                   <note type="bio">Austin Calderwood is at work on an M.A. in English and
                      Communication from SUNY Potsdam. As part of Dr. Wilson’s Fall 2015 graduate
-                     course, "Book History in a Digital Age," he worked on a class project to edit
+                     course, Book History in a Digital Age, he worked on a class project to edit
                      the sonnets from Mitford’s Dramatic Scenes, Sonnets, and Other Poems (1827).
                   </note>
                </person>
@@ -1993,7 +1993,7 @@
                </org>
                <org xml:id="Americans">
                   <orgName>Americans</orgName>
-                  <note>people of the former British colonies recently become the United States in
+                  <note resp="#ebb">People of the former British colonies recently become the United States in
                      Mitford’s day, or more generally of North America.</note>
                </org>
                <org xml:id="AMS_pub">
@@ -2039,8 +2039,8 @@
                </org>
                <org xml:id="Billiard_Club">
                   <orgName>Billiard Club</orgName>
-                  <note resp="#err">A club that <persName ref="#Mitford_Geo">George
-                        Mitford</persName> and perhaps <persName ref="#Palmer_CF">Mr.
+                  <note resp="#err">A club in <placeName ref="#Reading_city">Reading</placeName>that <persName ref="#Mitford_Geo">George
+                        Mitford</persName> and <persName ref="#Palmer_CF">Charles Fyshe
                         Palmer</persName> are members of.</note>
                </org>
                <org xml:id="Blackie_pub">
@@ -2090,8 +2090,9 @@
                </org>
                <org xml:id="Bourbon">
                   <orgName>House of Bourbon</orgName>
+                  <orgName>the Bourbons</orgName>
                   <note resp="#rnes">. Dynasty that ruled <placeName>France</placeName> from
-                     1589-1792 and 1814-30. </note>
+                     1589-1792 and 1814-30.</note>
                </org>
                <org xml:id="Cadell_Davies_pub">
                   <orgName>T. Cadell and W. Davies</orgName>
@@ -2123,7 +2124,7 @@
                </org>
                <org xml:id="Cavaliers">
                   <orgName>Cavaliers</orgName>
-                  <note resp="#rnes">. Colloquialism for the Monarchist faction in <rs type="event" ref="#EngCivilWar">the English Civil Wars (1642-51)</rs>.</note>
+                  <note resp="#rnes">Colloquialism for the Monarchist faction in <rs type="event" ref="#EngCivilWar">the English Civil Wars</rs>.</note>
                </org>
                <org xml:id="Century_pub">
                   <orgName>Century Co.</orgName>
@@ -2198,7 +2199,7 @@
                      <ref target="http://viaf.org/viaf/156672148"/>
                   </note>
                </org>
-               <org xml:id="Court_of_Kings_Bench"><!-- lmw: I think this needs to be reassigned to an orgName. It's not a singular location. -->
+               <org xml:id="Court_of_Kings_Bench">
                   <orgName>Court of King’s Bench</orgName>
                   <note resp="#err">One of the high courts of <placeName ref="#England">England</placeName> that heard both criminal and civil cases. Located in Westminster Hall since 1318. For detailed historical information, see <ref target="https://en.wikipedia.org/wiki/Court_of_King's_Bench_(England)">Wikipedia entry</ref>.</note>
                </org>
@@ -2222,6 +2223,8 @@
                   </note>
                </org>
                <org xml:id="Drovers">
+                  <orgName>the Drover family</orgName>
+                  <orgName>Drovers</orgName>
                   <orgName>
                      <surname>Drover</surname>
                   </orgName>
@@ -2277,7 +2280,7 @@
                </org>
                <org xml:id="Geo_Bell_pub">
                   <orgName>George Bell &amp; Sons</orgName>
-                  <note resp="#lmw">George Bell &amp; Sons was a publishing firm located in <placeName ref="#London_city">London</placeName>, founded by <persName ref="#Bell_Geo">George Bell</persName> in <date when="1839">1839</date>. In <date when="1856">1856</date> Bell took <persName>Frederick Daldy</persName> into partnership and the firm became <orgName ref="#Bell_Daldy_pub">Bell &amp; Daldy</orgName>; it reverted to George Bell and Sons upon <persName>Daldy</persName>'s leaving the firm. The firm operated premises at <placeName>186 Fleet Street</placeName> and later at <placeName>4 York Street, Covent Garden,</placeName> in <placeName ref="#London_city">London</placeName>the former premises of <persName ref="#Bohn_GH">George Henry Bohn</persName>. As Bell and Daldy, the firm purchased rights to the titles in <title level="s">Bohn's Standard Library series</title> from <persName ref="#Bohn_pub">Bohn</persName> in <date when="1864">1864</date>, and reprinted editions of <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> based on the two-volume <orgName ref="#Bohn_pub">Bohn</orgName>edition first published in <date when="1848">1848</date>.  Source: WorldCat.</note>
+                  <note resp="#lmw">George Bell &amp; Sons was a publishing firm located in <placeName ref="#London_city">London</placeName>, founded by <persName ref="#Bell_Geo">George Bell</persName> in <date when="1839">1839</date>. In <date when="1856">1856</date> Bell took <persName>Frederick Daldy</persName> into partnership and the firm became <orgName ref="#Bell_Daldy_pub">Bell &amp; Daldy</orgName>; it reverted to George Bell and Sons upon <persName>Daldy</persName>'s leaving the firm. The firm operated premises at <placeName>186 Fleet Street</placeName> and later at <placeName>4 York Street, Covent Garden,</placeName> in <placeName ref="#London_city">London</placeName>the former premises of <persName ref="#Bohn_GH">George Henry Bohn</persName>. As Bell and Daldy, the firm purchased rights to the titles in <title level="s">Bohn's Standard Library series</title> from <persName ref="#Bohn_pub">Bohn</persName> in <date when="1864">1864</date>, and reprinted editions of <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> based on the two-volume <orgName ref="#Bohn_pub">Bohn</orgName>edition first published in <date when="1848">1848</date>. Source: WorldCat.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/135166554"/>
                   </note>
@@ -2341,12 +2344,12 @@
                </org>
                <org xml:id="House_Commons">
                   <orgName>House of Commons</orgName>
-                  <note resp="#rnes">. The "lower" house of the bicameral Parliament, the Commons
+                  <note resp="#rnes">. The lower house of the bicameral Parliament, the Commons
                      was established in the mid-thirteenth century.</note>
                </org>
                <org xml:id="House_Lords">
                   <orgName>House of Lords</orgName>
-                  <note resp="#lmw">In Mitford’s time, the "upper" house of the bicameral Parliament
+                  <note resp="#lmw">In Mitford’s time, the upper house of the bicameral Parliament
                      of Great Britain.</note>
                </org>
                <org xml:id="Hurst_Blackett_pub">
@@ -2412,6 +2415,7 @@
                </org>
                <org xml:id="Kemble_family">
                   <orgName>the Kembles</orgName>
+                  <orgName>the Kemble family</orgName>
                   <note resp="#ebb">This includes <persName ref="#Kemble_C">Charles Kemble</persName>, his brother <persName ref="#Kemble_JP">John Phillip Kemble</persName>, his sister <persName ref="#Siddons_Sarah">Sarah Siddons</persName>, his wife <persName ref="#Kemble_MrsC">Mrs. Charles Kemble</persName>, and his daughter <persName ref="#Kemble_Frances">Fanny Kemble</persName>.</note>
                </org>
                <org xml:id="Lancastrians">
@@ -2448,7 +2452,7 @@
                </org>
                <org xml:id="Marylebone_Cricket_Club">
                   <orgName>Marylebone Cricket Club</orgName>
-                  <note resp="#rct #lmw">Founded in <placeName ref="#London_city">London</placeName>in 1787, the Marylebone Cricket Club ("MCC") is still in
+                  <note resp="#rct #lmw">Founded in <placeName ref="#London_city">London</placeName>in 1787, the Marylebone Cricket Club (MCC) is still in
                      existence today. It owns and has been based at Lord’s Cricket Ground in St
                      John’s Wood, London since 1814. It was formerly the governing body for cricket
                      worldwide, as well as in England and Wales, and retains the copyright for the
@@ -2459,7 +2463,8 @@
                </org>
                <org xml:id="Medici">
                   <orgName>House of Medici</orgName>
-                  <note resp="#rnes">Dynasty that ruled various Italian territories from 1434 to
+                  <orgName>Medicis</orgName>
+                  <note resp="#rnes">Dynasty that ruled various territories in Italy from 1434 to
                      1737, excepting in 1494-1512 and 1527-30, and also provided
                         <placeName>France</placeName> with several queens.</note>
                </org>
@@ -2471,6 +2476,8 @@
                      fiction.</note>
                </org>
                <org xml:id="Mitfords">
+                  <orgName>Mitfords</orgName>
+                  <orgName>the Mitford family</orgName>
                   <orgName>
                      <surname>Mitford</surname>
                   </orgName>
@@ -2479,16 +2486,20 @@
                      household.</note>
                </org>
                <org xml:id="Mitfords_Ma_Pa">
-                  <orgName>Dr. and Mrs. Mitford</orgName>
+                  <orgName>George and Mary Mitford</orgName>
+                  <note resp="#ebb"><persName ref="#MRM">Mary Russell Mitford</persName>'s parents, <persName ref="#Mitford_Geo">George</persName> and <persName ref="#Russell_M">Mary</persName>.</note>
                </org>
                <org xml:id="Monck_family">
-                  <orgName>the Moncks, family of <persName ref="#Monck_JB">John Berkeley
-                        Monck</persName>
+                  <orgName>the Monck family</orgName>
+                  <orgName>the Moncks</orgName>
+                    <note resp="#lmw>The family of <persName ref="#Monck_JB">John Berkeley
+                        Monck</persName>.</note>
                   </orgName>
                </org>
                <org xml:id="MPs">
-                  <orgName>Members of <orgName ref="#Parliament_UK">Parliament</orgName>
-                  </orgName>
+                  <orgName>Members of Parliament</orgName>
+                  <note resp="#lmw">Members of <orgName ref="#Parliament_UK">Parliament</orgName>
+                  </note>
                </org>
                <org xml:id="Murray_pub">
                   <orgName>John Murray</orgName>
@@ -2516,18 +2527,19 @@
                   </note>
                </org>
                <org xml:id="Palmerite">
-                  <orgName>Palmerite</orgName>
-                  <note resp="#ajc">Supporter of <persName ref="#Palmer_CF">Charles Fyshe
+                  <orgName>Palmerites</orgName>
+                  <note resp="#ajc">Supporters of <persName ref="#Palmer_CF">Charles Fyshe
                         Palmer</persName> in the Reading elections of <date when="1820-03-16">March
                         16, 1820</date>.</note>
                </org>
-               <org xml:id="Parfitt_family">
-                  <orgName>the Parfitt’s</orgName>
+               <org xml:id="Parfitt_family"><!--LMW stub-->
+                  <orgName>the Parfitts</orgName>
+                  <orgName>the Parfitt family</orgName>
                </org>
                <org xml:id="Parliament_UK">
                   <orgName>Parliament</orgName>
                   <note resp="#ajc">Parliament of the United Kingdom of Great Britain and Northern
-                     Ireland; supreme legislative body in <placeName ref="#England">England</placeName>. </note>
+                     Ireland; supreme legislative body in <placeName ref="#England">England</placeName>.</note>
                </org>
                <org xml:id="Parliamentarians">
                   <orgName>Parlimentarians</orgName>
@@ -2550,8 +2562,8 @@
                <org xml:id="Prelacy">
                   <orgName>Prelacy</orgName>
                   <orgName>Prelates</orgName>
-                  <note resp="#rnes">. Colloquially, the Archbishops and bishops of the
-                        <orgName>Church of England</orgName>. [See Britannica.]</note>
+                  <note resp="#rnes">Colloquially, the Archbishops and bishops of the
+                        <orgName ref="#Church_of_E">Church of England</orgName>. Source: Britannica.</note>
                </org>
                <org xml:id="PrenticeHall_pub">
                   <orgName>Prentice Hall</orgName>
@@ -2564,15 +2576,15 @@
                   <orgName>the Presybterian faction</orgName>
                   <orgName>Peace Party</orgName>
                   <note resp="#ebb">Faction in <orgName ref="#Parliament_UK">Parliament</orgName>
-                     during <rs type="event" ref="#EngCivilWar">the English Civil War</rs> which
+                     during <rs type="event" ref="#EngCivilWar">the English Civil War</rs> that
                      sought peace and negotiation with <persName ref="#ChasI">King Charles
                         I</persName>. Its members were not all Presbyterian by religious persuasion,
-                     but they sought support for Presbyterianism as a state sanctioned church. They
+                     but they sought support for Presbyterianism as a state-sanctioned church. They
                      were opposed by the Independents and leaders of <orgName ref="#New_Model_Army">the New Model Army</orgName>. [Source: <ref target="http://bcw-project.org/church-and-state/sects-and-factions/presbyterians">BCW Project</ref>]</note>
                </org>
                <org xml:id="Privy_Council">
                   <orgName>Privy Council</orgName>
-                  <note resp="#rnes">. Councillors to the British king or queen. </note>
+                  <note resp="#rnes">Councillors to the British monarch</note>
                </org>
                <org xml:id="Puritans">
                   <orgName>Puritans</orgName>
@@ -2583,7 +2595,8 @@
                   <note resp="#rnes">The Commissioners of the trial of <persName ref="#ChasI">Charles I</persName> who signed his death warrant on <date when="1649-01-29">January 29, 1649</date>.</note>
                </org>
                <org xml:id="Richmond_Coach">
-                  <orgName>Richmond Coach or Stage</orgName>
+                  <orgName>Richmond Coach</orgName>
+                  <note resp="#kdc">Stage coach that travelled to Richmond.</note>
                </org>
                <org xml:id="Rolandi_pub">
                   <orgName>Pierre Rolandi</orgName>
@@ -2598,7 +2611,7 @@
                      Arts of Design," a society that would sponsor an annual exhibition (later the
                      Summer Exhibition) as well as a School of Design (later the Royal Academy
                      Schools.) Thirty-four founding members were elected; today, the society elects
-                     no more than 80 members at one time as Royal Academicians (Members of the Royal
+                     no more than eighty members at one time as Royal Academicians (Members of the Royal
                      Academy, RA). During Mitford’s time, the Royal Academy was housed at <placeName ref="#Somerset_House">Somerset House</placeName>, a building designed and
                      built by Chambers beginning in <date when="1776">1776</date> and likely not
                      completed until after <date notAfter="1819">1819</date>. The institution moved
@@ -2680,6 +2693,8 @@
                   </note>
                </org>
                <org xml:id="Slades">
+                  <orgName>the Slades</orgName>
+                  <orgName>Slade family</orgName>
                   <orgName>
                      <surname>Slade</surname>
                   </orgName>
@@ -2738,21 +2753,21 @@
                <org xml:id="Tory">
                   <orgName>Tory Party</orgName>
                   <addName>Conservative Party</addName>
-                  <note resp="#kdc">
-                     <p>Originally, a 17th-century insulting nickname for those who supported
+                  <note resp="#kdc">Originally, a 17th-century insulting nickname for those who supported
                            <persName ref="#JamesII">James II</persName>’s right to the throne of
-                        England, even though he was Catholic. The term connoted "Irish Catholic
-                        outlaw." The term was adopted by the party, which became generally
+                        England, even though he was Catholic. The term connoted an Irish Catholic
+                        outlaw. The term was adopted by the party, which became generally
                         affiliated with the interests of the country gentry, Anglicanism, and
                         support of the divine right of kings. The party was loosely affiliated until
-                        the late 18th century, when <persName>William Pitt the Younger</persName>
+                        the late 18th century, when <persName ref="#PittWm_younger">William Pitt the Younger</persName>
                         emerged as the leader of a revitalized party. The Conservative Party,
-                        founded in <date>1834</date> by <persName>Sir Robert Peel</persName>,
-                        absorbed and organized the Tory Party and retained the party nickname.</p>
+                        founded in <date>1834</date> by <persName ref="#Peel_Rbt">Sir Robert Peel</persName>,
+                        absorbed and organized the Tory Party and retained the party nickname.
                   </note>
                </org>
                <org xml:id="Twickenham_Coach">
-                  <orgName>Twickenham Coach or Stage</orgName>
+                  <orgName>Twickenham Coach</orgName>
+                  <note resp="#kdc">Stage coach that travelled to Twickenham.</note>
                </org>
                <org xml:id="TWLaurie_pub">
                   <orgName>T. Werner Laurie</orgName>
@@ -2772,10 +2787,12 @@
                   <note resp="#lmw">The Unit Library, Ltd. was a publishing firm located in <placeName ref="#London_city">London</placeName> and <placeName ref="#New_York_city">New York</placeName>. Publisher of a <date when="1902">1902</date> reprint of a selection of stories from <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> as The Unit Library, No. 21, containing endnotes and a biographical appendix signed "A.R.W."<!--LMW: no corporate VIAF #.--></note>
                </org>
                <org xml:id="Valpys">
+                  <orgName>the Valpys</orgName>
+                  <orgName>Valpy family</orgName>
                   <orgName>
                      <surname>Valpy</surname>
                   </orgName>
-                  <orgName>the Valpys</orgName>
+                  
                   <note resp="#ebb">
                      <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and his family,
                      including his first and second wife, his <rs type="person" ref="#Valpy_Miss">daughters</rs>, including <persName ref="#Valpy_Penelope">Penelope</persName> and <persName ref="#Valpy_Catherine">Catherine</persName> one or more of whom were friends with with <persName ref="#MRM">Mary Russell Mitford</persName>, and his sons, including
@@ -2789,12 +2806,14 @@
                   </note>
                </org>
                <org xml:id="Webbs">
+                  <orgName>the Webbs</orgName>
+                  <orgName>the Webb Family</orgName>
                   <orgName>
                      <surname>Webb</surname>
                      <note resp="#ebb">
                         <rs type="person"
                             ref="#Webb_Eliza #Webb_Mary_younger #Webb_James #Webb_Mary_elder">A
-                           family</rs> in <placeName>Wokingham</placeName> connected with a brewery
+                           family</rs> in <placeName ref="#Wokingham_city">Wokingham</placeName> connected with a brewery
                         there, frequent correspondents with <persName ref="#MRM">Mary Russell
                            Mitford</persName> in <date notBefore="1810" notAfter="1830">the 1810s
                            and
@@ -2802,16 +2821,18 @@
                   </orgName>
                </org>
                <org xml:id="Weylandite">
-                  <orgName>Weylandite</orgName>
-                  <note resp="#ajc"> Weyland supporter; On March 16, 1820, an election in Reading
+                  <orgName>Weylandites</orgName>
+                  <note resp="#ajc">Weyland supporters. On March 16, 1820, an election in Reading
                      was held. There were three candidates: <persName ref="#Monck_JB">John Berkeley
                         Monck</persName> (418 votes), <persName ref="#Palmer_CF">Charles Fyshe
                         Palmer</persName>(399 votes), and <persName ref="#Weyland_John">John
                         Weyland</persName>(395
-                     votes.)http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading</note>
+                     votes.</note>
+                  <note><target ref="http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading"/></note>
                </org>
-               <org xml:id="Whigs">
+               <org xml:id="Whigs"><!--stub-->
                   <orgName>the Whig party</orgName>
+                  <orgName>Whigs</orgName>
                </org>
                <org xml:id="WhiteLion_pub">
                   <orgName>White Lion Publishers</orgName>
@@ -17134,8 +17155,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <birth notBefore="1797-03-03">
                      <placeName/>
                   </birth>
-                  <note resp="#scw #lmw">Elizabeth Webb, called Eliza, was a neighbor and friend
-                     of <persName ref="#MRM">Mary Russell Mitford</persName>. Eliza Webb was born
+                  <note resp="#scw #lmw">Elizabeth Webb, called Eliza, was a neighbor and friend of <persName ref="#MRM">Mary Russell Mitford</persName>. Eliza Webb was born
                      about 1797, the youngest daughter of James Webb, Esq., and Jane Elizabeth
                      Ogbourn. She was baptized privately on <date when="1797-03-03">March 3,
                         1797</date>, and publicly on <date when="1797-06-08">June 8, 1797</date> in
@@ -17947,7 +17967,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      titled <title level="a">Noureddin Ali of Cairo</title> or <title level="a">Noureddin and his Son.</title></note>
                </person>
                
-               <person xml:id="JackRapley" sex="m">
+               <person xml:id="Rapley_Jack_OV" sex="m">
                   <persName>
                      <surname>Rapley</surname>
                      <forename>Jack</forename>
@@ -18295,8 +18315,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#kdc">Possibly a deleted character in <persName ref="#MRM">Mitford</persName>'s <title ref="#CharlesI_MRMplay">Charles I</title>. <persName ref="#coles">Coles</persName> identifies the undated fragment in which Alice appears as having been written in <date when="1823-07">July</date> or <date when="1823-08">August, 1823</date>, although <rs type="letter">in her letter to <persName ref="#Talfourd_Thos">Talfourd</persName> dated <date when="1823-09-09">9 November 1823</date></rs>, <persName ref="#MRM">Mitford</persName> indicates that she will delete the scene. The character does not appear in the final version of the play.</note>
                </person>
                
-               <person xml:id="Ambassador_R">
+               <person xml:id="Ambassador_R" sex="m">
                   <persName>Ambassador</persName>
+                  <note resp="#lmw">The character of the Ambassador in <title ref="#Rienzi">Rienzi</title>. No proper name given.</note>
                </person>
                <person xml:id="Annabel_J" sex="f">
                   <persName>Annabel</persName>
@@ -18317,10 +18338,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Annaly</surname>
                      <forename/>
                   </persName>
-                  <note type="bio" resp="#ajc">Daughter of <persName ref="#Annaly_Lady_char"> Lady
+                  <note type="bio" resp="#ajc">Daughter of <persName ref="#Annaly_Lady_char">Lady
                         Annaly</persName> in <bibl>
                         <author ref="#Edgeworth_Maria"> Maria Edgeworth’s</author>
-                        <title ref="#Ormond_novel">Ormond</title> (<date when="1817">1817</date>)</bibl>
+                        <title ref="#Ormond_novel">Ormond</title>.</bibl>
                   </note>
                </person>
                <person xml:id="Antigone_A" sex="f">
@@ -18441,7 +18462,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Brent</surname>
                      <forename>Joel</forename>
                   </persName>
-                  <occupation type = "trade" subtype="carter"/>
+                  <occupation type = "trade"/><!--LMW: add subtype="carter"-->
                   <note resp="#scw">Protagonist of <title ref="#Village_Beau_OV">A Village Beau</title>, the <title ref="#Our_Village1st_ed">Our Village</title> story, where he courts <persName ref="#Harriet_ShopLodger_OV">Harriet</persName>. He is the half-brother of <persName ref="#Lizzy_OV">Lizzy</persName>. <persName ref="#Needham_Francis">Francis Needham</persName> identifies a local <persName ref="#Brent_Joel">Joel Brent</persName> on whom the character was likely based.</note>
                </person>
                
@@ -19083,6 +19104,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="Leon" sex="m">
+                  <persName>Leon</persName>
                   <note resp="#kdc">Character in <title ref="#Rule_a_Wife_play">Rule a Wife and Have
                         a Wife</title> by <persName ref="#Beaumont_Fr">Beaumont</persName> and
                         <persName ref="#Fletcher_John">Fletcher</persName>
@@ -23299,8 +23321,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title level="s">Romantic Circles Praxis Series</title> volume <title level="m">John Thelwall: Critical Reassessments</title>,
                         <date when="2011-09">September 2011</date>.</bibl></note>
                   <note><ref target="http://www.rc.umd.edu/praxis/thelwall/HTML/praxis.2011.esterhammer.html"/>
-                     </bibl>
-                  </note>
+</note>
                </bibl>
                <bibl xml:id="Pledge_Friendship">
                   <title level="j">The Pledge of Friendship: A Christmas Present, and New Year's Gift
