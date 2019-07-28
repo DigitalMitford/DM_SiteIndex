@@ -988,11 +988,11 @@
                   <note resp="#ghb">83 letters from <persName ref="#MRM">MRM</persName> to <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName>.</note>
                </org>
                <org xml:id="ReadingCL">
-                  <orgName>Reading Central Library <note resp="#ghb">The principal archive of Mary
+                  <orgName>Reading Central Library</orgName>
+                     <note resp="#ghb">The principal archive of Mary
                         Russell Mitford’s personal papers and related documents, holding
                         approximately 1,000 manuscripts and a nearly comprehensive collection of her
                         publications.</note>
-                  </orgName>
                </org>
                <org xml:id="RuskinL">
                   <orgName>John Ruskin Library, Lancaster</orgName>
@@ -1009,7 +1009,7 @@
                </org>
                <org xml:id="ScotlandNL">
                   <orgName>National Library of Scotland, Manuscript Collections</orgName>
-                  <note resp="#ghb">? No record found at this library, but the National Archives
+                  <note resp="#ghb">No record found at this library, but the National Archives
                      lists letters from <persName ref="#MRM">MRM</persName> to <title ref="#Blackwoods">Blackwoods magazine</title>, spanning <date>1826</date> to
                         <date>1854</date>. Check the Location Register of English Literary
                      Manuscripts.</note>
@@ -1479,7 +1479,7 @@
                   </occupation>
                   <note type="bio">In 2014, Mehaque Kohli was a fourth year International
                      Development Studies major at UCLA. She is originally from New Delhi, India,
-                     where she was born and completed her high school education. After graduation
+                     where she completed her high school education. After graduation
                      she hopes to work with the UN and start her own nonprofit in India someday. She
                      worked on Digital Mitford in 2014.
                   </note>
@@ -1840,7 +1840,7 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="religious" subtype="clergy"/>
-                  <note resp="#ebb #lmw">
+                  <note resp="#ebb #lmw"><!--LMW: condense-->
                      <p>A lifelong friend of <persName ref="#MRM">Mary Russell Mitford</persName>
                         who knew her from their childhood in the 1790s, Harness launched the first
                         major effort to collect and edit Mitford’s letters into a series of volumes,
@@ -1867,12 +1867,12 @@
                         after many years of distance, Harness assured Macready in person that he was
                         not the writer, though he may have shared word of the poor treatment his
                         friend had endured.</p>
-                     <p>William Harness was born on March 14, 1790 in Wickham, Berkshire to John
+                     <p>William Harness was the son of John
                         Harness, M.D. and Sarah Dredge; he was baptized at Whitchurch, Hampshire on
                         April 13, 1790. He received his B.A. in 1812 and his M.A. in 1816 from
                         Christ’s College, Cambridge. He served as curate at Kelmeston, Hampshire
                         (1812) and Dorking (1814-1816). He was preacher at Trinity Chapel, Conduit
-                        Stree, London and minister and lecturer at St. Anne’s in Soho. He was Boyle
+                        Street, London and minister and lecturer at St. Anne’s in Soho. He was Boyle
                         lecturer in London (1822) and was curate at Hampstead from 1828 to 1844. In
                         1825, he published an eight-volume edition of Shakespeare, including a
                         biography; his friends would later endow a prize in his name at Cambridge
@@ -1884,7 +1884,7 @@
                         that congregation. At the 1851 and 1861 censuses, he lived at 3 Hyde Park
                         Terrace, Westminster St. Margaret, Middlesex, with his sister Mary Harness
                         and his first cousin Jemima Harness, daughter of his uncle William. He died
-                        on November 11, 1869 while on a visit to one of his former curates in
+       while on a visit to one of his former curates in
                         Battle, Sussex. At the time of his death he living at the same address at 3
                         Hyde Park Terrace; he is buried in Bath. </p>[Sources: <bibl>
                            <author>Duncan-Jones</author>, <title level="m">Miss Mitford and Mr. Harness</title>
@@ -2018,7 +2018,7 @@
                </org>
                <org xml:id="Behr_pub">
                   <orgName>B. Behr's Library</orgName>
-                  <note resp="#lmw">B. Behr's Library was a publishing firm located in <placeName ref="#Berlin">Berlin</placeName>. German publisher of an early reprint in English of <persName ref="#MRM">Mitford</persName>'s <title ref="#Rienzi">Rienzi</title> in <date when="1837">1837</date>. Source: WorldCat, Hathi Trust.</note>
+                  <note resp="#lmw">B. Behr's Library was a publishing firm located in <placeName ref="#Berlin">Berlin</placeName>, mainly specializing in reprints. German publisher of an early reprint in English of <persName ref="#MRM">Mitford</persName>'s <title ref="#Rienzi">Rienzi</title> in <date when="1837">1837</date>. Source: WorldCat, Hathi Trust.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/2145193122870461408"/>
                   </note>
@@ -2037,7 +2037,7 @@
                   </note>
                </org>
                <org xml:id="Bentley_pub">
-                  <orgName>R. [Richard] Bentley</orgName>
+                  <orgName>R. Bentley</orgName>
                   <note resp="#lmw">R. Bentley was a publishing firm founded by <persName ref="#Bentley_R">Richard Bentley</persName> after the dissolution of his partnership with <persName ref="#Colburn_H">Henry Colburn</persName>. The firm was located in <placeName ref="#London_city">London</placeName> with premises at <placeName>8 New Burlington Street</placeName>. The firm continued the successful Standard Novels series in the 1830s, begun by <orgName ref="#Colburn_Bentley_pub">Colburn &amp; Bentley</orgName>, which reprinted triple-decker novels in single-volume editions selling for six shillings, including the novels of <persName ref="#Austen_Jane">Jane Austen</persName>. Bentley also founded the periodical <title level="s">Bentley's Miscellany</title>, initially edited by <persName>Charles Dickens</persName>. Bentley published <persName ref="#Ainsworth">Ainsworth</persName>, <persName ref="#Bulwer_Lytton">Bulwer-Lytton</persName>, <persName ref="#Edgeworth_Maria">Edgeworth</persName>, and <persName ref="#Trollope_Fr">Frances Trollope</persName>, as well as writers in Mitford's circle such as <persName ref="#Hunt">Hunt</persName> and <persName ref="#Hazlitt_Wm">Hazlitt</persName>. Publisher of first edition of <persName ref="#MRM">Mitford</persName>'s <title ref="#Belford_Regis">Belford Regis</title> in <date when="1835">1835</date>. Publisher of the first edition of <title ref="#Recollections">Recollections of a Literary Life; or, Books, Places, and People</title> in <date when="1852">1852</date>. Later publisher in ordinary to <persName ref="#Victoria_Queen">Her Majesty [Queen Victoria]</persName>. Source: WorldCat.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/132959281"/>
@@ -2045,9 +2045,9 @@
                </org>
                <org xml:id="Billiard_Club">
                   <orgName>Billiard Club</orgName>
-                  <note resp="#err">A club in <placeName ref="#Reading_city">Reading</placeName>that <persName ref="#Mitford_Geo">George
+                  <note resp="#err">A club in <placeName ref="#Reading_city">Reading</placeName>of which <persName ref="#Mitford_Geo">George
                         Mitford</persName> and <persName ref="#Palmer_CF">Charles Fyshe
-                        Palmer</persName> are members of.</note>
+                        Palmer</persName> are members.</note>
                </org>
                <org xml:id="Blackie_pub">
                   <orgName>Blackie and Son, Ltd.</orgName>
@@ -2073,12 +2073,12 @@
                
                <org xml:id="Bluestockings">
                   <orgName>Bluestockings</orgName>
-                  <note resp="#scw">A circle of female writers and intellectuals formed around the salons hosted by <persName>Elizabeth Montagu</persName>, <persName>Frances Boscawen</persName>, and <persName>Elizabeth Vesey</persName> between <date when="1755">1755</date> and <date when="1795">1795</date>. The group came to include such writers as <persName ref="#More_Hannah">Hannah More</persName>, <persName ref="#Chapone_Hester">Hester Chapone</persName>, <persName ref="#Fielding_Sarah">Sarah Fielding</persName>, and others, emphasizing education, enlightened conversation, improvement, and exchange. While the network was thought of as female, the Bluestocking Circle did include some of the leading male figures of the day, particularly <persName ref="#Richardson_Sam">Samuel Richardson</persName>. Source: ODNB</note>
+                  <note resp="#scw">A circle of female writers and intellectuals formed around the salons hosted by <persName>Elizabeth Montagu</persName>, <persName>Frances Boscawen</persName>, and <persName>Elizabeth Vesey</persName> between <date when="1755">1755</date> and <date when="1795">1795</date>. The group came to include such writers as <persName ref="#More_Hannah">Hannah More</persName>, <persName ref="#Chapone_Hester">Hester Chapone</persName>, <persName ref="#Fielding_Sarah">Sarah Fielding</persName>, and others, emphasizing education, enlightened conversation, improvement, and exchange. While the network was thought of as female, the Bluestocking Circle did include some of the leading male figures of the day, particularly <persName ref="#Richardson_Sam">Samuel Richardson</persName>. Source: ODNB.</note>
                </org>
                
                <org xml:id="Bohn_pub">
                   <orgName>Henry G. Bohn</orgName>
-                  <note resp="#lmw">Henry G. Bohn was a publishing firm located in <placeName ref="#London_city">London</placeName> and founded by <persName ref="#Bohn_GH">George Henry Bohn</persName>, the son of a German bookbinder. He started the <title level="s">Bohn's Standard Library series</title>, which eventually included more than seven hundred titles. In 1848, the firm produced a two-volume "new series" reprinted edition of <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title>. Bohn's volume one (new series) included substantial selections from <title ref="#OV">Our Village</title> volumes one and two, and part of volume three; Volume two (new series) included selections from the remainder of volume three plus volumes four and five. He sold the <title level="s">Bohn's series</title> (including his firm's edition of Our Village) in <date when="1864">1864</date> to publishers <orgName ref="#Bell_Daldy_pub">Bell and Daldy</orgName>, afterwards the firm of <orgName ref="#Geo_Bell_pub">George Bell &amp; Sons</orgName>; both firms continued to reprint editions of <title ref="#OV">Our Village</title> based on the <orgName ref="#Bohn_pub">Bohn</orgName> series model into the 1870s.<!--LMW: no corporate VIAF #.--></note>
+                  <note resp="#lmw">Henry G. Bohn was a publishing firm located in <placeName ref="#London_city">London</placeName> and founded by <persName ref="#Bohn_GH">George Henry Bohn</persName>, the son of a German bookbinder. He started the <title level="s">Bohn's Standard Library series</title>, which eventually included more than seven hundred titles. In 1848, the firm produced a two-volume <q>new series</q> reprinted edition of <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title>. Bohn's volume one (new series) included substantial selections from <title ref="#OV">Our Village</title> volumes one and two, and part of volume three; Volume two (new series) included selections from the remainder of volume three plus volumes four and five. He sold the <title level="s">Bohn's series</title> (including his firm's edition of Our Village) in <date when="1864">1864</date> to publishers <orgName ref="#Bell_Daldy_pub">Bell and Daldy</orgName>, afterwards the firm of <orgName ref="#Geo_Bell_pub">George Bell &amp; Sons</orgName>; both firms continued to reprint editions of <title ref="#OV">Our Village</title> based on the <orgName ref="#Bohn_pub">Bohn</orgName> series model into the 1870s.<!--LMW: no corporate VIAF #.--></note>
                </org>
                <org xml:id="Books_for_Libraries_pub">
                   <orgName>Books for Libraries Press</orgName>
@@ -2098,7 +2098,7 @@
                   <orgName>House of Bourbon</orgName>
                   <orgName>the Bourbons</orgName>
                   <note resp="#rnes">. Dynasty that ruled <placeName>France</placeName> from
-                     1589-1792 and 1814-30.</note>
+                     1589 to 1792 and from 1814 to 30.</note>
                </org>
                <org xml:id="Cadell_Davies_pub">
                   <orgName>T. Cadell and W. Davies</orgName>
@@ -2168,10 +2168,11 @@
                   <orgName>Church of England</orgName>
                   <note resp="#rnes">. The English national church, generally adhering to the
                      Anglican (Protestant) Communion since the reign of <persName>Henry
-                        III</persName>. </note>
+                        VIII</persName>.</note>
                </org>
                <org xml:id="Clarendon_Press">
                   <orgName>Clarendon Press</orgName>
+                  <note resp="#lmw">Today refers to an imprint of Oxford University Press that specializes in academic imprints. The name refers to the location of the organization's printing offices: Clarendon Buildings, Broad Street in London, to which their presses moved after 1713.</note>
                </org>
                <org xml:id="CockneyS">
                   <orgName>the Cockney School</orgName>
@@ -2195,19 +2196,18 @@
                      <surname>Sciarillo</surname>
                      <surname>Sciarra</surname>
                   </orgName>
-                  <placeName>Rome</placeName>
                   <note resp="#rnes">Powerful aristocratic family in medieval and early modern Rome. Originating in the eleventh century, the Colonnas built a fortified palace (starting in the thirteenth century) at the site of the modern Piazza SS. Apostoli. Percy Shelley claimed to have visited the Colonna palace, and the family features in a minor way in Percy Bysshe Shelley's play The Cenci (1819).</note>
                </org>
                <org xml:id="Constable_pub">
                   <orgName>Archibald Constable</orgName>
-                  <note resp="#lmw">Archibald Constable was a publishing firm located in <placeName ref="#Edinburgh">Edinburgh</placeName> founded by <persName>Archibald Constable</persName> in <date when="1795">1795</date>. He bought the <title level="j">Scots Magazine</title> in <date when="1801">1801</date> and established the <title level="j">Edinburgh Review</title> in <date when="1802">1802</date>. After <date when="1804">1804</date>, the firm operated as Archibald Constable &amp; Co. after <persName>A. G. Hunter</persName> joined as partner. The firm jointly published <persName ref="#Scott_Wal">Walter Scott</persName>'s <title level="m">Lay of the Last Minstrel</title> with <orgName ref="#Longman_Hurst_ROB_pub">Longman</orgName>, and published <persName ref="#Scott_Wal">Walter Scott</persName>'s <title ref="#Marmion_WS">Marmion</title> in <date when="1807">1807</date>. Scott transferred to <persName>John Ballantyne</persName> in <date when="1808">1808</date>, but returned to Constable in <date when="1813">1813</date> and Constable purchased the copyright to <persName ref="#Scott_Wal">Scott</persName>'s <title ref="#Waverley">Waverley</title> in <date when="1814">1814</date>.  After <date when="1812">1812</date>, Constable took on two new partners, <persName>Robert Cathcart</persName> and <persName>Robert Cadell</persName>, and purchased the copyright of the <title level="m">Encyclopædia Britannica</title>, to which he added to between <date from="1816" to="1824">1816-1824</date>. The firm also published the <title level="j">Annual Register</title>. Constable's business failed for over £250,000 in <date when="1826">1826</date>, and, although Archibald Constable died the following year, the firm continued and operates today as <orgName>Constable and Robinson, Ltd.</orgName>, which merged with <orgName>Little, Brown Group</orgName> in <date when="2014">2014</date>.</note>
+                  <note resp="#lmw">Archibald Constable was a publishing firm located in <placeName ref="#Edinburgh">Edinburgh</placeName> founded by <persName>Archibald Constable</persName> in <date when="1795">1795</date>. He bought the <title level="j">Scots Magazine</title> in <date when="1801">1801</date> and established the <title level="j">Edinburgh Review</title> in <date when="1802">1802</date>. After <date when="1804">1804</date>, the firm operated as Archibald Constable &amp; Co. after <persName>A. G. Hunter</persName> joined as partner. The firm jointly published <persName ref="#Scott_Wal">Walter Scott</persName>'s <title level="m">Lay of the Last Minstrel</title> with <orgName ref="#Longman_Hurst_ROB_pub">Longman</orgName>, and published <persName ref="#Scott_Wal">Walter Scott</persName>'s <title ref="#Marmion_WS">Marmion</title> in <date when="1807">1807</date>. Scott transferred to <persName>John Ballantyne</persName> in <date when="1808">1808</date>, but returned to Constable in <date when="1813">1813</date> and Constable purchased the copyright to <persName ref="#Scott_Wal">Scott</persName>'s <title ref="#Waverley">Waverley</title> in <date when="1814">1814</date>.  After <date when="1812">1812</date>, Constable took on two new partners, <persName>Robert Cathcart</persName> and <persName>Robert Cadell</persName>, and purchased the copyright of the <title level="m">Encyclopædia Britannica</title>, to which he added to between <date from="1816" to="1824">1816 and 1824</date>. The firm also published the <title level="j">Annual Register</title>. Constable's business failed for over £250,000 in <date when="1826">1826</date>, and, although Archibald Constable died the following year, the firm continued and operates today as <orgName>Constable and Robinson, Ltd.</orgName>, which merged with <orgName>Little, Brown Group</orgName> in <date when="2014">2014</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/156672148"/>
                   </note>
                </org>
                <org xml:id="Court_of_Kings_Bench">
                   <orgName>Court of King’s Bench</orgName>
-                  <note resp="#err">One of the high courts of <placeName ref="#England">England</placeName> that heard both criminal and civil cases. Located in Westminster Hall since 1318. For detailed historical information, see <ref target="https://en.wikipedia.org/wiki/Court_of_King's_Bench_(England)">Wikipedia entry</ref>.</note>
+                  <note resp="#err">One of the high courts of <placeName ref="#England">England</placeName> that heard both criminal and civil cases. Located in Westminster Hall since 1318..</note>
                </org>
                <org xml:id="Crissy_Markley_pub">
                   <orgName>Crissy &amp; Markley</orgName>
@@ -2222,7 +2222,7 @@
                </org>
                <org xml:id="Dent_pub">
                   <orgName>J. M. Dent</orgName>
-                  <note resp="#lmw">J. M. Dent was a publishing firm located in <placeName ref="#London_city">London</placeName>, founded in <date when="1888">1888</date> by <persName>Joseph Malaby Dent</persName> (30 August 1849 – 9 May 1926) as J. M. Dent and Company. The firm continued as J. M. Dent and Sons after <date when="1909">1909</date> when Joseph's sons <persName>Hugh Dent</persName> and <persName>Jack Dent</persName> joined the company. The firm later operated under J. M. Dent, Ltd. The firm began by publishing limited editions of classic literature between<date from="1889" to="1894">1889 and 1894</date>, including works by <persName ref="#Lamb_Chas">Charles Lamb</persName> and <persName ref="#Austen_Jane">Jane Austen</persName>; these editions were small runs printed on handmade paper. Dent established the Temple Library imprint in 1894, which included a Temple Shakespeare. J. M. Dent planned the <title level="s">Everyman's Library</title>reprint series in <date when="1904">1904</date> as a series of one thousand texts to be sold at one shilling each; his son Hugh edited the series after he joined the firm in <date when="1909">1909</date>. In <date when="1900">1900</date>, the firm published a collection of stories from <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> in its Temple Classics series (reprinted in <date when="1935">1935</date>). In <date when="1921">1921</date>, Dent included the <persName ref="#MRM">Mitford</persName> story <title ref="#Freshwater_Fisherman_OV">"Freshwater Fisherman"</title> in the collection <title level="m">English Short Stories: An Anthology</title> (Everyman's Library No. 743). In <date when="1936">1936</date>, <title level="s">Everyman's Library</title> published its first collection of <persName ref="#MRM">Mitford</persName>'s stories as Everyman's Library No. 927; this collection was reprinted frequently throughout the twentieth century, with new editions in <date when="1951">1951</date> and <date when="1963">1963</date>.</note>
+                  <note resp="#lmw">J. M. Dent was a publishing firm located in <placeName ref="#London_city">London</placeName>, founded in <date when="1888">1888</date> by <persName>Joseph Malaby Dent</persName> (1849-1926) as J. M. Dent and Company. The firm continued as J. M. Dent and Sons after <date when="1909">1909</date> when Joseph's sons <persName>Hugh Dent</persName> and <persName>Jack Dent</persName> joined the company. The firm later operated under J. M. Dent, Ltd. The firm began by publishing limited editions of classic literature between<date from="1889" to="1894">1889 and 1894</date>, including works by <persName ref="#Lamb_Chas">Charles Lamb</persName> and <persName ref="#Austen_Jane">Jane Austen</persName>; these editions were small runs printed on handmade paper. Dent established the Temple Library imprint in 1894, which included a Temple Shakespeare. J. M. Dent planned the <title level="s">Everyman's Library</title>reprint series in <date when="1904">1904</date> as a series of one thousand texts to be sold at one shilling each; his son Hugh edited the series after he joined the firm in <date when="1909">1909</date>. In <date when="1900">1900</date>, the firm published a collection of stories from <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> in its Temple Classics series (reprinted in <date when="1935">1935</date>). In <date when="1921">1921</date>, Dent included the <persName ref="#MRM">Mitford</persName> story <title ref="#Freshwater_Fisherman_OV">"Freshwater Fisherman"</title> in the collection <title level="m">English Short Stories: An Anthology</title> (Everyman's Library No. 743). In <date when="1936">1936</date>, <title level="s">Everyman's Library</title> published its first collection of <persName ref="#MRM">Mitford</persName>'s stories as Everyman's Library No. 927; this collection was reprinted frequently throughout the twentieth century, with new editions in <date when="1951">1951</date> and <date when="1963">1963</date>.</note>
                   <note>J. M. Dent and co. <ref target="http://viaf.org/viaf/2833599"/>
                   </note>
                   <note>J. M. Dent and Sons <ref target="http://viaf.org/viaf/140758077"/>
@@ -2278,7 +2278,7 @@
                   </note>
                </org>
                <org xml:id="Garrett_pub">
-                  <orgName>Garrett Press, Inc.</orgName>
+                  <orgName>Garrett Press</orgName>
                   <note resp="#lmw">Garrett Press, Inc. was a publishing firm located in <placeName ref="#New_York_city">New York</placeName>. Publisher of a reprint of <persName ref="#MRM">Mitford</persName>'s <title ref="#Lights_Shadows">Lights and Shadows of American Life</title> in <date when="1969">1969</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/130291664"/>
@@ -2307,7 +2307,7 @@
                </org>
                <org xml:id="Hampden_Club">
                   <orgName>Hampden Club</orgName>
-                  <note resp="#lmw">Radical men’s political clubs founded by <persName ref="#Cartwright_Maj">Major John Cartwright, </persName>
+                  <note resp="#lmw">An organization of radical men’s political clubs founded by <persName ref="#Cartwright_Maj">Major John Cartwright, </persName>
                      <persName ref="#Johnson_Mr">Mr. Johnson</persName> and<persName ref="#Northmore_Thos">Thomas Northmore</persName>. They were intended to
                      bring together middle-class reformers with working-class radicals in order to
                      achieve reformist aims such as universal male suffrage.</note>
@@ -2330,15 +2330,15 @@
                   <orgName>High Court of Justice</orgName>
                   <orgName>Commissioners of the High Court of Justice</orgName>
                   <orgName>Commissioners</orgName>
-                  <note resp="#rnes">. The Commissioners of the High Court of Justice tried
+                  <note resp="#rnes">he Commissioners of the High Court of Justice tried
                         <persName ref="#ChasI">Charles I</persName> for treason. Those who convicted
                      him and signed the death warrant were subsequently termed the
-                        <orgName>Regicides</orgName>[See Britannica.]</note>
+                        <orgName ref="#regicides">Regicides</orgName>. Source: Britannica.</note>
                </org>
                <org xml:id="Holland_House_set">
                   <orgName>Holland House circle</orgName>
                   <orgName>Holland House set</orgName>
-                  <note resp="#lmw">At this time, <placeName ref="#HollandHouse">Holland
+                  <note resp="#lmw">In Mitford's time, <placeName ref="#HollandHouse">Holland
                         House</placeName> in <placeName ref="#Kensington">Kensington</placeName> was
                      the home of <persName ref="#Fox_HRV">Henry Richard Vassall Fox, 3rd Baron
                         Holland</persName>, Whig politician. His house became a center for liberal
@@ -2350,12 +2350,12 @@
                </org>
                <org xml:id="House_Commons">
                   <orgName>House of Commons</orgName>
-                  <note resp="#rnes">. The lower house of the bicameral Parliament, the Commons
+                  <note resp="#rnes">The lower house of the bicameral <orgName ref="#Parliament_UK">Parliament</orgName>, the Commons
                      was established in the mid-thirteenth century.</note>
                </org>
                <org xml:id="House_Lords">
                   <orgName>House of Lords</orgName>
-                  <note resp="#lmw">In Mitford’s time, the upper house of the bicameral Parliament
+                  <note resp="#lmw">In Mitford's time, the upper house of the bicameral <orgName ref="#Parliament_UK">Parliament</orgName>,
                      of Great Britain.</note>
                </org>
                <org xml:id="Hurst_Blackett_pub">
@@ -2422,7 +2422,7 @@
                <org xml:id="Kemble_family">
                   <orgName>the Kembles</orgName>
                   <orgName>the Kemble family</orgName>
-                  <note resp="#ebb">This includes <persName ref="#Kemble_C">Charles Kemble</persName>, his brother <persName ref="#Kemble_JP">John Phillip Kemble</persName>, his sister <persName ref="#Siddons_Sarah">Sarah Siddons</persName>, his wife <persName ref="#Kemble_MrsC">Mrs. Charles Kemble</persName>, and his daughter <persName ref="#Kemble_Frances">Fanny Kemble</persName>.</note>
+                  <note resp="#ebb">Includes <persName ref="#Kemble_C">Charles Kemble</persName>, his brother <persName ref="#Kemble_JP">John Phillip Kemble</persName>, his sister <persName ref="#Siddons_Sarah">Sarah Siddons</persName>, his wife <persName ref="#Kemble_MrsC">Mrs. Charles Kemble</persName>, and his daughter <persName ref="#Kemble_Frances">Fanny Kemble</persName>, all of whom were actors.</note>
                </org>
                <org xml:id="Lancastrians">
                   <orgName>House of Lancaster</orgName>
@@ -2431,7 +2431,6 @@
                </org>
                <org xml:id="LdChamberlainsOfc">
                   <orgName>Office of the Lord Chamberlain</orgName>
-                  <placeName>London, England</placeName>
                   <note resp="#rnes">From 1737 to 1968, the official theater censor's office, overseen by the Lord Chamberlain. This function was abolished in 1968, and the office continues in service of different purposes, primarily event-planning (royal appearances, events, and parties.) Mitford's plays were reviewed by this office.</note>
                </org>
                <org xml:id="Longman_Hurst_ROB_pub">
@@ -2450,7 +2449,7 @@
                </org>
                <org xml:id="Macmillan_pub">
                   <orgName>Macmillan &amp; Co.</orgName>
-                  <note resp="#lmw">Macmillan is a publishing firm founded in <date when="1843">1843</date> by <persName>Daniel Macmillan</persName> and <persName>Alexander Macmillan</persName>, two brothers from the Isle of Arran, <placeName ref="#Scotland">Scotland</placeName>. During the nineteenth century, the firm operated as Macmillan &amp; Co. with offices in <placeName ref="#London_city">London</placeName> and in <placeName ref="#New_York_city">New York</placeName>, closing the <placeName ref="#New_York_city">New York</placeName> offices in <date when="1896">1896</date>. In <date when="1893">1893</date>, the firm published an influential collection of stories from <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title>, with an extensive introduction by <persName ref="#Ritchie_AnneT">Anne Thackeray Ritchie</persName> and with new black and white illustrations by <persName ref="#Thomson_Hugh">Hugh Thomson</persName>. The Macmillan edition of <title ref="#OV">Our Village</title> reprints the <title ref="#Walks_Country_OV">"Walks in the Country"</title> subseries of sketches and re-orders them chronologically to follow the seasons, winter-spring-summer-fall. The firm produced a limited-run "large paper" edition in red cloth as well as a "small paper" quarto edition bound in green cloth, some with gilt-stamped covers. The large paper edition was limited to 470 copies and used the same plates as the small paper edition.  
+                  <note resp="#lmw">Macmillan is a publishing firm founded in <date when="1843">1843</date> by <persName>Daniel Macmillan</persName> and <persName>Alexander Macmillan</persName>, two brothers from the Isle of Arran, <placeName ref="#Scotland">Scotland</placeName>. During the nineteenth century, the firm operated as Macmillan &amp; Co. with offices in <placeName ref="#London_city">London</placeName> and in <placeName ref="#New_York_city">New York</placeName>, closing the <placeName ref="#New_York_city">New York</placeName> offices in <date when="1896">1896</date>. In <date when="1893">1893</date>, the firm published an influential collection of stories from <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title>, with an extensive introduction by <persName ref="#Ritchie_AnneT">Anne Thackeray Ritchie</persName> and with new black and white illustrations by <persName ref="#Thomson_Hugh">Hugh Thomson</persName>. The Macmillan edition of <title ref="#OV">Our Village</title> reprints the <title ref="#Walks_Country_OV">"Walks in the Country"</title> subseries of sketches and re-orders them chronologically to follow the seasons, winter-spring-summer-fall. The firm produced a limited-run large paper edition in red cloth as well as a small paper quarto edition bound in green cloth, some with gilt-stamped covers. The large paper edition was limited to 470 copies and used the same plates as the small paper edition.  
                      </note>
                   <note>
                      <ref target="http://viaf.org/viaf/133689118"/>
@@ -2482,14 +2481,10 @@
                      fiction.</note>
                </org>
                <org xml:id="Mitfords">
-                  <orgName>Mitfords</orgName>
                   <orgName>the Mitford family</orgName>
-                  <orgName>
-                     <surname>Mitford</surname>
-                  </orgName>
+                  <orgName>Mitfords</orgName>
                   <note resp="#ebb">
-                     <persName ref="#MRM">Mary Russell Mitford</persName> and her <orgName ref="#Mitfords_Ma_Pa">parents</orgName>, and members of her
-                     household.</note>
+                     <persName ref="#MRM">Mary Russell Mitford</persName> and her <orgName ref="#Mitfords_Ma_Pa">parents</orgName>.</note>
                </org>
                <org xml:id="Mitfords_Ma_Pa">
                   <orgName>George and Mary Mitford</orgName>
@@ -2538,8 +2533,8 @@
                         16, 1820</date>.</note>
                </org>
                <org xml:id="Parfitt_family"><!--LMW stub-->
-                  <orgName>the Parfitts</orgName>
                   <orgName>the Parfitt family</orgName>
+                  <orgName>the Parfitts</orgName>
                </org>
                <org xml:id="Parliament_UK">
                   <orgName>Parliament</orgName>
@@ -2585,11 +2580,11 @@
                      sought peace and negotiation with <persName ref="#ChasI">King Charles
                         I</persName>. Its members were not all Presbyterian by religious persuasion,
                      but they sought support for Presbyterianism as a state-sanctioned church. They
-                     were opposed by the Independents and leaders of <orgName ref="#New_Model_Army">the New Model Army</orgName>. [Source: <ref target="http://bcw-project.org/church-and-state/sects-and-factions/presbyterians">BCW Project</ref>]</note>
+                     were opposed by the Independents and leaders of <orgName ref="#New_Model_Army">the New Model Army</orgName>. Source: <ref target="http://bcw-project.org/church-and-state/sects-and-factions/presbyterians">BCW Project</ref></note>
                </org>
                <org xml:id="Privy_Council">
                   <orgName>Privy Council</orgName>
-                  <note resp="#rnes">Councillors to the British monarch</note>
+                  <note resp="#rnes">Councillors to the British monarch.</note>
                </org>
                <org xml:id="Puritans">
                   <orgName>Puritans</orgName>
@@ -2667,7 +2662,7 @@
                      writers, including <persName>Jonathan Swift</persName>, <persName ref="#Pope_Alex">Alexander Pope</persName>, <persName ref="#Fielding_Henry">Henry Fielding</persName>, <persName>John Arbuthnot</persName>, and
                         <persName>John Gay</persName> among others. The Scriblerians <date from="1715" to="1745">organized in 1715 and disbanded in 1745</date> after
                      the deaths of its founders, Pope and Swift. The club’s various members often
-                     wrote under "Scriblerus" pseudonyms.</note>
+                     wrote under <q>Scriblerus</q> pseudonyms.</note>
                </org>
                <org xml:id="Seeley_pub">
                   <orgName>Seeley and Co.</orgName>
@@ -2767,7 +2762,7 @@
                         the late 18th century, when <persName ref="#PittWm_younger">William Pitt the Younger</persName>
                         emerged as the leader of a revitalized party. The Conservative Party,
                         founded in <date>1834</date> by <persName ref="#Peel_Rbt">Sir Robert Peel</persName>,
-                        absorbed and organized the Tory Party and retained the party nickname.
+                        absorbed and reorganized the Tory Party and retained the party nickname.
                   </note>
                </org>
                <org xml:id="Twickenham_Coach">
@@ -4387,7 +4382,7 @@
                   </birth>
                   <death when="1856-04"/>
                   <occupation type="military" subtype="army"/>
-                  <note resp="#lmw">Husband of <persName ref="#Elford_Elizabeth">Elizabeth Elford</persName>, second daughter of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. Adams was baptized at Totnes, Devon, on <date when="1779-01-01">January 1, 1779</date> and so was likely born in late <date when="1778">1778</date>. He died in <date when="1856-04">April 1856</date> at <placeName>East Budleigh, Devon</placeName>. George was the younger son of merchant William Adams (1752-1811), MP for Plympton Erle (1796-1801) and for Totnes (1801-1811), and Mary Chadder. He was the younger brother of William Dacres Adams (1775-1862), who became Private Secretary to two Prime Ministers of the United Kingdom: Pitt the Younger (1804–1806) and the Duke of Portland (1807-1809). William Dacres Adams inherited the estate of Bowden in the parish of Ashprington, near Totnes in Devon, from his father, who had purchased it from the Trist family about 1800; William Dacres Adams allowed George and his family to live there after his own marriage. Bowden House, the Georgian mansion located on the former estate, is currently a grade I listed building. His middle name is variously recorded as Pownoll and Pownall.</note>
+                  <note resp="#lmw">Husband of <persName ref="#Elford_Elizabeth">Elizabeth Elford</persName>, second daughter of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. Adams was baptized at Totnes, Devon, on <date when="1779-01-01">January 1, 1779</date> and so was likely born in late <date when="1778">1778</date>. George was the younger son of merchant William Adams (1752-1811), MP for Plympton Erle (1796-1801) and for Totnes (1801-1811), and Mary Chadder. He was the younger brother of William Dacres Adams (1775-1862), who became Private Secretary to two Prime Ministers of the United Kingdom: Pitt the Younger (1804–1806) and the Duke of Portland (1807-1809). William Dacres Adams inherited the estate of Bowden in the parish of Ashprington, near Totnes in Devon, from his father, who had purchased it from the Trist family about 1800; William Dacres Adams allowed George and his family to live there after his own marriage. Bowden House, the Georgian mansion located on the former estate, is currently a grade I listed building. His middle name is variously recorded as Pownoll and Pownall.</note>
                </person>
                <person xml:id="Addison_Joseph" sex="m">
                   <persName>Joseph Addison</persName>
@@ -5278,7 +5273,7 @@
                   <placeName>Haarlem, Holland</placeName>
                </birth>
                <death when="1683">
-                  <placeName>Amsterdam, Holland</placeName>
+                  <placeName>Amsterdam, Netherlands</placeName>
                </death>
                <occupation type="artist"/>
                <occupation type="artist" subtype="painter"/>
@@ -12744,7 +12739,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="legal" subtype="judge"/>
                   
-                  <note resp="#scw lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Barrett_E">Elizabeth Barrett-Browning</persName>. Author and county magistrate. Listed among the gentry of <placeName>Shinfield village</placeName>, associated with the <placeName>Highlands</placeName> estate, and noted by <persName ref="#Needham_Francis">Needham</persName> in his research. Source: <bibl>
+                  <note resp="#scw #lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Barrett_E">Elizabeth Barrett-Browning</persName>. Author and county magistrate. Listed among the gentry of <placeName>Shinfield village</placeName>, associated with the <placeName>Highlands</placeName> estate, and noted by <persName ref="#Needham_Francis">Needham</persName> in his research. Source: <bibl>
                            <title level="s">Post Office Directory of Berkshire, 1854.</title>
                         </bibl></note>
                   <note><ref target="https://www.browningscorrespondence.com/biographical-sketches/?id=918"/></note>
@@ -14453,7 +14448,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1834-12-05">
                      <placeName>London, England</placeName>
                   </death>
-                  <occupation type="literary" subtype="journalist poet"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="poet"/>
                   <occupation type="educator"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. He emigrated to South Africa in 1820, where he opened a school and edited two newspapers critical of the colonial government. After his return to London later in the 1820s, he wrote anti-slavery essays and poems based on his experiences and became Secretary of the Anti-Slavery Society. While in London, abolitionist and autobiographer Mary Prince worked for Pringle, during the time she wrote her <title level="m">The History of Mary Prince</title>.</note>
                   <note><ref target=" http://viaf.org/viaf/30333070"/></note>
@@ -21349,6 +21345,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      located on the western Iberian peninsula; one of the oldest cities in the
                      world.</note>
                </place>
+               
+               <place xml:id="Amsterdam">
+                  <placeName>Amsterdam, Netherlands</placeName>
+                  <settlement>Amsterdam</settlement>
+                  <country>Metherlands</country>
+                  <location>
+                     <geo>52.366667 4.9</geo>
+                  </location>
+                  <note resp="#lmw">The capital and largest city in <placeName>the Netherlands</placeName>. A key center for finance and trade in Europe from the 17th century, including the book trade. Although Holland became part of the French empire during the Napoleonic era, the Kingdom of the Netherlands was established in 1815, creating new trading opportunities for the capital city.</note>
+               </place>
+               
                <place xml:id="Lisson_Grove">
                   <placeName>Lisson Grove, Westminster, London, England</placeName>
                   <district>Lisson Grove</district>
@@ -22604,23 +22611,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
             <listPlace sortKey="fictPlaces">
                <place xml:id="Arden">
                   <placeName>Forest of Arden</placeName>
-                  <note resp="#rnes">Fictional Forest of Arden, setting for <title ref="#As_You_Like_It_play">As You Like It</title>. Variously identified with historical and fictional representations of the <placeName ref="#Forest_of_Ardennes">Forest of Ardennes</placeName> in continental Europe, and with Arden, a heavily wooded area of Warwickshire, England.</note>
+                  <note resp="#rnes">Fictional Forest of Arden, setting for <title ref="#As_You_Like_It_play">As You Like It</title>. Variously identified with historical and fictional representations of the <placeName ref="#Forest_of_Ardennes">Forest of Ardennes</placeName> in continental Europe, as well as with Arden, a heavily wooded area of Warwickshire, England.</note>
                </place>
                <place xml:id="Brobdingnag">
                   <placeName>Brobdingnag</placeName>
-                  <note resp="#ncl #lmw">Fictional country in <persName ref="#Swift_J">Swift</persName>’s novel <title ref="#GulliversTr_JS">Gulliver’s
-                        Travels</title>. Populated by giants.</note>
+                  <note resp="#ncl #lmw">Fictional country populated by giantsin <persName ref="#Swift_J">Swift</persName>’s novel <title ref="#GulliversTr_JS">Gulliver’s
+                        Travels</title>.</note>
                </place>
                <place xml:id="Island_Barataria">
-                  <placeName>Sancho Panza is awarded the governorship of this imaginary island in
-                        <title ref="#Don_Quixote_novel">Don Quixote</title>
-                  </placeName>
+                  <placeName>Barataria</placeName>
+                  <note resp="#ncl #lmw">Fictional island of which Sancho Panza is awarded governorship in
+                        <title ref="#Don_Quixote_novel">Don Quixote</title>.</note>
                </place>
                <place xml:id="ProsperosIsland">
                   <placeName>Prospero’s Island</placeName>
+                  <note resp="#lmw">Fictional island settled by the shipwrecked Prospero in <title ref="#Tempest_play">The Tempest</title>.</note>
                </place>
                <place xml:id="RobinsonCrusoesIsland">
                   <placeName>Robinson Crusoe’s Island</placeName>
+                  <note resp="#lmw">Fictional island in <title ref="#RobinsonCrusoe_DD">Robinson Crusoe</title>.</note>
                </place>
                <place xml:id="St_Johns_Church">
                   <placeName>St. John’s Church</placeName>
@@ -22628,9 +22637,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <placeName ref="#St_Lawrence_Church">St. Lawrence Church</placeName>, an
                      ancient church in Reading. </note>
                </place>
-               <place xml:id="Styx"><!--ebb: put in fictional listPlace-->
+               <place xml:id="Styx">
                   <placeName>River Styx</placeName>
-                  <note resp="#ebb #lmw">River in Greek mythology that separates the realms of the
+                  <note resp="#ebb #lmw">River in ancient Greek mythology that separates the realms of the
                      living from the dead, and encircling Hades (the realm of the dead or
                      underworld). For more, see the reference in Encyclopedia Mythica: <ptr target="http://www.pantheon.org/articles/s/styx_river.html"/>
                   </note>
@@ -23598,6 +23607,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <persName ref="#Steele_Richard">Steele</persName>in 1714.</note>
                </bibl>
                <bibl xml:id="Stage">
+                  <title level="m">Letter by Philo-Dramaticus</title>
                   <note resp="#kdc">Letter reprinted in <title ref="#Observer">the Observer</title>
                      on <date when="1825-06-20">June 20, 1825</date> from <title ref="#Blackwoods">Blackwoods</title>. The letter is signed by
                         <persName>Philo-Dramaticus</persName>, and urges <persName ref="#Kemble_C">Charles Kemble</persName> and <persName ref="#Elliston_Robt">Robert
