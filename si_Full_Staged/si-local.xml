@@ -2792,7 +2792,6 @@
                   <orgName>
                      <surname>Valpy</surname>
                   </orgName>
-                  
                   <note resp="#ebb">
                      <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and his family,
                      including his first and second wife, his <rs type="person" ref="#Valpy_Miss">daughters</rs>, including <persName ref="#Valpy_Penelope">Penelope</persName> and <persName ref="#Valpy_Catherine">Catherine</persName> one or more of whom were friends with with <persName ref="#MRM">Mary Russell Mitford</persName>, and his sons, including
@@ -3453,7 +3452,6 @@
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="literary" subtype="critic"/>
                   <occupation type="literary" subtype="biographer"/>
-                  
                   <occupation type="scholar" subtype="historian"/>
                   <occupation type="scholar" subtype="curator"/>
                   <occupation type="religious" subtype="curate"/>
@@ -4923,7 +4921,6 @@
                   <occupation type="explorer"/>
                   <occupation type="government" subtype="administrator"/>
                   <occupation type="government" subtype="diplomat"/>
-                  
                   <occupation type="literary"/>
                   <note resp="#ajc #ebb #lmw">
                      <rs type="event">Served as comptroller to <persName ref="#Macartney_Geo">Lord
@@ -5505,7 +5502,7 @@
                   <occupation type="BookProducer" subtype="printer"/>
                   <occupation type="BookProducer" subtype="bookseller"/>
                   <occupation type="trade" subtype="auctioneer"/>
-                  <note resp="#lmw">George Henry Bohn was born in <placeName ref="#London_city">London</placeName>, the son of a German bookbinder. He began his career in <date when="1839">1839</date> as a dealer in rare books and as a book auctioneer. He later founded a publishing house and inaugurated the <title level="s">Bohn's Standard Library series</title>, which eventually totalled more than seven hundred works of literature, history, science, theology, archaeology and other subjects. He edited and updated Lowndes's 1834 <title level="m">Bibliographer's Manual of English Literature</title> in <date when="1864">1864</date>. In <date when="1848">1848</date>, his firm produced a two-volume new series reprinted edition of <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> for <title level="s">Bohn's Standard Library</title>. Volume one (new series) included substantial selections from series one, series two, and part of series three; Volume two (new series) included the remainder of series three, series four, and series five of <title ref="#OV">Our Village</title>.</note>
+                  <note resp="#lmw">George Henry Bohn was born in <placeName ref="#London_city">London</placeName>, the son of a German bookbinder. He began his career in <date when="1839">1839</date> as a dealer in rare books and as a book auctioneer. He later founded a publishing house and inaugurated the <title level="s">Bohn's Standard Library series</title>, which eventually totalled more than seven hundred works of literature, history, science, theology, archaeology and other subjects. He edited and updated Lowndes's 1834 <title level="m">Bibliographer's Manual of English Literature</title> in <date when="1864">1864</date>. In <date when="1848">1848</date>, his firm produced a two-volume new series reprinted edition of <persName ref="#MRM">Mitford</persName>'s <title ref="#OV">Our Village</title> for <title level="s">Bohn's Standard Library</title>. Volume one (new series) included substantial selections from series one, series two, and part of series three; Volume two (new series) included the remainder of series three, series four, and series five of <title ref="#OV">Our Village</title>.</note><!--LMW: content ok. checked 2019-07-->
                   <note>
                      <ref target="http://viaf.org/viaf/12688740"/>
                   </note>
@@ -5527,8 +5524,7 @@
                   <occupation type="government" subtype="politician"/>
                   <occupation type="scholar" subtype="philosopher"/>
                   <occupation type="government"/>
-                  <note resp="#lmw">Tory politician, political philosopher, and supporter of the 1715 <orgName ref="#Jacobites">Jacobite</orgName><!--2019-05-18 ebb: note that this org is defined in one of the si_Add_IP files not being watched by the SI schema. Using the hashtag defined there. --> rebellion. His works influenced Voltaire as well as proponents of American republicanism such as Thomas Jefferson. <persName ref='#MRM'>Mitford</persName> mentions reading about Bolingbroke in <title ref="#SpencesAnec">Spence's Anecdotes</title>.</note>
-                  <!--LMW: Jacobite entry in Chas I backlist.-->
+                  <note resp="#lmw">Tory politician, political philosopher, and supporter of the 1715 <orgName ref="#Jacobites">Jacobite</orgName>rebellion. His works influenced Voltaire as well as proponents of American republicanism such as Thomas Jefferson. <persName ref='#MRM'>Mitford</persName> mentions reading about Bolingbroke in <title ref="#SpencesAnec">Spence's Anecdotes</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/61539796"/>
                   </note>
@@ -5880,7 +5876,7 @@
                      <roleName>Very Professor</roleName>
                   </persName>
                   <persName>
-                     <roleName>Doctor of Divinity (DD)</roleName>
+                     <roleName>Doctor of Divinity</roleName>
                   </persName>
                   <birth when="1772-10-02">
                      <placeName>Edinburgh, Scotland</placeName>
@@ -5949,7 +5945,7 @@
                      <placeName>Fairford, Gloucestershire, England</placeName>
                   </death>
                   <occupation type="educator"/>
-                  <note resp="#kdc #lmw">Born in Reading, Berkshire, the third son of <persName>John Bulley</persName> and <persName>Charlotte Pocock</persName>. He obtained his BA (1829), MA (1832), BD (1840) and DD (1855) as a member of <placeName>Magdalen College, University of Oxford</placeName>. He became President of <placeName ref="#Magdalen_Coll">Magdalen College</placeName>from <date when="1855-01-05">5 January 1855</date> until his death. 
+                  <note resp="#kdc #lmw">Third son of <persName>John Bulley</persName> and <persName>Charlotte Pocock</persName>. He obtained his BA (1829), MA (1832), BD (1840) and DD (1855) as a member of <placeName>Magdalen College, University of Oxford</placeName>. He became President of <placeName ref="#Magdalen_Coll">Magdalen College</placeName>from <date when="1855-01-05">5 January 1855</date> until his death. 
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/41568341"/>
@@ -6825,7 +6821,7 @@
                   </death>
                   <occupation type="theater"/>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Comic actor at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>, called <q>little Collins</q>. According to 1806 <title level="a">Remarks</title> in <title level="s">Cumberland's British Theatre</title> on Tobin's play <title ref="#Honeymoon_play">The Honey Moon</title>, Collins played Jaquez at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <quote>died during the run of the comedy</quote>. An 1804 biographical sketch in the Monthly Mirror (147) indicates that Collins was born in Chichester in <date when="1775">1775</date> and began performing at Drury Lane in <date when="1802">1802</date>; he was discovered by <persName ref="#Sheridan_RichardB">Sheridan</persName> while performing in Winchester.</note>
+                  <note resp="#lmw">Comic actor at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>, called <q>little Collins</q>. According to 1806 <title level="a">Remarks</title> in <title level="s">Cumberland's British Theatre</title> on Tobin's play <title ref="#Honeymoon_play">The Honey Moon</title>, Collins played Jaquez at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <quote>died during the run of the comedy</quote>. An 1804 biographical sketch in the <title level="j">Monthly Mirror</title> (147) indicates that Collins was born in Chichester in <date when="1775">1775</date> and began performing at Drury Lane in <date when="1802">1802</date>; he was discovered by <persName ref="#Sheridan_RichardB">Sheridan</persName> while performing in Winchester.</note><!--LMW: content ok. 2019-07-->
                   <note><ref target="http://viaf.org/viaf/78974331"/>
                   </note>
                </person>
@@ -7861,7 +7857,7 @@
                   </persName>
                   <note resp="#scw">Lived with <orgName ref="#Drovers">her parents and brother</orgName> on <placeName>Minster Street</placeName>. Forename and relationship unknown.<!--scw: No further info available from Needham.--></note>
                </person>
-               <person xml:id="Drover_JamesSr" sex="m"><!--SCW: changed xml:id -->
+               <person xml:id="Drover_JamesSr" sex="m"><!--SCW: changed xml:id --><!--LMW: not a dup.-->
                   <persName>James Drover</persName>
                   <persName>
                      <surname>Drover</surname>
@@ -7876,7 +7872,7 @@
                      <ref target="http://www.berkshirehistory.com/villages/reading_minster_street_intro.html"/>
                   </note><!--scw: No info besides their names and street available from Needham. Haven't yet noticed why he was interested in them (and didn't record photo #, silly me. But have found this information about the family.-->
                </person>
-             <person xml:id="Drover_JamesJr" sex="m"><!--SCW: changed xml:id-->
+               <person xml:id="Drover_JamesJr" sex="m"><!--SCW: changed xml:id--><!--LMW: not a dup.-->
                   <persName>Mr. Drover</persName>
                   <persName>
                      <surname>Drover</surname>
@@ -8106,7 +8102,7 @@
                      <ref target="http://viaf.org/viaf/71477273"/>
                   </note>
                </person>
-               <person xml:id="Elford_Elizabeth" sex="f">
+               <person xml:id="Elford_Elizabeth" sex="f"><!--LMW: not a dup.-->
                   <persName>Elizabeth Elford Adams</persName>
                   <persName>
                      <surname/>
@@ -8766,12 +8762,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note><ref target="http://viaf.org/viaf/12323361"/>
                   </note>
                </person>
-              <person xml:id="Flush_pet">
+              <person xml:id="Flush_pet" sex="u">
                <persName>Flush</persName>
                <note resp="#lmw"><orgName ref="#Mitfords">The Mitfords</orgName>appear to owned a series of spaniels, all named Flush.</note>
                </person>
                <person xml:id="Foote_Maria" sex="f">
-                  <persName>Maria Foote</persName>
+                  <persName>Maria Foote Stanhope</persName>
                   <persName>
                      <surname type="married">Stanhope</surname>
                      <surname type="paternal">Foote</surname>
@@ -8785,7 +8781,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="theater"/>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#ejb">Well known English theater actor. She was the daughter of <persName ref="#Foote_Samuel">Samuel Foote</persName>. She played <persName ref="#Alfonso_J">Alfonso, the King of Sicily</persName> in <title ref="#Julian_MRMplay">Julian</title>. She performed at <placeName ref="#Drury_Lane_Theatre"> Drury Lane</placeName> from 1814 to 1825 and then began to perform at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> in 1826.</note>
+                  <note resp="#ejb">Well-known English theater actor. She was the daughter of <persName ref="#Foote_Samuel">Samuel Foote</persName>. She played <persName ref="#Alfonso_J">Alfonso, the King of Sicily</persName> in <title ref="#Julian_MRMplay">Julian</title>. She performed at <placeName ref="#Drury_Lane_Theatre"> Drury Lane</placeName> from 1814 to 1825 and then began to perform at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> in 1826.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/46598323"/>
                   </note>
@@ -9334,8 +9330,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/12297538"/>
                   </note>
                </person>
-               <person xml:id="Gillies_Rob">
-                  <persName>Roberr Gillies</persName>
+               <person xml:id="Gillies_Rob" sex="m">
+                  <persName>Robert Gillies</persName>
                   <persName>
                      <surname>Gillies</surname>
                      <forename>Robert</forename>
@@ -9970,7 +9966,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/29543710"/>
                   </note>
                </person>
-               <person xml:id="Heath_C">
+               <person xml:id="Heath_C" sex="m">
                   <persName>Charles Heath</persName>
                   <persName>
                      <surname>Heath</surname>
@@ -9992,7 +9988,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         to <persName ref="#Talfourd_Thos">Talfourd</persName> of <date when="1823-05-16">May 16, 1823</date>
                      </rs>.</note>
                </person>
-               <person xml:id="Heath_J">
+               <person xml:id="Heath_J" sex="m">
                   <persName>James Heath</persName>
                   <persName>
                      <surname>Heath</surname>
@@ -10378,6 +10374,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </birth>
                   <death when="1835-11-21"/>
                   <note resp="#ebb">Scottish ballad collector, poet, and novelist who wrote in Scots and English and was encouraged by his life-long friend Walter Scott to take up a writing career. Hogg authored <title ref="#QueensWake">The Queen's Wake</title>, a long poem on <persName ref="#MaryQoS">Mary Queen of Scots</persName> in <date when="1813">1813</date>, and <title level="m">The Private Memoirs and Confessions of a Justified Sinner</title>, anonymously published in <date when="1824">1824</date>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/22151505"/>
+                  </note>
                </person>
                
                <person xml:id="Hoggins_Sarah" sex="f">
@@ -10409,11 +10408,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Orange Court, Leicester Fields, London, England</placeName>
                   </birth>
                   <death when="1809-03-23"/>
-                  <occupation>literary</occupation>
-                  <occupation>playwright</occupation>
-                  <occupation>novelist</occupation>
-                  <occupation>journalist</occupation>
-                  <note type="bio" resp="#lmw">British author and journalist, friend and associate
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <note resp="#lmw">British author and journalist, friend and associate
                      of literary-political radicals such as <persName ref="#Godwin_Wm">William
                         Godwin</persName>. Author of the plays <bibl>
                         <title level="m">The Road to Ruin</title> (<date when="1792">1792</date>)</bibl> and <bibl>
@@ -10422,23 +10421,26 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title level="m">Anna St. Ives</title> (<date when="1792">1792</date>)</bibl>, considered the first <soCalled>Jacobin</soCalled> political novel of the
                      1790s. <rs type="event">Arrested along with <persName>Hardy</persName> and
                            <persName>Horne Tooke</persName> during the Treason Trials of <date when="1794">1794</date>
-                     </rs>, he was later released without being brought to trial. <persName ref="#Hazlitt_Wm">William Hazlitt</persName> later edited his memoirs (1816,
-                     1852).</note>
+                     </rs>, he was later released without being brought to trial. <persName ref="#Hazlitt_Wm">William Hazlitt</persName> later edited his memoirs.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/56644486"/>
                   </note>
                </person>
-               <person xml:id="Holden_Henry">
+               <person xml:id="Holden_Henry"  sex="m">
                   <persName>Henry Holden</persName>
                   <persName>
                      <surname>Holden</surname>
                      <forename>Henry</forename>
                      <roleName>Dr.</roleName>
                   </persName>
-                  <birth when="1596"/>
+                  <birth when="1596">
+                     <placeName>Chaigley, Lancashire, England</placeName>
+                  </birth>
                   <death when="1662-03">March 1662</death>
-                  <occupation>theologian</occupation>
-                  <note resp="#ebb">When the practice of Catholicism was officially banned in
+                  <occupation type="religious" subtype="priest"/>
+                  <occupation type="scholar"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#ebb #lmw">Roman Catholic Doctor of Divinity, theologian and professor at the Sorbonne. When the practice of Catholicism was officially banned in
                      England and Catholic leaders were fleeing the country, Holden went to Rome to
                      argue against the Jesuits and other orders for maintaining an official Catholic
                      presence in England.</note>
@@ -10458,7 +10460,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1852-09-11">
                      <placeName>Dawlish, Devon, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="translator"/>
                   <note resp="#lmw">Associated with <persName ref="#Baillie_Joanna">Joanna
                         Baillie</persName> and <persName ref="#Southey_R">Robert Southey</persName>.
                      Her mother, also named Margaret Holford (1757–1834), was also an author.</note>
@@ -10922,7 +10925,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note> 
                </person>
                
-               <person xml:id="Irving_Wash" sex="m">
+               <person xml:id="Irving_Wash" sex="m"><!--stub-->
                   <persName>Washington Irving</persName>
                   <persName>
                      <forename>Washington</forename>
@@ -10935,8 +10938,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1859-11-28">
                      <placeName>Sunnyside, Tarrytown, New York, USA</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>diplomat</occupation>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="government" subtype="diplomat"/>
+                  <note resp="#lmw"></note>
                   <note>
                      <ref target="http://viaf.org/viaf/295999941"/>
                   </note>
@@ -10947,8 +10954,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Jackson</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <occupation>medical</occupation>
-                  <occupation>surgeon</occupation>
+                  <occupation type="medical" subtype="surgeon"/>
                   <note resp="#lmw">In Mitford’s letter of <date when="1819-07-05">July 5,
                         1819</date>, she mentions <persName ref="#Jackson_Mr">Mr. Jackson</persName>
                      as the surgeon who unsuccessfully attempts to treat <persName ref="#Dickinson_Charles">Charles Dickinson</persName>’s shoulder
@@ -10966,7 +10972,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1863-08-29">
                      <placeName>3 Pembroke Villas, Richmond, Surrey</placeName>
                   </death>
-                  <occupation>education</occupation>
+                  <occupation type="educator"/>
                   <note resp="#lmw">Friend of Mary Russell Mitford, and sister to <persName ref="#James_Miss">Elizabeth James</persName> and <persName ref="#James_Susan">Susan James</persName> and cared for pupils with her. She
                      was born about 1782 in Bath, Somerset, the daughter of Thomas Webb and Susanna
                      Haycock. Her father died in 1818 and her mother in 1835. After her parents’
@@ -10989,19 +10995,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1861-11-25">
                      <placeName>3 Pembroke Villas, Richmond, Surrey, England</placeName>
                   </death>
-                  <note type="bio" resp="#lmw">Close friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. She was born about 1775 in Bath,
-                     Somerset, the eldest daughter of Thomas Webb and Susanna Haycock. Her father
+                  <note type="bio" resp="#lmw">Close friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. She was the eldest daughter of Thomas Webb and Susanna Haycock. Her father
                      died in 1818 and her mother in 1835. After her parents’ deaths, she lived with
                      her two younger sisters, Emily and Susan, in Green Park Buildings, Bath,
                      Walcot, Somerset; High Street, Mortlake, Surrey; and 3 Pembroke Villas,
                      Richmond, Surrey. According to <persName ref="#coles">Coles</persName>,
                      referring to Mitford’s diary, letters were also addressed to her at Bellevue,
-                     Lower Road, Richmond (Coles 26). She died on November 25, 1861, at 3 Pembroke
-                     Villas, Richmond, Surrey and was buried at St. Mary Magdalene, Richmond,
-                     Surrey. In the 1841 census, under "profession, trade, employment, or
-                     independent means" she lists "Ind." for "independent means;" in the 1851
-                     census, she lists "landholder;" in the 1861 census, she lists "railway
-                     shareholder."</note>
+                     Lower Road, Richmond (Coles 26). She was buried at St. Mary Magdalene, Richmond,
+                     Surrey. In the 1841 census, she is listed as living on <q>independent means;</q> in the 1851
+                     census, as <q>landholder;</q> in the 1861 census, she as <q>railway
+                     shareholder</q>.</note>
                </person>
                <person xml:id="James_Mrs" sex="f"><!--LMW: not a dup.-->
                   <persName>Susan Haycock James</persName>
@@ -11042,7 +11045,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         and Ireland and James VII of Scotland</persName>. As such, he claimed the
                      English, Scottish and Irish thrones (as James III of England and Ireland and
                      James VIII of Scotland) after the death of his father in 1701. Scottish
-                     supporters started "The Fifteen" Jacobite rising in Scotland in 1715, aimed at
+                     supporters started The Fifteen Jacobite rising in Scotland in 1715, aimed at
                      putting him on the British throne, but the uprising failed. After his death,
                      the right to the Stuart succession was claimed by his son Charles Edward
                      Stuart.</note>
@@ -11064,12 +11067,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1860-12-27">
                      <placeName>3 Pembroke Villas, Richmond, Surrey</placeName>
                   </death>
+                  <occupation type="educator"/>
+                  <occupation type="educator" subtype="governess"/>
                   <note resp="#lmw">Friend of Mary Russell Mitford, and sister to <persName ref="#James_Miss">Elizabeth James</persName> and <persName ref="#James_Emily">Emily James</persName> and cared for pupils with her. She
-                     was born about 1788 in Bath, Somerset, the daughter of Thomas Webb and Susanna
+                     was the daughter of Thomas Webb and Susanna
                      Haycock. She was baptized on <date when="1788-10-03">October 3, 1788</date> at
                      the parish of St. James, Bath, Somerset. Her father died in 1818 and her mother
                      in 1835. In 1819, Mitford reports in her letters that Susan has taken a
-                     position as a governess, and refers to her by the nickname "Susy." After her
+                     position as a governess, and refers to her by the nickname Susy. After her
                      parents’ deaths, she lived with her two sisters in Green Park Buildings, Bath,
                      Walcot, Somerset; High Street, Mortlake, Surrey; and 3 Pembroke Villas,
                      Richmond, Surrey. She was buried at St. Mary Magdalene, Richmond, Surrey.</note>
@@ -11233,19 +11238,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Christian</forename>
                      <forename>Isobel</forename>
                   </persName>
-                  <persName type="pseud">
-                     <surname type="pseud">Dods</surname>
-                     <forename type="pseud">Margaret</forename>
+                  <persName type="pseud">Margaret Dods
                   </persName>
                   <persName type="pseud">Aunt Jane</persName>
                   <birth when="1781-06-12">
-                     <placeName ref="#Edinburgh">Edinburgh</placeName>
+                     <placeName ref="#Edinburgh">Edinburgh, Scotland</placeName>
                   </birth>
                   <death when="1857-08-26">
-                     <placeName ref="#Edinburgh">Edinburgh</placeName>
+                     <placeName ref="#Edinburgh">Edinburgh, Scotland</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <note resp="#scw">Author of the anonymous novel, <title level="m">Clan-Albin</title>, the pseudonymous <title level="m">Cook and Housewife Manual...by Mistress Margaret Dods</title>, and later a primary owner and chief editor, with her husband, of <title level="j">Tait's Edinburgh Magazine</title>, Christian Isobel Johnstone published several of <persName ref="#MRM">Mitford</persName>'s <title ref="#OurVillage_5th">Our Village</title> stories (<title ref="#Christmas_Amusements_OV">Christmas Amusements</title>, <title ref="#Old_Master_Green_OV">Old Master Green</title>, <title ref="#Freshwater_Fisherman_OV">The Freshwater Fisherman</title>, <title ref="#TheCousins_OV">The Cousins</title>, and <title ref="#Early_Rec_Widow_Gentlewoman_OV">Early Recollections; The Widow Gentlewoman</title>) in a <title level="j">Tait's Edinburgh Magazine</title> anthology in <date when="1846">1846</date> entitled <title ref="#Edinburgh_Tales"/>. (See ODNB).</note>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
+                  <note resp="#scw">Author of the anonymous novel, <title level="m">Clan-Albin</title>, the pseudonymous <title level="m">Cook and Housewife Manual...by Mistress Margaret Dods</title>, and later a primary owner and chief editor, with her husband, of <title level="j">Tait's Edinburgh Magazine</title>, Christian Isobel Johnstone published several of <persName ref="#MRM">Mitford</persName>'s <title ref="#OurVillage_5th">Our Village</title> stories (<title ref="#Christmas_Amusements_OV">Christmas Amusements</title>, <title ref="#Old_Master_Green_OV">Old Master Green</title>, <title ref="#Freshwater_Fisherman_OV">The Freshwater Fisherman</title>, <title ref="#TheCousins_OV">The Cousins</title>, and <title ref="#Early_Rec_Widow_Gentlewoman_OV">Early Recollections; The Widow Gentlewoman</title>) in a <title level="j">Tait's Edinburgh Magazine</title> anthology in <date when="1846">1846</date> entitled <title ref="#Edinburgh_Tales"/>. Source: ODNB.</note>
                </person>
                
                <person xml:id="Johnstone_Jack" sex="m">
@@ -11360,13 +11365,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Brutus</surname>
                   </persName>
                   <persName>Junius</persName>
-                  <persName>Consul of the Roman Republic</persName>
-                  <birth><placeName>Ancient Rome</placeName>
+                  <persName><roleName>Consul of the Roman Republic</roleName></persName>
+                  <birth><placeName>ancient Rome</placeName>
                   </birth>
                   <death when="-0509">509 BC <placeName>Silva Arsia, Rome</placeName>
                   </death>
-                  <occupation>politician</occupation>
-                  <occupation>literary</occupation>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="literary"/>
                   <note>
                      <ref target="http://viaf.org/viaf/296192012"/>
                   </note>
@@ -11544,7 +11549,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Ralph</forename>
                      <surname>Kettle</surname>
                   </persName>
-                  
                   <birth when="1563"/>
                   <death when="1643-07-17">
                      <placeName>Garsington, England</placeName>
@@ -11553,7 +11557,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Head of Trinity College</roleName>
                   </persName>
                   <occupation>clergy</occupation>
-                  <occupation>educator</occupation>
+                  <occupation type="educator" subtype="schoolHead"/>
                   <note resp="#tlh #lmw">Kettle Hall, Oxford, built during his reign as head of
                      Trinity College, Oxford.</note>
                   <note>
@@ -11577,7 +11581,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1763">
                      <placeName>England</placeName>
                   </death>
-                  <occupation type="educator"/>
+                  <occupation type="educator" subtype="schoolHead"/>
                   <occupation type="literary"/>
                   <occupation type="government" subtype="orator"/>
                   <note resp="#lmw">Principal of St. Mary's Hall, <placeName ref="#Oxford_Univ">University of Oxford</placeName>, and leader of the <orgName ref="#Jacobites">Jacobite</orgName> interest at Oxford in the seventeenth century.</note>
@@ -11933,13 +11937,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                
                <person xml:id="Liston_SarahT" sex="f">
-                  <persName>Sarah Tryer Liston</persName>
+                  <persName>Sarah Tyrer Liston</persName>
                   <persName>
                      <surname type="married">Liston</surname>
                      <surname type="paternal">Tyrer</surname>
                      <forename>Sarah</forename>
                   </persName>
-                  
                   <persName><addName>Mrs. John Liston</addName></persName>
                   <persName><addName>Miss Tyrer</addName></persName>
                   <birth when="1781"/>
@@ -11961,7 +11964,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      with valedictory performances at <placeName ref="#Covent_Garden_Theatre">Covent
                         Garden</placeName> on <date when="1822-05-31">31 May 1822</date>. [Sources:
                      entries on John Liston in ODNB, DNB 1885-1900. See in particular <ptr target="http://en.wikisource.org/wiki/Liston,_John_(DNB00)"/>]
-                     <!-- LMW See Folger "Mrs. Liston as Dollalolla," "I'll spit, I'll squall, /And tear the eyes out of you all." TOM THUMB.  "Drawn and Etched expressly for the British Stage, June 1817" Handcolored image of full-figured actor in full rant.  Source Call Number: ART File L773.3 no.3 (size XS); Digital Image File Name: 30323 Digital Image Type: FSL collection Hamnet Bib ID: 253288 Hamnet Holdings ID:330629.  (Folger says TT by Henry Fielding)  LMW--></note>
+                     <!-- LMW See Folger "Mrs. Liston as Dollalolla," "I'll spit, I'll squall, /And tear the eyes out of you all." TOM THUMB.  "Drawn and Etched expressly for the British Stage, June 1817" Handcolored image of full-figured actor in full rant.  Source Call Number: ART File L773.3 no.3 (size XS); Digital Image File Name: 30323 Digital Image Type: FSL collection Hamnet Bib ID: 253288 Hamnet Holdings ID:330629.  (Folger says TT by Henry Fielding) See also V and A: http://collections.vam.ac.uk/item/O1262653/mrs-liston-as-dollalolla-print-unknown/--></note>
                </person>
                <person xml:id="Lock_Mr" sex="m">
                   <persName>Mr. Lock</persName>
@@ -11997,6 +12000,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="linguist"/>
                   <occupation type="medical" subtype="physician"/>
                   <occupation type="literary" subtype="poet"/>
+                  <occupation type="scholar" subtype="antiquarian"/>
                   <note resp="#alg">Scottish antiquary, poet, and orientalist who assisted <persName ref="#Scott_Wal">Walter Scott</persName> in compiling the <title ref="#Minstrelsy_WS">Minstrelsy of the Scottish Border</title>. Sources: LBT, DNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/54362232"/>
@@ -12370,7 +12374,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>  
                </person>
                
-               <person xml:id="Marsh_Henry">
+               <person xml:id="Marsh_Henry"><!--stub-->
                   <persName>Henry Marsh</persName>
                   <persName>
                      <surname>Marsh</surname>
@@ -12387,7 +12391,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="literary" subtype="critic"/>
                   <occupation type="educator"/>
-                  <occupation type="scholar"/>
+                  <occupation type="scholar" subtype="historian"/>
                   <note resp="#jgf #lmw">Fellow of the Royal Historical Society, Head of Humanities, and a faculty member in the Department of History at Bath Spa University.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/14864873"/>
@@ -12407,6 +12411,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <birth when="1708-01-27"/>
                   <death when="1797-09-04"/>
+                  <occupation>naturalist</occupation>
+                  <occupation>literary</occupation>
                   <note resp="#lmw">English naturalist and author of <bibl>
                         <title level="m">Indications of Spring</title> (<date when="1789">1789</date>)</bibl>, a founding work in the field of phenology, the
                      study of the effects of the seasons on plants and animals. Likely the Marsham
@@ -12512,7 +12518,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/39419260"/>
                   </note> 
                </person>
-               <person xml:id="Mast_pet">
+               <person xml:id="Mast_pet" sex="u">
                   <persName>Mast</persName>
                   <note resp="#lmw">Mitford’s dog. More research
                      needed.<!-- lmw:  is this correct name? Nash? Wash? another greyhound?--></note>
@@ -12554,7 +12560,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <persName ref="#Needham_Francis">Needham</persName> Papers</orgName>,
                         <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
                </person>
-               <person xml:id="Maturin_Charles" sex="m">
+               <person xml:id="Maturin_Charles" sex="m"><!--stub-->
                   <persName>Charles Maturin</persName>
                   <persName>
                      <forename>Charles</forename>
@@ -12700,7 +12706,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                            of Her Shipwreck in the Straits of Gaspar</title> (<date when="1817">1817</date>)</bibl>
                   </note>
                </person>
-               <person xml:id="Melville">
+               <person xml:id="Melville" sex="m">
                   <persName>Herman Melville</persName>
                   <persName>
                      <surname>Melville</surname>
@@ -12751,12 +12757,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Anne</forename>
                   </persName>
                   <birth notAfter="1793">
-                     <placeName>Amersham, Buckinhamshire, England</placeName>
+                     <placeName>Amersham, Buckinghamshire, England</placeName>
                   </birth>
                   <death notBefore="1871">
                      <placeName>Shinfield, Berkshire, England</placeName>
                   </death>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of William Merry.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Merry_William">William Merry</persName>.</note>
                </person>
                
                <person xml:id="Michael_Ras" sex="m">
@@ -12837,7 +12843,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/5712298"/>
                   </note>
                </person>
-               <person xml:id="Milner_John">
+               <person xml:id="Milner_John" sex="m">
                   <persName>John Milner</persName>
                   <birth when="1752-10-14"/>
                   <death when="1826-04-19"/>
@@ -12881,7 +12887,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Mitford</surname>
                      <roleName>Esq.</roleName>
                   </persName>
-                  <persName type="alt">George Midford</persName>
+                  <persName><addName>George Midford</addName></persName>
                   <birth>
                      <date when="1760-11-15">
                         <placeName>Hexham, Northumberland, England</placeName>
@@ -12926,7 +12932,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                
-               <person xml:id="Molly_pet">
+               <person xml:id="Molly_pet" sex="f">
                   <persName>Molly</persName>
                   <note resp="#ebb">MRM's dog, whom she describes in a letter of 1820-11-27 as a <q>"pretty little Spaniel with long curling hair--so white &amp; delicate &amp; ladylike"</q>.</note>
                </person>
@@ -13366,7 +13372,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/106964661"/>
                   </note>
                </person>
-               <person xml:id="Nelson">
+               <person xml:id="Nelson" sex="m">
                   <persName>Horatio Nelson</persName>
                   <persName>
                      <surname>Nelson</surname>
@@ -13524,7 +13530,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/59492066"/></note>
                </person>
-               <person xml:id="Nott_GeorgeFr">
+               <person xml:id="Nott_GeorgeFr" sex="m">
                   <persName>
                      <surname>Nott</surname>
                      <forename>George</forename>
@@ -13605,7 +13611,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/86321074"/></note>
                </person>
-               <person xml:id="Opie_Amelia">
+               <person xml:id="Opie_Amelia" sex="f">
                   <persName>
                      <surname>Opie</surname>
                      <forename>Amelia</forename>
@@ -13908,10 +13914,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                </person>
                <person xml:id="Payn_Mr" sex="m">
+                  <persName>Mr. Payn</persName>
                   <persName>
                      <surname>Payn</surname>
+                     <roleName>Mr.</roleName>
                   </persName>
-                  <persName>Mr. Payn</persName>
+                  
                   <note resp="#scw #lmw">
                      <persName ref="#Lewington_Mr">Mr. Lewington</persName> was his man in matters
                      of business. More research
@@ -14273,7 +14281,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Pope</surname>
                      <forename>Jane</forename>
                   </persName>
-                  
                   <birth notAfter="1744">
                      <placeName>England</placeName>
                   </birth>
@@ -14286,7 +14293,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note><ref target="http://viaf.org/viaf/46322857"/>
                   </note>
                </person>
-               <person xml:id="Porter_AM" sex="f">
+               <person xml:id="Porter_AM" sex="f"><!--stub-->
                   <persName>L’Allegra</persName>
                   <persName>Anna Maria Porter</persName>
                   <persName>
@@ -14321,10 +14328,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/315626747"/>
                   </note>
-               </person>
-               <person xml:id="postman_TMC" sex="m">
-                  <persName>The Three Mile Cross postman (in 1821)</persName>
-                  <note resp="#lmw">As yet unidentified. Needs further research.</note>
                </person>
                <person xml:id="Potter_R" sex="m">
                   <persName>Rev. Robert Potter</persName>
@@ -14478,6 +14481,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="Pulci" sex="m">
+                  <persName>Luigi Pulci</persName>
                   <persName>
                      <forename>Luigi</forename>
                      <surname>Pulci</surname>
@@ -14525,7 +14529,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Quayle_Mr" sex="m">
                   <persName>Mr. Quayle</persName>
-                  <persName>Mr. Quale</persName>
+                  <persName>
+                     <surname>Quayle</surname>
+                  <roleName>Mr.</roleName></persName>
+                  <persName><addName>Mr. Quale</addName></persName>
                   <note type="bio" resp="#lmw">Mentioned in Mitford’s letters of November 6 and 16
                      1821 as a friend willing to help in Mitford’s theatrical aspirations. Surname
                      spelled in the letter of November 16 as Quale. Forename unknown. Not identified
@@ -14686,10 +14693,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">Son of John and Elizabeth Rapley. Baptismal data as noted by <persName ref="#Needham_Francis">Needham</persName> along with other <placeName ref="#Shinfield">Shinfield parish</placeName> baptisms that correlate to named characters in <title ref="#OV">Our Village</title>. Either <rs type="person" ref="#Rapley_John2">he</rs> or <persName ref="#Rapley_John1">John Rapley</persName>, son of William and Sarah, could be the original of the <persName type="fict" ref="#Rapley_Jack_OV">Jack Rapley</persName> in <title ref="#OV">Our Village</title>.</note>
                </person>
                <person xml:id="Reeve_Mrs" sex="f">
+                  <persName>Mrs. Reeve</persName>
                   <persName>
                      <surname type="married">Reeve</surname>
+                     <roleName>Mrs.</roleName>
                   </persName>
-                  <persName>Mrs. Reeve</persName>
+                  
                   <note resp="#scw">From Whitley. More research
                      needed.<!--scw: No other info from Needham.--></note>
                </person>
@@ -14719,7 +14728,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/64013650/"/>
                   </note>
                </person>
-               <person xml:id="Reynolds_JH" sex="m">
+               <person xml:id="Reynolds_JH" sex="m"><!--stub-->
                   <persName>
                      <forename>John</forename>
                      <surname>Hamilton</surname>
@@ -14800,7 +14809,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                
-               <person xml:id="RichardIII">
+               <person xml:id="RichardIII" sex="m">
                   <persName>Richard III of England<roleName>
                      <date from="1483" to="1485">King of England and Lord of Ireland</date>
                   </roleName>
@@ -15089,7 +15098,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Roworth_Mary" sex="f">
                   <persName>Mary Valpy Roworth</persName>
-                  <persName>Miss Valpy</persName>
                   <persName>
                      <surname type="paternal">Valpy</surname>
                      <surname type="married">Roworth</surname>
@@ -15097,13 +15105,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Ann</forename>
                      <forename>Catherine</forename>
                   </persName>
+                  <persName><addName>Miss Valpy</addName></persName>
                   <birth notAfter="1786">
                      <placeName>Reading, Berkshire, England</placeName>
                   </birth>
                   <death when="1854-01">
                      <placeName>Bath, Somerset, England</placeName>
                   </death>
-                  <note type="bio" resp="#ebb #lmw #mco">Eldest of the daughters of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and his second wife,
+                  <note resp="#ebb #lmw #mco">Eldest of the daughters of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and his second wife,
                         <persName>Mary Benwell</persName>, likely born about 1786. <rs type="event">Mary Ann Catherine Valpy married <persName>Thomas Roworth, Esq. </persName>
                         of Blagdon, Somerset on <date when="1810-11-24">24 November 1810</date>
                      </rs> at St. Lawrence, Reading, Berkshire. They lived in Blagdon, Somerset, and
@@ -15202,8 +15211,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Russell</surname>
                      <surname type="paternal">Dicker</surname>
                      <forename>Mary</forename>
-                  </persName>
-                  <persName>Mrs. Russell</persName>
+              </persName>
+                  <persName><addName>Mrs. Russell</addName></persName>
                   <note resp="#lmw"> <!--LMW OK. reviewed 2019-06-12-->
                      <persName ref="#MRM">Mary Russell Mitford</persName>'s maternal grandmother. <persName ref="#Russell_MaryDicker">Mary Dicker</persName> was the daughter of William and Martha Dicker of Hampshire. She was the second wife of the <persName ref="#Russell_Richard">Richard Russell</persName>; they married on <date when="1744-05-21">May 21, 1744</date>. They had three children: <persName>Charles William</persName>, <persName>Frances</persName>, and <persName ref="#Russell_M">Mary</persName>. The <persName ref="#Russell_Richard">Rev. Dr. Richard Russell</persName> was the rector of <placeName>Ashe</placeName> and the Vicar of <placeName>Overton</placeName> and the family lived at <placeName>Ashe, Hampshire</placeName>. She died in 1785, before <persName ref="#MRM">Mitford</persName> was born.
                   </note>
@@ -15232,7 +15241,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname>Rutt</surname>
                      <forename>John</forename>
-                     <forename type="middle">Towill</forename>
+                     <forename>Towill</forename>
                   </persName>
                   <birth when="1760-04-04">
                      <placeName>London, England</placeName>
@@ -15691,7 +15700,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/sheridan-richard-brinsley-1751-1816"/>
                   </note>
                </person>
-               <person xml:id="Sherwood_Mr" sex="m">
+               <person xml:id="Sherwood_Mr" sex="m"><!--LMW: Dr. Sherwood?-->
+                  <persName>Mr. Sherwood</persName>
                   <persName>
                      <surname>Sherwood</surname>
                      <forename cert="low">Thomas</forename>
@@ -15714,7 +15724,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Siddons</surname>
                      <forename>Sarah</forename>
                   </persName>
-                  <persName>Mrs. Siddons</persName>
+                  <persName><addName>Mrs. Siddons</addName></persName>
                   <birth when="1755-07-05">
                      <placeName>Brecon, Wales</placeName>
                   </birth>
@@ -16419,7 +16429,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="Taylor_K" sex="f">
-                  <persName></persName>
                   <persName>Kerenhappuch (K.) Taylor</persName>
                   <persName>
                      <surname>Taylor</surname>
@@ -16583,8 +16592,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Henrietta</forename>
                      <forename>Euphemia</forename>
                   </persName>
-                  <persName><addName>Diana Butler</addName>
-                     <addName>Mrs. Acton Tindal</addName>
+                  <persName><addName>Diana Butler</addName></persName>
+                     <persName><addName>Mrs. Acton Tindal</addName>
                   </persName>
                   <birth notBefore="1817-07-19">
                      <placeName>Duffield, Darby, England</placeName>
@@ -16603,18 +16612,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Tiziano</forename>
                      <surname>Vecelli</surname>
                   </persName>
-                  <persName>
-                     <forename>Tiziano</forename>
-                     <surname>Vecellio</surname>
-                  </persName>
-                  <persName>Titian</persName>
                   <birth notBefore="1488" notAfter="1490">
                      <placeName>Pieve di Cadore, Italy</placeName>
                   </birth>
                   <death when="1576-08-27">
                      <placeName>Venice, Italy </placeName>
                   </death>
-                  <occupation>artist</occupation>
+                  <occupation type="artist"/>
                   <note>
                      <ref target="http://viaf.org/viaf/109266837"/>
                   </note>
@@ -16669,6 +16673,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note><ref target="http://viaf.org/viaf/34551336"/></note>
                </person>
                <person xml:id="Tubb_Daniel" sex="m">
+                  <persName>Daniel Tubb</persName>
                   <persName>
                      <surname>Tubb</surname>
                      <forename>Daniel</forename>
@@ -17063,7 +17068,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/36925746"/>
                   </note>
                </person>
-               <person xml:id="Wakefield_D">
+               <person xml:id="Wakefield_D" sex="m">
                   <persName>Daniel Wakefield</persName>
                   <persName>
                      <surname>Wakefield</surname>
@@ -17812,10 +17817,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="WindsorEE_ed" sex="m">
                   <persName>Editor of the Windsor and Eton Express</persName>
                   <note resp="#lmw">Mitford refers to this person as the <quote>Windsor paper man.</quote>
-                     Presumably the editor or proprietor of the Windsor and Eton Express newspaper.
-                     As yet unidentified. Needs further research.</note>
+                     Presumably the editor or proprietor of the <title level="j">Windsor and Eton Express</title> newspaper.
+                     Unidentified. More research needed.</note>
                </person>
-                  <person xml:id="Wordsworth_Dor" sex="f"><!--LMW: not a dupe.-->
+                  <person xml:id="Wordsworth_Dor" sex="f"><!--LMW: not a dup.-->
                      <persName>Dorothy Wordsworth</persName>
                      <persName>
                         <forename>Dorothy</forename>
@@ -17919,10 +17924,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>Mr. Young</persName>
                   <persName>
                      <surname>Young</surname>
+                     <roleName>Mr.</roleName>
                   </persName>
-                  
-                  <occupation type="medical"/>
-                  <note resp="#scw #lmw">Doctor from <placeName ref="#Reading_city">Reading</placeName>. More research needed.
+                 <occupation type="medical"/>
+                  <note resp="#scw #lmw">Medical doctor from <placeName ref="#Reading_city">Reading</placeName>. More research needed.
                      <!--scw: No other info from Needham.--></note>
                </person>
             </listPerson>
@@ -17931,41 +17936,41 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
             <listOrg sortKey="fictOrgs">
                <org xml:id="WheelersChildren_OV">
                   <orgName>wheeler's children</orgName>
-                  <note resp="#scw">In <title ref="#OurVillage_story_OV">the titular sketch of Our Village</title>, <persName ref="#Lizzy_OV">little Lizzy</persName> is said to turn the wheeler's children out of their cart and make them pull her.</note>
+                  <note resp="#scw">Group of unnamed children of the wheeler. In <title ref="#OurVillage_story_OV">the titular sketch of Our Village</title>, <persName ref="#Lizzy_OV">little Lizzy</persName> is said to turn the wheeler's children out of their cart and make them pull her.</note>
                </org>
                
                <org xml:id="workmen_OV">
                   <orgName>workmen</orgName>
-                  <note resp="#scw">The workmen in <title ref="#Our_Village1st_ed">Our Village</title> whom the <persName ref="#Wealthy_Renovator_OV">renovator</persName> hires to work on his house.</note>
+                  <note resp="#scw">Unnamed group of workmen in <title ref="#Our_Village1st_ed">Our Village</title> whom the <persName ref="#Wealthy_Renovator_OV">renovator</persName> hires to work on his house.</note>
                </org>
                <org xml:id="Gardeners_OV">
                   <orgName>gardeners</orgName>
-                  <note resp="#scw">Characters who appear throughout <title ref="#OV">Our Village</title>.</note>
+                  <note resp="#scw">Unnamed group of gardeners who appear throughout <title ref="#OV">Our Village</title>.</note>
                </org>
                
                <org xml:id="journeyman_shoemakers_OV">
                   <orgName>journeyman shoemakers</orgName>
-                  <note resp="#scw">In the titular sketch of <title ref="#OurVillage_story_OV">Our Village</title>, the <persName ref="#Shoemaker">shoemaker</persName> is said to employ three journeymen.</note>
+                  <note resp="#scw">In the titular sketch of <title ref="#OurVillage_story_OV">Our Village</title>, the <persName ref="#Shoemaker">shoemaker</persName> is said to employ three unnamed journeymen.</note>
                </org>
                
                <org xml:id="Lieutenants_children_OV">
                   <orgName>Lieutenant's children</orgName>
-                  <note resp="#scw">Small children of <persName ref="#Lieutenant_OV">the Lieutenant</persName> who watch their father skate on the pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+                  <note resp="#scw">Unnamed small children of <persName ref="#Lieutenant_OV">the Lieutenant</persName> who watch their father skate on the pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
                </org>
                
                <org xml:id="Officers_family_OV">
                   <orgName>officer's family</orgName>
-                  <note resp="#scw">Characters who are introduced in the first sketch of <title ref="#OurVillage_story_OV">Our Village</title>.</note>
+                  <note resp="#scw">Family members of the officer, characters who are introduced in the first sketch of <title ref="#OurVillage_story_OV">Our Village</title>.</note>
                </org>
                
                <org xml:id="riders_OV">
                   <orgName>riders</orgName>
-                  <note resp="#scw">Horseback, coach and chaise riders whom <persName ref="#OVNarrator">the narrator</persName> describes in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+                  <note resp="#scw">Unnamed horseback, coach and chaise riders whom <persName ref="#OVNarrator">the narrator</persName> describes in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
                </org>
                
                <org xml:id="skating_spectators_OV">
                   <orgName>skating spectators</orgName>
-                  <note resp="#scw">Collection of people who watch <persName ref="#Lieutenant_OV">the Lieutenant</persName> skate on the pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+                  <note resp="#scw">Unnamed group of characters who watch <persName ref="#Lieutenant_OV">the Lieutenant</persName> skate on the pond in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
                </org>
                
                <org xml:id="sliding_urchins_OV">
@@ -17973,15 +17978,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">The <quote>half a dozen ragged urchins,</quote> including <persName ref="#Rapley_Jack_OV">Jack Rapley</persName>, whom <persName ref="#OVNarrator">the narrator</persName> watches sliding on a frozen hill in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
                </org>
                
-               
                <org xml:id="walkers_OV">
                   <orgName>walkers</orgName>
-                  <note resp="#scw">Walkers on a cold day whom <persName ref="#OVNarrator">the narrator</persName> describes in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
+                  <note resp="#scw">Unnamed group of walkers on a cold day whom <persName ref="#OVNarrator">the narrator</persName> describes in <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title>.</note>
                </org>
                
                <org xml:id="Attendants_R">
-                  <orgName>Attendants &amp;c.</orgName>
-                  <note resp="#ebb">Attendants in <title ref="#Rienzi">Rienzi</title>.</note>
+                  <orgName>Attendants</orgName>
+                  <note resp="#ebb">Attendants and group of other unnamed characters in <title ref="#Rienzi">Rienzi</title>.</note>
                </org>
                <org xml:id="Balfours_WS">
                   <orgName>Balfours of Burleys</orgName>
@@ -18003,11 +18007,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                
                <org xml:id="curatesFamily_OV">
                   <orgName>curate's family</orgName>
-                  <note resp="#scw">Characters mentioned in the first sketch of <title ref="#OurVillage_story_OV">Our Village</title>. The curate's family is said to live in another town, four miles away.</note>
+                  <note resp="#scw">Group of unnamed characters mentioned in the first sketch of <title ref="#OurVillage_story_OV">Our Village</title>. The curate's family is said to live in another town, four miles away.</note>
                </org>
                <org xml:id="BustlingDamesChildren_OV">
                   <orgName>bustling dame's children</orgName>
-                  <note resp="#scw">Characters in <title ref="#OV">Our Village</title>.</note>
+                  <note resp="#scw">Group of unnamed children in <title ref="#OV">Our Village</title>.</note>
                </org>
                <org xml:id="BlacksmithsChildren_OV">
                   <orgName>blacksmith's children</orgName>
@@ -18016,7 +18020,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                
                <org xml:id="BricklayersOV">
                   <orgName>bricklayers</orgName>
-                  <note resp="#scw">The bricklayers who work for <persName ref="#Wealthy_Renovator_OV">the whimsical man</persName> who renovates his house in <title ref="#OurVillage_story_OV">Our Village</title>.</note>
+                  <note resp="#scw">Group of unnamed bricklayers who work for <persName ref="#Wealthy_Renovator_OV">the whimsical man</persName> who renovates his house in <title ref="#OurVillage_story_OV">Our Village</title>.</note>
                </org>
                
                <org xml:id="Cabinet_makersOV">
@@ -18026,64 +18030,64 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                
                <org xml:id="CarpentersOV">
                   <orgName>carpenters</orgName>
-                  <note resp="#scw">Characters who work for <persName ref="#Wealthy_Renovator_OV">the whimsical wealthy man</persName> who renovates his house in <title ref="#OurVillage_story_OV">Our Village</title>.</note>
+                  <note resp="#scw">Group of unnamed characters who work for <persName ref="#Wealthy_Renovator_OV">the whimsical wealthy man</persName> who renovates his house in <title ref="#OurVillage_story_OV">Our Village</title>.</note>
                   
                </org>
                <org xml:id="Chorus_R">
                   <orgName>Chorus</orgName>
-                  <note resp="#esh">Chorus in <title ref="#Rienzi">Rienzi</title>.</note>
+                  <note resp="#esh">Group of unnamed characters who make up the Chorus in <title ref="#Rienzi">Rienzi</title>.</note>
                </org>
                <org xml:id="Citizens_R">
                   <orgName>Citizens</orgName>
-                  <note resp="#ebb">Citizens of <placeName ref="#Rome">Rome</placeName> in <title ref="#Rienzi">Rienzi</title>.</note>
+                  <note resp="#ebb">Group of unnamed characters who are citizens of <placeName ref="#Rome">Rome</placeName> in <title ref="#Rienzi">Rienzi</title>.</note>
                </org>
                <org xml:id="Guards_Jul">
                   <orgName>Guards</orgName>
-                  <note resp="#ebb">Guards in <title ref="#Julian_MRMplay">Julian</title>
+                  <note resp="#ebb">Group of unnamed characters who are guards in <title ref="#Julian_MRMplay">Julian</title>
                   </note>
                </org>
                <org xml:id="Guards_R">
                   <orgName>Guards</orgName>
-                  <note resp="#ebb">Guards in <title ref="#Rienzi">Rienzi</title>.</note>
+                  <note resp="#ebb">Group of unnamed characters who are guards in <title ref="#Rienzi">Rienzi</title>.</note>
                </org>
                <org xml:id="Ladies_R">
                   <orgName>Ladies</orgName>
-                  <note resp="#ebb">Ladies in <title ref="#Rienzi">Rienzi</title>.</note>
+                  <note resp="#ebb">Group of unnamed characters who are noble Ladies in <title ref="#Rienzi">Rienzi</title>.</note>
                </org>
                <org xml:id="Nobles_Jul">
                   <orgName>Nobles</orgName>
-                  <note resp="#ebb">Nobles in <title ref="#Julian_MRMplay">Julian</title>
+                  <note resp="#ebb">Group of unnamed characters who are Nobles (i.e., noble gentlemen) in <title ref="#Julian_MRMplay">Julian</title>
                   </note>
                </org>
                <org xml:id="Nobles_R">
                   <orgName>Nobles</orgName>
-                  <note resp="#ebb">Nobles of <placeName>Rome</placeName> in <title ref="#Rienzi">Rienzi</title>.</note>
+                  <note resp="#ebb">Group of unnamed characters who are Nobles (i.e., noble gentlemen) of <placeName ref="#Rome">Rome</placeName> in <title ref="#Rienzi">Rienzi</title>.</note>
                </org>
                <org xml:id="officer_Ch1">
-                  <orgName>officers in <title ref="#CharlesI_MRMplay">Charles I</title>
+                  <orgName>Group of unnamed characters who are officers in <title ref="#CharlesI_MRMplay">Charles I</title>
                   </orgName>
                </org>
                <org xml:id="Prelates_Jul">
                   <orgName>Prelates</orgName>
-                  <note resp="#ebb">Prelates in <title ref="#Julian_MRMplay">Julian</title>
+                  <note resp="#ebb">Group of unnamed characters who are Prelates in <title ref="#Julian_MRMplay">Julian</title>
                   </note>
                </org>
             </listOrg>
             <listPerson sortKey="archPersons">
                <person xml:id="Ahab" sex="m">
                   <persName>Ahab</persName>
+                  <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb">Historic and legendary ancient King of Israel, married to
                         <persName ref="#Jezebel">Jezebel</persName>.</note>
                </person>
                <person xml:id="Amaziah" sex="m">
-                  <persName>Amaziah</persName>
+                  <persName>Amaziah of Judah</persName>
                   <occupation type="government" subtype="monarch"/>
+                  <note resp="#lmw">Historical and legendary ancient King of Judah, member of the House of David; the son of Joash and the father of his successor Uzziah.</note>
                </person>
-               <person xml:id="Baal" sex="m">
-                  <occupation>god</occupation>
-                  <occupation>demon</occupation>
-                  <occupation>idol</occupation>
+               <person xml:id="Baal" sex="m"><!--stub-->
                   <persName>Baal</persName>
+                  <note resp="#lmw"></note>
                </person>
                <person xml:id="Bluebeard_fict" sex="m">
                   <persName>
@@ -18096,9 +18100,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Colman the younger</persName>.</note>
                </person>
                <person xml:id="Cassandra" sex="f">
-                  <persName>Cassandra </persName>
+                  <persName>Cassandra</persName>
                   <note resp="#err">Daughter of King Priam and Queen Hecuba of Troy, Cassandra was a
-                     prophet in Greek mythology whose prophecies were never believed.</note>
+                     prophet in ancient Greek mythology whose prophecies were never believed.</note>
                </person>
                <person xml:id="Cupid" sex="m">
                      <persName>Cupid</persName>
@@ -18124,14 +18128,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Deborah" sex="f">
                   <persName>Deborah</persName>
                   <occupation type="religious" subtype="prophet"/>
-                  
-                  <note resp="#ebb">Hebrew leader, prophet, and judge, who predicted a woman would
+                 <note resp="#ebb">Hebrew leader, prophet, and judge, who predicted a woman would
                      kill <persName>Sisera</persName>, the leader of the Canaanites. <persName ref="#Jael">Jael</persName> fulfilled Deborah’s prophecy.</note>
                </person>
                <person xml:id="Hassan_Bedreddin" sex="m">
                   <persName>Prince Bedreddin Hassan</persName>
-                  <note resp="#lmw">A character in <title ref="#Arabian_Tales">Arabian tales</title>
-                     (also known as One Thousand and One Nights) who appears in the story variously
+                  <note resp="#lmw">A character in <title ref="#Arabian_Tales">Arabian aTles</title>
+                     (also known as <title level="m">One Thousand and One Nights</title>) who appears in the story variously
                      titled <title level="a">Noureddin Ali of Cairo</title> or <title level="a">Noureddin and his Son.</title></note>
                </person>
               
@@ -18240,9 +18243,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Nathan" sex="m">
                   <persName>Nathan</persName>
-                  <persName>
-                     <forename>Nathan</forename>
-                  </persName>
                   <occupation type="religious" subtype="prophet"/>
                   <occupation type="military"/>
                   <note resp="#rnes">Apocryphal <title ref="#OldTestament_Bible">Old Testament</title> prophet from the Christian Bible; he related his visions to <persName ref="#David_OT">King David</persName>.</note>
@@ -18266,13 +18266,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">The Punch and Judy slapstick puppet shows of England had their
                      roots in the 16th-century Italian commedia dell’arte tradition. The figure of
                      Punch derives from the Neapolitan stock character of Pulcinella, whose name was
-                     anglicized "Punchinello" and shortened to "Punch." 17th- and 18th-century shows
+                     anglicized Punchinello and shortened to Punch. 17th- and 18th-century shows
                      in England were performed with marionettes on fixed stages. By the end of the
                      18th century, shows were performed using glove puppets on mobile puppet booths
                      and found a home on the nineteenth century on the beaches of English seaside
                      resorts and evolved into children’s entertainments in the Victorian era. Mr.
                      Punch is the traditional protagonist of such shows; episodic plots normally
-                     involve Punch beating his wife and other characters with his "slapstick" and
+                     involve Punch beating his wife and other characters with his slapstick and
                      end with him defeating even the Devil himself.</note>
                   <note>
                      <ref target="http://www.vam.ac.uk/content/articles/t/thats-the-way-to-do-it!-a-history-of-punch-and-judy/"/>
@@ -18327,8 +18327,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type = "trade"/>
                   <!--SCW: Check this -->
-                  <note resp="#scw">Character of the suitor of <persName ref="#Wilson_Hannah_OV">Hannah</persName> in the <title ref="#Our_Village1st_ed">Our Village</title> story of that name.</note>
-               </person>
+                  <note resp="#scw">Character of the suitor of <persName ref="#Wilson_Hannah_OV">Hannah</persName> in the <title ref="#Our_Village1st_ed">Our Village</title> story of that name.</note></person>
                
                <person xml:id="Vicar_OV" sex="m">
                   <persName>vicar
@@ -18447,12 +18446,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Abbe_de_L_Epee_DD" sex="m">
                   <persName>Abbé de L’Épée</persName>
-                  <note resp="#lmw">character in <title ref="#Deaf_Dumb_play"> Deaf and Dumb</title>
+                  <note resp="#lmw">character in <title ref="#Deaf_Dumb_play">Deaf and Dumb</title>
                   </note>
                </person>
                <person xml:id="Abbot_J" sex="m">
-                  <persName>An Abbot</persName>
-                  <note resp="#ebb">character in <title ref="#Julian_MRMplay">Julian</title>.</note>
+                  <persName>Abbot</persName>
+                  <note resp="#ebb">Unnamed Abbot haracter in <title ref="#Julian_MRMplay">Julian</title>.</note>
                </person>
                
                <person xml:id="Alberti" sex="m">
@@ -18465,8 +18464,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                
                <person xml:id="Alfonso_J" sex="m">
                   <persName>Alfonso</persName>
-                  <note resp="#ebb">King of <placeName ref="#Naples">Naples</placeName>, disguised
-                     as "Theodore," in <title ref="#Julian_MRMplay">Julian</title>.</note>
+                  <note resp="#ebb">Character of the king of <placeName ref="#Naples">Naples</placeName>, disguised
+                     as Theodore, in <title ref="#Julian_MRMplay">Julian</title>.</note>
                </person>
                
                <person xml:id="Alice" sex="f">
@@ -18476,7 +18475,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                
                <person xml:id="Ambassador_R" sex="m">
                   <persName>Ambassador</persName>
-                  <note resp="#lmw">The character of the Ambassador in <title ref="#Rienzi">Rienzi</title>. No proper name given.</note>
+                  <note resp="#lmw">The character of the unnamed Ambassador in <title ref="#Rienzi">Rienzi</title>.</note>
                </person>
                <person xml:id="Annabel_J" sex="f">
                   <persName>Annabel</persName>
@@ -18485,19 +18484,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Annaly_Lady_char" sex="f">
                   <persName>
                      <surname>Annaly</surname>
-                     <forename/>
+                     <roleName>Lady</roleName>
                   </persName>
-                  <note type="bio" resp="#ajc">Character in <bibl>
+                  <note resp="#ajc">Character in <bibl>
                         <author ref="#Edgeworth_Maria"> Maria Edgeworth’s</author>
-                        <title ref="#Ormond_novel">Ormond</title> (<date when="1817">1817</date>)</bibl>
+                        <title ref="#Ormond_novel">Ormond</title>.</bibl>
                   </note>
                </person>
                <person xml:id="Annaly_Miss_char" sex="f">
                   <persName>
                      <surname>Annaly</surname>
+                     <roleName>Miss</roleName>
                      <forename/>
                   </persName>
-                  <note type="bio" resp="#ajc">Daughter of <persName ref="#Annaly_Lady_char">Lady
+                  <note resp="#ajc">Daughter of <persName ref="#Annaly_Lady_char">Lady
                         Annaly</persName> in <bibl>
                         <author ref="#Edgeworth_Maria"> Maria Edgeworth’s</author>
                         <title ref="#Ormond_novel">Ormond</title>.</bibl>
@@ -18505,67 +18505,71 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Antigone_A" sex="f">
                   <persName>Antigone</persName>
-                  <note resp="#lmw">character in <title ref="#Antigone_play">Antigone</title>
+                  <note resp="#lmw">Title character in <title ref="#Antigone_play">Antigone</title>
                   </note>
                </person>
                <person xml:id="ArchBishop_Jul" sex="m">
-                  <persName>An Archbishop</persName>
-                  <note resp="#ebb">character in <title ref="#Julian_MRMplay">Julian</title>.</note>
+                  <persName>Archbishop</persName>
+                  <note resp="#ebb">Characterof an unnamed Archbishop in <title ref="#Julian_MRMplay">Julian</title>.</note>
                </person>
                
-               <person xml:id="Ariel" sex="u"><!--scw: revised: stub already in SI-->
+               <person xml:id="Ariel" sex="u">
                   <persName>Ariel</persName>
                   <occupation type="service"/>
                   <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who serves <persName ref="#Prospero">Prospero</persName> under magical duress.</note>
                </person>
-               
                
                <person xml:id="Ascanius" sex="m">
                   <persName>
                      <forename>Ascanius</forename>
                   </persName>
                   <note resp="#lmw">Character from <persName ref="#Virgil">Virgil</persName>’s
-                        <title ref="#Aeneid_Virgil">Aeneid</title>
+                        <title ref="#Aeneid_Virgil">Aeneid</title>.
                   </note>
                </person>
                <person xml:id="Aspatia" sex="f">
                   <persName>Aspatia</persName>
-                  <note resp="#esh">character in <title ref="#Maids_Tragedy_play">The Maid’s
+                  <note resp="#esh">Character in <title ref="#Maids_Tragedy_play">The Maid’s
                         Tale</title>.</note>
                </person>
                <person xml:id="Balfour_John" sex="m">
                   <persName>John Balfour</persName>
-                  <note resp="#esh">character in <title ref="#Old_Mortality">Old
+                  <persName>
+                     <surname>Balfour</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <note resp="#esh">Character in <title ref="#Old_Mortality">Old
                      Mortality</title>.</note>
                </person>
                <person xml:id="Bardolph_WS" sex="m">
                   <persName>Bardolph</persName>
-                  <note type="bio" resp="#ajc"> Character in <persName ref="#Shakespeare">Shakespeare’s</persName>
+                  <note resp="#ajc">Character in <persName ref="#Shakespeare">Shakespeare’s</persName>
                      <bibl corresp="#HenryV_play">Henry V</bibl> and <bibl corresp="#HenryIVpt1_play">Henry IV Part I</bibl>, <bibl corresp="#HenryIVpt2_play">Henry IV Part II</bibl>, and the <bibl corresp="#Merry_Wives_play">Merry Wives of Windsor</bibl>. </note>
                </person>
                <person xml:id="Beatrice_MuchAdo" sex="f">
                   <persName>Beatrice</persName>
-                  <note type="bio" resp="#ajc">Niece of Leonato, character in <persName ref="#Shakespeare">Shakespeare’s</persName>
+                  <note resp="#ajc">Niece of Leonato, character in <persName ref="#Shakespeare">Shakespeare’s</persName>
                      <bibl corresp="#Much_Ado_play">Much Ado About Nothing.</bibl>
                   </note>
                </person>
                <person xml:id="Bellario" sex="m">
-                  <persName>Bellario (Euphrasia)</persName>
-                  <note resp="#esh">character in <title ref="#Philaster_play">Philaster</title>.</note>
+                  <persName>Bellario</persName>
+                  <note resp="#esh">Character in <title ref="#Philaster_play">Philaster</title>, also called Euphrasia.</note>
                </person>
                <person xml:id="Bennet_Mrs_fict" sex="f">
+                  <persName>Mrs. Bennet</persName>
                   <persName>
                      <forename/>
                      <surname>Bennet</surname>
+                     <roleName>Mrs.</roleName>
                   </persName>
-                  <persName>Mrs. Bennet</persName>
                   <note resp="#lmw">Character in <persName ref="#Austen_Jane">Austen</persName>’s
                      novel <title ref="#Pride_and_Prejudice">Pride and Prejudice</title>.</note>
                </person>
                <person xml:id="Berta_R" sex="f">
                   <persName>Berta</persName>
                   <note resp="#ebb">Attendant to <persName ref="#Claudia_R">Claudia</persName> in
-                        <title ref="#Rienzi">Rienzi</title>
+                        <title ref="#Rienzi">Rienzi</title>.
                   </note>
                </person>
                
@@ -18627,10 +18631,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                
                <person xml:id="BriggsMr_Cecilia" sex="m">
                   <persName>Mr. Briggs</persName>
+                  <persName>
+                     <surname>Briggs</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
                   <note resp="#lmw">Character in <bibl corresp="#Cecilia_FB">Fanny Burney’s <title level="m">Cecilia</title>
                      </bibl>.</note>
                </person>
                <person xml:id="Brulgruddery_D" sex="m">
+                  <persName>Dennis Brulgruddery</persName>
                   <persName>
                      <forename>Dennis</forename>
                      <surname>Brulgruddery</surname>
@@ -18638,8 +18647,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">A character in the <persName ref="#Colman_the_Younger">George
                         Colman the younger</persName> play, <title ref="#JohnBull_play">John Bull
                         the Englishman’s Fireside, a Comedy in five acts.</title> In the play the
-                     character is the proprietor of a public house at the sign of the "red
-                     cow."</note>
+                     character is the proprietor of a public house at the sign of the Red
+                     Cow.</note>
                </person>
                <person xml:id="BustlingDame_OV" sex="f"><!--SCW: replaces BustlingDame-->
                   <persName>bustling dame
@@ -18664,13 +18673,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="government" subtype="courtier"/>
                   <note resp="#lmw">Lord Cafarello is a character in <title ref="#Rienzi">Rienzi</title>; one of the members of the Colonna faction. Played by <persName ref="#Lee_Mr">Mr. Lee</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note></person>
                
-               <person xml:id="Caliban" sex="m"><!-- LMW: add to existing stub -->
+               <person xml:id="Caliban" sex="m">
                   <persName>Caliban</persName>
                   <occupation type="service"/>
                   <!-- Fact Check: originally slave --> <!-- #slc 5/26/2019 Prospero magically enslaves Caliban and Ariel. There are not necessarily any socioeconomic implications comparable to those in the real world, only magical compulsions. This is not the equivalent of chattel slavery. It's more of a plot device. -->
                   <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who chafes against his magically-enforced servitude to <persName ref="#Prospero">Prospero</persName>.</note>
                </person>
-               
                
                <person xml:id="Calvi_J" sex="f">
                   <persName>Calvi</persName>
@@ -18678,6 +18686,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="Camilla" sex="f">
+                  <persName>Camilla Donato</persName>
                   <persName>
                      <surname>Donato</surname>
                      <forename>Camilla</forename>
@@ -18693,14 +18702,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Mitford admires Burney’s characterization of her in her a letter to Elford from
                         <date when="1819-05-30">30 May 1819</date>.</note>
                </person>
-               <person xml:id="Camillo_R">
+               <person xml:id="Camillo_R" sex="m">
                   <persName>Camillo</persName>
+                  <note resp="#lmw">Camillo is a character in <title ref="#Rienzi">Rienzi</title>; <persName ref="#Rienzi_Cola">Rienzi</persName>'s servant. Played by <persName ref="#Jones_C">Mr. C. Jones</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
                </person>
                <person xml:id="Cantwell" sex="m">
-                  <persName>Cantwell</persName>
+                  <persName>Dr. Cantwell</persName>
+                  <persName>
+                     <surname>Cantwell</surname>
+                     <roleName>Dr.</roleName>
+                  </persName>
                   <note resp="#kdc">Title character in <persName ref="#Bickerstaff_Is">Bickerstaff’s</persName> comedy <title ref="#Hypocrite">The Hypocrite
-                     </title>, a satirical version of <title ref="#Tartuffe">Tartuffe</title> by
-                        <persName ref="#Moliere">Molière</persName>
+                     </title>, an adaptation of <title ref="#Tartuffe">Tartuffe</title> by
+                        <persName ref="#Moliere">Molière</persName>.
                   </note>
                </person>
                <person xml:id="Carton_Sidney" sex="m">
@@ -18756,8 +18770,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Rienzi</persName> in <title ref="#Rienzi">Rienzi</title>.</note>
                </person>
                
-               
-               <person xml:id="Clementina_della_Poretta" sex="f">
+              <person xml:id="Clementina_della_Poretta" sex="f">
                   <persName>Clementina della Poretta</persName>
                   <persName>
                      <surname><nameLink>della</nameLink> Poretta</surname>
@@ -18767,31 +18780,44 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                
                <person xml:id="Collins_Mr_fict" sex="m">
-                  <persName>
-                     <surname>Collins</surname>
-                  </persName>
                   <persName>Mr. Collins</persName>
+                 <persName>
+                     <surname>Collins</surname>
+                    <roleName>Mr.</roleName>
+                  </persName>
                   <note resp="#lmw">Character in <persName ref="#Austen_Jane">Austen</persName>’s
                      novel <title ref="#Pride_and_Prejudice">Pride and Prejudice</title>.</note>
                </person>
                <person xml:id="Colonna_Ang" sex="m">
                   <persName>Angelo Colonna</persName>
-                  <note resp="#ebb">character in <title ref="#Rienzi">Rienzi</title>.</note>
+                  <persName>
+                     <surname>Colonna</surname>
+                     <forename>Angelo</forename>
+                  </persName>
+                  <note resp="#ebb">Character in <title ref="#Rienzi">Rienzi</title>.</note>
                </person>
                <person xml:id="Colonna_Lady" sex="f">
                   <persName>Lady Colonna</persName>
-                  <note resp="#ebb">wife of <persName ref="#Colonna_Stph">Stephen Colonna</persName>
+                  <persName>
+                     <surname>Colonna</surname>
+                     <roleName>Lady</roleName>
+                  </persName>
+                  <note resp="#ebb">Wife of <persName ref="#Colonna_Stph">Stephen Colonna</persName>
                      in <title ref="#Rienzi">Rienzi</title>.</note>
                </person>
                <person xml:id="Colonna_Stph" sex="m">
                   <persName>Stephen Colonna</persName>
-                  <note resp="#ebb">character in <title ref="#Rienzi">Rienzi</title>. Father of
+                  <persName>
+                     <surname>Colonna</surname>
+                     <forename>Stephen</forename>
+                  </persName>
+                  <note resp="#ebb">Character in <title ref="#Rienzi">Rienzi</title>. Father of
                      Angelo Colonna</note>
                </person>
                <person xml:id="Constance_KJ" sex="f">
                   <persName>Constance</persName>
                   <note resp="#alg">Character in <title ref="#King_John_play">The Life and Death of
-                        King John</title>
+                        King John</title>.
                   </note>
                </person>
                <person xml:id="Cook_Ch1" sex="m">
@@ -18801,10 +18827,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Coriolanus_C" sex="m">
                   <persName>Coriolanus</persName>
-                  <note resp="#lmw">character in <title ref="#Coriolanus_play"> Coriolanus</title>
+                  <note resp="#lmw">Title character in <title ref="#Coriolanus_play"> Coriolanus</title>
                   </note>
                </person>
                <person xml:id="Cosmo" sex="m">
+                  <persName>Cosmo Donato</persName>
                   <persName>
                      <surname>Donato</surname>
                      <forename>Cosmo</forename>
@@ -18814,6 +18841,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Cromwell_MRM" sex="m">
                   <persName>Oliver Cromwell</persName>
+                  <persName>
+                     <surname>Cromwell</surname>
+                     <forename>Oliver</forename>
+                  </persName>
                   <note resp="#ebb">Cromwell’s character in <persName ref="#Chas1_MRM">King</persName> in <persName ref="#MRM">Mitford’s</persName> play, <title ref="#CharlesI_MRMplay">Charles I</title>.</note>
                </person>
                <person xml:id="Curate_OV" sex="m"><!--SCW: replaces Curate-->
@@ -18837,7 +18868,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Dandie_Dinmont" sex="m">
                   <persName>Dandie Dinmont</persName>
-                  <note resp="#esh">character in <title ref="#Guy_Mannering">Guy
+                  <note resp="#esh">Character in <title ref="#Guy_Mannering">Guy
                      Mannering</title>.</note>
                </person>
                <person xml:id="Darcy_fict" sex="m">
