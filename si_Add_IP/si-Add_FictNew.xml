@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index: Additions Template, for Adding and Updating Named Entities in the
+               Digital Mitford Archive</title>
+            <author>Digital Mitford Editors</author>
+            <editor><persName ref="#lmw">Lisa M. Wilson</persName>
+            </editor>
+            <editor><persName ref="#scw">Samantha Webb</persName></editor>
+            <editor><persName ref="#ad">Alexandra Drayton</persName></editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Data extraction and compiling by</resp>
+               <persName type="hist" ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#lmw">Lisa M. Wilson</persName> <!--LMW: correcting tags 2019-05-26-->
+               <persName ref="#scw">Samantha Webb</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Information on named entities in this file has been extracted from files in the
+               Digital Mitford Archive.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>  
+         <!--LMW: Sam, here is a file of existing fictional character SI entries that I believe are all OV stubs (let me know if any turn out NOT to be OV, because we will have to figure out what they belong to.) I've been using a simple formula of "character of x from [title of work}" If there is no proper name given for the character I put in "no surname given" or something similar, just to show that we did not FORGET to put in a name that we knew. Minimally the note needs to point to the source literary work of course so some entries just read "Caliban is a character in <title ref="#Tempest">The Tempest"</title>.) If we know a forename/surname we can put that in. Even though these are all in the fictional character section of the SI, I think it's also a good idea to put the term "character" in the entry. ie, don't write simply postman from OV, put "Character of the postman in OV". -->
+         
+         <!--Lisa and Elisa: This file contains fictional characters from the first five sketches, as well as a few others, plus some annotation material. Some OV characters listed here that are already in the SI, and some that are new. Some of the existing xml:id's have been changed to begin with the character surnames, as per Elisa and my conversation from July. Also, I've added "OV" to all OV characters. This will affect tagging in currently completed files, and maybe some that are uploaded. I've noted the ones that will need to be replaced in the current SI.-->
+         
+              <!--new entries needed:
+                <title ref="#Intro_OV_v3">Introduction</title> to <title ref="#OurVillage_3rd">the third volume of Our Village</title>
+                John Clare
+                Tennyson
+                Millais
+                Lisbon
+                <title ref="#Doctor_Casden">Doctor Casden</title>
+                <title ref="#Recruiting_Officer">The Recruiting Officer</title> and <title ref="#Beaux_Stratagem">The Beaux' Stratagem</title>
+                midsummer nights dream
+                Amsterdam
+               -->
+         
+         <!--STUBS:
+             <person xml:id="Reynolds_JH" sex="m">
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Hamilton</surname>
+                     <surname>Reynolds</surname>
+                  </persName>
+                  <birth when="1794-09-09">
+                     <placeName>Shrewsbury, England</placeName>
+                  </birth>
+                  <death when="1852-11-15">
+                     <placeName>Newport, Isle of Wight, England</placeName>
+                  </death>
+                  <occupation>literary</occupation>
+                  <note>
+                     <ref target="http://viaf.org/viaf/79365644"/>
+                  </note>
+               </person>
+               
+                         <person xml:id="Tasso" sex="m">
+                  <persName>
+                     <surname>Tasso</surname>
+                     <forename>Torquato</forename>
+                  </persName>
+                  <birth when="1544-03-11">
+                     <placeName>Sorrento, Kingdom of Naples</placeName>
+                  </birth>
+                  <death when="1595-04-25">
+                     <placeName> Rome, Papal States</placeName>
+                  </death>
+                  <occupation>literary</occupation>
+                  <occupation>poet</occupation>
+                  <occupation>courtier</occupation>
+                  <note resp="#lmw">Tasso was a poet and courtier from <placeName ref="#Naples">Naples</placeName>. He was the author of <bibl>the pastoral drama <title level="m">Aminta</title> (<date when="1573">1573</date>)</bibl> and
+                        <bibl>epic poem <title level="m">Gerusalemme Liberata</title> (<date when="1574">1574</date>)</bibl>. Tasso’s life and work continued to be
+                     the subject of much attention during Mitford’s lifetime. <bibl>
+                        <author ref="#Byron">Byron</author>’s poem <title level="a">The Lament of
+                           Tasso</title>, written in <placeName>Florence</placeName>, appeared in
+                           <date when="1817">1817</date>
+                     </bibl>; <bibl>a translation of <title level="m">Gerusalemme Liberata</title>
+                        in Spenserian stanzas by <editor role="translator">Jeremiah Holmes
+                           Wiffen</editor> appeared in <date when="1821">1821</date>
+                     </bibl>; <bibl>
+                        <author>Donizetti</author> wrote an opera on the subject of Tasso in <date when="1833">1833</date>
+                     </bibl>, incorporating some of the poet’s work into the libretto; and <bibl>
+                        <author>Franz Liszt</author> composed a symphonic poem, <title level="m">Tasso, Lamento e Trionfo</title> in commemoration of the centenary of
+                           <persName>Goethe</persName>’s birth in <date when="1849">1849</date>
+                     </bibl>. </note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/4936996/"/>
+                  </note>
+               </person>
+                      <person xml:id="Titian" sex="m">
+                  <persName>
+                     <forename>Tiziano</forename>
+                     <surname>Vecelli</surname>
+                  </persName>
+                  <persName>
+                     <forename>Tiziano</forename>
+                     <surname>Vecellio</surname>
+                  </persName>
+                  <persName>Titian</persName>
+                  <birth notBefore="1488" notAfter="1490">
+                     <placeName>Pieve di Cadore, Italy</placeName>
+                  </birth>
+                  <death when="1576-08-27">
+                     <placeName>Venice, Italy </placeName>
+                  </death>
+                  <occupation>artist</occupation>
+                  <note>
+                     <ref target="http://viaf.org/viaf/109266837"/>
+                  </note>
+               </person>
+               <person xml:id="Rousseau" sex="m">
+                  <persName>Jean-Jacques Rousseau <forename>Jean-Jacques</forename>
+                     <surname>Rousseau</surname>
+                  </persName>
+                  <birth when="1712-06-28">
+                     <placeName>Geneva, Switzerland</placeName>
+                  </birth>
+                  <death when="1778-02-07">
+                     <placeName>Ermenonville, France</placeName>
+                  </death>
+                  <occupation>literary</occupation>
+                  <occupation>political</occupation>
+                  <occupation>educator</occupation>
+                  <note>
+                     <ref target=" http://viaf.org/viaf/10018405"/>
+                  </note>
+               </person>
+               
+                <person xml:id="Sevigne_Mad" sex="f">
+                  <persName>
+                     <forename>Marie</forename>
+                     <surname>de Rabutin-Chantal</surname>
+                     <surname type="married">de Sévigné</surname>
+                  </persName>
+                  <persName>
+                     <roleName>Marquise de Sévigné</roleName>
+                  </persName>
+                  <persName>Madame Sévigné</persName>
+                  <birth when="1626-02-05">
+                     <placeName>Paris, France</placeName>
+                  </birth>
+                  <death when="1696-04-17">
+                     <placeName>Grignan, France</placeName>
+                  </death>
+                  <occupation>literary</occupation>
+                  <note>
+                     <ref target="http://viaf.org/viaf/32002865"/>
+                  </note>
+               </person>
+       <person xml:id="Staunton_Geo" sex="m">
+                  <persName>Sir George Staunton</persName>
+                  <persName>
+                     <surname>Staunton</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <birth when="1737-04-10">
+                     <placeName>Cargin, County Galway, Ireland</placeName>
+                  </birth>
+                  <death when="1801-01-14">
+                     <placeName>London</placeName>
+                  </death>
+                  <occupation>physician</occupation>
+                  <occupation>diplomat</occupation>
+                  <note resp="#ajc">In <date when="1792">1792</date> Staunton was apointed principal
+                     secretary to <persName ref="#Macartney_Geo">Lord Macartney</persName>’s embassy
+                     to <placeName ref="#China">China</placeName>. Source: ODNB</note>
+               </person>
+               
+               <person xml:id="Talma_Francois" sex="m">
+                  <persName>Francois Joseph Talma</persName>
+                  <persName>
+                     <surname>Talma</surname>
+                     <forename>Francois</forename>
+                     <forename>Joseph</forename>
+                  </persName>
+                  <birth when="1763-01-15">
+                     <placeName>Paris, France</placeName>
+                  </birth>
+                  <death when="1826-10-19">
+                     <placeName>Paris, France</placeName>
+                  </death>
+                  <occupation type="medical" subtype="dentist"/>
+                  <occupation type="theater" subtype="actor"/>
+                  
+                  <note resp="#ajc">French actor and dentist who was a favorite of <persName ref="#Napoleon">Napoleon Bonaparte</persName>.</note>
+               </person>
+               
+               <person xml:id="Bell_Geo" sex="m">
+                  <persName>
+                     <surname>Bell</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <birth when="1814"/>
+                  <death when="1890"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="BookProducer" subtype="publisher"/>
+                  <occupation type="BookProducer" subtype="printer"/>
+                  <occupation type="BookProducer" subtype="bookseller"/>
+                  <note>See George Bell, Publisher: A Brief Memoir by Edward Bell (London: Chiswick P, 1924).LMW: no personal VIAF #.</note>
+               </person>-->
+               
+               <!--FICTIONAL PEOPLE//STUBS:
+                <person xml:id="Amaziah" sex="m">
+                  <persName>Amaziah</persName>
+                  <occupation type="government" subtype="monarch"/>
+               </person>
+               <person xml:id="Baal" sex="m">
+                  <occupation>god</occupation>
+                  <occupation>demon</occupation>
+                  <occupation>idol</occupation>
+                  <persName>Baal</persName>
+               </person>
+               
+               FIX: this may be name of author, not title of play
+               <bibl xml:id="Mirandola_play">
+                  <title level="m">Mirandola</title>
+               </bibl>-->
+      </body>
+   </text>
+</TEI>
