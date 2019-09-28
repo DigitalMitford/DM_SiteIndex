@@ -1,5 +1,5 @@
 # siteIndex
-a repository for development of the prosopography "site index" file serving <http://digitalmitford.org>. 
+a repository for development of the prosopography "site index" file serving <http://digitalmitford.org>, citable as [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3464076.svg)](https://doi.org/10.5281/zenodo.3464076)
 
 If you are here to update the Digital Mitford Site Index, please follow our instructions posted in [howToUpdateSI.md](howToUpdateSI.md)
 
