@@ -25,8 +25,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Site Index for the Digital Mitford project. Date: 2020-01-28T17:03:16.988-05:00. 
-        Count of all @xml:ids in the current file: 2375. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+            <edition>Site Index for the Digital Mitford project. Date: 2020-01-28T18:08:54.938-05:00. 
+        Count of all @xml:ids in the current file: 2376. First digital edition in TEI P5, launched on 19 August 2013.</edition>
          </editionStmt>
          <publicationStmt>
             <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
@@ -161,6 +161,19 @@
                      research are centered around eighteenth- and nineteenth-century British
                      literature, with a focus on British Romanticism. For the Digital Mitford
                      project, she works on letters and is the editor of Mitford’s play <title ref="#Inez_deCastro_MRMplay">Inez de Castro</title>. </note>
+               </person>
+               <person xml:id="amp"><!-- NEW 2019-10-24 -->
+                  <persName>
+                     <surname>Peddicord</surname>
+                     <forename>Amber</forename>
+                     <forename>M.</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Green Scholar<affiliation>University of Pittsburgh-Greensburg</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Amber Peddicord has sorted image files and encoded different editions of Mitford's letter manuscripts and the published versions of those letters. She is assisting the editing team in completing and checking the encoding of Mitford’s correspondence in 1822. She is currently working toward B.A.'s in English Literature and Communication at the University of Pittsburgh-Greensburg, as well as a <ref target="https://www.greensburg.pitt.edu/academics/majors-minors/digital-studies">Digital Studies Certificate</ref>. She graduates in spring 2021.</note>
                </person>
                <person xml:id="aol">
                   <persName>
@@ -32818,8 +32831,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="ShelleyPB_ReimanEd">
                   <title level="m">Shelley's Poetry and Prose</title>
-                  <edition>Site Index for the Digital Mitford project. Date: 2020-01-28T17:03:16.988-05:00. 
-        Count of all @xml:ids in the current file: 2375. First digital edition in TEI P5, launched on 19 August 2013.</edition>
+                  <edition>Site Index for the Digital Mitford project. Date: 2020-01-28T18:08:54.938-05:00. 
+        Count of all @xml:ids in the current file: 2376. First digital edition in TEI P5, launched on 19 August 2013.</edition>
                   <author>
                      <persName ref="#Shelley_PB">Percy Bysshe Shelle1y</persName>
                   </author>
