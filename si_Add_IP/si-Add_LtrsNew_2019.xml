@@ -87,6 +87,10 @@
                 <persName/><!--multiple names? collect them, as many persNames, nicknames, etc as we know.-->
                 <birth when="1800-01-16"><placeName><!--where born?--></placeName></birth>
                 <death when="1870-01-16"><placeName><!--where died?--></placeName></death>
+                <!--2020-01-28 ebb: Remember, we changed the <occupation> tagging last summer so that it's now a self-closing element with attribute values like this:
+                <occupation type="mainType" subtype="subType">. Consult our list of values here:
+                https://github.com/DigitalMitford/DM_documentation/blob/master/SI_Occupations_Guide.md
+                -->
                 <occupation><!--one-word or short here, try to use a value in play in the index already: literary, playwright, actor, politician, etc.--></occupation>
                 <occupation><!--Of course there may be multiple occupations.--></occupation>
                 <note><!--Your brief, pithy note here, commenting on the significance of this person to Mitford, her world, her people.--></note>
