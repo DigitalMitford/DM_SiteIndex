@@ -395,6 +395,7 @@
                 <valItem ident="magic"><gloss>For street magicians, illusionists, fortune tellers, those making a living in magic arts. With type="trade".</gloss></valItem>
                 <valItem ident="poacher"><gloss>with type="trade".</gloss></valItem>
                 <valItem ident="broomMaker"><gloss>with type="trade".</gloss></valItem>
+                <valItem ident="sailor"><gloss>with type="trade".</gloss></valItem>
             </valList>      
         </attDef>
     </attList>
@@ -432,7 +433,7 @@
             <sch:let name="benefactorSubtypes" value="('philanthropist', 'patron', 'volunteer')"></sch:let>
             <sch:let name="governmentSubtypes" value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post', 'customs', 'surveyor', 'alderman')"></sch:let>
             <sch:let name="serviceSubtypes" value="('butler', 'coachman', 'valet', 'maid', 'manservant', 'footman', 'cook', 'housekeeper', 'gardener', 'nurse', 'gamekeeper', 'majordomo', 'groom')"></sch:let>
-            <sch:let name="tradeSubtypes" value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler','ropemaker', 'fisherman', 'factoryOwner', 'shopAssist', 'tailor', 'hatter', 'seamstress', 'laundry', 'char', 'thatcher', 'housePainter', 'glazier', 'construction', 'farmAssist', 'pestControl', 'carter', 'driver', 'hunt', 'magic', 'poacher', 'broomMaker')"></sch:let>
+            <sch:let name="tradeSubtypes" value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler','ropemaker', 'fisherman', 'factoryOwner', 'shopAssist', 'tailor', 'hatter', 'seamstress', 'laundry', 'char', 'thatcher', 'housePainter', 'glazier', 'construction', 'farmAssist', 'pestControl', 'carter', 'driver', 'hunt', 'magic', 'poacher', 'broomMaker', 'sailor')"></sch:let>
             <sch:rule context="tei:occupation[@type='artist'][@subtype]">
                 <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
                 <sch:assert test="every $subtype in $subtypes satisfies $subtype = $artistSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$artistSubtypes"></sch:value-of>.</sch:assert>
