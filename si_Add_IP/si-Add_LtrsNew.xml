@@ -67,7 +67,7 @@
           </listPerson>
           
           <listPerson sortKey="Past_Editors">
-             <person xml:id="whatever"></person>
+             <person xml:id="whatever2"></person>
           </listPerson>
        </div>
          
@@ -90,9 +90,12 @@
                 <!--2020-01-28 ebb: Remember, we changed the <occupation> tagging last summer so that it's now a self-closing element with attribute values like this:
                 <occupation type="mainType" subtype="subType">. Consult our list of values here:
                 https://github.com/DigitalMitford/DM_documentation/blob/master/SI_Occupations_Guide.md
+                Here are examples following our schema:
                 -->
-                <occupation><!--one-word or short here, try to use a value in play in the index already: literary, playwright, actor, politician, etc.--></occupation>
-                <occupation><!--Of course there may be multiple occupations.--></occupation>
+                 <occupation type="artist" subtype="painter"/>
+                <occupation type="literary" subtype="poet"/>
+                <occupation type="explorer" subtype="navigator"/>
+                
                 <note><!--Your brief, pithy note here, commenting on the significance of this person to Mitford, her world, her people.--></note>
              </person>
           </listPerson>
@@ -126,7 +129,9 @@
                   <name>cowslip</name>
                   <name>common cowslip</name>
                   <name>cowslip primrose</name>
-                  <name><rs type="genus">Primula</rs><rs type="species">veris</rs><rs type="family">Primulaceae</rs></name>
+                  <name type="genus">Primula</name>
+                  <name type="species">veris</name>
+                  <name type="family">Primulaceae</name>
                   <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>'s favorite flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>. Mitford likely refers to Primula veris (also called cowslip, common cowslip, cowslip primrose), a flowering plant in the genus Primula of the family Primulaceae. The species is native throughout most of temperate <placeName>Europe</placeName> and <placeName>Asia</placeName>, although absent from more northerly areas. May hybridize with <rs type="plant" ref="#primrose">English/common primroses</rs>.
                   </note>
                </item>
@@ -135,7 +140,9 @@
                <item xml:id="Long_tailed_wren">
                   <name>long-tailed wren</name>
                   <name>Naga wren-babbler</name>
-                  <name><rs type="genus">Spelaeornis</rs><rs type="species">chocolatinus</rs><rs type="family">Timaliidae</rs></name>
+                  <name type="genus">Spelaeornis</name>
+                  <name type="species">chocolatinus</name>
+                  <name type="family">Timaliidae</name>
                   <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis chocolatinus), a bird species in the family Timaliidae.</note>
                </item>
             </list>
@@ -159,26 +166,19 @@
             </list>
          </div>
          <div type="publications">
-            <listBibl sortKey="ref_19thc"><!--For encyclopedic or reference works from Mitford's time.-->
+            <listBibl sortKey="work_MRM"> <!-- printed in books or serials (available to MRM in her lifetime, pre 1856) -->
                <bibl xml:id="whatevs21">
                </bibl>        
             </listBibl>
             
-            <listBibl sortKey="per_19thc"><!--For 19th-c. periodicals, as well as nonliterary stuff published in periodicals, like reviews, critiques, newspaper articles, etc.-->
-               <bibl/>
+            <listBibl sortKey="serial_MRM"><!-- serials (magazines or newspapers available to MRM in her lifetime, pre 1856) -->
+            <bibl/>
             </listBibl>
             
-            <listBibl sortKey="literary"><!--Anything literary, not restricted to Mitford's time.-->
+            <listBibl sortKey="schol"><!-- printed materials post 1856 (available to scholars of MRM) -->
                <bibl/>
             </listBibl>
-            
-            <listBibl sortKey="MRM_Schol"><!--Scholarship about Mitford.-->
-               <bibl/>
-            </listBibl>
-            <listBibl sortKey="other_current_Schol"><!--Scholarship from our time, not directly related to Mitford but relevant to the project.-->
-               <bibl/>
-            </listBibl>
-            
+           
          </div>
          
       </body>
