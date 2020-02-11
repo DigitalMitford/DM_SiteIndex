@@ -1,9 +1,10 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" version="2.9.1" xml:lang="en">
-   
-   
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude" version="2.9.1" xml:lang="en">
+   <!-- 2019-05-26 ebb: * Start in si_ODD_Editable.odd, and in oXygen, run Tools -> Canonicalize to expand the latest occupations code. When updating the <occupation> element and its associated schematron constraints, always do that first, over in ODD_includes directory here in this schema folder. -->
+   <!-- 2018-08-11 ebb: * After generating si_ODD.odd, "Run the wrench" in oXygen (on the si_ODD.odd file) to generate the new Relax-NG XML-syntax project schema and HTML documentation for the project SI files.
+  -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +48,7 @@
             <moduleRef except="formula notatedMusic" key="figures"></moduleRef>         
             <constraintSpec ident="xmlIDs" scheme="schematron">
                <constraint>
-                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:TEI//@xml:id">
+                  <sch:rule context="tei:TEI//@xml:id">
                      <sch:report role="fatal" test="matches(., '\s+')">
                         @xml:id values may NOT contain white spaces!
                      </sch:report>        
@@ -56,7 +57,7 @@
             </constraintSpec>
             <constraintSpec ident="refsReq" scheme="schematron">
                <constraint>
-                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]">
+                  <sch:rule context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]">
                      <sch:let name="currentNode" value="."></sch:let>
                      <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:*[@xml:id][not(self::* eq $currentNode/ancestor::*[1][@xml:id])]][*[not(self::tei:note) and not(self::tei:birth) and not (self::tei:death)][contains(string(), $currentNode)]]/@xml:id"></sch:let>
                      <sch:report role="info" test="$matchingEntry">
@@ -65,17 +66,27 @@
                   </sch:rule>
                </constraint>
             </constraintSpec>
-          
+          <!-- 2018-08-11 ebb: NOT WORKING! DEBUG. <constraintSpec scheme="schematron" ident="correspReq">
+               <constraint>
+                  <sch:rule context="tei:note//tei:bibl[not(@corresp)]">
+                     <sch:let name="currentNode" value="."/>
+                     <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:listBibl/tei:bibl[@xml:id][not(self::* eq $currentNode/ancestor::tei:bibl[1][@xml:id])]][*[not(self::tei:note)][contains(string(), $currentNode)]]/@xml:id"/>
+                     <sch:assert test="@corresp">
+                        The current bibl element (coded in a note) lacks an @corresp attribute, but may have a matching entry in the Site Index: Could it be this (or one of these)? <sch:value-of select="string-join($matchingEntry, ', ')"/>.  
+                     </sch:assert>  
+                  </sch:rule>
+               </constraint>
+            </constraintSpec>-->
             <constraintSpec ident="hashtaggery" scheme="schematron">
                <constraint>
-                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit">
+                  <sch:rule context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit">
                      <sch:assert role="fatal" test="starts-with(., '#')">
                         Attributes @ref, @who, @corresp, and @wit must begin with a hashtag.
                      </sch:assert>  
                   </sch:rule>
                </constraint>
             </constraintSpec>
-            
+            <!--sortKey on SI list elements -->
 <elementSpec ident="listPerson" mode="change" module="namesdates">
    <attList>
       <attDef ident="sortKey" mode="replace" usage="req">
@@ -144,7 +155,7 @@
                </attList>
             </elementSpec> 
             
-                       
+            <!--sex codes on person element: m, f, m f, and u -->           
             <elementSpec ident="person" mode="change" module="namesdates">
                <attList>
                   <attDef ident="sex" mode="replace" usage="rec">
@@ -192,9 +203,9 @@
                   </attDef>
                </attList>
             </elementSpec>
+            <!--Occupation coding -->
             
-            
-            
+            <!-- X-Include Here: for elementSpec occupation. Edit the occupation element specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
             <elementSpec ident="occupation" mode="change" module="namesdates" xml:base="ODD_includes/occupationsElem.xml" xml:lang="en">
     <content>
         <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"></elementRef>
@@ -222,7 +233,7 @@
         <attDef ident="subtype" mode="replace" usage="opt">
             <datatype><dataRef name="string"></dataRef></datatype>
             <valList type="semi">
-                
+                <!--Subtypes related to type="artist" -->
                 <valItem ident="painter"><gloss>with type="artist": Designate type of painter as appropriate in the note element.</gloss></valItem>
                 <valItem ident="printmaker"><gloss>with type="artist": this includes printmaking for books.</gloss></valItem>
                 <valItem ident="engraver"><gloss>with type="artist": this includes engravings for books.</gloss></valItem> 
@@ -230,12 +241,12 @@
                 <valItem ident="architect"><gloss>with type="artist". for designers of buildings.</gloss></valItem>
                 <valItem ident="landscape"><gloss>with type="artist". for designers and planners of gardens. The occupation of gardener, for one who helps maintain a garden, goes with @type="service" </gloss></valItem>
                 <valItem ident="illustrator"><gloss>with type="artist". This includes book illustrators.</gloss></valItem>
-                
+                <!--Subtypes related to type="bookProducer" -->
                 <valItem ident="publisher"><gloss>with type="bookProducer".</gloss></valItem>
                 <valItem ident="printer"><gloss>with type="bookProducer". Do not use for art printing. For that, use one of the subtypes associated with type="artist".</gloss></valItem>
                 <valItem ident="binder"><gloss>with type="bookProducer".</gloss></valItem>
                 <valItem ident="bookseller"><gloss>with type="bookProducer".</gloss></valItem>
-                
+                <!--Subtypes related to type="religious" -->
                 <valItem ident="clergy"><gloss>with type="religious".</gloss></valItem>
                 <valItem ident="prophet"><gloss>with type="religious".</gloss></valItem>
                 <valItem ident="vicar"><gloss>with type="religious".</gloss></valItem>
@@ -246,13 +257,13 @@
                 <valItem ident="composer"><gloss>with type="religious". For composers of religious music.</gloss></valItem>
                 <valItem ident="musician"><gloss>with type="religious". For musical performers in church settings and religious contexts.</gloss></valItem>
                 <valItem ident="churchAssist"><gloss>with type="religious". For non-leadership roles serving the church (such as pew-opener, sexton, or verger).</gloss></valItem>
-                
+                <!--Subtypes related to type="educator" -->
                 <valItem ident="teacher"><gloss>with type="educator".</gloss></valItem>
                 <valItem ident="schoolHead"><gloss>with type="educator". (for headmistress, schoolmaster, etc.)</gloss></valItem>
                 <valItem ident="governess"><gloss>with type="educator".</gloss></valItem>
                 <valItem ident="tutor"><gloss>with type="educator".</gloss></valItem>
                 <valItem ident="lecturer"><gloss>with type="educator". For public lecturers on educational topics.</gloss></valItem>
-                
+                <!--Subtypes related to type="scholar" -->
                 <valItem ident="philosopher"><gloss>with type="scholar". Distinct from natural philosopher.</gloss></valItem> 
                 <valItem ident="naturalist"><gloss>with type="scholar". Covers the natural sciences and earth sciences, and includes biologist, botanist, ornithologist, geologist, etc.</gloss></valItem>
                 <valItem ident="astronomer"><gloss>with type="scholar".</gloss></valItem> 
@@ -263,12 +274,12 @@
                 <valItem ident="economist"><gloss>with type="scholar". </gloss></valItem>
                 <valItem ident="agronomist"><gloss>with type="scholar". For those who study agriculture.</gloss></valItem>
                 <valItem ident="supernatural"><gloss>For a powerful person who researches the supernatural or the spirit world, for example, Prospero or Dr. Faustus. With type="scholar".</gloss></valItem>
-                 
+                <!--Subtypes related to type="explorer" --> 
                 <valItem ident="traveller"><gloss>with type="explorer".</gloss></valItem>
                 <valItem ident="navigator"><gloss>with type="explorer".</gloss></valItem>
                 <valItem ident="cartographer"><gloss>with type="explorer".</gloss></valItem>
                 <valItem ident="seaCaptain"><gloss>with type="explorer". Commands a ship, distinct from military post.</gloss></valItem>
-                 
+                <!--Subtypes related to type="legal" --> 
                 <valItem ident="barrister"><gloss>with type="legal". British lawyers who can plead in court.</gloss></valItem>
                 <valItem ident="solicitor"><gloss>with type="legal". British lawyers who do not plead in court.</gloss></valItem>
                 <valItem ident="lawyer"><gloss>with type="legal". ONLY appropriate if law practitioner from the United States.</gloss></valItem> 
@@ -276,7 +287,7 @@
                 <valItem ident="judge"><gloss>with type="legal". ex: Mr. Justice Talfourd</gloss></valItem>  
                 <valItem ident="magistrate"><gloss>with type="legal". ex: George Mitford</gloss></valItem>  
                 <valItem ident="enforcement"><gloss>with type="legal". For constable, police, or sheriff, those involved in law enforcement.</gloss></valItem>
-                
+                <!--Subtypes related to type="literary" -->
                 <valItem ident="novelist"><gloss>with type="literary". </gloss></valItem> 
                 <valItem ident="poet"><gloss>with type="literary". </gloss></valItem> 
                 <valItem ident="playwright"><gloss>with type="literary". </gloss></valItem> 
@@ -289,7 +300,7 @@
                 <valItem ident="lexicographer"><gloss>with type="literary". </gloss></valItem> 
                 <valItem ident="linguist"><gloss>with type="literary". For those who systemically study languages, not simply translators.</gloss></valItem> 
                 <valItem ident="translator"><gloss>with type="literary". </gloss></valItem> 
-                  
+                <!--Subtypes related to type="theater" -->  
                 <valItem ident="actor"><gloss>with type="theater". General term for all sexes; do not use "actress".</gloss></valItem> 
                 <valItem ident="singer"><gloss>with type="theater". Includes opera singers in performing roles. </gloss></valItem> 
                 <valItem ident="manager"><gloss>with type="theater". For actor-managers and theater managers like William Macready.</gloss></valItem> 
@@ -297,21 +308,21 @@
                 <valItem ident="designer"><gloss>with type="theater". For production designers, costume-makers, makers of stage sets and props.</gloss></valItem> 
                 <valItem ident="musician"><gloss>with type="theater". For pit players of music supporting the stage.</gloss></valItem>   
                 <valItem ident="composer"><gloss>with type="theater". For writers of instrumental and vocal music for the stage, including lyricists and librettists.</gloss></valItem>
-                
+                <!--Subtypes related to type="medical" -->
                 <valItem ident="physician"><gloss>with type="medical".</gloss></valItem>
                 <valItem ident="surgeon"><gloss>with type="medical". Includes barbers and others who do surgery and bloodletting.</gloss></valItem>
                 <valItem ident="apothecary"><gloss>with type="medical". For pharmacy specialists.</gloss></valItem>
                 <valItem ident="midwife"><gloss>with type="medical". Includes, should we ever see one, a "man-midwife" or a male who assists with births and is not a physician or surgeon.</gloss></valItem>
                 <valItem ident="oculist"><gloss>with type="medical".</gloss></valItem>
                 <valItem ident="dentist"><gloss>with type="medical".</gloss></valItem>
-                
+                <!--Subtypes related to type="military" -->
                 <valItem ident="army"><gloss>with type="military".</gloss></valItem>    
                 <valItem ident="navy"><gloss>with type="military".</gloss></valItem>
-                
+                <!--Subtypes related to type="benefactor" -->
                 <valItem ident="philanthropist"><gloss>with type="benefactor". For doers of benevolent activities outside of the arts</gloss></valItem>
                 <valItem ident="patron"><gloss>with type="benefactor". For supporters of the arts, theatre, and writers</gloss></valItem>
                 <valItem ident="volunteer"><gloss>with type="benefactor". For individual benevolent activities involving labor rather than money</gloss></valItem>
-                
+                <!--Subtypes related to type="government" -->
                 <valItem ident="monarch"><gloss>with type="government". Titles like King, Queen, Princess are coded in &lt;roleName&gt;, not &lt;occupation&gt;.</gloss></valItem> 
                 <valItem ident="politician"><gloss>with type="government". Use for elected officials and those running for election or who are in office by reason of political party or affiliation. Code their official title (such as "Member of Parliament for Westminster) with &lt;roleName&gt;.</gloss></valItem>  
                 <valItem ident="orator"><gloss>with type="government". For political or reformist orators who are not clergy, actors, or prophets.</gloss></valItem>  
@@ -325,7 +336,7 @@
                 <valItem ident="customs"><gloss>with type="government".</gloss></valItem>
                 <valItem ident="surveyor"><gloss>Appointed by Parliament or employed, for example, by a local government committee to survey roads or parks. With type="government".</gloss></valItem>
                 <valItem ident="alderman"><gloss>with type="government".</gloss></valItem>
-                
+                <!--Subtypes related to type="service" -->
                 <valItem ident="butler"><gloss>with type="service".</gloss></valItem>
                 <valItem ident="coachman"><gloss>with type="service".</gloss></valItem>
                 <valItem ident="maid"><gloss>with type="service".</gloss></valItem>
@@ -339,7 +350,7 @@
                 <valItem ident="gamekeeper"><gloss>with type="service".</gloss></valItem>
                 <valItem ident="groom"><gloss>with type="service".</gloss></valItem>
                 <valItem ident="majordomo"><gloss>For the head servant who can speak and act on behalf of the household owners. With type="service".</gloss></valItem>
-                
+                <!--Subtypes related to type="trade" -->
                 <valItem ident="baker"><gloss>with type="trade".</gloss></valItem>
                 <valItem ident="butcher"><gloss>with type="trade".</gloss></valItem> 
                 <valItem ident="farmer"><gloss>with type="trade".</gloss></valItem> 
@@ -384,6 +395,7 @@
                 <valItem ident="magic"><gloss>For street magicians, illusionists, fortune tellers, those making a living in magic arts. With type="trade".</gloss></valItem>
                 <valItem ident="poacher"><gloss>with type="trade".</gloss></valItem>
                 <valItem ident="broomMaker"><gloss>with type="trade".</gloss></valItem>
+                <valItem ident="sailor"><gloss>with type="trade".</gloss></valItem>
             </valList>      
         </attDef>
     </attList>
@@ -402,11 +414,11 @@
         </egXML>
     </exemplum>
 </elementSpec>
-            
-         
+            <!--Occupation coding: binding appropriate subtypes with types and permitting plural subtype values. Edit the occupation Schematron constraint specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
+         <!-- X-Include Here: for occupation Schematron constraints -->
             <constraintSpec ident="occupation" scheme="schematron" xml:base="ODD_includes/occupationsSchem.xml" xml:lang="en">
     <constraint>
-        <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+        <sch:pattern>
             <sch:let name="artistSubtypes" value="('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 'illustrator')"></sch:let>
             <sch:let name="bookProducerSubtypes" value="('publisher', 'printer', 'binder', 'bookseller')"></sch:let>
             <sch:let name="religiousSubtypes" value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'rector', 'priest', 'musician', 'composer', 'churchAssist')"></sch:let>
@@ -421,7 +433,7 @@
             <sch:let name="benefactorSubtypes" value="('philanthropist', 'patron', 'volunteer')"></sch:let>
             <sch:let name="governmentSubtypes" value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post', 'customs', 'surveyor', 'alderman')"></sch:let>
             <sch:let name="serviceSubtypes" value="('butler', 'coachman', 'valet', 'maid', 'manservant', 'footman', 'cook', 'housekeeper', 'gardener', 'nurse', 'gamekeeper', 'majordomo', 'groom')"></sch:let>
-            <sch:let name="tradeSubtypes" value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler','ropemaker', 'fisherman', 'factoryOwner', 'shopAssist', 'tailor', 'hatter', 'seamstress', 'laundry', 'char', 'thatcher', 'housePainter', 'glazier', 'construction', 'farmAssist', 'pestControl', 'carter', 'driver', 'hunt', 'magic', 'poacher', 'broomMaker')"></sch:let>
+            <sch:let name="tradeSubtypes" value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler','ropemaker', 'fisherman', 'factoryOwner', 'shopAssist', 'tailor', 'hatter', 'seamstress', 'laundry', 'char', 'thatcher', 'housePainter', 'glazier', 'construction', 'farmAssist', 'pestControl', 'carter', 'driver', 'hunt', 'magic', 'poacher', 'broomMaker', 'sailor')"></sch:let>
             <sch:rule context="tei:occupation[@type='artist'][@subtype]">
                 <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
                 <sch:assert test="every $subtype in $subtypes satisfies $subtype = $artistSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$artistSubtypes"></sch:value-of>.</sch:assert>
@@ -485,10 +497,10 @@
         </sch:pattern>
     </constraint>
 </constraintSpec>
-
+<!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
             <constraintSpec ident="quotes" scheme="schematron">
                <constraint>
-                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:note//text()[matches(., '[A-z]+')]">
+                  <sch:rule context="tei:note//text()[matches(., '[A-z]+')]">
                      <sch:let name="regexQuote" value="'&quot;'"></sch:let>
                      <sch:report role="warning" test="matches(., $regexQuote)">
                         We see you’re typing in quotation marks. Please use a meaningful TEI element for these, instead, and do not duplicate quotation marks with a TEI element, because this may result in multiple sets of quotation marks on the website. If this is a cited quotation, use the cit and quote elements together (or just the quote element for an uncited quotation). If it is a spoken aloud passage, use the said element. If it is a title of a poem or other short work, use &lt;title level="a"&gt;. If it is a string of words in quotation marks and you are not sure what it is, use the q element.</sch:report>        
@@ -496,16 +508,16 @@
                </constraint>
             </constraintSpec>
             <constraintSpec ident="SI_Guidance" scheme="schematron"><constraint>     
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:p>Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. </sch:p>
                </sch:pattern>
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:p>Identify stub entries.</sch:p>
                   <sch:rule context="*[@xml:id]">
                      <sch:report role="warning" test="count(child::*) eq 1">Warning: stub element. We should flesh this out and add more information.</sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:rule context="tei:person[descendant::tei:surname = //tei:surname[not(ancestor::tei:person = self::tei:person)]]">
                      <sch:let name="currentContext" value="."></sch:let>
                      <sch:let name="sharedSurname" value="//tei:person[not(. = $currentContext)][descendant::tei:surname = $currentContext/descendant::tei:surname]"></sch:let>
@@ -514,7 +526,7 @@
                      </sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:p>This rule will test the plausibilty of birth dates in relation to death dates.</sch:p>
                   <sch:rule context="tei:person[tei:birth/@*[matches(., '^\d')] and tei:death/@*[matches(., '^\d')]]">
                      <sch:assert test="tei:birth/@* &lt; tei:death/@*">Birth dates must be earlier than death dates.</sch:assert>
@@ -528,7 +540,7 @@
                      <sch:report test="tei:death/@*[matches(., '^\d')] and tei:death/@*/number() > 99">This birth date seems to be negative (BCE) while the death date is positive (ADE) and greater than 99, which seems an excessively long life span. Check if the dates are correct?</sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:rule context="@sex">
                      <sch:report test="matches(., '[0-9,]')">
                         We are no longer using the ISO numerical codes for sex, and this attribute may not contain commas. Change this code to a letter, one (or more) of the following approved values: m, f, m f, and u. If indicating multiple values, separate each with just a white space.
@@ -539,7 +551,7 @@
                </sch:pattern>
                
                
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:rule context="tei:text//@xml:id">
                      <sch:report test="matches(., '\s+')">
                         @xml:id values must not contain white spaces.
@@ -549,16 +561,16 @@
                      </sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:rule context="tei:TEI"> 
                      <sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])">
                         There must not be any duplicate @sortkey values in the site index! 
                      </sch:assert>
                   </sch:rule>  
                </sch:pattern>
-               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+               <sch:pattern>
                   <sch:let name="si" value="doc('http://digitalmitford.org/si.xml')//@xml:id"></sch:let> 
-                  
+                  <!--<sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>-->
                   <sch:let name="siAddcoll" value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"></sch:let>
                   <sch:let name="siAll" value="($si, $siAddcoll)"></sch:let>
                   <sch:rule context="@ref | @corresp | @resp">
@@ -573,19 +585,19 @@
             </constraintSpec>
             <constraintSpec ident="noteGuidance" scheme="schematron">
                <constraint>
-                  <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+                  <sch:pattern>
                      <sch:title>Multi-paragraph notes</sch:title>
                      <sch:rule context="tei:note">
                         <sch:report role="info" test="count(descendant::tei:p) gt 1">This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?</sch:report>
                      </sch:rule>
                   </sch:pattern>
-                  <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+                  <sch:pattern>
                      <sch:title>Does the first paragraph contain a Mitford reference?</sch:title>
                      <sch:rule context="tei:note[count(descendant::tei:p) gt 1]//tei:p[1]">
                         <sch:assert role="warning" test="contains(., 'Mitford')">In this multi-paragraph note, the first paragraph needs to mention Mitford in some way to prioritize MRM’s relationship with this named entity.</sch:assert>
                      </sch:rule>
                   </sch:pattern>
-                  <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+                  <sch:pattern>
                      <sch:title>Mentions of birth and death</sch:title>
                      <sch:rule context="tei:note">
                         <sch:report role="info" test="contains(., 'was born') or contains(., ' [Bb]orn') or contains(., ' [Dd]ied')">We notice the phrase(s) “was born”, “born,” or “died” appear somewhere in this note. If these passages duplicate info in the birth or death elements elsewehere in this entry, they should be removed, since it will represent duplicate output on the site.</sch:report>

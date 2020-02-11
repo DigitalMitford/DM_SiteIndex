@@ -103,9 +103,14 @@
                   <death when="1595-04-25">
                      <placeName> Rome, Papal States</placeName>
                   </death>
+<<<<<<< HEAD:si_Add_IP/si-Add_FictNew_LMW.xml
                             <occupation type="literary"/>
                             <occupation type="literary" subtype="poet"/>
                             <occupation type="government" subtype="courtier"/>
+=======
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="government" subtype="courtier"/>
+>>>>>>> 0710e2d1953df6c957775607ae3bf661168d293c:si_Add_IP/si-Add_FictNew.xml
                   <note resp="#lmw">Tasso was a poet and courtier from <placeName ref="#Naples">Naples</placeName>. He was the author of <bibl>the pastoral drama <title level="m">Aminta</title> (<date when="1573">1573</date>)</bibl> and
                         <bibl>epic poem <title level="m">Gerusalemme Liberata</title> (<date when="1574">1574</date>)</bibl>. Tasso’s life and work continued to be
                      the subject of much attention during Mitford’s lifetime. <bibl>
@@ -157,7 +162,10 @@
                      <placeName>Ermenonville, France</placeName>
                   </death>
                   <occupation type="literary"/>
+<<<<<<< HEAD:si_Add_IP/si-Add_FictNew_LMW.xml
                   <occupation type="literary" subtype="poet"/>
+=======
+>>>>>>> 0710e2d1953df6c957775607ae3bf661168d293c:si_Add_IP/si-Add_FictNew.xml
                   <occupation type="government" subtype="politician"/>
                   <occupation type="educator"/>
                   <note>
@@ -198,8 +206,13 @@
                   <death when="1801-01-14">
                      <placeName>London</placeName>
                   </death>
+<<<<<<< HEAD:si_Add_IP/si-Add_FictNew_LMW.xml
           <occupation type="medical" subtype="physician"/>
           <occupation type="government" subtype="diplomat"/>
+=======
+                  <occupation type="medical" subtype="physician"/>
+                  <occupation type="government" subtype="diplomat"/>
+>>>>>>> 0710e2d1953df6c957775607ae3bf661168d293c:si_Add_IP/si-Add_FictNew.xml
                   <note resp="#ajc">In <date when="1792">1792</date> Staunton was apointed principal
                      secretary to <persName ref="#Macartney_Geo">Lord Macartney</persName>’s embassy
                      to <placeName ref="#China">China</placeName>. Source: ODNB</note>
@@ -245,9 +258,6 @@
                   <occupation type="government" subtype="monarch"/>
                </person>
                <person xml:id="Baal" sex="m">
-                  <occupation>god</occupation>
-                  <occupation>demon</occupation>
-                  <occupation>idol</occupation>
                   <persName>Baal</persName>
                </person>
                
