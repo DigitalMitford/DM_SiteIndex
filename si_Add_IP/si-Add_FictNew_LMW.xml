@@ -72,8 +72,9 @@
                 Amsterdam
                -->
          
-         <!--STUBS:
-             <person xml:id="Reynolds_JH" sex="m">
+         <!--STUBS:-->
+         <listPerson sortKey="histPersons">
+            <person xml:id="Reynolds_JH" sex="m">
                   <persName>
                      <forename>John</forename>
                      <surname>Hamilton</surname>
@@ -85,7 +86,7 @@
                   <death when="1852-11-15">
                      <placeName>Newport, Isle of Wight, England</placeName>
                   </death>
-                  <occupation>literary</occupation>
+                  <occupation type="literary"/>
                   <note>
                      <ref target="http://viaf.org/viaf/79365644"/>
                   </note>
@@ -102,9 +103,9 @@
                   <death when="1595-04-25">
                      <placeName> Rome, Papal States</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>poet</occupation>
-                  <occupation>courtier</occupation>
+                            <occupation type="literary"/>
+                            <occupation type="literary" subtype="poet"/>
+                            <occupation type="government" subtype="courtier"/>
                   <note resp="#lmw">Tasso was a poet and courtier from <placeName ref="#Naples">Naples</placeName>. He was the author of <bibl>the pastoral drama <title level="m">Aminta</title> (<date when="1573">1573</date>)</bibl> and
                         <bibl>epic poem <title level="m">Gerusalemme Liberata</title> (<date when="1574">1574</date>)</bibl>. Tasso’s life and work continued to be
                      the subject of much attention during Mitford’s lifetime. <bibl>
@@ -140,7 +141,7 @@
                   <death when="1576-08-27">
                      <placeName>Venice, Italy </placeName>
                   </death>
-                  <occupation>artist</occupation>
+                  <occupation type="artist"/>
                   <note>
                      <ref target="http://viaf.org/viaf/109266837"/>
                   </note>
@@ -155,9 +156,10 @@
                   <death when="1778-02-07">
                      <placeName>Ermenonville, France</placeName>
                   </death>
-                  <occupation>literary</occupation>
-                  <occupation>political</occupation>
-                  <occupation>educator</occupation>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="educator"/>
                   <note>
                      <ref target=" http://viaf.org/viaf/10018405"/>
                   </note>
@@ -179,7 +181,7 @@
                   <death when="1696-04-17">
                      <placeName>Grignan, France</placeName>
                   </death>
-                  <occupation>literary</occupation>
+                  <occupation type="literary"/>
                   <note>
                      <ref target="http://viaf.org/viaf/32002865"/>
                   </note>
@@ -196,8 +198,8 @@
                   <death when="1801-01-14">
                      <placeName>London</placeName>
                   </death>
-                  <occupation>physician</occupation>
-                  <occupation>diplomat</occupation>
+          <occupation type="medical" subtype="physician"/>
+          <occupation type="government" subtype="diplomat"/>
                   <note resp="#ajc">In <date when="1792">1792</date> Staunton was apointed principal
                      secretary to <persName ref="#Macartney_Geo">Lord Macartney</persName>’s embassy
                      to <placeName ref="#China">China</placeName>. Source: ODNB</note>
@@ -230,11 +232,12 @@
                   <birth when="1814"/>
                   <death when="1890"/>
                   <occupation type="literary" subtype="editor"/>
-                  <occupation type="BookProducer" subtype="publisher"/>
-                  <occupation type="BookProducer" subtype="printer"/>
-                  <occupation type="BookProducer" subtype="bookseller"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
+                  <occupation type="bookProducer" subtype="printer"/>
+                  <occupation type="bookProducer" subtype="bookseller"/>
                   <note>See George Bell, Publisher: A Brief Memoir by Edward Bell (London: Chiswick P, 1924).LMW: no personal VIAF #.</note>
-               </person>-->
+               </person>
+         </listPerson>
                
                <!--FICTIONAL PEOPLE//STUBS:
                 <person xml:id="Amaziah" sex="m">

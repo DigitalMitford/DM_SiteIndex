@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
+               <author>Digital Mitford Editors</author>
+                <editor><persName ref="#lmw">Lisa M. Wilson</persName></editor>
+               <sponsor>
+                  <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+               </sponsor>
+               <sponsor>University of Pittsburgh at Greensburg</sponsor>
+               <principal>Elisa Beshero-Bondar</principal>
+               <respStmt>
+                  <resp>Data extraction and compiling by</resp>
+                  <persName type="hist" ref="#ebb">Elisa Beshero-Bondar</persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Proofing and corrections by</resp>
+                  <persName><!--Add your name here and place an @ref attribute, if you're proofing and correcting existing entries.--></persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition> </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+               <pubPlace>Greensburg, PA, USA</pubPlace>
+               <date>2013</date>
+               <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>Any special notes on this text? (optional)</note>
+               <!--compiling from Journal 2019-02-24 LMW -->
+            </notesStmt>
+            <sourceDesc>
+               <p>Information on named entities in this file has been extracted from files in the
+                  Digital Mitford Archive.</p>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+               <p>Describes our editorial practice.</p>
+            </editorialDecl>
+         </encodingDesc>
+      </teiHeader>
+      
+  <text>
+      <body>
+         
+         
+         <!--LMW: 2019-12-24 new id's from Journal.-->
+         
+   <!-- Mrs. Lay - 6 Gower Street Bedford Square
+   Mrs. Strutt 34 Perry Street Bedford Square
+   Mrs. ?? Revd. ?? Streatfield's
+   Clark's Edge Westerham Kent
+   Miss Appleton 6. Upper Portland Place
+   **Mrs. Bayley Mrs. Wright - Stafford.
+   **Charles Heath Esq. 6 Seymour Place Euston Square London
+   
+   The Eclectic Review for July 1822 - (No/Vol. ?? new series) contains some very interesting particularly of poor Minor in a Review of Robinson's Memoirs of the Mexican Revolution - a work I should like to see - 2 Vols octavo.
+   The nursery garden where the Double Dahlias were so fine is at Thenham Green on the left hand side going to Town. I think the man's name is Williams -
+   J. Hamilton Esq. 30 Judd Street Brunswick Sq.
+   Miss Havell - J. Sheppards Esq. Hampstead Heath - London - <pb>
+   **Mess rs Whittaker - Ave Maria Lane St. Paul's Church Yard London
+   Mrs. ?? 47 Upper Norton Street Regents Park
+   Miss Dominicetti 30 Carburton Street Upper Norton street - Regent's Park
+   **Miss Porden 59 Berners Street - 
+   Mrs. Vardill 45 Clifstone Street
+   **Mrs. Hofland 23 Newman Street
+   **P. Bayley Esq re 9 Cumberland Place - New Road - Marybone - London
+   **Miss Webb - Clifton Cottage - Woking - Sidmouth - Devon
+   Miss Brooke 11 East Cliff Brighton
+   Charles Kemble 29 Soho Square
+   A. j. Valpy Esq re. Red Lion Court Fleet Street London
+   Mrs. Welles & Fanny Welles - 8? Blemheim Street, New Bond Street. - 
+   Mrs. Lewis (late Charlotte Kirkman 9 Upper Seymour Street - Euston Square
+   **P. Bayley Esq re. 9 Cumberland Place
+   **J. B. Monck Esq re. 15 College Street Westminster - M. P. -
+   Miss Weston Church lane Chelsea London
+   John Wiltshire Shockerwick Bath
+   **W. Macready Esq re. - 69 Berners street
+   Mrs. Smith's boarding house 14 Norfolk Street
+   W. Price 2 Birch Court Temple - Talfourd's friend
+   S. Hamilton esq re. 30 Judd Street Hounswick Square
+  -->
+         
+       <div type="historical_people">
+          <listOrg sortKey="histOrgs">
+             <org xml:id="whatever1"></org>
+          </listOrg>
+          
+          <listPerson sortKey="histPersons">
+             <!--Journal, Jan. 1819:
+                Jane, maidservant "who is going away"
+                George, manservant or gardener?
+                Pets: Mossy, his sister May Fly, Nelly, Moses, Mob, Whim (spaniel), Miranda, Selim; Poll, a tabby cat.-->
+                
+                
+             <person xml:id="Newman_Miss" sex="f">
+                <persName>Miss Newman</persName>
+                <persName>
+                   <surname>Newman</surname>
+                   <roleName>Miss</roleName>
+                </persName>
+             </person>
+             
+             <person xml:id="Brooke_Mrs" sex="f">
+                <persName>Mrs. Brooke</persName>
+                <persName>
+                   <surname>Brooke</surname>
+                   <roleName>Mrs.</roleName>
+                </persName>
+             </person>
+             
+             <person xml:id="Newbery_Mrs" sex="f">
+                <persName>Mrs. Newbery</persName>
+                <persName>
+                   <surname>Newbery</surname>
+                   <roleName>Mrs.</roleName>
+                </persName>
+                <note resp="#lmw">Spouse of <persName ref="#Newbery_J">Jacob Newbery</persName>. Name variously spelled Newbery and Newberry.</note>
+             </person>
+             
+             <person xml:id="Newbery_J" sex="m">
+                <persName>Jacob Newbery</persName>
+                <persName>
+                   <forename>Jacob</forename>
+                   <surname>Newbery</surname>
+                </persName>
+                <note resp="#lmw">Attorney at 35 Great Queen's Street, Lincoln Inns Fields, London; and at Friar Street, Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry.</note>
+             </person>
+             
+         
+          </listPerson>
+       </div>
+       
+        
+         <div type="nature">
+            <list sortKey="plants">
+               <item xml:id="cowslip">
+                  <name>cowslip</name>
+                  <name>common cowslip</name>
+                  <name>cowslip primrose</name>
+                  <name><rs type="genus">Primula</rs><rs type="species">veris</rs><rs type="family">Primulaceae</rs></name>
+                  <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>'s favorite flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>. Mitford likely refers to Primula veris (also called cowslip, common cowslip, cowslip primrose), a flowering plant in the genus Primula of the family Primulaceae. The species is native throughout most of temperate <placeName>Europe</placeName> and <placeName>Asia</placeName>, although absent from more northerly areas. May hybridize with <rs type="plant" ref="#primrose">English/common primroses</rs>.
+                  </note>
+               </item>
+            </list>
+            <list sortKey="animals">
+               <item xml:id="Long_tailed_wren">
+                  <name>long-tailed wren</name>
+                  <name>Naga wren-babbler</name>
+                  <name><rs type="genus">Spelaeornis</rs><rs type="species">chocolatinus</rs><rs type="family">Timaliidae</rs></name>
+                  <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis chocolatinus), a bird species in the family Timaliidae.</note>
+               </item>
+            </list>
+         </div>
+         <div type="events">
+            <listEvent sortKey="histEvents">
+               <event>
+                  <label></label>
+                  <note></note>
+               </event>
+            </listEvent>
+         </div>
+      
+         
+      </body>
+  </text>
+</TEI>
