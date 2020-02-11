@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
+               <author>Digital Mitford Editors</author>
+                <editor><!--Add your name here! And add an @ref attribute to <editor>, pointing to your xml:id in the si.xml--> </editor>
+               <sponsor>
+                  <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+               </sponsor>
+               <sponsor>University of Pittsburgh at Greensburg</sponsor>
+               <principal>Elisa Beshero-Bondar</principal>
+               <respStmt>
+                  <resp>Data extraction and compiling by</resp>
+                  <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Proofing and corrections by</resp>
+                  <persName><!--Add your name here and place an @ref attribute, if you're proofing and correcting existing entries. List as many as needed.--></persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition> </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+               <pubPlace>Greensburg, PA, USA</pubPlace>
+               <date>2013</date>
+               <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>Any special notes on this text? (optional)</note>
+            </notesStmt>
+            <sourceDesc>
+               <p>Information on named entities in this file has been extracted from files in the
+                  Digital Mitford Archive.</p>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+               <p>Describes our editorial practice.</p>
+            </editorialDecl>
+         </encodingDesc>
+         <revisionDesc>
+            <listChange>
+               <change when="2020-02-08" who="#lmw">creating working file to update Site Index stubs and other updates</change>
+              </listChange>
+         </revisionDesc>
+      </teiHeader>
+      
+  <text>
+      <body>
+         
+   <div type="Mitford_Team"><!--Check section for other student editors to update and move to past.-->
+      <listPerson sortKey="Mitford_Team">
+         <person xml:id="jgf"><!--update and move-->
+            <persName>
+               <surname>Fish</surname>
+               <forename>Julie</forename>
+               <roleName>Research Assistant</roleName>
+            </persName>
+            <occupation type="scholar">
+               <roleName>
+                  <affiliation>State University of New York, Potsdam</affiliation>
+               </roleName>
+            </occupation>
+            <note resp="#lmw">Julie Fish graduated in 2017 with a B.A. in English Literature from the State University of New York at Potsdam. She worked as a Digital Mitford Research Assistant in Spring and Fall 2017. Her interests include bibliographical studies and book history, and she hopes to pursue work in Library and Information Science.</note>
+         </person>
+         
+         <person xml:id="rjp"><!--update-->
+            <persName>
+               <surname>Parker</surname>
+               <forename>Rebecca</forename>
+               <forename>Jeanne</forename>
+               <roleName>Editor</roleName>
+            </persName>
+            <occupation type="scholar">
+               <roleName>
+                  <affiliation>Loyola University Chicago</affiliation>
+               </roleName>
+            </occupation>
+            <!--<occupation>staff assistant, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref>
+                     <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                  </occupation>-->
+            <note type="bio">Rebecca Parker is pursuing an M.A. in Digital Humanities at Loyola University in Chicago. She graduated with a B.A. in English Literature and
+               Social Sciences from the <ref target="http://www.greensburg.pitt.edu/">University of Pittsburgh at Greensburg</ref>, where she has worked as an
+               assistant for the <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref>. She is currently working on a digital
+               archive of her own. Her project, <ref target="http://nelson.newtfire.org/">The
+                  Restoration of Nell Nelson</ref>, started in spring 2014 as research for her
+               capstone thesis in history. The Nell Nelson archive intends to restore the
+               importance of a female investigative reporter that exposed the harmful effects
+               of industrialization in Chicago at the turn of the twentieth century. Parker’s
+               interest in Digital Humanities stemmed from her involvement on the Digital
+               Mitford Project working as <ref target="http://www.pitt.edu/~ebb8/">Dr.
+                  Beshero-Bondar</ref>’s Green Scholar. She is helping to prepare a digital edition of Mary Russell Mitford’s journal of 1819-1823.<!--Rebecca is an active member of <ref target="http://www.english.org/sigmatd/">Sigma Tau Delta</ref> and <ref target="http://www.phikappaphi.org/">Phi Kappa Phi</ref> on her
+                     campus.--></note>
+         </person>
+         
+         <person xml:id="slc"><!--update and move-->
+            <persName>
+               <surname>Cantwell</surname>
+               <forename>Sara</forename>
+               <!--INVITE TO BE VETTED <roleName>Editor</roleName>-->
+               <roleName>Consultant</roleName>
+            </persName>
+            <occupation type="scholar">
+               <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
+                  Communication, completed 2017. <affiliation>State University of New York,
+                     Potsdam</affiliation>
+               </roleName>
+            </occupation>
+            <note resp="#lmw">Sara Cantwell received her B.F.A. in Creative Writing from the
+               State University of New York at Potsdam in May 2014. She specializes in the
+               writing of poetry and creative non-fiction. In fall 2015, she began work on an
+               M.A. in English and Communication from SUNY Potsdam and joined the Digital
+               Mitford project as a Research Assistant. She completed her M.A. thesis in 2017, which included a book history and analysis of the later poetry of Jorie Graham. In Fall 2017, she joins the  Department of English and Communication at SUNY Potsdam as an Adjunct Instructor and continues on Digital Mitford as an Editor. She continues to work on Mitford’s 1827 sonnets, her self-representation as a creative writer, and her representation and appropriation in contemporary culture.</note>
+         </person>
+         
+         <person/>
+      </listPerson>
+      <listOrg sortKey="archives">
+         <org/>
+      </listOrg>
+   </div>    
+       <div type="Past_Editors"><!--Section contains past Mitford editors and student assistants.-->
+          <listPerson sortKey="Past_Assistants">
+             <person xml:id="whatever"></person>
+          </listPerson>
+          
+          <listPerson sortKey="Past_Editors">
+             <person xml:id="whatever0"></person>
+          </listPerson>
+       </div>
+         
+       <div type="historical_people"><!--Section ontains "real" historical people and named pets; and organizations/groups of people.-->
+          <listOrg sortKey="histOrgs">
+             <org xml:id="Parfitt_family"><!--LMW stub. update to add specific people in the family once we confirm-->
+                <orgName>the Parfitt family</orgName>
+                <orgName>the Parfitts</orgName>
+             </org>
+             
+             <org xml:id="Whigs"><!--stub. Needs a note, similar to note for Tory. LMW needs to write.-->
+                <orgName>the Whig party</orgName>
+                <orgName>Whigs</orgName>
+             </org>
+             <note resp="#lmw">In Mitford's lifetime, the Whigs developed into a formalized political party under the leadership of Charles James Fox</note>
+          </listOrg>
+          
+          <listPerson sortKey="histPersons">
+             
+             <!--LMW: Chairman of Berkshire Quarter Sessions: William Pleydell-Bouverie, 3rd Earl of Radnor (11 May 1779 – 9 April 1869), styled Viscount Folkestone until 1828? National Archive: "minutes of chairman (3rd Earl of Radnor) and related papers incl calendar of prisoners...."-->
+             
+             <person xml:id="Jesus" sex="m">
+                <persName>Jesus</persName>
+                <persName>Jesus Christ</persName>
+                <persName>Jesus of Nazareth</persName>
+                <birth when="0001"/>
+                <death when="0034"/>
+                <note resp="#lmw">Hebrew preacher and religious leader and the most important figure of the Christian religion, who Christians believe to the the Messiah prophesied in the Old Testament and the incarnated Son of God the Father. </note>
+             </person>
+             
+             <person xml:id="Irving_Wash" sex="m"><!--stub:  add note, Mitford importance.-->
+                <persName>Washington Irving</persName>
+                <persName>
+                   <forename>Washington</forename>
+                   <surname>Irving</surname>
+                </persName>
+                <persName type="pseudo">Geoffrey Crayon</persName>
+                <birth when="1783-04-03">
+                   <placeName>New York City, New York, USA</placeName>
+                </birth>
+                <death when="1859-11-28">
+                   <placeName>Sunnyside, Tarrytown, New York, USA</placeName>
+                </death>
+                <occupation type="literary" subtype="novelist"/>
+                <occupation type="literary" subtype="essayist"/>
+                <occupation type="literary" subtype="journalist"/>
+                <occupation type="literary" subtype="biographer"/>
+                <occupation type="government" subtype="diplomat"/>
+                <note resp="#lmw">American author and early adopter of the linked story collection mode of publication in book form. <persName>Mitford</persName> admired the first volume of the <title ref="#Sketchbook_WI">Sketchbook</title>, although she thought less of subsequent volumes.</note>
+                <note>
+                   <ref target="http://viaf.org/viaf/295999941"/>
+                </note>
+             </person>
+             <person xml:id="deStael" sex="f"><!--stub: LMW write a better note, Mitford importance.-->
+                <persName>Germaine de Staël</persName>
+                <persName>
+                   <forename>Anne</forename>
+                   <forename>Louise</forename>
+                   <forename>Germaine</forename>
+                   <surname type="paternal">Necker</surname>
+                   <surname type="married">de Staël-Holstein</surname>
+                </persName>
+                <persName>Madame de Staël</persName>
+                <birth when="1766-04-22">
+                   <placeName>Paris, France</placeName>
+                </birth>
+                <death when="1817-07-14">
+                   <placeName>Coppet, Switzerland</placeName>
+                </death>
+                <occupation type="literary"/>
+                <occupation type="literary" subtype="novelist"/>
+                <occupation type="literary" subtype="essayist"/>
+                <occupation type="literary" subtype="biographer"/>
+                <note resp="#lmw">French salonierre, celebrity and writer. Author of <title ref="#Corinne_deS">Corinne</title>, influential novel about a celebrated Italian improvatrice.</note>
+                <note>
+                   <ref target="http://viaf.org/viaf/89204033"/>
+                </note>
+             </person>
+             <person xml:id="Browning_Rob" sex="m"><!--stub: LMW to write a better note/Mitford importance.-->
+                <persName>Robert Browning</persName>
+                <persName>
+                   <forename>Robert</forename>
+                   <surname>Browning</surname>
+                </persName>
+                <birth when="1812-05-07">
+                   <placeName>Camberwell, London, England</placeName>
+                </birth>
+                <death when="1889-12-12">
+                   <placeName>Venice, Italy</placeName>
+                </death>
+                <occupation type="literary"/>
+                <occupation type="literary" subtype="poet"/>
+                <occupation type="literary" subtype="playwright"/>
+                <note resp="#ebb">Victorian poet, married to <persName ref="#Barrett_E">Elizabeth
+                   Barrett Browning</persName>. Important philsopher-poet and practitioner of
+                   the dramatic monologue poetic form. His early poetry was influnced by <persName
+                      ref="#Shelley_PB">Percy Bysshe Shelley</persName>.</note>
+                <note>
+                   <ref target="http://viaf.org/viaf/24598774"/>
+                </note>
+             </person>
+             <person xml:id="Bronte_E" sex="f"><!--stub, LMW to write a better note.-->
+                <persName>Emily Brontë</persName>
+                <persName>
+                   <surname>Brontë</surname>
+                   <forename>Emily</forename>
+                   <forename>Jane</forename>
+                </persName>
+                <birth when="1818-07-30">
+                   <placeName>Thornton, West Riding of Yorkshire, England</placeName>
+                </birth>
+                <death when="1848-12-19">
+                   <placeName>Haworth, West Riding of Yorkshire, England</placeName>
+                </death>
+                <occupation type="literary" subtype="poet"/>
+                <occupation type="literary" subtype="novelist"/>
+                <note resp="#lmw">Yorkshire novelist and poet.</note>
+                <note>
+                   <ref target="http://viaf.org/viaf/97097302"/>
+                </note>
+             </person>
+             
+             <person xml:id="Bell_Geo" sex="m"><!--stub: add a note-->
+                <persName>George Bell</persName>
+                <persName>
+                   <surname>Bell</surname>
+                   <forename>George</forename>
+                </persName>
+                <birth when="1814"/>
+                <death when="1890"/>
+                <occupation type="literary" subtype="editor"/>
+                <occupation type="bookProducer" subtype="publisher"/>
+                <occupation type="bookProducer" subtype="printer"/>
+                <occupation type="bookProducer" subtype="bookseller"/>
+                <note>See <title level="m">George Bell, Publisher: A Brief Memoir</title> by Edward Bell (London: Chiswick P, 1924).<!--LMW: no personal VIAF #.--></note>
+             </person>
+             <person xml:id="Porter_AM" sex="f"><!--update format-->
+                
+                <persName>Anna Maria Porter</persName>
+                <persName>
+                   <surname>Porter</surname>
+                   <forename>Anna</forename>
+                   <forename>Maria</forename>
+                   <persName><addName>L’Allegra</addName></persName>
+                </persName>
+                <birth when="1780"/>
+                <death when="1832-09-21">
+                   <placeName>Bristol, England</placeName>
+                </death>
+                <occupation type="literary" subtype="poet"/>
+                <occupation type="literary" subtype="novelist"/>
+                
+                <note resp="#ebb">Sister of the popular historical novelist <persName>Jane Porter</persName>, Anna Maria Porter wrote prolifically in verse romance, two novels, and collaborated with her sister on story collections. Both sisters were friends of <persName ref="#Scott_Wal">Walter  Scott</persName>. See the Orlando Project’s summation of major themes in her
+                   works: <ptr target="http://orlando.cambridge.org/public/svPeople?person_id=portan"/> and
+                   History’s Women for a biographical sketch of both sisters <ptr target="http://www.historyswomen.com/thearts/Porters.htm"/>.</note>
+                <note>
+                   <ref target="http://viaf.org/viaf/39730902/"/>
+                </note>
+             </person>
+             
+             <person xml:id="Reynolds_JH" sex="m"><!--update format, needs a note-->
+                <persName>John Hamilton Reynolds</persName>
+                <persName>
+                   <forename>John</forename>
+                   <surname>Hamilton</surname>
+                   <surname>Reynolds</surname>
+                </persName>
+                <birth when="1794-09-09">
+                   <placeName>Shrewsbury, England</placeName>
+                </birth>
+                <death when="1852-11-15">
+                   <placeName>Newport, Isle of Wight, England</placeName>
+                </death>
+                <occupation type="literary" subtype="poet"/>
+                <occupation type="literary" subtype="journalist"/>
+                <occupation type="theater" subtype="playwright"/>
+                <occupation type="trade" subtype="clerk"/>
+                <note resp="#lmw">Prolific poet, journalist and reviewer, the friend of <persName ref="#Hunt">Leight Hunt</persName> and <persName ref="#Keats">John Keats</persName> Also collaborated on satirical and comic poetry with his wife Eliza Drew's brother, the poet <persName ref="#Hood_Thos">Thomas Hood</persName>. He was largely self-educated, having completed his formal education at 16, and worked as a office clerk in insurance and law.</note>
+                <note>
+                   <ref target="http://viaf.org/viaf/79365644"/>
+                </note>
+             </person>
+             <person xml:id="whatever3" sex="m"><!--use m, f, mf, or u-->
+                <persName></persName><!--List the person's full name as we wish it to appear on the website.-->
+                <persName>
+                   <surname type="married"></surname><!--takes @type attributes: @type="married" @type="paternal"-->
+                   <forename></forename>
+                   <forename></forename><!--middle names are forenames too. Put them in order. First name, then middle name(s)-->
+                   <roleName><!--if any. Mr., Lord, 6th Earl of Northumberland--></roleName>
+                </persName>
+                <persName><addName></addName></persName>
+                <persName/><!--multiple names? collect them, as many persNames, nicknames, etc as we know. List each as a separate persName.-->
+                <persName><addName></addName></persName><!--use this tag for nicknames-->
+                <birth when="yyyy-mm-dd"> <!--for unknown birthdates where baptism dates are known, use notAfter="yyyy-mm-dd"-->
+              <placeName><!--where born? List town, region, country, as much as is known.--></placeName>
+              </birth>
+                <death when="yyyy-mm-dd"><placeName><!--where died? List town, region, country, as much as is known.--></placeName></death>
+                <occupation type="" subtype=""><!--A type is required and a subtype may be used. se multiple lines as needed.--></occupation>
+                <note>
+                   <ref target="http://viaf.org/viaf/12433231"/> <!--include link to VIAF #, if one exists-->
+                </note>
+                <note resp="#MitfordEditor"><!--Your brief, pithy note here, commenting on the significance of this person to Mitford, her world, her people.--></note>
+             </person>
+          </listPerson>
+          <!--SAMPLES:
+             <person xml:id="Alfieri_Vittorio" sex="m">
+                  <persName>Count Alfieri Vittorio</persName>
+                  <persName>
+                     <surname>Alfieri</surname>
+                     <forename>Vittorio</forename>
+                     <roleName>Count</roleName>
+                  </persName>
+                  <birth when="1749-01-16">
+                     <placeName>Asti, Piedmont region, Italy</placeName>
+                  </birth>
+                  <death when="1803-10-08">
+                     <placeName>Florence, Italy</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="theater"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#ebb">Credited with reviving Italian tragedy in the eighteenth century, Alfieri's plays included <title level="m">Filippo</title>, <title level="m">Polinice</title>, <title level="m">Antigone</title>, <title level="m">Virginia</title>,and the highly acclaimed <title level="m">Saul</title>. He also authored an ode on <rs type="event" ref="#American_Revol">American Independence</rs> and a satirical poem, <title level="m">The Antigallican</title>, on <rs type="event" ref="#French_Revol">the French Revolution</rs>.   
+                  </note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/39389587"/>
+                  </note>
+               </person>
+               
+               <person xml:id="Anderdon_LOH" sex="f">
+                  <persName>Lucy Olivia Hobart Anderdon</persName>
+                  <persName>
+                     <forename>Lucy</forename>
+                     <forename>Olivia</forename>
+                     <forename>Hobart</forename>
+                     <surname type="paternal">Anderdon</surname>
+                     <surname type="married">Partridge</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>
+                     <date from="1837" to="1854">between 1837 and 1854</date>. Spouse of the Rev. William Edwards Partridge (1837-51); daughter of Oliver and Maria Anderdon.</note>
+               </person>-->
+       </div>
+         <div type="fictional_and_archetypal"><!--Section for mythical, legendary entities, not precisely rooted in a place or time, or in a particular text. -->
+             <listOrg sortKey="fictOrgs"> <!--For fictional organizations or groups from particular texts.-->
+                <org/>
+                <!--SAMPLE:
+                   <org xml:id="Balfours_WS">
+                  <orgName>Balfours of Burley</orgName>
+                  <note resp="#lmw">The Balfours of Burley are a family of characters in <bibl corresp="#Old_Mortality">
+                        <author ref="#Scott_Wal">Walter Scott</author>’s <title level="m">Old
+                           Mortality</title>
+                     </bibl>.</note>
+               </org>
+               -->
+             </listOrg>
+             <listOrg sortKey="archOrgs"><!--For archetypal organizations or groups-->
+                <org/>
+             </listOrg>
+          <listPerson sortKey="archPersons"> <!--For individual archetypal entities. List -->
+             <person xml:id="Baal" sex="m"><!--stub, needs a note-->
+                <persName>Baal</persName>
+                <persName>Baʿal</persName>
+                <note resp="#lmw">Levantine diety associated with Hadad, a storm and fertility god in ancient world religions of Mesopotamia and the Canaanites. The name simply means lord and the god is associated with symbols of bulls, lions, and thunderbolts. In the Old Testament, Baal is represented as the false god of the Canaanites.</note>
+             </person>
+             <person/>
+             <!--SAMPLE:
+                <person xml:id="Ahab" sex="m">
+                  <persName>Ahab</persName>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#ebb">Historic and legendary ancient King of Israel, married to
+                        <persName ref="#Jezebel">Jezebel</persName>.</note>
+               </person>
+               -->
+          </listPerson>
+            <listPerson sortKey="fictPersons"><!--For fictional characters from particular texts.-->
+             <person xml:id="" sex="">
+                <persName></persName>
+                <occupation type=""/>
+                <note resp="#NNN"></note>
+             </person>
+               <!--SAMPLES: 
+                  <person xml:id="Ariel" sex="u">
+                  <persName>Ariel</persName>
+                  <occupation type="service"/>
+                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who serves <persName ref="#Prospero">Prospero</persName> under magical duress.</note>
+               </person>
+               
+                 <person xml:id="Camilla_char" sex="f">
+                  <persName>Camilla</persName>
+                  <note resp="#lmw">Title character in <title ref="#Camilla_FB">Camilla</title>;
+                     Mitford admires Burney’s characterization of her in her a letter to Elford from
+                        <date when="1819-05-30">30 May 1819</date>.</note>
+               </person>
+               
+               <person xml:id="Camillo_R" sex="m">
+                  <persName>Camillo</persName>
+                  <note resp="#lmw">Camillo is a character in <title ref="#Rienzi">Rienzi</title>; <persName ref="#Rienzi_Cola">Rienzi</persName>'s servant. Played by <persName ref="#Jones_C">Mr. C. Jones</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
+               </person>
+               -->
+          </listPerson>
+          
+       </div>
+         <div type="places">
+            <listPlace sortKey="histPlaces"><!--for "real" historical places-->
+               <place/>
+            </listPlace>
+            <!--SAMPLE:               
+               <placeName>Abingdon, Berkshire, England</placeName>
+                  <placeName>
+                     <addName>Abingdon on Thames</addName>
+                  </placeName>
+                  <placeName>
+                     <addName>Abingdon-on-Thames</addName>
+                  </placeName>
+                  <settlement>Abingdon</settlement>
+                  <region>Berkshire</region>
+                  <region>Oxfordshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.67078 -1.2879528999999366</geo>
+                  </location>
+                  <note resp="#lmw">Abingdon (now called "Abingdon on Thames" or
+                     "Abingdon-on-Thames,") is a market town in England. In <persName ref="#MRM">Mitford</persName>’s time, it was the county town of the county of
+                        <placeName ref="#Berkshire">Berkshire</placeName>. It was reassigned to
+                     Oxfordshire in 1974. In the nineteenth century, the Assize Courts alternated
+                     between <placeName ref="#Reading_city">Reading</placeName> and <placeName ref="#Abingdon">Abingdon</placeName>, according to <persName ref="#coles">Coles</persName>.</note>
+               </place>-->
+            <listPlace sortKey="fictPlaces"><!--for any fictional/imaginary/mythical places-->
+               <place/>
+            </listPlace>
+            <!--SAMPLE:
+               <place xml:id="Arden">
+                  <placeName>Forest of Arden</placeName>
+                  <note resp="#rnes">Fictional Forest of Arden, setting for <title ref="#As_You_Like_It_play">As You Like It</title>. Variously identified with historical and fictional representations of the <placeName ref="#Forest_of_Ardennes">Forest of Ardennes</placeName> in continental Europe, as well as with Arden, a heavily wooded area of Warwickshire, England.</note>
+               </place>
+               -->
+         </div>
+         <div type="nature"><!--For plants, wild and cultivated; as well as animals, other than named pets.-->
+            <list sortKey="animals">
+               <item xml:id="animalID">
+                  <name><!--list any common and proper names of the animal, especially those known in Mitford's time.--></name>
+                  <name><rs type="genus">xxx</rs><rs type="species">xxxx</rs><rs type="family">xxx</rs></name>
+                  <note resp="#MitfordEditor"><!--explain significance to Mitford and her time.--></note>
+               </item>
+               <!--SAMPLE:
+               <item xml:id="Long_tailed_wren">
+                  <name>long-tailed wren</name>
+                  <name>Naga wren-babbler</name>
+                  <name><rs type="genus">Spelaeornis</rs><rs type="species">chocolatinus</rs><rs type="family">Timaliidae</rs></name>
+                  <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis chocolatinus), a bird species in the family Timaliidae.</note>
+               </item>-->
+            </list>
+            <list sortKey="plants">
+               <item xml:id="plantID">
+                  <<name><!--list any common and proper names of the plant, especially those known in Mitford's time.--></name>
+                  <name><rs type="genus">xxx</rs><rs type="species">xxxx</rs><rs type="family">xxx</rs></name>
+                  <note resp="#MitfordEditor">
+                  </note>
+               </item>
+               <!--SAMPLE:
+               <item xml:id="cowslip">
+                  <name>cowslip</name>
+                  <name>common cowslip</name>
+                  <name>cowslip primrose</name>
+                  <name><rs type="genus">Primula</rs><rs type="species">veris</rs><rs type="family">Primulaceae</rs></name>
+                  <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>'s favorite flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>. Mitford likely refers to Primula veris (also called cowslip, common cowslip, cowslip primrose), a flowering plant in the genus Primula of the family Primulaceae. The species is native throughout most of temperate <placeName>Europe</placeName> and <placeName>Asia</placeName>, although absent from more northerly areas. May hybridize with <rs type="plant" ref="#primrose">English/common primroses</rs>.
+                  </note>
+               </item>
+               -->
+            </list>
+            
+         </div>
+         <div type="events">
+            <listEvent sortKey="histEvents"><!--For real, historical events of public or private importance. In the main, tag major events likely to appear in more than one Digital Mitford text.-->
+               <event>
+                  <label></label>
+                  <note></note>
+               </event>
+            </listEvent>
+            <!--SAMPLE:
+               <event xml:id="EngCivilWar"
+                      type="war"
+                      from="1642-08-22"
+                      to="1651-09-03">
+                  <label>English Civil Wars</label>
+                  <note resp="#lmw">A series of conflicts between British <orgName ref="#Parliamentarians">Parliamentarian</orgName>, supporters of <persName ref="#Cromwell">Oliver Cromwell</persName>, and Royalists, supporters of Stuart King <persName ref="#ChasI">Charles I</persName>, fought between 1642 and 1651. Also called The Great Rebellion or The War of Three Kingdoms, as civil war broke out in all three Stuart kingdoms of England, Scotland, and Ireland. The war was fought principally over the questions of government (the relation between the monarch and Parliament, as defined through England's constitutional framework) and religion (the Church of England's monopoly on Christian worship in England). The first war ended with a Parliamentarian victory at Naseby in 1645 and resulted in the creation of the <orgName ref="#New_Model_Army">New Model Army</orgName> and an alliance between the Parliamentarians and the Scottish Covenanters. The second ended with a Parliamentary victory at Preston and culminated with the execution of <persName ref="#ChasI">Charles I</persName> in 1649. The third war was led by <persName ref="#ChasII">Charles II</persName> with Scottish and Irish allies and ended at Worcester in 1651 with <persName ref="#ChasII">Charles II</persName>'s retreat to France.</note>
+               </event>-->
+         </div>
+         <div type="art"><!--for graphical works of art, or works that aren't published in print form. Differentiate lists as needed.-->
+            <list sortKey="art">
+               <item/><!--leave this stump in place. Needed for this list to be valid.-->
+              <figure xml:id="whatevs9">
+               <bibl></bibl>
+               <graphic url="whatever.html"/><!--If we find a good, stable URL representing this artwork on the web, point to it here.-->
+               <note></note>
+            </figure>
+            </list>
+            <!--SAMPLE:
+               <figure xml:id="Lazarus_Haydon" type="painting" rend="oil">
+                  <bibl>
+                     <title level="m">The Resurrection of Lazarus</title>
+                     <title level="m">The Raising of Lazarus</title>
+                     <author ref="#Haydon"/>
+                     <date from="1821" to="1823">1821-1823</date>
+                  </bibl>
+                  <graphic url="http://www.tate.org.uk/art/research-publications/the-sublime/lydia-hamlett-sublime-religion-benjamin-robert-haydons-the-raising-of-lazarus-r1129549"/>
+                  <desc/>
+                  <note resp="#ebb">Painting of enormous dimensions exhibited in <date when="1823">1823</date> at <placeName ref="#EgyptianHall">Egyptian Hall</placeName> in
+                     Piccadilly, London. While on exhibit in 1823, the picture was seized from the
+                     gallery when Haydon was arrested for debt and imprisoned for two months.</note>
+               </figure>
+               -->
+         </div>
+         <div type="publications">
+          
+            <listBibl sortKey="serial_MRM"><!--For periodicals and serials, published during Mitford's lifetime-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE:
+               <bibl xml:id="Ackermans_Juv_ForgetMeNot">
+                  <title level="j">Ackermann's Juvenile Forget Me Not
+                  </title>
+                  <editor>Frederic Shoberl</editor>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Ackermann_pub">R. Ackermann</orgName>
+                  </publisher>
+                  <date from="1830" to="1832"/>
+                  <note resp="#lmw">Children's gift book/annual founded by Rudolf Ackermann and edited by Frederic Shoberl. <persName ref="#MRM">Mitford</persName> published in this periodical in <date when="1832">1832</date>.</note>
+               </bibl>
+               -->
+            
+            <listBibl sortKey="work_MRM"><!--For other printed works than serials, published during Mitford's lifetime-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE: 
+                     <bibl xml:id="Abbot_WS">
+                  <title level="m">The Abbot</title>
+                  <author ref="#Scott_Wal">Walter Scott</author>
+                  <date when="1820">1820</date>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <publisher>Archibald Constable and Company, and John Ballantyne</publisher>
+                  <note resp="#ebb">Historical novel: One of Scott’s series of <title level="s">Tales from Benedictine Sources</title>, <title level="m">The Abbot</title> introduces
+                     the character <persName>Roland Graeme</persName>, and renders <rs type="event">the experiences of <persName ref="#MaryQoS">Mary, Queen of Scots</persName>
+                        during her imprisonment and escape from <placeName>Loch Leven
+                           Castle</placeName> in <date when="1567">1567</date>
+                     </rs>.</note>
+               </bibl>
+               -->
+            
+            <listBibl sortKey="schol"><!--Scholarship from our time, after Mitford's-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE:
+               <bibl xml:id="AlterationsOfState">
+                  <title level="m">Alterations of State: Sacred Kingship in the English Reformation</title>
+                  <author>
+                     <persName ref="#McCoy_Rich">Richard McCoy</persName>
+                  </author>
+                  <pubPlace>New York, New York, USA</pubPlace>
+                  <publisher>Columbia University Press</publisher>
+                  <date when="2002">2002</date>
+               </bibl>
+               -->
+         </div>
+         
+      </body>
+  </text>
