@@ -59,19 +59,6 @@
          
    <div type="Mitford_Team"><!--Check section for other student editors to update and move to past.-->
       <listPerson sortKey="Mitford_Team">
-         <person xml:id="jgf"><!--update and move-->
-            <persName>
-               <surname>Fish</surname>
-               <forename>Julie</forename>
-               <roleName>Research Assistant</roleName>
-            </persName>
-            <occupation type="scholar">
-               <roleName>
-                  <affiliation>State University of New York, Potsdam</affiliation>
-               </roleName>
-            </occupation>
-            <note resp="#lmw">Julie Fish graduated in 2017 with a B.A. in English Literature from the State University of New York at Potsdam. She worked as a Digital Mitford Research Assistant in Spring and Fall 2017. Her interests include bibliographical studies and book history, and she plans to pursue work in K-12 Education and Literacy.</note>
-         </person>
          
          <person xml:id="rjp"><!--update-->
             <persName>
@@ -102,25 +89,7 @@
                      campus.--></note>
          </person>
          
-         <person xml:id="slc"><!--update and move-->
-            <persName>
-               <surname>Cantwell</surname>
-               <forename>Sara</forename>
-               <!--INVITE TO BE VETTED <roleName>Editor</roleName>-->
-               <roleName>Consultant</roleName>
-            </persName>
-            <occupation type="scholar">
-               <roleName>B.F.A. in Creative Writing, completed 2014. M. A. in English and
-                  Communication, completed 2017. <affiliation>State University of New York,
-                     Potsdam</affiliation>
-               </roleName>
-            </occupation>
-            <note resp="#lmw">Sara Cantwell received her B.F.A. in Creative Writing from the
-               State University of New York at Potsdam in May 2014. She specializes in the
-               writing of poetry and creative non-fiction. In fall 2015, she began work on an
-               M.A. in English and Communication from SUNY Potsdam and joined the Digital
-               Mitford project as a Research Assistant. She completed her M.A. thesis in 2017, which included a book history and analysis of the later poetry of Jorie Graham. In Fall 2017, she joins the  Department of English and Communication at SUNY Potsdam as an Adjunct Instructor and continues on Digital Mitford as an Editor. She continues to work on Mitford’s 1827 sonnets, her self-representation as a creative writer, and her representation and appropriation in contemporary culture.</note>
-         </person>
+         
          
          <person/>
       </listPerson>

@@ -548,7 +548,7 @@
                    <p>Harness and <persName ref="#Byron">Byron</persName> were also friends from
                       their schooling at Harrow, as Byron sympathized with Harness’s experience of
                       a disabled foot, crushed in an accident in early childhood. Byron considered
-                      dedicating <bibl>the last two cantos of <title level="m">Childe Harold’s
+                      dedicating <bibl>the first two cantos of <title level="m">Childe Harold’s
                          Pilgrimage</title>
                       </bibl> to Harness, but refrained so as not to taint Harness’s reputation as
                       he was taking orders as an Anglican curate. Harness admired and encouraged
@@ -895,47 +895,70 @@
                </item>
                
                <!--. For the fruits and nuts, indicate the plant or tree they grow on, for now: strawberries, French beans, bluebells, orchises, geranium (link to Robert sweet volume from 1820s, jasmine, [cloves, carnation, sweet William,: these are all different types of "pinks" in the dianthus/carnation family] lavendar, roses, greengages -->
-               
+              
+               <item xml:id="butercup">
+                  <name>common buttercup</name>
+                  <name><addName>Meadow buttercup</addName></name>
+                  <name><addName>Ranunculus acris</addName></name>
+                  <name type="genus">Ranunculus</name>
+                  <name type="family">Ranunculaceae</name>
+                  <note resp="#SLC">A small yellow flowering plant first catogorized by Carolus Linnaeus in his 1753 Species Plantarum. It is a herbaceous perennial plant that grows to a height of 30  - 70 cm, with ungrooved flowing stems bearing glossy yellow flowers about 25 mm across. There are five overlapping petals borne above five green sepals that soon turn yellow as the flower matures. It has numerous stamens inserted below the ovary. The leaves are compound, with three lobed leaflets. In horticulture the species may be regarded as a troublesome weed, colonising lawns and paths. However, it may be a welcome feature of wildflower meadows. The double-flowered cultivar R. acris 'Flore Pleno' has gained the Royal Horticultural Society's Award of Garden Merit.</note>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://species.wikimedia.org/wiki/Ranunculus"/></note>
+                  <note><ref target="https://en.wikipedia.org/wiki/Ranunculus_acris"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  
                <item xml:id="ranunculus">
                   <name>ranunculus</name>
+                  <name><addName>Ranunculus asiaticus</addName></name>
                   <name><addName>garden ranunculus</addName></name>
-                  <name><addName>[latin name]</addName></name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
+                  <name><addName>Persian buttercup</addName></name>
+                  <name type="genus">Ranunculus</name>
+                  <name type="family">	Ranunculaceae</name>
+                  <note resp="#SLC">A species of buttercup (Ranunculus) native to the eastern Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and northeastern Africa. Double-flowered forms, which are likely hybrids, are a popular ornamental plant in gardens, and widely used in floristry.</note>
                   <note resp="#lmw"></note>
-                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  <note><ref target="https://species.wikimedia.org/wiki/Ranunculus_asiaticus"/></note>
+                  <note><ref target="https://en.wikipedia.org/wiki/Ranunculus_asiaticus"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
                </item>
                
                <item xml:id="VirginsBower">
                   <name>Virgin's Bower</name>
-                  <name><addName><!--a type of clematis--></addName></name>
-                  <name><addName>[latin name]</addName></name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
+                  <name><addName>sweet-scented virgin's bower</addName></name>
+                  <name><addName>Clematis flammula</addName></name>
+                  <name type="genus">Clematis</name>
+                  <name type="family">Ranunculaceae</name>
+                  <note resp="#SLC">A temperate liana known by the common name fragrant virgin's bower. It is native to southern Europe and northern Africa, but it is cultivated worldwide as an ornamental plant in gardens. The woody vine bears fragrant white flowers and small green achenes. When the flowers are newly opened they have a strong sweet almond fragrance.</note>
                   <note resp="#lmw"></note>
-                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  <note><ref target="https://species.wikimedia.org/wiki/Clematis_flammula"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
                   <!--virgin's bower https://wildflowerfinder.org.uk/Flowers/V/VirginsBower/VirginsBower.htm-->
                   <!--https://www.rhs.org.uk/plants/3935/Clematis-flammula/Details-->
                </item>
                
                <item xml:id="strawberry"><!--LMW:probably wild strawberry, not cultivated-->
                   <name>ccc</name>
-                  <name><addName>[common name/names]</addName></name>
-                  <name><addName>[latin name]</addName></name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
+                  <name><addName>wild strawberry</addName></name>
+                  <name><addName>woodland strawberry</aadName></name>
+                  <name><addName>Alpine strawberry</addName></name>
+                  <name><addName>Carpathian Strawberry</addName></name>
+                  <name><addName>European strawberry</addName></name>
+                  <name><addName>fraisier des bois</addName></name>
+                  <name><addName>Fragaria vesca</addName></name>
+                  <name type="genus">Fragaria</name>
+                  <name type="family">Rosaceae</name>
+                  <note resp="#SLC">A perennial herbaceous plant in the Rose family that grows naturally throughout much of the Northern Hemisphere, and that produces edible fruits.</note>
                   <note resp="#lmw"></note>
-                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  <note><ref target="https://en.wikipedia.org/wiki/Fragaria_vesca"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  <note><ref target="https://species.wikimedia.org/wiki/Fragaria_vesca"/></note>
                </item>
                
                <item xml:id="bluebell">
-                  <name>ccc</name>
-                  <name><addName>[common name/names]</addName></name>
-                  <name><addName>[latin name]</addName></name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
+                  <name>Bluebell</name>
+                  <name><addName>common bluebell</addName></name>
+                  <name><addName>Hyacinthoides hispanica</addName></name>
+                  <name type="genus">Hyacinthoides</name>
+                  <name type="family">Asparagaceae</name>
+                  <note resp="#SLC">Hyacinthoides non-scripta (formerly Endymion non-scriptus or Scilla non-scripta) is a bulbous perennial plant, found in Atlantic areas from north-western Spain to the British Isles, and also frequently used as a garden plant. It is known in English as the common bluebell or simply bluebell, a name which is used in Scotland to refer to the harebell, Campanula rotundifolia. In spring, H. non-scripta produces a nodding, one-sided inflorescence of 5–12 tubular, sweet-scented violet–blue flowers, with strongly recurved tepals, and 3–6 long, linear, basal leaves. H. non-scripta is particularly associated with ancient woodland where it may dominate the understorey to produce carpets of violet–blue flowers in "bluebell woods", but also occurs in more open habitats in western regions. It is protected under UK law, and in some other parts of its range. A related species, H. hispanica has also been introduced to the British Isles and hybridises with H. non-scripta to produce intermediates known as H. × massartiana.</note>
                   <note resp="#lmw"></note>
-                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  <note><ref target="https://species.wikimedia.org/wiki/Hyacinthoides_non-scripta"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
                </item>
                
                <item xml:id="jasmine">
