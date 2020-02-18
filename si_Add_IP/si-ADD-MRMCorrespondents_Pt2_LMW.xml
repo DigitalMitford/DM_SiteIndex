@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!--<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index: Additions Template, for Adding and Updating Named Entities in the
+               Digital Mitford Archive</title>
+            <author>Digital Mitford Editors</author>
+            <editor><!--Add your name here! And add an @ref attribute to <editor>, pointing to your xml:id in the si.xml-->
+            </editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Data extraction and compiling by</resp>
+               <persName type="hist" ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName><!--Add your name here and place an @ref attribute, if you're proofing and correcting existing entries.--></persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Information on named entities in this file has been extracted from files in the
+               Digital Mitford Archive.</p> 
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+<!--LMW: started 2016-09-24 --><!--LMW: last added to on 2019-06-29--><!--LMW: revising 2020-02-14-->
+         
+
+
+
+         <div type="historical_people">
+            <listPerson sortKey="histPersons"><!--NEW to SI-->
+               
+               <person xml:id="Ramsay_Mary" sex="f">
+                  <persName>Mary Ramsay</persName>
+                  <persName>
+                     <surname>Ramsay</surname>
+                     <forename>Mary</forename>
+                  </persName>
+                  <birth notAfter="1804">
+                     <placeName></placeName>
+                  </birth>
+                  <death when="1819-10-20">
+                     <placeName>Lisbon, Portugal</placeName> 
+                  </death>
+                  <note resp="#lmw">An friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>in 1819. The 6th daughter of George Ramsay (1769-1810) of Edinburgh. Dedicatee of Mitford's <title ref="#FriendToLisbon_1827">On the Departure of a Friend to Lisbon for the Recovery of Her Health.</title> <persName ref="#James_Emily">Emily James</persName> accompanied her to Lisbon before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note>
+               </person>
+               
+               <person xml:id="Jeremy_Miss" sex="f">
+                  <persName>Miss Jeremy</persName>
+                  <persName>
+                     <surname>Jeremy</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>in 1819. Dates unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Bailey_Mr" sex="m">
+                  <persName>Mr. Bailey</persName>
+                  <persName>
+                     <surname>Bailey</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. May be the relation of <persName>Maria Bailey Kirby</persName>. Dates unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Dobbs_Mr" sex="m">
+                  <persName>Mr. Dobbs</persName>
+                  <persName>
+                     <surname>Dobbs</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. May be the spouse of <persName ref="#Dobbs_Mrs">Mrs. Dobbs</persName>. Dates unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Lawrence_Mr" sex="m">
+                  <persName>Mr. Lawrence</persName>
+                  <persName>
+                     <surname>Lawrence</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An associate of the <orgName ref="#Webbs">Webb family</orgName> in 1819. May be a relative of of <persName>Jane Ogbourn Webb</persName>, whose mother's paternal name was Lawrence. Dates unknown. More research needed.</note>
+               </person>
+               
+               <person xml:id="Dawson_Geo" sex="m">
+                  <persName>George Dawson</persName>
+                  <persName>
+                     <surname>Dawson</surname>
+                     <foreName>George</foreName>
+                  </persName>
+                  <birth notAfter="1763"/>
+                  <death when="1832-05-01"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <!--which one? Check name. [George P. Dawson?] Figure out which George Dawson, probably the barrister.  "George Dawson, Esq., of Osgodby Hall [near Selby in Yorkshire] lieut. 1st Royals, major in the North York militia, and deputy-lieutenant, who m. Elmira, dau. of John Reeves, Esq. of Arborfield House, Berks, and sister of heir of Pelsant Reeves, Esq., capt. 1st Royals, who was killed at Toulong; and by this lady (who d. 23 December 1848) had issue,
+          GEORG-PELSANT DAWSON, his heir and present representative.
+          Elmira-Catherine-Philadelphia, m. to Capt. William Mallet, 46th Regt.
+          Isabel, m. to the Rev. henry Cary, M.A.
+          Mr. Dawson [the father] d. 1 May 1832, aged 69-->-->
+                  </note>
+               </person>
+               
+               <person xml:id="Hughes_John" sex="m">
+                  <persName>John Hughes</persName>
+                  <persName>
+                     <surname>Hughes</surname>
+                     <roleName>John</roleName>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Father of <persName ref="#Senior_Jane">Jane Hughes Senior</persName>
+                  </note>
+               </person>
+               
+               <person xml:id="Hughes_Mrs" sex="f">
+                  <persName>Mrs. Hughes</persName>
+                  <persName>
+                     <surname>Hughes</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Possibly the spouse of <persName ref="#Hughes_John">John Hughes</persName>. Dates unknown. More research needed.
+                  </note>
+               </person>
+               
+               <person xml:id="Senior_Jane" sex="f">
+                  <persName>Jane Elizabeth Hughes Senior</persName>
+                  <persName>
+                     <surname type="married">Senior</surname>
+                     <surname type="paternal">Hughes</surname>
+                     <forename>Jane</forename>
+                     <forename>Elizabeth</forename>
+                  </persName>
+                  <birth when="1828-12-10">
+                     <placeName>Uffington</placeName>
+                  </birth>
+                  <death when="1877"/>
+                  <note resp="#lmw"> <!--Hughes Senior, Jane Elizabeth [Jane Nassau Senior (1828–1877) was Britain's first female civil servant, and a philanthropist. Senior was born Jane Elizabeth Hughes at Uffington on 10 December 1828, daughter of John Hughes and the only sister of the author Thomas Hughes and five other brothers.--></note>
+               </person>
+               
+               <person xml:id="Russell_Constance" sex="f">
+                  <persName>Lady Constance Russell</persName>
+                  <persName>Constance Charlotte Eliza Lennox, Lady Russell</persName>
+                  <persName>
+                     <surname type="married">Russell</surname>
+                     <surname type="paternal">Lennox</surname>
+                     <forename>Constance</forename>
+                     <forename>Charlotte</forename>
+                     <forename>Eliza</forename>
+                     <roleName>Lady Russell</roleName>
+                  </persName>
+                  <birth when="1832"/>
+                  <death when="1925"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of Sir George Russell, fourth baronet. Daughter of Lord Arthur Lennox. <!--LM Is this Mitford's friend and neighbor she lived with in 1850s, or her daughter? Wrote book on Swallowfield.-->
+                  </note>
+               </person>
+
+               <person xml:id="Kingsley_Fanny" sex="f">
+                  <persName>Frances Grenfell Kingsley</persName>
+                     <persName>
+                        <surname type="married">Kingsley</surname>
+                        <surname type="paternal">Grenfell</surname>
+                        <forename>Frances</forename>
+                        <forename><addName>Fanny</addName></forename>
+                     </persName>
+                  <birth when="1814"/>
+                  <death when="1891"/>
+                     <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> 
+                     </note>
+               </person>
+               
+               <person xml:id="Kingsley_Chas" sex="m">
+                  <persName>Charles Kingsley</persName>
+                  <persName>
+                     <surname>Kingsley</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1819-06-12"/>
+                  <death when="1875-01-23"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="education" subtype="professor"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Kingsley_Fanny">Fanny Grenfell Kingsley</persName>. 
+                  </note>
+               </person>
+               <!--Kingsley, Fanny Grenfell [In 1839, Frances Eliza (Fanny) Grenfell (1814–91), later a biographer, was living at Braziers Park with her sisters, and was visited by novelist Charles Kingsley (1819–75), then a Cambridge undergraduate. Kingsley later fictionalized this meeting as that of Argemone with Lancelot Smith in his first novel Yeast (1848). Despite Fanny having taken a vow of chastity with her sisters at Braziers Park, she and Kingsley married in Bath in 1844.] 
+               Kingsley, Charles [Charles Kingsley (12 June 1819 – 23 January 1875) was a broad church priest of the Church of England, a university professor, social reformer, historian and novelist.] From 1844, he was rector of Eversley in Hampshire. Married Fanny Grenfell.-->
+               
+               <person xml:id="Horne_RH" sex="m">
+                  <persName>Richard Hengist Horne</persName>
+                  <persName>
+                     <surname>Horne</surname>
+                     <forename>Richard</forename>
+                     <forename>Hengist</forename>
+                  </persName>
+                  <persName>Richard Henry Horne</persName>
+                  <birth when="1802-12-31"/>
+                  <death when="1884-03-13"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName></note>
+               </person>
+               
+               <person xml:id="Kenyon_John" sex="m">
+                  <persName>John Kenyon</persName>
+                  <persName>
+                     <surname>Kenyon</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1784"/>
+                  <death when="1856"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>  Cousin of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
+               </person>
+            
+               <person xml:id="Jephson_Em" sex="f">
+                  <persName>Emily F. Jephson</persName>
+                  <persName>
+                     <surname>Jephson</surname>
+                     <forename>Emily</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> between 1829 and the 1850s. Grandniece of playwright Robert Jephson.
+                  </note>
+               </person>
+               
+               <person xml:id="Kinsey_Wm" sex="m">
+                  <persName>William Morgan Kinsey</persName>
+                  <persName>
+                     <surname>Kinsey</surname>
+                     <forename>William</forename>
+                     <forename>Morgan</forename>
+                  </persName>
+                  <birth when="1788">
+                     <placeName>Abergavenny, Monmouthshire, Wales</placeName>
+                  </birth>
+          <death when="1851-04-06"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="scholar"/>
+                  <occupation type="explorer" subtype="traveller"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Trinity College, Oxford scholar and Church of England clergyman. Travelled extensively in Portugal and Belgium. Published essays, sermons, and a travel book on Portugal.
+                  </note>
+               </person>
+               
+               <person xml:id="Lucas_John" sex="m">
+                  <persName>John Lucas</persName>
+                  <persName>
+                     <surname>Lucas</surname>
+                     <forename>John</forename>
+                     <forename>Lindsay</forename>
+                  </persName>
+                  <birth when="1807-07-04">
+                     <placeName>King's Lynn, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1874-04-30">
+                     <placeName>St. John's Wood, London, Middlesex, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="painter"/>
+                  <occupation type="artist" subtype="engraver"/>
+                 <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Fashionable portrait painter and mezzotint engraver who painted both <persName ref="#MRM">Mary Russell Mitford</persName> and her father <persName ref="#Mitford_Geo">George</persName>.
+                  </note>
+                  <note></note>
+               </person>
+              
+               <person xml:id="ShawLefevre_C1" sex="m">
+                  <persName>Charles Shaw Lefevre</persName>
+                  <persName>
+                     <surname>Shaw</surname>
+                     <surname>Lefevre</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1759-09-20">
+                     <placeName>Wormsley, Yorkshire, England</placeName>
+                  </birth>
+                  <death when="1823-04-27">
+                     <placeName>Heckfield Place, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="legal"/>
+                  <occupation type="trade" subtype="banker"/>
+                     <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> and a moderate Tory Member of Parliament for <placeName ref="#Reading_city">Reading</placeName> from 1796 to 1820. Not to be confused with his son, Charles Shaw-Lefevre, 1st Viscount Eversley, who became spaker of the House of Commons. Born Charles Shaw, he took the name Shaw Lefevre in 1789 and retired from legal practice in 1790 after inheriting from his father-in-law. He was an East India company investor and held interests in banking and insurance.
+                     </note>
+                     <note>https://www.historyofparliamentonline.org/volume/1790-1820/member/shaw-lefevre-charles-1759-1823</note>
+               </person>
+               
+               <person xml:id="Langley_Eliza" sex="f">
+                  <persName>Eliza Langley</persName>
+                  <persName>
+                     <surname>Langley</surname>
+                     <forename>Eliza</forename>
+                  </persName>
+                  <death when="1897"/>
+                  <occupation type="bookProducer" subtype="bookseller publisher"/>
+                 <occupation type="trade" subtype="shopAssist"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> and a shop assistant to <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street, <persName ref="#Lovejoy_Geo">George Lovejoy</persName>. Langley purchased the business upon Lovejoy's death in 1882 and expanded it. She operated the bookselling, stationery, and circulating library business under the name The Lovejoy and Southern Counties Library. She published at least two books by Elizabeth Waterhouse under the imprint Lovejoy's Library. 
+                  </note>
+               </person>
+               
+               <person xml:id="Lovejoy_Geo" sex="m">
+                  <persName>George Lovejoy</persName>
+                  <persName>
+                     <surname>Lovejoy</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <birth when="1808"/>
+                  <death when="1882"/>
+                  <occupation type="#bookProducer" subtype="bookseller"/>
+                <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> and a <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street. Father of <persName ref="#Lovejoy_Martha">Martha (Patty) Lovejoy</persName>. His shop assistant was <persName ref="#Langley_Eliza">Eliza Langley</persName>. He established a general subscription circulating library in <date when="1832">1832</date>.
+                  </note>
+               </person>
+               
+               <person xml:id="Lovejoy_Martha" sex="f">
+                  <persName>Martha Jane (Patty) Lovejoy</persName>
+                  <persName>
+                     <surname type="paternal">Lovejoy</surname>
+                     <forename>Martha</forename>
+                     <forename>Jane</forename>
+                     <forename><addName>Patty</addName></forename>
+                  </persName>
+                 <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Daughter of <persName ref="#Lovejoy_Geo">George Lovejoy</persName>.
+                  </note>
+               </person>
+               
+               <person xml:id="Martin_A" sex="m">
+                  <persName>Albinus Martin</persName>
+                  <persName>
+                     <surname>Martin</surname>
+                     <forename>Albinus</forename>
+                  </persName>
+                  <birth when="1791">
+                     <placeName>Beckton, Somersetshire, England</placeName>
+                  </birth>
+                  <death when="1871-10-17">
+                     <placeName>England</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Civil engineer.
+                     <!--https://www.gracesguide.co.uk/Albinus_Martin-->
+                     <!-- position in theatre business? (Chorley 1872(2):181 &amp; 197)-->
+                  </note>
+               </person>
+               
+               <person xml:id="Mitford_RobertO" sex="m">
+                  <persName>Robert Osbaldeston Mitford</persName>
+                  <persName>
+                     <surname>Mitford</surname>
+                     <forename>Robert</forename>
+                     <forename>Osbaldeston</forename>
+                     <roleName>Admiral</roleName>
+                     <roleName>29th Lord Mitford</roleName>
+                  </persName>
+                  <birth when="1781-01-26">
+                     <placeName>Mitford Castle, Mitford, Northumberland, England</placeName>
+                  </birth>
+                  <death when="1870-06-18">
+                     <placeName>Bridlington, Yorkshire, England</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent and paternal relative of <persName ref="#MRM">Mary Russell Mitford</persName>. Served in the Royal Navy as Captain, retiring as Rear Admiral.
+                     <!--https://en.wikisource.org/wiki/A_Naval_Biographical_Dictionary/Mitford,_Robert--></note>
+               </person>
+               
+               <person xml:id="Monteagle_TSR" sex="m">
+                  <persName>Thomas Spring Rice, Baron Monteagle</persName>
+                  <persName>
+                     <surname>Spring Rice</surname>
+                     <forename>Thomas</forename>
+                     <roleName>1st Baron Monteagle of Brandon</roleName>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. 
+                     <!--Monteagle, Thomas Spring-Rice	1st Baron Monteagle of Brandon(new creation) 1790-1866--></note>
+               </person>
+               
+               <person xml:id="Norton_Andrews" sex="m">
+                  <persName>Andrews Norton</persName>
+                  <persName>
+                     <surname>Norton</surname>
+                     <forename>Andrews</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. 
+                     <!--[Professor  [Andrews Norton (December 31, 1786 – September 18, 1853) was an American preacher and theologian. Along with William Ellery Channing, he was the leader of mainstream Unitarianism of the early and middle 19th century.]--></note>
+               </person>
+               
+               <person xml:id="Ouvry_Jane" sex="f">
+                  <persName>Jane Nicholls Ouvry</persName>
+                  <persName>
+                     <surname type="paternal">Nicholls</surname>
+                     <surname type="married">Ouvry</surname>
+                     <forename>Jane</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. 
+                     <!--Ouvry, Mrs. Jane	[Of Leighton Buzzard, corresponded: 1847-55 [Jane Nicholls, da. of George Nicholls//poor laws..banker// (who married Rev. P. T. Ouvry)]--></note>
+               </person>
+               
+               <person xml:id="Parry_Mrs" sex="f">
+                  <persName>Mrs. Parry</persName>
+                  <persName>
+                     <surname type="married">Parry</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. As yet unidentified. More research needed.
+                     <!--Parry, Mrs	the mother of poet Mary Anne Parry (Marianne?)--></note>
+               </person>
+               
+               <person xml:id="Parsons_Thos" sex="m">
+                  <persName>Thomas William Parsons</persName>
+                  <persName>
+                     <surname>Parsons</surname>
+                     <forename>Thomas</forename>
+                     <forename>William</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. 
+                     <!--Parsons, Thomas William [ (August 18, 1819, Boston – September 3, 1892, Scituate, Massachusetts[1]) was an American dentist and poet.]--></note>
+               </person>
+               
+               <person xml:id="Pearson_Hugh" sex="m">
+                  <persName>Hugh Pearson</persName>
+                  <persName>
+                  <surname>Pearson</surname>
+                     <forename>Hugh</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. 
+                     <!--[Hugh Pearson (1817–1882) was vicar of Sonning and a Canon at Windsor, both in Berkshire, England]--></note>
+               </person>
+   
+               <person xml:id="Sidmouth_Lady2" sex="f">
+                  <persName>Mary Anne Scott Townshend Addington, Lady Sidmouth</persName>
+                  <persName>
+                     <surname type="paternal">Scott</surname>
+                     <surname type="married">Townshend</surname>
+                     <surname type="married">Addington</surname>
+                     <forename>Mary</forename>
+                     <forename>Anne</forename>
+                     <roleName>Lady Sidmouth</roleName>
+                  </persName>
+                  <death when="1842-04-26"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Second wife of Henry Addington, 1st Viscount Sidmouth.</note>
+                  <!-- see https://www.historyofparliamentonline.org/volume/1790-1820/member/addington-henry-1757-1844 -->
+               </person>
+               
+               <person xml:id="Russell_David" sex="m">
+                  <persName>David Russell</persName>
+                  <persName>
+                     <surname>Russell</surname>
+                     <forename>David</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. <!--[not a relation to MRM Russells, that I can tell.] Check my Russell tree in ancestry. relation to the lady russell MRM friends with in later life?--></note>
+               </person>
+               
+               <person xml:id="Pratt_SJ" sex="m">
+                  <persName>Samuel Jackson Pratt</persName>
+                  <persName>
+                     <surname>Pratt</surname>
+                     <forename>Samuel</forename>
+                     <forename>Jackson</forename>
+                  </persName>
+                  <birth when="1749-12-25">
+                     <placeName>St. Ives, Huntingdonshire, England</placeName>
+                  </birth>
+                  <death when="1814-10-04">
+                     <placeName>Birmingham, West Midlands, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist poet playwright novelist essayist"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. </note>
+                  <note><ref target="http://viaf.org/viaf/68979200"/></note>
+               </person>
+               
+               <person xml:id="Reeve_Henry" sex="m">
+                  <persName>Henry Reeve</persName>
+                  <persName>
+                     <surname>Reeve</surname>
+                     <forename>Henry</forename>
+                  </persName>
+                  <birth when="1813-09-09">
+                     <placeName>Norwich, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1895-10-21">
+                     <placeName>Hampshire, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist translator essayist editor biographer autobiographer"/>
+                  <occupation type="government"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Studied at Norwich Grammar School, led by <persName ref="#Valpy_Richard">Richard Valpy</persName>'s brother <persName>Edward</persName>. Travelled extensively in Europe and translated works from several European languages into English. Wrote for <title level="j">The Times</title> between 1840 and 1855. His experiences as clerk of appeal and registrar for the Privy Council enabled him to write authoritatively on foreign affairs, including the events of the Crimean War.</note>
+                  <note><ref target="http://viaf.org/viaf/49975674"/></note>
+               </person>
+               
+               <person xml:id="Redding_Cyrus" sex="m">
+                  <persName>Cyrus Redding</persName>
+                  <persName>
+                     <surname>Redding</surname>
+                     <forename>Cyrus</forename>
+                  </persName>
+                  <birth when="1785">
+                     <placeName>Cornwall, England</placeName>
+                  </birth>
+                  <death when="1870">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist translator essayist editor biographer autobiographer"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Newspaper and magazine founder, journalist, editor. He reported on events in France for <title ref="#Examiner">the Examiner</title>, served as uncredited editor of the <title ref="#New_Monthly_Mag">New Monthly Magazine</title> in the 1820s, and edited a number of other journals in the 1830s and 1840s. He then turned to writing novels, nonfiction works for adults and children, biographies of William Beckford and Thomas Cambbell, and volumes of autobiography.</note>
+                  <note><ref target="http://viaf.org/viaf/2828716"/></note>
+               </person>
+               
+               <person xml:id="Sedgwick_Theo2" sex="m">
+                  <persName>Theodore Sedgwick, Jr.</persName>
+                  <persName>
+                     <surname>Sedgwick</surname>
+                     <forename>Theodore</forename>
+                  </persName>
+                  <birth when="1780-12-09">
+                     <placeName>Stockbridge, Massachusetts, USA</placeName>
+                  </birth>
+                  <death when="1839">
+                     <placeName>Stockbridge, Massachusetts, USA</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Brother of <persName ref="#Sedgwick_Cath">Catherine Sedgwick</persName>, spouse of novelist <persName>Susan Anne Livingston</persName> and father of author and lawyer <persName>Theodore Sedgwick</persName>.<!--LMW: No VIAF #.--></note>
+               </person>
+               
+               <person xml:id="Pratt_SJ" sex="m">
+                  <persName>Samuel Jackson Pratt</persName>
+                  <persName>
+                     <surname>Pratt</surname>
+                     <forename>Samuel</forename>
+                     <forename>Jackson</forename>
+                  </persName>
+                  <birth when="1749-12-25">
+                     <placeName>St. Ives, Huntingdonshire, England</placeName>
+                  </birth>
+                  <death when="1814-10-04">
+                     <placeName>Birmingham, West Midlands, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist"/>
+                     <occupation type="literary" subtype="playwright"/>
+                        <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. </note>
+                  <note><ref target="http://viaf.org/viaf/68979200"/></note>
+               </person>
+            </listPerson>
+         </div>
+      </body>
+   </text>
+</TEI>

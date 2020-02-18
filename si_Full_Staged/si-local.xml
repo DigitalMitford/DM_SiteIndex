@@ -2839,6 +2839,10 @@
                      <ref target="http://viaf.org/viaf/138750278"/>
                   </note>
                </org>
+               <org xml:id="Whittakers_ALL">
+                  <orgName>Whittaker publishing firms</orgName>
+                  <note resp="#lmw">Includes <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>, <orgName ref="#Whittaker_WB">G. &amp; W. B. Whittaker</orgName>, <orgName ref="#Whittaker_Treacher_pub">Whittaker, Treacher &amp; Co.</orgName> publishing firms.</note>
+               </org>
                <org xml:id="Whittaker_GB_pub">
                   <orgName>G. B. Whittaker</orgName>
                   <note resp="#lmw">G. B. Whittaker was a publishing firm located in <placeName ref="#London_city">London</placeName>, founded and run by <persName ref="#Whittaker_Geo">George Byrom Whittaker</persName>, who was also a bookseller. <persName ref="#Whittaker_Geo">George Whittaker</persName> published under this firm name as well as under <orgName ref="#Whittakers_pub">G. &amp; W. B. Whittaker</orgName>, the firm founded and run by himself and his brother <persName ref="#Whittaker_WB">William Budd Whittaker</persName>.<!-- LMW: no corporate VIAF #. --> Source: WorldCat.</note>
@@ -3948,7 +3952,7 @@
                   <occupation type="legal" subtype="judge"/>
                   <occupation type="legal" subtype="enforcement"/>
                   <occupation type="benefactor" subtype="philanthropist"/>
-                  <note resp="#lmw">Conservative Member of Parliament, High Sheriff of Berkshire, and Chairman of the Berkshire Quarter Sessions. He changed his name from Richard Fellowes to Richard Fellowes Benyon after inheriting his uncle <persName ref="#Benyon_R">Richard Benyon De Beauvoir</persName>'s estate, including <placeName>Englefield House</placeName> in <date when="1854">1854</date>.</note>
+                  <note resp="#lmw">Conservative Member of Parliament, High Sheriff of Berkshire, and Chairman of the <list type="event" ref="#QuarterSessions_Berks">Berkshire Quarter Sessions</list>. He changed his name from Richard Fellowes to Richard Fellowes Benyon after inheriting his uncle <persName ref="#Benyon_R">Richard Benyon De Beauvoir</persName>'s estate, including <placeName>Englefield House</placeName> in <date when="1854">1854</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/295534599"/>
                   </note>
@@ -17892,7 +17896,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Wheeler</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Spouse of John Wheeler. Forename unknown. More research needed.<!--LMW: any connection to Kate Wheeler?--></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Spouse of John Wheeler. Forename unknown. More research needed.<!--LMW: any connection to Kate Wheeler?--><!--LMW: There are also Wheelers in the Webb extended family tree.--></note>
                </person>
                <person xml:id="White_WF" sex="u">
                   <persName>W. F. White</persName>
@@ -23243,6 +23247,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
          </div>
          <div type="events">
             <listEvent sortKey="histEvents">
+               <event xml:id="QuarterSessions_Berks">
+                  <label>Berkshire Courts of Quarter Sessions</label>
+                  <note resp="#lmw">Until 1972, the U.K. courts of quarter sessions, commonly called the quarter sessions, were local county courts held four times a year at Epiphany, Easter, Midsummer, and Michaelmas; <persName ref="#MRM">Mitford</persName> frequently refers to the Berkshire Quarter Sessions, held in <placeName ref="#Reading_city">Reading</placeName> and <placeName ref="#Abingdon">Abingdon</placeName>. These courts had jurisdiction over mid-level offenses requiring jury trials, those that could not be handled summarily by Justices of the Peace, and which did not carry penalties serious enough for them to be heard by the Court of Assizes.</note>
+               </event>
                <event xml:id="Act_of_Union" when="1801">
                   <label>The Act of Union</label>
                   <note resp="#ebb">The unification of Ireland with Great Britain (England and
