@@ -548,7 +548,7 @@
                    <p>Harness and <persName ref="#Byron">Byron</persName> were also friends from
                       their schooling at Harrow, as Byron sympathized with Harness’s experience of
                       a disabled foot, crushed in an accident in early childhood. Byron considered
-                      dedicating <bibl>the first two cantos of <title level="m">Childe Harold’s
+                      dedicating <bibl>the last two cantos of <title level="m">Childe Harold’s
                          Pilgrimage</title>
                       </bibl> to Harness, but refrained so as not to taint Harness’s reputation as
                       he was taking orders as an Anglican curate. Harness admired and encouraged
@@ -893,10 +893,135 @@
                   <note><ref target="https://www.rhs.org.uk/Plants/83138/i-Lunaria-annua-i-var-i-albiflora-i-Alba-Variegata-(v)/Details"/></note>
                   <note><ref target="https://species.wikimedia.org/wiki/Lunaria_annua"/></note>
                </item>
-               <!--ranunculus: garden or buttercups?-->
-        <!--strawberries, French beans, bluebells, orchises, garanium, jasmine, cloves, carnation, sweet William, lavendar, Virgin's bower, roses, greengages -->
-               <!--virgin's bower https://wildflowerfinder.org.uk/Flowers/V/VirginsBower/VirginsBower.htm-->
-               <!--https://www.rhs.org.uk/plants/3935/Clematis-flammula/Details-->
+               
+               <!--. For the fruits and nuts, indicate the plant or tree they grow on, for now: strawberries, French beans, bluebells, orchises, geranium (link to Robert sweet volume from 1820s, jasmine, [cloves, carnation, sweet William,: these are all different types of "pinks" in the dianthus/carnation family] lavendar, roses, greengages -->
+               
+               <item xml:id="ranunculus">
+                  <name>ranunculus</name>
+                  <name><addName>garden ranunculus</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="VirginsBower">
+                  <name>Virgin's Bower</name>
+                  <name><addName><!--a type of clematis--></addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  <!--virgin's bower https://wildflowerfinder.org.uk/Flowers/V/VirginsBower/VirginsBower.htm-->
+                  <!--https://www.rhs.org.uk/plants/3935/Clematis-flammula/Details-->
+               </item>
+               
+               <item xml:id="strawberry"><!--LMW:probably wild strawberry, not cultivated-->
+                  <name>ccc</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="bluebell">
+                  <name>ccc</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="jasmine">
+                  <name>ccc</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="clove"><!--the flower, not the spice-->
+                  <name>ccc</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="carnation">
+                  <name>ccc</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="SweetWilliam">
+                  <name>Sweet William</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="lavendar">
+                  <name>lavendar</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="rose"><!--leave for now, until I decide how specific/what kind to make the note on.-->
+                  <name>rose</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="orchid"><!--leave for now, until I decide how specific/what kind to make the note on.-->
+                  <name>orchid</name>
+                  <name>orchis</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="greengage"><!--Mitford refers to the green plum. Make entry for the most common variety of the tree.-->
+                  <name>greengage</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ref target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+              
+       
+               
             </list>
          </div>
       </body>

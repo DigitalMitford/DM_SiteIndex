@@ -98,6 +98,8 @@
                 
                 <note><!--Your brief, pithy note here, commenting on the significance of this person to Mitford, her world, her people.--></note>
              </person>
+             
+             
           </listPerson>
        </div>
        <div type="fictional_and_archetypal">
@@ -149,8 +151,8 @@
          </div>
          <div type="events">
             <listEvent sortKey="histEvents">
-               <event>
-                  <label></label>
+               <event xml:id="QuarterSessions">
+                  <label>Quarter Sessions</label>
                   <note></note>
                </event>
             </listEvent>
