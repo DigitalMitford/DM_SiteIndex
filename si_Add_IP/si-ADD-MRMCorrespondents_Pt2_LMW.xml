@@ -85,13 +85,41 @@
                   <note resp="#lmw">An friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>in 1819. The 6th daughter of George Ramsay (1769-1810) of Edinburgh. Dedicatee of Mitford's <title ref="#FriendToLisbon_1827">On the Departure of a Friend to Lisbon for the Recovery of Her Health.</title> <persName ref="#James_Emily">Emily James</persName> accompanied her to Lisbon before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note>
                </person>
                
-               <person xml:id="Jeremy_Miss" sex="f">
-                  <persName>Miss Jeremy</persName>
+               <person xml:id="Jeremy_Caro" sex="f">
+                  <persName>Caroline Jeremy</persName>
                   <persName>
                      <surname>Jeremy</surname>
+                     <forename>Caroline</forename>
+                     <forename>Deyman</forename>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>in 1819. Dates unknown. More research needed.</note>
+                  <birth when="1786">
+                     <placeName>The Strand, London, England</placeName>
+                  </birth>
+                  <death when="1863-11-15">
+                     <placeName>Kennington, Surrey, England</placeName>
+                  </death>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName>in 1819. Mitford visited her in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Wheeler_James">James Wheeler</persName>. Sister of barrister <persName ref="#Jeremy_H">Henry Jeremy</persName>.<!--LMW: No VIAF #.--></note>
+               </person>
+               
+               <person xml:id="Jeremy_H" sex="m">
+                  <persName>Henry Jeremy</persName>
+                  <persName>
+                     <surname>Jeremy</surname>
+                     <forename>Henry</forename>
+                    </persName>
+                  <birth when="1787">
+                     <placeName>The Strand, London, England</placeName>
+                  </birth>
+                  <death when="1849-02-15">
+                     <placeName>Holbrook Lodge, Chiselhurst, Kent, England</placeName>
+                  </death>
+                  <occupation type="legal" subtype="barrister magistrate"/>
+                  <occupation type="legal" subtype="enforcement"/>
+                  <occupation type="literary"/>
+                  <occupation type="scholar"/>
+                 <note resp="#lmw">Brother of Mitford friend <persName ref="#Jeremy_Caro">Caroline Jeremy</persName>. Called to the bar in 1818 at Middle Temple. Served as Recorder for Wokingham, police magistrate at Greenwich, and magistrate at Union Hall. Author of several law books and histories of the law in England.</note>
+                  <note><ptr target="http://viaf.org/viaf/306076886"/></note>
                </person>
                
                <person xml:id="Bailey_Mr" sex="m">
@@ -101,6 +129,16 @@
                      <roleName>Mr.</roleName>
                   </persName>
                   <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. May be the relation of <persName>Maria Bailey Kirby</persName>. Dates unknown. More research needed.<!--LMW:  See my Wheeler family tree; Baillies are intermarried with Wheelers.--></note>
+               </person>
+               
+               <person xml:id="Wheeler_James" sex="m">
+                  <persName>James Wheeler</persName>
+                  <persName>
+                     <surname>Wheeler</surname>
+                     <forename>James</forename>
+                  </persName>
+                  <occupation type="medical" subtype="surgeon"/>
+                  <note resp="#lmw">An friend of <persName ref="#MRM">Mitford</persName> in 1819-1823. Mitford visited him in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Jeremy_Caro">Miss Jeremy</persName>. May be either James Wheeler (1766-1850), spouse of Catherine Bird Rogers Wheeler (1771-1852) or their son, James Wheeler (1792-1866), spouse of Harriet Horne, all of whom lived in Wokingham. More research needed. James Wheeler, father and son, were both surgeons.</note>
                </person>
                
                <person xml:id="Dobbs_Mr" sex="m">
@@ -279,7 +317,9 @@
                   <birth when="1784">
                      <placeName>Trelawny Parish, Jamaica</placeName>
                   </birth>
-                  <death when="1856"/>
+                  <death when="1856">
+                     <placeName>England</placeName>
+                  </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">A friend of <persName ref="#MRM">Mary Russell Mitford</persName> and soi-distant cousin of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
@@ -433,7 +473,29 @@
                   <death when="1870-06-18">
                      <placeName>Bridlington, Yorkshire, England</placeName>
                   </death>
-                  <note resp="#lmw">A paternal relative and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1816" to="1843">between 1816 and 1843</date>. Served in the Royal Navy as Captain, retiring as Rear Admiral. In her early years, Mitford refers to him as <q>Captain Osbaldeston</q>. He later becomes the 29th Lord Mitford of Mitford, Northumberland, England. <!--LMW: https://en.wikisource.org/wiki/A_Naval_Biographical_Dictionary/Mitford,_Robert--></note>
+                  <occupation type="military" subtype="navy sailor captain admiral"/>
+                  <occupation type="artist" subtype="illustrator engraver"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <note resp="#lmw">A paternal relative and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1816" to="1843">between 1816 and 1843</date>. Served in the Royal Navy as Captain, retiring as Rear Admiral. In her early years, Mitford refers to him as <q>Captain Osbaldeston</q>. He was a talented amateur artist, and learned engraving from <persName ref="#Bewick_Thos">Thomas Bewick</persName> and collaborated with <persName ref="#Selby_PJ">Prideaux John Selby</persName> on several important works on British birds. He later becomes the 29th Lord Mitford of Mitford, Northumberland, England, upon the death of his elder brother. <!--LMW: https://en.wikisource.org/wiki/A_Naval_Biographical_Dictionary/Mitford,_Robert--></note>
+               </person>
+               
+               <person xml:id="Selby_PJ" sex="m">
+                  <persName>Prideaux John Selby</persName>
+                  <persName>
+                     <surname>Selby</surname>
+                     <forename>Prideaux</forename>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1788-07-23">
+                     <placeName>Alnwick, Northumberland, England</placeName>
+                  </birth>
+                  <death when="27 March 1867">
+                     <placeName>Bamburgh, Northumberland, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="illustrator engraver"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <note resp="#lmw">Important naturalist and illustrator in the 1820s, 30s, and 40s, friend and neighbor of <persName ref="#Mitford_RobertO">Robert Osbaldeston Mitford</persName>, with whom he collaborated on several volumes on British birds. He also contributed to Jardine's Naturalist's Library and authored a volume on British trees.</note>
+                  <note><ptr target="http://viaf.org/viaf/10629084"/></note>
                </person>
                
                <person xml:id="Monteagle_TSR" sex="m">
@@ -532,26 +594,6 @@
                   </persName>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. As yet unidentified. More research needed.
                      <!--LMW: Possibly the mother of poet Mary Anne (Marianne) Parry? and wife of Dr. Parry, a vet. Mary Ann went to India as a young woman.--></note>
-               </person>
-               
-               <person xml:id="Parsons_Thos" sex="m">
-                  <persName>Thomas William Parsons</persName>
-                  <persName>
-                     <surname>Parsons</surname>
-                     <forename>Thomas</forename>
-                     <forename>William</forename>
-                  </persName>
-                  <birth when="1819-08-18">
-                     <placeName>Boston, Massachusetts, USA</placeName>
-                  </birth>
-                  <death when="1892-09-03">
-                     <placeName>Scituate, Massachusetts, USA</placeName>
-                  </death>
-                  <occupation type="literary" subtype="poet translator essayist"/>
-                  <occupation type="scholar"/>
-                  <occupation type="medical" subtype="dentist"/>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1854">1854</date>. Notable Italian language scholar and translator of <persName ref="#Dante">Dante</persName>.</note>
-                  <note><ptr target="http://viaf.org/viaf/40860640"/></note>
                </person>
                
                <person xml:id="Pearson_Hugh" sex="m">
