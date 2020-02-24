@@ -69,9 +69,24 @@
           
           <listPerson sortKey="histPersons">
   
-            
+  <person xml:id="Tennyson" sex="m">
+     <persName ref="#Tennyson">Tennyson</persName>
+     <persName>
+        <forename>Alfred</forename>
+        <surname>Tennyson</surname>
+     </persName>
+  </person>
              
-             <!--Mr. Bonviese (sp?), "young St. John" (related to Elfords?), -->
+             <person xml:id="Clare_J" sex="m">
+                <persName ref="#Clare_J">John Clare</persName>
+                <persName>
+                   <forename>John</forename>
+                   <surname>Clare</surname>
+                </persName>
+             </person>
+             
+             <!--Mr. Bonviese (sp?)-->
+             <!--"young St. John" (related to Elfords?), -->
              
              <person xml:id="Montague_Captain" sex="m"><!--update existing-->  <!--https://books.google.com/books?id=n9pv_1xLploC&newbks=1&newbks_redir=0&dq=Captain%20Montagu%20Caversham&pg=PA704#v=onepage&q=Captain%20Montagu%20Caversham&f=false-->
                 <persName>Captain Montague</persName>
@@ -82,9 +97,7 @@
                 <occupation type="military" subtype="navy"/>
                 <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work. More research needed.<!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--><!--Captain Montagu Montagu, Royal Navy, of Caversham Hill (estate), b. 1786, second son of Montagu Montagu, inherits after eldest son George dies. --></note>
              </person>
-             
-            
-             
+
              <person xml:id="Clarke_Mrs" sex="f">
                 <persName>Mrs. Anthony Clarke</persName>
                 <persName>
@@ -170,8 +183,29 @@
                   <note>Village south of Reading that adjoins Three Mile Cross to the north and lying east of Grazeley. Until 1844, within Hampshire. In Mitford's time, the location, not of a wood, but an open common, which was entirely enclosed by 1864.</note>
                </place>
                
-               <!--Woodcock Lane (Wokingham or Reading?), Kibe's Lane (Kibes) Ware, Mortimer West End (Reading), Burghfield Bridge (near River Kennett, village of Burghfield)-->
+               <place xml:id="Woodcock_Ln">
+                  <placeName>Woodcock Lane</placeName>
+                  <note><!--Woodcock Lane (Wokingham or Reading?)--></note>
+               </place>
                
+               <place xml:id="Kibes_Ln">
+                  <placeName>Kibe's Lane</placeName>
+                  <!--(Kibes)--></place>
+               
+               <place xml:id="Ware">
+                  <placeName>Ware</placeName>
+               </place>
+               
+               <place xml:id="Mortimer_WEnd">
+                  <placeName>Mortimer West End</placeName>
+                  <district>Reading</district>
+               </place>
+               
+               <place xml:id="Burfield_Br">
+                  <placeName>Burfield Bridge</placeName>
+                  <district>Reading</district>
+                  <note><!--near River Kennett, village of Burghfield--></note>
+               </place> 
             </listPlace>
          </div> 
          
@@ -299,10 +333,20 @@
                <item xml:id="adder">
                   <name ref="#adder">adder</name>
                </item>
+               
+               <item xml:id="duck">
+                  <name ref="#duck">duck</name><!--LMW: probably should make two ids, for domestic and wild? -->
+               </item>
+               
             </list>
 
             
             <list sortKey="plants">
+               
+               <item xml:id="hearts_ease">
+                  <name ref="#hearts_ease">heart's-ease</name></item>
+               
+               <item xml:id="celery">celery plant</item>
                
                <item xml:id="convolvulus">
                   <name ref="#convolvulus">convolvulus</name>
