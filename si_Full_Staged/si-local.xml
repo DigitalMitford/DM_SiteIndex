@@ -3737,7 +3737,7 @@
                   <occupation type="bookProducer" subtype="publisher"/>
                   <occupation type="bookProducer" subtype="printer"/>
                   <occupation type="bookProducer" subtype="bookseller"/>
-                  <note>See <title level="m">George Bell, Publisher: A Brief Memoir</title> by Edward Bell (London: Chiswick P, 1924).<!--LMW: no personal VIAF #.--></note>
+                  <note resp="#lmw">Founder of publishing firm <orgName ref="#Geo_Bell_pub">George Bell &amp; Sons</orgName> In <date when="1856">1856</date> Bell took <persName>Frederick Daldy</persName> into partnership and the firm became <orgName ref="#Bell_Daldy_pub">Bell &amp; Daldy</orgName>; it reverted to George Bell and Sons upon <persName>Daldy</persName>'s leaving the firm. The firm operated premises at <placeName>186 Fleet Street</placeName> and later at <placeName>4 York Street, Covent Garden,</placeName> in <placeName ref="#London_city">London</placeName>the former premises of <persName ref="#Bohn_GH">George Henry Bohn</persName>. See <title level="m">George Bell, Publisher: A Brief Memoir</title> by Edward Bell (London: Chiswick P, 1924).<!--LMW: no personal VIAF #.--></note>
                </person>
                <person xml:id="Bellamy_John" sex="m">
                   <persName>John Bellamy</persName>
@@ -15083,7 +15083,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/2649935"/>
                   </note>
                </person>
-               <person xml:id="Rousseau" sex="m">
+               <person xml:id="Rousseau" sex="m"><!--LMW: stub, needs note-->
                   <persName>Jean-Jacques Rousseau <forename>Jean-Jacques</forename>
                      <surname>Rousseau</surname>
                   </persName>
@@ -15604,7 +15604,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/13668518"/>
                   </note>
                </person>
-               <person xml:id="Sevigne_Mad" sex="f">
+               <person xml:id="Sevigne_Mad" sex="f"><!--LMW: stub, needs note.-->
                   <persName>
                      <forename>Marie</forename>
                      <surname>de Rabutin-Chantal</surname>
@@ -16182,7 +16182,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Cargin, County Galway, Ireland</placeName>
                   </birth>
                   <death when="1801-01-14">
-                     <placeName>London</placeName>
+                     <placeName>London, England</placeName>
                   </death>
                   <occupation type="medical" subtype="physician"/>
                   <occupation type="government" subtype="diplomat"/>
@@ -16559,7 +16559,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="government" subtype="courtier"/>
-                  <note resp="#lmw">Tasso was a poet and courtier from <placeName ref="#Naples">Naples</placeName>. He was the author of <bibl>the pastoral drama <title level="m">Aminta</title> (<date when="1573">1573</date>)</bibl> and
+                  <note resp="#lmw">Poet and courtier from <placeName ref="#Naples">Naples</placeName>. He was the author of <bibl>the pastoral drama <title level="m">Aminta</title> (<date when="1573">1573</date>)</bibl> and
                         <bibl>epic poem <title level="m">Gerusalemme Liberata</title> (<date when="1574">1574</date>)</bibl>. Tasso’s life and work continued to be
                      the subject of much attention during Mitford’s lifetime. <bibl>
                         <author ref="#Byron">Byron</author>’s poem <title level="a">The Lament of
@@ -16860,7 +16860,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/75843278"/>
                   </note>
                </person>
-               <person xml:id="Titian" sex="m">
+               <person xml:id="Titian" sex="m"><!--LMW: stub, no note.-->
                   <persName>Titian</persName>
                   <persName>
                      <forename>Tiziano</forename>
@@ -20222,7 +20222,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <addName>Puck</addName>
                   </persName>
-                  <note resp="#scw">Mischievous fairy or sprite from folklore. In <persName ref="#Shakespeare">Shakespeare</persName>'s <title level="m">A Midsummer Night's Dream</title>, he causes romantic havoc for the other characters, both human and fairy.</note>
+                  <note resp="#scw">Mischievous fairy or sprite from folklore. In <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#MidsummerNtsD">A Midsummer Night's Dream</title>, he causes romantic havoc for the other characters, both human and fairy.</note>
                </person>
                <person xml:id="Robinson_Crusoe" sex="m">
                   <persName>Robinson Crusoe</persName>

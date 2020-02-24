@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="http://ebeshero.github.io/si-addCheck.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
+               <author>Digital Mitford Editors</author>
+                <editor><persName ref="#lmw">Lisa M. Wilson</persName></editor>
+               <sponsor>
+                  <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+               </sponsor>
+               <sponsor>University of Pittsburgh at Greensburg</sponsor>
+               <principal>Elisa Beshero-Bondar</principal>
+               <respStmt>
+                  <resp>Data extraction and compiling by</resp>
+                  <persName type="hist" ref="#ebb">Elisa Beshero-Bondar</persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Proofing and corrections by</resp>
+                  <persName><!--Add your name here and place an @ref attribute, if you're proofing and correcting existing entries.--></persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition> </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+               <pubPlace>Greensburg, PA, USA</pubPlace>
+               <date>2013</date>
+               <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>Any special notes on this text? (optional)</note>
+               <!--compiling from Journal 2019-02-24 LMW -->
+               <!--adding stubs from main SI to update-->
+            </notesStmt>
+            <sourceDesc>
+               <p>Information on named entities in this file has been extracted from files in the
+                  Digital Mitford Archive.</p>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+               <p>Describes our editorial practice.</p>
+            </editorialDecl>
+         </encodingDesc>
+      </teiHeader>
+      
+  <text>
+      <body>
+         
+         
+       <div type="historical_people">
+          <listOrg sortKey="histOrgs">
+             <org xml:id="whatever1"></org>
+          </listOrg>
+          
+          <listPerson sortKey="histPersons">
+  
+            
+             
+             <!--Mr. Bonviese (sp?), "young St. John" (related to Elfords?), -->
+             
+             <person xml:id="Montague_Captain" sex="m"><!--update existing-->  <!--https://books.google.com/books?id=n9pv_1xLploC&newbks=1&newbks_redir=0&dq=Captain%20Montagu%20Caversham&pg=PA704#v=onepage&q=Captain%20Montagu%20Caversham&f=false-->
+                <persName>Captain Montague</persName>
+                <persName>
+                   <surname>Montague</surname>
+                   <roleName>Captain</roleName>
+                </persName>
+                <occupation type="military" subtype="navy"/>
+                <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work. More research needed.<!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--><!--Captain Montagu Montagu, Royal Navy, of Caversham Hill (estate), b. 1786, second son of Montagu Montagu, inherits after eldest son George dies. --></note>
+             </person>
+             
+            
+             
+             <person xml:id="Clarke_Mrs" sex="f">
+                <persName>Mrs. Anthony Clarke</persName>
+                <persName>
+                   <forename></forename>
+                </persName>
+                <note resp="#lmw"/>
+             </person>
+             
+             <!--Mrs. Clarke obit: https://books.google.com/books/content?id=QjorbjndPT0C&pg=RA1-PA402&img=1&zoom=3&hl=en&sig=ACfU3U188a8FVFY0Y5ic8MouNsxL99AEyg&ci=177%2C87%2C766%2C1425&edge=0 -->
+         
+             
+             <!--1789 marriage, Thomas Newbery to Miss Stable of Reading
+             https://books.google.com/books?id=PX4EAAAAQAAJ&newbks=1&newbks_redir=0&dq=%22Thomas%20Newbery%22%20berks&pg=PA111#v=onepage&q=%22Thomas%20Newbery%22%20berks&f=false-->
+             
+             <person xml:id="Newbery_Mrs" sex="f">
+                <persName>Mrs. Newbery</persName>
+                <persName>
+                   <surname>Newbery</surname>
+                   <roleName>Mrs.</roleName>
+                </persName>
+                <note resp="#lmw">Spouse of <persName ref="#Newbery_J">Jacob Newbery</persName>. Name variously spelled Newbery and Newberry.</note>
+             </person>
+             
+             <person xml:id="Newbery_J" sex="m"> <!--https://books.google.com/books?id=QLsqAQAAMAAJ&lpg=RA1-PA77&ots=rxfBkgHvyl&dq=%22Jacob%20Newberry%22%20Reading%20solicitor&pg=PA309#v=onepage&q=%22Jacob%20Newberry%22%20Reading%20solicitor&f=false-->
+                <persName>Jacob Newbery</persName>
+                <persName>
+                   <forename>Jacob</forename>
+                   <surname>Newbery</surname>
+                </persName>
+                <note resp="#lmw">Solicitor at 35 Great Queen's Street, Lincoln Inn Fields, London; and at Friar Street, Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry.</note>
+             </person>
+             
+             
+             
+             <!--Shinfield:  http://www.berkshirehistory.com/villages/shinfield.html-->
+             <!--Robert Wheeler: [Bankruptcy] London Gazette
+                "Robert Wheeler, late residing at a Farm at or near Small Mead-Gate in the parish of Shinfield, near Reading, Berks, farmer and publican, and formerly of the Small Mead-Gate public house, in the same Parish, publican and farmer,." London Gazette of 1831, page 236
+               https://books.google.com/books?id=oTJKAQAAMAAJ&newbks=1&newbks_redir=0&dq=%22robert%20Wheeler%22%20Shinfield&pg=PA236#v=onepage&q=%22robert%20Wheeler%22%20Shinfield&f=false-->
+             
+             <!--Alderman of Wokingham in 1819:Robert Woods, George Woodward, John Wright, Edward Winn, Samuel Waller, Sir John Benn Walsh, Baronet; Charles Walker, clerk"
+                
+                https://books.google.com/books?id=UJc4AQAAMAAJ&newbks=1&newbks_redir=0&dq=%22robert%20Wheeler%22%20Webb%20Wokingham&pg=PA1353#v=onepage&q=%22robert%20Wheeler%22%20Webb%20Wokingham&f=false-->
+             
+             <!--http://breweryhistory.com/wiki/index.php?title=List_of_Blandy,_Hawkins_%26_Co_pubs   Small Mead-Gate pub-->
+             
+             
+             
+             <!--Captain Tuppen, William, Army "late of the Royal West regiment of London militia" later listed as a magistrate in Reading.-->
+             
+             <person xml:id="Marsh_Henry"><!--stub: update existing-->
+                <persName>Henry Marsh</persName>
+                <persName>
+                   <surname>Marsh</surname>
+                   <forename>Henry</forename>
+                </persName>
+                <note resp="#ebb #alw">MRM's letters in December 1820 indicate that Henry Marsh was involved in a local political tiff with <persName ref="#Milman_HH">Henry Hart Milman</persName>. The rift between Henry Marsh and H.H. Milman is well documented. See <ref target="http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading">The History of Parliament online</ref>.</note>
+             </person>
+             
+             <!-- "Henry Marsh of Marsh Place, a quondam banker, John Hooke Greene, Thomas Newbery, Captain William Henry Hall, Thomas Letchworth of Katesgrove, Benjamin Champion, a mealman, and William Champion, a grocer"
+                "On 3 Mar. Stephens, Marsh, Greene, Hall, Letchworth, the Champions and others, including Benjamin Williams, a coal merchant, Robert Palmer, an ironmonger, William Havell, a butcher, and John Deane, a wheelwright, who made up the bulk of Monck’s active committee, met to form an Association for the Purity and Independence of Elections."
+                
+                "and an anniversary dinner of the Purity of Election Association on the 16th, when the usual crew were joined by Thomas Goodlake of Letcombe, James Wheble of Woodley Lodge, a Catholic, Fulwar Craven of Brock Hampton, Gloucestershire, the son-in-law of George Vansittart of Bisham Abbey, a former Member for Berkshire, and the Cobbettite William Budd." 1825
+                
+                "An attempt by Marsh, Letchworth, the Champions, Greene, Francis Cowslade, the printer of the Mercury, John Weedon, an attorney, William Tiley, a brewer, the Rev. Richard Valpy, headmaster of the grammar school, the Rev. John Howard Hinton of Coley Hill, a Dissenting minister, and Richard Buncombe, a maltster, to carry petitions for Catholic relief was defeated at a rowdy meeting, 18 Apr., when Milman and the Rev. Henry Dukinfield, vicar of St. Giles’s, forced through hostile ones.23 " 1825
+                
+                "At this time the Whigs obtained a rule of nisi against William Drysdale, the printer of the Chronicle, John Jackson Blandy, the town clerk, and two other Blues for libel against Monck, Mitford and two other Whig magistrates. " 1826
+                
+                . from historyofparliamentonline.
+             -->
+          </listPerson>
+       </div>
+       
+         <div type="places">
+            <listPlace sortKey="histPlaces">
+               <place xml:id="Spencers_Wood">
+                  <placeName>Spencers Wood</placeName>
+                  <district>Shinfield</district>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.3944 -0.9722</geo>
+                  </location>
+                  <note>Village south of Reading that adjoins Three Mile Cross to the north and lying east of Grazeley. Until 1844, within Hampshire. In Mitford's time, the location, not of a wood, but an open common, which was entirely enclosed by 1864.</note>
+               </place>
+               
+               <!--Woodcock Lane (Wokingham or Reading?), Kibe's Lane (Kibes) Ware, Mortimer West End (Reading), Burghfield Bridge (near River Kennett, village of Burghfield)-->
+               
+            </listPlace>
+         </div> 
+         
+         <div type="nature">
+            <list sortKey="animals">
+               
+               <!--LMW: to add, from OV: -->
+               
+               <item xml:id="horse">
+                  <name ref="#horse">horse</name>
+               </item>
+               
+               <item xml:id="Arabian_horse">
+                  <name ref="#Arabian_horse">Arabian horse</name>
+               </item>
+               
+               <item xml:id="pony">
+                  <name ref="#pony">pony</name></item>
+               
+               <item xml:id="donkey">
+                  <name ref="#donkey">donkey</name></item>
+               
+               <item xml:id="sheep">
+                  <name ref="#sheep">sheep</name></item>
+               
+               <item xml:id="goat">
+                  <name ref="#goat">goat</name>
+               </item>
+               
+               <item xml:id="cow">
+                  <name ref="#cow">cow</name></item>
+               
+               <item xml:id="ox">
+                  <name ref="#ox">oxen</name>
+               </item>
+               
+               <item xml:id="pig">
+                  <name ref="#pig">pig</name>
+               </item>
+               
+               <item xml:id="ferret">
+                  <name ref="#ferret">ferret</name>
+               </item>
+               
+               <item xml:id="dog">
+                  <name ref="#dog">dog</name>
+               </item>
+               
+               <item xml:id="Newfoundland_dog"/>
+               
+               <item xml:id="terrier"/>
+               
+               <item xml:id="mongrel"/>
+               
+               <item xml:id="spaniel"/>
+               
+               <item xml:id="greyhound">
+                  <name ref="#greyhound">greyhound</name>
+               </item>
+               
+               <item xml:id="guinea_hen">
+                  <name ref="#guinea_hen">guinea hen</name>
+               </item>
+               
+               <item xml:id="peacock">
+                  <name ref="#peacock">peacock</name>
+               </item>
+               
+               <item xml:id="turkey">
+                  <name ref="#turkey">turkey</name>
+               </item>
+               
+               <item xml:id="turkey_cock">
+                  <name ref="#turkey_cock">turkey cock</name>
+               </item>
+               
+               <item xml:id="goose">
+                  <name ref="#goose">goose</name>
+               </item>
+               
+               <item xml:id="chicken">
+                  <name ref="#chicken">chicken</name>
+               </item>
+               
+               <item xml:id="cat">
+                  <name ref="#cat">cat</name>
+               </item>
+               
+               <item xml:id="rabbit">
+                  <name ref="#rabbit">rabbit</name>
+               </item>
+               
+               <item xml:id="hare">
+                  <name ref="#hare">hare</name>
+               </item>
+               
+               <item xml:id="butterfly">
+                  <name ref="#butterfly">butterfly</name>
+               </item>
+               
+               <item xml:id="dragon_fly">
+                  <name ref="#dragon_fly">dragonfly</name>
+               </item>
+               
+               <item xml:id="fly">
+                  <name ref="#fly">fly</name>
+               </item>
+               
+               <item xml:id="deer">
+                  <name ref="#deer">deer</name>
+               </item>
+               
+               <item xml:id="squirrel">
+                  <name ref="#squirrel">squirrel</name>
+               </item> 
+               
+               <item xml:id="trout">
+                  <name ref="#trout">trout</name>
+               </item>
+               
+               <item xml:id="rat">
+                  <name ref="#rat">rat</name>
+               </item>
+               
+               <item xml:id="adder">
+                  <name ref="#adder">adder</name>
+               </item>
+            </list>
+
+            
+            <list sortKey="plants">
+               
+               <item xml:id="convolvulus">
+                  <name ref="#convolvulus">convolvulus</name>
+               </item>
+               
+               <item xml:id="hop_bines">
+                  <name ref="#hop_bines">hop-bines</name>
+               </item>
+               
+               <item xml:id="wallflower"/>
+               
+               <item xml:id="myrtle"/>
+               
+               <item xml:id="butercup">
+                  <name>common buttercup</name>
+                  <name><addName>Meadow buttercup</addName></name>
+                  <name><addName>Ranunculus acris</addName></name>
+                  <name type="genus">Ranunculus</name>
+                  <name type="family">Ranunculaceae</name>
+                  <note resp="#slc">A small yellow flowering plant first catogorized by Carolus Linnaeus in his 1753 Species Plantarum. It is a herbaceous perennial plant that grows to a height of 30  - 70 cm, with ungrooved flowing stems bearing glossy yellow flowers about 25 mm across. There are five overlapping petals borne above five green sepals that soon turn yellow as the flower matures. It has numerous stamens inserted below the ovary. The leaves are compound, with three lobed leaflets. In horticulture the species may be regarded as a troublesome weed, colonising lawns and paths. However, it may be a welcome feature of wildflower meadows. The double-flowered cultivar R. acris 'Flore Pleno' has gained the Royal Horticultural Society's Award of Garden Merit.</note>
+                  <note resp="#lmw"></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Ranunculus"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_acris"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="ranunculus">
+                  <name>ranunculus</name>
+                  <name><addName>Ranunculus asiaticus</addName></name>
+                  <name><addName>garden ranunculus</addName></name>
+                  <name><addName>Persian buttercup</addName></name>
+                  <name type="genus">Ranunculus</name>
+                  <name type="family">	Ranunculaceae</name>
+                  <note resp="#slc">A species of buttercup (Ranunculus) native to the eastern Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and northeastern Africa. Double-flowered forms, which are likely hybrids, are a popular ornamental plant in gardens, and widely used in floristry.</note>
+                  <note resp="#lmw"></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Ranunculus_asiaticus"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_asiaticus"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="lavendar">
+                  <name>lavendar</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ptr target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="orchid"><!--leave for now, until I decide how specific/what kind to make the note on.-->
+                  <name>orchid</name>
+                  <name>orchis</name>
+                  <name><addName>[common name/names]</addName></name>
+                  <name><addName>[latin name]</addName></name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2019/05/nine-wild-uk-orchids/"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="potato">
+                  <name ref="#potato">potato</name>
+                  <!--
+					<name><rs type="genus">Solanum</rs>
+					<rs type="species">S. tuberosum</rs>
+					<rs type="family">Solanaceae</rs>
+					</name>-->
+                  <note resp="#qar">Potatoes are relatively new to Europe at this time. They are native to the Andes and were introduced only in the second half of the 16th century by the Spanish.</note>
+               </item>
+               
+               <item xml:id="onion">
+                  <name ref="#onion">onion</name>
+                  <!--<name>
+					<rs type="genus">Allium</rs>
+					<rs type="species">A. cepa</rs>
+					<rs type="family">Amaryllidaceae</rs>
+					</name>-->
+                  <note resp="#lmw"></note></item>
+               
+               <item xml:id="turnip">
+                  <name ref="#turnip">turnip</name>
+               </item>
+            
+               <item xml:id="asparagus">
+                  <name ref="#asparagus">asparagus</name>
+               </item>
+               
+               <item xml:id="moss">
+                  <name ref="#moss">moss</name>
+               </item>
+               
+               <item xml:id="fern">
+                  <name ref="#fern">fern</name>
+               </item>
+               
+               <item xml:id="mushroom">
+                  <name ref="#mushroom">mushroom</name>
+               </item>
+               
+               <item xml:id="fungus">
+                  <name ref="#fungus">fungus</name>
+               </item>
+               
+               <item xml:id="gentianella"/>
+               
+               <item xml:id="march_marygold"/><!--Marsh marigold?-->
+               
+               <item xml:id="stock">
+                  <name ref="#stock">stock</name>
+                  <note></note>
+               </item>
+               
+               <item xml:id="larkspur">
+                  <name ref="#larkspur">larkspur</name>
+                  <note></note>
+               </item>
+               
+               <item xml:id="peony">
+                  <name ref="#peony">peony</name>
+                  <note><!--LMW: not the tree peony. Mitford spells piony? elsewhere--></note>
+               </item>
+               
+               <item xml:id="chrysanthemum">
+                  <name ref="#chrysanthemum">chrysanthemum</name>
+                  <note></note>
+               </item>
+               
+               <item xml:id="cucumber_plant">
+                  <name ref="#cucumber_plant">cucumber</name>
+                  <note><!--LMW: the plant--></note>
+               </item>
+               
+               <item xml:id="melon_plant">
+                  <name ref="#melon_plant">melon</name>
+                  <note><!--LMW: the plant, not sure what kinds are grown in 19th c. England--></note>
+               </item>
+               
+               <item xml:id="tuberose">
+                  <name ref="#tuberose">tuberose</name>
+                  <!--<name>
+						<rs type="genus">Polianthes</rs>
+						<rs type="family">Asparagaceae</rs>
+						<rs type="order">Asparagales</rs>
+					</name>-->
+                  <note resp="#SMP">A perennial plant that is frequently used in perfumes.</note>
+               </item>
+               
+               <!--LMW: my transcription of the address book sections of Mitford's Journal-->
+               <!-- Direction that I am likely to want.
+         Mrs. Anty. Clarke The Priory - Lady Wootten's Green - Canterbury. - 
+         Mrs. Hofland - 
+         10 Montpelier Row
+         Miss Jephson
+         No. 1 Charles Street Twickenham Middlesex.
+         Bath
+         Miss James (crossed out) Ormond Place  Bellevue Richmond - Surry - 
+         Mrs. Florry? - Five Ways 
+         near Birmingham
+         - Miss Nooth - Kew - Surrey
+         (dividing line)
+         B.R. Haydon Esqre. St. John's Place
+         (cross out) Lisson Grove North
+         Regent's Park.
+         London - 
+         T. N. Talfourd (above) 1 Pump Court
+         (crossout)Temple(crossout)
+         Mtd. Rowden - No. 6 L'Allee des Verves
+         Champs Elisees Paris.
+         (dividing line)
+         Madame Clement - Durham
+         House Chelsea
+         Miss Vardill 45 Clifstone Street.
+         (dividing line)
+         Mrs. Lucas 12 Upper Cadogan Place ?? ??
+         -->
+               
+               <!-- Directions
+         Mrs. Dobbs, 27 Hatton Garden
+         Miss Nooth Kew Surry.
+         Miss James 21 New North Street Red Lion Square London
+         A Madame
+         Madame Nooth London
+         Cher Madame Rowden
+            Rue d'Anglouleme No. 8, F. St. Honore.
+            (crossed out)Rue Capette No. 30 F. St. Germain
+            (crossed out) J. B. Monck Esqre. M.P. 10 Barton Street
+            Westminster
+            Mrs. Greenwell
+            5 Grove Road
+            St. John's Wood
+            Regent's Park
+            
+            Cheap
+            shop??
+            Thos?? Header
+            19 Cheapside
+            
+            Mrs. Rowden's letters enclosed to
+            (crossed out) 12 Tonbridge Place
+            New Road
+            J. Resque? Esqre.
+            Foreign Office
+            Downing Street
+            
+            Rue d'Angouleme 8
+            F. St. Honore
+            Paris
+            
+            Mrs. Rowden at Miss Morrell's 32 King's Street
+            Bloomsbury.
+            
+            J. B. Monck M.P.
+            No. 15 College Street
+            Westminster.-->
+               
+               <!-- Directions
+            John Johnson Esqre
+            Seymour Court
+            Great Marlow
+            Bucks.
+            
+            Miss Nooth
+            J. Apsley Dalrymple
+            s Esqre/
+            Mayfield House, Nemfield? Sussex
+            
+            ? Harness
+            Manor House
+            Abbot's Langley
+            King
+            s Langley
+            Herts
+            
+            The way to it is by the ?? Hempstead Coach to get out at Hunton Bridge Beyond Watford.
+            Rev. T. Burnett
+            Haveston?
+            near Longon
+            The man who wrote to us about Mrs. Parks the late Miss Budd.
+            J. Elfrod Esqre M. P
+            Upland
+            Plymouth
+            
+            Mrs. Hayward
+            Watlington
+            Fetsworth? - Oxon.
+            Mrs. Rowden
+            Rvd. Ward's i Iver? - Uxbridge - Middlesex
+            
+            J. B. Monck Esq.re. M.P. 
+            (crossout) 28 Grosvenor Place
+            Hyde Park Corner London
+            
+            Charles MacFarlane Esqure
+            17 Upper Ashby Street
+            Northampton Square
+            London
+         -->
+               
+               <!-- Charles Heath Esqre. 6 Seymour 
+            Place Euston Square London
+            B.R. Haydon Esqre 8 Paddington Green, near the Church Paddington London
+            Mr. Samuel Robinson Chapter House Court. St. Paul's Church yard
+            T. N. Talfourd Esqre 2 Elm Court Temple
+            Philip Crowther Esqre Westbury on Trim near Bristol.
+            Miss Macready at the Revd. Wm. Birch's Rugby Warwickshire
+            Mrs. Tucker 47. Upper Norton Street Regent's Park.
+            Miss Dominicetti 30 Carburton Street - Upper Norton Street - 
+            Mrs. Vardill 45 Ellistone Street
+            Mrs. Nieven - Ci devant Miss Vardill
+            Mrs. Millington Mrs. Vardill's companion
+            Miss Porden. Mrs. Young
+            Miss Hicks - Miss Madwell-->
+               
+               
+               <!--LMW: 2019-12-24 new id's from Journal.-->
+               
+               <!-- Mrs. Lay - 6 Gower Street Bedford Square
+   Mrs. Strutt 34 Perry Street Bedford Square
+   Mrs. ?? Revd. ?? Streatfield's
+   Clark's Edge Westerham Kent
+   Miss Appleton 6. Upper Portland Place
+   **Mrs. Bayley Mrs. Wright - Stafford.
+   **Charles Heath Esq. 6 Seymour Place Euston Square London
+   
+   The Eclectic Review for July 1822 - (No/Vol. ?? new series) contains some very interesting particularly of poor Minor in a Review of Robinson's Memoirs of the Mexican Revolution - a work I should like to see - 2 Vols octavo.
+   The nursery garden where the Double Dahlias were so fine is at Thenham Green on the left hand side going to Town. I think the man's name is Williams -
+   J. Hamilton Esq. 30 Judd Street Brunswick Sq.
+   Miss Havell - J. Sheppards Esq. Hampstead Heath - London - <pb>
+   **Mess rs Whittaker - Ave Maria Lane St. Paul's Church Yard London
+   Mrs. ?? 47 Upper Norton Street Regents Park
+   Miss Dominicetti 30 Carburton Street Upper Norton street - Regent's Park
+   **Miss Porden 59 Berners Street - 
+   Mrs. Vardill 45 Clifstone Street
+   **Mrs. Hofland 23 Newman Street
+   **P. Bayley Esq re 9 Cumberland Place - New Road - Marybone - London
+   **Miss Webb - Clifton Cottage - Woking - Sidmouth - Devon
+   **Miss Brooke 11 East Cliff Brighton
+   **Charles Kemble 29 Soho Square
+   A**. j. Valpy Esq re. Red Lion Court Fleet Street London
+   Mrs. Welles & Fanny Welles - 8? Blemheim Street, New Bond Street. - 
+   Mrs. Lewis (late Charlotte Kirkman 9 Upper Seymour Street - Euston Square
+   **P. Bayley Esq re. 9 Cumberland Place
+   **J. B. Monck Esq re. 15 College Street Westminster - M. P. -
+   Miss Weston Church lane Chelsea London
+   John Wiltshire Shockerwick Bath
+   **W. Macready Esq re. - 69 Berners street
+   Mrs. Smith's boarding house 14 Norfolk Street
+   W. Price 2 Birch Court Temple - Talfourd's friend
+   S. Hamilton esq re. 30 Judd Street Hounswick Square
+  -->
+       
+               
+            </list>
+         </div>
+      </body>
+  </text>
+</TEI>

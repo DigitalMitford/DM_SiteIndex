@@ -473,6 +473,65 @@
                    <ptr target="http://viaf.org/viaf/3342920"/>
                 </note>
              </person>
+             
+             <person xml:id="Titian" sex="m"><!--LMW: stub, no note.-->
+                <persName>Titian</persName>
+                <persName>
+                   <forename>Tiziano</forename>
+                   <surname>Vecelli</surname>
+                </persName>
+                <birth notBefore="1488" notAfter="1490">
+                   <placeName>Pieve di Cadore, Italy</placeName>
+                </birth>
+                <death when="1576-08-27">
+                   <placeName>Venice, Italy </placeName>
+                </death>
+                <occupation type="artist"/>
+                <note>
+                   <ref target="http://viaf.org/viaf/109266837"/>
+                </note>
+             </person>
+             
+             <person xml:id="Rousseau" sex="m">
+                <persName>Jean-Jacques Rousseau <forename>Jean-Jacques</forename>
+                   <surname>Rousseau</surname>
+                </persName>
+                <birth when="1712-06-28">
+                   <placeName>Geneva, Switzerland</placeName>
+                </birth>
+                <death when="1778-02-07">
+                   <placeName>Ermenonville, France</placeName>
+                </death>
+                <occupation type="literary"/>
+                <occupation type="literary" subtype="poet"/>
+                <occupation type="government" subtype="politician"/>
+                <occupation type="educator"/>
+                <note>
+                   <ref target=" http://viaf.org/viaf/10018405"/>
+                </note>
+             </person>
+             
+             <person xml:id="Sevigne_Mad" sex="f">
+                <persName>
+                   <forename>Marie</forename>
+                   <surname>de Rabutin-Chantal</surname>
+                   <surname type="married">de Sévigné</surname>
+                </persName>
+                <persName>
+                   <roleName>Marquise de Sévigné</roleName>
+                </persName>
+                <persName>Madame Sévigné</persName>
+                <birth when="1626-02-05">
+                   <placeName>Paris, France</placeName>
+                </birth>
+                <death when="1696-04-17">
+                   <placeName>Grignan, France</placeName>
+                </death>
+                <occupation type="literary"/>
+                <note>
+                   <ref target="http://viaf.org/viaf/32002865"/>
+                </note>
+             </person>
             
              <person xml:id="deStael" sex="f"><!--stub: LMW write a better note, Mitford importance.-->
                 <persName>Germaine de Staël</persName>
