@@ -126,6 +126,353 @@
              
              <!--LMW: Chairman of Berkshire Quarter Sessions: William Pleydell-Bouverie, 3rd Earl of Radnor (11 May 1779 – 9 April 1869), styled Viscount Folkestone until 1828? National Archive: "minutes of chairman (3rd Earl of Radnor) and related papers incl calendar of prisoners...."-->
              
+             <person xml:id="Jane" sex="f">
+                <persName>Jane</persName>
+                <persName>
+                   <forename>Jane</forename>
+                </persName>
+                <note resp="#lmw">Maidservant at <placeName ref="#Bertram_house">Bertram House</placeName>, who left the Mitford's service in early <date when="1819"/>. Surname unknown.</note>
+             </person>
+             
+             <person xml:id="Anne" sex="f">
+                <persName>Anne</persName>
+                <persName>
+                   <forename>Anne</forename>
+                </persName>
+                <note resp="#lmw">Cook at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1820">1820</date>. Surname unknown.</note>
+             </person>
+             
+             <person xml:id="George" sex="m">
+                <persName>George</persName>
+                <persName>
+                   <forename>George</forename>
+                </persName>
+                <note resp="#lmw">Manservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. Surname unknown.</note>
+             </person>
+             
+             <person xml:id="Poll_pet" sex="f">
+                <persName>Poll</persName>
+                <note resp="#lmw">Mitford's tabby cat at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
+             </person>
+             
+             <person xml:id="May_Fly" sex="f">
+                <persName>May Fly</persName>
+                <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. Sister of <persName ref="#Mossy_pet">Mossy</persName>.</note>
+             </person>
+             
+             <person xml:id="Marmy_pet" sex="f">
+                <persName>Marmy</persName>
+                <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. </note>
+             </person>
+             
+             <person xml:id="Molly_pet" sex="f">
+                <persName>Molly</persName>
+                <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. </note>
+             </person>
+             
+             <person xml:id="Nelly_pet" sex="f">
+                <persName>Nelly</persName>
+                <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. </note>
+             </person>
+             
+             <person xml:id="Moses_pet" sex="m">
+                <persName>Moses</persName>
+                <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. </note>
+             </person>
+             
+             <person xml:id="Mob_pet" sex="m">
+                <persName>Mob</persName>
+                <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. </note>
+             </person>
+             
+             <person xml:id="Whim" sex="m">
+                <persName>Whim</persName>
+                <note resp="#lmw">Mitford's spaniel at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. </note>
+             </person>
+             
+             <person xml:id="Brooke_Miss" sex="f"><!--existing id-->
+                <persName>Miss Brooke</persName>
+                <persName>
+                   <surname>Brooke</surname>
+                   <roleName>Miss</roleName>
+                </persName>
+                <note resp="#scw">A correspondent of <persName ref="#MRM">Mitford's</persName>, to whom she writes at <placeName>11 East Cliff, Brighton</placeName>. <persName ref="#coles">William Coles</persName>suggests that this could be a summer address, and that she was a resident of <placeName ref="#Reading_city">Reading</placeName>. She was courted by <persName ref="#Valpy_Richard">Dr. Valpy</persName> in <date when="1823-10">October 1823</date>. Source: <rs type="letter">Letter from <persName ref="#coles">William Coles</persName> to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>
+                </rs>, <bibl corresp="#Needham_PapersRCL">
+                   <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL"/>. Forename unknown. More research needed.
+                   <!--scw: See photo DSCN1167-->
+                </bibl>
+                </note>
+             </person>
+             
+             <person xml:id="Brooke_Mrs" sex="f">
+                <persName>Mrs. Brooke</persName>
+                <persName>
+                   <surname>Brooke</surname>
+                   <roleName>Mrs.</roleName>
+                </persName>
+                <note resp="#lmw"><!--mother of Miss Brooke?--></note>
+             </person>
+             
+             <person xml:id="Newman_Miss" sex="f">
+                <persName>Miss Newman</persName>
+                <persName>
+                   <surname>Newman</surname>
+                   <roleName>Miss.</roleName>
+                </persName>
+                <note resp="#lmw"></note>
+             </person>
+             
+             <person xml:id="Jolliffe_Thos" sex="m">
+                <persName>Thomas Robert Jolliffe</persName>
+                <persName>
+                   <surname>Jolliffe</surname>
+                   <forename>Thomas</forename>
+                   <forename>Robert</forename>
+                   <roleName>Rev.</roleName>
+                </persName>
+                <!--1780-1872 Alum of Reading School and Trinity College Cambridge, rector of Babington in Somerset, 1810-1872 --> <!--UNMARRIED, so not Mr. and Mrs. Jolliffe-->
+             </person>
+             
+             <person xml:id="Jolliffe_Mrs" sex="f">
+                <persName>Mrs. Jolliffe</persName>
+                <persName>
+                   <surname>Jolliffe</surname>
+                   <roleName>Mrs.</roleName>
+                </persName>
+             </person>
+             
+             <person xml:id="Jolliffe_Mr" sex="f"><!--L'Estrange letters, Mr. Jolliffe offers MRM lumber to build a cottage after Mr. Palmer offers her six acres to build upon, in 1818-->
+                <persName>Mr. Jolliffe</persName>
+                <persName>
+                   <surname>Jolliffe</surname>
+                   <roleName>Mr.</roleName>
+                </persName>
+             </person>
+             
+             <person xml:id="Stevenson_Mr" sex="m">
+                <persName>Mr. Stevenson</persName>
+                <persName>
+                   <surname>Stevenson</surname>
+                   <roleName>Mr.</roleName>
+                </persName>
+             </person>
+             
+             <person xml:id="Stevenson_Em" sex="f">
+                <persName>Emily Stevenson</persName>
+                <persName>
+                   <surname>Stevenson</surname>
+                   <forename type="paternal">Emily</forename>
+                   <roleName>Miss</roleName>
+                </persName>
+                <note resp="#lmw"><!--daughter of Mr. Stevenson?--></note>
+             </person>
+             
+             <person xml:id="Woodburn_J" sex="m"><!--Mr. Woodburn? existing id-->
+                <persName>John Woodburn</persName>
+                <persName>
+                   <surname>Woodburn</surname>
+                   <forename>John</forename>
+                </persName>
+             </person>
+             
+             <person xml:id="Raggett_Mr" sex="m">
+                <persName>Mr. Raggett</persName>
+                <persName>
+                   <surname>Raggett</surname>
+                   <roleName>Mr.</roleName>
+                </persName>
+                <note resp="#lmw">Spouse of <persName ref="#Raggett_Mrs">Mrs. Raggett</persName>. In Mitford's Journal in 1819, she indicates that he is blind.</note>
+             </person>
+             
+             <person xml:id="Raggett_Mrs" sex="f">
+                <persName>Mrs. Raggett</persName>
+                <persName>
+                   <surname>Raggett</surname>
+                   <roleName>Mrs.</roleName>
+                </persName>
+                <note resp="#lmw">Spouse of <persName ref="#Raggett_Mr">Mrs. Raggett</persName>. In Mitford's Journal in 1819, she indicates that Mrs. Raggett is her <quote>cousin</quote>, who offers her the position of companion, but she refuses to leave <persName ref="#Mitford_Geo">her father George</persName>. <!--lmw; possibly on the Russell side?--></note>
+             </person>
+             
+             <person xml:id="Valpy_Sarah" sex="f">
+                <persName>Sarah Frances Valpy Shuter</persName>
+                <persName>
+                   <surname type="paternal">Valpy</surname>
+                   <surname type="married">Shuter</surname>
+                   <forename>Sarah</forename>
+                   <forename>Frances</forename>
+                </persName>
+                <persName><addName>Miss Valpy</addName></persName>
+                <persName><addName>Frances</addName></persName>
+                <persName><addName>Fanny</addName></persName>
+                <birth notAfter="1790-09-03">
+                   <placeName>Reading, Berkshire, England</placeName>
+                </birth>
+                <death when="1870-07">
+                   <placeName>Wells, Somerset, England</placeName>
+                </death>
+                <note resp="#lmw">Sarah Frances, called Frances or Fanny, third daughter <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and his second wife,
+                   <persName>Mary Benwell</persName>. <rs type="event">She married <persName>Thomas Allen Shuter</persName>
+                      of Kent on <date when="1810-04-14">14 April 1810</date>
+                   </rs> at St. Lawrence, Reading, Berkshire. They lived in Lewisham St. Mary, Kent, and
+                   had eleven children.</note>
+             </person>
+             
+             <person xml:id="Wylde_H" sex="f">
+                <persName>Harriet Wylde Valpy</persName>
+                <persName>
+                   <surname type="married">Valpy</surname>
+                   <surname type="paternal">Wylde</surname>
+                </persName>
+                <birth notAfter="1788-01-03">
+                   <placeName>Yatton, Somerset, England</placeName>
+                </birth>
+                <death when="1864-06-18">
+                   <placeName>Marylebone, London, England</placeName>
+                </death>
+                <note resp="#lmw">Spouse of <persName ref="#Valpy_John">A.J. (John) Valpy</persName>, they were married in <placeName>Burrington, Somerset</placeName> in <date when="1813-02-25">February 25, 1813</date>.</note>
+             </person>
+             
+             <person xml:id="Harris_Anna" sex="f">
+                <persName>Anna Harris Valpy</persName>
+                <persName>
+                   <surname type="married">Valpy</surname>
+                   <surname type="paternal">Harris</surname>
+                   <forename>Anna</forename>
+                </persName>
+                <birth when="1793">
+                   <placeName>Reading, Berkshire, England</placeName>
+                </birth>
+                <death when="1878">
+                   <placeName>Blagdon, Somerset, England</placeName>
+                </death>
+                <note resp="#lmw">Spouse of <persName ref="#Valpy_Ant">Anthony Valpy</persName>, married on <date when="1818-12-15">15 December 1818</date> at <placeName>St. Giles Church, Reading</placeName>. A frequent visitor at the Mitford's early in their marriage, they afterward settled in <placeName>Blagdon, Somerset</placeName> They had four children. Her parents were Quakers.</note>
+             </person>
+             
+             <person xml:id="Valpy_Ant" sex="m">
+                <persName>Anthony Blagrave Valpy</persName>
+                <persName>
+                   <surname>Valpy</surname>
+                   <forename>Anthony</forename>
+                   <forename>Blagrave</forename>
+                   <roleName>Captain, RN</roleName>
+                </persName>
+                <birth notAfter="1791-02-10">
+                   <placeName>Reading, Berkshire, England</placeName>
+                </birth>
+                <death when="1871-03-30">
+                   <placeName>Blagdon, Somerset, England</placeName>
+                </death>
+                <note resp="#lmw">Son of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and <persName ref="#Benwell_M">Mary Benwell</persName>. Spouse of <persName ref="#Harris_Anna">Anna Harris Valpy</persName>. They had four children. He became a captain in the Royal Navy and later retired to <placeName>Blagdon, Somerset</placeName> with his family.</note>
+             </person>
+             
+             <person xml:id="Benwell_M" sex="f">
+                <persName>Mary Benwell Valpy</persName>
+                <persName>
+                   <surname type="married">Valpy</surname>
+                   <surname type="paternal">Benwell</surname>
+                   <forename>Mary</forename>
+                </persName>
+                <birth when="1760">
+                   <placeName>Caversham, Oxford, England</placeName>
+                </birth>
+                <death when="1816">
+                   <placeName>Reading, Berkshire, England</placeName>
+                </death>
+                <note resp="#lmw">Second wife of of <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. They were married on <date when="1781-07-22">22 July 1781</date>.</note>
+             </person>
+             
+             <person xml:id="Harness_John" sex="m">
+                <persName>Dr. John Harness</persName>
+                <persName>
+                   <forename>John</forename>
+                   <surname>Harness</surname>
+                </persName>
+                <birth when="1754-11-15">
+                   <placeName>London, England</placeName>
+                </birth>
+                <death when="1823-01-03">
+                   <placeName>Brighton, Sussex, England </placeName>
+                </death>
+                <occupation type="military" subtype="navy"/>
+                <occupation type="medical" subtype="surgeon"/>
+                <note resp="#lmw">Dr. Harness was a naval surgeon, father of <persName ref="#Harness_Wm">William Harness</persName>. Dr. Harness was friend of the <orgName ref="#Mitfords">Mitfords</orgName> before their marraige and Dr. Harness gave away <persName ref="#Russell_M">Mary Russell</persName> at her marriage to <persName ref="#Mitford_Geo">George Mitford</persName>. Although Dr. Harness spent much of his career at naval outposts and in London, the family lived in Watlington when William was a child. He served as Physician to the Fleet under Admiral Hood in the Mediterranean, as Chairman and Medical Commissioner of the Sick and Wounded Board in London, Medical Commissioner of His Majesty's Navy. He was instrumental in promoting measures to prevent scurvy in British seamen and advocated for better treatment of naval surgeons.</note>
+                <note><ptr target="https://collections.rmg.co.uk/collections/objects/42027.html"/><!--miniature portrait of Dr. H.--></note>
+             </person>
+             
+             <!--https://books.google.com/books?id=ys6psimicxYC&lpg=PA306&ots=_NrOqM050Y&dq=Harness%2C%20Dr%20surgeon%20naval&pg=PA306#v=onepage&q=Harness,%20Dr%20surgeon%20naval&f=false-->
+             
+             <!-- Watlington http://www.oxfordshirevillages.co.uk/southoxonvillages/watlington.html -->
+             
+             <!-- The Town of Reading in the Early Part of the Nineteenth century by Childs.  https://archive.org/details/townofreadingdur00chiluoft-->
+             
+             <person xml:id="Harness_Wm" sex="m"><!--LMW: revised 2020-01-01-->
+                <persName>William Harness</persName>
+                <persName>
+                   <forename>William</forename>
+                   <surname>Harness</surname>
+                </persName>
+                <birth when="1790-03-14">
+                   <placeName>Wickham, Hampshire, England</placeName>
+                </birth>
+                <death when="1869-11-11">
+                   <placeName>Battle, Sussex, England </placeName>
+                </death>
+                <occupation type="literary"/>
+                <occupation type="religious" subtype="clergy"/>
+                <note resp="#ebb #lmw">
+                   <p>A lifelong friend of <persName ref="#MRM">Mary Russell Mitford</persName>
+                      who knew her from their childhood in the 1790s, Harness launched the first
+                      major effort to collect and edit Mitford’s letters into a series of volumes,
+                      which was completed by his assistant, <persName ref="#Lestrange">Alfred Guy
+                         Kingan L’Estrange</persName> a year after Harness’s death, and published
+                      as <title ref="#Lestrange_Letters">The Life of Mary Russell Mitford, Related
+                         in a Selection from her Letters to her Friends</title>. This collection
+                      was originally intended to be six volumes, but was cut back to three by the
+                      publishers, to Harness’s distress.</p>
+                   <p>Harness and <persName ref="#Byron">Byron</persName> were also friends from
+                      their schooling at Harrow, as Byron sympathized with Harness’s experience of
+                      a disabled foot, crushed in an accident in early childhood. Byron considered
+                      dedicating <bibl>the first two cantos of <title level="m">Childe Harold’s
+                         Pilgrimage</title>
+                      </bibl> to Harness, but refrained so as not to taint Harness’s reputation as
+                      he was taking orders as an Anglican curate. Harness admired and encouraged
+                      Mitford’s playwrighting in particular, and she commented that he was one of
+                      the few of her friends who thought she should prioritize the drama over
+                      prose. When <persName ref="#Macready_Wm">William Macready</persName> was
+                      attacked in <bibl corresp="#Stage">an anonymous Blackwood’s Magazine piece
+                         in 1825</bibl> for his demands and rudeness to Mitford over revisions to
+                      <title ref="#Rienzi">Rienzi</title>, Macready assumed that Harness was
+                      the author of the anonymous piece, though in <date when="1839">1839</date>
+                      after many years of distance, Harness assured Macready in person that he was
+                      not the writer, though he may have shared word of the poor treatment his
+                      friend had endured.</p>
+                   <p>William Harness was the son of John
+                      Harness, M.D. and Sarah Dredge; he was baptized at Whitchurch, Hampshire on
+                      April 13, 1790. He received his B.A. in 1812 and his M.A. in 1816 from
+                      Christ’s College, Cambridge. He served as curate at Kelmeston, Hampshire
+                      (1812) and Dorking (1814-1816). He was preacher at Trinity Chapel, Conduit
+                      Street, London and minister and lecturer at St. Anne’s in Soho. He was Boyle
+                      lecturer in London (1822) and was curate at Hampstead from 1828 to 1844. In
+                      1825, he published an eight-volume edition of Shakespeare, including a
+                      biography; his friends would later endow a prize in his name at Cambridge
+                      for the study of Shakespearean literature. He also authored numerous essays
+                      and reviews, some for the <title ref="#QuarterlyRev_per">Quarterly Review</title>. From 1844 to 1847 he was
+                      minister of Brompton Chapel in London. He undertook to raise the funds to
+                      build the church of All Saints, Knightsbridge, in the parish of St.
+                      Margaret’s Westminster, which opened in 1849, and he then became perpetual curate of
+                      that congregation. At the 1851 and 1861 censuses, he lived at 3 Hyde Park
+                      Terrace, Westminster St. Margaret, Middlesex, with his sister <persName ref="#Harness_Mary">Mary Harness</persName>
+                      and his first cousin <persName>Jemima Harness</persName>, daughter of his uncle William. He died
+                      while on a visit to one of his former curates in
+                      Battle, Sussex. At the time of his death he living at the same address at 3
+                      Hyde Park Terrace; he is buried in Bath.</p>Sources: <bibl>
+                         <author>Duncan-Jones</author>, <title level="m">Miss Mitford and Mr. Harness</title>
+                         (<date when="1955">1955</date>)</bibl>; Lord Byron and His Times: <ptr target="http://lordbyron.cath.lib.vt.edu/contents.php?doc=WiHarne.1871.Contents"/>
+                </note>
+                <note>
+                   <ptr target="http://viaf.org/viaf/3342920"/>
+                </note>
+             </person>
             
              <person xml:id="deStael" sex="f"><!--stub: LMW write a better note, Mitford importance.-->
                 <persName>Germaine de Staël</persName>
@@ -284,8 +631,9 @@
           </listPerson>
           
        </div>
-         <div type="fictional_and_archetypal"><!--Section for mythical, legendary entities, not precisely rooted in a place or time, or in a particular text. -->
-             <listOrg sortKey="fictOrgs"> <!--For fictional organizations or groups from particular texts.-->
+         <div type="fictional_and_archetypal">
+             <listOrg sortKey="fictOrgs"> 
+                
                 <org/>
                 <!--SAMPLE:
                    <org xml:id="Balfours_WS">
@@ -297,75 +645,210 @@
                </org>
                -->
              </listOrg>
-             <listOrg sortKey="archOrgs"><!--For archetypal organizations or groups-->
-                <org/>
-             </listOrg>
-          <listPerson sortKey="archPersons"> <!--For individual archetypal entities. List -->
-             
-             <person/>
-             <!--SAMPLE:
-                <person xml:id="Ahab" sex="m">
-                  <persName>Ahab</persName>
-                  <occupation type="government" subtype="monarch"/>
-                  <note resp="#ebb">Historic and legendary ancient King of Israel, married to
-                        <persName ref="#Jezebel">Jezebel</persName>.</note>
-               </person>
-               -->
-          </listPerson>
-            <listPerson sortKey="fictPersons"><!--For fictional characters from particular texts.-->
-             <person xml:id="" sex="">
-                <persName></persName>
-                <occupation type=""/>
-                <note resp="#NNN"></note>
+            <listOrg sortKey="archOrgs">
+               <org xml:id="Muses">
+                  <orgName>the Muses</orgName>
+                  <orgName>the nine Muses</orgName>
+                  <note resp="#lmw">In Greek (and later Roman) mythology, the nine goddesses who live on Mount Helicon and inspire mortals to create. Although in some traditions there were only three Muses, by the Hellenistic period, the accepted number was nine and they were believed to be led by Apollo. By the neoclassical period, emblem books, sculpture, and painting had standardized the depictions of the goddesses: Calliope (epic poetry) carries a writing tablet and stylus or a lyre; Clio (history) carries a scroll or books; Euterpe (lyric poetry and song) carries a flute (the aulos); Erato (erotic/love poetry) carries a lyre or cithera or a crown of roses; Melpomene (tragedy) is seen with a tragic mask; Polyhymnia (sacred poetry) is depicted veiled or with a pensive expression; Terpsichore (choral song and dance) is depicted dancing or with a lyre; Thalia (comedy) is seen with a comic mask or shepherd's crook; and Urania (astronomy) carries compasses and a celestial globe.</note>
+               </org>
+            </listOrg>
+          <listPerson sortKey="archPersons">  
+             <person xml:id="Alcestis" sex="f">
+                <persName>Alcestis</persName>
+                <note resp="#lmw">A princess in Greek mythology known for her loyalty to her husband and for returning from the dead. She married King Admetus after he achieves the feat of yoking a lion and a boar (or bear, in some versions) to a chariot. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of snakes. He escapes death when Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living. She is the titular character of a play by Euripides and was the subject of a painting by Angelica Kauffman.</note>
              </person>
-               <!--SAMPLES: 
-                  <person xml:id="Ariel" sex="u">
-                  <persName>Ariel</persName>
-                  <occupation type="service"/>
-                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who serves <persName ref="#Prospero">Prospero</persName> under magical duress.</note>
-               </person>
-               
-                 <person xml:id="Camilla_char" sex="f">
-                  <persName>Camilla</persName>
-                  <note resp="#lmw">Title character in <title ref="#Camilla_FB">Camilla</title>;
-                     Mitford admires Burney’s characterization of her in her a letter to Elford from
-                        <date when="1819-05-30">30 May 1819</date>.</note>
-               </person>
-               
-               <person xml:id="Camillo_R" sex="m">
-                  <persName>Camillo</persName>
-                  <note resp="#lmw">Camillo is a character in <title ref="#Rienzi">Rienzi</title>; <persName ref="#Rienzi_Cola">Rienzi</persName>'s servant. Played by <persName ref="#Jones_C">Mr. C. Jones</persName> as performed at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName>, <date when="1828-10-09">October 9, 1828</date>.</note>
-               </person>
-               -->
+             
+             <person xml:id="Admetus" sex="m">
+                <persName>Admetus</persName>
+                <note resp="#lmw">A king in Greek mythology, he wins the princess Alcestis by achieving the feat of yoking a lion and a boar (or bear, in some versions) to a chariot with the help of Apollo. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of snakes. He escapes death when his wife Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living.</note>
+             </person>
+             
+             <person xml:id="Apollo" sex="m">
+                <persName>Apollo</persName>
+                <note resp="#lmw">In Greek mythology, the son of Zeus and Leto; one of the twelve Olympians. He was known as the god of medicine, and later, was associated with the sun god Phoebus; however, his most important association in 18th- and 19th- century literature was as the leader of the Muses, and god of music and poetry. He is conventionally pictured carrying the kithara or lyre, and wearing a laurel wreath, emblems of poetic accomplishment.</note>
+             </person>
+             
+             <person xml:id="Hercules" sex="m">
+                <persName>Hercules</persName>
+                <note resp="#lmw #slc">Roman god, the son of Jupiter and the mortal Alceme. Known as <soCalled>Heracles</soCalled> in Greek mythology. Proverbial for his strength.</note>
+             </person>
+             
+             <person xml:id="Hebe" sex="f">
+                <persName>Hebe</persName>
+                <note resp="#lmw">Greek mythological figure, the goodess of youth and the daughter of Zeus and Hera. Became proverbial for the budding beauty of adolescent women.</note>
+             </person>
+             
+             <person xml:id="Niobe" sex="f">
+                <persName>Niobe</persName>
+                <note resp="#lmw #slc">Greek mythological figure who boasted of her fourteen children, (called the Niobids). As a punishment for her boastfulness, Artemis who killed all but one of her children. Became proverbial for tears and extreme sorrow, particularly maternal grief.</note>
+             </person>
           </listPerson>
+             
+            <listPerson sortKey="fictPersons">
+               <person xml:id="Grisildi" sex="f">
+                  <persName>Grisildi</persName>
+                  <note resp="#lmw">Character in <title level="a">The Clerk's Tale</title> from <title ref="#CanterburyTales">Canterbury Tales</title>, also called <soCalled>Griselda</soCalled> or <soCalled>Patient Grizzle</soCalled> who became proverbial for a patient, obedient, long-suffering wife. Mitford may have been familiar with the 1782 Martins edition of the <title ref="#Chaucer_Wks_Martins">Poetical Works of Geoffrey Chaucer,</title> in which this tale appears in volume 3.</note>
+               </person>
+               
+               <person xml:id="Blondel_fict" sex="m">
+                  <persName>Blondel</persName>
+                  <note resp="#lmw">Fictional character loosely based on a 13th-century French trouvére or troubador, either Jean I of Nesle (died 1202) or his son Jean II of Nesle (died 1241), associated with more than twenty courtly songs attributed to Blondel de Nesle. In the <title level="m">Récits d'un Ménestrel de Reims</title>, Blondel is a mythologized minstrel character who rescues an equally mythologized <persName ref="#RichardI">Richard I</persName> from prison through his songs. Blondel's story became popularized in the late eighteenth century and formed the basis for an opera as well as for Eleanor Porden's <title ref="#Coeur_de_Lion_poem">Coeur de Lion</title>, in which Blondel turns out to be Richard's wife <persName ref="#Berengaria">Berengaria</persName> in disguise.</note><!--LMW: late 18th c. English language source? Ck. with EBB.  Sir James Bland Burges, Richard the first, a poem: in eighteen books (1801)?-->
+               </person>
+               
+               <person xml:id="Marygold_pet_OV" sex="f">
+                  <persName>Marygold</persName>
+                  <note resp="#lmw">Fictional pet dog in <title level="a">Tom Cordery</title></note>
+               </person>
+               
+               <person xml:id="Viper_pet_OV" sex="m">
+                  <persName>Viper</persName>
+                  <note resp="#sbb"><persName>Mr. Sidney</persName>'s pet terrier in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
+               </person>
+               
+               <person xml:id="Admetus_char">
+                  <persName>Admetus</persName>
+                  <note resp="#lmw">Character in <title ref="#Alcestis_play">Alcestis</title> by <persName ref="#Euripides">Euripides</persName>.
+                  </note>
+               </person>
+               
+               <person xml:id="Maimoune" sex="f">
+                  <persName>Maimoune</persName>
+                  <note resp="#lmw">Character from <title ref="#Arabian_Tales">Arabian Tales</title>.</note>
+               </person>
+            </listPerson>
           
        </div>
          <div type="places">
-            <listPlace sortKey="histPlaces"><!--for "real" historical places-->
-               <place/>
+           <listPlace sortKey="fictPlaces">
+               <place xml:id="FairyLand_Spenser">
+                  <placeName>Faery land</placeName>
+                  <note resp="#lmw">Fictional setting of Spenser's <title ref="#FaerieQu_ES">Faerie Queen</title>.</note>
+               </place>
             </listPlace>
-            <!--SAMPLE:               
-               <placeName>Abingdon, Berkshire, England</placeName>
-                  <placeName>
-                     <addName>Abingdon on Thames</addName>
-                  </placeName>
-                  <placeName>
-                     <addName>Abingdon-on-Thames</addName>
-                  </placeName>
-                  <settlement>Abingdon</settlement>
+               
+            <listPlace sortKey="histPlaces">	
+               <place xml:id="Spencers_Wood">
+                  <placeName>Spencers Wood</placeName>
+                  <district>Shinfield</district>
                   <region>Berkshire</region>
-                  <region>Oxfordshire</region>
                   <country>England</country>
                   <location>
-                     <geo>51.67078 -1.2879528999999366</geo>
+                     <geo>51.3944 -0.9722</geo>
                   </location>
-                  <note resp="#lmw">Abingdon (now called "Abingdon on Thames" or
-                     "Abingdon-on-Thames,") is a market town in England. In <persName ref="#MRM">Mitford</persName>’s time, it was the county town of the county of
-                        <placeName ref="#Berkshire">Berkshire</placeName>. It was reassigned to
-                     Oxfordshire in 1974. In the nineteenth century, the Assize Courts alternated
-                     between <placeName ref="#Reading_city">Reading</placeName> and <placeName ref="#Abingdon">Abingdon</placeName>, according to <persName ref="#coles">Coles</persName>.</note>
-               </place>-->
-            <listPlace sortKey="fictPlaces"><!--for any fictional/imaginary/mythical places-->
+                  <note>Village south of Reading that adjoins Three Mile Cross to the north and lying east of Grazeley. Until 1844, within Hampshire. In Mitford's time, the location, not of a wood, but an open common, which was entirely enclosed by 1864.</note>
+               </place>
+               
+               <place xml:id="Athens">
+               <placeName>Athens</placeName>
+               <settlement>Athens</settlement>
+               <region>Attica</region>
+               <country>Greece</country>
+               <location>
+                  <geo>37.983972 23.727806</geo>
+               </location>
+               <note resp="#lmw">Ancient world city-state and currently the capital of Greece. During Mitford's time, a stop on the Grand Tour, frequently referenced in literature as the center of Western civilization and learning.</note>
+            </place>
+               
+               <place xml:id="Austria">
+                  <placeName>Austria</placeName>
+                  <country>Austria</country>
+                  <location>
+                     <geo>47.333333, 13.333333</geo>
+                  </location>
+                  <note resp="#lmw">Country in Central Europe, currently the Republic of Austria, made up of nine federated states, whose capital is Vienna. From the 16th century, a center of the Habsburg monarchy and an archduchy and center of the Holy Roman Empire. In the early 19th century, Austria established itself as an empire and a leading power in the German Confederation.</note>
+               </place>
+               
+               <place xml:id="Englefield_House">
+                  <placeName>Englefield House, Englefield, Berkshire, England</placeName>
+                  <settlement>Englefield</settlement>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.443 -1.106</geo>
+                  </location>
+                  <note resp="#lmw">Elizabethan-era country house, currently a Grade II listed building open to the public, which has been used several times as a filming location. During Mitford's lifetime, the estate was owned by of the Benyon family, including Richard Benyon the younger (died 1796) and Richard Benyon De Beauvoir, to whom Mitford dedicated her poem <title ref="#EnglefieldHouse_1827">Englefield House</title> in 1822.</note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Englefield_House#/media/File:Neale(1827)_p4.026_-_Englefield_House,_Berkshire.jpg"/></note>
+                  <note><ptr target="http://www.englefieldestate.co.uk"/></note>
+               </place>
+               
+               <place xml:id="Theale_church">
+                  <placeName>Holy Trinity Church, Theale</placeName>
+                  <settlement>Theale</settlement>
+                  <region>Tilehurst</region>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <note resp="#lmw #slc">Anglican church built to replace a modest brick chapel built by clergyman Dr. Sheppard, who held the living of the entire parish of Tilehurst. Church, rectory, and school built in memory of Dr. Sheppard by his wife Sophia Routh Sheppard and her brother Martin Routh. Building began shortly after Dr. Sheppard's death in 1814, but the church was not completed and consecreated until <date when="1832-08-21">August 21, 1832</date>, although Mitford speaks of the <q>new church</q> in 1827. </note>
+                  <note>	
+                     <ptr target="http://www.holytrinitytheale.org.uk/content/pages/documents/1491582965.pdf"/></note>
+               </place>
+               
+               <place xml:id="Theale">
+                  <placeName>Theale, Berkshire, England</placeName>
+                  <settlement>Theale</settlement>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.437 -1.0776</geo>
+                  </location>
+                  <note resp="#lmw">Village and parish near Reading on the River Kennet, later part of the Kennet and Avon Canal. From the 17th century, a coach stop on the road from London to Bath and Bristol. From 1847, a stop on the London to Exeter railway line and from 1852 to 1963, a stop on the Berks and Hants Railway, a subsidiary of the Great Western Railway.</note>
+               </place>
+               
+               <place xml:id="Palestine">
+                  <placeName>Palestine</placeName>
+                  <region>Palestine</region>
+                  <location>
+                     <geo>31.6253 35.1453</geo>
+                  </location>
+                  <note resp="#lmw">In Mitford's time, refers to the geographic region in Western Asia known as the Land of Israel or Holy Land referred to in the Christian Bible, comprising the present-day state of Israel, the Palestinian territories, and parts of Jordan. Similar names were used in the ancient world, and the region was later the Roman province of Syria Palaestina. It refers to the southern section of broader regional designations such as Canaan or the Levant.</note>					
+               </place>
+               
+               <place xml:id="Donnington_Castle">
+                  <placeName>Donnington Castle</placeName>
+                  <settlement>Donnington</settlement>
+                  <region>Newbury</region>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.419444 -1.3375</geo>
+                  </location>
+                  <note resp="#lmw">Ruined medieval castle, of which only the 14th-century gatehouse remains standing. In 1398, Thomas Chaucer, the brother of <persName ref="#Chaucer">the poet Chaucer</persName>, purchased the castle for his daughter. In 1646, the Castle was captured by <orgName ref="#Royalists">Royalist forces</orgName> and endured an eighteen month siege by <orgName ref="#Parliamentarians">Parliamentarian forces</orgName>, after which time to main portion of the Castle was demolished. The gatehouse and ruins are now a scheduled ancient monument, number 233041.</note>
+                  <note><ptr target="http://www.newburyhistory.co.uk/donnington-castle"/></note>
+               </place>
+               
+               <place xml:id="AssizeHall_Reading">
+                  <placeName>Assize Hall, Reading, Berkshire, England</placeName>
+                  <settlement>Reading</settlement>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.4562 -0.967</geo>
+                  </location>
+                  <note resp="#lmw">Assize Court building in central Reading. The current Reading Crown Court Building was not built until 1861, after Mitford's death.</note>
+                  <note><ptr target="https://historicengland.org.uk/listing/the-list/list-entry/1113476"/></note>
+               </place>
+               <!-- https://www.abingdon.gov.uk/history/buildings/county-hall -->
+               
+               <place xml:id="Windermere">
+                  <placeName>Windermere</placeName>
+                  <settlement>Windermere</settlement>
+                  <region>Cumbria</region>
+                  <country>England</country>
+                  <location>
+                     <geo>54.358333, -2.936111</geo>
+                  </location>
+                  <note resp="#lmw">One of two longest and deepest lakes in England, in the Lake District, located near the town of the same name, now in the County of Cumbria and part of the Lake District National Park. Historically, the lake made up part of the border between the counties of Westmorland and Lancashire.</note>
+               </place>
+               
+               <place xml:id="AveMariaLane">
+                  <placeName>Ave Maria Lane, London, England</placeName>
+                  <settlement>London</settlement>
+                  <region>London</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.5142 -0.1008</geo>
+                  </location>
+                  <note resp="#lmw">Runs between Ludgate Hill and Amen Court in the City of London. Home to the Stationer's Hall, the guild hall of the Worshipful Company of Stationers and Newspaper Makers since 1670. In Mitford's time, the location of <orgName ref="#Whittaker_GB_pub">the Whittaker family</orgName>'s publishing house.</note>
+               </place>
                <place/>
             </listPlace>
             <!--SAMPLE:
@@ -474,7 +957,7 @@
                
                <item xml:id="lark">
                   <name ref="#lark">lark</name>
-                  <note resp="#lmw">In the UK, the lark family includes the <name ref="#woodlark">woodlark</name>, the <name ref="#sky-lark">skylark</name>, and the <name ref="#shore-lark">shore lark</name>. Symbolically associated with the break of day. In Britain, the term <soCalled>lark</soCalled> conventionally refers to the <name ref="#skylark">skylark</name>. Because of its habit of singing early in the morning, proverbial for early rising, and for happiness.</note>
+                  <note resp="#lmw">In the UK, the lark family includes the <name ref="#woodlark">woodlark</name>, the <name ref="#skylark">skylark</name>, and the <name ref="#shore_lark">shore lark</name>. Symbolically associated with the break of day. In Britain, the term <soCalled>lark</soCalled> conventionally refers to the <name ref="#skylark">skylark</name>. Because of its habit of singing early in the morning, proverbial for early rising, and for happiness.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/lark-family/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Alaudidae"/></note>
                </item>
@@ -504,7 +987,7 @@
 								<rs type="species">L. megarhynchos</rs>
 								<rs type="family">Muscicapidae</rs>
 							</name>-->
-                  <note resp="#smp #lmw">A medium-sized migratory songbird, brown above and beige or whitish below, native to Eurasia and overwintering in sub-saharan Africa. Best known for its beautiful and powerful song. Prefers habitats of coppiced woods and scrubland. Great Britain represents the nothernmost extent of its range. Became proverbial for a person with a melodious speaking voice or with an extraordinary singing voice.</note>
+                  <note resp="#SMP #lmw">A medium-sized migratory songbird, brown above and beige or whitish below, native to Eurasia and overwintering in sub-saharan Africa. Best known for its beautiful and powerful song. Prefers habitats of coppiced woods and scrubland. Great Britain represents the nothernmost extent of its range. Became proverbial for a person with a melodious speaking voice or with an extraordinary singing voice.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/nightingale/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Luscinia_megarhynchos"/></note>
                </item>
@@ -657,10 +1140,38 @@
                
             </list>
             <list sortKey="plants">
+               <!-- common non-native trees: https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/common-non-native-trees/
+				apple
+				copper beech
+				cedar
+				cheery plum
+				sour cherry
+				field elm
+				hose chestnut
+				sweet chestnut
+				cypress
+				DOuglas fir
+				western hemlock
+				European larch
+				Norway maple
+				holm oak, introduced 16th c.
+				red oak
+				turkey oak, intro 18th c.
+				pear, intro 995 AD
+				black pine
+				London plane (hybrid of american sycamore and Oriental plane, discovered 17th c., widely planted 18th c.
+				plum
+				white poplar
+				Norway spruce
+				Sycamore (introduced by Romans, or, 1500s)
+				walnut, introduced by the Roma
+				black walnut
+				western red cedar
+				Irish yew-->
                
                <item xml:id="corn">
 					<name ref="#corn">corn</name>
-					<note resp="#lmw">Refers to agricultural plants whose seeds are used to produce flour, or to the seeds themselves. In the UK, commonly refers to <name ref="#wheat">wheat</name>, but may also refer to oats, barley, or maize. The term is used in this sense in Keats's <title ref="#Nightingale_Ode">Ode to a Nightingale</title>, which references the Biblical Ruth: <q>Perhaps the self-same song that found a path./Through the sad heart of Ruth when, sick for home,/She stood in tears amid the alien corn</q> (stanza 7, lines 5-7; Ruth chapter 2, lines 2-3). This is also the sense of the term <q>Corn Laws</q> debated in the early 19th century, which concerned trade restrictions and tariffs on foodstuffs, including cereal grains.</note>
+					<note resp="#lmw">Refers to agricultural plants whose seeds are used to produce flour, or to the seeds themselves. In the UK, commonly refers to <name ref="#wheat">wheat</name>, but may also refer to oats, barley, or maize. The term is used in this sense in Keats's <title level="a">Ode to a Nightingale</title>, which references the Biblical Ruth: <q>Perhaps the self-same song that found a path./Through the sad heart of Ruth when, sick for home,/She stood in tears amid the alien corn</q> (stanza 7, lines 5-7; Ruth chapter 2, lines 2-3). This is also the sense of the term <q>Corn Laws</q> debated in the early 19th century, which concerned trade restrictions and tariffs on foodstuffs, including cereal grains.</note>
 				</item>
 				
 				<item xml:id="wheat">
@@ -698,14 +1209,16 @@
 					<note resp="#lmw">Mitford likely refers to the <name ref="#hawthorn">common hawthorn</name>.</note>
 				</item>
 				
-				<item xml:id="elm_tree">
+				<item xml:id="elm">
 					<name ref="#elm">field elm</name>
 					<name ref="#elm">smooth-leaved elm</name>
 					<name ref="#elm">ulmus minor</name>
 					<name ref="#elm">ulmus procera</name>
-					<name type="genus">Ulmus</name>
-					<name type="species"></name>
-					<name type="family">Ulmaceae</name>-->
+					<!--<name>
+					   <rs type="genus">Ulmus</rs>
+					<rs type="species"></rs>
+					<rs type="family">Ulmaceae</rs>
+					</name>-->
 					<note resp="#tfb #lmw">The so-called <soCalled>English elm</soCalled> is a deciduous tree with serrated leaves, known in Europe as the <soCalled>field elm</soCalled>, introduced into England from Spain in the 16th century. Before Dutch elm disease decimated the population in the 20th century, mature elm trees were a prominent feature of mixed deciduous forests and were also frequently used in landscape gardening. In England, elms were found in mixed forests with oak and ash, often near rivers. While populations still exist, they do not grow to mature size, and so immature elms are today mainly found in hedgerows. Because of its resistance to rot, elm was frequently used to construct medieval water pipes as well as piers, jetties, and lock gates. Because of its resistance to splitting, it was also used to make chair seats, coffins, wagon wheel hubs, and ancient world bows. During the enclosure movement, elms were plants in hawthorn hedges, and avenues and groves of elms were popular features of 18th- and 19th-century landscape gardening. Wych elm (ulmus montana), also called witch hazel or Scots elm, is also native to the UK. Ancient Roman literature spoke of a <soCalled>marriage</soCalled> between the elm and the vine, in which the elm represented the husband, because of their practice of planting elms in vineyards to support grapevines; in British literature, this motif appears most frequently as elm and ivy. The ancient Greek tradition of planting elms on graves has also given rise to a <soCalled>elm-and-death</soCalled> motif. They are also frequently mentioned in classical pastoral poetry, where their cool shade is praised as paradisal.
 						T</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-elm/"/></note>
@@ -846,11 +1359,11 @@
 				
 				<item xml:id="currant_bush"><!--LMW:  change id, remove hyphen-->
 					<name ref="#currant_bush">currants</name>
-					<name>
+				   <!--<name ref="#currant_bush">
 					<rs type="genus">ribes</rs>
 					<rs type="species"></rs>
-					<rs type="family">Grossulariaceae, or a separate genus of Grossularia</rs>
-					</name>
+					<rs type="family">Grossulariaceae</rs>
+					</name>-->
 					<note resp="#qar">Mitford calls this plant a currant-bush, which is actually another name for the conkerberry or bush plum, but these grow best in tropical regions and are likely not what she means. </note>
 				</item>
 				
@@ -881,42 +1394,14 @@
 				
 				<item xml:id="pollard_ash"/>
 				
-				<item xml:id="pine"><!--kinds? native conifers = Caledonian or Scots pine; juniper, yew-->
+				<item xml:id="pine"><!--kinds? native conifers = Caledonian or Scots pine; juniper, yew--></item>
 					
-					<name ref="#pine_Scots">Scots pine</name>
-					<name ref="#pine_Scots">[inus sylvestris</name>
+					<item xml:id="pine_Scots">
+				   <name ref="#pine_Scots">Scots pine</name>
+					<name ref="#pine_Scots">pinus sylvestris</name>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/scots-pine/"/></note>
-					
 				</item>
-				<!-- common non-native trees: https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/common-non-native-trees/
-				apple
-				copper beech
-				cedar
-				cheery plum
-				sour cherry
-				field elm
-				hose chestnut
-				sweet chestnut
-				cypress
-				DOuglas fir
-				western hemlock
-				European larch
-				Norway maple
-				holm oak, introduced 16th c.
-				red oak
-				turkey oak, intro 18th c.
-				pear, intro 995 AD
-				black pine
-				London plane (hybrid of american sycamore and Oriental plane, discovered 17th c., widely planted 18th c.
-				plum
-				white poplar
-				Norway spruce
-				Sycamore (introduced by Romans, or, 1500s)
-				walnut, introduced by the Roma
-				black walnut
-				western red cedar
-				Irish yew-->
-				
+
 				<item xml:id="Scottish_fir"/><!--lmw: CROSS REF WITH FIR-->
 				
 				<item xml:id="pollard"/><!--LMW: how is this different from the others? think about how to cross ref these entries.-->
@@ -1097,29 +1582,27 @@
 					<rs type="family">geraniaceae</rs>-->
 					<note resp="#tfb"> This flower is from the geranium genus and the perrenial herb species. It is also called cranesbill because the genus word is greek for crane. Native mostly to subtropical Africa. It grows most commonly in the Mediterranean.</note></item>
 				
-				<item xml:id="jessamine"/><!--LMW: cross ref Jasmine, existing id.? Check if different plant or different spelling.-->
-				
 				<item xml:id="jasmine">
 					<name ref="#jasmine">jasmine</name>
 					<name ref="#jasmine">common jasmine</name>
 					<name ref="#jasmine">jessamine</name>
 					<name ref="#jasmine">jasminum officinale</name>
-					<name>
+				   <!--<name ref="#jasmine">
 						<rs type="genus">jasminum</rs>
 					<rs type="family">Oleaceae</rs>
-					</name>
+					</name>-->
 					<note resp="#lmw">A climbing woody shrub with fragrant white flowers, native to Asia. Naturalized in the UK since the 16th century. Some varieties are cultivated to produce oils for perfume. Mitford also spells <q>jessamine</q>.</note>
-					<note><ptr target="https://www.rhs.org.uk/plants/9454/jasminum-officinale/details"/></note><
+					<note><ptr target="https://www.rhs.org.uk/plants/9454/jasminum-officinale/details"/></note>
 				</item>
 				
 				<item xml:id="honeysuckle">
 					<name ref="#honeysuckle">European honeysuckle</name>
 					<name ref="#honeysuckle">woodbine</name>
 					<name ref="#honeysuckle">lonicera periclymenum</name>
-					<name>
+				   <!--<name ref="#honeysuckle">
 						<rs type="genus">Lonicera</rs>
 					<rs type="family">Caprifoliaceae</rs>
-					</name>
+					</name>-->
 					<note resp="#lmw">Twining summer-flowering woody shrub, native to much of Europe, Turkey, and North Africa and naturalized as well as cultivated throughout many parts of Europe and North America. One of two honeysuckles native to the UK. It produces showy creamy-yellow clusters of tubular flowers, which are highly scented, particularly at night. Mitford also uses the term <q>woodbine</q>.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/honeysuckle/"/></note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Lonicera_periclymenum"/></note>
@@ -1149,25 +1632,23 @@
 					<name ref="#bluebell">wild hyacinth</name>
 					<name ref="#bluebell">English bluebell</name>
 					<name ref="#bluebell">fairy flower</name>
-					<name ref="#bluebellh">Hyacinthoides non-scripta</name>
-					
-						<name>
-							<rs type="genus">Hyacinthoides</ra>
+					<name ref="#bluebell">Hyacinthoides non-scripta</name>
+				  <!-- <name ref="#bluebell">
+							<rs type="genus">Hyacinthoides</rs>
 						<ra type="family">Asparagaceae</ra>
-						</name> 
-					<!-- REV -->
-					<note resp="#slc">Hyacinthoides non-scripta (formerly Endymion non-scriptus or Scilla non-scripta) is a bulbous perennial plant, found in Atlantic areas from north-western Spain to the British Isles, and also frequently used as a garden plant. It is known in English as the common bluebell or simply bluebell, a name which is used in Scotland to refer to the harebell, Campanula rotundifolia. In spring, H. non-scripta produces a nodding, one-sided inflorescence of 5–12 tubular, sweet-scented violet–blue flowers, with strongly recurved tepals, and 3–6 long, linear, basal leaves. H. non-scripta is particularly associated with ancient woodland where it may dominate the understorey to produce carpets of violet–blue flowers in "bluebell woods", but also occurs in more open habitats in western regions. It is protected under UK law, and in some other parts of its range. A related species, H. hispanica has also been introduced to the British Isles and hybridises with H. non-scripta to produce intermediates known as H. × massartiana.<!-- LMW:  MRM mentions a wild hyacinth in Violeting sketch. --></note>
+						</name> -->
+					 <note resp="#slc">Hyacinthoides non-scripta (formerly Endymion non-scriptus or Scilla non-scripta) is a bulbous perennial plant, found in Atlantic areas from north-western Spain to the British Isles, and also frequently used as a garden plant. It is known in English as the common bluebell or simply bluebell, a name which is used in Scotland to refer to the harebell, Campanula rotundifolia. In spring, H. non-scripta produces a nodding, one-sided inflorescence of 5–12 tubular, sweet-scented violet–blue flowers, with strongly recurved tepals, and 3–6 long, linear, basal leaves. H. non-scripta is particularly associated with ancient woodland where it may dominate the understorey to produce carpets of violet–blue flowers in <soCalled>bluebell woods</soCalled>, but also occurs in more open habitats in western regions. It is protected under UK law, and in some other parts of its range. A related species, H. hispanica has also been introduced to the British Isles and hybridises with H. non-scripta to produce intermediates known as H. × massartiana.<!-- LMW:  MRM mentions a wild hyacinth in Violeting sketch. --><!-- REV --></note>
 					<note resp="#lmw"></note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Hyacinthoides_non-scripta"/></note>
 				</item>
 				
 				<item xml:id="periwinkle">
-					<name>periwinkle</name>
-					<name><addName>Vinca major</addName></name>
-					<name>
+				   <name ref="#periwinkle">periwinkle</name>
+				   <name ref="#periwinkle"><addName>Vinca major</addName></name>
+				  <!-- <name ref="#periwinkle">
 						<rs type="genus">Vinca</rs>
-					<rs type="family">Apocynaceae</rs
-						</name>>
+					<rs type="family">Apocynaceae</rs>
+						</name>-->
 					<note resp="#lmw">Spring-blooming trailing groundcover with dark green leaves and purple, blue, or white flowers, any of several members of the Vinca family. Native to the northern Mediterranean and naturalized in the UK.</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Vinca_major"/></note>
 				</item>
@@ -1175,10 +1656,10 @@
 				<item xml:id="tulip">
 					<name ref="#tulip">tulip</name>
 					<name ref="#tulip"><addName>Tulipa</addName></name>
-					<name 
+					<!--<name 
 						<rs type="genus">Tulipa</rs>
 					<rs type="family">Lilieae</rs>
-					</name>
+					</name>-->
 					<note resp="#lmw">Large family of spring-blooming bulbs native to Southern Europe and Central Asia but cultivated as a garden plant and cut flower worldwide since the seventeenth century. Some varieties naturalized in Europe and parts of the UK, particulatly in eastern England and Scotland. After the so-called <soCalled>tulip mania</soCalled> in Europe in the 17th century, tulips became associated with the Netherlands and Dutch Golden Age painters, who included them in their still-life paintings. In her <title>Journal</title>, Mitford refers to <quote>field tulips</quote>, presumably a naturalized population.
 					</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Tulipa"/></note>
@@ -1187,9 +1668,10 @@
 				<item xml:id="sweet_pea">
 					<name ref="#sweet_pea">sweet pea</name>
 					<name ref="#sweet_pea"><addName>Lathyrus odorata</addName></name>
-					<name rs type="genus">Lathyrus</rs>
+				   <!--<name ref="#sweet_pea">
+					   <rs type="genus">Lathyrus</rs>
 					<rs type="family">Fabaceae</rs>
-					</name>
+					</name>-->
 					<note resp="#lmw">Spring-blooming vine with pink, purple, blue, or white flowers, native to Italy and the Aegean Islands. Cultivated in the UK since the introduction of seeds to England around 1700. Prized for their scent, sweet peas were a nineteenth-century favorite, hybridized for use as a commercial cut flower and as a garden plant.
 					</note>
 					<note><ptr target="https://thegardenstrust.blog/2015/09/26/the-sweet-pea-and-its-king/"/></note>
@@ -1199,10 +1681,10 @@
 				<item xml:id="pink">
 					<name ref="#pink">pink</name>
 					<name ref="#pink">dianthus plumarius</name>
-					<name ref="#pink">
-						<rs type="genus">Dianthus</rse>
+					<!--<name ref="#pink">
+						<rs type="genus">Dianthus</rs>
 					<rs type="family">Caryophyllaceae</rs>
-						</name>
+						</name>-->
 					<note resp="#lmw">Used generally for any of various members of the Dianthus family, particularly forms of D. plumarius. Spring-blooming evergreen groundcover with pink or white flowers, native to Austria, Slovenia, and Croatia and naturalized in the the UK and parts of western Europe. Also cultivated as a garden plant for its variegated pink flowers; sometimes known as the <soCalled>common pink</soCalled>, <soCalled>garden pink</soCalled>, or <soCalled>wild pink</soCalled>.
 					</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Dianthus_plumarius"/></note>
@@ -1217,9 +1699,10 @@
 				<item xml:id="foxglove">
 					<name ref="#foxglove">foxglove</name>
 					<name ref="#foxglove"><addName>Digitalis purpurea</addName></name>
-					<name ref="#foxglove"> <rs type="genus">Digitalis</rs>
+					<!--<name ref="#foxglove"> 
+					   <rs type="genus">Digitalis</rs>
 					<rs type="family">Digitalideae</rs>
-					</name>
+					</name>-->
 					<note resp="#lmw">Flowering plant native to western Europe, the Mediterranean, and the UK, and naturalized elsewhere. Also cultivated as a garden plant for its large, bell-shaped purple flower spikes.
 					</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/foxglove/"/></note>
@@ -1227,11 +1710,11 @@
 
 				<item xml:id="cabbage"><!--LMW: green cabbage? red cabbage is existing id. Create portmanteau entry?-->
 					<name ref="#cabbage">cabbage</name>
-					<name ref="#cabbage">
+				   <!--<name ref="#cabbage">
 					<rs type="genus">Brassica</rs>
 					<rs type="species">brassica oleracea</rs>
 					<rs type="family">Brassicaceae</rs>
-					</name>
+					</name>-->
 					<note resp="#lmw"></note>
 				</item>
 			
@@ -1318,7 +1801,7 @@
 						<rs type="family">Rosaceae</rs>
 						<rs type="order">Rosales</rs>
 					</name>-->
-					<note resp="#smp">A rose hybrid that is renowned for its fine fragrance.</note>
+					<note resp="#SMP">A rose hybrid that is renowned for its fine fragrance.</note>
 				</item>
 				
 				<item xml:id="Guelder_rose">
@@ -1386,22 +1869,22 @@
 				
 				<item xml:id="heath">
 					<name ref="#heath">heath</name>
-					<name>
+				   <!--<name ref="#heath">
 					<rs type="genus">Erica</rs>
 					<rs type="species"></rs>
 					<rs type="family">Ericaceae</rs>
-					</name>
+					</name>-->
 					<note resp="#qar">There are many varieties of heath, but this one is synonymous with the English common names <soCalled>heath</soCalled> and <soCalled>heather</soCalled>. Heather, in floriography, can mean three different things. In general, it means good luck. White heather is  protection, and that wishes will come true, while lavender heather represents admiration and solitude. The latter meaning fits.</note>
 					<note><!-- heathland and moorland --><ptr target="https://www.wildlifetrusts.org/habitats/heathland-and-moorland"/></note>
 				</item>
 				
 				<item xml:id="broom">
 					<name ref="#broom">broom</name>
-					<name>
+				   <!--<name ref="#broom">
 					<rs type="genus">Cytisus</rs>
 					<rs type="species">C. scoparius</rs>
 					<rs type="family">Fabaceae</rs>
-					</name>
+					</name>-->
 					<note resp="#qar">Also known as Scotch broom. Represents humility and neatness in floriography. Inthe Fourth Branch of the Mabinogi, the tale of Math son of Mathonwy, Blodeuwedd is the name of a woman made from the flowers of broom, meadowsweet and the oak by Math fab Mathonwy and Gwydion to be the wife of Lleu Llaw Gyffes. This is a part of Welsh mythology. <q>Sweep the house with blossed broom in May/sweep the head of the household away</q> is a traditional rhyme from Sussex. It was common to include a decorated bundle of broom at weddings. Ashes of broom were used to treat dropsy, and said to tame wild dogs and horses with its smell.</note>
 					<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/broom"/></note>
 				</item>
@@ -1478,11 +1961,11 @@
                             
                             <item xml:id="hollyhock">
                                 <name ref="#hollyhock">hollyhock</name>
-                            	<name ref="#hollyhock">
+                               <!--<name ref="#hollyhock">
                                 <rs type="genus">alcea</rs>
                                 <rs type="species">malvaceae</rs>
                                 <rs type="family">malvaceae</rs>
-                            	</name>
+                            	</name>-->
                                 <note resp="#tfb">This flower is commonly called alcea, but is often known as hollyhock. It is native to Asia and Europe.</note>
                             </item>
 
@@ -1520,6 +2003,7 @@
                </event>-->
          </div>
          <div type="art">
+            <list sortKey="art">
             <item/>
             <figure xml:id="Jerusalem_Crucifixion_TCH" type="painting" rend="oil">
                <bibl>
@@ -1540,7 +2024,7 @@
             <!--LMW: 1817 Reviews of the exihibition of the painting:  
 				https://books.google.com/books?id=A18oAAAAYAAJ&newbks=1&newbks_redir=0&dq=Hofland%20Jerusalem%20at%20the%20Crucifixion&pg=PA115#v=onepage&q=Hofland%20Jerusalem%20at%20the%20Crucifixion&f=false
 				https://books.google.com/books?id=A18oAAAAYAAJ&newbks=1&newbks_redir=0&dq=Hofland%20Jerusalem%20at%20the%20Crucifixion&pg=PA115#v=onepage&q=Hofland%20Jerusalem%20at%20the%20Crucifixion&f=false-->
-         </div>
+            </list>
          </div>
          <div type="publications">
           
@@ -1563,25 +2047,92 @@
                </bibl>
                -->
             
-            <listBibl sortKey="work_MRM"><!--For other printed works than serials, published during Mitford's lifetime-->
-               <bibl/>
-            </listBibl>
-            <!--SAMPLE: 
-                     <bibl xml:id="Abbot_WS">
-                  <title level="m">The Abbot</title>
-                  <author ref="#Scott_Wal">Walter Scott</author>
-                  <date when="1820">1820</date>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Archibald Constable and Company, and John Ballantyne</publisher>
-                  <note resp="#ebb">Historical novel: One of Scott’s series of <title level="s">Tales from Benedictine Sources</title>, <title level="m">The Abbot</title> introduces
-                     the character <persName>Roland Graeme</persName>, and renders <rs type="event">the experiences of <persName ref="#MaryQoS">Mary, Queen of Scots</persName>
-                        during her imprisonment and escape from <placeName>Loch Leven
-                           Castle</placeName> in <date when="1567">1567</date>
-                     </rs>.</note>
-               </bibl>
-               -->
+            <div type="publications">
+               <listBibl sortKey="work_MRM">
+                  
+                  <bibl xml:id="CanterburyTales">
+                     <title level="m">The Canterbury Tales</title>
+                     <author><persName ref="#Chaucer">Chaucer</persName></author>
+                     <date>1400</date>
+                     <note resp="#lmw">Collection of 23 tales and a prologue frame story, written over a period of years before <persName ref="#Chaucer">CHaucer</persName>'s death in 1400.</note>
+                     <note><ptr target="https://www.dhi.ac.uk/projects/canterbury-tales/"/></note>
+                  </bibl>
+                  
+                  <bibl xml:id="Chaucer_Wks_Martins">
+                     <title level="m">Poetical Works of Geoffrey Chaucer</title>
+                     <author><persName ref="#Chaucer">Chaucer</persName></author>
+                     <publisher>Martins</publisher>
+                     <pubPlace>Edinburgh</pubPlace>
+                     <date>1782</date>
+                     <note resp="#lmw">Collected poetical works, including the <title ref="#CanterburyTales">Canterbury Tales</title>, in 14 volumes, published beginning in 1782.</note>
+                  </bibl>
+                  
+                  <bibl xml:id="Methought_sonnet23">
+                     <title level="a">Methought I Saw my Late Espoused Saint</title>
+                     <author><persName ref="#Milton">Milton</persName></author>
+                     <pubPlace>London</pubPlace>
+                     <publisher>Dring</publisher>
+                     <date>1673</date>
+                     <bibl corresp="#Milton_PoemsII"/>
+                     <note resp="#lmw">Milton's sonnet later designated 23, <title level="a">Methought I Saw my Late Espoused Saint</title>, sometimes referred to as <title level="a">On His Late Wife</title> or <title level="a">On His Deceased Wife</title></note>
+                  </bibl>
+                  
+                  <bibl xml:id="Milton_PoemsII">
+                     <title level="m">Poems on Several Occasions by Mr. John Milton, both English and Latin, composed at several times</title>
+                     <author><persName ref="#Milton">Milton</persName></author>
+                     <pubPlace>London</pubPlace>
+                     <publisher>Dring</publisher>
+                     <date>1673</date>
+                  </bibl>
+                  
+                  <bibl xml:id="Milton_PoemsI">
+                     <title level="m">Poems on Several Occasions by Mr. John Milton, both English and Latin, composed at several times</title>
+                     <author><persName ref="#Milton">Milton</persName></author>
+                     <pubPlace>London</pubPlace>
+                     <publisher>Mosley</publisher>
+                     <date>1645</date>
+                     <note resp="#lmw"><persName ref="#Milton">Milton</persName>'s first published collection of poems.</note>
+                  </bibl>
+                  
+                  <bibl xml:id="Prayer_Souls_Desire">
+                     <title level="a">Prayer is the Soul's Sincere Desire</title>
+                     <author>
+                        <persName ref="#Montgomery_J">James Montgomery</persName>
+                     </author>
+                     <date>1818</date>
+                     <note><ptr target="https://hymnary.org/text/prayer_is_the_souls_sincere_desire"/></note>
+                  </bibl>		
+                  
+                  <bibl xml:id="Il_Pensoroso">
+                     <title level="a">Il Pensoroso</title>
+                     <author><persName ref="#Milton">Milton</persName></author>
+                     <pubPlace>London</pubPlace>
+                     <date>1645</date>
+                     <bibl corresp="#Milton_PoemsI">Poems on Several Occasions by Mr. John Milton</bibl>
+                     <note resp="#lmw">Written 1632, together with <title ref="#Lallegro"></title>L' Allegro.</note>
+                  </bibl>
+                  
+                  <bibl xml:id="Laodamia_WW">
+                     <title level="a">Laodamia</title>
+                     <author>
+                        <persName ref="#Wordsworth_Wm">William Wordsworth</persName>
+                     </author>
+                     <pubPlace ref="#London_city">London</pubPlace>
+                     <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                     <date when="1815">1815</date>
+                     <bibl corresp="#Poems_2vols_WW"/>
+                  </bibl>
+                  
+                  <bibl xml:id="Poems_2vols_WW">
+                     <title>Poems by William Wordsworth: Including Lyrical Ballads, and the Miscellaneous Pieces of the Author. With Additional Poems, a New Preface, and a Supplementary Essay. in Two Volumes</title>
+                     <author>
+                        <persName ref="#Wordsworth_Wm">William Wordsworth</persName>
+                     </author>
+                     <pubPlace ref="#London_city">London</pubPlace>
+                     <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                     <date when="1815">1815</date>
+                  </bibl>
+               </listBibl>
             
             <listBibl sortKey="schol"><!--Scholarship from our time, after Mitford's-->
                <bibl/>
@@ -1598,6 +2149,7 @@
                </bibl>
                -->
          </div>
-         
+         </div>
       </body>
   </text>
+</TEI>
