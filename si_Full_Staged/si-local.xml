@@ -23141,15 +23141,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                
                <item xml:id="swan">
-                  <name ref="#swan">mute swan</name>
-                  <name ref="#swan">Cygnus olor</name>
-                  <name ref="#swan">domestic swan</name>
-                  <name ref="#swan">tame swan</name>
-                  <name ref="#swan">
-                     <rs type="genus">Cygnus</rs>
-                     <rs type="species">Cygnus</rs>
-                     <rs type="family">Anatidae</rs>
-                  </name>
+                  <name>mute swan</name>
+                  <name type="species">Cygnus olor</name>
+                  <name type="genus">Cygnus</name>
+                  <name type="family">Anatidae</name>
+                  <name><addName>domestic swan</addName></name>
+                  <name><addName>tame swan</addName></name>
                   <note resp="#lmw">The mute swan, a large white waterbird with a distinctive orange-red and black knobbed beak, is a Eurasian species prevalent across Europe and the UK. Associated with Apollo and Venus in classical mythology. Symbolic of purity, because of their color; and faithful love, since swans are believed to grieve for the loss or death of a mate or cygnet. Mythologized as singing beautifully before their death, and thus, identified with extraordinary singers or poets; for example, referring to Shakespeare as the <q>swan of Avon</q>.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/mute-swan/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Cygnus_olor"/></note>

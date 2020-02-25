@@ -141,6 +141,7 @@
                 <persName>
                    <forename>Jane</forename>
                 </persName>
+                <occupation type="service" subtype="maid"/>
                 <note resp="#lmw">Maidservant at <placeName ref="#Bertram_house">Bertram House</placeName>, who left the Mitford's service in early <date when="1819"/>. Surname unknown.</note>
              </person>
              
@@ -149,6 +150,7 @@
                 <persName>
                    <forename>Anne</forename>
                 </persName>
+                <occupation type="service" subtype="cook"/>
                 <note resp="#lmw">Cook at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1820">1820</date>. Surname unknown.</note>
              </person>
              
@@ -157,6 +159,7 @@
                 <persName>
                    <forename>George</forename>
                 </persName>
+                <occupation type="service" subtype="manservant"/>
                 <note resp="#lmw">Manservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. Surname unknown.</note>
              </person>
              
@@ -227,7 +230,7 @@
                 <persName>Miss Newman</persName>
                 <persName>
                    <surname>Newman</surname>
-                   <roleName>Miss.</roleName>
+                   <roleName>Miss</roleName>
                 </persName>
                 <note resp="#lmw"></note>
              </person>
@@ -240,6 +243,11 @@
                    <forename>Robert</forename>
                    <roleName>Rev.</roleName>
                 </persName>
+                <birth when="1780"/>
+                <death when="1872">
+                   <placeName>Babington, Somersetshire</placeName>
+                </death>
+                <occupation type="religious" subtype="clergy"/>
                 <!--1780-1872 Alum of Reading School and Trinity College Cambridge, rector of Babington in Somerset, 1810-1872 --> <!--UNMARRIED, so not Mr. and Mrs. Jolliffe-->
              </person>
              
@@ -322,7 +330,7 @@
                    <placeName>Wells, Somerset, England</placeName>
                 </death>
                 <note resp="#lmw">Sarah Frances, called Frances or Fanny, third daughter <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName> and his second wife,
-                   <persName>Mary Benwell</persName>. <rs type="event">She married <persName>Thomas Allen Shuter</persName>
+                   <persName ref="#Benwell_M">Mary Benwell</persName>. <rs type="event">She married <persName>Thomas Allen Shuter</persName>
                       of Kent on <date when="1810-04-14">14 April 1810</date>
                    </rs> at St. Lawrence, Reading, Berkshire. They lived in Lewisham St. Mary, Kent, and
                    had eleven children.</note>
@@ -331,6 +339,7 @@
              <person xml:id="Wylde_H" sex="f">
                 <persName>Harriet Wylde Valpy</persName>
                 <persName>
+                   <forename>Harriet</forename>
                    <surname type="married">Valpy</surname>
                    <surname type="paternal">Wylde</surname>
                 </persName>
@@ -407,17 +416,12 @@
                 <occupation type="military" subtype="navy"/>
                 <occupation type="medical" subtype="surgeon"/>
                 <note resp="#lmw">Dr. Harness was a naval surgeon, father of <persName ref="#Harness_Wm">William Harness</persName>. Dr. Harness was friend of the <orgName ref="#Mitfords">Mitfords</orgName> before their marraige and Dr. Harness gave away <persName ref="#Russell_M">Mary Russell</persName> at her marriage to <persName ref="#Mitford_Geo">George Mitford</persName>. Although Dr. Harness spent much of his career at naval outposts and in London, the family lived in Watlington when William was a child. He served as Physician to the Fleet under Admiral Hood in the Mediterranean, as Chairman and Medical Commissioner of the Sick and Wounded Board in London, Medical Commissioner of His Majesty's Navy. He was instrumental in promoting measures to prevent scurvy in British seamen and advocated for better treatment of naval surgeons.</note>
+                <note><ptr target="http://viaf.org/viaf/315953110"/></note>
                 <note><ptr target="https://collections.rmg.co.uk/collections/objects/42027.html"/><!--miniature portrait of Dr. H.--></note>
              </person>
-             
-             <!--https://books.google.com/books?id=ys6psimicxYC&lpg=PA306&ots=_NrOqM050Y&dq=Harness%2C%20Dr%20surgeon%20naval&pg=PA306#v=onepage&q=Harness,%20Dr%20surgeon%20naval&f=false-->
-             
-             <!-- Watlington http://www.oxfordshirevillages.co.uk/southoxonvillages/watlington.html -->
-             
-             <!-- The Town of Reading in the Early Part of the Nineteenth century by Childs.  https://archive.org/details/townofreadingdur00chiluoft-->
-             
+              
              <person xml:id="Harness_Wm" sex="m"><!--LMW: revised 2020-01-01-->
-                <persName>William Harness</persName>
+                <persName>Rev. William Harness</persName>
                 <persName>
                    <forename>William</forename>
                    <surname>Harness</surname>
@@ -485,7 +489,7 @@
                 </note>
              </person>
              
-             <person xml:id="Titian" sex="m"><!--LMW: stub, needs note.-->
+             <person xml:id="Titian" sex="m">
                 <persName>Titian</persName>
                 <persName>
                    <forename>Tiziano</forename>
@@ -497,13 +501,14 @@
                 <death when="1576-08-27">
                    <placeName>Venice, Italy </placeName>
                 </death>
-                <occupation type="artist"/>
+                <occupation type="artist" subtype="painter"/>
+                <note resp="#lmw">16th-century Italian painter, based in Venice, with an international clientele. Painted frescoes, portraits, and public religious paintings. Worked in styles ranging from mannerism to magic impressionism.</note>
                 <note>
                    <ref target="http://viaf.org/viaf/109266837"/>
                 </note>
              </person>
              
-             <person xml:id="Rousseau" sex="m"><!--LMW: stub, needs note.-->
+             <person xml:id="Rousseau" sex="m">
                 <persName>Jean-Jacques Rousseau <forename>Jean-Jacques</forename>
                    <surname>Rousseau</surname>
                 </persName>
@@ -515,14 +520,19 @@
                 </death>
                 <occupation type="literary"/>
                 <occupation type="literary" subtype="poet"/>
+                <occupation type="literary" subtype="autobiographer"/>
+                <occupation type="scholar" subtype="philosopher"/>
                 <occupation type="government" subtype="politician"/>
                 <occupation type="educator"/>
+                   <note resp="#lmw">18th-century French philosopher, novelist, and memoirist, whose political philosophy regarding the social contract, inequality, and individual human rights were influential throughout Europe and shaped the <rs type="event" ref="#French_Revol">French Revolution</rs>. His fiction and autobiographical writings influenced the literature of sensibility and the development of Romanticism. </note>
+                
                 <note>
                    <ref target=" http://viaf.org/viaf/10018405"/>
                 </note>
              </person>
              
-             <person xml:id="Sevigne_Mad" sex="f"><!--LMW: stub, needs note.-->
+             <person xml:id="Sevigne_Mad" sex="f">
+                <persName>Madame Sévigné</persName>
                 <persName>
                    <forename>Marie</forename>
                    <surname>de Rabutin-Chantal</surname>
@@ -538,13 +548,14 @@
                 <death when="1696-04-17">
                    <placeName>Grignan, France</placeName>
                 </death>
-                <occupation type="literary"/>
+                <occupation type="literary" subtype="autobiographer"/>
+                <note resp="#lmw">17th-century French aristocrat and salonniere, celebrated as a letter writer.</note>
                 <note>
                    <ref target="http://viaf.org/viaf/32002865"/>
                 </note>
              </person>
             
-             <person xml:id="deStael" sex="f"><!--stub: LMW write a better note, Mitford importance.-->
+             <person xml:id="deStael" sex="f">
                 <persName>Germaine de Staël</persName>
                 <persName>
                    <forename>Anne</forename>
@@ -564,7 +575,7 @@
                 <occupation type="literary" subtype="novelist"/>
                 <occupation type="literary" subtype="essayist"/>
                 <occupation type="literary" subtype="biographer"/>
-                <note resp="#lmw">French salonierre, celebrity and writer. Author of <title ref="#Corinne_deS">Corinne</title>, influential novel about a celebrated Italian improvatrice.</note>
+                <note resp="#lmw">Franco-Swiss salonierre, celebrity and writer. Author of <title ref="#Corinne_deS">Corinne</title>, a novel about a celebrated Italian improvatrice that influenced representations of female authorship in the nineteenth century.</note>
                 <note>
                    <ref target="http://viaf.org/viaf/89204033"/>
                 </note>
@@ -621,7 +632,7 @@
                 </persName>
                 <birth notAfter="1760-12-04"/>
                 <death when="1829-10-10"/>
-                <note resp="#lmw">Heir to his father's property at Coley Park, Berkshire and at Weston Grove, Hampshire. He served as Member of Parliament for Christchurch from 31 May 1800 to 1802 and for Southampton from 7 March 1818 until his death on 10 October 1829; he campaigned on a radical reform platform. Mitford dedicated her <title ref="#DramaticScenes">1827 poem collection</title> to him.<!--LMW: no VIAF #.--></note>
+                <note resp="#lmw">Heir to his father's property at Coley Park, Berkshire and at Weston Grove, Hampshire. He served as Member of Parliament for Christchurch from 31 May 1800 to 1802 and for Southampton from 7 March 1818 until his death on 10 October 1829; he campaigned on a radical reform platform. Mitford dedicated her 1827 poem collection,<title ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title> to him.<!--LMW: no VIAF #.--></note>
                 <note><ptr target="http://www.historyofparliamentonline.org/volume/1790-1820/member/chamberlayne-william-1760-1829"/></note>
              </person> 
              
@@ -637,7 +648,7 @@
                 <death when="1819-10-20">
                    <placeName>Lisbon, Portugal</placeName>
                 </death>
-                <note resp="#lmw">A friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName> in 1819. The 6th daughter of George Ramsay (1769-1810) of Edinburgh. Dedicatee of Mitford's <title ref="#FriendToLisbon_1827">On the Departure of a Friend to Lisbon for the Recovery of Her Health.</title> <persName ref="#James_Emily">Emily James</persName> accompanied her to Lisbon before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note><!--LMW: no VIAF #.-->
+                <note resp="#lmw">A friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName> in 1819. The 6th daughter of George Ramsay of Edinburgh (1769-1810). Dedicatee of Mitford's <title ref="#FriendToLisbon_1827">On the Departure of a Friend to Lisbon for the Recovery of Her Health.</title> <persName ref="#James_Emily">Emily James</persName> accompanied her to Lisbon before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note><!--LMW: no VIAF #.-->
              </person> 
              
              <person xml:id="Antinous" sex="m">
@@ -719,7 +730,7 @@
              
              <person xml:id="Apollo" sex="m">
                 <persName>Apollo</persName>
-                <note resp="#lmw">In Greek mythology, the son of Zeus and Leto; one of the twelve Olympians. He was known as the god of medicine, and later, was associated with the sun god Phoebus; however, his most important association in 18th- and 19th- century literature was as the leader of the Muses, and god of music and poetry. He is conventionally pictured carrying the kithara or lyre, and wearing a laurel wreath, emblems of poetic accomplishment.</note>
+                <note resp="#lmw">In Greek mythology, the son of Zeus and Leto; one of the twelve Olympians. He was known as the god of medicine, and later, was associated with the sun god Phoebus; however, his most important association in 18th- and 19th-century literature was as the leader of the Muses, and god of music and poetry. He is conventionally pictured carrying the kithara or lyre, and wearing a laurel wreath, emblems of poetic accomplishment.</note>
              </person>
              
              <person xml:id="Hercules" sex="m">
@@ -734,7 +745,7 @@
              
              <person xml:id="Niobe" sex="f">
                 <persName>Niobe</persName>
-                <note resp="#lmw #slc">Greek mythological figure who boasted of her fourteen children, (called the Niobids). As a punishment for her boastfulness, Artemis who killed all but one of her children. Became proverbial for tears and extreme sorrow, particularly maternal grief.</note>
+                <note resp="#lmw #slc">Greek mythological figure who boasted of her fourteen children, (called the Niobids). As a punishment for her boastfulness, Artemis killed all but one of her children. Became proverbial for tears and extreme sorrow, particularly maternal grief.</note>
              </person>
           </listPerson>
              
@@ -746,7 +757,7 @@
                
                <person xml:id="Blondel_fict" sex="m">
                   <persName>Blondel</persName>
-                  <note resp="#lmw">Fictional character loosely based on a 13th-century French trouvére or troubador, either Jean I of Nesle (died 1202) or his son Jean II of Nesle (died 1241), associated with more than twenty courtly songs attributed to Blondel de Nesle. In the <title level="m">Récits d'un Ménestrel de Reims</title>, Blondel is a mythologized minstrel character who rescues an equally mythologized <persName ref="#RichardI">Richard I</persName> from prison through his songs. Blondel's story became popularized in the late eighteenth century and formed the basis for an opera as well as for Eleanor Porden's <title ref="#Coeur_de_Lion_poem">Coeur de Lion</title>, in which Blondel turns out to be Richard's wife <persName ref="#Berengaria">Berengaria</persName> in disguise.</note><!--LMW: late 18th c. English language source? Ck. with EBB.  Sir James Bland Burges, Richard the first, a poem: in eighteen books (1801)?-->
+                  <note resp="#lmw">Fictional character loosely based on a 13th-century French trouvére or troubador, either Jean I of Nesle (died 1202) or his son Jean II of Nesle (died 1241), associated with more than twenty courtly songs attributed to <soCalled>Blondel de Nesle</soCalled>. In the <title level="m">Récits d'un Ménestrel de Reims</title>, Blondel is a mythologized minstrel character who rescues an equally mythologized <persName ref="#RichardI">Richard I</persName> from prison through his songs. Blondel's story became popularized in the late eighteenth century and formed the basis for an opera as well as for Eleanor Porden's <title ref="#Coeur_de_Lion_poem">Coeur de Lion</title>, in which Blondel turns out to be Richard's wife <persName ref="#Berengaria">Berengaria</persName> in disguise.</note><!--LMW: late 18th c. English language source? Ck. with EBB.  Sir James Bland Burges, Richard the first, a poem: in eighteen books (1801)?-->
                </person>
                
                <person xml:id="Marygold_pet_OV" sex="f">
@@ -807,7 +818,7 @@
                   <placeName>Austria</placeName>
                   <country>Austria</country>
                   <location>
-                     <geo>47.333333, 13.333333</geo>
+                     <geo>47.333333 13.333333</geo>
                   </location>
                   <note resp="#lmw">Country in Central Europe, currently the Republic of Austria, made up of nine federated states, whose capital is Vienna. From the 16th century, a center of the Habsburg monarchy and an archduchy and center of the Holy Roman Empire. In the early 19th century, Austria established itself as an empire and a leading power in the German Confederation.</note>
                </place>
@@ -864,7 +875,7 @@
                   <location>
                      <geo>51.419444 -1.3375</geo>
                   </location>
-                  <note resp="#lmw">Ruined medieval castle, of which only the 14th-century gatehouse remains standing. In 1398, Thomas Chaucer, the brother of <persName ref="#Chaucer">the poet Chaucer</persName>, purchased the castle for his daughter. In 1646, the Castle was captured by <orgName ref="#Royalists">Royalist forces</orgName> and endured an eighteen month siege by <orgName ref="#Parliamentarians">Parliamentarian forces</orgName>, after which time to main portion of the Castle was demolished. The gatehouse and ruins are now a scheduled ancient monument, number 233041.</note>
+                  <note resp="#lmw">Ruined medieval castle, of which only the 14th-century gatehouse remains standing. In 1398, Thomas Chaucer, the brother of <persName ref="#Chaucer">the poet Chaucer</persName>, purchased the castle for his daughter. In 1646, the Castle was captured by <orgName ref="#Royalists">Royalist forces</orgName> and endured an eighteen-month siege by <orgName ref="#Parliamentarians">Parliamentarian forces</orgName>, after which time the main portion of the Castle was demolished. The gatehouse and ruins are now a scheduled ancient monument, number 233041.</note>
                   <note><ptr target="http://www.newburyhistory.co.uk/donnington-castle"/></note>
                </place>
                
@@ -887,7 +898,7 @@
                   <region>Cumbria</region>
                   <country>England</country>
                   <location>
-                     <geo>54.358333, -2.936111</geo>
+                     <geo>54.358333 -2.936111</geo>
                   </location>
                   <note resp="#lmw">One of two longest and deepest lakes in England, in the Lake District, located near the town of the same name, now in the County of Cumbria and part of the Lake District National Park. Historically, the lake made up part of the border between the counties of Westmorland and Lancashire.</note>
                </place>
@@ -922,6 +933,8 @@
                <item xml:id="kingfisher">
                   <name>common kingfisher</name>
                   <name type="species">Alcedo atthis</name>
+                  <name type="genus">Alcedo</name>
+                  <name type="family">Alcedinidae</name>
                   <note resp="#lmw">Small blue and orange bird with a large head pointed beak; frequents riparian areas and feeds on small fish and other invertebrates. Widely distributed across Eurasia and North Africa.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/kingfisher/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Alcedo_atthis"/></note>
@@ -929,16 +942,19 @@
                
                <item xml:id="blackbird">
                   <name>common blackbird</name>
-                  <name  type="species">Turdus merula</name>
+                  <name type="species">Turdus merula</name>
+                  <name type="genus">Turdus</name>
+                  <name type="family">Turdidae</name>
                   <name><addName>Eurasian blackbird</addName></name>
-                  <note resp="#lmw">Medium-sized black member of the thrush family, with a yellow-orange bill and distinctive yellow ring around its eye. Widely distributed across Eurasia and North Africa; unrelated to New World blackbirds.</note>
-                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/blackbird/"/></note>
+                  <note resp="#lmw">Medium-sized black member of the thrush family, with a yellow-orange bill and distinctive yellow ring around its eye. Widely distributed across Eurasia and North Africa; unrelated to New World blackbirds.</note><note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/blackbird/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Turdus_merula"/></note>
                </item>
                
                <item xml:id="rook">
                   <name>rook</name>
                   <name type="species">Corvus frugilegus</name>
+                  <name type="genus">Corvus</name>
+                  <name type="family">Corvidae</name>
                   <note resp="#lmw">Large member of the crow family, with a distinctive light-colored bill and featherless area on the face; roosts at the tops of trees in large social groups. Historically, British farmers have considered them nuisances, as they forage in agricultural fields and elsewhere for seeds as well as ground-based insects like grubs.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/rook/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Corvus_frugilegus"/></note>
@@ -947,6 +963,8 @@
                <item xml:id="cuckoo">
                   <name>common cuckoo</name>
                   <name type="species">Cuculus canorus</name>
+                  <name type="genus">Cuculus</name>
+                  <name type="family">Cuculidae</name>
                   <name ref="#cuckoo"><addName>European cuckoo</addName></name>
                   <note resp="#lmw">Migratory medium-sized blue-gray bird with long tail and wings that arrives in the UK in early spring. They are brood parasites who lay their eggs in the nest of other birds; they became proverbial for usurpers. <persName ref="#Wordsworth_Wm">Wordsworth</persName> published a poem <title level="a">To Cuckoo</title> in 1807</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/cuckoo/"/></note>
@@ -956,33 +974,21 @@
                <item xml:id="swallow">
                   <name>swallow</name>
                   <name type="species">Hirundo rustica</name>
+                  <name type="genus">Hirundo</name>
+                  <name type="family">Hirundinidae</name>
                   <name><addName>barn swallow</addName></name>
                </item>
                <note resp="#lmw">Bluish-black insect-eating migratory bird with a deeply forked tail, whitish underparts and rufous head markings. The only type of swallow resident in the UK, where it is called the <soCalled>swallow</soCalled>. Writing in 1789, <persName ref="#WhiteGilbert">Gilbert White</persName> notes that it is also called the <soCalled>chimmney swallow</soCalled> in Britain and the <soCalled>barn swallow</soCalled> in Sweden. Nests in manmade structures and frequents open meadows and pastures. Mitford generally uses the term <q>swallow</q>.</note>
                <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/swallow/"/></note>
                <note><ptr target="https://species.wikimedia.org/wiki/Hirundinidae"/></note>
                
-               <item xml:id="swan">
-                  <name ref="#swan">mute swan</name>
-                  <name ref="#swan">Cygnus olor</name>
-                  <name ref="#swan">domestic swan</name>
-                  <name ref="#swan">tame swan</name>
-                  <!--<name ref="#swan">
-					<rs type="genus">Cygnus</rs>
-					<rs type="species">Cygnus</rs>
-					<rs type="family">Anatidae</rs>
-					</name>-->
-                  <note resp="#lmw">The mute swan, a large white waterbird with a distinctive orange-red and black knobbed beak, is a Eurasian species prevalent across Europe. Associated with Apollo and Venus in classical mythology. Symbolic of purity, because of their color; and faithful love, since swans are believed to grieve for the loss or death of a mate or cygnet. Mythologized as singing beautifully before their death, and thus, identified with extraordinary singers or poets; for example, referring to Shakespeare as the <q>swan of Avon</q>.</note>
-                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/mute-swan/"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Cygnus_olor"/></note>
-               </item>
-               
                <item xml:id="turtle_dove">
-                  <name>European turtle dove</name>
+                  <name>turtle dove</name>
                   <name type="species">Streptopelia turtur</name>
-                  <name type="genus">streptopelia</name>
-					<name type="family">columbidae</name>
-                  <note resp="#SCR #lmw">Samll, pale brown and gray migratory member of the dove and pigeon family. Once common throughout Europe and the Middle East and wintering in southern Africa, it is now an endangered species in the U.K. and elsewhere. This bird is known for its mournful voice, and is therefore associated with love and loss. Mentioned in both the Old and New Testaments, in early-modern Europe the bird was mythologized as the partner of the phoenix.</note>
+                  <name type="genus">Streptopelia</name>
+					<name type="family">Columbidae</name>
+                  <name><addName>European turtle dove</addName></name>
+                  <note resp="#SCR #lmw">Samll, pale brown and gray migratory member of the dove and pigeon family. Once common throughout Europe and the Middle East and wintering in southern Africa, it is now an endangered species in the UK and elsewhere. This bird is known for its mournful voice, and is therefore associated with love and loss. Mentioned in both the Old and New Testaments, in early-modern Europe the bird was mythologized as the partner of the phoenix.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/turtle-dove/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Streptopelia_turtur"/></note>
                </item>
@@ -990,9 +996,9 @@
                <item xml:id="skylark">
                   <name>skylark</name>
                   <name type="species">Alauda arvensis</name>
+                  <name type="genus">Alauda</name>
+                  <name type="family">Alaudidae</name>
                   <name><addName>Eurasian skylark</addName></name>
-                  <name type="genus">alauda</name>
-                  <name type="family">alaudidae</name>
                   <note resp="#SCR #lmw">Eurasian songbird with gray-brown plumage above and whitish plumage beneath. Famous for its melodius warbling song while in flight, the sky-lark is associated with love and lovers. Percy Shelley's poem <title level="a">To a Skylark</title> appeared in 1820.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/skylark/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Alauda_arvensis"/></note>
@@ -1000,14 +1006,16 @@
                
                <item xml:id="lark">
                   <name>lark</name>
-                  <note resp="#lmw">In the UK, the lark family includes the <name ref="#woodlark">woodlark</name>, the <name ref="#skylark">skylark</name>, and the <name ref="#shore_lark">shore lark</name>. Symbolically associated with the break of day. In Britain, the term <soCalled>lark</soCalled> conventionally refers to the <name ref="#skylark">skylark</name>. Because of its habit of singing early in the morning, proverbial for early rising, and for happiness.</note>
+                  <note resp="#lmw">In the UK, the lark family includes the <name ref="#woodlark">woodlark</name>, the <name ref="#skylark">skylark</name>, and the <name ref="#shore_lark">shore lark</name>. In Britain, the term <soCalled>lark</soCalled> conventionally refers to the <name ref="#skylark">skylark</name>. Because of its habit of singing early in the morning, proverbial for early rising, and for happiness.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/lark-family/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Alaudidae"/></note>
                </item>
                
                <item xml:id="woodlark">
-                  <name ref="#woodlark">woodlark</name>
-                  <name ref="#woodlark">Lullula arborea</name>
+                  <name>woodlark</name>
+                  <name type="species">Lullula arborea</name>
+                  <name type="genus">Lullula</name>
+                  <name type="family">Alaudidae</name>
                   <note resp="#lmw">Eurasian lark with distinctive black and yellow facial markings. Prefers open clearings near pine forest and heathland.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/woodlark/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lullula_arborea"/></note>
@@ -1016,6 +1024,8 @@
                <item xml:id="shore_lark">
                   <name>shore lark</name>
                   <name type="species">Eremophila alpestris</name>
+                  <name type="species">Eremophila</name>
+                  <name type="family">Alaudidae</name>
                   <name><addName>horned lark</addName></name>
                   <note resp="#lmw">Lark native to northern Eurasia and North America; also known as the <soCalled>horned lark</soCalled>. Prefers open fields as well as seashores.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/shore-lark/"/></note>
@@ -1034,9 +1044,9 @@
                
                <item xml:id="dove">
                   <name>dove</name>
-                  <name type="species">columbidae</name>
-                  <name type="genus">streptopelia</name>
-					<name type="family">columbidae</name>
+                  <name type="species">Columbidae</name>
+                  <name type="genus">Streptopelia</name>
+					<name type="family">Columbidae</name>
                   <note resp="#lmw">During the 19th century, four types of doves and pigeons were found in Britain: the <name ref="#stock_dove">stock dove</name>, the <name ref="#rock_dove">rock dove</name>, or feral species of the domestic pigeon, and the <name ref="#turtle_dove">turtle dove</name>, as well as the <name ref="#wood_pigeon">wood pigeon</name>. Domesticated pigeons such as carrier, homing, and racing pigeons are species of the rock dove. In Britain, the <name ref="#wood_pigeon">wood pigeon</name> is hunted as a game bird and domesticated pigeons were also used as food. In the ancient world, doves were associated with goddesses of love, sexuality, and maternity, such as Inanna Ishtar and Aphrodite. Doves carry symbolic significance in both the Old and New Testaments of the Hebrew Bible: in Genesis in the story of Noah and the ark as a symbol of peace and deliverance, in the Song of Songs as a term of endearment, and in Matthew as a symbol of the Holy Spirit. Doves were also acceptable burnt offerings and came to symbolize peace in early Christianity. Later literary and artistic references often draw on this association of doves with peace, deliverance, and spiritual gifts, and are representations of the rock dove, which is highly variable in color, ranging from white to shades of grey and pale brown.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/pigeons-and-doves/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Columbidae"/></note>
@@ -1059,17 +1069,17 @@
                   <name type="genus">Columba</name>
                   <name type="family">Columbidae</name>
                   <name ref="#rock_dove"><addName>rock pigeon</addName></name>
-                  <note resp="#lmw">Very common and widely distributed dove, originally native to Eurasia and North Africa. Feral rock doves are pale grey with an iridescent green neck and two black bars on their wings. Domesticated pigeons, including racing, homing and carrier pigeons, as well as those raised for food, are all from the rock dove family. Highly variable in color, ranging from white to palee grey and brown, with a white rump. Literary and artistic representations of doves are most often white rock doves.</note>
+                  <note resp="#lmw">Very common and widely-distributed dove, originally native to Eurasia and North Africa. Feral rock doves are pale grey with an iridescent green neck and two black bars on their wings. Domesticated pigeons, including racing, homing and carrier pigeons, as well as those raised for food, are all part of the rock dove family. Highly variable in color, ranging from white to pale grey and brown, with a white rump. Literary and artistic representations of doves are most often white rock doves.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/rock-dove/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Columba_livia"/></note>
                </item>
                
                <item xml:id="wood_pigeon">
                   <name>woodpigeon</name>
-                  <name>Columba palumbus</name>
+                  <name type="species">Columba palumbus</name>
                   <name type="genus">Columba</name>
                   <name type="family">Columbidae</name>
-                  <note resp="#lmw">The most common member of the dove and pigeon family in Britain, large grey pigeon with a pinkish breast and distinctive white patches on its neck and wings.</note>
+                  <note resp="#lmw">The most common member of the dove and pigeon family in Britain, a large grey pigeon with a pinkish breast and distinctive white patches on its neck and wings.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/woodpigeon/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Columba_palumbus"/></note>
                </item>
@@ -1077,11 +1087,11 @@
                <item xml:id="robin">
                   <name>robin redbreast</name>
                   <name type="species">Erithacus rubecula</name>
-                  <name><addName>European robin</addName></name>
-                  <name><addName>bobbie</addName></name>
                   <name type="genus">Erithacus</name>
                   <name type="family">Muscicapidae</name>
-                  <note resp="#lmw">Small songbird, native to Europe, now considered a type of Old World flycatcher. In Mitford's time, believed to be part of the thrush family, along with nightingales. Not to be confused with the American robin, a new World thrush, and sometimes referred to as an <soCalled>English robin</soCalled> in America. Frequently referenced in British folk tales and popular culture, the bird became associated with the Christmas holiday in the mid-nineteenth century. The bird's name derives from the name Robin or Robert, which led to nicknames of <soCalled>Bob</soCalled> and <soCalled>Bobby</soCalled>. Robins in Great Britain are generally less wary of humans than their counterparts in continental Europe.</note>
+                  <name><addName>European robin</addName></name>
+                  <name><addName>bobbie</addName></name>
+                  <note resp="#lmw">Small songbird, native to Europe, now considered a type of Old World flycatcher. In Mitford's time, believed to be part of the thrush family, along with nightingales. Not to be confused with the American robin, a new World thrush, and sometimes referred to as an <soCalled>English robin</soCalled> in America. Frequently referenced in British folk tales and popular culture, the bird became associated with the Christmas holiday in the mid-nineteenth century. The bird's name derives from the male forename Robin or Robert, which led to nicknames of <soCalled>Bob</soCalled> and <soCalled>Bobby</soCalled>. Robins in Great Britain are generally less wary of humans than their counterparts in continental Europe. Mitford calls the tame robins she feeds her <q>bobbies</q>.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/robin/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Erithacus_rubecula"/></note>
                </item>
@@ -1089,10 +1099,10 @@
                <item xml:id="pheasant">
                   <name>pheasant</name>
                   <name type="species">Phasianus colchicus</name>
-                  <name><addName>common pheasant</addName></name>
                   <name type="genus">Phasianus</name>
                   <name type="family">Phasianidae</name>
-                  <note resp="#lmw">Large long-tailed game bird, native to Asia and populations elsewhere naturalized as well as raised for hunting. The males are brightly-colored, with green heads, while the females are drab. Hybridization has bred types in a variety of colors. Pheasants, likely from the Caucasus, were naturalized in Britain by at least 1050 AD, and may have arrived earlier. The ring-necked variety was reintroduced in the 18th century. In the UK, the birds are hunted by traditional driven-shoot methods, employing beaters, and rough shoot methods; both methods rely on gun dogs to flush and retrieve the birds.</note>
+                  <name><addName>common pheasant</addName></name>
+                  <note resp="#lmw">Large long-tailed game bird, native to Asia and populations elsewhere naturalized as well as raised for hunting. The males are brightly-colored, with green heads, while the females are drab. Hybridization has bred types in a variety of colors. Pheasants, likely from the Caucasus, were naturalized in Britain by at least 1050 AD, and may have arrived earlier, with the Romans. The ring-necked variety was reintroduced in the 18th century. In the UK, the birds are hunted by traditional driven-shoot methods, employing beaters, and rough shoot methods; both methods rely on gun dogs to flush and retrieve the birds.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/pheasant/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Phasianus_colchicus"/></note>
                </item>
@@ -1104,7 +1114,7 @@
                   <name><addName>Hungarian partridge</addName></name>
                   <name type="family">Phasianidae</name>
                   <name type="genus">perdix</name>
-                  <note resp="#lmw">Medium=sized plump grey game bird, smaller than a pheasant and larger than a quail.</note>
+                  <note resp="#lmw">Medium-sized plump grey game bird, smaller than a pheasant and larger than a quail. Native to Eurasia and the UK; has naturalized throughout North America. A nonmigratory bird that breeds on farmland, it is currently threatened in the UK, likely due to pesticide use and loss of habitat, while populations are healthy elsewhere.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/grey-partridge/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Perdix_perdix"/></note>
                </item>
@@ -1113,9 +1123,9 @@
                   <name>wild duck</name>
                   <name>mallard</name>
                   <name type="species">Anas platyrhynchos</name>
-                  <name type="family">Anatidae</name>
                   <name type="genus">Anas</name>
-                  <note resp="#lmw">Large dabbling duck with yellow-orange bill and dark blue and white wing tips, native to Eurasia, North Africa, and North America. Females are shades of brown, and males have a green head, purplish breast, and grey body. This wild species is the ancestor of most domestic ducks. They are the most commonly-hunted duck and has been a food source since ancient times.<!--scw: The wild ducks in this sketch are actually served as food. I am tagging them anyway.--></note>
+                  <name type="family">Anatidae</name>
+                  <note resp="#lmw">Large dabbling duck with yellow-orange bill and dark blue and white wing tips, native to Eurasia, North Africa, and North America. Females are shades of brown, and males have a green head, purplish breast, and grey body. This wild species is the ancestor of most domestic ducks. They are the most commonly-hunted duck and has been a food source since ancient times. Mitford generally uses the term <q>wild duck</q>.<!--scw: The wild ducks in this sketch are actually served as food. I am tagging them anyway.--></note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/mallard/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Anas_platyrhynchos"/></note>
                </item>
@@ -1135,7 +1145,7 @@
                   <name type="species">Lampyris noctiluca</name>
                   <name type="genus">Lampyris</name>
 				<name type="family">Lampyridae</name>
-                  <note resp="#lmw">The common glow-worm is a nocturnal beetle, found throughout Europe and Asia, a member of the bioluminescent family of insects commonly called lightning bugs or fireflies. The female forms are wingless, and thus became known as <soCalled>worms</soCalled>. Found in old-growth meadows, verge, hedgerows, and heaths, peaking in June and July. A favorite subject for 19th century poets.</note>
+                  <note resp="#lmw">The common glow-worm is a nocturnal beetle, found throughout Europe and Asia, a member of the bioluminescent family of insects commonly called lightning bugs or fireflies. The female forms are wingless, and thus became known as <soCalled>worms</soCalled>. Found in old-growth meadows, verge, hedgerows, and heaths, peaking in June and July. A favorite subject for 19th-century poets.</note>
                   <note><ptr target="https://www.nhm.ac.uk/discover/the-glimmering-world-of-glow-worms.html"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lampyris_noctiluca"/></note>
                </item>
@@ -1143,18 +1153,19 @@
                <item xml:id="grasshopper">
                   <name>grasshopper</name>
                   <name type="order">Orthoptera</name>
-                  <note resp="#lmw">Insect with large head, chewing mouthparts, and large hind legs for jumping. Fourteen types of grasshoppers and groundhoppers are endemic to the UK. The most common are the woodland, common green, field, meadow, and rufous grasshoppers.</note>
+                  <note resp="#lmw">Insect of the order of Orthoptera with large head, chewing mouthparts, and large hind legs for jumping. Fourteen types of grasshoppers and groundhoppers are endemic to the UK. The most common are the woodland, common green, field, meadow, and rufous grasshoppers.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Caelifera"/></note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/></note>
                </item>
                
                <item xml:id="cricket">
-                  <name ref="#cricket">field cricket</name>
+                  <name>cricket</name>
+                  <name>field cricket</name>
                   <name type="species">Gryllus campestris</name>
                   <name ref="#cricket"><addName>European field cricket</addName></name>
                  <name type="genus">Gryllus</name>
                   <name type="family">Gryllidae</name>
-                  <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endengered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush-crickets are also located in the UK. Symbolically associated with good luck.</note>
+                  <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endangered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush-crickets are also located in the UK. Symbolically associated with good luck. Mitford generally uses the simple term <q>cricket</q>.</note>
                   <note><ptr target="https://www.rspb.org.uk/our-work/conservation/projects/field-cricket-reintroduction/"/></note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Gryllus_campestris"/></note>
@@ -1171,25 +1182,25 @@
                   <note><ptr target="https://species.wikimedia.org/wiki/Forficula_auricularia"/></note>
                </item>
                
-               <!--<item xml:id="bee">
+               <item xml:id="bee">
                   <name>bee</name>
-                  <name level="genus">Apis</name>
+                  <name type="genus">Apis</name>
                   <note resp="#lmw">Both <name ref="#honeybee">honeybees</name> and <name ref="#bumblebee">bumblebees</name> are common in the UK.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/"/></note>
                </item>
                
                <item xml:id="honeybee">
                   <name>honeybee</name>
-                  <name level="species">Apis mellifera</name>
-                  <name level="genus">Apis</name>
-                  <name level="family">Apidae</name>
+                  <name type="species">Apis mellifera</name>
+                  <name type="genus">Apis</name>
+                  <name type="family">Apidae</name>
                   <note resp="#lmw"></note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/honey-bee/"/></note>
-               </item>-->
+               </item>
                
                <item xml:id="bumblebee">
-                  <name ref="#bumblebee">bumblebee</name>
-                  <name ref="#bumblebee">Bombus</name>
+                  <name>bumblebee</name>
+                  <name>Bombus</name>
                   <note resp="#lmw"></note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/bumblebee/"/></note>
                </item>
