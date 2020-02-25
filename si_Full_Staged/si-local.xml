@@ -2166,7 +2166,7 @@
                </org>
                <org xml:id="Clarendon_Press">
                   <orgName>Clarendon Press</orgName>
-                  <note resp="#lmw">Today refers to an imprint of Oxford University Press that specializes in academic imprints. The name refers to the location of the organization's printing offices: Clarendon Buildings, Broad Street in London, to which their presses moved after 1713.</note>
+                  <note resp="#lmw">Today refers to an imprint of Oxford University Press that specializes in academic imprints. The name refers to the location of the organization's printing offices: Clarendon Buildings, Broad Street in <placeName ref="#London_city">London</placeName>, to which their presses moved after 1713.</note>
                </org>
                <org xml:id="CockneyS">
                   <orgName>the Cockney School</orgName>
@@ -2454,7 +2454,7 @@
                   <orgName>Marylebone Cricket Club</orgName>
                   <note resp="#rct #lmw">Founded in <placeName ref="#London_city">London</placeName>in 1787, the Marylebone Cricket Club (MCC) is still in
                      existence today. It owns and has been based at Lord’s Cricket Ground in St
-                     John’s Wood, London since 1814. It was formerly the governing body for cricket
+                     John’s Wood, <placeName ref="#London_city">London</placeName> since 1814. It was formerly the governing body for cricket
                      worldwide, as well as in England and Wales, and retains the copyright for the
                      Laws of Cricket, first published in 1788.</note>
                   <note>
@@ -3241,7 +3241,7 @@
                   <death when="-0030">
                      <placeName>Alexandria, Ptolemaic Egypt</placeName>
                   </death>
-                  <note resp="#jap">Historic figure rendered as the famous persuasive speaker in Shakespeare's play <title level="m">Julius Caesar</title>, in which the character gives the speech beginning, <quote>Friends, Romans, countrymen, lend me your ears</quote>.</note>
+                  <note resp="#jap">Historic figure rendered as the famous persuasive speaker in Shakespeare's play <title ref="#Julius_Caesar_play">Julius Caesar</title>, in which the character gives the speech beginning, <quote>Friends, Romans, countrymen, lend me your ears</quote>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/88759462/"/>
                   </note>
@@ -8401,7 +8401,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="theater" subtype="manager"/>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="playwright"/>
-                  <note resp="#lmw">English actor and theatrical manager, considered the greatest actor of his era, and advocate of a more naturalistic style of acting. Prominent in <orgName>Whig</orgName> circles of the late eighteenth century. Frequently painted by <persName>Joshua Reynolds</persName>. <persName>Mary Robinson</persName> was one of his last acting mentees before his retirement from the stage. His greatest contributions as a playwright are his adaptations of Shakespeare for the eighteenth-century stage. He was the first actor to be buried in Westminster Abbey.</note>
+                  <note resp="#lmw">English actor and theatrical manager, considered the greatest actor of his era, and advocate of a more naturalistic style of acting. Prominent in <orgName>Whig circles</orgName> of the late eighteenth century. Frequently painted by <persName ref="#Reynolds_Josh">Joshua Reynolds</persName>. <persName>Mary Robinson</persName> was one of his last acting mentees before his retirement from the stage. His greatest contributions as a playwright are his adaptations of <persName ref="#Shakespeare">Shakespeare</persName> for the eighteenth-century stage. He was the first actor to be buried in Westminster Abbey.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/24563"/>
                   </note>
@@ -9884,7 +9884,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>near Ettrick, Scotland</placeName>
                   </birth>
                   <death when="1835-11-21"/>
-                  <note resp="#ebb">Scottish ballad collector, poet, and novelist who wrote in Scots and English and was encouraged by his life-long friend Walter Scott to take up a writing career. Hogg authored <title ref="#QueensWake">The Queen's Wake</title>, a long poem on <persName ref="#MaryQoS">Mary Queen of Scots</persName> in <date when="1813">1813</date>, and <title level="m">The Private Memoirs and Confessions of a Justified Sinner</title>, anonymously published in <date when="1824">1824</date>.</note>
+                  <note resp="#ebb">Scottish ballad collector, poet, and novelist who wrote in Scots and English and was encouraged by his life-long friend <persName ref="#Scott_Wal">Walter Scott</persName> to take up a writing career. Hogg authored <title ref="#QueensWake">The Queen's Wake</title>, a long poem on <persName ref="#MaryQoS">Mary Queen of Scots</persName> in <date when="1813">1813</date>, and <title level="m">The Private Memoirs and Confessions of a Justified Sinner</title>, anonymously published in <date when="1824">1824</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/22151505"/>
                   </note>
@@ -15053,7 +15053,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="trade" subtype="banker"/>
                   <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">Banker, poet and literary and art patron. Author of <bibl>
-                        <title level="m">The Pleasures of Memory</title> (<date when="1792">1792</date>)</bibl>. Friend of artists <persName>John Flaxman</persName>, <persName>John Opie</persName>, and <persName>John Henry Fuseli</persName>; <persName>Charles James Fox</persName>, <persName>Sheridan</persName>, and the <orgName ref="#Holland_House_set">Holland House circle</orgName>; as well as authors ranging from <persName>Byron</persName> and <persName>Thomas Moore</persName> to <persName>Walter Scott</persName> and <persName>Wordsworth</persName>. His conversation and notebooks and letters were later collected in the 1850s as <title level="m">Recollections of the Table-Talk of Samuel Rogers</title> and in <title level="m">Recollections by Samuel Rogers</title>.</note>
+                        <title level="m">The Pleasures of Memory</title> (<date when="1792">1792</date>)</bibl>. Friend of artists <persName>John Flaxman</persName>, <persName>John Opie</persName>, and <persName ref="#Fuseli_H">John Henry Fuseli</persName>; <persName ref="#Fox_ChasJ">Charles James Fox</persName>, <persName ref="#Sheridan_RichardB">Sheridan</persName>, and the <orgName ref="#Holland_House_set">Holland House circle</orgName>; as well as authors ranging from <persName ref="#Byron">Byron</persName> and <persName ref="#Moore_Thos">Thomas Moore</persName> to <persName ref="#Scott_Wal">Walter Scott</persName> and <persName ref="#Wordsworth_Wm">Wordsworth</persName>. His conversation and notebooks and letters were later collected in the 1850s as <title level="m">Recollections of the Table-Talk of Samuel Rogers</title> and in <title level="m">Recollections by Samuel Rogers</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/34584260"/>
                   </note>
@@ -23560,7 +23560,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Ackermans_Juv_ForgetMeNot">
                   <title level="j">Ackermann's Juvenile Forget Me Not
                   </title>
-                  <editor>Frederic Shoberl</editor>
+                  <editor ref="#Shoberl_F">Frederic Shoberl</editor>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
                   </pubPlace>
@@ -23615,6 +23615,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="Blackwoods">
                   <title level="j">Blackwood’s Magazine</title>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <date from="1817-04" to="1980"/>
                   <note resp="#ebb">Founded as a <orgName ref="#Tory">Tory</orgName> magazine in
                      opposition to the Whig <title level="j">Edinburgh Review</title>.</note>
@@ -23676,9 +23677,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="EdinburghRev_per">
                   <title level="j">Edinburgh Review, second series</title>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Constable</publisher>
                   <note resp="#lmw">Quarterly political and literary review founded by Francis
                      Jeffrey, Sydney Smith, Henry Brougham, and Francis Horner in 1802 and published
-                     by Archibald Constable in Edinburgh. It supported <orgName ref="#Whigs">Whig</orgName> and reformist politics
+                     by Archibald Constable in <placeName ref="#Edinburgh">Edinburgh</placeName>. It supported <orgName ref="#Whigs">Whig</orgName> and reformist politics
                      and opposed its Tory and conservative rival, <title ref="#QuarterlyRev_per">The Quarterly Review</title>. Ceased
                      publication in 1929.</note>
                </bibl>
@@ -23714,14 +23717,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName>Black and Armstrong</orgName>
                   </publisher>
                   <date from="1837" to="1843"/>
-                  <editor>Edward Frances Finden</editor>
-                  <editor>William Finden</editor>
+                  <editor ref="#Finden_Ed">Edward Frances Finden</editor>
+                  <editor ref="#Finden_Wm">William Finden</editor>
                   <note resp="#lmw">Finden's Tableaux was a lavishly illustrated gift book/annual produced <date from="1837" to="1843">between 1837 and 1843</date>. The series was founded by <persName ref="#Finden_Ed">Edward Frances Finden</persName> and <persName ref="#Finden_Wm">William Finden</persName>, illustrators and engravers, and published by <orgName ref="#Chas_Tilt_pub">Charles Tilt</orgName> and other printer-publishers. The series was published under several different subtitles and each featured more than sixty steel engravings by the Finden brothers, including twelve to twenty-four full-page individual plates; in some deluxe volumes, these plates were hand-colored. Several volumes were issued with green or blue full morocco bindings and with gilt-tooled cover illustrations and gilt edges. The <date when="1843">1843</date> volume was issued similarly in red morocco with gilt strapwork on the boards. <persName ref="#MRM">Mitford </persName>edited and contributed to volumes issued <date from="1838" to="1841">between 1838 and 1841</date>. Source: Google Books, ABE books, WorldCat.</note>
                </bibl>
                <bibl xml:id="ForgetMeNot">
                   <title level="j">Forget Me Not
                   </title>
-                  <editor>Frederic Shoberl</editor>
+                  <editor ref="#Shoberl_F">Frederic Shoberl</editor>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
                   </pubPlace>
@@ -23852,7 +23855,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>
                      <orgName>S. Robinson</orgName>
                   </publisher>
-                  <note resp="#scw #lmw">Many of <persName ref="#MRM">Mitford</persName>'s contributions to the magazine were to this series, a continuation of the <q>new series</q> (second series) begun in 1820 by publisher <orgName>S. Robinson</orgName>. For volumes four through ten of the <quote>new series,</quote> published <date from="1823" to="1829">between 1823 and 1829</date>, the magazine was subtitled <title level="j">Mirror of the Belle-Lettres, Fine Arts, Fashions, Music, Drama, &amp;c.</title> Notable contributions included the <title ref="#Walks_Country_LM">Walks in the Country</title>, as well as the <title ref="#Boarding_School_Rec_LM">Boarding School Recollections</title> subseries, which became <title ref="#Early_Rec_OV">Early Recollections</title> in <title ref="#OV"/>.</note>
+                  <note resp="#scw #lmw">Many of <persName ref="#MRM">Mitford</persName>'s contributions to the magazine were to this series, a continuation of the <q>new series</q> (second series) begun in 1820 by publisher <orgName>S. Robinson</orgName>. For volumes four through ten of the <q>new series,</q> published <date from="1823" to="1829">between 1823 and 1829</date>, the magazine was subtitled <title level="j">Mirror of the Belle-Lettres, Fine Arts, Fashions, Music, Drama, &amp;c.</title> Notable contributions included the <title ref="#Walks_Country_LM">Walks in the Country</title>, as well as the <title ref="#Boarding_School_Rec_LM">Boarding School Recollections</title> subseries, which became <title ref="#Early_Rec_OV">Early Recollections</title> in <title ref="#OV"/>.</note>
                   <ref target="http://www.worldcat.org/title/ladys-magazine-museum-of-the-belles-lettres-music-fine-arts-drama-fashions-c/oclc/48090188"/>
                </bibl>
                <bibl xml:id="Ladys_Monthly_Museum">
@@ -23931,7 +23934,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
                   </pubPlace>
-                  <publisher>W. [William] Marshall</publisher>
+                  <publisher>W. Marshall</publisher>
                   <date from="1828" to="1832"/>
                   <note resp="#lmw">Children's gift book/annual founded by William Marshall. <persName ref="#MRM">Mitford</persName> published in this periodical in <date when="1832">1832</date>.</note>
                </bibl>
@@ -23944,10 +23947,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Valpy</persName>.</note>
                </bibl>
                <bibl xml:id="New_Monthly_Mag">
-                  <title level="j">New Monthly Magazine</title>
+                  <title level="j">New Monthly Magazine and Literary Journal</title>
                   <note resp="#ebb">Periodical edited by <persName ref="#Campbell_Thos">Thomas
-                        Campbell</persName> from <date from="1821" to="1830">1821 to 1830</date>.
-                        <persName ref="#Talfourd_Thos">Talfourd</persName> was a contributor.</note>
+                        Campbell</persName> and <persName>Cyrus Redding</persName> from <date from="1821" to="1830">1821 to 1830</date>, after it was restyled with a more literary and less political focus than it had had at its founding in 1814 as a <orgName ref="#Tory">Tory</orgName> competitor to the <orgName>Whig</orgName> <title level="j">Monthly Magazine</title>.
+                        <persName ref="#Talfourd_Thos">Talfourd</persName> and <persName ref="#MRM">Mitford</persName> were contributors.</note>
                </bibl>
                <bibl xml:id="New_Years_Gift">
                   <title level="j">The New Year's Gift and Juvenile Souvenir
@@ -24016,9 +24019,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Short-lived literary annual published <date from="1828" to="1829">between 1828 and 1829</date> and edited by Alaric Watts. <persName ref="#MRM">Mitford</persName> published in this periodical in <date when="1829">1829</date>.</note>
                </bibl>
                <bibl xml:id="Political_Register">
-                  <title level="j">The Political Register</title>
-                  <note resp="#ebb">Weekly periodical issued by William Cobbett from <date from="1802" to="1835">1802 to 1835</date>. Originally anti-Jacobin, the
-                     politics of the magazine became increasingly reformist. Cobbett’s magazine
+                  <title level="j">Cobbett's Weekly Political Register</title>
+                  <note resp="#ebb">Weekly periodical issued by <persName ref="#Cobbett_Wm">William Cobbett</persName> from <date from="1802" to="1835">1802 to 1835</date>. Founded as <orgName ref="#Tory">Tory</orgName> and anti-Jacobin, the
+                     politics of the magazine became increasingly radical and reformist. Cobbett’s magazine
                      advocated in defense of the English countryside and its traditional ways of
                      life against industrial change.</note>
                </bibl>
@@ -24027,9 +24030,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date from="1809" to="1967"/>
                   <note resp="#lmw">
                      <orgName ref="#Tory">Tory</orgName> periodical founded by <persName>George
-                        Canning</persName> in <date>1809</date>, published by <persName>John
+                        Canning</persName> in <date>1809</date>, published by <persName ref="#Murray_pub">John
                            Murray</persName>. <persName ref="#Gifford_William">William
-                              Gifford</persName> edited the Quarterly Review from its founding in <date from="1809" to="1824">1809 until 1824</date>, was succeeded briefly by
+                              Gifford</persName> edited the <title ref="#QuarterlyRev_per">Quarterly Review</title> from its founding in <date from="1809" to="1824">1809 until 1824</date>, was succeeded briefly by
                      <persName>John Taylor Coleridge</persName> in <date when="1825">1825</date>,
                      until <persName ref="#Lockhart_JG">John Gibson Lockhart</persName> took over as
                      editor <date from="1826" to="1853">from 1826 through 1853</date>. Archived at <ref target="https://www.rc.umd.edu/reference/qr/">Romantic Circles, Quarterly Review Archive</ref>
@@ -24188,18 +24191,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="_55Days_play">
                   <title level="m">55 Days</title>
                   <author>Howard Brenton</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Nick Hern</publisher>
                   <date when="2012"/>
                </bibl>
                <bibl xml:id="Abbot_WS">
                   <title level="m">The Abbot</title>
                   <author ref="#Scott_Wal">Walter Scott</author>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher ref="#Longman_Hurst_ROB_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Archibald Constable and Company, and John Ballantyne</publisher>
                   <date when="1820">1820</date>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Archibald Constable and Company, and John Ballantyne</publisher>
                   <note resp="#ebb">Historical novel: One of Scott’s series of <title level="s">Tales from Benedictine Sources</title>, <title level="m">The Abbot</title> introduces
                      the character <persName>Roland Graeme</persName>, and renders <rs type="event">the experiences of <persName ref="#MaryQoS">Mary, Queen of Scots</persName>
                         during her imprisonment and escape from <placeName>Loch Leven
@@ -24219,7 +24222,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Edgeworth_Maria">Maria Edgeworth</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>J. Johnson</publisher>
                   <date when="1812"/>
                </bibl>
@@ -24228,7 +24231,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m" ref="#OurVillage_3rd">Our Village, volume three</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <date when="1828">1828</date>
-                  <pubPlace ref="#London_city">London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>
                      <orgName ref="#Whittakers_pub">G. &amp; W. B. Whittaker</orgName>
                   </publisher>
@@ -24334,11 +24337,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="All_For_Love_play">
                   <title level="m">All for Love</title>
                   <author ref="#Dryden"/>
+                  <pubPlace ref="#London_city"/>
+                  <date when="1678"/>
                   <note resp="#lmw">First performed in <date when="1677">1677</date> and published in <date when="1678">1678</date>, based on <title ref="#Antony_Cleopatra">Antony and Cleopatra</title>.</note>
                </bibl>
                <bibl xml:id="AllsWellTEW">
                   <title level="m">All’s Well that Ends Well</title>
                   <author ref="#Shakespeare"/>
+                  <pubPlace ref="#London_city"/>
+                  <date when="1623"/>
                   <note resp="#lmw">Drama likely first performed around <date notBefore="1604">1604</date> and first printed in <date when="1623"/>1623.</note>
                </bibl>
                <bibl xml:id="America_Birkbeck">
@@ -24347,7 +24354,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Birkbeck_M">Morris Birkbeck</persName>
                   </author>
-                  <pubPlace>Philadelphia</pubPlace>
+                  <pubPlace ref="#Philadelphia">Philadelphia</pubPlace>
                   <publisher>Caleb Richardson</publisher>
                   <date when="1817">1817</date>
                   <note resp="#lmw">
@@ -24364,10 +24371,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">American Stories for Young People, Intended for Children above Ten Years of Age
                   </title>
                   <editor ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
+                  <pubPlace ref="#London_city"/>
+                 <publisher>
                      <orgName ref="#Whittaker_Treacher_pub">Whittaker, Treacher &amp; Co.</orgName>
                   </publisher>
                   <date when="1832">1832</date>
@@ -24417,14 +24422,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Antiquary">
                   <title level="m">The Antiquary</title>
                   <author ref="#Scott_Wal"/>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Constable and co.</publisher>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Constable and co.</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher ref="#Longman_Hurst_ROB_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
                </bibl>
                <bibl xml:id="Antony_Cleopatra">
                   <title level="m">Antony and Cleopatra</title>
                   <author ref="#Shakespeare"/>
+                  <pubPlace ref="#London_city"/>
+                  <date when="1623"/>
                   <note resp="#lmw">Drama likely first performed around <date notBefore="1607">1607</date> and first printed in <date when="1623"/>1623.</note>
                </bibl>
                <bibl xml:id="Arabian_Tales">
@@ -24434,7 +24441,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      tr[anslated] from the French into English, by Robert Heron</title>
                   <author>Robert Heron</author>
                   <publisher>Bell &amp; Bradfute</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <publisher>G. G. J. &amp; J. Robinson</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1792">1792</date>
@@ -24445,14 +24452,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="As_You_Like_It_play">
                   <title level="m">As You Like It</title>
                   <author ref="#Shakespeare">William Shakespeare</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1623"/>
+                  <note resp="#lmw">First performed around 1599 and first printed 1623.</note>
                </bibl>
                <bibl xml:id="Athalie_play">
                   <title level="m">Athalie</title>
                   <author ref="#Racine"/>
-                  <note resp="#lmw">
-                     <p>One of two plays written by Jean Racine (along with <title level="m">Esther</title>), for the
-                        students at St. Cyr.</p>
-                  </note>
+                  <pubPlace ref="#Paris">Paris</pubPlace>
+                  <date when="1691"/>
+                  <note resp="#lmw">One of two plays written by Jean Racine (along with <title level="m">Esther</title>), for the students at St. Cyr.</note>
                </bibl>
                <bibl xml:id="Atherton">
                   <title level="m">Atherton, and Other Tales</title>
@@ -24493,7 +24502,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="a">The Baron's Daughter</title>
                   <title type="j">Findens' Tableaux of the Affections; A series of Picturesque Illustrations of the Womanly Virtues</title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1838">1838</date>
                   <biblScope unit="page" from="22" to="24">22-24</biblScope>
@@ -24507,7 +24516,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL </title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1839">1839</date>
                   <biblScope unit="page" from="44" to="48">44-48</biblScope>
@@ -24559,7 +24568,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      of mankind, may be turn’d to the advantage of the civil society, and made to
                      supply the place of moral virtues.</title>
                   <author>Bernard Mandeville</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Printed for J. Roberts</publisher>
                   <date when="1714"/>
                </bibl>
@@ -24850,6 +24859,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Bonduca_play">
                   <title level="m">Bonduca</title>
                   <author ref="#Fletcher_John"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <note resp="#lmw">First performed around 1613, first printed in 1647.</note>
                </bibl>
                <bibl xml:id="BoR">
                   <title level="m">Bill of Rights</title>
@@ -24908,7 +24919,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1839">1839</date>
                   <biblScope unit="page" from="51" to="54">51-54</biblScope>
@@ -24918,20 +24929,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </bibl>
                <bibl xml:id="Bride_of_Lammermoor_WS">
-                  <title level="m">The Bride of Lammermoor</title> by <author ref="#Scott_Wal">Walter
+                  <title level="m">The Bride of Lammermoor</title>
+                  <author ref="#Scott_Wal">Walter
                      Scott</author>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Constable and co.</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Constable and co.</publisher>
                   <date when="1819">1819</date>
-                  <note resp="#lmw">Part of Tales of my Landlord, third series. Bride of Lammermoor
-                     made up volumes one and two and Legend of Montrose volumes three and four of
+                  <note resp="#lmw">Part of <title level="m">Tales of my Landlord</title>, third series. <title level="m">Bride of Lammermoor</title>                    made up volumes one and two and <title level="m">Legend of Montrose</title> volumes three and four of
                      the four-volume work.</note>
                </bibl>
                <bibl xml:id="Buccaneer_FT">
                   <title type="a">The Buccaneer</title>
                   <title type="j">Findens' Tableaux of the Affections; A series of Picturesque Illustrations of the Womanly Virtues</title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1838">1838</date>
                   <biblScope unit="page" from="6" to="10">6-10</biblScope>
@@ -24955,7 +24966,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="Rienzi_EBL">
                   <title level="m">Rienzi, The Last of the Roman Tribunes</title>
-                  <author>Edward Bulwer-Lytton</author>
+                  <author><persName ref="#Bulwer_Lytton">Edward Bulwer-Lytton</persName></author>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <publisher>Saunders and Otley</publisher>
                   <date when="1835">1835</date>
@@ -24965,7 +24976,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Cain: A Mystery</title>
                   <author ref="#Byron">Lord Byron</author>
                   <pubPlace ref="#London_city">London, England</pubPlace>
-                  <publisher>J. Murray</publisher>
+                  <publisher ref="#Murray_pub">J. Murray</publisher>
                   <date when="1821"/>
                   <note resp="#lmw">Published together with <title ref="#The_Two_Foscari">The Two Foscari</title> and <title ref="#Sardanapalus_play">Sardanapalus</title>.</note>
                </bibl>
@@ -25013,7 +25024,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="a">The Cartel</title>
                   <title type="j">Findens' Tableaux of the Affections; A series of Picturesque Illustrations of the Womanly Virtues</title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1838">1838</date>
                   <biblScope unit="page" from="39" to="42">39-42</biblScope>
@@ -25026,7 +25037,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: A Series of Picturesque Scenes of National Character, Beauty, and Costume
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1837">1837</date>
                   <biblScope unit="page" from="52" to="56">52-56</biblScope>
@@ -25057,7 +25068,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Cenci_play">
                   <title type="m">The Cenci: A Tragedy, in Five Acts</title>
                   <author ref="#Shelley_PB">Percy Bysshe Shelley</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>C. and J. Ollier</publisher>
                   <date when="1819">1819</date>
                   <note resp="#rnes">Percy Bysshe Shelley's only completed stage play was written in <date when="1819">1819</date>, informed by the legend of Beatrice Cenci, a historical Roman noblewoman who, in 1599, was executed along with her stepmother and brother for the murder of her reportedly abusive father, Count Francesco Cenci. Inspired by a manuscript translated from the Italian by Mary Shelley (who also claimed to have discussed with her husband the play's scene breakdown), The Cenci tells a powerful story of political tyranny, incestuous rape, and violent, quickly-suppressed revolt. The play's depiction of rape, incest, and parricide was the apparent cause of its rejection by the Theatre at Covent Garden. It was not produced until 1886, when it premiered in an unlicensed London performance organized by the actor Alma Murray, who played Beatrice.</note>
@@ -25562,6 +25573,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Coriolanus_play">
                   <title level="m">Coriolanus</title>
                   <author ref="#Shakespeare"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1623"/>
+               <note resp="#lmw">Believed to have been written <date notAfter="1610">between 1605 and 1610</date>, first printed <date when="1623"/> </note>
                </bibl>
                <bibl xml:id="Cottage_Names_OV">
                   <title level="a" ref="#Cottage_Names_OV">Cottage Names [Our Village version]</title>
@@ -25769,6 +25783,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Cymbeline_play">
                   <title level="m">Cymbeline</title>
                   <author ref="#Shakespeare"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1623"/>
+                  <note resp="#lmw">First performed around <date when="1611">1611</date> and first printed in <date when="1623">1623</date>.</note>
                </bibl>
                <bibl xml:id="Daniells">
                   <title level="m">Rural Sports</title>
@@ -25795,7 +25812,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Discipline">
                   <title level="m">Discipline: A Novel</title>
                   <author ref="#Brunton_Mary">Mary Brunton</author>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <publisher>George Ramsay &amp; Co.</publisher>
                   <date when="1814">1814</date>
                   <note resp="#lmw">First edition published anonymously.</note>
@@ -25891,10 +25908,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Douglas: A Tragedy</title>
                   <author ref="#Home_John">John Home</author>
                   <publisher>G. Hamilton &amp; J. Balfour</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <publisher>A. Millar
                   </publisher>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <date when="1757">1757</date>
                   <note resp="#lmw">First performed in <date when="1756">1756</date>in <placeName ref="#Edinburgh">Edinburgh</placeName>, followed by a performance in <placeName ref="#London_city">London</placeName> in <date when="1757">1757</date>. Continued to be performed professionally through the nineteenth century and the speech beginning <quote>My name is Norval</quote> became a favorite among amateur reciters.</note>
                </bibl>
@@ -26231,7 +26248,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: A Series of Picturesque Scenes of National Character, Beauty, and Costume 
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1837">1837</date>
                   <biblScope unit="page" from="4" to="10">4-10</biblScope>
@@ -26301,7 +26318,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Edgeworth_Maria">Maria Edgeworth</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>J. Johnson</publisher>
                   <date when="1809"/>
                </bibl>
@@ -26412,7 +26429,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">The Fall of Robespierre: An Historic Drama</title>
                   <author>Robert Southey</author>
                   <author>Samuel Taylor Coleridge</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Benjamin Flower</publisher>
                   <date when="1794">1794</date>
                   <note resp="#rnes #lmw">Three-act historical drama collaboratively written by Samuel Taylor Coleridge and Robert Southey. At the time of the play's writing, it was printed by radical Benjamin Flower but never performed. The play, drafted soon after Robespierre's death, presents a complex portrait of Maximilien Robespierre, political architect (and eventual victim) of the Reign of Terror that followed the French Revolution. This play proved an embarrassment to Southey after his repudiation of his youthful radicalism.</note>
@@ -26495,7 +26512,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="j">Findens' Tableaux: A Series of Picturesque Scenes of National Character, Beauty, and Costume 
                </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1837">1837</date>
                   <bibl corresp="#Eng_KingsWd_FT"/>
@@ -26509,7 +26526,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="j">Findens' Tableaux of the Affections; A series of Picturesque Illustrations of the Womanly Virtues
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1838">1838</date>
                   <bibl corresp="#Buccaneer_FT"/>
@@ -26522,7 +26539,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1839">1839</date>
                   <bibl corresp="#KingsPg_FT"/>
@@ -26537,7 +26554,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXLI
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Black and Armstrong</publisher>
                   <date when="1840">1840</date>
                   <bibl corresp="#ReturnFair_FT"/>
@@ -26676,7 +26693,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <persName ref="#Ossian">Ossian</persName>
                   </author>
                   <author ref="#Macpherson_J">James Macpherson</author>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <publisher>Hamilton and Balfour</publisher>
                   <date when="1760">1760</date>
                   <note resp="#lmw"><q>Galic</q> is Macpherson’s spelling.</note>
@@ -26821,7 +26838,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXLI
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Black and Armstrong</publisher>
                   <date when="1840">1840</date>
                   <biblScope unit="page" from="44" to="51">44-51</biblScope>
@@ -26935,6 +26952,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Hamlet_play">
                   <title level="m">Hamlet</title>
                   <author ref="#Shakespeare"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1603"/>
+                  <note resp="#lmw">First performed around <date when="1602">1602</date> and first printed in <date when="1603">1603</date>.</note>
                </bibl>
                <bibl xml:id="Hannah_LM">
                   <title level="a" ref="#Hannah_LM">Hannah [Lady's Magazine version]</title>
@@ -27040,8 +27060,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Heart_of_Mid">
                   <title level="m">The Heart of Midlothian</title>
                   <author ref="#Scott_Wal">Walter Scott</author>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Archibald Constable</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Archibald Constable</publisher>
                   <date when="1822"/>
                </bibl>
                <bibl xml:id="Heiress_MRM">
@@ -27178,7 +27198,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXLI
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Black and Armstrong</publisher>
                   <date when="1840">1840</date>
                   <biblScope unit="page" from="63" to="68">63-68</biblScope>
@@ -27265,7 +27285,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <persName ref="#Birkbeck_M">Morris Birkbeck</persName>
                   </author>
                   <author>John Melish</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>
                      <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName>
                   </publisher>
@@ -27324,14 +27344,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="India_JournalResidence_Graham">
                   <author ref="#Graham_Maria">Maria Graham</author>
                   <title level="m">Journal of a Residence in India: illustrated by engravings</title>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>A. Constable</publisher>
-                  <date>1812</date>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">A. Constable</publisher>
+                  <date when="1812">1812</date>
                   <note resp="#ebb">
-                     <bibl> Another edition was published in <date>1813</date> in
-                           <pubPlace>Edinburgh</pubPlace> by <publisher>A. Constable and
-                           Company</publisher>, and in <pubPlace>London</pubPlace> by
-                           <publisher>Longman, Rees, Orme, and Browne</publisher>. Source: WorldCAT
+                     <bibl>Another edition was published in <date when="1813">1813</date> in
+                        <pubPlace ref="#Edinburgh">Edinburgh</pubPlace> by <publisher ref="#Constable_pub">A. Constable and
+                              Company</publisher>, and in <pubPlace><placeName ref="#London_city">London</placeName></pubPlace> by
+                           <publisher ref="#Longman_Hurst_ROB_pub">Longman, Rees, Orme, and Browne</publisher>. Source: WorldCAT
                         and Google Books.</bibl>
                   </note>
                </bibl>
@@ -27583,7 +27603,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1810">1810</date>
                </bibl>
                <bibl xml:id="Kenilworth_WS">
-                  <title level="m">Kenilworth</title> by <author ref="#Scott_Wal">Walter Scott</author>
+                  <title level="m">Kenilworth</title>
+                  <author ref="#Scott_Wal">Walter Scott</author>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher ref="#Longman_Hurst_ROB_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Archibald Constable and Company, and John Ballantyne</publisher>
+                  <date when="1821"/>
                </bibl>
                <bibl xml:id="King_Harwood_BR">
                   <title level="a" ref="#King_Harwood_BR">King Harwood</title>
@@ -27632,7 +27658,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1839">1839</date>
                   <biblScope unit="page" from="9" to="14">9-14</biblScope>
@@ -27676,7 +27702,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>
                      <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName>
                   </publisher>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <date when="1819">1819</date>
                   <note resp="#lmw">Spelled <q>Surry</q> on title page.</note>
                </bibl>
@@ -27687,9 +27713,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </author>
                   <publisher>Stodart and Steuart
                   </publisher>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Bell and Bradfute</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <date when="1820">1820</date>
                </bibl>
                <bibl xml:id="LegendGoodWomen">
@@ -27725,7 +27751,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Adolphus_JL">John Leycester Adolphus</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Rodwell and Martin</publisher>
                   <date when="1821">1821</date>
                </bibl>
@@ -27734,7 +27760,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Keats"/>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>
                      <orgName ref="#Taylor_Hessey">Taylor and Hessey</orgName>
                   </publisher>
@@ -27882,7 +27908,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: A Series of Picturesque Scenes of National Character, Beauty, and Costume
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1837">1837</date>
                   <biblScope unit="page" from="32" to="37">32-37</biblScope>
@@ -28031,16 +28057,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#Scott_Wal">Walter Scott</author>
                   <date when="1808">1808</date>
                   <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>John Murray</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Constable and Co.</publisher>
+                  <publisher ref="#Murray_pub">John Murray</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Constable and Co.</publisher>
                </bibl>
                <bibl xml:id="Marriage_SF">
                   <title level="m">Marriage: A Novel</title>
                   <author ref="#Ferrier_Susan">Susan Ferrier</author>
-                  <publisher>William Blackwood</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>John Murray</publisher>
+                  <publisher ref="#Blackwood_pub">William Blackwood</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Murray_pub">John Murray</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1818">1818</date>
                </bibl>
@@ -28085,7 +28111,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Measure_Measure_play">
                   <author ref="#Shakespeare">William Shakespeare</author>
                   <title level="m">Measure for Measure</title>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <date when="1623">1623</date>
                   <note resp="#ebb">Comedy likely written in <date notBefore="1603" notAfter="1604">1603 or 1604</date>, first known to be published in the <bibl>
                         <title level="s">First Folio</title> collection of <date when="1623">1623</date>
@@ -28101,7 +28127,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Melincourt</title>
                   <author ref="#Peacock_TL">Thomas Love Peacock</author>
                   <publisher>T. Hookham, Jr. &amp; co.</publisher>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <date when="1817">1817</date>
                   <note resp="#lmw">First edition published anonymously as <q>by the Author of
                      Headlong Hall.</q></note>
@@ -28109,8 +28135,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Melmoth_CM">
                   <title level="m">Melmoth the Wanderer: A Tale</title>
                   <author ref="#Maturin_Charles"/>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>A. Constable and co.</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">A. Constable and co.</publisher>
                   <date when="1820">1820</date>
                </bibl>
                <bibl xml:id="Memoirs_of_the_life_of_Colonel_Hutchinson">
@@ -28121,8 +28147,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <editor>
                      <persName ref="#Hutchinson_Julius">Julius Hutchinson</persName>
                   </editor>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher ref="#Longman_Hurst_ROB_pub">Longman, Hurst, Rees, and Orme</publisher>
                   <date when="1806">1806</date>
                   <note resp="#rnes #lmw">Lady Lucy Hutchinson composed the Memoirs sometime between the date of her husband's death in 1664 and the year 1675, when she presented the manuscript to Arthur, Earl of Anglesey. It was published in 1806 under the direction of <persName ref="#Hutchinson_Julius">Rev. Julius Hutchinson</persName>, a Hutchinson descendant. Before then, the manuscript had been consulted at the Hutchinson family library at Owthorpe by the historian Catherine Macaulay and possibly by others.</note>
                   <note resp="#lmw #rnes">UCLA copy contains the notes of an anonymous annotator and a digital copy may be accessed at Internet Archive: <ref target="https://archive.org/details/lifeofcolonelhut00hutc"/>
@@ -28152,7 +28178,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Merry_Wives_play">
                   <title level="m">The Merry Wives of Windsor</title>
                   <author ref="#Shakespeare">William Shakespeare</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Printed for T.C. by Arthur Johnson</publisher>
                   <date when="1602"/>
                   <note resp="#lmw">First printed in <date when="1602">1602</date>; believed to have
@@ -28180,10 +28206,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Scott_Wal">Walter Scott</persName>
                   </author>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Manners and Miller; and Constable</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher>Manners and Miller</publisher>
+                     <publisher ref="#Constable_pub">Constable</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Cadell and Davies</publisher>
+                  <publisher ref="#Cadell_Davies_pub">Cadell and Davies</publisher>
                   <date when="1802"/>
                </bibl>
                <bibl xml:id="MiscPoems_Dryden">
@@ -28292,7 +28319,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">A View of Society and Manners in Italy: with Anecdotes relating to some
                      Eminent Characters</title>
                   <author ref="#Moore_DrJ">John Moore, M.D.</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Printed for W. Strahan and T. Cadell</publisher>
                   <date>1781</date>
                </bibl>
@@ -28416,7 +28443,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      de Napoléon en 1815</title>
                   <author ref="#de_Chaboulon">Fleury de Chaboulon</author>
                   <editor/>
-                  <pubPlace>London: Albemarle Street</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>John Murray</publisher>
                   <date from="1819" to="1820">1819-1820</date>
                   <note resp="#sbb #ebb">Two volume publication: the first volume was published in 1819 and the second in 1820. Fleury was Napoleon's secretary and cabinet member who served in the Emperor's private life.</note>
@@ -28670,7 +28697,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Ormond_novel">
                   <title level="m">Harrington, A Tale, and Ormond, A Tale. In Three Volumes. Vol.I</title>
                   <author ref="#Edgeworth_Maria">Maria Edgeworth</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>R. Hunter</publisher>
                   <date when="1817"/>
                </bibl>
@@ -29896,7 +29923,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="Parting_Glance_OV">
                   <title level="a" ref="#Parting_Glance_OV">A Parting Glance at Our Village [Our Village version]</title>
-                  <title level="a" type="alt" ref="#Another_Glance_OV">Another Glance at Our Village [altnerative title assigned to A Parting Glance at Our Village in Walter Scott Publishing edition, 1886, 1888]</title>
+                  <title level="a" type="alt" ref="#Another_Glance_OV">Another Glance at Our Village [alternative title assigned to A Parting Glance at Our Village in Walter Scott Publishing edition, 1886, 1888]</title>
                   <title level="m" ref="#Our_Village1st_ed">Our Village, volume one</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <date when="1824">1824</date>
@@ -29942,7 +29969,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Peoples_Charter">
                   <title level="m">People's Charter</title>
                   <author ref="#Lovett_Wm">William Lovett</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>London Working Men's Association</publisher>
                   <date when="1838">1838</date>
                   <note resp="#rnes">The formal declaration of the Chartist movement, which the Chartists strove to have adopted by Parliament as British law. Three successful petitions pursuing this end failed to persuade Parliament.</note>
@@ -29960,7 +29987,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">The Adventures of Peregrine Pickle, In Which are Included Memoirs of a Lady
                      of Quality </title>
                   <author ref="#Smollett_Tob">Tobias Smollett</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>D. Wilson</publisher>
                   <date when="1751"/>
                </bibl>
@@ -29992,8 +30019,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
                <bibl xml:id="Peters_Letters_novel">
                   <title level="m">Peter’s Letters to his Kinsfolk</title>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>William Blackwood</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Blackwood_pub">William Blackwood</publisher>
                   <date>1819</date>
                   <author>
                      <persName ref="#Lockhart_JG">John Gibson Lockhart</persName>
@@ -30005,6 +30032,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Phedre_play">
                   <title level="m">Phèdre</title>
                   <author ref="#Racine">Jean Racine</author>
+                  <pubPlace ref="#Paris"/>
                   <date when="1677"/>
                   <note resp="#ebb">A play retelling the plot of the ancient Greek <title level="m">Hyppolytus</title> by Euripedes, concentrating on the character of Phaedra, the stepmother of Hyppolytus. In both plays Phaedra is misinformed of her husband Theseus's death, falls in love with Hyppolytus, and declares her love but is rejected by him. When Theseus returns he blames his son Hyppolytus and seeks vengeance against him.</note>
                </bibl>
@@ -30012,6 +30040,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Philaster</title>
                   <author ref="#Beaumont_Fr">Beaumont</author>
                   <author ref="#Fletcher_John">Fletcher</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1620"/>
+                  <note resp="#lmw">First performed before <date notAfter="1611">1611</date>, first printed in <date when="1620">1620</date>.</note>
                </bibl>
                <bibl xml:id="Philoctetes_play">
                   <title level="m">Philoctetes</title>
@@ -30030,7 +30061,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="PO_BerkshireDir">
                   <title level="m">Post Office Directory of Berkshire, Northamptonshire, and Oxfordshire; with
                      Bedfordshire, Buckinghamshire, and Huntingdonshire</title>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Kelly and Co.</publisher>
                   <date when="1847"/>
                   <date when="1854"/>
@@ -30273,7 +30304,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Prelude_WW">
                   <title type="m">The Prelude, or, Growth of a Poet's Mind: An Autobiographical Poem</title>
                   <author>William Wordsworth</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Edward Moxon</publisher>
                   <date when="1850">1850</date>
                   <note resp="#lmw">Autobiographical narrative poem, originally intended to introduce a poetic work that he never completed, first drafted in 1798-1799. The first printed version was an expanded, fourteen-part text published after Wordsworth's death in 1850. A thirteen-book version of 1805 was discovered and printed in 1926.</note>
@@ -30316,7 +30347,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1839">1839</date>
                   <biblScope unit="page" from="22" to="27">22-27</biblScope>
@@ -30343,9 +30374,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="QueensWake">
                   <title level="m">The Queen’s Wake: a Legendary Poem</title>
                   <author ref="#Hogg_J">James Hogg</author>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <publisher>A. Balfour, for G. Goldie</publisher>
-                  <date>1813</date>
+                  <date when="1813">1813</date>
                   <note resp="#alg #ebb #lmw">A long poem, first published in 1813, purporting to be
                      a collection of poems and ballads presented by Scottish bards to <persName ref="#MaryQoS">Mary, Queen of Scots</persName> at Holyrood. The poem became
                      an unexpected commercial and literary success, and Hogg published a series of
@@ -30381,7 +30412,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Recollections and Reflections, Personal and Political, as Connected with
                      Public Affairs, During the Reign of George III</title>
                   <author ref="#Nicholls_John">John Nicholls</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
                   <date when="1822"/>
                   <!-- 2 vols. Google Books.  LMW -->
@@ -30419,7 +30450,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Remarks on Antiquities, Arts, and Letters, During an Excursion in Italy, in the Years 1802 and 1803.</title>
                   <author ref="#Forsyth_Jos">Joseph Forsyth</author>
                   <date when="1816">1816</date>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>J. Murray</publisher>
                </bibl>
                <bibl xml:id="Residuary_Legatee_OV">
@@ -30439,7 +30470,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXLI
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Black and Armstrong</publisher>
                   <date when="1840">1840</date>
                   <biblScope unit="page" from="14" to="21">14-21</biblScope>
@@ -30550,19 +30581,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Rome_ThreeMonths_Graham">
                   <title level="m">Three Months Passed in the Mountains East of Rome: during the year 1819</title>
                   <author ref="#Graham_Maria">Maria Graham</author>
-                  <pubPlace>London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>A. Constable and Company</publisher>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher ref="#Longman_Hurst_ROB_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">A. Constable and Company</publisher>
                   <date>1820</date>
                   <note resp="#ebb #lmw">Illustrated with engravings. Source: Google Books and
                      WorldCAT.</note>
                </bibl>
                <bibl xml:id="Romeo_Juliet">
                   <title level="m">Romeo and Juliet</title>
-                  <author>William Shakespeare</author>
-                  <pubPlace>London</pubPlace>
-                  <date when="1599">1599</date>
+                  <author ref="#Shakespeare">William Shakespeare</author>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <date when="1597">1597</date>
                   <note resp="#rnes">Shakespeare's tragedy, first published in 1597 in a quarto edition that is missing some of the play's most iconic speeches, and subsequently in the second quarto in 1599.</note>
                </bibl>
                <bibl xml:id="Rosamund_Story_of_Plague_BR">
@@ -30587,7 +30618,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1839">1839</date>
                   <biblScope unit="page" from="32" to="39">32-39</biblScope>
@@ -30609,7 +30640,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXLI
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Black and Armstrong</publisher>
                   <date when="1840">1840</date>
                   <biblScope unit="page" from="25" to="33">25-33</biblScope>
@@ -30665,7 +30696,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: A Series of Picturesque Scenes of National Character, Beauty, and Costume
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1837">1837</date>
                   <biblScope unit="page" from="44" to="48">44-48</biblScope>
@@ -30764,7 +30795,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Self_Control">
                   <title level="m">Self Control: A Novel</title>
                   <author ref="#Brunton_Mary">Mary Brunton</author>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <publisher>George Ramsay &amp; Co.</publisher>
                   <date when="1811">1811</date>
                   <note resp="#lmw">First edition published anonymously.</note>
@@ -30838,7 +30869,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Fearon_HB">Henry Bradshaw Fearon</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
                   <date when="1818">1818</date>
                   <note resp="#lmw">The work’s subtitle refers to to Morris Birkbeck’s <title ref="#America_Birkbeck">Notes on a Journey in America, from the coast of
@@ -30901,7 +30932,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author ref="#Lamb_Chas">Charles Lamb</author>
                   <publisher>Longman, Hurst, Rees, and Orme
                   </publisher>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <date when="1808">1808</date>
                </bibl>
                <bibl xml:id="SpencesAnec">
@@ -30932,7 +30963,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXLI
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Black and Armstrong</publisher>
                   <date when="1840">1840</date>
                   <biblScope unit="page" from="61" to="62">61-62</biblScope>
@@ -30955,7 +30986,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="a">A Story of the Woods</title>
                   <title type="j">Findens' Tableaux of the Affections; A series of Picturesque Illustrations of the Womanly Virtues</title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1838">1838</date>
                   <biblScope unit="page" from="46" to="48">46-48</biblScope>
@@ -31016,7 +31047,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Dickens">Charles Dickens</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Chapman and Hall</publisher>
                   <date when="1859">1859</date>
                </bibl>
@@ -31212,7 +31243,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">The Three Musketeers</title>
                   <title level="m">Les Trois Mousquetaires</title>
                   <author>Alexandre Dumas</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>G. Vickers</publisher>
                   <publisher>Bruce and Wyld</publisher>
                   <date when="1846">1846</date>
@@ -31324,7 +31355,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="TomThumb_Fielding">
                   <author ref="#Fielding_Henry">Scriblerus Secundus</author>
                   <title level="m">Tom Thumb</title>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Printed and sold by J. Roberts in Warwick-Lane</publisher>
                   <date when="1730">1730</date>
                   <note resp="#ebb">First performed outside the <placeName ref="#Haymarket_Theatre">Haymarket Theatre</placeName> in September 1730.</note>
@@ -31335,11 +31366,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <bibl>
                      <title level="m">Airs, duets, &amp;c. in the comic opera of Tom Thumb, in two
                         acts</title>
-                     <pubPlace>London</pubPlace>
+                     <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                      <date when="1780">1780</date>.</bibl>
                   <bibl>
                      <title level="m">Tom Thumb: a burlesque tragedy</title>
-                     <pubPlace>London</pubPlace>
+                     <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                      <publisher>Printed by and for J. Roach, at the Britannia Printing
                         Office</publisher>
                      <date when="1805">1805</date>
@@ -31368,7 +31399,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Account of a Tour in Normandy</title>
                   <author>Dawson Turner</author>
                   <editor/>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>John &amp; Arthur Arch</publisher>
                   <date when="1820">1820</date>
                </bibl>
@@ -31481,15 +31512,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Lockhart_JG">John Gibson Lockhart</persName>
                   </author>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>William Blackwood</publisher>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Blackwood_pub">William Blackwood</publisher>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>T. Cadell</publisher>
                   <date>1821</date>
                </bibl>
                <bibl xml:id="Venice_Preserved_play">
                   <title level="m">Venice Preserv’d</title>
                   <author ref="#Otway_Thos"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1683"/>
+                  <note resp="#lmw">First performed in <date when="1683">1683 and </date> printed soon thereafter. Frequently re-staged until the 1830s.</note>
                </bibl>
                <bibl xml:id="Verses_with_Primroses_1810">
                   <title level="a">Verses, Sent with Some Primroses to a Young Lady, who had Promised us a Visit Early in the Spring. Feb. 7, 1808.</title>
@@ -31618,7 +31652,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXLI
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Black and Armstrong</publisher>
                   <date when="1840">1840</date>
                   <biblScope unit="page" from="55" to="60">55-60</biblScope>
@@ -31670,7 +31704,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Edgeworth_Maria">Maria Edgeworth</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>J. Johnson</publisher>
                   <date when="1812"/>
                </bibl>
@@ -31695,7 +31729,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="j">Findens' Tableaux: A Series of Picturesque Scenes of National Character, Beauty, and Costume
                   </title>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1837">1837</date>
                   <biblScope unit="page" from="13" to="17">13-17</biblScope>
@@ -32036,7 +32070,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Walker_CE">Charles E. Walker</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>John Miller</publisher>
                   <date when="1820"/>
                   <note resp="#lmw">Performed at <placeName ref="#Covent_Garden_Theatre">Covent
@@ -32091,9 +32125,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#ebb">MRM saw this play in December 1820 at Covent Garden Theatre.</note>
                </bibl>
                <bibl xml:id="WashingtonEpic_TN">
-                  <title level="m">Washington; or Liberty Restored. A Poem in Ten Books</title>
-                  <author ref="#Northmore_Thos"/>
-                  <pubPlace>Baltimore</pubPlace>
+                  <title level="m">Washington; or Liberty Restored. A Poem in Ten Books</title><author ref="#Northmore_Thos"/>
+                  <pubPlace ref="#Baltimore">Baltimore</pubPlace>
                   <publisher>John Vance and co.</publisher>
                   <note resp="#lmw">Epic poem about <persName ref="#Washington_Geo">George
                         Washington</persName> published in <date when="1809">1809</date>. Only
@@ -32112,7 +32145,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName ref="#AJValpy_pub">A. J. Valpy</orgName>
                   </publisher>
                   <date when="1811">1811</date>
-                  <note resp="#lmw">1811 poem. This poem is reprinted in Romanticism: An Anthology, ed. Duncan Wu.</note>
+                  <note resp="#lmw">1811 poem. This poem is reprinted in <title level="m">Romanticism: An Anthology</title>, ed. Duncan Wu.</note>
                </bibl>
                <bibl xml:id="WatlingtonH">
                   <title level="m">Watlington Hill; A Poem</title>
@@ -32146,7 +32179,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Waverley">
                   <title level="m">Waverley; or ’Tis Sixty Years Since</title>
                   <author ref="#Scott_Wal"/>
-                  <publisher>Archibald Constable</publisher>
+                  <publisher ref="#Constable_pub">Archibald Constable</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <date>1814</date>
                </bibl>
                <bibl xml:id="WealthofNations">
@@ -32154,7 +32188,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Smith_Ad">Adam Smith</persName>
                   </author>
-                  <pubPlace>Edinburgh</pubPlace>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <publisher>Adam and Charles Black</publisher>
                   <date when="1761">1761</date>
                </bibl>
@@ -32177,7 +32211,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </bibl>
                <bibl xml:id="WestminsterAbbey_1811">
-                  <title level="a">Westminster Abbey.</title>
+                  <title level="a">Westminster Abbey</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
                   <author ref="#MRM"/>
                   <pubPlace>
@@ -32219,6 +32253,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Wheel_Fortune_play">
                   <title level="m">Wheel of Fortune</title>
                   <author ref="#Cumberland_Rich"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1805"/>
+                  <note resp="#lmw">Play first performed in <date when="1795">1795</date> and printed <date when="1805">1805</date>.</note>
                </bibl>
                <bibl xml:id="Whiteknights_Desc_TCH">
                   <title level="m">A Descriptive Account of the Mansion and Gardens of White-Knights: A Seat
@@ -32264,7 +32301,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Wild Oats</title>
                   <author>John O'Keefe</author>
                   <date when="1791">1791</date>
-                  <note resp="#ebb">Play featuring naval characters, a complex marriage plot, and a fictional theatre troupe, first performed at Covent Garden Theatre in 1791. See <ref target="https://en.wikipedia.org/wiki/Wild_Oats_(play)"/> for a detailed summary.</note>
+                  <note resp="#ebb">Play featuring naval characters, a complex marriage plot, and a fictional theatre troupe, first performed at Covent Garden Theatre in 1791.</note>
                </bibl>
                <bibl xml:id="William_and_Hannah_BR">
                   <title level="a" ref="#William_and_Hannah_BR">William and Hannah</title>
@@ -32289,16 +32326,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Winter Nights; Or, Fire-side Lucubrations</title>
                   <author ref="#Drake_Nathan">Nathan Drake</author>
                   <pubPlace ref="#London_city">London</pubPlace>
-                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <publisher ref="#Longman_Hurst_ROB_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
                   <date when="1820">1820</date>
                </bibl>
                <bibl xml:id="Winters_Tale_play">
                   <title level="m">The Winter’s Tale</title>
                   <author ref="#Shakespeare">William Shakespeare</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <date when="1623">1623</date>
                   <note resp="#ebb">Classed as a dark comedy or romance play, <title level="m">The
-                        Winter’s Tale</title> was first known to be published in the <bibl>
+                        Winter’s Tale</title> was likely written around <date when="1611">1611</date> and first printed in the <bibl>
                         <title level="s">First Folio</title> collection of <date when="1623">1623</date>
                      </bibl>.</note>
                </bibl>
@@ -32331,18 +32368,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="WmTell_play">
                   <title level="m">William Tell</title>
                   <author ref="#Knowles_Sheridan"/>
+                  <date when="1825"/>
                </bibl>
                <bibl xml:id="WomanHater_play">
                   <title level="m">The Woman Hater</title>
                   <author ref="#Beaumont_Fr">Beaumont</author>
                   <author ref="#Fletcher_John">Fletcher</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1607">1607</date>
                </bibl>
                <bibl xml:id="Women_CM">
                   <title level="m">Women: Or Pour et Contre. A Tale</title>
                   <author ref="#Maturin_Charles"/>
-                  <pubPlace>Edinburgh</pubPlace>
-                  <publisher>Constable and co.</publisher>
+                  <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                  <publisher ref="#Constable_pub">Constable and co.</publisher>
                   <date when="1818">1818</date>
                </bibl>
                <bibl xml:id="Woodcutter_FT">
@@ -32350,7 +32389,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL</title>
                   <author ref="#MRM">Mary Russell Mitford</author>
                   <editor>Mary Russell Mitford</editor>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Charles Tilt</publisher>
                   <date when="1839">1839</date>
                   <biblScope unit="page" from="61" to="66">61-66</biblScope>
@@ -32739,6 +32778,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="Zaire_play">
                   <title level="m">Zaíre</title>
                   <author ref="#Voltaire">Voltaire</author>
+                  <pubPlace ref="#Paris">Paris</pubPlace>
                   <date when="1732"/>
                </bibl>
             </listBibl>
@@ -32748,14 +32788,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#McCoy_Rich">Richard McCoy</persName>
                   </author>
-                  <pubPlace>New York, New York, USA</pubPlace>
+                  <pubPlace ref="#New_York_city">New York, New York, USA</pubPlace>
                   <publisher>Columbia University Press</publisher>
                   <date when="2002">2002</date>
                </bibl>
                <bibl xml:id="BannedThtr_Findlater">
                   <title level="m">Banned!: A Review of Theatrical Censorship in Britain</title>
                   <author>Richard Findlater</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Gibbon &amp; McKee</publisher>
                   <date when="1967">1967</date>
                </bibl>
@@ -32792,7 +32832,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <author>
                      <persName ref="#Marshall_Alan">Alan Marshall</persName>
                   </author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Brassey</publisher>
                   <date when="2004">2004</date>
                </bibl>
@@ -32803,7 +32843,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <editor ref="#Lestrange">Alfred Guy Kingan L’Estrange</editor>
                   <editor ref="#Harness_Wm">William Harness</editor>
                   <biblScope unit="volume">three volumes</biblScope>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>Richard Bentley</publisher>
                   <date when="1870"/>
                </bibl>
@@ -32838,7 +32878,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="a">Review: 55 Days</title>
                   <title level="m">The Telegraph</title>
                   <author>Charles Spencer</author>
-                  <placeName>London</placeName>
+                  <placeName><placeName ref="#London_city">London</placeName></placeName>
                   <date when="2012-10-25"> October 25, 2012</date>
                   <biblScope unit="page"><!--ebb: Indicate the page here.--></biblScope>
                   <biblScope unit="column"><!--ebb: Indicate the columns on the page, since this is a newspaper, right?--></biblScope>
@@ -32864,8 +32904,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <editor>Donald H. Reiman</editor>
                   <editor>Sharon B. Powers</editor>
                   <editor>Neil Fraistat</editor>
-                  <pubPlace>New York</pubPlace>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace ref="#New_York_city">New York</pubPlace>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
                   <publisher>W. W. Norton</publisher>
                   <date when="2002">2002</date>
                   <note resp="#slc #rnes">Scholarly edition of Shelley's major works.</note>
