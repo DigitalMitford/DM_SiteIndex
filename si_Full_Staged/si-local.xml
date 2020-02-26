@@ -143,7 +143,6 @@
                         <affiliation>Virginia Commonwealth University</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
                <person xml:id="alg">
                   <persName>
@@ -272,7 +271,6 @@
                         <affiliation>University of Pittsburgh</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
                <person xml:id="djh">
                   <persName>
@@ -336,7 +334,6 @@
                         <affiliation>Università degli Studi di Parma</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
                <person xml:id="du">
                   <persName>
@@ -378,7 +375,6 @@
                         <affiliation>Duquesne University</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
                <person xml:id="err">
                   <persName>
@@ -442,7 +438,6 @@
                         <affiliation>University of California, Los Angeles</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
                <person xml:id="ghb">
                   <persName>
@@ -693,7 +688,6 @@
                         <affiliation>Carnegie Mellon University</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
                <person xml:id="naj">
                   <persName>
@@ -706,7 +700,6 @@
                         <affiliation>Penn State University</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
                <person xml:id="pmd">
                   <persName>
@@ -852,9 +845,7 @@
                         <affiliation>Washington and Jefferson College</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                </person>
-               
             </listPerson>
             <listOrg sortKey="archives">
                <org xml:id="Baylor">
@@ -1082,7 +1073,6 @@
                         <affiliation>State University of New York, Potsdam</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                   <note>Austin Calderwood is at work on an M.A. in English and
                      Communication from SUNY Potsdam. As part of Dr. Wilson’s Fall 2015 graduate
                      course, Book History in a Digital Age, he worked on a class project to edit
@@ -1194,7 +1184,6 @@
                         <affiliation>State University of New York, Potsdam</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                   <note>Corie LaSalle is at work on an M.A. in English and Communication
                      from SUNY Potsdam. As part of Dr. Wilson’s Fall 2015 graduate course,<q>Book
                      History in a Digital Age,</q> she worked on a class project to edit the sonnets
@@ -1392,7 +1381,6 @@
                         <affiliation>State University of New York, Potsdam</affiliation>
                      </roleName>
                   </occupation>
-                  <note type="bio"/>
                   <note>Kristen Murphy completed an M.A. in English and Communication
                      from SUNY Potsdam. As part of Dr. Wilson’s Fall 2015 graduate course, <q>Book
                      History in a Digital Age,</q> she worked on a class project to edit the sonnets
@@ -1809,7 +1797,7 @@
                      <forename>William</forename>
                      <forename>Allan</forename>
                   </persName>
-                  <note type="bio" resp="#scw #ebb">Wrote his PhD Dissertation to the Dept. of
+                  <note resp="#scw #ebb">Wrote his PhD Dissertation to the Dept. of
                      English at Harvard University of August 1956 as an edition of the
                      correspondence of <persName ref="#MRM">Mary Russell Mitford</persName> and
                         <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName>, representing
@@ -1916,7 +1904,7 @@
                      <surname>Needham</surname>
                      <forename>Francis R</forename>
                   </persName>
-                  <note type="bio" resp="#ad">
+                  <note resp="#ad">
                      <persName ref="#Needham_Francis">Francis R. Needham</persName> was librarian
                      and secretary to the Duke Wellington (based at Stratfield Saye in Hampshire).
                      He was a passionate Mitfordian and worked tirelessly to try and collect
@@ -2695,7 +2683,7 @@
                   <orgName>
                      <surname>Slade</surname>
                   </orgName>
-                  <note type="bio" resp="#scw #ebb">
+                  <note resp="#scw #ebb">
                      <persName ref="#MRM">Mitford</persName> mentions the Slades in her <rs type="letter">letter to <persName ref="#Talfourd_Thos">Thomas Noon
                            Talfourd</persName> of <date when="1821-06-21">June 21, 1821</date>, as
                         distant relatives involved in a court case over the execution of their
@@ -3021,7 +3009,7 @@
                      <forename>Harrison</forename>
                   </persName>
                   <birth when="1805-02-04">
-                     <placeName>Manchester, England</placeName>
+                     <placeName>Manchester, Lancashire, England</placeName>
                   </birth>
                   <death when="1882-01-03">
                      <placeName>Reigate, Surrey, England</placeName>
@@ -3058,7 +3046,7 @@
                      <placeName>Schloss Rosenau, near Coburg, Bavaria</placeName>
                   </birth>
                   <death when="1861-12-14">
-                     <placeName>Windsor Castle, Berkshire, England</placeName>
+                     <placeName>Windsor Castle, Windsor, Berkshire, England</placeName>
                   </death>
                   <occupation type="government" subtype="monarch"/>
                   <note resp="#ebb #rnes">
@@ -3078,7 +3066,7 @@
                      <placeName>St. Petersburg, Russia</placeName>
                   </birth>
                   <death when="1825-12-01">
-                     <placeName>Taganrog</placeName>
+                     <placeName>Taganrog, Russia</placeName>
                   </death>
                   <occupation type="government" subtype="monarch"/>
                   <note resp="#ajc">Emperor of Russia, <date from="1801" to="1825">1801-25</date>
@@ -3139,10 +3127,10 @@
                      <roleName>Sir</roleName>
                   </persName>
                   <birth when="1782">
-                     <placeName>Edinburgh, Scotland</placeName>
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
                   </birth>
                   <death when="1850-02-23">
-                     <placeName>Edinburgh, Scotland</placeName>
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
                   </death>
                   <occupation type="artist"/>
                   <occupation type="artist" subtype="painter"/>
@@ -3218,6 +3206,7 @@
                   <note>
                      <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/annesley-francis-1734-1812"/>
                   </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Francis_Annesley_Hickel.jpg"/></note>
                </person>
                <person xml:id="Annie" sex="f">
                   <persName>Annie</persName>
@@ -3276,7 +3265,7 @@
                   <persName>
                      <surname>Baring</surname>
                      <forename>Alexander</forename>
-                     <roleName>First Baron Ashburton</roleName>
+                     <roleName>1st Baron Ashburton</roleName>
                   </persName>
                   <persName>
                      <addName>Lord Ashburton</addName>
@@ -3307,7 +3296,7 @@
                      <placeName>Kington St. Michael, Wiltshire, Malmesbury, England</placeName>
                   </birth>
                   <death when="1897-07-06">
-                     <placeName>Oxford, England</placeName>
+                     <placeName>Oxford, Oxfordshire, England</placeName>
                   </death>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="biographer"/>
@@ -3403,7 +3392,7 @@
                      <placeName>Bothwell, Lanarkshire, Scotland</placeName>
                   </birth>
                   <death when="1851-02-23">
-                     <placeName>Hampstead, England</placeName>
+                     <placeName>Hampstead, London, England</placeName>
                   </death>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="poet"/>
@@ -3517,7 +3506,6 @@
                   </persName>
                   <persName>
                      <roleName>1st Baronet of Adlephi Terrace</roleName>
-                     <roleName>Order of Merit</roleName>
                      <roleName>Rector of the University of St. Andrews</roleName>
                      <roleName>Chancellor of the University of Edinburgh</roleName>
                   </persName>
@@ -3530,7 +3518,7 @@
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="literary" subtype="novelist"/>
                   <occupation type="literary" subtype="journalist"/>
-                  <note resp="#lmw">Journalist, novelist, and playwright; author of <title level="m">Peter Pan</title>
+                  <note resp="#lmw">Author of <title level="m">Peter Pan</title>
                      <title level="m">Quality Street</title>, and <title level="m">The Admirable Crichton</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/64001320"/>
@@ -3546,7 +3534,7 @@
                      <placeName>Dragley Beck, Ulverston, Lancashire</placeName>
                   </birth>
                   <death when="1848-11-23">
-                     <placeName>London</placeName>
+                     <placeName>London, England</placeName>
                   </death>
                   <occupation type="explorer"/>
                   <occupation type="government" subtype="administrator"/>
@@ -3582,7 +3570,9 @@
                      <forename>Peter</forename>
                      <surname>Bayley</surname>
                   </persName>
-                  <birth notBefore="1778"/>
+                  <birth notBefore="1778">
+                     <placeName>Nantwich, Cheshire, England</placeName>
+                  </birth>
                   <death when="1823-01-25">
                      <placeName>London, England</placeName>
                   </death>
@@ -3600,6 +3590,7 @@
                   <note>
                      <ref target="http://viaf.org/viaf/3828982"/>
                   </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Peter_Bayley_(1778-1823),_by_unknown_artist.jpg"/></note>
                </person>
                <person xml:id="Beaumont_Fr" sex="m">
                   <persName>Francis Beaumont</persName>
@@ -3725,7 +3716,7 @@
                      <ref target="http://viaf.org/viaf/74124605"/>
                   </note>
                </person>
-               <person xml:id="Bell_Geo" sex="m"><!--stub-->
+               <person xml:id="Bell_Geo" sex="m">
                   <persName>George Bell</persName>
                   <persName>
                      <surname>Bell</surname>
@@ -3861,7 +3852,6 @@
                   <persName>
                      <surname>Bennoch</surname>
                      <forename>Francis</forename>
-                     <roleName>Esq.</roleName>
                   </persName>
                   <birth when="1812"/>
                   <death when="1890"/>
@@ -3934,7 +3924,7 @@
                      <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/benyon-richard-ii-1770-1854"/>
                   </note>
                </person>
-               <person xml:id="Benyon_RF" sex="m"><!--LMW: OK, not a du.-->
+               <person xml:id="Benyon_RF" sex="m"><!--LMW: OK, not a dup.-->
                   <persName>Richard Fellowes Benyon</persName>
                   <persName>
                      <forename>Richard</forename>
@@ -4178,9 +4168,11 @@
                      <forename>William</forename>
                   </persName>
                   <birth when="1776-11-20">
-                     <placeName>Scotland</placeName>
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
                   </birth>
-                  <death when="1834-09-16"/>
+                  <death when="1834-09-16">
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
+                  </death>
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="bookProducer" subtype="publisher"/>
                   <occupation type="bookProducer" subtype="printer"/>
@@ -4257,7 +4249,7 @@
                      <forename>Ann</forename>
                   </persName>
                   <occupation type="trade" subtype="farmer"/>
-                  <note resp="#scw">A local farmer of <placeName ref="#Shinfield"> Shinfield</placeName>, farmed at <placeName>Hyde end farm</placeName>. Listed among the traders of <placeName ref="#Shinfield">Shinfield</placeName> village and parish in <date when="1847">1847</date> and <date when="1854">1854</date> in the <bibl corresp="#PO_BerkshireDir">
+                  <note resp="#scw">A local farmer of <placeName ref="#Shinfield">Shinfield</placeName>, farmed at <placeName>Hyde end farm</placeName>. Listed among the traders of <placeName ref="#Shinfield">Shinfield</placeName> village and parish in <date when="1847">1847</date> and <date when="1854">1854</date> in the <bibl corresp="#PO_BerkshireDir">
                         <title level="m">Post Office Directory of Berkshire</title>
                      </bibl>, and noted by <persName ref="#Needham_Francis">Needham</persName> on a list of local tradespeople.</note>
                </person>
@@ -4275,7 +4267,6 @@
                   </death>
                   <note resp="#scw #lmw">
                      <persName ref="#Needham_Francis">Needham</persName> tentatively identifies him as <persName ref="#MRM">Mitford</persName>'s landlord. Listed in 1841 census as a <quote>farmer</quote> residing in Wokingham, Shinfield parish; also listed as <quote>gentleman</quote> in Reading directories. Buried <date when="1842-03-12">12 March 1842</date>. Source: ancestry.com.</note>
-                  <!--LMW:  Wife Ann?  Listed as farmer in 1854 directory (no husband living, presumably.) see ancestry.-->
                </person>
                <person xml:id="Bogue_David" sex="m">
                   <persName>David Bogue</persName>
@@ -4305,10 +4296,10 @@
                      <forename>Henry</forename>
                   </persName>
                   <birth when="1796-01-04">
-                     <placeName ref="#London_city">London</placeName>
+                     <placeName ref="#London_city">London, England</placeName>
                   </birth>
                   <death when="1884-08-22">
-                     <placeName>Twickenham</placeName>
+                     <placeName>Twickenham, Middlesex, England</placeName>
                   </death>
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="bookProducer" subtype="publisher"/>
@@ -4385,10 +4376,10 @@
                      <roleName>9th Laird of Auchinlek</roleName>
                   </persName>
                   <birth when="1740-10-29">
-                     <placeName>Edinburgh, United Kingdom</placeName>
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
                   </birth>
                   <death when="1795-05-19">
-                     <placeName>London, United Kingdom</placeName>
+                     <placeName>London, England</placeName>
                   </death>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="biographer"/>
@@ -4409,7 +4400,9 @@
                   <birth when="1762-09-24">
                      <placeName>King's Sutton, Northamptonshire, England</placeName>
                   </birth>
-                  <death when="1850-04-07"/>
+                  <death when="1850-04-07">
+                     <placeName>Salisbury, Wiltshire, England</placeName>
+                  </death>
                   <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="poet"/>
@@ -4424,6 +4417,9 @@
                   <note>
                      <ref target="http://viaf.org/viaf/696177"/>
                   </note>
+                  <note>
+                     <ref target="https://commons.wikimedia.org/wiki/File:William_Lisle_Bowles.jpg"/>
+                  </note>
                </person>
                <person xml:id="Bradshaw_hist" sex="m">
                   <persName>John Bradshaw</persName>
@@ -4436,8 +4432,12 @@
                   <occupation type="legal" subtype="magistrate"/>
                   <occupation type="legal" subtype="judge"/>
                   <occupation type="government" subtype="politician"/>
-                  <birth when="1602-07-15"/>
-                  <death when="1659-10-31"/>
+                  <birth when="1602-07-15">
+                     <placeName>Cheshire, England</placeName>
+                  </birth>
+                  <death when="1659-10-31">
+                     <placeName>London, England</placeName>
+                  </death>
                   <note resp="#rnes #ebb">English Republican politician. Appointed Judge of the Sheriff's Court at the <placeName ref="#Guildhall_London">Guildhall in London</placeName>, Bradshaw was the presiding judge who <rs type="event">sentenced <persName ref="#ChasI">King Charles I</persName> to death on <date when="1649-01-27">27 January 1649</date> at <placeName ref="#Westmnst_Palace">Westminster Hall</placeName>
                      </rs>. He later served the Commonwealth as President of the Council of State, but objected to Cromwell's establishment of a dictatorship and reacted by leaving politics. His death two years before the Restoration caused him to avoid execution, the fate of many of his fellow regicides. At the Restoration, his remains were exhumed and publicly displayed, along with those of Henry Ireton and other regicides who had died before 1660.</note>
                   <!-- LMW: Content OK. checked 2019-07-28-->
@@ -4463,10 +4463,10 @@
                      <forename>Joel</forename>
                   </persName>
                   <birth notBefore="1800-04-20">
-                     <placeName ref="#Shinfield">Shinfield parish</placeName>
+                     <placeName ref="#Shinfield">Shinfield parish, Berkshire, England</placeName>
                   </birth>
                   <death notAfter="1876-07-18">
-                     <placeName ref="#Shinfield">Shinfield parish</placeName>
+                     <placeName ref="#Shinfield">Shinfield parish, Berkshire, England</placeName>
                   </death>
                   <occupation type="trade"/>
                   <occupation type="trade" subtype="liquor"/>
@@ -4489,9 +4489,9 @@
                      <forename>Lizzy</forename>
                   </persName>
                   <birth when="1818-01-31">
-                     <placeName>Three Mile Cross</placeName>
+                     <placeName>Three Mile Cross, Berkshire, England</placeName>
                   </birth>
-                  <death notAfter="1827-09-27">buried at <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>
+                  <death notAfter="1827-09-27">buried at <placeName ref="#ThreeMileCross">Three Mile Cross, Berkshire, England</placeName>
                   </death>
                   <note resp="#scw">There is no family information provided by <persName ref="#Needham_Francis">Needham</persName> for Lizzy Brent, but she is likely related to others in the <orgName>Brent family</orgName> who are named and unnamed in <title ref="#OV">Our Village</title>. In a notebook kept from <date from="1819" to="1823">1819 to 1823</date>, Mitford refers twice to <quote>little Eliza</quote>. On each occasion, she is noting her third and fourth birthdays. In the story from <title ref="#Our_Village1st_ed">Our Village, volume one</title>, <title ref="#Village_Beau_OV">A Village Beau</title>, the character of the little girl, <persName ref="#Lizzy_OV">Lizzy</persName>, is said to be the half-sister of <persName ref="#Brent_Joel">Joel Brent</persName>. <persName ref="#Brent_Lizzy">Lizzy Brent</persName> was likely the inspiration for <persName type="fict" ref="#Lizzy_OV">Lizzy</persName>, the <persName ref="#OVNarrator">narrator</persName>'s three-year old companion on many of her walks in <title ref="#OV">Our Village</title>. Note that her date of birth is tentative: Needham cites <bibl>the Diary</bibl> for the birth information but places a question mark next to the date of birth. <!--scw: See photo DSCN1096--> Source: <persName ref="#Needham_Francis">Needham</persName>archive, <orgName ref="#ReadingCL">Reading Central Library</orgName>.</note>
                </person>
@@ -4513,7 +4513,7 @@
                   </note>
                </person>
                <person xml:id="Brightwell_CL" sex="f">
-                  <persName>Cecilia Lucy Brightwell</persName>
+                  <persName>Lucy Brightwell</persName>
                   <persName>
                      <forename>Cecilia</forename>
                      <forename>Lucy</forename>
@@ -4623,7 +4623,7 @@
                   <persName>1st Baron Brougham and Vaux</persName>
                   <persName>Lord Chancellor</persName>
                   <birth when="1778-09-19">
-                     <placeName>Cowgate, Edinburgh, Scotland
+                     <placeName>Cowgate, Edinburgh, Midlothian, Scotland
                      </placeName>
                   </birth>
                   <death when="1868-05-07">
@@ -4671,7 +4671,7 @@
                      <placeName>London, England</placeName>
                   </birth>
                   <death when="1682-10-19">
-                     <placeName>Norwich, England</placeName>
+                     <placeName>Norwich, Norfolk, England</placeName>
                   </death>
                   <occupation type="scholar"/>
                   <occupation type="medical"/>
@@ -4718,10 +4718,10 @@
                      <forename>James</forename>
                   </persName>
                   <birth when="1730-12-14">
-                     <placeName>Kinnaird House, Kinnaird, Stirlingshire</placeName>
+                     <placeName>Kinnaird House, Kinnaird, Stirlingshire, Scotland</placeName>
                   </birth>
                   <death when="1794-04-26">
-                     <placeName>Kinnaird House</placeName>
+                     <placeName>Kinnaird House, Kinnaird, Stirlingshire, Scotland</placeName>
                   </death>
                   <occupation type="explorer"/>
                   <occupation type="literary" subtype="essayist"/>
@@ -4739,8 +4739,12 @@
                      <forename>Pierre</forename>
                      <roleName>Father</roleName>
                   </persName>
-                  <birth when="1688"/>
-                  <death when="1742"/>
+                  <birth when="1688">
+                     <placeName>Rouen, France</placeName>
+                  </birth>
+                  <death when="1742">
+                     <placeName>Paris, France</placeName>
+                  </death>
                   <occupation type="religious" subtype="clergy"/>
                   <occupation type="literary"/>
                   <note resp="#lmw">French author and Jesuit priest, called le pere Brumoy or Father Brumoy, author of
@@ -4763,20 +4767,21 @@
                      <roleName>Doctor of Divinity</roleName>
                   </persName>
                   <birth when="1772-10-02">
-                     <placeName>Edinburgh, Scotland</placeName>
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
                   </birth>
                   <death when="1854-02-09">
-                     <placeName>Scotland</placeName>
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
                   </death>
                   <occupation type="religious" subtype="clergy"/>
                   <occupation type="scholar"/>
                   <occupation type="educator"/>
                   <occupation type="literary" subtype="linguist"/>
                   <occupation type="literary" subtype="translator"/>
-                  <note resp="#ncl #lmw">Spouse of <persName ref="#Brunton_Mary">Mary Brunton</persName>. Church of Scotland clergyman and Moderator of the General Assembly in <date when="1823">1823</date>. Professor of Hebrew and Oriental Languages at the University of Edinburgh between 1813 and 1847.</note>
+                  <note resp="#ncl #lmw">Spouse of <persName ref="#Brunton_Mary">Mary Balfour Brunton</persName>. Church of Scotland clergyman and Moderator of the General Assembly in <date when="1823">1823</date>. Professor of Hebrew and Oriental Languages at the University of Edinburgh between 1813 and 1847.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/316879452"/>
                   </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:AlexanderBruntonJWGordon.jpg"/></note>
                </person>
                <person xml:id="Brunton_Mary" sex="f">
                   <persName>Mary Balfour Brunton</persName>
@@ -4796,6 +4801,9 @@
                   <note resp="#lmw">Author of novels <title ref="#Self_Control">Self Control</title> and <title ref="#Discipline">Discipline</title>. <persName ref="#MRM">Mitford</persName> pokes gentle fun at her under the name <quote>Mrs. Discipline</quote> in letters of <date when="1819">1819</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/34532515"/>
+                  </note>
+                  <note>
+                     <ref target="https://commons.wikimedia.org/wiki/File:MaryBrunton.jpg"/>
                   </note>
                </person>
                <person xml:id="Brutus" sex="m">
@@ -4937,6 +4945,7 @@
                   <note>
                      <ref target="http://www.historyofparliamentonline.org/volume/1820-1832/member/burdett-sir-francis-1770-1844"/>
                   </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Sir_Francis_Burdett,_5th_Bt_by_Thomas_Phillips.jpg"/></note>
                </person>
                <person xml:id="Burgess" sex="m">
                   <persName>Mr. Burgess</persName>
@@ -5085,7 +5094,7 @@
                      <forename>George</forename>
                      <forename>Gordon</forename>
                      <forename>Noel</forename>
-                     <roleName type="nobility">sixth Baron Byron</roleName>
+                     <roleName>6th Baron Byron</roleName>
                   </persName>
                   <birth when="1788-01-22">
                      <placeName>Holles Street, London, England</placeName>
@@ -5126,7 +5135,7 @@
                      <placeName>Elemore Hall, Durham, England</placeName>
                   </birth>
                   <death when="1860-05-16"/>
-                  <note resp="#rnes">The wife of George Gordon, Lord Byron, and mother of mathematician Ada Augusta Byron King, Countess of Lovelace. Married in 1815, Lady Byron formally separated from her husband almost a year later, shortly after Ada's birth. She had left her marital household with her child, having endured many of Lord Byron's outbursts, taunts, and (it has been rumored) rape. She encouraged her daughter's mathematical pursuits, engaging the celebrity mathematician Augustus de Morgan to instruct her. Late in life, Lady Byron was befriended by an American visitor, <title level="m">Uncle Tom's Cabin</title> author Harriet Beecher Stowe, who, after Lady Byron's death, defended her separation from her husband in <title level="m">Lady Byron Vindicated</title>, for which Stowe was widely condemned.</note>
+                  <note resp="#rnes">The spouse of George Gordon, Lord Byron, and mother of mathematician Ada Augusta Byron King, Countess of Lovelace. Married in 1815, Lady Byron formally separated from her husband almost a year later, shortly after Ada's birth. She had left her marital household with her child, having endured many of Lord Byron's outbursts, taunts, and (it has been rumored) rape. She encouraged her daughter's mathematical pursuits, engaging the celebrity mathematician Augustus de Morgan to instruct her. Late in life, Lady Byron was befriended by an American visitor, <title level="m">Uncle Tom's Cabin</title> author Harriet Beecher Stowe, who, after Lady Byron's death, defended her separation from her husband in <title level="m">Lady Byron Vindicated</title>, for which Stowe was widely condemned.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/67258879"/>
                   </note>
@@ -5382,6 +5391,11 @@
                   <note>
                      <ref target="http://viaf.org/viaf/121983436"/>
                   </note>
+                  <note>
+                     <ref target="https://commons.wikimedia.org/wiki/File:Francis_Leggatt_Chantrey_(1782-1841%27_by_Henri_Bone_after_John_Jackson.jpg"/>
+                  </note>
+                  
+                  
                </person>
                <person xml:id="Chapone_Hester" sex="f">
                   <persName>Hester Mulso Chapone</persName>
@@ -5781,7 +5795,7 @@
                   <occupation type="theater"/>
                   <occupation type="theater" subtype="actor"/>
                   <!--LMW: content ok. 2019-07-->
-                  <note resp="#lmw">Comic actor at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>, called <q>little Collins</q>. Acted under <q>Mr. Collins</q>. According to 1806 <title level="a">Remarks</title> in <title level="s">Cumberland's British Theatre</title> on Tobin's play <title ref="#Honeymoon_play">The Honey Moon</title>, Collins played Jaquez at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <quote>died during the run of the comedy</quote>. An 1804 biographical sketch in the <title level="j">Monthly Mirror</title> (147) indicates that Collins was born in Chichester in <date when="1775">1775</date> and began performing at Drury Lane in <date when="1802">1802</date>; he was discovered by <persName ref="#Sheridan_RichardB">Sheridan</persName> while performing in Winchester.</note>
+                  <note resp="#lmw">Comic actor at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>, called <q>little Collins</q>. Acted under <q>Mr. Collins</q>. According to 1806 <title level="a">Remarks</title> in <title level="s">Cumberland's British Theatre</title> on Tobin's play <title ref="#Honeymoon_play">The Honey Moon</title>, Collins played Jaquez at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <quote>died during the run of the comedy</quote>. An 1804 biographical sketch in the <title level="j">Monthly Mirror</title> (147) indicates that Collins began performing at Drury Lane in <date when="1802">1802</date>; he was discovered by <persName ref="#Sheridan_RichardB">Sheridan</persName> while performing in Winchester.</note>
                   
                   <note>
                      <ref target="http://viaf.org/viaf/78974331"/>
@@ -5814,7 +5828,7 @@
                   <birth when="1732-04">
                      <placeName>Florence, Italy (British subject)</placeName>
                   </birth>
-                  <death when="17940-08-14">
+                  <death when="1794-08-14">
                      <placeName>London, England</placeName>
                   </death>
                   <occupation type="literary"/>
@@ -5973,7 +5987,6 @@
                   <persName>
                      <surname>Cosway</surname>
                      <forename>Richard</forename>
-                     <roleName>member of the Royal Academy</roleName>
                   </persName>
                   <birth when="1742-11-05">
                      <placeName>Tiverton, Devon, England</placeName>
@@ -6099,8 +6112,7 @@
                   <persName>
                      <forename>William</forename>
                      <surname>Coxe</surname>
-                     <roleName>Master of Arts</roleName>
-                     <roleName>Archdeacon of Wilts</roleName>
+                    <roleName>Archdeacon of Wilts</roleName>
                   </persName>
                   <birth when="1748">
                      <placeName ref="#London_city">London, England</placeName>
@@ -6191,8 +6203,7 @@
                   <persName>
                      <roleName>Lord Protector of the Commonwealth of England, Scotland, and
                         Ireland</roleName>
-                     <roleName>Member of Parliament for Cambridge</roleName>
-                     <roleName>Member of Parliament for Huntingdon</roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1599-04-25">
                      <placeName>Huntingdon, Huntingdonshire, England</placeName>
@@ -6232,7 +6243,7 @@
                   </death>
                   <occupation type="military"/>
                   <occupation type="government" subtype="politician"/>
-                  <note resp="#rnes">The fourth of <persName ref="#Cromwell">Oliver Cromwell</persName>'s five sons (out of nine children total), Henry served as <roleName>Lord Lieutenant of Ireland</roleName> and in various capacities during his father's rise and regime. He corresponded copiously with his father. Source: ODNB.</note>
+                  <note resp="#rnes">The fourth of <persName ref="#Cromwell">Oliver Cromwell</persName>'s five sons (out of nine children total), Henry served as Lord Lieutenant of Ireland and in various capacities during his father's rise and regime. He corresponded copiously with his father. Source: ODNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/7276701"/>
                   </note>
@@ -6278,6 +6289,10 @@
                </person>
                <person xml:id="Crowther_Mr" sex="m">
                   <persName>Mr. Crowther
+                  </persName>
+                  <persName>
+                     <surname>Crowther</surname>
+                     <roleName>Mr.</roleName>
                   </persName>
                   <note resp="#lmw #scw">
                      <p>The <quote>dandy</quote> Mitford pokes fun at in her letters of <date when="1819-01-09">
@@ -6429,10 +6444,9 @@
                      <forename>Robert</forename>
                      <forename>Charles</forename>
                      <roleName>Sir</roleName>
-                     <roleName>Her Majesty's Most Honourable Privy Council (PC)</roleName>
-                     <roleName>Serjeant-at-Law (SL)</roleName>
-                     <roleName>King's Counsel(KC)</roleName>
-                     <roleName>Member of Parliament (MP)</roleName>
+                     <roleName>Serjeant-at-Law</roleName>
+                     <roleName>King's Counsel</roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1756-10-16">
                      <placeName>Kingston, Jamaica</placeName>
@@ -6449,10 +6463,11 @@
                         <title level="m">History of the Maroons, from their Origin to their Establishment in Sierra Leone</title> (<date when="1803">1803</date>)</bibl> and <bibl>
                         <title level="m">Recollections of the Life of <persName ref="#Byron">Lord Byron</persName> from the year 1808 to the end of 1814</title> (<date when="1824">1824</date>)</bibl>. Mitford mentions his <bibl corresp="#Sir_Fr_Darrell">
                         <date when="1820">1820</date> novel <title level="m">Sir Francis Darrell, or the Vortex</title>
-                     </bibl>, in her letters. Dallas is perhaps best known today as a Byron correspondent and biographer. His sister, Charlotte Henrietta Dallas, married Captain George Anson Byron, and their son George Anson Byron (1789-1868) inherited Byron's title upon his death in 1824. Source: History of Parliament Online: <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/dallas-robert-1756-1824"/> Note: The VIAF record seemingly gives an incorrect year of birth of 1754 instead of 1756.</note>
+                     </bibl>, in her letters. Dallas is perhaps best known today as a Byron correspondent and biographer. His sister, Charlotte Henrietta Dallas, married Captain George Anson Byron, and their son George Anson Byron (1789-1868) inherited Byron's title upon his death in 1824.  Note: The VIAF record seemingly gives an incorrect year of birth of 1754 instead of 1756.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/25774123"/>
                   </note>
+                  <note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/dallas-robert-1756-1824"/></note>
                </person>
                <person xml:id="Dante" sex="m">
                   <persName>Dante</persName>
@@ -6994,8 +7009,8 @@
                      <surname type="paternal">Barlow</surname>
                      <forename>Elizabeth</forename>
                   </persName>
-                  <birth when="1766-01-06">January 6, 1766</birth>
-                  <death notBefore="1789">unknown</death>
+                  <birth when="1766-01-06"/>
+                  <death notBefore="1789"/>
                   <note resp="#scw">Second wife of <persName ref="#Drover_JamesSr">James Drover, Sr.</persName>, whom she married in <date when="1789">1789</date>, and mother of <persName ref="#Drover_JamesJr">James Drover, Jr.</persName>, both of whom operated a China shop on <placeName>Minster Street</placeName> in <placeName ref="#Reading_city">Reading</placeName>. Sources: The Registers of the Parish of St. Mary's, Reading, Berks., 1538-1812. Vol. II: Marriages and Burials. Google Books. Ancestry.com.</note>
                </person>
                <person xml:id="Drover_JamesJr" sex="m"><!--SCW: changed xml:id--><!--LMW: not a dup.-->
@@ -7127,8 +7142,7 @@
                      </roleName>
                      <roleName>Lord Chamberlain of the Household</roleName>
                      <roleName>Licenser of Plays</roleName>
-                     <roleName>President of Royal Horticultural Society</roleName>
-                     <roleName>Lord Lieutenant of Derbyshire</roleName>
+                    <roleName>Lord Lieutenant of Derbyshire</roleName>
                   </persName>
                   <birth when="1790-05-21">
                      <placeName>Paris, France</placeName>
@@ -7150,7 +7164,7 @@
                   <persName>
                      <surname>Dukinfield</surname>
                      <forename>Henry</forename>
-                     <roleName>Rev.</roleName>
+                     <roleName>Reverend</roleName>
                      <roleName>Sir</roleName>
                   </persName>
                   <occupation type="religious" subtype="vicar"/>
@@ -7205,8 +7219,7 @@
                      </roleName>
                   </persName>
                   <persName>
-                     <roleName>Member of Parliament for Berkshire<date from="1794" to="1832"/>
-                     </roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1751-08-05">
                      <placeName>Scotland</placeName>
@@ -7231,7 +7244,7 @@
                      <roleName>Reverend</roleName>
                   </persName>
                   <birth when="1798-06-30">
-                     <placeName>Edinburgh, Lothian, Scotland</placeName>
+                     <placeName>Edinburgh, Scotland</placeName>
                   </birth>
                   <death when="1869-05-15">
                      <placeName>London, England</placeName>
@@ -7254,7 +7267,7 @@
                   <persName>
                      <forename>John</forename>
                      <surname>Easthope</surname>
-                     <roleName>baronet</roleName>
+                     <roleName>Baronet</roleName>
                   </persName>
                   <birth when="1784-10-29">
                      <placeName>Bath, Somerset, England</placeName>
@@ -7367,9 +7380,7 @@
                   </persName>
                   <persName>Mr. Elford</persName>
                   <persName>
-                     <roleName>
-                        <date from="1820-03-10" to="1820-11-29"/>Member of Parliament for
-                        Westbury</roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1776-11-05">
                      <placeName>Plympton Erle, Plymouth, Devon, England</placeName>
@@ -7459,19 +7470,10 @@
                      <surname>Elford</surname>
                      <forename>William</forename>
                      <roleName>Sir</roleName>
-                     <roleName>baronet<date notBefore="1800-11-26"/>
-                     </roleName>
+                     <roleName>baronet</roleName>
                      <roleName>Recorder for Plymouth</roleName>
                      <roleName>Recorder for Totnes</roleName>
-                     <roleName>
-                        <date from="1796" to="1806">Member of Parliament for Plymouth</date>
-                     </roleName>
-                     <roleName>
-                        <date from="1807-07" to="1808-07"/>Member of Parliament for Rye</roleName>
-                     <roleName>
-                        <date notBefore="1790"/>Fellow of the Royal Society (FRS)</roleName>
-                     <roleName>
-                        <date notBefore="1790"/>Fellow of the Linnaean Society (FLS)</roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1749-08">
                      <placeName>Kingsbridge, Devon, England</placeName>
@@ -7486,7 +7488,7 @@
                   <occupation type="government"/>
                   <occupation type="scholar"/>
                   <occupation type="artist" subtype="painter"/>
-                  <note type="bio" resp="#ebb #lmw">
+                  <note resp="#ebb #lmw">
                      <p>According to <persName ref="#Lestrange">L’Estrange</persName>, <persName ref="#Elford_SirWm">Sir William</persName> was first a friend of
                            <persName ref="#Mitford_Geo">Mitford’s father</persName>, and <rs type="event">
                            <persName ref="#MRM">Mitford</persName> met him for the first time in the
@@ -8029,7 +8031,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Maria</forename>
                   </persName>
                   <birth when="1797-07-24">
-                     <placeName>Plymouth, England</placeName>
+                     <placeName>Plymouth, Devonshire, England</placeName>
                   </birth>
                   <death when="1867-12-27">
                      <placeName ref="#London_city">Whitehall, London, England</placeName>
@@ -8266,11 +8268,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>
                         <date from="1800" to="1847">Royal Navy</date>
                      </roleName>
-                     <roleName>Fellow of the Royal Geographical Society</roleName>
+                     
                      <roleName>Rear-Admiral</roleName>
                      <roleName>
-                        <date from="1837" to="1843">Lieutenant-Governor of Van Dieman's Land, now
-                           Tasmania</date>
+                        <date from="1837" to="1843">Lieutenant-Governor of Van Dieman's Land (Tasmania)</date>
                      </roleName>
                   </persName>
                   <birth when="1786-04-16">
@@ -8645,10 +8646,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Pearse</forename>
                   </persName>
                   <birth when="1788">
-                     <placeName>Arbroath, Scotland</placeName>
+                     <placeName>Arbroath, Angus, Scotland</placeName>
                   </birth>
                   <death when="1858-11-28">
-                     <placeName>Kensington, England</placeName>
+                     <placeName>Kensington, London, England</placeName>
                   </death>
                   <note resp="#sbb">A contributor to <title level="j">Blackwood's Magazine</title>.</note>
                </person>
@@ -8930,7 +8931,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Henry</forename>
                      <forename>St. John</forename>
                      <roleName>Sir</roleName>
-                     <roleName>baronet</roleName>
+                     <roleName>Baronet</roleName>
                   </persName>
                   <persName>
                      <surname>Vaughn</surname>
@@ -9087,8 +9088,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1873-04-13">
                      <placeName>Kensington, Middlesex, England</placeName>
                   </death>
-                  <note type="bio" resp="#kdc #lmw">Mary Harness was born on February 4, 1801 in
-                     London to John Harness, M.D. and Sarah Dredge; she was baptized at St. Luke,
+                  <note resp="#kdc #lmw">Mary Harness was the daughter of John Harness, M.D. and Sarah Dredge; she was baptized at St. Luke,
                      Chelsea, on June 3, 1801. She is the sister of Mitford’s friend <persName ref="#Harness_Wm">William Harness</persName>, and brother and sister lived
                      together throughout their adult lives; neither married. At the 1851 and 1861
                      censuses, Mary lived at <placeName>3 Hyde Park Terrace, Westminster St.
@@ -9148,7 +9148,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <persName>
                      <roleName>Order of the British Empire</roleName>
-                     <roleName>Master of the Art Workers Guild</roleName>
                   </persName>
                   <birth when="1906-03-03">
                      <placeName>Notting Hill, London, England</placeName>
@@ -9173,7 +9172,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </birth>
                   <death notAfter="1884-12-24">buried on December 24, 1884 in <placeName ref="#Shinfield">Shinfield parish</placeName>
                   </death>
-                  <note type="bio" resp="#scw">Son of <persName>George and Sarah Hatch</persName>.
+                  <note  resp="#scw">Son of <persName>George and Sarah Hatch</persName>.
                      Baptismal data as noted by <persName ref="#Needham_Francis">Needham</persName>
                      along with other <placeName ref="#Shinfield">Shinfield parish</placeName>
                      baptisms correlating to named characters in <title ref="#OV"/>. In his research
@@ -9200,7 +9199,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="theater" subtype="actor"/>
-                  <note type="bio" resp="#rnes">Minor actor, poet, and playwright. A colleague of
+                  <note resp="#rnes">Minor actor, poet, and playwright. A colleague of
                         <persName ref="#Garrick_David">David Garrick</persName> but of reportedly
                      modest talent, Havard wrote a <bibl corresp="#HavardChasI_play">
                         <title level="m">Tragedy of Charles the First</title> (<date when="1747">1747</date>)</bibl>, which, despite being played, caused controversy due to
@@ -9230,11 +9229,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Salem, Massachusetts, USA</placeName>
                   </birth>
                   <death when="1864-05-19">
-                     <placeName>Plymouth, New Hampshire, USA</placeName>
+                     <placeName>Plymouth, Massachusetts, USA</placeName>
                   </death>
                   <occupation type="literary" subtype="novelist"/>
                   <occupation type="literary" subtype="essayist"/>
-                  <note resp="#ebb #lmw">New England novelist, essayist and short story author whose
+                  <note resp="#ebb #lmw">New England author whose
                      work <persName ref="#MRM">Mitford</persName> admired and promoted by featuring
                      him in her collections of notable American authors.</note>
                   <note>
@@ -9270,12 +9269,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Robert</forename>
                   </persName>
                   <birth when="1786-01-26">
-                     <placeName>Plymouth, England</placeName>
+                     <placeName>Plymouth, Devonshire, England</placeName>
                   </birth>
                   <death when="1846-06-22">
-                     <placeName ref="#London_city">London</placeName>
+                     <placeName ref="#London_city">London, England</placeName>
                   </death>
-                  <note type="bio" resp="#ebb">Benjamin Robert Haydon was a painter educated at the
+                  <note resp="#ebb">Benjamin Robert Haydon was a painter educated at the
                         <orgName ref="#Royal_Academy">Royal Academy</orgName>, who was famous for
                      contemporary, historical, classical, biblical, and mythological scenes, though
                      tormented by financial difficulties. He painted <persName ref="#Wordsworth_Wm">William Wordsworth’s</persName> portrait in 1842. <persName ref="#MRM">MRM</persName> was introduced to him at his London studio in the spring of
@@ -9284,7 +9283,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <!--Mention some others? What was he working on and exhibiting in fall 1820?-->He
                      killed himself in 1846.
                      <!--ebb: Look up more on this! Mitford was, I think, asked to write his biography but declined?--></note>
-                  <note type="bio" resp="#lmw">
+                  <note resp="#lmw">
                      <p>English painter and author (1786-1846) Published <title level="m">Autobiography</title> in 3 vols.
                         (1853) John Keats named him in several poems.</p>
                   </note>
@@ -9313,7 +9312,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Sarah</forename>
                   </persName>
                   <death when="1808"/>
-                  <note type="bio" resp="#ajc">Sarah Haydon was the mother of painter <persName ref="#Haydon">Benjamin Robert Haydon</persName> Source: ODNB.</note>
+                  <note resp="#ajc">Sarah Haydon was the mother of painter <persName ref="#Haydon">Benjamin Robert Haydon</persName> Source: ODNB.</note>
                </person>
                <person xml:id="Haydon_Mrs" sex="f">
                   <persName>Mary Hyman Haydon</persName>
@@ -9323,7 +9322,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Cawse</surname>
                      <forename>Mary</forename>
                   </persName>
-                  <note type="bio" resp="#ghb">The daughter of the Rev. Benjamin Cobley, the Rector
+                  <note resp="#ghb">The daughter of the Rev. Benjamin Cobley, the Rector
                      of Dodbrooke, Kingsbridge, Devon, she was widowed with two children when she
                      married <persName ref="#Haydon">Benjamin Robert Haydon</persName> on <date when="1821-10-10">10 October 1821</date>.</note>
                </person>
@@ -9399,7 +9398,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         England</placeName>
                   </birth>
                   <death when="1735-06-10">
-                     <placeName>Oxford, England</placeName>
+                     <placeName>Oxford, Oxfordshire, England</placeName>
                   </death>
                   <occupation type="scholar" subtype="antiquarian"/>
                   <occupation type="literary"/>
@@ -9415,10 +9414,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Theodosius</forename>
                   </persName>
                   <birth when="1785-03-01">
-                     <placeName>13 Lisle Street, Leicestor Square, London</placeName>
+                     <placeName>13 Lisle Street, Leicestor Square, London, England</placeName>
                   </birth>
                   <death when="1848-11-18">
-                     <placeName>24 Seymour Place North, Euston, London</placeName>
+                     <placeName>24 Seymour Place North, Euston, London, England</placeName>
                   </death>
                   <note resp="#bas">Son of engraver <persName ref="#Heath_J">James Heath</persName>.
                      He studied under his father and became an accomplished engraver in his own
@@ -9436,7 +9435,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>James</forename>
                   </persName>
                   <birth when="1757-04-19">
-                     <placeName>Butcher Hall Lane, Newgate, England</placeName>
+                     <placeName>Butcher Hall Lane, Newgate, London, England</placeName>
                   </birth>
                   <death when="1834-11-15">
                      <placeName>Great Coram Street, London, England</placeName>
@@ -9462,7 +9461,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary"/>
                   <occupation type="scholar"/>
                   <occupation type="government" subtype="politician"/>
-                  <note type="bio" resp="#ajc #lmw">Heber was a book collector and one of the
+                  <note resp="#ajc #lmw">Heber was a book collector and one of the
                      founders of the Roxburghe club. Member of Parliament for Oxford University.&gt;</note>
                   <note>
                      <ref target="http://viaf.org/viaf/5314321"/>
@@ -9479,7 +9478,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Liverpool, Lancashire, England</placeName>
                   </birth>
                   <death when="1835-05-16">
-                     <placeName>Dublin, county Dublin, Ireland</placeName>
+                     <placeName>Dublin, Ireland</placeName>
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="playwright"/>
@@ -9663,7 +9662,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <addName>J. A. Hessey</addName>
                   </persName>
-                  <note type="bio" resp="#lmw #ebb"> London bookseller and printer with <persName ref="#Taylor_J">John Taylor</persName>, <orgName ref="#Taylor_Hessey">Taylor
+                  <note resp="#lmw #ebb"> London bookseller and printer with <persName ref="#Taylor_J">John Taylor</persName>, <orgName ref="#Taylor_Hessey">Taylor
                         and Hessey</orgName>. Hessey owned the <title ref="#LondonMag">London
                         Magazine</title> from 1821-1825, and published <persName ref="#Keats">John
                         Keats</persName>. </note>
@@ -9683,7 +9682,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="artist"/>
-                  <note resp="#scw">Poet and artist, an intimate of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, who admired her literary skills, and of <persName ref="#Chapone_Hester">Hester Chapone</persName> and other <orgName ref="#Bluestockings">Bluestockings</orgName>. Her portrait is included in the picture of <persName ref="#Richardson_Sam">Richardson</persName> reading <title ref="#Chas_Grandison_novel">Sir Charles Grandison</title>. Source: ODNB.<!--scw: There are 2 Susanna Highmores, both of whom knew Richardson. This one went by her maiden name professionally, and seems more connected to the Bluestockings than the other SH, which is more in line with the context of the story, Modern Antiques, in which she's referenced. Her inclusion in the portrait of SR reading Grandison sort of nails it for me. --><ref target="http://viaf.org/viaf/122040478"/>
+                  <note resp="#scw">An intimate of <persName ref="#Richardson_Sam">Samuel Richardson</persName>, who admired her literary skills, and of <persName ref="#Chapone_Hester">Hester Chapone</persName> and other <orgName ref="#Bluestockings">Bluestockings</orgName>. Her portrait is included in the picture of <persName ref="#Richardson_Sam">Richardson</persName> reading <title ref="#Chas_Grandison_novel">Sir Charles Grandison</title>. Source: ODNB.<!--scw: There are 2 Susanna Highmores, both of whom knew Richardson. This one went by her maiden name professionally, and seems more connected to the Bluestockings than the other SH, which is more in line with the context of the story, Modern Antiques, in which she's referenced. Her inclusion in the portrait of SR reading Grandison sort of nails it for me. --><ref target="http://viaf.org/viaf/122040478"/>
                   </note>
                </person>
                <person xml:id="Hill_Charles" sex="m">
@@ -9709,7 +9708,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName ref="#Stratfield_Saye">Stratfield Saye, Berkshire,
                         England</placeName>
                   </birth>
-                  <note type="bio" resp="#scw">Beloved servant for twelve years in the Mitford
+                  <note resp="#scw">Beloved servant for twelve years in the Mitford
                      household who, on <date when="1820-08-07">7 August 1820</date> married
                         <persName ref="#Hill_Charles">Charles Hill</persName>. She is the basis for
                      the title character in the <title ref="#OV">Our Village</title> story. Source: <orgName>
@@ -9728,7 +9727,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <addName>Mrs. Hoare</addName>
                   </persName>
                   <persName>
-                     <addName>M.A. Hoare</addName>
+                     <addName>M. A. Hoare</addName>
                   </persName>
                   <birth notAfter="1818">
                      <placeName>Ireland</placeName>
@@ -9794,7 +9793,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName ref="#London_city">Berkeley Square, London, England</placeName>
                   </death>
                   <occupation type="government" subtype="politician"/>
-                  <note type="bio" resp="#err #lmw">A friend and traveling companion of Lord Byron
+                  <note resp="#err #lmw">A friend and traveling companion of Lord Byron
                      who contributed notes to the <bibl>fourth canto of <title level="m">Childe Harold’s Pilgrimage</title></bibl>, John
                      Cam Hobhouse was elected to the House of Commons in 1820 as a member of the
                      Whig party. In 1851, he became the First Baron Broughton.</note>
@@ -9818,7 +9817,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Barbara</forename>
                   </persName>
                   <birth notAfter="1770">
-                     <placeName>Yorkshire</placeName>
+                     <placeName>Yorkshire, England</placeName>
                   </birth>
                   <death when="1844-11-04">
                      <placeName>Richmond-on-Thames</placeName>
@@ -9866,7 +9865,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="artist" subtype="painter"/>
                   <occupation type="artist" subtype="engraver"/>
                   <occupation type="artist" subtype="printmaker"/>                  
-                  <note type="bio" resp="#lmw">Painter, printmaker, and caricaturist.</note>
+                  <note resp="#lmw">Painter, printmaker, and caricaturist.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/17268409"/>
                   </note>
@@ -9881,7 +9880,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <addName>the Ettrick Shepherd</addName>
                   </persName>
                   <birth when="1770">
-                     <placeName>near Ettrick, Scotland</placeName>
+                     <placeName>Ettrick, Scotland</placeName>
                   </birth>
                   <death when="1835-11-21"/>
                   <note resp="#ebb">Scottish ballad collector, poet, and novelist who wrote in Scots and English and was encouraged by his life-long friend <persName ref="#Scott_Wal">Walter Scott</persName> to take up a writing career. Hogg authored <title ref="#QueensWake">The Queen's Wake</title>, a long poem on <persName ref="#MaryQoS">Mary Queen of Scots</persName> in <date when="1813">1813</date>, and <title level="m">The Private Memoirs and Confessions of a Justified Sinner</title>, anonymously published in <date when="1824">1824</date>.</note>
@@ -10151,7 +10150,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="government" subtype="politician"/>
                   <occupation type="military"/>
-                  <note type="bio" resp="#alg #lmw #ebb">A Royalist sympathizer knighted in the field and imprisoned during the <rs type="event" ref="#EngCivilWar">English Civil War</rs>, Sir Robert pursued a profitable political career as a member of <orgName ref="#Parliament_UK">Parliament</orgName> after the Restoration, in addition to becoming a successful poet, dramatist, and critic. Howard was the brother-in-law of <persName ref="#Dryden">John Dryden</persName>, with whom he co-authored a famous tragedy, <bibl>
+                  <note resp="#alg #lmw #ebb">A Royalist sympathizer knighted in the field and imprisoned during the <rs type="event" ref="#EngCivilWar">English Civil War</rs>, Sir Robert pursued a profitable political career as a member of <orgName ref="#Parliament_UK">Parliament</orgName> after the Restoration, in addition to becoming a successful poet, dramatist, and critic. Howard was the brother-in-law of <persName ref="#Dryden">John Dryden</persName>, with whom he co-authored a famous tragedy, <bibl>
                         <title level="m">The Indian Queen</title>, set in Peru and Mexico and first staged in <date when="1664">1664</date>
                      </bibl>. He is also known for <bibl>his comedy <title level="m">The Committee; or, the Faithful Irishman</title>, a satire on the Commonwealth, first performed in the <date notBefore="1662">1660s</date> and revived in the following century in <date when="1776">1776</date> at Drury Lane Theater</bibl>. He is buried in Westminster Abbey.</note>
                   <note>
@@ -10304,7 +10303,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Leigh</forename>
                      <surname>Hunt</surname>
                   </persName>
-                  <persName>Leigh Hunt</persName>
                   <birth when="1784-10-19">
                      <placeName>Southgate, England</placeName>
                   </birth>
@@ -10324,8 +10322,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Hunt</surname>
                   </persName>
                   <floruit when="1809"/>
-                  <occupation type="literary"/>
-                  <note resp="#ajc">Writer and critic. Brother of <persName ref="#Hunt">Leigh
+                  <occupation type="literary" subtype="critic"/>
+                  <note resp="#ajc">Brother of <persName ref="#Hunt">Leigh
                         Hunt</persName> and <persName>John Hunt</persName> who founded <title ref="#Examiner">The Examiner</title>. One of the earliest reviewers of
                         <persName ref="#Blake_Wm">William
                      Blake</persName>.<!--lmw/ajc No VIAF #, no birth/death dates in worldcat or elsewhere. Secondary references mainly in works on William Blake.--></note>
@@ -10340,10 +10338,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Governor of Nottingham Castle</roleName>
                      <roleName>Commissioner, High Court of Justice</roleName>
                      <roleName>Member, Council of State</roleName>
-                     <roleName>Member of Parliament for Nottingham</roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth from="1615-01" to="1616-12">
-                     <placeName>Nottinghamshire</placeName>
+                     <placeName>Nottinghamshire, England</placeName>
                   </birth>
                   <death when="1664-09-11">
                      <placeName>Sandown Castle, Kent, England</placeName>
@@ -10539,7 +10537,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1861-11-25">
                      <placeName>3 Pembroke Villas, Richmond, Surrey, England</placeName>
                   </death>
-                  <note type="bio" resp="#lmw">Close friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. She was the eldest daughter of Thomas Webb and Susanna Haycock. Her father
+                  <note resp="#lmw">Close friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. She was the eldest daughter of Thomas Webb and Susanna Haycock. Her father
                      died in 1818 and her mother in 1835. After her parents’ deaths, she lived with
                      her two younger sisters, Emily and Susan, in Green Park Buildings, Bath,
                      Walcot, Somerset; High Street, Mortlake, Surrey; and 3 Pembroke Villas,
@@ -10564,7 +10562,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </birth>
                   <death notAfter="1841"/>
                   <note resp="#lmw">Susan or Susannah Haycock, wife of Thomas James and mother of
-                        <persName ref="#James_Miss">Elizabeth Mary James</persName>, <persName ref="#James_Susan">Susan James</persName>, and <persName ref="#James_Emily">Emily James</persName>. She was born about 1754 and was baptized at Bath
+                        <persName ref="#James_Miss">Elizabeth Mary James</persName>, <persName ref="#James_Susan">Susan James</persName>, and <persName ref="#James_Emily">Emily James</persName>. She was baptized at Bath
                      Abbey, Bath, Somerset on <date when="1754-10-17">October 17, 1754</date>, the
                      daughter of Joseph and Mary Haycock. She married Thomas James on <date when="1773-06-22">June 22, 1773</date> at Bath, Somerset. Date of death
                      unknown, but based on census records, it is likely to have been before
@@ -10615,7 +10613,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Bath, Somerset, England</placeName>
                   </birth>
                   <death when="1860-12-27">
-                     <placeName>3 Pembroke Villas, Richmond, Surrey</placeName>
+                     <placeName>3 Pembroke Villas, Richmond, Surrey, England</placeName>
                   </death>
                   <occupation type="educator"/>
                   <occupation type="educator" subtype="governess"/>
@@ -10693,7 +10691,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Jameson</surname>
                   </persName>
                   <birth when="1794-05-17">
-                     <placeName>Dublin, Leinster, Ireland</placeName>
+                     <placeName>Dublin, Ireland</placeName>
                   </birth>
                   <death when="1860-03-17">
                      <placeName>Ealing, London, England</placeName>
@@ -10918,9 +10916,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <birth when="1572-06-11"/>
                   <death when="1637-08-06">
-                     <placeName>London</placeName>
+                     <placeName>London, England</placeName>
                   </death>
-                  <note resp="#ebb">Renaissance English playwright and contemporary of <persName ref="#Shakespeare">William Shakespeare</persName>. Jonson was known for
+                  <note resp="#ebb">Early modern English playwright and contemporary of <persName ref="#Shakespeare">William Shakespeare</persName>. Jonson was known for
                      satirical plays, including <bibl>
                         <title level="m">Every Man in His Humour</title> (<date when="1598">1598</date>)</bibl>, <bibl>
                         <title level="m">Volpone, or The Foxe</title> (<date when="1605">1605</date>)</bibl>,
@@ -10932,7 +10930,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname type="paternal">Bland</surname>
                      <surname>Jordan</surname>
-                     <!-- LMW:  This is not her "married" name, but an assumed surname. -->
+                     <!-- LMW:  This is not her married name, but an assumed surname. -->
                      <forename>Dorothea</forename>
                      <addName>Dolly</addName>
                      <addName>Dora</addName>
@@ -11117,7 +11115,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="autobiographer"/>
                   <occupation type="literary" subtype="playwright"/>
                   <occupation type="literary" subtype="poet"/>
-                  <note type="bio" resp="#lmw">Frances or <q>Fanny</q> Kemble was a member of the Kemble acting clan, the daughter of <persName ref="#Kemble_C">Charles Kemble</persName> and the niece of <persName ref="#Siddons_Sarah">Sarah Siddons</persName>. One of the best-known women performers of her generation, she worked as both an actor and a platform performer in London and also toured the United States. She was also a prolific author, particulary known for her memoirs and travel writing.
+                  <note resp="#lmw">Frances or <q>Fanny</q> Kemble was a member of the Kemble acting clan, the daughter of <persName ref="#Kemble_C">Charles Kemble</persName> and the niece of <persName ref="#Siddons_Sarah">Sarah Siddons</persName>. One of the best-known women performers of her generation, she worked as both an actor and a platform performer in London and also toured the United States. She was also a prolific author, particulary known for her memoirs and travel writing.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/66594114"/>
@@ -11216,7 +11214,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>King</surname>
                   </persName>
                   <persName>
-                     <roleName>Doctor of Laws (LL.D.)</roleName>
+                     <roleName>Doctor of Laws</roleName>
                   </persName>
                   <birth when="1685-03-16">
                      <placeName>Stepney, Middlesex, London, England</placeName>
@@ -11325,7 +11323,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Cork, Ireland</placeName>
                   </birth>
                   <death when="1862-11-30">
-                     <placeName>Torquay, England</placeName>
+                     <placeName>Torquay, Devonshire, England</placeName>
                   </death>
                   <occupation type="theater" subtype="actor"/>
                   <occupation type="literary"/>
@@ -11401,7 +11399,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="novelist"/>
                   <occupation type="literary" subtype="poet"/>
-                  <note type="bio" resp="#lmw">English author. Daughter of Frederick Ponsonby, 3rd Earl of Bessborough and Lady Henrietta Spencer. Wife of William Lamb, 2nd Viscount Melbourne and mistress of <persName ref="#Byron">Lord Byron</persName>. Author of <title ref="#Glenarvon_fict">Glenarvon</title> and other satirical novels. She attended the <placeName ref="#StQuintin_School">St. Quintin School</placeName>, and was taught by <persName ref="#Rowden_Fr">Frances Rowden</persName>, along with <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Landon_LE">Laetitia Elizabeth Landon</persName>.
+                  <note resp="#lmw">English author. Daughter of Frederick Ponsonby, 3rd Earl of Bessborough and Lady Henrietta Spencer. Wife of William Lamb, 2nd Viscount Melbourne and mistress of <persName ref="#Byron">Lord Byron</persName>. Author of <title ref="#Glenarvon_fict">Glenarvon</title> and other satirical novels. She attended the <placeName ref="#StQuintin_School">St. Quintin School</placeName>, and was taught by <persName ref="#Rowden_Fr">Frances Rowden</persName>, along with <persName ref="#MRM">Mary Russell Mitford</persName> and <persName ref="#Landon_LE">Laetitia Elizabeth Landon</persName>.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/76413276"/>
@@ -11442,7 +11440,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>London, England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <note type="bio" resp="#err #rnes">An elder sister of <persName ref="#Lamb_Chas">Charles
+                  <note resp="#err #rnes">An elder sister of <persName ref="#Lamb_Chas">Charles
                      Lamb</persName>, Mary Lamb was a noted author of prose fiction and poetry
                      who was a member of literary circles that included her brother Charles,
                      <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName>, <persName ref="#Wordsworth_Wm">William Wordsworth</persName>, <persName ref="#Wordsworth_Dor">Dorothy Wordsworth</persName>, <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName>, and, presumably,
@@ -11698,8 +11696,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <persName>John Liston</persName> on <date when="1807-03-22">22 March
                         1807</date>. Both John and Sarah Liston publicly retired from the theatre
                      with valedictory performances at <placeName ref="#Covent_Garden_Theatre">Covent
-                        Garden</placeName> on <date when="1822-05-31">31 May 1822</date>. [Sources:
-                     entries on John Liston in ODNB, DNB 1885-1900. See in particular <ptr target="http://en.wikisource.org/wiki/Liston,_John_(DNB00)"/>]
+                        Garden</placeName> on <date when="1822-05-31">31 May 1822</date>.
                      <!-- LMW See Folger "Mrs. Liston as Dollalolla," "I'll spit, I'll squall, /And tear the eyes out of you all." TOM THUMB.  "Drawn and Etched expressly for the British Stage, June 1817" Handcolored image of full-figured actor in full rant.  Source Call Number: ART File L773.3 no.3 (size XS); Digital Image File Name: 30323 Digital Image Type: FSL collection Hamnet Bib ID: 253288 Hamnet Holdings ID:330629.  (Folger says TT by Henry Fielding) See also V and A: http://collections.vam.ac.uk/item/O1262653/mrs-liston-as-dollalolla-print-unknown/--></note>
                </person>
                <person xml:id="Lock_Mr" sex="m">
@@ -11747,7 +11744,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Lanarkshire, Scotland</placeName>
                   </birth>
                   <death when="1854-11-25">
-                     <placeName>Abbotsford, Scotland</placeName>
+                     <placeName>Abbotsford, near Melrose, Scotland</placeName>
                   </death>
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary" subtype="editor"/>
@@ -11832,10 +11829,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>George</forename>
                   </persName>
                   <birth when="1737-05-03">
-                     <placeName>Dublin</placeName>
+                     <placeName>Dublin, Ireland</placeName>
                   </birth>
                   <death when="1806-03-31">
-                     <placeName>Chiswick</placeName>
+                     <placeName>Chiswick, London, England</placeName>
                   </death>
                   <occupation type="government" subtype="diplomat"/>
                   <occupation type="government" subtype="administrator"/>
@@ -11964,15 +11961,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Westcott, Surrey, England</placeName>
                   </birth>
                   <death when="1834-12-29">
-                     <placeName>Bath, Somerset, England</placeName>
+                     <placeName>Bath, Somersetshire, England</placeName>
                   </death>
                   <note resp="#ebb">Author of <bibl>
                         <title level="m">An Essay on the Principle of Population</title> published in <date when="1798">1798</date>.</bibl>
                   </note>
                   <note>
-                     <ref target="https://en.wikipedia.org/wiki/Thomas_Robert_Malthus"/>
-                     <ref target="http://viaf.org/viaf/71154/"/>
-                     <ref target="https://upload.wikimedia.org/wikipedia/commons/d/d5/Thomas_Robert_Malthus_Wellcome_L0069037_-crop.jpg"/>
+                     <ref target="http://viaf.org/viaf/71154/"/></note>
+                <note><ref target="https://upload.wikimedia.org/wikipedia/commons/d/d5/Thomas_Robert_Malthus_Wellcome_L0069037_-crop.jpg"/>
                   </note>
                </person>
                <person xml:id="Malton_Mr" sex="m">
@@ -12386,7 +12382,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>John</forename>
                   </persName>
                   <birth when="1777">
-                     <placeName>Parish of Bonhill, Dunbartonshire</placeName>
+                     <placeName>Parish of Bonhill, Dunbartonshire, England</placeName>
                   </birth>
                   <death when="1820-11-08">
                      <placeName>While on board the Royal Sovereign</placeName>
@@ -12454,7 +12450,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname>Merry</surname>
                      <forename>William</forename>
-                     <roleName>Esquire</roleName>
                   </persName>
                   <birth when="1793">
                      <placeName>London, Middlesex, England</placeName>
@@ -12494,7 +12489,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="artist" subtype="sculptor"/>
                   <occupation type="artist" subtype="painter"/>
-                  <note type="bio" resp="#ghb">Renaissance artist famous for sculptures, such as <title level="m">David</title> and <title level="m">La Pieta</title>, and frescoes, such as <title level="m">The Last Judgement</title> and the ceiling of the Sistine Chapel in the Vatican.</note>
+                  <note resp="#ghb">Early-modern artist famous for sculptures, such as <title level="m">David</title> and <title level="m">La Pieta</title>, and frescoes, such as <title level="m">The Last Judgement</title> and the ceiling of the Sistine Chapel in the Vatican.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/24585191"/>
                   </note>
@@ -12520,8 +12515,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </surname>
                   </persName>
                   <persName>
-                     <roleName>
-                        <date from="1640" to="1648">Member of Parliament for Nottingham</date>
+                     <roleName>>Member of Parliament
                      </roleName>
                   </persName>
                   <birth notBefore="1598">
@@ -12722,14 +12716,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <persName>
                      <roleName>Earl of Sandwich</roleName>
-                     <roleName>Fellow of the Royal Society (FRS)</roleName>
                   </persName>
                   <birth when="1625-07-27">
                      <placeName>Hinchingbrooke House, Huntingdon, Cambridgeshire, England
                      </placeName>
                   </birth>
                   <death when="1672-05-28">
-                     <placeName>at sea, Solebay, England</placeName>
+                     <placeName>at sea, near Solebay, England</placeName>
                   </death>
                   <occupation type="military" subtype="navy"/>
                   <occupation type="government" subtype="politician"/>
@@ -12782,7 +12775,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>M.D.</roleName>
                   </persName>
                   <birth when="1729-12-07">
-                     <placeName>Stirling, Scotland</placeName>
+                     <placeName>Stirling, Stirlingshire, Scotland</placeName>
                   </birth>
                   <death when="1802-02-21">
                      <placeName>Richmond, Surrey, England</placeName>
@@ -12893,9 +12886,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </roleName>
                      <roleName>Lord Lieutenant of the East Riding of Yorkshire<date from="1824" to="1840"/>
                      </roleName>
-                     <roleName>Member of Parliament for Morpeth</roleName>
-                     <roleName>Member of Parliament for Cumberland</roleName>
-                     <roleName>Fellow of the Royal Society (FRS)</roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1773-09-17">
                      <placeName>London, England</placeName>
@@ -13027,7 +13018,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Salzburg, Austria</placeName>
                   </birth>
                   <death when="1791-12-05">
-                     <placeName>Prague</placeName>
+                     <placeName>Prague, Bohemia</placeName>
                   </death>
                   <occupation type="theater" subtype="composer"/>
                   <occupation type="theater" subtype="musician"/>
@@ -13053,7 +13044,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="artist" subtype="landscape"/>
-                  <note type="bio" resp="#lmw #ebb">Poet, playwright, writer of prose fiction
+                  <note resp="#lmw #ebb">Poet, playwright, writer of prose fiction
                      sketches, <persName ref="#MRM">Mary Russell Mitford</persName> is, of course,
                      the subject of our archive. <persName ref="#MRM">Mary Russell
                         Mitford</persName> was born on <date when="1787-12-16">December 16,
@@ -13135,7 +13126,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>London, England</placeName>
                   </death>
                   <occupation type="theater" subtype="actor"/>
-                  <note type="bio" resp="#ebb #lmw">Comic actor who frequently played sailor and drunken roles, though occasionally took dignified elder roles, such as <persName ref="#Polonius">Polonius</persName>. Munden married the actor <persName>Frances Butler</persName> in 1789. He began his acting career in <date when="1780">1780</date> at the <placeName ref="#Haymarket_Theatre">Haymarket Theatre</placeName>. He later played at both <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. He retired with a farewell benefit performance on <date when="1824-05-31">31 May 1824</date>. Munden played <persName>Old Rapid</persName> opposite <persName ref="#Lewis_William_Thomas">William Thomas Lewis</persName> as <persName>Young Rapid</persName> in the play, <title level="m">Cure for the Heartache</title> in <date when="1796">1796</date>, and played <persName ref="#Polonius">Polonius</persName> to <persName ref="#Kean_Edmund">Kean</persName>'s as well as to <persName ref="#Kemble_JP">John Philip Kemble</persName>'s <persName ref="#Hamlet_H">Hamlet</persName>. Source: ODNB.
+                  <note resp="#ebb #lmw">Comic actor who frequently played sailor and drunken roles, though occasionally took dignified elder roles, such as <persName ref="#Polonius">Polonius</persName>. Munden married the actor <persName>Frances Butler</persName> in 1789. He began his acting career in <date when="1780">1780</date> at the <placeName ref="#Haymarket_Theatre">Haymarket Theatre</placeName>. He later played at both <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres, London. He retired with a farewell benefit performance on <date when="1824-05-31">31 May 1824</date>. Munden played <persName>Old Rapid</persName> opposite <persName ref="#Lewis_William_Thomas">William Thomas Lewis</persName> as <persName>Young Rapid</persName> in the play, <title level="m">Cure for the Heartache</title> in <date when="1796">1796</date>, and played <persName ref="#Polonius">Polonius</persName> to <persName ref="#Kean_Edmund">Kean</persName>'s as well as to <persName ref="#Kemble_JP">John Philip Kemble</persName>'s <persName ref="#Hamlet_H">Hamlet</persName>. Source: ODNB.
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/44107475"/>
@@ -13195,7 +13186,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Admiral</roleName>
                      <roleName>1st Viscount Nelson</roleName>
                      <roleName>1st Duke of Bronté</roleName>
-                     <roleName>Royal Navy</roleName>
                   </persName>
                   <birth when="1758-09-29">
                      <placeName>Burnham Thorpe, Norfolk, England</placeName>
@@ -13339,9 +13329,6 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Northmore</surname>
                      <forename>Thomas</forename>
                   </persName>
-                  <persName>
-                     <roleName>Fellow of the Society of Antiquaries (FRSA)</roleName>
-                  </persName>
                   <birth when="1766">
                      <placeName>Cleve, Devonshire, England</placeName>
                   </birth>
@@ -13369,7 +13356,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <birth when="1768-05-14"/>
                   <death when="1841-10-25">
-                     <placeName>Winchester</placeName>
+                     <placeName>Winchester, Hampshire, England</placeName>
                   </death>
                   <note resp="#sbb">Son of <persName>Samuel Nott</persName> (1740-1793).  Clergymen and prebendary of <placeName>Winchester</placeName> and superindentant of the Winchester Cathedral restoration </note>
                </person>
@@ -13456,10 +13443,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Alderson</forename>
                   </persName>
                   <birth when="1769-11-12">
-                     <placeName>Norwich, United Kingdom</placeName>
+                     <placeName>Norwich, Norfolk, England</placeName>
                   </birth>
                   <death when="1853-12-02">
-                     <placeName>Norwich, United Kingdom</placeName>
+                     <placeName>Norwich, Norfolk, England</placeName>
                   </death>
                   <note resp="#ebb #lrs">A prolific novelist from 1790 through 1834, contemporary with Mitford, and an active abolitionist in <placeName>Norwich</placeName>. Friendly with the Godwins, Shelleys, and <persName>Elizabeth Inchbald</persName>.  Married to <persName>John Opie</persName>, the painter.</note>
                   <note>
@@ -13867,10 +13854,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Prime Minister of the United Kingdom</roleName>
                   </persName>
                   <birth when="1788-05-02">
-                     <placeName>Bury, England</placeName>
+                     <placeName>Bury, Lancashire, England</placeName>
                   </birth>
                   <death when="1850-02-07">
-                     <placeName>Westminster, England</placeName>
+                     <placeName>Westminster, Middlesex, England</placeName>
                   </death>
                   <occupation type="government" subtype="politician"/>
                   <note resp="#tlh #lmw">Prime Minster from 10 December 1834 to 8 April 1835, and
@@ -13885,10 +13872,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Herbert</surname>
                   </persName>
                   <persName>
-                     <roleName>1st Earl of Pembroke, tenth creation</roleName>
-                  </persName>
-                  <persName>
-                     <roleName>1st Baron Herbert of Cardiff</roleName>
+                     <roleName>1st Earl of Pembroke, tenth creation</roleName><roleName>1st Baron Herbert of Cardiff</roleName>
                   </persName>
                   <birth notBefore="1501"/>
                   <death when="1570-03-17">
@@ -13912,7 +13896,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="scholar"/>
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="explorer" subtype="traveller"/>
-                  <note type="bio" resp="#scw">Correspondent of <persName ref="#WhiteGilbert">Gilbert White</persName> in his <title level="m">Natural History and Antiquities of Selborne</title>, Pennant was a naturalist and author whose many works included <title level="m">Arctic Zoology</title>, <title level="m">A Tour in Scotland 1769</title> and <title level="m">A Synopsis of Quadrupeds</title>. His travels writings influenced <persName ref="#Johnson">Samuel Johnson</persName>, and he corresponded extensively with <persName>Joseph Banks</persName>. Source: ODNB.</note>
+                  <note resp="#scw">Correspondent of <persName ref="#WhiteGilbert">Gilbert White</persName> in his <title level="m">Natural History and Antiquities of Selborne</title>, Pennant was a naturalist and author whose many works included <title level="m">Arctic Zoology</title>, <title level="m">A Tour in Scotland 1769</title> and <title level="m">A Synopsis of Quadrupeds</title>. His travels writings influenced <persName ref="#Johnson">Samuel Johnson</persName>, and he corresponded extensively with <persName>Joseph Banks</persName>. Source: ODNB.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/7426596"/>
                   </note>
@@ -13980,7 +13964,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Philips_Mr" sex="m">
                   <persName>Mr. Philips</persName>
                   <occupation type="trade" subtype="miller"/>
-                  <note type="bio" resp="#ebb">A <placeName ref="#Reading_city">Reading</placeName>
+                  <note resp="#ebb">A <placeName ref="#Reading_city">Reading</placeName>
                      millwright mentioned in <rs type="letter">
                         <persName ref="#MRM">Mitford</persName>’s discussion of the Reading
                         elections in her letter to <persName ref="#Elford_SirWm">Sir William
@@ -14290,7 +14274,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname>Potter</surname>
                      <forename>Robert</forename>
-                     <roleName>Rev.</roleName>
+                     <roleName>Reverend</roleName>
                   </persName>
                   <birth when="1771">
                      <placeName>Podimore, Somerset, England</placeName>
@@ -14358,7 +14342,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Stephen</forename>
                   </persName>
                   <birth notAfter="1783">
-                     <placeName>United States</placeName>
+                     <placeName>USA</placeName>
                   </birth>
                   <death when="1840"/>
                   <occupation type="theater"/>
@@ -14511,7 +14495,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <addName>Mr. Quale</addName>
                   </persName>
-                  <note type="bio" resp="#lmw">Mentioned in Mitford’s letters of November 6 and 16
+                  <note resp="#lmw">Mentioned in Mitford’s letters of November 6 and 16
                      1821 as a friend willing to help in Mitford’s theatrical aspirations. Surname
                      spelled in the letter of November 16 as Quale. Forename unknown. Not identified
                      in <persName ref="#coles">Coles</persName>. Needs further research.
@@ -14612,7 +14596,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Raleigh</surname>
                   </persName>
                   <birth notBefore="1552">
-                     <placeName>East Budleigh, England</placeName>
+                     <placeName>Hayes Barton, Devonshire, England</placeName>
                   </birth>
                   <death when="1618-10-29">
                      <placeName>London, England</placeName>
@@ -14718,10 +14702,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Reynolds</surname>
                   </persName>
                   <birth when="1794-09-09">
-                     <placeName>Shrewsbury, England</placeName>
+                     <placeName>Shrewsbury, Shropshire, England</placeName>
                   </birth>
                   <death when="1852-11-15">
-                     <placeName>Newport, Isle of Wight, England</placeName>
+                     <placeName>Newport, Isle of Wight</placeName>
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="journalist"/>
@@ -14740,7 +14724,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Sir</roleName>
                   </persName>
                   <birth when="1723-07-16">
-                     <placeName>Plympton, Devon, England</placeName>
+                     <placeName>Plympton, Devonshire, England</placeName>
                   </birth>
                   <death when="1792-02-23">
                      <placeName>Leicester Fields, London, England</placeName>
@@ -14760,7 +14744,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Count of Anjou</roleName>
                   </persName>
                   <birth when="1157-09-08">
-                     <placeName>Beaumont Palace, Oxford, England</placeName>
+                     <placeName>Beaumont Palace, Oxford, Oxfordshire, England</placeName>
                   </birth>
                   <death when="1199-04-06">
                      <placeName>Châlus, Duchy of Aquitaine</placeName>
@@ -14954,9 +14938,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Robertson</surname>
                   </persName>
                   <persName>
-                     <roleName>Fellow of the Royal Society of Edinburgh</roleName>
-                     <roleName>Fellow of the Society of Antiquaries of Scotland</roleName>
-                     <roleName>Doctor of Divinity</roleName>
+                    <roleName>Doctor of Divinity</roleName>
                      <roleName>minister of the Church of Scotland</roleName>
                      <roleName>King’s Chaplain</roleName>
                      <roleName>Chaplain of Stirling Castle</roleName>
@@ -14994,7 +14976,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>London, England</placeName>
                   </birth>
                   <death when="1847-02-08">
-                     <placeName>Brighton, England</placeName>
+                     <placeName>Brighton, East Sussex, England</placeName>
                   </death>
                   <occupation type="trade" subtype="auctioneer"/>
                   <occupation type="benefactor" subtype="philanthropist"/>
@@ -15043,7 +15025,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Rogers</surname>
                   </persName>
                   <birth when="1763-07-30">
-                     <placeName>Newington Green, England</placeName>
+                     <placeName>Newington Green, London, England</placeName>
                   </birth>
                   <death when="1855-12-18">
                      <placeName>London, England</placeName>
@@ -15065,7 +15047,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Roscoe</surname>
                   </persName>
                   <birth when="1791-06-23">
-                     <placeName>Liverpool, Merseyside, England</placeName>
+                     <placeName>Liverpool, Lancashire, England</placeName>
                   </birth>
                   <death when="1871-09-24">
                      <placeName>London, England</placeName>
@@ -15416,7 +15398,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Say</surname>
                   </persName>
                   <persName>
-                     <roleName>Member of Parliament for Camelford</roleName>
+                     <roleName>Member of Parliament</roleName>
                   </persName>
                   <birth when="1604">
                      <placeName>England</placeName>
@@ -15522,7 +15504,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>College Wynd, Edinburgh, Scotland</placeName>
                   </birth>
                   <death when="1832-09-21">
-                     <placeName>Abbotsford, Roxburghshire, Scotland</placeName>
+                     <placeName>Abbotsford, near Melrose, Roxburghshire, Scotland</placeName>
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="novelist"/>
@@ -15644,7 +15626,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>San Miniato, Tuscany</placeName>
                   </birth>
                   <death when="1466-03-08">
-                     <placeName>Milan</placeName>
+                     <placeName>Milan, Italy</placeName>
                   </death>
                   <occupation type="military"/>
                   <occupation type="government"/>
@@ -15815,7 +15797,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename cert="low">Thomas</forename>
                   </persName>
                   <occupation type="medical"/>
-                  <note type="bio" resp="#scw">Practiced medicine in <placeName ref="#Reading_city">Reading</placeName>. <!--scw: no further info from Needham.-->He was a
+                  <note resp="#scw">Practiced medicine in <placeName ref="#Reading_city">Reading</placeName>. <!--scw: no further info from Needham.-->He was a
                      friend of <persName ref="#Monck_JB">John Berkeley Monck</persName>, and likely
                      others in the <placeName ref="#Reading_city">Reading</placeName> political
                      scene. Sources: <bibl corresp="#Needham_PapersRCL">
@@ -15887,7 +15869,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Sinclair</surname>
                      <forename>John</forename>
                      <roleName>Sir</roleName>
-                     <roleName>baronet</roleName>
+                     <roleName>Baronet</roleName>
                   </persName>
                   <birth when="1754-05-10">
                      <placeName>Thurso Castle, Thurso, Caithness, Scotland</placeName>
@@ -15943,7 +15925,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Smith</surname>
                   </persName>
                   <persName>
-                     <roleName>Doctor of Laws (LL.D.)<date when="1762"/>
+                     <roleName>Doctor of Laws<date when="1762"/>
                      </roleName>
                   </persName>
                   <birth when="1723-06-05">
@@ -16013,7 +15995,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="scholar"/>
                   <occupation type="medical"/>
-                  <note type="bio" resp="#ebb #esh">Novelist and poet, as well as editor,
+                  <note resp="#ebb #esh">Novelist and poet, as well as editor,
                      translator, critic, and medical practitioner. Smollett's best-known novels were
                      written between <date from="1748" to="1753">1748 and 1753</date>: <bibl>
                         <title level="m">The Adventures of Roderick Random</title> (<date when="1748">1748</date>)</bibl>, <bibl>
@@ -16066,7 +16048,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <addName>Mrs. Bunn</addName>
                   </persName>
                   <birth when="1799">
-                     <placeName>Lanark, Scotland</placeName>
+                     <placeName>Lanarkshire, Scotland</placeName>
                   </birth>
                   <death when="1883"/>
                   <occupation type="theater" subtype="actor"/>
@@ -16103,7 +16085,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="scholar"/>
                   <occupation type="literary" subtype="biographer"/>
                   <occupation type="literary" subtype="essayist"/>
-                  <note resp="#lmw">English poet, historian, essayist, and biographer. Early friend of <persName ref="#Coleridge_ST">&gt;Coleridge</persName>. He was Poet Laureate of England from 1813 to 1843.</note>
+                  <note resp="#lmw">English poet, historian, essayist, and biographer. Early friend of <persName ref="#Coleridge_ST">Coleridge</persName>. He was Poet Laureate of England from 1813 to 1843.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/61576896"/>
                   </note>
@@ -16491,7 +16473,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary" subtype="playwright"/>
-                  <note type="bio" resp="#lmw #cmm #ebb">
+                  <note resp="#lmw #cmm #ebb">
                      <p>Close friend, literary mentor, and frequent correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. A native of Reading, Talfourd was educated at the Reading’s newly-established <orgName>Mill Hill school</orgName>, a
                         dissenting academy, from 1808 to 1810. He attended Dr. <persName ref="#Valpy_Richard">Richard Valpy</persName>’s <orgName ref="#Reading_School">Reading School</orgName> from 1810 to 1812. His career in law began with a legal apprenticeship with Joseph Christy, special pleader, in
                         1817. He was called to the bar in London in 1821 and ultimately earned a
@@ -16749,7 +16731,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="novelist"/>
                   <occupation type="educator"/>
                   <occupation type="government" subtype="orator"/>
-                  <note type="bio" resp="#scw">Radical political writer, lecturer, poet, and novelist, who was associated with the <orgName>London Corresponding Society</orgName>, as well as <persName ref="#Wordsworth_Wm">William Wordsworth</persName> and <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName>in their early years. He, along with <persName>John Horne Tooke</persName> and <persName>Thomas Hardy</persName>, was tried for treason in 1794, and was acquitted. After being hounded out of a prominent political life by government repressions against radical activity, Thelwall became a teacher of elocution, but he continued to write about politics and to publish. In later life, he published a short-lived journal entitled <bibl>
+                  <note resp="#scw">Radical political writer, lecturer, poet, and novelist, who was associated with the <orgName>London Corresponding Society</orgName>, as well as <persName ref="#Wordsworth_Wm">William Wordsworth</persName> and <persName ref="#Coleridge_ST">Samuel Taylor Coleridge</persName>in their early years. He, along with <persName>John Horne Tooke</persName> and <persName>Thomas Hardy</persName>, was tried for treason in 1794, and was acquitted. After being hounded out of a prominent political life by government repressions against radical activity, Thelwall became a teacher of elocution, but he continued to write about politics and to publish. In later life, he published a short-lived journal entitled <bibl>
                         <title level="j">Panoramic Miscellany</title>
                      </bibl>, to which <persName ref="#MRM">Mitford</persName>contributed three country sketches.</note>
                   <note>
@@ -16819,7 +16801,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Matthew</forename>
                      <forename>John</forename>
                      <roleName>Sir</roleName>
-                     <roleName>baronet</roleName>
+                     <roleName>Baronet</roleName>
                      <roleName>M.D.</roleName>
                   </persName>
                   <birth when="1776-11-04">
@@ -17000,16 +16982,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1873">
                      <placeName>St. Helier, Jersey, Channel Islands</placeName>
                   </death>
-                  <note type="bio" resp="#ebb">One of four daughters of Dr. Richard Valpy and his
-                     second wife, <persName>Mary Benwell</persName>; she was born about 1795 and was
+                  <note resp="#ebb">One of four daughters of Dr. Richard Valpy and his
+                     second wife, <persName>Mary Benwell</persName>; she
                      baptized on <date when="1795-08-04">August 4, 1795</date> at <placeName>St.
                         Lawrence parish, Reading, Berkshire</placeName>. <rs type="event">She
                         married <persName>Rev. Philip Filleul</persName>, rector of St. Helier and
                         later vice-dean of Jersey on <date when="1823-10-13">October 13,
                         1823</date>, on the same day that her sister <persName ref="#Valpy_Penelope">Penelope</persName> married the Rev. Peter French.</rs> Catherine Valpy
                      and Philip Filleul lived at <placeName>St. Helier, Jersey, Channel
-                        Islands</placeName>, their children were born there, and Catherine died
-                     there in <date when="1873">1873</date>. She was buried there in the Mont à
+                        Islands</placeName>, their children were born there, and Catherine was buried there in the Mont à
                      l’Abbaye cemetery.</note>
                </person>
                <person xml:id="Valpy_John" sex="m">
@@ -17081,16 +17062,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1869-03-17">
                      <placeName>Burton upon Trent, Staffordshire, England</placeName>
                   </death>
-                  <note type="bio" resp="#ebb #mco #lmw">One of the daughters of <persName ref="#Valpy_Richard">Dr. Valpy</persName> by his second wife Mary Benwell,
-                     born in 1798. She was baptized on <date when="1798-06-15">June 15, 1798</date>
+                  <note resp="#ebb #mco #lmw">One of the daughters of <persName ref="#Valpy_Richard">Dr. Valpy</persName> by his second wife Mary Benwell. She was baptized on <date when="1798-06-15">June 15, 1798</date>
                      at St. Lawrence, Reading, Berkshire. Penelope Arabella was youngest Valpy child
                      to live to adulthood (a younger sister, Elizabeth Charlotte, died as an
                      infant). She married the Rev. Peter French on October 13, 1823 on the same day
                      that her sister Catherine married the Rev. Philip Filleul. The family lived in
-                     Burton upon Trent, Staffordshire, where Penelope also died on March 17, 1869,
-                     and was buried. They had five sons and three daughters. <rs type="event">Penelope and Peter’s first child, <persName>Thomas Valpy French</persName>
-                        was born on <date when="1825-01-01">1 January 1825</date>
-                     </rs> and became the first Anglican Bishop of Lahore (now northwestern India
+                     Burton upon Trent, Staffordshire, where Penelope was buried. They had five sons and three daughters. Penelope and Peter’s first child, <persName>Thomas Valpy French</persName> became the first Anglican Bishop of Lahore (now northwestern India
                      and Pakistan).</note>
                </person>
                <person xml:id="Valpy_Richard" sex="m">
@@ -17098,8 +17075,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname>Valpy</surname>
                      <forename>Richard</forename>
-                     <roleName>Doctor of Divinity (DD)</roleName>
-                     <roleName>Fellow of the Society of Antiquaries (FSA)</roleName>
+                     <roleName>Doctor of Divinity</roleName>
                   </persName>
                   <persName>Dr. Valpy</persName>
                   <birth when="1754-12-07">
@@ -17112,10 +17088,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary"/>
                   <occupation type="religious" subtype="clergy"/>
                
-                  <note type="bio" resp="#ebb #lmw">
+                  <note resp="#ebb #lmw">
                      <p>Richard Valpy (the fourth of that name) was the eldest son of Richard Valpy
-                        [III] and Catherine Chevalier. He was born on December 7, 1754 at St.
-                        John’s, Jersey, Channel Islands. He was a friend and literary mentor to
+                        [III] and Catherine Chevalier. He was a friend and literary mentor to
                            <persName ref="#MRM">Mary Russell Mitford</persName>. He matriculated at
                         Pembroke College, Oxford University on April 1, 1773, aged eighteen, as a
                         Morley scholar. He received from Oxford a B.A. (1776), M.A. (1784), B.D.
@@ -17143,7 +17118,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <p>Richard Valpy was married twice and had twelve children, eleven of whom
                         lived to adulthood. His first wife was <persName ref="#Culpepper_Mrs">Martha
                            Cornelia de Cartaret</persName>; Richard and Martha were married about
-                           <date when="1778">1778</date> and they had one daughter, <persName ref="#Culpepper_Mrs">Martha Cartaretta Cornelia</persName>, born 1779.
+                           <date when="1778">1778</date> and they had one daughter, <persName ref="#Culpepper_Mrs">Martha Cartaretta Cornelia</persName>.
                         His first wife Martha died about <date when="1780">1780</date> and he
                         married <persName>Mary Benwell</persName> of Caversham, Oxfordshire on <date when="1782-05-30">May 30, 1782</date>. Together they had six sons and
                         five daughters and ten of their eleven children survived to adulthood.
@@ -17244,15 +17219,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Elizabeth</forename>
                   </persName>
                   <birth when="1797-03-03">
-                     <placeName>London, United Kingdom</placeName>
+                     <placeName>London, England</placeName>
                   </birth>
                   <death when="1856-08-08">
-                     <placeName>London, United Kingdom</placeName>
+                     <placeName>London, England</placeName>
                   </death>
                   <note resp="#jap #jmh">A famous English actor and opera singer who amassed a large fortune over her performance career. Using both her wealth and status, she became a theater-oriented businesswoman who managed many different venues and produced numerous plays with her associates.</note>
-                  <note>
-                     <ref target="https://en.wikipedia.org/wiki/Lucia_Elizabeth_Vestris"/>
-                     <ref target="https://viaf.org/viaf/6093005"/>
+                  <note><ref target="https://viaf.org/viaf/6093005"/>
                   </note>
                </person>
                <person xml:id="Victoria_Queen" sex="f">
@@ -17313,7 +17286,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#kdc #lmw">
                      <persName ref="#coles">Coles</persName> says this is the son of Edward Vines,
                      possibly named Jacob, see p. 524, note 9. Needs additional
-                     research.<!--LMW Try historyofparliamentonline/constituencies/Reading --></note>
+                     research.</note>
                </person>
                <person xml:id="Virgil" sex="m">
                   <persName>Virgil</persName>
@@ -17439,7 +17412,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Stockton-on-Tees, Durham, England</placeName>
                   </birth>
                   <death when="1859-01-05">
-                     <placeName>Stockton, England</placeName>
+                     <placeName>Stockton, Durham, England</placeName>
                   </death>
                   <occupation type="scholar"/>
                   <occupation type="medical" subtype="apothecary"/>
@@ -17535,10 +17508,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Walton</surname>
                   </persName>
                   <birth when="1594">
-                     <placeName>Stafford, England</placeName>
+                     <placeName>Stafford, Staffordshire, England</placeName>
                   </birth>
                   <death when="1683-12-15">
-                     <placeName>Winchester, England</placeName>
+                     <placeName>Winchester, Hampshire, England</placeName>
                   </death>
                   <note resp="#ncl #lmw">Wrote <title ref="#Compl_Angler">The Compleat Angler</title> and a book of short biographies, <title ref="#Walton_Lives">The Lives of John Donne, Henry Wotton, Rich'd Hooker, George Herbert, &amp;c.,</title> sometimes called Walton's Lives. <persName ref="#MRM">Mitford admired Walton's literary style and realism as a biographer in her letters of <date when="1819">1819</date>.</persName>
                   </note>
@@ -17692,7 +17665,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>James</forename>
                   </persName>
                   <birth notAfter="1769">
-                     <placeName>wokingham, Berkshire, England</placeName>
+                     <placeName>Wokingham, Berkshire, England</placeName>
                   </birth>
                   <death when="1822-01-11">
                      <placeName>Wokingham, Berkshire, England</placeName>
@@ -17860,8 +17833,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="government"/>
                   <note resp="#ebb">Before his fame in the Napoleonic Wars, Wellesley served in the Irish House of Commons, and after fighting against <persName>Tipu Sultan, the <soCalled>Tiger of Mysore</soCalled>
                      </persName> in the <rs type="event">Siege of Seringapatam</rs> he served as the governor of <placeName>Seringapatam</placeName> and <placeName>Mysore</placeName> in <date when="1799">1799</date>. He was promoted to general during the <rs type="event">Peninsular Wars against <persName ref="#Napoleon">Napoleon</persName> (the battles fought in the Iberian Peninsula)</rs>, and was granted the title, the First Duke of Wellingtom, after Napoleon's first defeat and exile in <date when="1814">1814</date>. He led the Allied English and European armies in <rs type="event" ref="#Waterloo">Napoleon's decisive defeat at <placeName ref="#Waterloo_Belgium">Waterloo</placeName> on <date when="1815-06-18">18 June 1815</date>
-                     </rs>. A prominent influence on <orgName ref="#Tory">the Tory party</orgName>, he served as <roleName>Prime Minister <date from="1828" to="1830">from 1828 to 1830</date>, <date when="1834">and again in 1834</date>
-                     </roleName>. 
+                     </rs>. A prominent influence on <orgName ref="#Tory">the Tory party</orgName>, he served as Prime Minister <date from="1828" to="1830">from 1828 to 1830</date>, <date when="1834">and again in 1834</date>
+                     . 
                   </note>
                   <note>
                      <ref target="http://viaf.org/viaf/2465308"/>
@@ -18025,7 +17998,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="scholar"/>
                   <occupation type="trade" subtype="farmer"/>
                   <occupation type="religious" subtype="clergy"/>
-                  <note type="bio" resp="#esh #ebb">Scottish poet and minister of Ratho, most known
+                  <note resp="#esh #ebb">Scottish poet and minister of Ratho, most known
                      for his epic in nine books, <bibl>
                         <title level="m">The Epigoniad</title> (<date>1757</date>)</bibl>, written in the
                      style made popular by <persName ref="#Pope_Alex">Alexander Pope</persName>. Locally dubbed the
@@ -19391,7 +19364,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Falstaff_WS" sex="m">
                   <persName>Falstaff</persName>
-                  <note type="bio" resp="#ajc #ebb">Character in <persName ref="#Shakespeare">Shakespeare’s</persName>
+                  <note resp="#ajc #ebb">Character in <persName ref="#Shakespeare">Shakespeare’s</persName>
                      <title ref="#HenryIVpt1_play">Henry IV, part one</title>, <title ref="#HenryIVpt2_play">Henry IV, part two</title>, and <title ref="#Merry_Wives_play">Merry Wives of Windsor</title>
                   </note>
                </person>
@@ -19589,7 +19562,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Isabella_Meas4Meas" sex="f">
                   <persName>Isabella</persName>
-                  <note type="bio" resp="#ajc">Sister of Claudio, character in <bibl>
+                  <note resp="#ajc">Sister of Claudio, character in <bibl>
                         <author ref="#Shakespeare">Shakespeare’s</author>
                         <title ref="#Measure_Measure_play">Measure for Measure</title>
                      </bibl>.</note>
@@ -19629,7 +19602,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Justice_Lord" sex="m">
                   <persName>The Lord Chief Justice</persName>
-                  <note type="bio" resp="#ajc">Most powerful official of the law in England.
+                  <note resp="#ajc">Most powerful official of the law in England.
                      Character in <persName ref="#Shakespeare">Shakespeare’s</persName>
                      <bibl corresp="#HenryIVpt2_play">Henry IV Part II</bibl>.</note>
                </person>
@@ -19643,7 +19616,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Corny</surname>
                      <forename/>
                   </persName>
-                  <note type="bio" resp="#ajc"> King Corny was the king of Ireland in <bibl>
+                  <note resp="#ajc"> King Corny was the king of Ireland in <bibl>
                         <author ref="#Edgeworth_Maria"> Maria Edgeworth’s</author>
                         <title ref="#Ormond_novel">Ormond</title> (<date when="1817">1817</date>)</bibl>
                   </note>
@@ -19810,7 +19783,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="MCrule_Mrs" sex="f">
                   <persName>Mrs. M’Crule</persName>
-                  <note type="bio" resp="#ajc"> Character in <bibl>
+                  <note resp="#ajc"> Character in <bibl>
                         <author ref="#Edgeworth_Maria"> Maria Edgeworth’s</author>
                         <title ref="#Ormond_novel">Ormond</title> (<date when="1817">1817</date>)</bibl>
                   </note>
@@ -19897,7 +19870,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Nerissa_MerchVenice" sex="f">
                   <persName>Nerissa</persName>
-                  <note type="bio" resp="#ajc">Portia’s maid, character in <persName ref="#Shakespeare">Shakespeare’s</persName>
+                  <note resp="#ajc">Portia’s maid, character in <persName ref="#Shakespeare">Shakespeare’s</persName>
                      <bibl corresp="#Merchant_of_Venice_play">Merchant of Venice. Nerissa disguises
                         herself as a male law clerk when Portia disguises herself as a lawyer.
                      </bibl>
@@ -19941,7 +19914,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="OFaley_Miss_char" sex="f">
                   <persName>Miss O’Faley</persName>
-                  <note type="bio" resp="#ajc"> Character in <bibl>
+                  <note resp="#ajc">Character in <bibl>
                         <author ref="#Edgeworth_Maria"> Maria Edgeworth’s</author>
                         <title ref="#Ormond_novel">Ormond</title> (<date when="1817">1817</date>)</bibl>
                   </note>
@@ -19986,7 +19959,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>de Boys</surname>
                      <forename>Orlando</forename>
                   </persName>
-                  <note type="bio" resp="#ajc"> Orlando de Boys who falls in love with
+                  <note resp="#ajc"> Orlando de Boys who falls in love with
                         <persName>Rosalind</persName> in <persName ref="#Shakespeare">Shakespeare’s</persName>
                      <bibl corresp="#As_You_Like_It_play">As You Like It</bibl>.</note>
                   <!--ajc: assuming MRM is referring to this Orlando in this letter-->
@@ -20081,7 +20054,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Pickle</surname>
                      <forename>Peregrine</forename>
                   </persName>
-                  <note type="bio" resp="#ajc"> Protagonist of <bibl>
+                  <note resp="#ajc">Protagonist of <bibl>
                         <author ref="#Smollett_Tob">Tobias Smollett</author>’s <title ref="#Peregrine_Pickle">The Adventures of Peregrine Pickle, In Which are
                            Included Memoirs of a Lady of Quality</title> (<date when="1751">1751</date>)</bibl>
                   </note>
@@ -20111,7 +20084,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Polonius" sex="m">
                   <persName>Polonius</persName>
-                  <note type="bio" resp="#ajc">Chief counselor of the king; character in <persName ref="#Shakespeare">Shakespeare’s</persName>
+                  <note resp="#ajc">Chief counselor of the king; character in <persName ref="#Shakespeare">Shakespeare’s</persName>
                      <bibl corresp="#Hamlet_play">Hamlet</bibl>. </note>
                </person>
                <person xml:id="Pride_Ch1" sex="m">
@@ -20397,7 +20370,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname/>
                      <forename>Sophy</forename>
                   </persName>
-                  <note type="bio" resp="#ajc">Character in <persName ref="#Smollett_Tob">Tobias
+                  <note resp="#ajc">Character in <persName ref="#Smollett_Tob">Tobias
                         Smollett’s</persName>
                      <bibl corresp="#Peregrine_Pickle">The Adventures of Peregrine Pickle</bibl>
                      (1751)</note>
@@ -20510,7 +20483,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Western</surname>
                      <forename>Sophia</forename>
                   </persName>
-                  <note type="bio" resp="#ajc"> Squire Western’s daughter, model of virtue, beauty,
+                  <note resp="#ajc">Squire Western’s daughter, model of virtue, beauty,
                      and all good qualities. Character in <bibl corresp="#TomJones_HF">The History
                         of Tom Jones, A Foundling</bibl> by <persName ref="#Fielding_Henry">Henry
                         Fielding</persName> (1749)</note>
