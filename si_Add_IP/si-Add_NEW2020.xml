@@ -509,7 +509,9 @@
              </person>
              
              <person xml:id="Rousseau" sex="m">
-                <persName>Jean-Jacques Rousseau <forename>Jean-Jacques</forename>
+                <persName>Jean-Jacques Rousseau</persName>
+                <persName>
+                   <forename>Jean-Jacques</forename>
                    <surname>Rousseau</surname>
                 </persName>
                 <birth when="1712-06-28">
@@ -524,10 +526,9 @@
                 <occupation type="scholar" subtype="philosopher"/>
                 <occupation type="government" subtype="politician"/>
                 <occupation type="educator"/>
-                   <note resp="#lmw">18th-century French philosopher, novelist, and memoirist, whose political philosophy regarding the social contract, inequality, and individual human rights were influential throughout Europe and shaped the <rs type="event" ref="#French_Revol">French Revolution</rs>. His fiction and autobiographical writings influenced the literature of sensibility and the development of Romanticism. </note>
-                
+                   <note resp="#lmw">18th-century French philosopher, novelist, and memoirist, whose political philosophy regarding the social contract, inequality, and individual human rights were influential throughout Europe and shaped the <rs type="event" ref="#French_Revol">French Revolution</rs>. His fiction and autobiographical writings influenced the literature of sensibility and the development of Romanticism. </note> 
                 <note>
-                   <ref target=" http://viaf.org/viaf/10018405"/>
+                   <ref target="http://viaf.org/viaf/10018405"/>
                 </note>
              </person>
              
@@ -688,9 +689,13 @@
                 <persName>Saladin</persName>
                 <persName>An-Nasir Salah ad-Din Yusuf ibn Ayyub</persName>
                 <persName>Salah ad-Din</persName>
-                <birth/>
-                <death/>
-                <note resp="#lmw">Known by his Arabic honorific,<soCalled>Salah ad-Din</soCalled>, westernized as <soCalled>Saladin</soCalled>. First Sultan of Egypt and Syria; founded the Ayyubid dynasty. In the 12th century, led Muslim forces against the Catholic Crusader-state forces in the eastern Mediterranean. Fought against <persName ref="#RichardI">Richard I</persName> and Philip II of France in what was later known as the 3rd Crusade and negotiated a three-year truce.</note>
+                <birth when="1137">
+                   <placeName>Tikrit, Iraq</placeName>
+                </birth>
+                <death when="1193-03-04">
+                <placeName>Damascus, Syria</placeName>
+                </death>
+                <note resp="#lmw">Known by his Arabic honorific,<soCalled>Salah ad-Din</soCalled>, westernized as <soCalled>Saladin</soCalled>. First Sultan of Egypt and Syria; founded the Ayyubid dynasty. In the 12th century, led Muslim forces against the Catholic Crusader-state forces in the eastern Mediterranean. Fought against <persName ref="#RichardI">Richard I</persName> and Philip II of France in what was later known as the 3rd Crusade and negotiated a three-year truce in the region.</note>
                 <note><ptr target="https://viaf.org/viaf/90040943/"/></note>
              </person>    
           </listPerson>
@@ -1107,13 +1112,13 @@
                   <note><ptr target="https://species.wikimedia.org/wiki/Phasianus_colchicus"/></note>
                </item>
                
-               <item xml:id="partridge"><!-- add to note-->
+               <item xml:id="partridge">
                   <name>grey partridge</name>
+                  <name type="family">Phasianidae</name>
+                  <name type="genus">perdix</name>
                   <name type="species">Perdix perdix</name>
                   <name><addName>English partridge</addName></name>
                   <name><addName>Hungarian partridge</addName></name>
-                  <name type="family">Phasianidae</name>
-                  <name type="genus">perdix</name>
                   <note resp="#lmw">Medium-sized plump grey game bird, smaller than a pheasant and larger than a quail. Native to Eurasia and the UK; has naturalized throughout North America. A nonmigratory bird that breeds on farmland, it is currently threatened in the UK, likely due to pesticide use and loss of habitat, while populations are healthy elsewhere.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/grey-partridge/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Perdix_perdix"/></note>
@@ -1131,10 +1136,11 @@
                </item>
                
                <item xml:id="hornet">
-                  <name>European hornet</name>
+                  <name>hornet</name>
                   <name type="species">Vespa crabro</name>
                   <name type="genus">Vespa</name>
 				<name type="family">Vespidae</name>
+                  <name><addName>European hornet</addName></name>
                   <note resp="#lmw">Large nesting wasp native to Eurasia and southern England, transported into North America in the nineteenth century. Also called <soCalled>yellowjackets</soCalled>.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/hornet/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Vespa_crabro"/></note>
@@ -1160,11 +1166,10 @@
                
                <item xml:id="cricket">
                   <name>cricket</name>
-                  <name>field cricket</name>
                   <name type="species">Gryllus campestris</name>
-                  <name ref="#cricket"><addName>European field cricket</addName></name>
-                 <name type="genus">Gryllus</name>
+                  <name type="genus">Gryllus</name>
                   <name type="family">Gryllidae</name>
+                  <name><addName>European field cricket</addName></name>
                   <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endangered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush-crickets are also located in the UK. Symbolically associated with good luck. Mitford generally uses the simple term <q>cricket</q>.</note>
                   <note><ptr target="https://www.rspb.org.uk/our-work/conservation/projects/field-cricket-reintroduction/"/></note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/></note>
@@ -1173,10 +1178,10 @@
                
                <item xml:id="earwig">
                   <name>earwig</name>
-                  <name><addName>common earwig</addName></name>
                   <name type="species">Forficula auricularia</name>
                   <name type="genus">Forficula</name>
                   <name type="order">dermaptera</name>
+                  <name><addName>common earwig</addName></name>
                   <note resp="#lmw">Dark brown crawling insect with back pincers and lighter brown legs and folded leathery wing cases which were thought to resemble human ears. Hide in dark and damp places such as under rocks, flowerpots, and tree bark. Generally harmless, they can be considered pests since they feed on some flowering plants and pantry foodstuffs; however, they are also beneficial in gardens in that they eat destructive smaller insects such as greenfly.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/beetles-and-bugs/earwig/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Forficula_auricularia"/></note>
@@ -1215,42 +1220,13 @@
                
             </list>
             <list sortKey="plants">
-               <!-- common non-native trees: https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/common-non-native-trees/
-				apple
-				copper beech
-				cedar
-				cheery plum
-				sour cherry
-				field elm
-				hose chestnut
-				sweet chestnut
-				cypress
-				DOuglas fir
-				western hemlock
-				European larch
-				Norway maple
-				holm oak, introduced 16th c.
-				red oak
-				turkey oak, intro 18th c.
-				pear, intro 995 AD
-				black pine
-				London plane (hybrid of american sycamore and Oriental plane, discovered 17th c., widely planted 18th c.
-				plum
-				white poplar
-				Norway spruce
-				Sycamore (introduced by Romans, or, 1500s)
-				walnut, introduced by the Roma
-				black walnut
-				western red cedar
-				Irish yew-->
-               
                <item xml:id="corn">
 					<name ref="#corn">corn</name>
 					<note resp="#lmw">Refers to agricultural plants whose seeds are used to produce flour, or to the seeds themselves. In the UK, commonly refers to <name ref="#wheat">wheat</name>, but may also refer to oats, barley, or maize. The term is used in this sense in Keats's <title level="a">Ode to a Nightingale</title>, which references the Biblical Ruth: <q>Perhaps the self-same song that found a path./Through the sad heart of Ruth when, sick for home,/She stood in tears amid the alien corn</q> (stanza 7, lines 5-7; Ruth chapter 2, lines 2-3). This is also the sense of the term <q>Corn Laws</q> debated in the early 19th century, which concerned trade restrictions and tariffs on foodstuffs, including cereal grains.</note>
 				</item>
 				
 				<item xml:id="wheat">
-					<name ref="#wheat">wheat</name>
+					<name>wheat</name>
 					<name ref="#wheat">common wheat</name>
 					<name ref="#wheat">bread wheat</name>
 					<name ref="#wheat">Triticum aestivum</name>
@@ -1326,7 +1302,7 @@
 					<note><ptr target="http://www.test-tube.org.uk/trees/video_horsechestnut.htm"/></note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Aesculus"/></note>
 					
-					<note>"Foraging in October" (nuts and berries) <ptr target="https://www.woodlandtrust.org.uk/blog/2017/10/foraging-in-october/"/></note>
+					<note><!--"Foraging in October" (nuts and berries)--> <ptr target="https://www.woodlandtrust.org.uk/blog/2017/10/foraging-in-october/"/></note>
 				</item>
 				
 				<item xml:id="oak_tree">
@@ -1351,7 +1327,13 @@
 				</item>
 
 				<item xml:id="acacia">
-					<name ref="#acacia">acacia</name>
+					<name>acacia</name>
+				   <name type="species">Robinia pseudoacacia</name>
+				   <name type="genus">Robinia</name>
+				   <name type="family">Fabaceae</name>
+				   <name><addName>false acacia</addName></name>
+				   <name><addName>black locust</addName></name>
+				   <note resp="#lmw">Mitford likely refers to the <soCalled>false acacia</soCalled> or <soCalled>black locust</soCalled>, a thorny hardwood tree in the pea family, bearing white flower clusters, native to the Eastern US and imported into the UK in the 17th century. In Mitford's time the <soCalled>true acacia</soCalled>, also known as the <soCalled>Egyptian acacia</soCalled> (acacia nilotica), was thought to be a relative of the mimosa or <soCalled>sensitive plant</soCalled>.</note>
 				</item>
 				
 				<item xml:id="sycamore_sp">
@@ -1385,10 +1367,10 @@
 				
 				<item xml:id="filbert">
 					<name>filbert</name>
-					<name><addName>Corylus maxima</addName></name>
-					<!--<name type="genus">Corylus</name>
-					<name type="family">Betulaceae</name>-->
-					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to southeastern Europe and southwestern Asia, related to the common hazel. The fruit, also called <soCalled>filberts</soCalled>, are produced by male and female catkins, with the ripe nuts largely enclosed in a tubular husk, and harvested in the autumn. Filberts are elongated and the kernel is edible. <persName ref="#MRM">Mitford</persName> employs an alternative spelling, referring to these nuts as <q>filberds</q>, and disguishing them from the <q>cobnut</q>, or nut of the common hazel.</note>
+					<name type="species">Corylus maxima</name>
+					<name type="genus">Corylus</name>
+					<name type="family">Betulaceae</name>
+					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to southeastern Europe and southwestern Asia, related to the common hazel. The fruit, also called <soCalled>filberts</soCalled>, are produced by male and female catkins, with the ripe nuts largely enclosed in a tubular husk, and harvested in the autumn. Filberts are elongated and the kernel is edible. <persName ref="#MRM">Mitford</persName> employs an alternative spelling, referring to these nuts as <q>filberds</q>, and distinguishing them from the <q>cobnut</q>, or nut of the common hazel.</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Corylus_maxima"/></note>
 				</item>
 				
@@ -1410,15 +1392,18 @@
 					<note resp="#lmw"></note>
 				</item>
 				
-				<item xml:id="grapevine">
-					<name ref="#grapevine">grape vine</name>
-				</item><!--LMW cultivated? need emtry for wild?; make separate entry for the fruit?-->
+				
 				
 				<item xml:id="holly">
-					<name ref="#holly">holly</name>
-					<name ref="#holly">ilex aquifolium</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/"/></note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Ulex"/></note>
+					<name>holly</name>
+					<name type="species">Ilex aquifolium</name>
+				   <name type="genus">Ilex</name>
+				   <name type="family"> </name>
+				   <name><addName>common European holly</addName></name>
+				   <name><addName>English holly</addName></name>
+					<note resp="#lmw">Native to western Eurasia and the UK.</note>
+				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/"/></note>
+				   <note><ptr target="https://species.wikimedia.org/wiki/Ilex_aquifolium"/></note>
 				</item>
 				
 				<item xml:id="apple_tree">
@@ -1509,8 +1494,8 @@
 				
 				<item xml:id="syringa">
 					<name ref="#syringa">syringa</name>
-					<name><addName>Philadelphis</addName></name>
-					<name>Mock orange</name>
+					<name>Philadelphis</name>
+				   <name><addName>Mock orange</addName></name>
 					<note resp="#lmw">
 						
 					</note>
@@ -1545,11 +1530,18 @@
 					<!-- black poplar, native but not frequent; white poplar, naturalized, when?--> -->
 				</item>
 				
-				<item xml:id="bramble"><name ref="#bramble">bramble</name>
-					<!--LMW: not sure what kind, may be covered by other entries.-->
-					
+				<item xml:id="bramble">
+				   <name>bramble</name>
+				   <name type="species">Rubus fruticosus</name>
+				   <name type="genus">Rubus</name>
+				   <name type="family">Rosaceae</name>
+				   <name><addName>common blackberry</addName></name>
+<name><addName>Rubus plicatus</addName></name>
+				   <note resp="#lmw">In the UK, generally refers to the common blackberry, <soCalled>Rubus fruticosus</soCalled>, a prickly shrub with arching branches, bearing small white flowers followed by aggregate red or black fruits. The general term may also refer to other prickly shrubs, such as dog-roses.</note>
+				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/bramble/"/></note>
+				   <note><ptr target="https://species.wikimedia.org/wiki/Rubus_plicatus"/></note>
 				</item>
-				
+               
 				<item xml:id="laburnum">
 					<name ref="#laburnum">laburnum</name>
 					<name ref="#laburnum">Laburnum anagyroides</name>
@@ -1915,78 +1907,79 @@
 				</item>
 			
 				<item xml:id="polyanthus">
-					<name ref="#polyanthus">polyanthus</name>
-					<!--<name>
-					<rs type="genus">Primula</rs>
-					<rs type="species">polyanthus, or P. polyantha</rs>
-					<rs type="family">Primulaceae</rs>
-					</name>-->
-					<note resp="#lmw"></note>
+					<name>polyanthus</name>
+				   <name type="genus">Primula</name>
+				   <name type="species">Primula polyantha</name>
+				   <name type="family">Primulaceae</name>
+<note resp="#lmw"></note>
 				</item>
 				
 				<item xml:id="crocus">
 					<name ref="#crocus">crocus</name>
-					<!--<name>
-					<rs type="genus">crocus</rs>
-					<rs type="species"></rs>
-					<rs type="family">iridaceae</rs>
-					</name>-->
+				<name type="genus">Crocus</name>
+				   <name type="species"></name>
+				   <name type="family">Iridaceae</name>
+					
 					<note resp="#qar"> In Victorian floriography, the crocus represents youthful gladness and cheerfulness.</note> </item>
 				
 				<item xml:id="gorse">
-					<name ref="#gorse">gorse</name>
-					<name ref="#gorse">common gorse</name>
-					<name ref="#gorse">ulex europaeus</name>
-					<!--<name>
-					<rs type="genus">Ulex</rs>
-					<rs type="species">Ulex europaeus</rs>
-					<rs type="family">Fabaceae</rs>
-					</name>-->
+					<name>gorse</name>
+					
+				   <name type="species">Ulex europaeus</name>
+					<name type="genus">Ulex</name>
+				   <name type="family">Fabaceae</name>
+				   <name><addName>common gorse</addName></name>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/gorse/"/></note>
 					<note resp="#qar">In floriography, symbolizes enduring affection.</note>
 </item>
 				
 				<item xml:id="heath">
-					<name ref="#heath">heath</name>
-				   <!--<name ref="#heath">
-					<rs type="genus">Erica</rs>
-					<rs type="species"></rs>
-					<rs type="family">Ericaceae</rs>
-					</name>-->
-					<note resp="#qar">There are many varieties of heath, but this one is synonymous with the English common names <soCalled>heath</soCalled> and <soCalled>heather</soCalled>. Heather, in floriography, can mean three different things. In general, it means good luck. White heather is  protection, and that wishes will come true, while lavender heather represents admiration and solitude. The latter meaning fits.</note>
+					<name>heath</name>
+				   
+					<name type="genus">Erica</name>
+				   <name type="species"></name>
+				   <name type="family">Ericaceae</name>
+					
+					<note resp="#qar">There are many varieties of heath, but this one is synonymous with the English common names <soCalled>heath</soCalled> and <soCalled>heather</soCalled>. Heather, in floriography, can mean three different things. In general, it means good luck. White heather is rotection, and that wishes will come true, while lavender heather represents admiration and solitude. The latter meaning fits.</note>
 					<note><!-- heathland and moorland --><ptr target="https://www.wildlifetrusts.org/habitats/heathland-and-moorland"/></note>
 				</item>
 				
 				<item xml:id="broom">
-					<name ref="#broom">broom</name>
-				   <!--<name ref="#broom">
-					<rs type="genus">Cytisus</rs>
-					<rs type="species">C. scoparius</rs>
-					<rs type="family">Fabaceae</rs>
-					</name>-->
-					<note resp="#qar">Also known as Scotch broom. Represents humility and neatness in floriography. Inthe Fourth Branch of the Mabinogi, the tale of Math son of Mathonwy, Blodeuwedd is the name of a woman made from the flowers of broom, meadowsweet and the oak by Math fab Mathonwy and Gwydion to be the wife of Lleu Llaw Gyffes. This is a part of Welsh mythology. <q>Sweep the house with blossed broom in May/sweep the head of the household away</q> is a traditional rhyme from Sussex. It was common to include a decorated bundle of broom at weddings. Ashes of broom were used to treat dropsy, and said to tame wild dogs and horses with its smell.</note>
+					<name>broom</name>
+				   <name type="genus">Cytisus</name>
+				   <name type="species">Cytisus scoparius</name>
+				   <name type="family">Fabaceae</name>
+				   <name><addName>common broom</addName></name>
+				   <name><addName>Scotch broom</addName></name>
+					<note resp="#qar #lmw">Perennial flowering shrub, member of the legume or pea family, native to Europe and the UK. Grows in meadows and heathland and propagates itself through pea-like seedpods. Symbolizes humility and neatness in floriography, because of its association with the housekeeping implement. In the Fourth Branch of the Mabinogi, the tale of Math son of Mathonwy, Blodeuwedd is the name of a woman made from the flowers of broom, meadowsweet and the oak by Math fab Mathonwy and Gwydion to be the wife of Lleu Llaw Gyffes. This is a part of Welsh mythology. <q>Sweep the house with blossed broom in May/sweep the head of the household away</q> is a traditional rhyme from Sussex. It was common to include a decorated bundle of broom at weddings. Ashes of broom were used to treat dropsy, and said to tame wild dogs and horses with its smell.</note>
 					<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/broom"/></note>
+				   <note><ptr target="https://species.wikimedia.org/wiki/Cytisus_scoparius"/></note>
 				</item>
 				
 				<item xml:id="furze">
 					<name>furze</name>
-					<name><addName>Ulex europaeus</addName></name>
+					<name type="species">Ulex europaeus</name>
 					<name type="genus">Ulex</name>
 					<name type="family">Fabaceae</name></item>
 					<note resp="#lmw">A spiny evergreen shrub with scented yellow blooms native to the UK and western Europe. Also called <soCalled>gorse</soCalled> or <soCalled>whin</soCalled>. Flowers from spring into summer. </note>
 					<note><ptr target="https://www.rhs.org.uk/Plants/18575/i-Ulex-europaeus-i/Details"/></note>
+               <note><ptr target="https://species.wikimedia.org/wiki/Ulex_europaeus"/></note>
 				
 					<item xml:id="oxlip">
-						<name ref="#oxlip">oxlip</name>
-						<name ref="#oxlip">primula elatior</name>
+						<name>oxlip</name>
+						<name type="species">Primula elatior</name>
+					   <name type="genus">Primula</name>
+					   <name type="family">Primulaceae</name>
+					   <note resp="#lmw">Spring-flowering member of the Primula family related to primroses (P. vulgaris) and cowslips (P. veris); it has a taller stem like the cowslip, and larger flowers like the primrose. Native to continental Europe and Britain. During Mitford's lifetime, naturalists debated how to categorize the varied species of Primula.</note>
 						<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/oxlip/"/></note>
+					   <note><ptr target="https://species.wikimedia.org/wiki/Primula_elatior"/></note>
 					</item>
 					
                <item xml:id="dahlia">
 						<name>dahlia</name>
-						<name type="genus">dahlia</name>
+						<name type="genus">Dahlia</name>
 						<name type="family">Asteraceae</name>
-						<note resp="#lmw">Group of tuberous flowering plants, brightly colored and highly variable in size, color, and petal shape. Dahlias are native to Mexico and central America and were first imported into continental Europe in the 1780s and thence to England in the early nineteenth century. The first illustration appeared in the <title level="s">Curtis's Botanical Magazine</title> in 1804 and dahlias became fashionable garden flowers in England by the 1820s. In Mitford's time, both single- and double-flowered varieties were propagated, and varieties were largely classified by flower color. Dahlia tubers are susceptible to frost, and must have their tubers dug over winter and replanted, if they are not grown in greenhouses.</note>
+						<note resp="#lmw">Group of tuberous flowering plants, brightly colored and highly variable in size, color, and petal shape. Dahlias are native to Mexico and central America and were first imported into continental Europe in the 1780s and thence to England in the early nineteenth century. The first printed illustration appeared in the <title level="s">Curtis's Botanical Magazine</title> in 1804 and dahlias became fashionable garden flowers in England by the 1820s. In Mitford's time, both single- and double-flowered varieties were propagated, and varieties were largely classified by flower color. Outside their native range, dahlia tubers are susceptible to frost, and must have their tubers dug over winter and replanted, if they are not grown in greenhouses.</note>
 						<note><ptr target="https://books.google.com/books?id=_0sCAAAAYAAJ"/></note>
 						<note><ptr target="https://www.rhs.org.uk/plants/popular/dahlia/growing-guide"/></note>
 						<note><ptr target="https://species.wikimedia.org/wiki/Dahlia_(Asteraceae)"/></note>
@@ -2004,88 +1997,77 @@
 				
 				<item xml:id="clematis">
 					<name ref="#clematis">clematis</name>
-					<note><!--LMW: unsure which one, probably the purple one. She mentions Virgin's bower elsewhere, which is an autumn clematis.-->
-						<!-- ?? https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/travellers-joy/ --></note>
+					<note resp="#lmw">Mitford likely uses this term to refer to the native British species, C. vitalba, which she refers to elsewhere as <name ref="#VirginsBower">Virgin's Bower</name>. The hybridized garden plant is C. Flammula. In classical Greek and Roman literature, the term is used to refer to what Mitford calls <name ref="#periwinkle">periwinkle</name>, or vinca, an unrelated flowering vine.</note>
 				</item>
 					
 					<item xml:id="VirginsBower">
 						<name>Virgin's Bower</name>
-						<name><addName>sweet-scented virgin's bower</addName></name>
-						<name><addName>Clematis flammula</addName></name>
+                  <name type="species">Clematis vitalba</name>
 						<name type="genus">Clematis</name>
 						<name type="family">Ranunculaceae</name>
-						<note resp="#slc">A temperate liana known by the common name fragrant virgin's bower. It is native to southern Europe and northern Africa, but it is cultivated worldwide as an ornamental plant in gardens. The woody vine bears fragrant white flowers and small green achenes. When the flowers are newly opened they have a strong sweet almond fragrance.</note>
-						<note><ptr target="https://species.wikimedia.org/wiki/Clematis_flammula"/></note>
-						<note><ptr target="https://www.rhs.org.uk/plants/3935/Clematis-flammula/Details"/></note>
+					   <name><addName>old man's beard</addName></name>
+					   <name><addName>traveller's joy</addName></name>
+					   <note resp="#slc #lmw">Climbing woody shrub in the clematis family, with panicles of fragrant green-ish white flowers that later develop fluffy seed heads. Native to the UK, common in southern England and in Wales and widely planted elsewhere. Not identical to a New World flower sharing the same common name, C. virginiana.</note>
+					   <note><ptr target="https://species.wikimedia.org/wiki/Clematis_vitalba"/></note>
 						<note><ptr target="https://wildflowerfinder.org.uk/Flowers/V/VirginsBower/VirginsBower.htm"/></note>
 					</item>
 				  
-                        <item xml:id="auricula"><!--LMW: related to primrose. Research to be sure we have right one for Mitford. also mountain cowslip, bear's ear-->
-                            <name ref="#auricula">auricula</name>
-                        	<!--<name>
-                            <rs type="genus">primula</rs>
-                            <rs type="species">p. auricula</rs>
-                            <rs type="family">primulaceae</rs>
-                        	</name>-->
-                            <note resp="#tfb"> This flower is commonly called primula auricula, but is often known also as mountain cowslip, auricula, or bear's ear. It grows on rocks in mountain ranges particularly in central Europe.<!--LMW: not sure this is the right one.--></note></item>
+                        <item xml:id="auricula">
+                            <name>auricula</name>
+                        	<name type="genus">Primula</name>
+                            <name type="species">Primula auricula</name>
+                            <name type="family">Primulaceae</name>
+                           <name><addName>bear's ears</addName></name>
+                           <name><addName>mountain cowslip</addName></name>
+                            <note resp="#tfb #lmw">Wild member of the primrose family, bearing in spring yellow flowerets above a rosette of dark green leaves, native to the mountains of Central Europe. Garden primroses are a hybridized species developed as a cross between P. auricula and P. hirsuta. A popular garden plant in 18th-century Britain.</note></item>
                             
                             <item xml:id="hollyhock">
-                                <name ref="#hollyhock">hollyhock</name>
-                               <!--<name ref="#hollyhock">
-                                <rs type="genus">alcea</rs>
-                                <rs type="species">malvaceae</rs>
-                                <rs type="family">malvaceae</rs>
-                            	</name>-->
-                                <note resp="#tfb">This flower is commonly called alcea, but is often known as hollyhock. It is native to Asia and Europe.</note>
+                                <name>hollyhock</name>
+                               <name type="genus">Alcea</name>
+                               <name type="species">Alcea rosea</name>
+                                     <name type="family">Malvaceae</name>
+                                <note resp="#tfb #lmw">Biennial garden plant featuring many large single or double flowers in pink, red, yellow, or white, on a very tall stem, native to China and southern Europe, and garden-cultivated elsewhere.</note>
                             </item>
 
                         		<item xml:id="poppy">
-                        			<name ref="#poppy">poppy</name>
-                        			<name ref="#poppy">common poppy</name>
-                        			<name ref="#poppy">corn poppy</name>
-                        			<name ref="#poppy">papaver rhoeas</name>
+                        			<name>poppy</name>
+                        		   <name type="species">Papaver rhoeas</name>
+                        		   <name type="genus">Papaver</name>
+                        		   <name type="family">Papaveraceae</name>
+                        		   <name><addName>common poppy</addName></name>
+                        		   <name><addName>corn poppy</addName></name>
+                        		   <name><addName>field poppy</addName></name>
+                        		   <name><addName>Flanders poppy</addName></name>
+                        			<note resp="#lmw">Annual red poppy flower with showy black stamens and hairy stems and buds, native to Eurasia and North Africa, preferring sunny meadows and disturbed ground. Historically considered an agriculatural weed, hence its common name, <soCalled>corn poppy</soCalled>. Also called the <soCalled>Flanders poppy</soCalled> after World War I, for its habit of blooming in ground disturbed by military action and later adopted as a symbol of war remembrance. The opium poppy, P. somniferum, was also known in Britain since the Middle Ages for the medicinal and sleep-inducing qualities of its milky sap and its seeds.</note>
                         			<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/common-poppy"/></note>
                         		</item>
                         		
                         		<item xml:id="thyme">
-                        			<name ref="#thyme">thyme</name>
-                        			<name ref="#thyme">wild thyme</name>
-                        			<name ref="#thyme">thymus polytrichus</name>
+                        			<name>thyme</name>
+                        		   <name type="species">Thymus polytrichus</name>
+                        		   <name type="genus">Thymus</name>
+                        		   <name type="family">Lamiaceae</name>
+                        		   <name><addName>wild thyme</addName></name>
+                        		   <name><addName>creeping thyme</addName></name>
+                        		   <note resp="#lmw">Evergreen ground cover with aromatic leaves and pale purple flowers, native to Western Europe and the UK where it grows on dry banks and in pastures. Not generally used as a pot herb, unlike its relative, garden thyme (thymus vulgaris), which is native to southern Europe and cultivated elsewhere.</note>
                         			<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/wild-thyme"/></note>
                         		</item>
                         	</list>
-            
          </div>
-         <div type="events">
-            <listEvent sortKey="histEvents"><!--For real, historical events of public or private importance. In the main, tag major events likely to appear in more than one Digital Mitford text.-->
-               <event>
-                  <label></label>
-                  <note></note>
-               </event>
-            </listEvent>
-            <!--SAMPLE:
-               <event xml:id="EngCivilWar"
-                      type="war"
-                      from="1642-08-22"
-                      to="1651-09-03">
-                  <label>English Civil Wars</label>
-                  <note resp="#lmw">A series of conflicts between British <orgName ref="#Parliamentarians">Parliamentarian</orgName>, supporters of <persName ref="#Cromwell">Oliver Cromwell</persName>, and Royalists, supporters of Stuart King <persName ref="#ChasI">Charles I</persName>, fought between 1642 and 1651. Also called The Great Rebellion or The War of Three Kingdoms, as civil war broke out in all three Stuart kingdoms of England, Scotland, and Ireland. The war was fought principally over the questions of government (the relation between the monarch and Parliament, as defined through England's constitutional framework) and religion (the Church of England's monopoly on Christian worship in England). The first war ended with a Parliamentarian victory at Naseby in 1645 and resulted in the creation of the <orgName ref="#New_Model_Army">New Model Army</orgName> and an alliance between the Parliamentarians and the Scottish Covenanters. The second ended with a Parliamentary victory at Preston and culminated with the execution of <persName ref="#ChasI">Charles I</persName> in 1649. The third war was led by <persName ref="#ChasII">Charles II</persName> with Scottish and Irish allies and ended at Worcester in 1651 with <persName ref="#ChasII">Charles II</persName>'s retreat to France.</note>
-               </event>-->
-         </div>
+
          <div type="art">
             <list sortKey="art">
             <item/>
             <figure xml:id="Jerusalem_Crucifixion_TCH" type="painting" rend="oil">
                <bibl>
-                  <title>Jerusalem at the Time of the Crucifixion</title>
+                  <title level="m">Jerusalem at the Time of the Crucifixion</title>
                   <author>
                      <persName ref="#Hofland_TC">Hofland</persName>
                   </author>
-                  <date>Unknown, circa 1818</date>
+                  <date notAfter="1819"/>
                </bibl>
-               <note resp="#lmw">A <persName ref="#Hofland_TC">Hofland</persName> painting exhibited at the British Institution in <date when="1819">1818</date>. Further exhibited in 1827 at the  British Society of Fine Artists. Unidentified.</note>
+               <note resp="#lmw">A <persName ref="#Hofland_TC">Hofland</persName> painting exhibited at the British Institution in <date when="1819">1818</date>. Further exhibited in 1827 at the  British Society of Fine Artists.</note>
             </figure>
-            <!-- SLC: Thanks LMW. Still can't seem to find this speciic painting, only vauge refrences to it being in an archive somewhere. LMW:  If you can locate it, write down which archive.-->
             <!--LMW: I believe this is the correct painting, Originally titled "Jerusalem at the Time of the Crucifixion," here given a longer title: https://artuk.org/discover/artworks/christ-appearing-to-mary-magdalen-with-a-view-of-jerusalem-beyond-at-the-time-of-the-crucifixion-103848 -->
             <!--LMW:  Location:  Tabley House, Cheshire:  https://artuk.org/visit/venues/tabley-house-5180-->
             
@@ -2096,34 +2078,22 @@
 				https://books.google.com/books?id=A18oAAAAYAAJ&newbks=1&newbks_redir=0&dq=Hofland%20Jerusalem%20at%20the%20Crucifixion&pg=PA115#v=onepage&q=Hofland%20Jerusalem%20at%20the%20Crucifixion&f=false-->
             </list>
          </div>
-         <div type="publications">
-          
-            <listBibl sortKey="serial_MRM"><!--For periodicals and serials, published during Mitford's lifetime-->
-               <bibl/>
-            </listBibl>
-            <!--SAMPLE:
-               <bibl xml:id="Ackermans_Juv_ForgetMeNot">
-                  <title level="j">Ackermann's Juvenile Forget Me Not
-                  </title>
-                  <editor>Frederic Shoberl</editor>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Ackermann_pub">R. Ackermann</orgName>
-                  </publisher>
-                  <date from="1830" to="1832"/>
-                  <note resp="#lmw">Children's gift book/annual founded by Rudolf Ackermann and edited by Frederic Shoberl. <persName ref="#MRM">Mitford</persName> published in this periodical in <date when="1832">1832</date>.</note>
-               </bibl>
-               -->
-            
+         
             <div type="publications">
                <listBibl sortKey="work_MRM">
+                 <bibl xml:id="Life_of_Johnson">
+                  <title level="m">Life of Samuel Johnson, LL.D.</title>
+                  <author><persName ref="#Boswell">Boswell</persName></author>
+                  <publisher>Henry Baldwin</publisher>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1791"/>
+                  <note resp="#lmw">In 2 volumes. Full title: <title level="m">Life of Samuel Johnson, LL.D., Comprehending an Account of his Studies and Numerous Works, in Chronological Order; A Series of his Epistolary Correspondence and Conversations with Many Eminent Persons; and Various Original Pieces of his Composition, Never Before Published. The Whole Exhibiting a View of Literature and Literary Men in Great-Britain, For Near Half a Century, During Which he Flourished</title></note>
+                  </bibl>
                   
                   <bibl xml:id="CanterburyTales">
                      <title level="m">The Canterbury Tales</title>
-                     <author><persName ref="#Chaucer">Chaucer</persName></author>
-                     <date>1400</date>
+                     <author ref="#Chaucer">Chaucer</author>
+                     <date when="1400"/>
                      <note resp="#lmw">Collection of 23 tales and a prologue frame story, written over a period of years before <persName ref="#Chaucer">CHaucer</persName>'s death in 1400.</note>
                      <note><ptr target="https://www.dhi.ac.uk/projects/canterbury-tales/"/></note>
                   </bibl>
@@ -2132,17 +2102,17 @@
                      <title level="m">Poetical Works of Geoffrey Chaucer</title>
                      <author><persName ref="#Chaucer">Chaucer</persName></author>
                      <publisher>Martins</publisher>
-                     <pubPlace>Edinburgh</pubPlace>
-                     <date>1782</date>
+                     <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
+                     <date when="1782"/>
                      <note resp="#lmw">Collected poetical works, including the <title ref="#CanterburyTales">Canterbury Tales</title>, in 14 volumes, published beginning in 1782.</note>
                   </bibl>
                   
                   <bibl xml:id="Methought_sonnet23">
                      <title level="a">Methought I Saw my Late Espoused Saint</title>
                      <author><persName ref="#Milton">Milton</persName></author>
-                     <pubPlace>London</pubPlace>
+                     <pubPlace ref="#London_city">London</pubPlace>
                      <publisher>Dring</publisher>
-                     <date>1673</date>
+                     <date when="1673"/>
                      <bibl corresp="#Milton_PoemsII"/>
                      <note resp="#lmw">Milton's sonnet later designated 23, <title level="a">Methought I Saw my Late Espoused Saint</title>, sometimes referred to as <title level="a">On His Late Wife</title> or <title level="a">On His Deceased Wife</title></note>
                   </bibl>
@@ -2150,17 +2120,17 @@
                   <bibl xml:id="Milton_PoemsII">
                      <title level="m">Poems on Several Occasions by Mr. John Milton, both English and Latin, composed at several times</title>
                      <author><persName ref="#Milton">Milton</persName></author>
-                     <pubPlace>London</pubPlace>
+                     <pubPlace ref="#London_city">London</pubPlace>
                      <publisher>Dring</publisher>
-                     <date>1673</date>
+                     <date when="1673"/>
                   </bibl>
                   
                   <bibl xml:id="Milton_PoemsI">
                      <title level="m">Poems on Several Occasions by Mr. John Milton, both English and Latin, composed at several times</title>
                      <author><persName ref="#Milton">Milton</persName></author>
-                     <pubPlace>London</pubPlace>
+                     <pubPlace ref="#London_city">London</pubPlace>
                      <publisher>Mosley</publisher>
-                     <date>1645</date>
+                     <date when="1645"/>
                      <note resp="#lmw"><persName ref="#Milton">Milton</persName>'s first published collection of poems.</note>
                   </bibl>
                   
@@ -2169,15 +2139,15 @@
                      <author>
                         <persName ref="#Montgomery_J">James Montgomery</persName>
                      </author>
-                     <date>1818</date>
+                     <date when="1818"/>
                      <note><ptr target="https://hymnary.org/text/prayer_is_the_souls_sincere_desire"/></note>
                   </bibl>		
                   
                   <bibl xml:id="Il_Pensoroso">
                      <title level="a">Il Pensoroso</title>
                      <author><persName ref="#Milton">Milton</persName></author>
-                     <pubPlace>London</pubPlace>
-                     <date>1645</date>
+                     <pubPlace ref="#London_city">London</pubPlace>
+                     <date when="1645"/>
                      <bibl corresp="#Milton_PoemsI">Poems on Several Occasions by Mr. John Milton</bibl>
                      <note resp="#lmw">Written 1632, together with <title ref="#Lallegro"></title>L' Allegro.</note>
                   </bibl>
@@ -2188,38 +2158,23 @@
                         <persName ref="#Wordsworth_Wm">William Wordsworth</persName>
                      </author>
                      <pubPlace ref="#London_city">London</pubPlace>
-                     <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                     <publisher ref="#Longman_Rees_OBG_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
                      <date when="1815">1815</date>
                      <bibl corresp="#Poems_2vols_WW"/>
                   </bibl>
                   
                   <bibl xml:id="Poems_2vols_WW">
-                     <title>Poems by William Wordsworth: Including Lyrical Ballads, and the Miscellaneous Pieces of the Author. With Additional Poems, a New Preface, and a Supplementary Essay. in Two Volumes</title>
+                     <title>Poems by William Wordsworth [ . . . ] in Two Volumes</title>
                      <author>
                         <persName ref="#Wordsworth_Wm">William Wordsworth</persName>
                      </author>
                      <pubPlace ref="#London_city">London</pubPlace>
-                     <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                     <publisher ref="#Longman_Rees_OBG_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
                      <date when="1815">1815</date>
+                     <note resp="#lmw">2 volumes. Full title: <title level="m">Poems by William Wordsworth: Including Lyrical Ballads, and the Miscellaneous Pieces of the Author. With Additional Poems, a New Preface, and a Supplementary Essay. in Two Volumes</title></note>
                   </bibl>
                </listBibl>
-            
-            <listBibl sortKey="schol"><!--Scholarship from our time, after Mitford's-->
-               <bibl/>
-            </listBibl>
-            <!--SAMPLE:
-               <bibl xml:id="AlterationsOfState">
-                  <title level="m">Alterations of State: Sacred Kingship in the English Reformation</title>
-                  <author>
-                     <persName ref="#McCoy_Rich">Richard McCoy</persName>
-                  </author>
-                  <pubPlace>New York, New York, USA</pubPlace>
-                  <publisher>Columbia University Press</publisher>
-                  <date when="2002">2002</date>
-               </bibl>
-               -->
-         </div>
-         </div>
+            </div>
       </body>
   </text>
 </TEI>

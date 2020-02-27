@@ -172,16 +172,6 @@
        
          <div type="places">
             <listPlace sortKey="histPlaces">
-               <place xml:id="Spencers_Wood">
-                  <placeName>Spencers Wood</placeName>
-                  <district>Shinfield</district>
-                  <region>Berkshire</region>
-                  <country>England</country>
-                  <location>
-                     <geo>51.3944 -0.9722</geo>
-                  </location>
-                  <note>Village south of Reading that adjoins Three Mile Cross to the north and lying east of Grazeley. Until 1844, within Hampshire. In Mitford's time, the location, not of a wood, but an open common, which was entirely enclosed by 1864.</note>
-               </place>
                
                <place xml:id="Woodcock_Ln">
                   <placeName>Woodcock Lane</placeName>
@@ -406,6 +396,9 @@
                   <note><ptr target="https://www.woodlandtrust.org.uk/blog/2019/05/nine-wild-uk-orchids/"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
                </item>
                
+               <item xml:id="grapevine"><!--decide about id. In UK, they use "vine" to refer to the grapevine, Vitis vinifera, and mainly the term grapevine is used in Australia and the US-->                  <name ref="#grapevine">grape vine</name>
+               </item><!--LMW cultivated? need entry for wild?; make separate entry for the fruit?-->
+               
                <item xml:id="potato">
                   <name ref="#potato">potato</name>
                   <!--
@@ -597,9 +590,9 @@
             The way to it is by the ?? Hempstead Coach to get out at Hunton Bridge Beyond Watford.
             Rev. T. Burnett
             Haveston?
-            near Longon
+            near London
             The man who wrote to us about Mrs. Parks the late Miss Budd.
-            J. Elfrod Esqre M. P
+            J. Elford Esqre M. P
             Upland
             Plymouth
             
@@ -634,8 +627,7 @@
             Miss Porden. Mrs. Young
             Miss Hicks - Miss Madwell-->
                
-               
-               <!--LMW: 2019-12-24 new id's from Journal.-->
+    <!--LMW: 2019-12-24 new id's from Journal.-->
                
                <!-- Mrs. Lay - 6 Gower Street Bedford Square
    Mrs. Strutt 34 Perry Street Bedford Square
