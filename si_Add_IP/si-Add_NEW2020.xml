@@ -1573,18 +1573,7 @@
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/honeysuckle/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lonicera_periclymenum"/></note>
                </item>
-               
-               <item xml:id="harebell">
-                  <name>harebell</name>
-                  <name type="species">Campanula rotundifolia</name>
-                  <name type="genus">Campanula</name>
-                  <name type="family">	Campanulaceae</name>
-                  <name><addName>Scotch bluebell</addName></name>
-                  <name><addName>bluebell of Scotland</addName></name>
-                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/harebell"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Campanula_rotundifolia"/></note>
-               </item>
-               
+                
                <item xml:id="campanula">
                   <name>campanula</name>
                   <name type="genus">Campanula</name>
@@ -1860,6 +1849,17 @@
                
                
                
+               <item xml:id="harebell">
+                  <name>harebell</name>
+                  <name type="species">Campanula rotundifolia</name>
+                  <name type="genus">Campanula</name>
+                  <name type="family">Campanulaceae</name>
+                  <name><addName>Scotch bluebell</addName></name>
+                  <name><addName>bluebell of Scotland</addName></name>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/harebell"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Campanula_rotundifolia"/></note>
+               </item>
+               
                <item xml:id="oak_common">
                   <name>common oak</name>
                   <name type="species">Quercus robur</name>
@@ -2030,8 +2030,11 @@ great oaks from little acorns grow and variants: see acorn n. 2c. -->
 				</item>
 				
 				<item xml:id="lily_tiger">
-					<name ref="#lily_tiger">tiger lily</name>
-					<note resp="#lmw"></note>
+					<name>tiger-lily</name>
+				   <name type="species">Lilium lancifolium</name>
+				   <name type="genus">Lilia</name>
+				   <name type="family">Liliaceae</name>
+				   <note resp="#lmw">Summer-blooming daylily native to Asia and naturalized elsewhere, bearing orange petals with dark spots. Mitford called them <quote>Those fierce and warlike flowers the tiger~lilies</quote>. OED cites Mitford's <title ref="#OV">Our Village</title>.</note>
 				</item>
 				
 				<item xml:id="cranesbill">
