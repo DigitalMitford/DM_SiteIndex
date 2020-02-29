@@ -886,7 +886,6 @@
                   <note resp="#lmw">Assize Court building in central Reading. The current Reading Crown Court Building was not built until 1861, after Mitford's death.</note>
                   <note><ptr target="https://historicengland.org.uk/listing/the-list/list-entry/1113476"/></note>
                </place>
-               <!-- https://www.abingdon.gov.uk/history/buildings/county-hall -->
                
                <place xml:id="Windermere">
                   <placeName>Windermere, Cumbria, England</placeName>
@@ -1207,10 +1206,12 @@
 				
 				<item xml:id="wheat">
 					<name>wheat</name>
-					<name ref="#wheat">common wheat</name>
-					<name ref="#wheat">bread wheat</name>
-					<name ref="#wheat">Triticum aestivum</name>
-					<note resp="#lmw">Grassy plant cultivated as a cereal grain, known as common wheat or bread wheat. Cultivated in the Middle East since about 8000 BCE, and the practice is believed to have reached the British Isles by 3000 BCE. After 1750, wheat and rye began to replace barley as the dominant cereal grain crop in England, and Formal wheat hybridization began in the early 19th century. Hard winter wheat is now most commonly cultivated in the UK.</note>
+					<name type="species">Triticum aestivum</name>
+				   <name type="genus">Triticum</name>
+				   <name type="family">Poaceae</name>
+				   <name><addName>common wheat</addName></name>
+				   <name><addName>bread wheat</addName></name>
+					<note resp="#lmw">Grassy plant cultivated as a cereal grain, known as common wheat or bread wheat. Cultivated in the Middle East since about 8000 BCE, and the practice is believed to have reached the British Isles by 3000 BCE. After 1750, wheat and rye began to replace barley as the dominant cereal grain crop in England, and formal wheat hybridization began in the early 19th century. Hard winter wheat is now most commonly cultivated in the UK.</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Triticum_aestivum"/></note>
 				</item>
 
@@ -1222,12 +1223,13 @@
 				   <name><addName>midland hawthorn</addName></name>
 				   <name><addName>English hawthorn</addName></name>
 				   <name><addName>woodland hawthorn</addName></name>
-				   <note resp="#lmw">Flowering thorny shrub that develops a red, berry-like fruit that is actually a pome containing two or three nutlets. Native to western and central Europe, North Africa, and the UK. Closely related to the <name ref="#hawthorn">common hawthorne</name>; the two species hybridize. </note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Crataegus_laevigata"/></note>
+				   <note resp="#lmw">Flowering thorny shrub that develops a red, berry-like fruit that is actually a pome containing two or three nutlets. Native to western and central Europe, North Africa, and the UK. Closely related to the <name ref="#hawthorn">common hawthorne</name>; the two species hybridize.</note>
+				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/midland-hawthorn/"/></note>
+				   <note><ptr target="https://species.wikimedia.org/wiki/Crataegus_laevigata"/></note>
 				</item>
 				
 				<item xml:id="hawthorn">
-					<name ref="#hawthorn">common hawthorn</name>
+					<name>common hawthorn</name>
 				   <name type="genus">Crataegus</name>
 				   <name type="family">Rosaceae</name>
 				   <name type="species">Crataegus monogyna</name>
@@ -1236,6 +1238,8 @@
 				   <name><addName>quickthorn</addName></name>
 				   <name><addName>whitethorn</addName></name>
 					<note resp="#lmw">Flowering thorny shrub that develops a red, berry-like fruit that is actually a pome containing a single seed. Native to Eurasia and North Africa. Closely related to the <name ref="#mayflower">midland hawthorne</name>, also known as the <soCalled>mayflower</soCalled>; the two species hybridize. The subject of poems by Wordsworth (<title level="a">The Thorn</title>) and John Clare (<title level="a">Song: White Thorn Tree</title>).</note>
+					   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/hawthorn/"/>
+					</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Crataegus_monogyna"/></note>
 				</item>
 				
@@ -1245,18 +1249,17 @@
 				</item>
 				
 				<item xml:id="elm">
-					<name>field elm</name>
-				   <name type="species">Ulmus minor</name>
+					<name>elm</name>
 				   <name type="species">Ulmus procera</name>
 					<name type="genus">Ulmus</name>
 				   <name type="family">Ulmaceae</name>
 				   <name><addName>smooth-leaved elm</addName></name>
 				   <name><addName>English elm</addName></name>
-				   <note resp="#tfb #lmw">The so-called <soCalled>English elm</soCalled> is a deciduous tree with serrated leaves, a variety of the European <soCalled>field elm</soCalled>, introduced into England from Spain in the 16th century. Before Dutch elm disease decimated the population in the 20th century, mature elm trees were a prominent feature of mixed deciduous forests and were also frequently used in landscape gardening. In England, elms were found in mixed forests with oak and ash, often near rivers. While populations still exist, they do not grow to mature size, and so immature elms are today mainly found in hedgerows. Because of its resistance to rot, elm was frequently used to construct medieval water pipes as well as piers, jetties, and lock gates. Because of its resistance to splitting, it was also used to make chair seats, coffins, wagon wheel hubs, and ancient world bows. During the enclosure movement, elms were plants in hawthorn hedges, and avenues and groves of elms were popular features of 18th- and 19th-century landscape gardening. Wych elm (ulmus montana), also called witch hazel or Scots elm, is also native to the UK. Ancient Roman literature spoke of a <soCalled>marriage</soCalled> between the elm and the vine, in which the elm represented the husband, because of their practice of planting elms in vineyards to support grape vines; in British literature, this motif appears most frequently as elm and ivy. The ancient Greek tradition of planting elms on graves has also given rise to a <soCalled>elm-and-death</soCalled> motif. They are also frequently mentioned in classical pastoral poetry, where their cool shade is praised as paradisal.</note>
+				   <name><addName>field elm</addName></name>
+				   <note resp="#tfb #lmw">The so-called <soCalled>English elm</soCalled> is a deciduous tree with serrated leaves, a variety of the European <soCalled>field elm</soCalled>, introduced into England from Spain in the 16th century. Before Dutch elm disease decimated the population in the 20th century, mature elm trees were a prominent feature of mixed deciduous forests and were also frequently used in landscape gardening. In England, elms were found in mixed forests with oak and ash, often near rivers. While populations still exist, they do not grow to mature size, and so immature elms are today mainly found in hedgerows. Because of its resistance to rot, elm was frequently used to construct medieval water pipes as well as piers, jetties, and lock gates. Because of its resistance to splitting, it was also used to make chair seats, coffins, wagon wheel hubs, and ancient world bows. During the enclosure movement, elms were plants in hawthorn hedges, and avenues and groves of elms were popular features of 18th- and 19th-century landscape gardening. Wych elm, also called witch hazel or Scots elm, is also native to the UK. Ancient Roman literature spoke of a <soCalled>marriage</soCalled> between the elm and the vine, in which the elm represented the husband, because of their practice of planting elms in vineyards to support grape vines; in British literature, this motif appears most frequently as elm and ivy. The ancient Greek tradition of planting elms on graves has also given rise to a <soCalled>elm-and-death</soCalled> motif. They are also frequently mentioned in classical pastoral poetry, where their cool shade is praised as paradisal.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-elm/"/></note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Ulmus"/></note></item>
 
-				
 				<item xml:id="alder">
 					<name>alder</name>
 				   <name type="species">Alnus glutinosa</name>
@@ -1265,7 +1268,7 @@
 					<name><addName>common alder</addName></name>
 				   <name><addName>black alder</addName></name>
 				   <name><addName>European alder</addName></name>
-					<note resp="#lmw #slc">Group of deciduous trees and shrubs with serrated leaves and woody catkins, generally found in riparian and marshy areas. Native to Europe and the UK.  Alder is a relatively lightweight hardwood, used in furniture making, and the bark and wood contain tannins used to tan leather. The rot-resistant wood was also traditionally used for building foundations and to make gunpowder.</note>
+					<note resp="#lmw #slc">Group of deciduous trees and shrubs with serrated leaves and woody catkins, generally found in riparian and marshy areas. Native to Europe and the UK. Alder is a relatively lightweight hardwood, used in furniture making, and the bark and wood contain tannins used to tan leather. The rot-resistant wood was also traditionally used for building foundations and making gunpowder.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/alder/"/></note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Alnus_glutinosa"/></note>
 				</item>
@@ -1294,41 +1297,57 @@
 				</item>
 				
 				<item xml:id="sycamore">
-					<name ref="#sycamore">sycamore</name>
+					<name>sycamore</name>
 				   <name type="family">Acer pesudoplantanus</name>
 				   <name type="genus">Acer</name>
 				   <name type="family">Sapindaceae</name>
+				   <note resp="#lmw">Large-leaved flowering tree in the soapberry and lychee family, native to Central Europe and Western Asia, and naturalized elsewhere. Its yellow-green hanging flower heads later produce winged seeds. It was introduced into the UK by at least 1500, and perhaps as early as the Roman occupation. Its fine-grained wood is used to make musical instruments as well as furniture and flooring.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/sycamore/"/></note>
 				</item>
                
                <item xml:id="maple">
-                  <name ref="#maple">maple</name>
-                  <name ref="#maple">field maple</name>
-                  <name ref="#maple">acer campestre</name>
+                  <name>maple</name>
+                  <name type="species">Acer campestre</name>
+                  <name type="genus">Acer</name>
+                  <name type="family">Sapindaceae</name>
+                  <name><addName>field maple</addName></name>
+                  <name><addName>hedge maple</addName></name>
+                  <note resp="#lmw">Small broad-leafed tree with yellow-green flowers producing winged seeds, sometimes called <soCalled>maple keys</soCalled>; leave turn bright reddish orange before falling. Also pollarded to shrub size within hedgerows and grown as a specimen tree. Native to Eurasia, England, and southern Scotland. Produces a light-colored hardwood that is used to make musical instruments, flooring, and furniture.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/field-maple/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Acer_campestre"/></note>
                </item>
 				
 				<item xml:id="birch_weep">
-					<name ref="#birch_weep">weeping birch</name>
+					<name>weeping birch</name>
+				   <name type="species">Betula pendula</name>
+				   <name type="genus">Betula</name>
+				   <name type="family">Betulaceae</name>
+				   <name><addName>silver birch</addName></name>
+				   <name><addName>European white birch</addName></name>
+				   <note resp="#lmw">Medium-sized birch tree with white, peeling bark, triangular leaves that turn yellow before falling, and catkins in spring. Mitford uses the term <q>weeping birch</q> to refer to a pendulous variety of the <soCalled>white birch</soCalled> (Betula alba). A lightweight and light-colored wood used in making furniture and skis. Its brush is used historically for racecourse jumps, the bark in tanning and traditional medicine, and strips for small containers, baskets, and footwear.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/silver-birch/"/></note>
+				   <note><ptr target="https://species.wikimedia.org/wiki/Betula_pendula/"/></note>
 				</item>
 				
 				<item xml:id="lime_tree">
 					<name>lime tree</name>
 					<name type="genus">Tilia</name>
-					<name type="family">Malvaceae</name>
+				   <name type="family">Tiliaceæ</name>
 				   <name><addName>linden</addName></name>
-				   <note resp="#lmw">Deciduous tree called the lime tree in the UK, this family of trees and shrubs is also known as a <soCalled>linden</soCalled> in continental Europe and <soCalled>basswood</soCalled> in the US. Not closely related to the citrus fruit tree.</note>
+				   <note resp="#lmw">Group of large, deciduous trees called the lime tree in the UK, this family of trees and shrubs is also known as a <soCalled>linden</soCalled> in continental Europe and <soCalled>basswood</soCalled> in the US. Not closely related to the citrus fruit tree. Produces a soft, fine-grained, light wood popular for carving and for the building of models, puppets, and some musical instruments. The subject of the <persName ref="#Coleridge_ST">Coleridge</persName> poem, <title level="a">This Lime-Tree Bower my Prison</title>.</note>
+				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/silver-birch/"/></note>
+				   <note><ptr target="https://species.wikimedia.org/wiki/Betula_pendula/"/></note>
 				</item>
 				
-				<item xml:id="hazel_common">
-					<name>common hazel</name>
+				<item xml:id="hazel">
+					<name>hazel</name>
 					<name type="species">Corylus avellana</name>
 					<name type="genus">Corylus</name>
 					<name type="family">Betulaceae</name>
-					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to Europe and western Asia. The fruit, called <soCalled>hazelnuts</soCalled> or <soCalled>cobnuts</soCalled>, are produced by male and female catkins, with the ripe nuts partially enclosed in a husk and harvested in the autumn. Hazelnuts are round and the kernel is edible and may be eaten fresh or dried. Mitford employs the term <q>cobnut</q> and distinguishes it from the <q>filberd</q>. The shrubby trees form an important component of hedgerows, particularly in the English lowlands. The trees may also be managed by coppicing, a practice that produces the thin, curved poles traditionally used in making withy and wattle fencing, in wattle-and-daub building, and in framing coracle boats.</note>
+				   <name><addName>common hazel</addName></name>
+					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to Europe and western Asia. The fruit, called <soCalled>hazelnuts</soCalled> or <soCalled>cobnuts</soCalled>, are produced by male and female catkins, with the ripe nuts partially enclosed in a husk and harvested in the late summer. Hazelnuts are round and the kernel is edible and may be eaten fresh or dried. Mitford employs the term <q>cobnut</q> and distinguishes it from the <q>filberd</q>. The shrubby trees form an important component of hedgerows, particularly in the English lowlands. The trees may also be managed by coppicing, a practice that produces the thin, curved poles traditionally used in making withy and wattle fencing, in wattle-and-daub building, and in framing coracle boats.</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Corylus_maxima"/></note>
-					<note><ptr target="http://www.test-tube.org.uk/trees/video_hazel.htm"/></note>
+				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/hazel/"/></note>
 				</item>
 				
 				<item xml:id="filbert">
@@ -1340,54 +1359,6 @@
 					<note><ptr target="https://species.wikimedia.org/wiki/Corylus_maxima"/></note>
 				</item>
 
-               <item xml:id="oak_tree">
-                  <name ref="#oak_tree">oak</name>
-                  <note resp="#lmw #slc"><!-- SLC: An oak is a tree or shrub in the genus Quercus of the beech family, Fagaceae. There are approximately 600 extant species of oaks. The common name "oak" may also appear in the names of species in related genera, notably Lithocarpus. (Wikipedia) --></note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-oak/"/></note>
-               </item>
-              
-               <item xml:id="ivy">
-                  <name ref="#ivy">ivy</name>
-                  <!--<name>
-					<rs type="genus">Hedera</rs>
-					<rs type="species"></rs>
-					<rs type="family">Araliaceae</rs>
-					</name>-->
-                  <note resp="#qar #slc #lmw"><!-- SLC: Hedera, commonly called ivy (plural ivies), is a genus of 12–15 species of evergreen climbing or ground-creeping woody plants in the family Araliaceae, native to western, central and southern Europe, Macaronesia, northwestern Africa and across central-southern Asia east to Japan and Taiwan. (Wiki) -->
-                     <!--<note resp="#qar">In floriography, ivy represents wedded love, fidelity, affection, and friendship. </note> </item> --></note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/ivy/"/></note>
-               </item>
-				
-				<item xml:id="plum_tree">
-					<name ref="#plum_tree">plum tree</name>
-					<name ref="#plum_tree">prunus domestica</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/plum/"/></note>
-				</item><!--LMW plum: cross ref with greengage; make separate entry for the fruit?-->
-				
-				<item xml:id="greengage"><!--Mitford refers to the green plum. Make entry for the most common variety of the tree.-->
-					<name ref="#greengage">greengage</name>
-					<note resp="#lmw"></note>
-				</item>
-				
-				<item xml:id="holly">
-					<name>holly</name>
-					<name type="species">Ilex aquifolium</name>
-				   <name type="genus">Ilex</name>
-				   <name type="family"> </name>
-				   <name><addName>common European holly</addName></name>
-				   <name><addName>English holly</addName></name>
-					<note resp="#lmw">Native to western Eurasia and the UK.</note>
-				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Ilex_aquifolium"/></note>
-				</item>
-				
-				<item xml:id="apple_tree">
-					<name>apple tree</name>
-					<name>malus domestica</name>
-					<note resp="#lmw"><!--apples:  types mentioned:  golden rennets, russeting, crumpling--></note>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/apple/"/></note>
-				</item> 
-				
 				<item xml:id="pear">
 					<name>pear</name>
 				   <name type="species">Pyrus communis</name>
@@ -1398,112 +1369,7 @@
 				   <note resp="#lmw">The domestic pear tree is descended from the Eurasian wild pear, imported into Britain around 995 AD. Mitford refers to the <q>bergamot pear</q>, which is another name for the domestic pear.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/pear/"/></note>
 				</item>
-				
-				<item xml:id="currant_bush"><!--LMW:  change id, remove hyphen-->
-					<name ref="#currant_bush">currant</name>
-				   <name type="genus">ribes</name>
-				   <name type="species"></name>
-				   <name type="family">Grossulariaceae</name>
-					<note resp="#qar #lmw">Mitford calls this plant a currant-bush, which is actually another name for the conkerberry or bush plum, but these grow best in tropical regions and are likely not what she means. </note>
-				</item>
-				
-				<item xml:id="gooseberry-tree">
-				   <name ref="#gooseberry-tree">Gooseberry</name>
-				   <name type="genus">Ribes</name>
-				   <name type="species">R. uva-cripsa</name>
-				   <name type="family">Grossulariaceae</name>
-					<!-- https://www.woodlandtrust.org.uk/blog/2018/11/winter-berries/ -->
-					<note resp="#qar">In floriography, signifies anticipation.</note></item>
-				
-				<item xml:id="willow"><!-- many kinds -->
-					<name ref="#willow">willow</name>
-					<!--<name>
-					<rs type="genus">Salix</rs>
-					<rs type="species">Salix alba</rs>
-					<rs type="family">Salicaceae</rs>
-					</name>-->
-					<note resp="#qar">The leaves and bark of the willow tree has been mentioned as a remedy for aches and fever in ancient texts from Assyria, Sumer and Egypt. Hippocrates mentioned this  plant for its medicinial properties, and the Native Americans also used willow for a staple in medical treatments. In 1763, Reverend Edward Stone in England notified the Royal Society of his findings that the willow had medicinal properties. In 1828, Henri Leroux, a French pharmacist, and Raffaele Piria, an Italiam chemist, isolated the bark extract, called salicin, into a crystalline form and separated into a pure state.</note> </item>
-				
-				<item xml:id="ash">
-					<name>ash</name>
-					<name type="species">fraxinus excelsior</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/ash/"/></note>
-				</item>
-		
-				<item xml:id="pine"><!--kinds? native conifers = Caledonian or Scots pine; juniper, yew--></item>
-					
-					<item xml:id="pine_Scots">
-				   <name ref="#pine_Scots">Scots pine</name>
-					<name ref="#pine_Scots">pinus sylvestris</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/scots-pine/"/></note>
-				</item>
-
-				<item xml:id="Scottish_fir"/><!--lmw: CROSS REF WITH FIR-->
-				
-				<item xml:id="cherry_tree"/>
                
-				<item xml:id="cherry_wild">
-					<name>wild cherry</name>
-					<name type="species">Prunus avium</name>
-				   <name type="genus">Prunus</name>
-				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/wild-cherry/"/></note>
-					<!-- sour cherry (prunus cerasus
-					bird cherry (prunus padus)
-					cherry plum (prunus cerasifera)-->
-				</item>
-				
-				<item xml:id="bird_cherry">
-					<name>bird-cherry</name>
-					<name type="species">Prunus padus</name>
-				   <name type="genus">Prunus</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/bird-cherry/"/></note>
-				</item>
-				
-				<item xml:id="lilac">
-					<name>lilac</name><!-- non native -->
-					<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/lilac"/></note>
-				</item>
-				
-				<item xml:id="syringa">
-					<name ref="#syringa">syringa</name>
-					<name>Philadelphis</name>
-				   <name><addName>Mock orange</addName></name>
-					<note resp="#lmw">	
-					</note>
-				</item>
-				
-				<item xml:id="elder">
-					<name ref="#elder">elder</name>
-					<name ref="#elder">sambucus nigra</name>
-					<note resp="#lmw">elderberry, elderflower, edible uses</note>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/elder/"/></note>
-				</item>
-				
-				<item xml:id="dogwood">
-					<name>dogwood</name>
-					<name type="species">Cornus sanguinea</name>
-				   <name type="genus">Cornus</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/dogwood/"/></note>	
-				</item>
-				
-				<item xml:id="Portugal_laurel">
-				   <name>Portugal laurel</name>
-				   <name type="species">Prunus lusitanica</name>
-				   <name type="species">Prunus</name>
-					<name ref="#Portugal_laurel">Portugese laurel</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/dogwood/"/></note>
-				</item>
-				
-				<item xml:id="bay">
-					<name>bay</name>
-				   <note resp="#lmw"></note>
-				</item>
-				
-				<item xml:id="poplar">
-					<name>poplar</name>
-					 <note resp="#lmw"><!-- black poplar, native but not frequent; white poplar, naturalized, when?--> --></note>
-				</item>
-				
 				<item xml:id="bramble">
 				   <name>bramble</name>
 				   <name type="species">Rubus fruticosus</name>
@@ -1515,39 +1381,7 @@
 				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/bramble/"/></note>
 				   <note><ptr target="https://species.wikimedia.org/wiki/Rubus_plicatus"/></note>
 				</item>
-               
-				<item xml:id="laburnum">
-					<name ref="#laburnum">laburnum</name>
-					<name ref="#laburnum">Laburnum anagyroides</name>
-					<name ref="#laburnum">golden rain</name>
-					<note resp="#lmw">Non-native, introduced 16th c.</note>
-					<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/common-laburnum"/></note></item>
-				
-				<item xml:id="yew_tree">
-					<name>yew</name>
-					<name type="species">Taxus baccata</name>
-				   <name type="genus">Taxus</name>
-				   <name type="family">	Taxaceae</name>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/yew/"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Taxus_baccata"/></note> 
-				</item>
-				
-				<item xml:id="apricot_tree">
-					<name ref="#apricot_tree">apricot</name>
-					<note></note>
-				</item>
-				
-				<item xml:id="privet">
-					<name>privet</name>
-					<name type="species">Ligustrum vulgare</name>
-				   <name type="genus">Ligustrum</name>
-				   <name type="family">Oleaceae</name>
-				   <name><addName>wild privet</addName></name>
-					<note><!--LMW: bush, commonly used for hedging.--></note>
-					<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/wild-privet"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Ligustrum_vulgare"/></note>
-				</item>
-				
+               	
 				<item xml:id="Michaelmas_daisy">
 				   <name>Michaelmas daisy</name>
 				   <name type="species">Aster amellus</name>
@@ -1606,6 +1440,434 @@
 					<note><ptr target="https://www.brc.ac.uk/plantatlas/index.php?q=node/1653"/></note>
 					<note><ptr target="https://en.wikipedia.org/wiki/Myosotis_scorpioides"/></note>
 				</item>
+               
+               <item xml:id="broom">
+                  <name>broom</name>
+                  <name type="genus">Cytisus</name>
+                  <name type="species">Cytisus scoparius</name>
+                  <name type="family">Fabaceae</name>
+                  <name><addName>common broom</addName></name>
+                  <name><addName>Scotch broom</addName></name>
+                  <note resp="#qar #lmw">Perennial flowering shrub, member of the legume or pea family, native to Europe and the UK. Grows in meadows and heathland and propagates itself through pea-like seedpods. Symbolizes humility and neatness in floriography, because of its association with the housekeeping implement. In the Fourth Branch of the Mabinogi, the tale of Math son of Mathonwy, Blodeuwedd is the name of a woman made from the flowers of broom, meadowsweet and the oak by Math fab Mathonwy and Gwydion to be the wife of Lleu Llaw Gyffes. This is a part of Welsh mythology. <q>Sweep the house with blossed broom in May/sweep the head of the household away</q> is a traditional rhyme from Sussex. It was common to include a decorated bundle of broom at weddings. Ashes of broom were used to treat dropsy, and said to tame wild dogs and horses with its smell.</note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/broom"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Cytisus_scoparius"/></note>
+               </item>
+               
+               <item xml:id="furze">
+                  <name>furze</name>
+                  <name type="species">Ulex europaeus</name>
+                  <name type="genus">Ulex</name>
+                  <name type="family">Fabaceae</name></item>
+               <note resp="#lmw">A spiny evergreen shrub with scented yellow blooms native to the UK and western Europe. Also called <soCalled>gorse</soCalled> or <soCalled>whin</soCalled>. Flowers from spring into summer. </note>
+               <note><ptr target="https://www.rhs.org.uk/Plants/18575/i-Ulex-europaeus-i/Details"/></note>
+               <note><ptr target="https://species.wikimedia.org/wiki/Ulex_europaeus"/></note>
+               
+               <item xml:id="oxlip">
+                  <name>oxlip</name>
+                  <name type="species">Primula elatior</name>
+                  <name type="genus">Primula</name>
+                  <name type="family">Primulaceae</name>
+                  <note resp="#lmw">Spring-flowering member of the Primula family related to primroses (P. vulgaris) and cowslips (P. veris); it has a taller stem like the cowslip, and larger flowers like the primrose. Native to continental Europe and Britain. During Mitford's lifetime, naturalists debated how to categorize the varied species of Primula.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/oxlip/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Primula_elatior"/></note>
+               </item>
+               
+               <item xml:id="dahlia">
+                  <name>dahlia</name>
+                  <name type="genus">Dahlia</name>
+                  <name type="family">Asteraceae</name>
+                  <note resp="#lmw">Group of tuberous flowering plants, brightly colored and highly variable in size, color, and petal shape. Dahlias are native to Mexico and central America and were first imported into continental Europe in the 1780s and thence to England in the early nineteenth century. The first printed illustration appeared in the <title level="s">Curtis's Botanical Magazine</title> in 1804 and dahlias became fashionable garden flowers in England by the 1820s. In Mitford's time, both single- and double-flowered varieties were propagated, and varieties were largely classified by flower color. Outside their native range, dahlia tubers are susceptible to frost, and must have their tubers dug over winter and replanted, if they are not grown in greenhouses.</note>
+                  <note><ptr target="https://books.google.com/books?id=_0sCAAAAYAAJ"/></note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/popular/dahlia/growing-guide"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Dahlia_(Asteraceae)"/></note>
+               </item>
+               
+               <item xml:id="honesty">
+                  <name>honesty</name>
+                  <name><addName>Lunaria annua</addName></name>
+                  <name type="genus">Brassicaceae</name>
+                  <name type="family">Asteraceae</name>
+                  <note resp="#lmw">Bushy flowering garden plant grown primarily for its decorative seed pods, rather than for its flowers. White or violet flowers give way to disc-shaped seedpods, which shed their fleshy outer covering as they ripen to reveal a translucent inner membrane which may persist on the plant through winter. The dried stems and pods are used in flower arranging. The Latin name refers to the moon-shaped seed pods. Common names in many languages refer to the pods' likeness to coins; it is called <soCalled>silver dollar</soCalled> or <soCalled>money plant</soCalled> and other, similar names.</note>
+                  <note><ptr target="https://www.rhs.org.uk/Plants/83138/i-Lunaria-annua-i-var-i-albiflora-i-Alba-Variegata-(v)/Details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Lunaria_annua"/></note>
+               </item>
+               
+               <item xml:id="clematis">
+                  <name ref="#clematis">clematis</name>
+                  <note resp="#lmw">Mitford likely uses this term to refer to the native British species, C. vitalba, which she refers to elsewhere as <name ref="#VirginsBower">Virgin's Bower</name>. The hybridized garden plant is C. Flammula. In classical Greek and Roman literature, the term is used to refer to what Mitford calls <name ref="#periwinkle">periwinkle</name>, or vinca, an unrelated flowering vine.</note>
+               </item>
+               
+               <item xml:id="VirginsBower">
+                  <name>Virgin's Bower</name>
+                  <name type="species">Clematis vitalba</name>
+                  <name type="genus">Clematis</name>
+                  <name type="family">Ranunculaceae</name>
+                  <name><addName>old man's beard</addName></name>
+                  <name><addName>traveller's joy</addName></name>
+                  <note resp="#slc #lmw">Climbing woody shrub in the clematis family, with panicles of fragrant green-ish white flowers that later develop fluffy seed heads. Native to the UK, common in southern England and in Wales and widely planted elsewhere. Not identical to a New World flower sharing the same common name, C. virginiana.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Clematis_vitalba"/></note>
+                  <note><ptr target="https://wildflowerfinder.org.uk/Flowers/V/VirginsBower/VirginsBower.htm"/></note>
+               </item>
+               
+               <item xml:id="auricula">
+                  <name>auricula</name>
+                  <name type="genus">Primula</name>
+                  <name type="species">Primula auricula</name>
+                  <name type="family">Primulaceae</name>
+                  <name><addName>bear's ears</addName></name>
+                  <name><addName>mountain cowslip</addName></name>
+                  <note resp="#tfb #lmw">Wild member of the primrose family, bearing in spring yellow flowerets above a rosette of dark green leaves, native to the mountains of Central Europe. Garden primroses are a hybridized species developed as a cross between P. auricula and P. hirsuta. A popular garden plant in 18th-century Britain.</note></item>
+               
+               <item xml:id="hollyhock">
+                  <name>hollyhock</name>
+                  <name type="genus">Alcea</name>
+                  <name type="species">Alcea rosea</name>
+                  <name type="family">Malvaceae</name>
+                  <note resp="#tfb #lmw">Biennial garden plant featuring many large single or double flowers in pink, red, yellow, or white, on a very tall stem, native to China and southern Europe, and garden-cultivated elsewhere.</note>
+               </item>
+               
+               <item xml:id="poppy">
+                  <name>poppy</name>
+                  <name type="species">Papaver rhoeas</name>
+                  <name type="genus">Papaver</name>
+                  <name type="family">Papaveraceae</name>
+                  <name><addName>common poppy</addName></name><name><addName>corn poppy</addName></name>
+                  <name><addName>field poppy</addName></name>
+                  <name><addName>Flanders poppy</addName></name>
+                  <note resp="#lmw">Annual red poppy flower with showy black stamens and hairy stems and buds, native to Eurasia and North Africa, preferring sunny meadows and disturbed ground. Historically considered an agriculatural weed, hence its common name, <soCalled>corn poppy</soCalled>. Also called the <soCalled>Flanders poppy</soCalled> after World War I, for its habit of blooming in ground disturbed by military action and later adopted as a symbol of war remembrance. The opium poppy, P. somniferum, was also known in Britain since the Middle Ages for the medicinal and sleep-inducing qualities of its milky sap and its seeds.</note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/common-poppy"/></note>
+               </item>
+               
+               <item xml:id="thyme">
+                  <name>thyme</name>
+                  <name type="species">Thymus polytrichus</name>
+                  <name type="genus">Thymus</name>
+                  <name type="family">Lamiaceae</name>
+                  <name><addName>wild thyme</addName></name>
+                  <name><addName>creeping thyme</addName></name>
+                  <note resp="#lmw">Evergreen ground cover with aromatic leaves and pale purple flowers, native to Western Europe and the UK where it grows on dry banks and in pastures. Not generally used as a pot herb, unlike its relative, garden thyme (thymus vulgaris), which is native to southern Europe and cultivated elsewhere.</note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/wild-thyme"/></note>
+               </item>
+               
+               <item xml:id="jasmine">
+                  <name>jasmine</name>
+                  <name type="species">Jasminum officinale</name>
+                  <name type="genus">Jasminum</name>
+                  <name type="family">Oleaceae</name>
+                  <name><addName>common jasmine</addName></name>
+                  <name><addName>white jasmine</addName></name>
+                  <name><addName>jessamine</addName></name>
+                  <note resp="#lmw">A climbing woody shrub with fragrant white flowers, native to Asia and naturalized in the UK since the 16th century. Some varieties are cultivated to produce oils for perfume. Mitford also uses the term <soCalled>jessamine</soCalled>, generally used in Britain to refer to <soCalled>common jasmine</soCalled> or <soCalled>white jasmine</soCalled>.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/9454/jasminum-officinale/details"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Jasminum_officinale"/></note>
+               </item>
+               
+               <item xml:id="honeysuckle">
+                  <name>honeysuckle</name>
+                  <name type="species">Lonicera periclymenum</name>
+                  <name type="genus">Lonicera</name>
+                  <name type="genus">Caprifoliaceae</name>
+                  <name><addName>European honeysuckle</addName></name>
+                  <name><addName>woodbine</addName></name>
+                  <note resp="#lmw">Twining summer-flowering woody shrub, native to much of Europe, Turkey, and North Africa and naturalized as well as cultivated throughout many parts of Europe and North America. One of two honeysuckles native to the UK. It produces showy creamy-yellow clusters of tubular flowers, which are highly scented, particularly at night. Mitford also uses the term <q>woodbine</q>.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/honeysuckle/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Lonicera_periclymenum"/></note>
+               </item>
+               
+               <item xml:id="harebell">
+                  <name>harebell</name>
+                  <name type="species">Campanula rotundifolia</name>
+                  <name type="genus">Campanula</name>
+                  <name type="family">	Campanulaceae</name>
+                  <name><addName>Scotch bluebell</addName></name>
+                  <name><addName>bluebell of Scotland</addName></name>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/harebell"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Campanula_rotundifolia"/></note>
+               </item>
+               
+               <item xml:id="campanula">
+                  <name>campanula</name>
+                  <name type="genus">Campanula</name>
+                  <name type="family">Campanulaceae</name>
+                  <name><addName>bellflower</addName></name>
+                  <note resp="#lmw">General term used for a large genus of plants with white or blue bell-shaped flowers. Includes <name ref="#harebell">harebell</name>.</note>
+               </item>
+               
+               <item xml:id="periwinkle">
+                  <name>periwinkle</name>
+                  <name type="species">Vinca major</name>
+                  <name type="genus">Vinca</name>
+                  <name type="family">Apocynaceae</name>
+                  <note resp="#lmw">Spring-blooming trailing groundcover with dark green leaves and purple, blue, or white flowers, any of several members of the Vinca family. Native to the northern Mediterranean and naturalized in the UK.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Vinca_major"/></note>
+               </item>
+               
+               <item xml:id="tulip">
+                  <name>tulip</name>
+                  <name type="genus">Tulipa</name>
+                  <name type="family">Lilieae</name>
+                  <note resp="#lmw">Large family of spring-blooming bulbs native to Southern Europe and Central Asia but cultivated as a garden plant and cut flower worldwide since the seventeenth century. Some varieties naturalized in Europe and parts of the UK, particulatly in eastern England and Scotland. After the so-called <soCalled>tulip mania</soCalled> in Europe in the 17th century, tulips became associated with the Netherlands and Dutch Golden Age painters, who included them in their still-life paintings. In her <title>Journal</title>, Mitford refers to <quote>field tulips</quote>, presumably a naturalized population.
+                  </note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Tulipa"/></note>
+               </item>
+               
+               <item xml:id="sweet_pea">
+                  <name>sweet pea</name>
+                  <name type="species">Lathyrus odorata</name>
+                  <name type="genus">Lathyrus</name>
+                  <name type="family">Fabaceae</name>
+                  <note resp="#lmw">Spring-blooming vine with pink, purple, blue, or white flowers, native to Italy and the Aegean Islands. Cultivated in the UK since the introduction of seeds to England around 1700. Prized for their scent, sweet peas were a nineteenth-century favorite, hybridized for use as a commercial cut flower and as a garden plant.
+                  </note>
+                  <note><ptr target="https://thegardenstrust.blog/2015/09/26/the-sweet-pea-and-its-king/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Lathyrus_odoratus"/></note>
+               </item>
+               
+               <item xml:id="pink">
+                  <name>pink</name>
+                  <name>Dianthus plumarius</name>
+                  <name type="genus">Dianthus</name>
+                  <name type="family">Caryophyllaceae</name>
+                  <note resp="#lmw">Used generally for any of various members of the Dianthus family, particularly forms of D. plumarius. Spring-blooming evergreen groundcover with pink or white flowers, native to Austria, Slovenia, and Croatia and naturalized in the the UK and parts of western Europe. Also cultivated as a garden plant for its variegated pink flowers; sometimes known as the <soCalled>common pink</soCalled>, <soCalled>garden pink</soCalled>, or <soCalled>wild pink</soCalled>.
+                  </note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Dianthus_plumarius"/></note>
+               </item>
+               
+               <item xml:id="arum">
+                  <name>arum</name>
+                  <name type="species">Arum maculatum</name>
+                  <name type="genus">Arum</name>
+                  <name type="family">Araceae</name>
+                  <name><addName>arum lily</addName></name>
+                  <name><addName>cuckoo pint</addName></name>
+                  <note resp="#lmw">The so-called <soCalled>arum lily</soCalled> is a common European woodland plant, not a true lily. It bears purple-spotted leaves and an inconspicuous flower stalk hidden within a spathe or leaf-like hood. The stalk later develops poisonous red berries. In Britain, plant is also called the <soCalled>cuckoo pint</soCalled>, a euphemistic reference to male genitalia that dates from Culpeper's 17th century herbal; other common names also refer to human genitalia. Arum italicum or <soCalled>Italian lords-and-ladies</soCalled> is also native to the UK.</note>
+                  <note><ptr target="http://www.thepoisongarden.co.uk/atoz/arum_maculatum.htm"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Arum_maculatum"/></note>
+               </item>
+               
+               <item xml:id="foxglove">
+                  <name>foxglove</name>
+                  <name type="species">Digitalis purpurea</name>
+                  <name type="genus">Digitalis</name>
+                  <name type="family">Digitalideae</name>
+                  <note resp="#lmw">Flowering plant native to western Europe, the Mediterranean, and the UK, and naturalized elsewhere. Also cultivated as a garden plant for its large, bell-shaped purple flower spikes.
+                  </note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/foxglove/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Digitalis"/></note>
+               </item>
+               
+               <item xml:id="beetroot">
+                  <name>beetroot</name>
+                  <name type="species">Beta vulgaris</name>
+                  <name type="genus">Caryophyllales</name>
+                  <name type="family">Amaranthaceae</name>
+                  <name><addName>garden beet</addName></name>
+                  <note resp="#lmw">Garden plant grown primarily for its edible roots, but also for its edible leaves, sometimes known as chard or beet greens. Cultivated in the ancient world for food and for medicinal use. Other important subspecies are sugar beet, grown to make table sugar, and mangelwurzel, an animal fodder crop.</note>
+                  <note><ptr target="http://www.bbc.co.uk/gardening/plants/plant_finder/plant_pages/1104.shtml"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Beta_vulgaris"/></note>
+               </item>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               <item xml:id="oak_common">
+                  <name>common oak</name>
+                  <name type="genus">Quercus robur</name>
+                  <name type="family">Fagaceae</name>
+                  <note resp="#lmw #slc"><!-- SLC: An oak is a tree or shrub in the genus Quercus of the beech family, Fagaceae. There are approximately 600 extant species of oaks. The common name "oak" may also appear in the names of species in related genera, notably Lithocarpus. (Wikipedia) -->
+                     <!-- a. Either of two major British and European deciduous forest trees of the genus Quercus (family Fagaceae), Q. robur (also called common oak, English oak, or pedunculate oak) and Q. petraea (also called durmast oak or sessile oak), both of which have sinuately lobed leaves, male flowers in pendulous catkins, and ovoid nuts (acorns) borne in scaly cup-shaped involucres (capsules). Also (more generally): any of the numerous trees and shrubs, whether deciduous or evergreen and of whatever leaf-shape, comprising the genus Quercus, found chiefly in north temperate regions.
+durmast, pedunculate, sessile, sessile-fruited oak, etc.: see the first element.
+great oaks from little acorns grow and variants: see acorn n. 2c. -->
+                  </note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-oak/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Quercus"/></note>
+               </item>
+               
+               <item xml:id="ivy">
+                  <name>ivy</name>
+                  <name type="genus">Hedera</name>
+                  <name type="species"></name>
+                  <name type="family">Araliaceae</name>
+                  <note resp="#qar #slc #lmw"><!-- SLC: Hedera, commonly called ivy (plural ivies), is a genus of 12–15 species of evergreen climbing or ground-creeping woody plants in the family Araliaceae, native to western, central and southern Europe, Macaronesia, northwestern Africa and across central-southern Asia east to Japan and Taiwan. (Wiki) -->
+                     <!--<note resp="#qar">In floriography, ivy represents wedded love, fidelity, affection, and friendship. </note> </item> --></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/ivy/"/></note>
+               </item>
+               
+               <item xml:id="plum_tree">
+                  <name>plum tree</name>
+                  <name>Prunus domestica</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/plum/"/></note>
+               </item><!--LMW plum: cross ref with greengage; make separate entry for the fruit?-->
+               
+               <item xml:id="greengage"><!--Mitford refers to the green plum. Make entry for the most common variety of the tree.-->
+                  <name ref="#greengage">greengage</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="holly">
+                  <name>holly</name>
+                  <name type="species">Ilex aquifolium</name>
+                  <name type="genus">Ilex</name>
+                  <name type="family"> </name>
+                  <name><addName>common European holly</addName></name>
+                  <name><addName>English holly</addName></name>
+                  <note resp="#lmw">Native to western Eurasia and the UK.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Ilex_aquifolium"/></note>
+               </item>
+               
+               <item xml:id="apple_tree">
+                  <name>apple tree</name>
+                  <name>malus domestica</name>
+                  <note resp="#lmw"><!--apples:  types mentioned:  golden rennets, russeting, crumpling--></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/apple/"/></note>
+               </item> 
+               
+               <item xml:id="currant_bush"><!--LMW:  change id, remove hyphen-->
+                  <name ref="#currant_bush">currant</name>
+                  <name type="genus">ribes</name>
+                  <name type="species"></name>
+                  <name type="family">Grossulariaceae</name>
+                  <note resp="#qar #lmw">Mitford calls this plant a currant-bush, which is actually another name for the conkerberry or bush plum, but these grow best in tropical regions and are likely not what she means. </note>
+               </item>
+               
+               <item xml:id="gooseberry-tree">
+                  <name ref="#gooseberry-tree">Gooseberry</name>
+                  <name type="genus">Ribes</name>
+                  <name type="species">R. uva-cripsa</name>
+                  <name type="family">Grossulariaceae</name>
+                  <!-- https://www.woodlandtrust.org.uk/blog/2018/11/winter-berries/ -->
+                  <note resp="#qar">In floriography, signifies anticipation.</note></item>
+               
+               <item xml:id="willow"><!-- many kinds -->
+                  <name>willow</name>
+                  <name type="genus">Salix</name>
+                  <name type="species">Salix alba</name>
+                  <name type="family">Salicaceae</name>
+                  <note resp="#qar">The leaves and bark of the willow tree has been mentioned as a remedy for aches and fever in ancient texts from Assyria, Sumer and Egypt. Hippocrates mentioned this  plant for its medicinial properties, and the Native Americans also used willow for a staple in medical treatments. In 1763, Reverend Edward Stone in England notified the Royal Society of his findings that the willow had medicinal properties. In 1828, Henri Leroux, a French pharmacist, and Raffaele Piria, an Italiam chemist, isolated the bark extract, called salicin, into a crystalline form and separated into a pure state.</note> </item>
+               
+               <item xml:id="ash">
+                  <name>ash</name>
+                  <name type="species">Fraxinus excelsior</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/ash/"/></note>
+               </item>
+               
+               <item xml:id="pine"><!--kinds? native conifers = Caledonian or Scots pine; juniper, yew--></item>
+               
+               <item xml:id="pine_Scots">
+                  <name ref="#pine_Scots">Scots pine</name>
+                  <name ref="#pine_Scots">pinus sylvestris</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/scots-pine/"/></note>
+               </item>
+               
+               <item xml:id="Scottish_fir"/><!--lmw: CROSS REF WITH FIR-->
+               
+               <item xml:id="cherry_tree"/>
+               
+               <item xml:id="cherry_wild">
+                  <name>wild cherry</name>
+                  <name type="species">Prunus avium</name>
+                  <name type="genus">Prunus</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/wild-cherry/"/></note>
+                  <!-- sour cherry (prunus cerasus
+					bird cherry (prunus padus)
+					cherry plum (prunus cerasifera)-->
+               </item>
+               
+               <item xml:id="bird_cherry">
+                  <name>bird-cherry</name>
+                  <name type="species">Prunus padus</name>
+                  <name type="genus">Prunus</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/bird-cherry/"/></note>
+               </item>
+               
+               <item xml:id="lilac">
+                  <name>lilac</name><!-- non native -->
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/lilac"/></note>
+               </item>
+               
+               <item xml:id="syringa">
+                  <name ref="#syringa">syringa</name>
+                  <name>Philadelphis</name>
+                  <name><addName>Mock orange</addName></name>
+                  <note resp="#lmw">	
+                  </note>
+               </item>
+               
+               <item xml:id="elder">
+                  <name ref="#elder">elder</name>
+                  <name ref="#elder">sambucus nigra</name>
+                  <note resp="#lmw">elderberry, elderflower, edible uses</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/elder/"/></note>
+               </item>
+               
+               <item xml:id="dogwood">
+                  <name>dogwood</name>
+                  <name type="species">Cornus sanguinea</name>
+                  <name type="genus">Cornus</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/dogwood/"/></note>	
+               </item>
+               
+               <item xml:id="Portugal_laurel">
+                  <name>Portugal laurel</name>
+                  <name type="species">Prunus lusitanica</name>
+                  <name type="species">Prunus</name>
+                  <name ref="#Portugal_laurel">Portugese laurel</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/dogwood/"/></note>
+               </item>
+               
+               <item xml:id="bay">
+                  <name>bay</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="poplar">
+                  <name>poplar</name>
+                  <note resp="#lmw"><!-- black poplar, native but not frequent; white poplar, naturalized, when?--> --></note>
+               </item>
+               
+               <item xml:id="laburnum">
+                  <name>laburnum</name>
+                  <name type="species">Laburnum anagyroides</name>
+                  <name><addName>golden rain</addName></name>
+                  <note resp="#lmw">Non-native, introduced 16th c.</note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/common-laburnum"/></note></item>
+               
+               <item xml:id="yew_tree">
+                  <name>yew</name>
+                  <name type="species">Taxus baccata</name>
+                  <name type="genus">Taxus</name>
+                  <name type="family">Taxaceae</name>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/yew/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Taxus_baccata"/></note> 
+               </item>
+               
+               <item xml:id="apricot_tree">
+                  <name ref="#apricot_tree">apricot</name>
+                  <note></note>
+               </item>
+               
+               <item xml:id="privet">
+                  <name>privet</name>
+                  <name type="species">Ligustrum vulgare</name>
+                  <name type="genus">Ligustrum</name>
+                  <name type="family">Oleaceae</name>
+                  <name><addName>wild privet</addName></name>
+                  <note><!--LMW: bush, commonly used for hedging.--></note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/wild-privet"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Ligustrum_vulgare"/></note>
+               </item>
 				
 				<item xml:id="lily">
 					<name ref="#lily">lily</name>
@@ -1625,18 +1887,6 @@
 					<note resp="#lmw"></note>
 				</item>
 				
-				<item xml:id="arum">
-					<name>arum</name>
-				   <name type="species">Arum maculatum</name>
-					<name type="genus">Arum</name>
-				   <name type="family">Araceae</name>
-				   <name><addName>arum lily</addName></name>
-				   <name><addName>cuckoo pint</addName></name>
-					<note resp="#lmw">The so-called <soCalled>arum lily</soCalled> is a common European woodland plant, not a true lily. It bears purple-spotted leaves and an inconspicuous flower stalk hidden within a spathe or leaf-like hood. The stalk later develops poisonous red berries. In Britain, plant is also called the <soCalled>cuckoo pint</soCalled>, a euphemistic reference to male genitalia that dates from Culpeper's 17th century herbal; other common names also refer to human genitalia. Arum italicum or <soCalled>Italian lords-and-ladies</soCalled> is also native to the UK.</note>
-					<note><ptr target="http://www.thepoisongarden.co.uk/atoz/arum_maculatum.htm"/></note>
-				<note><ptr target="https://species.wikimedia.org/wiki/Arum_maculatum"/></note>
-				</item>
-				
 				<item xml:id="cranesbill">
 					<name ref="#cranesbill">crane's bill</name>
 				   <note resp="#lmw"></note>
@@ -1647,50 +1897,6 @@
 					<name type="genus">geranium</name>
 				   <name type="family">geraniaceae</name>
 					<note resp="#tfb"> This flower is from the geranium genus and the perrenial herb species. It is also called cranesbill because the genus word is greek for crane. Native mostly to subtropical Africa. It grows most commonly in the Mediterranean.</note></item>
-				
-				<item xml:id="jasmine">
-					<name>jasmine</name>
-				   <name type="species">Jasminum officinale</name>
-				   <name type="genus">Jasminum</name>
-				   <name type="family">Oleaceae</name>
-				   <name><addName>common jasmine</addName></name>
-				   <name><addName>white jasmine</addName></name>
-				   <name><addName>jessamine</addName></name>
-					<note resp="#lmw">A climbing woody shrub with fragrant white flowers, native to Asia and naturalized in the UK since the 16th century. Some varieties are cultivated to produce oils for perfume. Mitford also uses the term <soCalled>jessamine</soCalled>, generally used in Britain to refer to <soCalled>common jasmine</soCalled> or <soCalled>white jasmine</soCalled>.</note>
-					<note><ptr target="https://www.rhs.org.uk/plants/9454/jasminum-officinale/details"/></note>
-				   <note><ptr target="https://en.wikipedia.org/wiki/Jasminum_officinale"/></note>
-				</item>
-				
-				<item xml:id="honeysuckle">
-				   <name>honeysuckle</name>
-					<name type="species">Lonicera periclymenum</name>
-				   <name type="genus">Lonicera</name>
-				   <name type="genus">Caprifoliaceae</name>
-				   <name><addName>European honeysuckle</addName></name>
-				   <name><addName>woodbine</addName></name>
-					<note resp="#lmw">Twining summer-flowering woody shrub, native to much of Europe, Turkey, and North Africa and naturalized as well as cultivated throughout many parts of Europe and North America. One of two honeysuckles native to the UK. It produces showy creamy-yellow clusters of tubular flowers, which are highly scented, particularly at night. Mitford also uses the term <q>woodbine</q>.</note>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/honeysuckle/"/></note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Lonicera_periclymenum"/></note>
-				</item>
-				
-				<item xml:id="harebell">
-					<name>harebell</name>
-				   <name type="species">Campanula rotundifolia</name>
-				   <name type="genus">Campanula</name>
-				   <name type="family">	Campanulaceae</name>
-					<name><addName>Scotch bluebell</addName></name>
-				   <name><addName>bluebell of Scotland</addName></name>
-				   <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/harebell"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Campanula_rotundifolia"/></note>
-				</item>
-				
-				<item xml:id="campanula">
-					<name>campanula</name>
-				   <name type="genus">Campanula</name>
-				   <name type="family">Campanulaceae</name>
-					<name><addName>bellflower</addName></name>
-					<note resp="#lmw">General term used for a large genus of plants with white or blue bell-shaped flowers. Includes <name ref="#harebell">harebell</name>.</note>
-				</item>
 				
 				<item xml:id="bluebell">
 					<name>bluebell</name>
@@ -1710,61 +1916,11 @@
 
 H. non-scripta is particularly associated with ancient woodland where it may dominate the understorey to produce carpets of violet–blue flowers in "bluebell woods", but also occurs in more open habitats in western regions. It is protected under UK law, and in some other parts of its range. A related species, H. hispanica has also been introduced to the British Isles and hybridises with H. non-scripta to produce intermediates known as H. × massartiana. -->
 				
-				<item xml:id="periwinkle">
-				   <name>periwinkle</name>
-				   <name type="species">Vinca major</name>
-				   <name type="genus">Vinca</name>
-				   <name type="family">Apocynaceae</name>
-					<note resp="#lmw">Spring-blooming trailing groundcover with dark green leaves and purple, blue, or white flowers, any of several members of the Vinca family. Native to the northern Mediterranean and naturalized in the UK.</note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Vinca_major"/></note>
-				</item>
-				
-				<item xml:id="tulip">
-					<name>tulip</name>
-					<name type="genus">Tulipa</name>
-				   <name type="family">Lilieae</name>
-					<note resp="#lmw">Large family of spring-blooming bulbs native to Southern Europe and Central Asia but cultivated as a garden plant and cut flower worldwide since the seventeenth century. Some varieties naturalized in Europe and parts of the UK, particulatly in eastern England and Scotland. After the so-called <soCalled>tulip mania</soCalled> in Europe in the 17th century, tulips became associated with the Netherlands and Dutch Golden Age painters, who included them in their still-life paintings. In her <title>Journal</title>, Mitford refers to <quote>field tulips</quote>, presumably a naturalized population.
-					</note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Tulipa"/></note>
-				</item>
-				
-				<item xml:id="sweet_pea">
-					<name>sweet pea</name>
-					<name type="species">Lathyrus odorata</name>
-					   <name type="genus">Lathyrus</name>
-					<name type="family">Fabaceae</name>
-					<note resp="#lmw">Spring-blooming vine with pink, purple, blue, or white flowers, native to Italy and the Aegean Islands. Cultivated in the UK since the introduction of seeds to England around 1700. Prized for their scent, sweet peas were a nineteenth-century favorite, hybridized for use as a commercial cut flower and as a garden plant.
-					</note>
-					<note><ptr target="https://thegardenstrust.blog/2015/09/26/the-sweet-pea-and-its-king/"/></note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Lathyrus_odoratus"/></note>
-				</item>
-				
-				<item xml:id="pink">
-					<name>pink</name>
-					<name>Dianthus plumarius</name>
-						<name type="genus">Dianthus</name>
-				   <name type="family">Caryophyllaceae</name>
-					<note resp="#lmw">Used generally for any of various members of the Dianthus family, particularly forms of D. plumarius. Spring-blooming evergreen groundcover with pink or white flowers, native to Austria, Slovenia, and Croatia and naturalized in the the UK and parts of western Europe. Also cultivated as a garden plant for its variegated pink flowers; sometimes known as the <soCalled>common pink</soCalled>, <soCalled>garden pink</soCalled>, or <soCalled>wild pink</soCalled>.
-					</note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Dianthus_plumarius"/></note>
-				</item>
-				
 				<item xml:id="clove"/>
 				
 				<item xml:id="carnation"/>
 				
 				<item xml:id="SweetWilliam"/>
-
-				<item xml:id="foxglove">
-					<name>foxglove</name>
-					<name type="species">Digitalis purpurea</name>
-					   <name type="genus">Digitalis</name>
-				   <name type="family">Digitalideae</name>
-					<note resp="#lmw">Flowering plant native to western Europe, the Mediterranean, and the UK, and naturalized elsewhere. Also cultivated as a garden plant for its large, bell-shaped purple flower spikes.
-					</note>
-					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/foxglove/"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Digitalis"/></note>
-				</item>
 
 				<item xml:id="cabbage"><!--LMW: green cabbage? red cabbage is existing id. Create portmanteau entry?-->
 					<name ref="#cabbage">cabbage</name>
@@ -1802,17 +1958,6 @@ H. non-scripta is particularly associated with ancient woodland where it may dom
 					<note><ptr target="https://species.wikimedia.org/wiki/Fragaria_vesca"/></note>
 				</item>
 				
-				<item xml:id="beetroot">
-					<name>beetroot</name>
-					<name type="species">Beta vulgaris</name>
-					<name type="genus">Caryophyllales</name>
-					<name type="family">Amaranthaceae</name>
-				   <name><addName>garden beet</addName></name>
-					<note resp="#lmw">Garden plant grown primarily for its edible roots, but also for its edible leaves, sometimes known as chard or beet greens. Cultivated in the ancient world for food and for medicinal use. Other important subspecies are sugar beet, grown to make table sugar, and mangelwurzel, an animal fodder crop.</note>
-					<note><ptr target="http://www.bbc.co.uk/gardening/plants/plant_finder/plant_pages/1104.shtml"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Beta_vulgaris"/></note>
-				</item>
-				
 				<item xml:id="rose">
 					<name>rose</name>
 					<name type="genus">Rosa</name>
@@ -1839,8 +1984,7 @@ H. non-scripta is particularly associated with ancient woodland where it may dom
 				   <name><addName>sweetbriar rose</addName></name>
 				   <name><addName>eglantine</addName></name>
 				   <note resp="#lmw">Species of rose, the Eglantine or sweet-briar, a shrub with hooked thorns, aromatic leaves, and fragrant single pink flowers. The shrub develops oblong red hips that may be dried and used as a tea. Native to Eurasia and also a common garden and hedge plant.</note>
-				   <note><ptr target="https://www.rhs.org.uk/plants/16072/Rosa-rubiginosa/Details"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Rosa_rubiginosa"/></note>
+				   <note><ptr target="https://www.rhs.org.uk/plants/16072/Rosa-rubiginosa/Details"/></note><note><ptr target="https://species.wikimedia.org/wiki/Rosa_rubiginosa"/></note>
 				</item>
 				
 				<item xml:id="rose_damask">
@@ -1887,13 +2031,12 @@ H. non-scripta is particularly associated with ancient woodland where it may dom
 				
 				<item xml:id="moss_rose">
 					<name>moss rose</name>
-					<name><addName>Rosa x centifolia <q>Muscosa</q></addName></name>
+					<name type="species">Rosa x centifolia <q>Muscosa</q></name>
 					<name type="genus">Rosa</name>
 					<name type="family">Rosaceae</name>
 					<note resp="#lmw">A sport of the hybridized centifolia rose (also called the cabbage rose), known in Europe since the 17th century, noted for the sticky, scented hairs covering its flower buds. Blooms were prized in the nineteenth century as a novelty for their unusual bud shape and multi-layered scent.</note>
 					<note><ptr target="https://www.helpmefind.com/roses/gl.php?n=18"/></note>
-				   
-				   <!-- Rosa × centifolia (lit. hundred leaved/petaled rose; syn. R. gallica var. centifolia (L.) Regel), the Provence rose or cabbage rose or Rose de Mai is a hybrid rose developed by Dutch rose breeders in the period between the 17th century and the 19th century, possibly earlier. Its parentage includes Rosa × damascena, but it may be a complex hybrid; its exact hereditary history is not well documented or fully investigated,[1] but it now appears that this is not the "hundred-leaved" (centifolia) rose mentioned by Theophrastus and Pliny: "no unmistakable reference can be traced earlier than about 1580".[2] The original plant was sterile, but a sport with single flowers appeared in 1769, from which various cultivars known as centifolia roses were developed, many of which are further hybrids.[1] Other cultivars have appeared as further sports from these roses. Rosa × centifolia 'Muscosa' is a sport with a thick covering of resinous hairs on the flower buds, from which most (but not all) "moss roses" are derived. Dwarf or miniature sports have been known for almost as long as the larger forms, including a miniature moss ross 'Moss de Meaux'. -->
+				   <note><ptr target="https://species.wikimedia.org/wiki/Rosa_%C3%97_centifolia"/></note>
 				</item>
 			
 				<item xml:id="polyanthus">
@@ -1901,7 +2044,7 @@ H. non-scripta is particularly associated with ancient woodland where it may dom
 				   <name type="genus">Primula</name>
 				   <name type="species">Primula polyantha</name>
 				   <name type="family">Primulaceae</name>
-<note resp="#lmw">A cultivated variety of Primula, bearing flowers of many colors on raised umbrels. Thought to be originally dervied from crosses between the cowslip and the primrose. Such crosses are now known as Primula pruhonicensis, and the term Primula polyantha is used for naturally occurring hybrids, such as the false oxlip. 
+<note resp="#lmw">A cultivated variety of Primula, bearing flowers of many colors on raised umbrels. Thought to be originally derived from crosses between the cowslip and the primrose. Such crosses are now known as Primula pruhonicensis, and the term <soCalled>Primula polyantha</soCalled> is used for naturally occurring hybrids, such as the false oxlip. 
 </note>
 				   <note><ptr target="https://species.wikimedia.org/wiki/Primula_%C3%97_pruhonicensis"/></note>
 				</item>
@@ -1911,12 +2054,10 @@ H. non-scripta is particularly associated with ancient woodland where it may dom
 				<name type="genus">Crocus</name>
 				   <name type="species"></name>
 				   <name type="family">Iridaceae</name>
-					
 					<note resp="#qar"> In Victorian floriography, the crocus represents youthful gladness and cheerfulness.</note> </item>
 				
 				<item xml:id="gorse">
 					<name>gorse</name>
-					
 				   <name type="species">Ulex europaeus</name>
 					<name type="genus">Ulex</name>
 				   <name type="family">Fabaceae</name>
@@ -1927,123 +2068,14 @@ H. non-scripta is particularly associated with ancient woodland where it may dom
 				
 				<item xml:id="heath">
 					<name>heath</name>
-				   
-					<name type="genus">Erica</name>
+				   <name type="genus">Erica</name>
 				   <name type="species"></name>
 				   <name type="family">Ericaceae</name>
-					
 					<note resp="#qar">There are many varieties of heath, but this one is synonymous with the English common names <soCalled>heath</soCalled> and <soCalled>heather</soCalled>. Heather, in floriography, can mean three different things. In general, it means good luck. White heather is rotection, and that wishes will come true, while lavender heather represents admiration and solitude. The latter meaning fits.</note>
 					<note><!-- heathland and moorland --><ptr target="https://www.wildlifetrusts.org/habitats/heathland-and-moorland"/></note>
 				</item>
 				
-				<item xml:id="broom">
-					<name>broom</name>
-				   <name type="genus">Cytisus</name>
-				   <name type="species">Cytisus scoparius</name>
-				   <name type="family">Fabaceae</name>
-				   <name><addName>common broom</addName></name>
-				   <name><addName>Scotch broom</addName></name>
-					<note resp="#qar #lmw">Perennial flowering shrub, member of the legume or pea family, native to Europe and the UK. Grows in meadows and heathland and propagates itself through pea-like seedpods. Symbolizes humility and neatness in floriography, because of its association with the housekeeping implement. In the Fourth Branch of the Mabinogi, the tale of Math son of Mathonwy, Blodeuwedd is the name of a woman made from the flowers of broom, meadowsweet and the oak by Math fab Mathonwy and Gwydion to be the wife of Lleu Llaw Gyffes. This is a part of Welsh mythology. <q>Sweep the house with blossed broom in May/sweep the head of the household away</q> is a traditional rhyme from Sussex. It was common to include a decorated bundle of broom at weddings. Ashes of broom were used to treat dropsy, and said to tame wild dogs and horses with its smell.</note>
-					<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/broom"/></note>
-				   <note><ptr target="https://species.wikimedia.org/wiki/Cytisus_scoparius"/></note>
-				</item>
-				
-				<item xml:id="furze">
-					<name>furze</name>
-					<name type="species">Ulex europaeus</name>
-					<name type="genus">Ulex</name>
-					<name type="family">Fabaceae</name></item>
-					<note resp="#lmw">A spiny evergreen shrub with scented yellow blooms native to the UK and western Europe. Also called <soCalled>gorse</soCalled> or <soCalled>whin</soCalled>. Flowers from spring into summer. </note>
-					<note><ptr target="https://www.rhs.org.uk/Plants/18575/i-Ulex-europaeus-i/Details"/></note>
-               <note><ptr target="https://species.wikimedia.org/wiki/Ulex_europaeus"/></note>
-				
-					<item xml:id="oxlip">
-						<name>oxlip</name>
-						<name type="species">Primula elatior</name>
-					   <name type="genus">Primula</name>
-					   <name type="family">Primulaceae</name>
-					   <note resp="#lmw">Spring-flowering member of the Primula family related to primroses (P. vulgaris) and cowslips (P. veris); it has a taller stem like the cowslip, and larger flowers like the primrose. Native to continental Europe and Britain. During Mitford's lifetime, naturalists debated how to categorize the varied species of Primula.</note>
-						<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/oxlip/"/></note>
-					   <note><ptr target="https://species.wikimedia.org/wiki/Primula_elatior"/></note>
-					</item>
-					
-               <item xml:id="dahlia">
-						<name>dahlia</name>
-						<name type="genus">Dahlia</name>
-						<name type="family">Asteraceae</name>
-						<note resp="#lmw">Group of tuberous flowering plants, brightly colored and highly variable in size, color, and petal shape. Dahlias are native to Mexico and central America and were first imported into continental Europe in the 1780s and thence to England in the early nineteenth century. The first printed illustration appeared in the <title level="s">Curtis's Botanical Magazine</title> in 1804 and dahlias became fashionable garden flowers in England by the 1820s. In Mitford's time, both single- and double-flowered varieties were propagated, and varieties were largely classified by flower color. Outside their native range, dahlia tubers are susceptible to frost, and must have their tubers dug over winter and replanted, if they are not grown in greenhouses.</note>
-						<note><ptr target="https://books.google.com/books?id=_0sCAAAAYAAJ"/></note>
-						<note><ptr target="https://www.rhs.org.uk/plants/popular/dahlia/growing-guide"/></note>
-						<note><ptr target="https://species.wikimedia.org/wiki/Dahlia_(Asteraceae)"/></note>
-					</item>
-					
-					<item xml:id="honesty">
-						<name>honesty</name>
-						<name><addName>Lunaria annua</addName></name>
-						<name type="genus">Brassicaceae</name>
-						<name type="family">Asteraceae</name>
-						<note resp="#lmw">Bushy flowering garden plant grown primarily for its decorative seed pods, rather than for its flowers. White or violet flowers give way to disc-shaped seedpods, which shed their fleshy outer covering as they ripen to reveal a translucent inner membrane which may persist on the plant through winter. The dried stems and pods are used in flower arranging. The Latin name refers to the moon-shaped seed pods. Common names in many languages refer to the pods' likeness to coins; it is called <soCalled>silver dollar</soCalled> or <soCalled>money plant</soCalled> and other, similar names.</note>
-						<note><ptr target="https://www.rhs.org.uk/Plants/83138/i-Lunaria-annua-i-var-i-albiflora-i-Alba-Variegata-(v)/Details"/></note>
-						<note><ptr target="https://species.wikimedia.org/wiki/Lunaria_annua"/></note>
-					</item>
-				
-				<item xml:id="clematis">
-					<name ref="#clematis">clematis</name>
-					<note resp="#lmw">Mitford likely uses this term to refer to the native British species, C. vitalba, which she refers to elsewhere as <name ref="#VirginsBower">Virgin's Bower</name>. The hybridized garden plant is C. Flammula. In classical Greek and Roman literature, the term is used to refer to what Mitford calls <name ref="#periwinkle">periwinkle</name>, or vinca, an unrelated flowering vine.</note>
-				</item>
-					
-					<item xml:id="VirginsBower">
-						<name>Virgin's Bower</name>
-                  <name type="species">Clematis vitalba</name>
-						<name type="genus">Clematis</name>
-						<name type="family">Ranunculaceae</name>
-					   <name><addName>old man's beard</addName></name>
-					   <name><addName>traveller's joy</addName></name>
-					   <note resp="#slc #lmw">Climbing woody shrub in the clematis family, with panicles of fragrant green-ish white flowers that later develop fluffy seed heads. Native to the UK, common in southern England and in Wales and widely planted elsewhere. Not identical to a New World flower sharing the same common name, C. virginiana.</note>
-					   <note><ptr target="https://species.wikimedia.org/wiki/Clematis_vitalba"/></note>
-						<note><ptr target="https://wildflowerfinder.org.uk/Flowers/V/VirginsBower/VirginsBower.htm"/></note>
-					</item>
-				  
-                        <item xml:id="auricula">
-                            <name>auricula</name>
-                        	<name type="genus">Primula</name>
-                            <name type="species">Primula auricula</name>
-                            <name type="family">Primulaceae</name>
-                           <name><addName>bear's ears</addName></name>
-                           <name><addName>mountain cowslip</addName></name>
-                            <note resp="#tfb #lmw">Wild member of the primrose family, bearing in spring yellow flowerets above a rosette of dark green leaves, native to the mountains of Central Europe. Garden primroses are a hybridized species developed as a cross between P. auricula and P. hirsuta. A popular garden plant in 18th-century Britain.</note></item>
-                            
-                            <item xml:id="hollyhock">
-                                <name>hollyhock</name>
-                               <name type="genus">Alcea</name>
-                               <name type="species">Alcea rosea</name>
-                                     <name type="family">Malvaceae</name>
-                                <note resp="#tfb #lmw">Biennial garden plant featuring many large single or double flowers in pink, red, yellow, or white, on a very tall stem, native to China and southern Europe, and garden-cultivated elsewhere.</note>
-                            </item>
-
-                        		<item xml:id="poppy">
-                        			<name>poppy</name>
-                        		   <name type="species">Papaver rhoeas</name>
-                        		   <name type="genus">Papaver</name>
-                        		   <name type="family">Papaveraceae</name>
-                        		   <name><addName>common poppy</addName></name>
-                        		   <name><addName>corn poppy</addName></name>
-                        		   <name><addName>field poppy</addName></name>
-                        		   <name><addName>Flanders poppy</addName></name>
-                        			<note resp="#lmw">Annual red poppy flower with showy black stamens and hairy stems and buds, native to Eurasia and North Africa, preferring sunny meadows and disturbed ground. Historically considered an agriculatural weed, hence its common name, <soCalled>corn poppy</soCalled>. Also called the <soCalled>Flanders poppy</soCalled> after World War I, for its habit of blooming in ground disturbed by military action and later adopted as a symbol of war remembrance. The opium poppy, P. somniferum, was also known in Britain since the Middle Ages for the medicinal and sleep-inducing qualities of its milky sap and its seeds.</note>
-                        			<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/common-poppy"/></note>
-                        		</item>
-                        		
-                        		<item xml:id="thyme">
-                        			<name>thyme</name>
-                        		   <name type="species">Thymus polytrichus</name>
-                        		   <name type="genus">Thymus</name>
-                        		   <name type="family">Lamiaceae</name>
-                        		   <name><addName>wild thyme</addName></name>
-                        		   <name><addName>creeping thyme</addName></name>
-                        		   <note resp="#lmw">Evergreen ground cover with aromatic leaves and pale purple flowers, native to Western Europe and the UK where it grows on dry banks and in pastures. Not generally used as a pot herb, unlike its relative, garden thyme (thymus vulgaris), which is native to southern Europe and cultivated elsewhere.</note>
-                        			<note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/wild-thyme"/></note>
-                        		</item>
+			
                         	</list>
          </div>
 
