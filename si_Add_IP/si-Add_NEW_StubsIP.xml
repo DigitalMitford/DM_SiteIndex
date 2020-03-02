@@ -173,6 +173,15 @@
          <div type="places">
             <listPlace sortKey="histPlaces">
                
+               <!--Revise Penge Wood to Pingewood (Whitley, Reading-->
+               
+               <place xml:id="Pingewood">
+                  <placeName>Pinge Wood</placeName>
+                  <placeName><addName>Penge Wood</addName></placeName>
+                  <!--<geo>51.424640 -1.006622</geo>-->
+                  
+               </place>
+               
                <place xml:id="Woodcock_Ln">
                   <placeName>Woodcock Lane</placeName>
                   <note><!--Woodcock Lane (Wokingham or Reading?)--></note>
@@ -180,7 +189,8 @@
                
                <place xml:id="Kibes_Ln">
                   <placeName>Kibe's Lane</placeName>
-                  <!--(Kibes)--></place>
+                  <!--<geo>51.415929 -0.994434</geo>-->
+                  <!--(Kibes)--><!--on google maps, spelled Kybe's--></place>
                
                <place xml:id="Ware">
                   <placeName>Ware</placeName>
@@ -333,7 +343,7 @@
             
             <list sortKey="plants">
                
-               <item xmlid="cotton_grass"/>
+               <item xml:id="cotton_grass"/>
                
                <item xml:id="hearts_ease">
                   <name ref="#hearts_ease">heart's-ease</name></item>
@@ -348,7 +358,7 @@
                
                <item xml:id="mignonette"/>
                
-               <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, greet Indian-corn, white violets--> -->
+               <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, greet Indian-corn, white violets-->
                
                <item xml:id="celery">celery plant</item><!-- wild celery? -->
                

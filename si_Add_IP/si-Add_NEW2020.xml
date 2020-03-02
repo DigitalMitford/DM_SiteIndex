@@ -1970,53 +1970,46 @@
                   <note><ptr target="species.wikimedia.org/wiki/Malus_domestica"/></note>
                </item> 
                
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               <item xml:id="currant_bl"><!--LMW:  change id, remove hyphen-->
+               <item xml:id="currant_bl">
                   <name>black currant</name>
                   <name type="genus">Ribes</name>
                   <name type="species">Ribes nigrum</name>
                   <name type="family">Grossulariaceae</name>
-                  <note resp="#qar #lmw">Blackcurrant</note>
+                  <note resp="#qar #lmw">blackcurrant</note>
+                  <note resp="#lmw">Woody shrub native to northern Eurasia, grown for its fruit. Inconspicuous green-yellow flower clusters develop into clusters of purple-black edible fruit. The fruit is used to make juices, syrups, and cordials, jams and jellies, and desserts. Members of the <name ref="#gooseberry">gooseberries</name> family, related to <name ref="#currant_red">redcurrants</name>, but with slightly sweeter fruit.</note>
                   <note><ptr target="https://www.rhs.org.uk/advice/grow-your-own/fruit/blackcurrants"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Ribes_nigrum"/></note>
                </item>
                
-               <item xml:id="currant_red"><!--LMW:  change id, remove hyphen-->
-                  <name>black currant</name>
+               <item xml:id="currant_red">
+                  <name>redcurrant</name>
                   <name type="genus">Ribes</name>
                   <name type="species">Ribes rubrum</name>
                   <name type="family">Grossulariaceae</name>
-                  <note resp="#qar #lmw">Redcurrant</note>
-                  <note><ptr target="https://www.rhs.org.uk/advice/grow-your-own/fruit/blackcurrants"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Ribes_nigrum"/></note>
+                  <note resp="#qar #lmw">redcurrant</note>
+                  <note resp="#lmw">Woody shrub native to northern Eurasia, grown for its fruit. Inconspicuous green-yellow flower clusters develop into clusters of bright red, translucent edible fruit. The fruit is used to make juices, syrups, and cordials, jams and jellies, and desserts. Members of the <name ref="#gooseberry">gooseberries</name> family, related to <name ref="#currant_bl">blackcurrants</name>, but with slightly more tart fruit.</note>
+                  <note><ptr target="https://www.rhs.org.uk/advice/grow-your-own/fruit/redcurrants"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Ribes_rubrum"/></note>
                </item>
                
-               <item xml:id="gooseberry-tree">
+               <item xml:id="gooseberry">
                   <name>Gooseberry</name>
+                  <name type="species">Ribes grossularia</name>
                   <name type="genus">Ribes</name>
-                  <name type="species">Ribes uva-cripsa</name>
                   <name type="family">Grossulariaceae</name>
+                  <note resp="#qar #lmw">Woody shrub bearing spiny stems, native to Eurasia and North Africa, grown for its fruit. Inconspicuous green-yellow flowers on short stems develop into clusters of one to three bright green translucent edible fruit. Naturalized in coppices and hedgerows, as well as cultivated. Naturalists debate whether it is native to the UK or imported and naturalized before the 16th century.</note>
                   <name><ptr target="https://www.woodlandtrust.org.uk/blog/2018/11/winter-berries/"/></name>
                   <name><ptr target="https://species.wikimedia.org/wiki/Ribes_uva-crispa"/></name>
-                  <note resp="#qar #lmw">In floriography, signifies anticipation.</note></item>
+                  </item>
                
-               <item xml:id="willow"><!-- many kinds -->
+               <item xml:id="willow">
                   <name>willow</name>
                   <name type="genus">Salix</name>
-                  <name type="species">Salix alba</name>
                   <name type="family">Salicaceae</name>
-                  <note resp="#qar">The leaves and bark of the willow tree has been mentioned as a remedy for aches and fever in ancient texts from Assyria, Sumer and Egypt. Hippocrates mentioned this  plant for its medicinial properties, and the Native Americans also used willow for a staple in medical treatments. In 1763, Reverend Edward Stone in England notified the Royal Society of his findings that the willow had medicinal properties. In 1828, Henri Leroux, a French pharmacist, and Raffaele Piria, an Italiam chemist, isolated the bark extract, called salicin, into a crystalline form and separated into a pure state.</note> </item>
+                  <note resp="#qar #lmw">Group of more than 400 species of willow, ranging in size from shrubs to large trees with slender grey-green leaves and thin branches, some with a drooping habit. Flowers are pendulous yellow-green catkins that develop tiny seeds enclosed in white down. Common in riparian areas and wet woodlands, found with <name ref="#ash">ash</name> and <name ref="#birch_weep">birch</name>. Several varieties are native to the UK, including bay willow, as well as goat willow and grey willow, both also called pussy willow. Others are naturalized and common, including white willow, crack willow and osier willow. The wood is strong and light, used to make cricket bats; and the thin branches used in basket making. Charcoal from the wood has been used to manufacture gunpowder, and the bark used for tanning leather. The bark contains salicin, and asprin-like substance long used to treat pain and fever, and studied systematically for its medicinal properties during Mitford's lifetime. Symbolic of grief and mourning; <q>To wear the willow</q> is proverbial for mourning, and weeping willow imagery was common on gravestones and other funerary art, and in mourning jewelry and arts, where, during Mitford's lifetime, willows appear with urns, broken plinths, and drooping human figures.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Salix"/></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/habitats/wet-woodland/"/></note>
+               </item>
                
                <item xml:id="ash">
                   <name>ash</name>
@@ -2025,21 +2018,23 @@
                   <name type="family">Oleaceae</name>
                   <name><addName>common ash</addName></name>
                   <name><addName>European ash</addName></name>
+                  <note resp="#lmw">Deciduous tree with compound leaves, black leaf buds, inconspicuous purple-red flower clusters, and large and conspicuous winged seeds. Native to Eurasia, North Africa, and the UK. One of the most common trees in the UK, often found with <name ref="#oak">oak</name> and <name ref="#elm">elm</name>, although it has been affected recently by <soCalled>ash dieback</soCalled>. A tough hardwood with a straight grain, used for making furniture as well as tool handles, hockey sticks, walking sticks, and oars. Also used to make the bodies of carriages and early motor cars.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/ash/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Fraxinus_excelsior"/></note>
                </item>
-               
+
                <item xml:id="cherry_wild">
                   <name>wild cherry</name>
                   <name type="species">Prunus avium</name>
                   <name type="genus">Prunus</name>
                   <name type="family">Rosaceae</name>
-                  <note resp="#lmw"></note>
+                  <name><addName>sweet cherry</addName></name>
+                  <note resp="#lmw">Deciduous hardwood fruit tree, native to Eurasia and the UK. Deeply veined oval leaves with pink-white flower clusters that develop bright red fruit clusters, which are actually a sweet pulpy drupe with a seed. A valuable reddish hardwood much used in furniture and musical instrument making in the 18th and 19th century. The fruit is used in making jellies and jams, syrups and cordials, and desserts. As color descriptor, often associated with women's beauty, as in <q>cherry-cheeked</q> or <q>cherry-lipped</q>. </note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/wild-cherry/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Prunus_avium"/></note>
                </item>
                
-               <item xml:id="bird_cherry">
+               <item xml:id="cherry_bird">
                   <name>bird-cherry</name>
                   <name type="species">Prunus padus</name>
                   <name type="genus">Prunus</name>
@@ -2047,7 +2042,7 @@
                   <name><addName>hackberry</addName></name>
                   <name><addName>hagberry</addName></name>
                   <name><addName>Mayday tree</addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Large deciduous shrub native to Eurasia and the UK, smaller than the <name ref="#cherry_wild">wild cherry</name> and with fruit that is more tart and oval leaves that are less tart. Carries white flower clusters that develop into black fruits. Few European culinary uses, although the tree is planted as a flowering garden ornamental.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/bird-cherry/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Prunus_padus"/></note>
                </item>
@@ -2058,7 +2053,7 @@
                   <name type="genus">Syringa</name>
                   <name type="family">Oleaceae</name>
                   <name><addName>common lilac</addName></name>
-                  <note resp="#lmw">Native to the Balkan Peninsula<!-- non native --></note>
+                  <note resp="#lmw">Large flowering shurb native to the Balkan Peninsula, introduced as a garden plant and sometimes naturalized elsewhere, including in the UK. Fragrant lavendar, purple or white tube-shaped flowerets are arranged in large, showy panicles.</note>
                   <note><ptr target="https://www.rhs.org.uk/Plants/99011/Syringa-vulgaris/Details"/></note>
                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/lilac"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Syringa_vulgaris"/></note>
@@ -2066,11 +2061,12 @@
                
                <item xml:id="syringa">
                   <name>syringa</name>
-                  <name type="species">Philadelphus coronarius </name>
+                  <name type="species">Philadelphus coronarius</name>
                   <name type="genus">Philadelphus</name>
                   <name type="family">Hydrangeaceae</name>
-                  <name><addName>Mock orange</addName></name>
-                  <note resp="#lmw">native to southern Europe
+                  <name><addName>sweet mock-orange</addName></name>
+                  <name><addName>English dogwood</addName></name>
+                  <note resp="#lmw">Flowering shrub in the hydrangea family, native to southern Europe and cultivated elsewhere as a garden specimen. Carries fragrant, showy bowl-shaped white flowers.
                   </note>
                   <note><ptr target="https://www.rhs.org.uk/plants/popular/philadelphus"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Philadelphus_coronarius"/></note>
@@ -2081,7 +2077,9 @@
                   <name type="species">Sambucus nigra</name>
                   <name type="genus">Sambucus</name>
                   <name type="family">Adoxaceae</name>
-                  <note resp="#lmw">elderberry, elderflower, edible uses</note>
+                  <name><addName>elderberry</addName></name>
+                  <name><addName>black elder</addName></name>
+                  <note resp="#lmw">Large leafy shrub that develops umbrels of small white flowers and then tiny purple-black fruits. Native to Europe and North America, prefers hedgerows and scrubland. Both the flowers and the fruit are edible and prized for making wine and cordial. Elderberries are also used to make jellies and jam, as well as desserts.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/elder/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Sambucus_nigra"/></note>
                </item>
@@ -2091,9 +2089,8 @@
                   <name type="species">Cornus sanguinea</name>
                   <name type="genus">Cornus</name>
                   <name type="family">Cornaceae</name>
-                  <note resp="#lmw"></note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/dogwood/"/></note>	
-                  <note><ptr target="https://species.wikimedia.org/wiki/Cornus_sanguinea"/></note>
+                  <note resp="#lmw">Woody flowering shrub which develops reddish stems in winter and carries clusters of small four-petaled white flowerets that develop black berries. Native to Eurasia, including the UK. Grows at the edges of woodlands and waterways. The fruits are valuable to wildlke, but not eaten by humans. The bark contains tannins used in leather tanning and for medicinal use. Historically the smooth, fine-grained wood was used for skewers, spindles, toothpicks, and other small domestic implements.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/dogwood/"/></note>	 <note><ptr target="https://species.wikimedia.org/wiki/Cornus_sanguinea"/></note>
                </item>
                
                <item xml:id="Portugal_laurel">
@@ -2102,7 +2099,7 @@
                   <name type="species">Prunus</name>
                   <name><addName>Portugese laurel</addName></name>
                   <name><addName>cherry bay</addName></name>
-                  <note resp="#lmw">Large flowering evergreen shrub</note>
+                  <note resp="#lmw">Large flowering evergreen shrub in the cherry family, native to southwest Europe and naturalized elswhere, including in the UK. Carries racemes of tiny white flowers that develop into reddish-purple fruit clusters. The leaves are toxic and the fruits are generally eaten only by wildlife.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/14003/Prunus-lusitanica/Details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Prunus_lusitanica"/></note>
                </item>
@@ -2115,7 +2112,7 @@
                   <name><addName>common laburnum</addName></name>
                   <name><addName>golden rain</addName></name>
                   <name><addName>golden chain</addName></name>
-                  <note resp="#lmw">Small tree with pendulous yellow flower clusters. Non-native, introduced 16th c. or <!--Laburnum alpinum--></note>
+                  <note resp="#lmw">Small tree with pendulous yellow flower clusters. Non-native, introduced 16th c. or</note>
                   <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/common-laburnum"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Laburnum"/></note>
                </item>
