@@ -7,7 +7,7 @@
             <titleStmt>
                <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
                <author>Digital Mitford Editors</author>
-                <editor><!--Add your name here! And add an @ref attribute to <editor>, pointing to your xml:id in the si.xml--> </editor>
+                <editor><persName ref="#lmw">Lisa M. Wilson</persName></editor>
                <sponsor>
                   <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
                </sponsor>
@@ -16,6 +16,7 @@
                <respStmt>
                   <resp>Data extraction and compiling by</resp>
                   <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+                  <persName ref="#lmw">Lisa M. Wilson</persName>
                </respStmt>
                <respStmt>
                   <resp>Proofing and corrections by</resp>
@@ -26,8 +27,7 @@
                <edition> </edition>
             </editionStmt>
             <publicationStmt>
-               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
-               <pubPlace>Greensburg, PA, USA</pubPlace>
+               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace>
                <date>2013</date>
                <availability>
                   <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
@@ -38,8 +38,7 @@
                <note>Any special notes on this text? (optional)</note>
             </notesStmt>
             <sourceDesc>
-               <p>Information on named entities in this file has been extracted from files in the
-                  Digital Mitford Archive.</p>
+               <p>Information on named entities in this file has been extracted from files in the Digital Mitford Archive.</p>
             </sourceDesc>
          </fileDesc>
          <encodingDesc>
@@ -107,7 +106,7 @@
           </listPerson>
        </div>
          
-       <div type="historical_people"><!--Section ontains "real" historical people and named pets; and organizations/groups of people.-->
+       <div type="historical_people">
           <listOrg sortKey="histOrgs">
              <org xml:id="Parfitt_family"><!--LMW stub. update to add specific people in the family once we confirm-->
                 <orgName>the Parfitt family</orgName>
@@ -117,12 +116,25 @@
              <org xml:id="Whigs"><!--stub. Needs a note, similar to note for Tory. LMW needs to write.-->
                 <orgName>the Whig party</orgName>
                 <orgName>Whigs</orgName>
-             
              <note resp="#lmw">In Mitford's lifetime, the Whigs developed into a formalized political party under the leadership of Charles James Fox, standing in opposition to the <orgName ref="#Tory"></orgName></note>
              </org>
           </listOrg>
           
           <listPerson sortKey="histPersons">
+             <person xml:id="Aesop" sex="m">
+                <persName>Aesop</persName>
+                <persName><addName>Æsop</addName></persName>
+                <birth notBefore="-0620">
+                   <placeName>Thrace</placeName>
+                </birth>
+                <death notAfter="-0564">
+                   <placeName>Delphi, Greece</placeName>
+                </death>
+                <occupation type="literary"/>
+                <note resp="#lmw">Ancient-world storyteller and purported author of Greek fables and tales. Mentioned by Aristotle, Herodotus, and Plutarch, although those accounts are likely fictionalized.</note>
+                <note><ptr target="http://viaf.org/viaf/64013451"/></note>
+             </person>
+             
              <person xml:id="Sweet_Rbt" sex="m">
                 <persName>Robert Sweet</persName>
                 <persName>
@@ -131,9 +143,10 @@
                 </persName>
                 <birth when="1783"/>
                 <death when="1835-01-20"/>
-                <occupation type="trade" subtype="gardener"/>
+                <occupation type="service" subtype="gardener"/>
                 <occupation type="scholar" subtype="naturalist"/>
-                <note resp="#lmw">Plant breeder, horticulturalist, ornithologist, and author of several important illustrated catalogs of wild and cultivated flowering plants during the 1820s. He worked with illustrator Edwin Dalton Smith (1800–1883) of Kew Gardens.</note> <note> <ptr target="https://catalog.hathitrust.org/Record/011570305"/></note>
+                <note resp="#lmw">Plant breeder, horticulturalist, ornithologist, and author of several important illustrated catalogs of wild and cultivated flowering plants during the 1820s. He worked with illustrator Edwin Dalton Smith (1800–1883) of Kew Gardens.</note>
+                <note> <ptr target="https://catalog.hathitrust.org/Record/011570305"/></note>
              </person>
              
 <person xml:id="Pleydell_B" sex="m">
@@ -149,6 +162,7 @@
    <occupation type="legal"/>
    <occupation type="government" subtype="politician"/>
             <note resp="#lmw">Member of Parliament for Downton and Salisbury and local dignitary who served as Deputy-Lieutenance of Berkshire, Chairman of Berkshire Quarter Sessions, and lieutenant colonel of the Berkshire Regiment during Mitford's lifetime.</note>
+   <note><ptr target="http://viaf.org/viaf/43371695"/></note>
              </person>
 
              <person xml:id="Jane" sex="f">
@@ -260,7 +274,7 @@
                 </persName>
                 <birth when="1780"/>
                 <death when="1872">
-                   <placeName>Babington, Somersetshire</placeName>
+                   <placeName>Babington, Somersetshire, England</placeName>
                 </death>
                 <occupation type="religious" subtype="clergy"/>
                 <!--1780-1872 Alum of Reading School and Trinity College Cambridge, rector of Babington in Somerset, 1810-1872 --> <!--UNMARRIED, so not Mr. and Mrs. Jolliffe-->
@@ -294,8 +308,8 @@
              <person xml:id="Stevenson_Em" sex="f">
                 <persName>Emily Stevenson</persName>
                 <persName>
-                   <surname>Stevenson</surname>
-                   <forename type="paternal">Emily</forename>
+                   <surname type="paternal">Stevenson</surname>
+                   <forename>Emily</forename>
                    <roleName>Miss</roleName>
                 </persName>
                 <note resp="#lmw"><!--daughter of Mr. Stevenson?--></note>
@@ -328,7 +342,7 @@
              </person>
              
              <person xml:id="Valpy_Sarah" sex="f">
-                <persName>Sarah Frances Valpy Shuter</persName>
+                <persName>Sarah Frances {Fanny} Valpy Shuter</persName>
                 <persName>
                    <surname type="paternal">Valpy</surname>
                    <surname type="married">Shuter</surname>
@@ -380,7 +394,7 @@
                 <death when="1878">
                    <placeName>Blagdon, Somerset, England</placeName>
                 </death>
-                <note resp="#lmw">Spouse of <persName ref="#Valpy_Ant">Anthony Valpy</persName>, married on <date when="1818-12-15">15 December 1818</date> at <placeName>St. Giles Church, Reading</placeName>. A frequent visitor at the Mitford's early in their marriage, they afterward settled in <placeName>Blagdon, Somerset</placeName> They had four children. Her parents were Quakers.</note>
+                <note resp="#lmw">Spouse of <persName ref="#Valpy_Ant">Anthony Valpy</persName>, married on <date when="1818-12-15">15 December 1818</date> at <placeName>St. Giles Church, Reading</placeName>. A frequent visitor at the Mitford's early in their marriage, they afterward settled in <placeName>Blagdon, Somerset</placeName>. They had four children. Her parents were Quakers.</note>
              </person>
              
              <person xml:id="Valpy_Ant" sex="m">
@@ -430,9 +444,9 @@
                 </death>
                 <occupation type="military" subtype="navy"/>
                 <occupation type="medical" subtype="surgeon"/>
-                <note resp="#lmw">Dr. Harness was a naval surgeon, father of <persName ref="#Harness_Wm">William Harness</persName>. Dr. Harness was friend of the <orgName ref="#Mitfords">Mitfords</orgName> before their marraige and Dr. Harness gave away <persName ref="#Russell_M">Mary Russell</persName> at her marriage to <persName ref="#Mitford_Geo">George Mitford</persName>. Although Dr. Harness spent much of his career at naval outposts and in London, the family lived in Watlington when William was a child. He served as Physician to the Fleet under Admiral Hood in the Mediterranean, as Chairman and Medical Commissioner of the Sick and Wounded Board in London, Medical Commissioner of His Majesty's Navy. He was instrumental in promoting measures to prevent scurvy in British seamen and advocated for better treatment of naval surgeons.</note>
+                <note resp="#lmw">Naval surgeon, father of <persName ref="#Harness_Wm">William Harness</persName>. Dr. Harness was friend of the <orgName ref="#Mitfords">Mitfords</orgName> before their marriage and Dr. Harness gave away <persName ref="#Russell_M">Mary Russell</persName> at her marriage to <persName ref="#Mitford_Geo">George Mitford</persName>. Although Dr. Harness spent much of his career at naval outposts and in London, the family lived in Watlington when William was a child. He served as Physician to the Fleet under Admiral Hood in the Mediterranean, as Chairman and Medical Commissioner of the Sick and Wounded Board in London, Medical Commissioner of His Majesty's Navy. He was instrumental in promoting measures to prevent scurvy in British seamen and advocated for better treatment of naval surgeons.</note>
                 <note><ptr target="http://viaf.org/viaf/315953110"/></note>
-                <note><ptr target="https://collections.rmg.co.uk/collections/objects/42027.html"/><!--miniature portrait of Dr. H.--></note>
+                <note><ptr target="https://collections.rmg.co.uk/collections/objects/42027.html"/><!--LMW: link to miniature portrait of Dr. H.--></note>
              </person>
               
              <person xml:id="Harness_Wm" sex="m"><!--LMW: revised 2020-01-01-->
@@ -514,7 +528,7 @@
                    <placeName>Pieve di Cadore, Italy</placeName>
                 </birth>
                 <death when="1576-08-27">
-                   <placeName>Venice, Italy </placeName>
+                   <placeName>Venice, Italy</placeName>
                 </death>
                 <occupation type="artist" subtype="painter"/>
                 <note resp="#lmw">16th-century Italian painter, based in Venice, with an international clientele. Painted frescoes, portraits, and public religious paintings. Worked in styles ranging from mannerism to magic impressionism.</note>
@@ -541,7 +555,7 @@
                 <occupation type="scholar" subtype="philosopher"/>
                 <occupation type="government" subtype="politician"/>
                 <occupation type="educator"/>
-                   <note resp="#lmw">18th-century French philosopher, novelist, and memoirist, whose political philosophy regarding the social contract, inequality, and individual human rights were influential throughout Europe and shaped the <rs type="event" ref="#French_Revol">French Revolution</rs>. His fiction and autobiographical writings influenced the literature of sensibility and the development of Romanticism. </note> 
+                   <note resp="#lmw">18th-century French philosopher, novelist, and memoirist, whose political philosophy regarding the social contract, inequality, and individual human rights were influential throughout Europe and shaped the <rs type="event" ref="#French_Revol">French Revolution</rs>. His fiction and autobiographical writings influenced the literature of sensibility and the development of Romanticism.</note> 
                 <note>
                    <ref target="http://viaf.org/viaf/10018405"/>
                 </note>
@@ -611,18 +625,14 @@
                 <occupation type="literary"/>
                 <occupation type="literary" subtype="poet"/>
                 <occupation type="literary" subtype="playwright"/>
-                <note resp="#ebb">Victorian poet, married to <persName ref="#Barrett_E">Elizabeth
-                   Barrett Browning</persName>. Important philsopher-poet and practitioner of
-                   the dramatic monologue poetic form. His early poetry was influnced by <persName
-                      ref="#Shelley_PB">Percy Bysshe Shelley</persName>.</note>
+                <note resp="#ebb">Victorian poet, married to <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>. Important philsopher-poet and practitioner of the dramatic monologue poetic form. His early poetry was influnced by <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName>.</note>
                 <note>
                    <ref target="http://viaf.org/viaf/24598774"/>
                 </note>
              </person>
-             <person xml:id="Bronte_E" sex="f"><!--stub, LMW to write a better note.-->
-                <persName>Emily Brontë</persName>
+             <person xml:id="Bronte_E" sex="f"><!--stub, LMW to write a better note.-->               <persName>Emily Brontë</persName>
                 <persName>
-                   <surname>Brontë</surname>
+                   <surname type="paternal">Brontë</surname>
                    <forename>Emily</forename>
                    <forename>Jane</forename>
                 </persName>
@@ -648,6 +658,7 @@
                 </persName>
                 <birth notAfter="1760-12-04"/>
                 <death when="1829-10-10"/>
+                <occupation type="government" subtype="politician"/>
                 <note resp="#lmw">Heir to his father's property at Coley Park, Berkshire and at Weston Grove, Hampshire. He served as Member of Parliament for Christchurch from 31 May 1800 to 1802 and for Southampton from 7 March 1818 until his death on 10 October 1829; he campaigned on a radical reform platform. Mitford dedicated her 1827 poem collection,<title ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title> to him.<!--LMW: no VIAF #.--></note>
                 <note><ptr target="http://www.historyofparliamentonline.org/volume/1790-1820/member/chamberlayne-william-1760-1829"/></note>
              </person> 
@@ -664,7 +675,7 @@
                 <death when="1819-10-20">
                    <placeName>Lisbon, Portugal</placeName>
                 </death>
-                <note resp="#lmw">A friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName> in 1819. The 6th daughter of George Ramsay of Edinburgh (1769-1810). Dedicatee of Mitford's <title ref="#FriendToLisbon_1827">On the Departure of a Friend to Lisbon for the Recovery of Her Health.</title> <persName ref="#James_Emily">Emily James</persName> accompanied her to Lisbon before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note><!--LMW: no VIAF #.-->
+                <note resp="#lmw">A friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName> in 1819. The 6th daughter of George Ramsay of Edinburgh (1769-1810). <persName ref="#James_Emily">Emily James</persName> accompanied her to <placeName ref="#Lisbon_city">Lisbon</placeName> before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note><!--LMW: no VIAF #.-->
              </person> 
              
              <person xml:id="Antinous" sex="m">
@@ -725,18 +736,18 @@
                <org xml:id="Muses">
                   <orgName>the Muses</orgName>
                   <orgName>the nine Muses</orgName>
-                  <note resp="#lmw">In Greek (and later Roman) mythology, the nine goddesses who live on Mount Helicon and inspire mortals to create. Although in some traditions there were only three Muses, by the Hellenistic period, the accepted number was nine and they were believed to be led by Apollo. By the neoclassical period, emblem books, sculpture, and painting had standardized the depictions of the goddesses: Calliope (epic poetry) carries a writing tablet and stylus or a lyre; Clio (history) carries a scroll or books; Euterpe (lyric poetry and song) carries a flute (the aulos); Erato (erotic/love poetry) carries a lyre or cithera or a crown of roses; Melpomene (tragedy) is seen with a tragic mask; Polyhymnia (sacred poetry) is depicted veiled or with a pensive expression; Terpsichore (choral song and dance) is depicted dancing or with a lyre; Thalia (comedy) is seen with a comic mask or shepherd's crook; and Urania (astronomy) carries compasses and a celestial globe.</note>
+                  <note resp="#lmw">In Greek (and later Roman) mythology, the nine goddesses who live on Mount Helicon and inspire mortals to create. Although in some traditions there were only three Muses, by the Hellenistic period, nine was the accepted number, and they were believed to be led by Apollo. By the neoclassical period, emblem books, sculpture, and painting had standardized the depictions of the goddesses: Calliope (epic poetry) carries a writing tablet and stylus or a lyre; Clio (history) carries a scroll or books; Euterpe (lyric poetry and song) carries a flute (the aulos); Erato (erotic/love poetry) carries a lyre or cithera or a crown of roses; Melpomene (tragedy) is seen with a tragic mask; Polyhymnia (sacred poetry) is depicted veiled or with a pensive expression; Terpsichore (choral song and dance) is depicted dancing or with a lyre; Thalia (comedy) is seen with a comic mask or shepherd's crook; and Urania (astronomy) carries compasses and a celestial globe.</note>
                </org>
             </listOrg>
           <listPerson sortKey="archPersons">  
              <person xml:id="Alcestis" sex="f">
                 <persName>Alcestis</persName>
-                <note resp="#lmw">A princess in Greek mythology known for her loyalty to her husband and for returning from the dead. She married King Admetus after he achieves the feat of yoking a lion and a boar (or bear, in some versions) to a chariot. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of snakes. He escapes death when Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living. She is the titular character of a play by Euripides and was the subject of a painting by Angelica Kauffman.</note>
+                <note resp="#lmw">A princess in Greek mythology known for her loyalty to her husband and for returning from the dead. She married King Admetus after he achieves the feat of yoking a lion and a boar (or bear, in some versions) to a chariot. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of deadly snakes. He escapes death when Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living. She is the titular character of a play by Euripides and was the subject of a painting by Angelica Kauffman.</note>
              </person>
              
              <person xml:id="Admetus" sex="m">
                 <persName>Admetus</persName>
-                <note resp="#lmw">A king in Greek mythology, he wins the princess Alcestis by achieving the feat of yoking a lion and a boar (or bear, in some versions) to a chariot with the help of Apollo. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of snakes. He escapes death when his wife Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living.</note>
+                <note resp="#lmw">A king in Greek mythology, he wins the princess Alcestis by achieving the feat of yoking a lion and a boar (or bear, in some versions) to a chariot with the help of Apollo. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of deadly snakes. He escapes death when his wife Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living.</note>
              </person>
              
              <person xml:id="Apollo" sex="m">
@@ -756,7 +767,7 @@
              
              <person xml:id="Niobe" sex="f">
                 <persName>Niobe</persName>
-                <note resp="#lmw #slc">Greek mythological figure who boasted of her fourteen children, (called the Niobids). As a punishment for her boastfulness, Artemis killed all but one of her children. Became proverbial for tears and extreme sorrow, particularly maternal grief.</note>
+                <note resp="#lmw #slc">Greek mythological figure who boasted of her fourteen children, (called the Niobids). As a punishment for her boastfulness, Artemis killed all but one of her children. Became emblematic of tears and extreme sorrow, particularly maternal grief.</note>
              </person>
           </listPerson>
              
@@ -768,12 +779,12 @@
                
                <person xml:id="Blondel_fict" sex="m">
                   <persName>Blondel</persName>
-                  <note resp="#lmw">Fictional character loosely based on a 13th-century French trouvére or troubador, either Jean I of Nesle (died 1202) or his son Jean II of Nesle (died 1241), associated with more than twenty courtly songs attributed to <soCalled>Blondel de Nesle</soCalled>. In the <title level="m">Récits d'un Ménestrel de Reims</title>, Blondel is a mythologized minstrel character who rescues an equally mythologized <persName ref="#RichardI">Richard I</persName> from prison through his songs. Blondel's story became popularized in the late eighteenth century and formed the basis for an opera as well as for Eleanor Porden's <title ref="#Coeur_de_Lion_poem">Coeur de Lion</title>, in which Blondel turns out to be Richard's wife <persName ref="#Berengaria">Berengaria</persName> in disguise.</note><!--LMW: late 18th c. English language source? Ck. with EBB.  Sir James Bland Burges, Richard the first, a poem: in eighteen books (1801)?-->
+                  <note resp="#lmw">Fictional character loosely based on a 13th-century French trouvére or troubador, either Jean I of Nesle (died 1202) or his son Jean II of Nesle (died 1241), associated with the more than twenty courtly songs attributed to <soCalled>Blondel de Nesle</soCalled>. In the <title level="m">Récits d'un Ménestrel de Reims</title>, Blondel is a mythologized minstrel character who rescues an equally mythologized <persName ref="#RichardI">Richard I</persName> from prison through his songs. Blondel's story became popularized in the late eighteenth century and formed the basis for an opera as well as for Eleanor Porden's <title ref="#Coeur_de_Lion_poem">Coeur de Lion</title>, in which Blondel turns out to be Richard's wife <persName ref="#Berengaria">Berengaria</persName> in disguise.</note><!--LMW: Mitford's late 18th c. English language source? Ck. with EBB.  Sir James Bland Burges, Richard the first, a poem: in eighteen books (1801)?-->
                </person>
                
                <person xml:id="Marygold_pet_OV" sex="f">
                   <persName>Marygold</persName>
-                  <note resp="#lmw">Fictional pet dog in <title level="a">Tom Cordery</title></note>
+                  <note resp="#lmw">Fictional pet dog in <title level="a">Tom Cordery</title>.</note>
                </person>
                
                <person xml:id="Viper_pet_OV" sex="m">
@@ -781,7 +792,7 @@
                   <note resp="#sbb"><persName>Mr. Sidney</persName>'s pet terrier in <title level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
                </person>
                
-               <person xml:id="Admetus_char">
+               <person xml:id="Admetus_char" sex="m">
                   <persName>Admetus</persName>
                   <note resp="#lmw">Character in <title ref="#Alcestis_play">Alcestis</title> by <persName ref="#Euripides">Euripides</persName>.
                   </note>
@@ -831,7 +842,7 @@
                   <location>
                      <geo>47.333333 13.333333</geo>
                   </location>
-                  <note resp="#lmw">Country in Central Europe, currently the Republic of Austria, made up of nine federated states, whose capital is Vienna. From the 16th century, a center of the Habsburg monarchy and an archduchy and center of the Holy Roman Empire. In the early 19th century, Austria established itself as an empire and a leading power in the German Confederation.</note>
+                  <note resp="#lmw">Country in central Europe, now the Republic of Austria, made up of nine federated states, whose capital is Vienna. From the 16th century, a center of the Habsburg monarchy and an archduchy and center of the Holy Roman Empire. In the early 19th century, Austria established itself as an empire and a leading power in the German Confederation.</note>
                </place>
                
                <place xml:id="Englefield_House">
@@ -853,7 +864,7 @@
                   <region>Tilehurst</region>
                   <region>Berkshire</region>
                   <country>England</country>
-                  <note resp="#lmw #slc">Anglican church built to replace a modest brick chapel built by clergyman Dr. Sheppard, who held the living of the entire parish of Tilehurst. Church, rectory, and school built in memory of Dr. Sheppard by his wife Sophia Routh Sheppard and her brother Martin Routh. Building began shortly after Dr. Sheppard's death in 1814, but the church was not completed and consecreated until <date when="1832-08-21">August 21, 1832</date>, although Mitford speaks of the <q>new church</q> in 1827. </note>
+                  <note resp="#lmw #slc">Anglican church built to replace a modest brick chapel built by clergyman Dr. Sheppard, who held the living of the entire parish of Tilehurst. Church, rectory, and school built in memory of Dr. Sheppard by his wife Sophia Routh Sheppard and her brother Martin Routh. Building began shortly after Dr. Sheppard's death in 1814, but the church was not completed and consecreated until <date when="1832-08-21">August 21, 1832</date>, although Mitford speaks of the <q>new church</q> in 1827.</note>
                   <note>	
                      <ptr target="http://www.holytrinitytheale.org.uk/content/pages/documents/1491582965.pdf"/></note>
                </place>
@@ -866,7 +877,7 @@
                   <location>
                      <geo>51.437 -1.0776</geo>
                   </location>
-                  <note resp="#lmw">Village and parish near Reading on the River Kennet, later part of the Kennet and Avon Canal. From the 17th century, a coach stop on the road from London to Bath and Bristol. From 1847, a stop on the London to Exeter railway line and from 1852 to 1963, a stop on the Berks and Hants Railway, a subsidiary of the Great Western Railway.</note>
+                  <note resp="#lmw">Village and parish near Reading on the River Kennet, later part of the Kennet and Avon Canal system. From the 17th century, a coach stop on the road from London to Bath and Bristol. From 1847, a stop on the London to Exeter railway line and from 1852 to 1963, a stop on the Berks and Hants Railway, a subsidiary of the Great Western Railway.</note>
                </place>
                
                <place xml:id="Palestine">
@@ -875,7 +886,7 @@
                   <location>
                      <geo>31.6253 35.1453</geo>
                   </location>
-                  <note resp="#lmw">In Mitford's time, refers not to a country, but to the geographic region in Western Asia known as the Land of Israel or Holy Land referred to in the Christian Bible, comprising the present-day state of Israel, the Palestinian territories, and parts of Jordan. Similar names were used in the ancient world, and the region was later the Roman province of Syria Palaestina. It refers to the southern section of broader regional designations such as Canaan or the Levant.</note>					</place>
+                  <note resp="#lmw">In Mitford's time, refers not to a country, but to the geographic region in Western Asia known as the Land of Israel or Holy Land referred to in the Christian Bible, comprising the present-day state of Israel, the Palestinian territories, and parts of Jordan. Similar names were used in the ancient world, and the region was later the Roman province of Syria Palaestina. It also refers to the southern section of broader regional designations such as Canaan or the Levant.</note>					</place>
                
                <place xml:id="Donnington_Castle">
                   <placeName>Donnington Castle, Donnington, Berkshire, England</placeName>
@@ -935,7 +946,7 @@
                   <name type="family">Regulidae</name>
                   <name><addName>golden-crested wren</addName></name>
                   <name><addName>goldcrest</addName></name>
-                  <note resp="#lmw">Tiny olive-green songbird whose head has a distinctive yellow or orange stripe, frequents woodlands and gardens. Called the crested wren in Mitford's time and earlier, this bird is not a member of the wren family, but from the family of kinglets and firecrests. Despite its tiny size, considered the <soCalled>king of the birds</soCalled> in European folklore.</note>
+                  <note resp="#lmw">Tiny olive-green songbird whose head has a distinctive yellow or orange stripe, frequents woodlands and gardens. Called the crested wren in Mitford's time and earlier, although this bird is not a member of the wren family, but is from the family of kinglets and firecrests. Despite its tiny size, considered the <soCalled>king of the birds</soCalled> in European folklore.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/goldcrest/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Regulus_regulus"/></note>
                </item>
@@ -965,19 +976,18 @@
                   <name type="species">Corvus frugilegus</name>
                   <name type="genus">Corvus</name>
                   <name type="family">Corvidae</name>
-                  <note resp="#lmw">Large member of the crow family, with a distinctive light-colored bill and featherless area on the face; roosts at the tops of trees in large social groups. Historically, British farmers have considered them nuisances, as they forage in agricultural fields and elsewhere for seeds as well as ground-based insects like grubs.</note>
+                  <note resp="#lmw">Large member of the crow family, with a distinctive light-colored bill and featherless area on the face; roosts at the tops of trees in large social groups. Historically, British farmers have considered them nuisances, as they make holes while foraging in agricultural fields and elsewhere for seeds and ground-based insects like grubs.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/rook/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Corvus_frugilegus"/></note>
                </item>
                
                <item xml:id="cuckoo">
-                  <name>cuckoo</name>
+                  <name>common cuckoo</name>
                   <name type="species">Cuculus canorus</name>
                   <name type="genus">Cuculus</name>
                   <name type="family">Cuculidae</name>
-                  <name><addName>common cuckoo</addName></name>
                   <name><addName>European cuckoo</addName></name>
-                  <note resp="#lmw">Migratory medium-sized blue-gray bird with long tail and wings that arrives in the UK in early spring. They are brood parasites who lay their eggs in the nest of other birds; they became proverbial for usurpers. <persName ref="#Wordsworth_Wm">Wordsworth</persName> published a poem <title level="a">To Cuckoo</title> in 1807</note>
+                  <note resp="#lmw">Migratory medium-sized blue-gray bird with long tail and wings that arrives in the UK in early spring. They are brood parasites who lay their eggs in the nest of other birds; they became proverbial for usurpers. <persName ref="#Wordsworth_Wm">Wordsworth</persName> published a poem <title level="a">To Cuckoo</title> in 1807.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/cuckoo/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Cuculus_canorus"/></note>
                </item>
@@ -989,7 +999,7 @@
                   <name type="family">Hirundinidae</name>
                   <name><addName>barn swallow</addName></name>
                </item>
-               <note resp="#lmw">Bluish-black insect-eating migratory bird with a deeply forked tail, whitish underparts and rufous head markings. The only type of swallow resident in the UK, where it is called the <soCalled>swallow</soCalled>. Writing in 1789, <persName ref="#WhiteGilbert">Gilbert White</persName> notes that it is also called the <soCalled>chimmney swallow</soCalled> in Britain and the <soCalled>barn swallow</soCalled> in Sweden. Nests in manmade structures and frequents open meadows and pastures. Mitford generally uses the term <q>swallow</q>.</note>
+               <note resp="#lmw">Bluish-black insect-eating migratory bird with a deeply forked tail, whitish underparts and rusty red head markings. The only type of swallow resident in the UK, where it is called the <soCalled>swallow</soCalled>. Writing in 1789, <persName ref="#WhiteGilbert">Gilbert White</persName> notes that it is also called the <soCalled>chimmney swallow</soCalled> in Britain and the <soCalled>barn swallow</soCalled> in Sweden and in the Americas. Nests in manmade structures and frequents open meadows and pastures. Mitford generally uses the term <q>swallow</q>.</note>
                <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/swallow/"/></note>
                <note><ptr target="https://species.wikimedia.org/wiki/Hirundinidae"/></note>
                
@@ -999,7 +1009,7 @@
                   <name type="genus">Streptopelia</name>
 					<name type="family">Columbidae</name>
                   <name><addName>European turtle dove</addName></name>
-                  <note resp="#SCR #lmw">Samll, pale brown and gray migratory member of the dove and pigeon family. Once common throughout Europe and the Middle East and wintering in southern Africa, it is now an endangered species in the UK and elsewhere. This bird is known for its mournful voice, and is therefore associated with love and loss. Mentioned in both the Old and New Testaments, in early-modern Europe the bird was mythologized as the partner of the phoenix.</note>
+                  <note resp="#SCR #lmw">Small, pale brown and gray migratory member of the dove and pigeon family. Once common throughout Europe and the Middle East and wintering in southern Africa, it is now an endangered species in the UK and elsewhere. This bird is known for its mournful voice, and is therefore associated with love and loss. Mentioned in both the Old and New Testaments, in early-modern Europe the bird became mythologized as the partner of the phoenix.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/turtle-dove/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Streptopelia_turtur"/></note>
                </item>
@@ -1010,14 +1020,14 @@
                   <name type="genus">Alauda</name>
                   <name type="family">Alaudidae</name>
                   <name><addName>Eurasian skylark</addName></name>
-                  <note resp="#SCR #lmw">Eurasian songbird with gray-brown plumage above and whitish plumage beneath. Famous for its melodius warbling song while in flight, the sky-lark is associated with love and lovers. Percy Shelley's poem <title level="a">To a Skylark</title> appeared in 1820.</note>
+                  <note resp="#SCR #lmw">Eurasian songbird with gray-brown plumage above and whitish plumage beneath. Famous for its melodius warbling song while in flight, and symbolically associated with the passionate enthusiasm of love and lovers. Percy Shelley's poem <title level="a">To a Skylark</title> appeared in 1820.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/skylark/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Alauda_arvensis"/></note>
                </item>
                
                <item xml:id="lark">
                   <name>lark</name>
-                  <note resp="#lmw">In the UK, the lark family includes the <name ref="#woodlark">woodlark</name>, the <name ref="#skylark">skylark</name>, and the <name ref="#shore_lark">shore lark</name>. In Britain, the term <soCalled>lark</soCalled> conventionally refers to the <name ref="#skylark">skylark</name>. Because of its habit of singing early in the morning, proverbial for early rising, and for happiness.</note>
+                  <note resp="#lmw">In the UK, the lark family includes the <name ref="#woodlark">woodlark</name>, the <name ref="#skylark">skylark</name>, and the <name ref="#shore_lark">shore lark</name>. In Britain, the term <soCalled>lark</soCalled> conventionally refers to the <name ref="#skylark">skylark</name>. Because of its habit of singing early in the morning, proverbial for early rising, and symbolic of happiness.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/lark-family/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Alaudidae"/></note>
                </item>
@@ -1058,7 +1068,7 @@
                   <name type="species">Columbidae</name>
                   <name type="genus">Streptopelia</name>
 					<name type="family">Columbidae</name>
-                  <note resp="#lmw">During the 19th century, four types of doves and pigeons were found in Britain: the <name ref="#stock_dove">stock dove</name>, the <name ref="#rock_dove">rock dove</name>, or feral species of the domestic pigeon, and the <name ref="#turtle_dove">turtle dove</name>, as well as the <name ref="#wood_pigeon">wood pigeon</name>. Domesticated pigeons such as carrier, homing, and racing pigeons are species of the rock dove. In Britain, the <name ref="#wood_pigeon">wood pigeon</name> is hunted as a game bird and domesticated pigeons were also used as food. In the ancient world, doves were associated with goddesses of love, sexuality, and maternity, such as Inanna Ishtar and Aphrodite. Doves carry symbolic significance in both the Old and New Testaments of the Hebrew Bible: in Genesis in the story of Noah and the ark as a symbol of peace and deliverance, in the Song of Songs as a term of endearment, and in Matthew as a symbol of the Holy Spirit. Doves were also acceptable burnt offerings and came to symbolize peace in early Christianity. Later literary and artistic references often draw on this association of doves with peace, deliverance, and spiritual gifts, and are representations of the rock dove, which is highly variable in color, ranging from white to shades of grey and pale brown.</note>
+                  <note resp="#lmw">During the 19th century, four types of doves and pigeons were found in Britain: the <name ref="#stock_dove">stock dove</name>, the <name ref="#rock_dove">rock dove</name>, or feral species of the domestic pigeon, and the <name ref="#turtle_dove">turtle dove</name>, as well as the <name ref="#wood_pigeon">wood pigeon</name>. Domesticated pigeons such as carrier, homing, and racing pigeons are species of the rock dove. In Britain, the <name ref="#wood_pigeon">wood pigeon</name> is hunted as a game bird and domesticated pigeons were also used as food. In the ancient world, doves were associated with goddesses of love, sexuality, and maternity, such as Inanna Ishtar and Aphrodite. Doves carry symbolic significance in both the Old and New Testaments of the Hebrew Bible: in Genesis in the story of Noah and the ark as a symbol of peace and deliverance, in the Song of Songs as a term of endearment, and in Matthew as a symbol of the Holy Spirit. Doves were also acceptable burnt offerings and came to symbolize peace in early Christianity. Later literary and artistic references often draw on this association of white doves with peace, deliverance, and spiritual gifts, and are representations of the rock dove, which is highly variable in color, ranging from white to shades of grey and pale brown.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/pigeons-and-doves/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Columbidae"/></note>
                </item>
@@ -1068,7 +1078,7 @@
                   <name type="species">Columba oenas</name>
                   <name type="genus">Columba</name>
                   <name type="family">Columbidae</name>
-                  <note resp="#lmw">Eurasian dove, pale grey above and below with a pinkish neck and iridescent green neck band. More than half of the European stock dove population is located in the UK. Similar in size and shape to the <name ref="#rock_dove">rock dove</name>, but lacking a white rump.</note>
+                  <note resp="#lmw">Eurasian dove, pale grey above and below with a pinkish neck and iridescent green neck band, common in the UK. Similar in size and shape to the <name ref="#rock_dove">rock dove</name>, but lacking a white rump.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/stock-dove/"/></note>
                   <note resp="#lmw"><ptr target="https://species.wikimedia.org/wiki/Columba_oenas"/></note>
                </item>
@@ -1102,7 +1112,7 @@
                   <name type="family">Muscicapidae</name>
                   <name><addName>European robin</addName></name>
                   <name><addName>bobbie</addName></name>
-                  <note resp="#lmw">Small songbird, native to Europe, now considered a type of Old World flycatcher. In Mitford's time, believed to be part of the thrush family, along with nightingales. Not to be confused with the American robin, a new World thrush, and sometimes referred to as an <soCalled>English robin</soCalled> in America. Frequently referenced in British folk tales and popular culture, the bird became associated with the Christmas holiday in the mid-nineteenth century. The bird's name derives from the male forename Robin or Robert, which led to nicknames of <soCalled>Bob</soCalled> and <soCalled>Bobby</soCalled>. Robins in Great Britain are generally less wary of humans than their counterparts in continental Europe. Mitford calls the tame robins she feeds her <q>bobbies</q>.</note>
+                  <note resp="#lmw">Small songbird, native to Europe, now considered a type of Old World flycatcher. In Mitford's time, believed to be part of the thrush family, along with nightingales. Not to be confused with the American robin, a new World thrush, this bird is sometimes referred to as an <soCalled>English robin</soCalled> in North America. Frequently referenced in British folk tales and popular culture, the bird became associated with the Christmas holiday in the mid-nineteenth century. The bird's name derives from the male forename Robin or Robert, which led to nicknames of <soCalled>Bob</soCalled> and <soCalled>Bobby</soCalled>. Robins in Great Britain are generally less wary of humans than their counterparts in continental Europe. Mitford calls the tame robins she feeds her <q>bobbies</q>.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/robin/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Erithacus_rubecula"/></note>
                </item>
@@ -1113,7 +1123,7 @@
                   <name type="genus">Phasianus</name>
                   <name type="family">Phasianidae</name>
                   <name><addName>common pheasant</addName></name>
-                  <note resp="#lmw">Large long-tailed game bird, native to Asia and populations elsewhere naturalized as well as raised for hunting. The males are brightly-colored, with green heads, while the females are drab. Hybridization has bred types in a variety of colors. Pheasants, likely from the Caucasus, were naturalized in Britain by at least 1050 AD, and may have arrived earlier, with the Romans. The ring-necked variety was reintroduced in the 18th century. In the UK, the birds are hunted by traditional driven-shoot methods, employing beaters, and rough shoot methods; both methods rely on gun dogs to flush and retrieve the birds.</note>
+                  <note resp="#lmw">Large long-tailed game bird, native to Asia and with populations elsewhere naturalized as well as raised for hunting. The males are brightly-colored, with green heads, while the females are drab. Hybridization has bred types in a variety of colors. Pheasants, likely from the Caucasus, were naturalized in Britain by at least 1050 AD, and may have arrived earlier, with the Romans. The ring-necked variety was reintroduced in the 18th century. In the UK, the birds are hunted by traditional driven-shoot methods, employing beaters, and rough-shoot methods; both methods rely on gun dogs to flush and retrieve the birds.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/pheasant/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Phasianus_colchicus"/></note>
                </item>
@@ -1125,7 +1135,7 @@
                   <name type="species">Perdix perdix</name>
                   <name><addName>English partridge</addName></name>
                   <name><addName>Hungarian partridge</addName></name>
-                  <note resp="#lmw">Medium-sized plump grey game bird, smaller than a pheasant and larger than a quail. Native to Eurasia and the UK; has naturalized throughout North America. A nonmigratory bird that breeds on farmland, it is currently threatened in the UK, likely due to pesticide use and loss of habitat, while populations are healthy elsewhere.</note>
+                  <note resp="#lmw">Medium-sized plump grey game bird, smaller than a pheasant and larger than a quail. Native to Eurasia and the UK; has naturalized throughout North America. A nonmigratory bird that breeds on farmland, it is currently threatened in the UK, while populations remain healthy elsewhere.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/grey-partridge/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Perdix_perdix"/></note>
                </item>
@@ -1136,7 +1146,7 @@
                   <name type="species">Anas platyrhynchos</name>
                   <name type="genus">Anas</name>
                   <name type="family">Anatidae</name>
-                  <note resp="#lmw">Large dabbling duck with yellow-orange bill and dark blue and white wing tips, native to Eurasia, North Africa, and North America. Females are shades of brown, and males have a green head, purplish breast, and grey body. This wild species is the ancestor of most domestic ducks. They are the most commonly-hunted duck and has been a food source since ancient times. Mitford generally uses the term <q>wild duck</q>.<!--scw: The wild ducks in this sketch are actually served as food. I am tagging them anyway.--></note>
+                  <note resp="#lmw">Large dabbling duck with yellow-orange bill and dark blue and white wing tips, native to Eurasia, North Africa, and North America. Females are shades of brown, and males have a green head, purplish breast, and grey body. This wild species is the ancestor of most domestic ducks. They are the most commonly-hunted duck and have been a food source since ancient times. Mitford generally uses the term <q>wild duck</q> rather than <soCalled>mallard</soCalled>.<!--scw: The wild ducks in this sketch are actually served as food. I am tagging them anyway.--></note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/mallard/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Anas_platyrhynchos"/></note>
                </item>
@@ -1157,7 +1167,7 @@
                   <name type="species">Lampyris noctiluca</name>
                   <name type="genus">Lampyris</name>
 				<name type="family">Lampyridae</name>
-                  <note resp="#lmw">The common glow-worm is a nocturnal beetle, found throughout Europe and Asia, a member of the bioluminescent family of insects commonly called lightning bugs or fireflies. The female forms are wingless, and thus became known as <soCalled>worms</soCalled>. Found in old-growth meadows, verge, hedgerows, and heaths, peaking in June and July. A favorite subject for 19th-century poets.</note>
+                  <note resp="#lmw">A nocturnal beetle found throughout Europe and Asia, a member of the bioluminescent family of insects commonly called <soCalled>lightning bugs</soCalled> or <soCalled>fireflies</soCalled>. The female forms are wingless, and thus became known as <soCalled>worms</soCalled>. Found in old-growth meadows, verges, hedgerows, and heaths, peaking in June and July. A favorite subject for poets from at least the early-modern period; in Mitford's time, a common subject, particularly for sonnets, by authors who include Charlotte Smith, Anna Maria Porter, William Wordsworth, and John Clare.</note>
                   <note><ptr target="https://www.nhm.ac.uk/discover/the-glimmering-world-of-glow-worms.html"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lampyris_noctiluca"/></note>
                </item>
@@ -1165,7 +1175,7 @@
                <item xml:id="grasshopper">
                   <name>grasshopper</name>
                   <name type="order">Orthoptera</name>
-                  <note resp="#lmw">Insect of the order of Orthoptera with large head, chewing mouthparts, and large hind legs for jumping. Fourteen types of grasshoppers and groundhoppers are endemic to the UK. The most common are the woodland, common green, field, meadow, and rufous grasshoppers.</note>
+                  <note resp="#lmw">Insect of the order of Orthoptera with large head, chewing mouthparts, and large hind legs for jumping. Fourteen types of grasshoppers and groundhoppers are found in the UK. The most common are the woodland, common green, field, meadow, and rufous grasshoppers. Symbolic of laziness and lack of prudence and foresight in <persName ref="#Aesop">Aesop</persName>'s fable, <title level="a">The Grasshopper and the Ant</title>. Mitford generally uses the simple term <q>grasshopper</q>.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Caelifera"/></note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/></note>
                </item>
@@ -1176,7 +1186,7 @@
                   <name type="genus">Gryllus</name>
                   <name type="family">Gryllidae</name>
                   <name><addName>European field cricket</addName></name>
-                  <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endangered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush-crickets are also located in the UK. Symbolically associated with good luck. Mitford generally uses the simple term <q>cricket</q>.</note>
+                  <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endangered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush crickets are also found in the UK. Symbolically associated with good luck. Mitford generally uses the simple term <q>cricket</q>.</note>
                   <note><ptr target="https://www.rspb.org.uk/our-work/conservation/projects/field-cricket-reintroduction/"/></note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Gryllus_campestris"/></note>
@@ -1186,9 +1196,9 @@
                   <name>earwig</name>
                   <name type="species">Forficula auricularia</name>
                   <name type="genus">Forficula</name>
-                  <name type="order">dermaptera</name>
+                  <name type="order">Dermaptera</name>
                   <name><addName>common earwig</addName></name>
-                  <note resp="#lmw">Dark brown crawling insect with back pincers and lighter brown legs and folded leathery wing cases which were thought to resemble human ears. Hide in dark and damp places such as under rocks, flowerpots, and tree bark. Generally harmless, they can be considered pests since they feed on some flowering plants and pantry foodstuffs; however, they are also beneficial in gardens in that they eat destructive smaller insects such as greenfly.</note>
+                  <note resp="#lmw">Dark brown crawling insect with back pincers and lighter brown legs and folded leathery wing cases which were thought to resemble human ears. Hide in dark and damp places such as under rocks, flowerpots, and tree bark. Generally harmless, they can be considered pests since they feed on some flowering plants and pantry foodstuffs; however, they are also beneficial in gardens in that they eat destructive smaller insects such as greenfly that attack plants.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/beetles-and-bugs/earwig/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Forficula_auricularia"/></note>
                </item>
@@ -1196,7 +1206,7 @@
                <item xml:id="bee">
                   <name>bee</name>
                   <name type="genus">Apis</name>
-                  <note resp="#lmw">Social insect collecting nectar to produce wax and honey. Both honeybees and bumblebees are common in the UK. Proverbial for busy and diligent workers.</note>
+                  <note resp="#lmw">Social insect collecting nectar to produce wax and honey. Both honeybees and bumblebees are common in the UK. Proverbial for busy and diligent workers, as in the Isaac Watts poem, <title level="a">Against Idleness and Mischief.</title></note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/"/></note>
                </item>
 
@@ -1207,12 +1217,12 @@
                   <name type="family">Formicidae</name>
                   <name><addName>black garden ant</addName></name>
                   <name><addName>common black ant</addName></name>
-                  <note resp="#lmw">Small, mostly wingless social insect.</note>
+                  <note resp="#lmw">Small, mostly wingless social insect. Symbolic of hard work, prudence, and foresight in <persName ref="#Aesop">Aesop</persName>'s fable, <title level="a">The Grasshopper and the Ant</title>.</note>
                   <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/black-garden-ant/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lasius_(Lasius)_niger"/></note>
                </item>
-               
             </list>
+            
             <list sortKey="plants">
                <item xml:id="corn">
 					<name ref="#corn">corn</name>
@@ -1226,7 +1236,7 @@
 				   <name type="family">Poaceae</name>
 				   <name><addName>common wheat</addName></name>
 				   <name><addName>bread wheat</addName></name>
-					<note resp="#lmw">Grassy plant cultivated as a cereal grain, known as common wheat or bread wheat. Cultivated in the Middle East since about 8000 BCE, and the practice is believed to have reached the British Isles by 3000 BCE. After 1750, wheat and rye began to replace barley as the dominant cereal grain crop in England, and formal wheat hybridization began in the early 19th century. Hard winter wheat is now most commonly cultivated in the UK.</note>
+					<note resp="#lmw">Grassy plant cultivated as a cereal grain, cultivated in the Middle East since about 8000 BCE, and the practice is believed to have reached the British Isles by 3000 BCE. After 1750, wheat and rye began to replace barley as the dominant cereal grain crop in England, and formal wheat hybridization began in the early 19th century. Hard winter wheat is now most commonly cultivated in the UK.</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Triticum_aestivum"/></note>
 				</item>
 
@@ -1271,7 +1281,7 @@
 				   <name><addName>smooth-leaved elm</addName></name>
 				   <name><addName>English elm</addName></name>
 				   <name><addName>field elm</addName></name>
-				   <note resp="#tfb #lmw">The so-called <soCalled>English elm</soCalled> is a deciduous tree with serrated leaves, a variety of the European <soCalled>field elm</soCalled>, introduced into England from Spain in the 16th century. Before Dutch elm disease decimated the population in the 20th century, mature elm trees were a prominent feature of mixed deciduous forests and were also frequently used in landscape gardening. In England, elms were found in mixed forests with oak and ash, often near rivers. While populations still exist, they do not grow to mature size, and so immature elms are today mainly found in hedgerows. Because of its resistance to rot, elm was frequently used to construct medieval water pipes as well as piers, jetties, and lock gates. Because of its resistance to splitting, it was also used to make chair seats, coffins, wagon wheel hubs, and ancient world bows. During the enclosure movement, elms were plants in hawthorn hedges, and avenues and groves of elms were popular features of 18th- and 19th-century landscape gardening. Wych elm, also called witch hazel or Scots elm, is also native to the UK. Ancient Roman literature spoke of a <soCalled>marriage</soCalled> between the elm and the vine, in which the elm represented the husband and the vine the wife, because of their practice of planting elms in vineyards to support grape vines; in British literature, this motif appears most frequently as elm and ivy. The ancient Greek tradition of planting elms on graves has also given rise to a <soCalled>elm-and-death</soCalled> motif. They are also frequently mentioned in classical pastoral poetry, where their cool shade is praised as paradisal.</note>
+				   <note resp="#tfb #lmw">The so-called <soCalled>English elm</soCalled> is a deciduous tree with serrated leaves, a variety of the European <soCalled>field elm</soCalled>, introduced into England from Spain in the 16th century. Before Dutch elm disease decimated the population in the 20th century, mature elm trees were a prominent feature of mixed deciduous forests and were also frequently used in landscape gardening. In England, elms were found in mixed forests with oak and ash, often near rivers. While populations still exist, they do not grow to mature size, and so immature elms are today mainly found in hedgerows. Because of its resistance to rot, elm was frequently used to construct medieval water pipes as well as piers, jetties, and lock gates. Because of its resistance to splitting, it was also used to make chair seats, coffins, wagon wheel hubs, and bows. During the enclosure movement, elms were plants in hawthorn hedges, and avenues and groves of elms were popular features of 18th- and 19th-century landscape gardening. Wych elm, also called witch hazel or Scots elm, is also native to the UK. Ancient Roman literature spoke of a <soCalled>marriage</soCalled> between the elm and the vine, in which the elm represented the husband and the vine the wife, because of the Roman practice of planting elms in vineyards to support grape vines; in British literature, this motif appears most frequently as elm and ivy. The ancient Greek tradition of planting elms on graves has also given rise to a <soCalled>elm-and-death</soCalled> motif. They are also frequently mentioned in classical pastoral poetry, where their cool shade is praised as paradisal.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-elm/"/></note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Ulmus"/></note></item>
 
@@ -1294,11 +1304,10 @@
 					<name type="genus">Aesculus</name>
 					<name type="family">Sapindaceae</name>
 				   <name><addName>European horse-chestnut</addName></name>
-					<note resp="#lmw">Large, deciduous fruit-bearing tree, native to a small area of southeastern Europe and cultivated in gardens and parks throughout many parts of Europe and North America. The tree bears showy white flower spikes in the spring and develops spiky green fruits that contain a large tan and brown seed or nut, called a conker or horse-chestnut. In the UK, children collect the nuts for a game called conkers. They are members of the soapberry and lychee family and unrelated to other chestnut trees, which are members of the beech family. Mitford particularly mentions the trees when in flower.
+				   <note resp="#lmw">Large, deciduous fruit-bearing tree, native to a small area of southeastern Europe and cultivated in gardens and parks throughout many parts of Europe and North America. The tree bears showy white flower spikes in the spring and develops spiky green fruits that contain a large tan and brown seed or nut, called a conker or horse-chestnut. They are members of the soapberry and lychee family and unrelated to other chestnut trees, which are members of the beech family.  In the UK, children collect the nuts for a game called conkers. Mitford particularly mentions the trees when in flower in the spring.
 					</note>
 				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/horse-chestnut/"/></note>
-					<note><ptr target="https://species.wikimedia.org/wiki/Aesculus"/></note>
-				</item>
+					<note><ptr target="https://species.wikimedia.org/wiki/Aesculus"/></note></item>
                
 				<item xml:id="acacia">
 					<name>acacia</name>
@@ -1328,7 +1337,7 @@
                   <name type="family">Sapindaceae</name>
                   <name><addName>field maple</addName></name>
                   <name><addName>hedge maple</addName></name>
-                  <note resp="#lmw">Small broad-leafed tree with yellow-green flowers producing winged seeds, sometimes called <soCalled>maple keys</soCalled>; leave turn bright reddish orange before falling. Also pollarded to shrub size within hedgerows and grown as a specimen tree. Native to Eurasia, England, and southern Scotland. Produces a light-colored hardwood that is used to make musical instruments, flooring, and furniture.</note>
+                  <note resp="#lmw">Small broad-leafed tree with yellow-green flowers producing winged seeds, which are sometimes called <soCalled>maple keys</soCalled>; leave turn bright reddish orange before falling. Also pollarded to shrub size within hedgerows and grown as a specimen tree. Native to Eurasia, England, and southern Scotland. Source of a light-colored hardwood that is used to make musical instruments, flooring, and furniture.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/field-maple/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Acer_campestre"/></note>
                </item>
@@ -1340,7 +1349,7 @@
 				   <name type="family">Betulaceae</name>
 				   <name><addName>silver birch</addName></name>
 				   <name><addName>European white birch</addName></name>
-				   <note resp="#lmw">Medium-sized birch tree with white, peeling bark, triangular leaves that turn yellow before falling, and catkins in spring. Mitford uses the term <q>weeping birch</q> to refer to a pendulous variety of the <soCalled>white birch</soCalled> (Betula alba). A lightweight and light-colored wood used in making furniture and skis. Its brush is used historically for racecourse jumps, the bark in tanning and traditional medicine, and strips for small containers, baskets, and footwear.</note>
+				   <note resp="#lmw">Medium-sized birch tree with white, peeling bark, triangular leaves that turn yellow before falling, and catkins in spring. Mitford uses the term <q>weeping birch</q> to refer to a pendulous variety of the <soCalled>white birch</soCalled> (Betula alba). A lightweight and light-colored wood used in making furniture and skis. Birch brush is used historically for racecourse jumps, the bark in tanning and traditional medicine, and wood strips for weaving small containers, baskets, and footwear.</note>
 					<note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/silver-birch/"/></note>
 				   <note><ptr target="https://species.wikimedia.org/wiki/Betula_pendula/"/></note>
 				</item>
@@ -1350,7 +1359,8 @@
 					<name type="genus">Tilia</name>
 				   <name type="family">Tiliaceæ</name>
 				   <name><addName>linden</addName></name>
-				   <note resp="#lmw">Group of large, deciduous trees called the lime tree in the UK, this family of trees and shrubs is also known as a <soCalled>linden</soCalled> in continental Europe and <soCalled>basswood</soCalled> in the US. Not closely related to the citrus fruit tree. Produces a soft, fine-grained, light wood popular for carving and for the building of models, puppets, and some musical instruments. The subject of the <persName ref="#Coleridge_ST">Coleridge</persName> poem, <title level="a">This Lime-Tree Bower my Prison</title>.</note>
+				   <name><addName>basswood</addName></name>
+				   <note resp="#lmw">Group of large, deciduous trees called the lime tree in the UK, this family of trees and shrubs is also known as a <soCalled>linden</soCalled> in continental Europe and <soCalled>basswood</soCalled> in the US. Not closely related to the citrus fruit tree. Produces a soft, fine-grained, light wood popular for carving and for the building of models, puppets, and some musical instruments. Mentioned in the <persName ref="#Coleridge_ST">Coleridge</persName> poem, <title level="a">This Lime-Tree Bower my Prison</title>.</note>
 				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/silver-birch/"/></note>
 				   <note><ptr target="https://species.wikimedia.org/wiki/Betula_pendula/"/></note>
 				</item>
@@ -1361,7 +1371,7 @@
 					<name type="genus">Corylus</name>
 					<name type="family">Betulaceae</name>
 				   <name><addName>common hazel</addName></name>
-					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to Europe and western Asia. The fruit, called <soCalled>hazelnuts</soCalled> or <soCalled>cobnuts</soCalled>, are produced by male and female catkins, with the ripe nuts partially enclosed in a husk and harvested in the late summer. Hazelnuts are round and the kernel is edible and may be eaten fresh or dried. Mitford employs the term <q>cobnut</q> and distinguishes it from the <q>filberd</q>. The shrubby trees form an important component of hedgerows, particularly in the English lowlands. The trees may also be managed by coppicing, a practice that produces the thin, curved poles traditionally used in making withy and wattle fencing, in wattle-and-daub building, and in framing coracle boats.</note>
+					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to Europe and western Asia. The fruit, called <soCalled>hazelnuts</soCalled> or <soCalled>cobnuts</soCalled>, are produced by male and female catkins, with the ripe nuts partially enclosed in a husk and harvested in the late summer. Hazelnuts are round and the kernel edible and may be eaten fresh or dried. Mitford employs the term <q>cobnut</q> and distinguishes it from the <q>filberd</q>. The shrubby trees form an important component of hedgerows, particularly in the English lowlands. The trees may also be managed by coppicing, a practice that produces the thin, curved poles traditionally used in making withy and wattle fencing, in wattle-and-daub building, and in framing coracle boats.</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Corylus_maxima"/></note>
 				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/hazel/"/></note>
 				</item>
@@ -1371,7 +1381,7 @@
 					<name type="species">Corylus maxima</name>
 					<name type="genus">Corylus</name>
 					<name type="family">Betulaceae</name>
-					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to southeastern Europe and southwestern Asia, related to the <name ref="#hazel">common hazel</name>. The fruit, also called <soCalled>filberts</soCalled>, are produced by male and female catkins, with the ripe nuts largely enclosed in a tubular husk, and harvested in the autumn. Filberts are elongated and the kernel is edible. <persName ref="#MRM">Mitford</persName> employs an alternative spelling, referring to these nuts as <q>filberds</q>, and distinguishing them from the <q>cobnut</q>, or nut of the common hazel.</note>
+					<note resp="#lmw">Deciduous nut-bearing tree in the birch family, native to southeastern Europe and southwestern Asia, related to the <name ref="#hazel">common hazel</name>. The fruit, also called <soCalled>filberts</soCalled>, are produced by catkins, with the ripe nuts largely enclosed in a tubular husk, and harvested in the autumn. Filberts are elongated and the kernel is edible. <persName ref="#MRM">Mitford</persName> employs an alternative spelling, referring to these nuts as <q>filberds</q>, and distinguishing them from the <q>cobnut</q>, or nut of the common hazel.</note>
 					<note><ptr target="https://species.wikimedia.org/wiki/Corylus_maxima"/></note>
 				</item>
 
@@ -1394,7 +1404,7 @@
 				   <name type="family">Rosaceae</name>
 				   <name><addName>common blackberry</addName></name>
 <name><addName>Rubus plicatus</addName></name>
-				   <note resp="#lmw">In the UK, generally refers to the common blackberry, <soCalled>Rubus fruticosus</soCalled>, a prickly shrub with arching branches, bearing small white flowers followed by aggregate red or black fruits. The general term may also refer to other prickly shrubs, such as dog-roses, or to the fruit of the blackberry.</note>
+				   <note resp="#lmw">In the UK, generally refers to the common blackberry, a prickly shrub with arching branches, bearing small white flowers followed by aggregate red or black fruits. The general term may also refer to other prickly shrubs, such as dog-roses, or to the fruit of the blackberry.</note>
 				   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/bramble/"/></note>
 				   <note><ptr target="https://species.wikimedia.org/wiki/Rubus_plicatus"/></note>
 				</item>
@@ -1403,7 +1413,7 @@
 				   <name>Michaelmas daisy</name>
 				   <name type="species">Aster amellus</name>
 				   <name type="genus">Aster</name>
-				   <name type="gfamilyenus">Asteraceae</name>
+				   <name type="family">Asteraceae</name>
 					<name><addName>European Michaelmas daisy</addName></name>
 					<name><addName>aster</addName></name>
 					<note resp="#lmw #slc">The Michaelmas daisy or aster is a Eurasian perennial plant that blooms in late summer with multiple purple or lavendar daisy-like flowers on a flower stalk. Hybridized varieties may have white, pink, or purple flowers. It came to symbolize <q>farewell</q>. In 1820, <persName ref="#Landon_LE">Laetitia E. Landon</persName> published a poem entitled <title level="a">Michaelmas Daisy</title>. The only member of the aster family native to the UK is the sea aster (Aster tripolium).</note>
@@ -1453,7 +1463,7 @@
 					<name type="species">Myosotis scorpioides</name>
 				   <name type="genus">Myosotis</name>
 				   <name type="family">Boraginaceae</name>
-					<note resp="#lmw #slc">Blue-flowered perennial plant in the borage family, with long, narrow leaves, native to Eurasia and widespread in the UK. Prefers damp or wet habitats, including riparians areas, bogs, and ditches, and can form floating rafts in water. Symbolizes remembrance. The subject of Mitford's sonnet <title ref="#ForgetMeNot">The Forget-Me-Not</title> clearly describes the habit of the true or water forget-me-not. The woodland forget-me-not is also native to the UK.</note>
+					<note resp="#lmw #slc">Blue-flowered perennial plant in the borage family, with long, narrow leaves, native to Eurasia and widespread in the UK. Prefers damp or wet habitats, including riparians areas, bogs, and ditches, and can form floating rafts in water. Symbolizes remembrance. The subject of Mitford's sonnet <title ref="#ForgetMeNot">The Forget-Me-Not</title>, which clearly describes the habit of the true or water forget-me-not. The woodland forget-me-not is also native to the UK.</note>
 					<note><ptr target="https://www.brc.ac.uk/plantatlas/index.php?q=node/1653"/></note>
 					<note><ptr target="https://en.wikipedia.org/wiki/Myosotis_scorpioides"/></note>
 				</item>
@@ -1465,7 +1475,7 @@
                   <name type="family">Fabaceae</name>
                   <name><addName>common broom</addName></name>
                   <name><addName>Scotch broom</addName></name>
-                  <note resp="#qar #lmw">Perennial flowering shrub, member of the legume or pea family, native to Europe and the UK. Grows in meadows and heathland and propagates itself through pea-like seedpods. Symbolizes humility and neatness in floriography, because of its association with the housekeeping implement. In the Fourth Branch of the Mabinogi, the tale of Math son of Mathonwy, Blodeuwedd is the name of a woman made from the flowers of broom, meadowsweet and the oak by Math fab Mathonwy and Gwydion to be the wife of Lleu Llaw Gyffes. This is a part of Welsh mythology. <q>Sweep the house with blossed broom in May/sweep the head of the household away</q> is a traditional rhyme from Sussex. It was common to include a decorated bundle of broom at weddings. Ashes of broom were used to treat dropsy, and said to tame wild dogs and horses with its smell.</note>
+                  <note resp="#qar #lmw">Perennial flowering shrub, member of the legume or pea family, native to Europe and the UK. Grows in meadows and heathland and propagates itself through pea-like seedpods. Symbolizes humility and neatness in floriography, because of its association with the housekeeping implement. It was common to include a decorated bundle of broom at weddings.</note>
                   <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/broom"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Cytisus_scoparius"/></note>
                </item>
@@ -1493,7 +1503,7 @@
                   <name>dahlia</name>
                   <name type="genus">Dahlia</name>
                   <name type="family">Asteraceae</name>
-                  <note resp="#lmw">Group of tuberous flowering plants, brightly colored and highly variable in size, color, and petal shape. Dahlias are native to Mexico and central America and were first imported into continental Europe in the 1780s and thence to England in the early nineteenth century. The first printed illustration appeared in the <title level="s">Curtis's Botanical Magazine</title> in 1804 and dahlias became fashionable garden flowers in England by the 1820s. In Mitford's time, both single- and double-flowered varieties were propagated, and varieties were largely classified by flower color. Outside their native range, dahlia tubers are susceptible to frost, and must have their tubers dug over winter and replanted, if they are not grown in greenhouses.</note>
+                  <note resp="#lmw">Group of tuberous flowering plants, brightly colored and highly variable in size, color, and petal shape. Dahlias are native to Mexico and central America and were first imported into continental Europe in the 1780s and thence to England in the early nineteenth century. The first printed illustration appeared in the <title level="s">Curtis's Botanical Magazine</title> in 1804 and dahlias became fashionable garden flowers in England by the 1820s. In Mitford's time, both single- and double-flowered varieties were propagated, and varieties were largely classified by flower color. Outside their native range, dahlia tubers are susceptible to frost, and must have their tubers dug over winter and replanted, if they are not grown in greenhouses. Mitford raised and hybridized dahlias.</note>
                   <note><ptr target="https://books.google.com/books?id=_0sCAAAAYAAJ"/></note>
                   <note><ptr target="https://www.rhs.org.uk/plants/popular/dahlia/growing-guide"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Dahlia_(Asteraceae)"/></note>
@@ -1504,7 +1514,7 @@
                   <name><addName>Lunaria annua</addName></name>
                   <name type="genus">Brassicaceae</name>
                   <name type="family">Asteraceae</name>
-                  <note resp="#lmw">Bushy flowering garden plant grown primarily for its decorative seed pods, rather than for its flowers. White or violet flowers give way to disc-shaped seedpods, which shed their fleshy outer covering as they ripen to reveal a translucent inner membrane which may persist on the plant through winter. The dried stems and pods are used in flower arranging. The Latin name refers to the moon-shaped seed pods. Common names in many languages refer to the pods' likeness to coins; it is called <soCalled>silver dollar</soCalled> or <soCalled>money plant</soCalled> and other, similar names.</note>
+                  <note resp="#lmw">Bushy flowering garden plant grown primarily for its decorative seed pods, rather than for its flowers. White or violet flowers give way to disc-shaped seedpods, which shed their fleshy outer covering as they ripen to reveal a translucent inner membrane which may remain on the plant through winter. The dried stems and pods are used in flower arranging. The Latin name refers to the moon-shaped seed pods. Common names in many languages refer to the pods' likeness to coins; it is called <soCalled>silver dollar</soCalled> or <soCalled>money plant</soCalled> and other, similar names.</note>
                   <note><ptr target="https://www.rhs.org.uk/Plants/83138/i-Lunaria-annua-i-var-i-albiflora-i-Alba-Variegata-(v)/Details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lunaria_annua"/></note>
                </item>
@@ -1551,7 +1561,8 @@
                   <name type="species">Papaver rhoeas</name>
                   <name type="genus">Papaver</name>
                   <name type="family">Papaveraceae</name>
-                  <name><addName>common poppy</addName></name><name><addName>corn poppy</addName></name>
+                  <name><addName>common poppy</addName></name>
+                  <name><addName>corn poppy</addName></name>
                   <name><addName>field poppy</addName></name>
                   <name><addName>Flanders poppy</addName></name>
                   <note resp="#lmw">Annual red poppy flower with showy black stamens and hairy stems and buds, native to Eurasia and North Africa, preferring sunny meadows and disturbed ground. Historically considered an agriculatural weed, hence its common name, <soCalled>corn poppy</soCalled>. Also called the <soCalled>Flanders poppy</soCalled> after World War I, for its habit of blooming in ground disturbed by military action and later adopted as a symbol of war remembrance. The opium poppy, P. somniferum, was also known in Britain since the Middle Ages for the medicinal and sleep-inducing qualities of its milky sap and its seeds.</note>
@@ -1601,7 +1612,7 @@
                   <name type="genus">Campanula</name>
                   <name type="family">Campanulaceae</name>
                   <name><addName>bellflower</addName></name>
-                  <note resp="#lmw">General term used for a large genus of plants with white or blue bell-shaped flowers. Includes the <name ref="#harebell">harebell</name>. Mitford may use this term for <soCalled>Canterbury bells</soCalled> (Campanula medium), a taller bellflower than the harebell, native to southern Europe but cultivated as a garden plant in Britain.</note>
+                  <note resp="#lmw">General term used for a large genus of plants with white or blue bell-shaped flowers, including the <name ref="#harebell">harebell</name>. Mitford may use this term for <soCalled>Canterbury bells</soCalled> (Campanula medium), a taller bellflower than the harebell, native to southern Europe but cultivated as a garden plant in Britain.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Campanula"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Campanula_medium"/></note>
                </item>
@@ -1619,7 +1630,7 @@
                   <name>tulip</name>
                   <name type="genus">Tulipa</name>
                   <name type="family">Lilieae</name>
-                  <note resp="#lmw">Large family of spring-blooming bulbs native to Southern Europe and Central Asia but cultivated as a garden plant and cut flower worldwide since the seventeenth century. Some varieties naturalized in Europe and parts of the UK, particulatly in eastern England and Scotland. After the so-called <soCalled>tulip mania</soCalled> in Europe in the 17th century, tulips became associated with the Netherlands and Dutch Golden Age painters, who included them in their still-life paintings. In her <title>Journal</title>, Mitford refers to <quote>field tulips</quote>, presumably a naturalized population.
+                  <note resp="#lmw">Large family of spring-blooming bulbs native to southern Europe and central Asia but cultivated as a garden plant and cut flower worldwide since the seventeenth century. Some varieties naturalized in Europe and parts of the UK, particulatly in eastern England and Scotland. After the so-called <soCalled>tulip mania</soCalled> in Europe in the 17th century, tulips became associated with the Netherlands and Dutch Golden Age painters, who included them in their still-life paintings. In her <title>Journal</title>, Mitford refers to <quote>field tulips</quote>, presumably a naturalized population in England.
                   </note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Tulipa"/></note>
                </item>
@@ -1629,8 +1640,7 @@
                   <name type="species">Lathyrus odorata</name>
                   <name type="genus">Lathyrus</name>
                   <name type="family">Fabaceae</name>
-                  <note resp="#lmw">Spring-blooming vine with pink, purple, blue, or white flowers, native to Italy and the Aegean Islands. Cultivated in the UK since the introduction of seeds to England around 1700. Prized for their scent, sweet peas were a nineteenth-century favorite, hybridized for use as a commercial cut flower and as a garden plant.
-                  </note>
+                  <note resp="#lmw">Spring-blooming vine with pink, purple, blue, or white flowers, native to Italy and the Aegean Islands. Cultivated in the UK since the introduction of seeds to England around 1700. Prized for their scent, sweet peas were a nineteenth-century favorite, hybridized for use as a commercial cut flower and as a garden plant.</note>
                   <note><ptr target="https://thegardenstrust.blog/2015/09/26/the-sweet-pea-and-its-king/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lathyrus_odoratus"/></note>
                </item>
@@ -1662,8 +1672,7 @@
                   <name type="species">Digitalis purpurea</name>
                   <name type="genus">Digitalis</name>
                   <name type="family">Digitalideae</name>
-                  <note resp="#lmw">Flowering plant native to western Europe, the Mediterranean, and the UK, and naturalized elsewhere. Also cultivated as a garden plant for its large, bell-shaped purple flower spikes.
-                  </note>
+                  <note resp="#lmw">Flowering plant native to western Europe, the Mediterranean, and the UK, and naturalized elsewhere. Also cultivated as a garden plant for its large, bell-shaped purple flower spikes.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/foxglove/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Digitalis"/></note>
                </item>
@@ -1698,7 +1707,7 @@
                   <name type="genus">Prunus</name>
                   <name type="family">Rosaceae</name>
                   <name><addName>European plum</addName></name>
-                  <note resp="#lmw">Tree of the family Rosaceae which bears flowers and sweet purple, red, or yellow pulpy fruit with a central seed or stone. Most cultivated varieties are related to Prunus domestica, which is now believed to be bred from the wild cherry plum (Prunus cerasifera) originating in southeast Europe and western Asia and naturalized in the UK. <name ref="#greengage">Greengages</name> are a subspecies of Prunus domestica.</note>
+                  <note resp="#lmw">Tree of the family Rosaceae which bears flowers and sweet purple, red, or yellow pulpy fruit with a central seed or stone. Most cultivated varieties are related to Prunus domestica, which is now believed to be bred from the wild cherry plum (Prunus cerasifera) originating in southeast Europe and western Asia and naturalized in the UK. <name ref="#greengage">Greengages</name> are a subspecies of Prunus domestica that bears green fruits.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/plum/"/></note>
                      <note><ptr target="https://species.wikimedia.org/wiki/Prunus_domestica"/></note>
                </item>
@@ -1756,6 +1765,7 @@
                   <name type="genus">Rosa</name>
                   <name type="family">Rosaceae</name>
                   <name><addName>dog-rose</addName></name>
+                  <note resp="#lmw">Mitford uses this term to refer to the <soCalled>dog rose</soCalled>, a climbing rose native to Europe, northwest Africa, and western Asia. Its spiny stems allow it to climb over other shrubs and trees, and it carries single pink or white flowers that develop an orange-red hip. The hips may be used to make tea, jelly, pies, syrup, and cordial. This rose is traditionally used in European heraldry.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/dog-rose/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Rosa_canina"/></note>
                </item>
@@ -1809,7 +1819,7 @@
                   <name><addName>gum rockrose</addName></name>
                   <name><addName>brown-eyed rockrose</addName></name>
                   <name><addName>labdanum</addName></name>
-                  <note resp="#sbb #lmw">Evergreen shrub bearing papery white flowers with a dark red spot at the base of each petal. The plant is covered with a fragrant, sticky resin used to produce labdanum, used in perfumery and medicine. Native to the Mediterranean, it prefers disturbed ground and may colonize old farmland and meadows. Mitford uses the common name <soCalled>gum cistus</soCalled> in <title ref="#Old_Bachelor_OV">The Old Bachelor</title>, and the OED cites her 1826 use. Cistus or rock-rose were a popular plant for gardens and hybridization in the 1820s, and are the subject of a horticultural volume by <persName ref="#Sweet_Rbt">Robert Sweet</persName>, <title ref="Cistineae">Cistineae</title>.</note>
+                  <note resp="#sbb #lmw">Evergreen shrub bearing papery white flowers with a dark red spot at the base of each petal. The plant is covered with a fragrant, sticky resin used to produce labdanum, used in perfumery and medicine. Native to the Mediterranean, it prefers disturbed ground and may colonize old farmland and meadows. Mitford uses the common name <soCalled>gum cistus</soCalled> in <title ref="#Old_Bachelor_OV">The Old Bachelor</title>, and the OED cites her 1826 use. Cistus or rock-roses were a popular plant for gardens and hybridization in the 1820s, and are the subject of a horticultural volume by <persName ref="#Sweet_Rbt">Robert Sweet</persName>, <title ref="#Cistineae">Cistineae</title>.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Cistus_ladanifer"/></note>
                </item>
                
@@ -1818,7 +1828,7 @@
                   <name type="species">Rosa x centifolia <q>Muscosa</q></name>
                   <name type="genus">Rosa</name>
                   <name type="family">Rosaceae</name>
-                  <note resp="#lmw">A sport of the hybridized centifolia rose (also called the cabbage rose), known in Europe since the 17th century, noted for the sticky, scented hairs covering its flower buds. Blooms were prized in the nineteenth century as a novelty for their unusual bud shape and multi-layered scent.</note>
+                  <note resp="#lmw">A sport of the hybridized centifolia rose (also called the cabbage rose), known in Europe since the 17th century, noted for the sticky, scented hairs covering its flower buds. Blooms were prized in the nineteenth century as a garden novelty for their unusual bud shape and multi-layered scent.</note>
                   <note><ptr target="https://www.helpmefind.com/roses/gl.php?n=18"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Rosa_%C3%97_centifolia"/></note>
                </item>
@@ -1828,8 +1838,7 @@
                   <name type="genus">Primula</name>
                   <name type="species">Primula polyantha</name>
                   <name type="family">Primulaceae</name>
-                  <note resp="#lmw">A cultivated variety of Primula, bearing flowers of many colors on raised umbrels. Thought to be originally derived from crosses between the <name ref="#cowslip">cowslip</name> and the <name ref="#primrose">primrose</name>. Such crosses are now known as Primula pruhonicensis, and the term <soCalled>Primula polyantha</soCalled> is used for naturally occurring hybrids, such as the false oxlip. 
-                  </note>
+                  <note resp="#lmw">A cultivated variety of Primula, bearing flowers of many colors on raised umbrels. Thought to be originally derived from crosses between the <name ref="#cowslip">cowslip</name> and the <name ref="#primrose">primrose</name>. Such crosses are now known as Primula pruhonicensis, and the term <soCalled>Primula polyantha</soCalled> is used for naturally occurring hybrids, such as the false oxlip.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Primula_%C3%97_pruhonicensis"/></note>
                </item>
                
@@ -1858,7 +1867,7 @@
                   <name type="genus">Erica</name>
                   <name type="family">Ericaceae</name>
                   <name><addName>common heath</addName></name>
-                  <note resp="#qar #lmw">General term for low, flowering shrubs such as  heath, heather, or ling, that cover bare or exposed uncultivated land. The OED suggests that the name comes from the south and middle of England. </note>
+                  <note resp="#qar #lmw">General term for low, flowering shrubs such as heath, heather, or ling, that cover bare or exposed uncultivated land. The OED suggests that the name comes from the south and middle of England, and thus would have been familiar to Mitford.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Erica_(Ericaceae)"/></note>
                   <note><ptr target="https://www.wildlifetrusts.org/habitats/heathland-and-moorland"/></note>
                </item>
@@ -1867,7 +1876,7 @@
                   <name ref="#lily">lily</name>
                   <name type="genus">Lilium</name>
                   <name type="family">Liliaceae</name>
-                  <note>True lilies are flowering perennials that grow from bulbs, carrying large, trumpet- or bell-shaped flowers, distributed throughout the world and cultivated as garden plants. The quintessential lily in European culture is the white Madonna lily (Lilium candidum), native to the Mediterranean, appearing in art, literature, and religious text beginning in the ancient world.</note>
+                  <note>True lilies are flowering perennials that grow from bulbs, carrying large, trumpet- or bell-shaped flowers, distributed throughout the world and cultivated as garden plants. The quintessential lily in European culture is the white Madonna lily (Lilium candidum), native to the Mediterranean, appearing in art, literature, and religious text beginning in the ancient world. When Mitford uses the simple term <soCalled>lily</soCalled>, she likely refers to the <soCalled>Madonna lily</soCalled>.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lilium"/></note>
                </item>
                
@@ -1886,7 +1895,7 @@
                   <name type="species">Lilium bulbiferum</name>
                   <name type="genus">Lilia</name>
                   <name type="family">Liliaceae</name>
-                  <note resp="#lmw">Likely the summer-blooming true lily native to Europe and naturalized elsewhere, bearing yellow-orange petals with red-brown spots. Mitford called them <quote>Those fierce and warlike flowers the tiger~lilies</quote>. OED cites Mitford's <title ref="#OV">Our Village</title>, but identifies them as <soCalled>Lilium tigrinum</soCalled>, now called <soCalled>Lilium lancefolium</soCalled> an orange lily with brown-black spots and recurved petals, native to Asia. These lilies were not naturalized in the UK in the 19th century, although they may have been grown as garden specimens.</note>
+                  <note resp="#lmw">Likely the summer-blooming true lily native to Europe and naturalized elsewhere, bearing yellow-orange petals with red-brown spots. Mitford called them <quote>Those fierce and warlike flowers the tiger~lilies</quote>. OED cites Mitford's <title ref="#OV">Our Village</title>, but identifies them as <soCalled>Lilium tigrinum</soCalled>, now called <soCalled>Lilium lancefolium</soCalled> an orange lily with brown-black spots and recurved petals, native to Asia. However, these lilies were not naturalized in the UK in the 19th century, although they may have been grown as garden specimens.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Lilium_bulbiferum"/></note>
                </item>
                
@@ -1897,7 +1906,7 @@
                   <name type="family">Caryophyllaceae</name>
                   <name><addName>clove pink</addName></name>
                   <name><addName>clove gillyflower</addName></name>
-                  <note resp="#lmw">Spicy clove-scented member of the pink family, native to southern Europe and introduced into the UK in the 16th century. Although clove and <name ref="#carnation">carnation</name> are now considered botanically synonymous, Mitford uses both terms, as well as the more general term <name ref="#pink">pink</name>.</note>
+                  <note resp="#lmw">Spicy clove-scented member of the pink family, native to southern Europe and introduced into the UK in the 16th century. Although clove and <name ref="#carnation">carnation</name> are now considered botanically synonymous, Mitford uses both terms, as well as the more general term <name ref="#pink">pink</name>, to refer to types of Dianthus.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Dianthus_caryophyllus"/></note>
                </item>
                
@@ -1915,7 +1924,7 @@
                   <name type="species">Dianthus barbatus</name>
                   <name type="genus">Dianthus</name>
                   <name type="family">Caryophyllaceae</name>
-                  <note resp="#lmw">Member of the pink family whose clusters of flowers grow in an upward-facing umbrel, native to the mountains of southern Europe and introduced into northern Europe and the UK in the 16th century. Wild varieties carry flowers that are variegated red with white; cultivated varieties come in shades of white, pink, and red.</note>
+                  <note resp="#lmw">Member of the pink family whose clusters of flowers grow in an upward-facing umbrel, native to the mountains of southern Europe and introduced into northern Europe and the UK in the 16th century. Wild varieties carry flowers that are variegated red with white; cultivated varieties come in shades of solid and variegated white, pink, and red.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Dianthus_barbatus"/></note>
                </item>
                
@@ -1947,7 +1956,7 @@
                   <name type="family">Fabaceae</name>
                   <name><addName>green bean</addName></name>
                   <name><addName>string bean</addName></name>
-                  <note resp="#lmw">Also called the green bean, the common bean is a member of a large family of herbaceous flowering plants whose seeds or legumes, and pods, are cultivated and consumed by humans and animals. Some types are twining. A spring-flowering plant with white, pink, or purple scented blooms. Fava or <name ref="#bean_broad">>broad beans</name> are also historically cultivated in England.<!--LMW to SCW: OED indicates that the purple-flowered common or green bean is scented and thus the type most commonly mentioned as fragrant:  "The cultivated plant that bears this seed; it has fragrant violet-tinted white flowers, whence the often-mentioned ‘fragrance of the bean-fields’." --></note>
+                  <note resp="#lmw">Also called the green bean, the common bean is a member of a large family of herbaceous flowering plants whose seeds or legumes, and pods, are cultivated and consumed by humans and animals. Some types are twining. A spring-flowering plant with white, pink, or purple scented blooms. Fava or <name ref="#bean_broad">>broad beans</name> are also historically cultivated in England. The OED suggests that fields of this bean are those commonly mentioned in literature as fragrant.</note>
                </item>
                
                <item xml:id="strawberry">
@@ -1959,7 +1968,7 @@
                   <name><addName>Alpine strawberry</addName></name>
                   <name><addName>Carpathian Strawberry</addName></name>
                   <name><addName>European strawberry</addName></name>
-                  <note resp="#slc #lmw">A perennial plant in the Rose family that grows naturally throughout much of the Northern Hemisphere in open meadows and woodlands, and produces white flowers and edible red fruits. Mitford calls them both <q>wild strawberry</q> and <q>wood strawberries</q>. Mitford also grew garden strawberries.</note>
+                  <note resp="#slc #lmw">A perennial plant in the Rose family that grows naturally throughout much of the Northern Hemisphere in open meadows and woodlands, and produces white flowers and edible red fruits. Mitford calls them both <q>wild strawberries</q> and <q>wood strawberries</q>. Mitford also grew garden strawberries.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Fragaria_vesca"/></note>
                </item>
                
@@ -1983,7 +1992,7 @@
                   <name type="family"> </name>
                   <name><addName>common European holly</addName></name>
                   <name><addName>English holly</addName></name>
-<note resp="#lmw">Large evergreen tree or shrub, underplanting forest oaks or other large trees, or found in hedgerows. Native to western Eurasia and the UK. Carries dark green, glossy leaves, bunches of small white flowers and later, clumps of bright red berries. <title level="a">The Holly and the Ivy</title> is a traditional English folk song that dates from the early nineteenth century, or earlier. Associated with Saturnalia in ancient Rome, the plants have been used as British Advent and Christmas decorations since at least the 15th century, and feature in other traditional holiday carols, as well.</note>
+<note resp="#lmw">Large evergreen tree or shrub, underplanting forest oaks or other large trees, or found in hedgerows. Native to western Eurasia and the UK. Carries dark green, glossy leaves, bunches of small white flowers that develop into clumps of bright red berries. <title level="a">The Holly and the Ivy</title> is a traditional English folk song that dates from the early nineteenth century, or earlier. Associated with Saturnalia in ancient Rome, the plants have been used as British Advent and Christmas decorations since at least the 15th century, and feature in other traditional holiday carols as well.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Ilex_aquifolium"/></note>
                </item>
@@ -2015,7 +2024,7 @@
                   <name type="species">Ribes rubrum</name>
                   <name type="family">Grossulariaceae</name>
                   <note resp="#qar #lmw">redcurrant</note>
-                  <note resp="#lmw">Woody shrub native to northern Eurasia, grown for its fruit. Inconspicuous green-yellow flower clusters develop into clusters of bright red, translucent edible fruit. The fruit is used to make juices, syrups, and cordials, jams and jellies, and desserts. Members of the <name ref="#gooseberry">gooseberries</name> family, related to <name ref="#currant_bl">blackcurrants</name>, but with slightly more tart fruit.</note>
+                  <note resp="#lmw">Woody shrub native to northern Eurasia, grown for its fruit. Inconspicuous green-yellow flowers develop into clusters of bright red, translucent edible fruit. Members of the <name ref="#gooseberry">gooseberries</name> family, related to <name ref="#currant_bl">blackcurrants</name>, but with slightly more tart fruit. The fruit is used to make juices, syrups, and cordials, jams and jellies, and desserts.</note>
                   <note><ptr target="https://www.rhs.org.uk/advice/grow-your-own/fruit/redcurrants"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Ribes_rubrum"/></note>
                </item>
@@ -2034,7 +2043,7 @@
                   <name>willow</name>
                   <name type="genus">Salix</name>
                   <name type="family">Salicaceae</name>
-                  <note resp="#qar #lmw">Group of more than 400 species of willow, ranging in size from shrubs to large trees with slender grey-green leaves and thin branches, some with a drooping habit. Flowers are pendulous yellow-green catkins that develop tiny seeds enclosed in white down. Common in riparian areas and wet woodlands, found with <name ref="#ash">ash</name> and <name ref="#birch_weep">birch</name>. Several varieties are native to the UK, including bay willow, as well as goat willow and grey willow, both also called pussy willow. Others are naturalized and common, including white willow, crack willow and osier willow. The wood is strong and light, used to make cricket bats; and the thin branches used in basket making. Charcoal from the wood has been used to manufacture gunpowder, and the bark used for tanning leather. The bark contains salicin, and asprin-like substance long used to treat pain and fever, and studied systematically for its medicinal properties during Mitford's lifetime. Symbolic of grief and mourning; <q>To wear the willow</q> is proverbial for mourning, and weeping willow imagery was common on gravestones and other funerary art, and in mourning jewelry and arts, where, during Mitford's lifetime, willows appear with urns, broken plinths, and drooping human figures.</note>
+                  <note resp="#qar #lmw">Group of more than 400 species of tree, ranging in size from shrubs to large trees with slender grey-green leaves and thin branches, some with a drooping habit. Flowers are pendulous yellow-green catkins that develop tiny seeds enclosed in white down. Common in riparian areas and wet woodlands, found with <name ref="#ash">ash</name> and <name ref="#birch_weep">birch</name>. Several varieties are native to the UK, including bay willow, as well as goat willow and grey willow, both also called pussy willow. Others are naturalized and common, including white willow, crack willow and osier willow. The wood is strong and light, used to make cricket bats; and the thin branches used in basket making. Charcoal from the wood has been used to manufacture gunpowder, and the bark used for tanning leather. The bark contains salicin, and asprin-like substance long used to treat pain and fever, and studied systematically for its medicinal properties during Mitford's lifetime. Symbolic of grief and mourning; <q>To wear the willow</q> is proverbial for mourning, and weeping willow imagery was common on gravestones and other funerary art, and in mourning jewelry and arts, where, during Mitford's lifetime, willows appear with urns, broken plinths, and drooping human figures.</note>
                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/habitats/wet-woodland/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Salix"/></note>
                </item>
@@ -2057,7 +2066,7 @@
                   <name type="genus">Prunus</name>
                   <name type="family">Rosaceae</name>
                   <name><addName>sweet cherry</addName></name>
-                  <note resp="#lmw">Deciduous hardwood fruit tree, native to Eurasia and the UK. Deeply veined oval leaves with pink-white flower clusters that develop bright red fruit clusters, which are actually a sweet pulpy drupe with a seed. A valuable reddish hardwood much used in furniture and musical instrument making in the 18th and 19th century. The fruit is used in making jellies and jams, syrups and cordials, and desserts. As color descriptor, often associated with women's beauty, as in <q>cherry-cheeked</q> or <q>cherry-lipped</q>. </note>
+                  <note resp="#lmw">Deciduous hardwood fruit tree, native to Eurasia and the UK. Deeply veined oval leaves with pink-white flower clusters that develop bright red fruit clusters, which are actually a sweet pulpy drupe with a seed or pit. A valuable reddish hardwood much used in furniture and musical instrument making in the 18th and 19th century. The fruit is used in making jellies and jams, syrups and cordials, and desserts. As color descriptor, often associated with women's beauty, as in <q>cherry-cheeked</q> or <q>cherry-lipped</q>. </note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/wild-cherry/"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Prunus_avium"/></note>
                </item>
@@ -2081,7 +2090,7 @@
                   <name type="genus">Syringa</name>
                   <name type="family">Oleaceae</name>
                   <name><addName>common lilac</addName></name>
-                  <note resp="#lmw">Large flowering shurb native to the Balkan Peninsula, introduced as a garden plant and sometimes naturalized elsewhere, including in the UK. Fragrant lavendar, purple, mauve or white tube-shaped flowerets are arranged in large, showy panicles.</note>
+                  <note resp="#lmw">Large flowering shurb native to the Balkan Peninsula, introduced as a garden plant and sometimes naturalized elsewhere, including in the UK. Fragrant lavendar, purple, mauve, or white tube-shaped flowerets are arranged in large, showy panicles.</note>
                   <note><ptr target="https://www.rhs.org.uk/Plants/99011/Syringa-vulgaris/Details"/></note>
                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/trees-and-shrubs/lilac"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Syringa_vulgaris"/></note>
@@ -2201,7 +2210,7 @@
                   <name type="genus">Pelargonium</name>
                   <name type="family">Geraniaceae</name>
                   <name><addName>stork's beak</addName></name>
-                  <note resp="#tfb #lmw">A group of flowering plants From the time of Linnaeus, both <name ref="#geranium">geraniums</name> and <name ref="#pelargoniums">pelargoniums</name> were thought to be part of the same family of Geraniums. During the 18th century, naturalists began to propose they formed a separate genus in the same family. The genus is small leggy plant with showy flower clusters in shades of red, pink, purple, and white; native to southern Africa and Australia, and is grown as an annual garden plant worldwide, although zonal pelargoniums are perennial in their native tropical climates. The majority of pelargoniums grown as annual bedding plants worldwide originated in South Africa.</note>
+                  <note resp="#tfb #lmw">A group of flowering plants From the time of Linnaeus, both <name ref="#geranium">geraniums</name> and <name ref="#pelargonium">pelargoniums</name> were thought to be part of the same family of Geraniums. During the 18th century, naturalists began to propose they formed a separate genus in the same family. The genus is small leggy plant with showy flower clusters in shades of red, pink, purple, and white; native to southern Africa and Australia, and is grown as an annual garden plant worldwide, although zonal pelargoniums are perennial in their native tropical climates. The majority of pelargoniums grown as annual bedding plants worldwide originated in South Africa.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Pelargonium"/></note></item>
                
                <item xml:id="bluebell">
@@ -2251,18 +2260,29 @@
          
             <div type="publications">
                <listBibl sortKey="work_MRM">
+                  
+                  <bibl xml:id="Aesops_Fables_Croxall">
+                     <title level="m">Fables of Aesop and Others, Translated into English. With Instructive Applications; and a Cut Before Each Fable.</title>
+                     <author><persName ref="#Aesop">Aesop</persName></author>
+                     <author>Croxall</author>
+                     <publisher>George Philip and Son</publisher>
+                     <publisher>Thomas Astley</publisher>
+                     <pubPlace ref="#London_city">London</pubPlace>
+                     <date notBefore="1722" notAfter="1728"/>
+                     <note resp="#lmw">The most influential and frequently reprinted English translation of the <title level="m">Fables of Aesop</title> until well into the nineteenth century, translated by the Rev. Samuel Croxall and first published in the 1720s.</note>
+                  </bibl>
+                  
                   <bibl xml:id="Cistineae">
-                     <title level="m">Cistineae: the Natural Order of Cistus, or Rock-Rose; Illustrated by Coloured Figures &amp; Descriptions of All the Distinct Species, and the Most Prominent Varieties, that could be at Present produced in the Gardens of Great Britain; With the Best Directions for Their Cultivation and Proagation</title>
+                     <title level="m">Cistineae: the Natural Order of Cistus, or Rock-Rose; Illustrated by Coloured Figures &amp; Descriptions of All the Distinct Species, and the Most Prominent Varieties, that could be at Present produced in the Gardens of Great Britain; With the Best Directions for Their Cultivation and Propagation</title>
                      <author><persName ref="#Sweet_Rbt">Robert Sweet</persName></author>
                      <publisher>James Ridgway</publisher>
                      <pubPlace ref="#London_city">London</pubPlace>
                      <date from="1825" to="1830"/>
-                     <note resp="#lmw"><!--add note--></note>
                      <note><ptr target="https://archive.org/details/cistineaenatura00sweegoog/page/n9/mode/2up"/></note>
                   </bibl>
                   
                   <bibl xml:id="Geraniaceae">
-                     <title level="m">Geraniaceae: The Natural Order of Gerania, Illustrated by Coloured Figures and Descriptions; Comprising the Numerous and Beautiful Mule-varieties Cultivated in the Gardens of Great Britain, with Directions for Their Treatment.</title>
+                     <title level="m">Geraniaceae: The Natural Order of Gerania, Illustrated by Coloured Figures and Descriptions; Comprising the Numerous and Beautiful Mule-varieties Cultivated in the Gardens of Great Britain, with Directions for Their Treatment</title>
                   <author><persName ref="#Sweet_Rbt">Robert Sweet</persName></author>
                   <publisher>James Ridgway</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
