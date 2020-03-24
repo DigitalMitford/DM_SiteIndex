@@ -20987,6 +20987,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </location>
                   <note resp="#lmw">The capital and largest city init  <placeName>the Netherlands</placeName>. A key center for finance and trade in Europe from the 17th century, including the book trade. Although Holland became part of the French empire during the Napoleonic era, the Kingdom of the Netherlands was established in 1815, creating new trading opportunities for the capital city.</note>
                </place>
+               <place xml:id="AssizeHall_Reading">
+                  <placeName>Assize Hall, Reading, Berkshire, England</placeName>
+                  <settlement>Reading</settlement>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.4562 -0.967</geo>
+                  </location>
+                  <note resp="#lmw">Assize Court building in central Reading. The current Reading Crown Court Building was not built until 1861, after Mitford's death.</note>
+                  <note><ptr target="https://historicengland.org.uk/listing/the-list/list-entry/1113476"/></note>
+               </place>
+               <place xml:id="Athens">
+                  <placeName>Athens</placeName>
+                  <settlement>Athens</settlement>
+                  <region>Attica</region>
+                  <country>Greece</country>
+                  <location>
+                     <geo>37.983972 23.727806</geo>
+                  </location>
+                  <note resp="#lmw">Ancient world city-state and currently the capital of Greece. During Mitford's time, a stop on the Grand Tour, frequently referenced in literature as the center of Western civilization and learning.</note>
+               </place>
                <place xml:id="Atlantic">
                   <placeName>Atlantic Ocean</placeName>
                   <note resp="#rnes">The ocean that extends between, on the Eastern side, Europe and Africa, and, on the West, the New World (the Americas). Historically known as the Sea of Atlas, after the mythological character who holds up the world.</note>
@@ -21005,6 +21026,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://www.english-heritage.org.uk/visit/places/audley-end-house-and-gardens/"/>
                   </note>
+               </place>
+               <place xml:id="Austria">
+                  <placeName>Austria</placeName>
+                  <country>Austria</country>
+                  <location>
+                     <geo>47.333333 13.333333</geo>
+                  </location>
+                  <note resp="#lmw">Country in central Europe, now the Republic of Austria, made up of nine federated states, whose capital is Vienna. From the 16th century, a center of the Habsburg monarchy and an archduchy and center of the Holy Roman Empire. In the early 19th century, Austria established itself as an empire and a leading power in the German Confederation.</note>
+               </place>
+               <place xml:id="AveMariaLane">
+               <placeName>Ave Maria Lane, London, England</placeName>
+               <settlement>London</settlement>
+               <region>London</region>
+               <country>England</country>
+               <location>
+                  <geo>51.5142 -0.1008</geo>
+               </location>
+               <note resp="#lmw">Runs between Ludgate Hill and Amen Court in the City of London. Home to the Stationer's Hall, the guild hall of the Worshipful Company of Stationers and Newspaper Makers since 1670. In Mitford's time, the location of <orgName ref="#Whittaker_GB_pub">the Whittaker family</orgName>'s publishing house.</note>
                </place>
                <place xml:id="Baltimore">
                   <placeName>Baltimore, Maryland, USA</placeName>
@@ -21497,6 +21536,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#ebb #lmw">County in the south west of <placeName ref="#England">England</placeName> bordering <placeName>the English Channel</placeName>
                      and the <placeName>Bristol Channel</placeName>. Now called Devon.</note>
                </place>
+               <place xml:id="Donnington_Castle">
+                  <placeName>Donnington Castle, Donnington, Berkshire, England</placeName>
+                  <settlement>Donnington</settlement>
+                  <region>Newbury</region>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.419444 -1.3375</geo>
+                  </location>
+                  <note resp="#lmw">Ruined medieval castle, of which only the 14th-century gatehouse remains standing. In 1398, Thomas Chaucer, the brother of <persName ref="#Chaucer">the poet Chaucer</persName>, purchased the castle for his daughter. In 1646, the Castle was captured by <orgName ref="#Royalists">Royalist forces</orgName> and endured an eighteen-month siege by <orgName ref="#Parliamentarians">Parliamentarian forces</orgName>, after which time the main portion of the Castle was demolished. The gatehouse and ruins are now a scheduled ancient monument, number 233041.</note>
+                  <note><ptr target="http://www.newburyhistory.co.uk/donnington-castle"/></note>
+               </place>
                <place xml:id="Drury_Lane_Theatre">
                   <placeName>Theatre Royal, Drury Lane, London, England</placeName>
                   <placeName>
@@ -21590,6 +21641,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <geo>52.3555177 -1.1743197000000691</geo>
                   </location>
                   <note resp="#bas">Country in the British Isles. Borders Scotland and Wales. <placeName ref="#London_city">London</placeName> is the capital city, and is situated on the <placeName ref="#Thames">River Thames</placeName>.</note>
+               </place>
+               <place xml:id="Englefield_House">
+                  <placeName>Englefield House, Englefield, Berkshire, England</placeName>
+                  <settlement>Englefield</settlement>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.443 -1.106</geo>
+                  </location>
+                  <note resp="#lmw">Elizabethan-era country house, currently a Grade II listed building open to the public, which has been used several times as a filming location. During Mitford's lifetime, the estate was owned by of the Benyon family, including Richard Benyon the younger (died 1796) and Richard Benyon De Beauvoir, to whom Mitford dedicated her poem <title ref="#EnglefieldHouse_1827">Englefield House</title> in 1822.</note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Englefield_House#/media/File:Neale(1827)_p4.026_-_Englefield_House,_Berkshire.jpg"/></note>
+                  <note><ptr target="http://www.englefieldestate.co.uk"/></note>
                </place>
                <place xml:id="Essex_county">
                   <placeName>Essex, England</placeName>
@@ -22458,6 +22521,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </placeName> in
                         <date when="1834">1834</date>.</note>
                </place>
+               <place xml:id="Palestine">
+                  <placeName>Palestine</placeName>
+                  <region>Palestine</region>
+                  <location>
+                     <geo>31.6253 35.1453</geo>
+                  </location>
+                  <note resp="#lmw">In Mitford's time, refers not to a country, but to the geographic region in Western Asia known as the Land of Israel or Holy Land referred to in the Christian Bible, comprising the present-day state of Israel, the Palestinian territories, and parts of Jordan. Similar names were used in the ancient world, and the region was later the Roman province of Syria Palaestina. It also refers to the southern section of broader regional designations such as Canaan or the Levant.</note>
+               </place>
                <place xml:id="Paris">
                   <placeName>Paris, France</placeName>
                   <settlement>Paris</settlement>
@@ -22866,6 +22937,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </location>
                   <!-- the country -->
                </place>
+               <place xml:id="Spencers_Wood">
+                  <placeName>Spencers Wood, Berkshire, England</placeName>
+                  <district>Shinfield</district>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.3944 -0.9722</geo>
+                  </location>
+                  <note>Village south of Reading that adjoins Three Mile Cross to the north and lying east of Grazeley. Until 1844, within Hampshire. In Mitford's time, the location, not of a wood, but an open common, which was entirely enclosed by 1864.</note>
+               </place>
                <place xml:id="St_Cyr">
                   <placeName>St. Cyr, France</placeName>
                   <settlement>St. Cyr</settlement>
@@ -23070,6 +23151,26 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      and <placeName ref="#London_city">London</placeName> into the
                      <placeName>Thames Estuary</placeName> to the <placeName>North
                         Sea</placeName>.</note>
+               </place>
+               <place xml:id="Theale">
+                  <placeName>Theale, Berkshire, England</placeName>
+                  <settlement>Theale</settlement>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.437 -1.0776</geo>
+                  </location>
+                  <note resp="#lmw">Village and parish near Reading on the River Kennet, later part of the Kennet and Avon Canal system. From the 17th century, a coach stop on the road from London to Bath and Bristol. From 1847, a stop on the London to Exeter railway line and from 1852 to 1963, a stop on the Berks and Hants Railway, a subsidiary of the Great Western Railway.</note>
+               </place>
+               <place xml:id="Theale_church">
+                  <placeName>Holy Trinity Church, Theale, Berkshire, England</placeName>
+                  <settlement>Theale</settlement>
+                  <region>Tilehurst</region>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <note resp="#lmw #slc">Anglican church built to replace a modest brick chapel built by clergyman Dr. Sheppard, who held the living of the entire parish of Tilehurst. Church, rectory, and school built in memory of Dr. Sheppard by his wife Sophia Routh Sheppard and her brother Martin Routh. Building began shortly after Dr. Sheppard's death in 1814, but the church was not completed and consecreated until <date when="1832-08-21">August 21, 1832</date>, although Mitford speaks of the <q>new church</q> in 1827.</note>
+                  <note>	
+                     <ptr target="http://www.holytrinitytheale.org.uk/content/pages/documents/1491582965.pdf"/></note>
                </place>
                <place xml:id="ThreeMileCross">
                   <placeName>Three Mile Cross, Berkshire, England</placeName>
@@ -23349,6 +23450,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      buried in the Cathedral. <persName ref="#Keats">John Keats</persName> wrote
                      several of his best-known poems while on a visit to the city.</note>
                </place>
+               <place xml:id="Windermere">
+                  <placeName>Windermere, Cumbria, England</placeName>
+                  <settlement>Windermere</settlement>
+                  <region>Cumbria</region>
+                  <country>England</country>
+                  <location>
+                     <geo>54.358333 -2.936111</geo>
+                  </location>
+                  <note resp="#lmw">One of two longest and deepest lakes in England, in the Lake District, located near the town of the same name, now in the County of Cumbria and part of the Lake District National Park. Historically, the lake made up part of the border between the counties of Westmorland and Lancashire.</note>
+               </place>
                <place xml:id="Windsor_Castle">
                   <placeName>Windsor Castle, Windsor, Berkshire, England</placeName>
                   <region>Berkshire</region>
@@ -23413,6 +23524,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#ncl #lmw">Fictional country populated by giantsin <persName ref="#Swift_J">Swift</persName>’s novel <title ref="#GulliversTr_JS">Gulliver’s
                         Travels</title>.</note>
                </place>
+               <place xml:id="FairyLand_Spenser">
+                  <placeName>Faery land</placeName>
+                  <note resp="#lmw">Fictional setting of Spenser's <title ref="#FaerieQu_ES">Faerie Queen</title>.</note>
+               </place>
                <place xml:id="Island_Barataria">
                   <placeName>Barataria</placeName>
                   <note resp="#ncl #lmw">Fictional island of which Sancho Panza is awarded governorship in
@@ -23443,14 +23558,287 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
          </div>
          <div type="nature"><!--ebb 2016-06-07 Changed from div type="plant" to add animal species list. -->
             <list sortKey="animals">
-               <item xml:id="Long_tailed_wren">
-                  <name>long-tailed wren</name>
-                  <name>Naga wren-babbler</name>
-                  <name type="genus">Spelaeornis</name>
-                  <name type="species">chocolatinus</name>
-                  <name type="family">Timaliidae</name>
-                  <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis
-                     chocolatinus), a bird species in the family Timaliidae.</note>
+               <item xml:id="wren_crested">
+                  <name>crested wren</name>
+                  <name type="species">Regulus regulus</name>
+                  <name type="genus">Regulus</name>
+                  <name type="family">Regulidae</name>
+                  <name><addName>golden-crested wren</addName></name>
+                  <name><addName>goldcrest</addName></name>
+                  <note resp="#lmw">Tiny olive-green songbird whose head has a distinctive yellow or orange stripe, frequents woodlands and gardens. Called the crested wren in Mitford's time and earlier, although this bird is not a member of the wren family, but is from the family of kinglets and firecrests. Despite its tiny size, considered the <soCalled>king of the birds</soCalled> in European folklore.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/goldcrest/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Regulus_regulus"/></note>
+               </item>
+               
+               <item xml:id="kingfisher">
+                  <name>common kingfisher</name>
+                  <name type="species">Alcedo atthis</name>
+                  <name type="genus">Alcedo</name>
+                  <name type="family">Alcedinidae</name>
+                  <note resp="#lmw">Small blue and orange bird with a large head pointed beak; frequents riparian areas and feeds on small fish and other invertebrates. Widely distributed across Eurasia and North Africa.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/kingfisher/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Alcedo_atthis"/></note>
+               </item>
+               
+               <item xml:id="blackbird">
+                  <name>common blackbird</name>
+                  <name type="species">Turdus merula</name>
+                  <name type="genus">Turdus</name>
+                  <name type="family">Turdidae</name>
+                  <name><addName>Eurasian blackbird</addName></name>
+                  <note resp="#lmw">Medium-sized black member of the thrush family, with a yellow-orange bill and distinctive yellow ring around its eye. Widely distributed across Eurasia and North Africa; unrelated to New World blackbirds.</note><note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/blackbird/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Turdus_merula"/></note>
+               </item>
+               
+               <item xml:id="rook">
+                  <name>rook</name>
+                  <name type="species">Corvus frugilegus</name>
+                  <name type="genus">Corvus</name>
+                  <name type="family">Corvidae</name>
+                  <note resp="#lmw">Large member of the crow family, with a distinctive light-colored bill and featherless area on the face; roosts at the tops of trees in large social groups. Historically, British farmers have considered them nuisances, as they make holes while foraging in agricultural fields and elsewhere for seeds and ground-based insects like grubs.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/rook/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Corvus_frugilegus"/></note>
+               </item>
+               
+               <item xml:id="cuckoo">
+                  <name>common cuckoo</name>
+                  <name type="species">Cuculus canorus</name>
+                  <name type="genus">Cuculus</name>
+                  <name type="family">Cuculidae</name>
+                  <name><addName>European cuckoo</addName></name>
+                  <note resp="#lmw">Migratory medium-sized blue-gray bird with long tail and wings that arrives in the UK in early spring. They are brood parasites who lay their eggs in the nest of other birds; they became proverbial for usurpers. <persName ref="#Wordsworth_Wm">Wordsworth</persName> published a poem <title level="a">To Cuckoo</title> in 1807.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/cuckoo/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Cuculus_canorus"/></note>
+               </item>
+               
+               <item xml:id="swallow">
+                  <name>swallow</name>
+                  <name type="species">Hirundo rustica</name>
+                  <name type="genus">Hirundo</name>
+                  <name type="family">Hirundinidae</name>
+                  <name><addName>barn swallow</addName></name>
+               </item>
+               <note resp="#lmw">Bluish-black insect-eating migratory bird with a deeply forked tail, whitish underparts and rusty red head markings. The only type of swallow resident in the UK, where it is called the <soCalled>swallow</soCalled>. Writing in 1789, <persName ref="#WhiteGilbert">Gilbert White</persName> notes that it is also called the <soCalled>chimmney swallow</soCalled> in Britain and the <soCalled>barn swallow</soCalled> in Sweden and in the Americas. Nests in manmade structures and frequents open meadows and pastures. Mitford generally uses the term <q>swallow</q>.</note>
+               <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/swallow/"/></note>
+               <note><ptr target="https://species.wikimedia.org/wiki/Hirundinidae"/></note>
+               
+               <item xml:id="turtle_dove">
+                  <name>turtle dove</name>
+                  <name type="species">Streptopelia turtur</name>
+                  <name type="genus">Streptopelia</name>
+                  <name type="family">Columbidae</name>
+                  <name><addName>European turtle dove</addName></name>
+                  <note resp="#SCR #lmw">Small, pale brown and gray migratory member of the dove and pigeon family. Once common throughout Europe and the Middle East and wintering in southern Africa, it is now an endangered species in the UK and elsewhere. This bird is known for its mournful voice, and is therefore associated with love and loss. Mentioned in both the Old and New Testaments, in early-modern Europe the bird became mythologized as the partner of the phoenix.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/turtle-dove/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Streptopelia_turtur"/></note>
+               </item>
+               
+               <item xml:id="skylark">
+                  <name>skylark</name>
+                  <name type="species">Alauda arvensis</name>
+                  <name type="genus">Alauda</name>
+                  <name type="family">Alaudidae</name>
+                  <name><addName>Eurasian skylark</addName></name>
+                  <note resp="#SCR #lmw">Eurasian songbird with gray-brown plumage above and whitish plumage beneath. Famous for its melodius warbling song while in flight, and symbolically associated with the passionate enthusiasm of love and lovers. Percy Shelley's poem <title level="a">To a Skylark</title> appeared in 1820.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/skylark/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Alauda_arvensis"/></note>
+               </item>
+               
+               <item xml:id="lark">
+                  <name>lark</name>
+                  <note resp="#lmw">In the UK, the lark family includes the <name ref="#woodlark">woodlark</name>, the <name ref="#skylark">skylark</name>, and the <name ref="#shore_lark">shore lark</name>. In Britain, the term <soCalled>lark</soCalled> conventionally refers to the <name ref="#skylark">skylark</name>. Because of its habit of singing early in the morning, proverbial for early rising, and symbolic of happiness.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/lark-family/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Alaudidae"/></note>
+               </item>
+               
+               <item xml:id="woodlark">
+                  <name>woodlark</name>
+                  <name type="species">Lullula arborea</name>
+                  <name type="genus">Lullula</name>
+                  <name type="family">Alaudidae</name>
+                  <note resp="#lmw">Eurasian lark with distinctive black and yellow facial markings. Prefers open clearings near pine forest and heathland.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/woodlark/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Lullula_arborea"/></note>
+               </item>
+               
+               <item xml:id="shore_lark">
+                  <name>shore lark</name>
+                  <name type="species">Eremophila alpestris</name>
+                  <name type="species">Eremophila</name>
+                  <name type="family">Alaudidae</name>
+                  <name><addName>horned lark</addName></name>
+                  <note resp="#lmw">Lark native to northern Eurasia and North America; also known as the <soCalled>horned lark</soCalled>. Prefers open fields as well as seashores.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/shore-lark/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Eremophila_alpestris"/></note>
+               </item>
+               
+               <item xml:id="nightingale">
+                  <name>nightingale</name>
+                  <name type="species">Luscinia megarhynchos</name>
+                  <name type="genus">Luscinia</name>
+                  <name type="family">Muscicapidae</name>
+                  <note resp="#SMP #lmw">A medium-sized migratory songbird, brown above and beige or whitish below, native to Eurasia and overwintering in sub-saharan Africa. Best known for its beautiful and powerful song. Prefers habitats of coppiced woods and scrubland. Great Britain represents the nothernmost extent of its range. Became proverbial for a person with a melodious speaking voice or with an extraordinary singing voice.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/nightingale/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Luscinia_megarhynchos"/></note>
+               </item>
+               
+               <item xml:id="dove">
+                  <name>dove</name>
+                  <name type="species">Columbidae</name>
+                  <name type="genus">Streptopelia</name>
+                  <name type="family">Columbidae</name>
+                  <note resp="#lmw">During the 19th century, four types of doves and pigeons were found in Britain: the <name ref="#stock_dove">stock dove</name>, the <name ref="#rock_dove">rock dove</name>, or feral species of the domestic pigeon, and the <name ref="#turtle_dove">turtle dove</name>, as well as the <name ref="#wood_pigeon">wood pigeon</name>. Domesticated pigeons such as carrier, homing, and racing pigeons are species of the rock dove. In Britain, the <name ref="#wood_pigeon">wood pigeon</name> is hunted as a game bird and domesticated pigeons were also used as food. In the ancient world, doves were associated with goddesses of love, sexuality, and maternity, such as Inanna Ishtar and Aphrodite. Doves carry symbolic significance in both the Old and New Testaments of the Hebrew Bible: in Genesis in the story of Noah and the ark as a symbol of peace and deliverance, in the Song of Songs as a term of endearment, and in Matthew as a symbol of the Holy Spirit. Doves were also acceptable burnt offerings and came to symbolize peace in early Christianity. Later literary and artistic references often draw on this association of white doves with peace, deliverance, and spiritual gifts, and are representations of the rock dove, which is highly variable in color, ranging from white to shades of grey and pale brown.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/pigeons-and-doves/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Columbidae"/></note>
+               </item>
+               
+               <item xml:id="stock_dove">
+                  <name>stock dove</name>
+                  <name type="species">Columba oenas</name>
+                  <name type="genus">Columba</name>
+                  <name type="family">Columbidae</name>
+                  <note resp="#lmw">Eurasian dove, pale grey above and below with a pinkish neck and iridescent green neck band, common in the UK. Similar in size and shape to the <name ref="#rock_dove">rock dove</name>, but lacking a white rump.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/stock-dove/"/></note>
+                  <note resp="#lmw"><ptr target="https://species.wikimedia.org/wiki/Columba_oenas"/></note>
+               </item>
+               
+               <item xml:id="rock_dove">
+                  <name>rock dove</name>
+                  <name>pigeon</name>
+                  <name type="species">Columba livia</name>
+                  <name type="genus">Columba</name>
+                  <name type="family">Columbidae</name>
+                  <name ref="#rock_dove"><addName>rock pigeon</addName></name>
+                  <note resp="#lmw">Very common and widely-distributed dove, originally native to Eurasia and North Africa. Feral rock doves are pale grey with an iridescent green neck and two black bars on their wings. Domesticated pigeons, including racing, homing and carrier pigeons, as well as those raised for food, are all part of the rock dove family. Highly variable in color, ranging from white to pale grey and brown, with a white rump. Literary and artistic representations of doves are most often white rock doves.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/rock-dove/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Columba_livia"/></note>
+               </item>
+               
+               <item xml:id="wood_pigeon">
+                  <name>woodpigeon</name>
+                  <name type="species">Columba palumbus</name>
+                  <name type="genus">Columba</name>
+                  <name type="family">Columbidae</name>
+                  <note resp="#lmw">The most common member of the dove and pigeon family in Britain, a large grey pigeon with a pinkish breast and distinctive white patches on its neck and wings.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/woodpigeon/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Columba_palumbus"/></note>
+               </item>
+               
+               <item xml:id="robin">
+                  <name>robin redbreast</name>
+                  <name type="species">Erithacus rubecula</name>
+                  <name type="genus">Erithacus</name>
+                  <name type="family">Muscicapidae</name>
+                  <name><addName>European robin</addName></name>
+                  <name><addName>bobbie</addName></name>
+                  <note resp="#lmw">Small songbird, native to Europe, now considered a type of Old World flycatcher. In Mitford's time, believed to be part of the thrush family, along with nightingales. Not to be confused with the American robin, a new World thrush, this bird is sometimes referred to as an <soCalled>English robin</soCalled> in North America. Frequently referenced in British folk tales and popular culture, the bird became associated with the Christmas holiday in the mid-nineteenth century. The bird's name derives from the male forename Robin or Robert, which led to nicknames of <soCalled>Bob</soCalled> and <soCalled>Bobby</soCalled>. Robins in Great Britain are generally less wary of humans than their counterparts in continental Europe. Mitford calls the tame robins she feeds her <q>bobbies</q>.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/robin/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Erithacus_rubecula"/></note>
+               </item>
+               
+               <item xml:id="pheasant">
+                  <name>pheasant</name>
+                  <name type="species">Phasianus colchicus</name>
+                  <name type="genus">Phasianus</name>
+                  <name type="family">Phasianidae</name>
+                  <name><addName>common pheasant</addName></name>
+                  <note resp="#lmw">Large long-tailed game bird, native to Asia and with populations elsewhere naturalized as well as raised for hunting. The males are brightly-colored, with green heads, while the females are drab. Hybridization has bred types in a variety of colors. Pheasants, likely from the Caucasus, were naturalized in Britain by at least 1050 AD, and may have arrived earlier, with the Romans. The ring-necked variety was reintroduced in the 18th century. In the UK, the birds are hunted by traditional driven-shoot methods, employing beaters, and rough-shoot methods; both methods rely on gun dogs to flush and retrieve the birds.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/pheasant/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Phasianus_colchicus"/></note>
+               </item>
+               
+               <item xml:id="partridge">
+                  <name>grey partridge</name>
+                  <name type="family">Phasianidae</name>
+                  <name type="genus">perdix</name>
+                  <name type="species">Perdix perdix</name>
+                  <name><addName>English partridge</addName></name>
+                  <name><addName>Hungarian partridge</addName></name>
+                  <note resp="#lmw">Medium-sized plump grey game bird, smaller than a pheasant and larger than a quail. Native to Eurasia and the UK; has naturalized throughout North America. A nonmigratory bird that breeds on farmland, it is currently threatened in the UK, while populations remain healthy elsewhere.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/grey-partridge/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Perdix_perdix"/></note>
+               </item>
+               
+               <item xml:id="duck_wild">
+                  <name>wild duck</name>
+                  <name>mallard</name>
+                  <name type="species">Anas platyrhynchos</name>
+                  <name type="genus">Anas</name>
+                  <name type="family">Anatidae</name>
+                  <note resp="#lmw">Large dabbling duck with yellow-orange bill and dark blue and white wing tips, native to Eurasia, North Africa, and North America. Females are shades of brown, and males have a green head, purplish breast, and grey body. This wild species is the ancestor of most domestic ducks. They are the most commonly-hunted duck and have been a food source since ancient times. Mitford generally uses the term <q>wild duck</q> rather than <soCalled>mallard</soCalled>.<!--scw: The wild ducks in this sketch are actually served as food. I am tagging them anyway.--></note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/mallard/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Anas_platyrhynchos"/></note>
+               </item>
+               
+               <item xml:id="hornet">
+                  <name>hornet</name>
+                  <name type="species">Vespa crabro</name>
+                  <name type="genus">Vespa</name>
+                  <name type="family">Vespidae</name>
+                  <name><addName>European hornet</addName></name>
+                  <note resp="#lmw">Large nesting wasp native to Eurasia and southern England, transported into North America in the nineteenth century. Also called <soCalled>yellowjackets</soCalled>.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/hornet/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Vespa_crabro"/></note>
+               </item>
+               
+               <item xml:id="glow_worm">
+                  <name>glow-worm</name>
+                  <name type="species">Lampyris noctiluca</name>
+                  <name type="genus">Lampyris</name>
+                  <name type="family">Lampyridae</name>
+                  <note resp="#lmw">A nocturnal beetle found throughout Europe and Asia, a member of the bioluminescent family of insects commonly called <soCalled>lightning bugs</soCalled> or <soCalled>fireflies</soCalled>. The female forms are wingless, and thus became known as <soCalled>worms</soCalled>. Found in old-growth meadows, verges, hedgerows, and heaths, peaking in June and July. A favorite subject for poets from at least the early-modern period; in Mitford's time, a common subject, particularly for sonnets, by authors who include Charlotte Smith, Anna Maria Porter, William Wordsworth, and John Clare.</note>
+                  <note><ptr target="https://www.nhm.ac.uk/discover/the-glimmering-world-of-glow-worms.html"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Lampyris_noctiluca"/></note>
+               </item>
+               
+               <item xml:id="grasshopper">
+                  <name>grasshopper</name>
+                  <name type="order">Orthoptera</name>
+                  <note resp="#lmw">Insect of the order of Orthoptera with large head, chewing mouthparts, and large hind legs for jumping. Fourteen types of grasshoppers and groundhoppers are found in the UK. The most common are the woodland, common green, field, meadow, and rufous grasshoppers. Symbolic of laziness and lack of prudence and foresight in <persName ref="#Aesop">Aesop</persName>'s fable, <title level="a">The Grasshopper and the Ant</title>. Mitford generally uses the simple term <q>grasshopper</q>.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Caelifera"/></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/></note>
+               </item>
+               
+               <item xml:id="cricket">
+                  <name>cricket</name>
+                  <name type="species">Gryllus campestris</name>
+                  <name type="genus">Gryllus</name>
+                  <name type="family">Gryllidae</name>
+                  <name><addName>European field cricket</addName></name>
+                  <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endangered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush crickets are also found in the UK. Symbolically associated with good luck. Mitford generally uses the simple term <q>cricket</q>.</note>
+                  <note><ptr target="https://www.rspb.org.uk/our-work/conservation/projects/field-cricket-reintroduction/"/></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Gryllus_campestris"/></note>
+               </item>
+               
+               <item xml:id="earwig">
+                  <name>earwig</name>
+                  <name type="species">Forficula auricularia</name>
+                  <name type="genus">Forficula</name>
+                  <name type="order">Dermaptera</name>
+                  <name><addName>common earwig</addName></name>
+                  <note resp="#lmw">Dark brown crawling insect with back pincers and lighter brown legs and folded leathery wing cases which were thought to resemble human ears. Hide in dark and damp places such as under rocks, flowerpots, and tree bark. Generally harmless, they can be considered pests since they feed on some flowering plants and pantry foodstuffs; however, they are also beneficial in gardens in that they eat destructive smaller insects such as greenfly that attack plants.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/beetles-and-bugs/earwig/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Forficula_auricularia"/></note>
+               </item>
+               
+               <item xml:id="bee">
+                  <name>bee</name>
+                  <name type="genus">Apis</name>
+                  <note resp="#lmw">Social insect collecting nectar to produce wax and honey. Both honeybees and bumblebees are common in the UK. Proverbial for busy and diligent workers, as in the Isaac Watts poem, <title level="a">Against Idleness and Mischief.</title></note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/"/></note>
+               </item>
+               
+               <item xml:id="ant">
+                  <name>ant</name>
+                  <name type="species">Lasius niger</name>
+                  <name type="genus">Lasius</name>
+                  <name type="family">Formicidae</name>
+                  <name><addName>black garden ant</addName></name>
+                  <name><addName>common black ant</addName></name>
+                  <note resp="#lmw">Small, mostly wingless social insect. Symbolic of hard work, prudence, and foresight in <persName ref="#Aesop">Aesop</persName>'s fable, <title level="a">The Grasshopper and the Ant</title>.</note>
+                  <note><ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/other-garden-wildlife/insects-and-other-invertebrates/bees-wasps-ants/black-garden-ant/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Lasius_(Lasius)_niger"/></note>
                </item>
                
                <item xml:id="swan">
