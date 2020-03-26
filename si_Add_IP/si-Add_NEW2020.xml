@@ -122,6 +122,16 @@
           
           <listPerson sortKey="histPersons">
              
+             <person xml:id="Sally" sex="f">
+                <persName>Sally</persName>
+                <persName>
+                   <surname/>
+                   <forename>Sally</forename>
+                </persName>
+                <occupation type="service"/>
+                <note resp="#lmw">Servant at <placeName ref="#Bertram_house">Bertram House</placeName>, dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. Surname unknown.</note>
+             </person>
+             
              <person xml:id="Brooke_Miss" sex="f"><!--existing id-->
                 <persName>Miss Brooke</persName>
                 <persName>
