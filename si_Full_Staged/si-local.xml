@@ -24142,18 +24142,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="cowslip">
                   <name>cowslip</name>
-                  <name>common cowslip</name>
-                  <name>cowslip primrose</name>
+                  <name><addName>common cowslip</addName></name>
+                  <name><addName>cowslip primrose</addName></name>
                   <name type="genus">Primula</name>
-                  <name type="species">veris</name>
+                  <name type="species">Primula veris</name>
                   <name type="family">Primulaceae</name>
-                  <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>’s favorite
-                     flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>.
-                     Mitford likely refers to Primula veris (also called cowslip, common cowslip,
-                     cowslip primrose), a flowering plant in the genus Primula of the family
-                     Primulaceae. The species is native throughout most of temperate
-                        <placeName>Europe</placeName> and <placeName>Asia</placeName>, although
-                     absent from more northerly areas. May hybridize with <rs type="plant" ref="#primrose">English/common primroses</rs>. </note>
+                  <note resp="#lmw">
+                     Mitford likely refers to Primula veris (also called cowslip, common cowslip, cowslip primrose), a plant bearing yellow flowers in spring, found in woods and meadows, native throughout most of temperate Eurasia, although absent from more northerly areas. May hybridize with <rs type="plant" ref="#primrose">English or common primroses</rs>.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/cowslip/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Primula_veris"/></note>
                </item>
                <item xml:id="cranesbill">
                   <name>crane's bill</name>

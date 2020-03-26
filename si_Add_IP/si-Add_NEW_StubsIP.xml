@@ -70,16 +70,21 @@
           <listPerson sortKey="histPersons">
   
   <person xml:id="Tennyson" sex="m">
-     <persName ref="#Tennyson">Tennyson</persName>
+     <persName ref="#Tennyson">Alfred Tennyson</persName>
      <persName>
         <forename>Alfred</forename>
         <surname>Tennyson</surname>
      </persName>
-     <birth>
+     <persName>1st Baron Tennyson</persName>
+     <birth when="1809-08-06">
+        <placeName>Somersby, Lincolnshire, England</placeName>
      </birth>
-     <death></death>
+     <death when="1892-10-06">
+        <placeName>Lurgashall, Sussex, England</placeName>
+     </death>
      <occupation type="literary" subtype="poet"/>
-     <note resp="#lmw"></note>
+     <note resp="#lmw">Poet laureate of the UK from 1850 to 1892, following <persName ref="#Wordsworth_Wm">Wordsworth</persName>. Buried in Westminster Abbey.</note>
+     <note><ptr target="https://viaf.org/viaf/61540536/"/></note>
   </person>
              
              <person xml:id="Clare_J" sex="m">
@@ -88,8 +93,17 @@
                    <forename>John</forename>
                    <surname>Clare</surname>
                 </persName>
+                <birth when="1793-07-13">
+                   <placeName>Hepstone, Northamptonshire, England</placeName>
+                </birth>
+                <death when="1864-05-20">
+                   <placeName>Northampton General Lunatic Asylum, Northampton, Northamptonshire, England</placeName>
+                </death>
                 <occupation type="literary" subtype="poet"/>
-                <note resp="#lmw"></note>
+                <occupation type="trade"/>
+                <occupation type="servant"/>
+                <note resp="#lmw">Called the <soCalled>peasant poet</soCalled>, Clare worked as an agricultural laborer and manservant.</note>
+                <note><ptr target="https://viaf.org/viaf/51703338/"/></note>
              </person>
              
              <person xml:id="Bonviese_Mr" sex="m">
@@ -370,41 +384,58 @@
 
             
             <list sortKey="plants">
+               <!--      <item xml:id="daisy">
+                  <name>daisy</name>
+                  <name type="species">Bellis perennis</name>
+                  <name type="genus">Bellis</name>
+                  <name type="family">Asteraceae</name>
+                  <name><addName>common daisy</addName></name>
+                  <name><addName>lawn daisy</addName></name>
+                  <name><addName>English daisy</addName></name>
+                  <note resp="#lmw">Perennial white daisy native to Europe and the UK, sometimes with pink-tinged petals. Plants are low-growing rosettes of round or oval leaves; single- and double-flowered varieties are hybridized in red, pink, and white. By the Victorian period, the flower held symbolic associations with childhood and innocence.</note>
+                  <note><ptr target="https://www.rhs.org.uk/Plants/94326/i-Bellis-perennis-i/Details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Bellis_perennis"/></note>
+               </item>-->
                
                <item xml:id="wisteria">
                   <name>wisteria</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <name type="genus">Wisteria</name>
+                  <name type="family">Fabaceae</name>
+                  <note resp="#lmw">Woody climbing bine bearing cascading purple flower plumes, native to Asia and to the eastern US.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/popular/wisteria"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Wisteria"/></note>
                </item>
                
                <item xml:id="azalea">
                   <name>azalea</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
+                  <name type="genus">Rhododendron</name>
+                  <name type="family">Ericaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Flowering shrub carrying abundantly showy red, pink, or white blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 19th century as a garden ornamental, it is now considered an invasive species.</note>
+                  <!--LMW: no wikispecies entry-->
                </item>
                
                <item xml:id="rhododendron">
                   <name>rhododendron</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <name type="species">Rhododendron ponticum</name>
+                  <name type="genus">Rhododendron</name>
+                  <name type="family">Ericaceae</name>
+                  <name><addName>common rhododendron</addName></name>
+                  <name><addName>pontic rhododendron</addName></name>
+                  <note resp="#lmw">lowering shrub carrying abundantly showy round flower clusters in shades of mauve or lavendar blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 18th century as a garden ornamental, it is now considered an invasive species.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Rhododendron_ponticum"/></note>
                </item>
                
                <item xml:id="cotton_grass">
-                  <name>cotton grass</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <name>cottongrass</name>
+                  <name type="species">Eriophorum angustifolium</name>
+                  <name type="genus">Eriophorum</name>
+                  <name type="family">Cyperaceae</name>
+                  <name><addName>cotton-grass</addName></name>
+                  <name><addName>cottonsedge</addName></name>
+                  <note resp="#lmw">Sedge that develops fluffy white heads.</note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/grasses-sedges-and-rushes/common-cotton-grass"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Eriophorum_angustifolium"/></note>
                </item>
                
                <item xml:id="hearts_ease">
