@@ -52,6 +52,8 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
+            <change when="2020-08-07" who="#ebb">updated editor entries for me and Greg Bondar to reflect new posts at Penn State Erie. Correction to alphasort.xsl to ensure that only the edition element inside the editionStmt in the teiHeader is processed with Digital Mitford data.</change>
+            <change when="2020-08-07" who="#lmw">added around 200 new entries, mainly flora and fauna.</change>
             <change when="2020-02-18" who="#lmw">Updating DM editors section.</change>
             <change when="2020-02-17" who="#lmw">correcting quotation marks and other formatting issues in entries, in main file.</change>
             <change when="2019-06-30" who="#ebb">Repaired the AlphaSort XSLT template to undo and prevent deeply nested roleNames on the DM editor list.</change>
