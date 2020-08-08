@@ -11,7 +11,7 @@
 
     <xsl:mode on-no-match="shallow-copy"/>
     
-    <xsl:template match="edition">
+    <xsl:template match="editionStmt/edition">
         
        <edition><xsl:text>Site Index for the Digital Mitford project. Date: </xsl:text>
         <xsl:value-of select="current-dateTime()"/>
