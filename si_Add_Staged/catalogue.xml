@@ -1,3 +1,10 @@
-<collection>
- <doc href="si-Add_MitfordFriends3.xml"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  A Saxon collection catalog file.
+  This specifies a set of files that will form the content of a collection.
+  A Saxon collection catalog file can be passed as an argument to the collection 
+  function or can be set in a Saxon configuration file as the default collection.
+-->
+<collection stable="true">
+  <doc href="si-Add_MitfordFriends3.xml"/>
 </collection>
