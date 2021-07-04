@@ -7747,7 +7747,7 @@
                      <roleName>3rd Lord Fairfax of Cameron</roleName>
                      <roleName>Lord General of the <orgName ref="#New_Model_Army">New Model Army</orgName>
                      </roleName>
-                  </persName>
+                    </persName>
                   <birth when="1612-01-17">
                      <placeName>Denton Hall, Yorkshire, England
                      </placeName>
@@ -7757,12 +7757,8 @@
                   </death>
                   <occupation type="government" subtype="politician"/>
                   <occupation type="military" subtype="army"/>
-                  <note resp="#rnes">Lord General of the <orgName ref="#New_Model_Army">New Model Army</orgName>. He later
-                     served as Member of Parliament for <placeName>
-                        <district>West Riding</district>
-                     </placeName>and<placeName>
-                        <district>Yorkshire</district>
-                     </placeName>.</note>
+                  <note resp="#rnes #ebb">Lord General of the <orgName ref="#New_Model_Army">New Model Army</orgName>. Fairfax was the commanding officer of <persName ref="#Cromwell">Oliver Cromwell</persName>, but took a moderate stance in relation to <persName ref="#ChasI">Charles I</persName>, and he refused to participate in <rs type="event" ref="#ChasI_trial">the King's trial</rs>.
+                   He later served as Member of Parliament for <placeName>West Riding</placeName> and <placeName>Yorkshire</placeName>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/74654593"/>
                   </note>
