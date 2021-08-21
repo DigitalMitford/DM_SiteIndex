@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index: Additions Template, for Adding and Updating Named Entities in the
+               Digital Mitford Archive</title>
+            <author>Digital Mitford Editors</author>
+            <editor><persName ref="#lmw">Lisa M. Wilson</persName>
+            </editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Data extraction and compiling by</resp>
+               <persName type="hist" ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#lmw">Lisa M. Wilson</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Information on named entities in this file has been extracted from files in the
+               Digital Mitford Archive.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body>  
+              <!-- LMW:  Additions to SI entries about the 1827 sonnets, earlier publication dates. (should go in their own entries eventually)-->
+                 
+         <div type="publications">
+            <listBibl sortKey="work_MRM"> 
+              
+               <bibl xml:id="WestonGrove_1827">
+                  <title level="a">Weston Grove: A Descriptive Poem [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc  #lmw">Narrative poem</note>
+               </bibl>
+               
+              
+               
+               <bibl xml:id="WrittenOct1825_1827">
+                  <title level="a">Written October, 1825 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">316</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 22 in the 1827 collection <biblScope unit="pp">(page 316)</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Amulet">Amulet</title> as <title level="a">Sonnet. By Miss Mitford</title><biblScope unit="pp">(page 236)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="FriendToLisbon_1827">
+                  <title level="a">On the Departure of a Friend to Lisbon for the Recovery of Her Health [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">315</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 21 in the 1827 collection <biblScope unit="pp">(page 315)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="IntendedRemoval_1827">
+                  <title level="a">On an Intended Removal From a Favourite Residence. November, 1820 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">314</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 20 in the 1827 collection <biblScope unit="pp">(page 314)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> <biblScope unit="pp">(page 81)</biblScope></bibl> signed <q>M</q>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenAfterVisit_1827">
+                  <title level="a">Written After a Visit From Some Friends [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">313</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 19 in the 1827 collection <biblScope unit="pp">(page 313)</biblScope>.</bibl></note>
+               </bibl>
+               
+               <bibl xml:id="DonningtonCastle_1827">
+                  <title level="a">On Visiting Donnington Castle [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">311-12</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 18 in the 1827 collection <biblScope unit="pp">(pages 311-12)</biblScope>.</bibl> Also appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet on Visiting Donnington Castle</title><biblScope unit="pp">(page 532)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="FriendsAlbum_1827">
+                  <title level="a">Written in a Friend's Album [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">310</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 17 in the 1827 collection <biblScope unit="pp">(page 310)</biblScope></bibl>. Also appeared in <bibl><title ref="#Marshalls_Christmas">Marshall's Christmas Box</title> in <date when="1831">1831</date></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="LeavingPicture_1827">
+                  <title level="a">On Leaving a Favourite Picture [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">309
+                </biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 16 in the 1827 collection <biblScope unit="pp">(page 309)</biblScope></bibl>. Appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet. On a Landscape by Mr. Hofland</title><biblScope unit="pp">(page 392)</biblScope></bibl>. Later appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 233)</biblScope>.</bibl></note></bibl>
+               
+               <bibl xml:id="FriendBirthday_1827">
+                  <title level="a">To a Friend on Her Birthday [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">308</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 15 in the 1827 collection <biblScope unit="pp">(page 308)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> <biblScope unit="pp">(page 369)</biblScope></bibl> signed <q>M</q>.</note>
+               </bibl>
+               
+               <bibl xml:id="FishingSeat_1827">
+                  <title level="a">The Fishing-Seat, Whiteknights [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">307</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 14 in the 1827 collection <biblScope unit="pp">(page 307)</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 287)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HearingTalfourd_1827">
+                  <title level="a">On Hearing Mr. Talfourd Plead in the Assize-Hall at Reading, On His First Circuit, March 1821 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">306</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 13 in the 1827 collection <biblScope unit="pp">(page 306)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="TwoHoflandLandscapes_1827">
+                  <title level="a">On Two of Mr. Hofland's Landscapes [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">305</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 12 in the 1827 collection <biblScope unit="pp">(page 305)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="NewYearsDay_1827">
+                  <title level="a">New Year's Day. 1819 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">304</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 11 in the 1827 collection <biblScope unit="pp">(page 304)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="EnglefieldHouse_1827">
+                  <title level="a">Englefield House [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">303</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 10 in the 1827 collection <biblScope unit="pp">(page 303)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMrHaydon_Nature_1827">
+                  <title level="a">To Mr. Haydon, On a Study From Nature [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">302</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 9 in the 1827 collection <biblScope unit="pp">(page 302)</biblScope></bibl>. Also appeared in the <bibl><date when="1817-07-19">July 19, 1817</date> <title ref="#Lit_Gazette">Literary Gazette</title> as <title level="a">To Mr. Haydon</title> dated <date when="1817-05-21">21st May, 1817</date> <biblScope unit="pp">(page 41)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMissPorden_1827">
+                  <title level="a">To Miss Porden: On Her Poem of COEUR DE LION [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">301</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 8 in the 1827 collection <biblScope unit="pp">(page 301)</biblScope></bibl>. Also appeared in the <bibl><date when="1822-08-17">August 17, 1822</date> <title ref="#Lit_Gazette">Literary Gazette</title> under the same title, dated <date when="1822-06-10">June 10, 1822</date> <biblScope unit="pp">(page 519)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BeautifulWoman_1827">
+                  <title level="a">On a Beautiful Woman [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">300</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 7 in the 1827 collection <biblScope unit="pp">(page 300)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as Sonnet. <biblScope unit="pp">(page 192)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="MotherSleeping_1827">
+                  <title level="a">To My Mother Sleeping [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">299</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 6 in the 1827 collection <biblScope unit="pp">(page 299)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenJuly1824_1827">
+                  <title level="a">Written July, 1824 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">298</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 5 in the 1827 collection <biblScope unit="pp">(page 298)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToHenryRichardson_1827">
+                  <title level="a">To Mr. Henry Richardson. On His Performance of Admetus in the Alcestis of Euripides as Represented in the Original Greek at Reading School [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">296-97</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 4 in the 1827 collection <biblScope unit="pp">(pages 296-97)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ForgetMeNot_1827">
+                  <title level="a">The Forget-Me-Not [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">295</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 3 in the 1827 collection <biblScope unit="pp">(page 295)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HoflandsJerusalem_1827">
+                  <title level="a">On Mr. Hofland's Picture of Jerusalem at the Time of the Crucifixion [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">294</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 2 in the 1827 collection <biblScope unit="pp">(page 294)</biblScope></bibl>. Also appeared in the <bibl><date when="1826">1826</date> <title ref="#Amulet">Amulet</title> as <title level="a">Sonnet: Jerusalem</title> <biblScope unit="pp">(page 329)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BlankPaperBook_1827">
+                  <title level="a">Written in a Blank-Paper Book Given to the Author by a Friend [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">293</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 1 in the 1827 collection <biblScope unit="pp">(page 293)</biblScope></bibl>. Also appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet. Written in a Blank Paper Book Given To the Author by a Friend</title><biblScope unit="pp">(page 387)</biblScope></bibl>.</note>
+               </bibl>
+               
+               
+            </listBibl>
+         </div>
+               
+              
+      </body>
+   </text>
+</TEI>
