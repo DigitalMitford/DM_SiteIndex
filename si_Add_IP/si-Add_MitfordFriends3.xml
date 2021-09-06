@@ -134,7 +134,11 @@
                   <death when="1846-06-22">
                      <placeName ref="#London_city">London</placeName>
                   </death>
-                  <note resp="#ebb #rnes"><!--RNES: this is not a proofreading credit, I wrote part of this-->Benjamin Robert Haydon was a painter educated at the <orgName>Royal Academy</orgName>, who was famous for contemporary, historical, classical, biblical, and mythological scenes, though tormented by financial difficulties and incarceration. He painted <persName ref="#Wordsworth_Wm">William Wordsworth's</persName> portrait in 1842 and painted a cameo of Keats in his epic canvas <title level="m">Christ's Entry into Jerusalem</title>(1814-20). <persName ref="#MRM">MRM</persName> was introduced to him at his London studio in the spring of                    1817, and <persName ref="#Elford_SirWm">Sir William Elford</persName> was a mutual friend, and Haydon's own acquaintances included several prominent British Romantic literary figures. <!--Mention some others? What was he working on and exhibiting in fall 1820? @RNES: i added one possibility-->He completed "The Raising of Lazarus" in 1823. He wrote a diary and an autobiography, both of which were published only posthumously, and he committed suicide in 1846. George Paston's <title level="m">Little Memoirs of the Nineteenth Century</title> (1893) contends that Mitford was asked to edit Haydon's memoir, but declined.<!--ebb: Look up more on this! Mitford was, I think, asked to write his biography but declined? RNES: uncitable (no page #s) reprint Paston on Google Books--></note>
+                  <note resp="#rnes #ebb">
+                     Benjamin Robert Haydon was a painter educated at the <orgName>Royal Academy</orgName>, who was famous for contemporary, historical, classical, biblical, and mythological scenes, though tormented by financial difficulties and incarceration. 
+                     He painted <persName ref="#Wordsworth_Wm">William Wordsworth's</persName> portrait in 1842 and painted a cameo of Keats in his epic canvas <bibl><title level="m" ref="#ChrstEJrslm_Haydon">Christ's Entry into Jerusalem</title>(<date from="1814" to="1820">1814-20</date>)</bibl>. <persName ref="#MRM">MRM</persName> was introduced to him at his London studio in the spring of 1817, and <persName ref="#Elford_SirWm">Sir William Elford</persName> was a mutual friend, and Haydon’s own acquaintances included several prominent British Romantic literary figures. 
+                     He completed <bibl><title level="m" ref="#Lazarus_Haydon">The Raising of Lazarus</title> in <date>1823</date></bibl>. He wrote a diary and an autobiography, both of which were published only posthumously, and he committed suicide in 1846. 
+                     George Paston's <bibl><title level="m">Little Memoirs of the Nineteenth Century</title> (<date>1893</date>)</bibl> contends that Mitford was asked to edit Haydon's memoir, but declined.<!--RNES: uncitable (no page #s) reprint Paston on Google Books--></note>
                   <!-- Haydon, Christ's Entry into Jerusalem, now in Ohio: http://www.athenaeum.edu/discover/Artcollection.aspx -->
                </person>
                
@@ -279,7 +283,7 @@
                      <forename>Thomas</forename>
                      <forename>Noon</forename>
                   </persName>
-                  <note type="bio" resp="#lmw #cmm">
+                  <note type="bio" resp="#lmw #cmm #ebb">
                      <p>Friend, mentor, and frequent correspondent with <persName ref="#MRM">Mitford</persName>.British author and jurist (26 May 1795-13 Mar. 1854) Born in <placeName ref="#Reading_city">Reading, Berkshire</placeName>; died while serving in
                         the <placeName>Court of Stafford</placeName> in 1854. <persName>Charles
                            Dickens</persName> dedicated <title level="m">The Pickwick Papers</title> to

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Site Index: Additions Template, for Adding and Updating Named Entities in the
+               Digital Mitford Archive</title>
+            <author>Digital Mitford Editors</author>
+            <editor><persName ref="#lmw">Lisa M. Wilson</persName>
+            </editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Data extraction and compiling by</resp>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#lmw">Lisa M. Wilson</persName><!--LMW: revising, 2017-07-29--><!--LMW: updating to new schema 2019)-->
+               <persName ref="#rnes">Rebecca Nesvet</persName><!--June 2017-->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Any special notes on this text? (optional)</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Information on named entities in this file has been extracted from files in the
+               Digital Mitford Archive.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Describes our editorial practice.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+      <body><!-- 2021-09-06: ebb: This is just a placeholder file to ensure the directory isn't empty. 
+         Lacking a file to reference in the catalogue.xml seems to cause problems for the Mitford ODD schema. 
+         DELETE this file and remove from the catalogue.xml as soon as we have a new set of entries for SI_Add_Staged.
+         
+         This entry is from si-Add_MitfordFriends3.xml and is a legit update on the Haydon entry in the SI.
+      -->
+
+         <div type="historical_people">
+            
+            <listPerson sortKey="histPersons">
+             
+               <person xml:id="Haydon" sex="m">
+                  <persName>
+                     <surname>Haydon</surname>
+                     <forename>Benjamin</forename>
+                     <forename>Robert</forename>
+                  </persName>
+                  <birth when="1786-01-26">
+                     <placeName>Plymouth, England</placeName>
+                  </birth>
+                  <death when="1846-06-22">
+                     <placeName ref="#London_city">London</placeName>
+                  </death>
+                  <note resp="#rnes #ebb">
+                     Benjamin Robert Haydon was a painter educated at the <orgName>Royal Academy</orgName>, who was famous for contemporary, historical, classical, biblical, and mythological scenes, though tormented by financial difficulties and incarceration. 
+                     He painted <persName ref="#Wordsworth_Wm">William Wordsworth's</persName> portrait in 1842 and painted a cameo of Keats in his epic canvas <bibl><title level="m" ref="#ChrstEJrslm_Haydon">Christ's Entry into Jerusalem</title>(<date from="1814" to="1820">1814-20</date>)</bibl>. <persName ref="#MRM">MRM</persName> was introduced to him at his London studio in the spring of 1817, and <persName ref="#Elford_SirWm">Sir William Elford</persName> was a mutual friend, and Haydon’s own acquaintances included several prominent British Romantic literary figures. 
+                     He completed <bibl><title level="m" ref="#Lazarus_Haydon">The Raising of Lazarus</title> in <date>1823</date></bibl>. He wrote a diary and an autobiography, both of which were published only posthumously, and he committed suicide in 1846. 
+                     George Paston's <bibl><title level="m">Little Memoirs of the Nineteenth Century</title> (<date>1893</date>)</bibl> contends that Mitford was asked to edit Haydon's memoir, but declined.<!--RNES: uncitable (no page #s) reprint Paston on Google Books--></note>
+                  <!-- Haydon, Christ's Entry into Jerusalem, now in Ohio: http://www.athenaeum.edu/discover/Artcollection.aspx -->
+               </person>
+               
+   
+          </listPerson>
+          
+         </div>
+      </body>
+   </text>
+</TEI>
