@@ -5,6 +5,8 @@
   A Saxon collection catalog file can be passed as an argument to the collection 
   function or can be set in a Saxon configuration file as the default collection.
 -->
+<!-- 2021-09-06 ebb: Instructions: Update the collection's <doc> elements by pointing to their exact names in this directory.
+When you add or remove a document, this catalogue file needs to be updated for our schema to function. -->
 <collection stable="true">
-  <doc href="si-Add_MitfordFriends3.xml"/>
+ <!-- ebb: Commenting this out because the file was removed.  <doc href="si-Add_MitfordFriends3.xml"/> -->
 </collection>
