@@ -1,0 +1,3068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
+               <author>Digital Mitford Editors</author>
+                <editor><persName ref="#lmw">Lisa M. Wilson</persName></editor>
+               <sponsor>
+                  <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+               </sponsor>
+               <sponsor>University of Pittsburgh at Greensburg</sponsor>
+               <principal>Elisa Beshero-Bondar</principal>
+               <respStmt>
+                  <resp>Data extraction and compiling by</resp>
+                  <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+                  <persName ref="#lmw">Lisa M. Wilson</persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Proofing and corrections by</resp>
+                  <persName ref="#lmw">Lisa M. Wilson</persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition> </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+               <pubPlace>Greensburg, PA, USA</pubPlace>
+               <date>2013</date>
+               <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>Any special notes on this text? (optional)</note>
+               <!--compiling from Journal 2019-02-24 LMW -->
+               <!--adding stubs from main SI to update-->
+               <!--compiling 1827 sonnet titles 2022-06-04 and other Si-add files-->
+            </notesStmt>
+            <sourceDesc>
+               <p>Information on named entities in this file has been extracted from files in the
+                  Digital Mitford Archive.</p>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+               <p>Describes our editorial practice.</p>
+            </editorialDecl>
+         </encodingDesc>
+      </teiHeader>
+      
+  <text>
+      <body>
+         <div type="Mitford_Team"><!--Check section for other student editors to update and move to past.-->
+            <listPerson sortKey="Mitford_Team">
+               
+               <person xml:id="rjp"><!--update-->
+                  <persName>
+                     <surname>Parker</surname>
+                     <forename>Rebecca</forename>
+                     <forename>Jeanne</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Loyola University Chicago</affiliation>
+                     </roleName>
+                  </occupation>
+                  <!--<occupation>staff assistant, <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref>
+                     <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                  </occupation>-->
+                  <note type="bio">Rebecca Parker is pursuing an M.A. in Digital Humanities at Loyola University in Chicago. She graduated with a B.A. in English Literature and
+                     Social Sciences from the <ref target="http://www.greensburg.pitt.edu/">University of Pittsburgh at Greensburg</ref>, where she has worked as an
+                     assistant for the <ref target="http://www.greensburg.pitt.edu/digital-humanities/center-digital-text">Center for the Digital Text</ref>. She is currently working on a digital
+                     archive of her own. Her project, <ref target="http://nelson.newtfire.org/">The
+                        Restoration of Nell Nelson</ref>, started in spring 2014 as research for her
+                     capstone thesis in history. The Nell Nelson archive intends to restore the
+                     importance of a female investigative reporter that exposed the harmful effects
+                     of industrialization in Chicago at the turn of the twentieth century. Parker’s
+                     interest in Digital Humanities stemmed from her involvement on the Digital
+                     Mitford Project working as <ref target="http://www.pitt.edu/~ebb8/">Dr.
+                        Beshero-Bondar</ref>’s Green Scholar. She is helping to prepare a digital edition of Mary Russell Mitford’s journal of 1819-1823.<!--Rebecca is an active member of <ref target="http://www.english.org/sigmatd/">Sigma Tau Delta</ref> and <ref target="http://www.phikappaphi.org/">Phi Kappa Phi</ref> on her
+                     campus.--></note>
+               </person>
+               
+               <person xml:id="ntcy">
+               <persName>
+                  <surname>Young</surname>
+                  <forename>Nate</forename>
+                  <roleName>Research Assistant</roleName>
+               </persName>
+               <occupation type="scholar">
+                  <roleName>
+                     <affiliation>State University of New York, Potsdam</affiliation>
+                  </roleName>
+               </occupation>
+                  <note>Nate Young graduated in 2022 with a B.F.A. in Creative Writing from the State University of New York at Potsdam. He completed an internship with <persName ref="#lmw">Dr. Wilson</persName> as a Digital Mitford Research Assistant in Spring 2022, focusing on letter transcribing and description.</note>
+                     </person>
+               
+               <person xml:id="dms">
+                  <persName>
+                     <surname>Shembesh</surname>
+                     <forename>Danya</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Danya Shembesh graduated in 2022 with a B.F.A. in Creative Writing from the State University of New York at Potsdam. She completed an internship with <persName ref="#lmw">Dr. Wilson</persName> as a Digital Mitford Research Assistant in Spring 2022, focusing on letter transcribing.</note>
+               </person>
+               
+               <person xml:id="kh">
+                  <persName>
+                     <surname>Hastings</surname>
+                     <forename>Kyanna</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Danya Shembesh graduates in 2023 with a B.F.A. in Creative Writing from the State University of New York at Potsdam. She completed an internship with <persName ref="#lmw">Dr. Wilson</persName> as a Digital Mitford Research Assistant in 2021-2022, focusing on letter transcribing and research.</note>
+               </person>
+               
+               <person xml:id="kkl">
+                  <persName>
+                     <surname>Lampart</surname>
+                     <forename>Kemton</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>State University of New York, Potsdam</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Kemton Lampart graduated in 2022 with a B.S. in Business Administration from the State University of New York at Potsdam, Watertown campus. He completed an internship with <persName ref="#lmw">Dr. Wilson</persName> as a Digital Mitford Research Assistant in fall 2021, focusing on letter transcribing.</note>
+               </person>
+            </listPerson>
+            
+            <listOrg sortKey="archives">
+               <org/>
+            </listOrg>
+         </div>    
+         
+         <div type="Past_Editors"><!--Section contains past Mitford editors and student assistants.-->
+            <listPerson sortKey="Past_Assistants">
+               <person xml:id="whatever"></person>
+            </listPerson>
+            
+            <listPerson sortKey="Past_Editors">
+               <person xml:id="whatever0"></person>
+            </listPerson>
+         </div>
+         
+         <div type="historical_people">
+            <listOrg sortKey="histOrgs">
+               <org xml:id="Anstruthers">
+                  <orgName>the Anstruther family</orgName>
+                  <orgName>Anstruthers</orgName>
+                  <orgName><surname>Anstruther</surname></orgName>
+                  <note resp="#lmw">The family of <persName>Col. Anstruther</persName>.</note>
+               </org>
+               
+               <org xml:id="Brookes">
+                  <orgName>the Brooke family</orgName>
+                  <orgName>Brookes</orgName>
+                  <orgName><surname>Brooke</surname></orgName>
+                  <note resp="#lmw"><!--Mr. and Miss Brooke--></note>
+               </org> 
+             
+               <org xml:id="BroughtonDas">
+                  <orgName>Misses Broughton</orgName>
+                  <orgName>Unmarried daughters of the Broughton family.</orgName>
+               </org>
+               
+               <org xml:id="Drovers">
+                  <orgName>the Drover family</orgName>
+                  <orgName>Drovers</orgName>
+                  <orgName>
+                     <surname>Drover</surname>
+                  </orgName>
+                  <note resp="#ebb">A <rs type="person"
+                     ref="#Drover_JamesSr #Drover_Miss #Drover_JamesJr #Drover_Mrs #Drover_Elizabeth">family</rs> who, according to <persName ref="#Needham_Francis">Francis
+                        Needham</persName>’s notes, lived on <placeName>Minster
+                           Street</placeName>.</note>
+               </org>
+               
+               <org xml:id="Garrards">
+                  <orgName>the Garrard family</orgName>
+                  <orgName>Garrards</orgName>
+                  <orgName><surname>Garrard</surname></orgName>
+                  <note resp="#lmw"></note>
+               </org>
+               
+               <org xml:id="Joliffes">
+                  <orgName>the Joliffe family</orgName>
+                  <orgName>Joliffes</orgName>
+                  <orgName><addName>Jolliffes</addName></orgName>
+                  <orgName><surname>Joliffe</surname></orgName>
+                  <note resp="#lmw"></note>
+               </org>
+               
+               <org xml:id="Marsh_family">
+                  <orgName>the Marsh family</orgName>
+                  <orgName>Marshes</orgName>
+                  <orgName><surname>Marsh</surname></orgName>
+                  <note resp="#lmw">The family of <persName ref="#Marsh_Henry">Harry Marsh</persName>.</note>
+               </org>
+               
+               <org xml:id="Marshs_shop"> 
+                  <orgName>Marsh's</orgName>
+                  <note resp="#rjp #lmw"><!--This is a place the MRM goes to purchase things...likely a retail
+                     store...VERIFY!--><!--LMW: MADE AN orgName as a business, rather than a place. Any relation to Harry Marsh? one-time banker--></note>
+               </org>
+               
+               <org xml:id="Newberys">
+                  <orgName>the Newbery family</orgName>
+                  <orgName>Newberys</orgName>
+                  <orgName><addName>Newberrys</addName></orgName>
+                  <orgName><surname>Newbery</surname></orgName>
+                  <note resp="#lmw">The family of <persName ref="#Newbery_J">Jacob Newbery</persName>.</note>
+               </org>
+               
+               <org xml:id="Parfitt_family"><!--LMW stub. update to add specific people in the family once we confirm-->
+                  <orgName>the Parfitt family</orgName>
+                  <orgName>the Parfitts</orgName>
+                  <note resp="#lmw">Lived at <placeName ref="#Farley_Hill">Farley Hill</placeName>, where Mitford visited them.</note>
+               </org>
+               
+               <org xml:id="Rigby_family">
+                  <orgName>the Rigby family</orgName>
+                  <orgName>the Rigbys</orgName>
+                  <note resp="#lmw">Lived at <placeName ref="#Farley_Hill">Farley Hill</placeName>, where Mitford visited them.</note>
+               </org>
+               
+               <org xml:id="Sherwoods">
+                  <orgName>the Sherwood family</orgName>
+                  <orgName>Sherwoods</orgName>
+                  <orgName><surname>Sherwood</surname></orgName>
+                  <note resp="#lmw">The family of <persName ref="#Sherwood_Mr">Mr. Sherwood</persName>, the local doctor</note>
+               </org>
+               
+               <org xml:id="Whigs"><!--stub. Needs a note, similar to note for Tory. LMW needs to write.-->
+                  <orgName>the Whig party</orgName>
+                  <orgName>Whigs</orgName>
+                  <note resp="#lmw">In Mitford's lifetime, the Whigs developed into a formalized political party under the leadership of Charles James Fox, standing in opposition to the <orgName ref="#Tory"></orgName> party.</note>
+               </org>
+               
+               <org xml:id="Shuters">
+                  <orgName>the Shuter family</orgName>
+                  <orgName>Shuters</orgName>
+                  <orgName><surname>Shuter</surname></orgName>
+                  <note resp="#lmw"></note>
+               </org>
+               
+               <org xml:id="Whites">
+                  <orgName>The White family</orgName>
+                  <orgName>Whites</orgName>
+                  <orgName><surname>White</surname></orgName>
+                  <note resp="#lmw"></note>
+               </org>
+            </listOrg>
+            
+            <listPerson sortKey="histPersons">
+              <!--LMW: last added to on 2019-06-29--><!--LMW: revising 2020-02-14-->
+               
+               <person xml:id="Allaway_Frank" sex="m">
+                  <persName>Frank Allaway</persName>
+                  <persName>
+                     <surname>Allaway</surname>
+                     <forename>Frank</forename>
+                  </persName>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Manservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. He and his brother <persName ref="#George">George</persName>buried <persName ref="#Mossy_pet">Mossy</persName>.</note>
+               </person>
+               
+               <person xml:id="Allaway_Mary" sex="f">
+                  <persName>Mary Allaway</persName>
+                  <persName>
+                     <surname>Allaway</surname>
+                     <forename>Mary</forename>
+                  </persName>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Maidservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
+               </person>
+               
+               <person xml:id="Armstrong_Mr" sex="m">
+                  <persName>Mr. Armstrong</persName>
+                  <persName>
+                     <surname>Armstrong</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Bacon_Mr" sex="m">
+                  <persName>Mr. Bacon</persName>
+                  <persName>
+                     <surname>Bacon</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Bailley_Dr" sex="m">
+                  <persName>Dr. Bailley</persName>
+                  <persName>
+                     <surname>Bailley</surname>
+                     <roleName>Dr.</roleName>
+                  </persName>
+                  <!--<occupation>doctor</occupation>-->
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Bailey_Mr" sex="m">
+                  <persName>Mr. Bailey</persName>
+                  <persName>
+                     <surname>Bailey</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. May be the relation of <persName>Maria Bailey Kirby</persName>. Dates unknown.  <!--LMW:  See my Wheeler family tree; Baillies are intermarried with Wheelers.--></note>
+               </person>
+               
+               <person xml:id="Biggs_Miss" sex="f">
+                  <persName>Miss Biggs</persName>
+                  <persName>
+                     <surname>Biggs</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--associated with Mr. and Miss Johnson (possibly a governess or companion to Miss Johnson?)--></note>
+               </person>
+               
+               <person xml:id="Bonviese_Mr" sex="m">
+                  <persName>Mr. Bonviese</persName>
+                  <persName>
+                     <forename></forename>
+                     <surname>Bonviese</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Boscawen_Col" sex="m">
+                     <persName>Colonel Boscawen</persName>
+                     <persName>
+                        <surname>Boscawen</surname>
+                        <roleName>Colonel</roleName>
+                     </persName>
+                     <note resp="#lmw"></note>
+                  </person>
+                     
+                     <person xml:id="Boyd_Mrs" sex="f">
+                        <persName>Mrs. Boyd</persName>
+                        <persName>
+                           <surname type="married">Boyd</surname>
+                           <roleName>Mrs.</roleName>
+                        </persName>
+                        <note resp="#lmw"></note>
+                     </person>
+               
+               <person xml:id="Bronte_E" sex="f"><!--stub, LMW to write a better note.-->
+                  <persName>Emily Brontë</persName>
+                  <persName>
+                     <surname type="paternal">Brontë</surname>
+                     <forename>Emily</forename>
+                     <forename>Jane</forename>
+                  </persName>
+                  <birth when="1818-07-30">
+                     <placeName>Thornton, West Riding of Yorkshire, England</placeName>
+                  </birth>
+                  <death when="1848-12-19">
+                     <placeName>Haworth, West Riding of Yorkshire, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#lmw">Yorkshire novelist and poet.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/97097302"/>
+                  </note>
+               </person>
+               
+               <person xml:id="Brooke_Miss" sex="f"><!--existing id-->
+                  <persName>Miss Brooke</persName>
+                  <persName>
+                     <surname>Brooke</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#scw">A correspondent of <persName ref="#MRM">Mitford's</persName>, to whom she writes at 11 East Cliff, <placeName ref="#Brighton">Brighton</placeName>. <persName ref="#coles">William Coles</persName>suggests that this could be a summer address, and that she was a resident of <placeName ref="#Reading_city">Reading</placeName>. She was courted by <persName ref="#Valpy_Richard">Dr. Valpy</persName> in <date when="1823-10">October 1823</date>. Forename unknown. Source: <bibl>Letter from <persName ref="#coles">William Coles</persName> to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>
+                  </bibl>, <title ref="#Needham_PapersRCL">
+                     <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL"/></title>.<!--scw: See photo DSCN1167--></note>
+               </person>
+               
+               <person xml:id="Brooke_Mrs" sex="f">
+                  <persName>Mrs. Brooke</persName>
+                  <persName>
+                     <surname>Brooke</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--mother of Miss Brooke?--></note>
+               </person>
+               
+               <person xml:id="Brooke_Mr" sex="m">
+                  <persName>Mr. Brooke</persName>
+                  <persName>
+                     <surname>Brooke</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <death when="1820-04"/>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Browning_Rob" sex="m"><!--stub: LMW to write a better note/Mitford importance.-->
+                  <persName>Robert Browning</persName>
+                  <persName>
+                     <forename>Robert</forename>
+                     <surname>Browning</surname>
+                  </persName>
+                  <birth when="1812-05-07">
+                     <placeName>Camberwell, London, England</placeName>
+                  </birth>
+                  <death when="1889-12-12">
+                     <placeName>Venice, Italy</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#ebb">Victorian poet, married to <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>. Important philsopher-poet and practitioner of the dramatic monologue poetic form. His early poetry was influenced by <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName>.</note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/24598774"/>
+                  </note>
+               </person>
+                     
+                     <person xml:id="Budd_Mrs" sex="f">
+                        <persName>Mrs. Budd</persName>
+                        <persName>
+                           <surname type="married">Budd</surname>
+                           <roleName>Mrs.</roleName>
+                        </persName>
+                        <note resp="#rjp #lmw"><!--In the journal, Mitford mentions that Mrs. Budd lived in
+                           Bedford and died in childbirth on April 28, 1819.--><!--LMW: there is also a Miss Budd who died, possibly married name Mrs. Parks. And George Whittaker married a Sarah Budd, mother of the Whittakers Mitford knew who became publishers. --></note>
+                     </person>
+                     
+                     <person xml:id="Carter_Mr" sex="m"> 
+                        <persName>Mr. Carter</persName>
+                        <persName>
+                           <surname>Carter</surname>
+                           <roleName>Mr.</roleName>
+                        </persName>
+                        <note resp="#lmw"><!--MRM meets him at the Webbs --></note>
+</person>
+                     
+                     <person xml:id="Chamberlaine_Jeremy" sex="m">
+                        <persName>
+                           <surname>Chamberlaine</surname>
+                           <forename>Jeremy</forename>
+                        </persName>
+                        <!--<occupation>shoemaker</occupation>-->
+                        <note resp="#lmw"></note>
+                     </person>
+                     
+                     <person xml:id="Champernowne_Mr" sex="m">
+                        <persName>Mr. Champernowne</persName>
+                        <persName>
+                           <surname>Champernoune</surname>
+                           <roleName>Mr.</roleName>
+                        </persName>
+                        <persName><addName>Mr. Cham.</addName></persName>
+                        <persName><addName>Mr. C.</addName></persName>
+                        <note resp="#rjp #lmw"><!--Mr. Cham. was a friend of Sir William Elford. Mitford
+                           mentions he dies after a few weeks of illness.--><!--LMW: check the 1819 letters where he is mentioned.--></note>
+                     </person>
+               
+               <person xml:id="Clare_J" sex="m">
+                  <persName ref="#Clare_J">John Clare</persName>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Clare</surname>
+                  </persName>
+                  <birth when="1793-07-13">
+                     <placeName>Hepstone, Northamptonshire, England</placeName>
+                  </birth>
+                  <death when="1864-05-20">
+                     <placeName>Northampton General Lunatic Asylum, Northampton, Northamptonshire, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="trade"/>
+                  <occupation type="servant"/>
+                  <note resp="#lmw">Called the <soCalled>peasant poet</soCalled>, Clare worked as an agricultural laborer and manservant.</note>
+                  <note><ptr target="https://viaf.org/viaf/51703338/"/></note>
+               </person>
+               
+               <person xml:id="Clarke_Mrs" sex="f">
+                  <persName>Antonia Macaree Clarke</persName>
+                  <persName>
+                     <surname type="married">Clarke</surname>
+                     <surname type="paternal">Macaree</surname>
+                     <forename>Antonia</forename>
+                     <roleName>Mrs.</roleName>
+                     <addName>Mrs. Clarke</addName>
+                  </persName>
+                     <birth></birth>
+                     <death when="1835-02-04">
+                       <placeName>The Priory, Canterbury, Kent, UK</placeName>
+                     </death>
+                  
+                  <note resp="#lmw"><persName ref="#James_Miss">Miss James</persName> was her companion and, with Mrs. Stuart, widow of the Archbishop of Armagh, a legatee of her estate. Daughter of Johnson Macaree, Saxon scholar, and Anne Knowler. Paternal descendant of a Huguenot refugee family who emigrated in the 16th century; Maternal descendant of the Elstob family, Saxon scholars and connections of Welsh royalty. Lived in London with her husband Anthony, who worked on the Stock Exchange. They retired to the Priory, a home in Canterbury built around some outbuildings of St. Augustine's Monastery, where some of the ruins of St. Ethelbert's Tower featured in her garden. Also a friend and correspondent of writer Anne Macvicar Grant. Sources: <title level="m">Letters and Correspondence of Mrs. Grant of Laggan</title> and obituary in Gentleman's Magazine (1835): 544-545.</note>
+                  <!--Mrs. Clarke obit: https://www.google.com/books/edition/The_Gentleman_s_Magazine/tqHPAAAAMAAJ-->
+               </person>
+               
+                     <person xml:id="Cliff_Jesse" sex="f">
+                        <persName>Jesse Cliff</persName>
+                        <persName>
+                           <surname>Cliff</surname>
+                           <forename>Jesse</forename>
+                        </persName>
+                        <note resp="#rjp">Jesse Clift gave the Mitford family elderly bantams in 1819.<!--lmw: Jesse Clift - spelling? there is a story named jesse Cliffe in country stories. I believe it should be Cliff--></note>
+                     </person>
+                     
+                     <person xml:id="Davies_Mr" sex="m">
+                        <persName>Mr. Davies</persName>
+                        <persName>
+                           <surname>Davies</surname>
+                           <roleName>Mr.</roleName>
+                        </persName>
+                        <note resp="#rjp #lmw"><!--Owns a neighboring meadow.--><!--LMW: same as Farmer Davies?--></note>
+                     </person>
+               
+               <person xml:id="Dawson_GeoP" sex="m">
+                  <persName>George Pelsant Dawson</persName>
+                  <persName>
+                     <surname>Dawson</surname>
+                     <forename>George</forename>
+                     <forename>Pelsant</forename>
+                  </persName>
+                  <birth/>
+                  <death/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="magistrate"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date> and one of the signatories on her request for a Royal Literary Fund pension. Son of George Dawson of Osgodby Hall, Yorkshire and Elmira Reeves of Arborfield House, Berkshire, he inherited the Arborfield Park estate in 1832. He dismantled the existing Jacobean manor house and built a new mansion, Arborfield House by 1837.<!--https://en.wikipedia.org/wiki/Arborfield_Hall#/media/File:Arborfield_Hall.jpeg-->
+                  </note>
+               </person>
+               
+                        <person xml:id="Dearesley_Mr" sex="m">
+                           <persName>Mr. Dearesley</persName>
+                           <persName>
+                              <surname>Dearesley</surname>
+                              <roleName>Mr.</roleName>
+                           </persName>
+                           <!--<occupation>doctor</occupation>-->
+                           <note resp="#rjp #lmw"><!--LMW: Mr or Dr Dearesley Two people? transcription error?? check against ms. and any letters--></note>
+                        </person>
+                        
+                        <person xml:id="Deverell_John" sex="m">
+                           <persName>John Deverell</persName>
+                           <persName>
+                              <surname>Deverell</surname>
+                              <forename>John</forename>
+                           </persName>
+                           <note resp="#lmw"><!--LMW: July 1819 journal mentions both Mr. John Deverell and then Mr. Deverell.  John could be the son of Mr.--></note>
+                        </person>
+                        
+                        <person xml:id="Deverell_Mr" sex="m"> 
+                           <persName>Mr. Deverell</persName>
+                           <persName>
+                              <surname>Deverell</surname>
+                              <roleName>Mr.</roleName>
+                           </persName>
+                           <note resp="#lmw"><!--LMW: July 1819 journal mentions both Mr. John Deverell and then Mr. Deverell.  John could be the son of Mr.--></note>
+                        </person>
+               
+               <person xml:id="Dobbs_Mr" sex="m">
+                  <persName>Mr. Dobbs</persName>
+                  <persName>
+                     <surname>Dobbs</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. May be the spouse of <persName ref="#Dobbs_Mrs">Mrs. Dobbs</persName>. Dates unknown.  </note>
+               </person>
+               
+               <person xml:id="George" sex="m"><!--LMW: update-->
+                  <persName>George</persName>
+                  <persName>
+                     <surname>Allaway</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Manservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>; dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. He and his brother <persName ref="#Allaway_Frank">Frank</persName> buried <persName ref="#Mossy_pet">Mossy</persName>. Dates unknown.</note>
+               </person>
+                      
+                        <person xml:id="Green_Mr" sex="m">
+                           <persName>Mr. Green</persName>
+                           <persName>
+                              <surname>Green</surname>
+                              <roleName>Mr.</roleName>
+                           </persName>
+                           <note resp="#lmw">Dates unknown.<!--LMW: review my notes on eminent persons of Reading--></note>
+                        </person>
+                        
+                        <person xml:id="Greenwell_Mrs" sex="f">
+                           <persName>Mrs. Greenwell</persName>
+                           <persName>
+                              <surname type="married">Greenwell</surname>
+                              <roleName>Mrs.</roleName>
+                           </persName>
+                        </person>
+                        
+                        <person xml:id="Harley_Miss" sex="f">
+                           <persName>Miss Harley</persName>
+                           <persName>
+                              <surname type="paternal">Harley</surname>
+                              <roleName>Miss</roleName>
+                           </persName>
+                           <note resp="#lmw"><!--LMW: Could this be transription error for Miss HAWLEY? Mr. Hawley marries Besty Broughton.--> </note>
+                        </person>
+               
+               <person xml:id="Harris_Mr" sex="m">
+                  <persName>Mr. Harris</persName>
+                  <persName>
+                     <surname>Harris</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="medical" subtype="physician"/>
+                  <note resp="#lmw"><!--LMW: a local doctor, not the same as H Harris the covent garden prop.--></note>
+               </person>
+                        
+                        <person xml:id="Havell_Mrs" sex="f">
+                           <persName>Mrs. Havell</persName>
+                           <persName>
+                              <surname type="married">Havell</surname>
+                              <roleName>Mrs.</roleName>
+                           </persName>
+                           <note resp="#lmw"><!--LMW: Any connection to Havell's, the circulating library?--></note>
+                        </person>
+                           
+                           <person xml:id="Hayward_MrsW" sex="f">
+                              <persName>Mrs. Hayward</persName>
+                              <persName>
+                                 <surname type="married">Hayward</surname>
+                                 <roleName>Mrs.</roleName>
+                              </persName>
+                              <note resp="#lmw"><!--LMW: Journal address Watlington. MRM also corresponds in 1830s with Abraham H (son? b. 1801) There is a Mr. and Mrs. Hayward with a first born daughter.  Mrs. first initial may be H. Mr's first initial may be W. Check ancestry tree.--></note>
+                           </person>
+                           
+               <person xml:id="Horne_RH" sex="m">
+                  <persName>Richard Hengist Horne</persName>
+                  <persName>
+                     <surname>Horne</surname>
+                     <forename>Richard</forename>
+                     <forename>Hengist</forename>
+                  </persName>
+                  <persName><addName>Richard Henry Horne</addName></persName>
+                  <birth when="1802-12-31">
+                     <placeName>Edmonton, London, England</placeName>
+                  </birth>
+                  <death when="1884-03-13">
+                     <placeName>Margate, Kent, England</placeName>
+                  </death>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1839" to="1849">between 1839 and 1849</date>.</note>
+                  <note><ptr target="http://viaf.org/viaf/59892846"/></note>
+               </person>
+               
+               <person xml:id="Hughes_John" sex="m">
+                  <persName>John Hughes</persName>
+                  <persName>
+                     <surname>Hughes</surname>
+                     <roleName>John</roleName>
+                  </persName>
+                  <birth when="1790-01-02">
+                     <placeName></placeName>
+                  </birth>
+                  <death when="1857-12-13">
+                     <placeName>Brompton, Middlesex, England</placeName>
+                  </death>
+                  <occupation type="scholar"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="artist"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Hughes_Marg">Margaret Wilkinson Hughes</persName> and father of <persName ref="#Senior_Jane">Jane Hughes Senior</persName>.
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/44478007"/></note>
+               </person>
+               
+               <person xml:id="Hughes_Marg" sex="f"><!--LMW: not a dup.-->
+                  <persName>Margaret Wilkinson Hughes</persName>
+                  <persName>
+                     <surname type="paternal">Wilkinson</surname>
+                     <surname type="married">Hughes</surname>
+                     <forename>Margaret</forename>
+                     <forename>Elizabeth</forename>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <persName><addName>Mrs. Hughes</addName></persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Hughes_John">John Hughes</persName>. Second daughter of Thomas Wilkinson, of Stokesley Hall in Yorkshire.
+                  </note>
+               </person>
+               
+               <person xml:id="Jephson_Em" sex="f">
+                  <persName>Emily Jephson</persName>
+                  <persName>
+                     <surname>Jephson</surname>
+                     <forename>Emily</forename>
+                     <forename>F.</forename>
+                  </persName>
+                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1829" to="1855">between 1829 and 1855</date>. Mitford wrote to her at Castle Martyr, Ireland. Grandniece of playwright Robert Jephson. Dates unknown.  
+                  </note>
+               </person>
+               
+               <person xml:id="Jeremy_Caro" sex="f">
+                  <persName>Caroline Jeremy</persName>
+                  <persName>
+                     <surname>Jeremy</surname>
+                     <forename>Caroline</forename>
+                     <forename>Deyman</forename>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <birth when="1786">
+                     <placeName>The Strand, London, England</placeName>
+                  </birth>
+                  <death when="1863-11-15">
+                     <placeName>Kennington, Surrey, England</placeName>
+                  </death>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName>in 1819. Mitford visited her in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Wheeler_James">James Wheeler</persName>. Sister of barrister <persName ref="#Jeremy_H">Henry Jeremy</persName>.<!--LMW: No VIAF #.--></note>
+               </person>
+               
+               <person xml:id="Jeremy_H" sex="m">
+                  <persName>Henry Jeremy</persName>
+                  <persName>
+                     <surname>Jeremy</surname>
+                     <forename>Henry</forename>
+                  </persName>
+                  <birth when="1787">
+                     <placeName>The Strand, London, England</placeName>
+                  </birth>
+                  <death when="1849-02-15">
+                     <placeName>Holbrook Lodge, Chiselhurst, Kent, England</placeName>
+                  </death>
+                  <occupation type="legal"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="magistrate"/>
+                  <occupation type="literary"/>
+                  <occupation type="scholar"/>
+                  <note resp="#lmw">Brother of Mitford friend <persName ref="#Jeremy_Caro">Caroline Jeremy</persName>. Called to the bar in 1818 at Middle Temple. Served as Recorder for Wokingham, police magistrate at Greenwich, and magistrate at Union Hall. Author of several law books and histories of the law in England.</note>
+                  <note><ptr target="http://viaf.org/viaf/306076886"/></note>
+               </person>
+               
+               <person xml:id="Jolliffe_Thos" sex="m">
+                  <persName>Rev. Thomas Jolliffe</persName>
+                  <persName>
+                     <surname>Jolliffe</surname>
+                     <forename>Thomas</forename>
+                     <forename>Robert</forename>
+                     <roleName>Rev.</roleName>
+                  </persName>
+                  <birth when="1780"/>
+                  <death when="1872">
+                     <placeName>Babington, Somersetshire, England</placeName>
+                  </death>
+                  <occupation type="religious" subtype="clergy"/>
+                  <note resp="#lmw">Alumni of Reading School and Trinity College, Cambridge. Rector of Babington from 1810 to 1872.</note>
+                  <!--LMW: UNMARRIED, so not Mr. Jolliffe or spouse of Mrs. Jolliffe-->
+               </person>
+               
+               <person xml:id="Jolliffe_Mrs" sex="f">
+                  <persName>Mrs. Jolliffe</persName>
+                  <persName>
+                     <surname>Jolliffe</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Jolliffe_Mr" sex="m">
+                  <persName>Mr. Jolliffe</persName>
+                  <persName>
+                     <surname>Jolliffe</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Friend of the <orgName ref="#Mitfords">Mitford family</orgName>, who offered the family lumber to build a cottage in 1818. Source: L'Estrange.</note>
+               </person>
+               
+               <person xml:id="Kenyon_John" sex="m">
+                  <persName>John Kenyon</persName>
+                  <persName>
+                     <surname>Kenyon</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1784">
+                     <placeName>Trelawny Parish, Jamaica</placeName>
+                  </birth>
+                  <death when="1856">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">A friend of <persName ref="#MRM">Mary Russell Mitford</persName> and soi-distant cousin of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
+                  <note><ptr target="http://viaf.org/viaf/68469709"/></note>
+               </person>
+               
+               <person xml:id="Kingsley_Chas" sex="m">
+                  <persName>Charles Kingsley</persName>
+                  <persName>
+                     <surname>Kingsley</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1819-06-12">
+                     <placeName>Holne, Devonshire, England</placeName>
+                  </birth>
+                  <death when="1875-01-23">
+                     <placeName>Eversly, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="education" subtype="professor"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>. Spouse of <persName ref="#Kingsley_Fanny">Fanny Grenfell Kingsley</persName>. 
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/27081838"/></note>
+               </person>
+               
+               <person xml:id="Kingsley_Fanny" sex="f">
+                  <persName>Frances (Fanny) Grenfell Kingsley</persName>
+                  <persName>
+                     <surname type="married">Kingsley</surname>
+                     <surname type="paternal">Grenfell</surname>
+                     <forename>Frances</forename>
+                     <forename>Eliza</forename>
+                     <forename><addName>Fanny</addName></forename>
+                  </persName>
+                  <birth when="1814"/>
+                  <death when="1891"/>
+                  <occupation type="literary"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Kingsley_Chas">Charles Kingsley</persName>.
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/74734046"/></note>
+               </person>
+               
+               <person xml:id="Kinsey_Wm" sex="m">
+                  <persName>William Morgan Kinsey</persName>
+                  <persName>
+                     <surname>Kinsey</surname>
+                     <forename>William</forename>
+                     <forename>Morgan</forename>
+                  </persName>
+                  <birth when="1788">
+                     <placeName>Abergavenny, Monmouthshire, Wales</placeName>
+                  </birth>
+                  <death when="1851-04-06"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="scholar"/>
+                  <occupation type="explorer" subtype="traveller"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Trinity College, Oxford scholar and Church of England clergyman. Travelled extensively in Portugal and Belgium. Published essays, sermons, and a travel book on Portugal.
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/53227673"/></note>
+               </person>
+               
+               <person xml:id="Langley_Eliza" sex="f">
+                  <persName>Eliza Langley</persName>
+                  <persName>
+                     <surname>Langley</surname>
+                     <forename>Eliza</forename>
+                  </persName>
+                  <death when="1897"/>
+                  <occupation type="bookProducer" subtype="bookseller"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
+                  <occupation type="trade" subtype="clerk"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> and a shop assistant to <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street, <persName ref="#Lovejoy_Geo">George Lovejoy</persName>. Langley purchased the business upon Lovejoy's death in 1882 and expanded it. She operated the bookselling, stationery, and circulating library business under the name The Lovejoy and Southern Counties Library. She published at least two books by Elizabeth Waterhouse under the imprint <q>Lovejoy's Library</q>. 
+                  </note>
+               </person>
+               
+               <!--stopped here June 5-->
+               <!--https://en.wikipedia.org/wiki/Orchis_anthropophora Man orchid-->
+               <!--Reading Institution, public library-->
+            
+               <person xml:id="Lawrence_Mr" sex="m">
+                  <persName>Mr. Lawrence</persName>
+                  <persName>
+                     <surname>Lawrence</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An associate of the <orgName ref="#Webbs">Webb family</orgName> in 1819. May be a relative of <persName>Jane Ogbourn Webb</persName>, whose mother's paternal name was Lawrence. Dates unknown.  </note>
+               </person>
+               
+               <person xml:id="Lovejoy_Geo" sex="m">
+                  <persName>George Lovejoy</persName>
+                  <persName>
+                     <surname>Lovejoy</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <birth when="1808">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1883-07-19">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </death>
+                  <occupation type="#bookProducer" subtype="bookseller"/>
+                  <occupation type="#bookProducer" subtype="librarian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1840" to="1850">between 1840 and 1850</date> and a <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street. Father of <persName ref="#Lovejoy_Martha">Martha (Patty) Lovejoy</persName>. His shop assistant was <persName ref="#Langley_Eliza">Eliza Langley</persName>. He established a general subscription circulating library in <date when="1832">1832</date>.
+                  </note>
+               </person>
+               
+               <person xml:id="Lovejoy_Martha" sex="f">
+                  <persName>Martha Lovejoy</persName>
+                  <persName>
+                     <surname type="paternal">Lovejoy</surname>
+                     <forename>Martha</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1846">1846</date>. Possibly the daughter of <persName ref="#Lovejoy_Geo">George Lovejoy</persName>. Dates unknown.  
+                  </note>
+               </person>
+               
+               <person xml:id="Lucas_John" sex="m">
+                  <persName>John Lucas</persName>
+                  <persName>
+                     <surname>Lucas</surname>
+                     <forename>John</forename>
+                     <forename>Lindsay</forename>
+                  </persName>
+                  <birth when="1807-07-04">
+                     <placeName>King's Lynn, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1874-04-30">
+                     <placeName>St. John's Wood, London, Middlesex, England</placeName>
+                  </death>
+                  <occupation type="military" subtype="navy"/>
+                  <occupation type="artist" subtype="painter"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1838" to="1853">between 1828 and 1853</date>. Fashionable portrait painter and mezzotint engraver who painted both <persName ref="#MRM">Mary Russell Mitford</persName> and her father <persName ref="#Mitford_Geo">George</persName>.
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/91332978"/></note>
+               </person>
+               
+               <person xml:id="Madison_Mrs" sex="f">
+                  <persName>Mrs. Madison</persName>
+                  <persName>
+                     <surname type="married">Madison</surname> <surname><addName>Maddison</addName></surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Maitland_Mr" sex="m">
+                  <persName>Mr. Maitland</persName>
+                  <persName>
+                     <surname>Maitland</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Marmy_pet" sex="f">
+                  <persName>Marmy</persName>
+                  <persName><addName>Marmion</addName></persName>
+                  <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
+               </person>
+               
+               <person xml:id="Marsh_Henry"><!--stub: update existing-->
+                  <persName>Henry Marsh</persName>
+                  <persName>
+                     <surname>Marsh</surname>
+                     <forename>Henry</forename>
+                  </persName>
+                  <occupation type="trade" subtype="banker"/>
+                  <note resp="#ebb #alw #lmw">Mitford's letters in December 1820 indicate that Henry Marsh was involved in a local political tiff with <persName ref="#Milman_HH">Henry Hart Milman</persName>. The rift between Henry Marsh and H.H. Milman is well documented. See <ref target="http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading">The History of Parliament online</ref>.</note>
+               </person>
+               
+               <!-- "Henry Marsh of Marsh Place, a quondam banker, John Hooke Greene, Thomas Newbery, Captain William Henry Hall, Thomas Letchworth of Katesgrove, Benjamin Champion, a mealman, and William Champion, a grocer"
+                "On 3 Mar. Stephens, Marsh, Greene, Hall, Letchworth, the Champions and others, including Benjamin Williams, a coal merchant, Robert Palmer, an ironmonger, William Havell, a butcher, and John Deane, a wheelwright, who made up the bulk of Monck’s active committee, met to form an Association for the Purity and Independence of Elections."
+                
+                "and an anniversary dinner of the Purity of Election Association on the 16th, when the usual crew were joined by Thomas Goodlake of Letcombe, James Wheble of Woodley Lodge, a Catholic, Fulwar Craven of Brock Hampton, Gloucestershire, the son-in-law of George Vansittart of Bisham Abbey, a former Member for Berkshire, and the Cobbettite William Budd." 1825
+                
+                "An attempt by Marsh, Letchworth, the Champions, Greene, Francis Cowslade, the printer of the Mercury, John Weedon, an attorney, William Tiley, a brewer, the Rev. Richard Valpy, headmastzAAAAAAA+_er of the grammar school, the Rev. John Howard Hinton of Coley Hill, a Dissenting minister, and Richard Buncombe, a maltster, to carry petitions for Catholic relief was defeated at a rowdy meeting, 18 Apr., when Milman and the Rev. Henry Dukinfield, vicar of St. Giles’s, forced through hostile ones.23 " 1825
+                
+                "At this time the Whigs obtained a rule of nisi against William Drysdale, the printer of the Chronicle, John Jackson Blandy, the town clerk, and two other Blues for libel against Monck, Mitford and two other Whig magistrates. " 1826    from historyofparliamentonline.-->
+               
+               <person xml:id="Martin_A" sex="m">
+                  <persName>Albinus Martin</persName>
+                  <persName>
+                     <surname>Martin</surname>
+                     <forename>Albinus</forename>
+                  </persName>
+                  <birth when="1791">
+                     <placeName>Beckton, Somersetshire, England</placeName>
+                  </birth>
+                  <death when="1871-10-17">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="architect"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1840" to="1843">between 1840 and 1843</date>. A student of Joseph Woods and James Savage, he also studied architecture at the Royal Academy. Worked as an architect, civil engineer, and manager of industrial works that included canals, colleries, and railways. Worked with Savage on the tunnel under the Thames, later completed by Brunel. With Beasley, designed the first English Opera House, located in the Strand.
+                     <!-- position in theatre business? (Chorley 1872(2):181 &amp; 197)-->
+                     <!--LMW: no VIAF #-->
+                  </note>
+                  <note><ptr target="https://www.gracesguide.co.uk/Albinus_Martin"/></note>
+               </person>
+               
+               <person xml:id="Mitford_RobertO" sex="m">
+                  <persName>Robert Osbaldeston Mitford</persName>
+                  <persName>
+                     <surname>Mitford</surname>
+                     <forename>Robert</forename>
+                     <forename>Osbaldeston</forename>
+                     <roleName>Admiral</roleName>
+                     <roleName>29th Lord Mitford</roleName></persName>
+                  <persName><addName>Captain Osbaldeston</addName></persName>
+                  <birth when="1781-01-26">
+                     <placeName>Mitford Castle, Mitford, Northumberland, England</placeName>
+                  </birth>
+                  <death when="1870-06-18">
+                     <placeName>Bridlington, Yorkshire, England</placeName>
+                  </death>
+                  <occupation type="military" subtype="navy"/>
+                  <occupation type="artist" subtype="illustrator"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <note resp="#lmw">A paternal relative and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1816" to="1843">between 1816 and 1843</date>. Served in the Royal Navy as Captain, retiring as Rear Admiral. In her early years, Mitford refers to him as <q>Captain Osbaldeston</q>. He was a talented amateur artist, and learned engraving from <persName ref="#Bewick_Thos">Thomas Bewick</persName> and collaborated with <persName ref="#Selby_PJ">Prideaux John Selby</persName> on several important works on British birds. He later becomes the 29th Lord Mitford of Mitford, Northumberland, England, upon the death of his elder brother. 
+                     <!--LMW: https://en.wikisource.org/wiki/A_Naval_Biographical_Dictionary/Mitford,_Robert-->
+                     <!--LMW: no VIAF #--></note>
+               </person>
+               
+               <person xml:id="Montague_Captain" sex="m"><!--update existing-->  <!--https://books.google.com/books?id=n9pv_1xLploC&newbks=1&newbks_redir=0&dq=Captain%20Montagu%20Caversham&pg=PA704#v=onepage&q=Captain%20Montagu%20Caversham&f=false-->
+                  <persName>Captain Montague</persName>
+                  <persName>
+                     <surname>Montague</surname>
+                     <roleName>Captain</roleName>
+                  </persName>
+                  <occupation type="military" subtype="navy"/>
+                  <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work.  <!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--><!--Captain Montagu Montagu, Royal Navy, of Caversham Hill (estate), b. 1786, second son of Montagu Montagu, inherits after eldest son George dies. or William?--></note>
+               </person>
+               
+               <person xml:id="Monteagle_TSR" sex="m">
+                  <persName>Thomas Spring Rice, Baron Monteagle</persName>
+                  <persName>
+                     <surname>Spring Rice</surname>
+                     <forename>Thomas</forename>
+                     <roleName>1st Baron Monteagle of Brandon</roleName>
+                  </persName>
+                  <birth when="1790-02-08">
+                     <placeName>County Kerry, Ireland</placeName>
+                  </birth>
+                  <death when="1866-02-07"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName>. Moderate Anglo-Irish Whig politician who held strong unionist views and led the opposition to the nationalist agenda of Daniel O'Connell, who advocated dissolving the Acts of Union 1800. He supported Catholic emancipation, the world-wide abolition of slavery, and state-funded education, and he criticized the British government's response to the famine in Ireland. M.P. for Limerick and for Cambridge. He served as Chancellor of the Exchequer and Comptroller General of the Exchequer.</note>
+                  <note><ptr target="http://viaf.org/viaf/62327580"/></note>
+               </person>
+                              
+               <person xml:id="Newbery_J" sex="m"> <!--https://books.google.com/books?id=QLsqAQAAMAAJ&lpg=RA1-PA77&ots=rxfBkgHvyl&dq=%22Jacob%20Newberry%22%20Reading%20solicitor&pg=PA309#v=onepage&q=%22Jacob%20Newberry%22%20Reading%20solicitor&f=false-->
+                  <persName>Jacob Newbery</persName>
+                  <persName>
+                     <forename>Jacob</forename>
+                     <surname>Newbery</surname>
+                  </persName>
+                  <occupation type="legal" subtype="solicitor"/>
+                  <note resp="#lmw">Solicitor at 35 Great Queen's Street, Lincoln Inn Fields, London; and at Friar Street, Reading. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63.</note>
+               </person>
+               <!--1789 marriage, THOMAS Newbery to Miss Stable of Reading
+             https://books.google.com/books?id=PX4EAAAAQAAJ&newbks=1&newbks_redir=0&dq=%22Thomas%20Newbery%22%20berks&pg=PA111#v=onepage&q=%22Thomas%20Newbery%22%20berks&f=false-->
+               
+               <!--LMW: Webbs & Wheelers: Alderman of Wokingham in 1819:Robert Woods, George Woodward, John Wright, Edward Winn, Samuel Waller, Sir John Benn Walsh, Baronet; Charles Walker, clerk"
+                     https://books.google.com/books?id=UJc4AQAAMAAJ&newbks=1&newbks_redir=0&dq=%22robert%20Wheeler%22%20Webb%20Wokingham&pg=PA1353#v=onepage&q=%22robert%20Wheeler%22%20Webb%20Wokingham&f=false-->
+               
+               <!--LMW: Blandys:  http://breweryhistory.com/wiki/index.php?title=List_of_Blandy,_Hawkins_%26_Co_pubs   Small Mead-Gate pub-->
+               
+               <person xml:id="Newbery_Mrs" sex="f">
+                  <persName>Mrs. Newbery</persName>
+                  <persName>
+                     <surname>Newbery</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Newbery_J">Jacob Newbery</persName>. Name variously spelled Newbery and Newberry.</note>
+               </person>
+               
+               <person xml:id="Newell_Mrs" sex="f">
+                  <persName>Mrs. Newell</persName>
+                  <persName>
+                     <surname type="married">Newell</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Newman_Miss" sex="f">
+                  <persName>Miss Newman</persName>
+                  <persName>
+                     <surname>Newman</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Nicholls_Geo" sex="m">
+                  <persName>George Nicholls</persName>
+                  <persName>
+                     <surname>Nicholls</surname>
+                     <forename>George</forename>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <birth when="1781-12-31">
+                     <placeName>Lanarth, Cornwall, England</placeName>
+                  </birth>
+                  <death when="1865-03-24">
+                     <placeName>17 Hyde Park Street, London, England</placeName>
+                  </death>
+                  <occupation type="government" subtype="administrator"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Bank of England superintendant, Poor Law Commissioner, and later Secretary to the Poor Law Commission. Created Knight Commander of the Bath in 1851. Father of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName>. Source: Visitation of England and Wales, vol. 2 (1894): 49-5. </note></person>
+               
+               <person xml:id="Nicholls_H" sex="f">
+                  <persName>Harriet Maltby Nicholls</persName>
+                  <persName>
+                     <surname type="married">Nicholls</surname>
+                     <surname type="paternal">Maltby</surname>
+                     <forename>Harriet</forename>
+                  </persName>
+                  <birth when="1786-04-10">
+                     <placeName>Shelton, Nottinghamshire, England</placeName>
+                  </birth>
+                  <death when="1869-05-14">
+                     <placeName>17 Hyde Park Street, London, England</placeName>
+                  </death>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Mother of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName> and spouse of <persName ref="#Nicholls_Geo">George Niholls</persName>.</note></person>
+               
+               <person xml:id="Norton_Andrews" sex="m">
+                  <persName>Andrews Norton</persName>
+                  <persName>
+                     <surname>Norton</surname>
+                     <forename>Andrews</forename>
+                  </persName>
+                  <birth when="1786-12-31">
+                     <placeName>Hingham, Massachusetts, USA</placeName>
+                  </birth>
+                  <death when="1853-09-18">
+                     <placeName>Newport, Rhode Island, USA</placeName>
+                  </death>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="scholar" subtype="philosopher"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1841" to="1843">between 1841 and 1843</date>. Unitarian clergyman, theologian, and influential church leader.</note>
+                  <note><ptr target="http://viaf.org/viaf/69698265"/></note>
+               </person>
+
+               <person xml:id="Ogbourn_Miss" sex="f">
+                  <persName>Miss Ogbourn</persName>
+                  <persName>
+                     <surname type="paternal">Ogbourn</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--LMW: Mrs. Webb's maiden name was Ogbourn:  a sister or niece?  Is this AUNT MARY??--></note>
+               </person>
+               <!--LMW: Existing SI entry:
+                              <person xml:id="Webb_Mary_elder" sex="f">
+                                 <persName>Aunt Mary Webb</persName>
+                                 <persName>
+                                    <surname>Webb</surname>
+                                    <forename>Mary</forename>
+                                 </persName>
+                                 <persName>
+                                    <addName>Aunt Mary</addName>
+                                 </persName>
+                                 <note resp="#scw #lmw">Friend of<persName ref="#MRM">Mary Russell Mitford.
+                                 </persName>Sister or sister-in-law of <persName ref="#Webb_James">James
+                                    Webb</persName> and aunt of <persName ref="#Webb_Eliza">Eliza</persName>,
+                                    <persName ref="#Webb_Jane">Jane</persName> and <persName ref="#Webb_Mary_younger">Mary Webb</persName>. <persName ref="#Needham_Francis">Francis Needham</persName>suggests that she was the
+                                    basis for the character of <persName>Aunt Martha</persName> in the <title ref="#OV">Our Village</title>story of that title. Sources: <rs type="letter">
+                                       <persName ref="#Needham_Francis">Francis Needham</persName>, Letter to
+                                       <persName ref="#Roberts_Wm">William Roberts</persName>, <date when="1953-06-16">16 June 1953</date>
+                                    </rs>. <bibl corresp="#Needham_PapersRCL">
+                                       <persName ref="#Needham_Francis">Needham Papers</persName>, <orgName ref="#ReadingCL">Reading Central Library</orgName>
+                                    </bibl>. Relationship to other Webbs and birth and death dates unknown. More
+                                    research needed.</note>
+                              </person>
+                              -->
+               
+               <person xml:id="Ouvry_Jane" sex="f">
+                  <persName>Jane Nicholls Ouvry</persName>
+                  <persName>
+                     <surname type="paternal">Nicholls</surname>
+                     <surname type="married">Ouvry</surname>
+                     <forename>Jane</forename>
+                  </persName>
+                  <birth when="1819-05-20"><placeName>Southwell, Nottinghamshire, England</placeName></birth>
+                  <death when="1856-01-08">
+                     <placeName>the Vicarage, Leighton Buzzard, Buckinghamshire, England</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Spouse of the <persName ref="#Ouvry_PT">Rev. Peter Thomas Ouvry</persName>, vicar of Leighton Buzzard, Buckinghamshire, England. Daughter of <persName ref="#Nicholls_Geo">George Nicholls</persName>.</note>
+               </person>
+               
+               <person xml:id="Ouvry_PT" sex="m">
+                  <persName>Rev. Peter Ouvry</persName>
+                  <persName>
+                     <surname>Ouvry</surname>
+                     <forename>Peter</forename>
+                     <forename>Thomas</forename>
+                     <roleName>Reverend</roleName>
+                  </persName>
+                  <birth when="1811-10-19"/>
+                  <death when="1891-06-02">
+                     <placeName>East Acton, London, Middlesex, England</placeName>
+                  </death>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Spouse of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName>and vicar of Leighton Buzzard, Buckinghamshire, England. The Ouvry family were Hugenot refugees from France during the 17th century.</note></person>
+               
+               <person xml:id="Parry_Mrs" sex="f">
+                  <persName>Mrs. Parry</persName>
+                  <persName>
+                     <surname type="married">Parry</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. As yet unidentified.  
+                     <!--LMW: Possibly the mother of poet Mary Anne (Marianne) Parry? and wife of Dr. Parry, a vet. Mary Ann went to India as a young woman.--></note>
+               </person>
+               
+               <person xml:id="Payn_Mr" sex="m">
+                  <persName>Mr. Payn</persName>
+                  <persName>
+                     <surname>Payn</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--LMW: The Payns live on the way to Seymour Court, near the Wakefields. Mr. and Mrs. Payn likely married couple.-->
+                  </note>
+               </person>
+               
+               <person xml:id="Payn_Mrs" sex="f">
+                  <persName>Mrs. Payn</persName>
+                  <persName>
+                     <surname type="married">Payn</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--LMW: The Payns live on the way to Seymour Court, near the Wakefields. Mr. and Mrs. Payn likely married couple.-->
+                  </note>
+               </person>     
+               
+               <person xml:id="Pearson_Hugh" sex="m">
+                  <persName>Hugh Pearson</persName>
+                  <persName>
+                     <surname>Pearson</surname>
+                     <forename>Hugh</forename>
+                  </persName>
+                  <birth when="1817">
+                     <placeName>Oxford, Oxfordshire, England</placeName>
+                  </birth>
+                  <death when="1882-04-09">
+                     <placeName>St. George's Chapel, Windsor Castle, Windsor, Berkshire, England</placeName>
+                  </death>
+                  <occupation type="religious" subtype="clergy"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1852">1852</date>. Vicar of St. Andrews Church, Sonning and Canon at St. George's Chapel, Windsor Castle.</note>
+               </person>       
+                              
+               <person xml:id="Piles_Mr" sex="m">
+                  <persName>Mr. Piles</persName>
+                  <persName>
+                     <surname>Piles</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Pithers_Mr" sex="m">
+                  <persName>Mr. Pithers</persName>
+                  <persName>
+                     <surname>Pithers</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#rjp #lmw"><!--Owns a neighboring field.--></note>
+               </person>
+               
+               <person xml:id="Pratt_SJ" sex="m">
+                  <persName>Samuel Jackson Pratt</persName>
+                  <persName>
+                     <surname>Pratt</surname>
+                     <forename>Samuel</forename>
+                     <forename>Jackson</forename>
+                  </persName>
+                  <birth when="1749-12-25">
+                     <placeName>St. Ives, Huntingdonshire, England</placeName>
+                  </birth>
+                  <death when="1814-10-04">
+                     <placeName>Birmingham, West Midlands, England</placeName>
+                  </death>
+                  <occupation type="clergy"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#lmw">Actor, author, and literary celebrity, the friend of <persName ref="#Robinson_MaryD">Mary Robinson</persName> and <persName ref="#Siddons_Sarah">Sarah Siddons</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1810">1810</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/68979200"/></note>
+                  <note><ref target="https://commons.wikimedia.org/wiki/File:Samuel_Jackson_Pratt,_by_Thomas_Lawrence.jpg"/></note>
+               </person>
+               
+               <person xml:id="Raggett_Mr" sex="m">
+                  <persName>Mr. Raggett</persName>
+                  <persName>
+                     <surname>Raggett</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Raggett_Mrs">Mrs. Raggett</persName>. In Mitford's Journal in 1819, she indicates that he is blind.</note>
+               </person>
+               
+               <person xml:id="Raggett_Mrs" sex="f">
+                  <persName>Mrs. Raggett</persName>
+                  <persName>
+                     <surname>Raggett</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Raggett_Mr">Mrs. Raggett</persName>. In Mitford's Journal in 1819, she indicates that Mrs. Raggett is her <quote>cousin</quote>, who offers her the position of companion, but she refuses to leave <persName ref="#Mitford_Geo">her father George</persName>. <!--lmw; possibly on the Russell side?--></note>
+               </person>
+               
+               <person xml:id="Ramsay_Mary" sex="f">
+                  <persName>Mary Ramsay</persName>
+                  <persName>
+                     <surname>Ramsay</surname>
+                     <forename>Mary</forename>
+                  </persName>
+                  <birth notAfter="1804">
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
+                  </birth>
+                  <death when="1819-10-20">
+                     <placeName>Lisbon, Portugal</placeName> 
+                  </death>
+                  <note resp="#lmw">Friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>in 1819. The 6th daughter of George Ramsay (1769-1810) of Edinburgh. Dedicatee of Mitford's <title ref="#FriendToLisbon_1827">On the Departure of a Friend to Lisbon for the Recovery of Her Health.</title> <persName ref="#James_Emily">Emily James</persName> accompanied her to Lisbon before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note> </person>
+                              
+               <person xml:id="Rapley_Betty" sex="f">
+                  <persName>Betty Rapley</persName>
+                  <persName>
+                     <surname>Rapley</surname>
+                     <forename>Betty</forename>
+                  </persName>
+                  <note resp="#lmw"><!-- LMW: Same person as Elizabeth Rapley?--></note>
+               </person>
+               
+               <person xml:id="Redding_Cyrus" sex="m">
+                  <persName>Cyrus Redding</persName>
+                  <persName>
+                     <surname>Redding</surname>
+                     <forename>Cyrus</forename>
+                  </persName>
+                  <birth when="1785">
+                     <placeName>Cornwall, England</placeName>
+                  </birth>
+                  <death when="1870">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1832">1832</date>. Newspaper and magazine founder, journalist, editor. He reported on events in France for <title ref="#Examiner">the Examiner</title>, served as uncredited editor of the <title ref="#New_Monthly_Mag">New Monthly Magazine</title> in the 1820s, and edited a number of other journals in the 1830s and 1840s. He then turned to writing novels, nonfiction works for adults and children, biographies of <persName ref="#Beckford_William">William Beckford</persName> and <persName ref="#Campbell_Thos">Thomas Campbell</persName>, and volumes of autobiography.</note>
+                  <note><ref target="http://viaf.org/viaf/2828716"/></note>
+                  <note><ref target="https://books.google.com/books?id=78YEAAAAYAAJ"/></note>
+               </person>
+               
+               <person xml:id="Reeve_Henry" sex="m">
+                  <persName>Henry Reeve</persName>
+                  <persName>
+                     <surname>Reeve</surname>
+                     <forename>Henry</forename>
+                  </persName>
+                  <birth when="1813-09-09">
+                     <placeName>Norwich, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1895-10-21">
+                     <placeName>Hampshire, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date>. Studied at Norwich Grammar School, led by <persName ref="#Valpy_Richard">Richard Valpy</persName>'s brother <persName>Edward</persName>. Travelled extensively in Europe and translated works from several European languages into English. Wrote for <title level="j">The Times</title> between 1840 and 1855. His experiences as clerk of appeal and registrar for the Privy Council enabled him to write authoritatively on foreign affairs, including the events of the Crimean War.</note>
+                  <note><ref target="http://viaf.org/viaf/49975674"/></note>
+               </person>
+               
+               <!--LMW stopped here-->
+               <person xml:id="Robinson_MaryD" sex="f">
+                  <persName>Mary Darby Robinson</persName>
+                  <persName>
+                     <surname type="married">Robinson</surname>
+                     <surname type="paternal">Darby</surname>
+                     <forename>Mary</forename>
+                  </persName>
+                  <birth when="1757-11-27">
+                     <placeName>Bristol, Gloucestershire, England</placeName>
+                  </birth>
+                  <death when="1800-12-26">
+                     <placeName>Englefield Green, Surrey, England</placeName>
+                  </death>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#lmw">Actor, author, and public celebrity.</note>
+                  <note><ptr target="http://viaf.org/viaf/9888105"/></note>
+                  <note><ref target="https://commons.wikimedia.org/wiki/File:Sir_Joshua_Reynolds_-_Mrs._Robinson_-_Google_Art_Project.jpg"/></note>
+               </person>
+               
+               <person xml:id="Russell_Constance" sex="f">
+                  <persName>Lady Constance Russell</persName>
+                  <persName>Constance Charlotte Eliza Lennox, Lady Russell</persName>
+                  <persName>
+                     <surname type="married">Russell</surname>
+                     <surname type="paternal">Lennox</surname>
+                     <forename>Constance</forename>
+                     <forename>Charlotte</forename>
+                     <forename>Eliza</forename>
+                     <roleName>Lady Russell</roleName>
+                  </persName>
+                  <birth when="1832"/>
+                  <death when="1925"/>
+                  <occupation type="literary"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of Sir George Russell, fourth baronet. Daughter of Lord Arthur Lennox. Author of <title>Swallowfield and its Owners</title> (1910).
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/31595043"/></note>
+               </person>
+               
+               <person xml:id="Russell_David" sex="m">
+                  <persName>David Russell</persName>
+                  <persName>
+                     <surname>Russell</surname>
+                     <forename>David</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. Dates unknown.  <!--LMW: Not a relation to MRM Russells, that I can tell.--></note>
+               </person>
+               
+               <person xml:id="StQuentin">
+                                 <persName>M. St. Quentin</persName>
+                                 <persName>
+                                    <surname>St. Quentin</surname>
+                                 </persName>
+                                 <note resp="#lmw"><!-- LMW: M. St. Quentin partner and later spouse of Mrs. Rowden. Consult Rowden tree.--></note>
+                                 </person>
+               
+               <person xml:id="Sally" sex="f">
+                  <persName>Sally</persName>
+                  <persName>
+                     <surname/>
+                     <forename>Sally</forename>
+                  </persName>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Servant at <placeName ref="#Bertram_house">Bertram House</placeName>, dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. Surname unknown.</note>
+               </person>
+               
+               <person xml:id="Sedgwick_Theo2" sex="m">
+                  <persName>Theodore Sedgwick, Jr.</persName>
+                  <persName>
+                     <surname>Sedgwick</surname>
+                     <forename>Theodore</forename>
+                  </persName>
+                  <birth when="1780-12-09">
+                     <placeName>Stockbridge, Massachusetts, USA</placeName>
+                  </birth>
+                  <death when="1839">
+                     <placeName>Stockbridge, Massachusetts, USA</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1835" to="1840">between 1835 and 1840</date>. Brother of <persName ref="#Sedgwick_Cath">Catherine Sedgwick</persName>, spouse of novelist <persName>Susan Anne Livingston</persName> and father of author and lawyer <persName>Theodore Sedgwick</persName>.<!--LMW: No VIAF #.--></note>
+               </person>
+               
+               <person xml:id="Senior_Jane" sex="f"><!--LMW: not a dup.-->
+                  <persName>Jane Elizabeth (Jeanie) Hughes Senior</persName>
+                  <persName>
+                     <surname type="married">Senior</surname>
+                     <surname type="paternal">Hughes</surname>
+                     <forename>Jane</forename>
+                     <forename>Elizabeth</forename>
+                     <forename><addName>Jeanie</addName></forename>
+                  </persName>
+                  <birth when="1828-12-10">
+                     <placeName>Uffington, Oxfordshire, England</placeName>
+                  </birth>
+                  <death when="1877"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <occupation type="government"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <note resp="#lmw">Social reformer and relief worker during the Franco-Prussian War, and co-founder of the Metropolitan Association for Befriending Young Servants (MABYS). In 1873, became an assistant inspector of workhouses, making her the first female paid civil servant in the UK. She was the daughter of John Hughes and sister of writer Thomas Hughes.</note>
+                  <note><ptr target="https://viaf.org/viaf/43750694/"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Jane_Senior#/media/File:Jane_Senior.jpg"/></note>
+               </person>
+               
+               <person xml:id="Selby_PJ" sex="m">
+                  <persName>Prideaux John Selby</persName>
+                  <persName>
+                     <surname>Selby</surname>
+                     <forename>Prideaux</forename>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1788-07-23">
+                     <placeName>Alnwick, Northumberland, England</placeName>
+                  </birth>
+                  <death when="1867-03-27">
+                     <placeName>Bamburgh, Northumberland, England</placeName>
+                  </death>
+                  <occupation type="artist" subtype="illustrator"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <note resp="#lmw">Important naturalist and illustrator in the 1820s, 30s, and 40s, friend and neighbor of <persName ref="#Mitford_RobertO">Robert Osbaldeston Mitford</persName>, with whom he collaborated on several volumes on British birds. He also contributed to <title>Jardine's Naturalist's Library</title> and authored a volume on British trees.</note>
+                  <note><ptr target="http://viaf.org/viaf/10629084"/></note>
+               </person>
+               
+               <person xml:id="ShawLefevre_C1" sex="m">
+                  <persName>Charles Shaw Lefevre</persName>
+                  <persName>
+                     <surname>Shaw</surname>
+                     <surname>Lefevre</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1759-09-20">
+                     <placeName>Wormsley, Yorkshire, England</placeName>
+                  </birth>
+                  <death when="1823-04-27">
+                     <placeName>Heckfield Place, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="legal"/>
+                  <occupation type="trade" subtype="banker"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1805">1805</date> and a moderate Tory Member of Parliament for <placeName ref="#Reading_city">Reading</placeName> from 1796 to 1820. Not to be confused with his son, Charles Shaw-Lefevre, 1st Viscount Eversley, who became spaker of the House of Commons. Born Charles Shaw, he took the name Shaw Lefevre in 1789 and retired from legal practice in 1790 after inheriting from his father-in-law. He was an East India company investor and held interests in banking and insurance.</note>
+                  <note><ptr target="http://viaf.org/viaf/43385208"/></note>
+                  <note><ptr target="https://www.historyofparliamentonline.org/volume/1790-1820/member/shaw-lefevre-charles-1759-1823"/></note>
+               </person>
+               
+               <person xml:id="Sidmouth_Lady2" sex="f">
+                  <persName>Mary Anne Scott Townshend Addington, Lady Sidmouth</persName>
+                  <persName>
+                     <surname type="paternal">Scott</surname>
+                     <surname type="married">Townshend</surname>
+                     <surname type="married">Addington</surname>
+                     <forename>Mary</forename>
+                     <forename>Anne</forename>
+                     <roleName>Lady Sidmouth</roleName>
+                  </persName>
+                  <death when="1842-04-26"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1830">1830</date>. Second wife of Henry Addington, 1st Viscount Sidmouth.</note>
+                  <!-- LMW: no VIAF #. -->
+                  <!--LMW: For Henry Addington, see https://www.historyofparliamentonline.org/volume/1790-1820/member/addington-henry-1757-1844 -->
+               </person>
+               
+               <person xml:id="Slade_F" sex="m">
+                  <persName>
+                     <surname>Slade</surname> <forename>Frederick</forename>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Spurling_Mr" sex="m">
+                  <persName>Mr. Spurling</persName>
+                  <persName>
+                     <surname>Spurling</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Stevenson_Mr" sex="m">
+                  <persName>Mr. Stevenson</persName>
+                  <persName>
+                     <surname>Stevenson</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Stevenson_Em" sex="f">
+                  <persName>Emily Stevenson</persName>
+                  <persName>
+                     <surname type="paternal">Stevenson</surname>
+                     <forename>Emily</forename>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--daughter of Mr. Stevenson?--></note>
+               </person>
+              
+               <person xml:id="Taunton_Mrs" sex="f">
+                  <persName>Mrs. Taunton</persName>
+                  <persName>
+                     <surname type="married">Taunton</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Tennyson" sex="m">
+                  <persName ref="#Tennyson">Alfred Tennyson</persName>
+                  <persName>
+                     <forename>Alfred</forename>
+                     <surname>Tennyson</surname>
+                  </persName>
+                  <persName>1st Baron Tennyson</persName>
+                  <birth when="1809-08-06">
+                     <placeName>Somersby, Lincolnshire, England</placeName>
+                  </birth>
+                  <death when="1892-10-06">
+                     <placeName>Lurgashall, Sussex, England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <note resp="#lmw">Poet laureate of the UK from 1850 to 1892, following <persName ref="#Wordsworth_Wm">Wordsworth</persName>. Buried in Westminster Abbey.</note>
+                  <note><ptr target="https://viaf.org/viaf/61540536/"/></note>
+               </person>
+               
+               <person xml:id="Tuppen_Capt" sex="m">
+                  <persName>William Tuppen</persName>
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Tuppen</surname>
+                     <roleName>Captain</roleName>
+                  </persName>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="legal" subtype="magistrate"/>
+                  <occupation type="government"/>
+                  <note resp="#lmw">In Mitford's time, a captain retired from the Royal West regiment of the London militia. Later became a magistrate and served as mayor of Reading.</note>
+               </person>
+               
+               <person xml:id="Tuppen_Mrs" sex="f">
+                  <persName>Mrs. Tuppen</persName>
+                  <persName>
+                     <forename></forename>
+                     <surname>Tuppen</surname>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Tuppen_Capt">William Tuppen</persName>.</note>
+               </person>
+                                    
+               <person xml:id="Voules_Mr" sex="m">
+                  <persName>Mr. Voules</persName>
+                  <persName>
+                     <surname>Voules</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Voules_Mrs" sex="f">
+                  <persName>Mrs. Voules</persName>
+                  <persName>
+                     <surname type="married">Voules</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#rjp #lmw">She receives one of Molly's puppies.<!--LMW: likely married couple with Mr. Voules.--></note>
+               </person> 
+                                    
+               <person xml:id="Walker_Mr" sex="m"> 
+                  <persName>Mr. Walker</persName>
+                  <persName>
+                     <surname>Walker</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--LMW: MRM corresponds with a Mrs. Walker in 1842--></note>
+               </person>                    
+                                    
+               <person  xml:id="Waterton_Mrs" sex="f">
+                  <persName>Mrs. Waterton</persName>
+                  <persName>
+                     <surname type="married">Waterton</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"></note>
+               </person>
+               
+               <person xml:id="Wheeler_James" sex="m">
+                  <persName>James Wheeler</persName>
+                  <persName>
+                     <surname>Wheeler</surname>
+                     <forename>James</forename>
+                  </persName>
+                  <occupation type="medical" subtype="surgeon"/>
+                  <note resp="#lmw">An friend of <persName ref="#MRM">Mitford</persName> in 1819-1823. Mitford visited him in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Jeremy_Caro">Miss Jeremy</persName>. May be either James Wheeler (1766-1850), spouse of Catherine Bird Rogers Wheeler (1771-1852) or their son, James Wheeler (1792-1866), spouse of Harriet Horne, all of whom lived in Wokingham. James Wheeler, father and son, were both surgeons.</note>
+               </person>
+               
+               <person xml:id="White_Mr" sex="m"> 
+                  <persName>Mr. White</persName>
+                  <persName>
+                     <surname>White</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--LMW: Tom White mentioned in connection with Captain Tuppen. Same as Mr. White, or his son?--></note>
+               </person>                     
+                                    
+               <person xml:id="Williams_Mr" sex="m">
+                  <persName>Mr. Williams</persName>
+                                       <persName><surname>Williams</surname>
+                                          <roleName>Mr.</roleName>
+                                       </persName>
+                  <note resp="#lmw"><!--LMW Is Miss Williams, in SI, his daughter?--></note>
+                                    </person>
+                                    
+                                    <!--IN SI: (daughter of Mr.?_)     <person xml:id="Williams_Miss" sex="f">
+                                       <persName>Miss Williams</persName>
+                                       <persName>
+                                          <surname type="paternal">Williams</surname>
+                                          <roleName>Miss</roleName>
+                                       </persName>
+                                       <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. More research needed.</note>
+                                    </person>-->
+               
+               <person xml:id="Woodburn_J" sex="m"><!--Mr. Woodburn? existing id-->
+                  <persName>John Woodburn</persName>
+                  <persName>
+                     <surname>Woodburn</surname>
+                     <forename>John</forename>
+                     <note resp="#lmw"></note>
+                  </persName>
+               </person>
+            
+          <!--LMW: here-->   
+              
+             <!--"young St. John" (related to Elfords?), -->
+             
+            
+             
+             
+             
+             
+            
+          </listPerson>
+       </div>
+         
+         <div type="fictional_and_archetypal">
+            <listOrg sortKey="fictOrgs"> 
+               
+               <org/>
+            </listOrg>
+            <listOrg sortKey="archOrgs">
+               <org/>
+            </listOrg>
+            <listPerson sortKey="archPersons">  
+               <person/>
+               
+            </listPerson>
+            
+            <listPerson sortKey="fictPersons">
+               
+               <person/>
+            </listPerson>
+            
+         </div>
+         <div type="places">
+            <listPlace sortKey="fictPlaces">
+               <place/>
+            </listPlace>
+            
+            <listPlace sortKey="histPlaces">
+               
+               <!--Shinfield:  http://www.berkshirehistory.com/villages/shinfield.html-->
+               
+               <place xml:id="Pingewood">
+                  <placeName>Pinge Wood</placeName>
+                  <placeName><addName>Pingewood</addName></placeName>
+                  <district>Whitley</district>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.424640 -1.006622</geo>
+                  </location>
+                <note resp="#lmw"></note>
+               </place>
+               <!--LMW: Revise Penge Wood to Pingewood (Whitley, Reading) delete Penge W-->
+               
+               <place xml:id="Woodcock_Ln">
+                  <placeName>Woodcock Lane</placeName>
+                  <location><geo></geo></location>
+                  <note resp="#lmw"><!--Woodcock Lane (Wokingham or Reading?)--></note>
+               </place>
+               
+               <place xml:id="Kibes_Ln">
+                  <placeName>Kibe's Lane</placeName>
+                  <placeName><addName>Kybe's Lane</addName></placeName>
+                  <location><geo>51.415929 -0.994434</geo></location>
+                  <note resp="#lmw">
+                  <!--(Kibes)--><!--on google maps, spelled Kybe's--></note>
+               </place>
+               
+               <place xml:id="Ware">
+                  <placeName>Ware</placeName>
+                  <location><geo></geo></location>
+                  <note resp="#lmw"></note>
+               </place>
+               
+               <place xml:id="Mortimer_WEnd">
+                  <placeName>Mortimer West End</placeName>
+                  <district>Reading</district>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location><geo></geo></location>
+                  <note resp="#lmw"></note>
+               </place>
+               
+               <place xml:id="Burfield_Br">
+                  <placeName>Burfield Bridge</placeName>
+                  <district>Reading</district>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location><geo></geo></location>
+                  <note resp="#lmw">Village near the River Kennett.</note>
+               </place> 
+            </listPlace>
+         </div> 
+         
+         <div type="nature">
+            <list sortKey="animals">
+               <item/>
+               
+               <!--LMW: to add, from OV-->
+               
+            <!--   <item xml:id="woodlark">
+                  <name>woodlark</name>
+                  <name type="species">Lullula arborea</name>
+                  <name type="genus">Lullula</name>
+                  <name type="family">Alaudidae</name>
+                  <note resp="#lmw">Eurasian lark with distinctive black and yellow facial markings. Prefers open clearings near pine forest and heathland.</note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/woodlark/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Lullula_arborea"/>
+                  </note>
+               </item>      -->
+               
+               <item xml:id="horse">
+                  <name>horse</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="Arabian_horse">
+                  <name>Arabian horse</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="pony">
+                  <name>pony</name>
+               <name type="species">xxx</name>
+               <name type="genus">xxx</name>
+               <name type="family">xxx</name>
+               <note resp="#lmw"></note>
+               <note>
+                  <ptr target="https://www.rspb.org.uk/xxx"/>
+               </note>
+               <note>
+                  <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+               </note>
+               </item>
+               
+               <item xml:id="donkey">
+                  <name>donkey</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="sheep">
+                  <name>sheep</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="goat">
+                  <name>goat</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="cow">
+                  <name>cow</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="ox">
+                  <name>oxen</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="pig">
+                  <name>pig</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="ferret">
+                  <name>ferret</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="dog">
+                  <name ref="#dog">dog</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="Newfoundland_dog">
+                  <name>Newfoundland dog</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="terrier">
+                  <name>terrier</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="mongrel">
+                  <name>mongrel dog</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="spaniel">
+                  <name>spaniel</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="greyhound">
+                  <name>greyhound</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="guinea_hen">
+                  <name>guinea hen</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="peacock">
+                  <name>peacock</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="turkey">
+                  <name>turkey</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="turkey_cock">
+                  <name>turkey cock</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="goose">
+                  <name>goose</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="chicken">
+                  <name>chicken</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="cat">
+                  <name>cat</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="rabbit">
+                  <name>rabbit</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="hare">
+                  <name>hare</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="deer">
+                  <name>deer</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="squirrel">
+                  <name>squirrel</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item> 
+               
+               <item xml:id="trout">
+                  <name>trout</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="rat">
+                  <name>rat</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+               
+               <item xml:id="adder">
+                  <name>adder</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                  </note>
+               </item>
+            </list>
+
+            
+            <list sortKey="plants">
+              
+                <item xml:id="wisteria">
+                  <name>wisteria</name>
+                  <name type="genus">Wisteria</name>
+                  <name type="family">Fabaceae</name>
+                  <note resp="#lmw">Woody climbing bine bearing cascading purple flower plumes, native to Asia and to the eastern US.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/popular/wisteria"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Wisteria"/></note>
+               </item>
+               
+               <item xml:id="azalea">
+                  <name>azalea</name>
+                  <name type="genus">Rhododendron</name>
+                  <name type="family">Ericaceae</name>
+                  <name><addName></addName></name>
+                  <note resp="#lmw">Flowering shrub carrying abundantly showy red, pink, or white blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hundreds of years. Native to Eurasia and North America. Introduced to the UK in the 19th century as a garden ornamental, it is now considered an invasive species.</note>
+                  <!--LMW: no wikispecies entry-->
+               </item>
+               
+               <item xml:id="rhododendron">
+                  <name>rhododendron</name>
+                  <name type="species">Rhododendron ponticum</name>
+                  <name type="genus">Rhododendron</name>
+                  <name type="family">Ericaceae</name>
+                  <name><addName>common rhododendron</addName></name>
+                  <name><addName>pontic rhododendron</addName></name>
+                  <note resp="#lmw">Flowering shrub carrying abundantly showy round flower clusters in shades of mauve or lavendar blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 18th century as a garden ornamental, it is now considered an invasive species.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Rhododendron_ponticum"/></note>
+               </item>
+               
+               <item xml:id="cotton_grass">
+                  <name>cottongrass</name>
+                  <name type="species">Eriophorum angustifolium</name>
+                  <name type="genus">Eriophorum</name>
+                  <name type="family">Cyperaceae</name>
+                  <name><addName>cotton-grass</addName></name>
+                  <name><addName>cottonsedge</addName></name>
+                  <note resp="#lmw">Sedge that develops fluffy white heads.</note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/grasses-sedges-and-rushes/common-cotton-grass"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Eriophorum_angustifolium"/></note>
+               </item>
+               
+               <item xml:id="hearts_ease">
+                  <name ref="#hearts_ease">heart's-ease</name>
+                  <name type="species">Viola tricolor</name>
+                  <name type="genus">Viola</name>
+                  <name type="family">Violaceae</name>
+                  <name><addName>wild pansy</addName></name>
+                  <name><addName>Johhny Jump up</addName></name>
+                  <name><addName>Love-in_Idleness</addName></name>
+                 <note resp="#lmw">Wild pansy native to the UK</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/19017/viola-tricolor/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Viola_tricolor"/></note>
+               </item>
+               
+               <item xml:id="snowdrop">
+                  <name>common snowdrop</name>
+                  <name type="species">Galanthus nivalis</name>
+                  <name type="genus">Galanthus</name>
+                  <name type="family">Amaryllidaceae</name>
+                  <note resp="#lmw">Small white-flowered plant propagated by bulbs, native to Europe and the Middle East and widely naturalized elsewhere. Believed to be native to the UK since the 16th century. Flowers in late winter and early spring, around the vernal equinox and so is considered a harbinger of spring. May also symbolize purity, hope, or the Christian Holy Trinity. A frequent subject of 19th century poetry including works by <persName ref="#Landon_LE">Landon</persName> <persName ref="#Wordsworth_Wm">Wordsworth</persName>, and others.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/7568/galanthus-nivalis/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Galanthus"/></note>
+               </item>
+               
+               <item xml:id="hepatica">
+                  <name>hepatica</name>
+                  <name type="species">Anemone hepatica</name>
+                  <name type="genus">Anemone</name>
+                  <name type="family">Ranunculaceae</name>
+                  <name><addName>Hepatica nobilis</addName></name>
+                  <name><addName>liverleaf</addName></name>
+                  <name><addName>ivy flower</addName></name>
+                  <note resp="#lmw">Low-growing flowering plant with fleshy, trilobal leaves and blue, purple, or pink flowers with showy white stamens. Flowers in late winter and early spring. Native to Europe and Asian and naturalized as well as grown as a garden plant in the UK.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/8645/hepatica-nobilis/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Hepatica_nobilis"/></note>
+               </item>
+               
+               <item xml:id="aconite">
+                  <name>winter aconite</name>
+                  <name type="species">Eranthis hyemalis</name>
+                  <name type="genus">Eranthis</name>
+                  <name type="family">Ranunculaceae</name>
+                  <name><addName></addName></name>
+                  <note resp="#lmw">Yellow flowering plant native to Europe and naturalized in the UK. One of the earliest woodland wildflowers, appearing in late winter. Unrelated to aconitum (monkshood).</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/6540/eranthis-hyemalis/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Eranthis_hyemalis"/></note>
+               </item>
+               
+               <item xml:id="fuchsia">
+                  <name>fuchsia</name>
+                  <name type="species">fuchsia magellanica</name>
+                  <name type="genus">fuchsia</name>
+                  <name type="family">Onagraceae</name>
+                  <name><addName>fuschia</addName></name>
+                  <name><addName>hardy fuchsia</addName></name>
+                  <note resp="#lmw">Small upright or spreading flowering shrub, with showy, pendulous bi-colored blooms in combinations of red, pink, purple, and white sepals and petals. A large genus, native to the Carribbean islands, Mexico, central and South America. Now a widely grown garden shrub and pot plant. F. coccinea and F. magellanica, both from South America, were being cultivated in England by the late eighteenth century. Vineyard Gardens in Hammersmith, England introduced fuchsias to the gardening public, as well as introducing and popularizing imports such as the China rose and dahlia as garden plants.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/fuchsia/hardy"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Fuchsia_magellanica"/></note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Fuchsia"/></note>
+               </item>
+               
+               <item xml:id="mignonette">
+                  <name>garden mignonette</name>
+                  <name type="species">Reseda odorata</name>
+                  <name type="genus">Reseda</name>
+                  <name type="family">Resedaceae</name>
+                  <note resp="#lmw">Tall, thin pale yellow flower spike growing from base leaves. Native to Europe, the Mediterranean region, and southwest Asia. In the 19th century, grown in gardens and windowboxes for its fragrance. Also used in perfumery, potpourri, and as a cut flower in arrangements. R. luteola, another species, was a source of yellow dye.</note>
+                <note><ptr target="https://www.rhs.org.uk/plants/82322/i-reseda-odorata-i/details"/></note>  
+                  <note><ptr target="https://species.wikimedia.org/wiki/Reseda"/></note>
+               </item>
+               
+               <item xml:id="hop_bines">
+                  <name ref="#hop_bines">hop-bines</name>
+                  <name type="species">Humulus lupulus</name>
+                  <name type="genus">Humulus</name>
+                  <name type="family">Cannabaceae</name>
+                  <note resp="#lmw">Twining plant using stiff, hairy stems (bines) to climb. Flowers of the female plants are the source of hops, used in brewing to flavor beer</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/117193/i-humulus-lupulus-i-aureus-(f)/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Humulus"/></note>
+               </item>
+               
+               <item xml:id="wallflower">
+                  <name>common wallflower</name>
+                  <name type="species">Erysimum cheiri</name>
+                  <name type="genus">Erysimum</name>
+                  <name type="family">Brassicaceae</name>
+                  <note resp="#lmw">Flowering plant native to the Mediterranean basin and widely used as a garden plant for its showy, fragrant clusters of racemes in yellow-orange.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/89218/erysimum-cheiri/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Erysimum_%C3%97_cheiri"/></note>
+               </item>
+               
+               <item xml:id="myrtle">
+                  <name>common myrtle</name>
+                  <name type="species">Myrtus communis</name>
+                  <name type="genus">Myrtus</name>
+                  <name type="family">Myrtaceae</name>
+                  <name><addName>true myrtle</addName></name>
+                  <name><addName>European myrtle</addName></name>
+                  <note resp="#lmw">Evergreen flowering shrub bearing white flowers with many showy white stamens and dark blue edible berries. Native to the Mediterranean region and Western Asia to India. Associated with Jewish, Greek, and Roman ritual and myth, symbolizing honor, prosperity, hope, and love. In early-modern Europe, the floweres became traditional in bride's bouquets because of their associations with love and happiness.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/11311/i-myrtus-communis-i/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Myrtus_communis_L."/></note>
+               </item>
+               
+               <!--stopped here-->
+               
+               <item xml:id="buttercup">
+                  <name>common buttercup</name>
+                  <name type="species">Ranunculus acris</name>
+                  <name type="genus">Ranunculus</name>
+                  <name type="family">Ranunculaceae</name>
+                  <name><addName>Meadow buttercup</addName></name>
+                  <note resp="#slc">A small yellow flowering plant first catogorized by Carolus Linnaeus in his 1753 Species Plantarum. It is a herbaceous perennial plant that grows to a height of 30  - 70 cm, with ungrooved flowing stems bearing glossy yellow flowers about 25 mm across. There are five overlapping petals borne above five green sepals that soon turn yellow as the flower matures. It has numerous stamens inserted below the ovary. The leaves are compound, with three lobed leaflets. In horticulture the species may be regarded as a troublesome weed, colonising lawns and paths. However, it may be a welcome feature of wildflower meadows. The double-flowered cultivar R. acris 'Flore Pleno' has gained the Royal Horticultural Society's Award of Garden Merit.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Ranunculus"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_acris"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="ranunculus">
+                  <name>ranunculus</name>
+                  <name type="species">Ranunculus asiaticus</name>
+                  <name type="genus">Ranunculus</name>
+                  <name type="family">Ranunculaceae</name>
+                  <name><addName>garden ranunculus</addName></name>
+                  <name><addName>Persian buttercup</addName></name>
+                  <note resp="#slc">A species of buttercup (Ranunculus) native to the eastern Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and northeastern Africa. Double-flowered forms, which are likely hybrids, are a popular ornamental plant in gardens, and widely used in floristry.</note>
+                  <note resp="#lmw"></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Ranunculus_asiaticus"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_asiaticus"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="lavendar">
+                  <name>lavendar</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ptr target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               </item>
+               
+               <item xml:id="orchid"><!--leave for now, until I decide how specific/what kind to make the note on.-->
+                  <name>orchid</name>
+                  <name>orchis</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2019/05/nine-wild-uk-orchids/"/></note>
+               </item>
+               
+               <item xml:id="convolvulus">
+                  <name ref="#convolvulus">convolvulus</name>
+                  <name type="species"></name>
+                  <name type="genus"></name>
+                  <name type="family"></name>
+                  <name><addName></addName></name>
+                  <note resp="#lmw"></note>
+                  <!--https://www.rhs.org.uk/plants/4333/i-convolvulus-cneorum-i/details-->
+                  <!--https://en.wikipedia.org/wiki/Convolvulus-->
+               </item>
+              
+               <item xml:id="celery">
+                  <name>celery</name>
+                  <name type="species">Apium graveolens</name>
+                  <name type="genus">Apium</name>
+                  <name type="family">Apiaceae</name>
+                  <name><addName></addName></name>
+                  <note resp="#lmw"><!-- wild celery? --></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Apium_graveolens"/></note>
+               </item>
+               
+               <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, green Indian-corn,-->
+               
+               
+               <!--      <item xml:id="daisy">
+                  <name>daisy</name>
+                  <name type="species">Bellis perennis</name>
+                  <name type="genus">Bellis</name>
+                  <name type="family">Asteraceae</name>
+                  <name><addName>common daisy</addName></name>
+                  <name><addName>lawn daisy</addName></name>
+                  <name><addName>English daisy</addName></name>
+                  <note resp="#lmw">Perennial white daisy native to Europe and the UK, sometimes with pink-tinged petals. Plants are low-growing rosettes of round or oval leaves; single- and double-flowered varieties are hybridized in red, pink, and white. By the Victorian period, the flower held symbolic associations with childhood and innocence.</note>
+                  <note><ptr target="https://www.rhs.org.uk/Plants/94326/i-Bellis-perennis-i/Details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Bellis_perennis"/></note>
+               </item>-->
+               
+               <item xml:id="potato">
+                  <name ref="#potato">potato</name>
+					<name type="genus">Solanum</name>
+					<name type="species">Solanum tuberosum</name>
+					<name type="family">Solanaceae</name>
+                  <note resp="#qar">Potatoes are relatively new to Europe at this time. They are native to the Andes and were introduced only in the second half of the 16th century by the Spanish.</note>
+               </item>
+               
+               <item xml:id="onion">
+                  <name ref="#onion">onion</name>
+                  <name type="genus">Allium</name>
+					<name type="species">Allium cepa</name>
+					<name type="family">Amaryllidaceae</name>
+                  <note resp="#lmw"></note></item>
+               
+               <item xml:id="turnip">
+                  <name ref="#turnip">turnip</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+            
+               <item xml:id="asparagus">
+                  <name ref="#asparagus">asparagus</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="moss">
+                  <name ref="#moss">moss</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="fern">
+                  <name ref="#fern">fern</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="mushroom">
+                  <name ref="#mushroom">mushroom</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="fungus">
+                  <name ref="#fungus">fungus</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="gentianella">
+                  <name>gentianella</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="march_marygold">
+                  <name></name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"><!--Marsh marigold?--></note>
+               </item>
+               
+               <item xml:id="stock">
+                  <name ref="#stock">stock</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note></note>
+               </item>
+               
+               <item xml:id="larkspur">
+                  <name ref="#larkspur">larkspur</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note></note>
+               </item>
+               
+               <item xml:id="peony">
+                  <name ref="#peony">peony</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"><!--LMW: not the tree peony. Mitford spells piony? elsewhere--></note>
+                  <note></note>
+               </item>
+               
+               <item xml:id="chrysanthemum">
+                  <name ref="#chrysanthemum">chrysanthemum</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="cucumber_plant">
+                  <name ref="#cucumber_plant">cucumber</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+               </item>
+               
+               <item xml:id="melon_plant">
+                  <name ref="#melon_plant">melon</name>
+                  <name type="species">xxx</name>
+                  <name type="genus">xxx</name>
+                  <name type="family">xxx</name>
+                  <note resp="#lmw"></note>
+                  <note><!--LMW: the plant, not sure what kinds are grown in 19th c. England--></note>
+               </item>
+               
+               <item xml:id="tuberose">
+                  <name ref="#tuberose">tuberose</name>
+                  <name type="species">Polianthes xxx</name>
+                <name type="genus">Polianthes</name>
+						<name type="family">Asparagaceae</name>
+                  <note resp="#SMP">A perennial plant that is frequently used in perfumes.</note>
+               </item>
+            
+               
+               <!--LMW: notes from the Journal; associated families-->
+               
+               <!-- Havell's Library, Reading -->
+               <!-- Mortimer Common: where they go for coursing.  Miss Wheeler, Mrs. D. Wheeler -->
+               <!-- @ Reading: Whites, Brookes, Newberrys, Bulleys, Garrards? Valpys, Warwicks, "Institution", Mrs. A. Valpy, Dr. Valpy, Mrs. ? Monck, Mrs. Newbery -->
+               <!-- @ Farley Hill:  The Parfitts, the Rigbys -->
+               <!-- Mrs. Raggett and Mrs. Greenwell: the women who look like William Elford. -->
+               <!-- Miss Biggs -->
+               <!-- @Wokingham: Miss Jeremy, James Wheeler, Webbs; Miss Bentley? Mrs. Jenkins, Mrs. Ballard, Mrs. Talmadge, Mr. Vidal, Mr. Morris-->
+               <!--Farmer Davies, Mr. Champion, Mrs. Marsh and Mr. Green (Harry Marsh)-->
+               <!-- @ Tilehurst: Mr. John Biggs Farm -->
+               <!-- Mr. Baring -->
+               <!-- Mr. White, associated with Captain Tuppen, Miss Tuppen -->
+               <!-- John Rogers Wheeler, solicitor -->
+               <!--Thomas Hawkins (Webb spouse)-->
+               
+               <!--LMW: my transcription of the address book sections of Mitford's Journal-->
+               <!-- Direction that I am likely to want.
+         Mrs. Anty. Clarke The Priory - Lady Wootten's Green - Canterbury. - 
+         Mrs. Hofland - 
+         10 Montpelier Row
+         Miss Jephson
+         No. 1 Charles Street Twickenham Middlesex.
+         Bath
+         Miss James (crossed out) Ormond Place  Bellevue Richmond - Surry - 
+         Mrs. Florry? - Five Ways 
+         near Birmingham
+         - Miss Nooth - Kew - Surrey
+         (dividing line)
+         B.R. Haydon Esqre. St. John's Place
+         (cross out) Lisson Grove North
+         Regent's Park.
+         London - 
+         T. N. Talfourd (above) 1 Pump Court
+         (crossout)Temple(crossout)
+         Mtd. Rowden - No. 6 L'Allee des Verves
+         Champs Elisees Paris.
+         (dividing line)
+         Madame Clement - Durham
+         House Chelsea
+         Miss Vardill 45 Clifstone Street.
+         (dividing line)
+         Mrs. Lucas 12 Upper Cadogan Place ?? ??
+         -->
+               
+               <!-- Directions
+         Mrs. Dobbs, 27 Hatton Garden
+         Miss Nooth Kew Surry.
+         Miss James 21 New North Street Red Lion Square London
+         A Madame
+         Madame Nooth London
+         Cher Madame Rowden
+            Rue d'Anglouleme No. 8, F. St. Honore.
+            (crossed out)Rue Capette No. 30 F. St. Germain
+            (crossed out) J. B. Monck Esqre. M.P. 10 Barton Street
+            Westminster
+            Mrs. Greenwell
+            5 Grove Road
+            St. John's Wood
+            Regent's Park
+            
+            Cheap
+            shop??
+            Thos?? Header
+            19 Cheapside
+            
+            Mrs. Rowden's letters enclosed to
+            (crossed out) 12 Tonbridge Place
+            New Road
+            J. Resque? Esqre.
+            Foreign Office
+            Downing Street
+            
+            Rue d'Angouleme 8
+            F. St. Honore
+            Paris
+            
+            Mrs. Rowden at Miss Morrell's 32 King's Street
+            Bloomsbury.
+            
+            J. B. Monck M.P.
+            No. 15 College Street
+            Westminster.-->
+               
+               <!-- Directions
+            John Johnson Esqre
+            Seymour Court
+            Great Marlow
+            Bucks.
+            
+            Miss Nooth
+            J. Apsley Dalrymple
+            s Esqre/
+            Mayfield House, Nemfield? Sussex
+            
+            ? Harness
+            Manor House
+            Abbot's Langley
+            King
+            s Langley
+            Herts
+            
+            The way to it is by the ?? Hempstead Coach to get out at Hunton Bridge Beyond Watford.
+            Rev. T. Burnett
+            Haveston?
+            near London
+            The man who wrote to us about Mrs. Parks the late Miss Budd.
+            J. Elford Esqre M. P
+            Upland
+            Plymouth
+            
+            Mrs. Hayward
+            Watlington
+            Fetsworth? - Oxon.
+            Mrs. Rowden
+            Rvd. Ward's i Iver? - Uxbridge - Middlesex
+            
+            J. B. Monck Esq.re. M.P. 
+            (crossout) 28 Grosvenor Place
+            Hyde Park Corner London
+            
+            Charles MacFarlane Esqure
+            17 Upper Ashby Street
+            Northampton Square
+            London
+         -->
+               
+               <!-- Charles Heath Esqre. 6 Seymour 
+            Place Euston Square London
+            B.R. Haydon Esqre 8 Paddington Green, near the Church Paddington London
+            Mr. Samuel Robinson Chapter House Court. St. Paul's Church yard
+            T. N. Talfourd Esqre 2 Elm Court Temple
+            Philip Crowther Esqre Westbury on Trim near
+            Mrs. Tucker 47. Upper Norton Street Regent's Park.
+            Miss Dominicetti 30 Carburton Street - Upper Norton Street - 
+            Mrs. Vardill 45 Ellistone Street
+            Mrs. Nieven - Ci devant Miss Vardill
+            Mrs. Millington Mrs. Vardill's companion
+            Miss Porden. Mrs. Young
+            Miss Hicks - Miss Madwell-->
+               
+    <!--LMW: 2019-12-24 new id's from Journal.-->
+               
+               <!-- Mrs. Lay - 6 Gower Street Bedford Square
+   Mrs. Strutt 34 Perry Street Bedford Square
+   Mrs. ?? Revd. ?? Streatfield's
+   Clark's Edge Westerham Kent
+   Miss Appleton 6. Upper Portland Place
+   **Mrs. Bayley Mrs. Wright - Stafford.
+   **Charles Heath Esq. 6 Seymour Place Euston Square London
+   
+   The Eclectic Review for July 1822 - (No/Vol. ?? new series) contains some very interesting particularly of poor Minor in a Review of Robinson's Memoirs of the Mexican Revolution - a work I should like to see - 2 Vols octavo.
+   The nursery garden where the Double Dahlias were so fine is at Thenham Green on the left hand side going to Town. I think the man's name is Williams -
+   J. Hamilton Esq. 30 Judd Street Brunswick Sq.
+   Miss Havell - J. Sheppards Esq. Hampstead Heath - London - <pb>
+   **Mess rs Whittaker - Ave Maria Lane St. Paul's Church Yard London
+   Mrs. ?? 47 Upper Norton Street Regents Park
+   Miss Dominicetti 30 Carburton Street Upper Norton street - Regent's Park
+   **Miss Porden 59 Berners Street - 
+   Mrs. Vardill 45 Clifstone Street
+   **Mrs. Hofland 23 Newman Street
+   **P. Bayley Esq re 9 Cumberland Place - New Road - Marybone - London
+   **Miss Webb - Clifton Cottage - Woking - Sidmouth - Devon
+   **Miss Brooke 11 East Cliff Brighton
+   **Charles Kemble 29 Soho Square
+   A**. j. Valpy Esq re. Red Lion Court Fleet Street London
+   Mrs. Welles & Fanny Welles - 8? Blemheim Street, New Bond Street. - 
+   Mrs. Lewis (late Charlotte Kirkman 9 Upper Seymour Street - Euston Square
+   **P. Bayley Esq re. 9 Cumberland Place
+   **J. B. Monck Esq re. 15 College Street Westminster - M. P. -
+   Miss Weston Church lane Chelsea London
+   John Wiltshire Shockerwick Bath
+   **W. Macready Esq re. - 69 Berners street
+   Mrs. Smith's boarding house 14 Norfolk Street
+   W. Price 2 Birch Court Temple - Talfourd's friend
+   S. Hamilton esq re. 30 Judd Street Hounswick Square
+  -->      
+            </list>
+         </div>
+         
+         <div type="publications">
+            <listBibl sortKey="work_MRM"> 
+               
+               <bibl xml:id="WestonGrove_1827">
+                  <title level="a">Weston Grove: A Descriptive Poem [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Narrative poem</note>
+               </bibl>
+               
+               
+               
+               <bibl xml:id="WrittenOct1825_1827">
+                  <title level="a">Written October, 1825 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">316</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 22 in the 1827 collection <biblScope unit="pp">(page 316)</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Amulet">Amulet</title> as <title level="a">Sonnet. By Miss Mitford</title><biblScope unit="pp">(page 236)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="FriendToLisbon_1827">
+                  <title level="a">On the Departure of a Friend to Lisbon for the Recovery of Her Health [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">315</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 21 in the 1827 collection <biblScope unit="pp">(page 315)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="IntendedRemoval_1827">
+                  <title level="a">On an Intended Removal From a Favourite Residence. November, 1820 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">314</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 20 in the 1827 collection <biblScope unit="pp">(page 314)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> <biblScope unit="pp">(page 81)</biblScope></bibl> signed <q>M</q>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenAfterVisit_1827">
+                  <title level="a">Written After a Visit From Some Friends [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">313</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 19 in the 1827 collection <biblScope unit="pp">(page 313)</biblScope>.</bibl></note>
+               </bibl>
+               
+               <bibl xml:id="DonningtonCastle_1827">
+                  <title level="a">On Visiting Donnington Castle [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">311-12</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 18 in the 1827 collection <biblScope unit="pp">(pages 311-12)</biblScope>.</bibl> Also appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet on Visiting Donnington Castle</title><biblScope unit="pp">(page 532)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="FriendsAlbum_1827">
+                  <title level="a">Written in a Friend's Album [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">310</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 17 in the 1827 collection <biblScope unit="pp">(page 310)</biblScope></bibl>. Also appeared in <bibl><title ref="#Marshalls_Christmas">Marshall's Christmas Box</title> in <date when="1831">1831</date></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="LeavingPicture_1827">
+                  <title level="a">On Leaving a Favourite Picture [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">309
+                  </biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 16 in the 1827 collection <biblScope unit="pp">(page 309)</biblScope></bibl>. Appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet. On a Landscape by Mr. Hofland</title><biblScope unit="pp">(page 392)</biblScope></bibl>. Later appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 233)</biblScope>.</bibl></note></bibl>
+               
+               <bibl xml:id="FriendBirthday_1827">
+                  <title level="a">To a Friend on Her Birthday [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">308</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 15 in the 1827 collection <biblScope unit="pp">(page 308)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> <biblScope unit="pp">(page 369)</biblScope></bibl> signed <q>M</q>.</note>
+               </bibl>
+               
+               <bibl xml:id="FishingSeat_1827">
+                  <title level="a">The Fishing-Seat, Whiteknights [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">307</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 14 in the 1827 collection <biblScope unit="pp">(page 307)</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 287)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HearingTalfourd_1827">
+                  <title level="a">On Hearing Mr. Talfourd Plead in the Assize-Hall at Reading, On His First Circuit, March 1821 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">306</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 13 in the 1827 collection <biblScope unit="pp">(page 306)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="TwoHoflandLandscapes_1827">
+                  <title level="a">On Two of Mr. Hofland's Landscapes [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">305</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 12 in the 1827 collection <biblScope unit="pp">(page 305)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="NewYearsDay_1827">
+                  <title level="a">New Year's Day. 1819 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">304</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 11 in the 1827 collection <biblScope unit="pp">(page 304)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="EnglefieldHouse_1827">
+                  <title level="a">Englefield House [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">303</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 10 in the 1827 collection <biblScope unit="pp">(page 303)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMrHaydon_Nature_1827">
+                  <title level="a">To Mr. Haydon, On a Study From Nature [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">302</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 9 in the 1827 collection <biblScope unit="pp">(page 302)</biblScope></bibl>. Also appeared in the <bibl><date when="1817-07-19">July 19, 1817</date> <title ref="#Lit_Gazette">Literary Gazette</title> as <title level="a">To Mr. Haydon</title> dated <date when="1817-05-21">21st May, 1817</date> <biblScope unit="pp">(page 41)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMissPorden_1827">
+                  <title level="a">To Miss Porden: On Her Poem of COEUR DE LION [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">301</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 8 in the 1827 collection <biblScope unit="pp">(page 301)</biblScope></bibl>. Also appeared in the <bibl><date when="1822-08-17">August 17, 1822</date> <title ref="#Lit_Gazette">Literary Gazette</title> under the same title, dated <date when="1822-06-10">June 10, 1822</date> <biblScope unit="pp">(page 519)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BeautifulWoman_1827">
+                  <title level="a">On a Beautiful Woman [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">300</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 7 in the 1827 collection <biblScope unit="pp">(page 300)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as Sonnet. <biblScope unit="pp">(page 192)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="MotherSleeping_1827">
+                  <title level="a">To My Mother Sleeping [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">299</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 6 in the 1827 collection <biblScope unit="pp">(page 299)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenJuly1824_1827">
+                  <title level="a">Written July, 1824 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">298</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 5 in the 1827 collection <biblScope unit="pp">(page 298)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToHenryRichardson_1827">
+                  <title level="a">To Mr. Henry Richardson. On His Performance of Admetus in the Alcestis of Euripides as Represented in the Original Greek at Reading School [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">296-97</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 4 in the 1827 collection <biblScope unit="pp">(pages 296-97)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ForgetMeNot_1827">
+                  <title level="a">The Forget-Me-Not [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">295</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 3 in the 1827 collection <biblScope unit="pp">(page 295)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HoflandsJerusalem_1827">
+                  <title level="a">On Mr. Hofland's Picture of Jerusalem at the Time of the Crucifixion [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">294</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 2 in the 1827 collection <biblScope unit="pp">(page 294)</biblScope></bibl>. Also appeared in the <bibl><date when="1826">1826</date> <title ref="#Amulet">Amulet</title> as <title level="a">Sonnet: Jerusalem</title> <biblScope unit="pp">(page 329)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BlankPaperBook_1827">
+                  <title level="a">Written in a Blank-Paper Book Given to the Author by a Friend [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">293</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 1 in the 1827 collection <biblScope unit="pp">(page 293)</biblScope></bibl>. Also appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet. Written in a Blank Paper Book Given To the Author by a Friend</title><biblScope unit="pp">(page 387)</biblScope></bibl>.</note>
+               </bibl>
+               
+               
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -156,7 +156,7 @@
              <person xml:id="Tuppen_Mrs" sex="f">
                 <persName>Mrs. Tuppen</persName>
                 <persName>
-                   <forename>xxx</forename>
+                   <forename></forename>
                    <surname>Tuppen</surname>
                 </persName>
                 <note resp="#lmw">Spouse of <persName ref="#Tuppen_Capt">William Tuppen</persName>.</note>
@@ -411,7 +411,7 @@
                   <name type="genus">Rhododendron</name>
                   <name type="family">Ericaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw">Flowering shrub carrying abundantly showy red, pink, or white blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 19th century as a garden ornamental, it is now considered an invasive species.</note>
+                  <note resp="#lmw">Flowering shrub carrying abundantly showy red, pink, or white blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hundreds of years. Native to Eurasia and North America. Introduced to the UK in the 19th century as a garden ornamental, it is now considered an invasive species.</note>
                   <!--LMW: no wikispecies entry-->
                </item>
                
@@ -422,7 +422,7 @@
                   <name type="family">Ericaceae</name>
                   <name><addName>common rhododendron</addName></name>
                   <name><addName>pontic rhododendron</addName></name>
-                  <note resp="#lmw">lowering shrub carrying abundantly showy round flower clusters in shades of mauve or lavendar blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 18th century as a garden ornamental, it is now considered an invasive species.</note>
+                  <note resp="#lmw">Flowering shrub carrying abundantly showy round flower clusters in shades of mauve or lavendar blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 18th century as a garden ornamental, it is now considered an invasive species.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Rhododendron_ponticum"/></note>
                </item>
                
@@ -440,113 +440,118 @@
                
                <item xml:id="hearts_ease">
                   <name ref="#hearts_ease">heart's-ease</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <name type="species">Viola tricolor</name>
+                  <name type="genus">Viola</name>
+                  <name type="family">Violaceae</name>
+                  <name><addName>wild pansy</addName></name>
+                  <name><addName>Johhny Jump up</addName></name>
+                  <name><addName>Love-in_Idleness</addName></name>
+                 <note resp="#lmw">Wild pansy native to the UK</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/19017/viola-tricolor/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Viola_tricolor"/></note>
                </item>
                
                <item xml:id="snowdrop">
-                  <name>snowdrop</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <name>common snowdrop</name>
+                  <name type="species">Galanthus nivalis</name>
+                  <name type="genus">Galanthus</name>
+                  <name type="family">Amaryllidaceae</name>
+                  <note resp="#lmw">Small white-flowered plant propagated by bulbs, native to Europe and the Middle East and widely naturalized elsewhere. Believed to be native to the UK since the 16th century. Flowers in late winter and early spring, around the vernal equinox and so is considered a harbinger of spring. May also symbolize purity, hope, or the Christian Holy Trinity. A frequent subject of 19th century poetry including works by <persName ref="#Landon_LE">Landon</persName> <persName ref="#Wordsworth_Wm">Wordsworth</persName>, and others.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/7568/galanthus-nivalis/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Galanthus"/></note>
                </item>
                
                <item xml:id="hepatica">
                   <name>hepatica</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <name type="species">Anemone hepatica</name>
+                  <name type="genus">Anemone</name>
+                  <name type="family">Ranunculaceae</name>
+                  <name><addName>Hepatica nobilis</addName></name>
+                  <name><addName>liverleaf</addName></name>
+                  <name><addName>ivy flower</addName></name>
+                  <note resp="#lmw">Low-growing flowering plant with fleshy, trilobal leaves and blue, purple, or pink flowers with showy white stamens. Flowers in late winter and early spring. Native to Europe and Asian and naturalized as well as grown as a garden plant in the UK.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/8645/hepatica-nobilis/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Hepatica_nobilis"/></note>
                </item>
                
                <item xml:id="aconite">
-                  <name>aconite</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
+                  <name>winter aconite</name>
+                  <name type="species">Eranthis hyemalis</name>
+                  <name type="genus">Eranthis</name>
+                  <name type="family">Ranunculaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Yellow flowering plant native to Europe and naturalized in the UK. One of the earliest woodland wildflowers, appearing in late winter. Unrelated to aconitum (monkshood).</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/6540/eranthis-hyemalis/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Eranthis_hyemalis"/></note>
                </item>
                
-               <item xml:id="fuschia">
-                  <name>fuschia</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+               <item xml:id="fuchsia">
+                  <name>fuchsia</name>
+                  <name type="species">fuchsia magellanica</name>
+                  <name type="genus">fuchsia</name>
+                  <name type="family">Onagraceae</name>
+                  <name><addName>fuschia</addName></name>
+                  <name><addName>hardy fuchsia</addName></name>
+                  <note resp="#lmw">Small upright or spreading flowering shrub, with showy, pendulous bi-colored blooms in combinations of red, pink, purple, and white sepals and petals. A large genus, native to the Carribbean islands, Mexico, central and South America. Now a widely grown garden shrub and pot plant. F. coccinea and F. magellanica, both from South America, were being cultivated in England by the late eighteenth century. Vineyard Gardens in Hammersmith, England introduced fuchsias to the gardening public, as well as introducing and popularizing imports such as the China rose and dahlia as garden plants.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/fuchsia/hardy"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Fuchsia_magellanica"/></note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Fuchsia"/></note>
                </item>
                
                <item xml:id="mignonette">
-                  <name>mignonette</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
+                  <name>garden mignonette</name>
+                  <name type="species">Reseda odorata</name>
+                  <name type="genus">Reseda</name>
+                  <name type="family">Resedaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw"></note>
-               </item>
-               
-               <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, green Indian-corn,-->
-               
-               <item xml:id="celery">
-                  <name>celery</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"><!-- wild celery? --></note>
-               </item>
-               
-               <item xml:id="convolvulus">
-                  <name ref="#convolvulus">convolvulus</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Tall, thin pale yellow flower spike growing from base leaves. Native to Europe, the Mediterranean region, and southwest Asia. In the 19th century, grown in gardens and windowboxes for its fragrance. Also used in perfumery, potpourri, and as a cut flower in arrangements. R. luteola, another species, was a source of yellow dye.</note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Reseda"/></note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/82322/i-reseda-odorata-i/details"/></note>   
                </item>
                
                <item xml:id="hop_bines">
                   <name ref="#hop_bines">hop-bines</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
+                  <name type="species">Humulus lupulus</name>
+                  <name type="genus">Humulus</name>
+                  <name type="family">Cannabaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Twining plant using stiff, hairy stems (bines) to climb. Flowers of the female plants are the source of hops, used in brewing to flavor beer</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/117193/i-humulus-lupulus-i-aureus-(f)/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Humulus"/></note>
                </item>
                
                <item xml:id="wallflower">
-                  <name>wallflower</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
+                  <name>common wallflower</name>
+                  <name type="species">Erysimum cheiri</name>
+                  <name type="genus">Erysimum</name>
+                  <name type="family">Brassicaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Flowering plant native to the Mediterranean basin and widely used as a garden plant for its showy, fragrant clusters of racemes in yellow-orange.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/89218/erysimum-cheiri/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Erysimum_%C3%97_cheiri"/></note>
                </item>
                
                <item xml:id="myrtle">
-                  <name>myrtle</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <name>common myrtle</name>
+                  <name type="species">Myrtus communis</name>
+                  <name type="genus">Myrtus</name>
+                  <name type="family">Myrtaceae</name>
+                  <name><addName>true myrtle</addName></name>
+                  <name><addName>European myrtle</addName></name>
+                  <note resp="#lmw">Evergreen flowering shrub bearing white flowers with many showy white stamens and dark blue edible berries. Native to the Mediterranean region and Western Asia to India. Associated with Jewish, Greek, and Roman ritual and myth, symbolizing honor, prosperity, hope, and love. In early-modern Europe, the floweres became traditional in bride's bouquets because of their associations with love and happiness.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/11311/i-myrtus-communis-i/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Myrtus_communis_L."/></note>
                </item>
                
-               <item xml:id="butercup">
+               <item xml:id="buttercup">
                   <name>common buttercup</name>
                   <name type="species">Ranunculus acris</name>
                   <name type="genus">Ranunculus</name>
                   <name type="family">Ranunculaceae</name>
                   <name><addName>Meadow buttercup</addName></name>
                   <note resp="#slc">A small yellow flowering plant first catogorized by Carolus Linnaeus in his 1753 Species Plantarum. It is a herbaceous perennial plant that grows to a height of 30  - 70 cm, with ungrooved flowing stems bearing glossy yellow flowers about 25 mm across. There are five overlapping petals borne above five green sepals that soon turn yellow as the flower matures. It has numerous stamens inserted below the ovary. The leaves are compound, with three lobed leaflets. In horticulture the species may be regarded as a troublesome weed, colonising lawns and paths. However, it may be a welcome feature of wildflower meadows. The double-flowered cultivar R. acris 'Flore Pleno' has gained the Royal Horticultural Society's Award of Garden Merit.</note>
-                  <note resp="#lmw"></note>
+                  
                   <note><ptr target="https://species.wikimedia.org/wiki/Ranunculus"/></note>
                   <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_acris"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
                </item>
@@ -583,6 +588,17 @@
                   <note><ptr target="https://www.woodlandtrust.org.uk/blog/2019/05/nine-wild-uk-orchids/"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
                </item>
                
+               <item xml:id="convolvulus">
+                  <name ref="#convolvulus">convolvulus</name>
+                  <name type="species"></name>
+                  <name type="genus"></name>
+                  <name type="family"></name>
+                  <name><addName></addName></name>
+                  <note resp="#lmw"></note>
+                  <!--https://www.rhs.org.uk/plants/4333/i-convolvulus-cneorum-i/details-->
+                  <!--https://en.wikipedia.org/wiki/Convolvulus-->
+               </item>
+               
                <item xml:id="grapevine">
                   <name>vine</name>
                   <name type="species"></name>
@@ -591,6 +607,32 @@
                   <name><addName>grapevine</addName></name>
                   <note resp="#lmw"><!--decide about id. In UK, they use "vine" to refer to the grapevine, Vitis vinifera, and mainly the term grapevine is used in Australia and the US--><!--LMW cultivated? need entry for wild?; make separate entry for the fruit?--> </note>           
                </item>
+              
+               <item xml:id="celery">
+                  <name>celery</name>
+                  <name type="species">Apium graveolens</name>
+                  <name type="genus">Apium</name>
+                  <name type="family">Apiaceae</name>
+                  <name><addName></addName></name>
+                  <note resp="#lmw"><!-- wild celery? --></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Apium_graveolens"/></note>
+               </item>
+               
+               <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, green Indian-corn,-->
+               
+               
+               <!--      <item xml:id="daisy">
+                  <name>daisy</name>
+                  <name type="species">Bellis perennis</name>
+                  <name type="genus">Bellis</name>
+                  <name type="family">Asteraceae</name>
+                  <name><addName>common daisy</addName></name>
+                  <name><addName>lawn daisy</addName></name>
+                  <name><addName>English daisy</addName></name>
+                  <note resp="#lmw">Perennial white daisy native to Europe and the UK, sometimes with pink-tinged petals. Plants are low-growing rosettes of round or oval leaves; single- and double-flowered varieties are hybridized in red, pink, and white. By the Victorian period, the flower held symbolic associations with childhood and innocence.</note>
+                  <note><ptr target="https://www.rhs.org.uk/Plants/94326/i-Bellis-perennis-i/Details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Bellis_perennis"/></note>
+               </item>-->
                
                <item xml:id="potato">
                   <name ref="#potato">potato</name>
@@ -864,9 +906,7 @@
             B.R. Haydon Esqre 8 Paddington Green, near the Church Paddington London
             Mr. Samuel Robinson Chapter House Court. St. Paul's Church yard
             T. N. Talfourd Esqre 2 Elm Court Temple
-            Philip Crowther Esqre Westbury on Trim near Bristol.
-            Miss Macready at the Revd. Wm. Birch's Rugby Warwickshire
-            Mrs. Tucker 47. Upper Norton Street Regent's Park.
+            Philip Crowther Esqre Westbury on Trim near Brhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh              Mrs. Tucker 47. Upper Norton Street Regent's Park.
             Miss Dominicetti 30 Carburton Street - Upper Norton Street - 
             Mrs. Vardill 45 Ellistone Street
             Mrs. Nieven - Ci devant Miss Vardill
