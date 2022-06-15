@@ -42,6 +42,7 @@
                <!--compiling from Journal 2019-02-24 LMW -->
                <!--adding stubs from main SI to update-->
                <!--compiling 1827 sonnet titles 2022-06-04 and other Si-add files from Journal, Hofland letters, OV-->
+               <!--LMW 06-14-2022-->
             </notesStmt>
             <sourceDesc>
                <p>Information on named entities in this file has been extracted from files in the
@@ -190,7 +191,7 @@
                      <surname>Dearsley</surname>
                   </orgName>
                   <note resp="#lmw">A <rs type="person"
-                     ref="#Dearsley_Is #Dearsley_Wm">family</rs> who lived at Moore House, Shinfield.</note>
+                     ref="#Dearsley_Is #Dearsley_Wm">family</rs> who lived at Moore House, Shinfield. <!--LMW: Are these the Dearsleys who sold Farley Court in the early 19th c.?--></note>
                </org>
                
                <org xml:id="Drovers">
@@ -199,10 +200,11 @@
                   <orgName>
                      <surname>Drover</surname>
                   </orgName>
-                  <note resp="#ebb">A <rs type="person"
+                  <note resp="#ebb #lmw">A <rs type="person"
                      ref="#Drover_JamesSr #Drover_Miss #Drover_JamesJr #Drover_Mrs #Drover_Elizabeth">family</rs> who, according to <persName ref="#Needham_Francis">Francis
                         Needham</persName>’s notes, lived on <placeName>Minster
-                           Street</placeName>.</note>
+                           Street</placeName> in Reading, over their China shop.</note>
+                  <!--https://www.berkshirehistory.com/villages/reading_minster_street_intro.html-->
                </org>
                
                <org xml:id="Garrards">
@@ -230,7 +232,8 @@
                <org xml:id="Marshs_shop"> 
                   <orgName>Marsh's</orgName>
                   <note resp="#rjp #lmw"><!--This is a place the MRM goes to purchase things...likely a retail
-                     store...VERIFY!--><!--LMW: MADE AN orgName as a business, rather than a place. Any relation to Harry Marsh? one-time banker--></note>
+                     store...VERIFY!--><!--LMW: MADE AN orgName as a business, rather than a place. Any relation to Harry Marsh? one-time banker-->
+                     <!--LMW: Marsh, Deane and Co., Reading, bankers, listed bankrupt in 1824:  https://www.google.com/books/edition/The_Law_Advertiser/CuouAAAAIAAJ?hl=en&gbpv=1&dq=Marsh+and+Co.+Reading+Berks&pg=PA105&printsec=frontcover--></note>
                </org>
                
                <org xml:id="Newberys">
@@ -366,7 +369,7 @@
                      <surname type="paternal">Biggs</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">Associated with <persName ref="#Johnson_Mr">Mr. Johnson</persName> and <persName ref="#Johnson_Miss">Miss Johnson</persName>. <persName ref="#MRM">Mitford</persName> dined with them at <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.<!--LMW: possibly a governess or companion to Miss Johnson?--></note>
+                  <note resp="#lmw">Associated with <persName ref="#Johnson_Mr">Mr. Johnson</persName> and <persName ref="#Johnson_Miss">Miss Johnson</persName>. <persName ref="#MRM">Mitford</persName> dined with them at <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.<!--LMW: possibly a governess or companion to Miss Johnson? relation of the prominent Biggs family in Berks?--></note>
                </person>
                
                <person xml:id="Bonviese_Mr" sex="m">
@@ -559,11 +562,12 @@
                </person>
                
                <person xml:id="Clarke_Mrs" sex="f">
-                  <persName>Antonia Macaree Clarke</persName>
+                  <persName>Matilda Hill Macaree Clarke</persName>
                   <persName>
                      <surname type="married">Clarke</surname>
                      <surname type="paternal">Macaree</surname>
-                     <forename>Antonia</forename>
+                     <forename>Matilda</forename>
+                     <forename>Hill</forename>
                      <roleName>Mrs.</roleName>
                      <addName>Mrs. Clarke</addName>
                   </persName>
@@ -724,8 +728,18 @@
                            </persName>
                            <note resp="#lmw"></note>
                         </person>
+               
+               <person xml:id="Hayward_Wm" sex="m">
+                  <persName>William Hayward</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">Spouse of <persName ref="#Webb_Jane">Jane Webb</persName>. They lived in <placeName>Watlington</placeName>. They had two children, Susan Jane (1815-1898) and William Webb (1818-1899). </note>
+               </person>
                            
-                           <person xml:id="Hayward_MrsW" sex="f"><!--update Jane WEbb. Husband William Webb. 2-3 children: William Webb Hayward, 1818-1899; Susan Jane, 1819-1898; Ellen, 1821-??-->
+                           <person xml:id="Hayward_MrsW" sex="f"><!--delete, and update Jane WEbb. Husband William Webb. 2-3 children: William Webb Hayward, 1818-1899; Susan Jane, 1819-1898; Ellen, 1821-??-->
                               <persName>Mrs. Hayward</persName>
                               <persName>
                                  <surname type="married">Hayward</surname>
@@ -867,7 +881,7 @@
                   <death when="1861-12-05">
                      <placeName>Castlemartyr, Cork, Ireland</placeName>
                   </death>
-                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1829" to="1855">between 1829 and 1855</date>. Mitford wrote to her at Castle Martyr, Ireland. Grandniece of playwright Robert Jephson. Dates unknown.  
+                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1829" to="1855">between 1829 and 1855</date>. Mitford wrote to her at Castle Martyr, Ireland. Grandniece of playwright Robert Jephson.  
                   </note>
                </person>
                
@@ -946,6 +960,7 @@
                </person>
                
                <!--Thomas Samul Joliffe, Esq., for Petersfield, d. in 1824 m. Mary Anne Twyford of Kilmersdon, an heiress. their children: John Twyford Joliffe, Esp. of Ammerdown park, Somerset, , The Rev. Thoms Robert Joliffe, Charles Joliffe, a military officer, slain at Waterloo; Mary Anne. Burke, Royal Families of Eng, Sc and Wales, 1847-->
+               
                <person xml:id="Kenyon_John" sex="m">
                   <persName>John Kenyon</persName>
                   <persName>
@@ -1044,8 +1059,6 @@
                   <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> and a shop assistant to <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street, <persName ref="#Lovejoy_Geo">George Lovejoy</persName>. Langley purchased the business upon Lovejoy's death in 1882 and expanded it. She operated the bookselling, stationery, and circulating library business under the name The Lovejoy and Southern Counties Library. She published at least two books by Elizabeth Waterhouse under the imprint <q>Lovejoy's Library</q>. 
                   </note>
                </person>
-                <!--https://en.wikipedia.org/wiki/Orchis_anthropophora Man orchid-->
-               <!--Reading Institution, public library-->
             
                <person xml:id="Lawrence_Mr" sex="m">
                   <persName>Mr. Lawrence</persName>
@@ -1124,7 +1137,7 @@
                      <surname>Maitland</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw">Forename unknown. Dates unknown.</note><!--LMW: Swallowfield?-->
                </person>
                
                <person xml:id="Marmy_pet" sex="f">
@@ -1237,15 +1250,15 @@
                   </persName>
                   <occupation type="legal"/>
                   <occupation type="legal" subtype="solicitor"/>
-                  <note resp="#lmw">Solicitor at 35 Great Queen's Street, Lincoln Inn Fields, London; and at Friar Street, Reading. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63.</note>
+                  <note resp="#lmw">Solicitor at various addresses in Lincoln Inn Fields, London; and at Friar Street, Reading. He was an articled clerk in Abingdon. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63.</note>
                </person>
-               <!--1789 marriage, THOMAS Newbery to Miss Stable of Reading
-             https://books.google.com/books?id=PX4EAAAAQAAJ&newbks=1&newbks_redir=0&dq=%22Thomas%20Newbery%22%20berks&pg=PA111#v=onepage&q=%22Thomas%20Newbery%22%20berks&f=false-->
+               
                
                <!--LMW: Webbs & Wheelers: Alderman of Wokingham in 1819:Robert Woods, George Woodward, John Wright, Edward Winn, Samuel Waller, Sir John Benn Walsh, Baronet; Charles Walker, clerk"
                      https://books.google.com/books?id=UJc4AQAAMAAJ&newbks=1&newbks_redir=0&dq=%22robert%20Wheeler%22%20Webb%20Wokingham&pg=PA1353#v=onepage&q=%22robert%20Wheeler%22%20Webb%20Wokingham&f=false-->
                
-               <!--LMW: Blandys:  http://breweryhistory.com/wiki/index.php?title=List_of_Blandy,_Hawkins_%26_Co_pubs   Small Mead-Gate pub-->
+               <!--LMW: Blandys:  http://breweryhistory.com/wiki/index.php?title=List_of_Blandy,_Hawkins_%26_Co_pubs   Small Mead-Gate pub
+               Also a firm of solicitors in Reading-->
                
                <person xml:id="Newbery_Mrs" sex="f">
                   <persName>Mrs. Newbery</persName>
@@ -1335,7 +1348,7 @@
                   </persName>
                   <note resp="#lmw"><!--LMW: Mrs. Webb's maiden name was Ogbourn:  a sister or niece?  Is this AUNT MARY??--></note>
                </person>
-               <!--LMW: Existing SI entry:
+               <!--LMW: Existing SI entry - update. Sister in law?:
                               <person xml:id="Webb_Mary_elder" sex="f">
                                  <persName>Aunt Mary Webb</persName>
                                  <persName>
@@ -1611,7 +1624,7 @@
                   <birth when="1832"/>
                   <death when="1925"/>
                   <occupation type="literary"/>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of Sir George Russell, fourth baronet. Daughter of Lord Arthur Lennox. Author of <title level="m">Swallowfield and its Owners</title> (1910).
+                  <note resp="#lmw">A correspondent and friend of <persName ref="#MRM">Mary Russell Mitford</persName>, when she moved to a cottage near Swallowfield at the end of her life. Spouse of Sir George Russell, fourth baronet. Daughter of Lord Arthur Lennox. Author of <title level="m">Swallowfield and its Owners</title> (1910).
                   </note>
                   <note><ptr target="http://viaf.org/viaf/31595043"/></note>
                </person>
@@ -1637,6 +1650,7 @@
                   <persName>Sally</persName>
                   <persName>
                      <forename>Sally</forename>
+                     
                   </persName>
                   <occupation type="service"/>
                   <note resp="#lmw">Servant at <placeName ref="#Bertram_house">Bertram House</placeName>, dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. Surname unknown.</note>
@@ -1755,7 +1769,7 @@
                      <surname>Spurling</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">An associate of <persName>Mr Elliott</persName>, possibly an attorney. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw">An associate of <persName>Mr. Elliott</persName>, possibly an attorney. Forename unknown. Dates unknown.</note>
                </person>
                
                <person xml:id="Stevenson_Mr" sex="m">
@@ -1774,7 +1788,7 @@
                      <forename>Emily</forename>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">Possibly the daughter of <persName ref="#Stevenson_Mr">Mr. Stevenson</persName>Dates unknown.<!--daughter of Mr. Stevenson?--></note>
+                  <note resp="#lmw">Possibly the daughter of <persName ref="#Stevenson_Mr">Mr. Stevenson</persName>Dates unknown.</note>
                </person>
               
                <person xml:id="Taunton_Mrs" sex="f">
@@ -1873,7 +1887,7 @@
                   </persName>
                   <occupation type="medical"/>
                   <occupation type="medical" subtype="surgeon"/>
-                  <note resp="#lmw">An friend of <persName ref="#MRM">Mitford</persName> in 1819-1823. Mitford visited him in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Jeremy_Caro">Miss Jeremy</persName>. May be either James Wheeler (1766-1850), spouse of Catherine Bird Rogers Wheeler (1771-1852) or their son, James Wheeler (1792-1866), spouse of Harriet Horne, all of whom lived in Wokingham. James Wheeler, father and son, were both surgeons.</note>
+                  <note resp="#lmw">A friend of <persName ref="#MRM">Mitford</persName> in 1819-1823. Mitford visited him in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Jeremy_Caro">Miss Jeremy</persName>. May be either James Wheeler (1766-1850), spouse of Catherine Bird Rogers Wheeler (1771-1852) or their son, James Wheeler (1792-1866), spouse of Harriet Horne, all of whom lived in Wokingham. James Wheeler, father and son, were both surgeons.</note>
                </person>
                
                <person xml:id="White_Mr" sex="m"> 
@@ -1976,6 +1990,12 @@
                   <note resp="#lmw"></note>
                </place>
                
+               <place xml:id="Watlington">
+                  <placeName>Watlington</placeName>
+                  <location><geo></geo></location>
+                  <note resp="#lmw"></note>
+               </place>
+               
                <place xml:id="Mortimer_WEnd">
                   <placeName>Mortimer West End</placeName>
                   <district>Reading</district>
@@ -2000,7 +2020,7 @@
             <list sortKey="animals">
                <item/>
                
-               <!--LMW: to add, from OV-->
+              
                <item xml:id="horse">
                   <name>horse</name>
                   <name type="species">Equus ferus caballus</name>
@@ -2042,7 +2062,10 @@
                   <name type="family">Equidae</name>
                   <note resp="#lmw">Domestic animal descended from the African wild ass, mostly used as draught or pack animals. In the UK, used as recreational mounts at seaside resorts. Spread throughout the Roman empire. Before the 1780s, called <q>asses</q>; the term may have changed to avoid vulgar connotations with similar-sounding terms like <q>arse</q>.</note>
                   <note>
-                     <ptr target="	thedonkeysanctuary.org.uk"/><!--LMW: No wikispecies entry-->
+                     <ptr target="thedonkeysanctuary.org.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Equus_africanus"/>
                   </note>
                   
                </item>
@@ -2076,11 +2099,12 @@
                </item>
                
                <item xml:id="cow">
-                  <name>cow</name> <name><addName>cattle</addName></name>
+                  <name>cow</name> 
+                  <name><addName>cattle</addName></name>
                   <name type="species">Bos taurus</name>
                   <name type="genus">Bos</name>
                   <name type="family">Bovidae</name>
-                  <note resp="#lmw">Large domesticated grazing animal raised as livestock for meat, milk, or hides. <q>Cow</q> is the term for female cattle and <q>bull</q> for males, although both are commonly referred to as <q>cows</q>. Also used as draught animals (called oxen) to pull carts or plows. One of the earliest domesticated animals, descended from two separate areas, one in the Near East (Turkey and northern Syria) and one in modern-day Pakistan. Many modern-day breeds are descended from cattle exported from the UK to the rest of the world between the l7th and early 20th century, including: Aberdeen Angus, Ayrshire, Belted Galloway, Blue Grey, Devon, Dexter, British White, British Friesian, English Longhorn, Gloucester, Guernsey, Hereford, Jersey, Kerry, and Shorthorn.</note>
+                  <note resp="#lmw">Large domesticated grazing animal raised as livestock for meat, milk, or hides. <q>Cow</q> is the term for female cattle and <q>bull</q> for males, although both are commonly referred to as <q>cows</q>. Also used as draught animals (called oxen) to pull carts or plows. One of the earliest domesticated animals, descended from two separate areas, one in the Near East (Turkey and northern Syria) and one in modern-day Pakistan. Many modern-day breeds are descended from cattle exported from the UK to the rest of the world between the l7th and early 20th century, including the following breeds: Aberdeen Angus, Ayrshire, Belted Galloway, Blue Grey, Devon, Dexter, British White, British Friesian, English Longhorn, Gloucester, Guernsey, Hereford, Jersey, Kerry, and Shorthorn.</note>
                   <note>
                      <ptr target="http://afs.okstate.edu/breeds/region/f-brit.html/"/>
                   </note>
@@ -2101,10 +2125,10 @@
                   <name>domestic pig</name>
                   <name type="species">Sus domesticus</name>
                   <name type="genus">Sus</name>
-                  <name type="family">Suidae</name>/87
+                  <name type="family">Suidae</name>
                   <name><addName>swine</addName></name>
                   <name><addName>hog</addName></name>
-                  <note resp="#lmw">Large omnivorous domestic animal kept as livestock primarily for meat, but pig's bristles and hide are also used. Likely domesticated from wild boar in three separate areas: first in the Near East and China and later in Europe. Bythe 19th century, native UK breeds included: Tamworth, Large White, Large Black, British Lop, Berkshire, and Oxford Sandy and Black. The Berkshire is considered the oldest British breed; it's a stocky, medium-sized black pig with white legs and patches. The Oxford Sandy and Black developed in Oxfordshire in the 18th century; it's a medium-sized pig with reddish, sandy skin and black patches.</note>
+                  <note resp="#lmw">Large omnivorous domestic animal kept as livestock primarily for meat, but pig's bristles and hide are also used. Likely domesticated from wild boar in three separate areas: first in the Near East and China and later in Europe. By the 19th century, native UK breeds included: Tamworth, Large White, Large Black, British Lop, Berkshire, and Oxford Sandy and Black. The Berkshire is considered the oldest British breed; it's a stocky, medium-sized black pig with white patches and legs. The Oxford Sandy and Black developed in Oxfordshire in the 18th century; it's a medium-sized pig with reddish, sandy-colored skin and black patches.</note>
                   <note>
                      <ptr target="https://www.britishpigs.org.uk/"/>
                   </note>
@@ -2119,7 +2143,7 @@
                   <name type="genus">Mustela</name>
                   <name type="family">Mustelidae</name>
                   <name><addName>European polecat</addName></name>
-                  <note resp="#lmw">Carnivorous mammal native to Eurasia, North Africa, and the UK. Shorter and stouter than related species like weasels or stoats, it is dark brown with a dark mask and lighter underbelly and defends its territory by spraying a malodorous liquid. Domesticated for hunting vermin and hunted for pelts. In 18th and 19th century England, Scotland and Wales, were eradicated by gamekeepers and bounty hunters, who believed them to be a nuisance animal dangerous to poultry stock. Traditionally hunted in Britain in spring with mixed packs of dogs.</note>
+                  <note resp="#lmw">Carnivorous mammal native to Eurasia, North Africa, and the UK. Shorter and stouter than related species like weasels or stoats, it is dark brown with a dark mask and lighter underbelly and defends its territory by spraying a malodorous liquid. Domesticated for hunting vermin, and hunted for pelts. In 18th and 19th century England, Scotland and Wales, were eradicated by gamekeepers and bounty hunters, who believed them to be a nuisance animal dangerous to poultry stock. Traditionally hunted in Britain in spring with mixed packs of dogs.</note>
                   <note>
                      <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/polecat"/>
                   </note>
@@ -2134,7 +2158,7 @@
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
                   <name><addName>domestic dog</addName></name>
-                  <note resp="#lmw">First animal species to be domesticated, before the developmment of farming, by hunter-gatherers more than fifteen thousand years ago. Descended from an ancient, now-extinct wolf species. Modern dog breeds were codified beginning in the late 19th century, with the rise in dog shows and set breed standards. Before that time, dogs were classified by appearance or function and may be considered <soCalled>landrace</soCalled>, traditional, or heritage breeds. More than 50 named dog breeds originated in the UK. Breeds extant during the first half of the nineteenth century include: many terrier breeds in a range of sizes and coat types, originally bred to hunt vermin; several hounds, hunting dogs used to track or chase prey, such as the scenthounds (bloodhounds, harriers, fox hounds) and the sighthounds (greyhound, Irish Wolfhound, Scottish deerhound);  mastiffs such as the English bulldog, Bullmastiff and English mastiff, used in blood sports and as guard  dogs; sporting dogs used in bird hunting, such as setters and pointers; and many spaniels, including the Cavalier King Charles, Clumber, Sussex, English springer and English cocker spaniels. Now-extinct predescessor breeds include: Staghound, Buckhound, Talbot hound, Old English Bulldog, Norfolk and Tweed water spaniels, Black and Tan terrier, Cumberland sheepdog, English cur or drover's dog, Curley-coated retriever, English water spaniel, English white terrier; most extinct breeds contributed bloodlines subsumed by later breeds.</note>
+                  <note resp="#lmw">First animal species to be domesticated, before the developmment of farming, by hunter-gatherers more than fifteen thousand years ago. Descended from an ancient, now-extinct wolf species. Modern dog breeds were codified beginning in the late 19th century, with the rise in dog shows and set breed standards. Before that time, dogs were classified by appearance or function and may be considered <soCalled>landrace</soCalled>, traditional, or heritage breeds. More than 50 named dog breeds originated in the UK. Breeds extant during the first half of the nineteenth century include: many terrier breeds in a range of sizes and coat types, originally bred to hunt vermin; several hounds, hunting dogs used to track or chase prey, such as the scenthounds (bloodhounds, harriers, fox hounds) and the sighthounds (greyhound, Irish Wolfhound, Scottish deerhound);  mastiffs such as the English bulldog, Bullmastiff and English mastiff, used in blood sports and as guard dogs; sporting dogs used in bird hunting, such as setters and pointers; and many spaniels, including the Cavalier King Charles, Clumber, Sussex, English springer and English cocker spaniels. Now-extinct predecessor breeds include: Staghound, Buckhound, Talbot hound, Old English Bulldog, Norfolk and Tweed water spaniels, Black and Tan terrier, Cumberland sheepdog, English cur or drover's dog, Curley-coated retriever, English water spaniel, and English white terrier. Most extinct breeds actually contributed bloodlines subsumed by later breeds.</note>
                   <note>
                      <ptr target="www.thekennelclub.org.uk"/>
                   </note>
@@ -2150,7 +2174,7 @@
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
                   <name><addName>Landseer</addName></name>
-                  <note resp="#lmw">Large, muscular working dog with a thick coat and webbed feet. Developed  Developed in eastern Canada to assist fishermen, they are genetically related to Irish water spaniels, Labrador retrievers, and Curly-Coated retreivers. Landseer or <q>European Continental Type</q> dogs with black and white coats, named for the English painter, also exist, and may be a separate breed. Sweet-tempered and loyal, they good with children and known as <q>nanny dogs</q> . <q>Nana</q>, from Barrie's <title level="m">Peter Pan</title>, was based on a black and white Landseer-type Newfoundland owned by Barrie. </note>
+                  <note resp="#lmw">Large, muscular working dog with a thick coat and webbed feet. Developed in eastern Canada to assist fishermen, they are genetically related to Irish water spaniels, Labrador retrievers, and Curly-Coated retreivers. Landseer or <q>European Continental Type</q> dogs with black and white coats, named for the English painter, also exist, and may be a separate breed. Sweet-tempered and loyal, they good with children and known as <q>nanny dogs</q>. <q>Nana</q>, from Barrie's <title level="m">Peter Pan</title>, was based on a black and white Landseer-type Newfoundland owned by Barrie.</note>
                   <note>
                      <ptr target="www.thekennelclub.org.uk"/>
                   </note>
@@ -2164,13 +2188,14 @@
                   <name type="species">Canis familiaris</name>
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">In the 19th century, terriers were categorized as short- or long-legged, as well as categorized informally by function. UK terrier breeds appear in a range of sizes and coat types, and were originally bred to be fearless and agile in order hunt vermin (rats, foxes) underground. Terriers were used in blood sports such as rat-catching. Terriers and bulldog-terrier mixes were also used in dogfighting. Two notable heritage breeds, now extinct, include the black-and-tan terrier and the English white terrier.</note>
                   <note>
                      <ptr target="www.thekennelclub.org.uk"/>
                   </note>
                   <note>
                      <ptr target="ommons.wikimedia.org/wiki/Category:Old_English_Terrier#/media/File:Black-Tan_Terrier_BDL.jpg"/>
                   </note>
+                  <note><ptr target="ommons.wikimedia.org/wiki/File:The_young_sportsman%27s_manual_-_or,_recreations_in_shooting;_with_some_account_of_the_game_found_in_the_British_Islands,_and_practical_directions_for_the_management_of_dog_and_gun_(1849)_(14769934271).jpg"/></note>
                </item>
                
                <item xml:id="mongrel">
@@ -2189,12 +2214,11 @@
                   <name type="species">Canis familiaris</name>
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
-                  <note resp="#lmw">In Mitford's time, spaniels were classified as land or water types, and as springer (larger) and cocker (smaller) types, although springers and cockers may have come from the same litter. They are gun dogs bred to flush or <q>spring</q> game birds. They were also used to hunt rabbits, sometimes alongside greyhounds. They may have solid or particolored coats in black, liver, red, or golden, with tan masking and trim, roan patching, or <q>ticked</q> spots.  The most common color is liver (dark brown/chocolate) and white. The Sussex spaniel, first recorded in 1795, is a stocky spaniel with a distinctive golden-liver colored coat and hazel eyes. <persName ref="#Molly_pet">Molly</persName> was a white spaniel with a wavy coat.</note>
+                  <note resp="#lmw">In Mitford's time, spaniels were classified as land or water types, and as springer (larger) and cocker (smaller) types, although springers and cockers may have come from the same litter. They are gun dogs bred to flush or <q>spring</q> game birds. They were also used to hunt rabbits, sometimes alongside greyhounds. They may have solid or particolored coats in black, liver, red, or golden, with tan masking and trim, roan patching, or <q>ticked</q> spots.  The most common color is liver (dark brown/chocolate) and white. The Sussex spaniel, first recorded in 1795, is a stocky spaniel with a distinctive golden-brown colored coat and hazel eyes. The spaniel, <persName>Flush</persName>, gifted by Mitford to <persName ref="#Barrett_E">Elizabeth Barret Browning</persName>, had a golden-brown coat and hazel eyes. <persName ref="#Molly_pet">Molly</persName> was a white spaniel with a wavy coat.</note>
                   <note>
                      <ptr target="http://www.thecockerspanielclub.co.uk/index.htm"/>
                   </note>
-                  <note>
-                     <ptr target="www.thekennelclub.org.uk"/></note>
+                  <note><ptr target="www.thekennelclub.org.uk"/></note>
                      <note><ptr target="https://commons.wikimedia.org/wiki/File:111._English_and_Welsh_Cocker.JPG"/>
                   </note>
                   </item>
@@ -2226,23 +2250,11 @@
                
                https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:Marie_Antoinette_Adult6.jpg
                
+               Coursing:  https://commons.wikimedia.org/wiki/File:Wolstenholme_Greyhounds_Coursing.jpg
+               
                -->
                
-               <!--Canzonet
-                  As in the bursting springtime over the eye
-Of one who haunts the fields fair visions creep
-Beneath the closéd lids (afore dull sleep
-Dims the quick fancy) of sweet flowers that lie
-On grassy banks, oxlip of orient dye,
-And palest primrose and blue violet,
-All in their fresh and dewy beauty set,
-Pictured within the sense, and will not fly;
-So in mine ear resounds and lives again
-One mingled melody,[dash] a voice, a pair
-Of instruments most voice-like! Of the air
-Rather than of the earth seems that high strain,
-A spirit's song, and worthy of the train
-That soothed old Prospero with music rare. -->
+               
                
                <item xml:id="greyhound">
                   <name>greyhound</name>
@@ -2252,11 +2264,11 @@ That soothed old Prospero with music rare. -->
                   <note resp="#lmw"></note>
                   <ptr target="www.thekennelclub.org.uk"/>
                   <note>
-                     <ptr target="https://commons.wikimedia.org/wiki/Category:Greyhound#/media/File:%E2%80%9EGro%C5%BFs_Irl%C3%A6ndisch_Windspiel%E2%80%9C_%E2%80%9CLarge_Irish_Greyhound%E2%80%9D.png"/>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Wolstenholme_Greyhounds_Coursing.jpg"/>
                   </note>
                </item>
                
-               <item xml:id="guineafowl">
+               <item xml:id="guineafowl"><!--LMW: changed id of guineahen to guineafowl-->
                   <name>domestic guineafowl</name>
                   <name type="species">Numida meleagris</name>
                   <name type="genus">Numida</name>
@@ -2266,7 +2278,7 @@ That soothed old Prospero with music rare. -->
                      <ptr target="https://guineas.com/"/>
                   </note>
                   <note>
-                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                     <ptr target="https://species.wikimedia.org/wiki/Numida_meleagris"/>
                   </note>
                </item>
                
@@ -2278,7 +2290,7 @@ That soothed old Prospero with music rare. -->
                   <name><addName>Indian peafowl</addName></name>
                   <name><addName>Indian blue peafowl</addName></name>
                   <name><addName>common peacock</addName></name>
-                  <note resp="#lmw">Native to the Indian subcontinent, widely introduced as domestic birds elsewhere. Kept in zoos and menageries as well as living ornaments to large gardens and estates. Domestic birds may be raised for meat, and shed tailfeathers are prized for decorative uses. Omnivorous foragers that roost at night, feral birds can adapt to human habitation. Males are known as <q>peacocks</q> and females as <q>peahens</q>, although both are commonly referred to as <q>peacocks</q></note>
+                  <note resp="#lmw">Native to the Indian subcontinent, widely introduced as domestic birds elsewhere. In the 19th century, kept in zoos and menageries as well as living ornaments to large gardens and estates. Domestic birds may be raised for meat, and their shed tailfeathers are prized for decorative uses. Omnivorous foragers that roost at night, feral birds can adapt to human habitation. Males are known as <q>peacocks</q> and females as <q>peahens</q>, although both are commonly referred to as <q>peacocks</q></note>
                   <note>
                      <ptr target="https://www.peacocksuk.com/peacock-information/"/>
                   </note>
@@ -2304,20 +2316,16 @@ That soothed old Prospero with music rare. -->
               
                <item xml:id="goose">
                   <name>goose</name>
-                  <name type="species">Anser anser domesticus</name>
-                  <name type="species">Anser cygnoides domesticus</name>
+                 <name type="species">Anser anser domesticus</name>
                   <name type="genus">Anser</name>
                   <name type="family">Anatidae</name>
                   <name><addName>domestic goose</addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Large domestic waterfowl raised as poultry. Kept for their eggs, meat, and feathers, they may also be used as guard or watch animals. One of the earliest domesticated birds. In Europe, domestic breeds descend from the wild greylag goose.</note>
                   <note>
                      <ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/ducks-geese-and-swans/"/>
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Anser_anser"/>                                                                           c
-                  </note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Anser_cygnoides"/>
                   </note>
                </item>
                
@@ -2327,7 +2335,7 @@ That soothed old Prospero with music rare. -->
                   <name type="species">Gallus domesticus</name>
                   <name type="genus">Gallus</name>
                   <name type="family">Phasianidae</name>
-                  <note resp="#lmw">Domesticated bird species kept as livestock and used for meat, eggs, and feathers. Descended from species of wild junglefowl from Southeast Asia. First domesticated for ceremonial use and cockfighting, kept for food in the Middle East and then Europe beginning about the 4th century B.C. </note>
+                  <note resp="#lmw">Domesticated bird species kept as livestock and used for meat, eggs, and feathers. Descended from species of wild junglefowl from Southeast Asia. First domesticated for ceremonial use and cockfighting, kept for food in the Middle East and then in Europe, beginning about the 4th century B.C. </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Gallus_gallus"/>
                   </note>
