@@ -539,7 +539,7 @@
                            <roleName>Mrs.</roleName>
                         </persName>
                         <death when="1819"/>
-                        <note resp="#rjp #lmw"><persName ref="#MRM">Mitford</persName>'s Journal entry of <date when="1819-04-28">April 28, 1819</date> records that she lived in Bedford and died in childbirth. Forename unknown. Dates unknown<!--In the journal, Mitford mentions that Mrs. Budd lived in
+                        <note resp="#rjp #lmw"><persName ref="#MRM">Mitford</persName>'s Journal entry of <date when="1819-04-28">April 28, 1819</date> records that she lived in Bedford and died in childbirth. Forename unknown. Dates unknown.<!--In the journal, Mitford mentions that Mrs. Budd lived in
                            Bedford and died in childbirth on April 28, 1819.--><!--LMW: there is also a Miss Budd who died, possibly married name Mrs. Parks. And George Whittaker married a Sarah Budd, mother of the Whittakers Mitford knew who became publishers. --></note>
                      </person>
                      
@@ -595,10 +595,10 @@
                   <death when="1864-05-20">
                      <placeName>Northampton General Lunatic Asylum, Northampton, Northamptonshire, England</placeName>
                   </death>
-                  <occupation type="literary"/>
-                  <occupation type="literary" subtype="poet"/>
                   <occupation type="trade"/>
                   <occupation type="service"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">Called the <soCalled>peasant poet</soCalled>, Clare worked as an agricultural laborer and manservant.</note>
                   <note><ptr target="https://viaf.org/viaf/51703338/"/></note>
                </person>
@@ -711,7 +711,7 @@
                               <surname>Deverell</surname>
                               <forename>John</forename>
                            </persName>
-                           <note resp="#lmw"><!--LMW: July 1819 journal mentions both Mr. John Deverell and then Mr. Deverell.  John could be the son of Mr.--></note>
+                           <note resp="#lmw"><!--LMW: July 1819 journal mentions both Mr. John Deverell and then Mr. Deverell. John could be the son of Mr.--> Dates unknown.</note>
                         </person>
                
                <person xml:id="Dobbs_Mr" sex="m">
@@ -935,8 +935,8 @@
                   </death>
                   <occupation type="scholar"/>
                   <occupation type="literary"/>
-                  <occupation type="literary" subtype="poet"/>
                   <occupation type="artist"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Hughes_Marg">Margaret Wilkinson Hughes</persName> and father of <persName ref="#Senior_Jane">Jane Hughes Senior</persName>.
                   </note>
                   <note><ptr target="http://viaf.org/viaf/44478007"/></note>
@@ -1062,8 +1062,8 @@
                      <placeName>England</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <occupation type="literary" subtype="poet"/>
                   <occupation type="benefactor"/>
+                  <occupation type="literary" subtype="poet"/>
                   <occupation type="benefactor" subtype="philanthropist"/>
                   <note resp="#lmw">A friend of <persName ref="#MRM">Mary Russell Mitford</persName> and soi-distant cousin of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
                   <note><ptr target="http://viaf.org/viaf/68469709"/></note>
@@ -1082,12 +1082,12 @@
                      <placeName>Eversly, Hampshire, England</placeName>
                   </death>
                   <occupation type="religious"/>
-                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="education"/>
-                  <occupation type="education" subtype="professor"/>
                   <occupation type="literary"/>
-                  <occupation type="literary" subtype="novelist"/>
                   <occupation type="scholar"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="education" subtype="professor"/>
+                  <occupation type="literary" subtype="novelist"/>
                   <occupation type="scholar" subtype="historian"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>. Spouse of <persName ref="#Kingsley_Fanny">Fanny Grenfell Kingsley</persName>. 
                   </note>
@@ -1246,8 +1246,9 @@
                </person>
                
                <person xml:id="Marmy_pet" sex="f">
-                  <persName>Marmy</persName> <persName><addName>Marmion</addName></persName>
-                  <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
+                  <persName>Marmy</persName>
+                  <persName><addName>Marmion</addName></persName>
+                  <note resp="#lmw">One of Mitford's dogs at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
                </person>
                
                <person xml:id="Marsh_Henry"><!--stub: update existing-->
@@ -1307,11 +1308,11 @@
                      <placeName>Bridlington, Yorkshire, England</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="military" subtype="navy"/>
                   <occupation type="artist"/>
+                  <occupation type="scholar"/>
+                  <occupation type="military" subtype="navy"/>
                   <occupation type="artist" subtype="illustrator"/>
                   <occupation type="artist" subtype="engraver"/>
-                  <occupation type="scholar"/>
                   <occupation type="scholar" subtype="naturalist"/>
                   <note resp="#lmw">A paternal relative and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1816" to="1843">between 1816 and 1843</date>. Served in the Royal Navy as Captain, retiring as Rear Admiral. In her early years, Mitford refers to him as <q>Captain Osbaldeston</q>. He was a talented amateur artist, and learned engraving from <persName ref="#Bewick_Thos">Thomas Bewick</persName> and collaborated with <persName ref="#Selby_PJ">Prideaux John Selby</persName> on several important works on British birds. He later became the 29th Lord Mitford of Mitford, Northumberland, England, upon the death of his elder brother. 
                      <!--LMW: https://en.wikisource.org/wiki/A_Naval_Biographical_Dictionary/Mitford,_Robert-->
@@ -1521,7 +1522,7 @@
                      <surname>Payn</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mrs">Mrs. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note><!--A Mrs. Payne was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>-->
+                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mrs">Mrs. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note><!--A Mr. Payne was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>-->
                </person>
                
                <person xml:id="Payn_Mrs" sex="f">
@@ -1649,13 +1650,13 @@
                      <placeName>England</placeName>
                   </death>
                   <occupation type="literary"/>
+                  <occupation type="scholar"/>
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary" subtype="translator"/>
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="literary" subtype="biographer"/>
                   <occupation type="literary" subtype="autobiographer"/>
-                  <occupation type="scholar"/>
                   <occupation type="scholar" subtype="historian"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1832">1832</date>. Newspaper and magazine founder, journalist, editor. He reported on events in France for <title ref="#Examiner">the Examiner</title>, served as uncredited editor of the <title ref="#New_Monthly_Mag">New Monthly Magazine</title> in the 1820s, and edited a number of other journals in the 1830s and 1840s. He then turned to writing novels, nonfiction works for adults and children, biographies of <persName ref="#Beckford_William">William Beckford</persName> and <persName ref="#Campbell_Thos">Thomas Campbell</persName>, and volumes of autobiography.</note>
                   <note><ref target="http://viaf.org/viaf/2828716"/></note>
@@ -1675,13 +1676,13 @@
                      <placeName>Hampshire, England</placeName>
                   </death>
                   <occupation type="literary"/>
+                  <occupation type="government"/>
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary" subtype="translator"/>
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="literary" subtype="biographer"/>
                   <occupation type="literary" subtype="autobiographer"/>
-                  <occupation type="government"/>
                   <occupation type="government" subtype="administrator"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date>. Studied at Norwich Grammar School, led by <persName ref="#Valpy_Richard">Richard Valpy</persName>'s brother <persName>Edward</persName>. Travelled extensively in Europe and translated works from several European languages into English. Wrote for <title level="j">The Times</title> between 1840 and 1855. His experiences as clerk of appeal and registrar for the Privy Council enabled him to write authoritatively on foreign affairs, including the events of the Crimean War.</note>
                   <note><ref target="http://viaf.org/viaf/49975674"/></note>
@@ -1743,7 +1744,7 @@
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. Dates unknown. <!--LMW: Not a relation to MRM Russells, that I can tell.--></note>
                </person>
                
-               <person xml:id="StQuentin">
+               <person xml:id="StQuentin" sex="m">
                   <persName>M. St. Quentin</persName>
                   <persName>
                      <surname>St. Quentin</surname>
@@ -1755,8 +1756,7 @@
                   <persName>Sally</persName>
                   <persName>
                      <forename>Sally</forename>
-                     
-                  </persName>
+                   </persName>
                   <occupation type="service"/>
                   <note resp="#lmw">Servant at <placeName ref="#Bertram_house">Bertram House</placeName>, dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. Surname unknown.</note>
                </person>
@@ -1790,8 +1790,8 @@
                   </birth>
                   <death when="1877"/>
                   <occupation type="benefactor"/>
-                  <occupation type="benefactor" subtype="philanthropist"/>
                   <occupation type="government"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
                   <occupation type="government" subtype="administrator"/>
                   <occupation type="government" subtype="reformer"/>
                   <note resp="#lmw">Social reformer and relief worker during the Franco-Prussian War, and co-founder of the Metropolitan Association for Befriending Young Servants (MABYS). In 1873, became an assistant inspector of workhouses, making her the first female paid civil servant in the UK. She was the daughter of John Hughes and sister of writer Thomas Hughes.</note>
@@ -1813,9 +1813,9 @@
                      <placeName>Bamburgh, Northumberland, England</placeName>
                   </death>
                   <occupation type="artist"/>
+                  <occupation type="scholar"/>
                   <occupation type="artist" subtype="illustrator"/>
                   <occupation type="artist" subtype="engraver"/>
-                  <occupation type="scholar"/>
                   <occupation type="scholar" subtype="naturalist"/>
                   <note resp="#lmw">Important naturalist and illustrator in the 1820s, 30s, and 40s, friend and neighbor of <persName ref="#Mitford_RobertO">Robert Osbaldeston Mitford</persName>, with whom he collaborated on several volumes on British birds. He also contributed to <title>Jardine's Naturalist's Library</title> and authored a volume on British trees.</note>
                   <note><ptr target="http://viaf.org/viaf/10629084"/></note>
@@ -1835,9 +1835,9 @@
                      <placeName>Heckfield Place, Hampshire, England</placeName>
                   </death>
                   <occupation type="government"/>
-                  <occupation type="government" subtype="politician"/>
                   <occupation type="legal"/>
                   <occupation type="trade"/>
+                  <occupation type="government" subtype="politician"/>
                   <occupation type="trade" subtype="banker"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1805">1805</date> and a moderate Tory Member of Parliament for <placeName ref="#Reading_city">Reading</placeName> from 1796 to 1820. Not to be confused with his son, Charles Shaw-Lefevre, 1st Viscount Eversley, who became spaker of the House of Commons. Born Charles Shaw, he took the name Shaw Lefevre in 1789 and retired from legal practice in 1790 after inheriting from his father-in-law. He was an East India company investor and held interests in banking and insurance.</note>
                   <note><ptr target="http://viaf.org/viaf/43385208"/></note>
@@ -1893,7 +1893,7 @@
                      <forename>Emily</forename>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">Possibly the daughter of <persName ref="#Stevenson_Mr">Mr. Stevenson</persName>Dates unknown.</note>
+                  <note resp="#lmw">Possibly the daughter of <persName ref="#Stevenson_Mr">Mr. Stevenson</persName>. Dates unknown.</note>
                </person>
               
                <person xml:id="Taunton_Mrs" sex="f">
@@ -1919,11 +1919,12 @@
                      <placeName>Lurgashall, Sussex, England</placeName>
                   </death>
                   <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">Poet laureate of the UK from 1850 to 1892, following <persName ref="#Wordsworth_Wm">Wordsworth</persName>. Buried in Westminster Abbey.</note>
                   <note><ptr target="https://viaf.org/viaf/61540536/"/></note>
                </person>
                
-               <person xml:id="Tuppen_Capt" sex="m">
+               <person xml:id="Tuppen_Capt" sex="m"><!--check tree-->
                   <persName>William Tuppen</persName>
                   <persName>
                      <forename>William</forename>
@@ -1932,14 +1933,14 @@
                   </persName>
                   <persName><addName>Captain Tuppen</addName></persName>
                   <occupation type="military"/>
-                  <occupation type="military" subtype="army"/>
                   <occupation type="legal"/>
-                  <occupation type="legal" subtype="magistrate"/>
                   <occupation type="government"/>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="legal" subtype="magistrate"/>
                   <note resp="#lmw">In Mitford's time, a captain retired from the Royal West regiment of the London militia. Later became a magistrate and served as mayor of Reading.</note>
                </person>
                
-               <person xml:id="Tuppen_Mrs" sex="f">
+               <person xml:id="Tuppen_Mrs" sex="f"><!--check tree-->
                   <persName>Mrs. Tuppen</persName>
                   <persName>
                      <surname type="married">Tuppen</surname>
@@ -2026,7 +2027,7 @@
                   <persName>
                      <surname>Woodburn</surname>
                      <forename>John</forename>
-                     <note resp="#lmw"></note>
+                     <note resp="#lmw">FDates unknown.</note>
                   </persName>
                </person>
             
@@ -2061,6 +2062,7 @@
             <listPlace sortKey="histPlaces">
                
                <!--Shinfield:  http://www.berkshirehistory.com/villages/shinfield.html-->
+               <!--Ilsley-->
                
                <place xml:id="Pingewood">
                   <placeName>Pinge Wood</placeName>
@@ -2175,7 +2177,6 @@
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Equus_africanus"/>
                   </note>
-                  
                </item>
                
                <item xml:id="sheep">
@@ -2421,7 +2422,6 @@
                      <ptr target="https://species.wikimedia.org/wiki/Anser_anser"/>                                                                           c
                   </note>
                </item>
-               
                
                <item xml:id="chicken">
                   <name>chicken</name>
