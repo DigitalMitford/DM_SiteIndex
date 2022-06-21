@@ -191,7 +191,7 @@
                      <surname>Dearsley</surname>
                   </orgName>
                   <note resp="#lmw">A <rs type="person"
-                     ref="#Dearsley_Is #Dearsley_Wm">family</rs> who lived at Moore House, Shinfield. <!--LMW: Are these the Dearsleys who sold Farley Court in the early 19th c.?--></note>
+                     ref="#Dearsley_Is #Dearsley_Wm">family</rs> who lived at Moore House, Shinfield. <!--LMW: Are these the Dearsleys who sold Farley Court in the early 19th c.? A Mr. Dearsley was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>.--></note>
                </org>
                
                <org xml:id="Drovers">
@@ -286,7 +286,7 @@
             
             <listPerson sortKey="histPersons">
               <!--LMW: last added to on 2019-06-29--><!--LMW: revising 2020-02-14-->
-               <!--LMW: revising 2022-06-03-->
+               <!--LMW: revising 2022-06-20-->
                
                
                <!--https://www.google.com/books/edition/A_Collection_of_the_Public_General_Statu/g4ZFXyFLezEC?hl=en&gbpv=1&dq=garrard+Reading&pg=PA530&printsec=frontcover
@@ -306,6 +306,8 @@
                   Henry Simonds, Reading
                   Charles Simonds, jr., Reading
                   Edward Willes, Goodrest Lodge, Shinfield     -->
+               
+               <!--https://www.google.com/books/edition/The_Courser_s_Manual_Or_Stud_Book_With_a/2h1dAAAAcAAJ?hl=en&gbpv=0 book ON COURSING, 1828, HISTORY OF DIFFERENT COURSING CLUBS, INCLUDING LIST WITH dR. mITFORD AND MANY OTHER rEADING NAMES-->
                
                <person xml:id="Allaway_Frank" sex="m">
                   <persName>Frank Allaway</persName>
@@ -342,8 +344,48 @@
                      <surname>Bacon</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> corresponded with him in 1819. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> corresponded with him in 1819. Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>. Forename unknown. Dates unknown.</note>
                </person>
+               
+               <!-- 1828 Coursing Book: 
+                Lord Rivers
+               Sir J. thocmorton
+               Mr. Vansittart, M.P.
+               Mr. Dundas, M.P.
+               Mr. Phillips
+               Colonel Stead
+               Rev. P. Wroughton
+               Mr. Bacon
+               Rev. F. Collins
+               Mr. Blandy
+               Rev. A. Howard
+               Rev. Head Pottinger
+               Mr. Long
+               Mr. James Wyld
+               Mr. J. Phillips
+               Mr. Dearsley
+               Mr. Price
+               Mr. Goodlake
+               Mr. W. Morland
+               Mr. B. Morland
+               Mr. Thornhill
+               Mr. Clarke
+               Mr. Hallett
+               Mr. Gabbitt
+               Mr. Noble
+               Mr. Cox
+               Mr. Shaw
+               Mr. Payne
+               Mr. Bunce
+               Mr. J. Bunce
+               Mr. Child
+               Mr. R. Sellwood
+               Mr. Sills
+               Mr. Nunes
+               Mr. White
+               Mr. Brook
+               Dr. Mitford
+               Mr. Wolwrych-->
                
                <person xml:id="Bailley_Dr" sex="m">
                   <persName>Dr. Bailley</persName>
@@ -466,7 +508,7 @@
                      <roleName>Mr.</roleName>
                   </persName>
                   <death when="1820-04"/>
-                  <note resp="#lmw">Forename unknown. Possibly the father of <persName ref="#Brooke_Miss">Miss Brooke</persName> and spouse of <persName ref="#Brooke_Mrs">Mrs. Brooke</persName>.</note>
+                  <note resp="#lmw">Forename unknown. The father of <persName ref="#Brooke_Miss">Miss Brooke</persName> and spouse of <persName ref="#Brooke_Mrs">Mrs. Brooke</persName>.</note><!--A Mr. Brooke was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>-->
                </person>
                
                <person xml:id="Browning_Rob" sex="m"><!--stub: LMW to write a better note/Mitford importance.-->
@@ -571,12 +613,13 @@
                      <roleName>Mrs.</roleName>
                      <addName>Mrs. Clarke</addName>
                   </persName>
-                     <birth></birth>
+                     <birth when="1760-02-26">
+                        <placeName>Canterbury, Kent, England</placeName>
+                     </birth>
                      <death when="1835-02-04">
-                       <placeName>The Priory, Canterbury, Kent, UK</placeName>
+                       <placeName>The Priory, Canterbury, Kent, England</placeName>
                      </death>
-                  
-                  <note resp="#lmw"><persName ref="#James_Miss">Miss James</persName> was her companion and, with Mrs. Stuart, widow of the Archbishop of Armagh, a legatee of her estate. Daughter of Johnson Macaree, Saxon scholar, and Anne Knowler. Paternal descendant of a Huguenot refugee family who emigrated in the 16th century; Maternal descendant of the Elstob family, Saxon scholars and connections of Welsh royalty. Lived in London with her husband Anthony, who worked on the Stock Exchange. They retired to the Priory, a home in Canterbury built around some outbuildings of St. Augustine's Monastery, where some of the ruins of St. Ethelbert's Tower featured in her garden. Also a friend and correspondent of writer Anne Macvicar Grant. Sources: <title level="m">Letters and Correspondence of Mrs. Grant of Laggan</title> and obituary in Gentleman's Magazine (1835): 544-545.</note>
+                 <note resp="#lmw"><persName ref="#James_Miss">Miss James</persName> was her companion and, with Mrs. Stuart, widow of the Archbishop of Armagh, a legatee of her estate. Daughter of Johnson Macaree, Saxon scholar, and Anne Knowler. Paternal descendant of a Huguenot refugee family who emigrated in the 16th century; Maternal descendant of the Elstob family, Saxon scholars and connections of Welsh royalty. Lived in London with her husband Anthony (1758-1830), who worked on the Stock Exchange. They retired to the Priory, a home in Canterbury built around some outbuildings of St. Augustine's Monastery, where some of the ruins of St. Ethelbert's Tower featured in her garden. Also a friend and correspondent of writer Anne Macvicar Grant. Sources: <title level="m">Letters and Correspondence of Mrs. Grant of Laggan</title> and obituary in Gentleman's Magazine (1835): 544-545.</note>
                </person>
                
                <!--<person xml:id="Clarke_Mrs" sex="f">
@@ -587,6 +630,8 @@
                   </persName>
                   <note resp="#lmw">The daughter of Colonel Anstruther who lived in <placeName ref="#Reading_city">Reading</placeName>. An associate of <rs type="person" ref="#Palmer_Mad #Palmer_CF">the Palmers</rs> in <date when="1819">1819</date>; mentioned as taking part in a <placeName ref="#Reading_city">Reading</placeName> election procession. More research is needed to identify her. One possibility may be Mrs. Cowden Clarke (Mary Victoria); she and her husband Charles were friends with Lamb and Hunt. Or, Angelica Rush (1788-1868), wife of Edward Daniel Clarke.</note>
                   </person>-->
+               
+               <!--A Mr. Clarke was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>.-->
                
                      <person xml:id="Cliff_Jesse" sex="m">
                         <persName>Jesse Cliff</persName>
@@ -599,12 +644,15 @@
                      </person>
                      
                      <person xml:id="Davies_Mr" sex="m">
-                        <persName>Mr. Davies</persName>
+                        <persName>Thomas Davies</persName>
                         <persName>
                            <surname>Davies</surname>
+                           <forename>Thomas</forename>
                            <roleName>Mr.</roleName>
                         </persName>
-                        <note resp="#rjp #lmw"><!--Owns a neighboring meadow.--><!--LMW: same as Farmer Davies?--><!--LMW: Thomas Davies, farmer, from Earley.--></note>
+                        <persName><addName>Farmer Davies</addName></persName>
+                        <occupation type="trade" subtype="farmer"/>
+                        <note resp="#rjp #lmw">Lived in Earley. Owned a <quote>neighboring meadow</quote> near <placeName ref="#Bertram_house">Bertram House</placeName></note>
                      </person>
                
                <person xml:id="Dawson_GeoP" sex="m">
@@ -614,8 +662,12 @@
                      <forename>George</forename>
                      <forename>Pelsant</forename>
                   </persName>
-                  <birth/>
-                  <death/>
+                  <birth notAfter="1804">
+                     <placeName>Arborfield House, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1873">
+                     <placeName>The Lodge, Woodside, Berkshire, England</placeName>
+                  </death>
                   <occupation type="legal"/>
                   <occupation type="legal" subtype="barrister"/>
                   <occupation type="legal" subtype="magistrate"/>
@@ -626,7 +678,6 @@
                <person xml:id="Dearsley_Wm" sex="m">
                   <persName>William Hanson Dearsley</persName>
                   <persName>
-                     
                      <surname>Dearsley</surname>
                      <forename>William</forename>
                      <forename>Hanson</forename>
@@ -669,9 +720,23 @@
                      <surname>Dobbs</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. The spouse of <persName ref="#Dobbs_Mrs">Mrs. Dobbs</persName>. Dates unknown.  </note>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. The spouse of <persName ref="#Dobbs_Mrs">Mrs. Dobbs</persName>. She lists their address in her Journal as <placeName>27 Hatton Gardens</placeName> in London. Dates unknown.</note>
                </person>
-               <!--LMW: Mitford lists Mrs Dobbs's address in her journal as 27 Hatton Gardens (London)-->
+               
+               <person xml:id="Florry_Mrs" sex="f">
+                  <persName>Sarah Florry</persName>
+                  <persName>
+                     <surname type="paternal">Florry</surname>
+                     <forename>Sarah</forename>
+                  </persName>
+                  <birth when="1744"/>
+                  <death notAfter="1832">
+                     <placeName>Edgebaston, Warwickshire, England</placeName>
+                  </death>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> and friend of <persName ref="#James_Miss">Elizabeth James</persName>, who is remembered in her will. She lists her address as <placeName>Five Ways</placeName>, then a village in the parish of Edgbaston, Warwickshire, England, now a region in central Birmingham. Unmarried businesswoman and property owner in her own right, she traded as a wine merchant and metal factor between 1769 and 1785. She traded as Florry and Walker with William Walker between 1785 and 1799, and then retired in 1799 to Five Keys. See Christine Wiskin, Women, Finance and Credit in England, c. 1780-1826, Ph.D. thesis, U of Warwick.</note>
+                  <!--http://wrap.warwick.ac.uk/36386/1/WRAP_THESIS_Wiskin_2000.pdf-->
+               </person>
                
                <person xml:id="George" sex="m"><!--LMW: update-->
                   <persName>George</persName>
@@ -689,7 +754,7 @@
                               <surname>Green</surname>
                               <roleName>Mr.</roleName>
                            </persName>
-                           <note resp="#lmw">Dates unknown.<!--LMW: review my notes on eminent persons of Reading: John Hooke Green? Greene?--></note>
+                           <note resp="#lmw">Forename unknown. Dates unknown.<!--LMW: review my notes on eminent persons of Reading: John Hooke Green? Greene?--></note>
                         </person>
                         
                         <person xml:id="Greenwell_Mrs" sex="f">
@@ -698,6 +763,7 @@
                               <surname type="married">Greenwell</surname>
                               <roleName>Mrs.</roleName>
                            </persName>
+                           <note resp="#lmw">Forename unknown. Dates unknown.</note>
                         </person>
                         
                         <person xml:id="Harley_Miss" sex="f">
@@ -706,7 +772,7 @@
                               <surname type="paternal">Harley</surname>
                               <roleName>Miss</roleName>
                            </persName>
-                           <note resp="#lmw"><!--LMW: Could this be transription error for Miss HAWLEY? Mr. Hawley marries Besty Broughton.--> </note>
+                           <note resp="#lmw">Forename unknown. Dates unknown.<!--LMW: Could this be transription error for Miss HAWLEY? Mr. Hawley marries Besty Broughton.--> </note>
                         </person>
                
                <person xml:id="Harris_Mr" sex="m">
@@ -717,7 +783,7 @@
                   </persName>
                   <occupation type="medical"/>
                   <occupation type="medical" subtype="physician"/>
-                  <note resp="#lmw"><!--LMW: a local doctor, not the same as H Harris the covent garden prop.--></note>
+                  <note resp="#lmw">Forename unknown. Dates unknown. Local doctor, not the same person as <persName ref="#Harris_Henry">Henry Harris</persName>, the Covent Garden Theatre manager.</note>
                </person>
                         
                         <person xml:id="Havell_Mrs" sex="f">
@@ -726,28 +792,51 @@
                               <surname type="married">Havell</surname>
                               <roleName>Mrs.</roleName>
                            </persName>
-                           <note resp="#lmw"></note>
+                           <note resp="#lmw">Forename unknown. Dates unknown.</note>
                         </person>
                
-               <person xml:id="Hayward_Wm" sex="m">
+               <person xml:id="Hayward_Wm_son" sex="m">
                   <persName>William Hayward</persName>
                   <persName>
                      <surname>Hayward</surname>
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="trade"/>
-                  <note resp="#lmw">Spouse of <persName ref="#Webb_Jane">Jane Webb</persName>. They lived in <placeName>Watlington</placeName>. They had two children, Susan Jane (1815-1898) and William Webb (1818-1899). </note>
+                  <note resp="#lmw">With his father, a Watlington brewer, and later the spouse of <persName ref="#Webb_Jane">Jane Webb</persName>. They had two children, Susan Jane (1815-1898) and William Webb (1818-1899).</note>
+                  <!--Hayward, Sir WIlliam Webb (only son of Wm. Hayward of Watlington, Oxfordshire, brewer) b. Watlington 11 feb. 1818; educ Eton; admitted solicitor 1839, practised at Rochester 1841 to death, partner with his newphew F. F. Smith 1878 to death; cornet West Kent yeomanry 24 July 1848, lieut. 10 May 1856 to 22 Oct. 1859; cleark of the peace Rochester 5 Aug. 1851 to Nov. 1896; registrar of county court Rochester Aug. 1876 to death; may of Rochester 1846 and 1896;alerman Oct. 1826 to death; leader of Conservative party in Rochester nearly 50 years; knighted at Ocborne 3 Feb. 1897. d. Fairview, St. Margaret's St. Rochester 18 March 1899. Law Journal 25 March 1899 p. 190; I.L.N. 1 April 1899 p. 449 prt. :::  Residence, Boley Hill, Rochester. -->
+               </person>
+               
+               <person xml:id="Hayward_Wm_father" sex="m">
+                  <persName>William Hayward</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                     <forename>William</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">A Watlington brewer, the spouse of <persName ref="#Hayward_MrsW">Mrs. Hayward</persName> and father of <persName ref="#Hayward_Wm_son">William Hayward</persName>.</note>
+               </person>
+               
+               <person xml:id="Hayward_John" sex="m">
+                  <persName>John Hayward</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                     <forename>John</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">A Watlington brewer, the brother of <persName ref="#Hayward_Wm_father">William Hayward</persName>.</note>
                </person>
                            
-                           <person xml:id="Hayward_MrsW" sex="f"><!--delete, and update Jane WEbb. Husband William Webb. 2-3 children: William Webb Hayward, 1818-1899; Susan Jane, 1819-1898; Ellen, 1821-??-->
+                           <person xml:id="Hayward_MrsW" sex="f"><!--Likely William's mother-->
                               <persName>Mrs. Hayward</persName>
                               <persName>
                                  <surname type="married">Hayward</surname>
                                  <roleName>Mrs.</roleName>
                               </persName>
-                              <note resp="#lmw"><!--LMW: Journal address Watlington.--></note>
+                              <note resp="#lmw"><!--LMW: Journal address Watlington. add Mr. Hayward--></note>
                            </person>
-               <!--Hayward, Sir WIlliam Webb (only son of Wm. Hayward of Watlington, Oxfordshire, brewer) b. Watlington 11 feb. 1818; educ Eton; admitted solicitor 1839, practised at Rochester 1841 to death, partner with his newphew F. F. Smith 1878 to death; cornet West Kent yeomanry 24 July 1848, lieut. 10 May 1856 to 22 Oct. 1859; cleark of the peace Rochester 5 Aug. 1851 to Nov. 1896; registrar of county court Rochester Aug. 1876 to death; may of Rochester 1846 and 1896;alerman Oct. 1826 to death; leader of Conservative party in Rochester nearly 50 years; knighted at Ocborne 3 Feb. 1897. d. Fairview, St. Margaret's St. Rochester 18 March 1899. Law Journal 25 March 1899 p. 190; I.L.N. 1 April 1899 p. 449 prt. :::  Residence, Boley Hill, Rochester. -->
+               
                
            <person xml:id="Webb_Jane" sex="f">
                   <persName>Jane Webb Hayward</persName>
@@ -770,13 +859,13 @@
                            Webb</persName> and Jane Elizabeth Ogbourn. Baptized on <date when="1797-03-03">March 3, 1797</date>. Sister of <persName ref="#Webb_Eliza">Elizabeth</persName> (called Eliza) and <persName ref="#Webb_Mary_younger">Mary
                         Webb</persName> and niece of <persName ref="#Webb_Mary_elder">the elder Mary Webb, <q>Aunt
                         Mary</q>
-                     </persName>. Spouse of <persName ref="#Hayward_Wm">William Hayward</persName>, they married <date when="1816-09-23">23 September, 1816</date>. In <bibl corresp="#Needham_PapersRCL">
+                     </persName>. Spouse of <persName ref="#Hayward_Wm_son">William Hayward</persName>, they married <date when="1816-09-23">23 September, 1816</date>. In <bibl corresp="#Needham_PapersRCL">
                         <persName ref="#Needham_Francis">Needham</persName>’s papers</bibl>, he
                      notes from the <title level="s">Berkshire Directory</title>that she lived on
                         <placeName>Broad street</placeName>, presumably in Wokingham, Berkshire. </note>
                </person>
                               
-               <!--FIX:
+               <!--FIX:   ADD husband.
                   
                   <person xml:id="Webb_Eliza" sex="f">
                   <persName>Eliza Webb</persName>
@@ -864,8 +953,7 @@
                      <roleName>Mrs.</roleName>
                   </persName>
                   <persName><addName>Mrs. Hughes</addName></persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Hughes_John">John Hughes</persName>. Second daughter of Thomas Wilkinson, of Stokesley Hall in Yorkshire.
-                  </note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Hughes_John">John Hughes</persName>. Second daughter of Thomas Wilkinson of Stokesley Hall in Yorkshire.</note>
                </person>
                
                <person xml:id="Jephson_Em" sex="f">
@@ -881,7 +969,7 @@
                   <death when="1861-12-05">
                      <placeName>Castlemartyr, Cork, Ireland</placeName>
                   </death>
-                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1829" to="1855">between 1829 and 1855</date>. Mitford wrote to her at Castle Martyr, Ireland. Grandniece of playwright Robert Jephson.  
+                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1829" to="1855">between 1829 and 1855</date>. Mitford wrote to her at Castle Martyr, Ireland, and at No. 1 Charles Street, <placeName ref="#Twickenham">Twickenham</placeName>. Grandniece of playwright Robert Jephson.  
                   </note>
                </person>
                
@@ -1034,11 +1122,11 @@
                   </birth>
                   <death when="1851-04-06"/>
                   <occupation type="religious"/>
-                  <occupation type="religious" subtype="clergy"/>
                   <occupation type="scholar"/>
                   <occupation type="explorer"/>
-                  <occupation type="explorer" subtype="traveller"/>
                   <occupation type="literary"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="explorer" subtype="traveller"/>
                   <occupation type="literary" subtype="essayist"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Trinity College, Oxford scholar and Church of England clergyman. Travelled extensively in Portugal and Belgium. Published essays, sermons, and a travel book on Portugal.
                   </note>
@@ -1053,6 +1141,7 @@
                   </persName>
                   <death when="1897"/>
                   <occupation type="bookProducer"/>
+                  <occupation type="trade"/>
                   <occupation type="bookProducer" subtype="bookseller"/>
                   <occupation type="bookProducer" subtype="publisher"/>
                   <occupation type="trade" subtype="clerk"/>
@@ -1066,7 +1155,7 @@
                      <surname>Lawrence</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">An associate of the <orgName ref="#Webbs">Webb family</orgName> in 1819. May be a relative of <persName>Jane Ogbourn Webb</persName>, whose mother's paternal name was Lawrence. Dates unknown.  </note>
+                  <note resp="#lmw">An associate of the <orgName ref="#Webbs">Webb family</orgName> in 1819. May be a relative of <persName>Jane Ogbourn Webb</persName>, whose mother's paternal name was Lawrence. Dates unknown.</note>
                </person>
                
                <person xml:id="Lovejoy_Geo" sex="m">
@@ -1093,10 +1182,16 @@
                   <persName>
                      <surname type="paternal">Lovejoy</surname>
                      <forename>Martha</forename>
+                     <forename>Jane</forename>
                      <forename><addName>Patty</addName></forename>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1846">1846</date>. Daughter of <persName ref="#Lovejoy_Geo">George Lovejoy</persName>. Dates unknown.  
-                  </note>
+                  <birth when="1836">
+                    <placeName>Reading, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1856">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1846">1846</date>. Daughter of <persName ref="#Lovejoy_Geo">George Lovejoy</persName> and his wife Alice Beckwith Cecil.</note>
                </person>
                
                <person xml:id="Lucas_John" sex="m">
@@ -1113,9 +1208,9 @@
                      <placeName>St. John's Wood, London, Middlesex, England</placeName>
                   </death>
                   <occupation type="military"/>
-                  <occupation type="military" subtype="navy"/>
                   <occupation type="artist"/>
-                  <occupation type="artist" subtype="painter"/>
+                  <occupation type="military" subtype="navy"/>
+                   <occupation type="artist" subtype="painter"/>
                   <occupation type="artist" subtype="engraver"/>
                   <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1838" to="1853">between 1828 and 1853</date>. Fashionable portrait painter and mezzotint engraver who painted both <persName ref="#MRM">Mary Russell Mitford</persName> and her father <persName ref="#Mitford_Geo">George</persName>.
                   </note>
@@ -1125,19 +1220,29 @@
                <person xml:id="Madison_Mrs" sex="f">
                   <persName>Mrs. Madison</persName>
                   <persName>
-                     <surname type="married">Madison</surname> <surname><addName>Maddison</addName></surname>
+                     <surname type="married">Madison</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw">May also be spelled <q>Maddison</q>. Forename unknown. Dates unknown.</note>
                </person>
                
-               <person xml:id="Maitland_Mr" sex="m">
-                  <persName>Mr. Maitland</persName>
+               <person xml:id="Maitland_Eb" sex="m">
+                  <persName>Ebenezer Fuller Maitland</persName>
                   <persName>
                      <surname>Maitland</surname>
+                     <forename>Ebenezer</forename>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">Forename unknown. Dates unknown.</note><!--LMW: Swallowfield?-->
+                  <persName><addName>Mr. Maitland</addName></persName>
+                  <persName><addName>Ebenezer Fuller Maitland</addName></persName>
+                  <birth when="1780-04-23"/>
+                  <death when="1858"/>
+                  <occupation type="trade"/>
+                  <occupation type="government"/>
+                  <occupation type="legal"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="legal" subtype="enforcement"/>
+                  <note resp="#lmw">Son of wealthy merchant and Bank of England director Ebenezer Maitland, he married heiress Bethia Ellis and took the name of Fuller Maitland in 1807, by the wish of his wife's aunt. South Sea company director. Member of Parliament for Lostwithiel, Wallingford, and Chippenham. Elected Sheriff in Berkshire and Breconshire.</note>
                </person>
                
                <person xml:id="Marmy_pet" sex="f">
@@ -1416,7 +1521,7 @@
                      <surname>Payn</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mrs">Mrs. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mrs">Mrs. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note><!--A Mrs. Payne was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>-->
                </person>
                
                <person xml:id="Payn_Mrs" sex="f">
@@ -1896,7 +2001,7 @@
                      <surname>White</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw"><!--LMW: Tom White mentioned in connection with Captain Tuppen. Same as Mr. White, or his son?--></note>
+                  <note resp="#lmw"><!--LMW: Tom White mentioned in connection with Captain Tuppen. Same as Mr. White, or his son?--><!--A Mr. White was AN Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>.  --></note>
                </person>                     
                                     
                <person xml:id="Williams_Mr" sex="m">
@@ -2020,17 +2125,16 @@
             <list sortKey="animals">
                <item/>
                
-              
                <item xml:id="horse">
                   <name>horse</name>
                   <name type="species">Equus ferus caballus</name>
                   <name type="genus">Equus</name>
                   <name type="family">Equidae</name>
-                  <note resp="#lmw">Domesticated horse. Varied breeds of horses are all part of the same species. The stud book for UK horses is kept by Weatherbys.</note>
+                  <note resp="#lmw">Domesticated horse; different breeds are all considered of the same species. There are seventeen breeds of horses and ponies considered native to the UK, including the English thoroughbred, a racing and riding breed descended from Arabian stock; the Hackney, a trotter; and Clydesdales and Shires, bred for heavy pulling and farm work. The stud book for UK horses is kept by Weatherbys.</note>
                   <note>
-                     <note><ptr target="https://www.weatherbys.co.uk/"/></note>
                      <ptr target="https://species.wikimedia.org/wiki/Equus_ferus_caballus"/>
                   </note>
+                  <note><ptr target="vvhttps://www.countrylife.co.uk/out-and-about/sporting-country-pursuits/shetlands-shires-native-horse-breeds-britain-91125/"/></note>
                </item>
                
                <item xml:id="Arabian_horse">
@@ -2038,7 +2142,7 @@
                   <name type="species">Equus ferus caballus</name>
                   <name type="genus">Equus</name>
                   <name type="family">Equidae</name>
-                  <note resp="#lmw">A breed known for its stamina and athleticism, as well as its fine bone structure, arched neck, and highly-carried tail, were developed on the Arabian peninsula. The breed likely arrived in Europe around the time of the Crusades, as spoils of war, and became part of state and royal studs. James I introduced the breed to England in 1616 and others were imported in the 18th century to create modern racing breeds. Marengo, Napoleon's war horse, was an Arabian. Europeans travelling to the middle East in the 19th century began intensively collecting Arabians.</note>
+                  <note resp="#lmw">A breed known for its stamina and athleticism, as well as its fine bone structure, arched neck, and highly-carried tail, were developed on the Arabian peninsula. The breed likely arrived in Europe around the time of the Crusades, as spoils of war, and became part of state and royal studs. James I introduced the breed to England in 1616 and others were imported in the 18th century to create modern racing breeds such as the English thoroughbred. Marengo, Napoleon's war horse, was an Arabian. Europeans travelling to the middle East in the 19th century began intensively collecting Arabians.</note>
                   <note>
                      <ptr target="https://www.arabhorsesociety.org/"/>
                   </note>
@@ -2052,7 +2156,11 @@
                   <name type="species">Equus ferus caballus</name>
                   <name type="genus">Equus</name>
                   <name type="family">Equidae</name>
-               <note resp="#lmw">Refers to small breeds of horse, often with thicker manes and tails, and stocky and heavy body types with round heads and shorter legs. In the 19th century, used for pulling light vehicles, as mounts for women and children, and as pack animals, such as the <soCalled>pit ponies</soCalled> used in British mining. So-called polo ponies are usually normal-sized horses.</note>
+                  <note resp="#lmw">Small breeds of horse, often with stocky and heavy body types with round heads and shorter legs as well as thicker manes and tails. In the 19th century, used for pulling light vehicles, as mounts for women and children, They were also used as ack animals, such as the <soCalled>pit ponies</soCalled> used in British mining, bred from Hills and Dales ponies of the North of England. So-called polo ponies are usually standard-sized horses. There are seventeen breeds of horses and ponies considered native to the UK, including the Shetland pony.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Equus_ferus_caballus"/>
+                  </note>
+                  <note><ptr target="https://www.countrylife.co.uk/out-and-about/sporting-country-pursuits/shetlands-shires-native-horse-breeds-britain-91125/"/></note>
                </item>
                
                <item xml:id="donkey">
@@ -2089,7 +2197,7 @@
                   <name type="species">Capra hircus</name>
                   <name type="genus">Capra</name>
                   <name type="family">	Bovidae</name>
-                  <note resp="#lmw">Domestic grazing animals kept for their milk, meat, and skins. One of the earliest domesticated animals, descended from the wild goat found in Eastern Europe and in Southwest Asia. Males are called <q>billygoats</q> and females, <q>nannygoats</q>.</note>
+                  <note resp="#lmw">Domestic grazing animals kept for their milk, meat, and skins. One of the earliest domesticated animals, descended from the wild goat found in Eastern Europe and in Southwest Asia. Males are called <q>billygoats</q> and females <q>nannygoats</q>.</note>
                   <note>
                      <ptr target="http://www.allgoats.com/"/>
                   </note>
@@ -2104,7 +2212,7 @@
                   <name type="species">Bos taurus</name>
                   <name type="genus">Bos</name>
                   <name type="family">Bovidae</name>
-                  <note resp="#lmw">Large domesticated grazing animal raised as livestock for meat, milk, or hides. <q>Cow</q> is the term for female cattle and <q>bull</q> for males, although both are commonly referred to as <q>cows</q>. Also used as draught animals (called oxen) to pull carts or plows. One of the earliest domesticated animals, descended from two separate areas, one in the Near East (Turkey and northern Syria) and one in modern-day Pakistan. Many modern-day breeds are descended from cattle exported from the UK to the rest of the world between the l7th and early 20th century, including the following breeds: Aberdeen Angus, Ayrshire, Belted Galloway, Blue Grey, Devon, Dexter, British White, British Friesian, English Longhorn, Gloucester, Guernsey, Hereford, Jersey, Kerry, and Shorthorn.</note>
+                  <note resp="#lmw">Large domesticated grazing animal raised as livestock for meat, milk, or hides. <q>Cow</q> is the term for female cattle and <q>bull</q> for males, although both are commonly referred to as <q>cows</q>. Also used as draught animals (called oxen) to pull carts or plows. One of the earliest domesticated animals, descended from two separate areas, one in the Near East (Turkey and northern Syria) and one in modern-day Pakistan. Many modern-day breeds are descended from cattle exported from the UK to the rest of the world between the l7th and early 20th century, including: Aberdeen Angus, Ayrshire, Belted Galloway, Blue Grey, Devon, Dexter, British White, British Friesian, English Longhorn, Gloucester, Guernsey, Hereford, Jersey, Kerry, and Shorthorn.</note>
                   <note>
                      <ptr target="http://afs.okstate.edu/breeds/region/f-brit.html/"/>
                   </note>
@@ -2143,7 +2251,7 @@
                   <name type="genus">Mustela</name>
                   <name type="family">Mustelidae</name>
                   <name><addName>European polecat</addName></name>
-                  <note resp="#lmw">Carnivorous mammal native to Eurasia, North Africa, and the UK. Shorter and stouter than related species like weasels or stoats, it is dark brown with a dark mask and lighter underbelly and defends its territory by spraying a malodorous liquid. Domesticated for hunting vermin, and hunted for pelts. In 18th and 19th century England, Scotland and Wales, were eradicated by gamekeepers and bounty hunters, who believed them to be a nuisance animal dangerous to poultry stock. Traditionally hunted in Britain in spring with mixed packs of dogs.</note>
+                  <note resp="#lmw">Carnivorous mammal native to Eurasia, North Africa, and the UK. Shorter and stouter than related species like weasels or stoats, it is dark brown with a dark mask and lighter underbelly and defends its territory by spraying a malodorous liquid. Domesticated for hunting vermin and hunted for pelts. In 18th and 19th century England, Scotland and Wales, were eradicated by gamekeepers and bounty hunters, who believed them to be a nuisance animal dangerous to poultry stock. Traditionally hunted in Britain in spring with mixed packs of dogs.</note>
                   <note>
                      <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/polecat"/>
                   </note>
@@ -2158,7 +2266,7 @@
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
                   <name><addName>domestic dog</addName></name>
-                  <note resp="#lmw">First animal species to be domesticated, before the developmment of farming, by hunter-gatherers more than fifteen thousand years ago. Descended from an ancient, now-extinct wolf species. Modern dog breeds were codified beginning in the late 19th century, with the rise in dog shows and set breed standards. Before that time, dogs were classified by appearance or function and may be considered <soCalled>landrace</soCalled>, traditional, or heritage breeds. More than 50 named dog breeds originated in the UK. Breeds extant during the first half of the nineteenth century include: many terrier breeds in a range of sizes and coat types, originally bred to hunt vermin; several hounds, hunting dogs used to track or chase prey, such as the scenthounds (bloodhounds, harriers, fox hounds) and the sighthounds (greyhound, Irish Wolfhound, Scottish deerhound);  mastiffs such as the English bulldog, Bullmastiff and English mastiff, used in blood sports and as guard dogs; sporting dogs used in bird hunting, such as setters and pointers; and many spaniels, including the Cavalier King Charles, Clumber, Sussex, English springer and English cocker spaniels. Now-extinct predecessor breeds include: Staghound, Buckhound, Talbot hound, Old English Bulldog, Norfolk and Tweed water spaniels, Black and Tan terrier, Cumberland sheepdog, English cur or drover's dog, Curley-coated retriever, English water spaniel, and English white terrier. Most extinct breeds actually contributed bloodlines subsumed by later breeds.</note>
+                  <note resp="#lmw">First animal species to be domesticated, before the developmment of farming, by hunter-gatherers more than fifteen thousand years ago. Descended from an ancient, now-extinct wolf species. Modern dog breeds were codified beginning in the late 19th century, with the rise of dog shows and set breed standards. Before that time, dogs were classified by appearance or function and any such may now be considered <soCalled>landrace</soCalled>, traditional, or heritage breeds. More than 50 named dog breeds originated in the UK. Breeds extant during the first half of the nineteenth century include: many terrier breeds in a range of sizes and coat types, originally bred to hunt vermin; several hounds, hunting dogs used to track or chase prey, such as the scenthounds (bloodhounds, harriers, fox hounds) and the sighthounds (greyhound, Irish Wolfhound, Scottish deerhound);  mastiffs such as the English bulldog, Bullmastiff and English mastiff, used in blood sports and as guard dogs; sporting dogs used in bird hunting, such as setters and pointers; and many spaniels, including the Cavalier King Charles, Clumber, Sussex, English springer and English cocker spaniels. Now-extinct predecessor breeds include: Staghound, Buckhound, Talbot hound, Old English Bulldog, Norfolk and Tweed water spaniels, Black and Tan terrier, Cumberland sheepdog, English cur or drover's dog, Curley-coated retriever, English water spaniel, and English white terrier. Most so-called extinct breeds actually contributed bloodlines subsumed by later breeds.</note>
                   <note>
                      <ptr target="www.thekennelclub.org.uk"/>
                   </note>
@@ -2174,7 +2282,7 @@
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
                   <name><addName>Landseer</addName></name>
-                  <note resp="#lmw">Large, muscular working dog with a thick coat and webbed feet. Developed in eastern Canada to assist fishermen, they are genetically related to Irish water spaniels, Labrador retrievers, and Curly-Coated retreivers. Landseer or <q>European Continental Type</q> dogs with black and white coats, named for the English painter, also exist, and may be a separate breed. Sweet-tempered and loyal, they good with children and known as <q>nanny dogs</q>. <q>Nana</q>, from Barrie's <title level="m">Peter Pan</title>, was based on a black and white Landseer-type Newfoundland owned by Barrie.</note>
+                  <note resp="#lmw">Large, muscular working dog with a thick coat and webbed feet. Developed in eastern Canada to assist fishermen, they are genetically related to Irish water spaniels, Labrador retrievers, and Curly-Coated retrievers. Landseer or <q>European Continental Type</q> dogs with black and white coats, named for the English artist, also exist, and may be a separate breed. Sweet-tempered and loyal, they good with children and became known as <q>nanny dogs</q>. <q>Nana</q>, from Barrie's <title level="m">Peter Pan</title>, was based on a black and white Landseer-type dog owned by Barrie.</note>
                   <note>
                      <ptr target="www.thekennelclub.org.uk"/>
                   </note>
@@ -2188,7 +2296,7 @@
                   <name type="species">Canis familiaris</name>
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
-                  <note resp="#lmw">In the 19th century, terriers were categorized as short- or long-legged, as well as categorized informally by function. UK terrier breeds appear in a range of sizes and coat types, and were originally bred to be fearless and agile in order hunt vermin (rats, foxes) underground. Terriers were used in blood sports such as rat-catching. Terriers and bulldog-terrier mixes were also used in dogfighting. Two notable heritage breeds, now extinct, include the black-and-tan terrier and the English white terrier.</note>
+                  <note resp="#lmw">In the 19th century, terriers were categorized as short- or long-legged, as well as categorized informally by function, such as rat terrier or fox terrier. UK terrier breeds appear in a range of sizes and coat types, and were originally bred to be fearless and agile in order hunt vermin (rats, foxes) underground. Terriers were used in blood sports such as rat-catching. Terriers and bulldog-terrier mixes were also used in dogfighting. Two notable heritage breeds, now extinct, include the black-and-tan terrier and the English white terrier. A terrer named <persName ref="#Viper_pet_OV">Viper</persName> appears in one of Mitford's stories.</note>
                   <note>
                      <ptr target="www.thekennelclub.org.uk"/>
                   </note>
@@ -2214,61 +2322,46 @@
                   <name type="species">Canis familiaris</name>
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
-                  <note resp="#lmw">In Mitford's time, spaniels were classified as land or water types, and as springer (larger) and cocker (smaller) types, although springers and cockers may have come from the same litter. They are gun dogs bred to flush or <q>spring</q> game birds. They were also used to hunt rabbits, sometimes alongside greyhounds. They may have solid or particolored coats in black, liver, red, or golden, with tan masking and trim, roan patching, or <q>ticked</q> spots.  The most common color is liver (dark brown/chocolate) and white. The Sussex spaniel, first recorded in 1795, is a stocky spaniel with a distinctive golden-brown colored coat and hazel eyes. The spaniel, <persName>Flush</persName>, gifted by Mitford to <persName ref="#Barrett_E">Elizabeth Barret Browning</persName>, had a golden-brown coat and hazel eyes. <persName ref="#Molly_pet">Molly</persName> was a white spaniel with a wavy coat.</note>
+                  <note resp="#lmw">In Mitford's time, spaniels were classified as land or water types, and as springer (larger) and cocker (smaller) types, although springers and cockers may have come from the same litter. They are gun dogs bred to flush or <q>spring</q> game birds. They were also used to hunt rabbits, sometimes alongside greyhounds. They may have solid or parti-colored coats in black, liver, red, or golden, with tan masking and trim, roan patching, or <q>ticked</q> spots.  The most common color is liver (dark brown/chocolate) and white. The Sussex spaniel, first recorded in 1795, is a stocky spaniel with a distinctive golden-brown colored coat and hazel eyes. The spaniel, <persName>Flush</persName>, gifted by Mitford to <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>, had a golden-brown coat and hazel eyes, as described in her poem <title level="a">To Flush, My Dog</title>. <persName ref="#Molly_pet">Molly</persName> was a white spaniel with a wavy coat, perhaps with water spaniel ancestry. The <orgName ref="#Mitfords">Mitfords</orgName> raised and bred spaniels kept as companion animals and for coursing; these included several dogs named <persName ref="#Flush_pet">Flush</persName>. <persName ref="#MRM">Mitford</persName> records that one brown spaniel anmed Flush accompanied her father into a Reading theatre: <quote>Flush, with his paws on the front of the box, his large earnest eyes fixed on the actors, and his long silky ears brought forward on either side of his face, as is the custom of those intelligent dogs on great occasions, looked and listened all through the piece with a sedate fixity of attention, which greatly endangered the gravity of the persons on the stage</quote>.</note>
                   <note>
                      <ptr target="http://www.thecockerspanielclub.co.uk/index.htm"/>
                   </note>
-                  <note><ptr target="www.thekennelclub.org.uk"/></note>
+                  <note>
+                     <ptr target="www.thekennelclub.org.uk"/>
+                  </note>
                      <note><ptr target="https://commons.wikimedia.org/wiki/File:111._English_and_Welsh_Cocker.JPG"/>
                   </note>
                   </item>
                
-               <!--LMW: Fix Flush entry. EBB's dog was possibly liver colored/dark brown. See poem.
-                  
-                  https://commons.wikimedia.org/wiki/File:Return_from_shooting.jpg
-                  
-                  https://commons.wikimedia.org/wiki/Category:19th-century_oil_portraits_of_women_with_dogs#/media/File:Olimpia_%C5%81osiowa.jpg
-                  
-                  https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:El_bieta_w_p%C3%B3_nym_wieku.jpg
-                  
-                  https://commons.wikimedia.org/wiki/Category:Queen_Charlotte_(Gainsborough,_c._1781)#/media/File:Queen_Charlotte_-_Gainsborough_1781.jpg
-                  
-                  https://commons.wikimedia.org/wiki/Category:Victoria,_Duchess_of_Kent_(George_Hayter_-_Royal_Collection)#/media/File:Victoria,_Duchess_of_Kent_-_Hayter_1835.jpg
-               
-               https://riahorter.com/Masterminds%20Sussex%20Spaniel.pdf
-               
-               https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:Maria_Franziska_von_Thurn_und_Valsassina.jpg
-               
-               https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:Joshua_Reynolds_-_Portrait_of_Mrs_Elisha_Matthew,_1777.jpg
-               
-               https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:Sir_Joshua_Reynolds_-_Mrs._Abington_as_Miss_Prue_in_%22Love_for_Love%22_by_William_Congreve_-_Google_Art_Project.jpg
-               
-               greyhound:
-               
-               https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:Lady_With_A_Greyhound_-_watercolor_on_ivory_by_Daniel_Saint.jpgXGFTiu8548888888825
-               https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:Elizabeth_gunning02.jpg
-               
-               https://commons.wikimedia.org/wiki/Category:Portrait_paintings_of_women_with_dogs#/media/File:Marie_Antoinette_Adult6.jpg
-               
-               Coursing:  https://commons.wikimedia.org/wiki/File:Wolstenholme_Greyhounds_Coursing.jpg
-               
-               -->
-               
-               
+               <item xml:id="pug">
+                  <name>pug</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <note resp="#lmw">Companion animal bred in China and popularized in European courts from the 16th century and later by Queen Victoria. Small dog with a wrinkly, short-haired coat, distinctive short muzzle, and curly tail. They are mostly light brown or red (fawn or apricot) with black markings. Until the 1860s, when more compact, shorter-legged Chinese pugs were imported, English pugs were longer, leaner, and less stocky. European pugs may have been bred with another popular royal lapdog breed, the King Charles spaniel, which contributed to the shorter muzzles of that breed. A fictional pug name <persName>Daphne</persName> appears in one of the Mitford's stories; this dog is described as <quote>a particularly ugly, noisy pug, that barked at every body that came into the house, and bit at most</quote>.</note>
+                  <note><ptr target="www.thekennelclub.org.uk"/></note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Henry_Bernard_Chalon_-_A_favourite_Pug_bitch_(1802).jpg"/>
+                  </note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:William_Hogarth_self-portrait_1745_Tate_Britain.jpg"/>
+                  </note>
+               </item>
                
                <item xml:id="greyhound">
                   <name>greyhound</name>
                   <name type="species">Canis familiaris</name>
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
-                  <note resp="#lmw"></note>
-                  <ptr target="www.thekennelclub.org.uk"/>
+                  <note resp="#lmw">A <q>sighthound</q> originally bred for coursing game using their acute vision, agility, and speed. Later employed as a sporting dog for racing. A tall, shorted-haired slender dog with long muzzle, legs and tail, and a characteristic <q>S-shaped</q> body. May have a variety of coat colors including blue (grey), white, black, red, light tan (fawn) or black; and may also have patterned markings such as spots or brindle coats. Traditionally leashed in pairs for coursing and in groups of three for other types of hunting. English greyhouds may have been imported into Europe and the UK with the Romans. The <orgName ref="#Webbs">Webbs</orgName> bred greyhounds and coursed hares with them with the <orgName ref="#Mitfords">Mitfords</orgName>. The <orgName ref="#Mitfords">Mitford family</orgName> owned many greyhounds, including <persName ref="#May_Fly">May-Fly</persName>, <persName ref="#Mossy_pet">Mossy</persName>, and <persName ref="#Miranda_pet">Miranda</persName>.</note>
+                  <note><ptr target="www.thekennelclub.org.uk"/></note>
                   <note>
                      <ptr target="https://commons.wikimedia.org/wiki/File:Wolstenholme_Greyhounds_Coursing.jpg"/>
                   </note>
                </item>
+               <!--LMW: update dog entries; not all were greyhounds? And update Selim, the cat, likely Turkish Angora-->
                
-               <item xml:id="guineafowl"><!--LMW: changed id of guineahen to guineafowl-->
+               <item xml:id="guineahen">
                   <name>domestic guineafowl</name>
                   <name type="species">Numida meleagris</name>
                   <name type="genus">Numida</name>
@@ -2290,7 +2383,7 @@
                   <name><addName>Indian peafowl</addName></name>
                   <name><addName>Indian blue peafowl</addName></name>
                   <name><addName>common peacock</addName></name>
-                  <note resp="#lmw">Native to the Indian subcontinent, widely introduced as domestic birds elsewhere. In the 19th century, kept in zoos and menageries as well as living ornaments to large gardens and estates. Domestic birds may be raised for meat, and their shed tailfeathers are prized for decorative uses. Omnivorous foragers that roost at night, feral birds can adapt to human habitation. Males are known as <q>peacocks</q> and females as <q>peahens</q>, although both are commonly referred to as <q>peacocks</q></note>
+                  <note resp="#lmw">Native to the Indian subcontinent, widely introduced as domestic birds elsewhere. In the 19th century, kept in zoos and menageries as well as living ornaments to large gardens and estates. Domestic birds may be raised for meat, and their shed tailfeathers are prized for decorative uses. Omnivorous foragers that roost at night, feral birds can adapt to human habitation, roosting on buildings and foraging discarded food and other refuse. Males are known as <q>peacocks</q> and females as <q>peahens</q>, although both are commonly referred to as <q>peacocks</q>.</note>
                   <note>
                      <ptr target="https://www.peacocksuk.com/peacock-information/"/>
                   </note>
@@ -2305,7 +2398,7 @@
                   <name type="genus">Meleagris</name>
                   <name type="family">Phasianidae</name>
                   <name><addName>domestic turkey</addName></name>
-                  <note resp="#lmw">Large domestic fowl raised as poultry. Breeds descend from a subspecies from central Mexico, domesticated by ancient Mesoamericans and imported by the Spanish into Europe. Brought to England in the 16th century and imported back to North America with colonization. Remained a luxury holiday meat in the UK until the 20th century; goose or beef were more common.</note>
+                  <note resp="#lmw">Large domestic fowl raised as poultry. Breeds descend from a subspecies from central Mexico, domesticated by ancient Mesoamericans and imported by the Spanish into Europe. Brought to England in the 16th century and imported back to North America with British colonization. Remained a rare, luxury holiday meat in the UK until the 20th century; goose or beef were more common.</note>
                   <note>
                      <ptr target="https://britishturkey.org.uk"/>
                   </note>
@@ -2335,7 +2428,7 @@
                   <name type="species">Gallus domesticus</name>
                   <name type="genus">Gallus</name>
                   <name type="family">Phasianidae</name>
-                  <note resp="#lmw">Domesticated bird species kept as livestock and used for meat, eggs, and feathers. Descended from species of wild junglefowl from Southeast Asia. First domesticated for ceremonial use and cockfighting, kept for food in the Middle East and then in Europe, beginning about the 4th century B.C. </note>
+                  <note resp="#lmw">Domesticated birds kept as livestock and used for meat, eggs, and feathers. Descended from species of Southeast Asian wild junglefowl. First domesticated for ceremonial use and cockfighting, then kept for food in the Middle East and then in Europe, beginning about the 4th century B.C. </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Gallus_gallus"/>
                   </note>
@@ -2346,12 +2439,12 @@
                   <name type="species">Felis catus</name>
                   <name type="genus">Felis</name>
                   <name type="family">Felidae</name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Now, as in <persName ref="#MRM">Mitford</persName>'s time, cats may be classed as domestic (kept as companion animals and for indoor pest control), farm (kept outdoors and in barns or even on ships for rodent control), or feral (wild). Domesticated around 7500 B.C. in Western Asia and likely brought to England by the Romans or other early traders. While frequently kept for rodent control, cats did not become common companion animals in England until the eighteenth century. British Shorthair and Scottish fold breeds are considered to have originated in the UK. Around 1819, <orgName ref="#Mitfords">the Mitfords</orgName> owned a tabby named <persName ref="#Poll_pet">Poll</persName> and a long-haired white cat name <persName ref="#Selim_pet">Selim</persName>, likely a Turkish Angora.</note>
                   <note>
                      <ptr target="https://www.rspb.org.uk/xxx"/>
                   </note>
                   <note>
-                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Manx_and_angora_cats_(stylized)_1885.jpg"/>
                   </note>
                </item>
                
@@ -2359,8 +2452,7 @@
                   https://commons.wikimedia.org/wiki/File:Manx_and_angora_cats_(stylized)_1885.jpg
                   
                   https://commons.wikimedia.org/wiki/File:Angora_Cat.JPG
-               
-               -->
+             -->
                
                <item xml:id="rabbit">
                   <name>rabbit</name>
@@ -2877,12 +2969,12 @@
          Mrs. Hofland - 
          10 Montpelier Row [DONE]
          Miss Jephson
-         No. 1 Charles Street Twickenham Middlesex.
-         Bath
-         Miss James (crossed out) Ormond Place  Bellevue Richmond - Surry - 
+         No. 1 Charles Street Twickenham Middlesex. [DONE]
+]         Bath
+         Miss James (crossed out) Ormond Place  Bellevue Richmond - Surry - [done]
          Mrs. Florry? - Five Ways 
          near Birmingham
-         - Miss Nooth - Kew - Surrey
+         - Miss Nooth - Kew - Surrey [done]
          (dividing line)
          B.R. Haydon Esqre. St. John's Place
          (cross out) Lisson Grove North
