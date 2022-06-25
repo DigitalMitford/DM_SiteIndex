@@ -239,8 +239,7 @@
                <org xml:id="Newberys">
                   <orgName>the Newbery family</orgName>
                   <orgName>Newberys</orgName>
-                  <orgName><addName>Newberrys</addName></orgName>
-                  <orgName><surname>Newbery</surname></orgName>
+                  <orgName><addName>Newberrys</addName></orgName>                   <orgName><surname>Newbery</surname></orgName>
                   <note resp="#lmw">The family of <persName ref="#Newbery_J">Jacob Newbery</persName>.</note>
                </org>
                
@@ -479,6 +478,7 @@
                   <note>
                      <ref target="http://viaf.org/viaf/97097302"/>
                   </note>
+                  <note><ptr target="https://www.npg.org.uk/collections/search/portraitExtended/mw00800/Emily-Bront"/></note>
                </person>
                
                <person xml:id="Brooke_Miss" sex="f"><!--existing id-->
@@ -530,6 +530,8 @@
                   <note>
                      <ref target="http://viaf.org/viaf/24598774"/>
                   </note>
+                  <note><ptr target="https://www.npg.org.uk/collections/search/portrait/mw00855/Elizabeth-Barrett-Browning-Robert-Browning"/></note>
+                  <note><ptr target="https://www.npg.org.uk/collections/search/portrait/mw00859/Robert-Browning"/></note>
                </person>
                      
                      <person xml:id="Budd_Mrs" sex="f">
@@ -539,8 +541,7 @@
                            <roleName>Mrs.</roleName>
                         </persName>
                         <death when="1819"/>
-                        <note resp="#rjp #lmw"><persName ref="#MRM">Mitford</persName>'s Journal entry of <date when="1819-04-28">April 28, 1819</date> records that she lived in Bedford and died in childbirth. Forename unknown. Dates unknown.<!--In the journal, Mitford mentions that Mrs. Budd lived in
-                           Bedford and died in childbirth on April 28, 1819.--><!--LMW: there is also a Miss Budd who died, possibly married name Mrs. Parks. And George Whittaker married a Sarah Budd, mother of the Whittakers Mitford knew who became publishers. --></note>
+                        <note resp="#rjp #lmw"><persName ref="#MRM">Mitford</persName>'s Journal entry of <date when="1819-04-28">April 28, 1819</date> records that she lived in Bedford and died in childbirth. Forename unknown. Dates unknown.<!--In the journal, Mitford mentions that Mrs. Budd lived in Bedford and died in childbirth on April 28, 1819.--><!--LMW: there is also a Miss Budd who died, possibly married name Mrs. Parks. And George Whittaker married a Sarah Budd, mother of the Whittakers Mitford knew who became publishers. --></note>
                      </person>
                      
                      <person xml:id="Carter_Mr" sex="m"> 
@@ -581,6 +582,7 @@
                            mentions he dies after a few weeks of illness.--><!--LMW: check the 1819 letters where he is mentioned.-->
                         
                         </note>
+                        <note><ptr target="https://viaf.org/viaf/305190850/#Champernowne,_Arthur_1767-1819"/></note>
                      </person>
                
                <person xml:id="Clare_J" sex="m">
@@ -601,6 +603,7 @@
                   <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">Called the <soCalled>peasant poet</soCalled>, Clare worked as an agricultural laborer and manservant.</note>
                   <note><ptr target="https://viaf.org/viaf/51703338/"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/John_Clare#/media/File:John_Clare.jpg"/></note>
                </person>
                
                <person xml:id="Clarke_Mrs" sex="f">
@@ -919,6 +922,7 @@
                   <occupation type="government" subtype="administrator"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1839" to="1849">between 1839 and 1849</date>.</note>
                   <note><ptr target="http://viaf.org/viaf/59892846"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Richard_Henry_Horne#/media/File:Richard_Henry_(or_Hengist)_Horne_by_Margaret_Gillies.jpg"/></note>
                </person>
                
                <person xml:id="Hughes_John" sex="m">
@@ -982,8 +986,7 @@
                      <roleName>Miss</roleName>
                   </persName>
                   <birth notAfter="1786-07-01">
-                     <placeName>The Strand, London, England</placeName>
-                  </birth>
+                     <placeName>The Strand, London, England</placeName> </birth>
                   <death when="1863-11-15">
                      <placeName>Kennington, Surrey, England</placeName>
                   </death>
@@ -2262,7 +2265,7 @@
                </item>
                
                <item xml:id="dog">
-                  <name ref="#dog">dog</name>
+                  <name>dog</name>
                   <name type="species">Canis familiaris</name>
                   <name type="genus">Canis</name>
                   <name type="family">Canidae</name>
@@ -2360,6 +2363,7 @@
                      <ptr target="https://commons.wikimedia.org/wiki/File:Wolstenholme_Greyhounds_Coursing.jpg"/>
                   </note>
                </item>
+               <!--https://www.the-saleroom.com/en-gb/auction-catalogues/hansons/catalogue-id-hanson10429/lot-4cc2e179-8206-4ea0-bb08-aeb500a9ce32-->
                <!--LMW: update dog entries; not all were greyhounds? And update Selim, the cat, likely Turkish Angora-->
                
                <item xml:id="guineahen">
@@ -2419,8 +2423,8 @@
                      <ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/ducks-geese-and-swans/"/>
                   </note>
                   <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Anser_anser"/>                                                                           c
-                  </note>
+                     <ptr target="https://species.wikimedia.org/wiki/Anser_anser"/>
+                 </note>
                </item>
                
                <item xml:id="chicken">
@@ -2450,50 +2454,93 @@
                
                <!--LMW: update note on Selim. He is deaf and has heterochromia, likely a Turkish Angora. See 1818 letter. https://pictures-of-cats.org/The-Real-Turkish-Angora.html
                   https://commons.wikimedia.org/wiki/File:Manx_and_angora_cats_(stylized)_1885.jpg
-                  
-                  https://commons.wikimedia.org/wiki/File:Angora_Cat.JPG
+                   https://commons.wikimedia.org/wiki/File:Angora_Cat.JPG
              -->
                
                <item xml:id="rabbit">
                   <name>rabbit</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-                  <note>df
-                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  <name type="species">Oryctolagus cuniculus</name>
+                  <name type="genus">Oryctolagus</name>
+                  <name type="family">Leporidae</name>
+                  <name><addName>European rabbit</addName></name><name><addName>coney</addName></name>
+                  <note resp="#lmw">Small, grey-brown furry mammal that lives in groups in networks of underground burrows. Same species as domesticated rabbits, and raised for meat, fur, and as companion animals. Traditionally the fur has been felted for hats as well as used to line garments. The meat was an important staple in the diet of the poorer classes, purchased, hunted or trapped, sometimes in violation of game and enclosure laws enacted from the 18th century forward. Prefer grasslands with nearby treelines or hedges. Native to the Iberian peninsula and southern France, but has been widely introduced elsewhere. UK rabbits are believed to have come with the Normans and populations increased during the eighteenth-century with changing agricultural methods such as predator control and field crop farming.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/rabbit"/>
                   </note>
                   <note>
-                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                     <ptr target="https://species.wikimedia.org/wiki/Oryctolagus_cuniculus"/>
                   </note>
                </item>
                
                <item xml:id="hare">
-                  <name>hare</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <name>brown hare</name>
+                  <name type="species">Lepus europaeus</name>
+                  <name type="genus">Lepus</name>
+                  <name type="family">Leporidae</name>
+                  <name><addName>European hare</addName></name>
+                  <note resp="#lmw">Hares and jackrabbits are wild members of the rabbit family. Brown hares are small, furry mammals with golden brown fur with white underbellies and tails and black-tipped ears. They have longer ears and more powerful legs than European rabbits and live alone or in pairs, rather than in groups. Thought to be introduced into Britain from Eurasia with the Romans or earlier.</note>
                   <note>
-                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/brown-hare"/>
                   </note>
                   <note>
-                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                     <ptr target="https://species.wikimedia.org/wiki/Lepus_europaeus"/>
                   </note>
                </item>
                
                <item xml:id="deer">
                   <name>deer</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <name type="family">Cervidae</name>
+                  <note resp="#lmw">Medium-sized hoofed mammals. Scottish red and roe deer are native to the UK, and European fallow deer are believed to the have been introduced by the Normans--all three species would have been extant in Mitford's time.</note>
                   <note>
-                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                     <ptr target="https://bna-naturalists.org/id-guide-british-deer/"/>
                   </note>
                   <note>
-                     <ptr target="https://species.wikimedia.org/wiki/xxx"/>
+                     <ptr target="https://species.wikimedia.org/wiki/Cervidae"/>
                   </note>
+               </item>
+               
+               <item xml:id="deer_red">
+                  <name>red deer</name>
+                  <name type="species">Cervus elaphus</name>
+                  <name type="genus">Cervus</name>
+                  <name type="family">Cervidae</name>
+                  <name><addName>Scottish red deer</addName></name>
+                  <note resp="#lmw">Large deer with dark, red-brown fur, paler rump and tail, and branching antlers. Native to the UK. Red deer are now considered a species group rather than a single species, one prevalent throughout Europe that likely originated in Asia. The male is called a <q>stag</q> or <q>hart</q> and the female a <q>hind</q>. Hunted and farmed for meat (venison), hair, hide, and antlers, they may also be found in deer parks. Scottish red and roe deer are both native to the UK, and European fallow deer are believed to the have been introduced by the Normans--all three species would have been extant in Mitford's time.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/red-deer"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Cervus_elaphus"/>
+                     <note><ptr target="https://en.wikipedia.org/wiki/Red_deer#/media/File:Monarch_of_the_Glen,_Edwin_Landseer,_1851.jpg"/></note>
+                  </note>
+               </item>
+               
+               <item xml:id="deer_roe">
+                  <name>roe deer</name>
+                  <name type="species">Capreolus capreolus</name>                  <name type="genus">Capreolus</name>
+                   <name type="family">Cervidae</name>
+                  <name><addName>European roe</addName></name>
+                  <name><addName>western roe deer</addName></name>
+                  <note resp="#lmw">The most common deer in the UK, a medium-sized animal with light red-brown fur, paler rump and tail, and branching antlers. Native to the UK. Common throughout Eurasia and considered part of a different genus than red or fallow deer. The male is called a <q>buck</q> and the female a <q>doe</q>. Hunted and farmed for meat (venison), hair, hide, and antlers, they may also be kept in deer parks. An adaptable species that can survive on smaller tracts of woodland, they are now found even within urban greenspace, such as parks and cemeteries. Scottish red and roe deer are both native to the UK.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/roe-deer"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Capreolus_capreolus"/>                    </note>
+               </item>
+               
+               <item xml:id="deer_fallow">
+                  <name>fallow deer</name>
+                  <name type="species">Cervus dama</name>                  <name type="genus">Dama</name>
+                  <name type="family">Cervidae</name>
+                  <name><addName>European fallow deer</addName></name>
+                  <note resp="#lmw">A medium-sized animal with light red-brown fur, paler rump and tail, and branching antlers. Native to Turkey and likely also the Italian and Balkan peninsulas, spread throughout Europe by the Romans and imported into the UK with the Normans and then naturalized. Widespread throughout the southern UK and considered part of a different genus than the red deer or roe deer. The male is called a <q>buck</q> and the female a <q>doe</q>. Hunted and farmed for meat (venison), hair, hide, and antlers, they may also be kept in deer parks. An adaptable species that can survive on smaller tracts of woodland, they are now found even within urban greenspace, such as parks and cemeteries. Scottish red and roe deer are both native to the UK.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/roe-deer"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Capreolus_capreolus"/>                    </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/Dama_dama#/media/File:Fallow-Deer.jpg"/></note>
                </item>
                
                <item xml:id="squirrel">
@@ -2562,7 +2609,6 @@
                   </note>
                </item>
                
-               
                <item xml:id="adder">
                   <name>common European adder</name>
                   <name type="species">Vipera berus berus</name>
@@ -2580,18 +2626,18 @@
                </item>
             </list>
 
-            <list sortKey="plants">
+            <list sortKey="plants"><!--fix-->
               
                 <item xml:id="wisteria">
                   <name>wisteria</name>
                   <name type="genus">Wisteria</name>
                   <name type="family">Fabaceae</name>
-                  <note resp="#lmw">Woody climbing bine bearing cascading purple flower plumes, native to Asia and to the eastern US.</note>
+                  <note resp="#lmw">Woody climbing vine bearing cascading purple flower plumes, native to Asia and to the eastern US.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/popular/wisteria"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Wisteria"/></note>
                </item>
                
-               <item xml:id="azalea">
+               <item xml:id="azalea"><!--fix-->
                   <name>azalea</name>
                   <name type="genus">Rhododendron</name>
                   <name type="family">Ericaceae</name>
@@ -2600,14 +2646,14 @@
                   <!--LMW: no wikispecies entry-->
                </item>
                
-               <item xml:id="rhododendron">
+               <item xml:id="rhododendron"><!--fix, copied from azalea?-->
                   <name>rhododendron</name>
                   <name type="species">Rhododendron ponticum</name>
                   <name type="genus">Rhododendron</name>
                   <name type="family">Ericaceae</name>
                   <name><addName>common rhododendron</addName></name>
                   <name><addName>pontic rhododendron</addName></name>
-                  <note resp="#lmw">Flowering shrub carrying abundantly showy round flower clusters in shades of mauve or lavendar blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 18th century as a garden ornamental, it is now considered an invasive species.</note>
+                  <note resp="#lmw">Flowering shrub carrying abundantly showy round flower clusters in shades of mauve or lavender blooms in spring, related to azaleas. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 18th century as a garden ornamental, it is now considered an invasive species.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Rhododendron_ponticum"/></note>
                </item>
                
@@ -2624,14 +2670,14 @@
                </item>
                
                <item xml:id="hearts_ease">
-                  <name ref="#hearts_ease">heart's-ease</name>
+                  <name>heart's-ease</name>
                   <name type="species">Viola tricolor</name>
                   <name type="genus">Viola</name>
                   <name type="family">Violaceae</name>
                   <name><addName>wild pansy</addName></name>
                   <name><addName>Johhny Jump up</addName></name>
                   <name><addName>Love-in_Idleness</addName></name>
-                 <note resp="#lmw">Wild pansy native to the UK</note>
+                 <note resp="#lmw">Wild pansy native to the UK.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/19017/viola-tricolor/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Viola_tricolor"/></note>
                </item>
@@ -2641,9 +2687,11 @@
                   <name type="species">Galanthus nivalis</name>
                   <name type="genus">Galanthus</name>
                   <name type="family">Amaryllidaceae</name>
-                  <note resp="#lmw">Small white-flowered plant propagated by bulbs, native to Europe and the Middle East and widely naturalized elsewhere. Believed to be native to the UK since the 16th century. Flowers in late winter and early spring, around the vernal equinox and so is considered a harbinger of spring. May also symbolize purity, hope, or the Christian Holy Trinity. A frequent subject of 19th century poetry including works by <persName ref="#Landon_LE">Landon</persName> <persName ref="#Wordsworth_Wm">Wordsworth</persName>, and others.</note>
+                  <name><addName>Galanthus</addName></name>
+                  <note resp="#lmw">Small white-flowered plant propagated by bulbs, native to Europe and the Middle East and widely naturalized elsewhere. Believed to be native to the UK since the 16th century. Flowers in late winter and early spring, around the vernal equinox and so is considered a harbinger of spring. May also symbolize purity, hope, or the Christian Holy Trinity. A frequent subject of 19th century poetry including works by <persName ref="#Landon_LE">Landon</persName> and <persName ref="#Wordsworth_Wm">Wordsworth</persName>.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/7568/galanthus-nivalis/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Galanthus"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Galanthus#/media/File:Illustration_Galanthus_nivalis0.jpg"/></note>
                </item>
                
                <item xml:id="hepatica">
@@ -2654,7 +2702,7 @@
                   <name><addName>Hepatica nobilis</addName></name>
                   <name><addName>liverleaf</addName></name>
                   <name><addName>ivy flower</addName></name>
-                  <note resp="#lmw">Low-growing flowering plant with fleshy, trilobal leaves and blue, purple, or pink flowers with showy white stamens. Flowers in late winter and early spring. Native to Europe and Asian and naturalized as well as grown as a garden plant in the UK.</note>
+                  <note resp="#lmw">Low-growing flowering plant with fleshy leaves and blue, purple, or pink flowers with showy white stamens. Flowers in late winter and early spring. Native to Europe and Asia and grown as a garden plant as well as naturalized in the UK.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/8645/hepatica-nobilis/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Hepatica_nobilis"/></note>
                </item>
@@ -2665,9 +2713,10 @@
                   <name type="genus">Eranthis</name>
                   <name type="family">Ranunculaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw">Yellow flowering plant native to Europe and naturalized in the UK. One of the earliest woodland wildflowers, appearing in late winter. Unrelated to aconitum (monkshood).</note>
+                  <note resp="#lmw">Ruberous, low-growing yellow flowering plant native to Europe and naturalized in the UK. One of the earliest woodland wildflowers, appearing in late winter. Unrelated to aconitum (monkshood).</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/6540/eranthis-hyemalis/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Eranthis_hyemalis"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/Eranthis_hyemalis#/media/File:The_Botanical_Magazine-Vol_I_Pl._3.jpg"/></note>
                </item>
                
                <item xml:id="fuchsia">
@@ -2695,13 +2744,14 @@
                </item>
                
                <item xml:id="hop_bines">
-                  <name ref="#hop_bines">hop-bines</name>
+                  <name>hop-bines</name>
                   <name type="species">Humulus lupulus</name>
                   <name type="genus">Humulus</name>
                   <name type="family">Cannabaceae</name>
-                  <note resp="#lmw">Twining plant using stiff, hairy stems (bines) to climb. Flowers of the female plants are the source of hops, used in brewing to flavor beer</note>
+                  <note resp="#lmw">Twining plant using stiff, hairy stems (bines) to climb. Flowers of the female plants are the source of hops, used in brewing to flavor beer.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/117193/i-humulus-lupulus-i-aureus-(f)/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Humulus"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Twining_Hop_(Humulus_lupulus).jpg"/></note>
                </item>
                
                <item xml:id="wallflower">
@@ -2712,6 +2762,7 @@
                   <note resp="#lmw">Flowering plant native to the Mediterranean basin and widely used as a garden plant for its showy, fragrant clusters of racemes in yellow-orange.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/89218/erysimum-cheiri/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Erysimum_%C3%97_cheiri"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:30_Cheiranthus_cheiri_L.jpg"/></note>
                </item>
                
                <item xml:id="myrtle">
@@ -2735,6 +2786,7 @@
                   <note resp="#slc #lmw">Perennial wildflower of medium height with small, shiny yellow flowers with prominent green or yellow sepals. Native to Eurasia but widely naturalized elsewhere.</note>
                   <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/meadow-buttercup"/></note>
                   <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_acris"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Ranunculus_acris_specimen_by_Joseph_Witry_in_the_Herbarium_LUX.jpg"/></note>
                </item>
                
                <item xml:id="ranunculus">
@@ -2744,41 +2796,46 @@
                   <name type="family">Ranunculaceae</name>
                   <name><addName>garden ranunculus</addName></name>
                   <name><addName>Persian buttercup</addName></name>
-                  <note resp="#slc">A species of buttercup (Ranunculus) native to the eastern Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and northeastern Africa. Double-flowered forms, which are likely hybrids, are a popular ornamental plant in gardens, and widely used in floristry.</note>
-                  <note resp="#lmw"></note>
+                  <note resp="#slc #lmw">Single-flowered red wildlflower with cup-shaped flowers, native to the Mediterranean region. Hybridized double-flowered forms in a variety of colors are used as garden plants, grown from tubers, and as cut flowers in floristry.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Ranunculus_asiaticus"/></note>
-                  <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_asiaticus"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+                  <note><ptr target="https://www.rhs.org.uk/plants/14341/ranunculus-asiaticus/details"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Gc19_ranunculus_asiaticus.jpg"/></note>
                </item>
                
-               <item xml:id="lavendar">
-                  <name>lavendar</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-                  <note><ptr target="https://xxx"/></note><!--link to wikispecies, Royal Horticultural society, period illustration, if possible.-->
+               <item xml:id="lavender">
+                  <name>lavender</name>
+                  <name type="species">Lavandula angustifolia</name>
+                  <name type="genus">Lavandula</name>
+                  <name type="family">Lamiaceae</name>
+                  <name><addName>English lavender</addName></name>
+                  <name><addName>common lavender</addName></name>
+                  <name><addName>garden lavender</addName></name>
+                  <note resp="#lmw">Medium-height evergreen flowering shrub with narrow leaves and pale purple flowers, native to the Mediterranean. Despite the common name <soCalled>English lavender</soCalled>, it not native to the UK. Grown as a garden plant, the flowers as a medicinal and culinary herb, and its aromatic oils are used in perfumery and massage.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/91398/lavandula-angustifolia/details"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Lavandula_angustifolia"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Lavandula_Angustifolia.jpg"/></note>
                </item>
                
-               <item xml:id="orchid"><!--leave for now, until I decide how specific/what kind to make the note on.-->
+               <item xml:id="orchid">
                   <name>orchid</name>
-                  <name>orchis</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <name type="genus">orchis</name>
+                  <name type="family">Orchidaceae</name>
+                  <note resp="#lmw">Flower plant member of the large family of the Orchidaceae, which contains nearly thirty thousand species and more than 100, 000 hybrids and cultivars. 52 types of orchids are native to the UK and are most common in the South of England; these include the ghost orchid, lady's slipper, red hellebore, greater butterfly orchid, early spider orchid, green-winged orchid, lady orchid, and fly orchid. Tropical species have been grown in the UK in glasshouses since the 19th century and are also cultivated for sale at florist's shops, as corsages, cut flowers, or pot plants. Scented varieties may be used in perfumery; and vanilla bean pods, with culinary uses, derive from an orchid species. 19th c. Europe and the UK saw a craze for collecting and hybridizing wild orchid species collected from elsewhere,  called orchidelirium, orchidomania or orchid fever, similar to the 17th-century Dutch tulip mania.</note>
                   <note><ptr target="https://www.woodlandtrust.org.uk/blog/2019/05/nine-wild-uk-orchids/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Orchidaceae"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Darwin_-_The_various_contrivances_by_which_orchids_are_fertilized_by_insects_(1877)_-_Fig_35.png"/></note>
                </item>
                
                <item xml:id="convolvulus">
-                  <name ref="#convolvulus">convolvulus</name>
-                  <name type="species"></name>
-                  <name type="genus"></name>
-                  <name type="family"></name>
+                  <name>convolvulus</name>
+                  <name type="species">Convolvulus arvensis</name>
+                  <name type="genus">Convolvulus</name>
+                  <name type="family">Convolvulaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">One of numerous species of vines with trumpet-shaped flowers.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/4333/i-convolvulus-cneorum-i/details"/></note>
                   <note><ptr target="https://en.wikipedia.org/wiki/Convolvulus"/></note>       
-                  
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:104_Convolvulus_arvensis.jpg"/></note>
                </item>
               
                <item xml:id="celery">
@@ -2787,28 +2844,14 @@
                   <name type="genus">Apium</name>
                   <name type="family">Apiaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw"><!-- wild celery? --></note>
+                  <note resp="#lmw">Both wild celery and the cultivated variety are the same species. Wild varieties grow in wetlands and are most noticeable for their parsley-like leaves and white flower stalk. Cultivated varieties are grown for their fibrous stalks and their seeds, which are used as a spice. It is thought to be native to the Mediterranean region, and has been cultivated since antiquity, in winter and early spring. Further hybridization by the 19th century had extended the growing season, and celery became an increasing important raw and cooked vegetable in British, American and European cuisines.</note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Apium_graveolens"/></note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/41552/i-apium-graveolens-i/details"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Wild_celery_(Apium_graveoleus_L.)_Wellcome_V0042828.jpg"/></note>
                </item>
                
-               <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, green Indian-corn,-->
-               
-               
-               <!--      <item xml:id="daisy">
-                  <name>daisy</name>
-                  <name type="species">Bellis perennis</name>
-                  <name type="genus">Bellis</name>
-                  <name type="family">Asteraceae</name>
-                  <name><addName>common daisy</addName></name>
-                  <name><addName>lawn daisy</addName></name>
-                  <name><addName>English daisy</addName></name>
-                  <note resp="#lmw">Perennial white daisy native to Europe and the UK, sometimes with pink-tinged petals. Plants are low-growing rosettes of round or oval leaves; single- and double-flowered varieties are hybridized in red, pink, and white. By the Victorian period, the flower held symbolic associations with childhood and innocence.</note>
-                  <note><ptr target="https://www.rhs.org.uk/Plants/94326/i-Bellis-perennis-i/Details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Bellis_perennis"/></note>
-               </item>-->
-               
-               <item xml:id="potato">
-                  <name ref="#potato">potato</name>
+               <item xml:id="potato"><!--update-->
+                  <name>potato</name>
 					<name type="genus">Solanum</name>
 					<name type="species">Solanum tuberosum</name>
 					<name type="family">Solanaceae</name>
@@ -2816,14 +2859,14 @@
                </item>
                
                <item xml:id="onion">
-                  <name ref="#onion">onion</name>
+                  <name>onion</name>
                   <name type="genus">Allium</name>
 					<name type="species">Allium cepa</name>
 					<name type="family">Amaryllidaceae</name>
                   <note resp="#lmw"></note></item>
                
                <item xml:id="turnip">
-                  <name ref="#turnip">turnip</name>
+                  <name>turnip</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2831,7 +2874,7 @@
                </item>
             
                <item xml:id="asparagus">
-                  <name ref="#asparagus">asparagus</name>
+                  <name>asparagus</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2839,7 +2882,7 @@
                </item>
                
                <item xml:id="moss">
-                  <name ref="#moss">moss</name>
+                  <name>moss</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2847,7 +2890,7 @@
                </item>
                
                <item xml:id="fern">
-                  <name ref="#fern">fern</name>
+                  <name>fern</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2855,7 +2898,7 @@
                </item>
                
                <item xml:id="mushroom">
-                  <name ref="#mushroom">mushroom</name>
+                  <name>mushroom</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2863,7 +2906,7 @@
                </item>
                
                <item xml:id="fungus">
-                  <name ref="#fungus">fungus</name>
+                  <name>fungus</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2887,7 +2930,7 @@
                </item>
                
                <item xml:id="stock">
-                  <name ref="#stock">stock</name>
+                  <name>stock</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2896,7 +2939,7 @@
                </item>
                
                <item xml:id="larkspur">
-                  <name ref="#larkspur">larkspur</name>
+                  <name>larkspur</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2905,7 +2948,7 @@
                </item>
                
                <item xml:id="peony">
-                  <name ref="#peony">peony</name>
+                  <name>peony</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2914,7 +2957,7 @@
                </item>
                
                <item xml:id="chrysanthemum">
-                  <name ref="#chrysanthemum">chrysanthemum</name>
+                  <name>chrysanthemum</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2922,7 +2965,7 @@
                </item>
                
                <item xml:id="cucumber_plant">
-                  <name ref="#cucumber_plant">cucumber</name>
+                  <name>cucumber</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2930,7 +2973,7 @@
                </item>
                
                <item xml:id="melon_plant">
-                  <name ref="#melon_plant">melon</name>
+                  <name>melon</name>
                   <name type="species">xxx</name>
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
@@ -2939,12 +2982,15 @@
                </item>
                
                <item xml:id="tuberose">
-                  <name ref="#tuberose">tuberose</name>
+                  <name>tuberose</name>
                   <name type="species">Polianthes xxx</name>
                 <name type="genus">Polianthes</name>
 						<name type="family">Asparagaceae</name>
                   <note resp="#SMP">A perennial plant that is frequently used in perfumes.</note>
                </item>
+               
+               <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, green Indian-corn,-->
+               
             
                
                <!--LMW: notes from the Journal; associated families-->
@@ -2952,7 +2998,7 @@
                <!-- Havell's Library, Reading -->
                <!-- Mortimer Common: where they go for coursing.  Miss Wheeler, Mrs. D. Wheeler -->
                <!-- @ Reading: Whites, Brookes, Newberrys, Bulleys, Garrards? Valpys, Warwicks, "Institution", Mrs. A. Valpy, Dr. Valpy, Mrs. ? Monck, Mrs. Newbery -->
-               <!-- @ Farley Hill:  The Parfitts, the Rigbys -->
+               <!-- @ Farley Hill:  The Parfitts, the Rigbys [done]-->
                <!-- Mrs. Raggett and Mrs. Greenwell: the women who look like William Elford. -->
                <!-- Miss Biggs -->
                <!-- @Wokingham: Miss Jeremy, James Wheeler, Webbs; Miss Bentley? Mrs. Jenkins, Mrs. Ballard, Mrs. Talmadge, Mr. Vidal, Mr. Morris-->
