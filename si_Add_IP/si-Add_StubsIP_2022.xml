@@ -2139,7 +2139,7 @@
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Equus_ferus_caballus"/>
                   </note>
-                  <note><ptr target="vvhttps://www.countrylife.co.uk/out-and-about/sporting-country-pursuits/shetlands-shires-native-horse-breeds-britain-91125/"/></note>
+                  <note><ptr target="https://www.countrylife.co.uk/out-and-about/sporting-country-pursuits/shetlands-shires-native-horse-breeds-britain-91125/"/></note>
                </item>
                
                <item xml:id="Arabian_horse">
@@ -2630,9 +2630,10 @@
               
                 <item xml:id="wisteria">
                   <name>wisteria</name>
+                   <name type="species">Wisteria</name>
                   <name type="genus">Wisteria</name>
                   <name type="family">Fabaceae</name>
-                  <note resp="#lmw">Woody climbing vine bearing cascading purple flower plumes, native to Asia and to the eastern US.</note>
+                  <note resp="#lmw">Group of woody climbing vines bearing cascading purple flower plumes, native to Asia and to the eastern US. The North American variety was catalogued in 1817; wisterias began to be imported into Europe and the UK as garden plants in the early nineteenth century. They are usually grown supported by walls, fences, or pergolas.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/popular/wisteria"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Wisteria"/></note>
                </item>
@@ -2680,6 +2681,7 @@
                  <note resp="#lmw">Wild pansy native to the UK.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/19017/viola-tricolor/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Viola_tricolor"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/Viola_tricolor#/media/File:Viola_tricolor_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v1.jpg"/></note>
                </item>
                
                <item xml:id="snowdrop">
@@ -2701,7 +2703,7 @@
                   <name type="family">Ranunculaceae</name>
                   <name><addName>Hepatica nobilis</addName></name>
                   <name><addName>liverleaf</addName></name>
-                  <name><addName>ivy flower</addName></name>
+<name><addName>ivy flower</addName></name>
                   <note resp="#lmw">Low-growing flowering plant with fleshy leaves and blue, purple, or pink flowers with showy white stamens. Flowers in late winter and early spring. Native to Europe and Asia and grown as a garden plant as well as naturalized in the UK.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/8645/hepatica-nobilis/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Hepatica_nobilis"/></note>
@@ -2713,7 +2715,7 @@
                   <name type="genus">Eranthis</name>
                   <name type="family">Ranunculaceae</name>
                   <name><addName></addName></name>
-                  <note resp="#lmw">Ruberous, low-growing yellow flowering plant native to Europe and naturalized in the UK. One of the earliest woodland wildflowers, appearing in late winter. Unrelated to aconitum (monkshood).</note>
+                  <note resp="#lmw">Tuberous, low-growing yellow flowering plant native to Europe and naturalized in the UK. One of the earliest woodland wildflowers, appearing in late winter. Unrelated to aconitum (monkshood).</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/6540/eranthis-hyemalis/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Eranthis_hyemalis"/></note>
                   <note><ptr target="https://commons.wikimedia.org/wiki/Eranthis_hyemalis#/media/File:The_Botanical_Magazine-Vol_I_Pl._3.jpg"/></note>
@@ -2759,7 +2761,7 @@
                   <name type="species">Erysimum cheiri</name>
                   <name type="genus">Erysimum</name>
                   <name type="family">Brassicaceae</name>
-                  <note resp="#lmw">Flowering plant native to the Mediterranean basin and widely used as a garden plant for its showy, fragrant clusters of racemes in yellow-orange.</note>
+                  <note resp="#lmw">Flowering plant native to the Mediterranean basin and widely used as a garden plant for its showy, fragrant clusters of yellow-orange racemes.</note>
                   <note><ptr target="https://www.rhs.org.uk/plants/89218/erysimum-cheiri/details"/></note>
                   <note><ptr target="https://species.wikimedia.org/wiki/Erysimum_%C3%97_cheiri"/></note>
                   <note><ptr target="https://commons.wikimedia.org/wiki/File:30_Cheiranthus_cheiri_L.jpg"/></note>
@@ -2855,38 +2857,42 @@
 					<name type="genus">Solanum</name>
 					<name type="species">Solanum tuberosum</name>
 					<name type="family">Solanaceae</name>
-                  <note resp="#qar">Potatoes are relatively new to Europe at this time. They are native to the Andes and were introduced only in the second half of the 16th century by the Spanish.</note>
+                  <note resp="#qar #lmw">Potatoes are relatively new to Europe at this time. They are native to the Andes and were introduced only in the second half of the 16th century by the Spanish.</note>
                </item>
                
                <item xml:id="onion">
                   <name>onion</name>
+                  <name type="species">Allium cepa</name>
                   <name type="genus">Allium</name>
-					<name type="species">Allium cepa</name>
 					<name type="family">Amaryllidaceae</name>
                   <note resp="#lmw"></note></item>
                
                <item xml:id="turnip">
                   <name>turnip</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <name type="species">Brassica rapa rapa</name>
+                  <name type="genus">Brassica</name>
+                  <name type="family">Brassicaceae</name>
+                  <name><addName>white turnip</addName></name>
+                  <name><addName>neep</addName></name>
+                  <note resp="#lmw">Grown for its fleshy root, for consumption by both humans and livestock. Other subtypes of the same plant are grown for their stems or leaves, including: bok choy and rapini. In the UK and parts of North America, the term is also used to refer to rutabagas or swedes, a larger root vegetable in the same family.</note>
+                  <note><ptr target="commons.wikimedia.org/wiki/Category:Brassica_rapa_subsp._rapa#/media/File:Maison_rustique_du_XIXe_siècle,_éd._Bixio,_1844,_I_(page_22)_-_Fig_20.jpg"/></note>
                </item>
             
                <item xml:id="asparagus">
                   <name>asparagus</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <name type="species">Asparagus officinalis</name>
+                  <name type="genus">Asparagus</name>
+                  <name type="family">Asparagaceae</name>
+                  <name><addName>cultivated asparagus</addName></name>
+                  <name><addName>garden asparagus</addName></name>
+                  <name><addName>sparrow grass</addName></name>
+                  <note resp="#lmw">Flowering perrenial plant whose young shoots are cultivated as a vegetable. Native to Eurasia, the subspecies Asparagus officinalis subsp. prostratus is believed to be native to coastal western Europe, north Ireland, and Great Britain.</note>
                </item>
                
                <item xml:id="moss">
                   <name>moss</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Nonvascular, low-growing plants that prefer damp soils, part of the large group of byrophytes. More than one thousand varieties live in the UK. UK mosses include: common haircap, silky forklet, Swan's-neck thyme, common tamarisk, glittering wood, and common striated feather-moss.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2018/07/types-of-moss-in-the-uk/"/></note>
                </item>
                
                <item xml:id="fern">
@@ -2895,14 +2901,30 @@
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
                   <note resp="#lmw"></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/ferns/"/></note><!--https://ebps.org.uk/ferns/identification/key-to-common-british-native-ferns/common-native-ferns/-->
+               </item>
+               
+               <item xml:id="bracken">
+                  <name>fern</name>
+                  <name type="species">Pteridium aquilinum</name>
+                  <name type="genus">Pteridium</name>
+                  <name type="family">Dennstaedtiaceae</name>
+                  <name><addName>common bracken</addName></name>
+                  <note resp="#lmw"> A genus of large, sturdy ferns, common throughout the world. It may be the most adaptable and oldest group of ferns. Commonly found on moorlands and hillsides and may form dense thickets of fronds, spread through its creeping roots. In the UK, moorland types are called <q>moorland scrub</q>. Traditionally gathered for use in leather tanning, soap- and glass-making, and for use as livestock bedding. Today, it may be seen as a threat to biodiversity, as its spread can elbow out other ground-cover plants upon which animals and other plants depend, and decrease the size of open moorlands.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/ferns/https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/ferns/bracken/"/></note><!--https://ebps.org.uk/ferns/identification/key-to-common-british-native-ferns/common-native-ferns/-->
                </item>
                
                <item xml:id="mushroom">
-                  <name>mushroom</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <name>field mushroom</name>
+                  <name type="species">Agaricus campestris</name>
+                  <name type="genus">Agaricus</name>
+                  <name type="family">Agaricaceae</name>
+                  <name><addName>meadow mushroom</addName></name>
+                  <note><addName>pink bottom</addName></note>
+                  <note resp="#lmw">A gilled mushroom, commonly eaten, and closely related to the cultivated button mushroom.<!--Is Mitford foraging?--></note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2017/08/types-of-mushroom/"/>.</note>
+                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2018/10/foraging-in-autumn-wild-mushrooms/"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Agaricus_campestris"/></note>
                </item>
                
                <item xml:id="fungus">
@@ -2911,31 +2933,40 @@
                   <name type="genus">xxx</name>
                   <name type="family">xxx</name>
                   <note resp="#lmw"></note>
+                  <note><ptr target="https://www.nhbs.com/blog/the-nhbs-guide-to-fungi-identification"/></note>
                </item>
                
                <item xml:id="gentianella">
                   <name>gentianella</name>
                   <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
+                  <name type="genus">Gentianella</name>
+                  <name type="family">Gentianaceae</name>
+                  <name><addName>dwarf gentian</addName></name>
+                  <note resp="#lmw">UK varieties include the early gentian (Gentianella anglica) and Chiltern gentian (Gentianella germanica).</note>
                </item>
                
-               <item xml:id="march_marygold">
-                  <name></name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"><!--Marsh marigold?--></note>
-               </item>
+               <item xml:id="marsh_marygold">
+                  <name>marsh marigold</name>
+                  <name type="species">Caltha palustris</name>
+                  <name type="genus">Caltha</name>
+                  <name type="family">Ranunculaceae</name>
+                  <name><addName>kingcup</addName></name>
+                  <note resp="#lmw">Medium-sized plant in the buttercup family that prefers marshes, wetlands, and wet woodlands. Known by many different regional names in the UK in addition to marsh marigold and kingcup.</note>
+                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/marsh-marigold"/></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Caltha_palustris"/></note>               </item>
                
                <item xml:id="stock">
                   <name>stock</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-                  <note></note>
+                  <name type="species">Matthiola incana</name>
+                  <name type="genus">Matthiola</name>
+                  <name type="family">Brassicaceae</name>
+                  <name><addName>common stock</addName></name>
+                  <name><addName>cut-and-come-again</addName></name>
+                  <name><addName>gillyflower</addName></name>
+                  <note resp="#lmw">Group of more than fifty types of tall, spike-flowered plants in the Brassica family and may refer more specifically to Matthiola incana. Flowers may be a variety of colors ranging from white through pink and purple. Cultivated scented varieties are UK garden favorites.</note>
+                  <note><ptr target="https://www.rhs.org.uk/plants/21197/i-matthiola-i/"></ptr></note>
+                  <note><ptr target="https://species.wikimedia.org/wiki/Matthiola"/></note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Edwards%27s_botanical_register_(Plate_25)_(7949439164).jpg"/></note>
                </item>
                
                <item xml:id="larkspur">
