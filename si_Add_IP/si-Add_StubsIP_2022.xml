@@ -3205,6 +3205,24 @@
          
          <div type="publications">
             <listBibl sortKey="work_MRM"> 
+               <!--2022-07-25 ebb: I'm adding these two Charles Lamb SI entries connected to that amazing 1819-01-10 Mary Webb letter. Probably referenced
+               elsewhere too.  -->
+               <bibl xml:id="Lamb_Chas_NewStyleActing"><author ref="#Lamb_Chas">Charles Lamb</author>
+                  <title level="a">The New Style of Acting</title>
+                  <title level="m" ref="#Lamb_Chas_Works">The Works of Charles Lamb: Critical Essays</title>
+                  <biblScope unit="volume" n="3">vol. III</biblScope>
+                  <biblScope unit="page" from="40" to="42"/>
+               </bibl>
+               
+               <bibl xml:id="Lamb_Chas_Works">
+                  <author ref="#Lamb_Chas">Charles Lamb</author>
+                  <editor>William MacDonald</editor>
+                  <title level="m" ref="#Lamb_Chas_Works">The Works of Charles Lamb: Critical Essays</title>
+                  <biblScope unit="volume" from="1" to="12">In twelve volumes</biblScope>
+                  <pubPlace>London</pubPlace>
+                  <publisher>J. M. Dent &amp; Co.</publisher>
+                  <date>1903</date>
+               </bibl>
                
                <bibl xml:id="WestonGrove_1827">
                   <title level="a">Weston Grove: A Descriptive Poem [1827 version]</title>
