@@ -168,7 +168,7 @@
                   <orgName>the Anstruther family</orgName>
                   <orgName>Anstruthers</orgName>
                   <orgName><surname>Anstruther</surname></orgName>
-                  <note resp="#lmw">The family of Col. Anstruther.</note>
+                  <note resp="#lmw">The family of <persName ref="#Anstruther_Col">Col. Anstruther</persName>.</note>
                </org>
                
                <org xml:id="Brookes">
@@ -176,7 +176,7 @@
                   <orgName>Brookes</orgName>
                   <orgName><surname>Brooke</surname></orgName>
                   <note resp="#lmw">A <rs type="person"
-                     ref="#Brooke_Mr #Brooke_Mrs #Brooke_Miss">family</rs> who lived at Moore House, Shinfield.</note>
+                     ref="#Brooke_Mr #Brooke_Mrs #Brooke_Miss">family</rs> who lived at Moore House, <placeName ref="#Shinfield">Shinfield</placeName>.</note>
                </org> 
              
                <org xml:id="BroughtonDas">
@@ -203,8 +203,8 @@
                   <note resp="#ebb #lmw">A <rs type="person"
                      ref="#Drover_JamesSr #Drover_Miss #Drover_JamesJr #Drover_Mrs #Drover_Elizabeth">family</rs> who, according to <persName ref="#Needham_Francis">Francis
                         Needham</persName>’s notes, lived on <placeName>Minster
-                           Street</placeName> in Reading, over their China shop.</note>
-                  <!--https://www.berkshirehistory.com/villages/reading_minster_street_intro.html-->
+                           Street</placeName> in <placeName ref="#Reading_city">Reading</placeName>, over their China shop.<!--https://www.berkshirehistory.com/villages/reading_minster_street_intro.html--></note>
+                  
                </org>
                
                <org xml:id="Garrards">
@@ -219,7 +219,7 @@
                   <orgName>Joliffes</orgName>
                   <orgName><addName>Jolliffes</addName></orgName>
                   <orgName><surname>Joliffe</surname></orgName>
-                  <note resp="#lmw"></note>
+                  <note resp="#lmw">Surname variously spelled <q>Joliffe</q> and <q>Jolliffe</q>.</note>
                </org>
                
                <org xml:id="Marsh_family">
@@ -231,7 +231,7 @@
                
                <org xml:id="Marshs_shop"> 
                   <orgName>Marsh's</orgName>
-                  <note resp="#rjp #lmw"><!--This is a place the MRM goes to purchase things...likely a retail
+                  <note resp="#rjp #lmw">Retail shop <persName ref="#MRM">Mitford</persName> mentions patronizing in 1819. Source: Journal. <!--rjp: This is a place the MRM goes to purchase things...likely a retail
                      store...VERIFY!--><!--LMW: MADE AN orgName as a business, rather than a place. Any relation to Harry Marsh? one-time banker-->
                      <!--LMW: Marsh, Deane and Co., Reading, bankers, listed bankrupt in 1824:  https://www.google.com/books/edition/The_Law_Advertiser/CuouAAAAIAAJ?hl=en&gbpv=1&dq=Marsh+and+Co.+Reading+Berks&pg=PA105&printsec=frontcover--></note>
                </org>
@@ -262,10 +262,10 @@
                   <note resp="#lmw">The family of <persName ref="#Sherwood_Mr">Mr. Sherwood</persName>, a local doctor.</note>
                </org>
                
-               <org xml:id="Whigs"><!--stub. Needs a note, similar to note for Tory. LMW needs to write.-->
+               <org xml:id="Whigs">
                   <orgName>the Whig party</orgName>
                   <orgName>Whigs</orgName>
-                  <note resp="#lmw">In Mitford's lifetime, the Whigs developed into a formalized political party under the leadership of Charles James Fox, standing in opposition to the <orgName ref="#Tory"></orgName> party.</note>
+                  <note resp="#lmw">In Mitford's lifetime, the Whigs developed into a formalized political party under the leadership of Charles James Fox, standing in opposition to the <orgName ref="#Tory"></orgName> party. <persName ref="#Mitford_Geo">George Mitford</persName> and <persName ref="#MRM">Mitford</persName>supported Whig and liberal candidates and causes. A number of Whig politicians subscribed to <persName ref="#MRM">Mitford</persName>'s early poems.</note>
                </org>
                
                <org xml:id="Shuters">
@@ -276,7 +276,7 @@
                </org>
                
                <org xml:id="Whites">
-                  <orgName>The White family</orgName>
+                  <orgName>the White family</orgName>
                   <orgName>Whites</orgName>
                   <orgName><surname>White</surname></orgName>
                   <note resp="#lmw"></note>
@@ -446,7 +446,7 @@
                      <surname>Anstruther</surname>
                      <roleName>Colonel</roleName>
                   </persName>
-                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> corresponded with him in 1819 and visited his daughter, <persName ref="#Anstruther_Miss">Miss Anstruther</persName>, in <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> corresponded with him in <date when="1819">1819</date> and visited his daughter, <persName ref="#Anstruther_Miss">Miss Anstruther</persName>, in <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                      
                      <person xml:id="Boyd_Mrs" sex="f">
@@ -455,7 +455,7 @@
                            <surname type="married">Boyd</surname>
                            <roleName>Mrs.</roleName>
                         </persName>
-                        <note resp="#lmw">Lived in <placeName ref="#Reading_city">Reading</placeName>, where <persName ref="#MRM">Mitford</persName> called upon her in 1819. Forename unknown. Dates unknown. Source: Journal.</note>
+                        <note resp="#lmw">Lived in <placeName ref="#Reading_city">Reading</placeName>, where <persName ref="#MRM">Mitford</persName> called upon her in v. Forename unknown. Dates unknown. Source: Journal.</note>
                      </person>
                
                <person xml:id="Bronte_E" sex="f"><!--stub, LMW to write a better note.-->
@@ -474,7 +474,7 @@
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="novelist"/>
-                  <note resp="#lmw">Yorkshire novelist and poet.</note>
+                  <note resp="#lmw">Yorkshire novelist and poet. Her novel <title ref="#WutheringHts">Wuthering Heights</title> was printed together with <title ref="#OV">Our Village</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/97097302"/>
                   </note>
@@ -508,10 +508,10 @@
                      <roleName>Mr.</roleName>
                   </persName>
                   <death when="1820-04"/>
-                  <note resp="#lmw">Forename unknown. The father of <persName ref="#Brooke_Miss">Miss Brooke</persName> and spouse of <persName ref="#Brooke_Mrs">Mrs. Brooke</persName>.</note><!--A Mr. Brooke was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>-->
+                  <note resp="#lmw">Forename unknown. The father of <persName ref="#Brooke_Miss">Miss Brooke</persName> and spouse of <persName ref="#Brooke_Mrs">Mrs. Brooke</persName>. A Mr. Brooke was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName></note>
                </person>
                
-               <person xml:id="Browning_Rob" sex="m"><!--stub: LMW to write a better note/Mitford importance.-->
+               <person xml:id="Browning_Rob" sex="m">
                   <persName>Robert Browning</persName>
                   <persName>
                      <forename>Robert</forename>
@@ -526,7 +526,7 @@
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="playwright"/>
-                  <note resp="#ebb">Victorian poet, married to <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>. Important philsopher-poet and practitioner of the dramatic monologue poetic form. His early poetry was influenced by <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName>.</note>
+                  <note resp="#ebb">Victorian poet, later married to <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>. Important philsopher-poet and practitioner of the dramatic monologue poetic form. His early poetry was influenced by <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName>. <persName ref="#MRM">Mitford</persName> was acquainted with  <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName> before her marriage.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/24598774"/>
                   </note>
@@ -550,7 +550,7 @@
                            <surname>Carter</surname>
                            <roleName>Mr.</roleName>
                         </persName>
-                        <note resp="#lmw"><persName ref="#MRM">Mitford</persName> met him at <orgName ref="#Webbs">the Webbs</orgName> in 1819. Source: Journal. Forename unknown. Dates unknown.</note>
+                        <note resp="#lmw"><persName ref="#MRM">Mitford</persName> met him at <orgName ref="#Webbs">the Webbs</orgName> in 1819. Forename unknown. Dates unknown.Source: Journal. </note>
 </person>
                      
                      <person xml:id="Chamberlaine_Jeremy" sex="m">
@@ -560,7 +560,7 @@
                         </persName>
                         <occupation type="trade"/>
                         <occupation type="trade" subtype="shoemaker"/>
-                        <note resp="#lmw">Brought <persName ref="#MRM">Mitford</persName> wildflowers in pots in 1819. Source: Journal. Dates unknown.</note>
+                        <note resp="#lmw">Brought <persName ref="#MRM">Mitford</persName> wildflowers in pots in 1819. Dates unknown. Source: Journal. </note>
                      </person>
                      
                      <person xml:id="Champernowne_Mr" sex="m">
@@ -622,7 +622,7 @@
                      <death when="1835-02-04">
                        <placeName>The Priory, Canterbury, Kent, England</placeName>
                      </death>
-                 <note resp="#lmw"><persName ref="#James_Miss">Miss James</persName> was her companion and, with Mrs. Stuart, widow of the Archbishop of Armagh, a legatee of her estate. Daughter of Johnson Macaree, Saxon scholar, and Anne Knowler. Paternal descendant of a Huguenot refugee family who emigrated in the 16th century; Maternal descendant of the Elstob family, Saxon scholars and connections of Welsh royalty. Lived in London with her husband Anthony (1758-1830), who worked on the Stock Exchange. They retired to the Priory, a home in Canterbury built around some outbuildings of St. Augustine's Monastery, where some of the ruins of St. Ethelbert's Tower featured in her garden. Also a friend and correspondent of writer Anne Macvicar Grant. Sources: <title level="m">Letters and Correspondence of Mrs. Grant of Laggan</title> and obituary in Gentleman's Magazine (1835): 544-545.</note>
+                 <note resp="#lmw"><persName ref="#James_Miss">Miss James</persName> was her companion and, with Mrs. Stuart, (widow of the Archbishop of Armagh), a legatee of her estate. Daughter of Johnson Macaree, Saxon scholar, and Anne Knowler. Paternal descendant of a Huguenot refugee family who emigrated in the 16th century. Maternal descendant of the Elstob family, Saxon scholars and connections of Welsh royalty. Lived in London with her husband Anthony (1758-1830), who worked on the Stock Exchange. They retired to the Priory, a home in Canterbury built around some outbuildings of St. Augustine's Monastery, where some of the ruins of St. Ethelbert's Tower featured in her garden. Also a friend and correspondent of writer Anne Macvicar Grant. Sources: <title level="m">Letters and Correspondence of Mrs. Grant of Laggan</title> and obituary in Gentleman's Magazine (1835): 544-545.</note>
                </person>
                
                <!--<person xml:id="Clarke_Mrs" sex="f">
@@ -655,7 +655,7 @@
                         </persName>
                         <persName><addName>Farmer Davies</addName></persName>
                         <occupation type="trade" subtype="farmer"/>
-                        <note resp="#rjp #lmw">Lived in Earley. Owned a <quote>neighboring meadow</quote> near <placeName ref="#Bertram_house">Bertram House</placeName></note>
+                        <note resp="#rjp #lmw">Lived in <placeName>Earley</placeName>. Owned a <quote>neighboring meadow</quote> near <placeName ref="#Bertram_house">Bertram House</placeName></note>
                      </person>
                
                <person xml:id="Dawson_GeoP" sex="m">
@@ -674,7 +674,7 @@
                   <occupation type="legal"/>
                   <occupation type="legal" subtype="barrister"/>
                   <occupation type="legal" subtype="magistrate"/>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date> and one of the signatories on her request for a Royal Literary Fund pension. Son of George Dawson of Osgodby Hall, Yorkshire and Elmira Reeves of Arborfield House, Berkshire, he inherited the Arborfield Park estate in 1832. He dismantled the existing Jacobean manor house and built a new mansion, Arborfield House by 1837.<!--https://en.wikipedia.org/wiki/Arborfield_Hall#/media/File:Arborfield_Hall.jpeg-->
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date> and one of the signatories on her request for a Royal Literary Fund pension. Son of George Dawson of Osgodby Hall, Yorkshire and Elmira Reeves of Arborfield House, Berkshire, he inherited the Arborfield Park estate in 1832. He dismantled the existing Jacobean manor house and built a new mansion, Arborfield House, by 1837.<!--https://en.wikipedia.org/wiki/Arborfield_Hall#/media/File:Arborfield_Hall.jpeg-->
                   </note>
                </person>
                
@@ -705,7 +705,7 @@
                   </persName>
                   <birth notAfter="1796"/>
                   <death notAfter="1875"/>
-                  <note resp="#rjp #lmw">Spouse of <persName ref="#Dearsley_Wm">William Hanson Dearsley</persName> and lived with him at Moore Place in Shinfield until his death in 1825. After his death, she inherited Moore Place.<!--LMW: MSpelling Dearesley, Dearsley, Dearsly.--></note>
+                  <note resp="#rjp #lmw">Spouse of <persName ref="#Dearsley_Wm">William Hanson Dearsley</persName> and lived with him at Moore Place, Shinfield until his death in 1825. After his death, she inherited Moore Place.<!--LMW: MSpelling Dearesley, Dearsley, Dearsly.--></note>
                </person>
                         
                         <person xml:id="Deverell_John" sex="m">
@@ -723,7 +723,7 @@
                      <surname>Dobbs</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. The spouse of <persName ref="#Dobbs_Mrs">Mrs. Dobbs</persName>. She lists their address in her Journal as <placeName>27 Hatton Gardens</placeName> in London. Dates unknown.</note>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. The spouse of <persName ref="#Dobbs_Mrs">Mrs. Dobbs</persName>. She lists their address in her Journal as <placeName>27 Hatton Gardens</placeName> in <placeName ref="#London_city">London</placeName>. Dates unknown.</note>
                </person>
                
                <person xml:id="Florry_Mrs" sex="f">
@@ -737,7 +737,7 @@
                      <placeName>Edgebaston, Warwickshire, England</placeName>
                   </death>
                   <occupation type="trade"/>
-                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> and friend of <persName ref="#James_Miss">Elizabeth James</persName>, who is remembered in her will. She lists her address as <placeName>Five Ways</placeName>, then a village in the parish of Edgbaston, Warwickshire, England, now a region in central Birmingham. Unmarried businesswoman and property owner in her own right, she traded as a wine merchant and metal factor between 1769 and 1785. She traded as Florry and Walker with William Walker between 1785 and 1799, and then retired in 1799 to Five Keys. See Christine Wiskin, Women, Finance and Credit in England, c. 1780-1826, Ph.D. thesis, U of Warwick.</note>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> and friend of <persName ref="#James_Miss">Elizabeth James</persName>, who is remembered in her will. She lists her address as <placeName>Five Ways</placeName>, then a village in the parish of Edgbaston, Warwickshire, England, now a region in central Birmingham. Unmarried businesswoman and property owner in her own right, she traded as a wine merchant and metal factor between 1769 and 1785. She traded as Florry and Walker with William Walker between 1785 and 1799, and then retired in 1799 to Five Keys. See Christine Wiskin, <title level="m">Women, Finance and Credit in England, c. 1780-1826</title>, Ph.D. thesis, U of Warwick.</note>
                   <!--http://wrap.warwick.ac.uk/36386/1/WRAP_THESIS_Wiskin_2000.pdf-->
                </person>
                
@@ -775,7 +775,7 @@
                               <surname type="paternal">Harley</surname>
                               <roleName>Miss</roleName>
                            </persName>
-                           <note resp="#lmw">Forename unknown. Dates unknown.<!--LMW: Could this be transription error for Miss HAWLEY? Mr. Hawley marries Besty Broughton.--> </note>
+                           <note resp="#lmw">Forename unknown. Dates unknown.v= vc</note>
                         </person>
                
                <person xml:id="Harris_Mr" sex="m">
@@ -801,7 +801,8 @@
                <person xml:id="Hayward_Wm_son" sex="m">
                   <persName>William Hayward</persName>
                   <persName>
-                     <surname>Hayward</surname>
+                   
+                     <surname>Hayward</surname>/
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="trade"/>
@@ -931,9 +932,7 @@
                      <surname>Hughes</surname>
                      <roleName>John</roleName>
                   </persName>
-                  <birth when="1790-01-02">
-                     <placeName></placeName>
-                  </birth>
+                  <birth when="1790-01-02"/>
                   <death when="1857-12-13">
                      <placeName>Brompton, Middlesex, England</placeName>
                   </death>
@@ -986,7 +985,7 @@
                      <roleName>Miss</roleName>
                   </persName>
                   <birth notAfter="1786-07-01">
-                     <placeName>The Strand, London, England</placeName> </birth>
+                     <placeName>The Strand, London, England</placeName></birth>
                   <death when="1863-11-15">
                      <placeName>Kennington, Surrey, England</placeName>
                   </death>
@@ -1131,8 +1130,7 @@
                   <occupation type="religious" subtype="clergy"/>
                   <occupation type="explorer" subtype="traveller"/>
                   <occupation type="literary" subtype="essayist"/>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Trinity College, Oxford scholar and Church of England clergyman. Travelled extensively in Portugal and Belgium. Published essays, sermons, and a travel book on Portugal.
-                  </note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Trinity College, Oxford scholar and Church of England clergyman. Travelled extensively in Portugal and Belgium. Published essays, sermons, and a travel book on Portugal.</note>
                   <note><ptr target="http://viaf.org/viaf/53227673"/></note>
                </person>
                
@@ -1412,7 +1410,7 @@
                   <occupation type="government"/>
                   <occupation type="government" subtype="administrator"/>
                   <occupation type="government" subtype="reformer"/>
-                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Bank of England superintendant, Poor Law Commissioner, and later Secretary to the Poor Law Commission. Created Knight Commander of the Bath in 1851. Father of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName>. Source: Visitation of England and Wales, vol. 2 (1894): 49-5. </note></person>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Bank of England superintendant, Poor Law Commissioner, and later Secretary to the Poor Law Commission. Created Knight Commander of the Bath in 1851. Father of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName>. Source: <title level="m">Visitation of England and Wales</title>, vol. 2 (1894): 49-50.</note></person>
                
                <person xml:id="Nicholls_H" sex="f">
                   <persName>Harriet Maltby Nicholls</persName>
@@ -1455,31 +1453,8 @@
                      <surname type="paternal">Ogbourn</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw"><!--LMW: Mrs. Webb's maiden name was Ogbourn:  a sister or niece?  Is this AUNT MARY??--></note>
+                  <note resp="#lmw">Possibly the relation of <persName>Mrs. Webb</persName>, whose paternal name was Ogbourn.</note>
                </person>
-               <!--LMW: Existing SI entry - update. Sister in law?:
-                              <person xml:id="Webb_Mary_elder" sex="f">
-                                 <persName>Aunt Mary Webb</persName>
-                                 <persName>
-                                    <surname>Webb</surname>
-                                    <forename>Mary</forename>
-                                 </persName>
-                                 <persName>
-                                    <addName>Aunt Mary</addName>
-                                 </persName>
-                                 <note resp="#scw #lmw">Friend of<persName ref="#MRM">Mary Russell Mitford.
-                                 </persName>Sister or sister-in-law of <persName ref="#Webb_James">James
-                                    Webb</persName> and aunt of <persName ref="#Webb_Eliza">Eliza</persName>,
-                                    <persName ref="#Webb_Jane">Jane</persName> and <persName ref="#Webb_Mary_younger">Mary Webb</persName>. <persName ref="#Needham_Francis">Francis Needham</persName>suggests that she was the
-                                    basis for the character of <persName>Aunt Martha</persName> in the <title ref="#OV">Our Village</title>story of that title. Sources: <rs type="letter">
-                                       <persName ref="#Needham_Francis">Francis Needham</persName>, Letter to
-                                       <persName ref="#Roberts_Wm">William Roberts</persName>, <date when="1953-06-16">16 June 1953</date>
-                                    </rs>. <bibl corresp="#Needham_PapersRCL">
-                                       <persName ref="#Needham_Francis">Needham Papers</persName>, <orgName ref="#ReadingCL">Reading Central Library</orgName>
-                                    </bibl>. Relationship to other Webbs and birth and death dates unknown. More
-                                    research needed.</note>
-                              </person>
-                              -->
                
                <person xml:id="Ouvry_Jane" sex="f">
                   <persName>Jane Nicholls Ouvry</persName>
@@ -1525,7 +1500,7 @@
                      <surname>Payn</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mrs">Mrs. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note><!--A Mr. Payne was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>-->
+                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mrs">Mrs. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown. A Mr. Payne was an original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName></note>
                </person>
                
                <person xml:id="Payn_Mrs" sex="f">
@@ -1534,7 +1509,7 @@
                      <surname type="married">Payn</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mr">Mr. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mr">Mr. Payn</persName>. The couple live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note>
                </person>     
                
                <person xml:id="Pearson_Hugh" sex="m">
@@ -1560,7 +1535,7 @@
                      <surname>Piles</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">Forename unknown. Dates unknown.<!--LMW: vet?--></note>
+                  <note resp="#lmw">May be a local veternarian. Forename unknown. Dates unknown.</note>
                </person>
                
                <person xml:id="Pithers_Mr" sex="m">
@@ -1569,7 +1544,7 @@
                      <surname>Pithers</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#rjp #lmw"> Owner of a field near <placeName ref="#Bertram_house">Bertram House</placeName>. Forename unknown. Dates unknown.<!--Owns a neighboring field.--></note>
+                  <note resp="#rjp #lmw">Owner of a field near <placeName ref="#Bertram_house">Bertram House</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                
                <person xml:id="Pratt_SJ" sex="m">

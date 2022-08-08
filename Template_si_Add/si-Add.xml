@@ -80,7 +80,7 @@
           <listPerson sortKey="histPersons">
              <person xml:id="whatever3"><!--This is about as elaborate as we need to be for person entries in our project. Historical people will probably have the most extensive entries. Note: We've decided that named animals count as historical people, so Mitford's pets go into this list.-->
                 <persName>
-                   <surname type="married"></surname><!--takes @type attributes: @type="married" @type="maiden"-->
+                   <surname type="married"></surname><!--takes @type attributes: @type="married" @type="paternal"-->
                    <forename></forename>
                    <forename></forename><!--middle names are "forenames" too. Put them in order. First name, then middle name(s)-->
                    <roleName><!--if any. 6th Earl of Northumberland--></roleName>
