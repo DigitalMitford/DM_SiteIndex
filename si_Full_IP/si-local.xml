@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -166,19 +166,7 @@
                      literature, with a focus on British Romanticism. For the Digital Mitford
                      project, she works on letters and is the editor of Mitford’s play <title ref="#Inez_deCastro_MRMplay">Inez de Castro</title>. </note>
                </person>
-               <person xml:id="amp">
-                  <persName>
-                     <surname>Peddicord</surname>
-                     <forename>Amber</forename>
-                     <forename>M.</forename>
-                     <roleName>Research Assistant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>Green Scholar<affiliation>University of Pittsburgh-Greensburg</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note>Amber Peddicord has sorted image files and encoded different editions of Mitford's letter manuscripts and the published versions of those letters. She is assisting the editing team in completing and checking the encoding of Mitford’s correspondence in 1822. She is currently working toward B.A.'s in English Literature and Communication at the University of Pittsburgh-Greensburg, as well as a <ref target="https://www.greensburg.pitt.edu/academics/majors-minors/digital-studies">Digital Studies Certificate</ref>. She graduates in spring 2021.</note>
-               </person>
+               
                <person xml:id="aol">
                   <persName>
                      <surname>Longmuir</surname>
@@ -245,7 +233,7 @@
                      culture, history of the English language, and contemporary critical theory, her
                      areas of professional publication as well. She recently joined the Mitford
                      project, which she sees as an exciting opportunity to create digital resources
-                     in a collaborative environment. </note>
+                     in a collaborative environment.</note>
                </person>
                <person xml:id="ctm">
                   <persName>
@@ -2305,10 +2293,10 @@
                   <orgName>
                      <surname>Drover</surname>
                   </orgName>
-                  <note resp="#ebb">A <rs type="person"
-                         ref="#Drover_JamesSr #Drover_Miss #Drover_JamesJr #Drover_Mrs #Drover_Elizabeth">family</rs> who, according to <persName ref="#Needham_Francis">Francis
+                  <note resp="#ebb #lmq">A family who, according to <persName ref="#Needham_Francis">Francis
                         Needham</persName>’s notes, lived on <placeName>Minster
-                     Street</placeName>.</note>
+                           Street</placeName> in <placeName ref="#Reading_city">Reading</placeName>, over their China shop. Members include: 
+                     <persName ref="#Drover_JamesSr">James Drover, Senior</persName>, <persName ref="#Drover_Mrs">Mrs. Drover</persName>, <persName ref="#Drover_Miss">Miss Drover</persName>, <persName ref="#Drover_JamesJr">James Drover, Junior</persName>, and <persName ref="#Drover_Elizabeth">Elizabeth Drover</persName>.<!--https://www.berkshirehistory.com/villages/reading_minster_street_intro.html-->.</note>
                </org>
                <org xml:id="Dutton_pub">
                   <orgName>E. P. Dutton</orgName>
@@ -2347,6 +2335,12 @@
                   <note>
                      <ref target="http://viaf.org/viaf/131314437"/>
                   </note>
+               </org>
+               <org xml:id="Garrards">
+                  <orgName>the Garrard family</orgName>
+                  <orgName>Garrards</orgName>
+                  <orgName><surname>Garrard</surname></orgName>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
                </org>
                <org xml:id="Garrett_pub">
                   <orgName>Garrett Press</orgName>
@@ -2396,6 +2390,16 @@
                   <note>
                      <ref target="http://viaf.org/viaf/159369146"/>
                   </note>
+               </org>
+               <org xml:id="Havell_Lib"> 
+                  <orgName>Havell's Library</orgName>
+                  <note resp="#lmw">Subscription library. <persName ref="#Mitford_Geo">George Mitford</persName> purchases a half year subscription for <persName ref="#MRM">Mary</persName> in <date when="1819-01">January 1819</date>. Source: Journal.</note>
+               </org>
+               <org xml:id="Hawkes_family">
+                  <orgName>the Hawkes family</orgName>
+                  <orgName>Hawkes's</orgName>
+                  <orgName><surname>Hawkes</surname></orgName>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>. May include <persName ref="#Hawkes_Miss">Miss Hawkes</persName>, whom Mitford visits in 1819. Source: Journal.</note>
                </org>
                <org xml:id="High_Court_of_Justice">
                   <orgName>High Court of Justice</orgName>
@@ -2486,6 +2490,13 @@
                   <orgName>John Cumberland</orgName>
                   <note resp="#lmw">John Cumberland was a publishing firm founded by John Cumberland (1787-1866) and located in <placeName ref="#London_city">London</placeName> with premises at <placeName>19 Ludgate Hill</placeName>, at <placeName>2 Cumberland Terrace</placeName> and at <placeName>6 Brecknock Place, Camden New Town</placeName>. Publisher of a reprint series of acting editions of plays, <title level="s">Cumberland's British Theatre</title> and <title level="s">Cumberland's Minor Theatre</title>, <date from="1820" to="1829">in the 1820's</date>, as well as other reprint series. The firm was affiliated with engraver R. Cruikshank, who illustrated some of their volumes of plays. Cumberland reprinted <title ref="#Julian_MRMplay">Julian</title> in <title level="s">Cumberland's British Theatre</title> in 1823 as No. 240 (volume 32, no. 3). His premises are listed as <placeName>2 Cumberland Terrace, Camden New Town</placeName> on that volume. Source: WorldCat, Google Books.<!-- LMW:  No corporate VIAF #, only personal: http://viaf.org/viaf/78373314 --></note>
                </org>
+               <org xml:id="Joliffes">
+                  <orgName>the Joliffe family</orgName>
+                  <orgName>Joliffes</orgName>
+                  <orgName><addName>Jolliffes</addName></orgName>
+                  <orgName><surname>Joliffe</surname></orgName>
+                  <note resp="#lmw">Surname variously spelled <q>Joliffe</q> and <q>Jolliffe</q>. Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
+               </org>
                <org xml:id="JRobinson_pub">
                   <orgName>J. Robinson</orgName>
                   <note resp="#lmw">J. Robinson was a publishing firm located in <placeName ref="#Baltimore">Baltimore</placeName>. First American publisher of <persName ref="#MRM">Mitford</persName>'s <title ref="#Rienzi">Rienzi</title> in <date when="1828">1828</date>. Source: WorldCat.<!--LMW: no corporate VIAF # found.--></note>
@@ -2525,6 +2536,18 @@
                   <note>
                      <ref target="http://viaf.org/viaf/133689118"/>
                   </note>
+               </org>
+               <org xml:id="Marsh_family">
+                  <orgName>the Marsh family</orgName>
+                  <orgName>Marshes</orgName>
+                  <orgName><surname>Marsh</surname></orgName>
+                  <note resp="#lmw">The family of <persName ref="#Marsh_Henry">Harry Marsh</persName> and his spouse <persName ref="#Marsh_Mrs">Mrs. Marsh</persName>.  Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
+               </org>
+               <org xml:id="Marshs_shop"> 
+                  <orgName>Marsh's</orgName>
+                  <note resp="#rjp #lmw">Retail shop <persName ref="#MRM">Mitford</persName> mentions patronizing in 1819. Source: Journal. <!--rjp: This is a place the MRM goes to purchase things...likely a retail
+                     store...VERIFY!--><!--LMW: MADE AN orgName as a business, rather than a place. Any relation to Harry Marsh? one-time banker-->
+                     <!--LMW: Marsh, Deane and Co., Reading, bankers, listed bankrupt in 1824:  https://www.google.com/books/edition/The_Law_Advertiser/CuouAAAAIAAJ?hl=en&gbpv=1&dq=Marsh+and+Co.+Reading+Berks&pg=PA105&printsec=frontcover--></note>
                </org>
                <org xml:id="Marylebone_Cricket_Club">
                   <orgName>Marylebone Cricket Club</orgName>
@@ -2580,6 +2603,12 @@
                      <ref target="http://viaf.org/viaf/121005241"/>
                   </note>
                </org>
+               <org xml:id="Newberys">
+                  <orgName>the Newbery family</orgName>
+                  <orgName>Newberys</orgName>
+                  <orgName><addName>Newberrys</addName></orgName>                   <orgName><surname>Newbery</surname></orgName>
+                  <note resp="#lmw">The family of <persName ref="#Newbery_J">Jacob Newbery</persName>. Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
+               </org>
                <org xml:id="New_Model_Army">
                   <orgName>New Model Army</orgName>
                   <note resp="#rnes">Parliamentary army founded in 1645; victor in <rs type="event" ref="#EngCivilWar">the English Civil War</rs>.</note>
@@ -2604,9 +2633,10 @@
                         Palmer</persName> in the Reading elections of <date when="1820-03-16">March
                         16, 1820</date>.</note>
                </org>
-               <org xml:id="Parfitt_family"><!--LMW stub-->
+               <org xml:id="Parfitt_family"><!--LMW stub. update to add specific people in the family once we confirm-->
                   <orgName>the Parfitt family</orgName>
                   <orgName>the Parfitts</orgName>
+                  <note resp="#lmw">Lived at <placeName ref="#Farley_Hill">Farley Hill</placeName>, where Mitford visited them.</note>
                </org>
                <org xml:id="Parliament_UK">
                   <orgName>Parliament</orgName>
@@ -2670,6 +2700,11 @@
                <org xml:id="Richmond_Coach">
                   <orgName>Richmond Coach</orgName>
                   <note resp="#kdc">Stage coach that travelled to Richmond.</note>
+               </org>
+               <org xml:id="Rigby_family">
+                  <orgName>the Rigby family</orgName>
+                  <orgName>the Rigbys</orgName>
+                  <note resp="#lmw">Lived at <placeName ref="#Farley_Hill">Farley Hill</placeName>, where Mitford visited them.</note>
                </org>
                <org xml:id="Rolandi_pub">
                   <orgName>Pierre Rolandi</orgName>
@@ -2751,12 +2786,24 @@
                      <ref target="http://viaf.org/viaf/142915505"/>
                   </note>
                </org>
+               <org xml:id="Sherwoods"><!--lmw: Add other members, when known.-->
+                  <orgName>the Sherwood family</orgName>
+                  <orgName>Sherwoods</orgName>
+                  <orgName><surname>Sherwood</surname></orgName>
+                  <note resp="#lmw">The family of <persName ref="#Sherwood_Mr">Mr. Sherwood</persName>, a local doctor.  Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
+               </org>
                <org xml:id="Sidgwick_Jackson_pub">
                   <orgName>Sidgwick &amp; Jackson</orgName>
                   <note resp="#lmw">Sidgwick &amp; Jackson is a publishing firm located in <placeName ref="#London_city">London</placeName>, founded in <date when="1908">1908</date>. It is now an imprint of publishing company Pan MacMillan. <date when="1990">1990</date>, the firm published an illustrated collection of <persName ref="#MRM">Mitford</persName> letters and stories on garden themes entitled <title ref="#MyGarden_MRM">My Garden:  A Nineteenth-Century Writer on her English Cottage Garden</title>. The work was published simultaneously in America by <orgName ref="#PrenticeHall_pub">Prentice Hall</orgName> (<placeName ref="#New_York_city">New York</placeName>).</note>
                   <note>
                      <ref target="http://viaf.org/viaf/138432217"/>
                   </note>
+               </org>
+               <org xml:id="Shuters"><!--lmw: Add members, when known.-->
+                  <orgName>the Shuter family</orgName>
+                  <orgName>Shuters</orgName>
+                  <orgName><surname>Shuter</surname></orgName>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
                </org>
                <org xml:id="Simms_MIntyre_pub">
                   <orgName>Simms and M'Intyre</orgName>
@@ -2906,9 +2953,10 @@
                      <ref target="http://www.historyofparliamentonline.org/volume/1820-1832/constituencies/reading"/>
                   </note>
                </org>
-               <org xml:id="Whigs"><!--stub-->
+               <org xml:id="Whigs">
                   <orgName>the Whig party</orgName>
                   <orgName>Whigs</orgName>
+                  <note resp="#lmw">In Mitford's lifetime, the Whigs developed into a formalized political party under the leadership of Charles James Fox, standing in opposition to the <orgName ref="#Tory"></orgName> party. <persName ref="#Mitford_Geo">George Mitford</persName> and <persName ref="#MRM">Mitford</persName>supported Whig and liberal candidates and causes. A number of Whig politicians subscribed to <persName ref="#MRM">Mitford</persName>'s early poems.</note>
                </org>
                <org xml:id="WhiteLion_pub">
                   <orgName>White Lion Publishers</orgName>
@@ -2916,6 +2964,12 @@
                   <note>
                      <ref target="http://viaf.org/viaf/138750278"/>
                   </note>
+               </org>
+               <org xml:id="Whites"><!--lmw: Add members, when known.-->
+                  <orgName>the White family</orgName>
+                  <orgName>Whites</orgName>
+                  <orgName><surname>White</surname></orgName>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
                </org>
                <org xml:id="Whittaker_GB_pub">
                   <orgName>G. B. Whittaker</orgName>
@@ -3045,7 +3099,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Addison</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Addison</q>. Forename unknown. Dates unknown.</note>
                   <!--lmw: Possibly Edward Phillips Addison?-->
                </person>
                <person xml:id="Adolphus_JL" sex="m">
@@ -3135,7 +3189,7 @@
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Aitken</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Aitken</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Albert_SaxeCbrg" sex="m">
                   <persName>Prince Albert of Saxe-Coburg and Gotha</persName>
@@ -3246,13 +3300,47 @@
                      <ref target="http://viaf.org/viaf/74124260"/>
                   </note>
                </person>
+               <person xml:id="Allaway_Frank" sex="m">
+                  <persName>Frank Allaway</persName>
+                  <persName>
+                     <surname>Allaway</surname>
+                     <forename>Frank</forename>
+                  </persName>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Manservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. He and his brother <persName ref="#George">George</persName> buried <persName ref="#Mossy_pet">Mossy</persName>.</note>
+               </person>
+               <person xml:id="Allaway_Mary" sex="f">
+                  <persName>Mary Allaway</persName>
+                  <persName>
+                     <surname type="paternal">Allaway</surname>
+                     <forename>Mary</forename>
+                  </persName>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Maidservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
+               </person>
                <person xml:id="Allen_Mrs" sex="f">
                   <persName>Mrs. Allen</persName>
                   <persName>
                      <surname type="married">Allen</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Date unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Date unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Allin_Miss" sex="f"><!--done-->
+                  <persName>Miss Allin</persName>
+                  <persName>
+                     <surname>Allin</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Correponded with Mitford in 1819. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Allingham_Mrs" sex="f">
+                  <persName>Mrs. Allingham</persName>
+                  <persName>
+                     <surname>Allingham</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Likely the mother of <persName ref="#Dickinson_Mrs">Catherine Dickinson</persName>. Mitford visited them at <placeName ref="#Farley_Hill">Farley Hill</placeName> in 1820, when their daughter <persName ref="#Dickinson_Daughter">Frances</persName> was born. Source: Journal.</note>
                </person>
                <person xml:id="Anacreon" sex="m">
                   <persName>Anacreon</persName>
@@ -3320,7 +3408,7 @@
                   <persName>
                      <forename>Annie</forename>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Date unknown. Surname unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Surname unknown. Dates unknown.</note>
                </person>
                <person xml:id="Antinous" sex="m">
                   <persName>Antinous</persName>
@@ -3335,6 +3423,22 @@
                   </death>
                   <note resp="#lmw">Beautiful young man who was a court favorite of the Roman emperor Hadrian. Hadrian deified him after death and he was worshipped as a god (theos) and as a hero (heros) in different sections of the Roman Empire. By the eighteenth century, his name had become proverbial for a beautiful young man, often with a connotation of someone who was an object of male homosexual desire.</note>
                   <!--LMW: no VIAF #.-->
+               </person>
+               <person xml:id="Anstruther_Miss" sex="f">
+                  <persName>Miss Anstruther</persName>
+                  <persName>
+                     <surname type="paternal">Anstruther</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Daughter of <persName ref="#Anstruther_Col">Colonel Anstruther</persName>. <persName ref="#MRM">Mitford</persName> visited her in <placeName ref="#Reading_city">Reading</placeName> in 1819. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Anstruther_Col" sex="m">
+                  <persName>Colonel Anstruther</persName>
+                  <persName>
+                     <surname>Anstruther</surname>
+                     <roleName>Colonel</roleName>
+                  </persName>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> corresponded with him in <date when="1819">1819</date> and visited his daughter, <persName ref="#Anstruther_Miss">Miss Anstruther</persName>, in <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Antony" sex="m">
                   <persName>Mark Antony</persName>
@@ -3380,6 +3484,14 @@
                   <note>
                      <ref target=" http://viaf.org/viaf/71386455"/>
                   </note>
+               </person>
+               <person xml:id="Armstrong_Mr" sex="m">
+                  <persName>Mr. Armstrong</persName>
+                  <persName>
+                     <surname>Armstrong</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Dined at <placeName ref="#Bertram_house">Bertram House</placeName> with the <orgName ref="#Mitfords">Mitfords</orgName> and <persName ref="#Parfitt_Jos">Mr. Parfitt</persName> in 1819. Forename unknown. Dates unknown. Source: Journal.</note>
                </person>
                <person xml:id="Ashburton_Lord" sex="m">
                   <persName>Alexander Baring, Baron Ashburton</persName>
@@ -3503,6 +3615,30 @@
                      <ref target="http://viaf.org/viaf/31992319"/>
                   </note>
                </person>
+               <person xml:id="Bacon_Mr" sex="m">
+               <persName>Mr. Bacon</persName>
+               <persName>
+                  <surname>Bacon</surname>
+                  <roleName>Mr.</roleName>
+               </persName>
+               <note resp="#lmw"><persName ref="#MRM">Mitford</persName> corresponded with him in 1819. Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Bailey_Mr" sex="m">
+                  <persName>Mr. Bailey</persName>
+                  <persName>
+                     <surname>Bailey</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. May be the relation of <persName>Maria Bailey Kirby</persName>. Dates unknown.</note>
+               </person>
+               <person xml:id="Bailley_Dr" sex="m">
+                  <persName>Dr. Bailley</persName>
+                  <persName>
+                     <surname>Bailley</surname>
+                     <roleName>Dr.</roleName>
+                  </persName> <!--<occupation>doctor</occupation>?-->
+                  <note resp="#lmw">Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Baillie_Joanna" sex="f">
                   <persName>Joanna Baillie</persName>
                   <persName>
@@ -3534,7 +3670,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s plays, <title ref="#Julian_MRMplay">Julian</title>  at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1823">1823</date>; and <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Baker</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Baker</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Baldwin_R" sex="m">
                   <persName>Robert Baldwin</persName>
@@ -3674,7 +3810,15 @@
                      <surname>Bassett</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> around the 1830s. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> around the 1830s. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Bath_Mrs" sex="f">
+                  <persName>Mrs. Bath</persName>
+                  <persName>
+                     <surname type="married">Bath</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Bayley_Mrs" sex="f">
                   <persName>Mrs. Bayley</persName>
@@ -3683,7 +3827,7 @@
                      <roleName>Mrs.</roleName>
                   </persName>
                   <occupation type="literary" subtype="editor"/>
-                  <note resp="#lmw">Mrs. Bayley, spouse of <persName ref="#Bayley_P">Peter Bayley</persName>. After his sudden death in <date when="1823">1823</date>, she arranged to publish his poems posthumously and to have performed and published his tragedy <title ref="#Orestes_PB">Orestes in Argos</title>. Forename unknown. More research needed.<!--look for his wife in ancestry.com #rnes LMW: I checked unsuccessfully (worldcat and ancestry):  2017-07-09.--></note>
+                  <note resp="#lmw">Mrs. Bayley, spouse of <persName ref="#Bayley_P">Peter Bayley</persName>. After his sudden death in <date when="1823">1823</date>, she arranged to publish his poems posthumously and to have performed and published his tragedy <title ref="#Orestes_PB">Orestes in Argos</title>. Forename unknown. Dates unknown.<!--look for his wife in ancestry.com #rnes LMW: I checked unsuccessfully (worldcat and ancestry):  2017-07-09.--></note>
                </person>
                <person xml:id="Bayley_P" sex="m">
                   <persName>Peter Bayley</persName>
@@ -3876,7 +4020,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Active 1830s. Acted under <q>Mr. Bender</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Active 1830s. Acted under <q>Mr. Bender</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Bennet_G" sex="m"><!--not a dup.-->
                   <persName>Henry (Grey) Bennet</persName>
@@ -3936,7 +4080,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> plays: <title ref="#Julian_MRMplay">Julian</title>  at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1823">1823</date>; and <title ref="#CharlesI_MRMplay">Charles
-                     I</title>  at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Bennett</q>. Forename unknown. More research needed.</note>
+                     I</title>  at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Bennett</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Bennett_Wm_Cox" sex="m">
                   <persName>William Cox Bennett</persName>
@@ -3994,7 +4138,7 @@
                      <forename>Margaret</forename>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">Spouse of <persName ref="#Bennoch_Fr">Francis Bennoch</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1855">1855</date>. More research needed.</note>
+                  <note resp="#lmw">Spouse of <persName ref="#Bennoch_Fr">Francis Bennoch</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1855">1855</date>. Dates unknown.</note>
                </person>
                <person xml:id="Bentley_R" sex="m">
                   <persName>Richard Bentley</persName>
@@ -4263,6 +4407,14 @@
                      <ref target="http://viaf.org/viaf/17259955"/>
                   </note>
                </person>
+               <person xml:id="Biggs_Miss" sex="f">
+                  <persName>Miss Biggs</persName>
+                  <persName>
+                     <surname type="paternal">Biggs</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Associated with <persName ref="#Johnson_Mr">Mr. Johnson</persName> and <persName ref="#Johnson_Miss">Miss Johnson</persName>. <persName ref="#MRM">Mitford</persName> dined with them at <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.<!--LMW: possibly a companion to Miss Johnson? relation of the prominent Biggs family in Berks?--></note>
+               </person>
                <person xml:id="Bint_Hannah" sex="f">
                   <persName>Hannah Bint</persName>
                   <persName>
@@ -4347,7 +4499,7 @@
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Active 1820s. Came to London from provincial theatre in <placeName>Newcastle</placeName>. Acted under <q>Mr. Bland</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Active 1820s. Came to London from provincial theatre in <placeName>Newcastle</placeName>. Acted under <q>Mr. Bland</q>. Forename unknown. Dates unknown.</note>
                   <!-- LMW: Possible a relation of Dorothea Jordan, whose birth name was Bland. However, her brothers appear to be too old or had died before 1828. Possibly J. Bland, who performed "heavy business" for Matthews; or H. Bland, walking gentleman parts? -->
                </person>
                <person xml:id="Blandy_Mrs" sex="f">
@@ -4356,7 +4508,7 @@
                      <surname type="married">Blandy</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Blewitt_O" sex="m">
                   <persName>Octavian Blewitt</persName>
@@ -4495,6 +4647,14 @@
                      <ref target="http://viaf.org/viaf/32743151"/>
                   </note>
                </person>
+                  <person xml:id="Bonviese_Mr" sex="m">
+                     <persName>Mr. Bonviese</persName>
+                     <persName>
+                        <surname>Bonviese</surname>
+                        <roleName>Mr.</roleName>
+                     </persName>
+                     <note resp="#lmw">Forename unknown. Dates unknown.</note>
+                  </person>
                <person xml:id="Booth_Mr" sex="m">
                   <persName>Mr. Booth</persName>
                   <persName>
@@ -4528,6 +4688,14 @@
                      <ref target="http://viaf.org/viaf/64002337"/>
                   </note>
                </person>
+               <person xml:id="Boscawen_Col" sex="m">
+                  <persName>Colonel Boscawen</persName>
+                  <persName>
+                     <surname>Boscawen</surname>
+                     <roleName>Colonel</roleName>
+                  </persName>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> corresponded with him in 1819. Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Bowles_Wm" sex="m">
                   <persName>William Lisles Bowles</persName>
                   <persName>
@@ -4558,6 +4726,14 @@
                   <note>
                      <ref target="https://commons.wikimedia.org/wiki/File:William_Lisle_Bowles.jpg"/>
                   </note>
+               </person>
+               <person xml:id="Boyd_Mrs" sex="f">
+                  <persName>Mrs. Boyd</persName>
+                  <persName>
+                     <surname type="married">Boyd</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Lived in <placeName ref="#Reading_city">Reading</placeName>, where <persName ref="#MRM">Mitford</persName> called upon her in v. Forename unknown. Dates unknown. Source: Journal.</note>
                </person>
                <person xml:id="Bradshaw_hist" sex="m">
                   <persName>John Bradshaw</persName>
@@ -4731,7 +4907,7 @@
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="novelist"/>
-                  <note resp="#lmw">Yorkshire novelist and poet.</note>
+                  <note resp="#lmw">Yorkshire novelist and poet. Her novel <title ref="#WutheringHts">Wuthering Heights</title> was printed together with <title ref="#OV">Our Village</title>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/97097302"/>
                   </note>
@@ -4739,14 +4915,29 @@
                <person xml:id="Brooke_Miss" sex="f">
                   <persName>Miss Brooke</persName>
                   <persName>
-                     <surname>Brooke</surname>
+                     <surname type="paternal">Brooke</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#scw">A correspondent of <persName ref="#MRM">Mitford's</persName>, to whom she writes at <placeName>11 East Cliff, Brighton</placeName>. <persName ref="#coles">William Coles</persName>suggests that this could be a summer address, and that she was a resident of <placeName ref="#Reading_city">Reading</placeName>. She was courted by <persName ref="#Valpy_Richard">Dr. Valpy</persName> in <date when="1823-10">October 1823</date>. Source: <rs type="letter">Letter from <persName ref="#coles">William Coles</persName> to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>
-                     </rs>, <bibl corresp="#Needham_PapersRCL">
-                        <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL"/>. Forename unknown. More research needed.
-                     <!--scw: See photo DSCN1167--></bibl>
-                  </note>
+                  <note resp="#scw">A correspondent of <persName ref="#MRM">Mitford's</persName>, to whom she writes at 11 East Cliff, <placeName ref="#Brighton">Brighton</placeName>. <persName ref="#coles">William Coles</persName>suggests that this could be a summer address, and that she was a resident of <placeName ref="#Reading_city">Reading</placeName>. She was courted by <persName ref="#Valpy_Richard">Dr. Valpy</persName> in <date when="1823-10">October 1823</date>. Forename unknown. Possibly the daughter of <persName ref="#Brooke_Mrs">Mrs. Brooke</persName> and <persName ref="#Brooke_Mr">Mr. Brooke</persName>.  Source: <bibl>Letter from <persName ref="#coles">William Coles</persName> to <persName ref="#Needham_Francis">Needham</persName>, <date when="1957-11-10">10 November 1957</date>
+                  </bibl>, <title ref="#Needham_PapersRCL">
+                     <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL"/></title>.<!--scw: See photo DSCN1167--></note>
+               </person>
+               <person xml:id="Brooke_Mrs" sex="f">
+                  <persName>Mrs. Brooke</persName>
+                  <persName>
+                     <surname type="married">Brooke</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Forename unknown. Dates unknown. Possibly the mother of <persName ref="#Brooke_Miss">Miss Brooke</persName> and spouse of <persName ref="#Brooke_Mr">Mr. Brooke</persName>.</note>
+               </person>
+               <person xml:id="Brooke_Mr" sex="m">
+                  <persName>Mr. Brooke</persName>
+                  <persName>
+                     <surname>Brooke</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <death when="1820-04"/>
+                  <note resp="#lmw">Forename unknown. The father of <persName ref="#Brooke_Miss">Miss Brooke</persName> and spouse of <persName ref="#Brooke_Mrs">Mrs. Brooke</persName>. A Mr. Brooke was an Original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName></note>
                </person>
                <person xml:id="Brooks_Miss" sex="f">
                   <persName>Miss Brooks</persName>
@@ -4754,7 +4945,7 @@
                      <surname type="paternal">Brooks</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed. <!--LMW: Same as Miss Brooke or no? See xml:id="Brooke_Miss"--></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. Dates unknown. <!--LMW: Same as Miss Brooke or no? See xml:id="Brooke_Miss"--></note>
                </person>
                <person xml:id="Brougham_H" sex="m">
                   <persName>Henry Peter Brougham</persName>
@@ -4826,9 +5017,9 @@
                      <forename>S.</forename>
                      <surname type="paternal">Browne</surname>
                   </persName>
-                  <note resp="#lmw">Sister of poet Mary Ann Browne (1812-1844). <persName ref="#MRM">Mary Russell Mitford</persName> wrote in an album belonging to her in <date when="1829">1829</date>. More research needed.</note>
+                  <note resp="#lmw">Sister of poet Mary Ann Browne (1812-1844). <persName ref="#MRM">Mary Russell Mitford</persName> wrote in an album belonging to her in <date when="1829">1829</date>. Dates unknown.</note>
                </person>
-               <person xml:id="Browning_Rob" sex="m"><!--stub-->
+               <person xml:id="Browning_Rob" sex="m">
                   <persName>Robert Browning</persName>
                   <persName>
                      <forename>Robert</forename>
@@ -4843,11 +5034,12 @@
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="literary" subtype="playwright"/>
-                  <note resp="#ebb">Victorian poet, married to <persName ref="#Barrett_E">Elizabeth
-                     Barrett Browning</persName>. Important philsopher-poet and practitioner of the dramatic monologue poetic form. His early poetry was influnced by <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName>.</note>
+                  <note resp="#ebb">Victorian poet, later married to <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>. Important philsopher-poet and practitioner of the dramatic monologue poetic form. His early poetry was influenced by <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName>. <persName ref="#MRM">Mitford</persName> was acquainted with  <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName> before her marriage.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/24598774"/>
                   </note>
+                  <note><ptr target="https://www.npg.org.uk/collections/search/portrait/mw00855/Elizabeth-Barrett-Browning-Robert-Browning"/></note>
+                  <note><ptr target="https://www.npg.org.uk/collections/search/portrait/mw00859/Robert-Browning"/></note>
                </person>
                <person xml:id="Bruce_James" sex="m">
                   <persName>James Bruce of Kinnaird</persName>
@@ -4965,6 +5157,15 @@
                   <note>
                      <ref target="http://viaf.org/viaf/63975332"/>
                   </note>
+               </person>
+               <person xml:id="Budd_Mrs" sex="f">
+                  <persName>Mrs. Budd</persName>
+                  <persName>
+                     <surname type="married">Budd</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <death when="1819"/>
+                  <note resp="#rjp #lmw"><persName ref="#MRM">Mitford</persName>'s Journal entry of <date when="1819-04-28">April 28, 1819</date> records that she lived in Bedford and died in childbirth. Forename unknown. Dates unknown.<!--In the journal, Mitford mentions that Mrs. Budd lived in Bedford and died in childbirth on April 28, 1819.--><!--LMW: there is also a Miss Budd who died, possibly married name Mrs. Parks. And George Whittaker married a Sarah Budd, mother of the Whittakers Mitford knew who became publishers. --></note>
                </person>
                <person xml:id="Bulley_F" sex="m">
                   <persName>Frederick Bulley</persName>
@@ -5098,7 +5299,7 @@
                   <note resp="#lmw">
                      <rs type="letter">Forename unknown. The person who recommended to <persName ref="#MRM">Mitford</persName> a particular volume
                         of<persName ref="#Sophocles">Sophocles</persName> plays, mentioned in her letter to <persName ref="#Talfourd_Thos">Talfourd</persName> of <date when="1821-11">November 12 and 13, 1821</date>
-                     </rs>. More research needed.<!-- Need to identify.  Reading bookseller?  LMW or clergyman? ebb Many possibilities in ODNB.--><!-- from 1821-10-22 letter to Talfourd: <quote>I want to read a translation of Sophocles. Mr. Burgess<quote> (Coles says this is the same person mentioned in the Intro. Check to be sure it is the same and whether name has one s or two. (Burges.) See Coles #15, p. 89, note 12. LMW) recommended one in French prose, but French prose, will not English be better?   --><!-- one possibility is Thomas Burgess (18 November 1756 – 19 February 1837) Bishop of Saint David's and Bishop of Salisbury, first president of Royal Literary Society, author of work (in Latin) on Sophocles/greek tragedies. Would Mitford or her father have known him? --></note>
+                     </rs>. Dates unknown.<!-- Need to identify.  Reading bookseller?  LMW or clergyman? ebb Many possibilities in ODNB.--><!-- from 1821-10-22 letter to Talfourd: <quote>I want to read a translation of Sophocles. Mr. Burgess<quote> (Coles says this is the same person mentioned in the Intro. Check to be sure it is the same and whether name has one s or two. (Burges.) See Coles #15, p. 89, note 12. LMW) recommended one in French prose, but French prose, will not English be better?   --><!-- one possibility is Thomas Burgess (18 November 1756 – 19 February 1837) Bishop of Saint David's and Bishop of Salisbury, first president of Royal Literary Society, author of work (in Latin) on Sophocles/greek tragedies. Would Mitford or her father have known him? --></note>
                </person>
                <person xml:id="Burke_E" sex="m">
                   <persName>Edmund Burke</persName>
@@ -5129,7 +5330,7 @@
                   <persName>
                      <surname>Burke</surname>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1834">1834</date>. Forename unknown. More research needed. <!--LMW: Possibly John Burke (12 November 1786 – 27 March 1848), founder of Burke's Peerage? --></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1834">1834</date>. Forename unknown. Dates unknown. <!--LMW: Possibly John Burke (12 November 1786 – 27 March 1848), founder of Burke's Peerage? --></note>
                </person>
                <person xml:id="Burney_F" sex="f">
                   <persName>Frances Burney d' Arblay</persName>
@@ -5205,8 +5406,12 @@
                </person>
                <person xml:id="Butler_Mr" sex="m">
                   <persName>Mr. Butler</persName>
+                  <persName>
+                     <surname>Butler</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
                   <occupation type="trade" subtype="merchant"/>
-                  <note resp="#ajc">A <placeName ref="#Reading_city">Reading</placeName> shop owner and <orgName ref="#Palmerite">Palmerite</orgName> mentioned in <rs type="letter">Mitford's discussion of the Reading elections in her letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1820-03-20">20 March 1820</date>.</rs> More research needed.
+                  <note resp="#ajc">A <placeName ref="#Reading_city">Reading</placeName> shop owner and <orgName ref="#Palmerite">Palmerite</orgName> mentioned in <rs type="letter">Mitford's discussion of the Reading elections in her letter to <persName ref="#Elford_SirWm">Sir William Elford</persName> of <date when="1820-03-20">20 March 1820</date>.</rs> Dates unknown.
                   </note>
                </person>
                <person xml:id="Butler_Sam" sex="m">
@@ -5347,6 +5552,14 @@
                      <ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/canning-george-i-1770-1827"/>
                   </note>
                </person>
+               <person xml:id="Carter_Mr" sex="m"> 
+                  <persName>Mr. Carter</persName>
+                  <persName>
+                     <surname>Carter</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> met him at <orgName ref="#Webbs">the Webbs</orgName> in 1819. Forename unknown. Dates unknown. Source: Journal. </note>
+               </person>
                <person xml:id="Cartwright_Maj" sex="m">
                   <persName>Major John Cartwright</persName>
                   <persName>
@@ -5375,7 +5588,7 @@
                      <surname type="married">Cary</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1844">1844</date>. Forename unknown. More research needed.<!--LMW: Jane Ormsby Cary, wife of Rev. Henry Francis Cary (6 December 1772 – 14 August 1844)?--></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1844">1844</date>. Forename unknown. Dates unknown.<!--LMW: Jane Ormsby Cary, wife of Rev. Henry Francis Cary (6 December 1772 – 14 August 1844)?--></note>
                </person>
                <person xml:id="Cassius" sex="m">
                   <persName>Cassius</persName>
@@ -5434,7 +5647,7 @@
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
                            I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. <persName ref="#MRM">Mitford</persName>'s protege in the 1830s, mentioned in her letters. She also addressed a poem to him: <title level="a">On Mr. Cathcart's performance of Cromwell in the tragedy of Charles I</title>. <persName ref="#Macready_Wm">Macready</persName> mentions this about Cathcart's performance in <title ref="#CharlesI_MRMplay">Charles I</title>: <quote>The play is wretchedly constructed, with some powerful scenes, many passages of power and considerable effect in the sketch of Cromwell's character, which, deserving first-rate support, was consigned to the murderous Mr. Cathcart--a very poor pretender indeed.</quote> Source: <bibl>
-                        <title level="m">The Diaries of William Charles Macready, 1833-1851, volume one.</title>Entry for July 12, 1834, page 165.</bibl> Acted under <q>Mr. Cathcart</q>. Forename unknown. More research needed.</note>
+                        <title level="m">The Diaries of William Charles Macready, 1833-1851, volume one.</title>Entry for July 12, 1834, page 165.</bibl> Acted under <q>Mr. Cathcart</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Cecil_Henry" sex="m">
                   <persName>Henry Cecil</persName>
@@ -5491,7 +5704,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Chalk</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Chalk</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Chalmers_Alex" sex="m">
                   <persName>Alexander Chalmers</persName>
@@ -5514,6 +5727,15 @@
                      <ref target="http://viaf.org/viaf/20543801"/>
                   </note>
                </person>
+               <person xml:id="Chamberlaine_Jeremy" sex="m">
+                  <persName>
+                     <surname>Chamberlaine</surname>
+                     <forename>Jeremy</forename>
+                  </persName>
+                  <occupation type="trade"/>
+                  <occupation type="trade" subtype="shoemaker"/>
+                  <note resp="#lmw">Brought <persName ref="#MRM">Mitford</persName> wildflowers in pots in 1819. Dates unknown. Source: Journal. </note>
+               </person>
                <person xml:id="Chamberlayne_Wm" sex="m">
                   <persName>William Chamberlayne</persName>
                   <persName>
@@ -5527,6 +5749,26 @@
                   <note>
                      <ptr target="http://www.historyofparliamentonline.org/volume/1790-1820/member/chamberlayne-william-1760-1829"/>
                   </note>
+               </person>
+               <person xml:id="Champernowne_Mr" sex="m">
+                  <persName>Arthur Harrington Champernowne</persName>
+                  <persName><forename>Arthur</forename>
+                     <surname>Harrington</surname>
+                     <surname>Champernowne</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <persName><addName>Mr. Champernowne</addName></persName>
+                  <persName><addName>Arthur Harrington</addName></persName>
+                  <birth when="1767"/>
+                  <death when="1819"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <occupation type="benefactor" subtype="patron"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="legal" subtype="judge"/>
+                  <note resp="#rjp #lmw">Son of Rev. Richard Harrington and Jane Champernowne who took the name and arms of Champernowne in 1774, after the death without issue of the last direct male heir, Rawlin Champernowne. Member of the family of high-ranking landed gentry, Champernowne of Dartington, near Totnes, in Devon. With his wife Louise Buller Champernowne, amateur artists and leading art collectors in the early 19th century; his collection was sold at Christie's on June 30, 1820. They were admitted to sketch in the Townley Gallery of the British Museum in 1809. Friend of <persName ref="#Elford_SirWm">William Elford</persName>. M.P. for Saltash in 1806 and High Sherriff of Devon in 1811. They also lived at 10 Montagu Street in London. Succeeded by his son Henry. Friend of Samuel Rogers and etcher Francis Towne. <!--Mitford
+                           mentions he dies after a few weeks of illness.--><!--LMW: check the 1819 letters where he is mentioned.-->
+                  </note>
+                  <note><ptr target="https://viaf.org/viaf/305190850/#Champernowne,_Arthur_1767-1819"/></note>
                </person>
                <person xml:id="Chantrey_F" sex="m">
                   <persName>Francis Chantrey</persName>
@@ -5690,7 +5932,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Chippendale</q>. Forename unknown. More research needed.<!-- LMW: William Henry Chippendale? b. 1801, active 1830s to 1850s at Haymarket. --></note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Chippendale</q>. Forename unknown. Dates unknown.<!-- LMW: William Henry Chippendale? b. 1801, active 1830s to 1850s at Haymarket. --></note>
                </person>
                <person xml:id="Chorley_HF" sex="m">
                   <persName>Henry Fothergill Chorley</persName>
@@ -5722,8 +5964,7 @@
                      and promoted the compositions and operas of <persName>Rossini</persName>,
                      <persName>Mendelssohn</persName>, <persName>Meyerbeer</persName>, and
                      <persName>Gounod</persName>, though he disliked <persName>Verdi</persName>.
-                     <persName ref="#Hemans_Felicia">Felicia Hemans</persName> and <persName>E.
-                        T. A. Hoffman</persName> made lasting impressions on him. Wrote <bibl>
+                     <persName ref="#Hemans_Felicia">Felicia Hemans</persName> and <persName>E.T.A. Hoffman</persName> made lasting impressions on him. Wrote <bibl>
                         <title level="m">Memorials of Mrs. Hemans</title>, in two volumes, published in
                            <date when="1836">1836</date>
                      </bibl>. Served as editor of <title level="j">The Ladies' Companion</title> in <date when="1850">1850</date>
@@ -5748,15 +5989,35 @@
                   <occupation type="literary"/>
                   <note resp="#lmw">Fought the duel on <date when="1821-02-27">27 February 1821</date> with <persName ref="#Scott_John">John Scott</persName> that resulted in Scott's death; after a trial in <date when="1821-04">April 1821</date>, he was acquitted of murder; <persName>James Traill</persName> was his second. Christie was the literary agent of <persName ref="#Lockhart_JG">J. G. Lockhart</persName>.<!-- LMW:  no VIAF #. --></note>
                </person>
-               <person xml:id="Clargo_Meremoth"><!--stub-->
+               <person xml:id="Clare_J" sex="m">
+                  <persName ref="#Clare_J">John Clare</persName>
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Clare</surname>
+                  </persName>
+                  <birth when="1793-07-13">
+                     <placeName>Hepstone, Northamptonshire, England</placeName>
+                  </birth>
+                  <death when="1864-05-20">
+                     <placeName>Northampton General Lunatic Asylum, Northampton, Northamptonshire, England</placeName>
+                  </death>
+                  <occupation type="trade"/>
+                  <occupation type="service"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <note resp="#lmw">Called the <soCalled>peasant poet</soCalled>, Clare worked as an agricultural laborer and manservant.</note>
+                  <note><ptr target="https://viaf.org/viaf/51703338/"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/John_Clare#/media/File:John_Clare.jpg"/></note>
+               </person>
+               <person xml:id="Clargo_Meremoth">
                   <persName>Meremoth Clargo</persName>
                   <persName>
-                     <surname cert="low">Meremoth</surname>
-                     <forename cert="low">Clargo</forename>
+                     <surname>Clargo</surname>
+                     <forename>Meremoth</forename>
                   </persName>
                   <occupation type="trade" subtype="merchant"/>
-                  <note resp="#scw #lmw">Possibly a shopkeeper in Three Mile Cross. Name uncertain. More research needed</note>
-                  <!--scw: I am leaving this entry as a stub for now. I'm not sure about this name. See photo DSCN 1090. Even Needham seems to have been stumped by it. The name does not appear in the 1854 Post Office Directory, which I've been using to verify Needham's data where I can.-->
+                  <note resp="#scw">Possibly a shopkeeper in Three Mile Cross. Name uncertain. Dates unknown.
+                  <!--scw: I am leaving this entry as a stub for now. I'm not sure about this name. See photo DSCN 1090. Even Needham seems to have been stumped by it. The name does not appear in the 1854 Post Office Directory, which I've been using to verify Needham's data where I can.--></note>
                </person>
                <person xml:id="Clark_Rupert" sex="m">
                   <persName>Rupert Clark</persName>
@@ -5764,7 +6025,7 @@
                      <surname>Clark</surname>
                      <forename>Rupert</forename>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Dates unknown.</note>
                </person>
                <person xml:id="Clarke_ED" sex="m">
                   <persName>Edward Daniel Clarke</persName>
@@ -5774,7 +6035,7 @@
                      <surname>Clarke</surname>
                   </persName>
                   <persName>Dr. Clarke</persName>
-                  <persName>Professor of Mineralogy at Cambridge University</persName>
+                  <roleName>Professor of Mineralogy at Cambridge University</roleName>
                   <birth when="1769-06-05">
                      <placeName>Willingdon, Sussex, England</placeName>
                   </birth>
@@ -5793,10 +6054,11 @@
                <person xml:id="Clarke_Mrs" sex="f">
                   <persName>Mrs. Clarke</persName>
                   <persName>
-                     <surname>Clarke</surname>
+                     <surname type="married">Clarke</surname>
+                     <surname type="paternal">Anstruther</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">The daughter of Colonel Anstruther who lived in <placeName ref="#Reading_city">Reading</placeName>. An associate of <rs type="person" ref="#Palmer_Mad #Palmer_CF">the Palmers</rs> in <date when="1819">1819</date>; mentioned as taking part in a <placeName ref="#Reading_city">Reading</placeName> election procession. More research is needed to identify her. One possibility may be Mrs. Cowden Clarke (Mary Victoria); she and her husband Charles were friends with Lamb and Hunt.<!--Authors of Recollections of Writers.--> Or, Angelica Rush (1788-1868), wife of Edward Daniel Clarke.</note>
+                  <note resp="#lmw">The daughter of <persName ref="#Anstruther_Col">Colonel Anstruther</persName> who lived in <placeName ref="#Reading_city">Reading</placeName>. An associate of <rs type="person" ref="#Palmer_Mad #Palmer_CF">the Palmers</rs> in <date when="1819">1819</date>; mentioned as taking part in a <placeName ref="#Reading_city">Reading</placeName> election procession. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Clarke_William" sex="m">
                   <persName>William Clarke</persName>
@@ -5827,6 +6089,15 @@
                   <occupation type="religious"/>
                   <note resp="#esh">Clement the VI reigned the Pope, or patriarch of the Catholic Church, from <date from="1329" to="1352">1329 to 1352</date>. He is mentioned in Mitford's <title ref="#Rienzi">Rienzi</title>, as an influential political power outside of the city of Rome, although he does he not appear on the stage.</note>
                   <note>http://viaf.org/viaf/121108971/</note>
+               </person>
+               <person xml:id="Cliff_Jesse" sex="u">
+                  <persName>Jesse Cliff</persName>
+                  <persName>
+                     <surname>Cliff</surname>
+                     <forename>Jesse</forename>
+                  </persName>
+                  <note resp="#rjp">Jesse Cliff gave the Mitford family elderly bantams (chickens) in 1819. Source: Journal.<!--lmw: Jesse Clift - spelling? there is a story named jesse Cliffe in country stories. I believe it should be Cliff-->
+                     <!--LMW: descendents in Newbury and Wokingham, in Hamps then?--></note>
                </person>
                <person xml:id="Cobbett_Wm" sex="m">
                   <persName>William Cobbett</persName>
@@ -5865,7 +6136,7 @@
                      <roleName>Mrs.</roleName>
                   </persName>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>
-                     <date from="1840" to="1847">between 1840 and 1847</date>. Forename unknown. More research needed.<!--LMW: any relation to Alexander Cockburn (1802-1880)?--></note>
+                     <date from="1840" to="1847">between 1840 and 1847</date>. Forename unknown. Dates unknown.<!--LMW: any relation to Alexander Cockburn (1802-1880)?--></note>
                </person>
                <person xml:id="Coffin_Mrs" sex="f">
                   <persName>Mrs. Coffin</persName>
@@ -6022,7 +6293,7 @@
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Julian">Julian</title> at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>. FActed under <q>Mr. Comer</q>. orename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Julian">Julian</title> at the <orgName ref="#Covent_Garden_Theatre">Theatre Royal, Covent Garden</orgName>, <date when="1823-02">February 1823</date>. Acted under <q>Mr. Comer</q>. orename unknown. Dates unknown.</note>
                   <!--LMW:  Thomas Comer, musician and actor? Active 1820s and 1830s in London, later in Boston. -->
                </person>
                <person xml:id="Congreve_Wm" sex="m">
@@ -6113,7 +6384,7 @@
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw #jmh">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. <persName ref="#MRM">Mitford</persName> critiqued his performance as <persName ref="#Antony">Mark Antony</persName>. May be the same as <persName ref="#Cooper_John">John Cooper</persName>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw #jmh">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. <persName ref="#MRM">Mitford</persName> critiqued his performance as <persName ref="#Antony">Mark Antony</persName>. May be the same as <persName ref="#Cooper_John">John Cooper</persName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Corneille" sex="m">
                   <persName>Pierre Corneille</persName>
@@ -6459,7 +6730,7 @@
                      <surname type="married">Crowther</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1855">1855</date>. Forename unknown. More research needed.<!--LMW: Possibly the wife or mother of Phillip Crowther, the dandy?--></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1855">1855</date>. Forename unknown. Dates unknown.<!--LMW: Possibly the wife or mother of Phillip Crowther, the dandy?--></note>
                </person>
                <person xml:id="Culpepper_Mr" sex="m">
                   <persName>William Alleyne Culpeper</persName>
@@ -6660,7 +6931,7 @@
                      <surname type="married">Dapuy</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Davenport_MA" sex="f">
                   <persName>Mary Ann Davenport</persName>
@@ -6719,6 +6990,36 @@
                         <persName ref="#Needham_Francis">Needham</persName>Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>
                      </bibl>.</note>
                </person>
+               <person xml:id="Davies_Mr" sex="m">
+                  <persName>Thomas Davies</persName>
+                  <persName>
+                     <surname>Davies</surname>
+                     <forename>Thomas</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <persName><addName>Farmer Davies</addName></persName>
+                  <occupation type="trade" subtype="farmer"/>
+                  <note resp="#rjp #lmw">Lived in <placeName>Earley</placeName>. Owned a <quote>neighboring meadow</quote> near <placeName ref="#Bertram_house">Bertram House</placeName></note>
+               </person>
+               <person xml:id="Dawson_GeoP" sex="m">
+                  <persName>George Pelsant Dawson</persName>
+                  <persName>
+                     <surname>Dawson</surname>
+                     <forename>George</forename>
+                     <forename>Pelsant</forename>
+                  </persName>
+                  <birth notAfter="1804">
+                     <placeName>Arborfield House, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1873">
+                     <placeName>The Lodge, Woodside, Berkshire, England</placeName>
+                  </death>
+                  <occupation type="legal"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="magistrate"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date> and one of the signatories on her request for a Royal Literary Fund pension. Son of George Dawson of Osgodby Hall, Yorkshire and Elmira Reeves of Arborfield House, Berkshire, he inherited the Arborfield Park estate in 1832. He dismantled the existing Jacobean manor house and built a new mansion, Arborfield House, by 1837.<!--https://en.wikipedia.org/wiki/Arborfield_Hall#/media/File:Arborfield_Hall.jpeg-->
+                  </note>
+               </person>
                <person xml:id="de_Chaboulon" sex="m">
                   <persName>Pierre Fleury de Chaboulon</persName>
                   <persName>
@@ -6741,6 +7042,35 @@
                      <ref target="http://viaf.org/viaf/44411886"/>
                   </note>
                </person>
+               <person xml:id="Dearsley_Wm" sex="m">
+                  <persName>William Hanson Dearsley</persName>
+                  <persName>
+                     <surname>Dearsley</surname>
+                     <forename>William</forename>
+                     <forename>Hanson</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <birth when="1769">
+                     <placeName>Romford, Essex, England</placeName>
+                  </birth>
+                  <death when="1825-10-13">
+                     <placeName>Shinfield, Berkshire, England</placeName>
+                  </death>
+                  <note resp="#rjp #lmw">Inherited Moore Place estate in Shinfield from his father William. After his death, the estate descended to his wife Isabella, who later married Thomas Owst. Spelled variously Dearesley, Dearsley, or Dearsly.</note>
+               </person>
+               
+               <person xml:id="Dearsley_Is" sex="f">
+                  <persName>Isabella Eastwood Dearsley</persName>
+                  <persName>
+                     <surname type="married">Dearsley</surname>
+                     <surname type="paternal">Eastwood</surname>
+                     <forename>Isabella</forename>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <birth notAfter="1796"/>
+                  <death notAfter="1875"/>
+                  <note resp="#rjp #lmw">Spouse of <persName ref="#Dearsley_Wm">William Hanson Dearsley</persName> and lived with him at Moore Place, Shinfield until his death in 1825. After his death, she inherited Moore Place.<!--LMW: MSpelling Dearesley, Dearsley, Dearsly.--></note>
+               </person>
                <person xml:id="Debar_Mr" sex="m">
                   <persName>Mr. Debar</persName>
                   <persName>
@@ -6749,7 +7079,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Debar</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Debar</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Defoe_D" sex="m">
                   <persName>Daniel Defoe</persName>
@@ -6806,7 +7136,7 @@
                         <nameLink>de</nameLink> Goodrich</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1852">1852</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1852">1852</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="DeJoinville" sex="m">
                   <persName>Jean de Joinville</persName>
@@ -6940,6 +7270,14 @@
                      <ref target="http://viaf.org/viaf/89204033"/>
                   </note>
                </person>
+               <person xml:id="Deverell_John" sex="m">
+                  <persName>John Deverell</persName>
+                  <persName>
+                     <surname>Deverell</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <note resp="#lmw"><!--LMW: July 1819 journal mentions both Mr. John Deverell and then Mr. Deverell. John could be the son of Mr.--> Dates unknown.</note>
+               </person>
                <person xml:id="Dibdin_TJ" sex="m">
                   <persName>Thomas John Dibdin</persName>
                   <persName>
@@ -7038,7 +7376,7 @@
                   <persName>
                      <surname type="married">Dickinson</surname>
                   </persName>
-                  <note resp="#lmw">Identity unknown. Frances Dickinson's paternal grandmother, Elizabeth Marchant Dickinson, died in 1790, and is therefore an unlikely candidate. More research needed.</note>
+                  <note resp="#lmw">Identity unknown. Frances Dickinson's paternal grandmother, Elizabeth Marchant Dickinson, died in 1790, and is therefore an unlikely candidate. Dates unknown.</note>
                </person>
                <person xml:id="Dickinson_Mrs" sex="f">
                   <persName>Mrs. Dickinson</persName>
@@ -7059,7 +7397,16 @@
                </person>
                <person xml:id="Dickinson_Nurse" sex="f">
                   <persName>Nurse</persName>
-                  <note resp="#lmw">Nurse who worked for <persName ref="#Dickinson_Charles">Charles Dickinson</persName>'s family. Proper name unidentified. More research needed.</note>
+                  <note resp="#lmw">Nurse who worked for <persName ref="#Dickinson_Charles">Charles Dickinson</persName>'s family. Proper name unidentified. Dates unknown.</note>
+               </person>
+               
+               <person xml:id="Dobbs_Mr" sex="m">
+                  <persName>Mr. Dobbs</persName>
+                  <persName>
+                     <surname>Dobbs</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> in 1819. The spouse of <persName ref="#Dobbs_Mrs">Mrs. Dobbs</persName>. She lists their address in her Journal as <placeName>27 Hatton Gardens</placeName> in <placeName ref="#London_city">London</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Dobbs_Mrs" sex="f">
                   <persName>Mrs. Dobbs</persName>
@@ -7067,7 +7414,7 @@
                      <surname>Dobbs</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#alg">An associate of both <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>, presumably older than both. Mentioned in connection to the James sisters. Needs additional research.</note>
+                  <note resp="#alg #lmw">An associate of both <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>, presumably older than both.  The spouse of <persName ref="#Dobbs_Mr">Mr. Dobbs</persName>. Mitford lists their address in her Journal as <placeName>27 Hatton Gardens</placeName> in <placeName ref="#London_city">London</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Doge_F_hist" sex="m"><!--LMW: not a dup.-->
                   <persName>Francesco Foscari</persName>
@@ -7133,7 +7480,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Doyne</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Doyne</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Drake_Nathan" sex="m">
                   <persName>Nathan Drake</persName>
@@ -7864,7 +8211,7 @@
                      <roleName>Mrs.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mrs. Faucit</q>. Forename unknown. More research needed. <!--LMW Possibly Helena Faucit? dates seem wrong. --></note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mrs. Faucit</q>. Forename unknown. Dates unknown. <!--LMW Possibly Helena Faucit? dates seem wrong. --></note>
                </person>
                <person xml:id="Fawcett_John" sex="m">
                   <persName>John Fawcett</persName>
@@ -8123,7 +8470,7 @@
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mrs. Fisher</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mrs. Fisher</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Fitzharris" sex="m">
                   <persName>Mr. Fitzharris</persName>
@@ -8147,7 +8494,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Fleming</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Fleming</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Fletcher_John" sex="m">
                   <persName>John Fletcher</persName>
@@ -8168,6 +8515,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/12323361"/>
                   </note>
+               </person>
+               <person xml:id="Florry_Mrs" sex="f">
+                  <persName>Sarah Florry</persName>
+                  <persName>
+                     <surname type="paternal">Florry</surname>
+                     <forename>Sarah</forename>
+                  </persName>
+                  <birth when="1744"/>
+                  <death notAfter="1832">
+                     <placeName>Edgebaston, Warwickshire, England</placeName>
+                  </death>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName> and friend of <persName ref="#James_Miss">Elizabeth James</persName>, who is remembered in her will. She lists her address as <placeName>Five Ways</placeName>, then a village in the parish of Edgbaston, Warwickshire, England, now a region in central Birmingham. Unmarried businesswoman and property owner in her own right, she traded as a wine merchant and metal factor between 1769 and 1785. She traded as Florry and Walker with William Walker between 1785 and 1799, and then retired in 1799 to Five Keys. See Christine Wiskin, <title level="m">Women, Finance and Credit in England, c. 1780-1826</title>, Ph.D. thesis, U of Warwick. See <ptr target="http://wrap.warwick.ac.uk/36386/1/WRAP_THESIS_Wiskin_2000.pdf"/>.</note>
                </person>
                <person xml:id="Flush_pet" sex="u">
                   <persName>Flush</persName>
@@ -8267,7 +8627,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Forrester</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Forrester</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Forsyth_Jos" sex="m">
                   <persName>Joseph Forsyth</persName>
@@ -8357,7 +8717,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Frankland</surname>
                      <forename/>
                   </persName>
-                  <note resp="#alg">A friend of <persName ref="#Russell_M">Mrs. Mitford</persName>. Forename unknown. More research needed.</note>
+                  <note resp="#alg">A friend of <persName ref="#Russell_M">Mrs. Mitford</persName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Franklin_Ben" sex="m">
                   <persName>Benjamin Franklin</persName>
@@ -8617,7 +8977,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mrs.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mrs. Geesin</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mrs. Geesin</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Geo_SpencerChurchill" sex="m">
                   <persName>George Spencer-Churchill, Duke of Marlborough</persName>
@@ -8735,13 +9095,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                </person>
                <person xml:id="George" sex="m">
-                  <persName>George</persName>
                   <persName>
-                     <surname/>
+                     <surname>Allaway</surname>
                      <forename>George</forename>
                   </persName>
-                  <occupation type="service" subtype="manservant"/>
-                  <note resp="#lmw">Manservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>; dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. Surname unknown.</note>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Manservant at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>; dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. He and his brother <persName ref="#Allaway_Frank">Frank</persName> buried <persName ref="#Mossy_pet">Mossy</persName>. Dates unknown.</note>
                </person>
                <person xml:id="Gibbon_Edward" sex="m">
                   <persName>Edward Gibbon</persName>
@@ -8810,7 +9169,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Glennig</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Glenny_Geo" sex="m">
                   <persName>George Glenny</persName>
@@ -8968,7 +9327,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Green</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Green</q>. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Green_Mr_Berks" sex="m">
+                  <persName>Mr. Green</persName>
+                  <persName>
+                     <surname>Green</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Local man who visited the Mitfords at <placeName ref="#Bertram_house">Bertram House</placeName> and dined at <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>. Forename unknown. Dates unknown. Unlikely to be the same person as the actor <persName ref="#Green_Mr">Mr. Green</persName>.<!--LMW: review my notes on eminent persons of Reading: John Hooke Green? Greene?--></note>
                </person>
                <person xml:id="Greene_JH" sex="m">
                   <persName>John Hooke Greene</persName>
@@ -8977,7 +9344,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Hooke</forename>
                      <surname>Greene</surname>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>.</note>
+               </person>
+               <person xml:id="Greenwell_Mrs" sex="f">
+                  <persName>Mrs. Greenwell</persName>
+                  <persName>
+                     <surname type="married">Greenwell</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Friend and visitor of the <orgName ref="#Mitfords">Mitfords</orgName>, frequently associated with <persName ref="#Raggett_Mrs">Mrs. Raggett</persName>. Lived in <placeName ref="#Reading_city">Reading</placeName>. In the Journal, <persName ref="#MRM">Mitford</persName> calls her <quote>a very pleasant woman</quote>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Griffin_Rich" sex="m">
                   <persName>Richard Griffin, Baron Braybrooke</persName>
@@ -9050,7 +9425,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Gulson</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Gutch_John" sex="m">
                   <persName>John Gutch</persName>
@@ -9195,7 +9570,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Hanmer</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1835">1835</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1835">1835</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Hanson_John" sex="m">
                   <persName>John Hanton</persName>
@@ -9226,6 +9601,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Mary Ann Hanson was the daughter of solicitor <persName ref="#Hanson_John">John Hanson</persName>. She was the second wife of
                         <persName ref="#Portsmouth_JCW">John Charles Walopp, 3rd Earl of
                         Portsmouth</persName>, until their marriage was annulled in <date when="1823">1823</date> on the grounds of the Earl’s insanity.</note>
+               </person>
+               <person xml:id="Harley_Miss" sex="f">
+                  <persName>Miss Harley</persName>
+                  <persName>
+                     <surname type="paternal">Harley</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Friend of <persName ref="#MRM">Mitford</persName>'s who made her a purse and who received a presentation copy of the <title ref="#Poems_2nd_ed_MRM">1811 Poems</title>. She writes more frequently than she visits. Forename unknown. Dates unknown. Source: Journal.</note>
                </person>
                <person xml:id="Harness_John" sex="m">
                   <persName>Dr. John Harness</persName>
@@ -9307,6 +9690,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title level="m">British History Online</title>. Web. 9 June 2015</bibl>.</note>
                   <note>
                      <ref target="http://www.british-history.ac.uk/survey-london/vol35/pp71-85"/>.<!-- LMW:  no VIAF # --></note>
+               </person>
+               <person xml:id="Harris_Mr" sex="m">
+                  <persName>Mr. Harris</persName>
+                  <persName>
+                     <surname>Harris</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="medical"/>
+                  <occupation type="medical" subtype="physician"/>
+                  <note resp="#lmw">Dates unknown. Local doctor, not the same person as <persName ref="#Harris_Henry">Henry Harris</persName>, the Covent Garden Theatre manager. Forename unknown.</note>
                </person>
                <person xml:id="Harrison_hist" sex="m">
                   <persName>Thomas Harrison</persName>
@@ -9395,11 +9788,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      the death of a spectator immediately following a performance. The play’s
                      melancholy tone and subject was considered a factor in her death. Source: ODNB. </note>
                </person>
+               <person xml:id="Hawkes_Miss" sex="f">
+                  <persName>Miss Hawkes</persName>
+                  <persName>
+                     <surname>Hawkes</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Lived in <placeName ref="#Reading_city">Reading</placeName>, where Mitford visits her in 1819. Forename unknown. Dates unknown. Source: Journal.</note>
+               </person>
                <person xml:id="Hawley_GeneralSr" sex="m">
                   <persName>General Hawley</persName>
                   <note resp="#lmw">Possibly Lieutenant General Henry Hawley (c. 1679 to 24 March
                      1759), British army officer who served during the War of Spanish Succession as
                      well as the Jacobite Rebellion.</note>
+               </person>
+               <person xml:id="Havell_Mrs" sex="f">
+                  <persName>Mrs. Havell</persName>
+                  <persName>
+                     <surname type="married">Havell</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Hawley_Mr" sex="m">
                   <persName>Mr. Hawley</persName>
@@ -9536,6 +9945,44 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/67219835"/>
                   </note>
+               </person>
+               <person xml:id="Hayward_John" sex="m">
+                  <persName>John Hayward</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                     <forename>John</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">A Watlington brewer, the brother of <persName ref="#Hayward_Wm_father">William Hayward</persName>.</note>
+               </person>
+               <person xml:id="Hayward_MrsW" sex="f"><!--Likely William's mother-->
+                  <persName>Mrs. Hayward</persName>
+                  <persName>
+                     <surname type="married">Hayward</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"><!--LMW: Journal address Watlington. add Mr. Hayward--></note>
+               </person>
+               <person xml:id="Hayward_Wm_son" sex="m">
+                  <persName>William Hayward</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                     <forename>William</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">With his father, a Watlington brewer, and later the spouse of <persName ref="#Webb_Jane">Jane Webb</persName>. They had two children, Susan Jane (1815-1898) and William Webb (1818-1899).</note>
+               </person>
+               <person xml:id="Hayward_Wm_father" sex="m">
+                  <persName>William Hayward</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                     <forename>William</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <occupation type="trade"/>
+                  <note resp="#lmw">A Watlington brewer, the spouse of <persName ref="#Hayward_MrsW">Mrs. Hayward</persName> and father of <persName ref="#Hayward_Wm_son">William Hayward</persName>.</note>
                </person>
                <person xml:id="Hazlitt_Wm" sex="m">
                   <persName>William Hazlitt</persName>
@@ -9688,7 +10135,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Miss</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Acted under <q>Miss Henry</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Acted under <q>Miss Henry</q>. Forename unknown.  </note>
                </person>
                <person xml:id="Henry_V" sex="m"><!-- not a dup. -->
                   <persName>Henry V</persName>
@@ -9997,7 +10444,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Hodgkinson</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1829">1829</date>; letter is addressed to her at Arbor Rectory in <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1829">1829</date>; letter is addressed to her at Arbor Rectory in <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Hofland_B" sex="f">
                   <persName>Barbara Wreaks Hofland</persName>
@@ -10181,7 +10628,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Holland</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Holton_Paul" sex="m">
                   <persName>Paul Holton</persName>
@@ -10291,6 +10738,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/100227522"/>
                   </note>
                </person>
+               <person xml:id="Horne_RH" sex="m">
+                  <persName>Richard Hengist Horne</persName>
+                  <persName>
+                     <surname>Horne</surname>
+                     <forename>Richard</forename>
+                     <forename>Hengist</forename>
+                  </persName>
+                  <persName><addName>Richard Henry Horne</addName></persName>
+                  <birth when="1802-12-31">
+                     <placeName>Edmonton, London, England</placeName>
+                  </birth>
+                  <death when="1884-03-13">
+                     <placeName>Margate, Kent, England</placeName>
+                  </death>
+                  <occupation type="military"/>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="government"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1839" to="1849">between 1839 and 1849</date>.</note>
+                  <note><ptr target="http://viaf.org/viaf/59892846"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Richard_Henry_Horne#/media/File:Richard_Henry_(or_Hengist)_Horne_by_Margaret_Gillies.jpg"/></note>
+               </person>
                <person xml:id="Horrebow_Mr" sex="m">
                   <persName>Mr. Horrebow</persName>
                   <persName>
@@ -10298,7 +10771,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Active in London theaters in the 1820s and early 1830s. Acted under <q>Mr. Horrebow</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#Foscari_MRMplay">Foscari</title> at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1828">1828</date>. Active in London theaters in the 1820s and early 1830s. Acted under <q>Mr. Horrebow</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Howard_John" sex="m">
                   <persName>John Howard</persName>
@@ -10399,6 +10872,37 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/59344020"/>
                   </note>
+               </person>
+               <person xml:id="Hughes_John" sex="m">
+                  <persName>John Hughes</persName>
+                  <persName>
+                     <surname>Hughes</surname>
+                     <roleName>John</roleName>
+                  </persName>
+                  <birth when="1790-01-02"/>
+                  <death when="1857-12-13">
+                     <placeName>Brompton, Middlesex, England</placeName>
+                  </death>
+                  <occupation type="scholar"/>
+                  <occupation type="literary"/>
+                  <occupation type="artist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Hughes_Marg">Margaret Wilkinson Hughes</persName> and father of <persName ref="#Senior_Jane">Jane Hughes Senior</persName>.
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/44478007"/></note>
+               </person>
+               <person xml:id="Hughes_Marg" sex="f">
+                  <!--LMW: not a dup.-->
+                  <persName>Margaret Wilkinson Hughes</persName>
+                  <persName>
+                     <surname type="paternal">Wilkinson</surname>
+                     <surname type="married">Hughes</surname>
+                     <forename>Margaret</forename>
+                     <forename>Elizabeth</forename>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <persName><addName>Mrs. Hughes</addName></persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Hughes_John">John Hughes</persName>. Second daughter of Thomas Wilkinson of Stokesley Hall in Yorkshire.</note>
                </person>
                <person xml:id="Hugo_Victor" sex="m">
                   <persName>Victor Hugo</persName>
@@ -10688,7 +11192,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">In Mitford’s letter of <date when="1819-07-05">July 5,
                         1819</date>, she mentions <persName ref="#Jackson_Mr">Mr. Jackson</persName>
                      as the surgeon who unsuccessfully attempts to treat <persName ref="#Dickinson_Charles">Charles Dickinson</persName>’s shoulder
-                     dislocation. More research needed.</note>
+                     dislocation. Dates unknown.</note>
                </person>
                <person xml:id="James_Emily" sex="f">
                   <persName>Emily James</persName>
@@ -10911,7 +11415,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Jennings</surname>
                      <forename>Agnes</forename>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in the 1850s. She wrote to her at Portland Place in London. Identity unknown. More research needed. <!--LMW: May be related to the Jennings family intermarried with the family of Lady Constance Russell of Swallowfield, Mitford's neighbor and friend?--></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in the 1850s. She wrote to her at Portland Place in London. Identity unknown. Dates unknown. <!--LMW: May be related to the Jennings family intermarried with the family of Lady Constance Russell of Swallowfield, Mitford's neighbor and friend?--></note>
                </person>
                <person xml:id="Jerrold_Doug" sex="m">
                   <persName>Douglas William Jerrold</persName>
@@ -11091,7 +11595,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Active late 1820s into early 1830s. Acted under <q>Mr. C. Jones</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Active late 1820s into early 1830s. Acted under <q>Mr. C. Jones</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Jones_Thomas" sex="m">
                   <persName>Thomas Jones</persName>
@@ -11156,7 +11660,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Child actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Miss Josephine</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Miss Josephine</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Joy_Miss" sex="f">
                   <persName>Miss Joy</persName>
@@ -11164,7 +11668,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Joy</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1836">1836</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1836">1836</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Julius_Caesar" sex="m">
                   <persName>Julius Caesar</persName>
@@ -11382,7 +11886,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Kerridge</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Kerridge</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Kettle_Dr" sex="m">
                   <persName>Dr. Ralph Kettle</persName>
@@ -11485,7 +11989,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Kirkby</surname>
                      <forename>James</forename>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in 1845. Unidentified. More research needed.
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in 1845. Unidentified. Dates unknown.
                   </note>
                </person>
                <person xml:id="Kirkland_C" sex="f">
@@ -11568,7 +12072,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Miss</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Miss Lacy</q>. Forename unknown. More research needed.
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Miss Lacy</q>. Forename unknown. Dates unknown.
                            <!--LMW:  Possibly Maria Lacy? See La Belle Assemblee December 1824, vol. 30, p. 229+ --></note>
                </person>
                <person xml:id="Lady_Fairfax_hist" sex="f">
@@ -11696,7 +12200,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Langton</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Lavater_Johann" sex="m">
                   <persName>Johann Lavater</persName>
@@ -11751,7 +12255,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Lee</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Lee</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Lee_Nath" sex="m">
                   <persName>Nathaniel Lee</persName>
@@ -11782,7 +12286,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. T. Lee</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. T. Lee</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Lewington_Mr" sex="m">
                   <persName>Mr. Lewington</persName>
@@ -11791,7 +12295,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="trade"/>
-                  <note resp="#scw">A businessperson who worked for <persName>Mr. Payn</persName>. More research needed.<!--scw: no other info from Needham.--></note>
+                  <note resp="#scw">A businessperson who worked for <persName>Mr. Payn</persName>. Forename unknown. Dates unknown.<!--scw: no other info from Needham.--></note>
                </person>
                <person xml:id="Lewis_William_Thomas" sex="m">
                   <persName>William Thomas Lewis</persName>
@@ -11818,7 +12322,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> plays: <title ref="#Julian_MRMplay">Julian</title>  at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1823">1823</date>; and <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Ley</q>. Forename unknown. More research needed. Active 1810s to 1830s.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Ley</q>. Forename unknown. Dates unknown. Active 1810s to 1830s.</note>
                </person>
                <person xml:id="Leyden_John" sex="m">
                   <persName>John Leyden</persName>
@@ -11905,7 +12409,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Edward</forename>
                   </persName>
                   <note resp="#scw #err #ebb">A supporter of <persName ref="#Palmer_CF">Charles
-                        Fysshe Palmer</persName>. More research needed.
+                        Fysshe Palmer</persName>. Dates unknown.
                      <!--scw: No other info in Needham. Could this be connected to xml:id="Locks"? See photo DSCF9935.-->
                      The identification of Mr. Lock is uncertain, but <persName ref="#coles">Coles</persName> suggests this may be a butcher named Edward Lock, located
                      on <placeName>Friar Street</placeName> in <placeName ref="#Reading_city">Reading</placeName>. A supporter of <persName ref="#Palmer_CF">Charles
@@ -12020,6 +12524,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Lucetti" sex="m">
                   <persName>Lucetti</persName>
                   <note resp="#tlh #lmw">May be a fellow traveller with <persName ref="#Acerbi_J">Joseph Acerbi</persName>; however, he is not mentioned by name in <title ref="#Travels_Acerbi">Travels through Sweden, Finland, and Lapland to the North Cape, in the years 1798 and 1799</title>. Further research needed.<!--LMW No VIAF #, not listed in standard reference works. --></note>
+               </person>
+               <person xml:id="MacareeClarke_Mrs" sex="f">
+                  <persName>Matilda Hill Macaree Clarke</persName>
+                  <persName>
+                     <surname type="married">Clarke</surname>
+                     <surname type="paternal">Macaree</surname>
+                     <forename>Matilda</forename>
+                     <forename>Hill</forename>
+                     <roleName>Mrs.</roleName>
+                     <addName>Mrs. Clarke</addName>
+                  </persName>
+                  <birth when="1760-02-26">
+                     <placeName>Canterbury, Kent, England</placeName>
+                  </birth>
+                  <death when="1835-02-04">
+                     <placeName>The Priory, Canterbury, Kent, England</placeName>
+                  </death>
+                  <note resp="#lmw"><persName ref="#James_Miss">Miss James</persName> was her companion and, with Mrs. Stuart, (widow of the Archbishop of Armagh), a legatee of her estate. Daughter of Johnson Macaree, Saxon scholar, and Anne Knowler. Paternal descendant of a Huguenot refugee family who emigrated in the 16th century. Maternal descendant of the Elstob family, Saxon scholars and connections of Welsh royalty. Lived in London with her husband Anthony (1758-1830), who worked on the Stock Exchange. They retired to the Priory, a home in Canterbury built around some outbuildings of St. Augustine's Monastery, where some of the ruins of St. Ethelbert's Tower featured in her garden. Also a friend and correspondent of writer Anne Macvicar Grant. Sources: <title level="m">Letters and Correspondence of Mrs. Grant of Laggan</title> and obituary in Gentleman's Magazine (1835): 544-545. Not the same as the local acquaintance <persName ref="#Clarke_Mrs">Mrs. Clarke</persName>.</note>
                </person>
                <person xml:id="Macartney_Geo" sex="m">
                   <persName>Sir George Macartney</persName>
@@ -12342,7 +12864,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Marshall</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Marsham_Robt" sex="m">
                   <persName>Robert Marsham</persName>
@@ -12535,7 +13057,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="May_J" sex="m">
                   <persName>James May</persName>
-                  <note resp="#lmw">Possibly <quote>James May, attorney, Friar Street, Reading</quote> according to <title ref="#coles_Thesis">Coles</title>. More research needed.</note>
+                  <note resp="#lmw">Possibly <quote>James May, attorney, Friar Street, Reading</quote> according to <title ref="#coles_Thesis">Coles</title>. </note>
                </person>
                <person xml:id="May_William" sex="m">
                   <persName>
@@ -12545,7 +13067,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="trade" subtype="clerk"/>
                   <note resp="#scw">
                      <persName ref="#Needham_Francis">Needham</persName> identifies him as
-                        <quote>the Magistrates’ Clerk</quote>. More research needed.
+                        <quote>the Magistrates’ Clerk</quote>. Dates unknown.
                      <!--scw: Could he be connected to xml:id=May_Joseph of Friar Street? No other details in Needham.--></note>
                </person>
                <person xml:id="McCoy_Rich" sex="m">
@@ -12614,7 +13136,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s plays: <title ref="#Julian_MRMplay">Julian</title>  at <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> in <date when="1823">1823</date>; and <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Active 1810s to 1830s. Acted under <q>Mr. Mears</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Active 1810s to 1830s. Acted under <q>Mr. Mears</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Melville" sex="m">
                   <persName>Herman Melville</persName>
@@ -12710,7 +13232,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Mildenhall</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Mildenhall</q>. Forename unknown. Dates unknown.</note>
                   <!--LMW: Possibly Thomas Mildenhall, author of "the governor's wife"?-->
                </person>
                <person xml:id="Millington" sex="m">
@@ -12981,7 +13503,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Captain</roleName>
                   </persName>
                   <occupation type="military" subtype="navy"/>
-                  <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work. More research needed.<!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--></note>
+                  <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work. Dates unknown.<!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--></note>
                </person>
                <person xml:id="Moore_DrJ" sex="m">
                   <persName>Dr. John Moore</persName>
@@ -13311,7 +13833,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Mude</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Mude</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Mudie_Rob" sex="m">
                   <persName>Robert Mudie</persName>
@@ -13432,7 +13954,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Newberry</surname>
                   </persName>
                   <occupation type="legal" subtype="solicitor"/>
-                  <note resp="#scw #lmw">According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <quote>Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading</quote> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's <title level="m">Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted</title> (London:  C. Mitchell, 1856: 77-79). More research needed. <!-- LMW:  No VIAF #. --></note>
+                  <note resp="#scw #lmw">According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <quote>Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading</quote> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's <title level="m">Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted</title> (London:  C. Mitchell, 1856: 77-79). Dates unknown. <!-- LMW:  No VIAF #. --></note>
                </person>
                <person xml:id="Newman_but" sex="m">
                   <persName>Newman</persName>
@@ -13441,7 +13963,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename/>
                   </persName>
                   <occupation type="service" subtype="butler"/>
-                  <note resp="#kab">The butler of Mitford's friend <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. More research needed.</note>
+                  <note resp="#kab">The butler of Mitford's friend <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. Dates unknown.</note>
                </person>
                <person xml:id="Nicholls_John" sex="m">
                   <persName>John Nicholls</persName>
@@ -13546,7 +14068,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Child actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date> in the role of the Duke of Gloucester. Acted under <q>Master Norman</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date> in the role of the Duke of Gloucester. Acted under <q>Master Norman</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Northmore_Thos" sex="m">
                   <persName>Thomas Northmore</persName>
@@ -13970,7 +14492,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Joseph</forename>
                      <surname>Parfitt</surname>
                   </persName>
-                  <note resp="#ncl #lmw">Acquaintance of <persName ref="#MRM">Mitford</persName>'s, a young man who admired her friend <persName ref="#Webb_Eliza">Eliza Webb</persName>. Mentioned in a letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName> of <date when="1819-01-10">January 10, 1819</date>. More research needed.</note>
+                  <note resp="#ncl #lmw">Acquaintance of <persName ref="#MRM">Mitford</persName>'s, a young man who admired her friend <persName ref="#Webb_Eliza">Eliza Webb</persName>. Mentioned in a letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName> of <date when="1819-01-10">January 10, 1819</date>. Dates unknown.</note>
                </person>
                <person xml:id="Parfitt_Sarah" sex="f">
                   <persName>Sarah Parfitt</persName>
@@ -13978,7 +14500,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Sarah</forename>
                      <surname>Parfitt</surname>
                   </persName>
-                  <note resp="#ncl">Young acquaintance of <persName ref="#MRM">Mitford</persName>'s, who was enchanted by her upon their meeting. Mentioned in a letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName> of <date when="1819-01-10">January 10, 1819</date>. More research needed.</note>
+                  <note resp="#ncl">Young acquaintance of <persName ref="#MRM">Mitford</persName>'s, who was enchanted by her upon their meeting. Mentioned in a letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName> of <date when="1819-01-10">January 10, 1819</date>. Dates unknown.</note>
                </person>
                <person xml:id="Parsons_Thos" sex="m">
                   <persName>Thomas William Parsons</persName>
@@ -14029,7 +14551,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Patty" sex="f">
                   <persName>
                      <forename>Patty</forename>
-                     <note resp="#lmw">More research needed.
+                     <note resp="#lmw">Surname unknown. Dates unknown.
                         <!--scw: I leave this as a stub until more info can be filled in. This young woman is discussed in 1953-11-09-NeedhamToRoberts. She is the daughter of a "GL," a man discussed by Needham elsewhere by initial only. Patty was the daughter of GL's first wife, and died of consumption when she was 20. MRM, in a letter (no date ref given), offers her a pony. There is an "OV" story in vol. V entitled "Patty's New Hat."--></note>
                   </persName>
                </person>
@@ -14227,7 +14749,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Miss</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#esh #lmw">Actor who appeared in her first professional role as <persName ref="#Claudia_R">Claudia</persName> in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. <persName ref="#MRM">Mitford</persName> intitially expressed concern over the casting of the inexperienced Miss Phillips, but later praised her for her emotionally-charged portrayal. Acted under <q>Miss Phillips</q>. Forename unknown. More research needed.</note>
+                  <note resp="#esh #lmw">Actor who appeared in her first professional role as <persName ref="#Claudia_R">Claudia</persName> in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. <persName ref="#MRM">Mitford</persName> intitially expressed concern over the casting of the inexperienced Miss Phillips, but later praised her for her emotionally-charged portrayal. Acted under <q>Miss Phillips</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Pincott_Leonora" sex="f">
                   <persName>Leonora Pincott</persName>
@@ -14556,7 +15078,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Powell</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1820">1820</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1820">1820</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Praed_Winthrop" sex="m">
                   <persName>Winthrop Praed</persName>
@@ -15132,7 +15654,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Ricketts</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1830">1830</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1830">1830</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Rienzo_hist" sex="m">
                   <persName>Cola di Rienzo, Tribune of Rome
@@ -15157,7 +15679,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname>Rigsby</surname>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1847">1847</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1847">1847</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Ritchie_AnneT" sex="f">
                   <persName>Anne Thackeray Ritchie</persName>
@@ -15851,7 +16373,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Selby</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Selby</q>. Forename unknown. Dates unknown.</note>
                   <!-- LMW: Possibly SELBY, CHARLES (1802?–1863), actor and dramatist?  -->
                </person>
                <person xml:id="Serle_TJ" sex="m">
@@ -16195,7 +16717,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Skerrett</surname>
                      <forename>Marianne</forename>
                   </persName>
-                  <note resp="#scw #lmw">The 1888 volume of <title level="j">Notes and Queries</title> indicates that Marianne and Henrietta Skerrett were <quote>cousins of the tragedian's [<persName ref="#Macready_Wm">William Macready</persName>'s] mother.</quote> (7th ser., 6, 28 July 1888: 76). Henrietta is likely to be the <q>Hetta</q> mentioned in Macready's diaries. Source: Letter from <persName ref="#coles">William Coles</persName>to <persName ref="#Needham_Francis">Francis Needham</persName>, <date when="1958-04-25">April 25, 1958</date>, <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. More research needed.</note>
+                  <note resp="#scw #lmw">The 1888 volume of <title level="j">Notes and Queries</title> indicates that Marianne and Henrietta Skerrett were <quote>cousins of the tragedian's [<persName ref="#Macready_Wm">William Macready</persName>'s] mother.</quote> (7th ser., 6, 28 July 1888: 76). Henrietta is likely to be the <q>Hetta</q> mentioned in Macready's diaries. Source: Letter from <persName ref="#coles">William Coles</persName>to <persName ref="#Needham_Francis">Francis Needham</persName>, <date when="1958-04-25">April 25, 1958</date>, <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. Dates unknown.</note>
                </person>
                <person xml:id="Sloman_Mrs" sex="f">
                   <persName>Mrs. Sloman</persName>
@@ -16212,7 +16734,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Charleston, South Carolina, USA</placeName>
                   </death>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor, specialized in tragedy. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres and later appeared in <placeName>New York</placeName>. She began acting under her paternal name, Miss Whitaker; and later appeared as Mrs. Sloman. She was married twice, first to Henry Downton and second to John Sloman; both were actors. Appeared as Belvidera in <title level="m">Venice Preserved</title> and Mrs. Haller in <title ref="#Stranger_play">The Stranger</title>. She appeared with <persName ref="#Macready_Wm">William Macready</persName> in <title ref="#Coriolanus_play">Corialanus</title> in 1833 and is mentioned unadmiringly in <persName ref="#Macready_Wm">Macready</persName>'s journals. Source: <q>Downton, William</q> DNB. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor, specialized in tragedy. Performed at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> and <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> Theatres and later appeared in <placeName>New York</placeName>. She began acting under her paternal name, Miss Whitaker; and later appeared as Mrs. Sloman. She was married twice, first to Henry Downton and second to John Sloman; both were actors. Appeared as Belvidera in <title level="m">Venice Preserved</title> and Mrs. Haller in <title ref="#Stranger_play">The Stranger</title>. She appeared with <persName ref="#Macready_Wm">William Macready</persName> in <title ref="#Coriolanus_play">Corialanus</title> in 1833 and is mentioned unadmiringly in <persName ref="#Macready_Wm">Macready</persName>'s journals. Source: <q>Downton, William</q> DNB. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Slops" sex="u">
+                  <persName>Slops</persName>
+                  <note resp="#lmw">May be a Mitford pet.</note>
                </person>
                <person xml:id="Smith_Ad" sex="m">
                   <persName>Adam Smith</persName>
@@ -16245,7 +16771,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Dora</forename>
                      <surname>Smith</surname>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1847">1847</date>. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1847">1847</date>. Dates unknown.</note>
                </person>
                <person xml:id="Smith_Horace" sex="m">
                   <persName>Horace Smith</persName>
@@ -16327,6 +16853,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/315673958"/>
                   </note>
+               </person>
+               <person xml:id="Solomon" sex="m">
+                  <persName>Solomon</persName>
+                  <note resp="#lmw">May be the name of a Mitford servant or pet. Surname not given.</note>
                </person>
                <person xml:id="Somerville_Miss" sex="f">
                   <persName>Margaret Agnes Somerville Bunn</persName>
@@ -16518,7 +17048,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Stovin</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1824">1824</date>. Forename unknown. Lived at Newbould. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1824">1824</date>. Forename unknown. Lived at Newbould. Dates unknown.</note>
                </person>
                <person xml:id="Strafford" sex="m">
                   <persName>Thomas Wentworth, Earl of Strafford</persName>
@@ -17057,7 +17587,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Thomas</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Thomas</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Thompson_Mr" sex="m">
                   <persName>Mr. Thompson</persName>
@@ -17066,7 +17596,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Thompson</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Thompson</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Thomson_Hugh" sex="m">
                   <persName>Hugh Thompson</persName>
@@ -17198,7 +17728,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>James</forename>
                      <surname>Traill</surname>
                   </persName>
-                  <note resp="#lmw">Second to <persName ref="#Christie_JH">John Henry Christie</persName> in his 1821 duel with <persName ref="#Scott_John">John Scott</persName>. Both men were indicted for murder and found not guilty. See Old Bailey Proceedings Online (www.oldbaileyonline.org, version 7.2, 29 May 2016), April 1821, trial of JONATHAN HENRY CHRISTIE JAMES TRAILL (t18210411-29). More research needed.</note>
+                  <note resp="#lmw">Second to <persName ref="#Christie_JH">John Henry Christie</persName> in his 1821 duel with <persName ref="#Scott_John">John Scott</persName>. Both men were indicted for murder and found not guilty. See Old Bailey Proceedings Online (www.oldbaileyonline.org, version 7.2, 29 May 2016), April 1821, trial of JONATHAN HENRY CHRISTIE JAMES TRAILL (t18210411-29). Dates unknown.</note>
                </person>
                <person xml:id="Trollope_Fr" sex="f">
                   <persName>Frances Milton Trollope</persName>
@@ -17705,7 +18235,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>England</placeName>
                   </death>
                   <occupation type="literary" subtype="novelist"/>
-                  <note resp="#lmw">Author of four novels. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. More research needed.</note>
+                  <note resp="#lmw">Author of four novels. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Dates unknown.</note>
                   <note>
                      <ref target="http://www.victorianresearch.org/atcl/show_auth.php?aid=1321"/>
                   </note>
@@ -17754,7 +18284,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary"/>
                   <occupation type="theater"/>
                   <occupation type="literary" subtype="playwright"/>
-                  <note resp="#lmw">Author of historical tragedies and melodramas written between 1818 and 1829, including <title ref="#Wallace_play">Wallace; a Historical Tragedy</title>, <title level="m">Caswallon; or the Briton Chief</title>, and <title level="m">The Warlock of the Glen</title>. Birth and death dates uncertain. More research needed.</note>
+                  <note resp="#lmw">Author of historical tragedies and melodramas written between 1818 and 1829, including <title ref="#Wallace_play">Wallace; a Historical Tragedy</title>, <title level="m">Caswallon; or the Briton Chief</title>, and <title level="m">The Warlock of the Glen</title>. Birth and death dates uncertain. Dates unknown.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/118236637"/>
                   </note>
@@ -17785,7 +18315,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Walker</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1842">1842</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1842">1842</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Walker_P" sex="m">
                   <persName>Peter Walker</persName>
@@ -18040,31 +18570,30 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </bibl>. </note>
                </person>
                <person xml:id="Webb_Jane" sex="f">
-                  <persName>Jane Webb</persName>
+                  <persName>Jane Webb Hayward</persName>
                   <persName>
+                     <surname type="married">Hayward</surname>
                      <surname type="paternal">Webb</surname>
                      <forename>Jane</forename>
                      <forename>Eleanor</forename>
                   </persName>
+                  <persName><addName>Jane Webb</addName></persName>
+                  <persName><addName>Mrs. Hayward</addName></persName>
                   <birth notBefore="1797-03-03">
                      <placeName>Wokingham, Berkshire, England</placeName>
                   </birth>
-                  <death when="1851-03-24">
-                     <placeName>Sandgate, Kent, England</placeName>
+                  <death when="1847-03">
+                     <placeName>Dartford, Kent, England</placeName>
                   </death>
                   <note resp="#scw #lmw">Friend of <persName ref="#MRM">Mary Russell
-                        Mitford</persName>, the daughter of James
-                     Webb and Jane Elizabeth Ogbourn. Baptized on <date when="1797-03-03">March 3, 1797</date>. Sister of <persName ref="#Webb_Eliza">Elizabeth</persName> (called Eliza) and <persName ref="#Webb_Mary_younger">Mary
-                        Webb</persName> and niece of <persName ref="#Webb_Mary_elder">the elder Mary Webb, <q>Aunt
-                        Mary</q>
-                     </persName>. In <bibl corresp="#Needham_PapersRCL">
-                        <persName ref="#Needham_Francis">Needham</persName>’s papers</bibl>, he
+                     Mitford</persName>, the daughter of <persName ref="#Webb_James">James
+                        Webb</persName> and Jane Elizabeth Ogbourn. Baptized on <date when="1797-03-03">March 3, 1797</date>. Sister of <persName ref="#Webb_Eliza">Elizabeth</persName> (called Eliza) and <persName ref="#Webb_Mary_younger">Mary
+                           Webb</persName> and niece of <persName ref="#Webb_Mary_elder">the elder Mary Webb, <q>Aunt
+                              Mary</q>
+                           </persName>. Spouse of <persName ref="#Hayward_Wm_son">William Hayward</persName>, they married <date when="1816-09-23">23 September, 1816</date>. In <bibl corresp="#Needham_PapersRCL">
+                              <persName ref="#Needham_Francis">Needham</persName>’s papers</bibl>, he
                      notes from the <title level="s">Berkshire Directory</title>that she lived on
-                        <placeName>Broad street</placeName>, presumably in Wokingham, Berkshire. She
-                     married Henry Walters, Esq., a land-surveyor and amateur antiquarian, and they
-                     lived at The Willows, near Windsor, Berkshire, according to census and other
-                     period records. Their date of marriage is unknown, but is likely between 1822
-                     and 1832, based on her father’s 1822 will and 1831 census records.</note>
+                     <placeName>Broad street</placeName>, presumably in Wokingham, Berkshire. </note>
                </person>
                <person xml:id="Webb_John" sex="m">
                   <persName>John Webb</persName>
@@ -18118,7 +18647,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <placeName>Broad street</placeName>, presumably in Wokingham, Berkshire. She
                      was the wife of Thomas Hawkins as she is referred to thus in probate
                      papers of 1858 regarding the wills of her sister Eliza Webb Walter and her
-                     husband Henry Walter. Date of death unknown. More research needed.</note>
+                     husband Henry Walter. Date of death unknown. Dates unknown.</note>
                </person>
                <person xml:id="Webster_J" sex="m">
                   <persName>Mr. J. Webster</persName>
@@ -18129,7 +18658,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. J. Webster</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. J. Webster</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Webster_John" sex="m">
                   <persName>John Webster</persName>
@@ -18158,7 +18687,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mrs.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mrs. Webster</q>. Forename unknown. More research needed.<!--LMW: Possibly the wife of Benjamin Nottingham Webster? --></note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mrs. Webster</q>. Forename unknown. Dates unknown.<!--LMW: Possibly the wife of Benjamin Nottingham Webster? --></note>
                </person>
                <person xml:id="Weirdon_Miss" sex="f">
                   <persName>Miss Weirdon</persName>
@@ -18166,7 +18695,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Weirdon</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Wellington_Duke" sex="m">
                   <persName>Arthur Wellesley, Duke of Wellington</persName>
@@ -18253,7 +18782,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Wheeler</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Spouse of John Wheeler. Forename unknown. More research needed.<!--LMW: any connection to Kate Wheeler?--><!--LMW: There are also Wheelers in the Webb extended family tree.--></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Spouse of John Wheeler. Forename unknown. Dates unknown.<!--LMW: any connection to Kate Wheeler?--><!--LMW: There are also Wheelers in the Webb extended family tree.--></note>
                </person>
                <person xml:id="Whim" sex="m">
                   <persName>Whim</persName>
@@ -18264,7 +18793,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname>White</surname>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="WhiteGilbert" sex="m">
                   <persName>Gilbert White</persName>
@@ -18292,7 +18821,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="whitekitten_WEpet" sex="f"><!--FLAG 2016-06-19 ebb: Would this be better as an editorial note in the letter in which it is mentioned, 
                      until we notice if the kitten is mentioned in later letters?-->
                   <persName>white kitten</persName>
-                  <note resp="#lmw">Female white kitten belonging to <persName ref="#MRM">Mitford</persName> that she proposes to give to <persName ref="#Elford_SirWm">Elford</persName>. Mitford variously proposes to name the kitten Selima (after the kitten's father Selim) or Grizzy (after the character in Ferrier's novel <title level="m">Marriage</title>). Unknown whether Elford eventually takes the kitten. More research needed.</note>
+                  <note resp="#lmw">Female white kitten belonging to <persName ref="#MRM">Mitford</persName> that she proposes to give to <persName ref="#Elford_SirWm">Elford</persName>. Mitford variously proposes to name the kitten Selima (after the kitten's father Selim) or Grizzy (after the character in Ferrier's novel <title level="m">Marriage</title>). Unknown whether Elford eventually takes the kitten. Dates unknown.</note>
                </person>
                <person xml:id="Whittaker_Geo" sex="m">
                   <persName>George B. Whittaker</persName>
@@ -18341,7 +18870,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Wienholt</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Wilkie_Wil" sex="m">
                   <persName>William Wilkie</persName>
@@ -18422,7 +18951,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
-                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. G. Williams</q>. Forename unknown. More research needed.</note>
+                     I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. G. Williams</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Williams_Miss" sex="f">
                   <persName>Miss Williams</persName>
@@ -18430,7 +18959,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Williams</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1837">1837</date>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Willis_David" sex="m">
                   <persName>David Willis</persName>
@@ -18575,7 +19104,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>Editor of the Windsor and Eton Express</persName>
                   <note resp="#lmw">Mitford refers to this person as the <quote>Windsor paper man.</quote>
                      Presumably the editor or proprietor of the <title level="j">Windsor and Eton Express</title> newspaper.
-                     Unidentified. More research needed.</note>
+                     Unidentified. Dates unknown.</note>
                </person>
                <person xml:id="Wordsworth_Dor" sex="f"><!--LMW: not a dup.-->
                   <persName>Dorothy Wordsworth</persName>
@@ -18689,7 +19218,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Yarnold</q>. Forename unknown. More research needed.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Yarnold</q>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Yates_Miss" sex="f">
                   <persName>Miss Yates</persName>
@@ -18697,7 +19226,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="paternal">Yates</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Acted under <q>Miss Yates</q>. Forename unknown. Possibly the daughter of <persName ref="#Yates_Mrs">Mrs. Yates</persName>. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Acted under <q>Miss Yates</q>. Forename unknown. Possibly the daughter of <persName ref="#Yates_Mrs">Mrs. Yates</persName>. Dates unknown.</note>
                </person>
                <person xml:id="Yates_Mrs" sex="f">
                   <persName>Mrs. Yates</persName>
@@ -18705,7 +19234,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Yates</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1835">1835</date>. Forename unknown. Likely the mother of <persName ref="#Yates_Miss">Miss Yates</persName>. More research needed.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1835">1835</date>. Forename unknown. Likely the mother of <persName ref="#Yates_Miss">Miss Yates</persName>. Dates unknown.</note>
                </person>
                <person xml:id="Young_CM" sex="m">
                   <persName>Charles Mayne Young</persName>
@@ -18753,7 +19282,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="medical"/>
-                  <note resp="#scw #lmw">Medical doctor from <placeName ref="#Reading_city">Reading</placeName>. More research needed.
+                  <note resp="#scw #lmw">Medical doctor from <placeName ref="#Reading_city">Reading</placeName>. Dates unknown.
                      <!--scw: No other info from Needham.--></note>
                </person>
                <person xml:id="Younge_Mr" sex="m">
@@ -18763,7 +19292,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="theater" subtype="actor"/>
-                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Younge</q>. Forename unknown. More research needed. Not identical with well-known lead actor <persName ref="#Young_CM">Charles Mayne Young</persName>, who also appeared in the play.</note>
+                  <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Mr. Younge</q>. Forename unknown. Dates unknown. Not identical with well-known lead actor <persName ref="#Young_CM">Charles Mayne Young</persName>, who also appeared in the play.</note>
                </person>
             </listPerson>
          </div>
