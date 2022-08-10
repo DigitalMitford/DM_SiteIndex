@@ -11417,6 +11417,57 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in the 1850s. She wrote to her at Portland Place in London. Identity unknown. Dates unknown. <!--LMW: May be related to the Jennings family intermarried with the family of Lady Constance Russell of Swallowfield, Mitford's neighbor and friend?--></note>
                </person>
+               <person xml:id="Jephson_Em" sex="f">
+                  <persName>Emily Jephson</persName>
+                  <persName>
+                     <surname>Jephson</surname>
+                     <forename>Emily</forename>
+                     <forename>Esther</forename>
+                  </persName>
+                  <birth notAfter="1802">
+                     <placeName>Ireland</placeName>
+                  </birth>
+                  <death when="1861-12-05">
+                     <placeName>Castlemartyr, Cork, Ireland</placeName>
+                  </death>
+                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1829" to="1855">between 1829 and 1855</date>. Mitford wrote to her at Castle Martyr, Ireland, and at No. 1 Charles Street, <placeName ref="#Twickenham">Twickenham</placeName>. Grandniece of playwright Robert Jephson.  
+                  </note>
+               </person>
+               <person xml:id="Jeremy_Caro" sex="f">
+                  <persName>Caroline Jeremy</persName>
+                  <persName>
+                     <surname type="paternal">Jeremy</surname>
+                     <forename>Caroline</forename>
+                     <forename>Deyman</forename>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <birth notAfter="1786-07-01">
+                     <placeName>The Strand, London, England</placeName></birth>
+                  <death when="1863-11-15">
+                     <placeName>Kennington, Surrey, England</placeName>
+                  </death>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mitford</persName>in 1819. Mitford visited her in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Wheeler_James">James Wheeler</persName>. Sister of barrister <persName ref="#Jeremy_H">Henry Jeremy</persName>.<!--LMW: No VIAF #.--></note>
+               </person>
+               <person xml:id="Jeremy_H" sex="m">
+                  <persName>Henry Jeremy</persName>
+                  <persName>
+                     <surname>Jeremy</surname>
+                     <forename>Henry</forename>
+                  </persName>
+                  <birth notAfter="1787-07-06">
+                     <placeName>The Strand, London, England</placeName>
+                  </birth>
+                  <death when="1849-02-15">
+                     <placeName>Holbrook Lodge, Chiselhurst, Kent, England</placeName>
+                  </death>
+                  <occupation type="legal"/>
+                  <occupation type="legal" subtype="barrister"/>
+                  <occupation type="legal" subtype="magistrate"/>
+                  <occupation type="literary"/>
+                  <occupation type="scholar"/>
+                  <note resp="#lmw">Brother of Mitford friend <persName ref="#Jeremy_Caro">Caroline Jeremy</persName>. Called to the bar in 1818 at Middle Temple. Served as Recorder for Wokingham, police magistrate at Greenwich, and magistrate at Union Hall. Author of several law books and histories of English law.</note>
+                  <note><ptr target="http://viaf.org/viaf/306076886"/></note>
+               </person>
                <person xml:id="Jerrold_Doug" sex="m">
                   <persName>Douglas William Jerrold</persName>
                   <persName>
@@ -11586,6 +11637,39 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/75020727"/>
                   </note>
+               </person>
+               <person xml:id="Jolliffe_Thos" sex="m">
+                  <persName>Rev. Thomas Jolliffe</persName>
+                  <persName>
+                     <surname>Jolliffe</surname>
+                     <forename>Thomas</forename>
+                     <forename>Robert</forename>
+                     <roleName>Rev.</roleName>
+                  </persName>
+                  <birth when="1780"/>
+                  <death when="1872">
+                     <placeName>Babington, Somersetshire, England</placeName>
+                  </death>
+                  <occupation type="religious"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <note resp="#lmw">Alumni of Reading School and Trinity College, Cambridge. Rector of Babington from 1810 to 1872.</note>
+                  <!--LMW: UNMARRIED, so not Mr. Jolliffe or spouse of Mrs. Jolliffe-->
+               </person>
+               <person xml:id="Jolliffe_Mrs" sex="f">
+                  <persName>Mrs. Jolliffe</persName>
+                  <persName>
+                     <surname type="married">Jolliffe</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Likely the spouse of <persName ref="#Jolliffe_Mr">Mr. Joolliffe</persName>Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Jolliffe_Mr" sex="m">
+                  <persName>Mr. Jolliffe</persName>
+                  <persName>
+                     <surname>Jolliffe</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Friend of the <orgName ref="#Mitfords">Mitford family</orgName>, who offered the family lumber to build a cottage in 1818. Source: L'Estrange.</note><!--Thomas Samul Joliffe, Esq., for Petersfield, d. in 1824 m. Mary Anne Twyford of Kilmersdon, an heiress. their children: John Twyford Joliffe, Esp. of Ammerdown park, Somerset, , The Rev. Thoms Robert Joliffe, Charles Joliffe, a military officer, slain at Waterloo; Mary Anne. Burke, Royal Families of Eng, Sc and Wales, 1847-->
                </person>
                <person xml:id="Jones_C" sex="m">
                   <persName>Mr. C. Jones</persName>
@@ -11878,6 +11962,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/122326367"/>
                   </note>
                </person>
+               <person xml:id="Kenyon_John" sex="m">
+                  <persName>John Kenyon</persName>
+                  <persName>
+                     <surname>Kenyon</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1784">
+                     <placeName>Trelawny Parish, Jamaica</placeName>
+                  </birth>
+                  <death when="1856">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="benefactor"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <note resp="#lmw">A friend of <persName ref="#MRM">Mary Russell Mitford</persName> and soi-distant cousin of <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>.</note>
+                  <note><ptr target="http://viaf.org/viaf/68469709"/></note>
+               </person>
                <person xml:id="Kerridge_Mr" sex="m">
                   <persName>Mr. Kerridge</persName>
                   <persName>
@@ -11932,6 +12035,66 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/20492585"/>
                   </note>
+               </person>
+               <person xml:id="Kingsley_Chas" sex="m">
+                  <persName>Charles Kingsley</persName>
+                  <persName>
+                     <surname>Kingsley</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1819-06-12">
+                     <placeName>Holne, Devonshire, England</placeName>
+                  </birth>
+                  <death when="1875-01-23">
+                     <placeName>Eversly, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="religious"/>
+                  <occupation type="education"/>
+                  <occupation type="literary"/>
+                  <occupation type="scholar"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="education" subtype="professor"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>. Spouse of <persName ref="#Kingsley_Fanny">Fanny Grenfell Kingsley</persName>. 
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/27081838"/></note>
+               </person>
+               <person xml:id="Kingsley_Fanny" sex="f">
+                  <persName>Frances (Fanny) Grenfell Kingsley</persName>
+                  <persName>
+                     <surname type="married">Kingsley</surname>
+                     <surname type="paternal">Grenfell</surname>
+                     <forename>Frances</forename>
+                     <forename>Eliza</forename> <forename><addName>Fanny</addName></forename>
+                  </persName>
+                  <birth when="1814"/>
+                  <death when="1891"/>
+                  <occupation type="literary"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Spouse of <persName ref="#Kingsley_Chas">Charles Kingsley</persName>.
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/74734046"/></note>
+               </person>
+               <person xml:id="Kinsey_Wm" sex="m">
+                  <persName>William Morgan Kinsey</persName>
+                  <persName>
+                     <surname>Kinsey</surname>
+                     <forename>William</forename>
+                     <forename>Morgan</forename>
+                  </persName>
+                  <birth when="1788">
+                     <placeName>Abergavenny, Monmouthshire, Wales</placeName>
+                  </birth>
+                  <death when="1851-04-06"/>
+                  <occupation type="religious"/>
+                  <occupation type="scholar"/>
+                  <occupation type="explorer"/>
+                  <occupation type="literary"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="explorer" subtype="traveller"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Trinity College, Oxford scholar and Church of England clergyman. Travelled extensively in Portugal and Belgium. Published essays, sermons, and a travel book on Portugal.</note>
+                  <note><ptr target="http://viaf.org/viaf/53227673"/></note>
                </person>
                <person xml:id="Kirby_Benjamin" sex="m">
                   <persName>Benjamin (Ben) Kirby</persName>
@@ -12194,6 +12357,21 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/17088379"/>
                   </note>
                </person>
+               <person xml:id="Langley_Eliza" sex="f">
+                  <persName>Eliza Langley</persName>
+                  <persName>
+                     <surname>Langley</surname>
+                     <forename>Eliza</forename>
+                  </persName>
+                  <death when="1897"/>
+                  <occupation type="bookProducer"/>
+                  <occupation type="trade"/>
+                  <occupation type="bookProducer" subtype="bookseller"/>
+                  <occupation type="bookProducer" subtype="publisher"/>
+                  <occupation type="trade" subtype="clerk"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> and a shop assistant to <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street, <persName ref="#Lovejoy_Geo">George Lovejoy</persName>. Langley purchased the business upon Lovejoy's death in 1882 and expanded it. She operated the bookselling, stationery, and circulating library business under the name The Lovejoy and Southern Counties Library. She published at least two books by Elizabeth Waterhouse under the imprint <q>Lovejoy's Library</q>. 
+                  </note>
+               </person>
                <person xml:id="Langton_Miss" sex="f">
                   <persName>Miss Langton</persName>
                   <persName>
@@ -12218,6 +12396,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary"/>
                   <occupation type="scholar"/>
                   <note resp="#ajc">Swiss poet, writer, philosopher, physiognomist, and theologian.</note>
+               </person>
+               <person xml:id="Lawrence_Mr" sex="m">
+                  <persName>Mr. Lawrence</persName>
+                  <persName>
+                     <surname>Lawrence</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An associate of the <orgName ref="#Webbs">Webb family</orgName> in 1819. May be a relative of <persName>Jane Ogbourn Webb</persName>, whose mother's paternal name was Lawrence. Dates unknown.</note>
                </person>
                <person xml:id="LeCamus_Antoine" sex="m">
                   <persName>Antoine Le Camus</persName>
@@ -12500,6 +12686,40 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/12314392"/>
                   </note>
                </person>
+               <person xml:id="Lovejoy_Geo" sex="m">
+                  <persName>George Lovejoy</persName>
+                  <persName>
+                     <surname>Lovejoy</surname>
+                     <forename>George</forename>
+                  </persName>
+                  <birth when="1808">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1883-07-19">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </death>
+                  <occupation type="#bookProducer"/>
+                  <occupation type="#bookProducer" subtype="bookseller"/>
+                  <occupation type="#bookProducer" subtype="librarian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1840" to="1850">between 1840 and 1850</date> and a <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street. Father of <persName ref="#Lovejoy_Martha">Martha (Patty) Lovejoy</persName>. His shop assistant was <persName ref="#Langley_Eliza">Eliza Langley</persName>. He established a general subscription circulating library in <date when="1832">1832</date>.
+                  </note>
+               </person>
+               <person xml:id="Lovejoy_Martha" sex="f">
+                  <persName>Martha (Patty) Lovejoy</persName>
+                  <persName>
+                     <surname type="paternal">Lovejoy</surname>
+                     <forename>Martha</forename>
+                     <forename>Jane</forename>
+                     <forename><addName>Patty</addName></forename>
+                  </persName>
+                  <birth when="1836">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1856">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1846">1846</date>. Daughter of <persName ref="#Lovejoy_Geo">George Lovejoy</persName> and his wife Alice Beckwith Cecil.</note>
+               </person>
                <person xml:id="Lovett_Wm" sex="m">
                   <persName>William Lovett</persName>
                   <persName>
@@ -12520,6 +12740,28 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/37714479"/>
                   </note>
+               </person>
+               <person xml:id="Lucas_John" sex="m">
+                  <persName>John Lucas</persName>
+                  <persName>
+                     <surname>Lucas</surname>
+                     <forename>John</forename>
+                     <forename>Lindsay</forename>
+                  </persName>
+                  <birth when="1807-07-04">
+                     <placeName>King's Lynn, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1874-04-30">
+                     <placeName>St. John's Wood, London, Middlesex, England</placeName>
+                  </death>
+                  <occupation type="military"/>
+                  <occupation type="artist"/>
+                  <occupation type="military" subtype="navy"/>
+                  <occupation type="artist" subtype="painter"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <note resp="#lmw">A friend and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1838" to="1853">between 1828 and 1853</date>. Fashionable portrait painter and mezzotint engraver who painted both <persName ref="#MRM">Mary Russell Mitford</persName> and her father <persName ref="#Mitford_Geo">George</persName>.
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/91332978"/></note>
                </person>
                <person xml:id="Lucetti" sex="m">
                   <persName>Lucetti</persName>
@@ -12641,6 +12883,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/5743196"/>
                   </note>
                </person>
+               <person xml:id="Madison_Mrs" sex="f">
+                  <persName>Mrs. Madison</persName>
+                  <persName>
+                     <surname type="married">Madison</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> dined with her at the <orgName ref="#Joliffes">Jolliffe's</orgName> in 1820. May also be spelled <q>Maddison</q>. Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Magnay_C" sex="m">
                   <persName>Christopher Magnay</persName>
                   <persName>
@@ -12670,6 +12920,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/97245226"/>
                   </note>
+               </person>
+               <person xml:id="Maitland_Eb" sex="m">
+                  <persName>Ebenezer Fuller Maitland</persName>
+                  <persName>
+                     <surname>Maitland</surname>
+                     <forename>Ebenezer</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <persName><addName>Mr. Maitland</addName></persName>
+                  <persName><addName>Ebenezer Fuller Maitland</addName></persName>
+                  <birth when="1780-04-23"/>
+                  <death when="1858"/>
+                  <occupation type="trade"/>
+                  <occupation type="government"/>
+                  <occupation type="legal"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="legal" subtype="enforcement"/>
+                  <note resp="#lmw">Son of wealthy merchant and Bank of England director Ebenezer Maitland, he married heiress Bethia Ellis and took the name of Fuller Maitland in 1807, by the wish of his wife's aunt. South Sea company director. Member of Parliament for Lostwithiel, Wallingford, and Chippenham. Elected Sheriff in Berkshire and Breconshire.</note>
                </person>
                <person xml:id="Malthus_Thomas" sex="m">
                   <persName>Thomas Malthus</persName>
@@ -12805,7 +13073,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </person>
                <person xml:id="Marmy_pet" sex="f">
                   <persName>Marmy</persName>
-                  <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
+                  <persName><addName>Marmion</addName></persName>
+                  <note resp="#lmw">One of Mitford's dogs at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>.</note>
                </person>
                <person xml:id="Marriott_John" sex="m">
                   <persName>Rev. John Marriott</persName>
@@ -12903,6 +13172,26 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/76752548"/>
                   </note>
+               </person>
+               <person xml:id="Martin_A" sex="m">
+                  <persName>Albinus Martin</persName>
+                  <persName>
+                     <surname>Martin</surname>
+                     <forename>Albinus</forename>
+                  </persName>
+                  <birth when="1791">
+                     <placeName>Beckton, Somersetshire, England</placeName>
+                  </birth>
+                  <death when="1871-10-17">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="artist"/>
+                  <occupation type="artist" subtype="architect"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1840" to="1843">between 1840 and 1843</date>. A student of Joseph Woods and James Savage, he also studied architecture at the Royal Academy. Worked as an architect, civil engineer, and manager of industrial works that included canals, colleries, and railways. Worked with Savage on the tunnel under the Thames, later completed by Brunel. With Beasley, designed the first English Opera House, located in the Strand.
+                     <!-- position in theatre business? (Chorley 1872(2):181 &amp; 197)-->
+                     <!--LMW: no VIAF #-->
+                  </note>
+                  <note><ptr target="https://www.gracesguide.co.uk/Albinus_Martin"/></note>
                </person>
                <person xml:id="Martin_Lucy" sex="f">
                   <persName>Lucy Martin</persName>
@@ -13367,6 +13656,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <!--No VIAF #-->
                   </note>
                </person>
+               <person xml:id="Mitford_RobertO" sex="m">
+                  <persName>Robert Osbaldeston Mitford</persName>
+                  <persName>
+                     <surname>Mitford</surname>
+                     <forename>Robert</forename>
+                     <forename>Osbaldeston</forename>
+                     <roleName>Admiral</roleName>
+                     <roleName>29th Lord Mitford</roleName></persName>
+                  <persName><addName>Captain Osbaldeston</addName></persName>
+                  <birth when="1781-01-26">
+                     <placeName>Mitford Castle, Mitford, Northumberland, England</placeName>
+                  </birth>
+                  <death when="1870-06-18">
+                     <placeName>Bridlington, Yorkshire, England</placeName>
+                  </death>
+                  <occupation type="military"/>
+                  <occupation type="artist"/>
+                  <occupation type="scholar"/>
+                  <occupation type="military" subtype="navy"/>
+                  <occupation type="artist" subtype="illustrator"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <note resp="#lmw">A paternal relative and correspondent of <persName ref="#MRM">Mary Russell Mitford</persName><date from="1816" to="1843">between 1816 and 1843</date>. Served in the Royal Navy as Captain, retiring as Rear Admiral. In her early years, Mitford refers to him as <q>Captain Osbaldeston</q>. He was a talented amateur artist, and learned engraving from <persName ref="#Bewick_Thos">Thomas Bewick</persName> and collaborated with <persName ref="#Selby_PJ">Prideaux John Selby</persName> on several important works on British birds. He later became the 29th Lord Mitford of Mitford, Northumberland, England, upon the death of his elder brother. 
+                     <!--LMW: https://en.wikisource.org/wiki/A_Naval_Biographical_Dictionary/Mitford,_Robert-->
+                     <!--LMW: no VIAF #--></note>
+               </person>
                <person xml:id="Mob_pet" sex="m">
                   <persName>Mob</persName>
                   <note resp="#lmw">One of Mitford's greyhounds at <placeName ref="#Bertram_house">Bertram House</placeName> in <date when="1819">1819</date>. </note>
@@ -13504,6 +13819,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <occupation type="military" subtype="navy"/>
                   <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work. Dates unknown.<!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--></note>
+               </person>
+               <person xml:id="Monteagle_TSR" sex="m">
+                  <persName>Thomas Spring-Rice, Baron Monteagle</persName>
+                  <persName>
+                     <surname>Spring-Rice</surname>
+                     <forename>Thomas</forename>
+                     <roleName>1st Baron Monteagle of Brandon</roleName>
+                  </persName>
+                  <birth when="1790-02-08">
+                     <placeName>County Kerry, Ireland</placeName>
+                  </birth>
+                  <death when="1866-02-07"/>
+                  <occupation type="government"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName>. Moderate Anglo-Irish Whig politician who held strong unionist views and led the opposition to the nationalist agenda of Daniel O'Connell, who advocated dissolving the Acts of Union 1800. He supported Catholic emancipation, the world-wide abolition of slavery, and state-funded education, and he criticized the British government's response to the famine in Ireland. M.P. for Limerick and for Cambridge. He served as Chancellor of the Exchequer and Comptroller General of the Exchequer.</note>
+                  <note><ptr target="http://viaf.org/viaf/62327580"/></note>
                </person>
                <person xml:id="Moore_DrJ" sex="m">
                   <persName>Dr. John Moore</persName>
@@ -13954,7 +14286,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Newberry</surname>
                   </persName>
                   <occupation type="legal" subtype="solicitor"/>
-                  <note resp="#scw #lmw">According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <quote>Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading</quote> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's <title level="m">Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted</title> (London:  C. Mitchell, 1856: 77-79). Dates unknown. <!-- LMW:  No VIAF #. --></note>
+                  <note resp="#scw #lmw">Solicitor at various addresses in Lincoln Inn Fields, London; and at Friar Street, Reading. He was an articled clerk in Abingdon. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63. According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <quote>Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading</quote> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's <title level="m">Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted</title> (London:  C. Mitchell, 1856: 77-79). Dates unknown. <!-- LMW:  No VIAF #. --></note>
+               </person>
+               <person xml:id="Newbery_Mrs" sex="f">
+                  <persName>Mrs. Newbery</persName>
+                  <persName>
+                     <surname type="married">Newbery</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Newbery_J">Jacob Newbery</persName>. Name variously spelled Newbery and Newberry. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Newell_Mrs" sex="f">
+                  <persName>Mrs. Newell</persName>
+                  <persName>
+                     <surname type="married">Newell</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> called on her at <placeName ref="#Wokingham_city">Wokingham</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Newman_but" sex="m">
                   <persName>Newman</persName>
@@ -13963,8 +14311,47 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename/>
                   </persName>
                   <occupation type="service" subtype="butler"/>
-                  <note resp="#kab">The butler of Mitford's friend <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. Dates unknown.</note>
+                  <note resp="#kab">The butler of Mitford's friend <persName ref="#Valpy_Richard">Dr. Richard Valpy</persName>. Forename unknown. Dates unknown.</note>
                </person>
+              <person xml:id="Newman_Miss" sex="f">
+                  <persName>Miss Newman</persName>
+                  <persName>
+                     <surname type="paternal">Newman</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Nicholls_Geo" sex="m">
+                  <persName>George Nicholls</persName>
+                  <persName>
+                     <surname>Nicholls</surname>
+                     <forename>George</forename>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <birth when="1781-12-31">
+                     <placeName>Lanarth, Cornwall, England</placeName>
+                  </birth>
+                  <death when="1865-03-24">
+                     <placeName>17 Hyde Park Street, London, England</placeName>
+                  </death>
+                  <occupation type="government"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Bank of England superintendant, Poor Law Commissioner, and later Secretary to the Poor Law Commission. Created Knight Commander of the Bath in 1851. Father of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName>. Source: <title level="m">Visitation of England and Wales</title>, vol. 2 (1894): 49-50.</note></person>
+               <person xml:id="Nicholls_H" sex="f">
+                  <persName>Harriet Maltby Nicholls</persName>
+                  <persName>
+                     <surname type="married">Nicholls</surname>
+                     <surname type="paternal">Maltby</surname>
+                     <forename>Harriet</forename>
+                  </persName>
+                  <birth when="1786-04-10">
+                     <placeName>Shelton, Nottinghamshire, England</placeName>
+                  </birth>
+                  <death when="1869-05-14">
+                     <placeName>17 Hyde Park Street, London, England</placeName>
+                  </death>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Mother of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName> and spouse of <persName ref="#Nicholls_Geo">George Nicholls</persName>.</note></person>
                <person xml:id="Nicholls_John" sex="m">
                   <persName>John Nicholls</persName>
                   <persName>
@@ -14095,6 +14482,25 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/59492066"/>
                   </note>
                </person>
+               <person xml:id="Norton_Andrews" sex="m">
+                  <persName>Andrews Norton</persName>
+                  <persName>
+                     <surname>Norton</surname>
+                     <forename>Andrews</forename>
+                  </persName>
+                  <birth when="1786-12-31">
+                     <placeName>Hingham, Massachusetts, USA</placeName>
+                  </birth>
+                  <death when="1853-09-18">
+                     <placeName>Newport, Rhode Island, USA</placeName>
+                  </death>
+                  <occupation type="religious"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <occupation type="scholar"/>
+                  <occupation type="scholar" subtype="philosopher"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1841" to="1843">between 1841 and 1843</date>. Unitarian clergyman, theologian, and church leader.</note>
+                  <note><ptr target="http://viaf.org/viaf/69698265"/></note>
+               </person>
                <person xml:id="Nott_GeorgeFr" sex="m">
                   <persName>
                      <surname>Nott</surname>
@@ -14106,6 +14512,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Winchester, Hampshire, England</placeName>
                   </death>
                   <note resp="#sbb">Son of <persName>Samuel Nott</persName> (1740-1793).  Clergymen and prebendary of <placeName>Winchester</placeName> and superindentant of the Winchester Cathedral restoration </note>
+               </person>
+               <person xml:id="Ogbourn_Miss" sex="f">
+                  <persName>Miss Ogbourn</persName>
+                  <persName>
+                     <surname type="paternal">Ogbourn</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Possibly the relation of <persName>Mrs. Webb</persName>, whose paternal name was Ogbourn.</note>
                </person>
                <person xml:id="OHara_Kane" sex="m">
                   <persName>Kane O'Hara</persName>
@@ -14267,6 +14681,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/56618493"/>
                   </note>
                </person>
+               <person xml:id="Ouvry_Jane" sex="f">
+                  <persName>Jane Nicholls Ouvry</persName>
+                  <persName>
+                     <surname type="paternal">Nicholls</surname>
+                     <surname type="married">Ouvry</surname>
+                     <forename>Jane</forename>
+                  </persName>
+                  <birth when="1819-05-20"><placeName>Southwell, Nottinghamshire, England</placeName></birth>
+                  <death when="1856-01-08">
+                     <placeName>the Vicarage, Leighton Buzzard, Buckinghamshire, England</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Spouse of the <persName ref="#Ouvry_PT">Rev. Peter Thomas Ouvry</persName>, vicar of Leighton Buzzard, Buckinghamshire, England. Daughter of <persName ref="#Nicholls_Geo">George Nicholls</persName>.</note>
+               </person>
+               <person xml:id="Ouvry_PT" sex="m">
+                  <persName>Rev. Peter Ouvry</persName>
+                  <persName>
+                     <surname>Ouvry</surname>
+                     <forename>Peter</forename>
+                     <forename>Thomas</forename>
+                     <roleName>Reverend</roleName>
+                  </persName>
+                  <birth when="1811-10-19"/>
+                  <death when="1891-06-02">
+                     <placeName>East Acton, London, Middlesex, England</placeName>
+                  </death>
+                  <note resp="#lmw">An acquaintance of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1847" to="1855">between 1847 and 1855</date>. Spouse of <persName ref="#Ouvry_Jane">Jane Nicholls Ouvry</persName>and vicar of Leighton Buzzard, Buckinghamshire, England. The Ouvry family were Hugenot refugees from France during the 17th century.</note></person>
                <person xml:id="Ovid" sex="m">
                   <persName>Ovid</persName>
                   <persName>
@@ -14502,6 +14942,15 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </persName>
                   <note resp="#ncl">Young acquaintance of <persName ref="#MRM">Mitford</persName>'s, who was enchanted by her upon their meeting. Mentioned in a letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName> of <date when="1819-01-10">January 10, 1819</date>. Dates unknown.</note>
                </person>
+               <person xml:id="Parry_Mrs" sex="f">
+                  <persName>Mrs. Parry</persName>
+                  <persName>
+                     <surname type="married">Parry</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>. Forename unknown. Dates unknown.  
+                     <!--LMW: Possibly the mother of poet Mary Anne (Marianne) Parry? and wife of Dr. Parry, a vet. Mary Ann went to India as a young woman.--></note>
+               </person>
                <person xml:id="Parsons_Thos" sex="m">
                   <persName>Thomas William Parsons</persName>
                   <persName>
@@ -14561,11 +15010,18 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname>Payn</surname>
                      <roleName>Mr.</roleName>
                   </persName>
-                  <note resp="#scw #lmw">
-                     <persName ref="#Lewington_Mr">Mr. Lewington</persName> was his man in matters
-                     of business. More research
-                     needed.<!--No further info from Needham, but I'm leaving him here as I expect he'll turn up.--></note>
+                  <note resp="#scw #lmw">Spouse of <persName ref="#Payn_Mrs">Mrs. Payn</persName>. They live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown. A Mr. Payne was an original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>. <persName ref="#Lewington_Mr">Mr. Lewington</persName> was his man in matters
+                     of business. <!--scw: No further info from Needham, but I'm leaving him here as I expect he'll turn up.--></note>
                </person>
+               
+               <person xml:id="Payn_Mrs" sex="f">
+                  <persName>Mrs. Payn</persName>
+                  <persName>
+                     <surname type="married">Payn</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Payn_Mr">Mr. Payn</persName>. The couple live near <placeName ref="#SeymourCt">Seymour Court</placeName>. Forename unknown. Dates unknown.</note>
+               </person>     
                <person xml:id="Peacock_TL" sex="m">
                   <persName>Thomas Love Peacock</persName>
                   <persName>
@@ -14592,6 +15048,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://www.thomaslovepeacock.net"/>
                   </note>
                </person>
+               <person xml:id="Pearson_Hugh" sex="m">
+                  <persName>Hugh Pearson</persName>
+                  <persName>
+                     <surname>Pearson</surname>
+                     <forename>Hugh</forename>
+                  </persName>
+                  <birth when="1817">
+                     <placeName>Oxford, Oxfordshire, England</placeName>
+                  </birth>
+                  <death when="1882-04-09">
+                     <placeName>St. George's Chapel, Windsor Castle, Windsor, Berkshire, England</placeName>
+                  </death>
+                  <occupation type="religious"/>
+                  <occupation type="religious" subtype="clergy"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1852">1852</date>. Vicar of St. Andrews Church, Sonning and Canon at St. George's Chapel, Windsor Castle.</note>
+               </person>       
                <person xml:id="Peel_Rbt" sex="m">
                   <persName>Robert Peel</persName>
                   <persName>
@@ -14751,6 +15223,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#esh #lmw">Actor who appeared in her first professional role as <persName ref="#Claudia_R">Claudia</persName> in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. <persName ref="#MRM">Mitford</persName> intitially expressed concern over the casting of the inexperienced Miss Phillips, but later praised her for her emotionally-charged portrayal. Acted under <q>Miss Phillips</q>. Forename unknown. Dates unknown.</note>
                </person>
+               <person xml:id="Piles_Mr" sex="m">
+                  <persName>Mr. Piles</persName>
+                  <persName>
+                     <surname>Piles</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">May be a local veternarian. Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Pincott_Leonora" sex="f">
                   <persName>Leonora Pincott</persName>
                   <persName>
@@ -14769,6 +15249,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1884"/>
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <title ref="#Rienzi">Rienzi</title> at the <orgName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</orgName> in <date when="1828">1828</date>. Acted under <q>Miss Pincott</q>. The wife of actor Alfred Wigan, she later appeared as <q>Mrs. Wigan</q>.</note>
+               </person>
+               <person xml:id="Pithers_Mr" sex="m">
+                  <persName>Mr. Pithers</persName>
+                  <persName>
+                     <surname>Pithers</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#rjp #lmw">Owner of a field near <placeName ref="#Bertram_house">Bertram House</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Pitt_Chris" sex="m">
                   <persName>Christopher Pitt</persName>
@@ -15112,6 +15600,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://www.historyofparliamentonline.org/volume/1820-1832/member/mackworth-praed-winthrop-1802-1839"/>
                   </note>
                </person>
+               <person xml:id="Pratt_SJ" sex="m">
+                  <persName>Samuel Jackson Pratt</persName>
+                  <persName>
+                     <surname>Pratt</surname>
+                     <forename>Samuel</forename>
+                     <forename>Jackson</forename>
+                  </persName>
+                  <birth when="1749-12-25">
+                     <placeName>St. Ives, Huntingdonshire, England</placeName>
+                  </birth>
+                  <death when="1814-10-04">
+                     <placeName>Birmingham, West Midlands, England</placeName>
+                  </death>
+                  <occupation type="clergy"/>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="theater"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#lmw">Actor, author, and literary celebrity, the friend of <persName ref="#Robinson_MaryD">Mary Robinson</persName> and <persName ref="#Siddons_Sarah">Sarah Siddons</persName>. A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1810">1810</date>.</note>
+                  <note><ref target="http://viaf.org/viaf/68979200"/></note>
+                  <note><ref target="https://commons.wikimedia.org/wiki/File:Samuel_Jackson_Pratt,_by_Thomas_Lawrence.jpg"/></note>
+               </person>
                <person xml:id="Price_Stephen" sex="m">
                   <persName>Stephen Price</persName>
                   <persName>
@@ -15366,6 +15880,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/64010774"/>
                   </note>
                </person>
+               <person xml:id="Raggett_Mr" sex="m">
+                  <persName>Mr. Raggett</persName>
+                  <persName>
+                     <surname>Raggett</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Raggett_Mrs">Mrs. Raggett</persName>. In Mitford's Journal in 1819, she records that he is blind. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Raggett_Mrs" sex="f">
+                  <persName>Mrs. Raggett</persName>
+                  <persName>
+                     <surname type="married">Raggett</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Raggett_Mr">Mrs. Raggett</persName>. In Mitford's Journal in 1819, she indicates that Mrs. Raggett is her <quote>cousin</quote>, who offers her the position of companion, but she refuses to leave <persName ref="#Mitford_Geo">her father George</persName>. Forename unknown. Dates unknown.<!--lmw; possibly on the Russell side?--></note>
+               </person>
                <person xml:id="Raleigh_Wal" sex="m">
                   <persName>Sir Walter Raleigh</persName>
                   <persName>
@@ -15391,18 +15921,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <person xml:id="Ramsay_Mary" sex="f">
                   <persName>Mary Ramsay</persName>
                   <persName>
-                     <surname>Ramsay</surname>
+                     <surname type="paternal">Ramsay</surname>
                      <forename>Mary</forename>
                   </persName>
-                  <birth notAfter="1803-01-31">
-                     <placeName>Barnton, Midlothian, Scotland</placeName>
+                  <birth notAfter="1804">
+                     <placeName>Edinburgh, Midlothian, Scotland</placeName>
                   </birth>
                   <death when="1819-10-20">
-                     <placeName>Lisbon, Portugal</placeName>
+                     <placeName>Lisbon, Portugal</placeName> 
                   </death>
-                  <note resp="#lmw">A friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName> in 1819. The 6th daughter of George Ramsay of Edinburgh (1769-1810). <persName ref="#James_Emily">Emily James</persName> accompanied her to <placeName ref="#Lisbon_city">Lisbon</placeName> before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note>
-                  <!--LMW: no VIAF #.-->
-               </person>
+                  <note resp="#lmw">Friend of <persName ref="#MRM">Mitford</persName> and <persName ref="#James_Miss">Miss James</persName>in 1819. The 6th daughter of George Ramsay (1769-1810) of Edinburgh. Dedicatee of Mitford's <title ref="#FriendToLisbon_1827">On the Departure of a Friend to Lisbon for the Recovery of Her Health.</title> <persName ref="#James_Emily">Emily James</persName> accompanied her to Lisbon before her death in 1819. Mitford notes that two of her sisters also died in young womanhood, likely Eleanor and Helen.</note> </person>
                <person xml:id="Raphael" sex="m">
                   <persName>Raphael</persName>
                   <persName>
@@ -15425,6 +15953,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/64055977"/>
                   </note>
+               </person>
+               <person xml:id="Rapley_Betty" sex="f">
+                  <persName>Betty Rapley</persName>
+                  <persName>
+                     <surname>Rapley</surname>
+                     <forename>Betty</forename>
+                  </persName>
+                  <note resp="#lmw">Dates unknown. <!-- LMW: Is Betty a nickname? Same person as Elizabeth Rapley?--></note>
                </person>
                <person xml:id="Rapley_John1" sex="m"><!--LMW: not a dup.-->
                   <persName>John (Jack) Rapley</persName>
@@ -15450,6 +15986,55 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Shinfield parish, Berkshire, England</placeName>
                   </birth>
                   <note resp="#scw">Son of John and Elizabeth Rapley. Baptismal data as noted by <persName ref="#Needham_Francis">Needham</persName> along with other <placeName ref="#Shinfield">Shinfield parish</placeName> baptisms that correlate to named characters in <title ref="#OV">Our Village</title>. Either <rs type="person" ref="#Rapley_John2">he</rs> or <persName ref="#Rapley_John1">John Rapley</persName>, son of William and Sarah, could be the original of the <persName type="fict" ref="#Rapley_Jack_OV">Jack Rapley</persName> in <title ref="#OV">Our Village</title>.</note>
+               </person>
+               <person xml:id="Redding_Cyrus" sex="m">
+                  <persName>Cyrus Redding</persName>
+                  <persName>
+                     <surname>Redding</surname>
+                     <forename>Cyrus</forename>
+                  </persName>
+                  <birth when="1785">
+                     <placeName>Cornwall, England</placeName>
+                  </birth>
+                  <death when="1870">
+                     <placeName>England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="scholar"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="scholar" subtype="historian"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1832">1832</date>. Newspaper and magazine founder, journalist, editor. He reported on events in France for <title ref="#Examiner">the Examiner</title>, served as uncredited editor of the <title ref="#New_Monthly_Mag">New Monthly Magazine</title> in the 1820s, and edited a number of other journals in the 1830s and 1840s. He then turned to writing novels, nonfiction works for adults and children, biographies of <persName ref="#Beckford_William">William Beckford</persName> and <persName ref="#Campbell_Thos">Thomas Campbell</persName>, and volumes of autobiography.</note>
+                  <note><ref target="http://viaf.org/viaf/2828716"/></note>
+                  <note><ref target="https://books.google.com/books?id=78YEAAAAYAAJ"/></note>
+               </person>
+               <person xml:id="Reeve_Henry" sex="m">
+                  <persName>Henry Reeve</persName>
+                  <persName>
+                     <surname>Reeve</surname>
+                     <forename>Henry</forename>
+                  </persName>
+                  <birth when="1813-09-09">
+                     <placeName>Norwich, Norfolk, England</placeName>
+                  </birth>
+                  <death when="1895-10-21">
+                     <placeName>Hampshire, England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="government"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="biographer"/>
+                  <occupation type="literary" subtype="autobiographer"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1838">1838</date>. Studied at Norwich Grammar School, led by <persName ref="#Valpy_Richard">Richard Valpy</persName>'s brother <persName>Edward</persName>. Travelled extensively in Europe and translated works from several European languages into English. Wrote for <title level="j">The Times</title> between 1840 and 1855. His experiences as clerk of appeal and registrar for the Privy Council enabled him to write authoritatively on foreign affairs, including the events of the Crimean War.</note>
+                  <note><ref target="http://viaf.org/viaf/49975674"/></note>
                </person>
                <person xml:id="Reeve_Mrs" sex="f">
                   <persName>Mrs. Reeve</persName>
@@ -15810,6 +16395,33 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://www.crabbrobinson.co.uk/resources/"/>
                   </note>
                </person>
+               <person xml:id="Robinson_MaryD" sex="f">
+                  <persName>Mary Darby Robinson</persName>
+                  <persName>
+                     <surname type="married">Robinson</surname>
+                     <surname type="paternal">Darby</surname>
+                     <forename>Mary</forename>
+                  </persName>
+                  <birth when="1757-11-27">
+                     <placeName>Bristol, Gloucestershire, England</placeName>
+                  </birth>
+                  <death when="1800-12-26">
+                     <placeName>Englefield Green, Surrey, England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="theater"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
+                  <occupation type="literary" subtype="editor"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#lmw">Actor, author, and public celebrity.</note>
+                  <note><ptr target="http://viaf.org/viaf/9888105"/></note>
+                  <note><ref target="https://commons.wikimedia.org/wiki/File:Sir_Joshua_Reynolds_-_Mrs._Robinson_-_Google_Art_Project.jpg"/></note>
+               </person>
                <person xml:id="Rogers_Sam" sex="m">
                   <persName>Samuel Rogers</persName>
                   <persName>
@@ -15982,6 +16594,32 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/89550506"/>
                   </note>
+               </person>
+               <person xml:id="Russell_Constance" sex="f">
+                  <persName>Lady Constance Russell</persName>
+                  <persName>Constance Charlotte Eliza Lennox, Lady Russell</persName>
+                  <persName>
+                     <surname type="married">Russell</surname>
+                     <surname type="paternal">Lennox</surname>
+                     <forename>Constance</forename>
+                     <forename>Charlotte</forename>
+                     <forename>Eliza</forename>
+                     <roleName>Lady Russell</roleName>
+                  </persName>
+                  <birth when="1832"/>
+                  <death when="1925"/>
+                  <occupation type="literary"/>
+                  <note resp="#lmw">A correspondent and friend of <persName ref="#MRM">Mary Russell Mitford</persName>, when she moved to a cottage near Swallowfield at the end of her life. Spouse of Sir George Russell, fourth baronet. Daughter of Lord Arthur Lennox. Author of <title level="m">Swallowfield and its Owners</title> (1910).
+                  </note>
+                  <note><ptr target="http://viaf.org/viaf/31595043"/></note>
+               </person>
+               <person xml:id="Russell_David" sex="m">
+                  <persName>David Russell</persName>
+                  <persName>
+                     <surname>Russell</surname>
+                     <forename>David</forename>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1831">1831</date>. Dates unknown. <!--LMW: Not a relation to MRM Russells, that I can tell.--></note>
                </person>
                <person xml:id="Russell_Lady" sex="f">
                   <persName>
@@ -16205,6 +16843,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/61368016"/>
                   </note>
                </person>
+               <person xml:id="Sally" sex="f">
+                  <persName>Sally</persName>
+                  <persName>
+                     <forename>Sally</forename>
+                  </persName>
+                  <occupation type="service"/>
+                  <note resp="#lmw">Servant at <placeName ref="#Bertram_house">Bertram House</placeName>, dismissed on <date when="1820-09-15">September 15, 1820</date>, when the Mitfords moved to <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, a much smaller establishment. Surname unknown.</note>
+               </person>
                <person xml:id="Say_hist" sex="m">
                   <persName>William Say</persName>
                   <persName>
@@ -16365,6 +17011,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/68954793"/>
                   </note>
                </person>
+               <person xml:id="Sedgwick_Theo2" sex="m">
+                  <persName>Theodore Sedgwick, Jr.</persName>
+                  <persName>
+                     <surname>Sedgwick</surname>
+                     <forename>Theodore</forename>
+                  </persName>
+                  <birth when="1780-12-09">
+                     <placeName>Stockbridge, Massachusetts, USA</placeName>
+                  </birth>
+                  <death when="1839">
+                     <placeName>Stockbridge, Massachusetts, USA</placeName>
+                  </death>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1835" to="1840">between 1835 and 1840</date>. Brother of <persName ref="#Sedgwick_Cath">Catherine Sedgwick</persName>, spouse of novelist <persName>Susan Anne Livingston</persName> and father of author and lawyer <persName>Theodore Sedgwick</persName>.<!--LMW: No VIAF #.--></note>
+               </person>
                <person xml:id="Selby_Mr" sex="m">
                   <persName>Mr. Selby</persName>
                   <persName>
@@ -16375,6 +17035,53 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford's</persName> play, <title ref="#CharlesI_MRMplay">Charles
                      I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. Selby</q>. Forename unknown. Dates unknown.</note>
                   <!-- LMW: Possibly SELBY, CHARLES (1802?–1863), actor and dramatist?  -->
+               </person>
+               <person xml:id="Selby_PJ" sex="m">
+                  <persName>Prideaux John Selby</persName>
+                  <persName>
+                     <surname>Selby</surname>
+                     <forename>Prideaux</forename>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1788-07-23">
+                     <placeName>Alnwick, Northumberland, England</placeName>
+                  </birth>
+                  <death when="1867-03-27">
+                     <placeName>Bamburgh, Northumberland, England</placeName>
+                  </death>
+                  <occupation type="artist"/>
+                  <occupation type="scholar"/>
+                  <occupation type="artist" subtype="illustrator"/>
+                  <occupation type="artist" subtype="engraver"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <note resp="#lmw">Important naturalist and illustrator in the 1820s, 30s, and 40s, friend and neighbor of <persName ref="#Mitford_RobertO">Robert Osbaldeston Mitford</persName>, with whom he collaborated on several volumes on British birds. He also contributed to <title>Jardine's Naturalist's Library</title> and authored a volume on British trees.</note>
+                  <note><ptr target="http://viaf.org/viaf/10629084"/></note>
+               </person>
+               <person xml:id="Selim_pet" sex="m">
+                  <persName>Selim</persName>
+                  <note resp="#lmw #ncl">Mitford's ferocious long-haired white cat. The cat may have been a Turkish angora, a breed that became fashionable in the early 19th century.</note>
+               </person>
+               <person xml:id="Senior_Jane" sex="f"><!--LMW: not a dup.-->
+                  <persName>Jane Elizabeth (Jeanie) Hughes Senior</persName>
+                  <persName>
+                     <surname type="married">Senior</surname>
+                     <surname type="paternal">Hughes</surname>
+                     <forename>Jane</forename>
+                     <forename>Elizabeth</forename>
+                     <forename><addName>Jeanie</addName></forename>
+                  </persName>
+                  <birth when="1828-12-10">
+                     <placeName>Uffington, Oxfordshire, England</placeName>
+                  </birth>
+                  <death when="1877"/>
+                  <occupation type="benefactor"/>
+                  <occupation type="government"/>
+                  <occupation type="benefactor" subtype="philanthropist"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <note resp="#lmw">Social reformer and relief worker during the Franco-Prussian War, and co-founder of the Metropolitan Association for Befriending Young Servants (MABYS). In 1873, became an assistant inspector of workhouses, making her the first female paid civil servant in the UK. She was the daughter of John Hughes and sister of writer Thomas Hughes.</note>
+                  <note><ptr target="https://viaf.org/viaf/43750694/"/></note>
+                  <note><ptr target="https://en.wikipedia.org/wiki/Jane_Senior#/media/File:Jane_Senior.jpg"/></note>
                </person>
                <person xml:id="Serle_TJ" sex="m">
                   <persName>Thomas James Serle</persName>
@@ -16473,6 +17180,28 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/96994048"/>
                   </note>
+               </person>
+               <person xml:id="ShawLefevre_C1" sex="m">
+                  <persName>Charles Shaw Lefevre</persName>
+                  <persName>
+                     <surname>Shaw</surname>
+                     <surname>Lefevre</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1759-09-20">
+                     <placeName>Wormsley, Yorkshire, England</placeName>
+                  </birth>
+                  <death when="1823-04-27">
+                     <placeName>Heckfield Place, Hampshire, England</placeName>
+                  </death>
+                  <occupation type="government"/>
+                  <occupation type="legal"/>
+                  <occupation type="trade"/>
+                  <occupation type="government" subtype="politician"/>
+                  <occupation type="trade" subtype="banker"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1805">1805</date> and a moderate Tory Member of Parliament for <placeName ref="#Reading_city">Reading</placeName> from 1796 to 1820. Not to be confused with his son, Charles Shaw-Lefevre, 1st Viscount Eversley, who became spaker of the House of Commons. Born Charles Shaw, he took the name Shaw Lefevre in 1789 and retired from legal practice in 1790 after inheriting from his father-in-law. He was an East India company investor and held interests in banking and insurance.</note>
+                  <note><ptr target="http://viaf.org/viaf/43385208"/></note>
+                  <note><ptr target="https://www.historyofparliamentonline.org/volume/1790-1820/member/shaw-lefevre-charles-1759-1823"/></note>
                </person>
                <person xml:id="Sheffield_John" sex="m">
                   <persName>John Sheffield, Duke of Buckingham and Normanby</persName>
@@ -16679,6 +17408,21 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/57410988"/>
                   </note>
                </person>
+               <person xml:id="Sidmouth_Lady2" sex="f">
+                  <persName>Mary Anne Scott Townshend Addington, Lady Sidmouth</persName>
+                  <persName>
+                     <surname type="paternal">Scott</surname>
+                     <surname type="married">Townshend</surname>
+                     <surname type="married">Addington</surname>
+                     <forename>Mary</forename>
+                     <forename>Anne</forename>
+                     <roleName>Lady Sidmouth</roleName>
+                  </persName>
+                  <death when="1842-04-26"/>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1830">1830</date>. Second wife of Henry Addington, 1st Viscount Sidmouth.</note>
+                  <!-- LMW: no VIAF #. -->
+                  <!--LMW: For Henry Addington, see https://www.historyofparliamentonline.org/volume/1790-1820/member/addington-henry-1757-1844 -->
+               </person>
                <person xml:id="Sinclair_SrJohn" sex="m">
                   <persName>Sir John Sinclair</persName>
                   <persName>
@@ -16718,6 +17462,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <forename>Marianne</forename>
                   </persName>
                   <note resp="#scw #lmw">The 1888 volume of <title level="j">Notes and Queries</title> indicates that Marianne and Henrietta Skerrett were <quote>cousins of the tragedian's [<persName ref="#Macready_Wm">William Macready</persName>'s] mother.</quote> (7th ser., 6, 28 July 1888: 76). Henrietta is likely to be the <q>Hetta</q> mentioned in Macready's diaries. Source: Letter from <persName ref="#coles">William Coles</persName>to <persName ref="#Needham_Francis">Francis Needham</persName>, <date when="1958-04-25">April 25, 1958</date>, <persName ref="#Needham_Francis">Needham</persName> Papers, <orgName ref="#ReadingCL">Reading Central Library</orgName>. Dates unknown.</note>
+               </person>
+               <person xml:id="Slade_F" sex="m">
+                  <persName>
+                     <surname>Slade</surname>
+                     <forename>Frederick</forename>
+                  </persName>
+                  <note resp="#lmw">Called at <placeName ref="#Bertram_house">Bertram House</placeName> in 1819. Dates unknown.</note>
                </person>
                <person xml:id="Sloman_Mrs" sex="f">
                   <persName>Mrs. Sloman</persName>
@@ -16960,6 +17711,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/100170015"/>
                   </note>
                </person>
+               <person xml:id="Spurling_Mr" sex="m">
+                  <persName>Mr. Spurling</persName>
+                  <persName>
+                     <surname>Spurling</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">An associate of <persName>Mr. Elliott</persName>, possibly an attorney. Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Starkey_DP" sex="m">
                   <persName>Digby Pilot Starkey</persName>
                   <persName>
@@ -17021,6 +17780,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/22167754"/>
                   </note>
                </person>
+               <person xml:id="Stevenson_Em" sex="f">
+                  <persName>Emily Stevenson</persName>
+                  <persName>
+                     <surname type="paternal">Stevenson</surname>
+                     <forename>Emily</forename>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Possibly the daughter of <persName ref="#Stevenson_Mr">Mr. Stevenson</persName>. Dates unknown.</note>
+               </person>
+               <person xml:id="Stevenson_Mr" sex="m">
+                  <persName>Mr. Stevenson</persName>
+                  <persName>
+                     <surname>Stevenson</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Possibly the father of <persName ref="#Stevenson_Em">Emily Stevenson</persName>. Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Stoddard_RH" sex="m">
                   <persName>Richard Henry Stoddard</persName>
                   <persName>
@@ -17049,6 +17825,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <roleName>Mrs.</roleName>
                   </persName>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1824">1824</date>. Forename unknown. Lived at Newbould. Dates unknown.</note>
+               </person>
+               <person xml:id="StQuentin" sex="m">
+                  <persName>M. St. Quentin</persName>
+                  <persName>
+                     <surname>St. Quentin</surname>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Rowden_Fr">Frances Rowden</persName>, who was his second wife. They married in Paris. Founder and teacher at <placeName ref="#StQuintin_School">St. Quinton School</placeName>, where <persName ref="#Mitford">Mitford</persName> was educated.<!--LMW: add more from Rowden ancestry tree.--></note>
                </person>
                <person xml:id="Strafford" sex="m">
                   <persName>Thomas Wentworth, Earl of Strafford</persName>
@@ -17401,6 +18184,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/4936996/"/>
                   </note>
                </person>
+               <person xml:id="Taunton_Mrs" sex="f">
+                  <persName>Mrs. Taunton</persName>
+                  <persName>
+                     <surname type="married">Taunton</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> met her when dining at <persName ref="#Green_Mr">Mr. Green</persName>'s in 1820. Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Taylor_J" sex="m"><!--LMW not a dup.-->
                   <persName>John Taylor</persName>
                   <persName>
@@ -17500,6 +18291,24 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         Village.</title>
                      <title level="a">Capers With K
                      </title>. <date when="2013-03-13">13 March 2013</date>. See <ref target="https://unearthingourvillage.wordpress.com/page/4/"/>.</note>
+               </person>
+               <person xml:id="Tennyson" sex="m">
+                  <persName ref="#Tennyson">Alfred Tennyson</persName>
+                  <persName>
+                     <forename>Alfred</forename>
+                     <surname>Tennyson</surname>
+                  </persName>
+                  <persName>1st Baron Tennyson</persName>
+                  <birth when="1809-08-06">
+                     <placeName>Somersby, Lincolnshire, England</placeName>
+                  </birth>
+                  <death when="1892-10-06">
+                     <placeName>Lurgashall, Sussex, England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <note resp="#lmw">Poet laureate of the UK from 1850 to 1892, following <persName ref="#Wordsworth_Wm">Wordsworth</persName>. Buried in Westminster Abbey.</note>
+                  <note><ptr target="https://viaf.org/viaf/61540536/"/></note>
                </person>
                <person xml:id="Thackeray_TJ" sex="m">
                   <persName>Thomas James Thackeray</persName>
@@ -17808,6 +18617,29 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">According to the Preface to <title ref="#TenYearsatTripoli"/>,
                      Miss Tully is the sister of Richard Tully, Esq., <q>his Brittanic Majesty’s
                      Counsul at the Court of Tripoly,</q> who edited her correspondence.</note>
+               </person>
+               <person xml:id="Tuppen_Capt" sex="m"><!--check tree-->
+                  <persName>William Tuppen</persName>
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Tuppen</surname>
+                     <roleName>Captain</roleName>
+                  </persName>
+                  <persName><addName>Captain Tuppen</addName></persName>
+                  <occupation type="military"/>
+                  <occupation type="legal"/>
+                  <occupation type="government"/>
+                  <occupation type="military" subtype="army"/>
+                  <occupation type="legal" subtype="magistrate"/>
+                  <note resp="#lmw">In Mitford's time, a captain retired from the Royal West regiment of the London militia. Later became a magistrate and served as mayor of Reading.</note>
+               </person>
+               <person xml:id="Tuppen_Mrs" sex="f"><!--check ancestry tree-->
+                  <persName>Mrs. Tuppen</persName>
+                  <persName>
+                     <surname type="married">Tuppen</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw">Spouse of <persName ref="#Tuppen_Capt">William Tuppen</persName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Valpy_Ant" sex="m">
                   <persName>Anthony Blagrave Valpy</persName>
@@ -18222,6 +19054,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/36925746"/>
                   </note>
                </person>
+               <person xml:id="Voules_Mr" sex="m">
+                  <persName>Mr. Voules</persName>
+                  <persName>
+                     <surname>Voules</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Friend of <orgName ref="#Mitfords">the Mitfords</orgName> who visited <placeName ref="#Bertram_house">Bertram House</placeName> and <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>. Likely the spouse of <persName ref="#Voules_Mrs">Mrs. Voules</persName>. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Voules_Mrs" sex="f">
+                  <persName>Mrs. Voules</persName>
+                  <persName>
+                     <surname type="married">Voules</surname>
+                     <roleName>Msr.</roleName>
+                  </persName>
+                  <note resp="#rjp #lmw">Friend of <orgName ref="#Mitfords">the Mitfords</orgName>. She adopts one of <persName ref="#Molly_pet">Molly</persName>'s puppies in 1820. Likely the spouse of <persName ref="#Voules_Mr">Mr. Voules</persName>. Forename unknown. Dates unknown.</note>
+               </person> 
                <person xml:id="Waddington_J" sex="f">
                   <persName>Julia Rattray Waddington</persName>
                   <persName>
@@ -18308,6 +19156,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/13719124"/>
                   </note>
+               </person>
+               <person xml:id="Walker_Mr" sex="m"> 
+                  <persName>Mr. Walker</persName>
+                  <persName>
+                     <surname>Walker</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Friend of <orgName ref="#Mitfords">the Mitfords</orgName> who visited <placeName ref="#Bertram_house">Bertram House</placeName>. Forename unknown. Dates unknown.<!--LMW: MRM corresponds with a Mrs. Walker in 1842--></note>
                </person>
                <person xml:id="Walker_Mrs" sex="f">
                   <persName>Mrs. Walker</persName>
@@ -18471,6 +19327,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Joseph Warry (1733-1801), was also a shoemaker.
                      <!-- scw: See William Silver Darter [An Octogenarian], who names Warry of Minster Street, "an active liberal," as the person who was sent to France (41), although he says it was the 1812 election. See also the Monthly Magazine 12 (1801): 174 obituary for a Joseph Warry, boot and shoemaker of Reading, for 1801, which suggests the possibility that Mr. Warry may be his son who took over the business. Coles also puzzles over the name in one of Mitford's letters. --></note>
                </person>
+               <person xml:id="Warwicke_Miss" sex="f">
+                  <persName>Miss Warwicke</persName>
+                  <persName>
+                     <surname type="paternal">Warwicke</surname>
+                     <roleName>Miss</roleName>
+                  </persName>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
+               </person>
                <person xml:id="Washington_Geo" sex="m">
                   <persName>George Washington</persName>
                   <persName>
@@ -18497,6 +19361,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/31432428"/>
                   </note>
+               </person>
+               <person  xml:id="Waterton_Mrs" sex="f">
+                  <persName>Mrs. Waterton</persName>
+                  <persName>
+                     <surname type="married">Waterton</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> correspondent in 1819. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Watteau" sex="m">
                   <persName>Jean-Antoine Watteau</persName>
@@ -18764,6 +19636,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <title level="m">Post Office Directory of Berkshire</title>
                      </bibl>, 1847 edition. The 1854 edition lists him also as a carpenter.</note>
                </person>
+               <person xml:id="Wheeler_James" sex="m">
+                  <persName>James Wheeler</persName>
+                  <persName>
+                     <surname>Wheeler</surname>
+                     <forename>James</forename>
+                  </persName>
+                  <occupation type="medical"/>
+                  <occupation type="medical" subtype="surgeon"/>
+                  <note resp="#lmw">A friend of <persName ref="#MRM">Mitford</persName> in 1819-1823. Mitford visited him in <placeName ref="#Wokingham_city">Wokingham</placeName>, along with <orgName ref="#Webbs">the Webb family</orgName> and <persName ref="#Jeremy_Caro">Miss Jeremy</persName>. May be either James Wheeler (1766-1850), spouse of Catherine Bird Rogers Wheeler (1771-1852) or their son, James Wheeler (1792-1866), spouse of Harriet Horne, all of whom lived in Wokingham. James Wheeler, father and son, were both surgeons.</note>
+               </person>
                <person xml:id="Wheeler_Kate" sex="f">
                   <persName>
                      <forename>Kate</forename>
@@ -18817,6 +19699,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/61594716"/>
                   </note>
+               </person>
+               <person xml:id="White_Mr" sex="m"> 
+                  <persName>Mr. White</persName>
+                  <persName>
+                     <surname>White</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>. A Mr. White was an original member of the Ilsley Coursing Society, with <persName ref="#Mitford_Geo">George Mitford</persName>. A <persName ref="#White_Tom">Tom White</persName>, mentioned in connection with <persName ref="#Tuppen_Capt">Captain Tuppen</persName>, may be a relation. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="White_Tom" sex="m"> 
+                  <persName>Tom White</persName>
+                  <persName>
+                     <surname>White</surname>
+                     <forename>Tom</forename>
+                  </persName>
+                  <note resp="#lmw">Mentioned in connection with <persName ref="#Tuppen_Capt">Captain Tuppen</persName>, may be a relation of <persName ref="#White_Mr">Mr. White</persName> of Reading. Dates unknown. Source: Journal.</note>
                </person>
                <person xml:id="whitekitten_WEpet" sex="f"><!--FLAG 2016-06-19 ebb: Would this be better as an editorial note in the letter in which it is mentioned, 
                      until we notice if the kitten is mentioned in later letters?-->
@@ -18952,6 +19850,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="theater" subtype="actor"/>
                   <note resp="#lmw">Actor who appeared in <persName ref="#MRM">Mitford</persName>'s play, <title ref="#CharlesI_MRMplay">Charles
                      I</title> at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. Acted under <q>Mr. G. Williams</q>. Forename unknown. Dates unknown.</note>
+               </person>
+               <person xml:id="Williams_Mr" sex="m">
+                  <persName>Mr. Williams</persName>
+                  <persName><surname>Williams</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#lmw">Forename unknown. Dates unknown. May be related to <persName ref="#Williams_Miss">Miss Williams</persName>.</note>
                </person>
                <person xml:id="Williams_Miss" sex="f">
                   <persName>Miss Williams</persName>
@@ -19130,6 +20035,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ref target="http://viaf.org/viaf/19695644"/>
                   </note>
+               </person>
+               <person xml:id="Woodburn_J" sex="m">
+                  <persName>John Woodburn</persName>
+                  <persName>
+                     <surname>Woodburn</surname>
+                     <forename>John</forename>
+                     <note resp="#lmw">Dates unknown. May be related to <persName ref="#Woodburn_Mr">Mr. Woodburn</persName>.</note>
+                  </persName>
                </person>
                <person xml:id="Wordsworth_Dora" sex="f">
                   <persName>Dorothy (Dora) Wordsworth</persName>
@@ -19662,10 +20575,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      mankind. The word’s derivation in Hebrew means <q>adversary.</q>
                   </note>
                </person>
-               <person xml:id="Selim_pet" sex="m">
-                  <persName>Selim</persName>
-                  <note resp="#lmw #ncl">Mitford's ferocious white cat.</note>
-               </person>
+               
                <person xml:id="Venus" sex="f">
                   <persName>Venus</persName>
                   <note resp="#lmw">Roman goddess of love and beauty; her counterpart in Greek mythology is Aphrodite.</note>
@@ -22773,6 +23683,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      royal residence favored by <persName ref="#GeoIII">George III</persName>, and
                      Kew Gardens.</note>
                </place>
+               <place xml:id="Kibes_Ln"><!--stub-->
+                  <placeName>Kibe's Lane</placeName>
+                  <placeName><addName>Kybe's Lane</addName></placeName>
+                  <location><geo>51.415929 -0.994434</geo></location>
+                  <!--<note resp="#lmw"></note>-->
+               </place>
                <place xml:id="Kings_Bench_Prison">
                   <placeName>Kings Bench Prison, Southwark, London, England</placeName>
                   <district>Southwark</district>
@@ -23196,27 +24112,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Revolution and Napoleonic Wars; travel between London and Paris was much
                      restricted during this period.</note>
                </place>
-               <place xml:id="Penge_Wood">
-                  <placeName>Penge Wood</placeName>
-                  <district>Penge Wood</district>
-                  <region>London</region>
+               <place xml:id="Pingewood"><!--stub-->
+                  <placeName>Pinge Wood</placeName>
+                  <placeName><addName>Pingewood</addName></placeName>
+                  <district>Whitley</district>
+                  <region>Berkshire</region>
                   <country>England</country>
                   <location>
-                     <geo>51.4138078 -0.05182650000006106</geo>
+                     <geo>51.424640 -1.006622</geo>
                   </location>
-                  <note resp="#lmw">In <persName ref="#MRM">Mitford</persName>’s time, a wooded area
-                     near London adjacent to Penge Common, much used for leisure activities such as
-                     walking, sketching, amateur botanizing, and picnicking. Penge Common at one time
-                     abutted the Great North Wood and some eighteenth and nineteenth century maps of
-                     Greater London include the Common as part of the Wood. As early as <date when="1834">1834</date>, <persName ref="#Hunt">Leigh Hunt</persName> laments
-                     the area’s loss to enclosure and development as it was one of the <quote>two finest
-                        pieces of natural scenery within twelve miles of the capital</quote> (<title level="a">Notes on the
-                           Newspapers,</title>
-                     <title level="j">Monthly Repository</title> 8 (1834): 524). Enclosure acts beginning with
-                     the Croydon Enclosure Act of <date when="1797">1797</date> and the Penge Enclosure Acts of <date when="1805">1805</date>, <date when="1806">1806</date>,
-                     and <date when="1827">1827</date> affected the area, which was heavily developed after <date notBefore="1855">1855</date> following
-                     the relocation of the Crystal Palace and the accompanying development of
-                     Crystal Palace Park.</note>
+                  <note></note>
                </place>
                <place xml:id="Philadelphia">
                   <placeName>Philadelphia, Pennsylvania, USA</placeName>
@@ -24160,6 +25065,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Reading. The <orgName ref="#Mitfords">Mitfords</orgName> sometimes travelled
                      to Wokingham on their way to <placeName ref="#London_city">London</placeName>, or to visit the home of their friends, the <orgName ref="#Webbs">Webbs</orgName>.</note>
                </place>
+               <place xml:id="Woodcock_Ln"><!--stub-->
+               <placeName>Woodcock Lane</placeName>
+               <!--<district></district>-->
+               <region>Berkshire</region>
+               <country>England</country>
+               <!--<location>
+                     <geo></geo>
+                  </location>-->
+               <note resp="#lmw"><!--Woodcock Lane (Wokingham or Reading?)--></note>
+               </place>
                <place xml:id="Yorkshire_county">
                   <placeName>Yorkshire, England</placeName>
                   <region>Yorkshire</region>
@@ -24214,6 +25129,21 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
          </div>
          <div type="nature"><!--ebb 2016-06-07 Changed from div type="plant" to add animal species list. -->
             <list sortKey="animals">
+               <item xml:id="adder">
+                  <name>common European adder</name>
+                  <name type="species">Vipera berus berus</name>
+                  <name type="genus">	Vipera</name>
+                  <name type="family">Viperidae</name>
+                  <name><addName>common European viper</addName></name>
+                  <name><addName>cross adder</addName></name>
+                  <note resp="#lmw">Venomous snake widespread throughout Eurasia and the UK. They are not particularly dangerous to humans; they are not aggressive and bites are seldom fatal. Also called the <q>cross adder</q>for the diamond patterns on its back, although melanated individuals may appear entirely brown-black with no visible patterning. One of three snakes native to the UK; the other two are nonvenmous: the barred grass snake and the smooth snake. They have adapted to a wide range of land habitats such as meadows, rough commons and hedgerows, and the edges of woodlands, although they require complex habitats to support basking, hunting for small mammals, amphibians, and insects; protection from predators, and hibernation. The name is derived from the generic word for <q>serpent</q> in Germanic languages, the same term used for snakes and the Devil in the Old Testament. The myth of the <q>deaf adder</q> has its source in Psalms 58: 4 and became proverbial for someone willfully refusing to hear by the early 17th century.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/how-identify/identify-snakes"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Vipera_berus"/>
+                  </note>
+               </item>
                <item xml:id="ant">
                   <name>ant</name>
                   <name type="species">Lasius niger</name>
@@ -24231,6 +25161,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Lasius_(Lasius)_niger"/>
+                  </note>
+               </item>
+               <item xml:id="Arabian_horse">
+                  <name>Arabian horse</name>
+                  <name type="species">Equus ferus caballus</name>
+                  <name type="genus">Equus</name>
+                  <name type="family">Equidae</name>
+                  <note resp="#lmw">A breed known for its stamina and athleticism, as well as its fine bone structure, arched neck, and highly-carried tail, were developed on the Arabian peninsula. The breed likely arrived in Europe around the time of the Crusades, as spoils of war, and became part of state and royal studs. James I introduced the breed to England in 1616 and others were imported in the 18th century to create modern racing breeds such as the English thoroughbred. Marengo, Napoleon's war horse, was an Arabian. Europeans travelling to the middle East in the 19th century began intensively collecting Arabians.</note>
+                  <note>
+                     <ptr target="https://www.arabhorsesociety.org/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://www.weatherbys.co.uk/"/>
                   </note>
                </item>
                <item xml:id="bee">
@@ -24256,6 +25199,43 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Turdus_merula"/>
+                  </note>
+               </item>
+               <item xml:id="cat">
+                  <name>cat</name>
+                  <name type="species">Felis catus</name>
+                  <name type="genus">Felis</name>
+                  <name type="family">Felidae</name>
+                  <note resp="#lmw">Now, as in <persName ref="#MRM">Mitford</persName>'s time, cats may be classed as domestic (kept as companion animals and for indoor pest control), farm (kept outdoors and in barns or even on ships for rodent control), or feral (wild). Domesticated around 7500 B.C. in Western Asia and likely brought to England by the Romans or other early traders. While frequently kept for rodent control, cats did not become common companion animals in England until the eighteenth century. British Shorthair and Scottish fold breeds are considered to have originated in the UK. Around 1819, <orgName ref="#Mitfords">the Mitfords</orgName> owned a tabby named <persName ref="#Poll_pet">Poll</persName> and a long-haired white cat name <persName ref="#Selim_pet">Selim</persName>, likely a Turkish Angora.</note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/xxx"/>
+                  </note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Manx_and_angora_cats_(stylized)_1885.jpg"/>
+                  </note>
+               </item>
+               <item xml:id="chicken">
+                  <name>chicken</name>
+                  <name type="species">Gallus domesticus</name>
+                  <name type="genus">Gallus</name>
+                  <name type="family">Phasianidae</name>
+                  <note resp="#lmw">Domesticated birds kept as livestock and used for meat, eggs, and feathers. Descended from species of Southeast Asian wild junglefowl. First domesticated for ceremonial use and cockfighting, then kept for food in the Middle East and then in Europe, beginning about the 4th century B.C. </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Gallus_gallus"/>
+                  </note>
+               </item>
+               <item xml:id="cow">
+                  <name>cow</name> 
+                  <name><addName>cattle</addName></name>
+                  <name type="species">Bos taurus</name>
+                  <name type="genus">Bos</name>
+                  <name type="family">Bovidae</name>
+                  <note resp="#lmw">Large domesticated grazing animal raised as livestock for meat, milk, or hides. <q>Cow</q> is the term for female cattle and <q>bull</q> for males, although both are commonly referred to as <q>cows</q>. Also used as draught animals (called oxen) to pull carts or plows. One of the earliest domesticated animals, descended from two separate areas, one in the Near East (Turkey and northern Syria) and one in modern-day Pakistan. Many modern-day breeds are descended from cattle exported from the UK to the rest of the world between the l7th and early 20th century, including: Aberdeen Angus, Ayrshire, Belted Galloway, Blue Grey, Devon, Dexter, British White, British Friesian, English Longhorn, Gloucester, Guernsey, Hereford, Jersey, Kerry, and Shorthorn.</note>
+                  <note>
+                     <ptr target="http://afs.okstate.edu/breeds/region/f-brit.html/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Bos_taurus"/>
                   </note>
                </item>
                <item xml:id="cricket">
@@ -24291,6 +25271,89 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Cuculus_canorus"/>
+                  </note>
+               </item>
+               <item xml:id="deer">
+                  <name>deer</name>
+                  <name type="family">Cervidae</name>
+                  <note resp="#lmw">Medium-sized hoofed mammals. Scottish red and roe deer are native to the UK, and European fallow deer are believed to the have been introduced by the Normans--all three species would have been extant in Mitford's time.</note>
+                  <note>
+                     <ptr target="https://bna-naturalists.org/id-guide-british-deer/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Cervidae"/>
+                  </note>
+               </item>
+               
+               <item xml:id="deer_red">
+                  <name>red deer</name>
+                  <name type="species">Cervus elaphus</name>
+                  <name type="genus">Cervus</name>
+                  <name type="family">Cervidae</name>
+                  <name><addName>Scottish red deer</addName></name>
+                  <note resp="#lmw">Large deer with dark, red-brown fur, paler rump and tail, and branching antlers. Native to the UK. Red deer are now considered a species group rather than a single species, one prevalent throughout Europe that likely originated in Asia. The male is called a <q>stag</q> or <q>hart</q> and the female a <q>hind</q>. Hunted and farmed for meat (venison), hair, hide, and antlers, they may also be found in deer parks. Scottish red and roe deer are both native to the UK, and European fallow deer are believed to the have been introduced by the Normans--all three species would have been extant in Mitford's time.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/red-deer"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Cervus_elaphus"/>
+                     <note><ptr target="https://en.wikipedia.org/wiki/Red_deer#/media/File:Monarch_of_the_Glen,_Edwin_Landseer,_1851.jpg"/></note>
+                  </note>
+               </item>
+               
+               <item xml:id="deer_roe">
+                  <name>roe deer</name>
+                  <name type="species">Capreolus capreolus</name>                  <name type="genus">Capreolus</name>
+                  <name type="family">Cervidae</name>
+                  <name><addName>European roe</addName></name>
+                  <name><addName>western roe deer</addName></name>
+                  <note resp="#lmw">The most common deer in the UK, a medium-sized animal with light red-brown fur, paler rump and tail, and branching antlers. Native to the UK. Common throughout Eurasia and considered part of a different genus than red or fallow deer. The male is called a <q>buck</q> and the female a <q>doe</q>. Hunted and farmed for meat (venison), hair, hide, and antlers, they may also be kept in deer parks. An adaptable species that can survive on smaller tracts of woodland, they are now found even within urban greenspace, such as parks and cemeteries. Scottish red and roe deer are both native to the UK.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/roe-deer"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Capreolus_capreolus"/>                    </note>
+               </item>
+               
+               <item xml:id="deer_fallow">
+                  <name>fallow deer</name>
+                  <name type="species">Cervus dama</name>                  <name type="genus">Dama</name>
+                  <name type="family">Cervidae</name>
+                  <name><addName>European fallow deer</addName></name>
+                  <note resp="#lmw">A medium-sized animal with light red-brown fur, paler rump and tail, and branching antlers. Native to Turkey and likely also the Italian and Balkan peninsulas, spread throughout Europe by the Romans and imported into the UK with the Normans and then naturalized. Widespread throughout the southern UK and considered part of a different genus than the red deer or roe deer. The male is called a <q>buck</q> and the female a <q>doe</q>. Hunted and farmed for meat (venison), hair, hide, and antlers, they may also be kept in deer parks. An adaptable species that can survive on smaller tracts of woodland, they are now found even within urban greenspace, such as parks and cemeteries. Scottish red and roe deer are both native to the UK.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/roe-deer"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Capreolus_capreolus"/>                    </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/Dama_dama#/media/File:Fallow-Deer.jpg"/></note>
+               </item>
+               <item xml:id="dog">
+                  <name>dog</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <name><addName>domestic dog</addName></name>
+                  <note resp="#lmw">First animal species to be domesticated, before the developmment of farming, by hunter-gatherers more than fifteen thousand years ago. Descended from an ancient, now-extinct wolf species. Modern dog breeds were codified beginning in the late 19th century, with the rise of dog shows and set breed standards. Before that time, dogs were classified by appearance or function and any such may now be considered <soCalled>landrace</soCalled>, traditional, or heritage breeds. More than 50 named dog breeds originated in the UK. Breeds extant during the first half of the nineteenth century include: many terrier breeds in a range of sizes and coat types, originally bred to hunt vermin; several hounds, hunting dogs used to track or chase prey, such as the scenthounds (bloodhounds, harriers, fox hounds) and the sighthounds (greyhound, Irish Wolfhound, Scottish deerhound);  mastiffs such as the English bulldog, Bullmastiff and English mastiff, used in blood sports and as guard dogs; sporting dogs used in bird hunting, such as setters and pointers; and many spaniels, including the Cavalier King Charles, Clumber, Sussex, English springer and English cocker spaniels. Now-extinct predecessor breeds include: Staghound, Buckhound, Talbot hound, Old English Bulldog, Norfolk and Tweed water spaniels, Black and Tan terrier, Cumberland sheepdog, English cur or drover's dog, Curley-coated retriever, English water spaniel, and English white terrier. Most so-called extinct breeds actually contributed bloodlines subsumed by later breeds.</note>
+                  <note>
+                     <ptr target="www.thekennelclub.org.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Canis_lupus_familiaris"/>
+                  </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/Category:Old_English_Terrier#/media/File:The_animal_kingdom_(Plate_XVIII)_(6130246024).jpg"/></note>
+               </item>
+               <item xml:id="donkey">
+                  <name>donkey</name>
+                  <name type="species">Equus africanus asinus</name>
+                  <name type="genus">Equus</name>
+                  <name type="family">Equidae</name>
+                  <note resp="#lmw">Domestic animal descended from the African wild ass, mostly used as draught or pack animals. In the UK, used as recreational mounts at seaside resorts. Spread throughout the Roman empire. Before the 1780s, called <q>asses</q>; the term may have changed to avoid vulgar connotations with similar-sounding terms like <q>arse</q>.</note>
+                  <note>
+                     <ptr target="thedonkeysanctuary.org.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Equus_africanus"/>
                   </note>
                </item>
                <item xml:id="dove">
@@ -24336,6 +25399,20 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ptr target="https://species.wikimedia.org/wiki/Forficula_auricularia"/>
                   </note>
                </item>
+               <item xml:id="ferret">
+                  <name>European ferret</name>
+                  <name type="species">Mustela putorius</name>
+                  <name type="genus">Mustela</name>
+                  <name type="family">Mustelidae</name>
+                  <name><addName>European polecat</addName></name>
+                  <note resp="#lmw">Carnivorous mammal native to Eurasia, North Africa, and the UK. Shorter and stouter than related species like weasels or stoats, it is dark brown with a dark mask and lighter underbelly and defends its territory by spraying a malodorous liquid. Domesticated for hunting vermin and hunted for pelts. In 18th and 19th century England, Scotland and Wales, were eradicated by gamekeepers and bounty hunters, who believed them to be a nuisance animal dangerous to poultry stock. Traditionally hunted in Britain in spring with mixed packs of dogs.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/polecat"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Mustela_putorius"/>
+                  </note>
+               </item>
                <item xml:id="glow_worm">
                   <name>glow-worm</name>
                   <name type="species">Lampyris noctiluca</name>
@@ -24349,6 +25426,33 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ptr target="https://species.wikimedia.org/wiki/Lampyris_noctiluca"/>
                   </note>
                </item>
+               <item xml:id="goat">
+                  <name>goat</name>
+                  <name type="species">Capra hircus</name>
+                  <name type="genus">Capra</name>
+                  <name type="family">	Bovidae</name>
+                  <note resp="#lmw">Domestic grazing animals kept for their milk, meat, and skins. One of the earliest domesticated animals, descended from the wild goat found in Eastern Europe and in Southwest Asia. Males are called <q>billygoats</q> and females <q>nannygoats</q>.</note>
+                  <note>
+                     <ptr target="http://www.allgoats.com/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Capra_hircus"/>
+                  </note>
+               </item>
+               <item xml:id="goose">
+                  <name>goose</name>
+                  <name type="species">Anser anser domesticus</name>
+                  <name type="genus">Anser</name>
+                  <name type="family">Anatidae</name>
+                  <name><addName>domestic goose</addName></name>
+                  <note resp="#lmw">Large domestic waterfowl raised as poultry. Kept for their eggs, meat, and feathers, they may also be used as guard or watch animals. One of the earliest domesticated birds. In Europe, domestic breeds descend from the wild greylag goose.</note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/ducks-geese-and-swans/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Anser_anser"/>
+                  </note>
+               </item>
                <item xml:id="grasshopper">
                   <name>grasshopper</name>
                   <name type="order">Orthoptera</name>
@@ -24358,6 +25462,44 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note>
                      <ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/>
+                  </note>
+               </item>
+               <item xml:id="greyhound">
+                  <name>greyhound</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <note resp="#lmw">A <q>sighthound</q> originally bred for coursing game using their acute vision, agility, and speed. Later employed as a sporting dog for racing. A tall, shorted-haired slender dog with long muzzle, legs and tail, and a characteristic <q>S-shaped</q> body. May have a variety of coat colors including blue (grey), white, black, red, light tan (fawn) or black; and may also have patterned markings such as spots or brindle coats. Traditionally leashed in pairs for coursing and in groups of three for other types of hunting. English greyhouds may have been imported into Europe and the UK with the Romans. The <orgName ref="#Webbs">Webbs</orgName> bred greyhounds and coursed hares with them with the <orgName ref="#Mitfords">Mitfords</orgName>. The <orgName ref="#Mitfords">Mitford family</orgName> owned many greyhounds, including <persName ref="#May_Fly">May-Fly</persName>, <persName ref="#Mossy_pet">Mossy</persName>, and <persName ref="#Miranda_pet">Miranda</persName>.</note>
+                  <note><ptr target="www.thekennelclub.org.uk"/></note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Wolstenholme_Greyhounds_Coursing.jpg"/>
+                  </note> <!--https://www.the-saleroom.com/en-gb/auction-catalogues/hansons/catalogue-id-hanson10429/lot-4cc2e179-8206-4ea0-bb08-aeb500a9ce32-->
+               </item>
+               <item xml:id="guineahen">
+                  <name>domestic guineafowl</name>
+                  <name type="species">Numida meleagris</name>
+                  <name type="genus">Numida</name>
+                  <name type="family">Numididae</name>
+                  <note resp="#lmw">The helmeted guineafowl, native to subSaharan Africa, is also raised domestically as a game bird for meat and eggs. Males are called <q>roosters</q> and females are called <q>hens</q>.</note>
+                  <note>
+                     <ptr target="https://guineas.com/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Numida_meleagris"/>
+                  </note>
+               </item>
+               <item xml:id="hare">
+                  <name>brown hare</name>
+                  <name type="species">Lepus europaeus</name>
+                  <name type="genus">Lepus</name>
+                  <name type="family">Leporidae</name>
+                  <name><addName>European hare</addName></name>
+                  <note resp="#lmw">Hares and jackrabbits are wild members of the rabbit family. Brown hares are small, furry mammals with golden brown fur with white underbellies and tails and black-tipped ears. They have longer ears and more powerful legs than European rabbits and live alone or in pairs, rather than in groups. Thought to be introduced into Britain from Eurasia with the Romans or earlier.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/brown-hare"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Lepus_europaeus"/>
                   </note>
                </item>
                <item xml:id="hornet">
@@ -24375,6 +25517,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Vespa_crabro"/>
                   </note>
+               </item>
+               <item xml:id="horse">
+                  <name>horse</name>
+                  <name type="species">Equus ferus caballus</name>
+                  <name type="genus">Equus</name>
+                  <name type="family">Equidae</name>
+                  <note resp="#lmw">Domesticated horse; different breeds are all considered of the same species. There are seventeen breeds of horses and ponies considered native to the UK, including the English thoroughbred, a racing and riding breed descended from Arabian stock; the Hackney, a trotter; and Clydesdales and Shires, bred for heavy pulling and farm work. The stud book for UK horses is kept by Weatherbys.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Equus_ferus_caballus"/>
+                  </note>
+                  <note><ptr target="https://www.countrylife.co.uk/out-and-about/sporting-country-pursuits/shetlands-shires-native-horse-breeds-britain-91125/"/></note>
                </item>
                <item xml:id="kingfisher">
                   <name>common kingfisher</name>
@@ -24410,6 +25563,30 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#mq #lmw">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis
                      chocolatinus), a bird species in the family Timaliidae.</note>
                </item>
+               <item xml:id="mongrel">
+                  <name>mongrel dog</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <note resp="#lmw">Term used in the UK for mixed or indeterminate breed dogs.</note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Breeding,_training,_management,_diseases_and_c._of_dogs-_(1877)_(14780675174).jpg"/>
+                  </note>
+               </item>
+               <item xml:id="Newfoundland_dog">
+                  <name>Newfoundland dog</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <name><addName>Landseer</addName></name>
+                  <note resp="#lmw">Large, muscular working dog with a thick coat and webbed feet. Developed in eastern Canada to assist fishermen, they are genetically related to Irish water spaniels, Labrador retrievers, and Curly-Coated retrievers. Landseer or <q>European Continental Type</q> dogs with black and white coats, named for the English artist, also exist, and may be a separate breed. Sweet-tempered and loyal, they good with children and became known as <q>nanny dogs</q>. <q>Nana</q>, from Barrie's <title level="m">Peter Pan</title>, was based on a black and white Landseer-type dog owned by Barrie.</note>
+                  <note>
+                     <ptr target="www.thekennelclub.org.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Landseer,_Edwin_Henry_(Sir,_RA)_-_Lion-_A_Newfoundland_Dog_-_Google_Art_Project.jpg"/>
+                  </note>
+               </item>
                <item xml:id="nightingale">
                   <name>nightingale</name>
                   <name type="species">Luscinia megarhynchos</name>
@@ -24422,6 +25599,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Luscinia_megarhynchos"/>
                   </note>
+               </item>
+               <item xml:id="ox">
+                  <name>oxen</name>
+                  <name type="species">Bos taurus</name>
+                  <name type="genus">Bos</name>
+                  <name type="family">Bovidae</name>
+                  <note resp="#lmw">Large, domesticated grazing animals, often castrated bullocks of larger cattle breeds such as Sussex. Called <q>ox</q> and <q>oxen</q> when trained as draught animals to pull carts or plows. Usually yoked to work in pairs.</note>
                </item>
                <item xml:id="partridge">
                   <name>grey partridge</name>
@@ -24442,6 +25626,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ptr target="https://species.wikimedia.org/wiki/Perdix_perdix"/>
                   </note>
                </item>
+               <item xml:id="peacock">
+                  <name>peacock</name>
+                  <name type="species">Pavo cristatus</name>
+                  <name type="genus">Pavo</name>
+                  <name type="family">Phasianidae</name>
+                  <name><addName>Indian peafowl</addName></name>
+                  <name><addName>Indian blue peafowl</addName></name>
+                  <name><addName>common peacock</addName></name>
+                  <note resp="#lmw">Native to the Indian subcontinent, widely introduced as domestic birds elsewhere. In the 19th century, kept in zoos and menageries as well as living ornaments to large gardens and estates. Domestic birds may be raised for meat, and their shed tailfeathers are prized for decorative uses. Omnivorous foragers that roost at night, feral birds can adapt to human habitation, roosting on buildings and foraging discarded food and other refuse. Males are known as <q>peacocks</q> and females as <q>peahens</q>, although both are commonly referred to as <q>peacocks</q>.</note>
+                  <note>
+                     <ptr target="https://www.peacocksuk.com/peacock-information/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Pavo_cristatus"/>
+                  </note>
+               </item>
                <item xml:id="pheasant">
                   <name>pheasant</name>
                   <name type="species">Phasianus colchicus</name>
@@ -24456,6 +25656,96 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Phasianus_colchicus"/>
+                  </note>
+               </item>
+               <item xml:id="pig">
+                  <name>domestic pig</name>
+                  <name type="species">Sus domesticus</name>
+                  <name type="genus">Sus</name>
+                  <name type="family">Suidae</name>
+                  <name><addName>swine</addName></name>
+                  <name><addName>hog</addName></name>
+                  <note resp="#lmw">Large omnivorous domestic animal kept as livestock primarily for meat, but pig's bristles and hide are also used. Likely domesticated from wild boar in three separate areas: first in the Near East and China and later in Europe. By the 19th century, native UK breeds included: Tamworth, Large White, Large Black, British Lop, Berkshire, and Oxford Sandy and Black. The Berkshire is considered the oldest British breed; it's a stocky, medium-sized black pig with white patches and legs. The Oxford Sandy and Black developed in Oxfordshire in the 18th century; it's a medium-sized pig with reddish, sandy-colored skin and black patches.</note>
+                  <note>
+                     <ptr target="https://www.britishpigs.org.uk/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Sus_scrofa_domesticus"/>
+                  </note>
+               </item>
+               <item xml:id="pony">
+                  <name>pony</name>
+                  <name type="species">Equus ferus caballus</name>
+                  <name type="genus">Equus</name>
+                  <name type="family">Equidae</name>
+                  <note resp="#lmw">Small breeds of horse, often with stocky and heavy body types with round heads and shorter legs as well as thicker manes and tails. In the 19th century, used for pulling light vehicles, as mounts for women and children, They were also used as ack animals, such as the <soCalled>pit ponies</soCalled> used in British mining, bred from Hills and Dales ponies of the North of England. So-called polo ponies are usually standard-sized horses. There are seventeen breeds of horses and ponies considered native to the UK, including the Shetland pony.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Equus_ferus_caballus"/>
+                  </note>
+                  <note><ptr target="https://www.countrylife.co.uk/out-and-about/sporting-country-pursuits/shetlands-shires-native-horse-breeds-britain-91125/"/></note>
+               </item>
+               <item xml:id="pug">
+                  <name>pug</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <note resp="#lmw">Companion animal bred in China and popularized in European courts from the 16th century and later by Queen Victoria. Small dog with a wrinkly, short-haired coat, distinctive short muzzle, and curly tail. They are mostly light brown or red (fawn or apricot) with black markings. Until the 1860s, when more compact, shorter-legged Chinese pugs were imported, English pugs were longer, leaner, and less stocky. European pugs may have been bred with another popular royal lapdog breed, the King Charles spaniel, which contributed to the shorter muzzles of that breed. A fictional pug name <persName>Daphne</persName> appears in one of the Mitford's stories; this dog is described as <quote>a particularly ugly, noisy pug, that barked at every body that came into the house, and bit at most</quote>.</note>
+                  <note><ptr target="www.thekennelclub.org.uk"/></note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Henry_Bernard_Chalon_-_A_favourite_Pug_bitch_(1802).jpg"/>
+                  </note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:William_Hogarth_self-portrait_1745_Tate_Britain.jpg"/>
+                  </note>
+               </item>
+               <item xml:id="rabbit">
+                  <name>rabbit</name>
+                  <name type="species">Oryctolagus cuniculus</name>
+                  <name type="genus">Oryctolagus</name>
+                  <name type="family">Leporidae</name>
+                  <name><addName>European rabbit</addName></name><name><addName>coney</addName></name>
+                  <note resp="#lmw">Small, grey-brown furry mammal that lives in groups in networks of underground burrows. Same species as domesticated rabbits, and raised for meat, fur, and as companion animals. Traditionally the fur has been felted for hats as well as used to line garments. The meat was an important staple in the diet of the poorer classes, purchased, hunted or trapped, sometimes in violation of game and enclosure laws enacted from the 18th century forward. Prefer grasslands with nearby treelines or hedges. Native to the Iberian peninsula and southern France, but has been widely introduced elsewhere. UK rabbits are believed to have come with the Normans and populations increased during the eighteenth-century with changing agricultural methods such as predator control and field crop farming.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/rabbit"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Oryctolagus_cuniculus"/>
+                  </note>
+               </item>
+               <item xml:id="rat_brown">
+                  <name>brown rat</name>
+                  <name type="species">Rattus norvegicus</name>
+                  <name type="genus">Rattus</name>
+                  <name type="family">Muridae</name>
+                  <name><addName>Norway rat</addName></name>
+                  <name><addName>common rat</addName></name>
+                  <name><addName>sewer rat</addName></name>
+                  <name><addName>street rat</addName></name>
+                  <name><addName>wharf rat</addName></name>
+                  <name><addName>Hanover rat</addName></name>
+                  <note resp="#lmw">Large grey-brown rodent with a scaly tail, an omnivorous burrowing rat that prefers damp habitats and so is well-adapted to human habitation since the Industrial Revolution, including brick and tile buildings and sewers. The most common rat in Europe and North America, likely originiating in north or central Asia. Called the <q>Norway rat</q> or the <q>Hanover rat</q> from erroneous beliefs about their origin outside the UK. Written evidence exists of their presence in Europe by the 1550s and in the UK by the early eighteenth century, becoming widespread by the early 19th century. Fancy (pet) rats and laboratory rats are domesticated subspecies of this wild rat.</note>
+                  <note>
+                     <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/mammals/brown-rat"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Rattus_norvegicus"/>
+                  </note>
+               </item>
+               
+               <item xml:id="rat_black">
+                  <name>black rat</name>
+                  <name type="species">Rattus rattus</name>
+                  <name type="genus">Rattus</name>
+                  <name type="family">Muridae</name>
+                  <name><addName>roof rat</addName></name>
+                  <name><addName>ship rat</addName></name>
+                  <name><addName>house rat</addName></name>
+                  <note resp="#lmw">Medium-sized black to light brown rodent with a lighter underside and a scaly tail, an omnivorous arboreal rat that prefers dry habitats and so is well-adapted to pre-industrial human settings, including wood and thatched buildings. The most common rat in Europe and North America from the Roman conquest to the eighteenth century, likely originiating in southeast Asia. Displaced by the larger brown rat through increased urbanization, industrialization, and pest control. Now nearly eradicated in the UK.</note>
+                  <note>
+                     <ptr target="https://www.mammal.org.uk/species-hub/full-species-hub/discover-mammals/species-black-rat/#"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Rattus_rattus"/>
                   </note>
                </item>
                <item xml:id="robin">
@@ -24505,6 +25795,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Corvus_frugilegus"/>
+                  </note>
+               </item>
+               <item xml:id="sheep">
+                  <name>sheep</name>
+                  <name type="species">Ovis aries</name>
+                  <name type="genus">Ovis</name>
+                  <name type="family">Bovidae</name>
+                  <note resp="#lmw">Domesticated grazing animals kept as livestock for their fleece and milk, and as meat. One of the earliest domesticated animals, descended from the mouflon of Europe and Asia. The UK continues to be a center of sheep production, as it was in the 19th century and earlier. Sheep feature in pastoral art and literature, fables and nursery rhymes, as well as in ancient world mythology and Abrahamic religions.</note>
+                  <note>
+                     <ptr target="https://www.nationalsheep.org.uk/index.php"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Ovis_aries"/>
                   </note>
                </item>
                <item xml:id="shore_lark">
@@ -24578,6 +25881,76 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Cygnus_olor"/>
+                  </note>
+               </item>
+               <item xml:id="spaniel">
+                  <name>spaniel</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <note resp="#lmw">In Mitford's time, spaniels were classified as land or water types, and as springer (larger) and cocker (smaller) types, although springers and cockers may have come from the same litter. They are gun dogs bred to flush or <q>spring</q> game birds. They were also used to hunt rabbits, sometimes alongside greyhounds. They may have solid or parti-colored coats in black, liver, red, or golden, with tan masking and trim, roan patching, or <q>ticked</q> spots.  The most common color is liver (dark brown/chocolate) and white. The Sussex spaniel, first recorded in 1795, is a stocky spaniel with a distinctive golden-brown colored coat and hazel eyes. The spaniel, <persName>Flush</persName>, gifted by Mitford to <persName ref="#Barrett_E">Elizabeth Barrett Browning</persName>, had a golden-brown coat and hazel eyes, as described in her poem <title level="a">To Flush, My Dog</title>. <persName ref="#Molly_pet">Molly</persName> was a white spaniel with a wavy coat, perhaps with water spaniel ancestry. The <orgName ref="#Mitfords">Mitfords</orgName> raised and bred spaniels kept as companion animals and for coursing; these included several dogs named <persName ref="#Flush_pet">Flush</persName>. <persName ref="#MRM">Mitford</persName> records that one brown spaniel anmed Flush accompanied her father into a Reading theatre: <quote>Flush, with his paws on the front of the box, his large earnest eyes fixed on the actors, and his long silky ears brought forward on either side of his face, as is the custom of those intelligent dogs on great occasions, looked and listened all through the piece with a sedate fixity of attention, which greatly endangered the gravity of the persons on the stage</quote>.</note>
+                  <note>
+                     <ptr target="http://www.thecockerspanielclub.co.uk/index.htm"/>
+                  </note>
+                  <note>
+                     <ptr target="www.thekennelclub.org.uk"/>
+                  </note>
+                  <note><ptr target="https://commons.wikimedia.org/wiki/File:111._English_and_Welsh_Cocker.JPG"/>
+                  </note>
+               </item>
+               <item xml:id="squirrel">
+                  <name>squirrel</name>
+                  <name type="species">Sciurus vulgaris</name>
+                  <name type="genus">Sciurus</name>
+                  <name type="family">Sciuridae</name>
+                  <name><addName>red squirrel</addName></name>
+                  <note resp="#lmw">Tree squirrel with tufted ears native to Europe, Asia, and the UK. North American red squirrels are pine squirrels, genus Tamiasciurus, a different genus and species.</note>
+                  <note>
+                     <ptr target="https://scottishsquirrels.org.uk/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Sciurus_vulgaris"/>
+                  </note>
+               </item> 
+               <item xml:id="terrier">
+                  <name>terrier</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <note resp="#lmw">In the 19th century, terriers were categorized as short- or long-legged, as well as categorized informally by function, such as rat terrier or fox terrier. UK terrier breeds appear in a range of sizes and coat types, and were originally bred to be fearless and agile in order hunt vermin (rats, foxes) underground. Terriers were used in blood sports such as rat-catching. Terriers and bulldog-terrier mixes were also used in dogfighting. Two notable heritage breeds, now extinct, include the black-and-tan terrier and the English white terrier. A terrer named <persName ref="#Viper_pet_OV">Viper</persName> appears in one of Mitford's stories.</note>
+                  <note>
+                     <ptr target="www.thekennelclub.org.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="ommons.wikimedia.org/wiki/Category:Old_English_Terrier#/media/File:Black-Tan_Terrier_BDL.jpg"/>
+                  </note>
+                  <note><ptr target="ommons.wikimedia.org/wiki/File:The_young_sportsman%27s_manual_-_or,_recreations_in_shooting;_with_some_account_of_the_game_found_in_the_British_Islands,_and_practical_directions_for_the_management_of_dog_and_gun_(1849)_(14769934271).jpg"/></note>
+               </item>
+               <item xml:id="trout">
+                  <name>brown trout</name>
+                  <name type="species">Salmo trutta</name>
+                  <name type="genus">Salmo</name>
+                  <name type="family">	Salmonidae</name>
+                  <note resp="#lmw">The only trout native to the UK, their native range extends from Norway in the north, west to Iceland and east to the Aral Sea. Varieties include sea-run forms, which return to fresh water to spawn; river trout, and lake trout. British angling works refer to this species. Other species of trout were not introduced into the UK until the late 19th century.</note>
+                  <note>
+                     <ptr target="trout.co.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Salmo_trutta"/>
+                  </note>
+               </item>
+               <item xml:id="turkey">
+                  <name>turkey</name>
+                  <name type="species">Meleagris gallopavo domesticus</name>
+                  <name type="genus">Meleagris</name>
+                  <name type="family">Phasianidae</name>
+                  <name><addName>domestic turkey</addName></name>
+                  <note resp="#lmw">Large domestic fowl raised as poultry. Breeds descend from a subspecies from central Mexico, domesticated by ancient Mesoamericans and imported by the Spanish into Europe. Brought to England in the 16th century and imported back to North America with British colonization. Remained a rare, luxury holiday meat in the UK until the 20th century; goose or beef were more common.</note>
+                  <note>
+                     <ptr target="https://britishturkey.org.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Meleagris_gallopavo"/>
                   </note>
                </item>
                <item xml:id="turtle_dove">
