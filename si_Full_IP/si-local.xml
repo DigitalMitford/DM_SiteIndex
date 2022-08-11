@@ -2603,8 +2603,8 @@
                </org>
                <org xml:id="Newberys">
                   <orgName>the Newbery family</orgName>
-                  <orgName>Newberys</orgName>
-                  <orgName><addName>Newberrys</addName></orgName>                   <orgName><surname>Newbery</surname></orgName>
+                  <orgName><surname>Newbery</surname></orgName>
+                  <orgName><addName>Newberrys</addName></orgName>                   
                   <note resp="#lmw">The family of <persName ref="#Newbery_J">Jacob Newbery</persName>. Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
                </org>
                <org xml:id="New_Model_Army">
@@ -12579,7 +12579,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Letchworth</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">Associated with <placeName ref="#Reading">Reading</placeName>. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Lewington_Mr" sex="m">
                   <persName>Mr. Lewington</persName>
@@ -13217,7 +13217,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <surname type="married">Marsh</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">Likely the spouse of <persName ref="#Marsh_Henry">Harry Marsh</persName>. Associated with <placeName ref="#Reading">Reading</placeName>. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw">Likely the spouse of <persName ref="#Marsh_Henry">Harry Marsh</persName>. Associated with <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
                </person>
                <person xml:id="Marshall_Alan" sex="m">
                   <persName>Alan Marshall</persName>
@@ -14410,11 +14410,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/76324981/"/>
                   </note>
                </person>
-               <person xml:id="Newberry_J" sex="m">
-                  <persName>Jacob Newberry</persName>
+               <person xml:id="Newbery_J" sex="m">
+                  <persName>Jacob Newbery</persName>
                   <persName>
                      <forename>Jacob</forename>
-                     <surname>Newberry</surname>
+                     <surname>Newbery</surname>
                   </persName>
                   <occupation type="legal" subtype="solicitor"/>
                   <note resp="#scw #lmw">Solicitor at various addresses in Lincoln Inn Fields, London; and at Friar Street, Reading. He was an articled clerk in Abingdon. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63. According to <persName ref="#Needham_Francis">Francis Needham</persName>, a solicitor. <persName ref="#coles">Coles</persName> identifies him as <quote>Jacob Newberry, attorney, of 35 Great Queen Street Lincoln’s Inn Fields [London] and Friar Street, Reading</quote> (#17, p. 109, note 32). Mentioned as a Reading solicitor of Mitford's acquaintance in John Mitchell's <title level="m">Recollections, Political, Literary, Dramatic, and Miscellaneous: Of the Last Half-century, Containing Anecdotes and Notes of Persons of Various Ranks Prominent in Their Vocations, with Whom the Writer was Personally Acquainted</title> (London:  C. Mitchell, 1856: 77-79). Dates unknown. <!-- LMW:  No VIAF #. --></note>
@@ -15099,8 +15099,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="translator"/>
                   <occupation type="literary" subtype="essayist"/>
                   <occupation type="scholar"/>
-                  <occupation type="medical" subtype="dentist"/>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1854">1854</date>. Notable Italian language scholar and translator of <persName ref="#Dante">Dante</persName>.</note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1854">1854</date>. Notable Italian language scholar and translator of <persName ref="#Dante">Dante</persName>. Worked as a dentist.</note>
                   <note>
                      <ptr target="http://viaf.org/viaf/40860640"/>
                   </note>
@@ -15120,7 +15119,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="literary" subtype="biographer"/>
                   <note resp="#ajc #lmw">Frequent periodical contributer. In the early 1820s, he
-                     authored, <title level="m">Picture Galleries of England,</title> a series of art criticism essays in
+                     authored <title level="m">Picture Galleries of England,</title> a series of art criticism essays in
                      the <title ref="#New_Monthly_Mag">New Monthly Magazine</title>. In
                      1821 Patmore acted as second to journalist <persName ref="#Scott_John">John
                         Scott</persName> in the duel in which Scott was killed. Tried for murder and
@@ -29080,6 +29079,245 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>Nick Hern</publisher>
                   <date when="2012"/>
                </bibl>
+               <bibl xml:id="WestonGrove_1827">
+                  <title level="a">Weston Grove: A Descriptive Poem [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Narrative poem</note>
+               </bibl>
+               <bibl xml:id="WrittenOct1825_1827">
+                  <title level="a">Written October, 1825 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">316</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 22 in the 1827 collection <biblScope unit="pp">(page 316)</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Amulet">Amulet</title> as <title level="a">Sonnet. By Miss Mitford</title><biblScope unit="pp">(page 236)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="FriendToLisbon_1827">
+                  <title level="a">On the Departure of a Friend to Lisbon for the Recovery of Her Health [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">315</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 21 in the 1827 collection <biblScope unit="pp">(page 315)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="IntendedRemoval_1827">
+                  <title level="a">On an Intended Removal From a Favourite Residence. November, 1820 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">314</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 20 in the 1827 collection <biblScope unit="pp">(page 314)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> <biblScope unit="pp">(page 81)</biblScope></bibl> signed <q>M</q>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenAfterVisit_1827">
+                  <title level="a">Written After a Visit From Some Friends [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">313</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 19 in the 1827 collection <biblScope unit="pp">(page 313)</biblScope>.</bibl></note>
+               </bibl>
+               
+               <bibl xml:id="FriendsAlbum_1827">
+                  <title level="a">Written in a Friend's Album [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">310</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 17 in the 1827 collection <biblScope unit="pp">(page 310)</biblScope></bibl>. Also appeared in <bibl><title ref="#Marshalls_Christmas">Marshall's Christmas Box</title> in <date when="1831">1831</date></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="LeavingPicture_1827">
+                  <title level="a">On Leaving a Favourite Picture [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">309
+                  </biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 16 in the 1827 collection <biblScope unit="pp">(page 309)</biblScope></bibl>. Appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet. On a Landscape by Mr. Hofland</title><biblScope unit="pp">(page 392)</biblScope></bibl>. Later appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 233)</biblScope>.</bibl></note></bibl>
+               
+               <bibl xml:id="FriendBirthday_1827">
+                  <title level="a">To a Friend on Her Birthday [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">308</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 15 in the 1827 collection <biblScope unit="pp">(page 308)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> <biblScope unit="pp">(page 369)</biblScope></bibl> signed <q>M</q>.</note>
+               </bibl>
+               
+               <bibl xml:id="FishingSeat_1827">
+                  <title level="a">The Fishing-Seat, Whiteknights [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">307</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 14 in the 1827 collection <biblScope unit="pp">(page 307)</biblScope></bibl>. Also appeared in the <bibl><date when="1827">1827</date> <title ref="#Lit_Souvenir">Literary Souvenir</title> <biblScope unit="pp">(page 287)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HearingTalfourd_1827">
+                  <title level="a">On Hearing Mr. Talfourd Plead in the Assize-Hall at Reading, On His First Circuit, March 1821 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">306</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 13 in the 1827 collection <biblScope unit="pp">(page 306)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="TwoHoflandLandscapes_1827">
+                  <title level="a">On Two of Mr. Hofland's Landscapes [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">305</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 12 in the 1827 collection <biblScope unit="pp">(page 305)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="NewYearsDay_1827">
+                  <title level="a">New Year's Day. 1819 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">304</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 11 in the 1827 collection <biblScope unit="pp">(page 304)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="EnglefieldHouse_1827">
+                  <title level="a">Englefield House [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">303</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 10 in the 1827 collection <biblScope unit="pp">(page 303)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMrHaydon_Nature_1827">
+                  <title level="a">To Mr. Haydon, On a Study From Nature [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">302</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 9 in the 1827 collection <biblScope unit="pp">(page 302)</biblScope></bibl>. Also appeared in the <bibl><date when="1817-07-19">July 19, 1817</date> <title ref="#Lit_Gazette">Literary Gazette</title> as <title level="a">To Mr. Haydon</title> dated <date when="1817-05-21">21st May, 1817</date> <biblScope unit="pp">(page 41)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToMissPorden_1827">
+                  <title level="a">To Miss Porden: On Her Poem of COEUR DE LION [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">301</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 8 in the 1827 collection <biblScope unit="pp">(page 301)</biblScope></bibl>. Also appeared in the <bibl><date when="1822-08-17">August 17, 1822</date> <title ref="#Lit_Gazette">Literary Gazette</title> under the same title, dated <date when="1822-06-10">June 10, 1822</date> <biblScope unit="pp">(page 519)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BeautifulWoman_1827">
+                  <title level="a">On a Beautiful Woman [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">300</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 7 in the 1827 collection <biblScope unit="pp">(page 300)</biblScope></bibl>. Also appeared in the <bibl><date when="1822">1822</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as Sonnet. <biblScope unit="pp">(page 192)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="MotherSleeping_1827">
+                  <title level="a">To My Mother Sleeping [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">299</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 6 in the 1827 collection <biblScope unit="pp">(page 299)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="WrittenJuly1824_1827">
+                  <title level="a">Written July, 1824 [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">298</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 5 in the 1827 collection <biblScope unit="pp">(page 298)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ToHenryRichardson_1827">
+                  <title level="a">To Mr. Henry Richardson. On His Performance of Admetus in the Alcestis of Euripides as Represented in the Original Greek at Reading School [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">296-97</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 4 in the 1827 collection <biblScope unit="pp">(pages 296-97)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="ForgetMeNot_1827">
+                  <title level="a">The Forget-Me-Not [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">295</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 3 in the 1827 collection <biblScope unit="pp">(page 295)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="HoflandsJerusalem_1827">
+                  <title level="a">On Mr. Hofland's Picture of Jerusalem at the Time of the Crucifixion [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">294</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 2 in the 1827 collection <biblScope unit="pp">(page 294)</biblScope></bibl>. Also appeared in the <bibl><date when="1826">1826</date> <title ref="#Amulet">Amulet</title> as <title level="a">Sonnet: Jerusalem</title> <biblScope unit="pp">(page 329)</biblScope></bibl>.</note>
+               </bibl>
+               
+               <bibl xml:id="BlankPaperBook_1827">
+                  <title level="a">Written in a Blank-Paper Book Given to the Author by a Friend [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">293</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 1 in the 1827 collection <biblScope unit="pp">(page 293)</biblScope></bibl>. Also appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet. Written in a Blank Paper Book Given To the Author by a Friend</title><biblScope unit="pp">(page 387)</biblScope></bibl>.</note>
+               </bibl>
                <bibl xml:id="Abbot_WS">
                   <title level="m">The Abbot</title>
                   <author ref="#Scott_Wal">Walter Scott</author>
@@ -29433,22 +29671,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </bibl>
                   </note>
                </bibl>
-               <bibl xml:id="BeautifulWoman_1827">
-                  <title level="a">On a Beautiful Woman</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">300</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 7 in the 1827 collection <biblScope unit="pp">(page 300)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Beauty_MRM">
                   <title level="a">Beauty: An Ode.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
@@ -29685,22 +29908,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1827">1827</date>
                   <bibl corresp="#NarrativePoems"/>
                </bibl>
-               <bibl xml:id="BlankPaperBook_1827">
-                  <title level="a">Written in a Blank-Paper Book Given to the Author by a Friend</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">293</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 1 in the 1827 collection <biblScope unit="pp">(page 293)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="BlindMansStory_1811">
                   <title level="a">The Blind Man's Story.</title>
                   <title level="m">Poems: Second Edition with Considerable Additions</title>
@@ -30931,6 +31139,16 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <bibl corresp="#WrittenJuly1824_1827"/>
                   <bibl corresp="#WrittenOct1825_1827"/>
                </bibl>
+               <bibl xml:id="DonningtonCastle_1827">
+                  <title level="a">On Visiting Donnington Castle [1827 version]</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher><orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName></publisher>
+                  <date when="1827"/>
+                  <biblScope unit="pp">311-12</biblScope>
+                  <note resp="#slc #lmw"><bibl>Sonnet 18 in the 1827 collection <biblScope unit="pp">(pages 311-12)</biblScope>.</bibl> Also appeared in the <bibl><date when="1821">1821</date> <title ref="#New_Monthly_Mag">New Monthly Magazine</title> as <title level="a">Sonnet on Visiting Donnington Castle</title><biblScope unit="pp">(page 532)</biblScope></bibl>.</note>
+               </bibl>
                <bibl xml:id="Early_Rec_Caroline_Cleveland_OV">
                   <title level="a" ref="#Early_Rec_Caroline_Cleveland_OV">Early Recollections. Caroline Cleveland [Our Village version]</title>
                   <title level="a" type="alt">Caroline Cleveland; A School-Day Anecdote</title>
@@ -31207,22 +31425,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">1 </biblScope>: <biblScope unit="page" from="32" to="36">32-36</biblScope>.</bibl>
                   </note>
                </bibl>
-               <bibl xml:id="EnglefieldHouse_1827">
-                  <title level="a">Englefield House</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">303</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 10 in the 1827 collection <biblScope unit="pp">(page 303)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Epilogue_Orestes_TNT">
                   <title level="m">Epilogue to Orestes by Euripides</title>
                   <author ref="#Talfourd_Thos"/>
@@ -31589,26 +31792,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_5th">volume five of <title ref="#OV">Our Village</title>
                      </title>in <date when="1832">1832</date>. It is a second part to <title ref="#Freshwater_Fisherman_OV">The Freshwater Fisherman</title>. As such, that story and this were republished together in <date when="1846">1846</date> in <title ref="#Edinburgh_Tales">The Edinburgh Tales</title>, where <title ref="#Fisherman_in_Married_State_OV">The Fisherman in His Married State</title> was retitled <title level="m">Adam Stokes in His Married State</title>.</note>
                </bibl>
-               <bibl xml:id="FishingSeat_1827">
-                  <title level="a">The Fishing-Seat, Whiteknights</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">307</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 14 in the 1827 collection <biblScope unit="pp">(page 307)</biblScope>
-                     </bibl>. Also appeared in the <bibl>
-                        <date when="1827">1827</date>
-                        <title ref="#Lit_Souvenir">Literary Souvenir</title>
-                        <biblScope unit="pp">(page 287)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+              
                <bibl xml:id="Flirtation_Extraordinary_BR">
                   <title level="a" ref="#Flirtation_Extraordinary_BR">Flirtation Extraordinary</title>
                   <title level="a" type="alt">A Sentimental Adventure</title>
@@ -31624,22 +31808,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1818">1818</date>
                </bibl>
-               <bibl xml:id="ForgetMeNot_1827">
-                  <title level="a">The Forget-Me-Not</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">295</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 3 in the 1827 collection <biblScope unit="pp">(page 295)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Foscari_MRMplay">
                   <title level="m">Foscari: A Tragedy</title>
                   <author ref="#MRM"/>
@@ -31692,56 +31861,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      </title>in <date when="1832">1832</date>. It also appeared in <title ref="#Royal_LadysMag">The Royal Lady's Magazine, and Archives of the Court of St. James</title> in <date when="1832-05">May 1832</date>, and was republished in <date when="1846">1846</date>
                      <title ref="#Edinburgh_Tales">The Edinburgh Tales</title>. In the latter reprinting, the story ran in two parts, the second entitled, <title level="m">Adam Stoke in His Married State</title>.</note>
                </bibl>
-               <bibl xml:id="FriendBirthday_1827">
-                  <title level="a">To a Friend on Her Birthday</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">308</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 15 in the 1827 collection <biblScope unit="pp">(page 308)</biblScope>
-                     </bibl>.</note>
-               </bibl>
-               <bibl xml:id="FriendsAlbum_1827">
-                  <title level="a">Written in a Friend's Album</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">310</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 17 in the 1827 collection <biblScope unit="pp">(page 310)</biblScope>
-                     </bibl>. Also appeared in <bibl>
-                        <title ref="#Marshalls_Christmas">Marshall's Christmas Box</title> in <date when="1831">1831</date>
-                     </bibl>.</note>
-               </bibl>
-               <bibl xml:id="FriendToLisbon_1827">
-                  <title level="a">On the Departure of a Friend to Lisbon for the Recovery of Her Health</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">315</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 21 in the 1827 collection <biblScope unit="pp">(page 315)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="FudgeFamilyParis">
                   <title level="m">The Fudge Family in Paris</title>
                   <author>
@@ -32022,22 +32142,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m">Lectures on the Dramatic Literature of the Age of Elizabeth</title>
                   <author ref="#Hazlitt_Wm">William Hazlitt</author>
                </bibl>
-               <bibl xml:id="HearingTalfourd_1827">
-                  <title level="a">On Hearing Mr. Talfourd Plead in the Assize-Hall at Reading, On His First Circuit, March 1821</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">306</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 13 in the 1827 collection <biblScope unit="pp">(page 306)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Heart_of_Mid">
                   <title level="m">The Heart of Midlothian</title>
                   <author ref="#Scott_Wal">Walter Scott</author>
@@ -32132,25 +32237,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      reference to <persName ref="#Nicholson_Jeremiah">Jeremiah
                      Nicholson</persName>.</note>
                </bibl>
-               <bibl xml:id="HoflandsJerusalem_1827">
-                  <title level="a">On Mr. Hofland's Picture of Jerusalem at the Time of the Crucifixion</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">294</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 2 in the 1827 collection <biblScope unit="pp">(page 294)</biblScope>
-                     </bibl>.  Also appeared in the <bibl>
-                        <date when="1826">1826</date>
-                        <title ref="#Amulet">Amulet</title> as Sonnet: Jerusalem <biblScope unit="pp">(page 329)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Holcroft_Mems">
                   <title level="m">Memoirs of the Late Thomas Holcroft, Written by Himself and Continued to
                      the Time of His Death</title>
@@ -32394,22 +32481,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#Our_Village2nd">volume two of <title ref="#OV">Our Village</title>
                      </title> in <date when="1826">1826</date>.</note>
                </bibl>
-               <bibl xml:id="IntendedRemoval_1827">
-                  <title level="a">On an Intended Removal From a Favourite Residence. November, 1820</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">314</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 20 in the 1827 collection <biblScope unit="pp">(page 314)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Intro_DW">
                   <title level="a">Introduction</title>
                   <title level="m" ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title>
@@ -32676,6 +32748,21 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      Times</title>.</note>
                   <date when="1645">1645</date>
                </bibl>
+               <bibl xml:id="Lamb_Chas_NewStyleActing"><author ref="#Lamb_Chas">Charles Lamb</author>
+                  <title level="a">The New Style of Acting</title>
+                  <title level="m" ref="#Lamb_Chas_Works">The Works of Charles Lamb: Critical Essays</title>
+                  <biblScope unit="volume" n="3">vol. III</biblScope>
+                  <biblScope unit="page" from="40" to="42"/>
+               </bibl>
+               <bibl xml:id="Lamb_Chas_Works">
+                  <author ref="#Lamb_Chas">Charles Lamb</author>
+                  <editor>William MacDonald</editor>
+                  <title level="m" ref="#Lamb_Chas_Works">The Works of Charles Lamb: Critical Essays</title>
+                  <biblScope unit="volume" from="1" to="12">In twelve volumes</biblScope>
+                  <pubPlace>London</pubPlace>
+                  <publisher>J. M. Dent &amp; Co.</publisher>
+                  <date>1903</date>
+               </bibl>
                <bibl xml:id="Laodamia_WW">
                   <title level="a">Laodamia</title>
                   <author>
@@ -32686,27 +32773,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1815">1815</date>
                   <bibl corresp="#Poems_2vols_WW"/>
                </bibl>
-               <bibl xml:id="LeavingPicture_1827">
-                  <title level="a">On Leaving a Favourite Picture</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">309
-                </biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 16 in the 1827 collection <biblScope unit="pp">(page 309</biblScope>
-                     </bibl>. Also appeared in the <bibl>
-                        <date when="1827">1827</date>
-                        <title ref="#Lit_Souvenir">Literary Souvenir</title>
-                        <biblScope unit="pp">(page 233)</biblScope>.</bibl>
-                  </note>
-               </bibl>
+               
                <bibl xml:id="LecComic_WHaz">
                   <title level="m">Lectures on the English Comic Writers, delivered at the Surry
                      Institution</title>
@@ -33417,22 +33484,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <title level="m" ref="#OurVillage_CountryPictures_WalterScott">Our Village: Country Pictures</title>
                   <note resp="#scw">Subtitle of the <title ref="#OurVillage_3rd">Our Village, third volume</title> story, <title ref="#Wheat_Hoeing_OV">Wheat Hoeing</title>, that was adopted as the primary title in several posthumous collections.</note>
                </bibl>
-               <bibl xml:id="MotherSleeping_1827">
-                  <title level="a">To My Mother Sleeping</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">299</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 6 in the 1827 collection <biblScope unit="pp">(page 299)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Mr_Jos_Hanson_CS">
                   <title level="a" ref="#Mr_Jos_Hanson_CS">Mr. Joseph Hanson, the Haberdasher</title>
                   <title level="m" ref="#Country_Stories">Country Stories</title>
@@ -33591,22 +33643,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>W. Wright</publisher>
                   <date when="1819">1819</date>
                </bibl>
-               <bibl xml:id="NewYearsDay_1827">
-                  <title level="a">New Year's Day. 1819</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">304</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 11 in the 1827 collection <biblScope unit="pp">(page 304)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="NightmareAbbey">
                   <title level="m">Nightmare Abbey</title>
                   <author ref="#Peacock_TL">Thomas Love Peacock</author>
@@ -36400,22 +36437,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1846">1846</date>
                   <note resp="#lmw">First published in serial form in the French newspaper <title level="j">Le Siècle</title> between March and July 1844; by 1846, it had been adapted and translated into English by more than one publisher.</note>
                </bibl>
-               <bibl xml:id="ToHenryRichardson_1827">
-                  <title level="a">To Mr. Henry Richardson. On His Performance of Admetus in the Alcestis of Euripides as Represented in the Original Greek at Reading School </title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">296-97</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 4 in the 1827 collection <biblScope unit="pp">(pages 296-97)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="Tom_Cordery_LM">
                   <title level="a" ref="#Tom_Cordery_LM">Tom Cordery [Lady's Magazine version]</title>
                   <title level="j" ref="#Ladys_Mag">The Lady's Magazine</title>
@@ -36463,22 +36485,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>Longman, Hurst, Rees, Orme and Brown</publisher>
                   <date when="1819">1819</date>
                </bibl>
-               <bibl xml:id="ToMissPorden_1827">
-                  <title level="a">To Miss Porden</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">301</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 8 in the 1827 collection <biblScope unit="pp">(page 301)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="TomJones_HF">
                   <title level="m">The History of Tom Jones, A Foundling</title>
                   <author>
@@ -36487,22 +36494,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1749">1749</date>
                </bibl>
-               <bibl xml:id="ToMrHaydon_Nature_1827">
-                  <title level="a">To Mr. Haydon, On a Study From Nature</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">302</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 9 in the 1827 collection <biblScope unit="pp">(page 302)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="TomThumb_Fielding">
                   <author ref="#Fielding_Henry">Scriblerus Secundus</author>
                   <title level="m">Tom Thumb</title>
@@ -36627,22 +36619,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#scw">This sketch appeared in <title ref="#OurVillage_3rd">volume three of <title ref="#OV">Our Village</title>
                      </title> in <date when="1828">1828</date>.</note>
                </bibl>
-               <bibl xml:id="TwoHoflandLandscapes_1827">
-                  <title level="a">On Two of Mr. Hofland's Landscapes</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">305</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 12 in the 1827 collection <biblScope unit="pp">(page 305)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="TwopennyPost">
                   <title level="m">Intercepted Letters, or, the Twopenny Post-bag</title>
                   <author>
@@ -37393,19 +37370,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1811">1811</date>
                   <note resp="#lmw">1811 poem.</note>
                </bibl>
-               <bibl xml:id="WestonGrove_1827">
-                  <title level="a">Weston Grove: A Descriptive Poem</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <note resp="#slc #lmw">1827 narrative poem.</note>
-               </bibl>
+              
                <bibl xml:id="Wheat_Hoeing_OV">
                   <title level="a" ref="#Wheat_Hoeing_OV">Wheat Hoeing. A Morning Ramble [Our Village version]</title>
                   <title level="a" type="alt">A Morning Ramble</title>
@@ -37844,54 +37809,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1810">1810</date>
                   <note resp="#lmw">1810 poem. This title also published in <title ref="#Poems_2nd_ed_MRM">Poems: Second Edition with Considerable Additions</title>.</note>
                </bibl>
-               <bibl xml:id="WrittenAfterVisit_1827">
-                  <title level="a">Written After a Visit From Some Friends</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">313</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 19 in the 1827 collection <biblScope unit="pp">(page 313)</biblScope>.</bibl>
-                  </note>
-               </bibl>
-               <bibl xml:id="WrittenJuly1824_1827">
-                  <title level="a">Written July, 1824</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">298</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 5 in the 1827 collection <biblScope unit="pp">(page 298)</biblScope>
-                     </bibl>.</note>
-               </bibl>
-               <bibl xml:id="WrittenOct1825_1827">
-                  <title level="a">Written October, 1825</title>
-                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
-                  <author ref="#MRM"/>
-                  <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
-                  </pubPlace>
-                  <publisher>
-                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
-                  </publisher>
-                  <date when="1827"/>
-                  <biblScope unit="pp">316</biblScope>
-                  <note resp="#slc #lmw">
-                     <bibl>Sonnet 22 in the 1827 collection <biblScope unit="pp">(page 316)</biblScope>
-                     </bibl>.</note>
-               </bibl>
+               
                <bibl xml:id="WutheringHts">
                   <title level="m">Wuthering Heights
                   </title>
