@@ -286,231 +286,11 @@
                    https://commons.wikimedia.org/wiki/File:Angora_Cat.JPG
              -->
             
-            <list sortKey="plants"><!--fix-->
+            <list sortKey="plants">
                 
-               <item xml:id="wisteria">
-                  <name>wisteria</name>
-                  <name type="species">Wisteria</name>
-                  <name type="genus">Wisteria</name>
-                  <name type="family">Fabaceae</name>
-                  <note resp="#lmw">Group of woody climbing vines bearing cascading purple flower plumes, native to Asia and to the eastern US. The North American variety was catalogued in 1817; wisterias began to be imported into Europe and the UK as garden plants in the early nineteenth century. They are usually grown supported by walls, fences, or pergolas.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/popular/wisteria"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Wisteria"/></note>
-               </item>          
-                
-               <item xml:id="azalea"><!--fix-->
-                  <name>azalea</name>
-                  <name type="genus">Rhododendron</name>
-                  <name type="family">Ericaceae</name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw">Flowering shrub carrying abundantly showy red, pink, or white blooms in spring, related to rhododendrons. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hundreds of years. Native to Eurasia and North America. Introduced to the UK in the 19th century as a garden ornamental, it is now considered an invasive species.</note>
-                  <!--LMW: no wikispecies entry-->
-               </item>
-               
-               <item xml:id="rhododendron"><!--fix, copied from azalea?-->
-                  <name>rhododendron</name>
-                  <name type="species">Rhododendron ponticum</name>
-                  <name type="genus">Rhododendron</name>
-                  <name type="family">Ericaceae</name>
-                  <name><addName>common rhododendron</addName></name>
-                  <name><addName>pontic rhododendron</addName></name>
-                  <note resp="#lmw">Flowering shrub carrying abundantly showy round flower clusters in shades of mauve or lavender blooms in spring, related to azaleas. Grow in the understory of woodlands, and have been hybridized as garden shrubs for hudreds of years. Native to Eurasia and North America. Introduced to the UK in the 18th century as a garden ornamental, it is now considered an invasive species.</note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Rhododendron_ponticum"/></note>
-               </item>
-               
-               <item xml:id="cotton_grass">
-                  <name>cottongrass</name>
-                  <name type="species">Eriophorum angustifolium</name>
-                  <name type="genus">Eriophorum</name>
-                  <name type="family">Cyperaceae</name>
-                  <name><addName>cotton-grass</addName></name>
-                  <name><addName>cottonsedge</addName></name>
-                  <note resp="#lmw">Sedge that develops fluffy white heads.</note>
-                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/grasses-sedges-and-rushes/common-cotton-grass"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Eriophorum_angustifolium"/></note>
-               </item>
-               
-               <item xml:id="hearts_ease">
-                  <name>heart's-ease</name>
-                  <name type="species">Viola tricolor</name>
-                  <name type="genus">Viola</name>
-                  <name type="family">Violaceae</name>
-                  <name><addName>wild pansy</addName></name>
-                  <name><addName>Johhny Jump up</addName></name>
-                  <name><addName>Love-in_Idleness</addName></name>
-                 <note resp="#lmw">Wild pansy native to the UK.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/19017/viola-tricolor/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Viola_tricolor"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/Viola_tricolor#/media/File:Viola_tricolor_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v1.jpg"/></note>
-               </item>
-               
-               <item xml:id="snowdrop">
-                  <name>common snowdrop</name>
-                  <name type="species">Galanthus nivalis</name>
-                  <name type="genus">Galanthus</name>
-                  <name type="family">Amaryllidaceae</name>
-                  <name><addName>Galanthus</addName></name>
-                  <note resp="#lmw">Small white-flowered plant propagated by bulbs, native to Europe and the Middle East and widely naturalized elsewhere. Believed to be native to the UK since the 16th century. Flowers in late winter and early spring, around the vernal equinox and so is considered a harbinger of spring. May also symbolize purity, hope, or the Christian Holy Trinity. A frequent subject of 19th century poetry including works by <persName ref="#Landon_LE">Landon</persName> and <persName ref="#Wordsworth_Wm">Wordsworth</persName>.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/7568/galanthus-nivalis/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Galanthus"/></note>
-                  <note><ptr target="https://en.wikipedia.org/wiki/Galanthus#/media/File:Illustration_Galanthus_nivalis0.jpg"/></note>
-               </item>
-               
-               <item xml:id="hepatica">
-                  <name>hepatica</name>
-                  <name type="species">Anemone hepatica</name>
-                  <name type="genus">Anemone</name>
-                  <name type="family">Ranunculaceae</name>
-                  <name><addName>Hepatica nobilis</addName></name>
-                  <name><addName>liverleaf</addName></name>
-<name><addName>ivy flower</addName></name>
-                  <note resp="#lmw">Low-growing flowering plant with fleshy leaves and blue, purple, or pink flowers with showy white stamens. Flowers in late winter and early spring. Native to Europe and Asia and grown as a garden plant as well as naturalized in the UK.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/8645/hepatica-nobilis/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Hepatica_nobilis"/></note>
-               </item>
-               
-               <item xml:id="aconite">
-                  <name>winter aconite</name>
-                  <name type="species">Eranthis hyemalis</name>
-                  <name type="genus">Eranthis</name>
-                  <name type="family">Ranunculaceae</name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw">Tuberous, low-growing yellow flowering plant native to Europe and naturalized in the UK. One of the earliest woodland wildflowers, appearing in late winter. Unrelated to aconitum (monkshood).</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/6540/eranthis-hyemalis/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Eranthis_hyemalis"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/Eranthis_hyemalis#/media/File:The_Botanical_Magazine-Vol_I_Pl._3.jpg"/></note>
-               </item>
-               
-               <item xml:id="fuchsia">
-                  <name>fuchsia</name>
-                  <name type="species">fuchsia magellanica</name>
-                  <name type="genus">fuchsia</name>
-                  <name type="family">Onagraceae</name>
-                  <name><addName>fuschia</addName></name>
-                  <name><addName>hardy fuchsia</addName></name>
-                  <note resp="#lmw">Small upright or spreading flowering shrub, with showy, pendulous bi-colored blooms in combinations of red, pink, purple, and white sepals and petals. A large genus, native to the Carribbean islands, Mexico, central and South America. Now a widely grown garden shrub and pot plant. F. coccinea and F. magellanica, both from South America, were being cultivated in England by the late eighteenth century. Vineyard Gardens in Hammersmith, England introduced fuchsias to the gardening public, as well as introducing and popularizing imports such as the China rose and dahlia as garden plants.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/fuchsia/hardy"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Fuchsia_magellanica"/></note>
-                  <note>
-                     <ptr target="https://species.wikimedia.org/wiki/Fuchsia"/></note>
-               </item>
-               
-               <item xml:id="mignonette">
-                  <name>garden mignonette</name>
-                  <name type="species">Reseda odorata</name>
-                  <name type="genus">Reseda</name>
-                  <name type="family">Resedaceae</name>
-                  <note resp="#lmw">Tall, thin pale yellow flower spike growing from base leaves. Native to Europe, the Mediterranean region, and southwest Asia. In the 19th century, grown in gardens and windowboxes for its fragrance. Also used in perfumery, potpourri, and as a cut flower in arrangements. R. luteola, another species, was a source of yellow dye.</note>
-                <note><ptr target="https://www.rhs.org.uk/plants/82322/i-reseda-odorata-i/details"/></note>  
-                  <note><ptr target="https://species.wikimedia.org/wiki/Reseda"/></note>
-               </item>
-               
-               <item xml:id="hop_bines">
-                  <name>hop-bines</name>
-                  <name type="species">Humulus lupulus</name>
-                  <name type="genus">Humulus</name>
-                  <name type="family">Cannabaceae</name>
-                  <note resp="#lmw">Twining plant using stiff, hairy stems (bines) to climb. Flowers of the female plants are the source of hops, used in brewing to flavor beer.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/117193/i-humulus-lupulus-i-aureus-(f)/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Humulus"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Twining_Hop_(Humulus_lupulus).jpg"/></note>
-               </item>
-               
-               <item xml:id="wallflower">
-                  <name>common wallflower</name>
-                  <name type="species">Erysimum cheiri</name>
-                  <name type="genus">Erysimum</name>
-                  <name type="family">Brassicaceae</name>
-                  <note resp="#lmw">Flowering plant native to the Mediterranean basin and widely used as a garden plant for its showy, fragrant clusters of yellow-orange racemes.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/89218/erysimum-cheiri/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Erysimum_%C3%97_cheiri"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:30_Cheiranthus_cheiri_L.jpg"/></note>
-               </item>
-               
-               <item xml:id="myrtle">
-                  <name>common myrtle</name>
-                  <name type="species">Myrtus communis</name>
-                  <name type="genus">Myrtus</name>
-                  <name type="family">Myrtaceae</name>
-                  <name><addName>true myrtle</addName></name>
-                  <name><addName>European myrtle</addName></name>
-                  <note resp="#lmw">Evergreen flowering shrub bearing white flowers with many showy white stamens and dark blue edible berries. Native to the Mediterranean region and western Asia to India. Associated with Jewish, Greek, and Roman ritual and myth, symbolizing honor, prosperity, hope, and love. In early-modern Europe, the flowers became traditional in bride's bouquets because of their associations with love and happiness.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/11311/i-myrtus-communis-i/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Myrtus_communis_L."/></note>
-               </item>
-               
-               <item xml:id="buttercup">
-                  <name>common buttercup</name>
-                  <name type="species">Ranunculus acris</name>
-                  <name type="genus">Ranunculus</name>
-                  <name type="family">Ranunculaceae</name>
-                  <name><addName>Meadow buttercup</addName></name>
-                  <note resp="#slc #lmw">Perennial wildflower of medium height with small, shiny yellow flowers with prominent green or yellow sepals. Native to Eurasia but widely naturalized elsewhere.</note>
-                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/meadow-buttercup"/></note>
-                  <note><ptr target="https://en.wikipedia.org/wiki/Ranunculus_acris"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Ranunculus_acris_specimen_by_Joseph_Witry_in_the_Herbarium_LUX.jpg"/></note>
-               </item>
-               
-               <item xml:id="ranunculus">
-                  <name>ranunculus</name>
-                  <name type="species">Ranunculus asiaticus</name>
-                  <name type="genus">Ranunculus</name>
-                  <name type="family">Ranunculaceae</name>
-                  <name><addName>garden ranunculus</addName></name>
-                  <name><addName>Persian buttercup</addName></name>
-                  <note resp="#slc #lmw">Single-flowered red wildlflower with cup-shaped flowers, native to the Mediterranean region. Hybridized double-flowered forms in a variety of colors are used as garden plants, grown from tubers, and as cut flowers in floristry.</note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Ranunculus_asiaticus"/></note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/14341/ranunculus-asiaticus/details"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Gc19_ranunculus_asiaticus.jpg"/></note>
-               </item>
-               
-               <item xml:id="lavender">
-                  <name>lavender</name>
-                  <name type="species">Lavandula angustifolia</name>
-                  <name type="genus">Lavandula</name>
-                  <name type="family">Lamiaceae</name>
-                  <name><addName>English lavender</addName></name>
-                  <name><addName>common lavender</addName></name>
-                  <name><addName>garden lavender</addName></name>
-                  <note resp="#lmw">Medium-height evergreen flowering shrub with narrow leaves and pale purple flowers, native to the Mediterranean. Despite the common name <soCalled>English lavender</soCalled>, it not native to the UK. Grown as a garden plant, the flowers as a medicinal and culinary herb, and its aromatic oils are used in perfumery and massage.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/91398/lavandula-angustifolia/details"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Lavandula_angustifolia"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Lavandula_Angustifolia.jpg"/></note>
-               </item>
-               
-               <item xml:id="orchid">
-                  <name>orchid</name>
-                  <name type="genus">orchis</name>
-                  <name type="family">Orchidaceae</name>
-                  <note resp="#lmw">Flower plant member of the large family of the Orchidaceae, which contains nearly thirty thousand species and more than 100, 000 hybrids and cultivars. 52 types of orchids are native to the UK and are most common in the South of England; these include the ghost orchid, lady's slipper, red hellebore, greater butterfly orchid, early spider orchid, green-winged orchid, lady orchid, and fly orchid. Tropical species have been grown in the UK in glasshouses since the 19th century and are also cultivated for sale at florist's shops, as corsages, cut flowers, or pot plants. Scented varieties may be used in perfumery; and vanilla bean pods, with culinary uses, derive from an orchid species. 19th c. Europe and the UK saw a craze for collecting and hybridizing wild orchid species collected from elsewhere,  called orchidelirium, orchidomania or orchid fever, similar to the 17th-century Dutch tulip mania.</note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2019/05/nine-wild-uk-orchids/"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Orchidaceae"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Darwin_-_The_various_contrivances_by_which_orchids_are_fertilized_by_insects_(1877)_-_Fig_35.png"/></note>
-               </item>
-               
-               <item xml:id="convolvulus">
-                  <name>convolvulus</name>
-                  <name type="species">Convolvulus arvensis</name>
-                  <name type="genus">Convolvulus</name>
-                  <name type="family">Convolvulaceae</name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw">One of numerous species of vines with trumpet-shaped flowers.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/4333/i-convolvulus-cneorum-i/details"/></note>
-                  <note><ptr target="https://en.wikipedia.org/wiki/Convolvulus"/></note>       
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:104_Convolvulus_arvensis.jpg"/></note>
-               </item>
               
-               <item xml:id="celery">
-                  <name>celery</name>
-                  <name type="species">Apium graveolens</name>
-                  <name type="genus">Apium</name>
-                  <name type="family">Apiaceae</name>
-                  <name><addName></addName></name>
-                  <note resp="#lmw">Both wild celery and the cultivated variety are the same species. Wild varieties grow in wetlands and are most noticeable for their parsley-like leaves and white flower stalk. Cultivated varieties are grown for their fibrous stalks and their seeds, which are used as a spice. It is thought to be native to the Mediterranean region, and has been cultivated since antiquity, in winter and early spring. Further hybridization by the 19th century had extended the growing season, and celery became an increasing important raw and cooked vegetable in British, American and European cuisines.</note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Apium_graveolens"/></note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/41552/i-apium-graveolens-i/details"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Wild_celery_(Apium_graveoleus_L.)_Wellcome_V0042828.jpg"/></note>
-               </item>
+               
+              
                
                <item xml:id="potato"><!--update-->
                   <name>potato</name>
@@ -527,34 +307,6 @@
 					<name type="family">Amaryllidaceae</name>
                   <note resp="#lmw"></note></item>
                
-               <item xml:id="turnip">
-                  <name>turnip</name>
-                  <name type="species">Brassica rapa rapa</name>
-                  <name type="genus">Brassica</name>
-                  <name type="family">Brassicaceae</name>
-                  <name><addName>white turnip</addName></name>
-                  <name><addName>neep</addName></name>
-                  <note resp="#lmw">Grown for its fleshy root, for consumption by both humans and livestock. Other subtypes of the same plant are grown for their stems or leaves, including: bok choy and rapini. In the UK and parts of North America, the term is also used to refer to rutabagas or swedes, a larger root vegetable in the same family.</note>
-                  <note><ptr target="commons.wikimedia.org/wiki/Category:Brassica_rapa_subsp._rapa#/media/File:Maison_rustique_du_XIXe_siècle,_éd._Bixio,_1844,_I_(page_22)_-_Fig_20.jpg"/></note>
-               </item>
-            
-               <item xml:id="asparagus">
-                  <name>asparagus</name>
-                  <name type="species">Asparagus officinalis</name>
-                  <name type="genus">Asparagus</name>
-                  <name type="family">Asparagaceae</name>
-                  <name><addName>cultivated asparagus</addName></name>
-                  <name><addName>garden asparagus</addName></name>
-                  <name><addName>sparrow grass</addName></name>
-                  <note resp="#lmw">Flowering perrenial plant whose young shoots are cultivated as a vegetable. Native to Eurasia, the subspecies Asparagus officinalis subsp. prostratus is believed to be native to coastal western Europe, north Ireland, and Great Britain.</note>
-               </item>
-               
-               <item xml:id="moss">
-                  <name>moss</name>
-                  <note resp="#lmw">Nonvascular, low-growing plants that prefer damp soils, part of the large group of byrophytes. More than one thousand varieties live in the UK. UK mosses include: common haircap, silky forklet, Swan's-neck thyme, common tamarisk, glittering wood, and common striated feather-moss.</note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2018/07/types-of-moss-in-the-uk/"/></note>
-               </item>
-               
                <item xml:id="fern">
                   <name>fern</name>
                   <name type="species">xxx</name>
@@ -564,28 +316,9 @@
                   <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/ferns/"/></note><!--https://ebps.org.uk/ferns/identification/key-to-common-british-native-ferns/common-native-ferns/-->
                </item>
                
-               <item xml:id="bracken">
-                  <name>fern</name>
-                  <name type="species">Pteridium aquilinum</name>
-                  <name type="genus">Pteridium</name>
-                  <name type="family">Dennstaedtiaceae</name>
-                  <name><addName>common bracken</addName></name>
-                  <note resp="#lmw"> A genus of large, sturdy ferns, common throughout the world. It may be the most adaptable and oldest group of ferns. Commonly found on moorlands and hillsides and may form dense thickets of fronds, spread through its creeping roots. In the UK, moorland types are called <q>moorland scrub</q>. Traditionally gathered for use in leather tanning, soap- and glass-making, and for use as livestock bedding. Today, it may be seen as a threat to biodiversity, as its spread can elbow out other ground-cover plants upon which animals and other plants depend, and decrease the size of open moorlands.</note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/ferns/https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/ferns/bracken/"/></note><!--https://ebps.org.uk/ferns/identification/key-to-common-british-native-ferns/common-native-ferns/-->
-               </item>
                
-               <item xml:id="mushroom">
-                  <name>field mushroom</name>
-                  <name type="species">Agaricus campestris</name>
-                  <name type="genus">Agaricus</name>
-                  <name type="family">Agaricaceae</name>
-                  <name><addName>meadow mushroom</addName></name>
-                  <note><addName>pink bottom</addName></note>
-                  <note resp="#lmw">A gilled mushroom, commonly eaten, and closely related to the cultivated button mushroom.<!--Is Mitford foraging?--></note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2017/08/types-of-mushroom/"/>.</note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/blog/2018/10/foraging-in-autumn-wild-mushrooms/"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Agaricus_campestris"/></note>
-               </item>
+               
+               
                
                <item xml:id="fungus">
                   <name>fungus</name>
@@ -596,38 +329,10 @@
                   <note><ptr target="https://www.nhbs.com/blog/the-nhbs-guide-to-fungi-identification"/></note>
                </item>
                
-               <item xml:id="gentianella">
-                  <name>gentianella</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">Gentianella</name>
-                  <name type="family">Gentianaceae</name>
-                  <name><addName>dwarf gentian</addName></name>
-                  <note resp="#lmw">UK varieties include the early gentian (Gentianella anglica) and Chiltern gentian (Gentianella germanica).</note>
-               </item>
                
-               <item xml:id="marsh_marygold">
-                  <name>marsh marigold</name>
-                  <name type="species">Caltha palustris</name>
-                  <name type="genus">Caltha</name>
-                  <name type="family">Ranunculaceae</name>
-                  <name><addName>kingcup</addName></name>
-                  <note resp="#lmw">Medium-sized plant in the buttercup family that prefers marshes, wetlands, and wet woodlands. Known by many different regional names in the UK in addition to marsh marigold and kingcup.</note>
-                  <note><ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/marsh-marigold"/></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Caltha_palustris"/></note>               </item>
                
-               <item xml:id="stock">
-                  <name>stock</name>
-                  <name type="species">Matthiola incana</name>
-                  <name type="genus">Matthiola</name>
-                  <name type="family">Brassicaceae</name>
-                  <name><addName>common stock</addName></name>
-                  <name><addName>cut-and-come-again</addName></name>
-                  <name><addName>gillyflower</addName></name>
-                  <note resp="#lmw">Group of more than fifty types of tall, spike-flowered plants in the Brassica family and may refer more specifically to Matthiola incana. Flowers may be a variety of colors ranging from white through pink and purple. Cultivated scented varieties are UK garden favorites.</note>
-                  <note><ptr target="https://www.rhs.org.uk/plants/21197/i-matthiola-i/"></ptr></note>
-                  <note><ptr target="https://species.wikimedia.org/wiki/Matthiola"/></note>
-                  <note><ptr target="https://commons.wikimedia.org/wiki/File:Edwards%27s_botanical_register_(Plate_25)_(7949439164).jpg"/></note>
-               </item>
+               
+               
                
                <item xml:id="larkspur">
                   <name>larkspur</name>
@@ -672,17 +377,7 @@
                   <note><!--LMW: the plant, not sure what kinds are grown in 19th c. England--></note>
                </item>
                
-               <item xml:id="tuberose">
-                  <name>tuberose</name>
-                  <name type="species">Polianthes xxx</name>
-                <name type="genus">Polianthes</name>
-						<name type="family">Asparagaceae</name>
-                  <note resp="#SMP">A perennial plant that is frequently used in perfumes.</note>
-               </item>
-               
                <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, green Indian-corn,-->
-               
-            
                
                <!--LMW: notes from the Journal; associated families-->
                
