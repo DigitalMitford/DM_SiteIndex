@@ -2293,7 +2293,7 @@
                   <orgName>
                      <surname>Drover</surname>
                   </orgName>
-                  <note resp="#ebb #lmq">A family who, according to <persName ref="#Needham_Francis">Francis
+                  <note resp="#ebb #lmw">A family who, according to <persName ref="#Needham_Francis">Francis
                         Needham</persName>’s notes, lived on <placeName>Minster
                            Street</placeName> in <placeName ref="#Reading_city">Reading</placeName>, over their China shop. Members include: 
                      <persName ref="#Drover_JamesSr">James Drover, Senior</persName>, <persName ref="#Drover_Mrs">Mrs. Drover</persName>, <persName ref="#Drover_Miss">Miss Drover</persName>, <persName ref="#Drover_JamesJr">James Drover, Junior</persName>, and <persName ref="#Drover_Elizabeth">Elizabeth Drover</persName>.<!--https://www.berkshirehistory.com/villages/reading_minster_street_intro.html-->.</note>
@@ -15095,7 +15095,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1892-09-03">
                      <placeName>Scituate, Massachusetts, USA</placeName>
                   </death>
-                  <occupation type="literary" subtype="poet translator essayist"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="essayist"/>
                   <occupation type="scholar"/>
                   <occupation type="medical" subtype="dentist"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1854">1854</date>. Notable Italian language scholar and translator of <persName ref="#Dante">Dante</persName>.</note>
@@ -20076,7 +20078,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="literary" subtype="editor"/>
                   <occupation type="literary" subtype="poet"/>
                   <note resp="#lmw">American poet, journalist, periodical editor, and public lecturer. Also published under <persName>N.P. Willis</persName>. The
-                     brother of American author, <persName>Sara Willis</persName>,, who wrote as Fanny Fern. Literary celebrity and considered
+                     brother of American author, <persName>Sara Willis</persName>, who wrote as Fanny Fern. Literary celebrity and considered
                      something of a gossip and a dandy. Corresponded with <persName ref="#MRM">Mary
                         Russell Mitford</persName>.</note>
                   <note>
@@ -21881,7 +21883,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1854-04-30">
                      <placeName>Broomhill and Sharrow Vale, Sheffield, Yorkshire, England</placeName>
                   </death>
-                  <occupation type="literary" subtype="poet journalist editor"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="journalist"/>
+                  <occupation type="literary" subtype="editor"/>
                   <occupation type="government" subtype="reformer"/>
                   <note resp="#lmw">Editor of the <title ref="#Sheffield_Iris">Sheffield Iris</title> and friend of <persName ref="#Hofland_B">Barbara Hofland</persName>. Political reformer affiliated with the Moravian Bretheren, he supported reformist causes such as the abolition of slavery and child labor, and was imprisoned in the 1790s for sedition. He is also a hymn-writer, including <title level="a">Angels from the Realms of Glory</title> and <title ref="#Prayer_Souls_Desire">Prayer is the Soul's Sincere Desire</title>.</note>
                   <note>
@@ -27560,19 +27564,19 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name>pedunculate oak</name>
                   <note resp="#lmw #slc">Mitford likely refers to the common or English oak (Quercus robur), a variety of white oak, although the sessile oak (Quercus petraea) is also native to the Europe and the UK. Large, long-lived deciduous hardwood tree with lobed leaves, hanging catkins in spring, and then acorns, oval nuts with woody caps. In 19th-century English forests, oak was the predominant deciduous tree, often found with <name ref="#ash">ash</name> and <name ref="#elm">elm</name>. A hard wood with a distinctive light-and-dark grain, used since the early medieval period for making sturdy furniture, flooring, doors, household items such as chests and buckets, and for building sailing ships, particularly large naval vessels. Because the tree is large, strong and long-lived, it has accumulated numerous symbolic and national associations, particularly in the UK. In English folklore, Robin Hood hid in an oak to escape pursuers, and the oak became a national symbol after the future <persName ref="#ChasII">Charles II</persName> reportedly hid in an oak during the <rs type="event" ref="#EngCivilWar">English Civil Wars</rs>. This tree became known as the <soCalled>Royal Oak</soCalled>, and led to a national celebration of <soCalled>Oak Apple Day</soCalled> in May. <q>Royal Oak</q> became a popular pub name, as well as the name of several Royal Navy warships. The symbolic association between Britain's military strength and the strength of its men is encapsulated in the song <title level="a">Heart of Oak</title>, written in 1759 and revised in 1809: <quote>Heart of oak are our ships,/Hearts of oak are our men</quote>. Oak leaves, like laurel, were used as ceremonial wreaths and crowns, and both oak leaves and acorns appeared as neoclassical ornaments. The proverb <q>great oaks from little acorns grow</q>, dates from at least the 16th century, and the concept appears in Chaucer's <title level="m">Troilus and Criseyde</title>.   
                   </note>
+               </item>
                   <item xml:id="onion">
                      <name>onion</name>
                      <name type="species">Allium cepa</name>
                      <name type="genus">Allium</name>
                      <name type="family">Amaryllidaceae</name>
-                  </item>
                   <note>
                      <ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/english-oak/"/>
                   </note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Quercus"/>
                   </note>
-               </item>
+                  </item>
                <item xml:id="orchid">
                   <name>orchid</name>
                   <name type="genus">orchis</name>
