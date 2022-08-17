@@ -467,11 +467,12 @@
                      <forename>Kellie</forename>
                      <roleName>Ph.D.</roleName>
                      <roleName>Founding Editor</roleName>
-                     <roleName></roleName>
-                     <ptr target="http://www.babson.edu/Academics/faculty/profiles/Pages/Donovan-Condron-Kellie.aspx"/>
+                     <roleName>Advisory Board</roleName>
+                    <!-- <ptr target="http://www.babson.edu/Academics/faculty/profiles/Pages/Donovan-Condron-Kellie.aspx"/>-->
                   </persName>
                   <occupation type="scholar">
-                     <roleName>Adjunct Lecturer in Arts &amp; Humanities
+                     <roleName>Independent Scholar</roleName>
+                     <roleName>Formerly Adjunct Lecturer in Arts &amp; Humanities
                      <affiliation>Babson College</affiliation>
                      </roleName>
                   </occupation>
@@ -566,23 +567,6 @@
                      Boston University’s Editorial Institute and is also associated with several
                      projects through the Folger Shakespeare Library’s Early Modern Digital Agendas
                      group (<ptr target="http://emdigitalagendas.folger.edu/2013/12/03/emda-news/"/>).</note>
-               </person>
-               <person xml:id="mjk"><!--LMW: update-->
-                  <persName>
-                     <surname>Klamer</surname>
-                     <forename>Melissa</forename>
-                     <roleName>Editor</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
-                        University</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note>Melissa Klamer is a Ph.D. student in English at Michigan State
-                     University, and is currently a Research Assistant working with <ref target="http://www2.matrix.msu.edu/">MATRIX: Center for the Digital
-                        Humanities and Social Sciences</ref>. Her research focuses on Victorian
-                     women’s life writing, particularly letters and diaries. 
-                  </note>
                </person>
                <person xml:id="mns">
                   <persName>
@@ -942,6 +926,23 @@
          </div>
          <div type="Past_Editors">
             <listPerson sortKey="Past_Editors">
+               <person xml:id="mjk"><!--LMW: update-->
+                  <persName>
+                     <surname>Klamer</surname>
+                     <forename>Melissa</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Ph.D. English in progress, expected 2018.<affiliation>Michigan State
+                        University</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Melissa Klamer earned a Ph.D. in English at Michigan State
+                     University, and served as a Research Assistant working with <ref target="http://www2.matrix.msu.edu/">MATRIX: Center for the Digital
+                        Humanities and Social Sciences</ref>. Her research focuses on Victorian
+                     women’s life writing, particularly letters and diaries. 
+                  </note>
+               </person>
                <person xml:id="bas">
                   <persName>
                      <surname>Stewart</surname>
