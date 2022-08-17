@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -52,6 +55,7 @@
       </encodingDesc>
       <revisionDesc>
          <listChange>
+            <change when="2022-08-17" who="#ebb">updated Mitford team entries, created a new distinction between historical editors and past editors for our project team. Corresponding updates to the si_ODD.odd file to update the site index schema rules for the new sortKey attribute value.</change>
             <change when="2020-08-07" who="#ebb">updated editor entries for me and Greg Bondar to reflect new posts at Penn State Erie. Correction to alphasort.xsl to ensure that only the edition element inside the editionStmt in the teiHeader is processed with Digital Mitford data.</change>
             <change when="2020-08-07" who="#lmw">added around 200 new entries, mainly flora and fauna.</change>
             <change when="2020-02-18" who="#lmw">Updating DM editors section.</change>
@@ -12129,11 +12133,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Eversly, Hampshire, England</placeName>
                   </death>
                   <occupation type="religious"/>
-                  <occupation type="education"/>
+                  <occupation type="educator"/>
                   <occupation type="literary"/>
                   <occupation type="scholar"/>
                   <occupation type="religious" subtype="clergy"/>
-                  <occupation type="education" subtype="professor"/>
+                  <occupation type="scholar"/>
                   <occupation type="literary" subtype="novelist"/>
                   <occupation type="scholar" subtype="historian"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1853">1853</date>. Spouse of <persName ref="#Kingsley_Fanny">Fanny Grenfell Kingsley</persName>. 
@@ -12821,9 +12825,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1883-07-19">
                      <placeName>Reading, Berkshire, England</placeName>
                   </death>
-                  <occupation type="#bookProducer"/>
-                  <occupation type="#bookProducer" subtype="bookseller"/>
-                  <occupation type="#bookProducer" subtype="librarian"/>
+                  <occupation type="bookProducer"/>
+                  <occupation type="bookProducer" subtype="bookseller"/>
+                  <occupation type="scholar" subtype="curator"/>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> <date from="1840" to="1850">between 1840 and 1850</date> and a <placeName ref="#Reading_city">Reading</placeName> bookseller with premises at 37 and 39 London Street. Father of <persName ref="#Lovejoy_Martha">Martha (Patty) Lovejoy</persName>. His shop assistant was <persName ref="#Langley_Eliza">Eliza Langley</persName>. He established a general subscription circulating library in <date when="1832">1832</date>.
                   </note>
                </person>

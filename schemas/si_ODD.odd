@@ -1,7 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude" version="2.9.1" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="2.9.1" xml:lang="en">
    <!-- 2019-05-26 ebb: * Start in si_ODD_Editable.odd, and in oXygen, run Tools -> Canonicalize to expand the latest occupations code. When updating the <occupation> element and its associated schematron constraints, always do that first, over in ODD_includes directory here in this schema folder. -->
    <!-- 2018-08-11 ebb: * After generating si_ODD.odd, "Run the wrench" in oXygen (on the si_ODD.odd file) to generate the new Relax-NG XML-syntax project schema and HTML documentation for the project SI files.
   -->
@@ -32,6 +32,7 @@
       </fileDesc>
       <revisionDesc>
          <listChange>
+            <change when="2022-08-17" who="#ebb">Updated ODD to add a new sortKey for historical editors, and updated quote-checking Schematron constraint to recognize curly quotes.</change>
             <change when="2018-08-11" who="#ebb">Prepared this ODD file while visiting Lisa Wilson in Norwood, NY.</change>
          </listChange>
       </revisionDesc>
@@ -48,7 +49,7 @@
             <moduleRef except="formula notatedMusic" key="figures"></moduleRef>         
             <constraintSpec ident="xmlIDs" scheme="schematron">
                <constraint>
-                  <sch:rule context="tei:TEI//@xml:id">
+                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:TEI//@xml:id">
                      <sch:report role="fatal" test="matches(., '\s+')">
                         @xml:id values may NOT contain white spaces!
                      </sch:report>        
@@ -57,7 +58,7 @@
             </constraintSpec>
             <constraintSpec ident="refsReq" scheme="schematron">
                <constraint>
-                  <sch:rule context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]">
+                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:note//tei:persName[not(@ref)] | tei:note//tei:rs[not(@ref)] | tei:note//tei:placeName[not(@ref)] | tei:note//tei:orgName[not(@ref)] | tei:note//tei:name[not(@ref)] | tei:note//tei:title[not(@ref)]">
                      <sch:let name="currentNode" value="."></sch:let>
                      <sch:let name="matchingEntry" value="$currentNode[ancestor::tei:text//tei:*[@xml:id][not(self::* eq $currentNode/ancestor::*[1][@xml:id])]][*[not(self::tei:note) and not(self::tei:birth) and not (self::tei:death)][contains(string(), $currentNode)]]/@xml:id"></sch:let>
                      <sch:report role="info" test="$matchingEntry">
@@ -79,7 +80,7 @@
             </constraintSpec>-->
             <constraintSpec ident="hashtaggery" scheme="schematron">
                <constraint>
-                  <sch:rule context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit">
+                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:TEI//@ref | tei:TEI//@who | tei:TEI//@corresp | tei:TEI//@wit">
                      <sch:assert role="fatal" test="starts-with(., '#')">
                         Attributes @ref, @who, @corresp, and @wit must begin with a hashtag.
                      </sch:assert>  
@@ -93,6 +94,7 @@
          <valList type="closed">
             <valItem ident="Mitford_Team"></valItem>
             <valItem ident="Past_Assistants"></valItem>
+            <valItem ident="Historical_Editors"></valItem>
             <valItem ident="Past_Editors"></valItem>
             <valItem ident="histPersons"></valItem>
             <valItem ident="archPersons"></valItem>
@@ -418,7 +420,7 @@
          <!-- X-Include Here: for occupation Schematron constraints -->
             <constraintSpec ident="occupation" scheme="schematron" xml:base="ODD_includes/occupationsSchem.xml" xml:lang="en">
     <constraint>
-        <sch:pattern>
+        <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
             <sch:let name="artistSubtypes" value="('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 'illustrator')"></sch:let>
             <sch:let name="bookProducerSubtypes" value="('publisher', 'printer', 'binder', 'bookseller')"></sch:let>
             <sch:let name="religiousSubtypes" value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'rector', 'priest', 'musician', 'composer', 'churchAssist')"></sch:let>
@@ -500,24 +502,25 @@
 <!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
             <constraintSpec ident="quotes" scheme="schematron">
                <constraint>
-                  <sch:rule context="tei:note//text()[matches(., '[A-z]+')]">
-                     <sch:let name="regexQuote" value="'&quot;'"></sch:let>
-                     <sch:report role="warning" test="matches(., $regexQuote)">
+                  <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" context="tei:note//text()[matches(., '[A-z]+')]">
+                     <sch:let name="straightDoubleQuote" value="'&quot;'"></sch:let>
+                     <sch:let name="curlyDoubleQuote" value="'[“”]'"></sch:let>
+                     <sch:report role="warning" test="matches(., $straightDoubleQuote) or matches(., $curlyDoubleQuote)">
                         We see you’re typing in quotation marks. Please use a meaningful TEI element for these, instead, and do not duplicate quotation marks with a TEI element, because this may result in multiple sets of quotation marks on the website. If this is a cited quotation, use the cit and quote elements together (or just the quote element for an uncited quotation). If it is a spoken aloud passage, use the said element. If it is a title of a poem or other short work, use &lt;title level="a"&gt;. If it is a string of words in quotation marks and you are not sure what it is, use the q element.</sch:report>        
                   </sch:rule>
                </constraint>
             </constraintSpec>
             <constraintSpec ident="SI_Guidance" scheme="schematron"><constraint>     
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:p>Look for strings in note elements and label elements that might want/need to be tagged for cross-referencing. </sch:p>
                </sch:pattern>
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:p>Identify stub entries.</sch:p>
                   <sch:rule context="*[@xml:id]">
                      <sch:report role="warning" test="count(child::*) eq 1">Warning: stub element. We should flesh this out and add more information.</sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:rule context="tei:person[descendant::tei:surname = //tei:surname[not(ancestor::tei:person = self::tei:person)]]">
                      <sch:let name="currentContext" value="."></sch:let>
                      <sch:let name="sharedSurname" value="//tei:person[not(. = $currentContext)][descendant::tei:surname = $currentContext/descendant::tei:surname]"></sch:let>
@@ -526,7 +529,7 @@
                      </sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:p>This rule will test the plausibilty of birth dates in relation to death dates.</sch:p>
                   <sch:rule context="tei:person[tei:birth/@*[matches(., '^\d')] and tei:death/@*[matches(., '^\d')]]">
                      <sch:assert test="tei:birth/@* &lt; tei:death/@*">Birth dates must be earlier than death dates.</sch:assert>
@@ -540,7 +543,7 @@
                      <sch:report test="tei:death/@*[matches(., '^\d')] and tei:death/@*/number() > 99">This birth date seems to be negative (BCE) while the death date is positive (ADE) and greater than 99, which seems an excessively long life span. Check if the dates are correct?</sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:rule context="@sex">
                      <sch:report test="matches(., '[0-9,]')">
                         We are no longer using the ISO numerical codes for sex, and this attribute may not contain commas. Change this code to a letter, one (or more) of the following approved values: m, f, m f, and u. If indicating multiple values, separate each with just a white space.
@@ -551,7 +554,7 @@
                </sch:pattern>
                
                
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:rule context="tei:text//@xml:id">
                      <sch:report test="matches(., '\s+')">
                         @xml:id values must not contain white spaces.
@@ -561,14 +564,14 @@
                      </sch:report>
                   </sch:rule>
                </sch:pattern>
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:rule context="tei:TEI"> 
                      <sch:assert test="count(distinct-values(//@sortKey)) eq count(//*[@sortKey])">
                         There must not be any duplicate @sortkey values in the site index! 
                      </sch:assert>
                   </sch:rule>  
                </sch:pattern>
-               <sch:pattern>
+               <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                   <sch:let name="si" value="doc('http://digitalmitford.org/si.xml')//@xml:id"></sch:let> 
                   <!--<sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>-->
                   <sch:let name="siAddcoll" value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"></sch:let>
@@ -577,7 +580,7 @@
                      
                      <sch:let name="tokens" value="for $w in tokenize(., '\s+') return substring-after($w, '#')"></sch:let>
                      <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
-                        Did you begin your @ref or @corresp value with a hashtag? If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
+                        Your @ref or @corresp value needs to begin with a hashtag. If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
                      </sch:assert>                
                   </sch:rule>
                </sch:pattern>      
@@ -585,19 +588,19 @@
             </constraintSpec>
             <constraintSpec ident="noteGuidance" scheme="schematron">
                <constraint>
-                  <sch:pattern>
+                  <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                      <sch:title>Multi-paragraph notes</sch:title>
                      <sch:rule context="tei:note">
                         <sch:report role="info" test="count(descendant::tei:p) gt 1">This note is multiple paragraphs long, and may need to be trimmed. Should we consider condensing it?</sch:report>
                      </sch:rule>
                   </sch:pattern>
-                  <sch:pattern>
+                  <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                      <sch:title>Does the first paragraph contain a Mitford reference?</sch:title>
                      <sch:rule context="tei:note[count(descendant::tei:p) gt 1]//tei:p[1]">
                         <sch:assert role="warning" test="contains(., 'Mitford')">In this multi-paragraph note, the first paragraph needs to mention Mitford in some way to prioritize MRM’s relationship with this named entity.</sch:assert>
                      </sch:rule>
                   </sch:pattern>
-                  <sch:pattern>
+                  <sch:pattern xmlns:sch="http://purl.oclc.org/dsdl/schematron">
                      <sch:title>Mentions of birth and death</sch:title>
                      <sch:rule context="tei:note">
                         <sch:report role="info" test="contains(., 'was born') or contains(., ' [Bb]orn') or contains(., ' [Dd]ied')">We notice the phrase(s) “was born”, “born,” or “died” appear somewhere in this note. If these passages duplicate info in the birth or death elements elsewehere in this entry, they should be removed, since it will represent duplicate output on the site.</sch:report>
