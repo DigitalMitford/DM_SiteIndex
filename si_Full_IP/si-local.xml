@@ -139,7 +139,7 @@
                   <persName>
                      <surname>Colombo</surname>
                      <forename>Amy</forename>
-                     <roleName>Editor</roleName>
+                     <roleName>Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
                      <roleName>
@@ -235,19 +235,6 @@
                      project, which she sees as an exciting opportunity to create digital resources
                      in a collaborative environment.</note>
                </person>
-               <person xml:id="ctm">
-                  <persName>
-                     <surname>McCabe</surname>
-                     <forename>Cailey</forename>
-                     <roleName>Research Assistant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>
-                        <affiliation>Kansas State University</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note type="bio">Cailey McCabe assists the editing team through completing and checking lettters from 1822. She is currently working on a M.A. in English at Kansas State University. She graduates in Spring 2020 and plans to continue on with a PhD in English. She focuses on Victorian Literature and Digital Humanities.</note>
-               </person>
                <person xml:id="daver">
                   <persName>
                      <surname>Robinson</surname>
@@ -275,38 +262,7 @@
                      </roleName>
                   </occupation>
                </person>
-               <person xml:id="djh">
-                  <persName>
-                     <surname>Hitt</surname>
-                     <forename>Daniel</forename>
-                     <roleName>Consultant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>
-                        <affiliation>University of Pittsburgh at Greensburg</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note>Primary research interest: contemporary reception of 19th Century
-                     American authors, specifically Nathaniel Hawthorne and Edgar Allan Poe, by
-                     European readers. Other interests: issues in composition, the writing process,
-                     manuscripts, early short stories, Mitford’s connection to <persName ref="#Hawthorne_N">Hawthorne</persName>, and Dark Romanticism. </note>
-               </person>
-               <person xml:id="drl">
-                  <persName>
-                     <surname>Lint</surname>
-                     <forename>Dorothea</forename>
-                     <roleName>Consultant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
-                     </roleName>
-                  </occupation>
-                  <occupation type="scholar">
-                     <roleName>M.A. student<affiliation>Duquesne University</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note>Dorothea Lint joined the Digital Mitford project in 2018 as a Green Scholar research assistant at Pitt-Greensburg, and she is assisting with analysis of a manuscript performance prompt book and associated new encoding for Mitford’s play, <title level="m" ref="#Rienzi">Rienzi</title>. She has developed a <ref target="http://combe.newtfire.org">digital project on the nineteenth-century serial hack writer William Combe</ref>, and is pursuing an M.A. in English Literature at Duquesne University beginning in 2019. She is a Spay and Neuter Clinic Volunteer for Best Buddies Clinic, and the author of an independently published book, <title level="m">Dieting Dog: A Guide to Doggie Weight Loss from a Rottweiler Who Succeeded</title> (2019). </note>
-               </person>
+             
                <person xml:id="ds">
                   <persName>
                      <surname>Schierenbeck</surname>
@@ -357,6 +313,7 @@
                      <forename>Elisa</forename>
                      <roleName type="lead">Principal Investigator and Technical Coordinator</roleName>
                      <roleName>Founding Editor</roleName>
+                     <roleName type="sectionEditor">Poetry</roleName>
                   </persName>
                   <occupation type="scholar">
                      <roleName>Program Chair, <ref target="https://behrend.psu.edu/school-of-humanities-social-sciences/academic-programs/digital-media-arts-and-technology">Digital Media, Arts, and Technology (DIGIT)</ref>, Professor of Digital Humanities, and Director of the <ref target="https://newtfire.org">Digital Humanities Lab</ref> at <affiliation>Penn State Erie, The Behrend College</affiliation>
@@ -409,37 +366,7 @@
                         and conduct research on a collection of Mitford’s letters stored at <orgName ref="#ReadingCL">Reading Central Library</orgName>.
                      </note>
                </person>
-               <person xml:id="esh">
-                  <persName>
-                     <surname>Hood</surname>
-                     <forename>Eric</forename>
-                     <roleName type="grad">Ph.D.</roleName>
-                     <roleName>Founding Editor</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>
-                        <affiliation>Michigan State University</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note>Eric Hood is an Assistant Professor at Michigan State University and holds a
-                     PhD from the University of Kansas. He specializes in literary theory,
-                     eighteenth- and nineteenth-century British poetry (particularly, the epic), and
-                     intellectual networks. <ptr target="http://academichood.wordpress.com"/>
-                  </note>
-               </person>
-               <person xml:id="fbur">
-                  <persName>
-                     <surname>Burwick</surname>
-                     <forename>Frederick</forename>
-                     <roleName>Advisory Board</roleName>
-                     <ptr target="http://www.english.ucla.edu/all-faculty/547-burwick-frederick"/>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>
-                        <affiliation>University of California, Los Angeles</affiliation>
-                     </roleName>
-                  </occupation>
-               </person>
+           
                <person xml:id="ghb">
                   <persName>
                      <surname>Bondar</surname>
@@ -539,7 +466,7 @@
                      <forename>Kellie</forename>
                      <roleName>Ph.D.</roleName>
                      <roleName>Founding Editor</roleName>
-                     <roleName type="sectionEditor">Poetry</roleName>
+                     <roleName></roleName>
                      <ptr target="http://www.babson.edu/Academics/faculty/profiles/Pages/Donovan-Condron-Kellie.aspx"/>
                   </persName>
                   <occupation type="scholar">
@@ -790,7 +717,7 @@
                      <surname>Cantwell</surname>
                      <forename>Sara</forename>
                      <!--INVITE TO BE VETTED <roleName>Editor</roleName>-->
-                     <roleName>Consultant</roleName>
+                     <roleName>Active Consultant</roleName>
                   </persName>
                   <occupation type="scholar">
                      <roleName>M.A. in English and Communication, completed 2017. <affiliation>State University of New York,
@@ -799,7 +726,7 @@
                      <roleName>M.F.A. in Creative Writing completed 2019. <affiliation>Vermont College of Fine Arts, Montpelier</affiliation>
                      </roleName>
                   </occupation>
-                  <note resp="#lmw">Sara Cantwell received her M.F.A. in Creative Writing from the Vermont College of Fine Arts, with concentrations in poetry and fiction. In fall 2015, she began work on an M.A. in English and Communication from SUNY Potsdam and joined the Digital Mitford project as a Research Assistant. Her M.A. thesis included a book history and analysis of the later poetry of Jorie Graham. In Fall 2017, she joined the  Department of English and Communication at SUNY Potsdam as an Adjunct Instructor and continues on Digital Mitford as an Consultant. She continues to work on Site Index development, Mitford’s 1827 sonnets, her self-representation as a creative writer, and her representation and appropriation in contemporary culture.</note>
+                  <note resp="#lmw">Sara Cantwell received her M.F.A. in Creative Writing from the Vermont College of Fine Arts, with concentrations in poetry and fiction. In fall 2015, she began work on an M.A. in English and Communication from SUNY Potsdam and joined the Digital Mitford project as a Research Assistant. Her M.A. thesis included a book history and analysis of the later poetry of Jorie Graham. In Fall 2017, she joined the  Department of English and Communication at SUNY Potsdam as an Adjunct Instructor and continues on Digital Mitford as a Consultant. She continues to work on Site Index development, Mitford’s 1827 sonnets, her self-representation as a creative writer, and her representation and appropriation in contemporary culture.</note>
                </person>
                <person xml:id="st">
                   <persName>
@@ -1013,6 +940,113 @@
             </listOrg>
          </div>
          <div type="Past_Editors">
+            <listPerson sortKey="Past_Editors">
+               <person xml:id="bas">
+                  <persName>
+                     <surname>Stewart</surname>
+                     <forename>Brooke</forename>
+                     <forename>Ann</forename>
+                     <roleName>Active Consultant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Green Scholar, B.A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Brooke A. Stewart transcribed, researched, encoded, and proofed the Mitford letters of the year 1823. She worked on the Digital Mitford project as a student at the University of Pittsburgh at
+                     Greensburg, where she pursued a bachelor’s degree in English Literature and
+                     a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is also on the editing team of another
+                     digital archive, <ref target="http://dickinson16.newtfire.org/">
+                        <title level="m">Emily Dickinson</title>
+                     </ref>, which looks closely at Dickinson’s original poem manuscripts and how significantly they differ from their published versions. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
+                     Delta, and an active participant in Habitat for Humanity. </note>
+               </person>
+               <person xml:id="amp">
+                  <persName>
+                     <surname>Peddicord</surname>
+                     <forename>Amber</forename>
+                     <forename>M.</forename>
+                     <roleName>Active Consultant</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        Green Scholar
+                        <affiliation>University of Pittsburgh-Greensburg</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>
+                     Amber Peddicord has sorted image files and encoded different editions of Mitford's letter manuscripts and the published versions of those letters. She is assisting the editing team in completing and checking the encoding of Mitford’s correspondence in 1822. She earned a B.A. in English Literature and Communication at the University of Pittsburgh-Greensburg, as well as a
+                     <ref target="https://www.greensburg.pitt.edu/academics/majors-minors/digital-studies">Digital Studies Certificate</ref>. 
+                  </note>
+               </person>
+               <person xml:id="esh">
+                  <persName>
+                     <surname>Hood</surname>
+                     <forename>Eric</forename>
+                     <roleName type="grad">Ph.D.</roleName>
+                     <roleName>Founding Editor</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Michigan State University</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Eric Hood is an Assistant Professor at Michigan State University and holds a
+                     PhD from the University of Kansas. He specializes in literary theory,
+                     eighteenth- and nineteenth-century British poetry (particularly, the epic), and
+                     intellectual networks. <ptr target="http://academichood.wordpress.com"/>
+                  </note>
+               </person>
+               <person xml:id="drl">
+                  <persName>
+                     <surname>Lint</surname>
+                     <forename>Dorothea</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Green Scholar, B.A. in English Literature, 2018. <affiliation>University of Pittsburgh at Greensburg</affiliation>
+                     </roleName>
+                  </occupation>
+                  <occupation type="scholar">
+                     <roleName>M.A. student<affiliation>Duquesne University</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Dorothea Lint joined the Digital Mitford project in 2018 as a Green Scholar research assistant at Pitt-Greensburg, and she assisted with analysis of a manuscript performance prompt book and associated new encoding for Mitford’s play, <title level="m" ref="#Rienzi">Rienzi</title>. She has developed a <ref target="http://combe.newtfire.org">digital project on the nineteenth-century serial hack writer William Combe</ref>, and began graduate studies in English Literature at Duquesne University in 2019. She is a Spay and Neuter Clinic Volunteer for Best Buddies Clinic, and the author of an independently published book, <title level="m">Dieting Dog: A Guide to Doggie Weight Loss from a Rottweiler Who Succeeded</title> (2019). </note>
+               </person>
+               <person xml:id="ctm">
+                  <persName>
+                     <surname>McCabe</surname>
+                     <forename>Cailey</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>Kansas State University</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note type="bio">Cailey McCabe has assisted the editing team through completing and checking lettters from 1822. She completed an M.A. in English at Kansas State University and is currently a PhD student at Texas A &amp; M University. She focuses on Victorian Literature and Digital Humanities.</note>
+               </person>
+               <person xml:id="fbur">
+                  <persName>
+                     <surname>Burwick</surname>
+                     <forename>Frederick</forename>
+                     <roleName>Advisory Board</roleName>
+                     <ptr target="http://www.english.ucla.edu/all-faculty/547-burwick-frederick"/>
+                  </persName>
+                  <birth when="1936-03-17">
+                     <placeName>Los Angeles, CA, USA</placeName>
+                  </birth>
+                  <death when="2022-03-16">
+                     <placeName>Pomona, CA, USA</placeName>
+                  </death>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of California, Los Angeles</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note resp="#ebb">Besides benefiting from his tireless research on 18th- and 19th-century drama and its performance, we are grateful to Frederick Burwick for encouraging the scholarly editing of Mary Russell Mitford, for recognizing the long-range benefit to scholarship of a digital scholarly edition, and for advising on the formation of the Digital Mitford project.</note>
+               </person>
+               
+            </listPerson>
             <listPerson sortKey="Past_Assistants">
                <person xml:id="abp">
                   <persName>
@@ -1114,25 +1148,7 @@
                   </occupation>
                   <note resp="#lmw">Brytney Laird graduated in 2019 with a B.A. in Literature/Writing and Psychology from the State University of New York at Potsdam. She worked as a Digital Mitford Research Assistant in Spring 2019, focusing on letter research and Site Index development. She plans to pursue a career in high school teaching in English Language Arts.</note>
                </person>
-               <person xml:id="bas">
-                  <persName>
-                     <surname>Stewart</surname>
-                     <forename>Brooke</forename>
-                     <forename>Ann</forename>
-                     <roleName>Research Assistant</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>Green Scholar, B.A. in English Literature, 2018 <affiliation>University of Pittsburgh at Greensburg</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note>Brooke A. Stewart transcribed, researched, encoded, and proofed the Mitford letters of the year 1823. She worked on the Digital Mitford project as a student at the University of Pittsburgh at
-                     Greensburg, where she pursued a bachelor’s degree in English Literature and
-                     a <ref target="http://www.greensburg.pitt.edu/academics/info/digital-studies">Digital Studies Certificate</ref>. Brooke is also on the editing team of another
-                     digital archive, <ref target="http://dickinson16.newtfire.org/">
-                        <title level="m">Emily Dickinson</title>
-                     </ref>, which looks closely at Dickinson’s original poem manuscripts and how significantly they differ from their published versions. Brooke is a member of the honor societies Phi Eta Sigma and Sigma Tau
-                     Delta, and an active participant in Habitat for Humanity. </note>
-               </person>
+               
                <person xml:id="cay">
                   <persName>
                      <surname>Collins</surname>
@@ -1837,7 +1853,7 @@
                   <note resp="#lmw">Zakiya Deroche graduated in 2019 with a B.A. in Communication and a minor in Business from the State University of New York at Potsdam. She worked as a Digital Mitford Research Assistant in Spring 2019, focusing on digital image organizing tasks. She plans to pursue a career in a Communication-related field.</note>
                </person>
             </listPerson>
-            <listPerson sortKey="Past_Editors">
+            <listPerson sortKey="Historical_Editors">
                <person xml:id="coles">
                   <persName>William Allan Coles</persName>
                   <persName>
