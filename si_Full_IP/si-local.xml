@@ -466,7 +466,7 @@
                      <surname>Donovan-Condron</surname>
                      <forename>Kellie</forename>
                      <roleName>Ph.D.</roleName>
-                     <roleName>Founding Editor</roleName>
+                     <roleName type="retired">Founding Editor</roleName>
                      <roleName>Advisory Board</roleName>
                     <!-- <ptr target="http://www.babson.edu/Academics/faculty/profiles/Pages/Donovan-Condron-Kellie.aspx"/>-->
                   </persName>
@@ -529,25 +529,6 @@
                   </occupation>
                   <note>PhD in progress at Baylor University, Graduate Assistant at the
                      Armstrong Browning Library at Baylor University</note>
-               </person>
-               <person xml:id="mco"><!--LMW: update-->
-                  <persName>
-                     <surname>O’Donnell</surname>
-                     <forename>Molly C.</forename>
-                     <roleName>Editor</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>
-                        <affiliation>University of Nevada, Las Vegas</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note> Molly O’Donnell is the University of Nevada, Las Vegas,
-                     President’s Foundation Graduate Research Fellow. She has recently contributed
-                     to <title level="m">Victoriographies</title> and the <title level="m">Norton Anthology</title>, and
-                     was formerly associate faculty at Notre Dame of Maryland University. Her
-                     dissertation uses contemporary sociolinguistics to examine the
-                     nineteenth-century tales novel as a useful mode for exploration in the areas of
-                     genre, narrative, and gender studies.</note>
                </person>
                <person xml:id="mez"><!--LMW: update-->
                   <persName>
@@ -663,24 +644,7 @@
                      Mitford Project working as Dr.
                      Beshero-Bondar’s undergraduate Green Scholar.</note>
                </person>
-               <person xml:id="rnes">
-                  <persName>
-                     <surname>Nesvet</surname>
-                     <forename>Rebecca</forename>
-                     <roleName>Ph.D.</roleName>
-                     <roleName>Founding Editor</roleName>
-                  </persName>
-                  <occupation type="scholar">
-                     <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
-                     </roleName>
-                  </occupation>
-                  <note>Rebecca Nesvet’s other digital humanities projects include 
-                     the general editorship of a student-produced edition of James Malcolm Rymer’s <ref target="http://www.salisburysquare.com/TSOP">
-                        <title level="m">The String of Pearls, or the Barber of Fleet-street</title>
-                     </ref> (1850), the first complete documentary edition of this source of the legend of <persName>Sweeney Todd</persName>; and  <title level="m">Science and Art, a Farce</title>, by Malcolm Rymer (1820), edited by James Malcolm Rymer (1842), in <ref target="http://www.scholarlyediting.org">
-                        <title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title>
-                     </ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
-               </person>
+               
                <person xml:id="scw">
                   <persName>
                      <surname>Webb</surname>
@@ -926,6 +890,25 @@
          </div>
          <div type="Past_Editors">
             <listPerson sortKey="Past_Editors">
+               <person xml:id="mco"><!--LMW: update-->
+                  <persName>
+                     <surname>O’Donnell</surname>
+                     <forename>Molly C.</forename>
+                     <roleName>Editor</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>
+                        <affiliation>University of Nevada, Las Vegas</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note> Molly O’Donnell is the University of Nevada, Las Vegas,
+                     President’s Foundation Graduate Research Fellow. She has recently contributed
+                     to <title level="m">Victoriographies</title> and the <title level="m">Norton Anthology</title>, and
+                     was formerly associate faculty at Notre Dame of Maryland University. Her
+                     dissertation uses contemporary sociolinguistics to examine the
+                     nineteenth-century tales novel as a useful mode for exploration in the areas of
+                     genre, narrative, and gender studies.</note>
+               </person>
                <person xml:id="mjk"><!--LMW: update-->
                   <persName>
                      <surname>Klamer</surname>
@@ -979,6 +962,24 @@
                      Amber Peddicord has sorted image files and encoded different editions of Mitford's letter manuscripts and the published versions of those letters. She is assisting the editing team in completing and checking the encoding of Mitford’s correspondence in 1822. She earned a B.A. in English Literature and Communication at the University of Pittsburgh-Greensburg, as well as a
                      <ref target="https://www.greensburg.pitt.edu/academics/majors-minors/digital-studies">Digital Studies Certificate</ref>. 
                   </note>
+               </person>
+               <person xml:id="rnes">
+                  <persName>
+                     <surname>Nesvet</surname>
+                     <forename>Rebecca</forename>
+                     <roleName>Ph.D.</roleName>
+                     <roleName>Founding Editor</roleName>
+                  </persName>
+                  <occupation type="scholar">
+                     <roleName>Associate Professor of English <affiliation>University of Wisconsin, Green Bay</affiliation>
+                     </roleName>
+                  </occupation>
+                  <note>Rebecca Nesvet’s other digital humanities projects include 
+                     the general editorship of a student-produced edition of James Malcolm Rymer’s <ref target="http://www.salisburysquare.com/TSOP">
+                        <title level="m">The String of Pearls, or the Barber of Fleet-street</title>
+                     </ref> (1850), the first complete documentary edition of this source of the legend of <persName>Sweeney Todd</persName>; and  <title level="m">Science and Art, a Farce</title>, by Malcolm Rymer (1820), edited by James Malcolm Rymer (1842), in <ref target="http://www.scholarlyediting.org">
+                        <title level="j">Scholarly Editing: The Journal of the Association for Documentary Editing</title>
+                     </ref> 38 (2017). Nesvet’s research on James Malcolm Rymer, Romanticism, travel literature, and drama appears in the <title level="j">Keats-Shelley Journal</title>, <title level="j">Prism(s): Essays in Romanticism</title>, <title level="j">Notes and Queries</title>, <title level="j">Studies in Travel Writing</title>, <title level="j">Women’s Writing</title>, <title level="j">The Review of English Studies</title>, <title level="j">Literature Compass</title>, <title level="j">Shakespearean International Yearbook</title>, and, in <placeName>Romania</placeName>, <title level="j">American, British, and Canadian Studies</title>. She won the <orgName>International Conference on Romanticism</orgName>’s 2012 Lore Metzger Award for the best graduate paper. She is a Founding Editor for Digital Mitford.</note>
                </person>
                <person xml:id="esh">
                   <persName>
