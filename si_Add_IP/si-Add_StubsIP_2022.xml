@@ -171,27 +171,7 @@
                 
                 "At this time the Whigs obtained a rule of nisi against William Drysdale, the printer of the Chronicle, John Jackson Blandy, the town clerk, and two other Blues for libel against Monck, Mitford and two other Whig magistrates. " 1826    from historyofparliamentonline.-->
             
-            <person xml:id="Montague_Captain" sex="m"><!--update existing-->  <!--https://books.google.com/books?id=n9pv_1xLploC&newbks=1&newbks_redir=0&dq=Captain%20Montagu%20Caversham&pg=PA704#v=onepage&q=Captain%20Montagu%20Caversham&f=false-->
-               <persName>Captain Montague</persName>
-               <persName>
-                  <surname>Montague</surname>
-                  <roleName>Captain</roleName>
-               </persName>
-               <occupation type="military"/>
-               <occupation type="military" subtype="navy"/>
-               <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work.  <!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--><!--Captain Montagu Montagu, Royal Navy, of Caversham Hill (estate), b. 1786, second son of Montagu Montagu, inherits after eldest son George dies. or William?--></note>
-            </person>
             
-            <person xml:id="Newbery_J" sex="m"/> <!--https://books.google.com/books?id=QLsqAQAAMAAJ&lpg=RA1-PA77&ots=rxfBkgHvyl&dq=%22Jacob%20Newberry%22%20Reading%20solicitor&pg=PA309#v=onepage&q=%22Jacob%20Newberry%22%20Reading%20solicitor&f=false-->
-               <persName>Jacob Newbery</persName>
-               <persName>
-                  <forename>Jacob</forename>
-                  <surname>Newbery</surname>
-               </persName>
-               <occupation type="legal"/>
-               <occupation type="legal" subtype="solicitor"/>
-               <note resp="#lmw">Solicitor at various addresses in Lincoln Inn Fields, London; and at Friar Street, Reading. He was an articled clerk in Abingdon. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63.</note>
-            </person>
             
             
             <!--LMW: Webbs & Wheelers: Alderman of Wokingham in 1819:Robert Woods, George Woodward, John Wright, Edward Winn, Samuel Waller, Sir John Benn Walsh, Baronet; Charles Walker, clerk"
@@ -211,11 +191,30 @@
             <!--"young St. John" (related to Elfords?), -->
             
             <listPerson sortKey="histPersons">
+               
+               <person xml:id="Montague_Captain" sex="m"><!--update existing-->  <!--https://books.google.com/books?id=n9pv_1xLploC&newbks=1&newbks_redir=0&dq=Captain%20Montagu%20Caversham&pg=PA704#v=onepage&q=Captain%20Montagu%20Caversham&f=false-->
+                  <persName>Captain Montague</persName>
+                  <persName>
+                     <surname>Montague</surname>
+                     <roleName>Captain</roleName>
+                  </persName>
+                  <occupation type="military"/>
+                  <occupation type="military" subtype="navy"/>
+                  <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work.  <!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--><!--Captain Montagu Montagu, Royal Navy, of Caversham Hill (estate), b. 1786, second son of Montagu Montagu, inherits after eldest son George dies. or William?--></note>
+               </person>
+               
+               <person xml:id="Newbery_J" sex="m">
+                  <!--https://books.google.com/books?id=QLsqAQAAMAAJ&lpg=RA1-PA77&ots=rxfBkgHvyl&dq=%22Jacob%20Newberry%22%20Reading%20solicitor&pg=PA309#v=onepage&q=%22Jacob%20Newberry%22%20Reading%20solicitor&f=false-->
+                  <persName>Jacob Newbery</persName>
+                  <persName>
+                     <forename>Jacob</forename>
+                     <surname>Newbery</surname>
+                  </persName>
+                  <occupation type="legal"/>
+                  <occupation type="legal" subtype="solicitor"/>
+                  <note resp="#lmw">Solicitor at various addresses in Lincoln Inn Fields, London; and at Friar Street, Reading. He was an articled clerk in Abingdon. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63.</note>
+               </person>
              
-               
-               
-            
-            
             </listPerson>
        </div>
          
@@ -299,7 +298,6 @@
 					<name type="family">Solanaceae</name>
                   <note resp="#qar #lmw">Potatoes are relatively new to Europe at this time. They are native to the Andes and were introduced only in the second half of the 16th century by the Spanish.</note>
                </item>
-/////6
 
                <item xml:id="fern">
                   <name>fern</name>
@@ -552,16 +550,7 @@
             </list>
          </div>
          
-         <div type="publications">
-            <listBibl sortKey="work_MRM"> 
-               
-               
-               
-               
-               
-               
-            </listBibl>
-         </div>
+         
       </body>
   </text>
 </TEI>
