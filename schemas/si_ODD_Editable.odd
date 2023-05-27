@@ -217,7 +217,7 @@
             <xi:include href="ODD_includes/occupationsElem.xml" parse="xml"/>
             <!--Occupation coding: binding appropriate subtypes with types and permitting plural subtype values. Edit the occupation Schematron constraint specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
          <!-- X-Include Here: for occupation Schematron constraints -->
-            <xi:include href="ODD_includes/occupationsSchem.xml" parse="xml"/>
+         <!-- 2023-05-27 ebb: POSSIBLY NO LONGER USING THIS SCHEMATRON  <xi:include href="ODD_includes/occupationsSchem.xml" parse="xml"/>-->
 <!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
             <constraintSpec ident="quotes" scheme="schematron">
                <constraint>
