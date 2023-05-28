@@ -208,7 +208,16 @@
             <!--Occupation coding -->
             
             <!-- X-Include Here: for elementSpec occupation. Edit the occupation element specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
-            <elementSpec ident="occupation" mode="change" module="namesdates" xml:base="ODD_includes/../../DM_SiteIndex/schemas/ODD_includes/occupationsElem.xml" xml:lang="en">
+            <elementSpec ident="occupation" mode="replace" module="namesdates" xml:base="ODD_includes/../../DM_SiteIndex/schemas/ODD_includes/occupationsElem.xml" xml:lang="en">
+   <gloss versionDate="2008-12-09" xml:lang="en">occupation</gloss>
+   <desc versionDate="2023-05-28" xml:lang="en">describes a person's trade, profession or occupation.</desc>
+   <classes mode="replace">
+      <memberOf key="att.global"></memberOf>
+      <memberOf key="model.persStateLike"></memberOf>
+      <memberOf key="att.datable"></memberOf>
+      <memberOf key="att.editLike"></memberOf>
+      <memberOf key="att.naming"></memberOf>
+   </classes>
                <content>
                   <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"></elementRef>
                </content>

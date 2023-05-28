@@ -4,6 +4,15 @@
                          module="namesdates"
                          xml:base="../../DM_SiteIndex/schemas/ODD_includes/occupationsElem.xml"
                          xml:lang="en">
+   <gloss xml:lang="en" versionDate="2008-12-09">occupation</gloss>
+   <desc versionDate="2023-05-28" xml:lang="en">describes a person's trade, profession or occupation.</desc>
+   <classes mode="replace">
+      <memberOf key="att.global"/>
+      <memberOf key="model.persStateLike"/>
+      <memberOf key="att.datable"/>
+      <memberOf key="att.editLike"/>
+      <memberOf key="att.naming"/>
+   </classes>
                <content>
                   <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"/>
                </content>
