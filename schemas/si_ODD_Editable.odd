@@ -6,7 +6,7 @@
    xmlns:xi="http://www.w3.org/2001/XInclude"
    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
    xmlns:rng="http://relaxng.org/ns/structure/1.0"
-   version="2.9.1"
+   version="4.6.0"
    xml:lang="en">
    <!-- 2019-05-26 ebb: * Start in si_ODD_Editable.odd, and in oXygen, run Tools -> Canonicalize to expand the latest occupations code. When updating the <occupation> element and its associated schematron constraints, always do that first, over in ODD_includes directory here in this schema folder. -->
    <!-- 2018-08-11 ebb: * After generating si_ODD.odd, "Run the wrench" in oXygen (on the si_ODD.odd file) to generate the new Relax-NG XML-syntax project schema and HTML documentation for the project SI files.
@@ -217,7 +217,7 @@
             <xi:include href="ODD_includes/occupationsElem.xml" parse="xml"/>
             <!--Occupation coding: binding appropriate subtypes with types and permitting plural subtype values. Edit the occupation Schematron constraint specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
          <!-- X-Include Here: for occupation Schematron constraints -->
-         <!-- 2023-05-27 ebb: POSSIBLY NO LONGER USING THIS SCHEMATRON  <xi:include href="ODD_includes/occupationsSchem.xml" parse="xml"/>-->
+         <!-- 2023-05-27 ebb: POSSIBLY NO LONGER USING THIS SCHEMATRON  -->
 <!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
             <constraintSpec ident="quotes" scheme="schematron">
                <constraint>
