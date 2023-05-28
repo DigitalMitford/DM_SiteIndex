@@ -208,7 +208,7 @@
             <!--Occupation coding -->
             
             <!-- X-Include Here: for elementSpec occupation. Edit the occupation element specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
-            <elementSpec ident="occupation" mode="replace" module="namesdates" xml:base="ODD_includes/../../DM_SiteIndex/schemas/ODD_includes/occupationsElem.xml" xml:lang="en">
+            <elementSpec ident="occupation" mode="change" module="namesdates" xml:base="ODD_includes/../../DM_SiteIndex/schemas/ODD_includes/occupationsElem.xml" xml:lang="en">
                <content>
                   <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"></elementRef>
                </content>
