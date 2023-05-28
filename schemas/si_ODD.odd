@@ -1,7 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude" version="4.6.0" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:eg="http://www.tei-c.org/ns/Examples" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude" version="4.6.0" xml:lang="en">
    <!-- 2019-05-26 ebb: * Start in si_ODD_Editable.odd, and in oXygen, run Tools -> Canonicalize to expand the latest occupations code. When updating the <occupation> element and its associated schematron constraints, always do that first, over in ODD_includes directory here in this schema folder. -->
    <!-- 2018-08-11 ebb: * After generating si_ODD.odd, "Run the wrench" in oXygen (on the si_ODD.odd file) to generate the new Relax-NG XML-syntax project schema and HTML documentation for the project SI files.
   -->
@@ -218,10 +218,90 @@
       <memberOf key="att.editLike"></memberOf>
       <memberOf key="att.naming"></memberOf>
    </classes>
-               <content>
-                  <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"></elementRef>
-               </content>
-               
+   <content>
+      <elementRef key="roleName" maxOccurs="unbounded" minOccurs="0"></elementRef>
+   </content>
+   <constraintSpec ident="multiple-subtypes-for-occupation" scheme="schematron" xml:lang="en">
+      <constraint>
+         <sch:pattern>
+            <sch:let name="artistSubtypes" value="('painter', 'printmaker', 'engraver', 'sculptor', 'architect', 'landscape', 'illustrator')"></sch:let>
+            <sch:let name="bookProducerSubtypes" value="('publisher', 'printer', 'binder', 'bookseller')"></sch:let>
+            <sch:let name="religiousSubtypes" value="('clergy', 'prophet', 'vicar', 'curate', 'minister', 'rector', 'priest', 'musician', 'composer', 'churchAssist')"></sch:let>
+            <sch:let name="educatorSubtypes" value="('teacher', 'schoolHead', 'governess', 'tutor', 'lecturer')"></sch:let>
+            <sch:let name="scholarSubtypes" value="('philosopher', 'naturalist', 'astronomer', 'curator', 'antiquarian', 'inventor', 'historian', 'economist', 'agronomist', 'supernatural')"></sch:let>
+            <sch:let name="explorerSubtypes" value="('traveller', 'navigator', 'cartographer', 'seaCaptain')"></sch:let>
+            <sch:let name="legalSubtypes" value="('barrister', 'solicitor', 'lawyer', 'recorder', 'magistrate', 'judge', 'enforcement')"></sch:let>
+            <sch:let name="literarySubtypes" value="('novelist', 'poet', 'playwright', 'essayist', 'critic', 'journalist', 'editor', 'biographer', 'autobiographer', 'lexicographer', 'linguist', 'translator')"></sch:let>
+            <sch:let name="theaterSubtypes" value="('actor', 'singer', 'manager', 'owner', 'designer', 'musician', 'composer')"></sch:let>
+            <sch:let name="medicalSubtypes" value="('physician', 'surgeon', 'apothecary', 'midwife', 'oculist', 'dentist')"></sch:let>
+            <sch:let name="militarySubtypes" value="('army', 'navy')"></sch:let>
+            <sch:let name="benefactorSubtypes" value="('philanthropist', 'patron', 'volunteer')"></sch:let>
+            <sch:let name="governmentSubtypes" value="('monarch', 'politician', 'orator', 'reformer', 'courtier', 'diplomat', 'administrator', 'clerk', 'taxCollector', 'post', 'customs', 'surveyor', 'alderman')"></sch:let>
+            <sch:let name="serviceSubtypes" value="('butler', 'coachman', 'valet', 'maid', 'manservant', 'footman', 'cook', 'housekeeper', 'gardener', 'nurse', 'gamekeeper', 'majordomo', 'groom')"></sch:let>
+            <sch:let name="tradeSubtypes" value="('baker', 'butcher', 'farmer', 'bricklayer', 'mason', 'chandler', 'wheelwright', 'carpenter', 'watchmaker', 'miller', 'blacksmith', 'goldsmith', 'jeweller', 'tanner', 'saddler', 'shoemaker', 'innkeeper', 'liquor', 'merchant', 'clerk', 'banker', 'stockbroker', 'auctioneer', 'gambler','ropemaker', 'fisherman', 'factoryOwner', 'shopAssist', 'tailor', 'hatter', 'seamstress', 'laundry', 'char', 'thatcher', 'housePainter', 'glazier', 'construction', 'farmAssist', 'pestControl', 'carter', 'driver', 'hunt', 'magic', 'poacher', 'broomMaker', 'sailor')"></sch:let>
+            <sch:rule context="tei:occupation[@type='artist'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $artistSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$artistSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='bookProducer'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $bookProducerSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$bookProducerSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='religious'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $religiousSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$religiousSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='educator'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $educatorSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$educatorSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='scholar'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $scholarSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$scholarSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='explorer'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $explorerSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$explorerSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='legal'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $legalSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$legalSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='literary'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $literarySubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$literarySubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='theater'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $theaterSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$theaterSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='medical'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $medicalSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$medicalSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='military'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $militarySubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$militarySubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='benefactor'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $benefactorSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$benefactorSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='government'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $governmentSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$governmentSubtypes"></sch:value-of>.</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='service'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $serviceSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$serviceSubtypes"></sch:value-of></sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:occupation[@type='trade'][@subtype]">
+               <sch:let name="subtypes" value=" for $i in tokenize(@subtype, '\s+') return $i"></sch:let>
+               <sch:assert test="every $subtype in $subtypes satisfies $subtype = $tradeSubtypes">Multiple subtypes are permitted, but these must be from the following list: <sch:value-of select="$tradeSubtypes"></sch:value-of></sch:assert>
+            </sch:rule>  
+         </sch:pattern>
+      </constraint>
+   </constraintSpec>   
                <attList org="choice">
                   <attList org="group">
                      <attDef ident="type" mode="replace" usage="req">
@@ -229,9 +309,9 @@
                            <valItem ident="artist"></valItem>
                         </valList>
                      </attDef>
-                     <attDef ident="subtype" mode="replace" usage="req">
+                    <attDef ident="subtype" mode="replace" usage="opt">
                         <datatype>
-                           <dataRef key="teidata.enumerated"></dataRef>
+                           <dataRef key="teidata.text"></dataRef>
                         </datatype>
                         <valList type="semi">
                            <valItem ident="painter">
@@ -264,9 +344,9 @@
                            <valItem ident="bookProducer"></valItem>
                         </valList>
                      </attDef>
-                     <attDef ident="subtype" mode="replace" usage="req">
+                    <attDef ident="subtype" mode="replace" usage="opt">
                         <datatype>
-                           <dataRef key="teidata.enumerated"></dataRef>
+                           <dataRef key="teidata.text"></dataRef>
                         </datatype>
                         <valList type="semi">
                            <valItem ident="publisher">
@@ -290,9 +370,9 @@
                               <valItem ident="religious"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="clergy">
@@ -334,9 +414,9 @@
                               <valItem ident="educator"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="teacher">
@@ -363,9 +443,9 @@
                               <valItem ident="scholar"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="philosopher">
@@ -407,9 +487,9 @@
                               <valItem ident="explorer"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="traveller">
@@ -433,9 +513,9 @@
                               <valItem ident="legal"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="barrister">
@@ -462,15 +542,15 @@
                            </valList>
                         </attDef>
                      </attList>
-                     <attList org="choice">
+                     <attList org="group">
                         <attDef ident="type" mode="replace" usage="req">
                            <valList type="closed">
                               <valItem ident="literary"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="novelist">
@@ -512,15 +592,15 @@
                            </valList>
                         </attDef>
                      </attList>
-                     <attList org="choice">
+                     <attList org="group">
                         <attDef ident="type" mode="replace" usage="req">
                            <valList type="closed">
                               <valItem ident="theater"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="actor">
@@ -553,9 +633,9 @@
                               <valItem ident="medical"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="physician">
@@ -585,9 +665,9 @@
                               <valItem ident="military"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="army">
@@ -605,9 +685,9 @@
                               <valItem ident="benefactor"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="philanthropist">
@@ -628,9 +708,9 @@
                               <valItem ident="government"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="monarch">
@@ -681,9 +761,9 @@
                               <valItem ident="service"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="butler">
@@ -734,9 +814,9 @@
                               <valItem ident="service"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="butler">
@@ -787,9 +867,9 @@
                               <valItem ident="trade"></valItem>
                            </valList>
                         </attDef>
-                        <attDef ident="subtype" mode="replace" usage="req">
+                       <attDef ident="subtype" mode="replace" usage="opt">
                            <datatype>
-                              <dataRef key="teidata.enumerated"></dataRef>
+                              <dataRef key="teidata.text"></dataRef>
                            </datatype>
                            <valList type="semi">
                               <valItem ident="baker">
@@ -932,6 +1012,7 @@
                      </attList>
                   <!-- outermost attList elements closes below.-->
                </attList>
+
     <exemplum>
         <p>The <gi>occupation</gi> element in lists of editors and assistants on the Digital Mitford project should contain a roleName to contain institutional roles and affiliation:</p>
         <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -942,14 +1023,13 @@
     </exemplum>
     <exemplum>
         <p>When the <gi>occupation</gi> element appears in other lists (for historical or fictional persons) in the site index, it is an empty element, and must hold attributes for typing and subtyping:</p>
-        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+       <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <occupation subtype="playwright" type="literary"></occupation>
         </egXML>
     </exemplum>
 </elementSpec>
-            <!--Occupation coding: binding appropriate subtypes with types and permitting plural subtype values. Edit the occupation Schematron constraint specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
-         <!-- X-Include Here: for occupation Schematron constraints -->
-         <!-- 2023-05-27 ebb: POSSIBLY NO LONGER USING THIS SCHEMATRON  -->
+          
+            
 <!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
             <constraintSpec ident="quotes" scheme="schematron">
                <constraint>

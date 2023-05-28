@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<constraintSpec scheme="schematron" ident="occupation" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="en">
+<constraintSpec scheme="schematron" ident="multiple-subtypes-for-occupation" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="en">
     <constraint>
         <sch:pattern>
             <sch:let name="artistSubtypes"

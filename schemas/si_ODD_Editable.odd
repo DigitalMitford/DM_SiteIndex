@@ -3,6 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:eg="http://www.tei-c.org/ns/Examples"
    xmlns:xi="http://www.w3.org/2001/XInclude"
    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
    xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -215,9 +216,8 @@
             
             <!-- X-Include Here: for elementSpec occupation. Edit the occupation element specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
             <xi:include href="ODD_includes/occupationsElem.xml" parse="xml"/>
-            <!--Occupation coding: binding appropriate subtypes with types and permitting plural subtype values. Edit the occupation Schematron constraint specs in the ODD_Includes directory, and then run Canonicalize in oXygen to include it. -->
-         <!-- X-Include Here: for occupation Schematron constraints -->
-         <!-- 2023-05-27 ebb: POSSIBLY NO LONGER USING THIS SCHEMATRON  -->
+          
+            
 <!--Schematron Constraints for Catching Errors / Omissions in SI encoding -->
             <constraintSpec ident="quotes" scheme="schematron">
                <constraint>
