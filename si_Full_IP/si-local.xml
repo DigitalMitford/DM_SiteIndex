@@ -69,11 +69,45 @@
             <change when="2019-02-17" who="#ebb">Modifed the Thomas Noon Talfourd entry so the top material better foregrounds his career and connection to MRM. Added a long-missing Charles Kemble entry, and fleshed out internal tagging on Kemble family entries.</change>
          </listChange>
       </revisionDesc>
-   </teiHeader>
+   </teiHeader> 
    <text>
       <body>
          <div type="Mitford_Team">
             <listPerson sortKey="Mitford_Team">
+               <person xml:id="srr">
+                  <!-- srr: Not found in local SI or in Published SI -->
+                  <persName>
+                     <surname>Ricks</surname>
+                     <forename>Savannah</forename>
+                     <forename>R.</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <note resp="#ebb">A student research assistant on 
+                     Mary Russell Mitford’s Journal of 1819-1823 since October 2022, Savannah is majoring in Digital Media, Arts, and Technology (DIGIT) 
+                     at Penn State Erie, The Behrend College. </note>
+               </person>
+               <person xml:id="TEAC">
+                  <persName>
+                     <surname>Cameron</surname>
+                     <forename>Tyler</forename>
+                     <forename>EA.</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <note resp="#ebb">As a student majoring in Digital Media, Arts, and Technology (DIGIT), 
+                     Tyler Cameron worked on a team project on Mitford’s Journal of 1819-1823 in the context of the Fall 2022 Text Encoding class at Penn State Erie, The Behrend College. </note>
+               </person>
+               <person xml:id="TSA">
+                  <persName>
+                     <surname>Akam</surname>
+                     <forename>Tyler</forename>
+                     <forename>S.</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <note resp="#ebb">A student research assistant on 
+                     Mary Russell Mitford’s Journal of 1819-1823 since October 2022, Tyler is majoring in Digital Media, Arts, and Technology (DIGIT) 
+                     at Penn State Erie, The Behrend College. </note>
+               </person>
+
                <person xml:id="ab">
                   <persName>
                      <surname>Booth</surname>
@@ -15766,7 +15800,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1814-10-04">
                      <placeName>Birmingham, West Midlands, England</placeName>
                   </death>
-                  <occupation type="clergy"/>
+                  <occupation type="religious"/>
                   <occupation type="literary"/>
                   <occupation type="literary" subtype="journalist"/>
                   <occupation type="literary" subtype="playwright"/>
@@ -20224,14 +20258,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <persName>
                      <surname>Woodburn</surname>
                      <forename>John</forename>
-                     <note resp="#lmw">Dates unknown. May be related to <persName ref="#Woodburn_Mr">Mr. Woodburn</persName>.</note>
+                     <note resp="#lmw">Dates unknown. May be related to Mr. Woodburn who is mentioned in Mitford’s Journal.</note>
                   </persName>
                </person>
                <person xml:id="Wordsworth_Dora" sex="f">
                   <persName>Dorothy (Dora) Wordsworth</persName>
                   <persName>
                      <forename>Dorothy</forename>
-                     <forename>
+                     <forename>//list
                         <addName>Dora</addName>
                      </forename>
                      <surname type="paternal">Wordsworth</surname>
@@ -27045,12 +27079,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <name type="genus">Ribes</name>
                   <name type="family">Grossulariaceae</name>
                   <note resp="#qar #lmw">Woody shrub bearing spiny stems, native to Eurasia and North Africa, grown for its fruit. Inconspicuous green-yellow flowers on short stems develop into clusters of one to three bright green translucent edible fruit. Naturalized in coppices and hedgerows, as well as cultivated. Naturalists debate whether it is native to the UK or imported and naturalized before the 16th century.</note>
-                  <name>
+                <!-- 2023-05-28 ebb: Check, but I think this link really belongs with a new winter-berry entry:  
+                   <note>
                      <ptr target="https://www.woodlandtrust.org.uk/blog/2018/11/winter-berries/"/>
-                  </name>
-                  <name>
+                  </note>-->
+                  <note>
                      <ptr target="https://species.wikimedia.org/wiki/Ribes_uva-crispa"/>
-                  </name>
+                  </note>
                </item>
                <item xml:id="gorse">
                   <name>gorse</name>
@@ -29091,6 +29126,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
             </listBibl>
             <listBibl sortKey="work_MRM">
+               <bibl xml:id="Sermons_RRussell">
+                  <title level="m">Manuscript sermons</title>
+                  <author ref="#Russell_Richard"/>
+                  <note resp="#lmw">Unpublished manuscript sermons by <persName ref="#MRM"
+                     >Mitford</persName>'s grandfather. <persName ref="#MRM">Mitford</persName>
+                     owns a copy, which she loans to <persName ref="#Knyvett_Chas">Charles
+                        Knyvett</persName>.</note>
+               </bibl>
                <bibl xml:id="_55Days_play">
                   <title level="m">55 Days</title>
                   <author>Howard Brenton</author>
