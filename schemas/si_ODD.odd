@@ -1104,7 +1104,7 @@
                </sch:pattern>
                <sch:pattern>
                   <sch:let name="si" value="doc('https://digitalmitford.org/si.xml')//@xml:id"></sch:let> 
-                  <sch:let name="siFullIP" value="doc('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Full_IP/si-local.xml')//@xml:id"/>
+                  <sch:let name="siFullIP" value="collection('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Full_IP/catalogue.xml')//@xml:id"/>
                   <sch:let name="siAddcoll" value="collection('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Add_Staged/catalogue.xml')//@xml:id"></sch:let>
                   <sch:let name="siAll" value="($si, $siAddcoll, $siFullIP)"/>
                   <sch:rule context="@ref | @corresp | @resp">

@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-07-25T21:09:24Z. .
+Schema generated from ODD source 2023-07-25T21:13:41Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -10008,7 +10008,7 @@ Suggested values include: 1] label; 2] data</a:documentation>
                 xmlns:xi="http://www.w3.org/2001/XInclude">
       <sch:let name="si" value="doc('https://digitalmitford.org/si.xml')//@xml:id"/>
       <sch:let name="siFullIP"
-               value="doc('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Full_IP/si-local.xml')//@xml:id"/>
+               value="collection('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Full_IP/catalogue.xml')//@xml:id"/>
       <sch:let name="siAddcoll"
                value="collection('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Add_Staged/catalogue.xml')//@xml:id"/>
       <sch:let name="siAll" value="($si, $siAddcoll, $siFullIP)"/>
