@@ -291,14 +291,14 @@
                   </sch:rule>  
                </sch:pattern>
                <sch:pattern>
-                  <sch:let name="si" value="doc('http://digitalmitford.org/si.xml')//@xml:id"/> 
+                  <sch:let name="si" value="doc('https://digitalmitford.org/si.xml')//@xml:id"/> 
                   <!--<sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>-->
                   <sch:let name="siAddcoll" value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/>
                   <sch:let name="siAll" value="($si, $siAddcoll)"/>
                   <sch:rule context="@ref | @corresp | @resp">
                      
                      <sch:let name="tokens" value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>
-                     <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
+                     <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $siAll">
                         Your @ref or @corresp value needs to begin with a hashtag. If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
                      </sch:assert>                
                   </sch:rule>
