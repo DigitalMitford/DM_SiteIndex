@@ -292,9 +292,9 @@
                </sch:pattern>
                <sch:pattern>
                   <sch:let name="si" value="doc('https://digitalmitford.org/si.xml')//@xml:id"/> 
-                  <!--<sch:let name="si" value="doc('../../si_Full_Staged/si-local.xml')//@xml:id"/>-->
+                  <sch:let name="siFullIP" value="doc('../si_Full_IP/si-local.xml')//@xml:id"/>
                   <sch:let name="siAddcoll" value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/>
-                  <sch:let name="siAll" value="($si, $siAddcoll)"/>
+                  <sch:let name="siAll" value="($si, $siAddcoll, $siFullIP)"/>
                   <sch:rule context="@ref | @corresp | @resp">
                      
                      <sch:let name="tokens" value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>

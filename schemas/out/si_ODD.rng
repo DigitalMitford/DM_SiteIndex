@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-05-28T18:38:48Z. .
+Schema generated from ODD source 2023-07-25T20:55:15Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -10006,14 +10006,15 @@ Suggested values include: 1] label; 2] data</a:documentation>
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude">
-      <sch:let name="si" value="doc('http://digitalmitford.org/si.xml')//@xml:id"/>
+      <sch:let name="si" value="doc('https://digitalmitford.org/si.xml')//@xml:id"/>
+      <sch:let name="siFullIP" value="doc('../si_Full_IP/si-local.xml')//@xml:id"/>
       <sch:let name="siAddcoll"
                value="collection('../si_Add_Staged/catalogue.xml')//@xml:id"/>
-      <sch:let name="siAll" value="($si, $siAddcoll)"/>
+      <sch:let name="siAll" value="($si, $siAddcoll, $siFullIP)"/>
       <sch:rule context="@ref | @corresp | @resp">
          <sch:let name="tokens"
                   value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>
-         <sch:assert test="every $token in $tokens satisfies $token = //tei:text//@xml:id | $si">
+         <sch:assert test="every $token in $tokens satisfies $token = (//tei:text//@xml:id, $siAll)">
                         Your @ref or @corresp value needs to begin with a hashtag. If that's not the problem, check that the attribute of @ref or @corresp (after the hashtag, #) matches a defined @xml:id in the site index or siAdd files. 
                      </sch:assert>
       </sch:rule>
