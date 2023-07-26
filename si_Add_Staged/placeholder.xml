@@ -64,6 +64,10 @@
          <div type="historical_people">
             
             <listPerson sortKey="histPersons">
+               <person xml:id="nobody" sex="u">
+                  <persName>Nobody</persName>
+                  <note>I'm nobody, who are you? Are you nobody, too?</note>
+               </person>
              
                <person xml:id="Haydon" sex="m">
                   <persName>

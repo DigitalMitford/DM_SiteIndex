@@ -1103,9 +1103,12 @@
                   </sch:rule>  
                </sch:pattern>
                <sch:pattern>
-                  <sch:let name="si" value="doc('https://digitalmitford.org/si.xml')//@xml:id"></sch:let> 
-                  <sch:let name="siFullIP" value="collection('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Full_IP/catalogue.xml')//@xml:id"/>
-                  <sch:let name="siAddcoll" value="collection('https://raw.githubusercontent.com/DigitalMitford/DM_SiteIndex/master/si_Add_Staged/catalogue.xml')//@xml:id"></sch:let>
+                  <sch:let name="si" value="doc('https://digitalmitford.org/si.xml')//*/@xml:id ! normalize-space()"></sch:let> 
+                  <!--2023-07-25 ebb: WAIT: TESTING THIS: I MIGHT BE VERY WRONG! IF LOCAL PATHS WORK THAN YAY. for publishing schema from digitalmitford.org website, uncomment the absolute published GitHub pages URLs:  -->
+                <!--  <sch:let name="siFullIP" value="collection('https://digitalmitford.github.io/DM_SiteIndex/si_Full_IP/catalogue.xml')//*/@xml:id ! normalize-space()"/>
+                  <sch:let name="siAddcoll" value="collection('https://digitalmitford.github.io/DM_SiteIndex/si_Add_Staged/catalogue.xml')//*/@xml:id ! normalize-space()"/>-->
+                <sch:let name="siFullIP" value="collection('../../si_Full_IP/catalogue.xml')//*/@xml:id ! normalize-space()"/>
+                 <sch:let name="siAddcoll" value="collection('../../si_Add_Staged/catalogue.xml')//*/@xml:id ! normalize-space()"/>
                   <sch:let name="siAll" value="($si, $siAddcoll, $siFullIP)"/>
                   <sch:rule context="@ref | @corresp | @resp">
                      
