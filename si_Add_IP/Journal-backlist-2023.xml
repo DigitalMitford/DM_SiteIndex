@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- OLD schema line doesn't work. Do not use: <?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Uncomment these schema lines to apply the schema locally if your internet is wobbly:
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -102,7 +103,7 @@
                      researching site index entries to contribute to the project. She is also
                      helping with interface design for the project, designing new stylesheets and
                      helping with the JavaScript with the Journal. She is working on a B.A. in
-                     Digital Media, Arts, and Technology at <persName ref="#nobody">Penn State Behrend</persName>.</note>
+                     Digital Media, Arts, and Technology at Penn State Behrend.</note>
                </person>
                <person xml:id="madeup">
                   <persName>test case</persName>
@@ -1917,8 +1918,8 @@
                   <district>Shinfield parish</district>
                   <region>Berkshire</region>
                   <country>England</country>
-                  <note resp="#lmw">Fields belonging to the <placeName ref="#Bertram_houe">Bertram
-                        House</placeName> estate. One location where <persName ref="#MEM"
+                  <note resp="#lmw">Fields belonging to the <placeName ref="#Bertram_house">Bertram
+                        House</placeName> estate. One location where <persName ref="#MRM"
                         >Mitford</persName> goes <name ref="#violet">violet</name>ting in <date
                         when="1819-03">March 1819</date>. Some of the fields are used for <name
                         ref="#hay">hay</name>ing.</note>
@@ -1931,8 +1932,8 @@
                   <region>Berkshire</region>
                   <country>England</country>
                   <note resp="#lmw">Plantations--planted woodlands--belonging to the <placeName
-                        ref="#Bertram_houe">Bertram House</placeName> estate. One location where
-                        <persName ref="#MEM">Mitford</persName> went <name ref="#fir"
+                        ref="#Bertram_house">Bertram House</placeName> estate. One location where
+                        <persName ref="#MRM">Mitford</persName> went <name ref="#fir"
                      >fir</name>topping and fed my <name ref="#robin">robin</name>s in winter <date
                         when="1819">1819</date> and <date when="1820">1820</date>,</note>
                </place>
@@ -1944,7 +1945,7 @@
                   <region>Berkshire</region>
                   <country>England</country>
                   <note resp="#lmw">Fields belonging to the <placeName ref="#Body_Richard">ichard
-                        Body</placeName>. One location where <persName ref="#MEM">Mitford</persName>
+                        Body</placeName>. One location where <persName ref="#MRM">Mitford</persName>
                      goes <name ref="#violet">violet</name>ting in <date when="1819-03">March
                         1819</date>.</note>
                </place>
@@ -1958,7 +1959,7 @@
                   <note resp="#lmw">Field belonging to the <placeName ref="#Dearsley_Wm">Mr.
                         Dearsley</placeName>, once part of the <placeName ref="#Bertram_house"
                         >Bertram House estate</placeName>, sold by <persName ref="#Mitford_Geo"
-                        >George Mitford</persName>. One location where <persName ref="#MEM"
+                        >George Mitford</persName>. One location where <persName ref="#MRM"
                         >Mitford</persName> goes <name ref="#violet">violet</name>ting in <date
                         when="1819-03">March 1819</date>.</note>
                </place>
@@ -2016,7 +2017,7 @@
                   <district>Shinfield parish</district>
                   <region>Berkshire</region>
                   <country>England</country>
-                  <note resp="#lmw">Garden at <placeName ref="#Bertram_houe">Bertram
+                  <note resp="#lmw">Garden at <placeName ref="#Bertram_house">Bertram
                         House</placeName> estate.</note>
                </place>
 
@@ -2026,7 +2027,7 @@
                   <district>Shinfield parish</district>
                   <region>Berkshire</region>
                   <country>England</country>
-                  <note resp="#lmw">Meadows belonging to the <placeName ref="#Bertram_houe">Bertram
+                  <note resp="#lmw">Meadows belonging to the <placeName ref="#Bertram_house">Bertram
                         House</placeName> estate.</note>
                </place>
 
@@ -2594,7 +2595,7 @@
                   <date when="1819"/>
                   <note resp="#lmw">Narrative poem in imitation of <persName ref="#Scott_Wal"
                         >Scott</persName>, written while the author was at Cambridge.</note>
-                  <note resp="srr">Mitford rated it <quote>tolerable</quote>. <ref target="#e-397">
+                  <note resp="#srr">Mitford rated it <quote>tolerable</quote>. <ref target="#e-397">
                         In journal entry <date when="1820-02-11">Friday 11th February
                         1820</date></ref></note>
                </bibl>
@@ -2630,7 +2631,7 @@
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">Memoirs of the Most Renowned James Graham, Marquis of
                      Montrose</title>
-                  <author ref="#Graham_DofMontrose"/>
+                  <author ref="#Duke_Montrose"/><!-- 2023-07-25 ebb: Located in published SI, corrected ref. -->
                   <author ref="#Wishart_Geo"/>
                   <publisher>Archibald Constable and Co.</publisher>
                   <pubPlace>Edinburgh</pubPlace>
@@ -2846,7 +2847,7 @@ Publisher:	London : E. Cox and Son, 1815
                <bibl xml:id="Italian_AR">
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">The Italian</title>
-                  <author><persName ref="#Radcliffe_A"/></author>
+                  <author><persName ref="#Radcliffe_Ann"/></author>
                   <publisher>T. Cadell, Jr. and W. Davies</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1797"/>
@@ -3117,7 +3118,7 @@ Publisher:	London : E. Cox and Son, 1815
                <bibl xml:id="Mems_WilhelminaofPrussia">
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">Memoirs of Frederica Sophia Wilhelmina</title>
-                  <author><persName ref="#Wilhelmine_Prussia1709"/></author>
+                  <author><persName ref="#Wilhelmina_Prussia1709"/></author>
                   <publisher>Henry Colburn</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1812"/>
@@ -3206,7 +3207,7 @@ Publisher:	London : E. Cox and Son, 1815
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">Narrative of a Journey in Egypt and the Country Beyond the
                      Cataracts</title>
-                  <author><persName ref="#Radcliffe_A"/></author>
+                  <author><persName ref="#Radcliffe_Ann"/></author>
                   <publisher>John Murray</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1817"/>
@@ -3803,7 +3804,7 @@ Publisher:	London : E. Cox and Son, 1815
                <bibl xml:id="Zuma">
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">Zuma, or the Tree of Health</title>
-                  <author ref="#deGenlis"/>
+                  <author ref="#deGenlis_Mme"/>
                   <publisher>Henry Colburn</publisher>
                   <pubPlace ref="#London_city">London</pubPlace>
                   <date when="1818"/>
@@ -3852,7 +3853,7 @@ Publisher:	London : E. Cox and Son, 1815
                <bibl xml:id="ItalianTrans_ChasD">
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">Italian Translations </title>
-                  <author ref="#Dickinson_Chas"/>
+                  <author ref="#Dickinson_Charles"/>
                   <date when="1819"/>
                   <note resp="#lmw">Unpublished manuscript translations of works in Italian.
                         <persName ref="#MRM">Mitford</persName> reviewed the manuscript proofs.
@@ -4188,7 +4189,7 @@ Publisher:	London : E. Cox and Son, 1815
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">A Chronological History of Voyages Into the Arctic
                      Regions</title>
-                  <author ref="#Barrow_J"/>
+                  <author ref="#Barrow_John"/>
                   <pubPlace>
                      <placeName>London</placeName>
                   </pubPlace>
@@ -4223,7 +4224,7 @@ Publisher:	London : E. Cox and Son, 1815
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">Memoirs of the Legal, Literary, and Political Life of the Late,
                      the Right Honourable John Philpot Curran</title>
-                  <author ref="#ORegan"/>
+                  <author ref="#ORegan">William O'Regan</author>
                   <pubPlace>
                      <placeName>London</placeName>
                   </pubPlace>
@@ -4294,7 +4295,7 @@ Publisher:	London : E. Cox and Son, 1815
                <bibl xml:id="Woman_MB">
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">Woman, or Minor maxims </title>
-                  <author ref="#Budden_M"/>
+                  <author ref="#Budden_M">Maria Elizabeth Budden</author>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
                   </pubPlace>
@@ -4401,7 +4402,7 @@ Publisher:	London : E. Cox and Son, 1815
                <bibl xml:id="Narrative_Eqypt_RW">
                   <!-- srr: Not found in local SI or Published SI -->
                   <title level="m">A Narrative of the Expedition to Egypt</title>
-                  <author ref="#WilsonRbt">Robert T. Wilson</author>
+                  <author ref="#Wilson_RT">Robert T. Wilson</author>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
                   </pubPlace>
@@ -4449,6 +4450,7 @@ Publisher:	London : E. Cox and Son, 1815
                   <title level="m">Account of the Extraordinary and Shocking Case of George
                      Mathews</title>
                   <author ref="#Mathews_Geo">George Mathews</author>
+                  <!--2023-07-25 ebb: Note: *Probably* not the same as the George Matthews (two t's) in the SI, who's local to Reading? -->
                   <author ref="#Harner_J">James Harner</author>
                   <pubPlace>
                      <placeName ref="#London_city">London</placeName>
