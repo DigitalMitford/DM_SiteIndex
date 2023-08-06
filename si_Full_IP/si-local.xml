@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -1983,8 +1983,7 @@
                   </death>
                   <occupation type="literary"/>
                   <occupation type="religious" subtype="clergy"/>
-                  <note resp="#ebb #lmw">
-                     <p>A lifelong friend of <persName ref="#MRM">Mary Russell Mitford</persName>
+                  <note resp="#ebb #lmw">A lifelong friend of <persName ref="#MRM">Mary Russell Mitford</persName>
                         who knew her from their childhood in the 1790s, Harness launched the first
                         major effort to collect and edit Mitford’s letters into a series of volumes,
                         which was completed by his assistant, <persName ref="#Lestrange">Alfred Guy
@@ -1992,8 +1991,7 @@
                         as <title ref="#Lestrange_Letters">The Life of Mary Russell Mitford, Related
                            in a Selection from her Letters to her Friends</title>. This collection
                         was originally intended to be six volumes, but was cut back to three by the
-                        publishers, to Harness’s distress.</p>
-                     <p>Harness and <persName ref="#Byron">Byron</persName> were also friends from
+                        publishers, to Harness’s distress. Harness and <persName ref="#Byron">Byron</persName> were also friends from
                         their schooling at Harrow, as Byron sympathized with Harness’s experience of
                         a disabled foot, crushed in an accident in early childhood. Byron considered
                         dedicating <bibl>the first two cantos of <title level="m">Childe Harold’s
@@ -2009,8 +2007,7 @@
                         the author of the anonymous piece, though in <date when="1839">1839</date>
                         after many years of distance, Harness assured Macready in person that he was
                         not the writer, though he may have shared word of the poor treatment his
-                        friend had endured.</p>
-                     <p>William Harness was the son of John
+                        friend had endured. William Harness was the son of John
                         Harness, M.D. and Sarah Dredge; he was baptized at Whitchurch, Hampshire on
                         April 13, 1790. He received his B.A. in 1812 and his M.A. in 1816 from
                         Christ’s College, Cambridge. He served as curate at Kelmeston, Hampshire
@@ -2029,7 +2026,7 @@
                         and his first cousin <persName>Jemima Harness</persName>, daughter of his uncle William. He died
                         while on a visit to one of his former curates in
                         Battle, Sussex. At the time of his death he living at the same address at 3
-                        Hyde Park Terrace; he is buried in Bath.</p>Sources: <bibl>
+                        Hyde Park Terrace; he is buried in Bath.Sources: <bibl>
                         <author>Duncan-Jones</author>, <title level="m">Miss Mitford and Mr. Harness</title>
                            (<date when="1955">1955</date>)</bibl>; Lord Byron and His Times: <ptr target="http://lordbyron.cath.lib.vt.edu/contents.php?doc=WiHarne.1871.Contents"/>
                   </note>
