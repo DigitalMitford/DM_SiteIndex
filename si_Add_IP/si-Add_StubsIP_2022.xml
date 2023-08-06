@@ -200,20 +200,11 @@
                   </persName>
                   <occupation type="military"/>
                   <occupation type="military" subtype="navy"/>
-                  <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work.  <!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.--><!--Captain Montagu Montagu, Royal Navy, of Caversham Hill (estate), b. 1786, second son of Montagu Montagu, inherits after eldest son George dies. or William?--></note>
+                  <note resp="#scw #ebb">Mentioned in <persName ref="#Needham_Francis">Francis Needham</persName>’s <bibl corresp="#Needham_PapersRCL">biographical listings</bibl> of people in Mitford’s circles or relevant to her work.  
+                     <!--scw: His name is on one of Needham's papers among other names who are briefly described. I leave it here in case he pops up later. See photo DSCF9935.-->
+                     <!--Captain Montagu Montagu, Royal Navy, of Caversham Hill (estate), b. 1786, second son of Montagu Montagu, inherits after eldest son George dies. or William?--></note>
                </person>
-               
-               <person xml:id="Newbery_J" sex="m">
-                  <!--https://books.google.com/books?id=QLsqAQAAMAAJ&lpg=RA1-PA77&ots=rxfBkgHvyl&dq=%22Jacob%20Newberry%22%20Reading%20solicitor&pg=PA309#v=onepage&q=%22Jacob%20Newberry%22%20Reading%20solicitor&f=false-->
-                  <persName>Jacob Newbery</persName>
-                  <persName>
-                     <forename>Jacob</forename>
-                     <surname>Newbery</surname>
-                  </persName>
-                  <occupation type="legal"/>
-                  <occupation type="legal" subtype="solicitor"/>
-                  <note resp="#lmw">Solicitor at various addresses in Lincoln Inn Fields, London; and at Friar Street, Reading. He was an articled clerk in Abingdon. Prominent citizen of Reading. Spouse of <persName ref="#Newbery_Mrs">Mrs. Newbery</persName>. Name variously spelled Newbery and Newberry. He was sued for fraudulent handling of a client's money and subsequently declared bankrupt in 1835. Source: Reports of Cases Argued and Determined in the English Courts of Common Law, vol. 31 (1853): 62-63.</note>
-               </person>
+          
              
             </listPerson>
        </div>
@@ -245,28 +236,8 @@
                
                <!--Shinfield:  http://www.berkshirehistory.com/villages/shinfield.html-->
                <!--Ilsley-->
-               
-               <place xml:id="Ware">
-                  <placeName>Ware</placeName>
-                  <location><geo></geo></location>
-                  <note resp="#lmw"></note>
-               </place>
-               
-               <place xml:id="Watlington">
-                  <placeName>Watlington</placeName>
-                  <location><geo></geo></location>
-                  <note resp="#lmw"></note>
-               </place>
-               
-               <place xml:id="Mortimer_WEnd">
-                  <placeName>Mortimer West End</placeName>
-                  <district>Reading</district>
-                  <region>Berkshire</region>
-                  <country>England</country>
-                  <location><geo></geo></location>
-                  <note resp="#lmw"></note>
-               </place>
-               
+       
+
                <place xml:id="Burfield_Br">
                   <placeName>Burfield Bridge</placeName>
                   <district>Reading</district>
@@ -286,88 +257,8 @@
              -->
             
             <list sortKey="plants">
-                
-              
-               
-              
-               
-               <item xml:id="potato"><!--update-->
-                  <name>potato</name>
-					<name type="genus">Solanum</name>
-					<name type="species">Solanum tuberosum</name>
-					<name type="family">Solanaceae</name>
-                  <note resp="#qar #lmw">Potatoes are relatively new to Europe at this time. They are native to the Andes and were introduced only in the second half of the 16th century by the Spanish.</note>
-               </item>
-
-               <item xml:id="fern">
-                  <name>fern</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-                  <note><ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/ferns/"/></note><!--https://ebps.org.uk/ferns/identification/key-to-common-british-native-ferns/common-native-ferns/-->
-               </item>
-               
-               
-               
-               
-               
-               <item xml:id="fungus">
-                  <name>fungus</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-                  <note><ptr target="https://www.nhbs.com/blog/the-nhbs-guide-to-fungi-identification"/></note>
-               </item>
-               
-               
-               
-               
-               
-               
-               <item xml:id="larkspur">
-                  <name>larkspur</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-                  <note></note>
-               </item>
-               
-               <item xml:id="peony">
-                  <name>peony</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"><!--LMW: not the tree peony. Mitford spells piony? elsewhere--></note>
-                  <note></note>
-               </item>
-               
-               <item xml:id="chrysanthemum">
-                  <name>chrysanthemum</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-               </item>
-               
-               <item xml:id="cucumber_plant">
-                  <name>cucumber</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-               </item>
-               
-               <item xml:id="melon_plant">
-                  <name>melon</name>
-                  <name type="species">xxx</name>
-                  <name type="genus">xxx</name>
-                  <name type="family">xxx</name>
-                  <note resp="#lmw"></note>
-                  <note><!--LMW: the plant, not sure what kinds are grown in 19th c. England--></note>
-               </item>
+         
+            
                
                <!-- Grown by Cobbett, seen and reported by Mitford: Carolina beans, green Indian-corn,-->
                
