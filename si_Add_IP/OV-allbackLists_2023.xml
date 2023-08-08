@@ -5114,7 +5114,7 @@
                <bibl xml:id="Chevy_Chase_ballad">
                   <title ref="#Chevy_Chase_ballad">The Ballad of Chevy Chase</title>
                   <author>anonymous</author>
-                  <note resp="#scw">An old English ballad that tells the story of the dispute
+                  <note resp="#scw">traditional English ballad that tells the story of the dispute
                      between Percy, the Duke of Northumberland and the Scottish Earl Douglas over
                      hunting. It was much admired in <persName ref="#MRM">Mitford</persName>'s time,
                      having been published in a number of ballad collections, including <title
@@ -5127,10 +5127,10 @@
                   <author ref="#Foscolo_Ugo">Ugo Foscolo</author>
                   <date when="1802">1802</date>
                   <pubPlace>
-                     <placeName>Bologna</placeName>
+                     <placeName>Bologna, Italy</placeName>
                   </pubPlace>
                   <pubPlace>
-                     <placeName ref="#London_city">London</placeName>
+                     <placeName ref="#London_city">London, England</placeName>
                   </pubPlace>
                   <publisher>Romualdo Zotti</publisher>
                   <note resp="#scw">Epistolary novel in the spirit of <persName ref="#Goethe"
@@ -5144,21 +5144,20 @@
                      journal<!--scw: what is the id for this?--> reading this book on <date
                         when="1820-06-15">June 15, 1820</date>.</note>
                </bibl>
-               <bibl xml:id="Le_Sylph_play">
+               <bibl xml:id="Le_Sylph_play"><!--LMW to self: Check format on translated books -->
                   <title level="m" ref="#Le_Sylph_play">Le Sylph</title>
                   <title type="main">Le Sylph</title>
                   <title type="sub">
                      <foreign xml:lang="fr">ou le mari comme il y en a peu</foreign>
                   </title>
                   <author>Martin de Choisy</author>
-                  <pubPlace>Montpellier</pubPlace>
+                  <pubPlace>Montpellier, France</pubPlace>
                   <date when="1780">1780</date>
                   <note resp="#scw">A comic French play in verse.</note>
                </bibl>
                <bibl xml:id="The_Chronicle">
                   <title level="a" ref="#The_Chronicle">The Chronicle</title>
-                  <title type="main">The Chronicle</title>
-                  <title type="sub">A Ballad</title>
+                  <title type="main">The Chronicle. A Ballad.</title>
                   <author ref="#Cowley_Abe">Abraham Cowley</author>
                   <date when="1647">1647</date>
                   <note resp="#scw">A comic poem in which the author lists the names of many
@@ -5171,7 +5170,7 @@
                      and Economy of the Animal Creation</title>
                   <author ref="#Bingley_Wm">William Bingley</author>
                   <date when="1802">1802</date>
-                  <publisher>Hurst</publisher>
+                  <publisher>R. Philips</publisher>
                   <note resp="#scw">A popular work of natural history that eventually expanded into
                      four volumes and went into six editions. Covering animals and insects from all
                      over the world, the book makes use of the work of predecessors, such as
@@ -5210,7 +5209,7 @@
                   <title level="m" type="main" ref="#Joe_Millers_Jests">Joe Miller's Jests</title>
                   <title level="m" type="sub">or the Wits Vade-Mecum</title>
                   <author>John Mottley</author>
-                  <pubPlace>London</pubPlace>
+                  <pubPlace>London, England</pubPlace>
                   <date when="1739">1739</date>
                   <note resp="#scw">A book of jokes that was published one year after the death of
                      its titular author, <persName ref="#Miller_Joe">Joe Miller</persName>. First
@@ -5233,7 +5232,7 @@
                      way to London with his companion Parson Adams. Joseph is dismissed from service
                      for rejecting the advances of Lady Booby, the wife of his deceased employer,
                      and meets Adams who is on the way to sell his sermons in <placeName
-                        ref="#London_city">London</placeName>. </note>
+                        ref="#London_city">London</placeName>.</note>
                </bibl>
                <bibl xml:id="Journal_Plague_DD">
                   <title level="m" ref="#Journal_Plague_DD">A Journal of the Plague Year</title>
@@ -5275,7 +5274,6 @@
                <bibl xml:id="Lewis_Misc"><!--scw: cannot find any information about this title-->
                   <title level="m">Miscellaneous Poems by Several Hands</title>
                   <author>D. Lewis</author>
-                  
                   <publisher>J. Watts</publisher>
                   <pubPlace>London</pubPlace>
                   <date>1730</date>
@@ -5330,7 +5328,7 @@
                      to spend the year performing certain tasks in order to gain the consent of the
                      women to marriage.</note>
                </bibl>
-               <bibl xml:id="Maid_LaVendee_novel"><!--scw: Need to learn how to structure an entry containing 2 editions, different titles and and pub info-->
+               <bibl xml:id="Maid_LaVendee_novel"><!--scw: Need to learn how to structure an entry containing 2 editions, different titles and and pub info--><!-- LMW: If it's necessary, it likely needs to be two separate entries. -->
                   <title level="m" ref="#Maid_LaVendee_novel">The Maid of La Vendee, being a second
                      edition of Clara de Montfier</title>
                   <title type="alt" level="m">Clara de Monfier; a moral tale</title>
@@ -5355,7 +5353,7 @@
                         Author'</q>
                   </note>
                </bibl>
-               <bibl xml:id="Nat_Calendar">
+               <bibl xml:id="Nat_Calendar"><!-- LMw: added to Si 7 AUg 2023 -->
                   <title level="m" ref="#Nat_Calendar">A Naturalist's Calandar: with Observations in
                      Various Branches of Natural History</title>
                   <author ref="#WhiteGilbert">Gilbert White</author>
@@ -5370,7 +5368,7 @@
                         ref="#Nat_Hist_Selborne">The Natural History and Antiquities of
                         Selborne</title>.</note>
                </bibl>
-               <bibl xml:id="Nat_Hist_Selborne"><!--scw: There may be another entry for this in another file-->
+               <bibl xml:id="Nat_Hist_Selborne"><!--scw: There may be another entry for this in another file--><!-- LMw: added to Si 7 AUg 2023 -->
                   <title level="m" ref="#Nat_Hist_Selborne">The Natural History and Antiquities of
                      Selborne</title>
                   <author ref="#WhiteGilbert">Gilbert White</author>
@@ -5397,11 +5395,11 @@
                      Childhood</title>
                   <author ref="#Wordsworth_Wm">William Wordsworth</author>
                   <date when="1807">1807</date>
-                  <note resp="#avg #scw">Originally published in <title>Poems, in Two
+                  <note resp="#avg #scw">Originally published in <title ref="#Poems_2vols_WW">>Poems, in Two
                         Volumes</title>, Wordsworth's eleven-stanza irregular Pindaric ode explores
                      questions of the soul, and the wisdom of childhood.</note>
                </bibl>
-               <bibl xml:id="On_PleasureArising_Vic_TG">
+               <bibl xml:id="On_PleasureArising_Vic_TG"><!-- LMW: could this be what's referenced in Journal as Vicissitudes? -->
                   <title level="a" ref="#On_PleasureArising_Vic_TG">On the Pleasure Arising from
                      Vicissitude</title>
                   <title level="a" type="alt">Ode on the Pleasure Arising from Vicissitude</title>
@@ -5479,7 +5477,7 @@
                      second part, which deals with Christian's wife and sons, several years
                      later.</note>
                </bibl>
-               <bibl xml:id="Poems_TwoVols"><!--scw 8/11/22: I may have an ID for this in a later sketch-->
+               <bibl xml:id="Poems_TwoVols"><!--scw 8/11/22: I may have an ID for this in a later sketch--> <!--LMW: Change, ID in SI already -->
                   <title ref="#Poems_TwoVols">Poems in Two Volumes</title>
                   <author>William Wordsworth</author>
                </bibl>
@@ -5508,7 +5506,7 @@
                      mid-eighteenth century to the nineteenth century for its contemplative feeling
                      mixed with descriptions of scenery.</note>
                </bibl>
-               <bibl xml:id="SheNeverToldHerLove_Haydn"/>
+               <bibl xml:id="SheNeverToldHerLove_Haydn"/><!-- LMW to self: check on how we id'd where ere she walked song -->
                <bibl xml:id="Silent_Woman_play">
                   <title level="m" ref="#Silent_Woman_play">The Silent Woman</title>
                   <title type="alt">Epicene</title>
@@ -5536,7 +5534,7 @@
                         Labour's Lost</title>. This section is sung by Ver, the Spring, represented
                      by the cuckoo.</note>
                </bibl>
-               <bibl xml:id="Specimens_Eng_Dramatic_Poets">
+               <bibl xml:id="Specimens_Eng_Dramatic_Poets"><!-- LMW; existing id; UPDATE -->
                   <title ref="#Specimens_Eng_Dramatic_Poets">Specimens of English Dramatic Poets,
                      who lived about the time of Shakespeare</title>
                   <author ref="#Lamb_Chas">Charles Lamb</author>
@@ -5649,7 +5647,7 @@
                      tombstone. It was much-quoted (and misquoted) into the nineteenth century,
                      often with the gender changed to male and outside the context of elegy.</note>
                </bibl>
-               <bibl xml:id="Yew_Trees_WW">
+               <bibl xml:id="Yew_Trees_WW"><!-- cross ref with existing book id -->
                   <title level="a" ref="#Yew_Trees_WW">Yew Trees</title>
                   <title level="m">Poems in Two Volumes</title>
                   <author ref="#Wordsworth_Wm">William Wordsworth</author>
