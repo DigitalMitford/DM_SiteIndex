@@ -2643,8 +2643,7 @@
                </person>
                <person xml:id="Harriet_ShopLodger_OV" sex="f"><!-- UPDATE ENTRY, EXISTING ID -->
                   <!--this xml:id already exists in SI, so no need to update it-->
-                  
-                  <persName ref="#Harriet_ShopLodger_OV">Harriet</persName><!--scw:UPDATE DESCRIPTION WITH BELOW IN SI AND ADD TO OCCUPATION-->
+                  <persName ref="#Harriet_ShopLodger_OV">Harriet</persName>
                   <persName>
                      <forename>Harriet</forename>
                   </persName>
@@ -2696,14 +2695,14 @@
                      be rejected for play by <persName ref="#Grey_William_OV">William
                         Grey</persName>.</note>
                </person>
-               <person xml:id="Hebe" sex="f">
+               <person xml:id="Hebe" sex="f"><!-- MOVE to MYth -->
                   <persName>Hebe</persName>
                   <note resp="#lmw">In Greek mythology, the goddess of youth and forgiveness, and cupbearer to the gods. Associated with immortality, emblematic of youthful female beauty, and associated with eagles.</note>
                </person>
-               <person xml:id="Helen_Troy" sex="f">
+               <person xml:id="Helen_Troy" sex="f"><!-- MOVE to MYth? -->
                   <persName>Helen</persName>
-                  <persName>Helen of Troy</persName>
-                  <persName>Helen of Sparta</persName>
+                  <persName><addName>Helen of Troy</addName></persName>
+                  <persName><addName>Helen of Sparta</addName></persName>
                   <note resp="#avg">The Greek mythological queen whose abduction sparked the Trojan
                      War. She is depicted in many literary works such as <title ref="#Iliad">The
                         Iliad</title> and <title ref="#Odyssey">The Odyssey</title>. She is also the
@@ -2737,7 +2736,7 @@
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Walks_TheVisit_OV"
                         >The Visit</title>.</note>
                </person>
-               <person xml:id="Kirby_Joe_OV" sex="m"><!-- not a dup. -->
+               <person xml:id="Kirby_Joe_OV" sex="m"><!-- EXISTING ID. UPDATE -->
                   <persName ref="#Kirby_Joe_OV">Joseph Kirby</persName>
                   <persName>
                      <surname>Kirby</surname>
@@ -2751,7 +2750,7 @@
                      character was based on a real-life <persName ref="#Kirby_Joseph">Joseph
                         Kirby</persName>.</note>
                </person>
-               <person xml:id="Kirby_Joseph_OV" sex="m"><!--LMW: father of the boy Joe? -->
+               <person xml:id="Kirby_Joseph_OV" sex="m"><!-- EXISTING ID. UPDATE -->
                   <persName ref="#Kirby_Joseph_OV">Joseph Kirby</persName>
                   <persName>
                      <surname>Kirby</surname>
@@ -2761,14 +2760,16 @@
                         >The Visit</title>.</note>
                </person>
                <person xml:id="Kirby_mother_OV" sex="f">
-                  <persName ref="#Kirby_mother_OV">Sarah Kirby from <title level="m">Our Village</title><surname
+                  <persName ref="#Kirby_mother_OV">Sarah Kirby</persName>
+                     <persName>
+                     <surname
                         type="married">Kirby</surname>
                      <forename>Sarah</forename>
                      <roleName>Mrs.</roleName>
                   </persName>
                   <note resp="#scw">Mother of <persName ref="#Kirby_Ben_OV">Ben Kirby</persName> and
                         <persName ref="#Kirby_Joseph_OV">Joe Kirby</persName> as she appears in
-                     several <title level="m" ref="#OV">Our Village</title> sketches. </note>
+                     several <title level="m" ref="#OV">Our Village</title> sketches.</note>
                </person>
                <person xml:id="L_Harry_OV" sex="m">
                   <persName ref="#L_Harry_OV">Major Harry L.</persName>
@@ -2897,9 +2898,9 @@
                      directions to the Maying after they have lost their way. Name not given.</note>
                </person>
                <person xml:id="M_butchers_boy_OV" sex="m">
-                  <persName><persName>butcher;s boy from <placeName ref="#M_village_OV">village of
-                     <abbr>M.</abbr>
-                  </placeName></persName></persName>
+                  <persName>butcher's boy from <placeName ref="#M_village_OV">village of
+                     M.
+                  </placeName></persName>
                   <note resp="#scw">Character who appears in <title ref="#Bramley_Maying_OV">Bramley
                         Maying</title>. He gives the narrator and her companion directions to the
                      Maying, and later accompanies them on part of their journey. Name not
@@ -3007,7 +3008,8 @@
                      badly of anyone she considers a rival.</note>
                </person>
                <person xml:id="Matthews_Sophia_bro_OV" sex="m">
-                  <persName ref="#Matthews_Sophia_bro_OV">Sophia Matthews' brother
+                  <persName ref="#Matthews_Sophia_bro_OV">Sophia Matthews's brother</persName>
+                  <persName>
                         <surname>Matthews</surname>
                   </persName>
                   <occupation type="trade"/>
@@ -3017,7 +3019,8 @@
                      collar-maker. Forename not given.</note>
                </person>
                <person xml:id="Matthews_Sophia_father_OV" sex="m">
-                  <persName ref="#Matthews_Sophia_father_OV">Sophia Matthews' father
+                  <persName ref="#Matthews_Sophia_father_OV">Sophia Matthews's father</persName>
+                  <persName>
                         <surname>Matthews</surname>
                   </persName>
                   <occupation type="trade"/>
@@ -3026,11 +3029,12 @@
                         ref="#Matthews_Sophia_OV">Sophia Matthews</persName>, who worked as a
                      collar-maker. Forename not given.</note>
                </person>
-               <person xml:id="May-flower_OV"/>
                <person xml:id="Mosse_Eliz_OV" sex="f">
-                  <persName ref="#Mosse_Eliz_OV">
+                  <persName ref="#Mosse_Eliz_OV">Elizabeth Mosse</persName>
+                  <persName>
                      <surname>Mosse</surname>
                      <forename>Elizabeth</forename>
+                     <roleName>Mrs.</roleName>
                      <surname type="nick">Mossy</surname>
                   </persName>
                   <note resp="#scw">The title character of the <title level="a" ref="#Mrs_Mosse_OV"
@@ -3041,8 +3045,10 @@
                      was born.</note>
                </person>
                <person xml:id="MrsMosse_Beck_Mr_OV" sex="m">
+                  <persName>Mr. Beck</persName>
                   <persName>
                      <surname>Beck</surname>
+                     <roleName>Mr.</roleName>
                   </persName>
                   <occupation type="trade" subtype="clerk"/>
                   <occupation type="government" subtype="taxCollector"/>
@@ -3084,6 +3090,7 @@
                         <abbr>S.</abbr>
                      </surname>
                      <forename>Thomas</forename>
+                     <roleName>Sir</roleName>
                   </persName>
                   <note resp="#scw">Character mentioned in <title level="a" ref="#Mrs_Mosse_OV">Mrs.
                         Mosse</title>, who is considered the area rake and shows interest in
@@ -3132,7 +3139,8 @@
                </person>
                <person xml:id="Mrs_R_1stWife_OV" sex="f">
                   <!--scw: There's a discrepancy in the SI in the bio of MRM's mother. If we take this sketch as evidence, her mother's father married 3 times, not 2, as the the SI has it. I did not cross-ref wife names in entries here given this discrepancy-->
-                  <persName ref="#Mrs_R_1stWife_OV">
+                  <persName ref="#Mrs_R_1stWife_OV">Grandfather's first wife</persName>
+                  <persName>
                      <surname type="married">Russell</surname>
                   </persName>
                   <note resp="#scw">The first wife of <persName ref="#Russell_Richard_OV">Mitford's
@@ -3143,8 +3151,7 @@
                      not given.</note>
                </person>
                <person xml:id="Mrs_R_1stWife_formerHusband_OV" sex="m">
-                  <persName ref="#Mrs_R_1stWife_formerHusband_OV">
-                  </persName>
+                  <persName ref="#Mrs_R_1stWife_formerHusband_OV">Grandfather's first wife's first husband</persName>
                   <note resp="#scw">The first husband of <persName ref="#Russell_Richard_OV"
                         >Mitford's maternal grandfather</persName>'s <persName
                         ref="#Mrs_R_1stWife_OV">first wife</persName>. He is mentioned in the <title
@@ -3152,7 +3159,7 @@
                         ref="#Mrs_Mosse_OV">Mrs. Mosse</title>. Forename not given.</note>
                </person>
                <person xml:id="Mrs_R_1stWife_son_OV" sex="m">
-                  <persName ref="#Mrs_R_1stWife_son_OV"> </persName>
+                  <persName ref="#Mrs_R_1stWife_son_OV">randfather's first wife's son</persName>
                   <note resp="#scw">The son of <persName ref="#Mrs_R_1stWife_OV">the first wife of </persName>
                      <persName ref="#Russell_Richard_OV">Mitford's maternal grandfather</persName>,
                      who makes a bad marital match that shames his mother. He is recalled in the
@@ -3161,7 +3168,8 @@
                </person>
                <person xml:id="Mrs_R_2ndWife_OV" sex="f">
                   <!--scw: There's a discrepancy in the SI in the bio of MRM's mother. If we take this sketch as evidence, her mother's father married 3 times, not 2, as the the SI has it. I did not cross-ref wife names in entries here given this discrepancy-->
-                  <persName ref="#Mrs_R_2ndWife_OV">
+                  <persName ref="#Mrs_R_2ndWife_OV">Grandfather's second wife</persName>
+                  <persName>
                      <surname type="married">Russell</surname>
                   </persName>
                   <persName resp="#scw">The second wife of <persName ref="#Russell_Richard_OV"
@@ -3170,16 +3178,21 @@
                      for participating in <orgName ref="#MrsMosse_inoculation_party_OV">an
                         innoculation party</orgName>. Forename not given.</persName>
                </person>
-               <person xml:id="Newell_Mr"><!--LMW: real or fictional? there are real Newells in the Journal -->
-                  <persName>Mr. Newell <surname>Newell</surname>
-                     <forename>unidentified</forename>
+               <person xml:id="Newell_Mr"><!--LMW: MOVE? real or fictional? there are real Newells in the Journal -->
+                  <persName>Mr. Newell</persName>
+                  <persName>
+                  <surname>Newell</surname>
+                     <roleName>Mr.</roleName>
                   </persName>
                   <note resp="#scw">Farmer friend of the Mitfords, likely the basis of the farmer
                      recollected in <title ref="#Great_Farmhouse_OV">A Great
                      Farmhouse</title>.</note>
                </person>
-               <person xml:id="Newell_Mrs"><!--LMW: real or fictional? there are real Newells in the Journal -->
-                  <persName>Mrs. Newell <surname type="married">Newell</surname>
+               <person xml:id="Newell_Mrs"><!--LMW: MOVE? real or fictional? there are real Newells in the Journal -->
+                  <persName>Mrs. Newell</persName>
+                  <persName>
+                  <surname type="married">Newell</surname>
+                     <roleName>Mrs.</roleName>
                   </persName>
                   <note resp="#scw">Friend of the Mitfords who is, letter evidence suggests, likely
                      the basis for the farmer's wife featured in <title ref="#Great_Farmhouse_OV">A
@@ -3217,7 +3230,7 @@
                </person>
                <person xml:id="OldBach_incumbent_OV" sex="m">
                   <persName ref="#OldBach_incumbent_OV">incumbent in <title level="a"
-                     ref="#Old_Bachelor_OV">An Old Bachelor</title>  </persName>
+                     ref="#Old_Bachelor_OV">An Old Bachelor</title></persName>
                   <occupation type="religious" subtype="curate"/>
                   <note resp="#scw">Character of the long-lived occupant of <placeName
                         ref="#OldBach_Rectory_OV">the unnamed rectory</placeName>that <persName
@@ -3235,7 +3248,8 @@
                </person>
                <person xml:id="PP_Esq_OV" sex="m">
                   <!--scw 8/7/22: May redo this as an in-text annotation rather than an SI entry-->
-                  <persName ref="#PP_Esq_OV">
+                  <persName ref="#PP_Esq_OV">P. P., Esq.</persName>
+                  <persName>
                      <surname>
                         <abbr>P.</abbr>
                      </surname>
@@ -3253,6 +3267,9 @@
                <person xml:id="Page_Charlotte_Husband_OV" sex="m">
                   <persName>Husband of <persName
                      ref="#Page_Charlotte_OV">Charlotte Page</persName></persName>
+                  <persName>
+                     <surname>Page</surname>
+                  </persName>
                   <note resp="#SMP">Appears in the <title level="m" ref="#OV">Our Village</title>
                      sketch <title level="a" ref="#Ellen_OV">Ellen</title>. The husband of <persName
                         ref="#Page_Charlotte_OV">Charlotte Page</persName>.</note>
@@ -3290,7 +3307,6 @@
                   <persName>
                      <surname type="married"
                         >Page</surname>
-                     <roleName>Mrs.</roleName>
                   </persName>
                   <note resp="#SMP">Character mentioned in the <title level="m" ref="#OV">Our
                         Village</title> sketch <title level="a" ref="#Ellen_OV">Ellen</title>. She
@@ -3299,9 +3315,7 @@
                      Page</persName>.</note>
                </person>
                <person xml:id="Parson_Adams_HF" sex="m">
-                  <persName ref="#Parson_Adams_HF">
-                     Parson Adams
-                  </persName>
+                  <persName ref="#Parson_Adams_HF">Parson Adams</persName>
                   <note resp="#scw">Character in <persName ref="#Fielding_Henry">Henry
                         Fielding</persName>'s novel, <title level="m" ref="#JosephAndrews_HF">Joseph
                         Andrews</title>. He believes the best of everyone, and is often the victim
@@ -3366,7 +3380,7 @@
                   <ref target="http://viaf.org/viaf/284333410"/>
                </note>
                </person> -->
-               <person xml:id="Psyche" sex="f"><!--FIX-->
+               <person xml:id="Psyche" sex="f"><!--FIX/MOVE to myth-->
                   <persName>Psyche</persName>
                   <note resp="#alw"> <q>In Roman mythology, Psyche represented the human spirit and
                      was portrayed as a beautiful girl with butterfly wings. Psyche was a beautiful
@@ -3420,7 +3434,7 @@
                         Ireland</placeName>. Forename not given.</note>
                </person>
                <person xml:id="Robin_Hood" sex="m">
-                  <persName ref="#Robin_Hood">Robin Hood </persName>
+                  <persName ref="#Robin_Hood">Robin Hood</persName>
                   <note resp="#scw">Outlaw hero of medieval legend who, together with his merry men,
                      figures in ballads, broadsides, plays, games, proverbs, film, and television
                      from the <date notBefore="1300">fourteenth century</date> till our own time,
@@ -3445,7 +3459,7 @@
                <person xml:id="Russell_Fanny_OV" sex="f">
                   <!--scw 6/29/21: Check to see whether this person may be Mrs. Fanny from "Modern Antiques".-->
                   <!--scw 5/25/22: It's possible this Fanny is the same as in Modern Antiques, but I haven't confirmed from dates and the story is elusive-->
-                  <persName ref="#Russell_Fanny_OV">Fanny Russell</persName>
+                  <persName ref="#Russell_Fanny_OV">Frances (Fanny) Russell</persName>
                   <persName>
                   <forename>Frances</forename>
                      <forename><addName>Fanny</addName></forename>
@@ -3457,7 +3471,7 @@
                      attentions of the neighborhood rake, <persName ref="#MrsMosse_SirThomasS_OV"
                         >Sir Thomas S.</persName>. Surname not given.</note>
                </person>
-               <person xml:id="Russell_MaryDicker_OV" sex="f">
+               <person xml:id="Russell_MaryDicker_OV" sex="f"><!-- UPDATE EXISTING -->
                   <!--SCW: Note potential correction below for site index-->
                   <persName ref="#Russell_MaryDicker_OV">Mary Dicker Russell in <title level="a" ref="#Mrs_Mosse_OV">Mrs.
                      Mosse</title></persName>
@@ -3473,7 +3487,7 @@
                      Mosse</title>.</note>
                   <!--6/29/21: Site Index entry says MRM's grandmother was the 2nd wife of Dr. Russell; "Mrs. Mosse" sketch says she was the third.-->
                </person>
-               <person xml:id="Russell_Richard_OV" sex="m">
+               <person xml:id="Russell_Richard_OV" sex="m"><!-- UPDATE EXISTING -->
                   <persName ref="#Russell_Richard_OV">Dr. Russell in <title level="a" ref="#Mrs_Mosse_OV">Mrs.
                      Mosse</title>
                   </persName>
@@ -3610,11 +3624,11 @@
                </person>
                <person xml:id="Sir_WS_OV" sex="m">
                   <persName>Sir W. S.'s widow</persName>
-                  <note resp="#alw #scw">Wealthy young baronet widow who appears in the <title
+                  <note resp="#alw #scw">Wealthy young baronet's widow who appears in the <title
                         ref="#Our_Village1st_ed">Our Village</title> sketch, <title
                         ref="#Cousin_Mary_OV">Cousin Mary</title>.</note>
                </person>
-               <person xml:id="Sleeping_Beauty" sex="f">
+               <person xml:id="Sleeping_Beauty" sex="f"><!-- MOVE to myth -->
                   <persName ref="#Sleeping_Beauty">Sleeping Beauty</persName>
                   <note resp="#scw">Princess character made famous by <persName
                         ref="#Perrault_Charles">Charles Perrault</persName> in his <title
@@ -3702,7 +3716,7 @@
                         Lady</title> shares her journey west.</note>
                </person>
                <person xml:id="Talk_Lady_civil_lad_mama_OV" sex="f">
-                  <persName ref="#Talk_Lady_civil_lad_mama_OV">Mother of the lad in <title level="a" ref="#Talking_Lady_OV">The Talking
+                  <persName ref="#Talk_Lady_civil_lad_mama_OV">mother of the lad in <title level="a" ref="#Talking_Lady_OV">The Talking
                      Lady</title></persName>
                   <note resp="#scw">One of the passengers on the mail coach with whom the title
                      character of the sketch, <title level="a" ref="#Talking_Lady_OV">The Talking
@@ -3782,6 +3796,7 @@
                <person xml:id="TomC_hisHonor_OV" sex="m">
                   <persName ref="#TomC_hisHonor_OV">his Honor in <title level="a"
                      ref="#Tom_Cordery_OV">Tom Cordery</title></persName>
+                  <occupation type="government" subtype="courtier"/>
                   <note resp="#scw">Character mentioned in the sketch <title level="a"
                         ref="#Tom_Cordery_OV">Tom Cordery</title>. It is difficult to discern
                      anything about this character other than that he is a member of the nobility.
@@ -3791,7 +3806,7 @@
                      <!--scw: The story about this man resembles something MRM writes about that I read somewhere in a letter. Not in L'Estrange. Perhaps to Mary Webb, Feb 11, 1820, about her father coursing on Mortimer Common. Or about an old hare she and her father were hunting and had killed, but don't recall the letter. Will check--></note>
                </person>
                <person xml:id="TomC_overseer_OV" sex="m">
-                  <persName ref="#TomC_overseer_OV">Estate overseer in <title level="a"
+                  <persName ref="#TomC_overseer_OV">estate overseer in <title level="a"
                      ref="#Tom_Cordery_OV">Tom Cordery</title></persName>
                   <occupation type="service" subtype="majordomo"/>
                   <!--scw: will not accept subtype=manager  LMW: fixed.-->
@@ -3842,10 +3857,10 @@
                      the <persName ref="#Vio_farmhouse_landlord_OV">careless landlord</persName>.
                      Name not given.</note>
                </person>
-               <person xml:id="Viper_pet_OV" sex="m">
+               <person xml:id="Viper_pet_OV" sex="m"> <!-- existing id -->
                   <persName ref="#Viper_pet_OV">Viper</persName>
                   <note resp="#sbb">
-                     <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>'s pet terrier in <title
+                     <persName ref="#Sidney_Mr_OV">Mr. Sidney</persName>'s pet <name ref="#terrier">terrier</name> in <title
                         level="a" ref="#Old_Bachelor_OV">An Old Bachelor</title>.</note>
                </person>
                <person xml:id="Walks_HSummer_coachman_OV" sex="m">
@@ -3854,8 +3869,7 @@
                   <occupation type="trade" subtype="driver"/>
                   <note resp="#scw">The character of the coachman whom the <persName
                         ref="#OVNarrator">narrator</persName> observes in <title level="a"
-                        ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. He is not identified by
-                     name. Name not given.</note>
+                        ref="#Walks_Hard_Summer_OV">The Hard Summer</title>.</note>
                </person>
                <person xml:id="Walks_HSummer_fatGent_OV" sex="m">
                   <persName ref="#Walks_HSummer_fatGent_OV">gentleman in <title level="a"
@@ -3874,7 +3888,7 @@
                      given, but it is suggested they work in the stable.</note>
                </person>
                <person xml:id="Walks_HSummer_hotBoyMom_OV" sex="f">
-                  <persName ref="#Walks_HSummer_hotBoyMom_OV">Mother in <title level="a"
+                  <persName ref="#Walks_HSummer_hotBoyMom_OV">mother in <title level="a"
                      ref="#Walks_Hard_Summer_OV">The Hard Summer</title></persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a"
                         ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName
@@ -3882,7 +3896,7 @@
                      given.</note>
                </person>
                <person xml:id="Walks_HSummer_hotBoy_OV" sex="m">
-                  <persName ref="#Walks_HSummer_hotBoy_OV">Mother's son in <title level="a"
+                  <persName ref="#Walks_HSummer_hotBoy_OV">mother's son in <title level="a"
                      ref="#Walks_Hard_Summer_OV">The Hard Summer</title></persName>
                   <note resp="#scw">An overheated character mentioned in <title level="a"
                         ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName
@@ -3895,10 +3909,10 @@
                   <note resp="#scw">Character of an 8-year old cricket player who appears in <title
                         level="a" ref="#Walks_Hard_Summer_OV">The Hard Summer</title>. The <persName
                         ref="#OVNarrator">narrator</persName> does not know his name, and so she
-                     denotes him by his dress, which resembles that of a hussar.</note>
+                     denotes him by his dress, which resembles that of a Hussar.</note>
                </person>
                <person xml:id="Walks_HSummer_paleGirl_OV" sex="f"><!--OK-->
-                  <persName ref="#Walks_HSummer_paleGirl_OV">Girl in <title level="a"
+                  <persName ref="#Walks_HSummer_paleGirl_OV">girl in <title level="a"
                      ref="#Walks_Hard_Summer_OV">The Hard Summer</title></persName>
                      <note resp="#scw">An overheated character mentioned in <title level="a"
                            ref="#Walks_Hard_Summer_OV">The Hard Summer</title> whom <persName
@@ -3959,7 +3973,7 @@
                         ref="#White_Rachel_OV">Rachel White</persName>. They are noted to be a
                      cheerful, industrious, poor family with fourteen children.</note>
                </person>
-               <person xml:id="White_Rachel_OV" sex="f">
+               <person xml:id="White_Rachel_OV" sex="f"><!--LMW: There was another id, Hilton_Rachel_OV thaat I eliminated as a duplicate. May need to update in sketch. -->
                   <persName ref="#White_Rachel_OV">Rachel Hilton White</persName>
                   <persName>
                      <surname type="paternal">Hilton</surname>
@@ -4086,7 +4100,7 @@
             </listOrg>
          </div>
          <div type="places">
-            <listPlace sortKey="histPlaces">
+            <listPlace sortKey="histPlaces"><!-- added to canonical SI, 7 aug 2023 -->
                <place xml:id="Antwerp_city">
                   <placeName ref="#Antwerp_city">Antwerp, Belgium</placeName>
                   <region>Flemish region</region>
@@ -4940,10 +4954,6 @@
                
                <item xml:id="geese"/><!-- use #goose -->
                
-              
-               
-               
-               
                <item xml:id="rooster"/><!--scw: check this--><!-- use #chicken -->
                   
                <item xml:id="turkey_cock"/> <!-- use #turkey -->
@@ -4964,7 +4974,6 @@
                <item xml:id="bird_cherry"/> <!-- use #cherry_bird  -->
                
                <item xml:id="blue_bell"/><!--scw: change to proper id in text, si local--> <!-- use #bluebell  -->
-                  
                
                   <item xml:id="cherry_tree"/><!-- use #cherry_wild -->
                   
@@ -4980,11 +4989,9 @@
                   
                <item xml:id="hedgerow"/> <!-- LMW: dont tag, unless we have some idea of which plants are in it. -->
                
-               
                <item xml:id="jessamine"/><!-- LMW: is this the same as #jasmine? IF NOT, needs entry.-->
                
                   <item xml:id="lily-tiger"/> <!-- use #lily_tiger -->
-                  
                
                <item xml:id="nosegay"><!--LMW: not in play. can use #flower. Can take make a <note> -->
                   <name>nose-gay</name>
