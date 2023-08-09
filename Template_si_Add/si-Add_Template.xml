@@ -137,7 +137,7 @@
                   </persName>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>
                      <date from="1837" to="1854">between 1837 and 1854</date>. Spouse of the Rev. William Edwards Partridge (1837-51); daughter of Oliver and Maria Anderdon.</note>
-               </person>
+               </person>-->
        </div>
          <div type="fictional_and_archetypal"><!--Section for mythical, legendary entities, not precisely rooted in a place or time, or in a particular text. -->
              <listOrg sortKey="fictOrgs"> <!--For fictional organizations or groups from particular texts.-->
@@ -233,31 +233,53 @@
             <list sortKey="animals">
                <item xml:id="animalID">
                   <name><!--list any common and proper names of the animal, especially those known in Mitford's time.--></name>
-                  <name><rs type="genus">xxx</rs><rs type="species">xxxx</rs><rs type="family">xxx</rs></name>
+                  <name type="species">Gryllus campestris</name>
+                  <name type="genus"></name>
+                  <name type="family"></name>
                   <note resp="#MitfordEditor"><!--explain significance to Mitford and her time.--></note>
                </item>
                <!--SAMPLE:
-               <item xml:id="Long_tailed_wren">
-                  <name>long-tailed wren</name>
-                  <name>Naga wren-babbler</name>
-                  <name><rs type="genus">Spelaeornis</rs><rs type="species">chocolatinus</rs><rs type="family">Timaliidae</rs></name>
-                  <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis chocolatinus), a bird species in the family Timaliidae.</note>
-               </item>-->
+                  <item xml:id="cricket">
+                  <name>cricket</name>
+                  <name type="species">Gryllus campestris</name>
+                  <name type="genus">Gryllus</name>
+                  <name type="family">Gryllidae</name>
+                  <name>
+                     <addName>European field cricket</addName>
+                  </name>
+                  <note resp="#lmw">A dark-colored flightless cricket found in dry grasslands and heathlands. In Mitford's time, common in the UK and Western Europe; currently the most endangered cricket in the UK, due to habitat loss, mainly surviving in southern England. Scaly crickets and several species of bush crickets are also found in the UK. Symbolically associated with good luck. <persName ref="#MRM">Mitford</persName> generally uses the simple term <q>cricket</q>.</note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/our-work/conservation/projects/field-cricket-reintroduction/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/crickets-and-grasshoppers/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Gryllus_campestris"/>
+                  </note>
+               </item>
+              
+              -->
             </list>
             <list sortKey="plants">
                <item xml:id="plantID">
-                  <<name><!--list any common and proper names of the plant, especially those known in Mitford's time.--></name>
-                  <name><rs type="genus">xxx</rs><rs type="species">xxxx</rs><rs type="family">xxx</rs></name>
+                  <name><!--list any common and proper names of the plant, especially those known in Mitford's time.--></name>
+                  <name type="species">Gryllus campestris</name><!--if available, give genus + species together here.-->
+                  <name type="genus"></name>
+                  <name type="family"></name>
+             
+                
                   <note resp="#MitfordEditor">
                   </note>
                </item>
                <!--SAMPLE:
-               <item xml:id="cowslip">
-                  <name>cowslip</name>
-                  <name>common cowslip</name>
-                  <name>cowslip primrose</name>
-                  <name><rs type="genus">Primula</rs><rs type="species">veris</rs><rs type="family">Primulaceae</rs></name>
-                  <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>'s favorite flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>. Mitford likely refers to Primula veris (also called cowslip, common cowslip, cowslip primrose), a flowering plant in the genus Primula of the family Primulaceae. The species is native throughout most of temperate <placeName>Europe</placeName> and <placeName>Asia</placeName>, although absent from more northerly areas. May hybridize with <rs type="plant" ref="#primrose">English/common primroses</rs>.
+              <item xml:id="crocus">
+                  <name>crocus</name>
+                  <name type="genus">Crocus</name>
+                  <name type="family">Iridaceae</name>
+                  <note resp="#qar #lmw">Early spring-flowering dwarf bulbous plant with blooms in purple, yellow, or white. Not native to the UK, although may be naturalized in some areas since the 17th century. In Victorian floriography, the crocus represents youth and cheerfulness.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Crocus"/>
                   </note>
                </item>
                -->
