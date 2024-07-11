@@ -15,8 +15,8 @@ These instructions are meant to guide Digital Mitford team editors through the p
 **SI schema lines for SI-ADD files, Version 1:** (published on the website and stable/canonical for SI checking):
   
 ```
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 ```
 
 
