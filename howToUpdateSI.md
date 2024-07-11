@@ -7,7 +7,7 @@ These instructions are meant to guide Digital Mitford team editors through the p
     * Open your git bash shell, navigate to the `DM_SiteIndex` repo (using `cd` to change directories and `ls` to list the contents of a directory). 
     * When you arrive at the directory, type in `git pull` to pull in the up to date versions of all files onto your local computer. 
 1. Stage the file(s) containing entries to be added in the Digital Mitford Site Index repo: `DM_SiteIndex` in the `si_Add_Staged` directory. 
-1. At this point, you should alert Elisa and/or Lisa Wilson (using the Issues board on the `DM_SiteIndex` repo and pinging them at `@ebeshero` and/or `@lmwilson`) that you are starting work on the Site Index. NOTE: Only one person at a time should be altering site index files in the repo to prevent errors and merge conflicts.
+1. At this point, you should alert Elisa Beshero-Bondar and/or Lisa Wilson (using the Issues board on the `DM_SiteIndex` repo and pinging them at `@ebeshero` and/or `@lmwilson`) that you are starting work on the Site Index. NOTE: Only one person at a time should be altering site index files in the repo to prevent errors and merge conflicts.
 
 ## B. Check the schema lines 
 1. Make sure the current SI ODD schema lines are associated with the SI-ADD file(s) so you can check things like the occupation elements for your new entries. These have the filename `si_ODD.rng` at the end of the file path, and always come in pairs (both are necessary for the schema to work). Check schema lines to make sure they are one of the following:
@@ -32,18 +32,6 @@ Next, open the files you want to work with in oXygen in side-by-side tile view.
 1. Open the **current version of the SI** by using `File > Open URL` in oXygen, and type in: `https://digitalmitford.org/si.xml` to open the current version as published on our website. 
 1. Save the published SI file locally inside `DM_SiteIndex/si_Full_IP` as `si-local.xml`. This is the in-progress directory for editing the site index. Always add your edits and new entries to the `si-local.xml` that you save here (and not to the old, outdated `si.xml` in the repo.)  
 1. Tile editors next to each other in oXygen by going to `Window > Tile Editors Vertically`.  Now you have prepared your oXygen workspace. Be sure to click in the file in the window you want to use Find or the XPath window and navigate it. 
-1. Notice that (for the moment, in summer 2019), the pair of active schema lines of the `si-local.xml` file are *different* from those you are using in the SI-ADD file. This is because the occupation elements in the full site index are mostly not up to our current schema specs. We will fix those in a later stage of the project. For now, in order to catch *meaningful* errors that we can too easily make in the editing process, the schema lines on si-local should be either:
-   
-    **Web version of `si-local.xml` schema lines:**
-```
- <?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD_webTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?
-```
-  **Git local directory version of `si-local.xml` schema lines**
-```
-<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD_localTestTmp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
-```  
 
 ## D. Editing the si-local.xml file
 You will have two different kinds of SI alterations to make:
