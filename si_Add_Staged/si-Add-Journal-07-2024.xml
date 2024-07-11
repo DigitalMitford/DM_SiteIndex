@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<!-- <?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
 <?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitalmitford.github.io/DM_SiteIndex/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -1066,6 +1066,12 @@
                      After threats to demolish the building by London City Council, the theatre closed in 1939. It then reopened after the war and renamed itself the Lyceum Ballroom. 
                      Was then closed in 1986 but then reopened for theatrical use as the Lyceum Theatre. Mitford mentions in her Journal on <date when="1820-06-29">June 29, 1820</date> 
                      that she was going to London to see <persName>Miss Kelly</persName> perform here.</note>
+               </place>
+               <place xml:id="W_Hill_OV"> <!-- REPAIRED ENTRY FROM SI -->
+                  <placeName ref="#W_Hill_OV">W. Hill</placeName>
+                  <note resp="#scw">A steep, corkscrew-like hill described in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title> on which the farmer's greyhound, Helen proudly kills an old
+                     hare. This might be a mappable place in England, but further research is needed.</note>
+                  <!--scw: This place might be locatable. Check to see whether it's mentioned in first sketch-->
                </place>
             </listPlace>
          </div>
