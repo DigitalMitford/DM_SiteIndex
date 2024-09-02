@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.org/schemas/out/si_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Site Index: Additions Template, for Adding and Updating Named Entities in the Digital Mitford Archive</title>
+               <author>Digital Mitford Editors</author>
+                <editor>Lisa M. Wilson</editor>
+               <sponsor>
+                  <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+               </sponsor>
+               <respStmt>
+                  <resp>This SI-ADD file prepared by</resp>
+               <persName ref="#lmw">Lisa Wilson</persName>
+               </respStmt>
+               <respStmt>
+                  <resp>Proofing and corrections by</resp>
+                  <persName><persName ref="#lmw">Lisa Wilson</persName></persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition> </edition>
+            </editionStmt>
+            <publicationStmt>
+               <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+               <pubPlace>Greensburg, PA, USA</pubPlace>
+               <date>2013</date>
+               <availability>
+                  <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                     License</licence>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note>This file represents Site Index entries in progress. It was started on <date when="2024-04-30">30 April 2024</date> for <title>The Painter's Daughter</title>
+               </note>
+            </notesStmt>
+            <sourceDesc>
+               <p>Information on named entities in this file has been extracted from files in the
+                  Digital Mitford Archive.</p>
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <editorialDecl>
+               <p>Describes our editorial practice.</p>
+            </editorialDecl>
+         </encodingDesc>
+         <revisionDesc>
+            <listChange>
+              <change when="2024-04-30" who="#lmw">File created for new entries.</change>
+            </listChange>
+         </revisionDesc>
+      </teiHeader>
+      
+  <text>
+      <body>
+         
+   <div type="Mitford_Team"><!--Section contains current Mitford editors as well as library/archives identifiers.-->
+      <listPerson sortKey="Mitford_Team">
+         <person xml:id="ajn">
+            <persName>
+               <surname>Normington</surname>
+               <forename>Alyssa</forename>
+               <roleName>Research Assistant</roleName>
+            </persName>
+            <occupation type="scholar">
+               <roleName>
+                  <affiliation>State University of New York, Potsdam</affiliation>
+               </roleName>
+            </occupation>
+            <note>Alyssa Normington graduates in 2026 with a B.F.A. in Creative Writing from the State University of New York at Potsdam. She completed an internship with <persName ref="#lmw">Dr. Wilson</persName> as a Digital Mitford Research Assistant between spring 2024 and spring 2025, focusing on editing and research on the dramatic sketch the <title level="a">The Painter's Daughter</title>.</note>
+         </person>
+      </listPerson>
+   </div>    
+       
+         
+       <div type="historical_people"><!--Section ontains "real" historical people and named pets; and organizations/groups of people.-->
+          <listOrg sortKey="histOrgs">
+             <org xml:id="Moors">
+                <orgName>Moors</orgName>
+                <note resp="#ajn"></note>
+             </org>
+             
+             <!--SAMPLE: <org xml:id="Americans">
+                  <orgName>Americans</orgName>
+                  <note resp="#ebb">People of the former British colonies recently become the United States in
+                     Mitford’s day, or more generally of North America.</note>
+               </org>-->
+          </listOrg>
+          
+          <listPerson sortKey="histPersons">
+             <person xml:id="Mills_Chas" sex="m"> 
+                <persName>Charles Mills</persName><!--List the person's full name as we wish it to appear on the website.-->
+                <persName>
+                   <surname>Mills</surname>
+                   <forename>Charles</forename>
+                </persName>
+                <birth when="yyyy-mm-dd"> <!--for unknown birthdates where baptism dates are known, use notAfter="yyyy-mm-dd"-->
+              <placeName><!--where born? List town, region, country, as much as is known.--></placeName>
+              </birth>
+                <death when="yyyy-mm-dd"><placeName><!--where died? List town, region, country, as much as is known.--></placeName></death>
+                <occupation type="literary"/>
+                <occupation type="literary"><!--A type is required and a subtype may be used. se multiple lines as needed.--><!-- historian, essayist--></occupation>
+                <note>
+                   <ref target="http://viaf.org/viaf/12433231"/> <!--include link to VIAF #, if one exists-->
+                </note>
+                <note resp="#ajn #lmw"><!--Charles Mills, author of travels of Theodore Ducas-->
+                   <!-- https://en.wikipedia.org/wiki/Charles_Mills_(historian) -->
+                   <!-- The Travels of Theodore Ducas of Candia in Various Countries in Europe at the Revival of Letters and Art, 2 vols. London, 1822 -->
+                </note>
+             </person>
+             
+             <person xml:id="Matsys_Q" sex="m"> 
+                <persName>Quentin Matsys<persName>
+                      <surname>Matsys</surname>
+                      <forename>Quentin</forename>
+                   </persName>
+                </persName>
+                <persName><addName>Quinten Matsijs</addName></persName>
+                <birth when="yyyy-mm-dd"> <!--for unknown birthdates where baptism dates are known, use notAfter="yyyy-mm-dd"-->
+                   <placeName><!--where born? List town, region, country, as much as is known.--></placeName>
+                </birth>
+                <death when="yyyy-mm-dd"><placeName><!--where died? List town, region, country, as much as is known.--></placeName></death>
+                <occupation type="artist"/>
+                <occupation type="trade"><!--A type is required and a subtype may be used. se multiple lines as needed.--></occupation>
+                <note>
+                   <ref target="http://viaf.org/viaf/12433231"/> <!--include link to VIAF #, if one exists-->
+                </note>
+                <note resp="#ajn #lmw"><!--https://en.wikipedia.org/wiki/Quentin_Matsys--><!--1466-1530--><!--blacksmith--></note>
+             </person>
+          </listPerson>
+          
+          <!--SAMPLES:
+             <person xml:id="Alfieri_Vittorio" sex="m">
+                  <persName>Count Alfieri Vittorio</persName>
+                  <persName>
+                     <surname>Alfieri</surname>
+                     <forename>Vittorio</forename>
+                     <roleName>Count</roleName>
+                  </persName>
+                  <birth when="1749-01-16">
+                     <placeName>Asti, Piedmont region, Italy</placeName>
+                  </birth>
+                  <death when="1803-10-08">
+                     <placeName>Florence, Italy</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="theater"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <note resp="#ebb">Credited with reviving Italian tragedy in the eighteenth century, Alfieri's plays included <title level="m">Filippo</title>, <title level="m">Polinice</title>, <title level="m">Antigone</title>, <title level="m">Virginia</title>,and the highly acclaimed <title level="m">Saul</title>. He also authored an ode on <rs type="event" ref="#American_Revol">American Independence</rs> and a satirical poem, <title level="m">The Antigallican</title>, on <rs type="event" ref="#French_Revol">the French Revolution</rs>.   
+                  </note>
+                  <note>
+                     <ref target="http://viaf.org/viaf/39389587"/>
+                  </note>
+               </person>
+               
+               <person xml:id="Anderdon_LOH" sex="f">
+                  <persName>Lucy Olivia Hobart Anderdon</persName>
+                  <persName>
+                     <forename>Lucy</forename>
+                     <forename>Olivia</forename>
+                     <forename>Hobart</forename>
+                     <surname type="paternal">Anderdon</surname>
+                     <surname type="married">Partridge</surname>
+                  </persName>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>
+                     <date from="1837" to="1854">between 1837 and 1854</date>. Spouse of the Rev. William Edwards Partridge (1837-51); daughter of Oliver and Maria Anderdon.</note>
+               </person>-->
+       </div>
+         <div type="fictional_and_archetypal">
+         
+          <listPerson sortKey="archPersons"> <!--For individual archetypal entities. List -->
+             <person xml:id="Theseus" sex="m">
+                <persName>Theseus</persName>
+                <note resp="#ajn #lmw"></note>
+             </person>
+             
+             <person xml:id="Iphigenia" sex="f">
+                <persName>Iphigenia</persName>
+                <persName><addName>Iphianassa</addName></persName>
+                <note resp="#ajn #lmw">Figure in Greek mythology. Subject of plays by <persName ref="#Euripides">Euripides</persName>.</note>
+             </person>
+             
+             <person xml:id="Jephthah" sex="m">
+                <persName>Jephthah</persName>
+                <persName><addName>Jephtha</addName></persName>
+                <note resp="#ajn #lmw">Figure in chapters 11 and 12 of the book of Judges in the Christian Bible.<!--mention different spellings of name--></note>
+             </person>
+             
+             
+             <!--SAMPLE:
+                <person xml:id="Ahab" sex="m">
+                  <persName>Ahab</persName>
+                  <occupation type="government" subtype="monarch"/>
+                  <note resp="#ebb">Historic and legendary ancient King of Israel, married to
+                        <persName ref="#Jezebel">Jezebel</persName>.</note>
+               </person>
+               
+               SAMPLE:
+                <person xml:id="Apollo" sex="m">
+                  <persName>Apollo</persName>
+                  <note resp="#lmw">In Greek mythology, the son of Zeus and Leto; one of the twelve Olympians. He was known as the god of medicine, and later, was associated with the sun god Phoebus; however, his most important association in 18th- and 19th-century literature was as the leader of the Muses, and god of music and poetry. He is conventionally pictured carrying the kithara or lyre, and wearing a laurel wreath, emblems of poetic accomplishment.</note>
+               </person>
+               -->
+          </listPerson>
+            <listPerson sortKey="fictPersons">
+               
+               <person xml:id="Angelo_DS_PD" sex="m">
+                  <persName>Angelo Solario</persName>
+                  <persName>
+                     <forename>Angelo</forename>
+                     <surname>Solario</surname>
+                  </persName>
+                  <persName><addName>Zingaro</addName></persName>
+                  <note resp="#ajn #lmw"><!--Character in Mitford's dramatic sketch, <title ref="#PaintersDa_DS_1827">the Painter's Daughter</title>.--></note>
+               </person>
+               
+               <person xml:id="Antonio_TD" sex="m">
+                  <persName>Antonio</persName>
+                  <persName>
+                     <forename>Antonio</forename>
+                  </persName>
+                  <note resp="#ajn #lmw"><!--Character in <title ref="#Travels_TheoD">The Travels of Theodore Ducas</title>.
+                     Mitford's character <persName ref="#Angelo_DS_PD">Angelo</persName> in <title ref="#PaintersDa_DS_1827">the Painter's Daughter</title> is based on this character..--></note>
+               </person>
+               
+               <person xml:id="Colantonio_DS_PD" sex="m">
+                  <persName>Colantonio del Fiore</persName>
+                  <persName>
+                     <forename>Colantonia</forename>
+                     <surname><nameLink>del</nameLink> Fiore</surname>
+                  </persName>
+                  <note resp="#ajn #lmw"><!--Character in Mitford's dramatic sketch, <title ref="#PaintersDa_DS_1827">the Painter's Daughter</title>.--></note>
+                     <!--historical person?: https://en.wikipedia.org/wiki/Niccol%C3%B2_Antonio_Colantonio-->
+                  <!--https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Solario,_Antonio-->
+               </person>
+               
+             <person xml:id="Laura_DS_PD" sex="f">
+                <persName>Laura</persName>
+                <persName>
+                   <forename>Laura</forename>
+                </persName>
+                <note resp="#ajn #lmw"><!--Character in Mitford's dramatic sketch, <title ref="#PaintersDa_DS_1827">the Painter's Daughter</title>.--></note>
+             </person>
+               
+               <person xml:id="Lisabetta_DS_PD" sex="f">
+                  <persName>Lisabetta</persName>
+                  <persName>
+                     <forename>Lisabetta</forename>
+                  </persName>
+                  <note resp="#ajn #lmw"><!--Character in Mitford's dramatic sketch, <title ref="#PaintersDa_DS_1827">the Painter's Daughter</title>.--></note>
+               </person>
+               <!--SAMPLES: 
+                  <person xml:id="Laura_F" sex="f">
+                  <persName>Laura</persName>
+                  <note resp="#lmw">Senator Donato’s niece in Foscari, as mentioned in Cast
+                     List</note>
+               </person>
+               
+                  <person xml:id="Ariel" sex="u">
+                  <persName>Ariel</persName>
+                  <occupation type="service"/>
+                  <note resp="#scw">Character in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Tempest_play">The Tempest</title> who serves <persName ref="#Prospero">Prospero</persName> under magical duress.</note>
+               </person>
+               
+                 <person xml:id="Camilla_char" sex="f">
+                  <persName>Camilla</persName>
+                  <note resp="#lmw">Title character in <title ref="#Camilla_FB">Camilla</title>;
+                     Mitford admires Burney’s characterization of her in her a letter to Elford from
+                        <date when="1819-05-30">30 May 1819</date>.</note>
+               </person>-->
+          </listPerson>
+          
+       </div>
+         <div type="places">
+            <listPlace sortKey="histPlaces"><!--for "real" historical places-->
+               <place xml:id="Aulis">
+               <placeName>Aulis, Boetia, Greece</placeName>
+               <settlement>Aulis</settlement>
+               <region>Boetia</region>
+               <country>Greece</country>
+               <location>
+                  <geo></geo>
+               </location>
+               <note resp="#ajn #lmw"></note>
+               </place>
+            </listPlace>
+            <!--SAMPLE:               
+               <place xml:id="Thermopylae">
+                  <placeName>Thermopylae, Greece</placeName>
+                  <region>Thermopylae</region>
+                  <country>Greece</country>
+                  <location>
+                     <geo>38.805278 22.562778</geo>
+                  </location>
+                  <note resp="#lmw">In the ancient world, the militarily strategic location of a narrow passage to the Malian Gulf in coastal Greece. Notable for its hot sulphur springs, which gave rise to its name referncing the <soCalled>hot Gates</soCalled> of Hades in Greek mythology. The location of the Battle of Thermopylae.</note>
+                  <note resp="#err">The Battle of Thermopylae, fought in 480 BC, saw a heavily outnumbered Greek army defeated by the invading Persian army. Over the course of a week, the Greeks held off the Persians while exacting a devastating death toll from them until, finally, the rearguard of the Greek army that had been left to defend the strategically important pass of Thermopylae was defeated. The Battle of Thermopylae might be metaphorically invoked as shorthand for a noble though inevitable defeat, although given the heavy losses sustained by the victorious Persian army, the battle might also be invoked as an example of a Pyrrhic victory.</note>
+               </place>-->
+         </div>
+         <div type="nature"><!--For plants, wild and cultivated; as well as animals, other than named pets.-->
+            <list sortKey="animals">
+               
+               <item xml:id="horse_Barb">
+                  <name>Barbary horse</name>
+                  <name>
+                     <name type="species">Equus ferus caballus</name>
+                     <name type="genus">Equus</name>
+                     <name type="family">Equidae</name>
+                     <note resp="#lmw #ajn"></note>
+                  </name>
+                  <name><addName>Barb horse</addName></name>
+                  <note resp="#ajn #lmw"></note>
+               </item>
+               
+               <item xml:id="linnet">
+                  <name>linnet</name>
+                  <name type="species"></name>
+                  <name type="genus"></name>
+                  <name type="family"></name>
+                  <name><addName>common linnet</addName></name>
+                  <note resp="#ajn #lmw"></note>
+                  <note>
+                     <!--<ptr target=""/>-->
+                  </note>
+                  <note>
+                     <!--<ptr target=""/>-->
+                  </note>
+               </item>
+               
+               
+               <!--SAMPLE:
+                  <item xml:id="Newfoundland_dog">
+                  <name>Newfoundland dog</name>
+                  <name type="species">Canis familiaris</name>
+                  <name type="genus">Canis</name>
+                  <name type="family">Canidae</name>
+                  <name>
+                     <addName>Landseer</addName>
+                  </name>
+                  <note resp="#lmw">Large, muscular working dog with a thick coat and webbed feet. Developed in eastern Canada to assist fishermen, they are genetically related to Irish water spaniels, Labrador retrievers, and Curly-Coated retrievers. Landseer or <q>European Continental Type</q> dogs with black and white coats, named for the English artist, also exist, and may be a separate breed. Sweet-tempered and loyal, they good with children and became known as <q>nanny dogs</q>. <q>Nana</q>, from Barrie's <title level="m">Peter Pan</title>, was based on a black and white Landseer-type dog owned by Barrie.</note>
+                  <note>
+                     <ptr target="www.thekennelclub.org.uk"/>
+                  </note>
+                  <note>
+                     <ptr target="https://commons.wikimedia.org/wiki/File:Landseer,_Edwin_Henry_(Sir,_RA)_-_Lion-_A_Newfoundland_Dog_-_Google_Art_Project.jpg"/>
+                  </note>
+               </item>
+               <item xml:id="nightingale">
+                  <name>nightingale</name>
+                  <name type="species">Luscinia megarhynchos</name>
+                  <name type="genus">Luscinia</name>
+                  <name type="family">Muscicapidae</name>
+                  <note resp="#SMP #lmw">A medium-sized migratory songbird, brown above and beige or whitish below, native to Eurasia and overwintering in sub-saharan Africa. Best known for its beautiful and powerful song. Prefers habitats of coppiced woods and scrubland. Great Britain represents the nothernmost extent of its range. Became proverbial for a person with a melodious speaking voice or with an extraordinary singing voice.</note>
+                  <note>
+                     <ptr target="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/nightingale/"/>
+                  </note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Luscinia_megarhynchos"/>
+                  </note>
+               </item>
+               <item xml:id="horse">
+                  <name>horse</name>
+                  <name type="species">Equus ferus caballus</name>
+                  <name type="genus">Equus</name>
+                  <name type="family">Equidae</name>
+                  <note resp="#lmw">Domesticated horse; different breeds are all considered of the same species. There are seventeen breeds of horses and ponies considered native to the UK, including the English thoroughbred, a racing and riding breed descended from Arabian stock; the Hackney, a trotter; and Clydesdales and Shires, bred for heavy pulling and farm work. The stud book for UK horses is kept by Weatherbys.</note>
+                  <note>
+                     <ptr target="https://species.wikimedia.org/wiki/Equus_ferus_caballus"/>
+                  </note>
+                  <note>
+                     <ptr target="https://www.countrylife.co.uk/out-and-about/sporting-country-pursuits/shetlands-shires-native-horse-breeds-britain-91125/"/>
+                  </note>
+               </item>-->
+            </list>
+            <list sortKey="plants">
+               <item xml:id="plantID">
+                  <name><!--list any common and proper names of the plant, especially those known in Mitford's time.--></name>
+                  
+               </item>
+               <!--SAMPLE:
+               <item xml:id="cowslip">
+                  <name>cowslip</name>
+                  <name>common cowslip</name>
+                  <name>cowslip primrose</name>
+                  <name><rs type="genus">Primula</rs><rs type="species">veris</rs><rs type="family">Primulaceae</rs></name>
+                  <note resp="#lmw">One of <persName ref="#MRM">Mitford</persName>'s favorite flowers, blooms in spring in <placeName ref="#Berkshire">Berkshire</placeName>. Mitford likely refers to Primula veris (also called cowslip, common cowslip, cowslip primrose), a flowering plant in the genus Primula of the family Primulaceae. The species is native throughout most of temperate <placeName>Europe</placeName> and <placeName>Asia</placeName>, although absent from more northerly areas. May hybridize with <rs type="plant" ref="#primrose">English/common primroses</rs>.
+                  </note>
+               </item>
+               -->
+            </list>
+            
+         </div>
+         
+         <div type="art"><!--for graphical works of art, or works that aren't published in print form. Differentiate lists as needed.-->
+            <list sortKey="art">
+               <item/><!--leave this stump in place. Needed for this list to be valid.-->
+              <figure xml:id="whatevs9">
+               <bibl></bibl>
+               <graphic url="whatever.html"/><!--If we find a good, stable URL representing this artwork on the web, point to it here.-->
+               <note></note>
+            </figure>
+            </list>
+            <!--SAMPLE:
+               <figure xml:id="Lazarus_Haydon" type="painting" rend="oil">
+                  <bibl>
+                     <title level="m">The Resurrection of Lazarus</title>
+                     <title level="m">The Raising of Lazarus</title>
+                     <author ref="#Haydon"/>
+                     <date from="1821" to="1823">1821-1823</date>
+                  </bibl>
+                  <graphic url="http://www.tate.org.uk/art/research-publications/the-sublime/lydia-hamlett-sublime-religion-benjamin-robert-haydons-the-raising-of-lazarus-r1129549"/>
+                  <desc/>
+                  <note resp="#ebb">Painting of enormous dimensions exhibited in <date when="1823">1823</date> at <placeName ref="#EgyptianHall">Egyptian Hall</placeName> in
+                     Piccadilly, London. While on exhibit in 1823, the picture was seized from the
+                     gallery when Haydon was arrested for debt and imprisoned for two months.</note>
+               </figure>
+               -->
+         </div>
+         <div type="publications">
+          
+            <listBibl sortKey="serial_MRM"><!--For periodicals and serials, published during Mitford's lifetime-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE:
+               <bibl xml:id="Ackermans_Juv_ForgetMeNot">
+                  <title level="j">Ackermann's Juvenile Forget Me Not
+                  </title>
+                  <editor>Frederic Shoberl</editor>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Ackermann_pub">R. Ackermann</orgName>
+                  </publisher>
+                  <date from="1830" to="1832"/>
+                  <note resp="#lmw">Children's gift book/annual founded by Rudolf Ackermann and edited by Frederic Shoberl. <persName ref="#MRM">Mitford</persName> published in this periodical in <date when="1832">1832</date>.</note>
+               </bibl>
+               -->
+            
+            <listBibl sortKey="work_MRM"><!--For other printed works than serials, published during Mitford's lifetime-->
+               
+               <bibl xml:id="Travels_TheoDucas">
+                  <title level="m">Travels of Theodore Ducas</title>
+                  <author ref="#Mills_Chas"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher ref="#Longman_Rees_OBG_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1822"/>
+                  <note resp="#ajn #lmw">Full title: The Travels of Theodore Ducas of Candia in Various Countries in Europe at the Revival of Letters and Art, 2 vols. Vol. 1: Italy. Volume two was never published.</note>
+               </bibl>
+               
+               <bibl xml:id="PaintersDa_DS_LM">
+                  <title level="a">The Artist: A Dramatic Sketch</title>
+                 <title ref="#Ladys_Mag_Ser2_v1-3">The Lady's Magazine, new series 2</title>
+                  <author ref="#MRM"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1822"/>
+                  <publisher>
+                     <orgName>S. Robinson</orgName>
+                  </publisher>
+                  <note resp="#lmw">First published in <title ref="#Ladys_Mag">The Lady's Magazine</title>, new series 2, volume 3 (1822) under this title. Reprinted in Mitford's 1827 collection as <title ref="PaintersDa_DS_1827">The Painter's Daughter: A Dramatic Sketch</title>. Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+            </listBibl>
+            
+            <!--SAMPLE: 
+               <bibl xml:id="PaintersDa_DS_1827">
+                  <title level="a">The Painter's Daughter: A Dramatic Sketch</title>
+                  <title level="m">Dramatic Scenes, Sonnets, and Other Poems</title>
+                  <author ref="#MRM"/>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName ref="#Whittaker_GB_pub">G. B. Whittaker</orgName>
+                  </publisher>
+                  <date when="1827"/>
+                  <note resp="#slc #lmw">Dramatic sketch. Reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
+               
+                 <bibl xml:id="Ladys_Mag_Ser2_v1-3">
+                  <title ref="#Ladys_Mag_Ser2_v1-3">The Lady's Magazine; or Entertaining Companion for the Fair Sex, appropriated solely for their Use and Amusement, new series 2, vol. 1-3</title>
+                  <title ref="#Ladys_Mag">The Lady's Magazine</title>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date from="1820" to="1822">1820-1822</date>
+                  <publisher>
+                     <orgName>S. Robinson</orgName>
+                  </publisher>
+                  <note resp="#scw #lmw">A continuation of <title ref="#Ladys_Mag">The Lady's Magazine</title> as a <q>new series</q> (series two), volumes 1 through 3, <date from="1820" to="1822">from 1820 to 1822</date>, under the subtitle <title level="a">Entertaining Companion for the Fair Sex, appropriated solely for their Use and Amusement.</title> Published by <orgName>S. Robinson</orgName>.</note>
+                  <ref target="http://www.worldcat.org/title/ladys-magaine-museum-of-the-belles-lettres-music-fine-arts-drama-fashions-c/oclc/48090188"/>.
+               </bibl>
+            
+                     <bibl xml:id="Abbot_WS">
+                  <title level="m">The Abbot</title>
+                  <author ref="#Scott_Wal">Walter Scott</author>
+                  <date when="1820">1820</date>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <pubPlace>Edinburgh</pubPlace>
+                  <publisher>Archibald Constable and Company, and John Ballantyne</publisher>
+                  <note resp="#ebb">Historical novel: One of Scott’s series of <title level="s">Tales from Benedictine Sources</title>, <title level="m">The Abbot</title> introduces
+                     the character <persName>Roland Graeme</persName>, and renders <rs type="event">the experiences of <persName ref="#MaryQoS">Mary, Queen of Scots</persName>
+                        during her imprisonment and escape from <placeName>Loch Leven
+                           Castle</placeName> in <date when="1567">1567</date>
+                     </rs>.</note>
+               </bibl>
+               -->
+            
+            <listBibl sortKey="schol"><!--Scholarship from our time, after Mitford's-->
+               <bibl/>
+            </listBibl>
+            <!--SAMPLE:
+               <bibl xml:id="AlterationsOfState">
+                  <title level="m">Alterations of State: Sacred Kingship in the English Reformation</title>
+                  <author>
+                     <persName ref="#McCoy_Rich">Richard McCoy</persName>
+                  </author>
+                  <pubPlace>New York, New York, USA</pubPlace>
+                  <publisher>Columbia University Press</publisher>
+                  <date when="2002">2002</date>
+               </bibl>
+               -->
+         </div>
+         
+      </body>
+  </text>
