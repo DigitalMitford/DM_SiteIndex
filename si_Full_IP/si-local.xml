@@ -15585,7 +15585,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="http://viaf.org/viaf/24486641"/>
                   </note>
                </person>
-               <person xml:id="Mills_Chas" sex="m"><!-- Fix id in Journal Charles MillS with an S. Ck. journal text. -->
+               <person xml:id="Mills_Chas" sex="m">
                   <persName>Charles Mills</persName>
                   <persName>
                      <surname>Mills</surname>
@@ -33936,6 +33936,27 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </bibl>
             </listBibl>
             <listBibl sortKey="work_MRM">
+               <bibl xml:id="Travels_TheoDucas">
+                  <title level="m">Travels of Theodore Ducas</title>
+                  <author ref="#Mills_Chas">Charles Mills</author>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher ref="#Longman_Rees_OBG_pub">Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1822"/>
+                  <note resp="#ajn #lmw">Full title: The Travels of Theodore Ducas of Candia in Various Countries in Europe at the Revival of Letters and Art, 2 vols. Vol. 1: Italy. Volume two was never published.</note>
+               </bibl>
+               <bibl xml:id="PaintersDa_DS_LM">
+                  <title level="a">The Artist: A Dramatic Sketch</title>
+                  <title ref="#Ladys_Mag_Ser2_v1-3">The Lady's Magazine, new series 2</title>
+                  <author ref="#MRM"/>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1822"/>
+                  <publisher>
+                     <orgName>S. Robinson</orgName>
+                  </publisher>
+                  <note resp="#lmw">First published in <title ref="#Ladys_Mag">The Lady's Magazine</title>, new series 2, volume 3 (1822) under this title. Reprinted in Mitford's 1827 collection as <title ref="PaintersDa_DS_1827">The Painter's Daughter: A Dramatic Sketch</title>. Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+               </bibl>
                <bibl xml:id="Abbot_WS">
                   <title level="m">The Abbot</title>
                   <author ref="#Scott_Wal">Walter Scott</author>
