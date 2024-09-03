@@ -333,59 +333,9 @@
                      <ref target="http://viaf.org/viaf/29561715"/>
                   </note>
                </person>
-               <person xml:id="Foscolo_Ugo" sex="m">
-                  <persName ref="#Foscolo_Ugo">Ugo Foscolo</persName>
-                     <persName>
-                     <forename>Niccolo</forename>
-                     <forename type="alt">Ugo</forename>
-                     <surname>Foscolo</surname>
-                  </persName>
-                  <persName type="pen">Didimo Chierico</persName>
-                  <birth when="1778-02-06">February 6, 1778 <placeName>Zakynthos, Venice, Greece</placeName>
-                  </birth>
-                  <death when="1827-09-27">September 27, 1827 <placeName ref="#London_city"
-                        >London, England</placeName>
-                  </death>
-                  <occupation type="literary"/>
-                  <occupation type="educator"/>
-                  <occupation type="military"/>
-                  <occupation type="literary" subtype="poet"/>
-                  <occupation type="literary" subtype="novelist"/>
-                  <occupation type="literary" subtype="translator"/>
-                  <occupation type="literary" subtype="playwright"/>
-                  <occupation type="literary" subtype="critic"/>
-                  <note resp="#scw">Born of a Venetian father and a Greek mother, Foscolo spent most
-                     of his early years in <placeName ref="#Venice">Venice</placeName> when it was a
-                     Republic. His first work, a tragedy, enjoyed a modest success. He was an ardent
-                     admirer of <persName ref="#Napoleon">Napoleon</persName>, and believed that
-                        <placeName ref="#Venice">Venice</placeName> would become a true republic
-                     upon a French invasion. When <persName ref="#Napoleon">Napoleon</persName>
-                     later ceded the city to <placeName ref="#Austria">Austria</placeName>, Foscolo
-                     published an epistolary novel denouncing the move, <bibl
-                        corresp="#Last_Letters_Jac_Ortis">The Last Letters of Jacopo Ortis</bibl>.
-                     However, still fostering hope for a true Italian republic, Foscolo later joined
-                     the Italian division of the French army. In <date when="1807">1807</date>, he
-                     wrote <title>
-                        <foreign xml:lang="it">Dei Sepolcri</foreign>
-                     </title>, a long poem protesting <persName ref="#Napoleon"
-                     >Napoleon</persName>'s ban on tomb inscriptions. He translated a number of
-                     English works. In <date when="1816">1816</date>, he fled to <placeName
-                        ref="#England">England</placeName>, where he contributed essays on <persName
-                        ref="#Dante">Dante</persName>, <persName ref="#Petrarch"
-                     >Petrarch</persName>, and other Italian poets for the <title
-                        ref="#QuarterlyRev_per">Quarterly Review</title> and the <title
-                        ref="#EdinburghRev_per">Edinburgh Review</title>. He became something of a
-                     celebrity, writing and teaching at a girls' school, until he was confined to
-                     debtors' prison. Nearly fifty years after his death, his remains were
-                     repatriated to <placeName ref="#Florence">Florence</placeName>.</note>
-                  <note><ptr target="http://viaf.org/viaf/36929008"/></note>
-               </person>
-               
-               <person xml:id="Goethe" sex="m"><!-- stub -->
-                  <!--scw 6/8/19: FOR LATER.-->
-                  <persName ref="#Goethe">Goethe</persName>
-               </person>
-               
+<!-- 2024-09-02 ebb: Moved Ugo Foscolo to new release for SI. He's also referenced in MRM's Journal and I braided the entries together. -->   
+<!-- 2024-09-02 ebb: Also moved and developed stub entry for Goethe for new SI release, as referenced in Foscolo entries.  -->
+           
                <person xml:id="Green_Matt" sex="m">
                   <persName>Matthew Green</persName>
                   <persName>
@@ -5121,29 +5071,7 @@
                         level="m" ref="#Percy_Reliques">Reliques of Ancient English Poetry</title>.
                      Its tune had also been adapted with other lyrics.</note>
                </bibl>
-               <bibl xml:id="Last_Letters_Jac_Ortis">
-                  <title level="m" ref="#Last_Letters_Jac_Ortis">The Last Letters of Jacopo
-                     Ortis</title>
-                  <author ref="#Foscolo_Ugo">Ugo Foscolo</author>
-                  <date when="1802">1802</date>
-                  <pubPlace>
-                     <placeName>Bologna, Italy</placeName>
-                  </pubPlace>
-                  <pubPlace>
-                     <placeName ref="#London_city">London, England</placeName>
-                  </pubPlace>
-                  <publisher>Romualdo Zotti</publisher>
-                  <note resp="#scw">Epistolary novel in the spirit of <persName ref="#Goethe"
-                        >Goethe</persName>'s Werther but with political overtones that link the
-                     hero, Ortis, to the Venetian struggle for indepependence and liberty. The
-                     protagonist is in love with a woman, Teresa, who is betrothed to another, while
-                     also enduring dashed political hopes with fall of <placeName ref="#Venice"
-                        >Venice</placeName> into the hands of <placeName ref="#Austria"
-                        >Austria</placeName>. He communicates his feelings to a friend in letters
-                     while on his travels. <persName ref="#MRM">Mitford</persName> records in her
-                     journal<!--scw: what is the id for this?--> reading this book on <date
-                        when="1820-06-15">June 15, 1820</date>.</note>
-               </bibl>
+               <!-- 2024-09-04 ebb: Moved Foscolo's Letters of Ortis entry to new release for SI. -->
                <bibl xml:id="Le_Sylph_play"><!--LMW to self: Check format on translated books -->
                   <title level="m" ref="#Le_Sylph_play">Le Sylph</title>
                   <title type="main">Le Sylph</title>

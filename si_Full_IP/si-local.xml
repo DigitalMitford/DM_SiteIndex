@@ -75,10 +75,34 @@
       <body>
          <div type="Mitford_Team">
             <listPerson sortKey="Mitford_Team">
-
-               
-               <!--ADD: Hadleigh-->
-             
+               <person xml:id="hjb"> 
+                  <persName>
+                     <surname>Bills</surname>
+                     <forename>Hadleigh</forename>
+                     <forename>Jae</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <note resp="#hjb">Hadleigh Jae Bills is a student at Penn State Behrend. Started
+                     working on Mitford’s Journal in October 2023 on transcription and
+                     proof-checking between the typescript and photofacsimile. She is working
+                     towards a B.A. in Digital Media, Arts, and Technology.</note>
+               </person>
+               <person xml:id="ham">
+                  <persName>
+                     <surname>Hammer</surname>
+                     <forename>Nathan</forename>
+                     <forename>Louis</forename>
+                     <roleName>Research Assistant</roleName>
+                  </persName>
+                  <note resp="#ham">Nathan Hammer is a student at Penn State Behrend. Started
+                     working on Mitford’s Journal in October 2023 
+                     assigned to encode and check the typescript entries from the Coles transcript 
+                     and to develop digital mapping of locations mentioned in the Journal. He is currently exploring
+                     technology and digital entertainment, pursuing a B.A. in Digital Media, Arts,
+                     and Technology @ Penn State Behrend, with a planned graduation year of
+                     2025.</note>
+               </person>
+     
                <person xml:id="ab"><!-- LMW updated 2024 -->
                   <persName>
                      <surname>Booth</surname>
@@ -807,11 +831,14 @@
                         Bennett</persName>, and one to <persName ref="#Chorley_HF">Chorley</persName>.</note>
                </org>
                <org xml:id="BL">
-                  <orgName>British Library</orgName>
-                  <note resp="#ghb">Holds around 125 letters, as well as manuscripts of Mitford’s
+                  <orgName notBefore="1973">British Library</orgName>
+                  <orgName from="1753" notAfter="1973">British Museum</orgName>
+                  <note resp="#ghb #hjb #ebb">After 1973, the British Library formally separated from the British Museum, 
+                     but papers filed with the British Museum stamp are now held by the British Library. 
+                     Holds around 125 letters, Mitford’s handwritten journal of 1819-1823, as well as manuscripts of Mitford’s
                      plays submitted to the Examiner’s Office after <date>1825</date>, including
-                        <title ref="#CharlesI_MRMplay">Charles I</title>, <title ref="#Foscari_MRMplay">Foscari</title>, <title ref="#Rienzi">Rienzi</title>,
-                        <title ref="#Inez_deCastro_MRMplay">Inez de Castro</title>, and <title ref="#Sadak_Kalasrade">Sadak and Kalasrade</title>.</note>
+                     <title ref="#CharlesI_MRMplay">Charles I</title>, <title ref="#Foscari_MRMplay">Foscari</title>, <title ref="#Rienzi">Rienzi</title>,
+                     <title ref="#Inez_deCastro_MRMplay">Inez de Castro</title>, and <title ref="#Sadak_Kalasrade">Sadak and Kalasrade</title>.</note>
                </org>
                <org xml:id="BostonPL">
                   <orgName>Boston Public Library</orgName>
@@ -2166,6 +2193,81 @@
          </div>
          <div type="historical_people">
             <listOrg sortKey="histOrgs">
+               <org xml:id="Bodys"> 
+                  <orgName>the Body family</orgName>
+                  <orgName>the Bodys</orgName>
+                  <orgName>
+                     <surname>Body</surname>
+                  </orgName>
+                  <note resp="#TSA #ebb"><persName ref="#MRM">Mitford</persName> mentions the Bodys as a family in her Journal of
+                     1819 - 1823. She visits <q>the Bodys</q> and mentions <q>Mrs. Body</q>. We
+                     know that one member of the Body family is <persName ref="#Body_Richard"
+                        >Richard Body</persName>, but it is unclear the identity of the other
+                     members. The Digital <persName ref="#MRM">Mitford</persName> project is uncertain whether there is a
+                     relationship between the <persName ref="#Body_Ann">Ann Body</persName> we
+                     identified from 1840s and 50s records and the Bodys that <persName ref="#MRM">Mitford</persName> knew in the
+                     1820s. </note>
+               </org>
+               <org xml:id="Crowthers"> 
+                  <orgName>the Crowthers</orgName>
+                  <surname>Crowther</surname>
+                  <note>Contains <persName ref="#Crowther_Mr">Mr. Crowther</persName> and
+                     <persName ref="#Crowther_Mrs">Mrs. Crowther</persName></note>
+               </org>
+               <org xml:id="Dickinsons"> 
+                  <orgName>the Dickinsons</orgName>
+                  <surname>Dickinson</surname>
+                  <note resp="#hjb">Contains <persName ref="#Dickinson_Charles">Charles
+                     Dickinson</persName> and <persName ref="#Dickinson_Mrs">Mrs.
+                        Dickinson</persName>.</note>
+               </org>
+               <org xml:id="Holdens"> 
+                  <orgName>the Holdens</orgName>
+                  <orgName>
+                     <surname>Holden</surname>
+                  </orgName>
+                  <note resp="#hjb">Potentially includes  <persName ref="#Holden_Misses">Miss Holden</persName>, <persName ref="#Holden_John">John Holden</persName>, and <persName ref="#Holden_Henry">Henry Holden</persName>. Mentioned by Mitford on <date when="1819-07-02">July 2 1819</date>.</note>
+               </org>
+               <org xml:id="James_Fam"> <!-- NEW ENTRY -->
+                  <orgName>the James Family</orgName>
+                  <orgName>the James's</orgName>
+                  <surname>James</surname>
+               </org>
+               <org xml:id="Newells"> <!-- NEW ENTRY -->
+                  <orgName>the Newells</orgName>
+                  <surname>Newell</surname>
+                  <note resp="#hjb">Contains <persName ref="#Newell_Mr">Mr. Newell</persName> and
+                     <persName ref="#Newell_Mrs">Mrs. Newell</persName>.</note>
+               </org>
+               <org xml:id="Perrys"> <!-- NEW ENTRY -->
+                  <orgName>the Perrys</orgName>
+                  <surname>Perry</surname>
+                  <note resp="#hjb #ebb">Likely includes <persName ref="#Perry_James">James
+                     Perry</persName> and, before November 1821, his daughter <persName ref="#Perry_Horatia">Horatia Perry</persName>.</note>
+               </org>
+               <org xml:id="Simonds"> <!-- NEW ENTRY -->
+                  <orgName>the Simonds</orgName>
+                  <surname>Simonds</surname>
+                  <note resp="#hjb">Potentially the Symonds mentioned on <date when="1820-12-19">December 19 1820</date>. Containing <persName ref="#Simonds_MrsB">Elizabeth Blackall Simonds</persName>, <persName ref="#Simonds_MrB">William Blackall Simonds</persName>, and <persName ref="#Simonds_H">Henry Simonds</persName>.</note>
+               </org>
+               <org xml:id="Tuppens"> <!-- NEW ENTRY -->
+                  <orgName>the Tuppen Family</orgName>
+                  <orgName>the Tuppens</orgName>
+                  <surname>Tuppen</surname>
+                  <note resp="#hjb">The Tuppens include <persName ref="#Tuppen_Capt">Captain
+                     William Tuppen</persName> and his spouse <persName ref="#Tuppen_Mrs"
+                        >Mrs. Tuppen</persName>.</note>
+               </org>
+               <org xml:id="Westbrooks"> <!-- NEW ENTRY -->
+                  <orgName>the Westbrooks</orgName>
+                  <surname>Westbrook</surname>
+                  <note resp="#hjb">Met <persName ref="#MRM">Mitford</persName> on <date when="1820-07-26">July 26 1820</date>,
+                     and dined with them on <date when="1820-08-18">August 18 1820</date>.</note>
+               </org>     
+               
+               
+               <!-- 2024-09-02 ebb END NEW ENTRIES TO BE INCLUDED IN THIS LISTORG -->
+               
                <org xml:id="Ackermann_pub">
                   <orgName>R. Ackermann</orgName>
                   <note resp="#lmw">R. Ackermann was a publishing firm located in <placeName ref="#London_city">London</placeName> founded by <persName>Rudolf Ackermann</persName>, publisher and designer (1764-1834). Publisher of volumes of the annual <title ref="#ForgetMeNot">Forget Me Not</title>, in which <persName ref="#MRM">Mitford</persName> published several short works.<!--LMW: No corporate VIAF #, only personal. http://viaf.org/viaf/39646578--></note>
@@ -2194,8 +2296,9 @@
                   <orgName>
                      <addName>Anstruthers</addName>
                   </orgName>
-                  <note resp="#lmw">The family of <persName ref="#Anstruther_Col">Col.
-                     Anstruther</persName>. Associated with <placeName ref="#Reading_city">Reading</placeName>.</note>
+                  <note resp="#lmw #hjb">The family of <persName ref="#Anstruther_Col">Col. Anstruther</persName>. 
+                     Associated with <placeName ref="#Reading_city">Reading</placeName>. Includes <persName ref="#Anstruther_Col">Colonel
+                           Anstruther</persName>, <persName ref="#Anstruther_Mrs">Mrs. Anstruther</persName>, and <persName ref="#Anstruther_Miss">Miss Anstruther</persName></note>
                </org>
                <org xml:id="Baldwin_Cradock_Joy_pub">
                   <orgName>Baldwin, Cradock, and Joy</orgName>
@@ -2587,7 +2690,7 @@
                   </orgName>
                   <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>. May include <persName ref="#Hawkes_Miss">Miss Hawkes</persName>, whom <persName ref="#MRM">Mitford</persName> visits in 1819. Source: Journal.</note>
                </org>
-               <org xml:id="Haywards">
+               <org xml:id="Haywards"> <!-- 2024-07-03 UPDATING THIS ENTRY -->
                   <orgName>the Hayward family </orgName>
                   <orgName>
                      <surname>Hayward</surname>
@@ -2595,9 +2698,10 @@
                   <orgName>
                      <addName>Haywards</addName>
                   </orgName>
-                  <note resp="#ebb #lmw #srr">Likely includes <persName ref="#Hayward_Wm_father">Mr. William Hayward</persName> the elder
+                  <note resp="#ebb #lmw #srr #hjb">Likely includes <persName ref="#Hayward_Wm_father">Mr. William Hayward</persName> the elder
                      &amp; his spouse <persName ref="#Hayward_MrsW">Mrs. W. Hayward</persName>, a brewing family connected with inns in
-                     <placeName ref="#Watlington">Watlington</placeName>. Their son <persName ref="#Hayward_Wm_son">William Hayward</persName> the younger, eventually married <persName ref="#Webb_Jane">Jane Webb</persName>.</note>
+                     <placeName ref="#Watlington">Watlington</placeName>. Their son <persName ref="#Hayward_Wm_son">William Hayward</persName> the younger, 
+                     eventually married <persName ref="#Webb_Jane">Jane Webb</persName>. <persName ref="#MRM">Mitford</persName>’s Journal mentions <persName ref="#Hayward_da">a little girl</persName>, probably their daughter. In the Journal she mentions that their son, <persName ref="#Hayward_H">Henry Hayward</persName> married <persName ref="#Dodd_Anne">Anne Dodd</persName> on <date when="1819-12-27">27 December 1819</date>.</note>
                </org>
                <org xml:id="High_Court_of_Justice">
                   <orgName>High Court of Justice</orgName>
@@ -3260,6 +3364,629 @@
                </org>
             </listOrg>
             <listPerson sortKey="histPersons">
+               
+               <person xml:id="Belzoni_Gio" sex="m"><!-- NEW ENTRY for SI -->
+                  <persName>Giovanni Battista Belzoni</persName>
+                  <persName>
+                     <surname>Belzoni</surname>
+                     <forename>Giovanni</forename>
+                     <forename>Battista</forename>
+                  </persName>
+                  <birth when="1778-11-05">
+                     <placeName>Padua</placeName>
+                  </birth>
+                  <death when="1823-12-03">
+                     <placeName>Gwato, Benin</placeName>
+                  </death>
+                  <note resp="#hjb">An Italian explorer and archaeologist. Wrote <title ref="#Travels_Belzoni">Narrative of the
+                     Operations and Recent Discoveries within the Pyramids, Temples, Tombs, and
+                     Excavations, in Egypt and Nucia</title>. Mitford mentions reading Belzoni’s Narrative in her Journal on <date when="1821-09-29">29 September 1821</date>.</note>
+               </person>
+               <person xml:id="Chalmers_T">
+                  <persName>Thamas Chalmers</persName>
+                  <persName>
+                     <surname>Chalmers</surname>
+                     <forename>Thomas</forename>
+                  </persName>
+                  <birth when="1780-03-17"><placeName>Anstruther, Fife, Scotland</placeName></birth>
+                  <death when="1847-05-31"><placeName>Edinburgh, Scotland</placeName></death>
+                  <occupation type="religious" subtype="minister"/>
+                  <occupation type="government" subtype="reformer"/>
+                  <note resp="#ebb">Evangelical Presybterian minister of the Church of Scotland who sought reform of poor relief 
+                     and advocated for <persName ref="#Malthus_Thomas">Malthus</persName>’s ideas on population 
+                     and resources. He became famous across England for his sermons. Chalmers delivered and published 
+                     a famous memorial sermon on the death of <persName ref="#PrincessCharlotte">Princess Charlotte</persName> 
+                     that called attention to poverty in Glasgow. Mitford mentions in her Journal 
+                     on <date when="1820-07-02">July 2, 1820</date> reading Chalmers's <q>new sermons</q> 
+                     (likely his <title level="m" ref="#Sermons_Chalmers">Sermons preached in the Tron Church, Glasgow</title>) 
+                     while in <placeName ref="#Richmond">Richmond</placeName>.</note>
+                  <note><ref target="https://viaf.org/viaf/64076481/"/></note>
+                  <note><ref target="https://en.wikipedia.org/wiki/Thomas_Chalmers"/></note>
+               </person>
+               <person xml:id="Charlotte_Duchess"> <!-- NEW ENTRY -->
+                  <persName>Friederike Charlotte Ulrike Katharina, Duchess of York and Albany</persName>
+                  <persName>
+                     <roleName>Duchess of York and Albany</roleName>
+                  </persName>
+                  <birth when="1767-05-07">
+                     <placeName>Charlottenburg, Germany</placeName>
+                  </birth>
+                  <death when="1820-08-06">
+                     <placeName>Oatlands Park, Surrey, England</placeName>
+                  </death>
+                  <note resp="#ebb #hjb">Mitford mentions that she was working on a black gown for the death of the Duchess in her Journal on <date when="1829-08-09">August 9, 1820</date>.</note>
+                  <note><ref target="https://en.wikipedia.org/wiki/Princess_Frederica_Charlotte_of_Prussia"/></note>
+               </person>
+               <person xml:id="Crawfurd_J"> <!-- NEW ENTRY -->
+                  <persName>John Crawfurd</persName>
+                  <persName>
+                     <surname>Crawfurd</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <birth when="1783-08-13">
+                     <placeName>Island of Islay, Inner Hebrides, Scotland</placeName>
+                  </birth>
+                  <death when="1868-05-11">
+                     <placeName>South Kensington, Middlesex, England</placeName>
+                  </death>
+                  <occupation type="government" subtype="diplomat"/>
+                  <occupation type="government" subtype="administrator"/>
+                  <note resp="#ebb #hjb">British colonial administrator to Southeast Asia, where he studied Malaysian language and culture, and 
+                     served on diplomatic missions to <placeName>Siam</placeName>, <placeName>Bali</placeName>, and <placeName>Java</placeName>. 
+                     Married to <persName ref="#Perry_Horatia">Horatia
+                        Perry</persName> on <date when="1820-11-25">25 November 1820</date>, who traveled with him to Siam in 1821. 
+                     <persName ref="#MRM">Mitford</persName> mentions reading about the marriage on <date when="1820-11-30">30 November
+                        1820</date>, prior to attending a dinner gathering in December 1820 at the home of 
+                     Crawfurd’s new father-in-law, <persName ref="#Perry_James">James Perry</persName>.</note>
+                  <note resp="#hjb">
+                     <ref target="https://www.ancestry.com/family-tree/person/tree/64949843/person/272200920371/facts"/>
+                  </note>
+               </person>
+               <person xml:id="Dodd_Anne">
+                  <!-- ebb: Is she any relation to DoddCE (Charles Dodd) in our SI? -->
+                  <persName>Anne Dodd</persName>
+                  <persName>
+                     <surname type="married">Hayward</surname>
+                     <surname type="paternal">Dodd</surname>
+                     <forename>Anne</forename>
+                  </persName>
+                  <birth when="1800-06-27">
+                     <placeName>Chinies, Buckinghamshire, England</placeName>
+                  </birth>
+                  <note resp="#hjb">Married <persName ref="#Hayward_H">Henry Hayward</persName> on
+                     <date when="1819-12-27">December 27, 1819</date>, which is mentioned by
+                     <persName ref="#MRM"> Mitford</persName> in her journal on <date when="1820-01-06">6 January
+                        1820</date>.</note>
+               </person>
+               <person xml:id="Dubois_JA" sex="m">
+                  <persName>Jean-Antoine Dubois</persName>
+                  <persName>Abbé J. A. Dubois</persName>
+                  <persName>
+                     <surname>Dubois</surname>
+                     <forename>Abbé</forename>
+                     <forename>Jean-Antoine</forename>
+                  </persName>
+                  <birth when="1765-01"/>
+                  <death when="1848-02-17"/>
+                  <note resp="#hjb">A French Catholic Missionary in India. Member of the Missions
+                     Etrangères de Paris. <title ref="#AccountOfIndia">Wrote Hindu manners,
+                        customs and ceremonies</title>.</note>
+               </person>
+               <person xml:id="Filleul_A"> 
+                  <persName>Adélaïde-Émilie Filleul, Marquise de Souza-Botelho</persName>
+                  <persName>
+                     <surname>Filleul</surname>
+                     <forename>Adélaïde-Émilie</forename>
+                     <addName>Émilie-Adélaïde</addName>
+                  </persName>
+                  <birth when="1761-05-14"/>
+                  <death when="1836-04-19"/>
+                  <note resp="#hjb">Author of <title level="m" ref="#Mademoiselle_Tournon">Mademoiselle de Tournon</title> which Mitford mentions reading in her Journal on September 22 and 23, 1820.
+                     <ref target="https://www.wikiwand.com/en/Adelaide_Filleul,_Marquise_de_Souza-Botelho"/>
+                  </note>
+               </person>
+               
+               <person xml:id="Goethe" sex="m">
+                  <persName ref="#Goethe">
+                     <forename>Johann</forename>
+                     <forename>Wolfgang</forename>
+                     <surname>von Goethe</surname>
+                  </persName>
+                  <birth when="1749-08-28"><placeName>Frankfurt, Germany</placeName></birth>
+                  <death when="1832-03-22"><placeName>Weimar, Germany</placeName></death>
+                  <occupation type="literary"/>
+                  <occupation type="theater"/>
+                  <occupation type="scholar" subtype="naturalist"/>
+                  <note resp="#ebb">Highly influential 18th-century novelist and dramatist, the author of <title level="m">Faust</title> 
+                     and <title level="m">The Sorrows of Young Werther</title> read and translated widely as iconic of the Enlightenment fashion of sensibility, or the cultivation of emotion.
+                  </note>
+               </person>
+               <person xml:id="Foscolo_Ugo" sex="m">
+                  <persName ref="#Foscolo_Ugo">Ugo Foscolo</persName>
+                  <persName>
+                     <forename>Niccolo</forename>
+                     <forename type="alt">Ugo</forename>
+                     <surname>Foscolo</surname>
+                  </persName>
+                  <persName type="pen">Didimo Chierico</persName>
+                  <birth when="1778-02-06">  <placeName>Zakynthos (Zante), Ionian Islands, Republic of Venice, now
+                     Greece</placeName>
+                  </birth>
+                  <death when="1827-09-27"><placeName ref="#London_city">London, England</placeName>
+                  </death>
+                  <occupation type="literary"/>
+                  <occupation type="educator"/>
+                  <occupation type="military"/>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="novelist"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="critic"/>
+                  <note resp="#scw #hjb #ebb"><p>Venetian author and playwright who spent the last years of his life in England in the 1820s, in exile from Austrian rule. 
+                     In her Journal on <date when="1820-06-15">15 June 1820</date>, 
+                     <persName ref="#MRM">Mitford</persName> mentions reading Foscolo’s <title level="m" ref="#Last_Letters_Jac_Ortis">Lettere de Jacopo
+                        Ortis</title> and writes that he <q>is now in <placeName
+                           ref="#England">Eng</placeName>: writing for the <title
+                              ref="#QuarterlyRev_per">Quarterly</title>.</q></p>
+                     <p>Born of a Venetian father and a Greek mother, Foscolo spent most
+                        of his early years in <placeName ref="#Venice">Venice</placeName> when it was a
+                        Republic. His first work, a tragedy, enjoyed a modest success. He was an ardent
+                        admirer of <persName ref="#Napoleon">Napoleon</persName>, and believed that
+                        <placeName ref="#Venice">Venice</placeName> would become a true republic
+                        upon a French invasion. When <persName ref="#Napoleon">Napoleon</persName>
+                        later ceded the city to <placeName ref="#Austria">Austria</placeName>, Foscolo
+                        published an epistolary novel denouncing the move, <bibl
+                           corresp="#Last_Letters_Jac_Ortis">The Last Letters of Jacopo Ortis</bibl>.
+                        However, still fostering hope for a true Italian republic, Foscolo later joined
+                        the Italian division of the French army. In <date when="1807">1807</date>, he
+                        wrote <title>
+                           <foreign xml:lang="it">Dei Sepolcri</foreign>
+                        </title>, a long poem protesting <persName ref="#Napoleon"
+                           >Napoleon</persName>'s ban on tomb inscriptions. He translated a number of
+                        English works. In <date when="1816">1816</date>, he fled to <placeName
+                           ref="#England">England</placeName>, where he contributed essays on <persName
+                              ref="#Dante">Dante</persName>, <persName ref="#Petrarch"
+                                 >Petrarch</persName>, and other Italian poets for the <title
+                                    ref="#QuarterlyRev_per">Quarterly Review</title> and the <title
+                                       ref="#EdinburghRev_per">Edinburgh Review</title>. He became something of a
+                        celebrity, writing and teaching at a girls' school, until he was confined to
+                        debtors' prison. Nearly fifty years after his death, his remains were
+                        repatriated to <placeName ref="#Florence">Florence</placeName>.</p></note>
+                  <note><ptr target="http://viaf.org/viaf/36929008"/></note>
+               </person>
+               <person xml:id="Goddard_Mr" sex="m"> <!-- NEW ENTRY. For LMW: Do you know anything more? -->
+                  <persName>Mr. Goddard</persName>
+                  <persName>
+                     <surname>Goddard</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#hjb">Gave <persName ref="#Hill_Lucy">Lucy Hill</persName> away at
+                     wedding.</note>
+               </person>
+               <person xml:id="Hawkins_L" sex="f"> <!-- NEW ENTRY -->
+                  <persName>Laetitia Matilda Hawkins</persName>
+                  <persName>
+                     <surname>Hawkins</surname>
+                     <forename>Laetitia</forename>
+                     <forename>Matilda</forename>
+                  </persName>
+                  <birth when="1759">
+                     <placeName ref="#London_city">London</placeName>
+                  </birth>
+                  <death when="1835-11-22">
+                     <placeName ref="#Twickenham">Twickenham</placeName>
+                  </death>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#hjb">Author of <title ref="#Heraline_LMH">Heraline; or, Opposite
+                     Proceedings</title>.</note>
+                  <note>
+                     <ref target="https://orlando.cambridge.org/profiles/hawkla"/>
+                  </note>
+               </person>
+               <person xml:id="Hayward_H" sex="m"> <!-- NEW ENTRY -->
+                  <persName>Henry Hayward</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                     <forename>Henry</forename>
+                  </persName>
+                  <birth when="1795">
+                     <placeName>Watlington, Oxfordshire, England, United Kingdom</placeName>
+                  </birth>
+                  <death when="1875-01">
+                     <placeName>Amersham, Buckinghamshire, England, United Kingdom</placeName>
+                  </death>
+                  <note resp="#hjb">Married <persName ref="#Dodd_Anne">Anne Dodd</persName> on
+                     <date when="1819-12-27">December 27, 1819</date>, which is mentioned by
+                     <persName ref="#MRM"> Mitford</persName> in her journal on <date when="1820-01-06">6 January 1820</date>. Son
+                     of <persName ref="#Hayward_Wm_father">William Hayward</persName> and
+                     <persName ref="#Hayward_MrsW">Mrs. Hayward</persName>.</note>
+               </person>
+               <person xml:id="Hayward_da">
+                  <persName>Mrs. Hayward’s little girl</persName>
+                  <persName>
+                     <surname>Hayward</surname>
+                  </persName>
+                  <birth when="1820-01-02"/>
+                  <note resp="#hjb">Likely the hild of <persName ref="#Hayward_MrsW">Mrs. Hayward</persName> and <persName ref="#Hayward_Wm_father">William Hayward</persName>. Mentioned by <persName ref="#MRM">Mitford</persName> in her Journal on <date when="1819-06-02">2 June 1819</date> and <date when="1820-01-27">27 January 1820</date>.</note>
+               </person>
+               
+               <person xml:id="Holden_John"> <!-- NEW ENTRY -->
+                  <persName>John Holden</persName>
+                  <persName>
+                     <surname>Holden</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <note resp="#hjb">Mitford sent him a puppy that she got from <persName ref="#Webb_James">Mr. Webb</persName> on <date when="1819-07-01">July 1 1819</date>.</note>
+               </person>
+               <person xml:id="Holden_Miss"> <!-- NEW ENTRY: Mentioned in Journal but no SI entries -->
+                  <persName>Miss Holden</persName>
+                  <persName>
+                     <surname>Holden</surname>
+                  </persName>
+                  <note resp="#hjb">Potentially related to <persName ref="#Holden_John">John Holden</persName>. Mitford sent poems to her on <date when="1819-07-01">July 1 1819</date>.</note>
+               </person>
+               <person xml:id="Howell_Mrs"> 
+                  <persName>Mrs. Howell</persName>
+                  <persName>
+                     <surname>Howell</surname>
+                     <roleName>Mrs.</roleName>
+                  </persName>
+                  <note resp="#hjb #ebb">Likely a neighbor of <persName ref="#MRM">Mitford</persName> either at <placeName
+                     ref="#Bertram_house">Bertram House</placeName> or <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>, where she 
+                     moved by the end of <date when="1820-03">March 1820</date>. Mitford mentions iin her Journal on <date when="1820-03-24">March 24, 1820</date> 
+                     that she had a quarrel with Mrs. Howell <q>about my Carnations which she stole</q>.
+                     Possibly the mother or wife of <persName ref="#Howell_W">William Howell</persName>, mentioned later 
+                     in the Journal on <date when="1820-08-13">August 13, 1820</date>.</note>
+                  <note resp="#hjb">
+                     <ref target="https://www.ancestry.com/imageviewer/collections/1904/images/31874_222778-00483?pId=1906172"/>
+                     <ref target="https://www.ancestry.com/family-tree/person/tree/116999867/person/290161479174/facts"/>
+                  </note>
+               </person>
+               <person xml:id="Howell_W">
+                  <persName>Will Howell</persName>
+                  <persName>
+                     <surname>Howell</surname>
+                     <forename>William</forename>
+                  </persName>
+                  <note resp="#ebb"><persName ref="#MRM">Mitford</persName> mentions Will Howell in her Journal 
+                     on <date when="1820-08-13">August 13, 1820</date>,
+                     and he appears to be a neighbor of hers. May possibly be related to Mrs. Howell, mentioned in 
+                     her Journal on <date when="1820-03-24">March 24, 1820</date>.</note>
+               </person>
+               <person xml:id="Hunt_Mrs">
+                  <persName>Hannah Cooper</persName>
+                  <persName>
+                     <surname type="married">Hunt</surname>
+                     <surname type="paternal">Cooper</surname>
+                     <forename>Hannah</forename>
+                  </persName>
+                  <note resp="#hjb">
+                     <ref target="https://www.alresford.org/displayed/displayed_08-1.php"/>
+                  </note>
+                  <note resp="#hjb">Potentially the Mrs. Hunt of <placeName>Arlesford</placeName> whom <persName ref="#MRM">Mitford</persName> mentions in her Journal on <date when="1819-07-01">July 1, 1819</date>.</note>
+               </person>
+               <person xml:id="Inchbald_E"> <!-- NEW ENTRY -->
+                  <persName>Elizabeth Inchbald</persName>
+                  <persName>
+                     <surname>Inchbald</surname>
+                     <forename>Elizabeth</forename>
+                  </persName>
+                  <birth when="1753-10-15">
+                     <placeName>Stanningfield</placeName>
+                  </birth>
+                  <death when="1821-08-01">
+                     <placeName>London</placeName>
+                  </death>
+                  <occupation type="literary" subtype="novelist"/>
+                  <note resp="#hjb">Author of <title ref="#Simple_Story">A Simple Story</title>, which <persName ref="#MRM">Mitford</persName> mentions reading in her Journal on <date when="2020-10-16">October 16, 1820</date>.</note>
+                  <note resp="#hjb">
+                     <ref target="https://en.wikipedia.org/wiki/Elizabeth_Inchbald"/>
+                  </note>
+               </person>
+               <person xml:id="Kelly_FH">
+                  <persName>Miss Kelly</persName>
+                  <persName>
+                     <surname>Kelly</surname>
+                     <forename>Frances</forename>
+                     <forename>Harriet</forename>
+                  </persName>
+                  <birth when="1805-06-30"><!-- hjb and ebb: as listed on ancestry.com --><placeName>Chelsea, Middlesex, England</placeName></birth>
+                  <death when="1887-03-19"><placeName>Middlesex, England</placeName></death>
+                  <occupation type="theater" subtype="actor"/>
+                  <note resp="#ebb #hjb"><persName ref="#MRM">Mitford</persName> mentions traveling to London to see Miss Kelly perform in her Journal on <date when="1820-06-29">June 29, 1820</date>.
+                     It seems possible Mitford might have been going to see her perform in the comic opera, <title level="m">The Promissory Note</title>, 
+                     which opened in the <placeName ref="#Opera_House">Theatre Royal</placeName> on June 29 and continued into July 1820.                
+                  </note>
+                  <note resp="#hjb">ancestry.com</note>
+                  <note resp="#ebb">
+                     <ref target="https://d1m87s0l7jnwya.cloudfront.net/melodrama/lyceum_1820-07-10_britishlibrary_lsidyv4332b851_1809-1821_lyceum_english_opera_0434/">Romantic Melodrama</ref>
+                  </note>
+               </person>
+               <person xml:id="Macfarlane_Chas"> 
+                  <persName>Charles Macfarlane</persName>
+                  <persName>
+                     <surname>Macfarlane</surname>
+                     <forename>Charles</forename>
+                  </persName>
+                  <birth when="1799"/>
+                  <death when="1858"/>
+                 
+                  <note resp="#hjb #ebb">Scottish writer and correspondent of Mitford’s. In her Journal of <date from="1820-05" to="1820-06">May and June 1820</date>, <persName ref="#MRM"
+                     >Mitford</persName>
+                     mentions his sending her tickets to his lectures on Italian poets in 
+                     <placeName ref="#Reading_city">Reading</placeName> that she attended, and that he visited the Mitford’s home for tea in <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> after a Lecture on Italian Poets on <date when="1820-06-09">June 9 1820</date>.</note>
+                   <note><ptr target="https://viaf.org/viaf/89166135/"/></note>
+                  <note resp="#hjb"> 
+                     <ref target="https://en.wikipedia.org/wiki/Charles_Macfarlane"/>
+                  </note>
+               </person>
+               <person xml:id="Newell_Mr"> 
+                  <persName>Mr. Newell</persName>
+                  <persName>
+                     <surname>Newell</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#hjb">Associated with <persName ref="#Hayward_Wm_father">William
+                     Hayward</persName>.Married to <persName ref="#Newell_Mrs">Mrs. Newell</persName>.</note>
+               </person>
+               <person xml:id="Perry_Horatia"> 
+                  <persName>Horatia Anne Perry</persName>
+                  <persName>
+                     <surname type="married">Crawfurd <date from="1820-11-25"/></surname>
+                     <surname type="paternal">Perry</surname>
+                     <forename>Horatia</forename>
+                     <forename>Anne</forename>
+                  </persName>
+                  <birth when="1793-07-05">
+                     <placeName>London, Middlesex, England</placeName>
+                  </birth>
+                  <death when="1861-09-22">
+                     <placeName>Kensington, London, England</placeName>
+                  </death>
+                  <note resp="#ebb #hjb">Daughter of <persName ref="#Perry_James">James Perry</persName>, 
+                     who invited Mitford to a dinner party in <placeName ref="#London_city">London</placeName> in December 1820.
+                     Mitford mentions in her Journal entry of <date when="1820-11-30">30 November 1820</date> that she read of 
+                     Horatia Perry’s marriage (a week earlier) to the diplomat <persName ref="#Crawfurd_J">John Crawfurd</persName>, then in the Bengali Service.
+                     <date from="1821" to="1822">From 1821 to 1822</date>, Horatia accompanied her husband on a far-eastern diplomatic 
+                     mission to Courts of <placeName>Siam</placeName> and <placeName>Cochin</placeName> 
+                     and was reportedly a subject of great interest in a first contact with islanders in the 
+                     <placeName>Gulf of Siam</placeName>.</note>
+               </person>
+               <person xml:id="Perry_James"> <!-- NEW ENTRY -->
+                  <persName>James Perry</persName>
+                  <persName>James Pirie</persName>
+                  <persName>
+                     <surname>Perry</surname>
+                     <forename>James</forename>
+                  </persName>
+                  <occupation type="literary" subtype="journalist"/>
+                  <birth when="1756-10-30"><placeName>Aberdeen, Scotland</placeName></birth>
+                  <death when="1821-12-04"><placeName>Brighton, England</placeName></death>
+                  <note resp="#ebb">Born as James Pirie in Scotland, he presumably anglicized his name on moving to 
+                     London in <date when="1777">1777</date>, where he became a prominent Whig political journalist and owner of <title level="j">The Morning Chronicle</title> from 
+                     <date from="1790" to="1817">1790 to 1817</date>, after which retired from newspaper service due to declining health. 
+                     In the early 1790s he provided thorough on-site reporting of the French Revolution 
+                     from <placeName ref="#Paris">Paris</placeName> and helped to establish <title level="j">The Morning Chronicle</title>’s reputation 
+                     for thorough, accurate reporting [Source: ODNB]. Mitford mentions reading of his daughter <persName ref="#Perry_Horatia">Horatia Anne Perry</persName>’s marriage to 
+                     the east-Asian diplomat <persName ref="#Crawfurd_J">John Crawfurd</persName> in her Journal in November 1820, and soon after, 
+                     on <date when="1820-12-09">December 9, 1820</date> attending a dinner party at James Perry’s house in <placeName ref="#London_city">London</placeName>.
+                     Almost exactly a year later, she mentions that she <q>heard of poor dear <persName ref="#Perry_James">Mr. Perry</persName>'s death</q> 
+                     in her Journal entry on <date when="1821-12-08">8 December 1821</date>.</note>
+               </person>
+               <person xml:id="Schlegel_AW">  
+                  <persName>August Wilhelm von Schlegel</persName>
+                  <persName>
+                     <surname>von Schlegel</surname>
+                     <forename>August</forename>
+                     <forename>Wilhelm</forename>
+                  </persName>
+                  <birth when="1767-09-08"><placeName>Hanover, Electorate of Hanover</placeName></birth>
+                  <death when="1845-05-12"><placeName>Bonn, Rhine Province</placeName></death>
+                  <occupation type="literary" subtype="poet"/>
+                  <occupation type="literary" subtype="playwright"/>
+                  <occupation type="literary" subtype="critic"/>
+                  <occupation type="literary" subtype="translator"/>
+                  <note resp="#ebb">Brother of <persName ref="#SchlegelF">Friedrich Wilhelm von Schlegel</persName>, 
+                     advisor to <persName ref="#deStael">Madame de Staël</persName> and tutor to her children,
+                     prolific poet and translator, as well as theorist on drama. He wrote a play, <title level="m">Ion</title>, 
+                     in the style of <persName ref="#Euripides">Euripedes</persName> in <date when="1802">1802</date> 
+                     that likely influenced <persName ref="#Talfourd_Thos">Thomas Noon Talfourd</persName>’s play of the same title. 
+                     <persName ref="#MRM">Mitford</persName> may have read an English translation of his 
+                     <bibl corresp="#Lectures_Dramatic">lectures on drama and literature</bibl> in <date when="1821">1821</date>.
+                  </note>
+                  <note><ref target="https://viaf.org/viaf/59123443/"/></note>
+               </person>
+               <person xml:id="Simonds_H"> 
+                  <persName>Henry Simonds</persName>
+                  <persName>
+                     <persName>
+                        <surname>Simonds</surname>
+                        <forename>Henry</forename>
+                     </persName>
+                  </persName>
+                  <birth when="1785">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1874"/>
+                  <note resp="#hjb">Potentially the H. Symonds mentioned in <persName ref="#MRM">Mitford</persName>’s Journal on <date when="1820-11-02">November 2 1820</date>. 
+                     Son of <persName ref="#Simonds_MrsB">Elizabeth Blackall Simonds</persName> and 
+                     <persName ref="#Simonds_MrB">William Blackall Simonds</persName>.</note>
+               </person>
+               <person xml:id="Simonds_MrB"> 
+                  <persName>William Blackall Simonds</persName>
+                  <persName>
+                     <surname>Blackall Simonds</surname>
+                     <forename>William</forename>
+                  </persName>
+                  <birth when="1762"/>
+                  <death when="1843">
+                     <placeName>London</placeName>
+                  </death>
+                  <note resp="#hjb">Potentially the Monsieur Simon mentioned in <persName ref="#MRM">Mitford</persName>’s Journal on <date when="1820-11-02">November 2 1820</date>. 
+                     Husband of <persName ref="#Simonds_MrsB">Elizabeth Blackall Simonds</persName> and father of <persName ref="#Simonds_H">Henry Simonds</persName>.</note>
+               </person>
+               <person xml:id="Simonds_MrsB"> <!-- NEW ENTRY -->
+                  <persName>Elizabeth Blackall Simonds</persName>
+                  <persName>
+                     <persName>
+                        <surname type="married">Blackall Simonds</surname>
+                        <surname type="paternal">May</surname>
+                        <forename>Elizabeth</forename>
+                     </persName>
+                  </persName>
+                  <birth when="1764">
+                     <placeName>Baskingstroke, Hampshire, England</placeName>
+                  </birth>
+                  <death when="1842">
+                     <placeName>London</placeName>
+                  </death>
+                  <note resp="#hjb">Potentially the Mrs. Blackall Symonds mentioned in <persName ref="#MRM">Mitford</persName>’s Journal on <date when="1820-12-16">December 16 1820</date>. 
+                     Wife of <persName ref="#Simonds_MrB">William Blackall Simonds</persName> and mother of <persName ref="#Simonds_H">Henry Simonds</persName>.</note>
+               </person>
+               <person xml:id="Smith_Farmer"> 
+                  <persName>Farmer Smith</persName>
+                  <persName>
+                     <surname>Smith</surname>
+                     <forename>William</forename>
+                     <roleName>Farmer</roleName>
+                  </persName>
+                  <birth when="1801">
+                     <placeName>Shinfield, Berkshire, England</placeName>
+                  </birth>
+                  <note>
+                     <ref target="https://www.ancestry.com/imageviewer/collections/8767/images/BRKRG9_748_752-0718?treeid=&amp;personid=&amp;usePUB=true&amp;_phsrc=fAx568&amp;_phstart=successSource&amp;pId=8314035"/>
+                  </note>
+                  <note resp="#hjb #ebb">Most likely Farmer Smith based on Ancestry records. Likely neighbor of <persName ref="#MRM">Mitford</persName> 
+                     at <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>. She mentions him in her Journal as <soCalled>Farmer Smith</soCalled> on <date when="1820-06-27">27 June 1820</date> and <date when="1820-09-04">4 September 1820</date>.</note>
+               </person>
+               <person xml:id="Ude_L" sex="m"> <!-- 2024-07-03 ebb with hjb: We cannot determine why we added this entry, 
+                   but are searching for where we may have found reference to this interesting person!  
+                Hadleigh think she ran into this reference combing though Mitford's letters during the timeframe of this journal,
+                that she mentioned a book in the Journal or in the letters that was identified as this one. We think we should include it in the SI
+                anyway just in case it turns up! 
+                -->
+                  <persName>Louis Eustache Ude</persName>
+                  <persName>
+                     <surname>Ude</surname>
+                     <forename>Louis</forename>
+                     <forename>Eustache</forename>
+                  </persName>
+                  <birth when="1769"/>
+                  <death when="1846"/>
+                  <note resp="#hjb">Served as cook to <persName>Louis XVI</persName>, as maître d’hôtel to <persName>the Earl of
+                     Sefton</persName>, as chef to the <persName>Duke of York</persName>, and later to <orgName>Crockford’s Club</orgName>, <placeName ref="#London_city">London</placeName>.
+                     Author of a highly successful cookbook, <title level="m">The
+                        French Cook</title>.</note>
+               </person>
+               <person xml:id="Elliott_John"> 
+                  <persName>John Elliott</persName>
+                  <persName>
+                     <surname>Elliott</surname>
+                     <forename>John</forename>
+                  </persName>
+                  <note resp="#hjb">Son of <persName ref="#Elliott_Mr">Mr. Elliot</persName>, mentioned by <persName ref="#MRM">Mitford</persName> as coming to look at their home at <placeName ref="#Bertram_house">Bertram House</placeName> in her Journal on <date when="1819-11-25">25 November 1819</date> and <date when="1820-03-17">17 March 1820</date>.</note>
+               </person>
+               <person xml:id="Elliott_Mr"> 
+                  <persName>Mr. Elliott</persName>
+                  <persName>
+                     <surname>Elliott</surname>
+                  </persName>
+                  <note resp="#hjb">Father of <persName ref="#Elliott_John">John Elliot</persName>, mentioned by <persName ref="#MRM">Mitford</persName> as coming to look at their home at <placeName ref="#Bertram_house">Bertram House</placeName> in her Journal on <date when="1820-03-17">17 March 1820</date>.</note>
+               </person>
+               <person xml:id="Joliffe_Mrs">
+                  <persName>Mrs. Joliffe</persName>
+                  <persName>
+                     <surname>Joliffe</surname>
+                  </persName>
+                  <note resp="#hjb #ebb">Mitford mentions in her Journal on <date when="1820-02-10">February 10, 1820</date> that she <q>corrected some poofs of Mrs. Joliffe’s little Tales</q> (as yet untraced in our research). Frequently mentioned as a correspondent in the Journal.</note>
+               </person>
+               <person xml:id="Nares_Mr" sex="m"> <!-- 2024-07-11 NEW ENTRY (mentioned in Journal but has no entry) -->
+                  <persName>Mr. Nares</persName>
+                  <persName>
+                     <surname>Nares</surname>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#hjb">In her Journal on <date when="1820-06-07">June 7 1820</date> <persName ref="#MRM">Mitford</persName> mentions seeing him and <persName ref="#Macfarlane_Chas">Mr. MacFarlane</persName> the same day.</note>
+               </person>
+               <person xml:id="Rapley_Ha" sex="f"> 
+                  <persName>Hannah Rapley</persName>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions in her Journal on <date when="1820-01-24">24 January 1820</date> that Hannah Rapley had begun living with <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName> on her recommendation.</note>
+               </person>
+               <person xml:id="Shaw_Sam">
+                  <persName>Sam Shaw</persName>
+                  <persName>
+                     <surname>Shaw</surname>
+                     <forename>Samuel</forename>
+                  </persName>
+                  <note resp="#hjb #ebb">Coauthor with <persName ref="#Bruce_James">James Bruce</persName> of <title level="m" ref="#IntNarr_Bruce">An Interesting Narrative of the Travels of James Bruce, Esq. into Abyssinia</title>. Mentioned by <persName ref="#MRM">Mitford</persName> in her Journal on <date when="1819-06-20">June 20 1819</date>, in which she attributes the book to Shaw.</note>
+               </person>
+               <person xml:id="TwissH"> <!-- NEW ENTRY :: NEEDS MORE INFORMATION-->
+                  <persName>Horace Twiss</persName>
+                  <persName>
+                     <surname>Twiss</surname>
+                     <forename>Horace</forename>
+                  </persName>
+                  <occupation type="literary"/>
+                  <birth when="1787-02-28"/>
+                  <death when="1849-05"/>
+                  <note resp="#hjb">
+                     <ref target="https://www.historyofparliamentonline.org/volume/1820-1832/member/twiss-horace-1787-1849"/>
+                  </note>
+                  <note resp="#hjb">Author of <title ref="#CaribCh">The Carib Chief</title>, a play, which was mentioned by Mitford 
+                     on <date when="1819-12-18">December 18 1819</date>. In <date when="1814">1814</date>, he published some 
+                     clever Posthumous Parodies of famous poets.</note>
+               </person>
+               <person xml:id="Valpy_Anne" sex="f"> 
+                  <persName>Anne Valpy</persName>
+                  <persName>
+                     <surname type="married">Valpy</surname>
+                     <surname type="paternal">Western</surname>
+                     <forename>Anne</forename>
+                  </persName>
+                  <birth when="1765-09-14">
+                     <placeName>Great Abingdon, Berkshire, England</placeName>
+                  </birth>
+                  <death when="1835-04-15">
+                     <placeName>Little Yarmouth, Suffolk, England</placeName>
+                  </death>
+                  <note resp="#hjb">
+                     <ref target="https://www.ancestry.com/family-tree/person/tree/185359508/person/182437067805/facts"/>
+                  </note>
+                  <note resp="#hjb">Married <persName ref="#Valpy_Ed">Mr. Edward Valpy</persName>, the brother of <persName ref="#Valpy_Richard">Dr. Valpy</persName>, in her second marriage. <persName ref="#MRM">Mitford</persName> mentions in her Journal meeting her and Edward on a visit to the <orgName ref="#Valpys">Valpys</orgName> on <date when="1820-06-23">June 23, 1820</date>.</note>
+               </person>
+               <person xml:id="Valpy_Ed" sex="m"> 
+                  <persName>Mr. Edward Valpy</persName>
+                  <persName>
+                     <surname>Valpy</surname>
+                     <forename>Edward</forename>
+                     <roleName>Rev.</roleName>
+                  </persName>
+                  <birth when="1764-04">
+                     <placeName>St Helier, Jersey, Channel Islands</placeName>
+                  </birth>
+                  <death when="1832-04-15">
+                     <placeName>Great Yarmouth, Norfolk, England</placeName>
+                  </death>
+                  <note resp="#hjb">
+                     <ref target="https://www.ancestry.com/family-tree/person/tree/185359508/person/182433203290/facts"/>
+                  </note>
+                  <note resp="#hjb">Husband to <persName ref="#Valpy_Anne">Anne Western Valpy</persName> and younger brother of <persName ref="#Valpy_Richard">Dr. Valpy</persName>. <persName ref="#MRM">Mitford</persName> mentions in her Journal meeting him and Anne on a visit to the <orgName ref="#Valpys">Valpys</orgName> on <date when="1820-06-23">June 23, 1820</date>.</note>
+               </person>
+               <person xml:id="Wheeler_John"> <!-- NEW ENTRY -->
+                  <persName>John Wheeler</persName>
+                  <persName>
+                     <surname>Wheeler</surname>
+                     <forename>John</forename>
+                     <roleName>Mr.</roleName>
+                  </persName>
+                  <note resp="#hjb">Spouse of <persName ref="#Wheeler_Mrs">Mrs. John Wheeler</persName>.</note>
+               </person>
+              
+               
+               
+               
+               <!-- 2024-09-02 ebb END NEW ENTRIES TO BE INCLUDED IN THIS LISTPERSON -->
+               
                <person xml:id="Abbott_Wm" sex="m">
                   <persName>William Abbott</persName>
                   <persName>
@@ -3758,22 +4485,68 @@
                   </persName>
                   <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName>, date unknown. Surname unknown. Dates unknown.</note>
                </person>
-               <person xml:id="Anstruther_Col" sex="m">
+               <person xml:id="Anstruther_Col" sex="m"> 
                   <persName>Colonel Anstruther</persName>
                   <persName>
                      <surname>Anstruther</surname>
+                     <forename>David</forename>
                      <roleName>Colonel</roleName>
                   </persName>
-                  <note resp="#lmw">
-                     <persName ref="#MRM">Mitford</persName> corresponded with him in <date when="1819">1819</date> and visited his daughter, <persName ref="#Anstruther_Miss">Miss Anstruther</persName>, in <placeName ref="#Reading_city">Reading</placeName>. Forename unknown. Dates unknown.</note>
+                  <birth when="1750">
+                     <!-- 2024-06-18 hjb: His death records during 1825 says he was 75, 
+                           therefore he would have most likely been born in 1750. -->
+                     <placeName>Buckinghamshire, England</placeName>
+                  </birth>
+                  <death when="1825">
+                     <placeName>Reading, Berkshire, England</placeName>
+                  </death>
+                  <note resp="#hjb">
+                     <ref target="https://www.ancestry.com/family-tree/person/tree/79120268/person/340115721863/facts"/>
+                  </note>
+                  <note resp="#lmw #hjb">
+                     <persName ref="#MRM">Mitford</persName> corresponded with him in <date
+                        when="1819">1819</date> and visited his daughter, <persName
+                           ref="#Anstruther_Miss">Miss Anstruther</persName>, in <placeName
+                              ref="#Reading_city">Reading</placeName>. </note>
                </person>
+               <person xml:id="Anstruther_Mrs" sex="f"> <!-- THIS WILL BE A NEW ENTRY IN THE SI -->
+                  <persName>Mary Donaldson</persName>
+                  <persName>
+                     <surname type="paternal">Donaldson</surname>
+                     <surname type="married">Anstruther</surname>
+                  </persName>
+                  <birth when="1760">
+                     <placeName>Aberdeenshire, Scotland</placeName>
+                  </birth>
+                  <death when="1827-07-20">
+                     <placeName>Bath, Somerset, , England</placeName>
+                  </death>
+                  <note resp="#hjb">
+                     <ref target="https://www.ancestry.com/family-tree/person/tree/79120268/person/340115721904/facts"/>
+                  </note>
+                  <note resp="#hjb">Wife of <persName ref="#Anstruther_Col">Colonel
+                     Anstruther</persName>. Mother of <persName ref="#Anstruther_Miss">Miss
+                        Anstruther</persName>.</note>
+               </person>
+              
                <person xml:id="Anstruther_Miss" sex="f">
                   <persName>Miss Anstruther</persName>
                   <persName>
                      <surname type="paternal">Anstruther</surname>
                      <roleName>Miss</roleName>
                   </persName>
-                  <note resp="#lmw">Daughter of <persName ref="#Anstruther_Col">Colonel Anstruther</persName>. <persName ref="#MRM">Mitford</persName> visited her in <placeName ref="#Reading_city">Reading</placeName> in 1819. Forename unknown. Dates unknown.</note>
+                  <note resp="#lmw #hjb">Daughter of <persName ref="#Anstruther_Col">Colonel
+                     Anstruther</persName>. <persName ref="#MRM">Mitford</persName> visited
+                     her in <placeName ref="#Reading_city">Reading</placeName> in 1819. Forename
+                     unknown. Forename unknown. Dates unknown. Marriage records indicate that 
+                     a Mary Anstruther married a Henry Mitford who might be related to MRM, 
+                     but this Miss Anstruther may not be the same person.</note>
+                  <!-- 2024-06-28 hjb: I am almost 100% certain that this is Mary Anstruther because 
+                       Mary is the daughter that married Henry Mitford... which would explain why
+                       <persName ref="#MRM">Mary Mitford</persName> would know of the Anstruthers. 
+                       He could be a distant cousin. They are in the same family tree but I am struggling to 
+                       find out exactly how the two are related. 
+                       https://www.ancestry.com/family-tree/person/tree/79120268/person/340183901819/facts -->
                </person>
                <person xml:id="Antinous" sex="m">
                   <persName>Antinous</persName>
@@ -5680,6 +6453,9 @@
                         Brumoy</title>(2 vols., 1759). According to her letters, <persName ref="#MRM">Mitford</persName> read this work in the original French.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/24624020"/>
+                  </note>
+                  <note resp="#hjb">
+                     <ref target="https://en.wikipedia.org/wiki/Pierre_Brumoy"/>
                   </note>
                </person>
                <person xml:id="Brunton_Alexander" sex="m">
@@ -11276,35 +12052,55 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="trade"/>
                   <note resp="#lmw">A Watlington brewer, the brother of <persName ref="#Hayward_Wm_father">William Hayward</persName>.</note>
                </person>
-               <person xml:id="Hayward_MrsW" sex="f">
-                  <persName>Mrs. Hayward</persName>
+               <person xml:id="Hayward_MrsW" sex="f"> 
+                  <persName>Mary Ann Hayward</persName>
                   <persName>
                      <surname type="married">Hayward</surname>
+                     <surname type="paternal">Heath</surname>
+                     <forename>Mary</forename>
+                     <forename>Ann</forename>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">Likely the spouse of <persName ref="#Hayward_Wm_father">William Hayward</persName> the elder. Lived in <placeName ref="#Watlington">Watlington</placeName> and and mother of <persName ref="#Hayward_Wm_son">William Hayward</persName> the younger.
-                     <!--LMW: MRM also corresponds in 1830s with Abraham H (son b. 1801) There is a Mr. and Mrs. Hayward with a first born daughter.  Mrs. first initial may be H. Mr's first initial may be W. Check ancestry tree for Webbs.--></note>
+                  <birth when="1762">
+                     <placeName>Ewelme, Oxfordshire</placeName>
+                  </birth>
+                  <note resp="#lmw #hjb">Likely the spouse of <persName ref="#Hayward_Wm_father"
+                     >William Hayward</persName> the elder. Lived in <placeName
+                        ref="#Watlington">Watlington</placeName>. Mother of <persName
+                           ref="#Hayward_H">Henry Hayward</persName> and <persName
+                              ref="#Hayward_Wm_son">William Hayward</persName> the younger. </note>
                </person>
-               <person xml:id="Hayward_Wm_father" sex="m">
+               <person xml:id="Hayward_Wm_father" sex="m"> 
                   <persName>William Hayward</persName>
                   <persName>
                      <surname>Hayward</surname>
                      <forename>William</forename>
                      <roleName>Mr.</roleName>
                   </persName>
+                  <birth when="1761-03-05"/>
+                  <death when="1822-12-26"/>
                   <occupation type="trade"/>
-                  <note resp="#lmw">A Watlington brewer, the spouse of <persName ref="#Hayward_MrsW">Mrs. Hayward</persName> and father of <persName ref="#Hayward_Wm_son">William Hayward</persName>.</note>
+                  <note resp="#lmw #hjb">A Watlington brewer, the spouse of <persName
+                     ref="#Hayward_MrsW">Mrs. Hayward</persName> and father of <persName
+                        ref="#Hayward_Wm_son">William Hayward</persName> and <persName
+                           ref="#Hayward_H">Henry Hayward</persName>.</note>
                </person>
-               <person xml:id="Hayward_Wm_son" sex="m">
+               <person xml:id="Hayward_Wm_son" sex="m"> <!-- UPDATING Adding persName element to father. -->
                   <persName>William Hayward</persName>
                   <persName>
                      <surname>Hayward</surname>
                      <forename>William</forename>
                      <roleName>Mr.</roleName>
                   </persName>
+                  <birth when="1794"/>
+                  <death when="1863"/>
                   <occupation type="trade"/>
-                  <note resp="#lmw">With his father, a Watlington brewer, and later the spouse of <persName ref="#Webb_Jane">Jane Webb</persName>. They had two children, Susan Jane (1815-1898) and William Webb (1818-1899).</note>
+                  <note resp="#lmw #hjb">With his <persName ref="#Hayward_Wm_father">father</persName>,
+                     he ran a brewing establishment in <placeName ref="#Watlington">Watlington</placeName>. 
+                     He married <persName ref="#Webb_Jane">Jane Webb</persName>, and they had two children, Susan Jane (1815-1898) and
+                     William Webb (1818-1899).</note>
                </person>
+
                <person xml:id="Hazlitt_Wm" sex="m">
                   <persName>William Hazlitt</persName>
                   <persName>
@@ -11869,7 +12665,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ptr target="http://viaf.org/viaf/9847801"/>
                   </note>
                </person>
-               <person xml:id="Hofland_B" sex="f">
+               <person xml:id="Hofland_B" sex="f"> <!-- SMALL UPDATE.-->
                   <persName>Barbara Wreaks Hofland</persName>
                   <persName>
                      <surname type="married">Hofland</surname>
@@ -11883,16 +12679,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <placeName>Richmond-on-Thames</placeName>
                   </death>
                   <occupation type="literary"/>
-                  <note resp="#ebb">Novelist and writer of children’s books popular in England and
+                  <note resp="#ebb #hjb">Frequent correspondent of Mitford's, mentioned often in her Journal of 1819-1823.
+                     Novelist and writer of children’s books popular in England and
                      America, Barbara Hofland was a native of <placeName>Sheffield,
-                        Yorkshire</placeName>, where she published poems from July 1794 in the local
-                     newspaper, <title ref="#Sheffield_Iris">The Sheffield Iris</title>. Her first
-                     marriage to <persName>Thomas Bradshawe Hoole</persName> left her widowed and in
-                     poverty, raising a son, Frederic, on her own, and she supported herself by
-                     publishing poems and children’s books, and by running a girl’s school in
-                        <placeName>Harrogate</placeName>. Her second marriage was to the painter
-                        <persName ref="#Hofland_TC">Thomas Christopher Hofland</persName>. (Source:
-                     ODNB)</note>
+                        Yorkshire</placeName>, where she published poems from July 1794 in the
+                     local newspaper, <title ref="#Sheffield_Iris">The Sheffield Iris</title>.
+                     Her first marriage to <persName>Thomas Bradshawe Hoole</persName> left her
+                     widowed and in poverty, raising a son, Frederic, on her own, and she
+                     supported herself by publishing poems and children’s books, and by running a
+                     girl’s school in <placeName>Harrogate</placeName>. Her second marriage was
+                     to the artist <persName ref="#Hofland_TC">Thomas Christopher
+                        Hofland</persName>. (Source: ODNB)</note>
                </person>
                <person xml:id="Hofland_TC" sex="m">
                   <persName>Thomas Christopher Hofland</persName>
@@ -16836,7 +17633,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <death when="1853-12-02">
                      <placeName>Norwich, Norfolk, England</placeName>
                   </death>
-                  <note resp="#ebb #lrs">A prolific novelist from 1790 through 1834, contemporary with Mitford, and an active abolitionist in <placeName>Norwich</placeName>. Friendly with the Godwins, Shelleys, and <persName>Elizabeth Inchbald</persName>.  Married to <persName>John Opie</persName>, the painter.</note>
+                  <note resp="#ebb #lrs">A prolific novelist from 1790 through 1834, contemporary with Mitford, and an active abolitionist in <placeName>Norwich</placeName>. Friendly with the Godwins, Shelleys, and <persName ref="#Inchbald_E">Elizabeth Inchbald</persName>.  Married to <persName>John Opie</persName>, the painter.</note>
                   <note>
                      <ref target="https://viaf.org/viaf/39410771/"/>
                   </note>
@@ -20628,7 +21425,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <occupation type="scholar"/>
                   <occupation type="literary" subtype="biographer"/>
                   <occupation type="literary" subtype="essayist"/>
-                  <note resp="#lmw">English poet, historian, essayist, and biographer. Early friend of <persName ref="#Coleridge_ST">Coleridge</persName>. He was Poet Laureate of England from 1813 to 1843.</note>
+                  <note resp="#lmw #hjb">English poet, historian, essayist, and biographer. Early friend of <persName ref="#Coleridge_ST">Coleridge</persName>. He was Poet Laureate of England from 1813 to 1843.  <persName ref="#MRM">Mitford</persName> mentions reading Southey’s <title level="m">Life of Wesley</title> 
+                     in her Journal on <date from="1820-04-27" to="1820-05-09">April 27, 28, and May 9 1820</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/61576896"/>
                   </note>
@@ -21269,7 +22067,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <author>Donizetti</author> wrote an opera on the subject of Tasso in <date when="1833">1833</date>
                      </bibl>, incorporating some of the poet’s work into the libretto; and <bibl>
                         <author>Franz Liszt</author> composed a symphonic poem, <title level="m">Tasso, Lamento e Trionfo</title> in commemoration of the centenary of
-                           <persName>Goethe</persName>’s birth in <date when="1849">1849</date>
+                           <persName ref="#Goethe">Goethe</persName>’s birth in <date when="1849">1849</date>
                      </bibl>. </note>
                   <note>
                      <ref target="http://viaf.org/viaf/4936996/"/>
@@ -22900,13 +23698,13 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      to <persName ref="#Webb_Mary_younger">Mary Webb.</persName> More research
                      needed.</note>
                </person>
-               <person xml:id="Wheeler_Mrs" sex="f">
+               <person xml:id="Wheeler_Mrs" sex="f"> 
                   <persName>Mrs. John Wheeler</persName>
                   <persName>
                      <surname type="married">Wheeler</surname>
                      <roleName>Mrs.</roleName>
                   </persName>
-                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Spouse of John Wheeler. Forename unknown. Dates unknown.<!--LMW: any connection to Kate Wheeler?--><!--LMW: There are also Wheelers in the Webb extended family tree.--></note>
+                  <note resp="#lmw">A correspondent of <persName ref="#MRM">Mary Russell Mitford</persName> in <date when="1840">1840</date>. Spouse of <persName ref="#Wheeler_John">John Wheeler</persName>. Forename unknown. Dates unknown.<!--LMW: any connection to Kate Wheeler?--><!--LMW: There are also Wheelers in the Webb extended family tree.--></note>
                </person>
                <person xml:id="Whim" sex="m">
                   <persName>Whim</persName>
@@ -23457,7 +24255,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </death>
                   <occupation type="literary" subtype="poet"/>
                   <occupation type="government"/>
-                  <note resp="#lmw #rnes">First-generation poet of the Romantic era, <soCalled>Lake Poet</soCalled> and friend of fellow poet <persName ref="#Coleridge_ST">Coleridge</persName>, who co-authored <title level="m">Lyrical Ballads</title> with him and to whom his major poem <title level="m">The Prelude</title> was originally addressed. Poet Laureate from 1843-1850, succeeding his sometime friend and fellow Lake Poet <persName ref="#Southey_R">Robert Southey</persName> in that role.</note>
+                  <note resp="#lmw #rnes #hjb">First-generation poet of the Romantic era, <soCalled>Lake Poet</soCalled> and friend of fellow poet <persName ref="#Coleridge_ST">Coleridge</persName>, who co-authored <title level="m">Lyrical Ballads</title> with him and to whom his major poem <title level="m">The Prelude</title> was originally addressed. Poet Laureate from 1843-1850, succeeding his sometime friend and fellow Lake Poet <persName ref="#Southey_R">Robert Southey</persName> in that role. <persName ref="#MRM">Mitford</persName> mentions in her Journal that she was reading and copying Wordsworth's poems in <date when="1819-09">September 1819</date>.</note>
                   <note>
                      <ref target="http://viaf.org/viaf/35723133"/>
                   </note>
@@ -25996,6 +26794,80 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
          </div>
          <div type="places">
             <listPlace sortKey="histPlaces">
+               <place xml:id="Arborfield"> <!-- NEW ENTRY -->
+                  <placeName>Arborfield</placeName>
+                  <region>South East</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.401 -0.916</geo>
+                  </location>
+                  <note resp="#hjb">A village in England. <persName ref="#MRM">Mitford</persName> mentions in her Journal visiting Arborfield on <date when="1820-05-12">March 12 1820</date>, <date when="1820-07-11">July 11 1820</date>, and <date when="1822-03-29">March 29 1822</date></note>
+               </place>
+               <place xml:id="Manchester">
+                  <placeName>Manchester</placeName>
+                  <region>North West</region>
+                  <country>England</country>
+                  <location>
+                     <geo>53.479 -2.2452</geo>
+                  </location>
+                  <note resp="#hjb">Mitford mentions this place on <date when="1819-11-15">November 15 1819</date></note>
+               </place>
+               <place xml:id="Odiham"> 
+                  <placeName>Odiham</placeName>
+                  <district>Hart</district>
+                  <region>South East</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.254 -0.939</geo>
+                  </location>
+                  <note resp="#hjb">
+                     <ref target="https://www.visit-hampshire.co.uk/explore/villages/odiham"/>
+                  </note>
+                  <note resp="#hjb">A market town in <placeName ref="#Hampshire_county">Hampshire</placeName>. Mitford’s Journal mentions that <persName ref="#Russell_M">her mother</persName> and <persName ref="#Mitford_Geo">Drum</persName> visited Odiham on <date when="1821-09-06">Wednesday 6 September 1821</date>, <date when="1822-07-08">Monday 8 July 1822</date>, <date when="1822-10-31">Thursday 31 October 1822</date>.</note>
+               </place>
+               <place xml:id="Staffordshire"> 
+                  <placeName>Staffordshire</placeName>
+                  <country>England</country>
+                  <location>
+                     <geo>52.806944 -2.116111</geo>
+                  </location>
+                  <note>
+                     <ref target="https://www.britannica.com/place/Staffordshire"/>
+                  </note>
+                  <note resp="#hjb">A county in England. Mitford mentions in her Journal that she <q>saw a young lady</q> from here named <persName>Miss Torrant</persName> on <date when="1822-05-17">17 May 1822</date>.</note>
+               </place>
+               <place xml:id="Church_StMary">
+                  <placeName>St Mary's Church</placeName>
+                  <district>Shinfield</district>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.42490343319585 -0.9474631795216638</geo>
+                  </location>
+                  <note resp="#hjb">
+                     <ref target="https://en.wikipedia.org/wiki/St_Mary%27s_Church,_Castle_Street,_Reading"/>
+                  </note>
+                  <note resp="#hjb">
+                     Church where <persName ref="#Hill_Charles">Mr. Hill</persName> and <persName ref="#Hill_Lucy">Lucy</persName> married. <persName ref="#MRM">Mitford</persName> mentions visiting this church in her Journal entries on <date when="1820-09-10">September 10 1820</date>. </note>
+               </place>
+               
+               <place xml:id="Egham"> <!-- NEW ENTRY -->
+                  <placeName>Egham</placeName>
+                  <district type="Borough">Runnymede</district>
+                  <region>South East</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.429 -0.548</geo>
+                  </location>
+                  <note resp="#hjb">According to her Journal, <persName ref="#MRM">Mitford</persName> rode through Egham on <date when="1820-06-27">June 27, 1820</date>.</note>
+               </place>
+               
+               
+               <!-- 2024-09-02 ebb: END OF NEW ENTRIES FOR THIS LISTPLACE -->
+               
+               
+               
+               
                <place xml:id="Abingdon">
                   <placeName>Abingdon, Berkshire, England</placeName>
                   <placeName>
@@ -26040,18 +26912,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         <author ref="#Shakespeare">Shakespeare</author>’s play <title ref="#HenryV_play">Henry V</title>
                      </bibl>.</note>
                </place>
-               <place xml:id="Aldermaston">
+               <place xml:id="Aldermaston"> 
                   <placeName>Aldermaston</placeName>
                   <district type="county">Berkshire</district>
                   <region>South East</region>
                   <!-- We may want to be more systematic about how we reference counties vs. regions in England in the SI. -->
                   <country>England</country>
                   <location>
-                     <geo><!-- latitude followed by long separated only by a space--></geo>
+                     <geo>51.383 -1.150<!-- latitude followed by long separated only by a space--></geo>
                   </location>
-                  <note>Village that Mitford mentions visiting with her father and the dogs in the
-                     Journal, 10 November 1820. They continued on that day to the village of
-                        <placeName>Tadley</placeName>.</note>
+                  <note>Village that <persName ref="#MRM">Mitford</persName> mentions visiting with her father and the dogs in the Journal, 
+                     <date when="1820-11-10">10 November 1820</date>. They continued on that day to the village of <placeName ref="#Tadley">Tadley</placeName>.</note>
                </place>
                <place xml:id="Alresford_Hamps">
                   <placeName>New Alresford, Hampshire, England</placeName>
@@ -27047,15 +27918,12 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#lmw">Fields belonging to the <placeName ref="#Bertram_house">Bertram
                         House</placeName> estate. One location where <persName ref="#MRM">Mitford</persName> goes <name ref="#violet">violet</name>ting in <date when="1819-03">March 1819</date>. Some of the fields are used for <name ref="#hay">hay</name>ing.</note>
                </place>
-               <place xml:id="field_Body"><!-- srr: Not found in local SI or in Published SI -->
+               <place xml:id="field_Body">
                   <placeName>Mr. Body's fields</placeName>
                   <district>Shinfield parish</district>
                   <region>Berkshire</region>
                   <country>England</country>
-                  <note resp="#lmw">Fields belonging to the <placeName ref="#Body_Richard">ichard
-                        Body</placeName>. One location where <persName ref="#MRM">Mitford</persName>
-                     goes <name ref="#violet">violet</name>ting in <date when="1819-03">March
-                        1819</date>.</note>
+                  <note resp="#lmw #srr #tsa">Fields belonging to <placeName ref="#Body_Richard">Richard Body</placeName>. One location mentioned in her Journal where <persName ref="#MRM">Mitford</persName> goes <name ref="#violet">violet</name>ting in <date when="1819-03">March 1819</date>.</note>
                </place>
                <place xml:id="field_Davies"><!-- srr: Not found in local SI or in Published SI -->
                   <placeName>Mr. Davies's fields</placeName>
@@ -27298,7 +28166,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <location>
                      <geo>51.403333 -0.3375</geo>
                   </location>
-                  <note resp="#rnes">Built in the early sixteenth century by Cardinal Wolsey, then, after Wolsey’s fall, the residence of Henry VIII, Hampton Court Palace has been the residence of royals including <persName ref="#GeoII">George II</persName>, who was the last monarch to occupy it as an official residence. <persName ref="#ChasI">Charles I</persName> spent part of his house arrest there during his imprisonment by Parliament.</note>
+                  <note resp="#rnes #hjb">Built in the early sixteenth century by <persName>Cardinal Wolsey</persName>, then, after Wolsey’s fall, 
+                     the residence of <persName>Henry VIII</persName>, Hampton Court Palace has been the residence of royals including <persName ref="#GeoII">George II</persName>, 
+                     who was the last monarch to occupy it as an official residence. <persName ref="#ChasI">Charles I</persName> spent part of his house arrest there during his imprisonment by Parliament. 
+                     <persName ref="#MRM">Mitford</persName> mentions visiting Hampton Court in her Journal on <date when="1820-07-03">3 July 1820</date>, describing it as an <q>delightful place</q> with <q>enchanting Cartoons</q>, which included an impressive self-portrait of <persName ref="#Titian">Titian</persName>.</note>
                   <note>
                      <ref target="https://www.hrp.org.uk/hampton-court-palace/#gs.PBGIDr8"/>
                   </note>
@@ -27849,7 +28720,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <settlement>Exmouth</settlement>
                   <region>Devon</region>
                   <country>England</country>
-                  <note resp="#lmw">Mitford dates her opening poem in the Journal from this location in January 1819. Now called Chester House, it was once the home of Mary Ann Clarke.</note>
+                  <note resp="#lmw"><persName ref="#MRM">Mitford</persName> dates her opening poem in the Journal from this location in <date when="1819-01">January 1819</date>. Now called Chester House, it was once the home of <persName>Mary Ann Clarke</persName>.</note>
                   <!-- https://goo.gl/maps/p7tj9aKbH9JdrCZ59 -->
                </place>
                <place xml:id="Marlow">
@@ -29603,6 +30474,23 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
          </div>
          <div type="nature"><!--ebb 2016-06-07 Changed from div type="plant" to add animal species list. -->
             <list sortKey="animals">
+               <item xml:id="leech"> 
+                  <name>leech</name>
+                  <note resp="#hjb">A type of blood-sucking worm that was often used for medical treatment 
+                     in a process known as bloodletting.</note>
+                  <note resp="#hjb">
+                     <ref target="https://ohioline.osu.edu/factsheet/HYG-2081-11"/>
+                  </note>
+               </item>
+               <item xml:id="flea"> 
+                  <name>flea</name>
+                  <note resp="#hjb">A type of insect that typically bites animals and humans.</note>
+                  <note resp="#hjb">
+                     <ref target="https://ohioline.osu.edu/factsheet/HYG-2081-11"/>
+                  </note>
+               </item>
+               
+               
                <item xml:id="adder">
                   <name>common European adder</name>
                   <name type="species">Vipera berus berus</name>
@@ -33955,8 +34843,188 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <publisher>
                      <orgName>S. Robinson</orgName>
                   </publisher>
-                  <note resp="#lmw">First published in <title ref="#Ladys_Mag">The Lady's Magazine</title>, new series 2, volume 3 (1822) under this title. Reprinted in Mitford's 1827 collection as <title ref="PaintersDa_DS_1827">The Painter's Daughter: A Dramatic Sketch</title>. Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
+                  <note resp="#lmw">First published in <title ref="#Ladys_Mag">The Lady's Magazine</title>, new series 2, volume 3 (1822) under this title. Reprinted in Mitford's 1827 collection as <title ref="#PaintersDa_DS_1827">The Painter's Daughter: A Dramatic Sketch</title>. Also reprinted in volume two of <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> (1854).</note>
                </bibl>
+               <bibl xml:id="Last_Letters_Jac_Ortis">
+                  <title level="m">The Last Letters of Jacopo
+                     Ortis</title>
+                  <author ref="#Foscolo_Ugo">Ugo Foscolo</author>
+                  <date when="1802">1802</date>
+                  <pubPlace>
+                     <placeName>Bologna, Italy</placeName>
+                  </pubPlace>
+                  <pubPlace>
+                     <placeName ref="#London_city">London, England</placeName>
+                  </pubPlace>
+                  <publisher>Romualdo Zotti</publisher>
+                  <note resp="#scw #hjb">Epistolary novel read by <persName ref="#MRM">Mitford</persName> 
+                     who describes it in her Journal on <date when="1820-06-15">15 June
+                        1820</date> as <q>a very sweet Italian novel</q> in journal. She speaks of
+                     it again in her letter to William Elford on 1820 June 21, saying <q>the only
+                        modern Italian novel. What a strange anomaly in literature, that this
+                        imaginative people, from whom almost all out old stories were borrowed,
+                        should have no original novels now, for these letters of Ortis are little
+                        other than an imagination of ‘Werther.'</q> As MRM observes, the book is in the spirit of 
+                     <bibl><author ref="#Goethe">Goethe</author>'s <title level="m">Werther</title></bibl> 
+                     but with political overtones that link the hero, Ortis, to the Venetian struggle for indepependence and liberty. 
+                     The protagonist is in love with a woman, Teresa, who is betrothed to another, while
+                     also enduring dashed political hopes with fall of <placeName ref="#Venice"
+                        >Venice</placeName> into the hands of <placeName ref="#Austria"
+                           >Austria</placeName>. He communicates his feelings to a friend in letters
+                     while on his travels.</note>
+               </bibl>
+               <bibl xml:id="Simple_Story"> 
+                  <title level="m">A Simple Story</title>
+                  <author ref="#Inchbald_E">Elizabeth Inchbald</author>
+                  <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                  <publisher>F.C. and J. Rivington</publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#ebb #hjb">Mitford mentions reading this novel in her Journal on <date when="1820-10-16">October 16, 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="CaribCh"> 
+                  <title>The Carib Chief: A Tragedy, in Five Acts</title>
+                  <author ref="#TwissH">Horace Twiss</author>
+                  <pubPlace>
+                     <placeName>London</placeName>
+                  </pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1819">1819</date>
+                  <note resp="#hjb">
+                     <ref target="https://search.worldcat.org/title/75469722"/>
+                     <ref target="https://www.loc.gov/resource/gdcmassbookdig.caribchieftraged00twis2/?st=gallery"/>
+                  </note>
+                  <note resp="#hjb">A play read by <persName ref="#MRM">Mitford</persName> on <date when="1819-12-18">18 December 1819</date>. She described it as <q>a tolerable Tragedy</q> in her Journal entry.</note>
+               </bibl>
+               <bibl xml:id="Advice_Julia"> <!-- 2024-07-10: NEW ENTRY -->
+                  <title level="m">Advice to Julia: A Letter in Rhyme</title>
+                  <author>Henry Luttrell</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>John Murray</publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#hjb">A poem that <persName ref="#MRM">Mitford</persName> mentions reading in her Journal on <date when="1820-10-07">October 7 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Age_Elizabeth"> <!-- 2024-07-10: NEW ENTRY -->
+                  <title level="m">Lectures Chiefly on the Dramatic Literature of the Age of Elizabeth</title>
+                  <author ref="#Hazlitt_Wm">William Hazlitt</author>
+                  <pubPlace>London, Edinburgh</pubPlace>
+                  <publisher>Stodart and Steuart; Bell and Bradfute</publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> indicated that she read Hazlitt’s <title level="m">Lectures</title> in her Journal on <date when="1820-10-22">October 22, 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Beau_Fletch"> <!-- 2024-07-10: NEW ENTRY -->
+                  <title>The Works of Beaumont and Fletcher, in Fourteen Volumes: With an Introduction and Explanatory Notes</title>
+                  <author>Francis Beaumont</author>
+                  <author>John Fletcher</author>
+                  <editor>Henry William Weber</editor>
+                  <pubPlace>London, Edinburgh</pubPlace>
+                  <publisher>J. Ballantyne and Company for F.C. and J. Rivington</publisher>
+                  <date when="1812">1812</date>
+                  <note resp="#hjb">
+                     <ref target="https://search.worldcat.org/title/2083155"/>
+                  </note>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> indicates that she read this in her Journal entry on <date when="1820-09-25">September 25 1820</date>.</note>
+               </bibl>
+               
+               <!-- 2024-07-13 ebb: I added Chalmers_T and a different reference for his sermons: 
+                I think it's his New Sermons instead of Discourses, based on her mention and dates of publication. 
+                Thomas Chalmers stuff is already in the SI-Add and tagging updated here.
+             -->
+               <bibl xml:id="Flora_Fest"> <!-- 2024-07-10: NEW ENTRY -->
+                  <title>Festival of Flora</title>
+                  <title level="m">The Festival of Flora: A Poem with Botanical Notes</title>
+                  <author>Arthur Crichton</author>
+                  <pubPlace>
+                     <placeName>London</placeName>
+                  </pubPlace>
+                  <publisher>N. Hailes</publisher>
+                  <date when="1818">1818</date>
+                  <note resp="#hjb">
+                     <ref target="https://search.worldcat.org/title/36063200"/>
+                  </note>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions that she read this in her Journal entry on <date when="1820-08-24">August 24 1820</date>. Second Edition.</note>
+               </bibl>
+               <bibl xml:id="Legends_B"> <!-- NEW ENTRY -->
+                  <title>Metrical Legends of Exalted Characters</title>
+                  <author ref="#Baillie_Joanna">Joanna Baillie</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1821">1821</date>
+                  <note>
+                     <ref target="https://search.worldcat.org/title/2986872"/>
+                  </note>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions that she read this in her Journal entry on <date when="1821-06-10">June 10 1821</date>.</note>
+               </bibl>
+               <bibl xml:id="Missionary_SO"> <!-- 2024-07-10: NEW ENTRY -->
+                  <title>The Missionary: An Indian Tale</title>
+                  <author>Sydney Owenson</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>J.J. Stockdale</publisher>
+                  <date when="1811">1811</date>
+                  <note resp="#hjb">
+                     <ref target="https://search.worldcat.org/title/830959325"/>
+                     <ref target="https://play.google.com/books/reader?id=3zZW6pUXUrwC&amp;pg=GBS.PP1&amp;hl=en"/>
+                     <ref target="https://broadviewpress.com/product/the-missionary/#tab-description"/>
+                  </note>
+                  <note resp="#hjb">A tragic romance novel mentioned by <persName ref="#MRM">Mitford</persName> in her Journal on <date when="1820-10-23">Monday 23rd</date>. Tells 
+                     the tale of star-crossed lovers, a Portuguese missionary to India and an Indian prophetess.</note>
+               </bibl>
+               
+               
+               <bibl xml:id="Sintram_Comp"> <!-- 2024-07-10 NEW ENTRY -->
+                  <title>Sintram and His Companions: A Romance</title>
+                  <author>Friedrich Heinrich Karl La Motte-Fouqué</author>
+                  <editor role="translator">Julius Charles Hare</editor>
+                  <note resp="#hjb">
+                     <ref target="https://search.worldcat.org/title/6875205"/>
+                  </note>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions that she read this in a Journal entry on <date when="1820-09-06">September 6 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Sketches_France"> <!-- No reference to this  
+                 ebb: This may not be fully ref'd in journal, but seems like we should keep it. Check letters. -->
+                  <title>Sketches descriptive of Italy, in the years 1816 and 1817; with a brief
+                     account of travels in various parts of France and Switzerland, in the same
+                     years.</title>
+                  <author>Charlotte A. Eaton</author>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName>Longman, Hurst, Rees, Orme, and Brown</orgName>
+                  </publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> may have read this in the summer of <date when="1820">1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Tales_Heart"> <!-- 2024-07-10 NEW ENTRY -->
+                  <title>Tales of the heart</title>
+                  <author ref="#Opie_Amelia">Amelia Opie</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+                  <date when="1820">1820</date>
+                  <note>
+                     <ref target="https://archive.org/details/talesofhear01opie/mode/2up"/>
+                     <ref target="https://search.worldcat.org/title/539322535"/>
+                  </note>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions that she read this in a Journal entry on <date when="1820-10-31">31 October 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Vampyre"> <!-- 2024-07-11 NEW ENTRY -->
+                  <title level="m">The Vampyre: A Tale</title>
+                  <author>John William Polidori</author>
+                  <pubPlace>
+                     <placeName>London</placeName>
+                  </pubPlace>
+                  <publisher>Sherwood, Neely, and Jones</publisher>
+                  <date when="1819">1819</date>
+                  <note resp="#hjb">
+                     <ref target="https://archive.org/details/vampyretale00poli/page/n7/mode/2up"/>
+                     <ref target="https://en.wikipedia.org/wiki/John_William_Polidori"/>
+                  </note>
+                  <note resp="#hjb #ebb">An early published modern vampire story that <persName ref="#MRM">Mitford</persName> described as <q>very stupid</q> in her Journal on 
+                     <date when="1820-11-04">4 November 1820</date>. Mitford does not mention the author in her Journal. Originally this book was credited to <persName>Lord Byron</persName>, but was 
+                     later confirmed to be written by Polidori.</note>
+               </bibl>
+               
+               
+               <!-- 2024-09-02 ebb: END NEW ENTRIES FOR THIS LISTBIBL -->
                <bibl xml:id="Abbot_WS">
                   <title level="m">The Abbot</title>
                   <author ref="#Scott_Wal">Walter Scott</author>
@@ -34414,7 +35482,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1818"/>
                   <note resp="#lmw">Full title: <title level="m">An Autumn Near the Rhine; Or
                         Sketches of Courts, Society, Scenery, &amp;c. in Some of the German States
-                        Bordering on the Rhine. To which are added translations from Schiller, Goethe and other German poets.</title>.</note>
+                        Bordering on the Rhine. To which are added translations from <persName ref="#Schiller_F">Schiller</persName>, <persName ref="#Goethe">Goethe</persName> and other German poets.</title>.</note>
                </bibl>
                <bibl xml:id="BaronsDa_FT">
                   <title type="a">The Baron's Daughter</title>
@@ -37915,7 +38983,9 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                <bibl xml:id="IntNarr_Bruce">
                   <title level="m">An Interesting Narrative of the Travels of James Bruce, Esq. into
                      Abyssinia</title>
-                  <author ref="#Bruce_James"/>
+                  <author ref="#Bruce_James">James Bruce</author>
+                  <editor ref="#Shaw_Sam">Samuel Shaw</editor>
+       
                   <pubPlace>
                      <placeName>London</placeName>
                   </pubPlace>
@@ -37923,10 +38993,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <orgName>S. Shaw</orgName>
                   </publisher>
                   <date when="1790"/>
-                  <note resp="#lmw">Full title: <title level="m">An Interesting Narrative of the
+                  <note resp="#lmw #ebb">Full title: <title level="m">An Interesting Narrative of the
                         Travels of James Bruce, Esq. into Abyssinia: To discover the source of the
                         Nile. Abridged from the original work</title>. Title page attributes editorship to a <q>Samuel Shaw, Esq.</q> Mitford rated it <quote>very
-                        learned &amp; curious</quote>.</note>
+                           learned &amp; curious</quote> in her Journal on <date when="1819-06-20">June 20 1819</date>.</note>
                </bibl>
                <bibl xml:id="Intro_DW">
                   <title level="a">Introduction</title>
