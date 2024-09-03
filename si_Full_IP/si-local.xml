@@ -2193,6 +2193,13 @@
          </div>
          <div type="historical_people">
             <listOrg sortKey="histOrgs">
+               <org xml:id="Ilsley-Coursing-Soc">
+                  <orgName>Ilsley Coursing Society</orgName>
+                  <note resp="#ebb">Hunting club frequented by <placeName ref="#Mitford_Geo">George Mitford</placeName> 
+                     and friends, presumably located in <placeName ref="#Ilsley">Ilsley</placeName>.</note>
+               </org>
+               
+               <!-- 2024-09-02 ebb: END NEW ENTRIES IN THIS LISTORG -->
                <org xml:id="Bodys"> 
                   <orgName>the Body family</orgName>
                   <orgName>the Bodys</orgName>
@@ -2223,34 +2230,33 @@
                </org>
                <org xml:id="Holdens"> 
                   <orgName>the Holdens</orgName>
-                  <orgName>
-                     <surname>Holden</surname>
-                  </orgName>
-                  <note resp="#hjb">Potentially includes  <persName ref="#Holden_Misses">Miss Holden</persName>, <persName ref="#Holden_John">John Holden</persName>, and <persName ref="#Holden_Henry">Henry Holden</persName>. Mentioned by Mitford on <date when="1819-07-02">July 2 1819</date>.</note>
+                  <surname>Holden</surname>
+                  <note resp="#hjb">Potentially includes  <persName ref="#Holden_Miss">Miss Holden</persName>, <persName ref="#Holden_John">John Holden</persName>, and <persName ref="#Holden_Henry">Henry Holden</persName>. 
+                     Mentioned by <persName ref="#MRM">Mitford</persName> in her Journal on <date when="1819-07-02">July 2 1819</date>.</note>
                </org>
-               <org xml:id="James_Fam"> <!-- NEW ENTRY -->
+               <org xml:id="James_Fam"> 
                   <orgName>the James Family</orgName>
                   <orgName>the James's</orgName>
                   <surname>James</surname>
                </org>
-               <org xml:id="Newells"> <!-- NEW ENTRY -->
+               <org xml:id="Newells"> 
                   <orgName>the Newells</orgName>
                   <surname>Newell</surname>
-                  <note resp="#hjb">Contains <persName ref="#Newell_Mr">Mr. Newell</persName> and
+                  <note resp="#hjb">Includes <persName ref="#Newell_Mr">Mr. Newell</persName> and
                      <persName ref="#Newell_Mrs">Mrs. Newell</persName>.</note>
                </org>
-               <org xml:id="Perrys"> <!-- NEW ENTRY -->
+               <org xml:id="Perrys"> 
                   <orgName>the Perrys</orgName>
                   <surname>Perry</surname>
                   <note resp="#hjb #ebb">Likely includes <persName ref="#Perry_James">James
                      Perry</persName> and, before November 1821, his daughter <persName ref="#Perry_Horatia">Horatia Perry</persName>.</note>
                </org>
-               <org xml:id="Simonds"> <!-- NEW ENTRY -->
+               <org xml:id="Simonds"> 
                   <orgName>the Simonds</orgName>
                   <surname>Simonds</surname>
                   <note resp="#hjb">Potentially the Symonds mentioned on <date when="1820-12-19">December 19 1820</date>. Containing <persName ref="#Simonds_MrsB">Elizabeth Blackall Simonds</persName>, <persName ref="#Simonds_MrB">William Blackall Simonds</persName>, and <persName ref="#Simonds_H">Henry Simonds</persName>.</note>
                </org>
-               <org xml:id="Tuppens"> <!-- NEW ENTRY -->
+               <org xml:id="Tuppens"> 
                   <orgName>the Tuppen Family</orgName>
                   <orgName>the Tuppens</orgName>
                   <surname>Tuppen</surname>
@@ -2258,10 +2264,10 @@
                      William Tuppen</persName> and his spouse <persName ref="#Tuppen_Mrs"
                         >Mrs. Tuppen</persName>.</note>
                </org>
-               <org xml:id="Westbrooks"> <!-- NEW ENTRY -->
+               <org xml:id="Westbrooks"> 
                   <orgName>the Westbrooks</orgName>
                   <surname>Westbrook</surname>
-                  <note resp="#hjb">Met <persName ref="#MRM">Mitford</persName> on <date when="1820-07-26">July 26 1820</date>,
+                  <note resp="#hjb">As recorded in her Journal, <persName ref="#MRM">Mitford</persName> met the Westbrooks on <date when="1820-07-26">26 July 1820</date>,
                      and dined with them on <date when="1820-08-18">August 18 1820</date>.</note>
                </org>     
                
@@ -2690,7 +2696,7 @@
                   </orgName>
                   <note resp="#lmw">Associated with <placeName ref="#Reading_city">Reading</placeName>. May include <persName ref="#Hawkes_Miss">Miss Hawkes</persName>, whom <persName ref="#MRM">Mitford</persName> visits in 1819. Source: Journal.</note>
                </org>
-               <org xml:id="Haywards"> <!-- 2024-07-03 UPDATING THIS ENTRY -->
+               <org xml:id="Haywards"> 
                   <orgName>the Hayward family </orgName>
                   <orgName>
                      <surname>Hayward</surname>
@@ -3703,9 +3709,9 @@
                   </note>
                </person>
                <person xml:id="Macfarlane_Chas"> 
-                  <persName>Charles Macfarlane</persName>
+                  <persName>Charles MacFarlane</persName>
                   <persName>
-                     <surname>Macfarlane</surname>
+                     <surname>MacFarlane</surname>
                      <forename>Charles</forename>
                   </persName>
                   <birth when="1799"/>
@@ -3900,7 +3906,7 @@
                   </persName>
                   <note resp="#hjb #ebb">Mitford mentions in her Journal on <date when="1820-02-10">February 10, 1820</date> that she <q>corrected some poofs of Mrs. Joliffe’s little Tales</q> (as yet untraced in our research). Frequently mentioned as a correspondent in the Journal.</note>
                </person>
-               <person xml:id="Nares_Mr" sex="m"> <!-- 2024-07-11 NEW ENTRY (mentioned in Journal but has no entry) -->
+               <person xml:id="Nares_Mr" sex="m"> 
                   <persName>Mr. Nares</persName>
                   <persName>
                      <surname>Nares</surname>
@@ -26861,6 +26867,86 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </location>
                   <note resp="#hjb">According to her Journal, <persName ref="#MRM">Mitford</persName> rode through Egham on <date when="1820-06-27">June 27, 1820</date>.</note>
                </place>
+               <place xml:id="Ilsley"> 
+                  <placeName>Ilsley</placeName>
+                  <district type="county">Berkshire</district>
+                  <country>England</country>
+                  <location>
+                     <geo>51.53243230753439 -1.3008503913281573</geo>
+                  </location>
+                  <note resp="#hjb">Unknown if this is either East or West Ilsey. <persName ref="#Mitford_Geo">George Mitford</persName> often visited, 
+                     as <persName ref="#MRM">Mitford</persName> documents in her Journal on <date when="1819-11-29">November 29, 1821</date>, 
+                     <date when="1820-11-27">November 27, 1821</date>, and <date when="1821-11-19">November 19, 1821</date>.</note>
+               </place>
+               <place xml:id="Park_Windsor"> 
+                  <placeName>Windsor Park</placeName>
+                  <district>Windsor</district>
+                  <region>Berkshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.439167 -0.624722</geo>
+                  </location>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> rode through on <date when="1820-06-27">June 27, 1820</date>.</note>
+               </place>
+               <place xml:id="Saint_Amand"> 
+                  <placeName>Saint-Amand-Montrond</placeName>
+                  <district type="department">Cher</district>
+                  <region>Centre-Val de Loire</region>
+                  <country>France</country>
+                  <note resp="#hjb">Commune in France.</note>
+               </place>
+               <place xml:id="Newbery_house_St_Queen33"> 
+                  <placeName>33 Great Queen Street</placeName>
+                  <region>London</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.515305662435175, -0.12163909072409469</geo>
+                  </location>
+                  <note resp="#hjb">A specific address on <placeName ref="#St_QueenG">Great Queen Street</placeName>. 
+                     Most likely owned by <persName ref="#Newbery_J">Mr. Newbery</persName>. 
+                     Mentioned by <persName ref="#MRM">Mitford</persName> in her Journal on <date when="1820-12-05">5 December 1820</date>, 
+                     <q>Went with dear <persName ref="#Mitford_Geo">Drum</persName> to London (<persName ref="#Newbery_J">Mr. Newbery</persName>'s, 33 Great Queen Street, which we had all to ourselves)</q>.</note>
+               </place>
+               
+               <place xml:id="St_QueenG"> 
+                  <placeName>Great Queen Street</placeName>
+                  <region>London</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.51571315852602 -0.12101546898777185</geo>
+                  </location>
+                  <note resp="#hjb">Mentioned in <persName ref="#MRM">Mitford</persName>’s Journal during a visit to London on <date when="1820-06-27">27 June 1820</date>, 
+                     <date when="1820-06-28">28 June 1820</date>.</note>
+               </place>
+               <place xml:id="Tadley"> 
+                  <placeName>Tadley</placeName>
+                  <district type="county">Hampshire</district>
+                  <region>South East</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.3506 -1.1376</geo>
+                  </location>
+                  <note resp="#TSA">Village that <persName ref="#MRM">Mitford</persName> travels to with her father and the dogs while coursing on 
+                     <date when="1820-11-10">10 November 1820</date>. They visit here after stopping in <placeName ref="#Aldermaston">Aldermaston</placeName>.</note>
+               </place>
+               <place xml:id="Opera_House"> <!-- NEW ENTRY -->
+                  <placeName notAfter="1830">English Opera House</placeName>
+                  <placeName notBefore="1834">New Theatre Royal, Lyceum and English Opera House</placeName>
+                  <region>London</region>
+                  <country>England</country>
+                  <location>
+                     <geo>51.511683730658035 -0.12006460946319568</geo>
+                  </location>
+                  <note resp="#hjb">
+                     <ref target="https://www.regencyhistory.net/blog/lyceum-theatre-regency-history-guide-london"/>
+                     <ref target="https://en.wikipedia.org/wiki/Lyceum_Theatre,_London"/>
+                  </note>
+                  <note resp="#hjb">Was known as the English Opera House until it burnt down in 1830. 
+                     It was then rebuilt and reopened as the Theatre Royal Lyceum &amp; English Opera House in 1834. 
+                     After threats to demolish the building by London City Council, the theatre closed in 1939. It then reopened after World War II and renamed itself the Lyceum Ballroom. 
+                     Was then closed in 1986 but then reopened for theatrical use as the Lyceum Theatre. <persName ref="#MRM">Mitford</persName> mentions seeing 
+                     <persName ref="#Kelly_FH">Miss Kelly</persName> perform at English Opera House in her Journal on <date when="1820-06-29">29 June 1820</date>.</note>
+               </place>
                
                
                <!-- 2024-09-02 ebb: END OF NEW ENTRIES FOR THIS LISTPLACE -->
@@ -27923,7 +28009,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <district>Shinfield parish</district>
                   <region>Berkshire</region>
                   <country>England</country>
-                  <note resp="#lmw #srr #tsa">Fields belonging to <placeName ref="#Body_Richard">Richard Body</placeName>. One location mentioned in her Journal where <persName ref="#MRM">Mitford</persName> goes <name ref="#violet">violet</name>ting in <date when="1819-03">March 1819</date>.</note>
+                  <note resp="#lmw">Fields belonging to <placeName ref="#Body_Richard">Richard Body</placeName>. One location mentioned in her Journal where <persName ref="#MRM">Mitford</persName> goes <name ref="#violet">violet</name>ting in <date when="1819-03">March 1819</date>.</note>
                </place>
                <place xml:id="field_Davies"><!-- srr: Not found in local SI or in Published SI -->
                   <placeName>Mr. Davies's fields</placeName>
@@ -28474,11 +28560,11 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <location>
                      <geo>51.475251 -0.284890799999971</geo>
                   </location>
-                  <note resp="#lmw">Once a village northeast of Richmond, now a suburban district
+                  <note resp="#lmw #hjb">Once a village northeast of Richmond, now a suburban district
                      part of the London Borough of Richmond upon Thames. Site of what is now the
                      Royal Botanic Gardens, a World Heritage Site, which includes Kew Palace, a
                      royal residence favored by <persName ref="#GeoIII">George III</persName>, and
-                     Kew Gardens.</note>
+                     Kew Gardens. <persName ref="#MRM">Mitford</persName> mentions visiting Kew in her Journal on <date when="1820-07-04">July 4 1820</date>.</note>
                </place>
                <place xml:id="Kibes_Ln"><!--stub-->
                   <placeName>Kibe's Lane</placeName>
@@ -28962,17 +29048,17 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                         1821</date>. More research
                      needed.<!--JMH: Search results show the property by name as up for sale, still trying to pinpoint true coordinates.--></note>
                </place>
-               <place xml:id="Overton">
+               <place xml:id="Overton"> 
                   <placeName>Overton</placeName>
                   <region>Hampshire</region>
                   <country>England</country>
                   <location>
                      <geo>51.2439 -1.2615</geo>
                   </location>
-                  <note resp="#lmw">Large parish. In 1831, the Hundred of Overton contained Ashe,
-                     Bradley, Deane, Laverstoke, Overton, Tadley, and North Waltham. Overton Mill
+                  <note resp="#lmw #hjb">Large parish. In 1831, the Hundred of Overton contained <placeName>Ashe</placeName>,
+                     <placeName>Bradley</placeName>, <placeName>Deane</placeName>, <placeName>Laverstoke</placeName>, <placeName>Overton</placeName>, <placeName ref="#Tadley">Tadley</placeName>, and <placeName>North Waltham</placeName>. Overton Mill
                      has produced banknote paper since the eighteenth century. <persName ref="#Russell_Richard">Richard Russell</persName> lived here as vicar of
-                     Overton and rector of Ashe and Deane.</note>
+                     Overton and rector of Ashe and Deane. <persName ref="#MRM">Mitford</persName>’s Journal mentions that <persName ref="#Mitford_Geo">her father</persName> <q>went to Overton</q> on <date when="1821-11-25">25 November 1821</date>.</note>
                   <note>
                      <ptr target="https://www.british-history.ac.uk/vch/hants/vol4/p197"/>
                   </note>
@@ -29062,11 +29148,22 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </location>
                   <note resp="#scw #lmw">Forest in north <placeName ref="#Hampshire_county">Hampshire</placeName>, near <placeName ref="#Silchester">Silchester</placeName>. Today, Pamber Forest and Silchester Common together form a Site of Special Scientific Interest; Pamber Forest is managed as a local Nature Reserve. The woodland encompasses a hazel coppice dominated by oak standards and contains over forty plant species rare or uncommon in the UK.</note>
                </place>
-               <place xml:id="PaperMill_Marlow">
+               <place xml:id="PaperMill_Marlow"> <!-- UPDATING ENTRY WITH LOTS OF STUFF -->
                   <placeName>Paper mill on the Thames</placeName>
+                  <placeName>Arborfield Mill</placeName>
                   <district>Marlow</district>
                   <region>Berkshire</region>
                   <country>England</country>
+                  <location>
+                     <geo>51.406 -0.926</geo>
+                  </location>
+                  <note resp="#hjb">
+                     <ref target="http://www.arborfieldhistory.org.uk/properties.htm"/>
+                     <ref target="http://www.arborfieldhistory.org.uk/properties_mill.htm"/>
+                     <ref target="https://en.wikipedia.org/wiki/Arborfield_Hall"/>
+                  </note>
+                  <note resp="#hjb">In Mitford's time, this was a paper mill that used a 48-inch paper machine. Most likely produced fine brown paper. 
+                     <persName ref="#MRM">Mitford</persName> mentions walking to this papermill in her Journal on <date when="1819-10-12">Tuesday 12 October, 1819</date> and <date when="1820-08-29">Tuesday 29th, 1820</date>.</note>
                </place>
                <place xml:id="Paris">
                   <placeName>Paris, France</placeName>
@@ -30113,8 +30210,10 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#err">Coastal city in northwest <placeName ref="#Spain">Spain</placeName> near the Portuguese border.</note>
                </place>
                <place xml:id="W_Hill_OV">
-                  <placeName ref="#W_Hill_OV">W. Hill</placeName>
-                  <note resp="#scw">A steep, corkscrew-like hill described in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title> on which <persName ref="#Great_Farmhouse_farmer_OV">the farmer</persName>'s greyhound, <persName ref="#Helen_pet_OV">Helen</persName> proudly kills an old hare. This might be a mappable place in England, but further research is needed.</note>
+                  <placeName>W. Hill</placeName>
+                  <note resp="#scw">A steep, corkscrew-like hill described in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title> 
+                     on which <persName ref="#Great_Farmhouse_farmer_OV">the farmer</persName>'s greyhound, 
+                     <persName ref="#Helen_pet_OV">Helen</persName> proudly kills an old hare. This might be a mappable place in England, but further research is needed.</note>
                   <!--scw: This place might be locatable. Check to see whether it's mentioned in first sketch-->
                </place>
                <place xml:id="Wales">
@@ -30569,7 +30668,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                </item>
                <item xml:id="butterfly">
                   <name>butterfly</name>
-                  <note resp="#alw #lmw">Insect of the order Lepidoptera with two pairs of large wings that are covered with tiny scales, usually brightly colored, and typically held erect when at rest.</note>
+                  <note resp="#alw #lmw #srr"><persName ref="#MRM">Mitford</persName> mentions seeing <q>a most beautiful butterfly</q> in the grounds near her home in her Journal 
+                     on <date when="1819-09-19">19 September 1819</date>. Insect of the order Lepidoptera with two pairs of large wings that are covered with tiny scales, usually brightly colored, and typically held erect when at rest.</note>
                   <note>
                      <ptr target="https://species.wikimedia.org/wiki/Lepidoptera"/>
                   </note>
@@ -34895,15 +34995,14 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note resp="#hjb">A play read by <persName ref="#MRM">Mitford</persName> on <date when="1819-12-18">18 December 1819</date>. She described it as <q>a tolerable Tragedy</q> in her Journal entry.</note>
                </bibl>
-               <bibl xml:id="Advice_Julia"> <!-- 2024-07-10: NEW ENTRY -->
-                  <title level="m">Advice to Julia: A Letter in Rhyme</title>
+               <bibl xml:id="Advice_Julia">                   <title level="m">Advice to Julia: A Letter in Rhyme</title>
                   <author>Henry Luttrell</author>
                   <pubPlace>London</pubPlace>
                   <publisher>John Murray</publisher>
                   <date when="1820">1820</date>
                   <note resp="#hjb">A poem that <persName ref="#MRM">Mitford</persName> mentions reading in her Journal on <date when="1820-10-07">October 7 1820</date>.</note>
                </bibl>
-               <bibl xml:id="Age_Elizabeth"> <!-- 2024-07-10: NEW ENTRY -->
+               <bibl xml:id="Age_Elizabeth"> 
                   <title level="m">Lectures Chiefly on the Dramatic Literature of the Age of Elizabeth</title>
                   <author ref="#Hazlitt_Wm">William Hazlitt</author>
                   <pubPlace>London, Edinburgh</pubPlace>
@@ -34911,7 +35010,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1820">1820</date>
                   <note resp="#hjb"><persName ref="#MRM">Mitford</persName> indicated that she read Hazlitt’s <title level="m">Lectures</title> in her Journal on <date when="1820-10-22">October 22, 1820</date>.</note>
                </bibl>
-               <bibl xml:id="Beau_Fletch"> <!-- 2024-07-10: NEW ENTRY -->
+               <bibl xml:id="Beau_Fletch"> 
                   <title>The Works of Beaumont and Fletcher, in Fourteen Volumes: With an Introduction and Explanatory Notes</title>
                   <author>Francis Beaumont</author>
                   <author>John Fletcher</author>
@@ -34923,13 +35022,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <ref target="https://search.worldcat.org/title/2083155"/>
                   </note>
                   <note resp="#hjb"><persName ref="#MRM">Mitford</persName> indicates that she read this in her Journal entry on <date when="1820-09-25">September 25 1820</date>.</note>
-               </bibl>
-               
-               <!-- 2024-07-13 ebb: I added Chalmers_T and a different reference for his sermons: 
-                I think it's his New Sermons instead of Discourses, based on her mention and dates of publication. 
-                Thomas Chalmers stuff is already in the SI-Add and tagging updated here.
-             -->
-               <bibl xml:id="Flora_Fest"> <!-- 2024-07-10: NEW ENTRY -->
+               </bibl>          
+               <bibl xml:id="Flora_Fest"> 
                   <title>Festival of Flora</title>
                   <title level="m">The Festival of Flora: A Poem with Botanical Notes</title>
                   <author>Arthur Crichton</author>
@@ -34943,7 +35037,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions that she read this in her Journal entry on <date when="1820-08-24">August 24 1820</date>. Second Edition.</note>
                </bibl>
-               <bibl xml:id="Legends_B"> <!-- NEW ENTRY -->
+               <bibl xml:id="Legends_B"> 
                   <title>Metrical Legends of Exalted Characters</title>
                   <author ref="#Baillie_Joanna">Joanna Baillie</author>
                   <pubPlace>London</pubPlace>
@@ -34954,7 +35048,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions that she read this in her Journal entry on <date when="1821-06-10">June 10 1821</date>.</note>
                </bibl>
-               <bibl xml:id="Missionary_SO"> <!-- 2024-07-10: NEW ENTRY -->
+               <bibl xml:id="Missionary_SO">
                   <title>The Missionary: An Indian Tale</title>
                   <author>Sydney Owenson</author>
                   <pubPlace>London</pubPlace>
@@ -34968,9 +35062,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <note resp="#hjb">A tragic romance novel mentioned by <persName ref="#MRM">Mitford</persName> in her Journal on <date when="1820-10-23">Monday 23rd</date>. Tells 
                      the tale of star-crossed lovers, a Portuguese missionary to India and an Indian prophetess.</note>
                </bibl>
-               
-               
-               <bibl xml:id="Sintram_Comp"> <!-- 2024-07-10 NEW ENTRY -->
+
+               <bibl xml:id="Sintram_Comp"> 
                   <title>Sintram and His Companions: A Romance</title>
                   <author>Friedrich Heinrich Karl La Motte-Fouqué</author>
                   <editor role="translator">Julius Charles Hare</editor>
@@ -34994,7 +35087,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date when="1820">1820</date>
                   <note resp="#hjb"><persName ref="#MRM">Mitford</persName> may have read this in the summer of <date when="1820">1820</date>.</note>
                </bibl>
-               <bibl xml:id="Tales_Heart"> <!-- 2024-07-10 NEW ENTRY -->
+               <bibl xml:id="Tales_Heart"> 
                   <title>Tales of the heart</title>
                   <author ref="#Opie_Amelia">Amelia Opie</author>
                   <pubPlace>London</pubPlace>
@@ -35006,7 +35099,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   </note>
                   <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions that she read this in a Journal entry on <date when="1820-10-31">31 October 1820</date>.</note>
                </bibl>
-               <bibl xml:id="Vampyre"> <!-- 2024-07-11 NEW ENTRY -->
+               <bibl xml:id="Vampyre"> 
                   <title level="m">The Vampyre: A Tale</title>
                   <author>John William Polidori</author>
                   <pubPlace>
@@ -35022,6 +35115,214 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <date when="1820-11-04">4 November 1820</date>. Mitford does not mention the author in her Journal. Originally this book was credited to <persName>Lord Byron</persName>, but was 
                      later confirmed to be written by Polidori.</note>
                </bibl>
+               <bibl xml:id="AccountOfIndia">
+                  <title type="main">Description of the character, manners, and customs of the
+                     people of India : and of their institutions, religious and civils</title>
+                  <title type="alt">Moeurs, institutions et cérémonies des peuples de
+                     l'Inde</title>
+                  <author ref="#Dubois_JA">Jean Antoine Dubois</author>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher><orgName>Longman, Hurst, Rees, Orme, and Brown</orgName></publisher>
+                  <date when="1818">1817</date>
+                  <note resp="#hjb">
+                     <ref target="https://archive.org/details/descriptionofcha01dubo/page/n9/mode/2up"/>
+                     <ref target="https://search.worldcat.org/title/5723732"/>
+                  </note>
+                  <note resp="#hjb #ebb">Dubois' work on India was initially drafted in French,
+                     and the first English edition was translated from that manuscript draft in
+                     1817. According to WorldCat, the first French publication did not appear
+                     until 1825 and was made from a later manuscript after Dubois's return to
+                     Europe in 1823 from living in India. This is a translation of the original
+                     French manuscript that would have been published in 1817 in London, around
+                     when it would be reasonable for <persName ref="#MRM">Mitford</persName> to have picked up and read in 1820.
+                     <persName ref="#MRM"> Mitford</persName> first mentions reading Dubois' <q>account of India</q> in her
+                     Journal on <date when="1820-06-17">17 June 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="BowlesPamphletWar_1820"> 
+                  <title level="m">A reply to the charges brought by the reviewer of Spence's
+                     Anecdotes in the Quarterly review for October 1820 against the last editor
+                     of Pope's works, and author of A letter to Mr. Campbell on <q>The invariable
+                        principles of poetry</q></title>
+                  <author ref="#Bowles_Wm">William Lisle Bowles</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <date when="1820">1820</date>
+                  <note resp="#ebb">Bowles' riposte of 1820 in the midst of a pamphlet war over
+                     Alexander Pope’s writings, following his first entry, <bibl
+                        corresp="#InvariablePrin_WLB"><title level="m">The Invariable Principles
+                           of Poetry</title> (1819)</bibl>.</note>
+               </bibl>
+               <bibl xml:id="CanonsCriticism"> 
+                  <title level="m">The canons of criticism, and glossary, being a supplement to Mr.
+                     Warburton's edition of Shakespear.</title>
+                  <author>Thomas Edwards</author>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher><orgName>C. Bathurst</orgName></publisher>
+                  <date when="1765">1765</date>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions reading Edwards' <title level="m">Canons of Criticism</title> in her Journal 
+                     on <date when="1820-06-12">12 June 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Sermons_Chalmers"> 
+                  <title level="m">Sermons preached in the Tron Church, Glasgow</title>
+                  <author ref="#Chalmers_T">Thomas Chalmers</author>
+                  <pubPlace>
+                     <placeName ref="#Glasgow">Glasgow</placeName>
+                  </pubPlace>
+                  <publisher>John Smith; William Whyte</publisher>
+                  <date when="1819">1819</date>
+                  <note resp="#ebb #hjb">Likely the <q>new sermons</q> that <persName ref="#MRM">Mitford</persName> mentions 
+                     reading in her Journal on <date when="1820-07-02">2 July 1820</date>, on the same day that she began reading
+                     <persName ref="#Hofland_B">Barbara Hofland</persName>’s <title level="m" >Tales of the Priory</title>.</note>
+               </bibl>
+               <bibl xml:id="George3_CourtFam"> 
+                  <title level="m">George III, his court, and family</title>
+                  <author>John Galt</author>
+                  <publisher>Printed for Henry Colburn</publisher>
+                  <date when="1820">1820</date>
+               </bibl>
+               <bibl xml:id="Heraline_LMH"> 
+                  <title level="m">Heraline; or, Opposite Proceedings</title>
+                  <author>
+                     <persName ref="#Hawkins_L">Laetitia Matilda Hawkins</persName>
+                  </author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher><orgName>Francis, Charles and John Rivington</orgName></publisher>
+                  <date when="1821">1821</date>
+                  <note resp="#hjb">4 vols. <persName ref="#MRM"> Mitford</persName> mentions reading this book in her Journal
+                     entry of <date when="1821-08-09">9 August 9 1821</date>.</note>
+               </bibl>
+               <bibl xml:id="Mademoiselle_Tournon"> 
+                  <title>Mademoiselle de Tournon</title>
+                  <author ref="#Filleul_A">Adélaïde-Émilie Filleul, Marquise de
+                     Souza-Botelho</author>
+                  <pubPlace><placeName>Paris</placeName></pubPlace>
+                  <publisher><orgName>Chez Didot Père et Fils</orgName></publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#hjb">
+                     <ref target="https://search.worldcat.org/title/27340148"/>
+                  </note>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions reading this book in her Journal on <date from="1820-09-22" to="1820-09-23">22 and 23 September 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Mems_AnneBoleyn"> 
+                  <title level="m">Memoirs of the Life of Anne Boleyn, Queen of Henry VIII. By
+                     Miss Benger.</title>
+                  <author>
+                     <persName ref="#Benger_ElizO">Elizabeth Ogilvy Benger</persName>
+                  </author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher><orgName>Longman, Hurst, Rees, Orme, and Brown</orgName></publisher>
+                  <date when="1818">1821</date>
+                  <note resp="#lmw">2 vols. <persName ref="#MRM">Mitford</persName> mentions reading this book in her Journal
+                     entries of <date from="1821-03-25" to="1821-03-27">March 25, 26, and 27,
+                        1821</date>.</note>
+               </bibl>
+               <bibl xml:id="OldManor_CS"> 
+                  <title>Old Manor House</title>
+                  <author>
+                     <persName ref="#Smith_Ch">Charlotte Smith</persName>
+                  </author>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName>J. Bell</orgName>
+                  </publisher>
+                  <date when="1793">1793</date>
+                  <note resp="#hjb">
+                     <ref target="https://en.wikipedia.org/wiki/The_Old_Manor_House"/>
+                     <ref target="https://www.proquest.com/lion/docview/2138575988/Z000043737?sourcetype=Books"/>
+                  </note>
+                  <note resp="#hjb">Four Volumes. Written in the middle of the French Revolution. Read by Mitford on <date when="1820-10-18">October 18, 1820</date></note>
+               </bibl>
+               <bibl xml:id="PrioryTales_H"> 
+                  <title>Tales of the Priory</title>
+                  <author ref="#Hofland_B">Barbara Hofland</author>
+                  <pubPlace><placeName>London</placeName></pubPlace>
+                  <publisher><orgName>Arthur Hall, Virtue, &amp; Co.</orgName></publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#ebb"><persName ref="#MRM">Mitford</persName> mentions reading these tales in her Journal entries
+                     of <date when="1820-07">July 1820</date>, finding them <q>too dismal but very good</q>.</note>
+               </bibl>
+               <bibl xml:id="RecluseScotland"> 
+                  <title level="m">The Recluse of the Appenines; or the Automaton Chief. A
+                     Romance.</title>
+                  <author>Sophia Louisa Breckenridge</author>
+                  <pubPlace ref="#London_city">London</pubPlace>
+                  <publisher><orgName>Sherwood, Neely, and Jones</orgName></publisher>
+                  <date when="1820">1820</date>
+                  <note resp="#hjb">Read by <persName ref="#MRM">Mitford</persName>, as recorded in her Journal in <date when="1820-09">September 1820</date>.</note>
+               </bibl>
+               <bibl xml:id="Lectures_Dramatic"> 
+                  <title>A course of lectures on dramatic art and literature</title>
+                  <author ref="#Schlegel_AW">August Wilhelm Schlegel</author>
+                  <editor role="translator">John Black</editor>
+                  <pubPlace>
+                     <placeName ref="#London_city">London</placeName>
+                  </pubPlace>
+                  <publisher><orgName>Baldwin</orgName></publisher>
+                  <date when="1815">1815</date>
+                  <note resp="#hjb #ebb">Translation of <bibl>Schlegel's <title>Vorlesungen über dramatische Kunst und Litteratur</title>, first published in <date>1809</date></bibl>.</note>
+               </bibl>
+               <bibl xml:id="StMagdaleneAM"> 
+                  <title>The Fast of St. Magdalen: A Romance</title>
+                  <author ref="#Porter_AM">Anna Maria Porter</author>
+                  <pubPlace><placeName>London</placeName></pubPlace>
+                  <publisher>
+                     <orgName>Longman, Hurst, Rees, Orme, and Brown</orgName>
+                  </publisher>
+                  <note resp="#hjb">
+                     <ref target="https://archive.org/details/fastofstmagdalen01port/mode/2up"/>
+                  </note>
+                  <note resp="#hjb">A three volume novel by <persName ref="#Porter_AM">Anna Maria Porter</persName>.</note>
+               </bibl>
+               <bibl xml:id="Pirate_novel"> 
+                  <title>The Pirate</title>
+                  <author ref="#Scott_Wal">Walter Scott</author>
+                  <date when="1822">1822</date>
+                  <pubPlace>
+                     <placeName>Scotland</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName>Archibald Constable and Co.; and Hurst, Robinson, and Co.</orgName>
+                  </publisher>
+                  <note resp="#hjb">
+                     <ref target="https://en.wikipedia.org/wiki/The_Pirate_(novel)"/>
+                  </note>
+                  <note resp="#hjb">Published late 1821 with a date of 1822. Read by <persName ref="#MRM">Mitford</persName> as mentioned in her Journal on<date when="1821-12-30">December 30, 1821</date>. Part of the Waverly series of novels, first published
+                     anonymously as by the <q>author of <title ref="#Waverley">Waverley</title></q> until Scott disclosed his authorship in 1827.</note>
+               </bibl>
+               <bibl xml:id="Travels_Belzoni"> 
+                  <title>Narrative of the Operations and Recent Discoveries within the Pyramids, Temples, Tombs, and Excavations, in Egypt and Nucia</title>
+                  <author ref="#Belzoni_Gio">Giovanni Battista Belzoni</author>
+                  <pubPlace>
+                     <placeName>London</placeName>
+                  </pubPlace>
+                  <publisher>
+                     <orgName>John Murray</orgName>
+                  </publisher>
+                  <date when="1821">1821</date>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions reading this in her Journal on <date when="1821-09-29">September 29, 1821</date>.</note>
+               </bibl>
+               <bibl xml:id="Wanderer"> 
+                  <title>The Wanderer, a Poem</title>
+                  <author ref="#Macfarlane_Chas">Charles MacFarlane</author>
+                  <pubPlace>
+                     <placeName>London</placeName>
+                  </pubPlace>
+                  <date when="1820">1820</date>
+                  
+                  <note resp="#hjb #ebb"><persName ref="#MRM">Mitford</persName> mentions in her Journal that MacFarlane sent her his poem in her on <date when="1820-08-25">August 25 1820</date>. The Jackson Bibliography of Romantic Poetry notes that MacFarlane claims to have published this poem in 1820, but 
+                     no published copy has been found.</note>
+                  <note resp="#hjb">
+                     <ref target="https://jacksonbibliography.library.utoronto.ca/book/details/the-wanderer-a-poem/24069"/>
+                     <ref target="https://jacksonbibliography.library.utoronto.ca/author/details/macfarlane-charles/9169"/>
+                     <ref target="https://lordbyron.org/monograph.php?doc=ChMacfa.1917&amp;select=Ch28.2"/>
+                  </note>
+               </bibl>
+               
                
                
                <!-- 2024-09-02 ebb: END NEW ENTRIES FOR THIS LISTBIBL -->
@@ -35996,8 +36297,8 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                   <date from="1801" to="1823"/>
                   <note resp="#lmw">The Rivingtons published a comprehensive edition of Burke's
                      works and correspondence, including his unpublished manuscripts, between 1801
-                     and 1823, based, in part, on an earlier 3-volume edition by Dodsley. Mitford
-                     calls Burke a <quote>sad turncoat</quote>. Source: Journal.</note>
+                     and 1823, based, in part, on an earlier 3-volume edition by Dodsley. <persName ref="#MRM">Mitford</persName>
+                     calls Burke a <quote>sad turncoat</quote> in her Journal entry on <date when="1819-01-15">15 January 1819</date>.</note>
                </bibl>
                <bibl xml:id="BustFox_1810">
                   <title level="a">On a Bust of Fox.</title>
@@ -39578,7 +39879,7 @@ Life of William Harness (1870s):  mentions Fitzharris as MRM protege and failure
                      <title level="m">Lamia, Isabella, The Eve of St. Agnes, and Other Poems</title>,
                      published in <date when="1820-07">July 1820</date>, was the last volume of
                      Keats’ poems to appear in print during his lifetime. Keats died from
-                     tuberculosis a little over half a year later, in February 1821.</note>
+                     tuberculosis a little over half a year later, in February 1821. <persName ref="#MRM">Mitford</persName> mentions Keats’s poems, almost certainly this edition, in her Journal on <date when="1820-09-30">September 30, 1820</date>.</note>
                </bibl>
                <bibl xml:id="Life_Burke_RB">
                   <title level="m">The Life of Burke</title>
@@ -43955,7 +44256,9 @@ Publisher:	London : Printed for Edward Orme, 1806. --></note>
                   <date when="1819">1819</date>
                   <note resp="#lmw">4 volumes. <title level="m">The Bride of Lammermoor</title> made
                      up volumes one and two and <title level="m">Legend of Montrose</title>, volumes
-                     three and four.</note>
+                     three and four. <persName ref="#MRM">Mitford</persName> mentions <title>Old Mortality</title>, <q>Black Dwarf,</q>
+                     and <title>Heart of Midlothian</title>, both in Volume 1 of the collected
+                     series, in her Journal in <date from="1820" to="1821">1820 and 1821</date>.</note>
                </bibl>
                <bibl xml:id="TalesofWHS">
                   <title level="m">Tales of Wonder, of Humour, and of Sentiment; Original and
@@ -45315,6 +45618,8 @@ Vicissitudes of life : exemplified in the interesting memoirs of a young lady, i
                   <publisher ref="#Constable_pub">Archibald Constable</publisher>
                   <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
                   <date>1814</date>
+                  <note resp="#hjb"><persName ref="#MRM">Mitford</persName> mentions reading <title level="m">Waverley</title> in her Journal 
+                     in <date from="1819" to="1820">1819 and 1820</date>.</note>
                </bibl>
                <bibl xml:id="WaytoKeepHim">
                   <title level="m">The Way to Keep Him. A Comedy in Five Acts</title>
